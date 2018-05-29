@@ -1,1 +1,8 @@
-theme: jekyll-theme-architect
+title: Dokumentacja
+description: Dokumentacja qcadoo MES
+github:
+  repository_url: https://qcadoo.github.io/
+defaults:
+  -
+    values:
+      layout: "default"
