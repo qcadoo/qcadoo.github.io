@@ -1,0 +1,60 @@
+entries:
+- title: Nawigacja
+  folders:
+
+  - title: Wprowadzenie
+    output: web, pdf
+    folderitems:
+
+    - title: Wprowadzenie
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+  - title: Szybki start
+    output: web, pdf
+    folderitems:
+      - title: Szybki start
+        output: web, pdf
+        url: /introduction.html
+      - title: Krok 1 - Produkty
+        output: web, pdf
+        url: /krok-1-produkty-1.html
+      - title: Krok 2 - Magazyny
+        output: web, pdf
+        url: /krok-2---magazyny.html
+      - title: Krok 3 - Struktura zakładu
+        output: web, pdf
+        url: /krok-2-maszyny.html
+      - title: Krok 4 - Operacje
+        output: web, pdf
+        url: /krok-3-operacje.html
+      - title: Krok 5 - Technologie
+        output: web, pdf
+        url: /krok-4-technologie.html
+      - title: Krok 6 - Kalkulacja kosztów
+        output: web, pdf
+        url: /krok-5-kalkulacja-kosztow.html
+      - title: Krok 7 - Zlecenia produkcyjne
+        output: web, pdf
+        url: /krok-6-zlecenia-produkcyjne.html
+      - title: Krok 8 - Zapotrzebowanie materiałowe
+        output: web, pdf
+        url: /krok-7-zapotrzebowanie-materialowe.html
+      - title: Krok 9 - Karty pracy
+        output: web, pdf
+        url: /krok-8-karty-pracy.html
+      - title: Krok 10 - Rejestracja produkcji
+        output: web, pdf
+        url: /krok-10-rejestracja-produkcji.html
+      - title: Krok 11 - Rozliczenie produkcji
+        output: web, pdf
+        url: /krok-11---rozliczenie-produkcji.html
+
+  - title: Porady i triki
+    output: web, pdf
+    folderitems:
+
+  - title: Funkcjonalności
+    output: web, pdf
+    folderitems:

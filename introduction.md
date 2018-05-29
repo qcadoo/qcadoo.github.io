@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
  Qcadoo MES to łatwy i przyjazny system do zarządzania produkcją w&nbsp;Małych i&nbsp;Średnich Firmach.&nbsp; 
   
@@ -31,4 +30,4 @@ Zachęcamy do poznania pełnej funkcjonalności systemu, dlatego ten tutorial ba
 
 Zaczynamy?
   
-**Krok 1/11: [Wprowadź surowce, półprodukty i produkty](/introduction/krok-1-produkty-1)**
+**Krok 1/11: [Wprowadź surowce, półprodukty i produkty](/krok-1-produkty-1)**
