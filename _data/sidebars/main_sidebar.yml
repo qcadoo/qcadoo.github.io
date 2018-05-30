@@ -1,0 +1,212 @@
+entries:
+- title: sidebar
+  product: Nawigacja
+  folders:
+
+  - title: Wprowadzenie
+    output: web
+    folderitems:
+
+    - title: Wprowadzenie
+      url: /index.html
+      output: web
+      type: homepage
+
+  - title: Szybki start
+    output: web
+    folderitems:
+
+      - title: Szybki start
+        output: web
+        url: /introduction.html
+
+      - title: Krok 1 - Produkty
+        output: web
+        url: /krok-1-produkty-1.html
+
+      - title: Krok 2 - Magazyny
+        output: web
+        url: /krok-2---magazyny.html
+
+      - title: Krok 3 - Struktura zakładu
+        output: web
+        url: /krok-2-maszyny.html
+
+      - title: Krok 4 - Operacje
+        output: web
+        url: /krok-3-operacje.html
+
+      - title: Krok 5 - Technologie
+        output: web
+        url: /krok-4-technologie.html
+
+      - title: Krok 6 - Kalkulacja kosztów
+        output: web
+        url: /krok-5-kalkulacja-kosztow.html
+
+      - title: Krok 7 - Zlecenia produkcyjne
+        output: web
+        url: /krok-6-zlecenia-produkcyjne.html
+
+      - title: Krok 8 - Zapotrzebowanie materiałowe
+        output: web
+        url: /krok-7-zapotrzebowanie-materialowe.html
+
+      - title: Krok 9 - Karty pracy
+        output: web
+        url: /krok-8-karty-pracy.html
+
+      - title: Krok 10 - Rejestracja produkcji
+        output: web
+        url: /krok-10-rejestracja-produkcji.html
+
+      - title: Krok 11 - Rozliczenie produkcji
+        output: web
+        url: /krok-11---rozliczenie-produkcji.html
+
+  - title: Porady i triki
+    output: web
+    folderitems:
+
+      - title: Porady i triki
+        output: web
+        url: /porady-i-triki.html
+      - title: Autouzupełnianie
+        output: web
+        url: /autouzupelnianie.html
+      - title: Inteligentny filtr
+        output: web
+        url: /inteligentny-filtr.html
+      - title: Łatwe uzupełnianie danych
+        output: web
+        url: /latwe-uzupelnianie.html
+
+  - title: Funkcjonalności
+    output: web
+    folderitems:
+
+    - title: Funkcjonalności
+      output: web
+      url: /funkcjonalnosci.html
+
+  - title: Podstawowe
+    output: web
+    folderitems:
+
+    - title: Podstawowe
+      output: web
+      url: /dane-podstawowe.html
+
+    - title: Firmy
+      output: web
+      url: /firmy.html
+
+    - title: Pracownicy
+      output: web
+      url: /pracownicy.html
+
+    - title: Zmiany
+      output: web
+      url: /zmiany.html
+
+    - title: Produkty
+      output: web
+      url: /produkty.html
+
+    - title: Rodziny produktów
+      output: web
+      url: /rodziny-produktow.html
+
+    - title: Typy stacji roboczych
+      output: web
+      url: /typy-stacji-roboczych.html
+
+    - title: Stacje robocze
+      output: web
+      url: /stacje-robocze.html
+
+    - title: Działy
+      output: web
+      url: /dzialy.html
+
+    - title: Słowniki
+      output: web
+      url: /slowniki.html
+
+    - title: Przeliczniki
+      output: web
+      url: /przeliczniki.html
+
+    - title: Grupy płacowe
+      output: web
+      url: /grupy-placowe.html
+
+    - title: Płace
+      output: web
+      url: /place.html
+
+    - title: Numery katalogowe
+      output: web
+      url: /numery-katalogowe.html
+
+  - title: Technologie
+    output: web
+    folderitems:
+
+    - title: Technologie
+      output: web
+      url: /technologie.html
+
+      subfolders:
+      - title: Operacje
+        output: web
+        subfolderitems:
+
+        - title: Operacje
+          output: web
+          url: /operacje.html
+
+        - title: Normy czasowe
+          output: web
+          url: /normy-czasowe.html
+
+        - title: Normy kosztowe
+          output: web
+          url: /normy-kosztowe.html
+
+    - title: Grupy operacji
+      output: web
+      url: /grupy-operacji.html
+
+      subfolders:
+      - title: Technologie
+        output: web
+        subfolderitems:
+
+        - title: Technologie
+          output: web
+          url: /technologie-szczegoly.html
+
+        - title: Stany technologii
+          output: web
+          url: /statusy-technologii.html
+
+    - title: Grupy technologii
+      output: web
+      url: /grupy-technologii.html
+
+    - title: Linie produkcyjne
+      output: web
+      url: /linie-produkcyjne.html
+
+    - title: Normy przezbrojeń
+      output: web
+      url: /normy-przezbrojen.html
+
+  - title: Integracja
+    output: web
+    folderitems:
+
+    - title: Integracja
+      output: web
+      url: /integracja.html
