@@ -203,6 +203,233 @@ entries:
       output: web
       url: /normy-przezbrojen.html
 
+  - title: Zaopatrzenie
+    output: web
+    folderitems:
+
+    - title: Zaopatrzenie
+      output: web
+      url: /Zaopatrzenie.html
+
+    - title: Dostawy
+      output: web
+      url: /dostawy.html
+
+    - title: Pozycje dostaw
+      output: web
+      url: /pozycje-dostaw.html
+
+    - title: Zapotrzebowanie materiałowe
+      output: web
+      url: /zapotrzebowanie-materialowe.html
+
+    - title: Bilans materiałowy
+      output: web
+      url: /prosty-bilans-materialowy.html
+
+    - title: Pokrycie zapotrzebowania
+      output: web
+      url: /pokrycie-zapotrzebowania.html
+
+    - title: Negocjacje dostaw
+      output: web
+      url: /negocjacje.html
+
+    - title: Pozycje ofert
+      output: web
+      url: /pozycje-ofert.html
+
+    - title: Oferty dostaw
+      output: web
+      url: /oferty-dostaw.html
+
+    - title: Zapytania ofertowe
+      output: web
+      url: /zapytania-ofertowe.html
+
+  - title: Kalkulacje
+    output: web
+    folderitems:
+
+    - title: Kalkulacje
+      output: web
+      url: /kalkulacje.html
+
+    - title: Dobieranie przezbrojenia
+      output: web
+      url: /dobieranie-przezbrojenia.html
+
+    - title: Czasochłonność technologii
+      output: web
+      url: /czasochlonnosc-zlecenia.html
+
+    - title: Koszty zlecenia
+      output: web
+      url: /koszty-zlecenia.html
+
+  - title: Planowanie
+    output: web
+    folderitems:
+
+    - title: Planowanie
+      output: web
+      url: /planowanie.html
+
+    - title: Planowanie operacyjne
+      output: web
+      url: /planowanie-operacyjne.html
+
+      subfolders:
+      - title: Zlecenia produkcyjne
+        output: web
+        subfolderitems:
+
+        - title: Zlecenia produkcyjne
+          output: web
+          url: /zlecenia-produkcyjne.html
+
+        - title: Typy zleceń
+          output: web
+          url: /typy-zlecen.html
+
+        - title: Zmiana stanu zapotrzebowania po rozpoczęciu zlecenia
+          output: web
+          url: /zmiana-stanu-zapotrzebowania.html
+
+        - title: Parametry dla zlecenia
+          output: web
+          url: /parametry-dla-zlecenia.html
+
+        - title: Ceny materiałów dla zlecenia
+          output: web
+          url: /ceny-materialow-dla-zlecenia.html
+
+    - title: Przydział do zmian
+      output: web
+      url: /przydzial-do-zmian.html
+
+    - title: Wydruk przydziału do zmian
+      output: web
+      url: /wydruk-przydzialu-do-zmian.html
+
+      subfolders:
+      - title: Planowanie zleceń
+        output: web
+        subfolderitems:
+
+        - title: Planowanie zleceń
+          output: web
+          url: /planowanie-zlecen.html
+
+        - title: Kalendarz zleceń
+          output: web
+          url: /kalendarz-zlecen.html
+
+        - title: Stany i statusy zleceń
+          output: web
+          url: /stany-i-statusy-zlecen.html
+
+    - title: Zlecenia nadrzędne
+      output: web
+      url: /zlecenia-nadrzedne.html
+
+    - title: Karty pracy
+      output: web
+      url: /karty-pracy.html
+
+  - title: Rejestracja
+    output: web
+    folderitems:
+
+    - title: Rejestracja
+      output: web
+      url: /rejestracja.html
+
+    - title: Przestoje
+      output: web
+      url: /przestoje.html
+
+      subfolders:
+      - title: Rejestracja produkcji
+        output: web
+        subfolderitems:
+
+        - title: Rejestracja produkcji
+          output: web
+          url: /rejestracja-produkcji.html
+
+        - title: Podstawowe rejestrowanie produkcji
+          output: web
+          url: /podstawowe-rejestrowanie-produkcji.html
+
+        - title: Zbiorcze rejestrowanie produkcji
+          output: web
+          url: /zbiorcze-rejestrowanie-produkcji.html
+
+        - title: Rejestracja każdej operacji
+          output: web
+          url: /rejestracja-kazdej-operacji.html
+
+    - title: Rozliczenie produkcji
+      output: web
+      url: /rozliczenie-produkcji.html
+
+    - title: Wydruki rekordów produkcji
+      output: web
+      url: /meldunki-zwrotne.html
+
+  - title: Genealogia
+    output: web
+    folderitems:
+
+    - title: Genealogia
+      output: web
+      url: /genealogia.html
+
+    - title: Partie
+      output: web
+      url: /jak-dodac-numery-partii.html
+
+    - title: Proste śledzenie partii
+      output: web
+      url: /sledzenie-partii-produktow.html
+
+    - title: Tabele genealogii
+      output: web
+      url: /tabele-genealogii.html
+
+    - title: Drzewo genealogii
+      output: web
+      url: /drzewo-genealogii.html
+
+    - title: Śledzenie partii dla zleceń
+      output: web
+      url: /sledzenie-partii-dla-zlecen.html
+
+  - title: Jakość
+    output: web
+    folderitems:
+
+    - title: Jakość
+      output: web
+      url: /kontrola-jakosci.html
+
+    - title: Raport kontroli jakości
+      output: web
+      url: /raport-kontroli-jakosci.html
+
+    - title: Kontrola dla zlecenia
+      output: web
+      url: /kontrola-dla-zlecen.html
+
+    - title: Kontrola dla ilości
+      output: web
+      url: /kontrola-dla-ilosci.html
+
+    - title: Kontrola dla operacji
+      output: web
+      url: /kontrola-dla-operacji.html
+
   - title: Integracja
     output: web
     folderitems:
