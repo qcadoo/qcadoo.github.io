@@ -8,7 +8,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-database fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
@@ -23,7 +23,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
@@ -38,7 +38,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-car fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
@@ -53,7 +53,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-calculator fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
@@ -70,7 +70,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
@@ -85,7 +85,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-tasks fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
@@ -100,7 +100,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-history fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
@@ -115,7 +115,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
              <div class="panel panel-default text-center">
                  <div class="panel-heading">
                      <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-balance-scale fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
