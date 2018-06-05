@@ -11,7 +11,7 @@ Dowiesz się, m.in. jak:
 - [<font color="#0000ff">Założyć zlecenie produkcyjne</font>](/zlecenia-produkcyjne)
 - [<font color="#0000ff">Stworzyć karty pracy</font>](/karty-pracy)
 - [<font color="#0000ff">Policzyć koszty produkcji</font>](/koszty-zlecenia)
-- [<font color="#0000ff">Śledzić postępy produkcji</font>](/rejestracja-produkcji)
+- [<font color="#0000ff">Śledzić postępy produkcji</font>](/rejestracja)
 - [<font color="#0000ff">Prowadzić genealogię i odszukiwać numery partii</font>](/genealogia)
 - [<font color="#0000ff">Wygenerować zapotrzebowanie materiałowe</font>](/zapotrzebowanie-materialowe)
 

@@ -34,7 +34,7 @@ Aby z niego skorzystać, wybieramy:
   
  Dodatkowo pojawią się obliczone przez program czasy rozpoczęcia i zakończenia każdej operacji oraz czas pracy pracowników i czas pracy maszyn dla każdej z tych operacji.&nbsp;  
   
-Wyliczenia te powstają na podstawie czasów operacji ([<font color="#0000ff">Operacje</font>](/operacje)) wchodzących w skład tej technologii ([<font color="#0000ff">Technologie</font>](/technologie)) oraz danych o godzinach i terminach pracy zakładu produkcyjnego ([<font color="#0000ff">Zmiany</font>](/zmiany)).
+Wyliczenia te powstają na podstawie czasów operacji ([<font color="#0000ff">Operacje</font>](/operacje)) wchodzących w skład tej technologii ([<font color="#0000ff">Technologie</font>](/technologie-szczegoly)) oraz danych o godzinach i terminach pracy zakładu produkcyjnego ([<font color="#0000ff">Zmiany</font>](/zmiany)).
 
   
 

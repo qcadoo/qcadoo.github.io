@@ -15,7 +15,7 @@ permalink: meldunki-zwrotne.html
 
 <font color="#073763"><b>REJESTRACJA &gt;&gt; Wydruki rekordów produkcji &gt;&gt; </b><b>
         <div style="display:inline!important">
-<img border="0" src="https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/Zaopatrzenie/meldunki-zwrotne/newIcon24.png" style="vertical-align:-6px"> </div>
+<img border="0" src="/images/newIcon24.png" style="vertical-align:-6px"> </div>
     </b><b>Dodaj nowy</b></font>
 
   

@@ -13,7 +13,7 @@ Linię produkcyjną tworzymy wybierając z menu głównego:
 
 <font color="#073763">
                     <b>
-                        TECHNOLOGIE &gt;&gt; Linie produkcyjne &gt;&gt; </b></font> ![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/_/rsrc/1400062960936/funkcjonalnosci/technologie/linie-produkcyjne/newIcon24.png)<font color="#073763"> <b>Dodaj nowy
+                        TECHNOLOGIE &gt;&gt; Linie produkcyjne &gt;&gt; </b></font> ![](/images/newIcon24.png)<font color="#073763"> <b>Dodaj nowy
             </b>
             </font>
 

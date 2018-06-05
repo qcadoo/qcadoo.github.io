@@ -8,13 +8,13 @@ permalink: technologie.html
 Dlatego zadbaliśmy o to, by w qcadoo zarządzanie technologią było proste, a co ważne - dokładne.
 </span></font>
 
-Funkcjonalność "Technologie" pozwala w prosty i dokładny sposób zarządzać technologią. Służy do tego [<font color="#0000ff">drzewo technologii</font>](/technologie), które, w sposób przejrzysty i dokładny, modeluje w jaki sposób, za sprawą następujących po sobie operacji wykonywanych na hali produkcyjnej, z surowców/półproduktów powstają wyroby gotowe.
+Funkcjonalność "Technologie" pozwala w prosty i dokładny sposób zarządzać technologią. Służy do tego [<font color="#0000ff">drzewo technologii</font>](/technologie-szczegoly), które, w sposób przejrzysty i dokładny, modeluje w jaki sposób, za sprawą następujących po sobie operacji wykonywanych na hali produkcyjnej, z surowców/półproduktów powstają wyroby gotowe.
 
   
 
 Dzięki działowi "Technologie" możemy zarządzać:
 
 - [<font color="#0000ff">Operacjami</font>](/operacje) - wprowadzać ich definicje, normy czasowe i kosztowe
-- [<font color="#0000ff">Technologiami</font>](/technologie) - definiować strukturę drzewa określającą jak powstają gotowe produkty
+- [<font color="#0000ff">Technologiami</font>](/technologie-szczegoly) - definiować strukturę drzewa określającą jak powstają gotowe produkty
 - [<font color="#0000ff">Liniami produkcyjnymi</font>](/linie-produkcyjne) - określać parametry maszyn dostępne na liniach produkcyjnych
 

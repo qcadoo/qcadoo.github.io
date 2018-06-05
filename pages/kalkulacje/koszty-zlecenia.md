@@ -8,7 +8,7 @@ permalink: koszty-zlecenia.html
 
 <font color="#444444">Na te kwoty składają się:</font>
 
-- <font color="#444444"><b>Techniczny koszt wytworzenia</b> - koszty czasów pracy maszyn i pracowników, koszty surowców i półproduktów. Dane te są wyliczane na podstawie <a href="/technologie">Drzewa technologii</a>. Do obliczeń mogą być wykorzystywane dwa rodzaje kosztów zatrudnienia pracownika: godzinowy i akordowy, natomiast w przypadku kosztów materiałowych uwzględnić można cenę nominalną, ostatniego zakupu bądź średnią ważoną. Warunkiem tego jest jednak zintegrowanie qcadoo z systemem magazynowo-księgowym. Więcej o <a href="/integracja">Integracji</a><br>
+- <font color="#444444"><b>Techniczny koszt wytworzenia</b> - koszty czasów pracy maszyn i pracowników, koszty surowców i półproduktów. Dane te są wyliczane na podstawie <a href="/technologie-szczegoly">Drzewa technologii</a>. Do obliczeń mogą być wykorzystywane dwa rodzaje kosztów zatrudnienia pracownika: godzinowy i akordowy, natomiast w przypadku kosztów materiałowych uwzględnić można cenę nominalną, ostatniego zakupu bądź średnią ważoną. Warunkiem tego jest jednak zintegrowanie qcadoo z systemem magazynowo-księgowym. Więcej o <a href="/integracja">Integracji</a><br>
             <br>
         </font>
 - <font color="#444444"><b>Narzuty </b>- marże kosztów operacji, kosztów materiałowych (przykładowo: koszty te mogą być doliczane za wykonanie tego zlecenia poza godzinami pracy zakładu) oraz inne koszty, czyli kwota, którą chcielibyśmy uwzględnić w tej kalkulacji (przykładowo: należność za dowóz zamówienia pod wskazany przez klienta adres).</font>
@@ -49,6 +49,6 @@ Jak wykonać kalkulację kosztów zlecenia?
   
 
 <u style="font-weight:bold">WSKAZÓWKA</u>:
-&nbsp;Kalkulacje mogą być wykonywane z poziomu innych zakładek w systemie:&nbsp;[Technologii](/technologie) oraz <font style="font-size:10pt;background-color:transparent"><a href="/zlecenia-produkcyjne" style="color:rgb(0,0,255);font-size:10pt;background-color:transparent">Zleceń produkcyjnych</a><font color="#444444">.</font></font>
+&nbsp;Kalkulacje mogą być wykonywane z poziomu innych zakładek w systemie:&nbsp;[Technologii](/technologie-szczegoly) oraz <font style="font-size:10pt;background-color:transparent"><a href="/zlecenia-produkcyjne" style="color:rgb(0,0,255);font-size:10pt;background-color:transparent">Zleceń produkcyjnych</a><font color="#444444">.</font></font>
  &nbsp;
 

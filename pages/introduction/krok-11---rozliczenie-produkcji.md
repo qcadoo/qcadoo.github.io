@@ -55,7 +55,7 @@ Po uzupełnieniu danych w zakładkach "Główna" oraz "Dane dla kosztów"&nbsp; 
 **<u>Sprawdź:</u>**
 
 - [Kalendarz Twoich zleceń](/kalendarz-zlecen)
-- [Jak śledzić postępy produkcji?](/rejestracja-produkcji)
+- [Jak śledzić postępy produkcji?](/rejestracja)
 - [Jak rejestrować i śledzić genealogię?](/genealogia)
 - [Jak przeprowadzić kontrolę jakości?](/kontrola-jakosci)
 

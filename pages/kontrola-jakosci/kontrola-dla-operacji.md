@@ -25,7 +25,7 @@ Ten typ Kontroli Jakości pozwoli skontrolować produkty po każdej wykonanej op
 
   
 
-Raport z kontroli jakości jest przechowywany w systemie, jak również możliwe jest pobranie pliku z raportem z głównego widoku tego typu Kontroli Jakości oraz w " **Raportach kontroli jakości".&nbsp;&nbsp;** Raporty dostępne są w formie dokumentu w formacie&nbsp; ![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/_/rsrc/1402307658826/funkcjonalnosci/kontrola-jakosci/kontrola-dla-zlecen/PDF.png)&nbsp; **PDF** &nbsp;lub ![](/images/exportToCsvIcon24.png)&nbsp; **CSV**.
+Raport z kontroli jakości jest przechowywany w systemie, jak również możliwe jest pobranie pliku z raportem z głównego widoku tego typu Kontroli Jakości oraz w " **Raportach kontroli jakości".&nbsp;&nbsp;** Raporty dostępne są w formie dokumentu w formacie&nbsp; ![](/images/PDF.png)&nbsp; **PDF** &nbsp;lub ![](/images/exportToCsvIcon24.png)&nbsp; **CSV**.
 
   
 

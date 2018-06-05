@@ -27,7 +27,7 @@ Dodatkowo możemy dodać "Instrukcję" przeprowadzenia kontroli oraz "Komentarze
 
   
 
-Raport z kontroli jakości jest przechowywany w systemie, jak również możliwe jest pobranie pliku z raportem z głównego widoku tego typu kontroli jakości oraz w **"Raportach kontroli jakości".&nbsp;** Raporty dostępne są w formie dokumentu w formacie&nbsp; ![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/_/rsrc/1402307658826/funkcjonalnosci/kontrola-jakosci/kontrola-dla-zlecen/PDF.png)&nbsp; **PDF** &nbsp;lub&nbsp; ![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/kontrola-jakosci/kontrola-dla-operacji/exportToCsvIcon24.png)&nbsp; **CSV.**
+Raport z kontroli jakości jest przechowywany w systemie, jak również możliwe jest pobranie pliku z raportem z głównego widoku tego typu kontroli jakości oraz w **"Raportach kontroli jakości".&nbsp;** Raporty dostępne są w formie dokumentu w formacie&nbsp; ![](/images/PDF.png)&nbsp; **PDF** &nbsp;lub&nbsp; ![](/images/exportToCsvIcon24.png)&nbsp; **CSV.**
 
   
 

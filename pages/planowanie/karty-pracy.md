@@ -1,3 +1,6 @@
+--- 
+permalink: karty-pracy.html 
+---
 Na pewno wiele razy zdarzyło się, że jakieś zlecenie ma opóźnienie, ponieważ zapomniano przekazać je w porę na halę produkcyjną. Albo któryś z pracowników np. z powodu dużych ilości zadań zapomniał wykonać zlecenie. Może jest też tak, że zlecenia rozpisywane są w pośpiechu na kartce, nie zawsze czytelnej?
 
   
@@ -40,7 +43,8 @@ Możemy natomiast podzielić dane na kartach pracy według następujących kateg
 * * *
   
 
- ![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/karty%20pracy-%20strza%C5%82ki.png)
+ ![](/images/karty%20pracy-%20strza%C5%82ki.png)
+
 Najpierw należy wybrać te elementy, które znaleźć się mają w kartach pracy.
 
   
@@ -59,23 +63,23 @@ Widok ustawień jest dla każdego z tych miejsc podobny:
   
 3. Dodajemy załącznik. obraz, który będzie przypisany operacji
 
-<u><b>UWAGA: </b></u>W przypadku dodania obrazu w "Administracji" obraz ten pojawiał się będzie pod każdą operacją  
+    <u><b>UWAGA: </b></u>W przypadku dodania obrazu w "Administracji" obraz ten pojawiał się będzie pod każdą operacją  
 
-4. Następnie**&nbsp; ![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/saveIcon24.png)&nbsp;Zapisujemy**&nbsp;i możemy przejść do drugiej karty.
+4. Następnie**&nbsp; ![](/images/saveIcon24.png)&nbsp;Zapisujemy**&nbsp;i możemy przejść do drugiej karty.
 * * *
 
-[![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/karty%20pracy-%20produkty%20wej.%20wyj.-%20strza%C5%82ki.png)](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/karty%20pracy-%20produkty%20wej.%20wyj.-%20strza%C5%82ki.png)
+[![](/images/karty%20pracy-%20produkty%20wej.%20wyj.-%20strza%C5%82ki.png)](/images/karty%20pracy-%20produkty%20wej.%20wyj.-%20strza%C5%82ki.png)
   
 
 1. W kolejnej karcie definiujemy jakie dane wejściowe i wyjściowe dotyczące operacji mają znaleźć się na karcie pracy.  
   
 2. Decydujemy o tym czy produkty wejściowe i/lub wyjściowe w ogóle pojawią się na kartach.  
   
-3. Jeśli tak, to&nbsp; ![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/newIcon16.png)&nbsp; **Dodajemy** &nbsp;jakie konkretnie informacje będą potrzebne (obecnie do wyboru są: Numer i Nazwa produktu, Planowana ilość, Planowana data zakończenia&nbsp;[<font color="#0000ff">Numer partii</font>](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/genealogia/jak-dodac-numery-partii)).  
+3. Jeśli tak, to&nbsp; ![](/images/newIcon16.png)&nbsp; **Dodajemy** &nbsp;jakie konkretnie informacje będą potrzebne (obecnie do wyboru są: Numer i Nazwa produktu, Planowana ilość, Planowana data zakończenia&nbsp;[<font color="#0000ff">Numer partii</font>](/jak-dodac-numery-partii)).  
   
 4. Podobnie w z produktami wyjściowymi.  
   
-5. <font face="arial, sans-serif" style="font-size:10pt;line-height:1.6;background-color:transparent">Na koniec </font> **![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/saveIcon24.png)&nbsp;Zapisujemy&nbsp;**<font face="arial, sans-serif" style="font-size:10pt;line-height:1.6;background-color:transparent">wprowadzone ustawienia.</font>
+5. <font face="arial, sans-serif" style="font-size:10pt;line-height:1.6;background-color:transparent">Na koniec </font> **![](/images/saveIcon24.png)&nbsp;Zapisujemy&nbsp;**<font face="arial, sans-serif" style="font-size:10pt;line-height:1.6;background-color:transparent">wprowadzone ustawienia.</font>
 
 <font face="arial, sans-serif"><br>
     </font>
@@ -90,13 +94,13 @@ Widok ustawień jest dla każdego z tych miejsc podobny:
         <br>
     </font>**
 
- ![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/karty%20pracy%20+%20strza%C5%82ki.png)
+ ![](/images/karty%20pracy%20+%20strza%C5%82ki.png)
 
 Można to zrobić z dwóch poziomów:
 
-- z poziomu **"Zleceń produkcyjnych"** - wybierając jedno, lub wiele zleceń i klikamy przycisk w menu&nbsp; ![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/pdfIcon24.png)&nbsp; **Dodaj dla wybranych**  
+- z poziomu **"Zleceń produkcyjnych"** - wybierając jedno, lub wiele zleceń i klikamy przycisk w menu&nbsp; ![](/images/pdfIcon24.png)&nbsp; **Dodaj dla wybranych**  
 - z poziomu: **Zleceń produkcyjnych** <font color="#073763"><b> &gt;&gt; Karty pracy &gt;&gt;</b></font>
- ![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/newIcon24.png)&nbsp; **Dodaj nowy.**
+ ![](/images/newIcon24.png)&nbsp; **Dodaj nowy.**
 
 W obu przypadkach pojawi się pole, gdzie:
 
@@ -104,15 +108,15 @@ W obu przypadkach pojawi się pole, gdzie:
   
 2. Wybieramy sposób kategoryzowania w nich danych.  
   
-3. Po&nbsp; **![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/saveIcon24.png)**&nbsp;Z **apisaniu** uaktywni się pole po prawej.  
+3. Po&nbsp; **![](/images/saveIcon24.png)**&nbsp; **Zapisaniu** uaktywni się pole po prawej.  
   
 4. 
- ![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/newIcon16.png)&nbsp; **Dodajemy** zlecenia produkcyjne (w przypadku generowania kart pracy z poziomu "Zleceń produkcyjnych" dodadzą się one automatycznie).  
+ ![](/images/newIcon16.png)&nbsp; **Dodajemy** zlecenia produkcyjne (w przypadku generowania kart pracy z poziomu "Zleceń produkcyjnych" dodadzą się one automatycznie).  
   
 
 5. Możemy zdecydować jakie dane pojawią się na wydrukach.  
   
-6. Wybieramy&nbsp; ![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/generateIcon24.png)&nbsp; **Generuj** i możemy pobrać **(**![](https://sites.google.com/a/qcadoo.com/qcadoo-mes-documentation/funkcjonalnosci/karty-pracy/pdfIcon24.png)**&nbsp;PDF)**&nbsp;gotowe karty pracy. 
+6. Wybieramy&nbsp; ![](/images/generateIcon24.png)&nbsp; **Generuj** i możemy pobrać **(**![](/images/pdfIcon24.png)**&nbsp;PDF)**&nbsp;gotowe karty pracy. 
 
   
 

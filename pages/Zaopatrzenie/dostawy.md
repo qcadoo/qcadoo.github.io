@@ -12,7 +12,7 @@ permalink: dostawy.html
 
 Aby dodać nową dostawę musimy wejść w:
 
-**ZAOPATRZENIE \>\> Dostawy\>\>&nbsp;**![](http://dokumentacja.qcadoo.com/_/rsrc/1327509283744/funkcjonalnosci/technologie/operacje/newIcon24.png)&nbsp; **Dodaj nowy &nbsp;**
+**ZAOPATRZENIE \>\> Dostawy\>\>&nbsp;**![](/images/newIcon24.png)&nbsp; **Dodaj nowy &nbsp;**
 
 1. W zakładce " **Główna**" nadajemy dostawie "Numer" (wymagane), opcjonalnie możemy uzupełnić pola "Nazwa" i&nbsp;"Opis".
 

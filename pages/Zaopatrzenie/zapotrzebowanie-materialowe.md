@@ -3,7 +3,7 @@ permalink: zapotrzebowanie-materialowe.html
 ---
 Zapotrzebowanie materiałowe to lista produktów: surowców i półproduktów potrzebnych do zrealizowania danego zlecenia produkcyjnego lub wielu zleceń produkcyjnych. To tak, jakbyśmy urządzali przyjęcie w domu dla naszych przyjaciół. Tworzymy wtedy jedną zbiorczą listę zakupów, zawierając w niej wszystkie produkty potrzebne do przygotowania kilku potraw.
 
-Zapotrzebowanie materiałowe wyliczane jest na podstawie [<font color="#0000ff">drzewa technologii</font>](/technologie) i zaplanowanej ilości produktów do wykonania, zawartej w [<font color="#0000ff">zleceniu produkcyjnym</font>](/zlecenia-produkcyjne).
+Zapotrzebowanie materiałowe wyliczane jest na podstawie [<font color="#0000ff">drzewa technologii</font>](/technologie-szczegoly) i zaplanowanej ilości produktów do wykonania, zawartej w [<font color="#0000ff">zleceniu produkcyjnym</font>](/zlecenia-produkcyjne).
 
 <u style="font-weight:bold">
                     PRZYKŁADOWO:</u> &nbsp;Jeśli nasza technologia zakłada, że do wyprodukowania jednej sztuki stołu będziemy potrzebować 5 desek, to mając zlecenie produkcyjne na 10 stołów, zapotrzebowanie materiałowe wskaże, że potrzebujemy 50 desek. 
