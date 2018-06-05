@@ -1,6 +1,7 @@
 {% assign sidebar = site.data.sidebars[page.sidebar].entries %}
 
 <ul id="mysidebar" class="nav">
+  <p style="background-color: #72ac4a"><img src="{{ "images/customLogo.png" }}" alt="Company logo"/></p>
   <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
   {% for entry in sidebar %}
   {% for folder in entry.folders %}
