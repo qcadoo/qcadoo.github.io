@@ -134,3 +134,43 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
 
 <font size="3"><b>Jeśli jeszcze nie posiadasz swojego konta w qcadoo MES, na naszej stronie internetowej <a href="http://www.qcadoo.com" target="_blank"><font color="#0000ff">www.qcadoo.com</font></a> możesz otrzymać dostęp do darmowej 15-dniowej wersji demonstracyjnej. Zachęcamy!</b></font>
 
+<h2>Najczęściej zadawane pytania:</h2>
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Jak poradzić sobie z importem technologii?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                                Jak poradzić sobie z importem technologii?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">W jaki sposób używać planowania na zmiany?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                                W jaki sposób używać planowania na zmiany?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Czy można używać równocześnie wydajności i czasów jednostkowych?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                                Czy można używać równocześnie wydajności i czasów jednostkowych?
+                            </div>
+                        </div>
+                    </div>
+</div>

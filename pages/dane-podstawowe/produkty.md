@@ -26,7 +26,7 @@ Decydując się na ręczne wprowadzanie produktów, wybieramy:
 - Jeśli w produkcji stosujemy zamienniki produktów, to w zakładce **"Substytuty"** możemy je zdefiniować.
 - Zakładka **"Przeliczenia jednostki"** umożliwia przeliczenie głównej jednostki produktu. W tym miejscu wprowadzamy informację, na jaką inną jednostkę może być przeliczona główna jednostka produktu.  
 
-[![](/images/Podstawowe-%20produkty-%20g%C5%82%C3%B3wna.png)](/images/Podstawowe-%20produkty-%20g%C5%82%C3%B3wna.png)
+![](/images/Podstawowe-%20produkty-%20g%C5%82%C3%B3wna.png)
  
  W zakładce **"Koszty"** podajemy 4 rodzaje cen zakupu danego surowca: cenę ostatniego zakupu, cenę z ostatniej oferty, ceny obliczone na podstawie średnich ważonych oraz koszt nominalny produktu.  
 
