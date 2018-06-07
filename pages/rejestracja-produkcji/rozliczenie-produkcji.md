@@ -1,4 +1,5 @@
 ---
+title: "Rozliczenie produkcji"
 permalink: rozliczenie-produkcji.html
 ---
 Rozliczanie produkcji przynosi dwie korzyści.&nbsp;

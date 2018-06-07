@@ -1,4 +1,5 @@
 ---
+title: "Przeliczniki"
 permalink: przeliczniki.html
 ---
 Przeliczniki w qcadoo to funkcja pozwalająca na wygenerowanie możliwych przeliczników dla produktów. Globalne przeliczniki pełnią rolę wyłącznie informacyjną i nie są bezpośrednio wykorzystywane w przeliczeniach.  

@@ -1,4 +1,5 @@
---- 
+---
+title: "Linie produkcyjne"
 permalink: linie-produkcyjne.html 
 ---
  Linia produkcyjna to zbiór stacji roboczych, na których wykonywane są poszczególne operacje w &nbsp;w procesie technologicznym. W qcadoo linie produkcyjne definiowane są przez nadanie im nazwy i miejsca oraz przez wyznaczenie stacji roboczych oraz ilości urządzeń wchodzących w skład linii. Dodatkowo określamy jakie technologie (bądź grupy technologii) możemy na niej obsługiwać. 

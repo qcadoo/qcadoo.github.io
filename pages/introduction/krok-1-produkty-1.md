@@ -1,4 +1,5 @@
 ---
+title: "Krok 1 - Produkty"
 permalink: krok-1-produkty-1.html
 ---
 [![](/images/podstawowe-%20produkty.png)](/images/podstawowe-%20produkty.png)

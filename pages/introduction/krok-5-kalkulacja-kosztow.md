@@ -1,4 +1,5 @@
 ---
+title: "Krok 6 - Kalkulacja kosztów"
 permalink: krok-5-kalkulacja-kosztow.html
 ---
  Teraz możesz już sprawdzić ile kosztuje wyprodukowanie Twojego wyrobu w tej technologii. 

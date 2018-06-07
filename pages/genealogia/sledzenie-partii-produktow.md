@@ -1,4 +1,5 @@
 ---
+title: "Proste śledzenie partii"
 permalink: sledzenie-partii-produktow.html
 ---
  Genealogia przechowuje nie tylko informacje o partiach produktów wytworzonych za sprawą zleceń z qcadoo. Umożliwiamy również, dla wygody w przeszukiwaniu genealogi, śledzenie partii tych wyrobów, które, przykładowo: były wytworzone jeszcze przed wdrożeniem naszego systemu. 

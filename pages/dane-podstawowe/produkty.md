@@ -1,4 +1,5 @@
 ---
+title: "Produkty"
 permalink: produkty.html
 ---
  W qcadoo w "Produktach" gromadzimy: surowce, produkty, półprodukty i odpady. 

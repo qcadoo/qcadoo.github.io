@@ -1,4 +1,5 @@
 ---
+title: "Rejestracja"
 permalink: rejestracja.html
 ---
 Dzięki funkcjonalności "Rejestracja" możemy rejestrować to co dzieje się z naszą produkcją. Tutaj możesz zarejestrować informacje dotyczące:

@@ -1,4 +1,5 @@
 ---
+title: "Czasochłonność technologii"
 permalink: czasochlonnosc-zlecenia.html
 ---
  To narzędzie pozwala już w ciągu mniej niż minuty, bez konieczności zakładania zlecenia produkcyjnego, udzielić klientowi odpowiedzi na pytanie: W jakim czasie możliwe jest zrealizowanie zlecenia? 

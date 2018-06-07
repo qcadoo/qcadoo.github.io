@@ -1,4 +1,5 @@
 ---
+title: "Krok 10 - Rejestracja produkcji"
 permalink: krok-10-rejestracja-produkcji.html
 ---
 Utworzyłeś już zlecenie produkcyjne i ropocząłeś je. Teraz możesz zacząć produkcję i rejestrację jej postępów.  

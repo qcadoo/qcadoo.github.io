@@ -1,4 +1,5 @@
 ---
+title: "Porady i triki"
 permalink: porady-i-triki.html
 ---
  W tym miejscu podpowiadamy, w jaki sposób szybciej i skuteczniej korzystać z funkcji qcadoo MES. 

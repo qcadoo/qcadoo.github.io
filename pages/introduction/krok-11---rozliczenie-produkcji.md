@@ -1,4 +1,5 @@
 ---
+title: "Krok 11 - Rozliczenie produkcji"
 permalink: krok-11---rozliczenie-produkcji.html
 ---
 Udało Ci się zarejestrować produkcję. Teraz możesz przeanalizować poniesione koszty. Qcadoo MES wyliczy je dla Ciebie i przedstawi w prosty i przejrzysty sposób. W jednym miejscu uzyskasz informacje na temat:

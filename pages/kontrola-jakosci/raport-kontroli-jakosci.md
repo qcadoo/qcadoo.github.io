@@ -1,4 +1,5 @@
 ---
+title: "Raport kontroli jakości"
 permalink: raport-kontroli-jakosci.html
 ---
  Ten raport zaprezentuje zestawienie raportów z wyników Kontroli Jakości przeprowadzonej w wybranym przez nas zakresie czasu. 

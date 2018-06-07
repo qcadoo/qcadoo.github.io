@@ -1,4 +1,5 @@
 ---
+title: "Przestoje"
 permalink: przestoje.html
 ---
 Rejestracja przestojów w qcadoo pozwala na prowadzenie statystyk dotyczących powodów powstania przestojów oraz długości czasu ich trwania.

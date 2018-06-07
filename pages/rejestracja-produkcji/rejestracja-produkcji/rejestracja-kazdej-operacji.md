@@ -1,4 +1,5 @@
 ---
+title: "Rejestracja każdej operacji"
 permalink: rejestracja-kazdej-operacji.html
 ---
 <font size="4" style="font-size:10pt;line-height:1.6">

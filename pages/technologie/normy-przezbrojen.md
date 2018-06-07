@@ -1,4 +1,5 @@
---- 
+---
+title: "Normy przezbrojeń"
 permalink: normy-przezbrojen.html 
 ---
 W tym miejscu określamy z jakiej technologii na jaką inną przezbrajamy naszą linię produkcyjną. Normy przezbrojeń możemy również określać dla całych grup technologii.&nbsp;

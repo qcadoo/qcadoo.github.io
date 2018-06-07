@@ -1,4 +1,5 @@
 ---
+title: "Zaopatrzenie"
 permalink: Zaopatrzenie.html
 ---
  W tym dziale zawarte są raporty i zestawienia danych dotyczące zaopatrzenia. Znajdują się tu informacje dotyczące: 

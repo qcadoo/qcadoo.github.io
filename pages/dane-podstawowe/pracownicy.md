@@ -1,4 +1,5 @@
 ---
+title: "Pracownicy"
 permalink: pracownicy.html
 ---
 Każdy pracownik ma w systemie przypisany swój identyfikator, imię i nazwisko oraz (pole niewymagane) stanowisko, na którym pracuje. Ostatnie pole nie jest wymaganym, ponieważ wiemy, że zdarzają się sytuacje, gdy jeden pracownik posiada kompetencje do wypełniania zadań na więcej niż jednym stanowisku. Dodatkowo każdemu pracownikowi możemy przypisać zmianę, na której pracuje oraz dział. Te pola również nie są wymagane, ponieważ w zależności od zlecenia pracownicy mogą pracować na różnych zmianach lub w różnych działach.

@@ -1,4 +1,5 @@
 ---
+title: "Numery katalogowe"
 permalink: numery-katalogowe.html
 ---
  Numery katalogowe powstały w celu ułatwienia identyfikacji produktów. Numery nadawane są zgodnie z przyjętą w firmie zasadą, są przydatne głównie w celach informacyjnych i przy wyszukiwaniu.&nbsp; 

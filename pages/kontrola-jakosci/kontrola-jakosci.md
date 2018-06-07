@@ -1,4 +1,5 @@
 ---
+title: "Jakość"
 permalink: kontrola-jakosci.html
 ---
  W każdym zakładzie produkcyjnym zdarza się wytworzenie wadliwej bądź niezadowalającej jakościowo sztuki towaru. Kontrola jakości pozwala na uniknięcie zbędnych kosztów z tytułu reklamacji gwarancyjnych. Gromadzenie informacji o przebiegu kontroli jakości w qcadoo pozwala natomiast, oprócz spełnienia wymogów rejestracji tego faktu wynikających z potrzeb kontrahentów czy przepisów prawa, na uchwycenie tych momentów dziejących się na produkcji, które są najczęstszą przyczyną powstawania błędów i wad produktów.

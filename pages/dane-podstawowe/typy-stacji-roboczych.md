@@ -1,4 +1,5 @@
 ---
+title: "Typy stacji roboczych"
 permalink: typy-stacji-roboczych.html
 ---
  W qcadoo **Typy stacji roboczych** to zbiór wszystkich maszyn i stanowisk roboczych danego typu, które biorą udział w produkcji. 

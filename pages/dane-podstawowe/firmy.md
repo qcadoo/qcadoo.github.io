@@ -1,4 +1,5 @@
 ---
+title: "Firmy"
 permalink: firmy.html
 ---
  W tym miejscu wprowadzamy dane klientów i kontrahentów, jeśli chcemy mieć o nich informację np. przy okazji śledzenia <font color="#0000ff"><a href="/genealogia"><font color="#0000ff">Genealogii</font></a> </font>(wiemy, dzięki temu kto dostarczył wadliwy towar) albo przy planowaniu zleceń produkcyjnych (wiemy dla kogo produkujemy i&nbsp;te zlecenia możemy łatwo łączyć w grupy). 

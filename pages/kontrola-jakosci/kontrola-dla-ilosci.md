@@ -1,4 +1,5 @@
 ---
+title: "Kontrola dla ilości"
 permalink: kontrola-dla-ilosci.html
 ---
 <font size="2"><span style="line-height:1.6">

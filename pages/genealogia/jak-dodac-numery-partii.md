@@ -1,4 +1,5 @@
 ---
+title: "Partie"
 permalink: jak-dodac-numery-partii.html
 ---
 <font size="4">Jak dodać numery partii?</font>

@@ -1,4 +1,5 @@
 ---
+title: "Genealogia"
 permalink: genealogia.html
 ---
  Genealogia w qcadoo pozwala udzielić odpowiedzi na pytania:&nbsp; 

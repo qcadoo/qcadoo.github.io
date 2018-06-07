@@ -1,4 +1,5 @@
---- 
+---
+title: "Planowanie"
 permalink: planowanie.html 
 ---
  Centrum dowodzenia zleceniami produkcyjnymi. To jest prawdopodobnie najczęściej odwiedzane miejsce w systemie.&nbsp; 

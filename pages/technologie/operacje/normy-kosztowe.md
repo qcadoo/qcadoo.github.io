@@ -1,4 +1,5 @@
---- 
+---
+title: "Normy kosztowe"
 permalink: normy-kosztowe.html 
 ---
 

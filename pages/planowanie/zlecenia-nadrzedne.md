@@ -1,4 +1,5 @@
---- 
+---
+title: "Zlecenia nadrzędne"
 permalink: zlecenia-nadrzedne.html 
 ---
  Tutaj program qcadoo daje możliwość zaawansowanego pogrupowania zleceń produkcyjnych. Zlecenie nadrzędne możemy stworzyć na jeden bądź kilka konkretnych produktów. Są to zlecenia wysokiego poziomu, które muszą być zrealizowane przy pomocy wielu zleceń produkcyjnych. Zlecenia nadrzędne często reprezentują faktyczne zlecenia na wiele produktów otrzymane od klientów.

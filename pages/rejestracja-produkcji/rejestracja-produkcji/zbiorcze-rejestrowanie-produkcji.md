@@ -1,4 +1,5 @@
 ---
+title: "Zbiorcze rejestrowanie produkcji"
 permalink: zbiorcze-rejestrowanie-produkcji.html
 ---
 <font size="2"><span style="line-height:1.6">

@@ -1,4 +1,5 @@
---- 
+---
+title: "Grupy technologii"
 permalink: grupy-technologii.html 
 ---
  Aby ułatwić pracę z definiowaniem norm przezbrojenia dla każdej technologii, w qcadoo stworzony został opcjonalny mechanizm pozwalający nam grupować technologie. Dzięki grupom technologii pewne informacje będziemy mogli definiować dla całych grup, a nie tylko dla pojedynczych technologii. 

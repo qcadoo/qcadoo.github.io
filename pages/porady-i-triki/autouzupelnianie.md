@@ -1,4 +1,5 @@
 ---
+title: "Autouzupełnianie"
 permalink: autouzupelnianie.html
 ---
  Autouzupełnianie w qcadoo jest niezwykle przydatną funkcją, dzięki której pewne wartości pól wypełniane są automatycznie. Takie działanie sprawia, że z programem można pracować dużo szybciej. W qcadoo najczęściej automatycznie uzupełniane są numery lub nazwy.&nbsp; 

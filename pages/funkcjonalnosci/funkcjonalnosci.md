@@ -1,4 +1,5 @@
 ---
+title: "Funkcjonalności"
 permalink: funkcjonalnosci.html
 ---
  Dzięki temu dokumentowi poznasz dokładnie funkcjonalności naszego systemu oraz dowiesz się jak wykorzystać jego możliwości. 

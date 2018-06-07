@@ -71,12 +71,15 @@ entries:
       - title: Porady i triki
         output: web
         url: /porady-i-triki.html
+
       - title: Autouzupełnianie
         output: web
         url: /autouzupelnianie.html
+
       - title: Inteligentny filtr
         output: web
         url: /inteligentny-filtr.html
+
       - title: Łatwe uzupełnianie danych
         output: web
         url: /latwe-uzupelnianie.html

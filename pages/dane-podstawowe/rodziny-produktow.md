@@ -1,4 +1,5 @@
 ---
+title: "Rodziny produktów"
 permalink: rodziny-produktow.html
 ---
 Rodziny produktów pozwalają uporządkować produkty według odpowiedniej hierarchii. Może okazać się to bardzo pomocne, na przykład przy generowaniu zapytań ofertowych do dostawców. Jeśli wiemy, że dostawca dostarcza nam kilka różnych produktów, możemy stworzyć taką właśnie rodzinę, a następnie generować zapytanie dla całej rodziny produktów, zamiast dla każdego produktu z osobna.&nbsp;

@@ -1,4 +1,5 @@
 ---
+title: "Wydruki rekordów produkcji"
 permalink: meldunki-zwrotne.html
 ---
  Wydruki rekordów produkcji **&nbsp;** są zestawieniem wszystkich raportów ze śledzenia postępów produkcji dla danego zlecenia produkcyjnego. 

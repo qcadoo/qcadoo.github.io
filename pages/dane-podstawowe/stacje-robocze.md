@@ -1,4 +1,5 @@
 ---
+title: "Stacje robocze"
 permalink: stacje-robocze.html
 ---
  **Stacje robocze** &nbsp;stanowią zbiór konkretnych maszyn i urządzeń biorących udział w danym procesie produkcyjnym. 

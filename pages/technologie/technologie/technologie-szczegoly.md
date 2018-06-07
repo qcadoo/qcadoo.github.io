@@ -1,4 +1,5 @@
---- 
+---
+title: "Technologie"
 permalink: technologie-szczegoly.html 
 ---
 

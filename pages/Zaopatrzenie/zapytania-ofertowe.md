@@ -1,4 +1,5 @@
 ---
+title: "Zapytania ofertowe"
 permalink: zapytania-ofertowe.html
 ---
 "Zapytania ofertowe" jest to miejsce w którym tworzymy zapytanie do dostawcy, aby przygotował nam ofertę na dostawę podanych przez nas produktów, w podanym przez nas terminie.&nbsp; 

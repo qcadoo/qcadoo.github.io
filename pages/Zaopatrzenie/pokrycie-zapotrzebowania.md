@@ -1,4 +1,5 @@
 ---
+title: "Pokrycie zapotrzebowania"
 permalink: pokrycie-zapotrzebowania.html
 ---
 Tutaj program qcadoo daje możliwość wygenerowania informacji jakie jest nasze zapotrzebowanie na konkretny produkt w danej jednostce czasu, na kiedy go potrzebujemy, ile produktu będzie nam dostarczone oraz kiedy go otrzymamy. Oprócz dostaw program uwzględnia stan magazynów. Funkcja ta jest&nbsp;szczególnie pomocne w przypadku składania zamówienia.

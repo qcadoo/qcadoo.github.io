@@ -1,4 +1,5 @@
 ---
+title: "Krok 7 - Zlecenia produkcyjne"
 permalink: krok-6-zlecenia-produkcyjne.html
 ---
  Mając podstawy produkcji: surowce, linię produkcyjną i&nbsp;zdefiniowaną technologię - możesz przyjąć i&nbsp;obsłużyć zlecenie produkcyjne. 

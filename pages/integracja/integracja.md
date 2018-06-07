@@ -1,4 +1,5 @@
---- 
+---
+title: "Integracja"
 permalink: integracja.html 
 ---
 

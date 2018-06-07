@@ -1,4 +1,5 @@
---- 
+---
+title: "Wydruk przydziału do zmian"
 permalink: wydruk-przydzialu-do-zmian.html 
 ---
 <font size="2"><span style="line-height:1.6">Tutaj możemy generować w<font color="#444444">ydruki przydziału do zmian w okre</font>ślonym przedziale czasowym i  na określonych przez nas zmianach. 

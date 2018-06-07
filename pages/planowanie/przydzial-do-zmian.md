@@ -1,4 +1,5 @@
---- 
+---
+title: "Przydział do zmian"
 permalink: przydzial-do-zmian.html 
 ---
  Dzięki tej zakładce możesz rozplanować przydział pracowników do zmian na liniach produkcyjnych oraz przeprowadzić późniejszą rejestrację faktycznego obłożenia. 

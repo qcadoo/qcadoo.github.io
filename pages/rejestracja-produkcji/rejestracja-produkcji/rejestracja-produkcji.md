@@ -1,4 +1,5 @@
 ---
+title: "Rejestracja produkcji"
 permalink: rejestracja-produkcji.html
 ---
 <font size="2"><span style="line-height:1.6">

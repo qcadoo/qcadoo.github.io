@@ -1,4 +1,5 @@
 ---
+title: "Kontrola dla zlecenia"
 permalink: kontrola-dla-zlecen.html
 ---
 Kontrola jakości dla zlecenia zakłada rejestrację przebiegu rewizji atrybutów dla całego zlecenia produkcyjnego.&nbsp;

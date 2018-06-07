@@ -1,4 +1,5 @@
 ---
+title: "Grupy płacowe"
 permalink: grupy-placowe.html
 ---
  Aby ułatwić pracę z definiowaniem wynagrodzeń pracowników na poszczególnych stanowiskach system qcadoo stworzył możliwość grupowania pracowników. Tutaj możemy pogrupować pracowników według takiej samej stawki godzinowej dzięki czemu będziemy mogli w łatwy i szybki sposób dodawać informacje odnośnie wynagrodzenia pracownika przypisując go do konkretnej grupy płacowej.&nbsp; 

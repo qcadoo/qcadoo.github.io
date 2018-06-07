@@ -1,4 +1,5 @@
 ---
+title: "Krok 4 - Operacje"
 permalink: krok-3-operacje.html
 ---
  Masz już zdefiniowane produkty i magazyny, na których będą one gromadzone, oraz strukturę Twojego zakładu. Teraz pora na określenie czynności wchodzących w skład procesu produkcyjnego. W naszym systemie nazywamy je operacjami.  

@@ -1,5 +1,7 @@
---- 
+---
+title: "Zmiana stanu zapotrzebowania po rozpoczęciu zlecenia"
 permalink: zmiana-stanu-zapotrzebowania.html 
+tags: [zlecenia]
 ---
 <font size="2"><span style="line-height:1.6">
 Jak wiadomo, w każdym procesie produkcyjnym zdarzają się zmiany związane z zapotrzebowaniem materiałowym. Program qcadoo wychodzi na przeciw takim sytuacją i daje możliwość edycji wcześniej obliczonego zapotrzebowania materiałowego w trakcie trwania zlecenia.

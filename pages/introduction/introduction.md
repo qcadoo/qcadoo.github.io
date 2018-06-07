@@ -1,4 +1,5 @@
 ---
+title: "Szybki start"
 permalink: introduction.html
 ---
  Qcadoo MES to łatwy i przyjazny system do zarządzania produkcją w&nbsp;Małych i&nbsp;Średnich Firmach.&nbsp; 

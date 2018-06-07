@@ -1,4 +1,5 @@
 ---
+title: "Zapotrzebowanie materiałowe"
 permalink: zapotrzebowanie-materialowe.html
 ---
 Zapotrzebowanie materiałowe to lista produktów: surowców i półproduktów potrzebnych do zrealizowania danego zlecenia produkcyjnego lub wielu zleceń produkcyjnych. To tak, jakbyśmy urządzali przyjęcie w domu dla naszych przyjaciół. Tworzymy wtedy jedną zbiorczą listę zakupów, zawierając w niej wszystkie produkty potrzebne do przygotowania kilku potraw.

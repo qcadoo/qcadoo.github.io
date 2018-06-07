@@ -1,4 +1,5 @@
---- 
+---
+title: "Stany i statusy zleceń"
 permalink: stany-i-statusy-zlecen.html 
 ---
 

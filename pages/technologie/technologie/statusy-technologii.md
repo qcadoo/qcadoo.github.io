@@ -1,4 +1,5 @@
---- 
+---
+title: "Stany technologii"
 permalink: statusy-technologii.html 
 ---
 

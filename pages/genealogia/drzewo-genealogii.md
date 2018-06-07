@@ -1,4 +1,5 @@
 ---
+title: "Drzewo genealogii"
 permalink: drzewo-genealogii.html
 ---
 Drzewo genealogii jest miejscem, gdzie prześledzić możemy, w ciągu zaledwie kilku chwil, w jakich <font color="#444444">zleceniach produkcyjnych</font>&nbsp;([Śledzenie partii dla zleceń](/sledzenie-partii-dla-zlecen))&nbsp;oraz w jakich<font color="#444444"> produktach zarejestrowanych w katalogach Genealogii</font>&nbsp;([Proste śledzenie partii](/sledzenie-partii-produktow))&nbsp;został użyty produkt o danym numerze partii.

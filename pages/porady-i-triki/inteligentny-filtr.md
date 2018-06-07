@@ -1,4 +1,5 @@
 ---
+title: "Inteligentny filtr"
 permalink: inteligentny-filtr.html
 ---
  Inteligentny filtr w qcadoo pozwala na szybkie i wygodne wyszukiwanie interesujących nas pozycji. Dzięki tej funkcji nie musimy wertować stron z poszczególnymi nazwami, wystarczy wpisać interesujące nas wyrażenie w pole filtru i zostanie ono odnalezione.&nbsp; 

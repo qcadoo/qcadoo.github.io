@@ -1,4 +1,5 @@
---- 
+---
+title: "Karty pracy"
 permalink: karty-pracy.html 
 ---
 Na pewno wiele razy zdarzyło się, że jakieś zlecenie ma opóźnienie, ponieważ zapomniano przekazać je w porę na halę produkcyjną. Albo któryś z pracowników np. z powodu dużych ilości zadań zapomniał wykonać zlecenie. Może jest też tak, że zlecenia rozpisywane są w pośpiechu na kartce, nie zawsze czytelnej?

@@ -1,4 +1,5 @@
 ---
+title: "Krok 9 - Karty pracy"
 permalink: krok-8-karty-pracy.html
 ---
  Do rozpoczęcia prac potrzebujesz jeszcze rozdysponować zadania na halę produkcyjną. W tym celu stwórz karty pracy, aby każdy z Twoich pracowników znał przydzielone mu zadania. Karty pracy wskazują wszystkie operacje, które mają być wykonane w celu realizacji konkretnego zlecenia.&nbsp; 

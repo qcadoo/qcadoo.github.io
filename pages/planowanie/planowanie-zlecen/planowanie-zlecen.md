@@ -1,4 +1,5 @@
---- 
+---
+title: "Planowanie zleceń"
 permalink: planowanie-zlecen.html 
 ---
   

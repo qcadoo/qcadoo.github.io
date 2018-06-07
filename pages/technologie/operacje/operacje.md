@@ -1,4 +1,5 @@
---- 
+---
+title: "Operacje"
 permalink: operacje.html 
 ---
 

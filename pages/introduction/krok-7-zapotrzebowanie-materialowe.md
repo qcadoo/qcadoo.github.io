@@ -1,4 +1,5 @@
 ---
+title: "Krok 8 - Zapotrzebowanie materiałowe"
 permalink: krok-7-zapotrzebowanie-materialowe.html
 ---
 Do określenia faktycznej daty startu zlecenia potrzebujesz jeszcze wiedzieć, jakie surowce są niezbędne do jego realizacji. qcadoo MES daje kilka możliwości uzyskania informacji o potrzebnych surowcach:

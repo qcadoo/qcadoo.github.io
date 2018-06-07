@@ -1,4 +1,5 @@
 ---
+title: "Tabele genealogii"
 permalink: tabele-genealogii.html
 ---
  Funkcjonalność pozwoli na wygenerowanie raportu - zestawienia produktów i ich numerów partii, które: 

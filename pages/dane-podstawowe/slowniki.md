@@ -1,4 +1,5 @@
 ---
+title: "Słowniki"
 permalink: slowniki.html
 ---
 Słowniki pomagają indywidualnie zdefiniować pojęcia dla następujących opcji:

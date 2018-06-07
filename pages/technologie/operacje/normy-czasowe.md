@@ -1,4 +1,5 @@
---- 
+---
+title: "Normy czasowe"
 permalink: normy-czasowe.html 
 ---
 

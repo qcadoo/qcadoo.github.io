@@ -1,4 +1,5 @@
 ---
+title: "Płace"
 permalink: place.html
 ---
 [![](/images/Popdstawowe-%20p%C5%82ace-%20g%C5%82%C3%B3wna.png)](/images/Popdstawowe-%20p%C5%82ace-%20g%C5%82%C3%B3wna.png)

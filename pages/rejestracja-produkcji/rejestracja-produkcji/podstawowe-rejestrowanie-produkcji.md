@@ -1,4 +1,5 @@
 ---
+title: "Podstawowe rejestrowanie produkcji"
 permalink: podstawowe-rejestrowanie-produkcji.html
 ---
 Podstawowy poziom rejestracji produkcji

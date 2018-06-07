@@ -1,4 +1,5 @@
 ---
+title: "Negocjacje dostaw"
 permalink: negocjacje.html
 ---
  W tym miejscu możemy ręcznie stworzyć zapytania ofertowe oraz rozpocząć negocjację z dostawcami w celu nabycia konkretnych produktów. W rundzie negocjacyjnej określamy jakich produktów oraz na jaki termin potrzebujemy. Dla wszystkich generujemy zapytanie ofertowe, wysyłamy je do dostawców, wybieramy odpowiednią ofertę oraz tworzymy dostawy. 

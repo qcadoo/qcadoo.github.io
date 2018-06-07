@@ -1,4 +1,5 @@
 ---
+title: "Kontrola dla operacji"
 permalink: kontrola-dla-operacji.html
 ---
 <font size="2"><span style="line-height:1.6">

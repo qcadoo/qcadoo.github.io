@@ -1,4 +1,5 @@
 ---
+title: "Koszty zlecenia"
 permalink: koszty-zlecenia.html
 ---
 <font color="#444444">Kalkulacja kosztów produkcji służy do obliczenia kwot - kosztów produkcji.

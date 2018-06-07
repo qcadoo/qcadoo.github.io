@@ -1,4 +1,5 @@
 ---
+title: "Pozycje ofert"
 permalink: pozycje-ofert.html
 ---
 "Pozycje ofert" to miejsce, w którym mamy zestawienie wszystkich pozycji z wielu ofert, ujęte w jednej tabeli. Dzięki temu możemy porównać oferty tego samego produktu i posortować je według ceny, co&nbsp;pomoże nam wybrać najkorzystniejszą dla nas ofertę. 

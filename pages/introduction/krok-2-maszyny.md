@@ -1,4 +1,5 @@
 ---
+title: "Krok 3 - Struktura zakładu"
 permalink: krok-2-maszyny.html
 ---
 Twój zakład produkcyjny zapewne ma wydzielone działy produkcyjne, a wykorzystywane maszyny czy stanowiska robocze są zgrupowane w gniazda czy linie produkcyjne. Podział ten możesz wprowadzić do programu tworząc zbudowaną w formie drzewa strukturę zakładu.

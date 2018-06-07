@@ -1,4 +1,5 @@
 ---
+title: "Zmiany"
 permalink: zmiany.html
 ---
  W "Zmianach" określamy godziny i terminy pracy Twojego zakładu (oraz wyjątki od nich, np. święta). W tym miejscu zaplanujesz system pracy zarówno jedno-, jak i&nbsp;wielozmianowy. Określamy tutaj także wyjątki od reguł, jak np. dni wolne (z okazji świąt, bądź koniecznych remontów) lub odwrotnie: nadprogramową pracę. 

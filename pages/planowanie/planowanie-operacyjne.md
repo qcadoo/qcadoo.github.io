@@ -1,4 +1,5 @@
---- 
+---
+title: "Planowanie operacyjne"
 permalink: planowanie-operacyjne.html 
 ---
  Planowanie operacyjne umożliwia nam stworzenie szczegółowego planu produkcji na poziomie stacji roboczych oraz operacji. Tutaj na podstawie norm czasowych i ilościowych, zdefiniowanych wcześniej w "Operacjach" (**TECHNOLOGIE \>\> Operacje)** <font color="#444444">można określić kiedy w ramach konkretnego zlecenie rozpocznie się dana operacja. </font>

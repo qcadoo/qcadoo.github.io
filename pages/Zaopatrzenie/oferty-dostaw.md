@@ -1,4 +1,5 @@
 ---
+title: "Oferty dostaw"
 permalink: oferty-dostaw.html
 ---
  Tutaj po otrzymaniu odpowiedzi od dostawcy, czy jest w stanie dostarczyć potrzebne nam produkty na określony czas i w określonych ilościach, tworzymy ofertę. Ofertę możemy w dowolny sposób korygować i uzupełniać. Po zebraniu wielu ofert z różnymi kombinacjami możemy je porównać i wybrać te, które są dla nas najkorzystniejsze i najbardziej nam odpowiadają. 

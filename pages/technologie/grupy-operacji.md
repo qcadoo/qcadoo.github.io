@@ -1,4 +1,5 @@
---- 
+---
+title: "Grupy operacji"
 permalink: grupy-operacji.html 
 ---
 Program qcadoo daje możliwość pogrupowania operacji. Dzięki grupom operacji pewne informacje możemy przyporządkować dla całych grup, a nie tylko pojedynczej operacji.

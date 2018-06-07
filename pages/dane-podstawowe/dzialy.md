@@ -1,4 +1,5 @@
 ---
+title: "Działy"
 permalink: dzialy.html
 ---
 Działy przedsiębiorstwa w qcadoo rozumiane są jako zespół wykonujący daną operację, który ma określoną osobę odpowiedzialną za zadanie.

@@ -217,11 +217,14 @@ ul#results-container a:hover {
     color: black;
 }
 
+ul#results-container h4 {
+    padding-left: .5em;
+}
 
 #search-demo-container a:hover {
     color: black;
 }
-#search-input {
+#search-query {
     padding: .5em;
     margin-left:20px;
     width:20em;

@@ -1,4 +1,5 @@
 ---
+title: "Dostawy"
 permalink: dostawy.html
 ---
 "Dostawy" umożliwiają nam przygotowanie i złożenie zamówienia na interesujące nas produkty. 

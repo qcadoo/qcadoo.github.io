@@ -1,4 +1,5 @@
 ---
+title: "Bilans materiałowy"
 permalink: prosty-bilans-materialowy.html
 ---
  Bilans materiałowy umożliwia szybki podgląd dostępności materiałów potrzebnych do produkcji. Oprócz tego pokazuje on, w jakich miejscach składowane są materiały wchodzące w skład wybranych zleceń produkcyjnych. 

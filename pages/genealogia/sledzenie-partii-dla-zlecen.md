@@ -1,4 +1,5 @@
 ---
+title: "Śledzenie partii dla zleceń"
 permalink: sledzenie-partii-dla-zlecen.html
 ---
 <font size="4">
