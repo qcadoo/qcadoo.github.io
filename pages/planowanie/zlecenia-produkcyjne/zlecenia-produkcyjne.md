@@ -2,119 +2,73 @@
 title: "Zlecenia produkcyjne"
 permalink: zlecenia-produkcyjne.html 
 tags: [zlecenia]
+toc: false
 ---
- Zlecenia produkcyjne realizowane są w oparciu o uprzednio utworzone [<font color="#0000ff">Technologie</font>](/technologie-szczegoly). Oznacza to, że zlecenia produkcyjne można stworzyć jedynie dla tych produktów, które posiadają zaakceptowaną technologię. Więcej? -&nbsp;[<font color="#0000ff">Statusy technologii</font>](/statusy-technologii)
+ Zlecenia produkcyjne realizowane są w oparciu o uprzednio utworzone [<font color="#0000ff">Technologie</font>](/technologie-szczegoly). Oznacza to, że zlecenia produkcyjne można stworzyć jedynie dla tych produktów, które posiadają zaakceptowaną technologię. Więcej informacji znajduje się na stronie  -&nbsp;[<font color="#0000ff">Statusy technologii</font>](/statusy-technologii)
   
+## Dodanie nowego zlecenia  
 
-  
+<font color="#073763"><b>ZLECENIA PRODUKCYJNE &gt;&gt; Zlecenia produkcyjne &gt;&gt; </b>{% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} <b>Dodaj nowy</b></font>
 
-<font size="4">Jak dodać nowe zlecenie produkcyjne?</font>
+{% include image.html file="planowanie-%20zlecenia%20produkcyjne-%20g%C5%82%C3%B3wna-%20strza%C5%82ki.png" alt="Formularz zlecenia produkcyjnego" caption="Formularz zlecenia produkcyjnego" %}
 
-* * *
-
-Nowe zlecenie zakładamy wchodząc w:
-
+1. W pierwszym kroku przy pomocy&nbsp; {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %}&nbsp;wybieramy "Produkt", którego dotyczy Twoje zamówienie. Produkty pobierają się ze zdefiniowanej wcześniej listy [<font color="#0000ff">Produktów</font>](/produkty)&nbsp;z "Danych podstawowych". Po wybraniu "Produktu" wybieramy "Technologię", którą chcesz zastosować. Jeżeli dla danego produktu zaznaczyłeś technologię jako domyślną, pole to uzupełni się automatycznie.  
   
-
-<font color="#073763"><b>ZLECENIA PRODUKCYJNE &gt;&gt; Zlecenia produkcyjne &gt;&gt; </b><img border="0" src="/images/newIcon24.png" style="vertical-align:-6px"> <b>Dodaj nowy</b></font>
-![](/images/planowanie-%20zlecenia%20produkcyjne-%20g%C5%82%C3%B3wna-%20strza%C5%82ki.png)
-1. W pierwszym kroku przy pomocy&nbsp; ![](/images/lupka.png)&nbsp;wybieramy "Produkt", którego dotyczy Twoje zamówienie. Produkty pobierają się ze zdefiniowanej wcześniej listy [<font color="#0000ff">Produktów</font>](/produkty)&nbsp;z "Danych podstawowych". Po wybraniu "Produktu" wybieramy "Technologię", którą chcesz zastosować. Jeżeli dla danego produktu zaznaczyłeś technologię jako domyślną, pole to uzupełni się automatycznie.  
+2. Wybieramy linię produkcyjną, na której chcemy zrealizować zlecenie.  
   
-2. Należy również wybrać&nbsp;["Typ zlecenia produkcyjnego"](/typy-zlecen). Mamy do wyboru zlecenia z własną technologią lub z technologią wzorcową (więcej informacji w osobnej karcie).&nbsp;&nbsp;  
+3. W kolejnym kroku podajemy jaką ilość produktu planujemy wyprodukować ("Zaplanowana ilość produktu").  
   
-3. Wybieramy linię produkcyjną, na której chcemy zrealizować zlecenie.  
+4. Pola&nbsp;"Numer"&nbsp;i&nbsp;"Nazwa"&nbsp;wypełnią się automatycznie. Dane te możesz zmodyfikować wg. własnych preferencji.  
   
-4. W kolejnym kroku podajemy jaką ilość produktu planujemy wyprodukować ("Zaplanowana ilość produktu").  
-  
-5. Pola&nbsp;"Numer"&nbsp;i&nbsp;"Nazwa"&nbsp;wypełnią się automatycznie. Dane te możesz zmodyfikować wg. własnych preferencji.  
-  
-6. Nie musisz ręcznie przeliczać czasu potrzebnego na zrealizowanie&nbsp;zlecenia. ![](/images/czasoch%C5%82onno%C5%9B%C4%87-%20strza%C5%82ki.png)
+5. Nie musisz ręcznie przeliczać czasu potrzebnego na zrealizowanie&nbsp;zlecenia. 
+{% include image.html file="czasoch%C5%82onno%C5%9B%C4%87-%20strza%C5%82ki.png" alt="Formularz czasochłnności" caption="Formularz czasochłonności" %}
     
-    &nbsp;Program daje możliwość obliczenia terminu zakończenia zlecenia. Aby to zrobić należy skorzystać z funkcji&nbsp; **![](/images/iconProducts24.png)Czasochłonność**&nbsp;(pkt. 7), która jest dostępna po rozwinięciu bocznego paska ![](/images/dropdownIcon32.png). Opcja ta jest dostępna jedynie dla zlecenia, które&nbsp;zostało zaakceptowane.&nbsp;  
-  
-7. &nbsp;Zanim policzysz czasochłonność zlecenia kliknij przycisk&nbsp; ![](/images/saveIcon24.png)&nbsp; **Zapisz** , by móc przejść do tej karty.  
-  
-8. Do obliczenia czasochłonności zlecenia wprowadź **"Planowaną datę rozpoczęcia"** zlecenia,jeżeli wcześniej podałeś te daty program skopiuje je automatycznie, następnie wybierz przycisk&nbsp; ![](/images/generateIcon24.png)&nbsp; **Generuj**. Program, na podstawie zdefiniowanych wcześniej dla operacji norm czasowych, obliczy datę zakończenia zlecenia. Jeżeli wybierzemy&nbsp; ![](/images/copyIcon24.png)&nbsp; **Kopiuj obliczoną datę do planowanej daty zakończenia,** wynik obliczenia &nbsp;pojawi się w "Planowanej dacie zakończenia". &nbsp;
+    &nbsp;Program daje możliwość obliczenia terminu zakończenia zlecenia. Aby to zrobić należy skorzystać z funkcji&nbsp; **{% include inline_image.html file="iconProducts24.png" alt="Przycisk Czasochłonność" %}Czasochłonność**&nbsp;, która jest dostępna po rozwinięciu bocznego paska {% include inline_image.html file="dropdownIcon32.png" alt="Przycisk do rozwinięcia Menu" %}. Opcja ta jest dostępna jedynie dla zlecenia, które&nbsp;zostało zaakceptowane.&nbsp;  
 
+ {:start="6"} 
+6. &nbsp;Zanim policzysz czasochłonność zlecenia kliknij przycisk&nbsp; {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} &nbsp; **Zapisz** , by móc przejść do tej karty.  
   
-  
+7. Do obliczenia czasochłonności zlecenia wprowadź **"Planowaną datę rozpoczęcia"** zlecenia,jeżeli wcześniej podałeś te daty program skopiuje je automatycznie, Następnie wybierz przycisk&nbsp;{% include inline_image.html file="generateIcon24.png" alt="Przycisk Generowania" %} &nbsp; **Generuj**. Program, na podstawie zdefiniowanych wcześniej dla operacji norm czasowych, obliczy datę zakończenia zlecenia. Jeżeli wybierzemy&nbsp; {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiowania" %}&nbsp; **Kopiuj obliczoną datę do planowanej daty zakończenia,** wynik obliczenia &nbsp;pojawi się w "Planowanej dacie zakończenia". &nbsp;
 
-<u><b>UWAGA:</b></u> Możliwe jest zapisanie zlecenia produkcyjnego bez podania dat rozpoczęcia i zakończenia zlecenia, jednak NIE JEST MOŻLIWE, bez wprowadzenia tych danych jego zaakceptowanie, czy rozpoczęcie (kliknij po więcej o:&nbsp;[<font color="#0000ff">Stanach i statusach zleceń</font>](/stany-i-statusy-zlecen)).
+  {% include callout.html content="Możliwe jest zapisanie zlecenia produkcyjnego bez podania dat rozpoczęcia i zakończenia zlecenia, jednak bez wprowadzenia tych danych jego zaakceptowanie, czy rozpoczęcie jest niemożliwe (kliknij po więcej o:&nbsp;[Stanach i statusach zleceń](/stany-i-statusy-zlecen)." type="warning" %} 
 
-  
 
-<font size="4">Co powinieneś wiedzieć <b>zanim zaakceptujesz</b> zlecenie produkcyjne?</font>
-
-* * *
+## Co powinieneś wiedzieć zanim zaakceptujesz zlecenie produkcyjne?
   
 
 Zleceniom produkcyjnym w qcadoo nadawane są [<font color="#0000ff">Stany i statusy</font>](/stany-i-statusy-zlecen). Pozwala to na wierne odwzorowanie tego, co dzieje się faktycznie na hali produkcyjnej. Ich nadawanie niesie ze sobą liczne konsekwencje, jeżeli system:  
 
 - zintegrowany jest z oprogramowaniem magazynowo-księgowym,
 - ma za zadanie śledzić postępy produkcji
-- zbierał będzie dane o wynikach [<font color="#0000ff">Kontroli jakości</font>](/kontrola-jakosci)
+<!--- zbierał będzie dane o wynikach [<font color="#0000ff">Kontroli jakości</font>](/kontrola-jakosci)-->
 - generował będzie [<font color="#0000ff">Karty pracy</font>](/karty-pracy)
 - określał będzie [<font color="#0000ff">Zapotrzebowanie materiałowe</font>](/zapotrzebowanie-materialowe)&nbsp;dla danego zlecenia
-- śledził będzie <font color="#0000ff"><a href="/genealogia">Genealogię</a></font>
+<!--- śledził będzie <font color="#0000ff"><a href="/genealogia">Genealogię</a></font>-->
 
-\*kliknij w nazwy funkcjonalności, by dowiedzieć się o nich więcej
+  {% include callout.html content="Koniecznie przed zaakceptowaniem zlecenia zdefiniuj interesujące Cię parametry dla powyższych funkcjonalności ponieważ po zaakceptowaniu nie będzie możliwe wprowadzanie zmian dla tego zlecenia." type="info" %} 
 
+  {% include callout.html content="
+  &nbsp; **Co zrobić gdy zlecenie zostało już zaakceptowane?&nbsp;** <br>
+  Należy skopiować zlecenie - wtedy pojawi się duplikat, tyle że w statusie szkic. Pamiętaj jednak, by usunąć (dezaktywować) poprzednią wersję, aby uniknąć ewentualnej pomyłki" type="info" %} 
+
+##kceptacja i start zlecenia produkcyjnego
+
+{% include image.html file="Zlecenia%20produkcyjne-%20widok%20g%C5%82%C3%B3wny.png" alt="Lista zleceń produkcyjnych" caption="Lista zleceń produkcyjnych" %}
   
 
-to koniecznie PRZED zaakceptowaniem zlecenia zdefiniuj interesujące Cię parametry dla powyższych funkcjonalności ponieważ po zaakceptowaniu nie będzie możliwe wprowadzanie zmian dla tego zlecenia.
-
-  
-
-<font color="#000000">Więcej o </font><font color="#0000ff"><a href="/stany-i-statusy-zlecen" target="_blank"><font color="#0000ff">Stanach i statusach zleceń</font></a>.</font>
-
-  
-
-<u style="font-weight:bold">
-            <b>WSKAZÓWKA:</b></u>&nbsp; **Co zrobić gdy zlecenie zostało już zaakceptowane?&nbsp;**
-Należy skopiować zlecenie - wtedy pojawi się duplikat, tyle że w statusie szkic. Pamiętaj jednak, by usunąć (dezaktywować) poprzednią wersję, aby uniknąć ewentualnej pomyłki.
-
-  
-
-  
-
-<font size="4">Akceptacja i start zlecenia produkcyjnego</font>
-
-* * *
-
-[![](/images/Zlecenia%20produkcyjne-%20widok%20g%C5%82%C3%B3wny.png)](/images/Zlecenia%20produkcyjne-%20widok%20g%C5%82%C3%B3wny.png)
-  
-
-  
-
-Wprowadzone i zapisane zlecenie jest w stanie **"Oczekujące"**. Gdy upewnimy się, że nie będziemy wprowadzać już żadnych poprawek - zmieniamy jego stan na&nbsp; ![](/images/startIcon24.png)&nbsp; **Zaakceptowane.** Następnie, aby wystartować zlecenie, zmieniamy ponownie stan klikając przycisk&nbsp; ![](/images/startIcon24.png)&nbsp; **Rozpocznij**.&nbsp;
-
-  
-
-<font face="'courier new', monospace"><br>
-    </font>
-
-<font face="'courier new', monospace"><br>
-    </font>
+Wprowadzone i zapisane zlecenie jest w stanie **"Oczekujące"**. Gdy upewnimy się, że nie będziemy wprowadzać już żadnych poprawek - zmieniamy jego stan na&nbsp; {% include inline_image.html file="startIcon24.png" alt="Przycisk Start" %}&nbsp; **Zaakceptowane.** Następnie, aby wystartować zlecenie, zmieniamy ponownie stan klikając przycisk&nbsp; {% include inline_image.html file="startIcon24.png" alt="Przycisk Start" %} &nbsp; **Rozpocznij**.&nbsp;
 
 W głównym widoku **"Zleceń produkcyjnych"** mamy listę wszystkich wprowadzonych zleceń. Możliwe jest ich sortowanie po numerze zlecenia oraz nadanym statusie.&nbsp;
 
-  
-  
-  
-  
+## Rozpoczęte zlecenie produkcyjne
 
-Rozpoczęte zlecenie produkcyjne
-
-* * *
  Stany zleceń służą nie tylko do informowania o tym, które ze zleceń są aktualnie realizowane. To tylko jedno z zadań.
 
-  
-
-Rozpoczęte zlecenia produkcyjne umożliwiają przeprowadzenie na nich szereg zdań towarzyszących danemu zleceniu. Są nimi:
+Rozpoczęte zlecenia produkcyjne umożliwiają przeprowadzenie na nich szereg zadań towarzyszących danemu zleceniu. Są nimi:
 
 - [<font color="#0000ff">Rejestracja produkcji</font>](/rejestracja)&nbsp;- gromadzenie meldunków zwrotnych o postępach w realizacji zlecenia
-- Rejestracja przebiegu [<font color="#0000ff">Kontroli jakości</font>](/kontrola-jakosci)
-- Śledzenie [<font color="#0000ff">Genealogii</font>](/genealogia)
-- <font color="#000000">Możliwe jest również nadpisanie </font><font color="#0000ff"><a href="/ceny-materialow-dla-zlecenia">Cen materiałów użytych w danym zleceniu</a></font>
-- Możliwość edycji [Stanu zapotrzebowania materiałowego dla danego zlecenia](/zmiana-stanu-zapotrzebowania)
+<!-- - Rejestracja przebiegu [<font color="#0000ff">Kontroli jakości</font>](/kontrola-jakosci)
+- Śledzenie [<font color="#0000ff">Genealogii</font>](/genealogia) -->
+- Możliwe jest również nadpisanie [<font color="#0000ff">Cen materiałów użytych w danym zleceniu</font>](/ceny-materialow-dla-zlecenia)
+- Możliwość edycji [<font color="#0000ff">Stanu zapotrzebowania materiałowego dla danego zlecenia</font>](/zmiana-stanu-zapotrzebowania)
 
