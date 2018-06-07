@@ -2,7 +2,7 @@
 title: "Stany i statusy zleceń"
 permalink: stany-i-statusy-zlecen.html 
 ---
-
+#Wprowadzenie {#wprowadzenieDoStanuIStatusu}
 Qcadoo stara się odwzorować rzeczywistość dziejącą się na hali produkcyjnej. Jednym z dowodów na to są stany i statusy zleceń produkcyjnych. Poszczególne stany zleceń produkcyjnych można dopasować do realnych sytuacji z życia codziennego:
 
   
