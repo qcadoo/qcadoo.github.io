@@ -883,7 +883,7 @@ span.soft {
 }
 
 @media (min-width: 1270px) {
-    .post-content {
+    .post-header, .post-content {
         margin-left: -70px;
     }
 }
