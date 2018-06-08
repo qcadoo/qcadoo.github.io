@@ -55,11 +55,7 @@ Po uzupełnieniu danych w zakładkach "Główna" oraz "Dane dla kosztów"&nbsp; 
 
 **<u>Sprawdź:</u>**
 
-- [Kalendarz Twoich zleceń](/kalendarz-zlecen)
 - [Jak śledzić postępy produkcji?](/rejestracja)
 - [Jak rejestrować i śledzić genealogię?](/genealogia)
-- [Jak przeprowadzić kontrolę jakości?](/kontrola-jakosci)
-
-Więcej opisów funkcji qcadoo:&nbsp;[Funkcjonalności](/funkcjonalnosci)
 
 Jeśli chcesz wiedzieć więcej o tym, co jeszcze potrafi qcadoo MES, zapraszamy tutaj: [qcadoo z lotu ptaka](http://qcadoo.com/pl/cechy/qcadoo-z-lotu-ptaka.html)

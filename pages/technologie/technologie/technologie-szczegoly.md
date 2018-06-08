@@ -101,12 +101,3 @@ W tej zakładce wpisujemy minimalną ilość jaką opłaca się nam produkować.
 * * *
 
 W tym miejscu podejmujemy decyzję o tym, czy produkt tworzony w ramach tej technologii będzie objęty wymogiem przypisania mu numeru partii. Innymi słowy: jeśli będziemy chcieli dla produktów wytworzonych w tej technologii śledzić numery partii, to czy produkt końcowy będzie musiał mieć również określony numer partii. Więcej o [<font color="#0000ff">Genealogii</font>](/genealogia).
-
-<font size="4">
-        <p>Zakładka "Kontrola jakości"</p>
-    </font>
-
-* * *
-
-Na poziomie technologii ustalamy, w jaki sposób produkty wytwarzane w oparciu o jej wytyczne będą poddawane kontroli jakości. Na ten moment mamy do dyspozycji 3 sposoby: dla ilości, dla zlecenia i dla operacji. Więcej o [<font color="#0000ff">Kontroli jakości</font>](/kontrola-jakosci).
-

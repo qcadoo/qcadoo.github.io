@@ -1,7 +1,6 @@
 ---
 title: "Zlecenia produkcyjne"
 permalink: zlecenia-produkcyjne.html 
-tags: [zlecenia]
 toc: false
 ---
 Zlecenia produkcyjne realizowane są w oparciu o uprzednio utworzone [<font color="#0000ff">Technologie</font>](/technologie-szczegoly). Oznacza to, że zlecenia produkcyjne można stworzyć jedynie dla tych produktów, które posiadają zaakceptowaną technologię. Więcej informacji znajduje się na stronie  -&nbsp;[<font color="#0000ff">Statusy technologii</font>](/statusy-technologii)
@@ -38,10 +37,8 @@ Zleceniom produkcyjnym w qcadoo nadawane są [<font color="#0000ff">Stany i stat
 
 - zintegrowany jest z oprogramowaniem magazynowo-księgowym,
 - ma za zadanie śledzić postępy produkcji
-<!--- zbierał będzie dane o wynikach [<font color="#0000ff">Kontroli jakości</font>](/kontrola-jakosci)-->
 - generował będzie [<font color="#0000ff">Karty pracy</font>](/karty-pracy)
 - określał będzie [<font color="#0000ff">Zapotrzebowanie materiałowe</font>](/zapotrzebowanie-materialowe)&nbsp;dla danego zlecenia
-<!--- śledził będzie <font color="#0000ff"><a href="/genealogia">Genealogię</a></font>-->
 
 {% include callout.html content="Koniecznie przed zaakceptowaniem zlecenia zdefiniuj interesujące Cię parametry dla powyższych funkcjonalności ponieważ po zaakceptowaniu nie będzie możliwe wprowadzanie zmian dla tego zlecenia." type="info" %} 
 
@@ -68,7 +65,3 @@ Rozpoczęte zlecenia produkcyjne umożliwiają przeprowadzenie na nich szereg za
 - [<font color="#0000ff">Rejestracja produkcji</font>](/rejestracja)&nbsp;- gromadzenie meldunków zwrotnych o postępach w realizacji zlecenia
 - Możliwe jest również nadpisanie [<font color="#0000ff">Cen materiałów użytych w danym zleceniu</font>](/ceny-materialow-dla-zlecenia)
 - Możliwość edycji [<font color="#0000ff">Stanu zapotrzebowania materiałowego dla danego zlecenia</font>](/zmiana-stanu-zapotrzebowania)
-
-
-<!-- - Rejestracja przebiegu [<font color="#0000ff">Kontroli jakości</font>](/kontrola-jakosci) -->
-<!-- - Śledzenie [<font color="#0000ff">Genealogii</font>](/genealogia) -->

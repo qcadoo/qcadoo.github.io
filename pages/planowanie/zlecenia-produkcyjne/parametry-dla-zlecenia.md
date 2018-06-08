@@ -1,7 +1,6 @@
 ---
 title: "Parametry dla zlecenia"
 permalink: parametry-dla-zlecenia.html
-tags: [zlecenia] 
 ---
 W qcadoo zlecenia produkcyjne opierają się ściśle o drzewo technologii. Z kolei drzewo technologii zbudowane jest z operacji, którym przypisaliście Państwo standardowe, ogólne normy czasowe i kosztowe.&nbsp;
 

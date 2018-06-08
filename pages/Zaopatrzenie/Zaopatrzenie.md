@@ -8,8 +8,6 @@ permalink: Zaopatrzenie.html
 
 - [Zapotrzebowania materiałowego](/zapotrzebowanie-materialowe),
 
-- [Bilansu materiałowego](/prosty-bilans-materialowy),
-
 - [Pokrycia zapotrzebowania](/pokrycie-zapotrzebowania),
 
 - [Pozycji ofert](/pozycje-ofert)&nbsp;i [zapytań ofertowych](/zapytania-ofertowe).

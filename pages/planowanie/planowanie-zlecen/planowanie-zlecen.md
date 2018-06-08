@@ -4,7 +4,7 @@ permalink: planowanie-zlecen.html
 ---
   
 
-<font color="#444444">To miejsce, skąd wystartować możesz kilka <a href="/zlecenia-produkcyjne">zleceń produkcyjnych</a> na raz, utworzyć dla nich <a href="/karty-pracy">karty pracy</a> oraz listy <a href="/zapotrzebowanie-materialowe">zapotrzebowania materiałowego</a>. Co ważne i wygodne to to, że wymienione dokumenty możesz utworzyć dla dowolnej liczby zleceń, przez co: otrzymujesz listę potrzebnych surowców na cały tydzień, a Twoi pracownicy plan zadań na najbliższe dni. Z tego miejsca możesz również generować dokumenty do kontroli jakości.</font>
+<font color="#444444">To miejsce, skąd wystartować możesz kilka <a href="/zlecenia-produkcyjne">zleceń produkcyjnych</a> na raz, utworzyć dla nich <a href="/karty-pracy">karty pracy</a> oraz listy <a href="/zapotrzebowanie-materialowe">zapotrzebowania materiałowego</a>. Co ważne i wygodne to to, że wymienione dokumenty możesz utworzyć dla dowolnej liczby zleceń, przez co: otrzymujesz listę potrzebnych surowców na cały tydzień, a Twoi pracownicy plan zadań na najbliższe dni.</font>
 
 <font color="#444444"><br>
     </font>

@@ -1,6 +1,6 @@
 entries:
 - title: sidebar
-  product: Nawigacja
+  product:
   folders:
 
   - title: Wprowadzenie
@@ -83,14 +83,6 @@ entries:
       - title: Łatwe uzupełnianie danych
         output: web
         url: /latwe-uzupelnianie.html
-
-  - title: Funkcjonalności
-    output: web
-    folderitems:
-
-    - title: Funkcjonalności
-      output: web
-      url: /funkcjonalnosci.html
 
   - title: Podstawowe
     output: web
@@ -226,10 +218,6 @@ entries:
       output: web
       url: /zapotrzebowanie-materialowe.html
 
-    - title: Bilans materiałowy
-      output: web
-      url: /prosty-bilans-materialowy.html
-
     - title: Pokrycie zapotrzebowania
       output: web
       url: /pokrycie-zapotrzebowania.html
@@ -278,10 +266,6 @@ entries:
       output: web
       url: /planowanie.html
 
-    - title: Planowanie operacyjne
-      output: web
-      url: /planowanie-operacyjne.html
-
       subfolders:
       - title: Zlecenia produkcyjne
         output: web
@@ -323,10 +307,6 @@ entries:
         - title: Planowanie zleceń
           output: web
           url: /planowanie-zlecen.html
-
-        - title: Kalendarz zleceń
-          output: web
-          url: /kalendarz-zlecen.html
 
         - title: Stany i statusy zleceń
           output: web
@@ -408,30 +388,6 @@ entries:
     - title: Śledzenie partii dla zleceń
       output: web
       url: /sledzenie-partii-dla-zlecen.html
-
-  - title: Jakość
-    output: web
-    folderitems:
-
-    - title: Jakość
-      output: web
-      url: /kontrola-jakosci.html
-
-    - title: Raport kontroli jakości
-      output: web
-      url: /raport-kontroli-jakosci.html
-
-    - title: Kontrola dla zlecenia
-      output: web
-      url: /kontrola-dla-zlecen.html
-
-    - title: Kontrola dla ilości
-      output: web
-      url: /kontrola-dla-ilosci.html
-
-    - title: Kontrola dla operacji
-      output: web
-      url: /kontrola-dla-operacji.html
 
   - title: Integracja
     output: web
