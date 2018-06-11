@@ -7,7 +7,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
 <div class="row">
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
-                 <div class="panel-heading">
+                 <div class="panel-heading without-padding">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-database fa-stack-1x fa-inverse"></i>
@@ -16,13 +16,13 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                  <div class="panel-body">
                      <h4>Podstawowe</h4>
                      <p>Podstawowe</p>
-                     <a href="dane-podstawowe.html" class="btn btn-primary">Dowiedz się więcej</a>
+                     <a href="dane-podstawowe.html" class="btn btn-primary">Więcej...</a>
                  </div>
              </div>
          </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
-                 <div class="panel-heading">
+                 <div class="panel-heading without-padding">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
@@ -31,13 +31,13 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                  <div class="panel-body">
                      <h4>Technologie</h4>
                      <p>Technologie</p>
-                     <a href="technologie.html" class="btn btn-primary">Dowiedz się więcej</a>
+                     <a href="technologie.html" class="btn btn-primary">Więcej...</a>
                  </div>
              </div>
          </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
-                 <div class="panel-heading">
+                 <div class="panel-heading without-padding">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-car fa-stack-1x fa-inverse"></i>
@@ -46,13 +46,13 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                  <div class="panel-body">
                      <h4>Zaopatrzenie</h4>
                      <p>Zaopatrzenie</p>
-                     <a href="Zaopatrzenie.html" class="btn btn-primary">Dowiedz się więcej</a>
+                     <a href="Zaopatrzenie.html" class="btn btn-primary">Więcej...</a>
                  </div>
              </div>
          </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
-                 <div class="panel-heading">
+                 <div class="panel-heading without-padding">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-calculator fa-stack-1x fa-inverse"></i>
@@ -61,7 +61,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                  <div class="panel-body">
                      <h4>Kalkulacje</h4>
                      <p>Kalkulacje</p>
-                     <a href="kalkulacje.html" class="btn btn-primary">Dowiedz się więcej</a>
+                     <a href="kalkulacje.html" class="btn btn-primary">Więcej...</a>
                  </div>
              </div>
          </div>
@@ -69,7 +69,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
 <div class="row">
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
-                 <div class="panel-heading">
+                 <div class="panel-heading without-padding">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
@@ -78,13 +78,13 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                  <div class="panel-body">
                      <h4>Planowanie</h4>
                      <p>Planowanie</p>
-                     <a href="planowanie.html" class="btn btn-primary">Dowiedz się więcej</a>
+                     <a href="planowanie.html" class="btn btn-primary">Więcej...</a>
                  </div>
              </div>
          </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
-                 <div class="panel-heading">
+                 <div class="panel-heading without-padding">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-tasks fa-stack-1x fa-inverse"></i>
@@ -93,13 +93,13 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                  <div class="panel-body">
                      <h4>Rejestracja</h4>
                      <p>Rejestracja</p>
-                     <a href="rejestracja.html" class="btn btn-primary">Dowiedz się więcej</a>
+                     <a href="rejestracja.html" class="btn btn-primary">Więcej...</a>
                  </div>
              </div>
          </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
-                 <div class="panel-heading">
+                 <div class="panel-heading without-padding">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-history fa-stack-1x fa-inverse"></i>
@@ -108,13 +108,13 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                  <div class="panel-body">
                      <h4>Genealogia</h4>
                      <p>Genealogia</p>
-                     <a href="genealogia.html" class="btn btn-primary">Dowiedz się więcej</a>
+                     <a href="genealogia.html" class="btn btn-primary">Więcej...</a>
                  </div>
              </div>
          </div>
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
-                 <div class="panel-heading">
+                 <div class="panel-heading without-padding">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-link fa-stack-1x fa-inverse"></i>
@@ -123,7 +123,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                  <div class="panel-body">
                      <h4>Integracja</h4>
                      <p>Integracja</p>
-                     <a href="integracja.html" class="btn btn-primary">Dowiedz się więcej</a>
+                     <a href="integracja.html" class="btn btn-primary">Więcej...</a>
                  </div>
              </div>
          </div>

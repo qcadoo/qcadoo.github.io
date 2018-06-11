@@ -874,18 +874,19 @@ span.soft {
     }
 }
 
-@media (min-width: 1000px) {
-
+@media (min-width: 992px) {
+    .container-fluid .navbar-header {
+        margin-left: 25%;
+    }
     ul#mysidebar {
-        width: 225px;
+        width: 100%;
         margin-left: 15px;
+        padding-right: 15px;
     }
 }
 
-@media (min-width: 1270px) {
-    .post-header, .post-content {
-        margin-left: -70px;
-    }
+.without-padding {
+    padding: 10px 0px;
 }
 
 @media (max-width: 900px) {
