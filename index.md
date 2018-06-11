@@ -141,36 +141,36 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Jak poradzić sobie z importem technologii?</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Jak mogę kontrolować na bieżąco produkcje?</a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
-                                Jak poradzić sobie z importem technologii?
+                                Dla zleceń możemy wygenerować rozliczenie produkcji, które gromadzi raporty i zestawienia z produkcji. Zaś z poziomu zleceń, możemy się dowiedzieć o wyprodukowanej ilości i zużytych surowcach, a jeżeli zlecenia posiada komponenty, to na zakładce „Powiązane zlecenia”, dowiemy się na które komponenty produkcja jest w toku lub się zakończyła.
                             </div>
                         </div>
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">W jaki sposób używać planowania na zmiany?</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Jak zaplanować produkcję?</a>
                             </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
-                                W jaki sposób używać planowania na zmiany?
+                                System umożliwia nam zaplanowanie produkcji za pomocą Gantta, gdzie metodą Drag&Drop mamy możliwość ustalenia dnia rozpoczęcia produkcji, lini oraz godziny. Poza tym istnieje możliwość zaplanowania produkcji dla zmian lub wspomóc się obliczeniami czasochłonności.
                             </div>
                         </div>
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Czy można używać równocześnie wydajności i czasów jednostkowych?</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Czy system umożliwia wygenerowanie analiz bądź raportów?</a>
                             </h4>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
-                                Czy można używać równocześnie wydajności i czasów jednostkowych?
+                                Tak, w systemie mamy dostęp do wielu analiz oraz raportów. Możemy je pobrać w formacie PDF lub CSV. Elementem, który kumuluje te wszystkie informacje jest Rozliczenie produkcji.
                             </div>
                         </div>
                     </div>
