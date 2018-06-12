@@ -43,6 +43,39 @@
             MediumLightbox('figure.zoom-effect', {margin: 200});
         });
     </script>
+    <script>
+        $(document).ready(function() {
+            $('#search-query').keydown(function(e) {
+                if (e.keyCode == 13) { // enter
+                    var href = $("#results-container .selected a").attr('href');
+                    if(href){
+                        window.location.href = href;
+                    }
+                }
+                if (e.keyCode === 27) { //esc
+                    $('#search-query').val('');
+                }
+                if (e.keyCode == 38) { // up
+                    var selected = $(".selected");
+                    $("#results-container li").removeClass("selected");
+                    if (selected.prev().length == 0 || !selected.prev().is("li")) {
+                        $("#results-container li").last().addClass("selected");
+                    } else {
+                        selected.prev().addClass("selected");
+                    }
+                }
+                if (e.keyCode == 40) { // down
+                    var selected = $(".selected");
+                    $("#results-container li").removeClass("selected");
+                    if (selected.next().length == 0) {
+                        $("#results-container li").first().addClass("selected");
+                    } else {
+                        selected.next().addClass("selected");
+                    }
+                }
+            });
+        });
+    </script>
     {% if page.datatable == true %}
     <!-- Include the standard DataTables bits -->
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">

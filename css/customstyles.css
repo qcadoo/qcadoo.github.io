@@ -230,6 +230,10 @@ ul#results-container a:hover {
     color: blue;
 }
 
+ul#results-container li.selected {
+    background-color: orange;
+}
+
 ul#results-container h4 {
     padding-left: .5em;
 }
