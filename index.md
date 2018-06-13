@@ -146,7 +146,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
-                                Dla zleceń możemy wygenerować rozliczenie produkcji, które gromadzi raporty i zestawienia z produkcji. Zaś z poziomu zleceń, możemy się dowiedzieć o wyprodukowanej ilości i zużytych surowcach, a jeżeli zlecenia posiada komponenty, to na zakładce „Powiązane zlecenia”, dowiemy się na które komponenty produkcja jest w toku lub się zakończyła.
+                                Dla zleceń możemy wygenerować rozliczenie produkcji, które gromadzi raporty i zestawienia z produkcji. Natomiast z poziomu zleceń, możemy się dowiedzieć o wyprodukowanej ilości i zużytych surowcach, a jeżeli zlecenia posiada komponenty, to na zakładce „Powiązane zlecenia”, dowiemy się na które komponenty produkcja jest w toku lub się zakończyła.
                             </div>
                         </div>
                     </div>
