@@ -9,7 +9,7 @@ Zlecenia produkcyjne realizowane są w oparciu o uprzednio utworzone [<font colo
 
 <font color="#073763"><b>ZLECENIA PRODUKCYJNE &gt;&gt; Zlecenia produkcyjne &gt;&gt; </b>{% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} <b>Dodaj nowy</b></font>
 
-{% include light-box.html file="planowanie-%20zlecenia%20produkcyjne-%20g%C5%82%C3%B3wna-%20strza%C5%82ki.png" alt="Formularz zlecenia produkcyjnego" width="1438" height="805" %}
+{% include lightbox.html file="planowanie-%20zlecenia%20produkcyjne-%20g%C5%82%C3%B3wna-%20strza%C5%82ki.png" alt="Formularz zlecenia produkcyjnego" caption="Formularz zlecenia produkcyjnego" class="float-right" %}
 
 1. W pierwszym kroku przy pomocy&nbsp; {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %}&nbsp;wybieramy "Produkt", którego dotyczy Twoje zamówienie. Produkty pobierają się ze zdefiniowanej wcześniej listy [<font color="#0000ff">Produktów</font>](/produkty)&nbsp;z "Danych podstawowych". Po wybraniu "Produktu" wybieramy "Technologię", którą chcesz zastosować. Jeżeli dla danego produktu zaznaczyłeś technologię jako domyślną, pole to uzupełni się automatycznie.  
   
