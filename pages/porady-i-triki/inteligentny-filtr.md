@@ -10,3 +10,12 @@ Filtrować możemy nie tylko nazwy i numery, lecz także daty. Ten rodzaj filtro
   
 2. Wyszukiwanie daty wcześniejszej (\<) lub późniejszej (\>) od interesującego nas terminu.&nbsp;Przykładowo: na liście zleceń chcemy wyszukać te, które zostały rozpoczęte po 1 maja 2013 r. Wystarczy wtedy wpisać w oknie filtru: „\>2013-05-01” i otrzymamy wówczas interesującą nas listę zleceń.
 
+Do filtrowania wartości można również wykorzystać następujące znaczniki:
+
+1. "%" - znacznik ten wyszuka wszystkie pozycje, które mają wprowadzone jakikolwiek ciąg znaków w danej kolumnie. Można go łączyć z tektstem np. wyszukując nazwę produktu, możemy go wprowadzić w środek tekstu.
+
+2. "_" - podłoga działa w podobny sposób jak "%", z taką różnicą, że zastępuje on pojedynczy znak.
+
+3. Isnull - wyraz ten wyszuka pozycje, które w danej kolumnie nie mają wpisanej wartości.
+
+4. "[nazwa_produktu]" - Domyślnie filtr wyszukuje wszystko co w danej wartości znajdzie, jeśli poszukiwany jest tylko dany wyraz, musimy umieścić ciąg znaków w "[]". 
