@@ -3,7 +3,9 @@
 <head>
     {% include head.html %}
     <script>
+        $(window).off('.affix');
         $(document).ready(function() {
+            $("#mysidebar").removeClass("affix affix-top affix-bottom").removeData("bs.affix");
             // Initialize navgoco with default options
             $("#mysidebar").navgoco({
                 caretHtml: '',
