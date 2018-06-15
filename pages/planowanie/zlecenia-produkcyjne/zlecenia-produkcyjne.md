@@ -20,12 +20,15 @@ Zlecenia produkcyjne realizowane są w oparciu o uprzednio utworzone [<font colo
 4. Pola&nbsp;"Numer"&nbsp;i&nbsp;"Nazwa"&nbsp;wypełnią się automatycznie. Dane te możesz zmodyfikować wg. własnych preferencji.  
   
 5. Nie musisz ręcznie przeliczać czasu potrzebnego na zrealizowanie&nbsp;zlecenia. 
-{% include image.html file="czasoch%C5%82onno%C5%9B%C4%87-%20strza%C5%82ki.png" alt="Formularz czasochłnności" caption="Formularz czasochłonności" %}
+
     
 Program daje możliwość obliczenia terminu zakończenia zlecenia. Aby to zrobić należy skorzystać z funkcji&nbsp; **{% include inline_image.html file="iconProducts24.png" alt="Przycisk Czasochłonność" %}Czasochłonność**&nbsp;, która jest dostępna po rozwinięciu bocznego paska{% include inline_image.html file="dropdownIcon32.png" alt="Przycisk do rozwinięcia Menu" %}. Opcja ta jest dostępna jedynie dla zlecenia, które&nbsp;zostało zaakceptowane.&nbsp;  
 
+{% include lightbox.html file="czasoch%C5%82onno%C5%9B%C4%87-%20strza%C5%82ki.png" alt="Formularz czasochłnności" caption="Formularz czasochłonności" %}
+
 {:start="6"} 
 6. &nbsp;Zanim policzysz czasochłonność zlecenia kliknij przycisk&nbsp; {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} &nbsp; **Zapisz** , by móc przejść do tej karty.  
+
   
 7. Do obliczenia czasochłonności zlecenia wprowadź **"Planowaną datę rozpoczęcia"** zlecenia,jeżeli wcześniej podałeś te daty program skopiuje je automatycznie, Następnie wybierz przycisk&nbsp;{% include inline_image.html file="generateIcon24.png" alt="Przycisk Generowania" %} &nbsp; **Generuj**. Program, na podstawie zdefiniowanych wcześniej dla operacji norm czasowych, obliczy datę zakończenia zlecenia. Jeżeli wybierzemy&nbsp; {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiowania" %}&nbsp; **Kopiuj obliczoną datę do planowanej daty zakończenia,** wynik obliczenia &nbsp;pojawi się w "Planowanej dacie zakończenia". &nbsp;
 
@@ -48,7 +51,7 @@ Należy skopiować zlecenie - wtedy pojawi się duplikat, tyle że w statusie sz
 
 ## Akceptacja i start zlecenia produkcyjnego
 
-{% include image.html file="Zlecenia%20produkcyjne-%20widok%20g%C5%82%C3%B3wny.png" alt="Lista zleceń produkcyjnych" caption="Lista zleceń produkcyjnych" %}
+{% include lightbox.html file="Zlecenia%20produkcyjne-%20widok%20g%C5%82%C3%B3wny.png" alt="Lista zleceń produkcyjnych" caption="Lista zleceń produkcyjnych" %}
   
 
 Wprowadzone i zapisane zlecenie jest w stanie **"Oczekujące"**. Gdy upewnimy się, że nie będziemy wprowadzać już żadnych poprawek - zmieniamy jego stan na&nbsp;{% include inline_image.html file="startIcon24.png" alt="Przycisk Start" %}&nbsp; **Zaakceptowane.** Następnie, aby wystartować zlecenie, zmieniamy ponownie stan klikając przycisk&nbsp;{% include inline_image.html file="startIcon24.png" alt="Przycisk Start" %}&nbsp; **Rozpocznij**.&nbsp;
