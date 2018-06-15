@@ -24,7 +24,7 @@ Zlecenia produkcyjne realizowane są w oparciu o uprzednio utworzone [<font colo
     
 Program daje możliwość obliczenia terminu zakończenia zlecenia. Aby to zrobić należy skorzystać z funkcji&nbsp; **{% include inline_image.html file="iconProducts24.png" alt="Przycisk Czasochłonność" %}Czasochłonność**&nbsp;, która jest dostępna po rozwinięciu bocznego paska{% include inline_image.html file="dropdownIcon32.png" alt="Przycisk do rozwinięcia Menu" %}. Opcja ta jest dostępna jedynie dla zlecenia, które&nbsp;zostało zaakceptowane.&nbsp;  
 
-{% include lightbox.html file="czasoch%C5%82onno%C5%9B%C4%87-%20strza%C5%82ki.png" alt="Formularz czasochłnności" caption="Formularz czasochłonności" %}
+{% include lightbox.html file="czasoch%C5%82onno%C5%9B%C4%87-%20strza%C5%82ki.png" alt="Formularz czasochłnności" caption="Formularz czasochłonności" class="float-right" %}
 
 {:start="6"} 
 6. &nbsp;Zanim policzysz czasochłonność zlecenia kliknij przycisk&nbsp; {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} &nbsp; **Zapisz** , by móc przejść do tej karty.  
