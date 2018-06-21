@@ -4,7 +4,7 @@ permalink: rejestracja-kazdej-operacji.html
 ---
 
 
-        Rejestracja produkcji - wariant rejestracji dla każdej operacji
+Rejestracja produkcji - wariant rejestracji dla każdej operacji
 
 * * *
 
