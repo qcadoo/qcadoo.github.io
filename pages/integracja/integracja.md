@@ -3,7 +3,7 @@ title: "Integracja"
 permalink: integracja.html 
 ---
 
- Program qcadoo pozwala na współpracę z innym oprogramowaniem funkcjonującym w firmach produkcyjnych. Najczęściej są to systemy magazynowe, księgowe, służące do tworzenia projektów technicznych, systemy zarządzające zaopatrzeniem itp.&nbsp; 
+ Program qcadoo pozwala na współpracę z innym oprogramowaniem funkcjonującym w firmach produkcyjnych. Najczęściej są to systemy magazynowe, księgowe, służące do tworzenia projektów technicznych, systemy zarządzające zaopatrzeniem itp. 
   
 
 W ramach integracji qcadoo:

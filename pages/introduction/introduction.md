@@ -2,10 +2,10 @@
 title: "Szybki start"
 permalink: introduction.html
 ---
- Qcadoo MES to łatwy i przyjazny system do zarządzania produkcją w&nbsp;Małych i&nbsp;Średnich Firmach.&nbsp; 
+ Qcadoo MES to łatwy i przyjazny system do zarządzania produkcją wMałych iŚrednich Firmach. 
   
 
-Nie musisz się obawiać o to, że zmuszony zostaniesz do zmagania się z trudnym i&nbsp;skomplikowanym interfejsem. Przeciwnie! Qcadoo MES, jako jedyna aplikacja on-line w Polsce posiada certyfikat potwierdzający użyteczność i łatwość obsługi. Jednak doskonale wiemy, że czasem potrzebna jest mała wskazówka. Dlatego właśnie powstał samouczek "Szybki start".
+Nie musisz się obawiać o to, że zmuszony zostaniesz do zmagania się z trudnym iskomplikowanym interfejsem. Przeciwnie! Qcadoo MES, jako jedyna aplikacja on-line w Polsce posiada certyfikat potwierdzający użyteczność i łatwość obsługi. Jednak doskonale wiemy, że czasem potrzebna jest mała wskazówka. Dlatego właśnie powstał samouczek "Szybki start".
 
   
 

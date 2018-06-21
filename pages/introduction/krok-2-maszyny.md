@@ -6,13 +6,13 @@ Twój zakład produkcyjny zapewne ma wydzielone działy produkcyjne, a wykorzyst
 
   
 
-Zacznij od wprowadzenia działów&nbsp; 
+Zacznij od wprowadzenia działów 
 [![](/images/dzialy_lista.png)](/images/dzialy_lista.png)
   
 
-Wybierz w&nbsp;„Danych podstawowych” zakładkę „Działy” i&nbsp;kliknij przycisk&nbsp; ![](/images/dodaj%20nowy.png)&nbsp; **Dodaj nowy**.
+Wybierz w„Danych podstawowych” zakładkę „Działy” ikliknij przycisk ![](/images/dodaj%20nowy.png) **Dodaj nowy**.
 
-Dla każdego działu określamy unikalny numer i nazwę - i to są jedyne niezbędne do wypełnienia dane&nbsp;(i taka podpowiedź: dane wymagane w&nbsp;systemie oznaczone są&nbsp; **pogrubioną&nbsp;czcionką**. Warto tą zasadę zapamiętać - będzie pomocna w pracy w programie).
+Dla każdego działu określamy unikalny numer i nazwę - i to są jedyne niezbędne do wypełnienia dane(i taka podpowiedź: dane wymagane wsystemie oznaczone są **pogrubionączcionką**. Warto tą zasadę zapamiętać - będzie pomocna w pracy w programie).
 
 Do działów wrócimy jeszcze, aby odpowiednio przypisać do niej linie i stacje robocze - ale o tym w dalszej części opisu struktury działu.
 
@@ -20,13 +20,13 @@ W działach mogą zostać wyodrębnione linie produkcyjne. W programie linia pro
 
 [![](/images/linia_lista.png)](/images/linia_lista.png)
 
-Aby dopisać linię produkcyjną należy wejść w menu "Dane podstawowe" i w niej w "Linie produkcyjne". Standardowo klikamy&nbsp;przycisk&nbsp; ![](/images/dodaj%20nowy.png)&nbsp; **Dodaj nowy**.&nbsp;
+Aby dopisać linię produkcyjną należy wejść w menu "Dane podstawowe" i w niej w "Linie produkcyjne". Standardowo klikamyprzycisk ![](/images/dodaj%20nowy.png) **Dodaj nowy**.
 
 Linia produkcyjna wymaga podania **numeru** i **nazwy**. Dodatkowo możesz dodać dodatkowy opis, podpiąć dokumentację do danej linii, czy określić miejsce w zakładzie, które zajmuje dana linia (miejsca są do zdefiniowania w słownikach). Ponadto możesz już na tym etapie przypisać ją do działu i w zakładce Stacje robocze podpiąć maszyny czy stanowiska znajdujące się w danej linii - jednak za chwilę pokażemy Ci jak całe drzewo struktury zakładu zbudować z poziomu działu - zatem możesz się z tym jeszcze wstrzymać.
 
   
 
-Linia produkcyjna jest bardzo ważnym elementem w programie - zlecenia produkcyjne wymagają podania na jakiej linii będą wykonywane.&nbsp;
+Linia produkcyjna jest bardzo ważnym elementem w programie - zlecenia produkcyjne wymagają podania na jakiej linii będą wykonywane.
 
 [![](/images/typy_stacji_lista.png)](/images/typy_stacji_lista.png)
   
@@ -37,17 +37,17 @@ Wszelkie operacje w procesie produkcyjnym są wykonywane na maszynach lub stanow
 
   
 
-Otwórz menu "Dane podstawowe" i w niej w "Typy stacji roboczych". Kliknij&nbsp;przycisk&nbsp; ![](/images/dodaj%20nowy.png)&nbsp; **Dodaj nowy**.&nbsp;
+Otwórz menu "Dane podstawowe" i w niej w "Typy stacji roboczych". Kliknijprzycisk ![](/images/dodaj%20nowy.png) **Dodaj nowy**.
 
-W uruchomionym oknie podaj **nazwę** &nbsp;i **numer** oraz ewentualny **opis**.
+W uruchomionym oknie podaj **nazwę** i **numer** oraz ewentualny **opis**.
 
 ![](/images/stacje_lista.png)
 
 Już teraz jesteś gotowy do zdefiniowania najbardziej elementarnych składowych struktury zakładu - **stacji roboczych**. W qcadoo MES stacjami roboczymi są wszystkie maszyny i wszystkie stanowiska produkcyjne zlokalizowane w zakładzie, na których prowadzone są operacje procesu produkcyjnego.
 
-W menu "Dane podstawowe" wejdź w "Stacje robocze" i kliknij&nbsp;przycisk&nbsp; ![](/images/dodaj%20nowy.png)&nbsp; **Dodaj nowy**.&nbsp;
+W menu "Dane podstawowe" wejdź w "Stacje robocze" i kliknijprzycisk ![](/images/dodaj%20nowy.png) **Dodaj nowy**.
 
-W oknie konieczne jest podanie unikalnego **numeru** , **nazwy** oraz **typu stacji roboczej**. Możesz również już teraz określić linię produkcyjną, na której stacja jest umiejscowiona.&nbsp;
+W oknie konieczne jest podanie unikalnego **numeru** , **nazwy** oraz **typu stacji roboczej**. Możesz również już teraz określić linię produkcyjną, na której stacja jest umiejscowiona.
 
 Zdefiniowałeś wszystkie elementy - możesz je teraz powiązać ze sobą w drzewiastą strukturę zakładu. Najłatwiej uczynisz to z poziomu **działu produkcyjnego**.
 
@@ -67,7 +67,7 @@ Zdefiniowane elementy struktury zakładu będziesz mógł przypisać do pojedync
   
 
  Dodatkowo do działu możesz, w zakładce **Magazyny** , określić: 
-- z jakiego magazynu będą pobierane surowce,&nbsp;
+- z jakiego magazynu będą pobierane surowce,
 - czy i na jaki magazyn będą rozchodowane surowce przesunięte na magazyn działowy (pobierania surowców), ale nie zużyte w produkcji,
 - czy produkcja w toku będzie rejestrowana na magazynie czy będzie przechodziła płynnie w ramach procesu produkcyjnego,
 - na jaki magazyn będą przyjmowane wytworzone wyroby,
@@ -75,11 +75,11 @@ Zdefiniowane elementy struktury zakładu będziesz mógł przypisać do pojedync
 
   
 
-Wprowadzone magazyny program traktuje jako wartości domyślne. Będą one się podpowiadać podczas tworzenia technologii w zakładce Przepływy, ale będą mogły zostać przez Ciebie zmienione na dowolnie inne. Ale o tym dowiesz się w [kroku 5. - opisującym zakładanie technologii](/krok-4-technologie).&nbsp;
+Wprowadzone magazyny program traktuje jako wartości domyślne. Będą one się podpowiadać podczas tworzenia technologii w zakładce Przepływy, ale będą mogły zostać przez Ciebie zmienione na dowolnie inne. Ale o tym dowiesz się w [kroku 5. - opisującym zakładanie technologii](/krok-4-technologie).
 
-<u style="font-weight:bold">WSKAZÓWKA:</u>&nbsp;Zdefiniowanie struktury zakładu jest pomocne, ale nie jest konieczne. Jeśli nie masz potrzeby rozplanowywania zadań ze wskazaniem na miejsce wykonywanych czynności, to możesz w tym kroku zdefiniować jedynie jedną linię produkcyjną, na którą zlecane będą wszystkie prace.
+<u style="font-weight:bold">WSKAZÓWKA:</u>Zdefiniowanie struktury zakładu jest pomocne, ale nie jest konieczne. Jeśli nie masz potrzeby rozplanowywania zadań ze wskazaniem na miejsce wykonywanych czynności, to możesz w tym kroku zdefiniować jedynie jedną linię produkcyjną, na którą zlecane będą wszystkie prace.
 
 Możesz teraz przejść do:
 
-**Krok 4/11: [<font color="#0000ff">Wprowadź operacje jakie wykonywane są na Twojej hali produkcyjnej.</font>](/krok-3-operacje)**
+**Krok 4/11: [Wprowadź operacje jakie wykonywane są na Twojej hali produkcyjnej.](/krok-3-operacje)**
 

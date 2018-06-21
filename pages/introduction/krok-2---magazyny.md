@@ -2,13 +2,13 @@
 title: "Krok 2 - Magazyny"
 permalink: krok-2---magazyny.html
 ---
-Produkty zostały już zdefiniowane. W kolejnym kroku należy określić magazyny, na których produkty będą składowane. qcadoo MES umożliwia prowadzenie dowolnej ilości magazynów. Mogą być one prowadzone albo w naszym systemie, albo w zintegrowanym ERPie.&nbsp;
+Produkty zostały już zdefiniowane. W kolejnym kroku należy określić magazyny, na których produkty będą składowane. qcadoo MES umożliwia prowadzenie dowolnej ilości magazynów. Mogą być one prowadzone albo w naszym systemie, albo w zintegrowanym ERPie.
 
 Magazyny będą uczestniczyły w całym procesie produkcyjnym - to na nie będziemy przyjmować zakupione od dostawców materiały. To z nich będziemy wydawać produkty do zużycia, czy przesuwać w ramach rezerwacji na magazyny działowe. I to na nie w końcu przyjmiemy wyprodukowane wyroby gotowe.
 
   
 
-W menu Magazyn wybierz pozycję Magazyny i kliknij&nbsp;[![](/images/dodaj%20nowy.png)](/images/dodaj%20nowy.png)&nbsp;Dodaj nowy. ![](/images/magazyn_lista.png)
+W menu Magazyn wybierz pozycję Magazyny i kliknij[![](/images/dodaj%20nowy.png)](/images/dodaj%20nowy.png)Dodaj nowy. ![](/images/magazyn_lista.png)
 
 W uruchomionym oknie podaj **numer** i **nazwę** magazynu, a także **typ** magazyn z zasobami.
 
@@ -20,7 +20,7 @@ W zakładce **Metoda rozchodu i atrybuty dokumentu** możesz wybrać wg jakiej m
 
   
 
-Po zapisaniu&nbsp;[![](/images/zapisz.png)](/images/zapisz.png)&nbsp;magazynu będziesz mógł:
+Po zapisaniu[![](/images/zapisz.png)](/images/zapisz.png)magazynu będziesz mógł:
 
 - wystawiać dokumenty magazynowe
 - kontrolować ukształtowane dokumentami stany magazynowe oraz analizować utworzone zasoby
@@ -36,7 +36,7 @@ Magazyny mogą zostać również przypisane do działu - po to by pomóc w okre�
 
   
 
-**Krok 3/11:&nbsp;[Wprowadź strukturę zakładu](/krok-2-maszyny)**
+**Krok 3/11:[Wprowadź strukturę zakładu](/krok-2-maszyny)**
 
   
 

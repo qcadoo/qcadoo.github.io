@@ -4,15 +4,15 @@ permalink: dane-podstawowe.html
 ---
 Gdybyśmy chcieli chwalić się erudycją, napisalibyśmy, że "Podstawowe" są to środki trwałe, kapitał ludzki oraz interesariusze Twojej firmy produkcyjnej. Ale, ponieważ stawiamy na prostotę i konkrety, wystarczy wejść w zakładkę "Podstawowe" i od razu wiadomo, że gromadzimy tutaj informację o (kliknij w linki po "więcej"):
 
-- naszych pracownikach w: [<font color="#0000ff">Pracownicy</font>](/pracownicy), [<font color="#0000ff">Działy</font>](/dzialy), [<font color="#0000ff">Zmiany</font>](/zmiany)
+- naszych pracownikach w: [Pracownicy](/pracownicy), [Działy](/dzialy), [Zmiany](/zmiany)
 
-- wynagrodzeniach:&nbsp; [<font color="#0000ff">Płace</font>](/place),&nbsp; [<font color="#0000ff">Grupy płacowe</font>](/grupy-placowe)
+- wynagrodzeniach: [Płace](/place), [Grupy płacowe](/grupy-placowe)
 
-- maszynach: [<font color="#0000ff">Typy stacji roboczych</font>](/typy-stacji-roboczych),&nbsp; [<font color="#0000ff">Stacje robocze</font>](/stacje-robocze)&nbsp;
+- maszynach: [Typy stacji roboczych](/typy-stacji-roboczych), [Stacje robocze](/stacje-robocze)
 
-- surowcach, półproduktach, produktach i odpadach w: [<font color="#0000ff">Produkty</font>](/produkty), [<font color="#0000ff">Rodziny produktów</font>](/rodziny-produktow), [<font color="#0000ff">Numery katalogowe</font>](/numery-katalogowe)
+- surowcach, półproduktach, produktach i odpadach w: [Produkty](/produkty), [Rodziny produktów](/rodziny-produktow), [Numery katalogowe](/numery-katalogowe)
 
-- klientach, dostawcach, kontrahentach: [<font color="#0000ff">Firmy</font>](/firmy)
+- klientach, dostawcach, kontrahentach: [Firmy](/firmy)
 
-- Twojej specyficznej terminologii: [<font color="#0000ff">Słowniki</font>](/slowniki)
+- Twojej specyficznej terminologii: [Słowniki](/slowniki)
 

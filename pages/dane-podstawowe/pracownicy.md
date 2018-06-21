@@ -6,22 +6,22 @@ Każdy pracownik ma w systemie przypisany swój identyfikator, imię i nazwisko 
 
   
 
-<font size="4">Jak dodać pracownika?</font>
+Jak dodać pracownika?
 
 * * *
 
 Bazę pracowników uzupełniamy wybierając:
 
-<font color="#073763"><b>PODSTAWOWE &gt;&gt; Pracownicy &gt;&gt; </b><b style="background-color:transparent;line-height:1.6;font-size:10pt">
-        <div style="display:inline!important"><img border="0" src="/images/dodaj%20nowy.png" style="vertical-align:-6px"></div>
-    </b>
+<b>PODSTAWOWE  Pracownicy  </b>
 
-        <div style="display:inline!important"><b>Dodaj nowy</b></div>
-    </font>
+<img border="0" src="/images/dodaj%20nowy.png" style="vertical-align:-6px">
+
+<b>Dodaj nowy</b>
+    
 
   
 
-<u style="font-weight:bold">ZASTOSOWANIE:</u>&nbsp; Pracownicy w systemie rejestrowani są na potrzeby przynajmniej dwóch sytuacji: 
+<u style="font-weight:bold">ZASTOSOWANIE:</u> Pracownicy w systemie rejestrowani są na potrzeby przynajmniej dwóch sytuacji: 
 
 - by ustalić kto jest odpowiedzialny za wykonanie danego produktu lub danej partii towaru
 - by móc nagrodzić danego pracownika za sumienne/szybkie wykonanie zadania

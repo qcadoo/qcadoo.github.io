@@ -4,13 +4,13 @@ permalink: przeliczniki.html
 ---
 Przeliczniki w qcadoo to funkcja pozwalająca na wygenerowanie możliwych przeliczników dla produktów. Globalne przeliczniki pełnią rolę wyłącznie informacyjną i nie są bezpośrednio wykorzystywane w przeliczeniach.  
 
-<font size="4">Jak dodać przeliczniki?</font>
+Jak dodać przeliczniki?
 
 * * *
 
-<font color="#073763"><b>PODSTAWOWE &gt;&gt; Przeliczniki</b></font>
+<b>PODSTAWOWE  Przeliczniki</b>
 
-Klikając ikonkę&nbsp; ![](/images/newIcon24.png)&nbsp;możemy dodać kolejne wartości przeliczników.
+Klikając ikonkę ![](/images/newIcon24.png)możemy dodać kolejne wartości przeliczników.
 
 [![](/images/Przeliczniki.png)](/images/Przeliczniki.png)
 

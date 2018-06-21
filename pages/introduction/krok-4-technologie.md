@@ -2,30 +2,30 @@
 title: "Krok 5 - Technologie"
 permalink: krok-4-technologie.html
 ---
-Masz już zdefiniowane produkty, maszyny i&nbsp;operacje, więc czas na kolejny krok! Możesz teraz utworzyć technologię produkcji - model mówiący o&nbsp;tym, jak operacja po operacji, z&nbsp;surowców i&nbsp;półproduktów powstaje gotowy produkt.  
+Masz już zdefiniowane produkty, maszyny ioperacje, więc czas na kolejny krok! Możesz teraz utworzyć technologię produkcji - model mówiący otym, jak operacja po operacji, zsurowców ipółproduktów powstaje gotowy produkt.  
   
  Aby utworzyć technologię postępuj zgodnie z poniższymi wskazówkami:  
 
 [![](/images/technologie-%20techn.png)](/images/technologie-%20techn.png)
 
-1. Przy pomocy&nbsp; ![](/images/lupka.png)&nbsp;&nbsp;wybierz produkt, dla którego chcesz stworzyć technologię.
+1. Przy pomocy ![](/images/lupka.png)wybierz produkt, dla którego chcesz stworzyć technologię.
 2. Po dodaniu produktu pola "Numer" i "Nazwę" są uzupełniane automatycznie na podstawie nazwy wybranego produktu. Oczywiście możesz je zmienić tak, aby odpowiadały Twoim wymaganiom i były dla Ciebie jak najbardziej zrozumiałe.
-3. Jeśli wprowadzana technologia będzie główną i&nbsp;wiodącą, po akceptacji będziesz mógł zaznaczyć opcję „Domyślna”. Więcej o&nbsp;stanach technologii znajdziesz tutaj **[tutaj](/statusy-technologii)**.
-4. Zapisz wprowadzone informacje, wybierając&nbsp; ![](/images/zapisz.png)&nbsp;Zapisz.
+3. Jeśli wprowadzana technologia będzie główną iwiodącą, po akceptacji będziesz mógł zaznaczyć opcję „Domyślna”. Więcej ostanach technologii znajdziesz tutaj **[tutaj](/statusy-technologii)**.
+4. Zapisz wprowadzone informacje, wybierając ![](/images/zapisz.png)Zapisz.
 5. Przejdź do zakładki **„Drzewo”**.
 
   
- W qcadoo technologię buduje się w&nbsp;formie drzewa operacji - układając je od ostatniej (np. malowanie, lub pakowanie) do pierwszej (np. piłowanie, cięcie). Aby wprowadzić model produkcji, wykonaj następujące kroki:  
+ W qcadoo technologię buduje się wformie drzewa operacji - układając je od ostatniej (np. malowanie, lub pakowanie) do pierwszej (np. piłowanie, cięcie). Aby wprowadzić model produkcji, wykonaj następujące kroki:  
 1. Dodaj operacje wchodzące w skład technologii. Dla każdej dodanej operacji możesz zmienić szereg parametrów, w tym normy czasowe i kosztowe. Zmiany te będą uwględnione tylko w tej technologii.  
 [![](/images/Technologie-%20technologie-%20drzewo.png)](/images/Technologie-%20technologie-%20drzewo.png)
 
-<u style="font-weight:bold">PAMIĘTAJ:</u>&nbsp; wprowadzona przez Ciebie jednostka produktu wyjściowego musi być taka sama jak jednostka wprowadzona wcześniej w normach czasowych
-2. Wybierając&nbsp; ![](/images/dodaj%20nowy.png)&nbsp; **Nowy&nbsp;** wprowadź używane w operacji surowce (czyli produkty wejściowe) oraz produkty końcowe (czyli produkty wyjściowe). 
+<u style="font-weight:bold">PAMIĘTAJ:</u> wprowadzona przez Ciebie jednostka produktu wyjściowego musi być taka sama jak jednostka wprowadzona wcześniej w normach czasowych
+2. Wybierając ![](/images/dodaj%20nowy.png) **Nowy** wprowadź używane w operacji surowce (czyli produkty wejściowe) oraz produkty końcowe (czyli produkty wyjściowe). 
 
-<u style="font-weight:bold">WSKAZÓWKA:</u>&nbsp;Może się zdarzyć, że na liście produktów nie będzie wszystkich materiałów potrzebnych do uzupełnienia produktów wejściowych i&nbsp;wyjściowych. Możesz je dopisać otwierając qcadoo w osobnym oknie przeglądarki i&nbsp;wchodząc ponownie w zakładkę „Produkty” (patrz **[Krok 1](/krok-1-produkty-1)**). 
-3. Kliknij przycisk ![](/images/zapisz.png)&nbsp; **Zapisz,** aby zachować wprowadzone zmiany.
+<u style="font-weight:bold">WSKAZÓWKA:</u>Może się zdarzyć, że na liście produktów nie będzie wszystkich materiałów potrzebnych do uzupełnienia produktów wejściowych iwyjściowych. Możesz je dopisać otwierając qcadoo w osobnym oknie przeglądarki iwchodząc ponownie w zakładkę „Produkty” (patrz **[Krok 1](/krok-1-produkty-1)**). 
+3. Kliknij przycisk ![](/images/zapisz.png) **Zapisz,** aby zachować wprowadzone zmiany.
 
-<u style="font-weight:bold"><span> </span>PRZYKŁAD:</u>&nbsp; z deski o wymiarach 6400 x 800 x 40 (produkt&nbsp;wejściowy) po operacji „Piłowanie” otrzymujemy wierzch taboretu nieheblowany (produkt wyjściowy) w&nbsp;ilości 1&nbsp;szt, następnie z&nbsp;1&nbsp;szt wierzchu taboretu nieheblowanego (produkt wejściowy) po operacji „heblowanie” otrzymujemy 1&nbsp;szt produktu wierzch taboretu (produkt wyjściowy) itd.  
+<u style="font-weight:bold"><span> </span>PRZYKŁAD:</u> z deski o wymiarach 6400 x 800 x 40 (produktwejściowy) po operacji „Piłowanie” otrzymujemy wierzch taboretu nieheblowany (produkt wyjściowy) wilości 1szt, następnie z1szt wierzchu taboretu nieheblowanego (produkt wejściowy) po operacji „heblowanie” otrzymujemy 1szt produktu wierzch taboretu (produkt wyjściowy) itd.  
 
   
 
@@ -56,9 +56,9 @@ Skończyłeś wprowadzać technologię. Teraz, aby użyć jej w zleceniu produkc
 
 **<u>UWAGA:</u>** Tylko zaakceptowane technologie mogą zostać użyte w zleceniu produkcyjnym.
 
-Najpierw upewnij się, że dane zostały wprowadzone prawidłowo, korzystając z&nbsp;funkcji&nbsp; ![](/images/startIcon24.png) **Sprawdź poprawność**. Jeżeli w&nbsp;którymś miejscu popełniłeś błąd, qcadoo poinformuje Cię o&nbsp;tym, wyświetlając odpowiedni komunikat. Jeżeli zaś wszystkie dane wprowadzone są poprawnie, nadaj gotowej technologii status „Zaakceptowana”, wybierając przycisk&nbsp; ![](/images/startIcon24.png)&nbsp; **Akceptuj** &nbsp;.  
+Najpierw upewnij się, że dane zostały wprowadzone prawidłowo, korzystając zfunkcji ![](/images/startIcon24.png) **Sprawdź poprawność**. Jeżeli wktórymś miejscu popełniłeś błąd, qcadoo poinformuje Cię otym, wyświetlając odpowiedni komunikat. Jeżeli zaś wszystkie dane wprowadzone są poprawnie, nadaj gotowej technologii status „Zaakceptowana”, wybierając przycisk ![](/images/startIcon24.png) **Akceptuj** .  
 
-**<u>UWAGA:</u>** &nbsp;Nadanie technologii statusu „Zaakceptowana” uniemożliwia wprowadzanie w&nbsp;niej zmian.
+**<u>UWAGA:</u>** Nadanie technologii statusu „Zaakceptowana” uniemożliwia wprowadzanie wniej zmian.
 
   
 

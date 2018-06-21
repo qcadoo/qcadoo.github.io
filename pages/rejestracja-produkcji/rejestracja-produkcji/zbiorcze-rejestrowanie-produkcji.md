@@ -2,11 +2,11 @@
 title: "Zbiorcze rejestrowanie produkcji"
 permalink: zbiorcze-rejestrowanie-produkcji.html
 ---
-<font size="2"><span style="line-height:1.6">
-Dla tego sposobu rejestracji produkcji dedykowana jest zakładka dostępna po wybraniu z głównego menu "Rejestracja", a następnie z podmenu: "Rejestracja produkcji".</span></font>  
+<span style="line-height:1.6">
+Dla tego sposobu rejestracji produkcji dedykowana jest zakładka dostępna po wybraniu z głównego menu "Rejestracja", a następnie z podmenu: "Rejestracja produkcji".</span>  
   
-<font size="4"><br>
-Jak rejestrować produkcję dla wariantu zbiorczego?</font>
+<br>
+Jak rejestrować produkcję dla wariantu zbiorczego?
 
 * * *
 
@@ -15,8 +15,8 @@ Jak rejestrować produkcję dla wariantu zbiorczego?</font>
 
   
 
-<font color="#073763" style="font-size:10pt;background-color:transparent"><b>REJESTRACJA &gt;&gt; Rejestracja produkcji &gt;&gt; </b></font>
- **![](/images/newIcon24.png)&nbsp;**<font color="#073763" style="font-size:10pt;background-color:transparent"><b>Dodaj nowy </b></font>
+<b>REJESTRACJA  Rejestracja produkcji  </b>
+ **![](/images/newIcon24.png)**<b>Dodaj nowy </b>
 
   
 
@@ -28,18 +28,18 @@ Pojawi się formularz (rysunek po prawej), w którym:
   
 
 1. 
- Przy pomocy ![](/images/lupka.png)&nbsp;wybieramy&nbsp;"Zlecenie produkcyjne", dla którego chcemy zarejestrować produkcję.&nbsp;  
+ Przy pomocy ![](/images/lupka.png)wybieramy"Zlecenie produkcyjne", dla którego chcemy zarejestrować produkcję.  
   
 
-2. Opcjonalnie możemy wybrać&nbsp;"Zmianę", "Pracownika", "Stację roboczą", "Dział", które wykonywały tę część zlecenia.  
+2. Opcjonalnie możemy wybrać"Zmianę", "Pracownika", "Stację roboczą", "Dział", które wykonywały tę część zlecenia.  
   
 3. Określamy następnie czy ten meldunek zwrotny jest ostatnim dla tego zlecenia. Jeśli tak, zaznaczamy pole "Końcowy".  
   
-4. Na koniec tej części klikamy&nbsp;&nbsp; ![](/images/saveIcon24.png)&nbsp; **Zapisz** , by móc przejść do kolejnego kroku.
+4. Na koniec tej części klikamy ![](/images/saveIcon24.png) **Zapisz** , by móc przejść do kolejnego kroku.
 
-Po zapisaniu aktywują się&nbsp;tabele z produktami w karcie **"Produkty we./wyj.**". Są to wszystkie produkty wejściowe i wyjściowe, jakie biorą udział w tym zleceniu produkcyjnym.
+Po zapisaniu aktywują siętabele z produktami w karcie **"Produkty we./wyj.**". Są to wszystkie produkty wejściowe i wyjściowe, jakie biorą udział w tym zleceniu produkcyjnym.
 
-- Klikając na numer bądź nazwę produktu pojawi się formularz, gdzie wprowadzamy ilości produktów wejściowych i wyjściowych. Jeśli przy definiowaniu zlecenia produkcyjnego i sposobu rejestracji meldunków nie wybraliśmy rejestracji produktów wejściowych i wyjściowych, tabele będą niewidoczne. Wartości te możemy wprowadzić ręcznie (rysunek po prawej) bądź możemy je skopiować z podanych w planie, aby to zrobić należy wybrać&nbsp; ![](/images/copyIcon24.png)&nbsp; **Kopiuj ilości planowane do podanych** (rysunek po lewej). 
+- Klikając na numer bądź nazwę produktu pojawi się formularz, gdzie wprowadzamy ilości produktów wejściowych i wyjściowych. Jeśli przy definiowaniu zlecenia produkcyjnego i sposobu rejestracji meldunków nie wybraliśmy rejestracji produktów wejściowych i wyjściowych, tabele będą niewidoczne. Wartości te możemy wprowadzić ręcznie (rysunek po prawej) bądź możemy je skopiować z podanych w planie, aby to zrobić należy wybrać ![](/images/copyIcon24.png) **Kopiuj ilości planowane do podanych** (rysunek po lewej). 
 [![](/images/u%C5%BCyta%20ilo%C5%9B%C4%87-%20strza%C5%82ki.png)](/images/u%C5%BCyta%20ilo%C5%9B%C4%87-%20strza%C5%82ki.png)
 
 [![](/images/rejestracja%20produkcji-%20meldunek%20zbiorczy-%20strza%C5%82ki.png)](/images/rejestracja%20produkcji-%20meldunek%20zbiorczy-%20strza%C5%82ki.png)  
@@ -57,10 +57,10 @@ Po zapisaniu aktywują się&nbsp;tabele z produktami w karcie **"Produkty we./wy
   
 
 - 
-W karcie "Czas/Akordowo" wprowadzamy&nbsp;czas realizacji (całego lub fragmentu danego zlecenia, ponieważ możemy wprowadzać kilka meldunków zwrotnych dla danego zlecenia). Jeśli w danym zleceniu produkcyjnym, w zakładce&nbsp; **"Rejestracja produkcji"** &nbsp;odznaczyliśmy pole&nbsp; **"Rejestrować czasy produkcji"** , to ten fragment formularza nie pojawi się dla tego konkretnego zlecenia.  
+W karcie "Czas/Akordowo" wprowadzamyczas realizacji (całego lub fragmentu danego zlecenia, ponieważ możemy wprowadzać kilka meldunków zwrotnych dla danego zlecenia). Jeśli w danym zleceniu produkcyjnym, w zakładce **"Rejestracja produkcji"** odznaczyliśmy pole **"Rejestrować czasy produkcji"** , to ten fragment formularza nie pojawi się dla tego konkretnego zlecenia.  
   
 
-- Ponownie zapisujemy wprowadzone dane. Jeśli uznamy, że jest to ostateczny kształt meldunku zwrotnego - przypisujemy stan&nbsp; ![](/images/startIcon24.png)&nbsp; **Zaakceptowane**. Od tej chwili nie jest już możliwe wprowadzenie zmian w tym formularzu.
+- Ponownie zapisujemy wprowadzone dane. Jeśli uznamy, że jest to ostateczny kształt meldunku zwrotnego - przypisujemy stan ![](/images/startIcon24.png) **Zaakceptowane**. Od tej chwili nie jest już możliwe wprowadzenie zmian w tym formularzu.
 
   
 
@@ -68,9 +68,9 @@ Wszystkie meldunki zwrotne stworzone w systemie będą widoczne w formie listy w
 
   
 
-Po zebraniu wszystkich meldunków zwrotnych i nadaniu im stanu **"Zaakceptowane"** możemy wygenerować rozliczenie i raport produkcji. Meldunki zwrotne bez statusu zaakceptowane nie mogą zostać użyte w raportach i rozliczeniach.&nbsp;Stany w meldunkach zwrotnych służą do ostatecznego potwierdzenia wprowadzonych danych i nie jest możliwa ich późniejsza edycja.
+Po zebraniu wszystkich meldunków zwrotnych i nadaniu im stanu **"Zaakceptowane"** możemy wygenerować rozliczenie i raport produkcji. Meldunki zwrotne bez statusu zaakceptowane nie mogą zostać użyte w raportach i rozliczeniach.Stany w meldunkach zwrotnych służą do ostatecznego potwierdzenia wprowadzonych danych i nie jest możliwa ich późniejsza edycja.
 
   
 
-Więcej o tym, jak stworzyć raport przejdź do&nbsp;<font color="#0000ff"><a href="/rozliczenie-produkcji" target="_blank"><font color="#0000ff">Rozliczenia produkcji</font></a>.</font>
+Więcej o tym, jak stworzyć raport przejdź do<a href="/rozliczenie-produkcji" target="_blank">Rozliczenia produkcji</a>.
 

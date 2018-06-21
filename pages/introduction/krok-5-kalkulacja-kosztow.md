@@ -14,7 +14,7 @@ Następnie przejdź do zakładki **„Dane wejściowe”**. Wybierz, które kosz
 
 Możesz także doliczyć marżę na materiały i na koszty operacji oraz inne, dodatkowe koszta.
 
-Po wprowadzeniu danych wybierz&nbsp; ![](/images/zapisz.png)&nbsp; **Zapisz** &nbsp;i&nbsp; ![](/images/generateIcon24.png) **Generuj kalkulację**. Jej wynik pokaże się w&nbsp;ostatniej karcie - **„Wyniki kalkulacji”**. Możesz również pobrać raport kalkulacji w&nbsp;formie pliku **PDF** &nbsp; ![](/images/pdfIcon24.png).&nbsp;
+Po wprowadzeniu danych wybierz ![](/images/zapisz.png) **Zapisz** i ![](/images/generateIcon24.png) **Generuj kalkulację**. Jej wynik pokaże się wostatniej karcie - **„Wyniki kalkulacji”**. Możesz również pobrać raport kalkulacji wformie pliku **PDF**  ![](/images/pdfIcon24.png).
 
 Dane z kalkulacji mogą posłużyć do stworzenia oferty handlowej dotyczącej wyprodukowania danego wyrobu.
 

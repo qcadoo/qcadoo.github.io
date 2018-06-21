@@ -2,7 +2,7 @@
 title: "Wprowadzenie"
 toc: false
 ---
-Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Średnich Firm. Pozwala na zarządzanie i monitorowanie produkcji. Jest rozwiązaniem, które łączy w sobie funkcje systemów klasy MES, ERP lub MRP specjalnie dostosowanych dla Małych i Średnich Firm. Na tle innych systemów do zarządzania produkcją wyróżnia się łatwością użycia, prostotą dostosowywania, szybkim wdrożeniem, niekończącymi się możliwościami rozbudowy.&nbsp;
+Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Średnich Firm. Pozwala na zarządzanie i monitorowanie produkcji. Jest rozwiązaniem, które łączy w sobie funkcje systemów klasy MES, ERP lub MRP specjalnie dostosowanych dla Małych i Średnich Firm. Na tle innych systemów do zarządzania produkcją wyróżnia się łatwością użycia, prostotą dostosowywania, szybkim wdrożeniem, niekończącymi się możliwościami rozbudowy.
 
 <div class="row">
          <div class="col-md-3 col-sm-6">
@@ -130,10 +130,9 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
 </div>
 
 
-<font size="3"><b><br>
-        </b></font>
+<br>
 
-<font size="3"><b>Jeśli jeszcze nie posiadasz swojego konta w qcadoo MES, na naszej stronie internetowej <a href="http://www.qcadoo.com" target="_blank"><font color="#0000ff">www.qcadoo.com</font></a> możesz otrzymać dostęp do darmowej 15-dniowej wersji demonstracyjnej. Zachęcamy!</b></font>
+<b>Jeśli jeszcze nie posiadasz swojego konta w qcadoo MES, na naszej stronie internetowej <a href="http://www.qcadoo.com" target="_blank">www.qcadoo.com</a> możesz otrzymać dostęp do darmowej 15-dniowej wersji demonstracyjnej. Zachęcamy!</b>
 
 <h2>Najczęściej zadawane pytania:</h2>
 

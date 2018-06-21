@@ -12,7 +12,7 @@ Udało Ci się zarejestrować produkcję. Teraz możesz przeanalizować poniesio
 - kosztów pracy.
 
   
- Wybierz z menu opcję Rejestracja\>\>Rozliczenie produkcji i dodaj nowe rozliczenie. Aby wygenerować rozliczenie, należy wypełnić dane w zakładkach "Główna" (1) oraz "Dane dla kosztów" (2), a następnie wybrać&nbsp; ![Generuj](/images/generateIcon24.png)&nbsp; **Generuj** (3).  
+ Wybierz z menu opcję RejestracjaRozliczenie produkcji i dodaj nowe rozliczenie. Aby wygenerować rozliczenie, należy wypełnić dane w zakładkach "Główna" (1) oraz "Dane dla kosztów" (2), a następnie wybrać ![Generuj](/images/generateIcon24.png) **Generuj** (3).  
   
 
 [![](/images/rozliczenie_produkcji.png)](/images/rozliczenie_produkcji.png)
@@ -26,7 +26,7 @@ W zakładce "Główna" należy przede wszystkim wybrać interesujące Cię zlece
 - czy w rozliczeniu mają zostać wydrukowane normy operacji (1),
 - czy uwzględnić czas przygotowawczo-zakończeniowy TPZ i dodatkowy czas (2),
 - typ rejestracji operacji - godzinowy lub akord (2).
-&nbsp;  
+  
   
   
   
@@ -43,7 +43,7 @@ Pozostało jeszcze określenie parametrów potrzebnych do wyliczenia kosztów ma
 
   
 
-Po uzupełnieniu danych w zakładkach "Główna" oraz "Dane dla kosztów"&nbsp; wybierz ![Generuj](/images/generateIcon24.png)&nbsp; **Generuj**. Rozliczenie zostało wygenerowane - możesz je obejrzeć na pozostałych zakładkach lub też wydrukować w formie PDF.
+Po uzupełnieniu danych w zakładkach "Główna" oraz "Dane dla kosztów" wybierz ![Generuj](/images/generateIcon24.png) **Generuj**. Rozliczenie zostało wygenerowane - możesz je obejrzeć na pozostałych zakładkach lub też wydrukować w formie PDF.
 
   
   

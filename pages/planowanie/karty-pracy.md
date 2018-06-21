@@ -39,7 +39,7 @@ Możemy natomiast podzielić dane na kartach pracy według następujących kateg
 
   
 
-<font size="4">Jak stworzyć karty pracy?</font>
+Jak stworzyć karty pracy?
 
 * * *
   
@@ -52,9 +52,9 @@ Najpierw należy wybrać te elementy, które znaleźć się mają w kartach prac
 
 Dane te możemy modyfikować w trzech miejscach w systemie:
 
-- <font color="#073763"><b>TECHNOLOGIE &gt;&gt; Operacje</b></font> - definiujemy ustawienia dla danej operacji
-- **<font color="#073763">PLANOWANIE &gt;&gt; Karty pracy</font>** - stricte dla danego wydruku
-- **<font color="#073763">ADMINISTRACJA &gt;&gt; Parametry</font>** - definiujemy globalne ustawienia dla wszystkich kart pracy powstających w systemie
+- <b>TECHNOLOGIE  Operacje</b> - definiujemy ustawienia dla danej operacji
+- **PLANOWANIE  Karty pracy** - stricte dla danego wydruku
+- **ADMINISTRACJA  Parametry** - definiujemy globalne ustawienia dla wszystkich kart pracy powstających w systemie
 
 Widok ustawień jest dla każdego z tych miejsc podobny:
 
@@ -66,7 +66,7 @@ Widok ustawień jest dla każdego z tych miejsc podobny:
 
     <u><b>UWAGA: </b></u>W przypadku dodania obrazu w "Administracji" obraz ten pojawiał się będzie pod każdą operacją  
 
-4. Następnie**&nbsp; ![](/images/saveIcon24.png)&nbsp;Zapisujemy**&nbsp;i możemy przejść do drugiej karty.
+4. Następnie** ![](/images/saveIcon24.png)Zapisujemy**i możemy przejść do drugiej karty.
 * * *
 
 [![](/images/karty%20pracy-%20produkty%20wej.%20wyj.-%20strza%C5%82ki.png)](/images/karty%20pracy-%20produkty%20wej.%20wyj.-%20strza%C5%82ki.png)
@@ -76,14 +76,14 @@ Widok ustawień jest dla każdego z tych miejsc podobny:
   
 2. Decydujemy o tym czy produkty wejściowe i/lub wyjściowe w ogóle pojawią się na kartach.  
   
-3. Jeśli tak, to&nbsp; ![](/images/newIcon16.png)&nbsp; **Dodajemy** &nbsp;jakie konkretnie informacje będą potrzebne (obecnie do wyboru są: Numer i Nazwa produktu, Planowana ilość, Planowana data zakończenia&nbsp;[<font color="#0000ff">Numer partii</font>](/jak-dodac-numery-partii)).  
+3. Jeśli tak, to ![](/images/newIcon16.png) **Dodajemy** jakie konkretnie informacje będą potrzebne (obecnie do wyboru są: Numer i Nazwa produktu, Planowana ilość, Planowana data zakończenia[Numer partii](/jak-dodac-numery-partii)).  
   
 4. Podobnie w z produktami wyjściowymi.  
   
-5. <font face="arial, sans-serif" style="font-size:10pt;line-height:1.6;background-color:transparent">Na koniec </font> **![](/images/saveIcon24.png)&nbsp;Zapisujemy&nbsp;**<font face="arial, sans-serif" style="font-size:10pt;line-height:1.6;background-color:transparent">wprowadzone ustawienia.</font>
+5. Na koniec  **![](/images/saveIcon24.png)Zapisujemy**wprowadzone ustawienia.
 
-<font face="arial, sans-serif"><br>
-    </font>
+<br>
+    
 
   
 
@@ -91,17 +91,17 @@ Widok ustawień jest dla każdego z tych miejsc podobny:
 
 * * *
 
-**<font size="4">Skoro mamy już zdefiniowane jakie parametry nas interesują - teraz wystarczy wygenerować karty pracy.<br>
+**Skoro mamy już zdefiniowane jakie parametry nas interesują - teraz wystarczy wygenerować karty pracy.<br>
         <br>
-    </font>**
+    **
 
  ![](/images/karty%20pracy%20+%20strza%C5%82ki.png)
 
 Można to zrobić z dwóch poziomów:
 
-- z poziomu **"Zleceń produkcyjnych"** - wybierając jedno, lub wiele zleceń i klikamy przycisk w menu&nbsp; ![](/images/pdfIcon24.png)&nbsp; **Dodaj dla wybranych**  
-- z poziomu: **Zleceń produkcyjnych** <font color="#073763"><b> &gt;&gt; Karty pracy &gt;&gt;</b></font>
- ![](/images/newIcon24.png)&nbsp; **Dodaj nowy.**
+- z poziomu **"Zleceń produkcyjnych"** - wybierając jedno, lub wiele zleceń i klikamy przycisk w menu ![](/images/pdfIcon24.png) **Dodaj dla wybranych**  
+- z poziomu: **Zleceń produkcyjnych** <b>  Karty pracy </b>
+ ![](/images/newIcon24.png) **Dodaj nowy.**
 
 W obu przypadkach pojawi się pole, gdzie:
 
@@ -109,15 +109,15 @@ W obu przypadkach pojawi się pole, gdzie:
   
 2. Wybieramy sposób kategoryzowania w nich danych.  
   
-3. Po&nbsp; **![](/images/saveIcon24.png)**&nbsp; **Zapisaniu** uaktywni się pole po prawej.  
+3. Po **![](/images/saveIcon24.png)** **Zapisaniu** uaktywni się pole po prawej.  
   
 4. 
- ![](/images/newIcon16.png)&nbsp; **Dodajemy** zlecenia produkcyjne (w przypadku generowania kart pracy z poziomu "Zleceń produkcyjnych" dodadzą się one automatycznie).  
+ ![](/images/newIcon16.png) **Dodajemy** zlecenia produkcyjne (w przypadku generowania kart pracy z poziomu "Zleceń produkcyjnych" dodadzą się one automatycznie).  
   
 
 5. Możemy zdecydować jakie dane pojawią się na wydrukach.  
   
-6. Wybieramy&nbsp; ![](/images/generateIcon24.png)&nbsp; **Generuj** i możemy pobrać **(**![](/images/pdfIcon24.png)**&nbsp;PDF)**&nbsp;gotowe karty pracy. 
+6. Wybieramy ![](/images/generateIcon24.png) **Generuj** i możemy pobrać **(**![](/images/pdfIcon24.png)**PDF)**gotowe karty pracy. 
 
   
 

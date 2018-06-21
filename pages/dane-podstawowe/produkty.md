@@ -3,11 +3,11 @@ title: "Produkty"
 permalink: produkty.html
 ---
  W qcadoo w "Produktach" gromadzimy: surowce, produkty, półprodukty i odpady. 
-Produkty możemy dodać na dwa sposoby: ręcznie - definiując każdy po kolei, bądź integrując qcadoo z używanym do tej pory w firmie systemem magazynowo-księgowym. [<font color="#0000ff">Więcej o Integracji.</font>](/integracja)
+Produkty możemy dodać na dwa sposoby: ręcznie - definiując każdy po kolei, bądź integrując qcadoo z używanym do tej pory w firmie systemem magazynowo-księgowym. [Więcej o Integracji.](/integracja)
 
   
 
-<font size="4">Jak ręcznie dodać produkty?</font>
+Jak ręcznie dodać produkty?
 
 * * *
   
@@ -16,9 +16,9 @@ Decydując się na ręczne wprowadzanie produktów, wybieramy:
 
   
 
-<font color="#073763"><b>PODSTAWOWE &gt;&gt; Produkty &gt;&gt;</b> 
+<b>PODSTAWOWE  Produkty </b> 
 
-        <img border="0" src="/images/newIcon24.png" style="vertical-align:-6px"> <b>Dodaj nowy</b></font>
+<img border="0" src="/images/newIcon24.png" style="vertical-align:-6px"> <b>Dodaj nowy</b>
 
 - W zakładce **"Główna"** nadajemy produktom numer i nazwę oraz typ produktu i jednostkę, podajemy też kod EAN (kod kreskowy).   
  Niekiedy półprodukt jest jednocześnie produktem finalnym, dlatego, choć jest to pole obowiązkowe, nie ma to dalszych konsekwencji w systemie (jest to parametr potrzebny w przypadku integracji qcadoo z innym oprogramowaniem).
@@ -33,15 +33,15 @@ Decydując się na ręczne wprowadzanie produktów, wybieramy:
 
 [![](/images/Podstawowe-%20produkty-%20koszty.png)](/images/Podstawowe-%20produkty-%20koszty.png)
  
- W zakładce **&nbsp;"Technologie"** przypisujemy produktowi powiązaną grupę technologii. 
+ W zakładce **"Technologie"** przypisujemy produktowi powiązaną grupę technologii. 
   
 
-Wprowadzane produkty tworzą listę, która będzie widoczna po wybraniu "Podstawowe" i "Produkty". Do jej przeszukiwania służy Filtr. [<font color="#0000ff">Więcej o Filtrze.</font>](/inteligentny-filtr)
+Wprowadzane produkty tworzą listę, która będzie widoczna po wybraniu "Podstawowe" i "Produkty". Do jej przeszukiwania służy Filtr. [Więcej o Filtrze.](/inteligentny-filtr)
 
   
 
-<u style="font-weight:bold">ZASTOSOWANIE:</u>&nbsp;Produkty mają szerokie zastosowanie w całym systemie, oto kilka z możliwości: 
-- Produkty biorą udział w definiowaniu [<font color="#0000ff">Technologii</font>](/technologie) produkcji (w qcadoo jest to bardziej szczegółowy odpowiednik marszruty, BOMu).&nbsp;
-- Na ich podstawie powstaje [<font color="#0000ff">Zapotrzebowanie materiałowe</font>](/zapotrzebowanie-materialowe), są one wykorzystywane w<font color="#0000ff"> <a href="/karty-pracy"><font color="#0000ff">Kartach pracy</font></a></font>.
-- Produkty niosą ze sobą [<font color="#0000ff">Normy kosztowe</font>](/normy-kosztowe), które wykorzystywane są w [<font color="#0000ff">Kalkulacji kosztów produkcji</font>](/koszty-zlecenia), pozwalają na śledzenie&nbsp;[<font color="#0000ff">Genealogii</font>](/genealogia), itd.
+<u style="font-weight:bold">ZASTOSOWANIE:</u>Produkty mają szerokie zastosowanie w całym systemie, oto kilka z możliwości: 
+- Produkty biorą udział w definiowaniu [Technologii](/technologie) produkcji (w qcadoo jest to bardziej szczegółowy odpowiednik marszruty, BOMu).
+- Na ich podstawie powstaje [Zapotrzebowanie materiałowe](/zapotrzebowanie-materialowe), są one wykorzystywane w <a href="/karty-pracy">Kartach pracy</a>.
+- Produkty niosą ze sobą [Normy kosztowe](/normy-kosztowe), które wykorzystywane są w [Kalkulacji kosztów produkcji](/koszty-zlecenia), pozwalają na śledzenie[Genealogii](/genealogia), itd.
 
