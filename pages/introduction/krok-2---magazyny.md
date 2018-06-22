@@ -8,7 +8,11 @@ Magazyny będą uczestniczyły w całym procesie produkcyjnym - to na nie będzi
 
   
 
-W menu Magazyn wybierz pozycję Magazyny i kliknij[![](/images/dodaj%20nowy.png)](/images/dodaj%20nowy.png)Dodaj nowy. ![](/images/magazyn_lista.png)
+W menu Magazyn wybierz pozycję Magazyny i kliknij {% include inline_image.html file="dodaj%20nowy.png" alt="Dodaj nowy" %} Dodaj nowy. 
+
+
+{% include lightbox.html file="magazyn_lista.png" alt="Lista magazynów" caption="Lista magazynów" %}
+
 
 W uruchomionym oknie podaj **numer** i **nazwę** magazynu, a także **typ** magazyn z zasobami.
 
@@ -20,7 +24,7 @@ W zakładce **Metoda rozchodu i atrybuty dokumentu** możesz wybrać wg jakiej m
 
   
 
-Po zapisaniu[![](/images/zapisz.png)](/images/zapisz.png)magazynu będziesz mógł:
+Po zapisaniu {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} magazynu będziesz mógł:
 
 - wystawiać dokumenty magazynowe
 - kontrolować ukształtowane dokumentami stany magazynowe oraz analizować utworzone zasoby

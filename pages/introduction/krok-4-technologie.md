@@ -2,7 +2,7 @@
 title: "Krok 5 - Technologie"
 permalink: krok-4-technologie.html
 ---
-Masz już zdefiniowane produkty, maszyny ioperacje, więc czas na kolejny krok! Możesz teraz utworzyć technologię produkcji - model mówiący otym, jak operacja po operacji, zsurowców ipółproduktów powstaje gotowy produkt.  
+Masz już zdefiniowane produkty, maszyny ioperacje, więc czas na kolejny krok! Możesz teraz utworzyć technologię produkcji - model mówiący o tym, jak operacja po operacji, z surowców i półproduktów powstaje gotowy produkt.  
   
  Aby utworzyć technologię postępuj zgodnie z poniższymi wskazówkami:  
 
