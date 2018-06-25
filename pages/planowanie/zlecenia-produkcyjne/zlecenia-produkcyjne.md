@@ -3,7 +3,7 @@ title: "Zlecenia produkcyjne"
 permalink: zlecenia-produkcyjne.html 
 toc: false
 ---
-Zlecenia produkcyjne realizowane są w oparciu o uprzednio utworzone [Technologie](/technologie-szczegoly). Oznacza to, że zlecenia produkcyjne można stworzyć jedynie dla tych produktów, które posiadają zaakceptowaną technologię. Więcej informacji znajduje się na stronie  -[Statusy technologii](/statusy-technologii)
+Zlecenia produkcyjne realizowane są w oparciu o uprzednio utworzone [Technologie](/technologie-szczegoly). Oznacza to, że zlecenia produkcyjne można stworzyć jedynie dla tych produktów, które posiadają zaakceptowaną technologię. Więcej informacji znajduje się na stronie  - [Statusy technologii](/statusy-technologii)
   
 ## Dodanie nowego zlecenia  
 
@@ -11,18 +11,18 @@ Zlecenia produkcyjne realizowane są w oparciu o uprzednio utworzone [Technologi
 
 {% include lightbox.html file="planowanie-%20zlecenia%20produkcyjne-%20g%C5%82%C3%B3wna-%20strza%C5%82ki.png" alt="Formularz zlecenia produkcyjnego" caption="Formularz zlecenia produkcyjnego" class="float-right" %}
 
-1. W pierwszym kroku przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %}wybieramy "Produkt", którego dotyczy Twoje zamówienie. Produkty pobierają się ze zdefiniowanej wcześniej listy [Produktów](/produkty)z "Danych podstawowych". Po wybraniu "Produktu" wybieramy "Technologię", którą chcesz zastosować. Jeżeli dla danego produktu zaznaczyłeś technologię jako domyślną, pole to uzupełni się automatycznie.  
+1. W pierwszym kroku przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %}wybieramy "Produkt", którego dotyczy Twoje zamówienie. Produkty pobierają się ze zdefiniowanej wcześniej listy [Produktów](/produkty) z "Danych podstawowych". Po wybraniu "Produktu" wybieramy "Technologię", którą chcesz zastosować. Jeżeli dla danego produktu zaznaczyłeś technologię jako domyślną, pole to uzupełni się automatycznie.  
   
 2. Wybieramy linię produkcyjną, na której chcemy zrealizować zlecenie.  
   
 3. W kolejnym kroku podajemy jaką ilość produktu planujemy wyprodukować ("Zaplanowana ilość produktu").  
   
-4. Pola"Numer"i"Nazwa"wypełnią się automatycznie. Dane te możesz zmodyfikować wg. własnych preferencji.  
+4. Pola "Numer" i "Nazwa" wypełnią się automatycznie. Dane te możesz zmodyfikować wg. własnych preferencji.  
   
 5. Nie musisz ręcznie przeliczać czasu potrzebnego na zrealizowaniezlecenia. 
 
     
-Program daje możliwość obliczenia terminu zakończenia zlecenia. Aby to zrobić należy skorzystać z funkcji **{% include inline_image.html file="iconProducts24.png" alt="Przycisk Czasochłonność" %}Czasochłonność**, która jest dostępna po rozwinięciu bocznego paska{% include inline_image.html file="dropdownIcon32.png" alt="Przycisk do rozwinięcia Menu" %}. Opcja ta jest dostępna jedynie dla zlecenia, którezostało zaakceptowane.  
+Program daje możliwość obliczenia terminu zakończenia zlecenia. Aby to zrobić należy skorzystać z funkcji **{% include inline_image.html file="iconProducts24.png" alt="Przycisk Czasochłonność" %}Czasochłonność**, która jest dostępna po rozwinięciu bocznego paska {% include inline_image.html file="dropdownIcon32.png" alt="Przycisk do rozwinięcia Menu" %}. Opcja ta jest dostępna jedynie dla zlecenia, którezostało zaakceptowane.  
 
 {% include lightbox.html file="czasoch%C5%82onno%C5%9B%C4%87-%20strza%C5%82ki.png" alt="Formularz czasochłnności" caption="Formularz czasochłonności" class="float-right" %}
 
@@ -54,7 +54,7 @@ Należy skopiować zlecenie - wtedy pojawi się duplikat, tyle że w statusie sz
 {% include lightbox.html file="Zlecenia%20produkcyjne-%20widok%20g%C5%82%C3%B3wny.png" alt="Lista zleceń produkcyjnych" caption="Lista zleceń produkcyjnych" %}
   
 
-Wprowadzone i zapisane zlecenie jest w stanie **"Oczekujące"**. Gdy upewnimy się, że nie będziemy wprowadzać już żadnych poprawek - zmieniamy jego stan na{% include inline_image.html file="startIcon24.png" alt="Przycisk Start" %} **Zaakceptowane.** Następnie, aby wystartować zlecenie, zmieniamy ponownie stan klikając przycisk{% include inline_image.html file="startIcon24.png" alt="Przycisk Start" %} **Rozpocznij**.
+Wprowadzone i zapisane zlecenie jest w stanie **"Oczekujące"**. Gdy upewnimy się, że nie będziemy wprowadzać już żadnych poprawek - zmieniamy jego stan na {% include inline_image.html file="startIcon24.png" alt="Przycisk Start" %} **Zaakceptowane.** Następnie, aby wystartować zlecenie, zmieniamy ponownie stan klikając przycisk {% include inline_image.html file="startIcon24.png" alt="Przycisk Start" %} **Rozpocznij**.
 
 W głównym widoku **"Zleceń produkcyjnych"** mamy listę wszystkich wprowadzonych zleceń. Możliwe jest ich sortowanie po numerze zlecenia oraz nadanym statusie.
 
@@ -65,6 +65,6 @@ Stany zleceń służą nie tylko do informowania o tym, które ze zleceń są ak
 Rozpoczęte zlecenia produkcyjne umożliwiają przeprowadzenie na nich szereg zadań towarzyszących danemu zleceniu. Są nimi:
 
 
-- [Rejestracja produkcji](/rejestracja)- gromadzenie meldunków zwrotnych o postępach w realizacji zlecenia
+- [Rejestracja produkcji](/rejestracja) - gromadzenie meldunków zwrotnych o postępach w realizacji zlecenia
 - Możliwe jest również nadpisanie [Cen materiałów użytych w danym zleceniu](/ceny-materialow-dla-zlecenia)
 - Możliwość edycji [Stanu zapotrzebowania materiałowego dla danego zlecenia](/zmiana-stanu-zapotrzebowania)
