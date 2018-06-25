@@ -6,9 +6,6 @@ permalink: krok-2-maszyny.html
 ## Działy firmy
 Twój zakład produkcyjny zapewne ma wydzielone działy produkcyjne, a wykorzystywane maszyny czy stanowiska robocze są zgrupowane w gniazda czy linie produkcyjne. Podział ten możesz wprowadzić do programu tworząc zbudowaną w formie drzewa strukturę zakładu.
 
-  
-
-
 
 {% include lightbox.html file="dzialy_lista.png" alt="Lista działów" caption="Lista działów" %}
   
@@ -38,9 +35,8 @@ Linia produkcyjna jest bardzo ważnym elementem w programie - zlecenia produkcyj
 
 Wszelkie operacje w procesie produkcyjnym są wykonywane na maszynach lub stanowiskach zgromadzonych na danej linii produkcyjnej. Oprócz zdefiniowania konkretnych jednostkowych stacji roboczych, qcadoo MES umożliwia wprowadzenie typu stacji roboczych, dla pogrupowania wszystkich maszyn pakujących czy wszystkich frezarek wykorzystywanych w firmie. Dana stacja robocza musi mieć określony swój typ, dlatego wprowadź teraz typy stacji roboczej.
 
-  
 
-  
+## Stacje robocze
 
 Otwórz menu "Dane podstawowe" i w niej w "Typy stacji roboczych". Kliknijprzycisk {% include inline_image.html file="dodaj%20nowy.png" alt="Dodaj nowy" %} **Dodaj nowy**.
 
@@ -61,7 +57,7 @@ Zdefiniowałeś wszystkie elementy - możesz je teraz powiązać ze sobą w drze
 
 W danym dziale w zakładce Linie produkcyjne dodaj wszystkie **linie** , które w danym dziale się znajdują. Następnie do linii możesz dodać jej **stacje robocze** (po kliknięciu w daną linię produkcyjną w tabeli z prawej części okna uaktywni się przycisk dodawania).
 
-  
+## Struktura firmy
 
 W ten sposób stworzysz drzewiastą strukturę zakładu tego typu:
 {% include lightbox.html file="struktura.png" alt="Struktura firmy" caption="Struktura firmy" %} 
