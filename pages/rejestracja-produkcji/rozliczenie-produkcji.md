@@ -1,38 +1,25 @@
 ---
 title: "Rozliczenie produkcji"
 permalink: rozliczenie-produkcji.html
+toc: false
 ---
 Rozliczanie produkcji przynosi dwie korzyści.
 
-- na podstawie zbieranych danych można zrewidować i uczynić bliższymi prawdy nasze założenia produkcyjne co do czasów realizacji zleceń i ilości potrzebnych surowców.
+- na podstawie zbieranych danych można zrewidować i uczynić bliższymi prawdy nasze założenia produkcyjne co do czasów realizacji zleceń i ilości potrzebnych surowców
 - wiadomo ile faktycznie kosztowało nas zrealizowanie danego zlecenia produkcyjnego i wyeliminowanie na przyszłość zbędnych kosztów
-
-  
 
  Funkcjonalność " **Rozliczenie produkcji**" pozwala również na tworzenie i gromadzenie raportów i zestawień z rejestracji produkcji (dla wariantów: "zbiorczego" i "dla każdej operacji"). 
   
+{% include callout.html content="Aby stworzyć raport rozliczenia produkcji dla danego zlecenia produkcyjnego, wszystkie zarejestrowane meldunki zwrotne (patrz odpowiednio: [Zbiorcze rejestrowanie produkcji](/zbiorcze-rejestrowanie-produkcji) i [Rejestracja każdej operacji](/rejestracja-kazdej-operacji)) muszą być w stanie **Zaakceptowane**." type="info" %} 
 
-**<u>UWAGA:</u>** Aby stworzyć raport rozliczenia produkcji dla danego zlecenia produkcyjnego, wszystkie zarejestrowane meldunki zwrotne (patrz odpowiednio: <a href="/zbiorcze-rejestrowanie-produkcji">Zbiorcze rejestrowanie produkcji</a>i [Rejestracja każdej operacji](/rejestracja-kazdej-operacji))muszą być w stanie ![](/images/startIcon24.png) **Zaakceptowane**.
+## Jak wygenerować raport rozliczenia produkcji?
 
-  
+Aby wygenerować nowy raport wybieramy:
 
-  
-
-Jak wygenerować raport rozliczenia produkcji?
-
-* * *
-
-Aby wygenerować nowy raportwybieramy:
-
-  
-
-<b>REJESTRACJA  Rozliczenie produkcji  </b>
- **![](/images/newIcon24.png)**<b>Dodaj nowy</b>
-
-
-
+**REJESTRACJA  Rozliczenie produkcji {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
 
 ![](/images/rejestracja-%20rozliczenie%20produkcji-%20strza%C5%82ki.png)
+
 1. W pierwszym kroku przy pomocy ![](/images/lupka.png)wybieramy "Zlecenie" produkcyjne, dla którego chcemy wygenerować raport. Po wybraniu zlecenia pole "Produkt" uzupełni się automatycznie.  
   
 
@@ -49,11 +36,6 @@ Aby wygenerować nowy raportwybieramy:
 
 > Po zapisaniu i wygenerowaniu raportu wypełnią się pola w kolejnych kartach **"Produkty wejściowe"** , **"Produkty wyjściowe", "Praca", "Koszty materiałów", "Koszty pracy"** i **"Podsumowanie kosztów"**.
 
-  
-
-  
-
-* * *
 
 W zakładce " **Produkty wejściowe**" mamy zestawienie użytych produktów i półproduktów w danym zleceniu produkcyjnym.W kolumnach tabeli można wyczytać ile produktów zaplanowaliśmy zużyć i ile faktycznie zostało pochłonięte w ramach tego zlecenia oraz ile wynosi ewentualna różnica.
 

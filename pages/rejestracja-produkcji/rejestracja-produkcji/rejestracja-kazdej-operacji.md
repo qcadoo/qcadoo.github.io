@@ -1,48 +1,37 @@
 ---
 title: "Rejestracja każdej operacji"
 permalink: rejestracja-kazdej-operacji.html
+toc: false
 ---
-
-
 Rejestracja produkcji - wariant rejestracji dla każdej operacji
-
-* * *
-
-  
 
 Dla tego sposobu rejestracji produkcji dedykowana jest zakładka dostępna po wybraniu:
 
+**REJESTRACJA Rejestracja produkcji {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
+
+{% include lightbox.html file="rejestracja-%20rejestracja%20produkcji.png" alt="Rejestracja produkcji" caption="Rejestracja produkcji" %}
+
+Pojawi się formularz (widok powyżej), w którym:
+
+1. Przy pomocy {% include inline_image.html file="lupka.png" %} wybieramy **"Zlecenie produkcyjne"**, dla którego chcemy zarejestrować produkcję (pole obowiązkowe).  
   
-
-**REJESTRACJA  Rejestracja produkcji  **<img border="0" src="/images/newIcon24.png" style="vertical-align:-6px"> <b>Dodaj nowy</b>
-
+2. Następnie {% include inline_image.html file="lupka.png" %} wybieramy z listy **"Operację"**, której dotyczy ten meldunek zwrotny.  
   
-
- ![](/images/rejestracja-%20meldunek%20dla%20ka%C5%BCdej%20operacji-%20g%C5%82%C3%B3wna%20strza%C5%82ki.png)
-
-Pojawi się formularz (widok poniżej), w którym:
-
-1. 
-Przy pomocy ![](/images/lupka.png)wybieramy **"Zlecenie produkcyjne"** , dla którego chcemy zarejestrować produkcję (pole obowiązkowe).  
-  
-
-2. 
-Następnie ![](/images/lupka.png)wybieramyz listy **"Operację"** , której dotyczy ten meldunek zwrotny.  
-  
-
-3. Opcjonalnie możemywybrać"Pracownika", "Zmianę", "Stację roboczą" bądź "Dział", które brały udział w wykonywaniu tego fragmentu zlecenia, dla którego chcemy zarejestrować produkcję.  
+3. Opcjonalnie możemy wybrać"Pracownika", "Zmianę", "Stację roboczą" bądź "Dział", które brały udział w wykonywaniu tego fragmentu zlecenia, dla którego chcemy zarejestrować produkcję.  
   
 4. Następnie określany czy ten meldunek zwrotny jest ostatnim dla tego zlecenia. Jeśli tak, zaznaczamy pole **"Końcowy".**  
   
-5. Na koniec klikamy ![](/images/saveIcon24.png) **Zapisz** , by zatwierdzić i móc wykonać kolejne kroki.  
-  
+5. Na koniec klikamy {% include inline_image.html file="saveIcon24.png" %} **Zapisz**, by zatwierdzić i móc wykonać kolejne kroki.  
 
-* * *
- Pozapisaniu w kolejnej karcie **"Produkty we./wyj."** aktywuje się lista wszystkich produktów wejścia i wyjścia. Są to wszystkie produkty, które biorą udział w wybranej operacji.   
+## Produkty wejścia i wyjścia
+  
+ Po zapisaniu w kolejnej karcie **"Produkty we./wyj."** aktywuje się lista wszystkich produktów wejścia i wyjścia. Są to wszystkie produkty, które biorą udział w wybranej operacji.   
   
  Klikając na numer bądź nazwę produktu pojawi się formularz, gdzie wprowadzamy ilości produktów wejściowych i wyjściowych. Jeśli przy definiowaniu zlecenia produkcyjnego i sposobu rejestracji meldunków nie wybraliśmy rejestracji produktów wejściowych i wyjściowych, tabele będą niewidoczne.  
   
-W następnej karcie **"Czas pracy"/ "Akordowo"** (w zależności od tego jak rozliczamynaszą produkcję) wprowadzamyczas realizacji całego lub fragmentu danego zlecenia, ponieważ możemy wprowadzać kilka meldunków zwrotnych dla danego zlecenia. Jeśli w danym zleceniu produkcyjnym, w zakładce **"Rejestracja produkcji"** odznaczyliśmy pole **"Rejestrować czasy produkcji"** , to ten fragment formularza nie pojawi się dla tego konkretnego zlecenia. Tutaj też możliwa jest rejestracja pracy akordowej.   
+W następnej karcie **"Czas pracy"/ "Akordowo"** (w zależności od tego jak rozliczamy naszą produkcję) wprowadzamy czas realizacji całego lub fragmentu danego zlecenia, ponieważ możemy wprowadzać kilka meldunków zwrotnych dla danego zlecenia. Jeśli w danym zleceniu produkcyjnym, w zakładce **"Rejestracja produkcji"** odznaczyliśmy pole **"Rejestrować czasy produkcji"** , to ten fragment formularza nie pojawi się dla tego konkretnego zlecenia. Tutaj też możliwa jest rejestracja pracy akordowej.   
+
+***
   
 ![](/images/rejestracja-%20meldunek%20dla%20ka%C5%BCdej%20operacji-%20czas-%20strza%C5%82ki.png)
 1. W pierwszym kroku możemy dodać pracownika/ pracowników, którzy wykonywali daną operację.  Aby to zrobić wybieramy ![](images/newIcon16.png) **Nowy** i przy pomocy ![](/images/lupka.png)wybieramy pracownika. Opcjonalnie możemy przypisać mu czas pracy.  
@@ -57,11 +46,7 @@ W następnej karcie **"Czas pracy"/ "Akordowo"** (w zależności od tego jak roz
 
 Wszystkie meldunki zwrotne stworzone w systemie będą widoczne w formie listy w głównym widoku zakładki **"Rejestracja produkcji"**.
 
-  
-
 Po zebraniu wszystkich meldunków zwrotnych i nadaniu im stanu ![](/images/startIcon24.png) **Zaakceptowane** możemy wygenerować rozliczenie i raport produkcji. Meldunki zwrotne bez statusu zaakceptowane nie mogą zostać użyte w raportach i rozliczeniach.Stany w meldunkach zwrotnych służą do ostatecznego potwierdzenia wprowadzonych danych i nie jest możliwa ich późniejsza edycja, można jednak cały czas składać kolejne raporty dla danego zlecenia. System generuje raporty wyłącznie na podstawie danych, natomiast nie jest respektowana kolejność ich wprowadzania.
 
-  
-
-Więcej o tym, jak stworzyć raport  <a href="/rozliczenie-produkcji">Rozliczenie produkcji</a>
+Więcej o tym, jak stworzyć raport [Rozliczenia produkcji](/rozliczenie-produkcji).
 
