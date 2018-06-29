@@ -6,18 +6,15 @@ Program qcadoo daje możliwość pogrupowania operacji. Dzięki grupom operacji 
 
 Jak stworzyć grupę operacji?
 
-* * *
-
-**TECHNOLOGIE  Grupy operacji **
- **![](/images/dodaj%20nowy.png)Dodaj nowy**
+**TECHNOLOGIE Grupy operacji** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy" %} **Dodaj nowy**
 
   
 
-Nadajemy "Numer" i "Nazwę" tworzonej grupie i klikamy ![](/images/saveIcon24.png) **Zapisz** , aby zachować wprowadzone dane.
+Nadajemy "Numer" i "Nazwę" tworzonej grupie i klikamy {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz** , aby zachować wprowadzone dane.
 
   
 
-Przynależność operacji do danej grupy określamy w funkcjonalności<a href="/operacje">Operacje</a>.
+Przynależność operacji do danej grupy określamy w funkcjonalności [Operacje](/operacje).
 
   
 
