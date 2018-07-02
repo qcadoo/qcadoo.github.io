@@ -7,7 +7,7 @@ Zlecenia produkcyjne realizowane są w oparciu o uprzednio utworzone [Technologi
   
 ## Dodanie nowego zlecenia  
 
-<b>ZLECENIA PRODUKCYJNE  Zlecenia produkcyjne  </b>{% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} <b>Dodaj nowy</b>
+**ZLECENIA PRODUKCYJNE  Zlecenia produkcyjne** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**
 
 {% include lightbox.html file="planowanie-%20zlecenia%20produkcyjne-%20g%C5%82%C3%B3wna-%20strza%C5%82ki.png" alt="Formularz zlecenia produkcyjnego" caption="Formularz zlecenia produkcyjnego" class="float-right" %}
 

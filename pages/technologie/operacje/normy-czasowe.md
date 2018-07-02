@@ -24,9 +24,9 @@ Współczynnik wykorzystania w czasie:
 - **Pracowników -** Jaką część czasu całkowitego operacji zajmuje praca pracowników
 - **Następna operacja po wyprodukowaniu:** - Po wykonaniu ilu jednostek można przystąpić do kolejnej operacji. (np. po wykonaniu dwóch kół, możemy przejść dalej, aby skręcić z nich rower)
 
-[![](/images/technologie-%20operacje-%20normy%20czasowe.png)](/images/technologie-%20operacje-%20normy%20czasowe.png)
+{% include lightbox.html file="technologie-%20operacje-%20normy%20czasowe.png" alt="Normy czasowe" caption="Normy czasowe"%}
 
 Wartości te mogą zostać wprowadzone w Operacjach i wtedy obowiązywać będą dla wszystkich zleceń tworzonych w oparciu o te normy.
 
-Możliwe jest także zdefiniowanie powyższych wartości unikatowo dla danego zlecenia produkcyjnego (więcej[Parametry dla zlecenia](/parametry-dla-zlecenia)), wtedy obowiązywać będą tylko w wypadku tego konkretnego zlecenia produkcyjnego.
+Możliwe jest także zdefiniowanie powyższych wartości unikatowo dla danego zlecenia produkcyjnego (więcej [Parametry dla zlecenia](/parametry-dla-zlecenia)), wtedy obowiązywać będą tylko w wypadku tego konkretnego zlecenia produkcyjnego.
 

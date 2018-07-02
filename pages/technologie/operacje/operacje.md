@@ -25,6 +25,6 @@ Aby dodać nową operację wybieramy: **TECHNOLOGIE Operacje** {% include inline
 
 6. Następnie wybieramy {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz**, by zachować wprowadzone dane.
 
-{% include callout.html content="Jeśli chcemy mieć możliwość dokładnego planowania produkcji oraz obliczania kalkulacji kosztów i określania terminów realizacji zleceń należy zdefiniować dla operacji [Normy kosztowe](/normy-kosztowe) i [Normy czasowe](/normy-czasowe). Jeśli planujemy tworzyć [Karty pracy](/karty-pracy)należy przejść do kolejnych zakładek i również zdefiniować, które z informacji dotyczące operacji powinny znaleźć się na kartach pracy." type="warning" %} 
+{% include callout.html content="Jeśli chcemy mieć możliwość dokładnego planowania produkcji oraz obliczania kalkulacji kosztów i określania terminów realizacji zleceń należy zdefiniować dla operacji [Normy kosztowe](/normy-kosztowe) i [Normy czasowe](/normy-czasowe). Jeśli planujemy tworzyć [Karty pracy](/karty-pracy) należy przejść do kolejnych zakładek i również zdefiniować, które z informacji dotyczące operacji powinny znaleźć się na kartach pracy." type="warning" %} 
 
 Wprowadzane operacje układają się w listę dostępną na głównym widoku zakładki **"Operacje"**. Można edytować każdą z nich klikając na jej numer bądź nazwę.
