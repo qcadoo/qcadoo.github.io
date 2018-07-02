@@ -1,7 +1,6 @@
 ---
 title: "Rejestracja produkcji"
 permalink: rejestracja-produkcji.html
-toc: false
 ---
 Funkcja ta służy do gromadzenia informacji zwrotnych zebranych na hali produkcyjnej, dających obraz postępów w realizacji zleceń (tzw. meldunki zwrotne).
   

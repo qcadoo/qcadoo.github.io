@@ -1,7 +1,6 @@
 ---
 title: "Technologie"
 permalink: technologie-szczegoly.html 
-toc: false
 ---
 Do każdego produkowanego w Twojej firmie wyrobu kompletujemy osobną technologię.
 

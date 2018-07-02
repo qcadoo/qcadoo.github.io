@@ -284,7 +284,7 @@ div#toc ul li ul li::before {
 }
 
 div#toc >ul::before {
-    content: "Table of Contents";
+    content: "Spis treści";
     font-weight: 500;
     color: #555;
     text-align:center;

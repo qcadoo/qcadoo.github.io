@@ -1,7 +1,6 @@
 ---
 title: "Zbiorcze rejestrowanie produkcji"
 permalink: zbiorcze-rejestrowanie-produkcji.html
-toc: false
 ---
 Dla tego sposobu rejestracji produkcji dedykowana jest zakładka dostępna po wybraniu z głównego menu "Rejestracja", a następnie z podmenu: "Rejestracja produkcji".
   

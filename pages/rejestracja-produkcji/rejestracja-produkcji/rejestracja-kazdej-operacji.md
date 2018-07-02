@@ -1,7 +1,6 @@
 ---
 title: "Rejestracja każdej operacji"
 permalink: rejestracja-kazdej-operacji.html
-toc: false
 ---
 Rejestracja produkcji - wariant rejestracji dla każdej operacji
 

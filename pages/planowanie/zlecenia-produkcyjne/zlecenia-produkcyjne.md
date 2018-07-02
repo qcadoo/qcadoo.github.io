@@ -1,7 +1,6 @@
 ---
 title: "Zlecenia produkcyjne"
 permalink: zlecenia-produkcyjne.html 
-toc: false
 ---
 Zlecenia produkcyjne realizowane są w oparciu o uprzednio utworzone [Technologie](/technologie-szczegoly). Oznacza to, że zlecenia produkcyjne można stworzyć jedynie dla tych produktów, które posiadają zaakceptowaną technologię. Więcej informacji znajduje się na stronie  - [Statusy technologii](/statusy-technologii)
   
