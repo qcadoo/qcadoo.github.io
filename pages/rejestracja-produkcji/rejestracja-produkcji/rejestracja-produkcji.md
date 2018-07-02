@@ -19,13 +19,13 @@ Sposoby rejestracji meldunków: **"Zbiorczy"** i **"Dla każdej operacji"** daj�
 - rejestrujemy produkty wejściowe i wyjściowe
 - czy rejestrujemy czasy produkcji
 
-Parametry te, według uznania, mogą być pominięte formularzu rejestracji produkcji.
+Parametry te, według uznania, mogą być pominięte w formularzu rejestracji produkcji.
 
 {% include lightbox.html file="planowanie-%20rejestracja%20produkcji.png" alt="Parametry rejestracji produkcji" caption="Parametry rejestracji produkcji" %}
   
 Parametry widoczne po prawej stronie:
 
-- **"Jeden meldunek zbiorczy lub jeden dla każdej operacji"** - jeśli zaznaczymy to pole: przy rejestracji produkcji w danym zleceniu możliwe będzie wprowadzenie JEDNEGO raportu zbiorczego, lub po JEDNYM meldunku dla każdej operacji.
+- **"Jeden meldunek zbiorczy lub jeden dla każdej operacji"** - jeśli zaznaczymy to pole: przy rejestracji produkcji w danym zleceniu możliwe będzie wprowadzenie JEDNEGO raportu zbiorczego lub po JEDNYM meldunku dla każdej operacji.
 - **"Pozwól na zamknięcie zlecenia tylko, jeśli został wprowadzony ostatni meldunek zwrotny"** - System będzie pilnował, by zlecenie produkcyjne nie zostało zamknięte bez ostatniego meldunku zwrotnego
 - **"Ostatni meldunek zamyka automatycznie zlecenie"** - Wprowadzenie ostatniego meldunku zwrotnego będzie jednoznacznie kończyło zlecenie produkcyjne.
 

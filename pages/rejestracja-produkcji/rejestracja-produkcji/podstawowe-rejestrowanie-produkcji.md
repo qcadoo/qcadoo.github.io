@@ -1,6 +1,7 @@
 ---
 title: "Podstawowe rejestrowanie produkcji"
 permalink: podstawowe-rejestrowanie-produkcji.html
+toc: false
 ---
 Podstawowy poziom rejestracji produkcji
 
@@ -12,11 +13,11 @@ Podstawowy poziom rejestracji produkcji
   
 - Aktywuje się przycisk {% include inline_image.html file="iconProducts24.png" %} **Ilości wyprodukowane/zużyte** belka przycisków funkcyjnych menu. Po wejściu pojawia się tabela produktów wejściowych, właściwych dla tego zlecenia.
 
+{% include lightbox.html file="rejestracja-%20podstawowa-%20strza%C5%82ki.png" alt="Ogólny postęp produkcji" caption="Ogólny postęp produkcji"%}
+
 Po wybraniu danego produktu (klikając na jego numer, bądź nazwę) wprowadzamy ilości wyprodukowane i użyte (skonsumowane) dla danego produktu.
 
 {% include lightbox.html file="rejestracja-%20podsrawowa-%20ilo%C5%9Bci-%20strza%C5%82ki.png" alt="Rejestracja podstawowa" caption="Rejestracja podstawowa"%}
-
-{% include lightbox.html file="rejestracja-%20podstawowa-%20strza%C5%82ki.png" alt="Ogólny postęp produkcji" caption="Ogólny postęp produkcji"%}
 
 Jednocześnie w zakładce **"Główna"** na stronie **Zlecenia produkcyjnego** aktualizować się będzie pole z "Wykonaną ilością produktów". Ilość ta tworzy się na podstawie liczby widniejącej w rubryce tego produktu, który jest ostatnim produktem wyjściowym drzewa technologii.
 
