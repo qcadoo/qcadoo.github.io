@@ -2,42 +2,21 @@
 title: "Wydruk przydziału do zmian"
 permalink: wydruk-przydzialu-do-zmian.html 
 ---
-<span style="line-height:1.6">Tutaj możemy generować wydruki przydziału do zmian w określonym przedziale czasowym i  na określonych przez nas zmianach. 
-</span>
-  
 
-Jak wygenerować wydruk przydziału do zmian ?
-* * *
+Tutaj możemy generować wydruki przydziału do zmian w określonym przedziale czasowym i  na określonych przez nas zmianach. Jak to zrobić?
 
-**PLANOWANIE Wydruk przydziału do zmian **![](/images/newIcon24.png) **Dodaj nowy**
+**PLANOWANIE Wydruk przydziału do zmian** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy wydruk" %} **Dodaj nowy**
 
-  
- ![](/images/Planowanie-%20wydruk%20przydzia%C5%82u%20do%20zmian-%20strza%C5%82ki.png)  
+{% include lightbox.html file="planowanie- wydruk przydziału do zmian.png" alt="Formularz wydruku przydziału do zmian" caption="Formularz wydruku przydziału do zmian" class="float-right" %}
 
-1. <span style="font-size:14px;line-height:21.81818199157715px">Na początku przy pomocy </span> ![](/images/lupka.png)wybieramy "Zmianę", na której chcesz sprawdzić przydział pracowników
-2. Następnie określamy przedział czasowy, który chcesz sprawdzić.
-3. Wybieramy ![](/images/zapisz.png) **Zapisz** , aby utrwalić wprowadzone dane.
-4. Aby wygenerować raport wybierz ![](/images/generateIcon24.png) **Generuj**. Wygenerowany raport możesz otworzyć w formie dokumentu ![](/images/xlsIcon16.png) **XLS.**
 
-  
+1. Na początku przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybierz "Zmianę", na której chcesz sprawdzić przydział pracowników.
+2. Potem wybierz "Zakład", dla którego ma zostać wygenerowany wydruk.
+3. Następnie określ przedział czasowy, który chcesz sprawdzić.
+4. Kliknij {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz** , żeby utrwalić wprowadzone dane.
+5. Wygeneruj raport, wybierając {% include inline_image.html file="generateIcon24.png" alt="Przycisk generowania" %} **Generuj**.
+6. Utworzony raport pobierzesz w formie dokumentu {% include inline_image.html file="xlsIcon16.png" alt="xls" %} **XLS.**.
+
+{% include callout.html content="Maksymalny przedział czasowy na jaki możesz wygenerować raport przydziału do zmian to 5 dni." type="info" %} 
 
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-**<u>UWAGA:</u>** Maksymalny przedział czasowy na jaki możesz wygenerować raport przydziału do zmian to 5 dni.
-
