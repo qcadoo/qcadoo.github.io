@@ -7,8 +7,7 @@ Tutaj możemy generować wydruki przydziału do zmian w określonym przedziale c
 
 **PLANOWANIE Wydruk przydziału do zmian** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy wydruk" %} **Dodaj nowy**
 
-{% include lightbox.html file="planowanie- wydruk przydziału do zmian.png" alt="Formularz wydruku przydziału do zmian" caption="Formularz wydruku przydziału do zmian" class="float-right" %}
-
+{% include lightbox.html file="planowanie-%20wydruk%20przydzia%C5%82u%20do%20zmian.png" alt="Formularz wydruku przydziału do zmian" caption="Formularz wydruku przydziału do zmian" class="float-right" %}
 
 1. Na początku przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybierz "Zmianę", na której chcesz sprawdzić przydział pracowników.
 2. Potem wybierz "Zakład", dla którego ma zostać wygenerowany wydruk.
