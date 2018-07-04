@@ -12,9 +12,9 @@ W qcadoo rejestrowanie przebiegu produkcji odbywa się na jednym z trzech poziom
 
 ## Jak rejestrować produkcję i wprowadzać meldunki zwrotne?
 
-Aby wykonać rejestrację produkcji w qcadoo przy zakładaniu nowego **zlecenia produkcyjnego (PLANOWANIE Planowanie zleceń)**, w karcie **"Rejestracja produkcji"** należy wybrać interesujący nas sposób zbierania danych.
+Aby wykonać rejestrację produkcji w qcadoo przy zakładaniu nowego **zlecenia produkcyjnego (PLANOWANIE Planowanie zleceń)**, w karcie **Rejestracja produkcji** należy wybrać interesujący nas sposób zbierania danych.
 
-Sposoby rejestracji meldunków: **"Zbiorczy"** i **"Dla każdej operacji"** dają możliwość określenia czy (pole po lewej stronie):
+Sposoby rejestracji meldunków: **Zbiorczy** i **Dla każdej operacji** dają możliwość określenia czy (pole po lewej stronie):
 
 - rejestrujemy produkty wejściowe i wyjściowe
 - czy rejestrujemy czasy produkcji
@@ -25,9 +25,9 @@ Parametry te, według uznania, mogą być pominięte w formularzu rejestracji pr
   
 Parametry widoczne po prawej stronie:
 
-- **"Jeden meldunek zbiorczy lub jeden dla każdej operacji"** - jeśli zaznaczymy to pole: przy rejestracji produkcji w danym zleceniu możliwe będzie wprowadzenie JEDNEGO raportu zbiorczego lub po JEDNYM meldunku dla każdej operacji.
-- **"Pozwól na zamknięcie zlecenia tylko, jeśli został wprowadzony ostatni meldunek zwrotny"** - System będzie pilnował, by zlecenie produkcyjne nie zostało zamknięte bez ostatniego meldunku zwrotnego
-- **"Ostatni meldunek zamyka automatycznie zlecenie"** - Wprowadzenie ostatniego meldunku zwrotnego będzie jednoznacznie kończyło zlecenie produkcyjne.
+- **Jeden meldunek zbiorczy lub jeden dla każdej operacji** - jeśli zaznaczymy to pole: przy rejestracji produkcji w danym zleceniu możliwe będzie wprowadzenie JEDNEGO raportu zbiorczego lub po JEDNYM meldunku dla każdej operacji.
+- **Pozwól na zamknięcie zlecenia tylko, jeśli został wprowadzony ostatni meldunek zwrotny** - System będzie pilnował, by zlecenie produkcyjne nie zostało zamknięte bez ostatniego meldunku zwrotnego
+- **Ostatni meldunek zamyka automatycznie zlecenie** - Wprowadzenie ostatniego meldunku zwrotnego będzie jednoznacznie kończyło zlecenie produkcyjne.
 
 {% include callout.html content="Jeśli przy **Rejestracji produkcji** chcemy zawsze gromadzić te same dane, to w **Administracji** (pozycja menu) należy wybrać **Parametry**, a następnie zakładkę **Rejestracja produkcji** i zaznaczyć interesujące nas preferencje." type="info" %} 
 
@@ -41,13 +41,13 @@ Parametry widoczne po prawej stronie:
 
 2. Następnie, jeżeli wybraliśmy sposób rejestracji meldunku "dla każdej operacji", należy wybrać "Operację". W przypadku rejestracji w sposób podstawowy bądź zbiorczy pole to pozostaje niewidoczne.
 
-3. {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**. Po zapisaniu danych uaktywnią nam się dane w następnej karcie **"Produkty we./wyj."**
+3. {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**. Po zapisaniu danych uaktywnią nam się dane w następnej karcie **Produkty we./wyj.**
 
 {% include lightbox.html file="rejestracja%20produkcji%20produkty%20wej%C5%9Bcia-%20wyj%C5%9Bcia.png" alt="Rejestracja produkcji - produkty" caption="Rejestracja produkcji - produkty" %}  
 
 4. Kolejno należy wypełnić dane dotyczące ilości zużytych materiałów("Podana ilość"). Informacje te możemy wprowadzić ręcznie w oparciu o otrzymane z hali produkcyjnej karty pracy (meldunki zwrotne) lub skopiować ilości z planowanych {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %}  
   
-5. Ponownie zapisujemy dane {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** i przechodzimy do następnej zakładki **"Czas pracy"** , gdzie będziemy rejestrować czas pracy maszyn oraz pracowników.
+5. Ponownie zapisujemy dane {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** i przechodzimy do następnej zakładki **Czas pracy** , gdzie będziemy rejestrować czas pracy maszyn oraz pracowników.
 
 Po wprowadzeniu i zapisaniu wszystkich informacji możemy zaakceptować taki meldunek. Aby to zrobić wybieramy przycisk {% include inline_image.html file="startIcon24.png" alt="Przycisk Zapisz" %} **Akceptuj**, wówczas nie możemy już wprowadzać żadnych zmian. 
 

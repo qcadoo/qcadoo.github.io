@@ -21,7 +21,7 @@ Pojawi się formularz (widok powyżej), w którym:
 3. Opcjonalnie możemy wybrać"Pracownika", "Zmianę", "Stację roboczą" bądź "Dział", które brały udział w wykonywaniu tego fragmentu zlecenia, dla którego chcemy zarejestrować produkcję.  
   
 4. Następnie określany czy ten meldunek zwrotny jest ostatnim dla tego zlecenia. Jeśli tak, zaznaczamy pole **"Końcowy".**  
-  
+
 5. Na koniec klikamy {% include inline_image.html file="saveIcon24.png" %} **Zapisz**, by zatwierdzić i móc wykonać kolejne kroki.  
 
 ## Produkty wejścia i wyjścia
@@ -29,6 +29,9 @@ Pojawi się formularz (widok powyżej), w którym:
 Po zapisaniu w kolejnej karcie **"Produkty we./wyj."** aktywuje się lista wszystkich produktów wejścia i wyjścia. Są to wszystkie produkty, które biorą udział w wybranej operacji.   
   
 Klikając na numer bądź nazwę produktu pojawi się formularz, gdzie wprowadzamy ilości produktów wejściowych i wyjściowych. Jeśli przy definiowaniu zlecenia produkcyjnego i sposobu rejestracji meldunków nie wybraliśmy rejestracji produktów wejściowych i wyjściowych, tabele będą niewidoczne.  
+
+{% include lightbox.html file="u%C5%BCyta%20ilo%C5%9B%C4%87-%20strza%C5%82ki.png" alt="Rejestracja produkcji - użyta ilość" caption="Rejestracja produkcji - użyta ilość" %}  
+
   
 ## Czas pracy
 
