@@ -1,32 +1,26 @@
 ---
 title: "Działy"
 permalink: dzialy.html
+toc: false
 ---
 Działy przedsiębiorstwa w qcadoo rozumiane są jako zespół wykonujący daną operację, który ma określoną osobę odpowiedzialną za zadanie.
 
-
-<p>Jak dodać nowy dział?</p>
+## Jak dodać nowy dział?
     
+Działy firmy dodajemy wybierając z głównego menu: **PODSTAWOWE >> Działy >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
 
-* * *
 
-Działy firmy dodajemy wybierając z głównego menu:
+Działy definiowane są poprzez "Numer", "Nazwę" i (opcjonalnie) "Kierownika". Kierownika danego działu dodajemy wybierając umieszczoną po prawej stronie okna 
+{% include inline_image.html file="lupka.png" alt="Przycisk lupy" %}. Wyświetla się lista wszystkich zdefiniowanych pracowników.[Jak dodać pracownika?](/pracownicy)
 
-  
+W kolejnej zakładce **Linie produkcyjne** dodajemy "Stacje robocze" oraz "Linie produkcyjne" jakie znajdują się w tym dziale.
 
-<b>PODSTAWOWE  Działy  </b>
+{% include lightbox.html file="dzialy_linie.png" alt="działy linie" caption="Działy - linie oraz stacje robocze" %}  
 
-<img border="0" src="/images/newIcon24.png" style="vertical-align:-6px">
+W zakładce **Magazyny** definiujemy domyślne magazyny pobrania surowców i przyjmowania wyrobów dla danego działu oraz inne dodatkowe funckje.
 
-<b> Dodaj nowy</b>
+{% include lightbox.html file="dzialy_magazyny.png" alt="działy-magzyn" caption="Działy - konfiguracja magazynu" %}  
 
-Działy definiowane są poprzez "Numer", "Nazwę" i (opcjonalnie) "Kierownika". Kierownika danego działu dodajemy wybierając umieszczoną po prawej stronie okna lupkę ![](/images/lupka.png). Wyświetla się lista wszystkich zdefiniowanych pracowników.<a href="/pracownicy">Jak dodać pracownika?</a>
+  {% include callout.html content="Działy mogą być przypisywane do stacji roboczych i typów stacji roboczych. Według działów mogą być również rozdysponowane karty pracy." type="info" %} 
 
-W kolejnej zakładce " **Stacje robocze"** dodajemy "Stacje robocze" oraz "Typy stacji roboczych" jakie znajdują się w tym dziale.
-
-[![](/images/Podstawowe-%20Dzia%C5%82y.png)](/images/Podstawowe-%20Dzia%C5%82y.png)
-
-  
-
-<u style="font-weight:bold">ZASTOSOWANIE:</u>Działy mogą być przypisywane do stacji roboczych i typów stacji roboczych. Według działów mogą być również rozdysponowane karty pracy 
 
