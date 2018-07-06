@@ -2,26 +2,28 @@
 title: "Przydział do zmian"
 permalink: przydzial-do-zmian.html 
 ---
- Dzięki tej zakładce możesz rozplanować przydział pracowników do zmian na liniach produkcyjnych oraz przeprowadzić późniejszą rejestrację faktycznego obłożenia. 
-  
 
-Jak przydzielić pracownika do zmiany ?
+Dzięki tej funkcji możesz rozplanować przydział pracowników do zmian na liniach produkcyjnych oraz przeprowadzić późniejszą rejestrację faktycznego obłożenia. 
 
-* * *
- Aby przyporządkować pracownika do zmiany należy wybrać:  
+## Dodanie nowego przydziału do zmian
 
-  
+ **PLANOWANIE Przydział do zmian** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy wydruk" %} **Dodaj nowy**
 
-**PLANOWANIE Przydział do zmian **![](/images/newIcon24.png) **Dodaj nowy**
- ![](/images/Planowanie-%20przydzia%C5%82%20do%20zmian-%20G%C5%82%C3%B3wna-%20strza%C5%82ki.png)
+{% include lightbox.html file="Planowanie-%20przydzia%C5%82%20do%20zmian-%20G%C5%82%C3%B3wna-%20strza%C5%82ki.png" alt="Formularz przydziału do zmian" caption="Formularz przydziału do zmian" class="float-right" %}
 
-1. <span style="line-height:21.333332061767578px">W pierwszym kroku wybierz "Datę rozpoczęcia" oraz "Zmianę" do której chcesz przydzielić pracownika. </span>
-2. <span style="line-height:21.333332061767578px">Po wprowadzeniu danych wybierz <img border="0" src="/images/zapisz.png" style="vertical-align:-6px"> <b>Zapisz.</b>
-3. <span style="line-height:21.333332061767578px">Kolejno przy użyciu przycisku </span> ![](/images/newIcon16.png) **Nowy** wprowadzamy pracowników, których chcemy przypisać do danej "Zmiany".
-4. Po wprowadzeniu wszystkich informacji wybieramy ![](/images/startIcon24.png) **Zaakceptuj.**
+1. W pierwszym kroku określ "Datę rozpoczęcia", od której będzie obowiązywał zdefiniowany przydział pracowników.
+2. Potem wybierz [Zmianę](/zmiany), dla której chcesz przydzielić pracowników.
+3. Niezbędne jest również podanie "Zakładu", dla którego tworzymy przydział.
+4. Następnie kliknij  {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz**, aby zapisać wprowadzone dane.
+5. Teraz przy użyciu przycisku {% include inline_image.html file="newIcon16.png" alt="Przycisk Nowy" %} **Nowy** zacznij wprowadzać pracowników, których chcemy przypisać do danej "Zmiany".
 
-Jeżeli po zaakceptowaniu chcesz prowadzić jakieś zmiany, możesz to zrobić wybierając ![](/images/startIcon24.png) **Przejdź do korekcji** , można wówczas dowolnie edytować wcześniej wprowadzone dane. Po wprowadzeniu zmian wybierz ![](/images/startIcon24.png) **Skoryguj**. Wszystkie korekty, które wprowadzisz będą widoczne w kolejnej zakładce **"Porównanie planowane i skorygowane".** Korekty można wprowadzać dowolną liczbę razy, postępując analogicznie.
+    {% include callout.html content="Jeżeli do tej samej linii produkcyjnej jest przypisanych wielu pracowników, nie musisz wprowadzać każdego z nich osobno. Skorzystaj z funkcji ![](/images/newIcon16.png) **Dodaj wielu pracowników**, która pozwala dodać wielu pracowników naraz." type="info" %}
 
+{:start="6"}
+6. Po wprowadzeniu wszystkich informacji wybierz {% include inline_image.html file="startIcon24.png" alt="Przycisk Zaakceptuj" %} **Zaakceptuj**.
 
+## Korekta zdefiniowanego przydziału do zmian
 
-,
+Jeżeli po zaakceptowaniu przydziału chcesz wprowadzić jakieś zmiany, możesz to zrobić, wybierając {% include inline_image.html file="deleteIcon24.png" alt="Przejdź do korekcji" %} **Przejdź do korekcji**. Pozwoli to na modyfikację wcześniej wprowadzonych danych. Po wprowadzeniu zmian kliknij {% include inline_image.html file="deleteIcon24.png" alt="Skoryguj" %} **Skoryguj**. 
+
+{% include callout.html content='Aby porównać dane przed korektą z danymi po modyfikacji przydziału, przejdź do zakładki "Porównanie plan. i skoryg.".' type="info" %}
