@@ -28,7 +28,7 @@ Możemy określić, które z powyższych danych mają być widoczne na kartach p
   
 Jak wykonać parametryzację?
 
-{% include lightbox.html file="planowanie-%20karty%20pracy%20par1.png" alt="Formularz 1" caption="Formularz 1" class="float-right" %}
+{% include lightbox.html file="planowanie-%20karty%20pracy%20par1.png" alt="Parametry ogólne kart pracy" caption="Parametry ogólne kart pracy" class="float-right" %}
 
 1. Wejdź do **ADMINISTRACJA  Parametry** i kliknij {% include inline_image.html file="CalendarIcon24.png" alt="Przycisk Karty pracy" %} **Karty pracy**.  
   
@@ -44,7 +44,7 @@ Jak wykonać parametryzację?
 
     {% include callout.html content="Nie musisz martwić się tym czy wybrany przez Ciebie obraz jest zbyt duzy. Jeżeli tak będzie, zostanie on odpowiednio przeskalowany na kartach pracy." type="info" %}   
 
-    {% include lightbox.html file="planowanie-%20karty%20pracy%20par3.png" alt="Formularz 2" caption="Formularz 2" class="float-right" %}
+    {% include lightbox.html file="planowanie-%20karty%20pracy%20par3.png" alt="Parametry kart pracy dotyczące produktów wejściowych i wyjściowych operacji" caption="Parametry kart pracy dotyczące produktów wejściowych i wyjściowych operacji" class="float-right" %}
 
 {:start="6"}
 6. Określ czy chcesz, aby przy informacjach o operacji pojawiał się opis, technologia i zlecenie.
@@ -66,7 +66,7 @@ bądź też skorzystaj z **PLANOWANIE Karty pracy**  {% include inline_image.htm
 
     {% include callout.html content="Dane na kartach pracy możemy podzielić według następujących kategorii: produkt końcowy, typ stacji roboczej, dział." type="info" %}
 
-    {% include lightbox.html file="planowanie-%20karty%20pracy.png" alt="Formularz 3" caption="Formularz 3" class="float-right" %}
+    {% include lightbox.html file="planowanie-%20karty%20pracy.png" alt="Formularz kart pracy" caption="Formularz kart pracy" class="float-right" %}
 
 {:start="3"}  
 3. Następnie wybierz {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz**, uaktywnią się tabelki po prawej stronie.
