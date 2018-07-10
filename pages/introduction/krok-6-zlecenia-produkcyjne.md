@@ -2,7 +2,7 @@
 title: "Krok 7 - Zlecenia produkcyjne"
 permalink: krok-6-zlecenia-produkcyjne.html
 ---
- Mając podstawy produkcji: surowce, linię produkcyjną izdefiniowaną technologię - możesz przyjąć i obsłużyć zlecenie produkcyjne. 
+ Mając podstawy produkcji: surowce, linię produkcyjną i zdefiniowaną technologię - możesz przyjąć i obsłużyć zlecenie produkcyjne. 
 
 W tym celu wybierz z głównego menu "Planowanie", następnie "Zlecenia produkcyjne" z podmenu, i przycisk {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**.
 

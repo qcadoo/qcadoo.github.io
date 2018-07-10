@@ -32,7 +32,7 @@ Wszelkie operacje w procesie produkcyjnym są wykonywane na maszynach lub stanow
 
 ## Stacje robocze
 
-Otwórz menu "Dane podstawowe" i w niej w "Typy stacji roboczych". Kliknijprzycisk {% include inline_image.html file="dodaj%20nowy.png" alt="Dodaj nowy" %} **Dodaj nowy**.
+Otwórz menu "Dane podstawowe" i w niej w "Typy stacji roboczych". Kliknij przycisk {% include inline_image.html file="dodaj%20nowy.png" alt="Dodaj nowy" %} **Dodaj nowy**.
 
 W uruchomionym oknie podaj **nazwę** i **numer** oraz ewentualny **opis**.
 

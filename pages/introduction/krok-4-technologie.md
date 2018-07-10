@@ -2,7 +2,7 @@
 title: "Krok 5 - Technologie"
 permalink: krok-4-technologie.html
 ---
-Masz już zdefiniowane produkty, maszyny ioperacje, więc czas na kolejny krok! Możesz teraz utworzyć technologię produkcji - model mówiący o tym, jak operacja po operacji, z surowców i półproduktów powstaje gotowy produkt.  
+Masz już zdefiniowane produkty, maszyny i operacje, więc czas na kolejny krok! Możesz teraz utworzyć technologię produkcji - model mówiący o tym, jak operacja po operacji, z surowców i półproduktów powstaje gotowy produkt.  
   
  Aby utworzyć technologię postępuj zgodnie z poniższymi wskazówkami:  
 
@@ -24,7 +24,7 @@ W qcadoo technologię buduje się w formie drzewa operacji - układając je od o
 {:start="2"}
 2. Wybierając {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy** wprowadź używane w operacji surowce (czyli produkty wejściowe) oraz produkty końcowe (czyli produkty wyjściowe). 
 
-{% include callout.html content='Może się zdarzyć, że na liście produktów nie będzie wszystkich materiałów potrzebnych do uzupełnienia produktów wejściowych iwyjściowych. Możesz je dopisać otwierając qcadoo w osobnym oknie przeglądarki iwchodząc ponownie w zakładkę „Produkty” (patrz **[Krok 1](/krok-1-produkty-1)**).' type="info" %}
+{% include callout.html content='Może się zdarzyć, że na liście produktów nie będzie wszystkich materiałów potrzebnych do uzupełnienia produktów wejściowych i wyjściowych. Możesz je dopisać otwierając qcadoo w osobnym oknie przeglądarki iwchodząc ponownie w zakładkę „Produkty” (patrz **[Krok 1](/krok-1-produkty-1)**).' type="info" %}
 {:start="3"}
 3. Kliknij przycisk {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** aby zachować wprowadzone zmiany.
 

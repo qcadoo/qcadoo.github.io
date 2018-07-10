@@ -13,7 +13,7 @@ Podczas definiowania zlecenia w zakładce "Rejestracja produkcji" określiłeś 
 
 ## Podstawowa rejestracja produkcji 
 
-Jeżeli wybrałeś podstawowy typ rejestracji produkcji to, aby podać ilości zużytych i wyprodukowanych materiałów oraz wyprodukowaną ilość produktu finalnego, należy wybrać w zleceniu produkcyjnym opcję **Ilości wyprodukowane/zyżyte**
+Jeżeli wybrałeś podstawowy typ rejestracji produkcji to, aby podać ilości zużytych i wyprodukowanych materiałów oraz wyprodukowaną ilość produktu finalnego, należy wybrać w zleceniu produkcyjnym opcję **Ilości wyprodukowane/zużyte**
 
 {% include lightbox.html file="rejestracja_podstawowa.png" alt="Podstawowa rejestracja" caption="Podstawowa rejestracja produkcji"%}
   
@@ -34,7 +34,7 @@ Jeżeli wybrałeś podstawowy typ rejestracji produkcji to, aby podać ilości z
    
 Produkcję rejestrujemy w **Rejestracja >> Rejestracja produkcji**.  
   
-{% include callout.html content='Jeżeli we wszystkich lub w większości obsługiwanych zleceń produkcyjnych będziesz wykorzystywał określony sposób rejestracji produkcji, to ta wskazówka z pewnością Ci się przyda. Wejdź do UstawieniaParametry i tam w zakładce "Rejestracja produkcji" zdefiniuj domyślne wartości dla rejestracji produkcji. Skróci to znacznie czas pracy nad zleceniami, szczególnie jeżeli wprowadzasz ich dużo.' type="info" %} 
+{% include callout.html content='Jeżeli we wszystkich lub w większości obsługiwanych zleceń produkcyjnych będziesz wykorzystywał określony sposób rejestracji produkcji, to ta wskazówka z pewnością Ci się przyda. Wejdź do **Ustawienia >> Parametry** i tam w zakładce "Rejestracja produkcji" zdefiniuj domyślne wartości dla rejestracji produkcji. Skróci to znacznie czas pracy nad zleceniami, szczególnie jeżeli wprowadzasz ich dużo.' type="info" %} 
 
 Wiesz już, jak zarejestrować produkcję. Nasze krótkie wprowadzenie Cię w pracę z naszym system powoli dobiega końca. Na zakończenie dowiedz się jeszcze o rozliczaniu produkcji.
 

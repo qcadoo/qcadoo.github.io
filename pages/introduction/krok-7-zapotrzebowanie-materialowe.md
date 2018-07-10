@@ -26,7 +26,7 @@ Pokrycie zapotrzebowania wywoływane jest z dwóch miejsc - z menu "Zaopatrzenie
 
 Wypełnij **daty** dla których potrzeby materiałowe mają być badane (z zakresu tych dat pobrane zostaną zlecenia produkcyjne), określ **magazyny**, na których ma być sprawdzany stan magazynowy, ustaw **parametry** wg uznania i kliknij przycisk  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj**.
 
-W **zakładce Pokrycie zapotrzebowania** pojawi się lista produktów, które będą będą zużywane w procesie produkcyjnym analizowanych zleceń. Dla każdego produktu możesz ustalić:
+W zakładce **Pokrycie zapotrzebowania** pojawi się lista produktów, które będą będą zużywane w procesie produkcyjnym analizowanych zleceń. Dla każdego produktu możesz ustalić:
 
 - stan magazynowy (wraz z określeniem czy masz pokrycie czy może jednak braki magazynowe)
 - historię - po wejściu w produkt widoczne są informację o tym kiedy planowana jest dostawa produktu, a także kiedy zaplanowano rozpoczęcie zleceń produkcyjnych korzystających z tego produktu. Dzięki temu wiesz dokładnie czy realizacja zlecenia w uzgodnionym terminie jest realna, czy może z braku stanów - zagrożona a może nawet niemożliwa
