@@ -10,14 +10,14 @@ permalink: czasochlonnosc-zlecenia.html
 
 Aby z niego skorzystać, wybieramy:
 
-**KALKULACJE  Czasochłonność technologii**
+**KALKULACJE >> Czasochłonność technologii**
 
 
 
 1. Przy pomocy  {% include inline_image.html file="lupka.png" alt="Lupka" %} wybieramy technologię, dla której chcielibyśmy obliczyć czasochłonność.  
   
 
-2. W następnym kroku podajemy planowaną przez nas datę rozpoczęcia **Rozpoczęcie**, **Planowaną iloś**" produktów oraz **Linię produkcyjną** na której realizowane będzie dana technologia.  
+2. W następnym kroku podajemy planowaną przez nas datę rozpoczęcia **Rozpoczęcie**, **Planowaną ilość** produktów oraz **Linię produkcyjną** na której realizowane będzie dana technologia.  
   
 3. Opcjonalnie w kalkulacji możesz uwzględnić "Zawarte w czasie pracy":  
   
