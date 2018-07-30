@@ -1,36 +1,30 @@
 ---
 title: "Linie produkcyjne"
 permalink: linie-produkcyjne.html 
+toc: false
 ---
- Linia produkcyjna to zbiór stacji roboczych, na których wykonywane są poszczególne operacje w w procesie technologicznym. W qcadoo linie produkcyjne definiowane są przez nadanie im nazwy i miejsca oraz przez wyznaczenie stacji roboczych oraz ilości urządzeń wchodzących w skład linii. Dodatkowo określamy jakie technologie (bądź grupy technologii) możemy na niej obsługiwać. 
 
-Jak dodać nową linię produkcyjną?
+Linia produkcyjna to zbiór stacji roboczych, na których wykonywane są poszczególne operacje w procesie technologicznym. W qcadoo linie produkcyjne definiowane są przez nadanie im nazwy i miejsca oraz przez wyznaczenie stacji roboczych, ilości urządzeń wchodzących w skład linii oraz ustalenia, które zmiany pracują na linii. 
 
-* * *
+## Jak dodać nową linię produkcyjną?
 
- ![](/images/Technologie-%20linie%20produkcyjne.png)
+{% include lightbox.html file="Technologie-%20linie%20produkcyjne.png" alt="Formularz lini produkcyjnej" caption="Definiowanie linii produkcyjnej"%}
 
-Linię produkcyjną tworzymy wybierając z menu głównego:
-
-
-<b>
-    TECHNOLOGIE  Linie produkcyjne  </b> ![](/images/newIcon24.png) <b>Dodaj nowy
-</b>
-            
+Linię produkcyjną tworzymy wybierając z menu głównego: **TECHNOLOGIE >> Linie produkcyjne >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
 
 1. W zakładce **"Główna"** nadajemy "Numer" i "Nazwę" tworzonej linii produkcyjnej (obowiązkowo).
 
-2. Następnie przy pomocy ![](/images/lupka.png)Wybieramy "Dział"i przypisujemy"Miejsce" linii produkcyjnej (opcjonalnie). Miejsca linii produkcyjnych definiowane są w [Słownikach](/slowniki). (**Podstawowe  Słowniki)**
+2. Następnie przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Dział" i przypisujemy "Miejsce" linii produkcyjnej (opcjonalnie). Miejsca linii produkcyjnych definiowane są w [Słownikach](/slowniki).
 
-3. Opcjonalnie możemy dodać "Opis" oraz "Dokumentację" linii produkcyjnej.
+3. W zakładce "Kalendarz" wprowadzamy zmiany, które pracują na danej linii. Jest to konieczne jeśli chcemy korzystać z planowania na liniach.
 
-4. Używając przycisku ****![](/images/saveIcon24.png) **Zapisz** , zatwierdzamy wprowadzone dane.
+4. Opcjonalnie możemy dodać "Opis" oraz "Dokumentację" linii produkcyjnej.
 
- W zakładce **"Obsługiwane technologie"** przy pomocy przycisku ![](/images/newIcon24.png) **Dodaj istniejący** określamy, jakie technologie bądź grupy technologii obsługuje dana linia produkcyjna.Jeśli dana linia obsługuje wszystkie technologie, możemy zaznaczyć taką opcję i wtedy nie musimy wpisywać ich pojedynczo. 
+5. Używając przycisku {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz** , zatwierdzamy wprowadzone dane.
 
- W zakładce **"Stacje robocze"** określamy te, które wchodzą w skład danej linii produkcyjnej. Do tego celu używamy przycisku ![](/images/newIcon24.png) **Nowy**. Wyświetli się Nam pole do wprowadzenia stacji roboczej. Wybieramy te, które wchodzą w skład danej linii produkcyjnej oraz określamy ich ilość. Następnie zatwierdzamy wprowadzone dane przy pomocy przycisku ![](/images/saveIcon24.png) **Zapisz**. Możliwe jest także dodanie całych [grup technologii](/grupy-technologii). 
+W zakładce **"Stacje robocze"** określamy te, które wchodzą w skład danej linii produkcyjnej. Do tego celu używamy przycisku {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy**. Wyświetli się Nam pole do wprowadzenia stacji roboczej. Wybieramy te, które wchodzą w skład danej linii produkcyjnej oraz określamy ich ilość. Następnie zatwierdzamy wprowadzone dane przy pomocy przycisku {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %}  **Zapisz**.
 
-Pole " **Ilość dla pozostałych stacji roboczych**" służy do określenia po ile sztuk z pozostałych (niewymienionych w tabeli po prawej) stacji roboczych, wchodzi jeszcze w skład tej linii.
+Pole **"Ilość dla pozostałych stacji roboczych"** służy do określenia po ile sztuk z pozostałych (niewymienionych w tabeli po prawej) stacji roboczych, wchodzi jeszcze w skład tej linii.
 
 Dane te w późniejszej kolejności są wykorzystywane do planowania oraz kalkulacji czasu realizacji zlecenia na tej linii produkcyjnej.
 

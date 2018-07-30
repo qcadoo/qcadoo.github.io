@@ -1,6 +1,7 @@
 ---
 title: "Czasochłonność technologii"
 permalink: czasochlonnosc-zlecenia.html
+toc: false
 ---
  To narzędzie pozwala już w ciągu mniej niż minuty, bez konieczności zakładania zlecenia produkcyjnego, udzielić klientowi odpowiedzi na pytanie: W jakim czasie możliwe jest zrealizowanie zlecenia? 
 
@@ -8,15 +9,10 @@ permalink: czasochlonnosc-zlecenia.html
 
 {% include lightbox.html file="czasochlonosc-technologii.png" alt="Czasochłonność technologii" caption="Czasochłonność technologii" %}
 
-Aby z niego skorzystać, wybieramy:
-
-**KALKULACJE >> Czasochłonność technologii**
-
-
+Aby z niego skorzystać, wybieramy: **KALKULACJE >> Czasochłonność technologii**
 
 1. Przy pomocy  {% include inline_image.html file="lupka.png" alt="Lupka" %} wybieramy technologię, dla której chcielibyśmy obliczyć czasochłonność.  
   
-
 2. W następnym kroku podajemy planowaną przez nas datę rozpoczęcia **Rozpoczęcie**, **Planowaną ilość** produktów oraz **Linię produkcyjną** na której realizowane będzie dana technologia.  
   
 3. Opcjonalnie w kalkulacji możesz uwzględnić "Zawarte w czasie pracy":  

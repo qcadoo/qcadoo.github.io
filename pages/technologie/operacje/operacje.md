@@ -1,6 +1,7 @@
 ---
 title: "Operacje"
 permalink: operacje.html 
+toc: false
 ---
 
 "Operacje" gromadzą opisy wszystkich prac obserwowanych na produkcji, wykonywanych zarówno przy udziale maszyn jak i przez samych pracowników. Operacje wprowadzamy oddzielnie definiując dla każdej czasy i koszty ich wykonania, tutaj możemy także określić informacje jakie chcemy mieć zawarte na kartach pracy. 
