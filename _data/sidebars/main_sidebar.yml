@@ -312,6 +312,14 @@ entries:
           output: web
           url: /stany-i-statusy-zlecen.html
 
+        - title: Planowanie na liniach
+          output: web
+          url: /planowanie-na-liniach.html
+
+        - title: Wyjątki dla linii
+          output: web
+          url: /wyjatki-dla-linii.html
+
     - title: Zlecenia nadrzędne
       output: web
       url: /zlecenia-nadrzedne.html
