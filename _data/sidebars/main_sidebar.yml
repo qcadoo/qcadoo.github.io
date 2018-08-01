@@ -308,7 +308,7 @@ entries:
           output: web
           url: /planowanie-zlecen.html
 
-        - title: Stany i statusy zleceń
+        - title: Statusy zleceń
           output: web
           url: /stany-i-statusy-zlecen.html
 
