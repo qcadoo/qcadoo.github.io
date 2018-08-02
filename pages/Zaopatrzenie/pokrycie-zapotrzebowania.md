@@ -12,7 +12,7 @@ Tutaj program qcadoo daje możliwość wygenerowania informacji jakie jest nasze
 Pokrycie zapotrzebowania generujemy wchodząc w:
 
 
-**ZAOPATRZENIE  Pokrycie zapotrzebowania** {% include inline_image.html file="generateIcon24.png" alt="Przycisk generuj" %} **Generuj**
+**ZAOPATRZENIE >> Pokrycie zapotrzebowania >>** {% include inline_image.html file="generateIcon24.png" alt="Przycisk generuj" %} **Generuj**
 
 
  (Aby wygenerować zapotrzebowanie musisz wypełnić wszystkie wymagane informacje) 
