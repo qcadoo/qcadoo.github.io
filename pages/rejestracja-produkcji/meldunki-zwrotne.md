@@ -9,7 +9,7 @@ toc: false
 
 ## Jak wygenerować wydruki rekordów produkcji?
 
-**REJESTRACJA  Wydruki rekordów produkcji {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
+**REJESTRACJA >> Wydruki rekordów produkcji >> {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
 
 {% include lightbox.html file="Rejestracja-%20wydruki%20rekord%C3%B3w%20produkcji.png" alt="Wydruki rekordów produkcji" caption="Wydruki rekordów produkcji" %}
 

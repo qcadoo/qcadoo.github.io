@@ -8,7 +8,7 @@ Rejestracja produkcji - wariant rejestracji dla każdej operacji
 
 Dla tego sposobu rejestracji produkcji dedykowana jest zakładka dostępna po wybraniu:
 
-**REJESTRACJA Rejestracja produkcji {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
+**REJESTRACJA >> Rejestracja produkcji >> {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
 
 {% include lightbox.html file="rejestracja-%20rejestracja%20produkcji.png" alt="Rejestracja produkcji" caption="Rejestracja produkcji" %}
 

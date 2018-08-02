@@ -8,7 +8,7 @@ Dla tego sposobu rejestracji produkcji dedykowana jest zakładka dostępna po wy
 
 By zarejestrować produkcję dla zlecenia, w którym wybraliśmy wariant "zbiorczy", należy wybrać
 
-**REJESTRACJA  Rejestracja produkcji {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
+**REJESTRACJA >> Rejestracja produkcji >> {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
 
 Pojawi się formularz, w którym:
 

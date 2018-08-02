@@ -15,7 +15,7 @@ Rozliczanie produkcji przynosi dwie korzyści.
 
 Aby wygenerować nowy raport wybieramy:
 
-**REJESTRACJA  Rozliczenie produkcji {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
+**REJESTRACJA >> Rozliczenie produkcji >> {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
 
 {% include lightbox.html file="rejestracja-%20rozliczenie%20produkcji.png" alt="Rozliczenie produkcji" caption="Rozliczenie produkcji" %}
 

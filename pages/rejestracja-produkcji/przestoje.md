@@ -9,7 +9,7 @@ Rejestracja przestojów w qcadoo pozwala na prowadzenie statystyk dotyczących p
 
 Chcąc zarejestrować przestoje w realizacji danego zlecenia produkcyjnego wybieramy:
 
-**Zlecenia produkcyjne  Przestoje {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
+**Zlecenia produkcyjne >> Przestoje >> {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
 
 {% include lightbox.html file="rejestracja-%20przestoje.png" alt="Przestoje" caption="Przestoje" %}
 

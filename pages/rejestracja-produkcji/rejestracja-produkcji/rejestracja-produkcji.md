@@ -33,7 +33,7 @@ Parametry widoczne po prawej stronie:
 
 ## Aby wprowadzić meldunek zwrotny wybierz:
 
-**REJESTRACJA  Rejestracja produkcji {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} Dodaj nowy**
+**REJESTRACJA >> Rejestracja produkcji >> {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} Dodaj nowy**
 
 {% include lightbox.html file="rejestracja-%20rejestracja%20produkcji.png" alt="Rejestracja produkcji" caption="Rejestracja produkcji" %}
 

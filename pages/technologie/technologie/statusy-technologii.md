@@ -13,5 +13,6 @@ Technologie będące w stanie:
 - **Odrzucone** - technologia wycofana z innego powodu niż z tego, że została uznana za przestarzałą,
 - **Przestarzałe** - technologia wycofana, na liście wszystkich technologii widoczna jako przestarzała.
 
- ![](/images/Stany%20technologii.png)
+{% include lightbox.html file="Stany%20technologii.png" alt="Stany technologii" caption="Stany technologii"%}
+
 
