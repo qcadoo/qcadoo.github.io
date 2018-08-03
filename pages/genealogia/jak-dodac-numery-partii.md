@@ -2,44 +2,27 @@
 title: "Partie"
 permalink: jak-dodac-numery-partii.html
 ---
-Jak dodać numery partii?
 
-* * *
+Aby dodać numer partii dla danego produktu, należy postępować zgodnie z krokami poniżej:
 
-Aby dodać numer partii do danego produktu należy wejść w:
+1. Wejdź do **GENEALOGIA  Partie** i wybierz {% include inline_image.html file="newIcon24.png" alt="Dodaj nowy" %} **Dodaj nowy**.
 
-  
+2. Podaj "Numer partii". Numer może być dowolny, zgodny z przyjętymi w zakładzie zasadami.
 
-**GENEALOGIA  Partie  ![](/images/newIcon24.png)****Dodaj nowy**
+3. Potem przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybierz z listy produkt, którego ma dotyczyć dany numer partii. Jeżeli na liście produktów brakuje interesującego Cię produktu, sprawdź [Jak dodać produkt?](/produkty)
+            
+4. Teraz opcjonalnie, ponownie używając {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} określ [firmę](/firmy), która jest dostawcą dodawanej partii produktu.
 
-  
+5. Następnie kliknij {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz**, aby zapisać wprowadzone dane. 
+    
+{% include lightbox.html file="Genealogia-%20partie-%20strza%C5%82ki.png" alt="Formularz partii" caption="Formularz partii" %}
 
-![](/images/Genealogia-%20partie-%20strza%C5%82ki.png)
-1. W pierwszym kroku przy pomocy ![](/images/lupka.png)wybieramy z listy "Produkt", którego dany numer partii dotyczy. Produkty są dodawane z listy utworzonej w **"Danych podstawowych"**. Jeżeli brakuje produktu sprawdź:[Jak dodać produkt](/produkty)?<br>
-            <br>
-            Opcjonalnie, używając <img border="0" src="/images/lupka.png" style="color:rgb(51,51,51);font-size:10pt;line-height:1.6;vertical-align:-6px;background-color:transparent"><span style="color:rgb(51,51,51);font-size:10pt;line-height:1.6;background-color:transparent"> ,z </span><span style="color:rgb(51,51,51);font-size:10pt;line-height:1.6;background-color:transparent">listy </span><a href="/firmy" style="font-size:10pt;line-height:1.6;background-color:transparent">Firm</a> <span style="color:rgb(51,51,51);font-size:10pt;line-height:1.6;background-color:transparent"> (również dostępnej w </span><b style="color:rgb(51,51,51);font-size:10pt;line-height:1.6;background-color:transparent">"Danych podstawowych"</b><span style="color:rgb(51,51,51);font-size:10pt;line-height:1.6;background-color:transparent">) wybieramy producenta tego produktu. <br>
-<br>
-Następnie przypisujemy "Numer partii". Numer partii przypisujemy dowolnie, zgodnie z przyjętymi w zakładzie zasadami. <br>
-<br>
-</span>
-2. Wybieramy ![](/images/saveIcon24.png) **Zapisz** wtedy wpisany produkt z numerem partii doda się do bazy.  
-  
-3. W zakładce **"Historia"** notowana jest data wprowadzenia danej partii do bazy oraz jej stan.  
-  
-4. Nadajemy status produktowi. Domyślnie jest to status ![](/images/enableIcon16.png) **Odblokowany**.  
-  
-  
+{% include callout.html content='Można nadać wiele numerów partii jednemu produktowi.' type="info" %}
 
-**<u>UWAGA:</u>**  Można nadać wiele numerów partii jednemu produktowi.
+Istnieją dwa statusy partii:
 
-  
+- **Śledzony** - ten status przypisywany jest każdej nowo dodanej partii,
+- **Zablokowany** - kliknij {% include inline_image.html file="disableIcon16.png" alt="Zablokowany" %} **Zablokuj**, aby zmienić status ze śledzonego na zablokowany. Zrób to, gdy dana partia nie będzie wykorzystywana (na stałe lub tylko czasowo). W ten sposób nie będzie się pojawiała na liście możliwych numerów partii do przypisania dla danego zlecenia.
 
-Partie produktów mogą otrzymać statusy. 
-
-* * *
-  
-
-- Każdemu nowemu przypisywany jest domyślnie status ![](/images/enableIcon16.png) **Odblokowany**.  
-  
-- W przypadku gdy dana partia nie będzie wykorzystywana (na stałe, lub tylko czasowo) możemy nadać jest status ![](/images/disableIcon16.png) **Zablokowany**. W ten sposób nie będzie się pojawiała na liście możliwych numerów partii do przypisania dla danego zlecenia.
+{% include callout.html content='Historię zmian statusów partii możesz przeanalizować w zakładce "Historia".' type="info" %}
 

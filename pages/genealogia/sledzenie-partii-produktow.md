@@ -2,38 +2,28 @@
 title: "Proste śledzenie partii"
 permalink: sledzenie-partii-produktow.html
 ---
- Genealogia przechowuje nie tylko informacje o partiach produktów wytworzonych za sprawą zleceń z qcadoo. Umożliwiamy również, dla wygody w przeszukiwaniu genealogi, śledzenie partii tych wyrobów, które, przykładowo: były wytworzone jeszcze przed wdrożeniem naszego systemu. 
+ Genealogia przechowuje nie tylko informacje o partiach produktów wytworzonych za sprawą zleceń z qcadoo. Umożliwia również śledzenie partii tych wyrobów, które na przykład były wytworzone jeszcze przed wdrożeniem naszego systemu. 
   
 
-Jak wprowadzić rejestr partii, które weszły w skład naszych produktów?<br>
+Jak wprowadzić rejestr partii, które weszły w skład naszych produktów?
         
 
-* * *
+1. W **GENEALOGIA  Proste śledzenie partii** wybierz {% include inline_image.html file="newIcon24.png" alt="Dodaj nowy" %} **Dodaj nowy**.
 
-  
+{% include lightbox.html file="Genealogia-%20proste%20%C5%9Bledzenie%20partii-%20strza%C5%82ki.png" alt="Śledzenie partii produktów" caption="Śledzenie partii produktów" class="float-right" %}
 
-W tym celu wybieramy:
+2. Wskaż wytworzony produkt czyli produkt końcowy wraz z [przypisaną mu partią](/jak-dodac-numery-partii).
 
+3. Podaj wyprodukowaną ilość.  
   
+4. Następnie zapisz dane, wybierając {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz**.
+  
+5. Kliknij {% include inline_image.html file="newIcon24.png" alt="Dodaj nowy" %} **Nowy**, aby dodać partie produktów, które zostały użyte do wytworzenia podanej partii produktu. Po dodaniu produktu w tabeli "Użyte partie" pojawią się między innymi data dodania oraz dane osoby, która wprowadziła tę partię.  
+  
+6. Po wprowadzeniu wszystkich produktów ponownie wybierz {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz**.  
+  
+5. Następnie, jeśli wprowadzona wersja zapisanego rekordu śledzenia partii jest końcową, zmień jej status na {% include inline_image.html file="startIcon24.png" alt="Zaakceptuj" %} **Zaakceptowana.**
 
-**GENEALOGIA  Proste śledzenie partii  ![](/images/newIcon24.png)****Dodaj nowy**
+{% include callout.html content='Dla każdej partii możliwy jest wydruk dokumentu w formie pliku PDF.' type="info" %}
 
-[![](/images/Genealogia-%20proste%20%C5%9Bledzenie%20partii-%20strza%C5%82ki.png)](/images/Genealogia-%20proste%20%C5%9Bledzenie%20partii-%20strza%C5%82ki.png)
-  
-
-1. Wybieramy wytworzony produkt (czyli produkt końcowy wraz z [przypisaną mu partią](/jak-dodac-numery-partii)).Podajemy wyprodukowaną ilość.  
-  
-2. 
- Następnie zapisujemy dane wybierając ![](/images/saveIcon24.png) **Zapisz.** Po zapisaniu danych, poniżej aktywuje się tabela **"Użyte partie"**.  
-  
-
-3. 
-Przyciskiem ![](/images/newIcon16.png) **Nowy** dodajemy partie produktów, które zostały użyte do realizacji zlecenia oraz ich liczby. Po dodaniu produktu w tabeli pojawią się m.in data dodania oraz nazwa osoby, która wprowadziła tę partię.  
-  
-
-4. Po wprowadzeniu wszystkich produktów ponownie wybieramy ![](/images/saveIcon24.png) **Zapisz.**  
-  
-5. Następnie, jeśli wprowadzona wersja jest końcową nadajemy status ![](/images/startIcon24.png) **Zaakceptowana.**  
-  
-**Dla każdej partii możliwy jest wydruk dokumentu w formie pliku ![](/images/pdfIcon24.png)PDF.**  
 
