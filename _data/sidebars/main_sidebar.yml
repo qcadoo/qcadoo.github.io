@@ -144,6 +144,10 @@ entries:
       output: web
       url: /numery-katalogowe.html
 
+    - title: Asortymenty
+      output: web
+      url: /asortymenty.html
+
   - title: Technologie
     output: web
     folderitems:
@@ -323,6 +327,10 @@ entries:
     - title: Zlecenia nadrzędne
       output: web
       url: /zlecenia-nadrzedne.html
+
+    - title: Grupy zleceń
+      output: web
+      url: /grupy-zlecen.html
 
     - title: Karty pracy
       output: web
