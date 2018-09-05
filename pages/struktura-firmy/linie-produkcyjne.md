@@ -10,7 +10,7 @@ Linia produkcyjna to zbiór stacji roboczych, na których wykonywane są poszcze
 
 {% include lightbox.html file="Technologie-%20linie%20produkcyjne.png" alt="Formularz lini produkcyjnej" caption="Definiowanie linii produkcyjnej"%}
 
-Linię produkcyjną tworzymy wybierając z menu głównego: **TECHNOLOGIE >> Linie produkcyjne >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
+Linię produkcyjną tworzymy wybierając z menu głównego: **STRUKTURA FIRMY >> Linie produkcyjne >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
 
 1. W zakładce **"Główna"** nadajemy "Numer" i "Nazwę" tworzonej linii produkcyjnej (obowiązkowo).
 

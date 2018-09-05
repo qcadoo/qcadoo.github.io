@@ -147,6 +147,18 @@ entries:
     - title: Asortymenty
       output: web
       url: /asortymenty.html
+   
+  - title: Struktura firmy
+    output: web
+    folderitems:
+
+    - title: Struktura firmy
+      output: web
+      url: /struktura-firmy.html
+
+    - title: Linie produkcyjne
+      output: web
+      url: /linie-produkcyjne.html
 
   - title: Technologie
     output: web
@@ -193,10 +205,6 @@ entries:
     - title: Grupy technologii
       output: web
       url: /grupy-technologii.html
-
-    - title: Linie produkcyjne
-      output: web
-      url: /linie-produkcyjne.html
 
     - title: Normy przezbrojeń
       output: web
