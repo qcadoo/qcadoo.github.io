@@ -10,13 +10,15 @@ Twój zakład produkcyjny zapewne ma wydzielone działy produkcyjne, a wykorzyst
   
 Wybierz w „Danych podstawowych” zakładkę „Działy” i kliknij przycisk {% include inline_image.html file="dodaj%20nowy.png" alt="Dodaj nowy" %} **Dodaj nowy**.
 
-Dla każdego działu określamy unikalny numer i nazwę - i to są jedyne niezbędne do wypełnienia dane(i taka podpowiedź: dane wymagane w systemie oznaczone są **pogrubioną czcionką**. Warto tą zasadę zapamiętać - będzie pomocna w pracy w programie).
+Dla każdego działu określamy unikalny numer i nazwę - i to są jedyne niezbędne do wypełnienia dane (i taka podpowiedź: dane wymagane w systemie oznaczone są **pogrubioną czcionką**. Warto tą zasadę zapamiętać - będzie pomocna w pracy w programie).
 
-Do działów wrócimy jeszcze, aby odpowiednio przypisać do niej linie i stacje robocze - ale o tym w dalszej części opisu struktury działu.
+Do działów wrócimy jeszcze, aby odpowiednio przypisać do nich linie i stacje robocze - ale o tym w dalszej części opisu struktury działu.
 
 ## Linie produkcyjne
 
-W działach mogą zostać wyodrębnione linie produkcyjne. W programie linia produkcyjna może być wykorzystywana również jako gniazdo produkcyjne - to Ty Użytkowniku decydujesz jakie czynności i w jaki sposób będą przeprowadzane w tym obszarze - liniowo, czy nie koniecznie.
+W działach mogą zostać wyodrębnione linie produkcyjne. 
+
+Potraktuj linię produkcyjną jako ten obszar, na który chcesz planować zlecenia produkcyjne. Jeśli zlecasz produkcję z dokładnością do działu - wprowadź jako linie te działy właśnie. Jeśli chcesz planować z dokładnością do gniazda - wprowadź jako linię te gniazda. Linia - to tylko nazwa w systemie. To Ty decydujesz, co pod nią będzie się faktycznie kryło. Zlecenie produkcyjne ma przypisanie do linii - i na linie będziesz mógł je układać na wykresie Gantta. 
 
 {% include lightbox.html file="linia_lista.png" alt="Linie produkcyjne" caption="Linie produkcyjne" %}
 
@@ -24,23 +26,27 @@ Aby dopisać linię produkcyjną należy wejść w menu "Dane podstawowe" i w ni
 
 Linia produkcyjna wymaga podania **numeru** i **nazwy**. Dodatkowo możesz dodać dodatkowy opis, podpiąć dokumentację do danej linii, czy określić miejsce w zakładzie, które zajmuje dana linia (miejsca są do zdefiniowania w słownikach). Ponadto możesz już na tym etapie przypisać ją do działu i w zakładce Stacje robocze podpiąć maszyny czy stanowiska znajdujące się w danej linii - jednak za chwilę pokażemy Ci jak całe drzewo struktury zakładu zbudować z poziomu działu - zatem możesz się z tym jeszcze wstrzymać.
 
-Linia produkcyjna jest bardzo ważnym elementem w programie - zlecenia produkcyjne wymagają podania na jakiej linii będą wykonywane.
+{% include callout.html content="Linia produkcyjna jest bardzo ważnym elementem w programie - zlecenia produkcyjne wymagają podania na jakiej linii będą wykonywane." type="warning" %} 
 
-{% include lightbox.html file="typy_stacji_lista.png" alt="Typy stacji" caption="Typy stacji" %}  
+
 
 Wszelkie operacje w procesie produkcyjnym są wykonywane na maszynach lub stanowiskach zgromadzonych na danej linii produkcyjnej. Oprócz zdefiniowania konkretnych jednostkowych stacji roboczych, qcadoo MES umożliwia wprowadzenie typu stacji roboczych, dla pogrupowania wszystkich maszyn pakujących czy wszystkich frezarek wykorzystywanych w firmie. Dana stacja robocza musi mieć określony swój typ, dlatego wprowadź teraz typy stacji roboczej.
 
-## Stacje robocze
+## Typy stacji roboczych
 
 Otwórz menu "Dane podstawowe" i w niej w "Typy stacji roboczych". Kliknij przycisk {% include inline_image.html file="dodaj%20nowy.png" alt="Dodaj nowy" %} **Dodaj nowy**.
 
-W uruchomionym oknie podaj **nazwę** i **numer** oraz ewentualny **opis**.
+{% include lightbox.html file="typy_stacji_lista.png" alt="Typy stacji" caption="Typy stacji" %}
 
-{% include lightbox.html file="stacje_lista.png" alt="Lista stacji" caption="Lista stacji" %} 
+W uruchomionym oknie podaj **nazwę** i **numer** oraz ewentualny **opis**.
 
 Już teraz jesteś gotowy do zdefiniowania najbardziej elementarnych składowych struktury zakładu - **stacji roboczych**. W qcadoo MES stacjami roboczymi są wszystkie maszyny i wszystkie stanowiska produkcyjne zlokalizowane w zakładzie, na których prowadzone są operacje procesu produkcyjnego.
 
+## Stacje robocze
+
 W menu "Dane podstawowe" wejdź w "Stacje robocze" i kliknij przycisk {% include inline_image.html file="dodaj%20nowy.png" alt="Dodaj nowy" %} **Dodaj nowy**.
+
+{% include lightbox.html file="stacje_lista.png" alt="Lista stacji" caption="Lista stacji" %} 
 
 W oknie konieczne jest podanie unikalnego **numeru** , **nazwy** oraz **typu stacji roboczej**. Możesz również już teraz określić linię produkcyjną, na której stacja jest umiejscowiona.
 

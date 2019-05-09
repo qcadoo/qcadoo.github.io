@@ -7,15 +7,17 @@ Utworzyłeś już zlecenie produkcyjne i ropocząłeś je. Teraz możesz zaczą�
   
 Podczas definiowania zlecenia w zakładce "Rejestracja produkcji" określiłeś sposób, w jaki chcesz rejestrować produkcję na poczet tego zlecenia. W naszym systemie istnieją trzy takie sposoby:
 
-- podstawowy - rejestracja produkcji jest wykonywana z poziomu zlecenia produkcyjnego, rejestrujemy w niej zużytą ilość surowców, wyprodukowaną i zużytą ilość półproduktów oraz wyprodukowaną ilość produktu finalnego,   
-- zbiorczy - zużycie i produkcję rejestrujemy dla całego zlecenia, zbiorczo, bez podziału na poszczególne operacje. Oprócz podania ilości zużytych i wyprodukowanych produktów, możemy również zarejestrować czas pracy pracowników oraz maszyn,  
-- dla każdej operacji - różni się od zbiorczego tym, że ilości zużyte i wyprodukowane podajemy dla każdej operacji technologii osobno.  
+- [podstawowy](/podstawowe-rejestrowanie-produkcji) - rejestracja produkcji jest wykonywana z poziomu zlecenia produkcyjnego, rejestrujemy w niej zużytą ilość surowców, wyprodukowaną i zużytą ilość półproduktów oraz wyprodukowaną ilość produktu finalnego,
+- [zbiorczy](/zbiorcze-rejestrowanie-produkcji) - zużycie i produkcję rejestrujemy dla całego zlecenia, zbiorczo, bez podziału na poszczególne operacje. Oprócz podania ilości zużytych i wyprodukowanych produktów, możemy również zarejestrować czas pracy pracowników oraz maszyn,  
+- [dla każdej operacji](/rejestracja-kazdej-operacji) - różni się od zbiorczego tym, że ilości zużyte i wyprodukowane podajemy dla każdej operacji technologii osobno.  
 
 ## Podstawowa rejestracja produkcji 
 
 Jeżeli wybrałeś podstawowy typ rejestracji produkcji to, aby podać ilości zużytych i wyprodukowanych materiałów oraz wyprodukowaną ilość produktu finalnego, należy wybrać w zleceniu produkcyjnym opcję **Ilości wyprodukowane/zużyte**
 
 {% include lightbox.html file="rejestracja_podstawowa.png" alt="Podstawowa rejestracja" caption="Podstawowa rejestracja produkcji"%}
+
+Jest to podejście bardzo minimalistyczne. Z brakiem efektów w postaci dokumentów magazynowych. Tak rejestrowana produkcja nie pozwoli też na rozliczenie, czy analizy. 
   
 ## Rejestracja produkcji zbiorcza i "dla każdej operacji"
   
@@ -32,9 +34,10 @@ Jeżeli wybrałeś podstawowy typ rejestracji produkcji to, aby podać ilości z
 - zlecenie można zamknąć tylko wtedy, gdy istnieje ostatni meldunek czyli rekord rejestracji,  
 - automatycznie zamknąć zlecenie, gdy zostanie zarejestrowany ostatni meldunek.
    
-Produkcję rejestrujemy w **Rejestracja >> Rejestracja produkcji**.  
+Produkcję rejestrujemy w **Rejestracja >> Rejestracja produkcji**.  Możemy również użyć **terminala rejestracji produkcji** - ale i w tym wypadku potwierdzenie rejestracji utworzy zapis w rejestracji produkcji. 
+
+Więcej o rejestracji produkcji przeczytasz [tutaj](/rejestracja), a o terminalu - [tutaj](/terminal)
   
-{% include callout.html content='Jeżeli we wszystkich lub w większości obsługiwanych zleceń produkcyjnych będziesz wykorzystywał określony sposób rejestracji produkcji, to ta wskazówka z pewnością Ci się przyda. Wejdź do **Ustawienia >> Parametry** i tam w zakładce "Rejestracja produkcji" zdefiniuj domyślne wartości dla rejestracji produkcji. Skróci to znacznie czas pracy nad zleceniami, szczególnie jeżeli wprowadzasz ich dużo.' type="info" %} 
 
 Wiesz już, jak zarejestrować produkcję. Nasze krótkie wprowadzenie Cię w pracę z naszym system powoli dobiega końca. Na zakończenie dowiedz się jeszcze o rozliczaniu produkcji.
 

@@ -15,6 +15,8 @@ Wpisanie tych danych nie jest wymagane, jednak podanie ich pozwoli na kalkulacj�
 
 O sposobie definiowania norm kosztowych dowiesz się więcej **[tutaj](/normy-kosztowe)**. Jeżeli jesteś zainteresowany stworzeniem norm czasowych dla operacji i potrzebujesz więcej informacji na ten temat, wejdź **[tu](/normy-czasowe)**.
 
+Dla operacji możesz też podać produkt, będący jej efektem. Podpowiemy go przy budowaniu technologii.
+
 {% include callout.html content=" Operację wykonywać może pracownik, pracownik przy wykorzystaniu maszyny, bądź sama maszyna. Do każdej zdefiniowanej operacji możesz dołączyć plik graficzny, np. ze schematem obsługi maszyny. Plik graficzny dołączamy w polu **Załącznik**" type="info" %} 
 
 To już prawie półmetek, a teraz jedna z najciekawszych czynności:

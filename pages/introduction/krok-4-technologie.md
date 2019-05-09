@@ -24,6 +24,8 @@ W qcadoo technologię buduje się w formie drzewa operacji - układając je od o
 {:start="2"}
 2. Wybierając {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy** wprowadź używane w operacji surowce (czyli produkty wejściowe) oraz produkty końcowe (czyli produkty wyjściowe). 
 
+qcadoo wymaga, aby produkt wytworzony w danej operacji (wyjściowy), był wykorzystany w kolejnej operacji (wejście). Aby przyspieszyć pracę, wprowadź półprodukty tylko jako produkty wyjściowe z operacji i kliknij przycisk  **Przenieś produkty do kolejnych operacji** - qcadoo odpowiednio podepnie je jako wejścia do kolejnych operacji. 
+
 {% include callout.html content='Może się zdarzyć, że na liście produktów nie będzie wszystkich materiałów potrzebnych do uzupełnienia produktów wejściowych i wyjściowych. Możesz je dopisać otwierając qcadoo w osobnym oknie przeglądarki iwchodząc ponownie w zakładkę „Produkty” (patrz **[Krok 1](/krok-1-produkty-1)**).' type="info" %}
 {:start="3"}
 3. Kliknij przycisk {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** aby zachować wprowadzone zmiany.
@@ -33,6 +35,8 @@ W qcadoo technologię buduje się w formie drzewa operacji - układając je od o
 Najcięższe zadanie masz już za sobą. Teraz pozostało jeszcze zdefiniowanie zasięgu technologii oraz przepływu produktów w procesie produkcyjnym. Co to takiego?  
   
 Zasięg to przypisanie operacji technologii do jednostek organizacyjnych wystepujących w firmie (patrz: **[Krok 3 - Struktura zakładu](/krok-2-maszyny)**). Celem ustalenia zasięgu jest określenie, które jednostki są odpowiedzialne za wykonanie danej operacji technologii. Wszystkie operacje danej technologii mogą być wykonywane przez jeden dział, a nawet jedną linię produkcyjną. Może również być tak, że technologia będzie składała się z operacji wykonywanych przez różne działy i wiele różnych linii produkcyjnych.  
+
+Określenie zasięgu technologii nie jest konieczne. Ale dzięki określeniu jaka linia danymi czynnościami się zajmuje, podpowiemy ją przy tworzeniu zlecenia. Czyli będzie jeden krok mniej do wykonania podczas rozpisywania produkcji.
   
 Aby zdefiniować zasięg technologii:  
 
@@ -54,7 +58,10 @@ Skończyłeś wprowadzać technologię. Teraz, aby użyć jej w zleceniu produkc
 
 Najpierw upewnij się, że dane zostały wprowadzone prawidłowo, korzystając z funkcji {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Sprawdź poprawność**. Jeżeli w którymś miejscu popełniłeś błąd, qcadoo poinformuje Cię otym, wyświetlając odpowiedni komunikat. Jeżeli zaś wszystkie dane wprowadzone są poprawnie, nadaj gotowej technologii status „Zaakceptowana”, wybierając przycisk {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Akceptuj**.
 
-{% include callout.html content='Nadanie technologii statusu „Zaakceptowana” uniemożliwia wprowadzanie wniej zmian.' type="warning" %}
+{% include callout.html content='Nadanie technologii statusu „Zaakceptowana” uniemożliwia wprowadzanie w niej zmian.' type="warning" %}
+
+{% include callout.html content="
+Warto wiedzieć, że cały proces produkcyjny danego wyrobu nie musi być opisany jedną technologią. Możemy ją podzielić na tzw. technologie na komponenty. Opcja przydatna, gdy produkujesz kilka elementów, a później np. montujesz w całość. I każdy z tych elementów produkuje inna linia. A nawet - każdy z tych elementów jest zlecany w innym czasie. Więcej o technologiach na komponent przeczytasz w [Technologie](/technologie-szczegoly) " type="info" %} 
   
 Technologia zaakceptowana? Teraz sprawdź ile kosztuje Cię produkcja tego towaru.
 

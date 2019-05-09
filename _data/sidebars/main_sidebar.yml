@@ -104,6 +104,10 @@ entries:
       output: web
       url: /zmiany.html
 
+    - title: Wyjątki dla linii
+      output: web
+      url: /wyjatki-dla-linii.html
+
     - title: Produkty
       output: web
       url: /produkty.html
@@ -111,18 +115,6 @@ entries:
     - title: Rodziny produktów
       output: web
       url: /rodziny-produktow.html
-
-    - title: Typy stacji roboczych
-      output: web
-      url: /typy-stacji-roboczych.html
-
-    - title: Stacje robocze
-      output: web
-      url: /stacje-robocze.html
-
-    - title: Działy
-      output: web
-      url: /dzialy.html
 
     - title: Słowniki
       output: web
@@ -147,6 +139,10 @@ entries:
     - title: Asortymenty
       output: web
       url: /asortymenty.html
+
+    - title: Numery własne palet
+      output: web
+      url: /numery-wlasne-palet.html
    
   - title: Struktura firmy
     output: web
@@ -156,9 +152,21 @@ entries:
       output: web
       url: /struktura-firmy.html
 
+    - title: Działy
+      output: web
+      url: /dzialy.html
+
     - title: Linie produkcyjne
       output: web
       url: /linie-produkcyjne.html
+
+    - title: Typy stacji roboczych
+      output: web
+      url: /typy-stacji-roboczych.html
+
+    - title: Stacje robocze
+      output: web
+      url: /stacje-robocze.html
 
   - title: Technologie
     output: web
@@ -209,6 +217,66 @@ entries:
     - title: Normy przezbrojeń
       output: web
       url: /normy-przezbrojen.html
+
+  - title: Magazyn
+    output: web
+    folderitems:
+
+    - title: Magazyny
+      output: web
+      url: /magazyny.html
+
+    - title: Miejsca składowania
+      output: web
+      url: /miejsca-skladowania.html
+
+    - title: Dokumenty
+      output: web
+      url: /dokumenty.html
+
+    - title: Pozycje dokumentów
+      output: web
+      url: /pozycje-dokumentow.html
+
+    - title: Stany magazynów
+      output: web
+      url: /stany-magazynow.html
+
+    - title: Stany miejsc składowania
+      output: web
+      url: /stany-miejsc-skladowania.html
+
+    - title: Stan palet
+      output: web
+      url: /stan-palet.html
+
+    - title: Zasoby
+      output: web
+      url: /zasoby.html    
+      
+    - title: Korekty
+      output: web
+      url: /korekty.html
+
+    - title: Rezerwacje stanów
+      output: web
+      url: /Rezerwacje-stanow.html
+
+    - title: Rozliczenie palet
+      output: web
+      url: /rozliczenie-palet.html
+
+    - title: Stan minimalny
+      output: web
+      url: /stan-min.html
+
+    - title: Inwentaryzacja
+      output: web
+      url: /inwentaryzacja.html 
+
+    - title: Wydruk stanu magazynu
+      output: web
+      url: /wydruk-stanu-magazynu.html
 
   - title: Zaopatrzenie
     output: web
@@ -291,6 +359,10 @@ entries:
           output: web
           url: /typy-zlecen.html
 
+        - title: Statusy zleceń
+          output: web
+          url: /stany-i-statusy-zlecen.html
+
         - title: Zmiana stanu zapotrzebowania po rozpoczęciu zlecenia
           output: web
           url: /zmiana-stanu-zapotrzebowania.html
@@ -303,13 +375,13 @@ entries:
           output: web
           url: /ceny-materialow-dla-zlecenia.html
 
-    - title: Przydział do zmian
-      output: web
-      url: /przydzial-do-zmian.html
+        - title: Produkcja na zmianę
+          output: web
+          url: /produkcja-na-zmiane.html
 
-    - title: Wydruk przydziału do zmian
+    - title: Planowanie na liniach
       output: web
-      url: /wydruk-przydzialu-do-zmian.html
+      url: /planowanie-na-liniach.html
 
       subfolders:
       - title: Planowanie zleceń
@@ -319,18 +391,18 @@ entries:
         - title: Planowanie zleceń
           output: web
           url: /planowanie-zlecen.html
+          
+    - title: Przydział do zmian
+      output: web
+      url: /przydzial-do-zmian.html
 
-        - title: Statusy zleceń
-          output: web
-          url: /stany-i-statusy-zlecen.html
+    - title: Wydruk przydziału do zmian
+      output: web
+      url: /wydruk-przydzialu-do-zmian.html
 
-        - title: Planowanie na liniach
-          output: web
-          url: /planowanie-na-liniach.html
-
-        - title: Wyjątki dla linii
-          output: web
-          url: /wyjatki-dla-linii.html
+    - title: Wydruk produkcji na zmianę
+      output: web
+      url: /wydruk-produkcji-na-zmiane.html
 
     - title: Zlecenia nadrzędne
       output: web
@@ -343,6 +415,10 @@ entries:
     - title: Karty pracy
       output: web
       url: /karty-pracy.html
+
+    - title: Planowanie na liniach
+      output: web
+      url: /planowanie-na-liniach.html
 
   - title: Rejestracja
     output: web
@@ -376,6 +452,10 @@ entries:
         - title: Rejestracja każdej operacji
           output: web
           url: /rejestracja-kazdej-operacji.html
+
+    - title: Terminal rejestracji produkcji
+      output: web
+      url: /terminal.html
 
     - title: Rozliczenie produkcji
       output: web

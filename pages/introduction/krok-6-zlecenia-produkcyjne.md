@@ -12,9 +12,15 @@ Wybierz produkt, którego dotyczy Twoje zamówienie ("Produkt"), następnie nada
 
 {% include callout.html content="Możesz utworzyć zlecenie produkcyjne tylko dla tego produktu, który posiada zdefiniowaną technologię." type="warning" %} 
 
-  
+{% include callout.html content="Zleceń produkcyjnych nie musisz wprowadzać zawsze ręcznie. Jak przyspieszyć i zautomatyzować pracę? Dowiesz się [tutaj](/zlecenia-produkcyjne)." type="info" %} 
 
-Nie musisz ręcznie obliczać czasu realizacji zlecenia. Zrobi to za Ciebie qcadoo. W tym celu przejdź do pola „Czasochłonność” (kliknij zieloną strzałkę, która jest widoczna po prawej stronie, by rozwinąć dalszą część menu {% include inline_image.html file="dropdownIcon32.png" alt="rozwiń" %}). Wprowadź datę "Planowanego rozpoczęcia" zlecenia, "Planowaną ilość" i wybierz przycisk {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** , a następnie przycisk  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj**. W polu "Data zakończenia", w wierszu "Obliczona" pojawi się wyliczony czas zakończenia zlecenia. 
+---
+
+Dla wprowadzonego zlecenia produkcyjnego możesz wyznaczyć czas realizacji. Możesz skorzystać z dwóch niezależnych opcji, które daje qcadoo: kalkulacja czasochłonności lub produkcja na zmianę.
+
+1. **kalkulacja czasochłonności**
+
+Nie musisz ręcznie obliczać czasu realizacji zlecenia. Zrobi to za Ciebie qcadoo. W tym celu kliknij przycisk „Czasochłonność” (kliknij zieloną strzałkę, która jest widoczna po prawej stronie, by rozwinąć dalszą część menu {% include inline_image.html file="dropdownIcon32.png" alt="rozwiń" %}). Wprowadź datę "Planowanego rozpoczęcia" zlecenia, "Planowaną ilość" i wybierz przycisk {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** , a następnie przycisk  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj**. W polu "Data zakończenia", w wierszu "Obliczona" pojawi się wyliczony czas zakończenia zlecenia. 
 
 Następnie wybierz „Kopiuj obliczoną datę do plan. daty zakończenia” i ponownie {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**, by zachować wprowadzone zlecenie. System oblicza czasochłonność biorąc pod uwagę:
 
@@ -22,7 +28,17 @@ Następnie wybierz „Kopiuj obliczoną datę do plan. daty zakończenia” i po
 - czasy wykonania operacji
 - ilości sztuk do wykonania
 - godziny pracy Twojego zakładu (możesz to definiować w „Danych podstawowych” i zakładce „Zmiany”).
+
+
+
+{:start="2"}
+2. **produkcja na zmianę**
+
+Jeśli produkujesz seryjnie i jesteś w stanie okreslić normę wydajnościową dla technologii (określającą ile produktu wytworzysz na minutę), to możesz wyznaczyć czasy realizacji poprzez rozłożenie zleconej ilości na zmiany. Oczywiście nie musisz ręcznie liczyć - możesz skorzystać z pomocy qcadoo. Wejdź w szczegółach zlecenia do _"Produkcja na zmianę"_ i wywołaj funkcję **Zaplanuj produkcję na zmiany**. Więcej o tym jak działa produkcja na zmianę oraz jak skonfigurować qcadoo, by móc z niej skorzystać, przeczytasz [tutaj](/produkcja-na-zmiane).
+
  Teraz wiadomo ile dokładnie potrwa realizacja zlecenia oraz którego dnia zostanie sfinalizowana.
+
+---
 
 Zanim rozpoczniesz zlecenie produkcyjne, konieczne jest zadbanie o dostępność niezbędnych do produkcji surowców. Pomocne okażą się dostępne w qcadoo MES zestawienia zapotrzebowania materiałowego.
 

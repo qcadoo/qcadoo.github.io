@@ -3,7 +3,7 @@ title: "Technologie"
 permalink: technologie.html 
 ---
 
- Nie wiemy dokładnie jak powstała Ziemia. Najprawdopodobniej najpierw był wielki wybuch, chaos z którego za pośrednictwem skomplikowanych procesów fizycznych i chemicznych powstała Ziemia.Wiemy, że podobnie opisać można zarządzanie technologią wobecnie dostępnych na rynku oprogramowaniach. 
+ Nie wiemy dokładnie jak powstała Ziemia. Najprawdopodobniej najpierw był wielki wybuch, chaos z którego za pośrednictwem skomplikowanych procesów fizycznych i chemicznych powstała Ziemia. Wiemy, że podobnie opisać można zarządzanie technologią w obecnie dostępnych na rynku oprogramowaniach. 
 
 {% include callout.html content="Dlatego zadbaliśmy o to, by w qcadoo zarządzanie technologią było proste, a co ważne - dokładne.
 " type="success" %}

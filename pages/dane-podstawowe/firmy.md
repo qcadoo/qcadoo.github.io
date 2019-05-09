@@ -13,7 +13,7 @@ W celu dodania firmy należy przejść do **Podstawowe >> Firmy**  i kliknąć *
 
 - W zakładce **"Główna"** nadajemy numer i nazwę firmy oraz przypisujemy jej dane adresowe.
 - W zakładce **"Adresy"** określamy dodatkowe dane adresowe.
-- W zakładce **"Sprzedaje"** możemy określić jakie produkty bądź rodziny produktów sprzedaje firma, w ten sposób jesteśmy w stanie wprowadzać podpowiedzi podczas tworzenia dostaw, lub w pokryciu zapotrzebowania wskazać dostawcę.
+- W zakładce **"Sprzedaje"** możemy określić jakie produkty bądź rodziny produktów sprzedaje firma, w ten sposób jesteśmy w stanie wprowadzać podpowiedzi podczas tworzenia dostaw, lub w pokryciu zapotrzebowania wskazać dostawcę. Zaznacz przy firmie "domyślny" jeśli to ten kontrahent jest głównym dostawcą danego produktu lub rodziny produktów. Dzięki temu podpowiemy go w raporcie stanów minimalnych oraz przy automatycznym tworzeniu dostaw (np. do stanów minimalnyhc)
 - Zakładka **"Dostawy"** służy określeniu buforu dla terminu dostaw. Bufor ten określa minimalny czas jaki może wystąpić pomiędzy dostawą produktów od firmy, a faktycznym zapotrzebowaniem na te produkty.
 - W zakładce **"Wykonuje"** możemy przypisać operacje bądź grupy operacji jakie wykonuje firma, jeśli jest naszym podwykonawcą.
 
