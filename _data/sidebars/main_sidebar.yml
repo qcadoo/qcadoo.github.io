@@ -318,6 +318,18 @@ entries:
       output: web
       url: /zapytania-ofertowe.html
 
+    - title: Wydania wewnętrzne
+      output: web
+      url: /wydania-wewnetrzne.html
+
+    - title: Produkty do wydania wewnętrznego
+      output: web
+      url: /produkty-do-wydania-wewnetrznego.html 
+
+    - title: Wydane produkty
+      output: web
+      url: /wydane-produkty.html
+
   - title: Kalkulacje
     output: web
     folderitems:
