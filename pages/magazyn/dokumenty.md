@@ -10,26 +10,7 @@ Zanim wprowadzisz pierwszy dokument upewnij się, czy masz:
 - zdefiniowane [magazyny](/magazyny) i ewentualnie [miejsca składowania](/miejsca-skladowania)
 - wprowadzone [produkty](/produkty)
 
-Warto również zajrzeć w parametry dokumentów (Administracja > Paramety > Magazyn > Zakładka Główna).
-
-## Parametry dokumentów magazynowych
-
-{% include lightbox.html file="magazynDokumentyParametry.png" alt="Parametry dokumentu magazynowego" caption="Parametry dokumentu magazynowego" %}
-
-W parametrach dokumentu magazynowego ustaw, które pola pozycji dokumentów mają być widoczne. Jeśli nie chcesz ewidencjonować z dokładnością do palet (i ich numerować) to pewnie kolumny: typ palety i paleta nie będą Ci potrzebne. Wejdź w szczegóły pola w tabeli i odznacz parametr _Widoczność_. Dzięki temu Twój widok nie będzie zaśmiecony kolumnami, których nie potrzebujesz. A i Twoi pracownicy nie będą się zastanawiać co w danym polu wpisać. 
-
-{% include callout.html content="Jest lista pól w pozycjach dokumentu, których w parametrach wyłączyć się nie da. Pola te w tabeli w parametrach mają _Możliwość zmiany widoczności_ = nie. qcadoo ich potrzebuje do prawidłowej ewidencji" type="warning" %}
-
-Za co odpowiadają pozostałe parametry:
-- **podpowiadaj jeden zasób** - jeśli będziesz wystawiać dokument magazynowy rozchodowy, to przy podaniu produktu program podpowie zasób, który będzie wydawany. Dzięki temu od razu będą widoczne atrybuty wynikające z zasobu (jak cena, data ważności, czy miejsce składowania). Rozwiązanie ma to jednak swoje minusy - jeśli danego zasobu zostały 2 szt. a Ty potrzebujesz wydać 10 szt. to program zasób podpowie, ale przy zapisie zawoła, że nie ma wystarczającego stanu. Jeśli zasób nie będzie podpowiadany przy tworzeniu pozycji, to na akceptacji dokumentu taką pozycję porozbija na tyle, ile różnych zasobów musi wydać
-- **akceptacja dokumentu przy wydruku dyspozycji** - jeśli zaznaczysz parametr, to w momencie wywołania wydruku dokumentu w szablonie Dyspozycja przesunięcia, dany dokument zostanie zaakceptowany. Dzięki temu w jednym kroku możesz potwierdzić, że realizacja dokumentu nastąpiła. Jeśli parametr nie będzie zaznaczony - trzeba będzie osobno zaakceptować i wydrukować dokument.
-- **nie pokazuj cen na wydruku dokumentu** - wolisz aby pracownicy nie widzieli ile kosztują dane produkty? Zaznacz parametr, a na wydrukowanym dokumencie kolumny z ceną i wartością zostaną ukryte. 
-- **prezentuj ilość całkowitą i resztę** - parametr przydatny w sytuacji, gdy prowadzisz ewidencję produktu w jednostce podstawowej i dodatkowej. Innymi słowy - gdy masz na magazynie produkt w kartonach, a w kartonach jakąś ilość sztuk. Np. karton długopisów to 80 szt. Założmy, że wydajesz 346 szt. długopisów - już widzisz jak pracownik próbuje ustalić ile to kartonów? Zaznacz parametr, wówczas na wydruku dokumentu pojawi się informacja, że to 4 kartony i 26 sztuk.
-- **dobieraj zasoby bez względu na przelicznik** - ten parametr też przyda się tylko, gdy prowadzisz ewidencję produktu w dwóch jednostkach. Zasoby tworzone na magazynie mają informację o obu jednostkach (i ilościach w tych jednostkach) a także o przeliczniku, w jakim zasób jest przyjęty. Podczas wydawania produktu z magazynu dokumentem rozchodowym, program poszukuje zasobów danego produktu o przeliczniku podanym w pozycji dokumentu (innymi słowy - qcadoo zakłada, że jeśli podałeś przelicznik 80 to znaczy, że chcesz wydać karton, który zawiera 80 szt. długopisów, a nie taki, który zawiera tych długopisów 120). Jeśli nie ma to jednak dla Ciebie znaczenia to zaznacz parametr - wówczas przy dobieraniu zasobów program najpierw sprawdzi, czy ma na stanie zasób o podanym w pozycji dokumentu przeliczniku. Jeśli nie ma - to spróbuje dobrać zasób o innym przeliczniku i odpowiednio przeliczy ilosci w pozyci dokumentu
-
-Pamiętaj też o parametrze _Szkicowe dokumenty rezerwują stany_, który ustawia się w [magazynie](/magazyny).
-
-Parametry ustawione. Czas na wprowadzanie dokumentów.
+Warto również zajrzeć w [parametry dokumentów](/parametry-magazyn) (Administracja > Paramety > Magazyn > Zakładka Główna).
 
 ## Ręczne wprowadzanie dokumentów magazynowych
 

@@ -17,10 +17,12 @@ Pojawi się formularz (widok powyżej), w którym:
 1. Przy pomocy {% include inline_image.html file="lupka.png" %} wybieramy **"Zlecenie produkcyjne"**, dla którego chcemy zarejestrować produkcję (pole obowiązkowe).  
   
 2. Następnie {% include inline_image.html file="lupka.png" %} wybieramy z listy **"Operację"**, której dotyczy ten meldunek zwrotny.  
+Jeśli do danej operacji zlecenia istnieje zadanie operacyjne, to wskazanie operacji spowoduje uzupełnienie pracownika i stacji roboczej w nim podanych.
+
+{:start="3"}
+3. Opcjonalnie możemy wybrać "Pracownika", "Zmianę", "Stację roboczą" bądź "Dział", które brały udział w wykonywaniu tego fragmentu zlecenia, dla którego chcemy zarejestrować produkcję.  
   
-3. Opcjonalnie możemy wybrać"Pracownika", "Zmianę", "Stację roboczą" bądź "Dział", które brały udział w wykonywaniu tego fragmentu zlecenia, dla którego chcemy zarejestrować produkcję.  
-  
-4. Następnie określany czy ten meldunek zwrotny jest ostatnim dla tego zlecenia. Jeśli tak, zaznaczamy pole **"Końcowy".**  
+4. Następnie określamy czy ten meldunek zwrotny jest ostatnim dla tego zlecenia. Jeśli tak, zaznaczamy pole **"Końcowy".**  
 
 5. Na koniec klikamy {% include inline_image.html file="saveIcon24.png" %} **Zapisz**, by zatwierdzić i móc wykonać kolejne kroki.  
 

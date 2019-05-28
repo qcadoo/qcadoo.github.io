@@ -11,20 +11,8 @@ Wydania wewnętrzne mogą przyjmować jedną z dwóch form:
 
 Oba typy zostaną omówione bliżej poniżej.
 
-Zacznij jednak od ustawienia <span style="color:red"> *parametrów wydania wewnętrznego*</span>. Wejdź w Administracja > Parametry > Zaopatrzenie > zakładka: Wydanie wewnętrzne.
+Zacznij jednak od ustawienia [parametrów wydania wewnętrznego](/parametry-zaopatrzenie#wydania-wewnętrzne). Wejdź w Administracja > Parametry > Zaopatrzenie > zakładka: Wydanie wewnętrzne.
 
-{% include lightbox.html file="parametryWydaniaWewnetrzne.png" alt="Parametry wydania wewnętrznego" caption="Parametry wydania wewnętrznego" class="float-right" %}
-
-- **żródło produktów do wydania** - wskaż, czy chcesz aby lista produktów tworzona była na podstawie zapotrzebowania zlecenia produkcyjnego (=zlecenia produkcyjne), czy na podstawie ręcznie tworzonej listy (=ręczna dyspozycja)
-- **produkty do wydania** - jeśli wydania będą tworzone do zleceń produkcyjnych, to możesz określić czy chcesz, aby lista tworzona była na podstawie wszystkich produktów wejściowych technologii, czy tylko na podstawie surowców. Jest to zależne w dużej mierze od tego, czy półprodukty przyjmowane są na magazyn w trakcie produkcji i magazynier musi zadbać o odpowiednie ich przesunięcie na działy
-- **generuj wydania wewnętrzne do dostaw** - parametr aktywny, gdy żródłem produktów do wydania jest ręczna dyspozycja. Zaznacz parametr jeśli chcesz, abyśmy w momencie odbioru dostawy założyli wydanie wewnętrzne informujace pracowników na jakie docelowe magazyny produkty mają być przesunięte. O szczegółach tej możliwości poczytasz poniżej.
-- **generuj wydania wewnętrzne do zleceń** - parametr aktywny, gdy źródłem produktów do wydania są zlecenia produkcyjne. Zaznacz parametr jeśli chcesz, abyśmy na określoną ilość dni przed planowanym rozpoczęciem zlecenia, utworzyli wydanie wewnętrzne z listą produktów potrzebnych do zlecenia. O tym jak działa generowanie poczytasz poniżej
-- **ile dni przed rozpoczęciem zlecenia** - jeśli chesz generować wydania wewnętrzne do zleceń, to podaj na ile dni przed rozpoczęciem zlecenia wydanie ma się założyć
-- **magazyn wydający** - jeśli wydanie ma się tworzyć do zlecenia, to musimy wiedzieć z jakiego magazynu będą przesuwane produkty ma magazyny, z których produkty faktycznie będą zużywane (czyli magazyny ustawione w przepływach technologii) 
-- **wystawiane dokumenty** - określ czy chcesz aby wydanie kończyło się dokumentami MM czy parą WZ - PZ
-- **status dokumentów** - wskaż, czy wystawione z wydania dokumenty mają zostać w szkicu, czy od razu zostać zaakceptowane 
-- **wydania wewnętrzne rezerwują stany** - zaznacz jeśli chcesz aby lista produktów do wydania była zajęta pod to wydanie. Dzięki temu nikt nie będzie mógł rozchodować tych produktów i mamy pewność, że nam nie zabraknie do produkcji
-- **ilość wydana do wysokości potrzeby** - wydanie wewnętrzne może być tylko wyznacznikiem tego w jakiej ilości produkty mają być przesuwane na magazyn. Np. w technologii określono, że potrzebujemy 0,05 m danego materiału. I taka ilość pojawi się w wydaniu. Jednak magazynierzy mogą nie ciąć materiału i wydawać do na działy w całych belkach - więc wiadomo, że ostatecznie wydają np. 50 m. Jeśli chcesz pozwolić na taką możliwość - zostaw parametr nie zaznaczony. Jeśli natomiast chcesz aby magazynier nie mógł wydać więcej niż technologia określa, to parametr powinien zostać zaznaczony - przypilnujemy to podczas wydania.
 
 # Sposób pracy z wydaniami wewnętrznymi
 

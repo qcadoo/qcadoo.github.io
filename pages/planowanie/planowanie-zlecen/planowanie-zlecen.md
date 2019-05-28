@@ -24,6 +24,7 @@ Na liście znajdziesz wiele informacji o zleceniach produkcyjnych takich jak:
 - ilość produktu zaplanowaną do wyprodukowania,
 - ilość produktu już wyprodukowaną,
 - ilość produktu jaka pozostała do wyprodukowania,
+- wykonanie procentowe (kolumna może dodatkowo być oznaczona kolorami w zależności od procentu wykonania -> szczegóły znajdziesz poniżej),
 - numer zlecenia nadrzędnego czyli zamówienia, w ramach którego realizowane jest dane zlecenie produkyjne,
 - linię produkcyjną,
 - kontrahenta.
@@ -51,3 +52,16 @@ Dostępne są następujące predefiniowane filtry:
 - **rozpoczynające się jutro** - na liście pojawią się zlecenia zaakceptowane, których rozpoczęcie (planowana data rozpoczęcia) zaplanowane jest na następny dzień.
 
 {% include callout.html content="Posortuj otrzymaną listę zleceń produkcyjnych od najwcześniejszej daty rozpoczęcia, aby uzyskać harmonogram produkcji." type="info" %}
+
+## Śledzenie postępu produkcji
+
+Dobrze, gdy tylko szybki rzut oka pozwala na ustalenie jak wygląda praca na produkcji - co już zostało zrealizowane, a co czeka na swoją kolej. Taką informację qcadoo dostarczy Ci za pomocą podświetlanej kolorem kolumny **Wykonano %**:
+
+{% include lightbox.html file="planowaniePlanowanieZlecenKolor.png" alt="Wykonanie procentowe w planowaniu zleceń" caption="Wykonanie procentowe w planowaniu zleceń" %}
+
+Stosujemy trzy kolory:
+- <span style="color:red"> czerwony</span> - oznacza, że jeszcze nic nie zostało wyprodukowane (ilość wyprodukowana pochodząca z zaakceptowanych rekordów rejestracji produkcji to 0),
+- <span style="color:green"> zielony</span> - oznacza, że cała ilość zlecona jest już wyprodukowana (suma ilości wyprodukowanej pochodzącej z zaakceptowanych rekordów rejestracji jest co najmniej taka jak ilość zlecona),
+- <span style="color:yellow"> żółty</span> - oznacza, że praca trwa (czyli mamy już zarejestrowaną ilość wyprodukowaną do tego zlecenia, ale jest ona nadal mniejsza od ilości zleconej).
+
+Aby kolory pojawiły się w kolumnie, trzeba zaznaczyć parametr **Oznacz kolorem procent wykonania** w Administracja > Parametry > Zlecenia > zakładka Główna

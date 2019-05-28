@@ -25,6 +25,8 @@ Informowanie o tym jakie palety są na magazynie i w jakich lokalizacjach to pod
 
 Na magazynie nic nie jest stałe. Można powiedzieć, że magazyn żyje. Ciągle następują przesunięcia. Tworzone jest puste miejsce pod nową dostawę. Aby móc się w tym wszystkim połapać trzeba każdy ruch odtworzyć w qcadoo. Z pomocą przyjdą Ci opisane poniżej funkcjonalności.
 
+Parametry do przesuwania palet znajdziesz [tutaj](/parametry-magazyn#parametry-stanu-magazynowego)
+
 ## Palety z wolnym miejscem
 
 {% include lightbox.html file="parametryPrzesuwaniePalet.png" alt="Parametry przesuwania palet" caption="Parametry przesuwania palet" class="float-right" %}

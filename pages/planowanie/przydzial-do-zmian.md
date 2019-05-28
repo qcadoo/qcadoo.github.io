@@ -17,10 +17,12 @@ Dzięki tej funkcji możesz rozplanować przydział pracowników do zmian na lin
 4. Następnie kliknij  {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz**, aby zapisać wprowadzone dane.
 5. Teraz przy użyciu przycisku {% include inline_image.html file="newIcon16.png" alt="Przycisk Nowy" %} **Nowy** zacznij wprowadzać pracowników, których chcemy przypisać do danej "Zmiany".
 
-    {% include callout.html content="Jeżeli do tej samej linii produkcyjnej jest przypisanych wielu pracowników, nie musisz wprowadzać każdego z nich osobno. Skorzystaj z funkcji ![](/images/newIcon16.png) **Dodaj wielu pracowników**, która pozwala dodać wielu pracowników naraz." type="info" %}
+    {% include callout.html content="Jeżeli do tej samej linii produkcyjnej jest przypisanych wielu pracowników, nie musisz wprowadzać każdego z nich osobno. Skorzystaj z funkcji ![](/images/newIcon16.png) **Dodaj wielu pracowników**, która pozwala dodać wielu pracowników na raz." type="info" %}
 
 {:start="6"}
 6. Po wprowadzeniu wszystkich informacji wybierz {% include inline_image.html file="startIcon24.png" alt="Przycisk Zaakceptuj" %} **Zaakceptuj**.
+
+{% include callout.html content="Zajrzyj też do [parametrów przydziału do zmian](/parametry-przydzial-do-zmian)" type="warning" %}
 
 ## Korekta zdefiniowanego przydziału do zmian
 

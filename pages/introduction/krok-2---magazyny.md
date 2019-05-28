@@ -1,5 +1,8 @@
-\[]
-/
+---
+title: "Krok 2 - Magazyny"
+permalink: krok-2-magazyny.html
+---
+
 Produkty zostały już zdefiniowane. W kolejnym kroku należy określić magazyny, na których produkty będą składowane. qcadoo MES umożliwia prowadzenie dowolnej ilości magazynów. Mogą być one prowadzone albo w naszym systemie, albo w zintegrowanym ERPie.
 
 Magazyny będą uczestniczyły w całym procesie produkcyjnym - to na nie będziemy przyjmować zakupione od dostawców materiały. To z nich będziemy wydawać produkty do zużycia, czy przesuwać w ramach rezerwacji na magazyny działowe. I to na nie w końcu przyjmiemy wyprodukowane wyroby gotowe.

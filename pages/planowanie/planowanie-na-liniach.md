@@ -5,7 +5,7 @@ permalink: planowanie-na-liniach.html
   
 ## Do czego przyda Ci się ta opcja?
 
-W **PLANOWANIE Planowanie na liniach** zaplanujesz produkcję na konkretnych liniach. Dzięki intuicyjnemu interfejsowi zrobisz to szybko i bezproblemowo.
+W **PLANOWANIE > Planowanie na liniach** zaplanujesz produkcję na konkretnych liniach. Dzięki intuicyjnemu interfejsowi zrobisz to szybko i bezproblemowo.
 
 Na wykresie znajdziesz:
 
@@ -29,17 +29,19 @@ Więcej o możliwościach planowania na liniach dowiesz się w dalszej części 
 
 Wykres jest skalowalny. Domyślnie widzisz na nim cały tydzień. Widok możesz powiększyć, pomniejszyć, przesunąć w przód i tył o jeden dzień lub o ilość wyświetlonych dni. Dodatkowo możesz wybrać z kalendarza dzień, który chcesz zobaczyć, a także przejść do dnia dzisiejszego.
 
+Zacznij pracę z wykresem Gantta od ustawienia [parametrów](/parametry-planowanie-na-liniach)
+
 ## Linie produkcyjne i ich kalendarze
 
 W planowaniu na liniach prezentujemy [linie produkcyjne](/linie-produkcyjne), które jednocześnie:
-- mają zaznaczony parametr "Produkcja" - znajdziesz go w **STRUKTURA FIRMY Linie produkcyjne** w szczegółach linii,
+- mają zaznaczony parametr "Produkcja" - znajdziesz go w **STRUKTURA FIRMY > Linie produkcyjne** w szczegółach linii,
 - są aktywne.
 
 Wyświetlone linie są posortowane po numerze.
 
 Na wykresie dla każdej linii zaznaczone są okresy pracujące (na biało) i niepracujące (na szaro). W qcadoo każda linia ma zdefiniowany swój własny kalendarz [zmian](/zmiany), na których pracuje, a także [wyjątki](/wyjatki-dla-linii) do nich. Widać to w planowaniu na liniach, gdzie okresy pracujące i niepracujące są zaznaczane dla każdej linii z osobna z uwzględnieniem wyjątków.
 
-{% include callout.html content="Aby zdefiniować kalendarz zmian dla linii, wejdź do szczegółów linii z poziomu **STRUKTURA FIRMY Linie produkcyjne** i przypisz zmiany w zakładce 'Kalendarz'." type="info" %}
+{% include callout.html content="Aby zdefiniować kalendarz zmian dla linii, wejdź do szczegółów linii z poziomu **STRUKTURA FIRMY > Linie produkcyjne** i przypisz zmiany w zakładce 'Kalendarz'." type="info" %}
 
 ## Zlecenia produkcyjne i grupy zleceń
 
@@ -143,3 +145,16 @@ Wprowadzamy go teraz. Aby dzień wolny został uwzględniony w zaplanowanych zle
 
 {% include lightbox.html file="Planowanie-%20Planowanie%20na%20liniach%20po%20przeplanuj.png" alt="Planowanie na liniach po przeliczeniu planu" caption="Planowanie na liniach po przeliczeniu planu" %}
 
+## Tryb postępu produkcji
+
+Standardowo na wykresie Gantta kafelki zleceń lub grup zleceń kolorowane są w zależności od tego jakie przyjmują statusy (ale to już wiesz, bo przecież jesteś po lekturze powyższego opisu). Możesz zmienić sposób kolorowania na uzależniony od procentu wykonania (czyli od tego ile faktycznie wyprodukowano).
+
+Aby tak się stało kliknij przycisk {% include inline_image.html file="przyciskWlaczTrybPostepuProdukcji.png" alt="Przycisk Włącz tryb postępu produkcji" %} **Włącz tryb postępu produkcji**. Kafelki zleceń przybiorą wówczas następujące barwy:
+
+{% include lightbox.html file="planowanieGanttTrybPostepuProdukcji.png" alt="Planowanie na liniach w trybie postępu produkcji" caption="Planowanie na liniach w trybie postępu produkcji" %}
+
+- <span style="color:red"> czerwony</span> - oznacza, że jeszcze nic nie zostało wyprodukowane (ilość wyprodukowana pochodząca z zaakceptowanych rekordów rejestracji produkcji to 0),
+- <span style="color:green"> zielony</span> - oznacza, że cała ilość zlecona jest już wyprodukowana (suma ilości wyprodukowanej pochodzącej z zaakceptowanych rekordów rejestracji jest co najmniej taka jak ilość zlecona),
+- <span style="color:yellow"> żółty</span> - oznacza, że praca trwa (czyli mamy już zarejestrowaną ilość wyprodukowaną do tego zlecenia, ale jest ona nadal mniejsza od ilości zleconej).
+ 
+Ustawienie trybu wyświetlania kolorów zostanie zapamiętane - jeśli ponownie wejdziesz do planowania na liniach będzie uruchomiony wybrany przez Ciebie sposób. Aby powrócić do informowania o statusach kliknij przycisk {% include inline_image.html file="przyciskWylaczTrybPostepuProdukcji.png" alt="Przycisk Wyłącz tryb postępu produkcji" %} **Wyłącz tryb postępu produkcji**

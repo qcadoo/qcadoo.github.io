@@ -4,6 +4,8 @@ permalink: dostawy.html
 ---
 "Dostawy" umożliwiają nam przygotowanie i złożenie zamówienia na interesujące nas produkty. 
 
+{% include callout.html content="Zajrzyj do [parametrów dostaw](/parametry-zaopatrzenie#dostawy) i skonfiguruj je tak, by wygodnie Ci się z nich korzystało" type="info" %}
+
 ## Jak dodać nową dostawę?
 
 Aby dodać nową dostawę musimy wejść w: **ZAOPATRZENIE >> Dostawy >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**

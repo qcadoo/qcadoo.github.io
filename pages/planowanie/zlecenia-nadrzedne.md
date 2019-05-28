@@ -8,7 +8,7 @@ Qcadoo daje możliwość zaawansowanego pogrupowania zleceń produkcyjnych. Zlec
 
 ## Dodanie nowego zlecenia nadrzędnego
   
-**PLANOWANIE Zlecenia nadrzędne** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj Nowy" %} **Dodaj nowy**
+**PLANOWANIE > Zlecenia nadrzędne** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj Nowy" %} **Dodaj nowy**
 
 1. W zakładce "Główna" możesz zmienić "Numer" zlecenia, który nadawany jest automatycznie.
 
@@ -60,13 +60,13 @@ Zlecenie produkcyjne możesz dodać do nadrzędnego na kilka sposobów:
 
 5. Z poziomu zlecenia produkcyjnego
 
-    **PLANOWANIE Zlecenia produkcyjne** Wybierz interesujące Cię zlecenie i wejdź w jego szczegóły. Przejdź do zakładki "Zlec. nadrzędne" i w polu "Zlecenie nadrzędne" wybierz zlecenie nadrzędne, z którym chcesz je powiązać.
+    **PLANOWANIE > Zlecenia produkcyjne** Wybierz interesujące Cię zlecenie i wejdź w jego szczegóły. Przejdź do zakładki "Zlec. nadrzędne" i w polu "Zlecenie nadrzędne" wybierz zlecenie nadrzędne, z którym chcesz je powiązać.
 
 ## Utworzenie wielu zleceń produkcyjnych z poziomu zlecenia nadrzędnego
 
 Z poziomu zlecenia nadrzędnego można utworzyć wiele zleceń produkcyjnych za pomocą jednego kliknięcia. W tym celu zaznacz wiele produktów na liście produktów i wybierz {% include inline_image.html file="generateIcon24.png" alt="Przycisk Generuj" %} **Utwórz wiele zleceń produkcyjnych**.
 
-Dla każdego zaznaczonego produktu powstanie zlecenie produkcyjne na ilość pozostałą do zlecenia. Mało tego, jeśli chcesz, mogą powstać jeszcze zlecenia na komponenty a także dla każdego utworzonego zlecenia może zostać wyliczony plan produkcji na zmiany. Jedyne co musisz zrobić to włączyć odpowiednie parametry w **ADMINISTRACJA  Parametry** w zakładce "Zlec. na komponenty".
+Dla każdego zaznaczonego produktu powstanie zlecenie produkcyjne na ilość pozostałą do zlecenia. Mało tego, jeśli chcesz, mogą powstać jeszcze zlecenia na komponenty a także dla każdego utworzonego zlecenia może zostać wyliczony plan produkcji na zmiany. Jedyne co musisz zrobić to włączyć odpowiednie parametry w **ADMINISTRACJA >  Parametry** w zakładce "Zlec. na komponenty".
 
 {% include lightbox.html file="planowanie-%20zlecenia%20nadrz%C4%99dne%20par.png" alt="Parametry dotyczące tworzenia wielu zleceń produkcyjnych z poziomu zlecenia nadrzędnego" caption="Parametry dotyczące tworzenia wielu zleceń produkcyjnych z poziomu zlecenia nadrzędnego" %}
 

@@ -26,7 +26,7 @@ entries:
 
       - title: Krok 2 - Magazyny
         output: web
-        url: /krok-2---magazyny.html
+        url: /krok-2-magazyny.html
 
       - title: Krok 3 - Struktura zakładu
         output: web
@@ -416,6 +416,10 @@ entries:
       output: web
       url: /wydruk-produkcji-na-zmiane.html
 
+    - title: Raport odchyleń planu
+      output: web
+      url: /raport-odchylen-planu.html
+
     - title: Zlecenia nadrzędne
       output: web
       url: /zlecenia-nadrzedne.html
@@ -512,3 +516,96 @@ entries:
     - title: Integracja
       output: web
       url: /integracja.html
+    
+  - title: Administracja
+    output: web
+    folderitems:
+
+    - title: Użytkownicy
+      output: web
+      url: /uzytkownicy.html
+
+      subfolders:
+      - title: Parametry
+        output: web
+        subfolderitems:
+
+        - title: Parametry
+          output: web
+          url: /parametry.html
+
+        - title: Parametry - zakładka Główna
+          output: web
+          url: /parametry-glowna.html
+
+        - title: Parametry raportów
+          output: web
+          url: /parametry-raport.html
+
+        - title: Parametry czasochłonności technologii
+          output: web
+          url: /parametry-czasochlonnosc-technologii.html
+
+        - title: Parametry zdarzeń
+          output: web
+          url: /parametry-zdarzenia.html
+
+        - title: Parametry rejestracji produkcji
+          output: web
+          url: /parametry-rejestracja-produkcji.html
+      
+        - title: Parametry rozliczenia produkcji
+          output: web
+          url: /parametry-rozliczenie-produkcji.html
+
+        - title: Parametry zleceń na komponenty
+          output: web
+          url: /parametry-zlecenia-na-komponenty.html
+      
+        - title: Parametry zleceń na usługi
+          output: web
+          url: /parametry-zlecenia-na-uslugi.html
+
+        - title: Parametry firmy
+          output: web
+          url: /parametry-firma.html
+
+        - title: Parametry powiadomień
+          output: web
+          url: /parametry-powiadomienia.html
+
+        - title: Parametry technologii
+          output: web
+          url: /parametry-technologia.html
+
+        - title: Parametry zleceń
+          output: web
+          url: /parametry-zlecen.html
+
+        - title: Parametry genealogii
+          output: web
+          url: /parametry-genealogia.html
+
+        - title: Parametry zaopatrzenia
+          output: web
+          url: /parametry-zaopatrzenie.html
+
+        - title: Parametry magazynu
+          output: web
+          url: /parametry-magazyn.html
+
+        - title: Parametry przydziału do zmian
+          output: web
+          url: /parametry-przydzial-do-zmian.html
+
+        - title: Parametry zadań operacyjnych
+          output: web
+          url: /parametry-zadania-operacyjne.html
+
+        - title: Parametry karty pracy
+          output: web
+          url: /parametry-karty-pracy.html
+
+        - title: Parametry planowania na liniach
+          output: web
+          url: /parametry-planowanie-na-liniach.html
