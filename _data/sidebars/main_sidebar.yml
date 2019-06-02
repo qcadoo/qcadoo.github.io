@@ -84,6 +84,22 @@ entries:
         output: web
         url: /latwe-uzupelnianie.html
 
+  - title: Przykładowe procesy
+    output: web
+    folderitems:
+
+      - title: Przykładowe procesy
+        output: web
+        url: /przykladowe-procesy.html
+
+      - title: Realizacja zamówienia klienta
+        output: web
+        url: /realizacja-zamowienia-klienta.html
+
+      - title: Zamówienie surowców
+        output: web
+        url: /zamowienie-surowcow.html
+
   - title: Podstawowe
     output: web
     folderitems:
