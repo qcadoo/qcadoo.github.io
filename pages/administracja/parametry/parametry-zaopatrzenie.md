@@ -85,7 +85,7 @@ Dostępne są następujące parametry:
 
 Parametry dotyczą zachowania się [stanów minimalnych](/stan-min). 
 
-{% include lightbox.html file="administracjaParametryZaopatrzenieStanMin.png" alt="Parametry stanów minimalnych w pokryciu zapotrzebowania" caption="Parametry stanów minimalnych w pokryciu zapotrzebowania" %}
+{% include lightbox.html file="administracjaParametryZaopatrzenieStanyMin.png" alt="Parametry stanów minimalnych w pokryciu zapotrzebowania" caption="Parametry stanów minimalnych w pokryciu zapotrzebowania" %}
 
 1. **Uwzględniaj zapotrzebowanie w stanie aktualnym** - stany minimalne działają w oparciu o dostępną ilość magazynową. Sprawdzamy, czy to co jest dostępne, jest mniejsze od zdefiniowanego stanu minimalnego. Standardowo ilość dostępna to stan magazynowy pomniejszony o ilość zarezerwowaną. Jednak jeśli zaznaczysz ten parametr będziemy stan aktualny pomniejszać o ilości potrzebne pod istniejące zlecenia produkcyjne, z zadanego poniżej okresu
 

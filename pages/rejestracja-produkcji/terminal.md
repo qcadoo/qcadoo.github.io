@@ -36,12 +36,21 @@ W pierwszym trybie konieczne jest wydrukowanie kart pracy pracownikom. Na karcie
 
 Jeśli zlecenie ma być raportowane zbiorczo (o sposobach raportowania poczytasz m.in. [tutaj](/krok-10-rejestracja-produkcji)) to nie ma znaczenia, która operacja zostanie zeskanowana - każda odwoła się do zlecenia i zaczyta dane z całej technologii. Jeśli raportujecie z dokładnością do operacji to uczul pracowników, że muszą zeskanować tą operację, którą właśnie wykonali.
 
-W drugim trybie rezygnujemy z drukowania kart pracy. Pracownik wybiera zlecenie wprost z terminala, wywołując listę przyciskiem **Wybierz zlecenie**
+W drugim trybie rezygnujemy z drukowania kart pracy. Pracownik wybiera zlecenie lub zadanie wprost z terminala.
+
+Jeśli **plany oparte są o zlecenia produkcyjne** to pracownik może wskazać to aktualnie realizowane wywołując listę przyciskiem **Wybierz zlecenie**
 
 {% include lightbox.html file="rejestracjaTerminalWybierzZlecenie.png" alt="Wybierz zlecenie" caption="Okno wyboru zlecenia produkcyjnego w terminalu" %}
 
 W tym trybie możemy rejestrować tylko zlecenia raportowane zbiorczo. W oknie widoczne są zlecenia wskazanego w terminalu działu. Jeśli dział pusty - widzimy wszystkie zlecenia. "Wszystkie" - czyli te, które są rozpoczęte i zaplanowane na dziś. I znowu: "dziś" - czyli na moment daty rozpoczęcia ustawiony w obszarze _Czas pracy_ w terminalu. 
 Aby zaciągnąć zlecenie do terminala wystarczy je zaznaczyć i kliknąć _Wybierz_. Zlecenia możesz filtrować wpisując dowolny tekst w polu wyszukiwania (prawy górny róg) - program szuka po wszystkich widocznych w tabeli informacjach.
+
+Jeśli natomiast **plany oparte są o zadania operacyjne**, to pracownik wybiera aktualnie realizowaną czynność z listy dostępnej pod przyciskiem **Wybierz zadanie**
+
+{% include lightbox.html file="rejestracjaTerminalWybierzZadanie.png" alt="Wybierz zadanie" caption="Okno wyboru zadania operacyjnego w terminalu" %}
+
+Pracownik widzi swoje zadania operacyjne zaplanowane na daną zmianę (o statusie rozpoczęte). Do tego lista rozszerzana jest o zadania nie przypisane do żadnego pracownika. Domyślnie w oknie zadań widoczne są te, które jeszcze nie zostały w pełni zrealizowane (czyli dla których ilość wyprodukowana jest mniejsza od ilości zleconej). Odznaczając parametr **Nie pokazuj zadań zrealizowanych** lista zostanie poszerzona o zadania zrealizowane, ale nadal ze statusem rozpoczęte. Dzięki temu można dorejestrować produkcję. Aby zaciągnąć zadanie do terminala wystarczy je zaznaczyć i kliknąć _Wybierz_. Na podstawie zadania namierzymy zlecenie i jego operację. I na ich podstawie uzupełnimy pozostałe dane w terminalu. 
+
 
 ## Szczegółowy opis terminala
 
