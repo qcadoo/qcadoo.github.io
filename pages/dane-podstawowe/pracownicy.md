@@ -24,3 +24,13 @@ System jest przygotowany na taki przypadek. Indeks pracownika można zaktualizow
 Jeśli indywdualnie, to zaznaczamy checkbox **"Ustalony indywidualnie"**, po czym odblokuje się nam pole do wprowadzania kwoty, a dla przypisania grupy płacowej za pomocą przycisku {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy odpowiednią grupę, następnie klikamy {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %}  **Zapisz** i wprowadzone wartości będą uwzględniane np w [Rozliczeniu produkcji](/rozliczenie-produkcji). 
 
 {% include lightbox.html file="pracownicy-koszt-godziny-pracy.png" alt="Koszt godziny pracy" caption="Koszt godziny pracy" %}  
+
+## Jak przypisać do pracownika posiadane umiejętności?
+
+Dzięki przypisaniu pracownikowi umiejętności, będziesz potrafił ustalić kto może wykonywać daną operację. Funkcjonalność jest wykorzystywana przy tworzeniu [planu na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika)
+
+{% include lightbox.html file="podstawowePracownicyUmiejetnosci.png" alt="Dodawanie umiejętności pracownika" caption="Dodawanie umiejętności pracownika" class="float-right" %}
+
+Aby móc przypisać umiejętność pracownikowi musisz zacząć od zdefiniowania listy [umiejętności](/umiejetnosci). 
+
+Jeśli lista gotowa, wejdź w szczegóły pracownika i w zakładkę **Umiejętności pracownika** i kliknij przycisk **Nowy**. Wybierz z listy umiejętność. Na jej podstawie wypełnione zostanie pole Maksymalny poziom. Teraz podaj na jakim poziomie pracownik włada daną umiejętnością - nie może być on wyższy od maksymalnego poziomu umiejętności. 

@@ -17,10 +17,10 @@ W kolejnej zakładce **Linie produkcyjne** dodajemy "Stacje robocze" oraz "Linie
 
 {% include lightbox.html file="dzialy_linie.png" alt="działy linie" caption="Działy - linie oraz stacje robocze" %}  
 
-W zakładce **Magazyny** definiujemy domyślne magazyny pobrania surowców i przyjmowania wyrobów dla danego działu oraz inne dodatkowe funckje.
+W zakładce **Magazyny** definiujemy domyślne magazyny pobrania surowców i przyjmowania wyrobów dla danego działu. Podpowiedzą się one przy tworzeniu [przepływów technologii](/technologie-szczegoly.html#przepływy-technologii).
 
 {% include lightbox.html file="dzialy_magazyny.png" alt="działy-magzyn" caption="Działy - konfiguracja magazynu" %}  
 
-  {% include callout.html content="Działy mogą być przypisywane do stacji roboczych i typów stacji roboczych. Według działów mogą być również rozdysponowane karty pracy." type="info" %} 
+{% include callout.html content="Działy mogą być przypisywane do stacji roboczych i typów stacji roboczych. Według działów mogą być również rozdysponowane karty pracy." type="info" %} 
 
 

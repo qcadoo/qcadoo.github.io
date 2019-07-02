@@ -163,6 +163,10 @@ entries:
     - title: Numery własne palet
       output: web
       url: /numery-wlasne-palet.html
+
+    - title: Umiejętności
+      output: web
+      url: /umiejetnosci.html
    
   - title: Struktura firmy
     output: web
@@ -204,6 +208,14 @@ entries:
         - title: Operacje
           output: web
           url: /operacje.html
+
+        - title: Stacje robocze operacji
+          output: web
+          url: /stacje-robocze-operacji.html
+
+        - title: Wymagane umiejętności operacji
+          output: web
+          url: /wymagane-umiejetnosci-operacji.html
 
         - title: Normy czasowe
           output: web
@@ -459,6 +471,10 @@ entries:
     - title: Planowanie na liniach
       output: web
       url: /planowanie-na-liniach.html
+
+    - title: Plan na stację roboczą i pracownika
+      output: web
+      url: /plan-na-stacje-robocza-i-pracownika.html
 
   - title: Rejestracja
     output: web

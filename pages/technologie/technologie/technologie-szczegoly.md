@@ -57,9 +57,9 @@ W celu edycji lub usunięcia operacji należy najpiere zaznaczyć ją w drzewie 
 
 Po zaznaczeniu operacji w drzewie uzupełnione zostają tabelki z produktami wejściowymi i wyjściowymi. Dodatkowo w tabeli **"Produkty wejściowe"** kolorami zaznaczone są te produkty, które posiadają własne technologie - pomarańczowym ze sprawdzonymi technologiami, a zielonym produkty posiadające zaakceptowane technologie.
 
- {% include lightbox.html file="technologie-technologia-produkty.png" alt="Produkty w technologii" caption="Produkty wejściowe i wyjściowe w technologii" %}
+{% include lightbox.html file="technologie-technologia-produkty.png" alt="Produkty w technologii" caption="Produkty wejściowe i wyjściowe w technologii" %}
 
- {% include lightbox.html file="technologie-technologia-produkty-wyjściowy.png" alt="Nowy produkt wyjściowy" caption="Nowy produkt wyjściowy" class="float-right" %}
+{% include lightbox.html file="technologie-technologia-produkty-wyjściowy.png" alt="Nowy produkt wyjściowy" caption="Nowy produkt wyjściowy" class="float-right" %}
 
 {% include lightbox.html file="technologie-technologia-produkty-wejściowy.png" alt="Nowy produkt wejściowy" caption="Nowy produkt wejściowy" class="float-right" %}
 
@@ -74,6 +74,39 @@ Po zaznaczeniu operacji w drzewie uzupełnione zostają tabelki z produktami wej
 5. W celu dodania produktu wejściowego wybieramy przycisk {% include inline_image.html file="newIcon16.png" alt="Nowy" %} "Nowy" w tabelce **"Produkty wejściowe"**. 
 
 6. Przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Produkt" dodawany do produktów wejściowych. Podajemy następnie ilość, jaką produkuje operacja - możemy podać ilość w innej jednostce, niż podstawowa jednostka produktu. Warunkiem jest zdefiniowanie wcześniej w produkcie przelicznika na wybraną jednostkę. Wybieramy następnie przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. 
+
+---
+
+## Zasięg technologii ##
+
+Zasięg technologii to określenie w jakim miejscu Twojej firmy operacje mają być wykonywane.
+
+{% include lightbox.html file="technologieTechnologieZasieg.png" alt="Zasięg technologii" caption="Zasięg technologii" %}
+
+Technologia może dotyczyć jednego lub wielu działów.
+
+Jeśli dotyczy jednego działu - informacje o dziale i linii będą wypełnione w nagłówku. Jeśli wielu - dla każdej operacji z osobna (w dolnej tabeli). Stacje robocze uzupełniane są zawsze na poziomie operacji - kliknij w operację w lewej tabeli, a uaktywni się dodawanie w tabeli prawej. Stacje robocze zaczytywane są z danych domyślnych zdefiniowanych w [operacji](/stacje-robocze-operacji).
+
+Jeśli technologia ma zasięg = 1 dział i wskażesz dział i linie, to zostaną one podpowiedziane przy tworzeniu zleceń produkcyjnych.
+
+## Przepływy technologii ##
+
+Przepływy technologii określają przez jakie magazyny będą przechodzić produkty potrzebne do produkcji danego produktu finalnego.
+
+{% include lightbox.html file="technologieTechnologiePrzeplywy.png" alt="Przepływy technologii" caption="Przepływy technologii" %}
+
+Jeśli technologia ma zasięg = 1 dział, to przyjmujemy, że dla wszystkich surowców magazyn jest taki sam, dla wszystkich półproduktów taki sam i dla wszystkich wyrobów taki sam. Magazyny uzupełnij w nagłówku (podpowiedzą się one z magazynów zdefiniowanych dla działu podanego w zasięgu) i wywołaj funkcję **Uzupełnij magazyny w produktach**, która wprowadzi magazyn dla każdego z produktów.
+
+Jeśli technologia ma zasięg = wiele działów, to magazyny muszą być wprowadzone na poziomie każdego z produktów. Dane również podpowiedzą się z magazynów przypisanych [działowi](/dzialy).
+
+Jakie magazyny musisz określić:
+- **magazyn pobrania surowców** - wskaż z jakiego magazynu mają być rozchodowane surowce do produkcji. Na ten magazyn tworzone będą dokumenty RW,
+- **magazyn przyjmowania wyrobów** - wskaż na jaki magazyn mają być przyjmowane wytworzone wyroby gotowe. Na ten magazyn będą tworzone dokumenty PW.
+
+Możesz też wskazać dodatkowe informacje:
+- **magazyn rozchodowania nadmiarowych surowców** - jeśli przesuwać do produkcji surowce na magazyn działowy (korzystając z [wydań wewnętrznych](/wydania-wewnetrzne)) to możesz podać na jaki magazyn mają być zwrócone produkty przesunięte, a nie zużyte. Dokument MM (z magazynu pobrania surowców na magazyn wskazany tutaj) utworzy się w momencie zakończenia zlecenia,
+- **magazyn produkcji w toku** - jeśli chcesz aby produkty będące efektami operacji, były przyjmowane na magazyn, to ustaw przepływ produkcji w toku = magazyn i podaj na jaki magazyn półprodukty mają być przymowane. Z magazynu tego program rozchoduje również półprodukty wskazane jako zużyte w kolejnych operacjach. 
+
 
 ## Zakończenie tworzenia technologii ##
 Po skończeniu należy upewnić się, że wprowadzone dane są prawidłowe. W tym przypadku można skorzystać z opcji {% include inline_image.html file="startIcon24.png" alt="Sprawdzenie poprawności" %} **Sprawdź poprawność,** by upewnić się, czy drzewo technologii zostało skonstruowane poprawnie. Po sprawdzeniu można będzie powrócić do edycji lub zaakceptować technologię. Jeśli mamy pewność wprowadzonych danych możemy od razu nadać jej status {% include inline_image.html file="startIcon24.png" alt="Akceptacja" %} **Zaakceptowana**. Tylko zaakceptowane technologie mogą zostać użyte w zleceniu produkcyjnym.
