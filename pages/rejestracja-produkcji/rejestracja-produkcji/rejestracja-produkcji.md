@@ -53,3 +53,13 @@ Po wprowadzeniu i zapisaniu wszystkich informacji możemy zaakceptować taki mel
 
 Jeżeli dany meldunek jest ostatnim meldunkiem wprowadzanym dla danej operacji bądź zlecenia, w zakładce **"Główna"** zaznaczamy "Końcowy".
 
+## Jak zarejestrować wykorzystany zamiennik?
+
+Informacja o tym, jakie surowce powinny być zużyte podczas realizacji zlecenia produkcyjnego, płynie z technologii. Czasami jednak (z różnych przyczyn - a to braki na magazynie, a to ostatnia sztuka, która miała być przetworzona okazała się uszkodzona, a to jakość produktu okazała się niewystarczająca) pojawia się konieczność wykorzystania zamiennika. Lista zamienników, sposród których możesz wybierać, zdefiniowana została w [produkcie](/produkty). 
+Jeśli produkt ma zdefiniowany zamiennik, to podczas rejestracji produkcji w tabeli produktów wejściowych, w kolumnie Istnieje zamiennik zobaczysz "tak". Aby wskazać co zostało przerobione w zastępstwie, zaznacz w tabeli produkt i kliknij w przycisk {% include inline_image.html file="przyciskWykorzystajZamiennik.png" alt="Przycisk Wykorzystaj zamiennik" %} **Wykorzystaj zamiennik**
+
+{% include lightbox.html file="rejestracjaRejestracjaProdukcjiDodajZamiennik.png" alt="Wskazanie użytego zamiennika" caption="Wskazanie użytego zamiennika" class="float-right"  %}
+
+W oknie wybierz z dostępnej listy zamienników ten właściwy (lista na podstawie subsytutów produktu) i podaj jaką ilość użyłeś. Dodany zamiennik pojawi się w liście produktów wejściowych danego meldunku. Zostanie przy nim zapisana informacja do jakiego produktu jest zamiennikiem - przyda się przy kolejnych rejestracjach do tego zlecenia: pracownik będzie wiedział dzięki temu, że produkt ten nie był zaplanowany, ale już wcześniej ktoś postanowił go użyć.
+
+Dodanie zamiennika z poziomu rejestracji produkcji utworzy odpowiedni zapis w [szczegółowym zapotrzebowaniu zlecenia](/zmiana-stanu-zapotrzebowania). Tutaj również zamienniki będą miały informację o tym do jakiego produktu zostały dodane. Ponadto - ilość planowana zamienników to 0. Dzięki temu łatwo będzie wyciągnąć informację w rozliczeniu produkcji jakie było planowane użycie surowców a jakie faktycznie osiągnięte.

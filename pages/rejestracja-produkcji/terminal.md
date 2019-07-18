@@ -43,7 +43,7 @@ Jeśli **plany oparte są o zlecenia produkcyjne** to pracownik może wskazać t
 {% include lightbox.html file="rejestracjaTerminalWybierzZlecenie.png" alt="Wybierz zlecenie" caption="Okno wyboru zlecenia produkcyjnego w terminalu" %}
 
 W tym trybie możemy rejestrować tylko zlecenia raportowane zbiorczo. W oknie widoczne są zlecenia wskazanego w terminalu działu. Jeśli dział pusty - widzimy wszystkie zlecenia. "Wszystkie" - czyli te, które są rozpoczęte i zaplanowane na dziś. I znowu: "dziś" - czyli na moment daty rozpoczęcia ustawiony w obszarze _Czas pracy_ w terminalu. 
-Aby zaciągnąć zlecenie do terminala wystarczy je zaznaczyć i kliknąć _Wybierz_. Zlecenia możesz filtrować wpisując dowolny tekst w polu wyszukiwania (prawy górny róg) - program szuka po wszystkich widocznych w tabeli informacjach.
+Aby zaciągnąć zlecenie do terminala wystarczy je zaznaczyć i kliknąć _Wybierz_. Zlecenia możesz filtrować wpisując dowolny tekst w polu wyszukiwania (prawy górny róg) - program szuka po wszystkich widocznych w tabeli informacjach. Podczas filtrowania możesz użyć * (gwiazdki) zastępując nią dowolny ciąg znaków.
 
 Jeśli natomiast **plany oparte są o zadania operacyjne**, to pracownik wybiera aktualnie realizowaną czynność z listy dostępnej pod przyciskiem **Wybierz zadanie**
 
@@ -64,9 +64,21 @@ Czas na opisanie każdego obszaru terminala z osobna.
 Pierwsze co należy zrobić to wczytać pracownika - albo skanując jego kod z identyfikatora, albo wklepując go z klawiatury. Pamiętaj, że wielkość liter ma znaczenie. Jeśli program znajdzie pracownika w systemie - uzupełni jego imię i nazwisko w polu obok.
 Na podstawie pracownika wczyta się jego dział. Jeśli oczywiście dział pracownikowi jest przypisany.
 
-Podaj pracownika i kliknij Enter -> program od razu przeskoczy do pola Operacja. To jest kolejne pole, które musi być uzupełnione. Operację uzupełnij albo skanując kod z karty pracy, albo wybierając zlecenie z okna _Wybierz zlecenie_ (w zależności od używanego trybu - opisane powyżej).
+Podaj pracownika i kliknij Enter -> program od razu przeskoczy do pola Operacja. To jest kolejne pole, które musi być uzupełnione. Operację uzupełnij albo skanując kod z karty pracy, albo wybierając zlecenie z okna _Wybierz zlecenie_ (w zależności od używanego trybu - opisane powyżej), albo wybierając zadanie z okna _Wybierz zadanie_.
 
-Na podstawie operacji/zlecenia uzupełnią się pozostałe dane w terminalu.
+Na podstawie operacji/zlecenia/zadania uzupełnią się pozostałe dane w terminalu.
+
+#### Postęp produkcji pracownika
+
+{% include lightbox.html file="rejestracjaTerminalPostepProdukcjiPracownika.png" alt="Postęp produkcji pracownika" caption="Okno podglądu postępu produkcji pracownika" class="float-right" %}
+
+Jeśli chcesz zobaczyć co już dziś wyprodukowałeś i zarejestrowałeś kliknij w przycisk {% include inline_image.html file="przyciskPostepPracownika.png" alt="Przycisk Postęp pracownika" %} **Postęp pracownika**. W oknie pojawią się informacje o tym na rzecz jakiego zlecenia pracowałeś, jaką wyprodukowałeś ilość i w jakim czasie. Widoczny jest też status rekordu rejestracji - wiesz zatem czy możesz jeszcze meldunek zmienić, czy już jest za późno. Postęp produkcji dotyczy zalogowanego pracownika na zmianie ustawionej w obszarze _Czas pracy_.
+
+### Dostępność surowców 
+
+{% include lightbox.html file="rejestracjaTerminalDostepnoscSurowcow.png" alt="Dostępność surowców" caption="Dostępność surowców potrzebnych do produkcji" class="float-right" %}
+
+O tym jakie produkty będą potrzebne do realizacji produkcji pracownik może dowiedzieć się z obszaru **Produkty wejściowe**. Nie znajdzie tam jednak informacji o tym, czy dany produkt znajduje się na magazynie i w jakiej ilości (weryfikacja taka może być konieczna w przypadku przesuwania surowców na magazyn działowy - jeśli stan nie jest wystarczający, to zapewne przesunięcie jeszcze nie zostało zrealizowane i warto skonsultować sytuację z magazynem). W tym celu został dodany przycisk {% include inline_image.html file="przyciskDostepnoscSurowcow.png" alt="Przycisk Dostępność surowców" %} **Dostępność surowców**. Uruchamia on okno z wszystkimi surowcami potrzebnymi pod dane zlecenie (przycisk uaktywnia się po wybraniu zlecenia w terminalu) i z informacją o stanie na magazynie zdefiniowanym w [przepływach technologii](/technologie-szczegoly.html#przepływy-technologii) (innymi słowy - na magazynie, z którego zaplanowane jest rozchodowanie surowca do produkcji).
 
 ---
 
@@ -117,6 +129,8 @@ Widoczne są ponadto ilości:
 - suma wyprodukowana - czyli informacja o tym ile już produktu zostało wytworzonego pod dane zlecenie / operację
 - suma braków - czyli informacja o tym ile braków pod dane zlecenie już powstało
 - pozostało do wyprodukowania - informacja dla pracownika ile jeszcze danego produktu trzeba wytworzyć, aby zlecenie uznać za zrealizowane
+
+Dodatkowym ułatwieniem dla pracowników jest możliwość wpisywania kolejnych wyprodukowanych transz używając znaku plusa (np. 17+13+21). W momencie potwierdzania rejestracji w polu zostanie uzupełniona suma podanego działania.
 
 ---
 

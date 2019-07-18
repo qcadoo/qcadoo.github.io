@@ -20,7 +20,11 @@ Decydując się na ręczne wprowadzanie produktów, wybieramy:
  Niekiedy półprodukt jest jednocześnie produktem finalnym, dlatego, choć jest to pole obowiązkowe, nie ma to dalszych konsekwencji w systemie (jest to parametr potrzebny w przypadku integracji qcadoo z innym oprogramowaniem).
 - W zakładce **"Rodzina"** określamy czy dodany przez nas produkt reprezentuje konkretny produkt czy rodzinę produktów. Jeśli produkt należy do istniejącej już rodziny produktów tutaj możemy go do niej przypisać.
 - W zakładce **"Historia"** mamy podgląd na daty dodania i edycji produktu oraz nazwę pracownika wprowadzającego dane.
-- Jeśli w produkcji stosujemy zamienniki produktów, to w zakładce **"Zamienniki"** możemy je zdefiniować.
+- Jeśli w produkcji stosujemy zamienniki produktów, to w zakładce **"Zamienniki"** możemy je zdefiniować. Dla każdego zamiennika konieczne jest określenie jaka ilość subsytutu zastępuje jednostkę naszego produktu (np. ksylitol może być zamiennikiem cukru białego. Ale gdy zaplanowaliśmy użycie 1 kg cukru białego, to stosując zamiennik w postaci ksylitolu trzeba będzie wykorzystać 1,1 kg). Takie wyjątki Ciebie nie dotyczą? Zawsze subsytut zastępuje zaplanowany produkt 1 do 1? Możesz wprowadzić listę zamienników zdecydowanie szybciej zaznaczając w liście odpowiednie produkty. W tym celu użyj przycisku {% include inline_image.html file="przyciskDodajWieleZamiennikow.png" alt="Przycisk Dodaj wiele zamienników" %} **Przycisk Dodaj wiele zamienników**. 
+
+{% include callout.html content="Zamienniki będzie można wykorzystać do produkcji - więcej w tym temacie przeczytasz [tutaj](/rejestracja-produkcji.html#jak-zarejestrować-wykorzystany-zamiennik) " type="info" %}
+
+
 - Zakładka **"Przeliczenia jednostki"** umożliwia przeliczenie głównej jednostki produktu. W tym miejscu wprowadzamy informację, na jaką inną jednostkę może być przeliczona główna jednostka produktu.  
 
 - W zakładce **"Koszty"** podajemy 4 rodzaje cen zakupu danego surowca: cenę ostatniego zakupu, cenę z ostatniej oferty, ceny obliczone na podstawie średnich ważonych oraz koszt nominalny produktu.  

@@ -20,3 +20,4 @@ Wprowadź:
 - **opis** - jeśli chcesz dopisać dodatkowe szczegóły umiejętności, to to jest odpowiednie do tego miejsce
 - **maksymalny poziom** - musisz określić w jakiej skali będziesz wyrażać stopień zaawansowania. Jeśli podasz "3" to oznacza, że pracownik może władać daną umiejętnością na poziomie 1, 2 lub 3. Przy czym 3 to jest poziom wysoki, a 1 - niski. 
 
+Z poziomu zdefiniowanej umiejętności możesz w zakładkach dokonać przypisania do operacji i pracownika. Zasada dokładnie taka sama jak w instrukcjach: [wymagane umiejętności do wykonania operacji](/wymagane-umiejetnosci-operacji) i [ umiejętności pracownika](/pracownicy.html#jak-przypisać-do-pracownika-posiadane-umiejętności)
