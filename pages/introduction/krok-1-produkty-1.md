@@ -27,4 +27,4 @@ Więcej o produktach poczytasz [tutaj](/produkty)
 
 Gotowe? Czas na:
 
-**Krok 2/11: [Wprowadzenie magazynów](/krok-2---magazyny)**
+**Krok 2/11: [Wprowadzenie magazynów](/krok-2-magazyny)**

@@ -26,7 +26,7 @@ Więcej o kartach pracy i ich parametryzacji przeczytasz [tutaj](/karty-pracy).
 Uważasz, że karty pracy generują za dużo papieru? I masz możliwość dostarczenia komputerów / tabletów na działy produkcyjne? Przekaż informacje o tym co jest do zrobienia przy pomocy terminala produkcyjnego. 
 W terminalu produkcyjnym widoczne są zlecenia rozpoczęte zaplanowane na dziś (a tak naprawdę na datę rozpoczęcia zmiany ustawioną w terminalu). Lista może być dodatkowo przefiltrowana do działu (a dział może się uzupełnić na podstawie przypisania do pracownika). Pracownik widzi co ma do zrobienia, wybiera zlecenie, zaznajamia się z opisem. I produkuje. 
 
-O szczegółach poczytać można [tutaj](/terminal-produkcyjny). 
+O szczegółach poczytać można [tutaj](/terminal). 
 
 ## Lista zleceń produkcyjnych do wykonania
 

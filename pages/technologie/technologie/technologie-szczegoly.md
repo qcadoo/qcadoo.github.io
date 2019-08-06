@@ -77,6 +77,38 @@ Po zaznaczeniu operacji w drzewie uzupełnione zostają tabelki z produktami wej
 
 ---
 
+## Technologie na komponenty
+
+Jedna technologia to jedno zlecenie produkcyjne - cały proces opisany daną technologią musi przeprowadzony być w jednym zleceniu produkcyjnym. A co jeśli pewne etapy produkcji zlecasz wcześniej? Albo co w sytuacji, gdy półprodukt może być użyty pod wiele wyrobów i został wcześniej wyprodukowany z nadwyżką i czeka na magazynie? A co jeśli cały proces produkcyjny przeprowadzany jest po kolei na kilku liniach produkcyjnych (po klika czynności na każdej z linii i chcesz raportować efekt całości prac, a nie każdej operacji z osobna), a Ty chcesz zadania dla każdej linii planować odrębnie? Z pomocą przychodzą **technologie na komponenty**.
+
+Komponentem jest ten produkt wejściowy technologii, który posiada swoją własną technologię. Jeśli na liście produktów wejściowych znajdzie się komponent, to dociągniemy jego technologię, tworząc pełną stukturę wyrobu.
+
+Dla przykładu - produkujemy komplet ubrań składający się z koszulki i spodni. Osobno produkujemy koszulkę i osobno spodnie. I pakujemy je razem. Technologia na komplet wyglądać będzie następująco:
+
+{% include lightbox.html file="technologieTechnologiaNaKomponentGlowna.png" alt="Główna technologia" caption="Główna technologia" %}
+
+W tabeli produktów wejściowych koszulka waniliowa i spodnie buggy waniliowe są oznaczone kolorem zielonym - to są produkty uznane za komponenty. Każdy z tych produktów ma swoją własną technologię. Koszulka waniliowa np. taką:
+
+{% include lightbox.html file="technologieTechnologiaNaKomponentKomponent.png" alt="Komponent" caption="Komponent" %}
+
+Tak zbudowana technologia tworzy następującą strukturę wyrobu:
+
+{% include lightbox.html file="technologieTechnologiaNaKomponentStruktura.png" alt="Struktura wyrobu" caption="Struktura wyrobu" %}
+
+Zlecając komplet waniliowy na produkcję, utorzą się następujące zlecenia:
+
+{% include lightbox.html file="technologieTechnologiaNaKomponentZlecenia.png" alt="Zlecenia" caption="Zlecenia" %}
+
+**Jak zbudować technologię z technologiami na komponenty - krok po kroku**:
+1. wyodrębnij z całego procesu produkcyjnego te obszary / elementy, które chcesz zlecać osobno. W przykładzie wyżej - półprodukty: koszulka i spodnie
+2. dla każdego wydzielonego obszaru zbuduj technologie (standardowo - wg instrukcji opisanej na tej stronie). Utworzone technologie zaakceptuj i oznacz jako domyślne
+3. produkt-komponent dodaj na liście produktów wejściowych (tak samo jak surowce) w technologii głównej
+
+Strukturę wyrobu można wygenerować po sprawdzeniu technologii.
+
+{% include callout.html content="Technologie na komponent mogą być wielopoziomowe - wyrób może mieć na liście produktów wejściowych komponent. A technologia na komponent może mieć na liście produktów wejściowych inny komponent, czy nawet listę komponentów" type="info" %}
+
+
 ## Zasięg technologii ##
 
 Zasięg technologii to określenie w jakim miejscu Twojej firmy operacje mają być wykonywane.
