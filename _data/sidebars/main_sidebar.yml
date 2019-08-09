@@ -104,6 +104,10 @@ entries:
         output: web
         url: /zuzycie-materialow.html
 
+      - title: Wyprodukowanie dodatkowego produktu
+        output: web
+        url: /wyprodukowanie-dodatkowego-produktu.html
+
   - title: Podstawowe
     output: web
     folderitems:
