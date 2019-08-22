@@ -141,7 +141,26 @@ Możesz też wskazać dodatkowe informacje:
 
 
 ## Zakończenie tworzenia technologii ##
-Po skończeniu należy upewnić się, że wprowadzone dane są prawidłowe. W tym przypadku można skorzystać z opcji {% include inline_image.html file="startIcon24.png" alt="Sprawdzenie poprawności" %} **Sprawdź poprawność,** by upewnić się, czy drzewo technologii zostało skonstruowane poprawnie. Po sprawdzeniu można będzie powrócić do edycji lub zaakceptować technologię. Jeśli mamy pewność wprowadzonych danych możemy od razu nadać jej status {% include inline_image.html file="startIcon24.png" alt="Akceptacja" %} **Zaakceptowana**. Tylko zaakceptowane technologie mogą zostać użyte w zleceniu produkcyjnym.
+Po skończeniu należy upewnić się, że wprowadzone dane są prawidłowe. W tym przypadku można skorzystać z opcji {% include inline_image.html file="startIcon24.png" alt="Sprawdzenie poprawności" %} **Sprawdź poprawność,** by upewnić się, czy drzewo technologii zostało skonstruowane poprawnie. Po sprawdzeniu można będzie powrócić do edycji lub zaakceptować technologię. 
+
+O nieprawidłowościach poinformujemy Cię komunikatami. Mogą pojawić się następujące:
+
+1. **"Nie uzupełniono magazynów dla surowców/komponentów"** --> oznacza to, że produkty w zakładce Przepływ nie mają wskazanych magazynów. Nie wiemy zatem skąd produkty pobierać i gdzie je przyjmować. Na 99% zapomniałeś wywołać funkcję "Uzupełnij magazyny w produktach". Kliknij przycisk i ponownie sprawdź technologię. Jeśli nadal pojawia się błąd to:
+- dla zasięgu = 1 dział --> uzupełnij magazyny pobrania surowców i przyjmownia wyrobów w górnej części zakładki Przepływ i ponownie wywołaj funkcje uzupełniania magazynów
+- dla zasiegu = wiele działów --> wejdź w każdy produkt widoczny w tabelach w zakładce Przepływ i podaj ręcznie dla nich magazyny.
+
+2. **"W operacji wykrój na poziomie X brakuje produktów wejściowych"** --> oznacza to, że operacja o podanym poziomie ma pustą tabelę produktów wejściowych. Przejdż do zakładki Drzewo i ją uzupełnij. Każda operacja technologii musi mieć co najmniej 1 produkt wejściowy i co najmniej 1 produkt wyjściowy
+
+3. **"Każda operacja w drzewie technologii musi wykorzystywać przynajmniej jeden produkt wyprodukowany przez podrzędną operację. Błędna operacja jest na poziomie: X"** --> może to wskazywać na jedną z opisanych niżej sytuacji:
+- w operacji na podanym poziomie nie został określony produkt wyjściowy. Przejdź do zakładki Drzewo i uzupełnij dane w tabeli produktów wyjściowych.
+- dany produkt został podany jako wejściowy jednej operacji i jednocześnie jako wyjściowy innej operacji (ale nie bezpośrednio następujących po sobie). Innymi słowy najpierw określiłeś, że używasz sklejki drewnianej, a w kolejnych operacjach drzewa wskazałeś, że sklejkę drewnianą uzyskasz jako efekt operacji. Poszukaj w zakładce Drzewo na podanym poziomie nieprawidłowości i popraw dane
+
+4. **"Wystąpił błąd walidacji na elementach drzewka technologii: - Jednostka musi się zgadzać z jednostką głównego produktu operacji"** --> komunikat informuje o tym, że jednostka produkty wyjściowego operacji nie zgadza się z jednostką podaną w operacji w normach czasowych. Wejdź w edycję operacji w zakładce drzewo i w uruchomionym oknie w zakładce [Normy czasowe](/normy-czasowe) popraw jednostkę przy polu _Dla produkcji w jednym cyklu_
+
+5. **"Produkt wyjściowy końcowej operacji, musi być taki sam jak produkt dla którego zdefiniowano technologię."** --> oznacza to, że produkt wyjściowy najwyższej operacji w drzewie nie zgadza się z produktem, dla którego technologie budujesz (uzupełniony w zakładce Główna). Ustal, który z tych produktów jest prawidłowy i popraw dane. Jeśli będziesz poprawiać produkt w zakładce Główna, to zwróć uwagę, że na jego podstawie został nadany numer i nazwa. Zmiana produktu tych danych nie zmieni. Zatem polecam najpierw wyczyścić numer i nazwę, a dopiero wybrać nowy produkt - numer i nazwa zostaną na nowo określone.
+
+
+Jeśli mamy pewność wprowadzonych danych możemy od razu nadać jej status {% include inline_image.html file="startIcon24.png" alt="Akceptacja" %} **Zaakceptowana**. Tylko zaakceptowane technologie mogą zostać użyte w zleceniu produkcyjnym.
 
 Więcej o [Stanach technologii](/statusy-technologii)
 
@@ -163,8 +182,8 @@ W tej zakładce możemy dodać załącznik do technologii, mogą to być przykł
 
 ## Zakładka "Struktura" ##
 
- {% include lightbox.html file="technologie-technologia-struktura.png" alt="Struktura wyrobu" caption="Struktura wyrobu" %}
- W tej zakładce dla sprawdzonych i zaakceptowanych technologii pojawia się struktura wyrobu, uwzględniająca wszystkie operacje i produkty wchodzące w skład wszystkich technologii tworzących ostateczny produkt. Zielonym kolorem zaznaczone są produkty będące komponentami - czyli posiadające własne technologie. Ich struktury pojawiają się w drzewie, nawet jeśli obecna technologia ma dodany tylko sam produkt-komponent.
+{% include lightbox.html file="technologie-technologia-struktura.png" alt="Struktura wyrobu" caption="Struktura wyrobu" %}
+W tej zakładce dla sprawdzonych i zaakceptowanych technologii pojawia się struktura wyrobu, uwzględniająca wszystkie operacje i produkty wchodzące w skład wszystkich technologii tworzących ostateczny produkt. Zielonym kolorem zaznaczone są produkty będące komponentami - czyli posiadające własne technologie. Ich struktury pojawiają się w drzewie, nawet jeśli obecna technologia ma dodany tylko sam produkt-komponent.
 
 ## Zakładka "Minimalna ilość" ##
     

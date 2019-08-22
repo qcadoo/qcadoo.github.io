@@ -60,9 +60,10 @@ Wprowadzając pozycje w **dokumencie rozchodowym** ograniczasz się do podania:
 - **produktu** - wskazujesz go z listy. Na podstawie produktu i magazynu namierzymy zasoby, które będzie można wydawać 
 - **ilości w jednostce podstawowej** - czyli ile chcesz wydać w jednostce, w której prowadzisz ewidencję maagzynową tego produktu
 - **ilości w jednostce dokumentu** - możesz określić ile chcesz wydać w innej jednostce (ważne, by jednostka ta miała zdefiniowany przelicznik w produkcie), a my wyznaczymy na tej podstawie ilość w jednostce podstawowej
-- **jednostka dokumentu** - do wyboru z listy jednostek, dla których zdefiniowane są przeliczniki w produkcie
-- **przelicznik** - jeśli jednostki użyte w pozycji dokumentu są różne, to możesz go zmienić
+- **jednostki dokumentu** - do wyboru z listy jednostek, dla których zdefiniowane są przeliczniki w produkcie
+- **przelicznika** - jeśli jednostki użyte w pozycji dokumentu są różne, to możesz go zmienić
 a reszta danych zostanie uzupełniona na podstawie dobranego zasobu. Zasób możesz albo wskazać ręcznie z listy. Albo poczekać na akceptację dokumentu - wtedy to zostaną dobrane zasoby wg metody rozchodu określonej na magazynie. Albo skorzystać z funkcji Dobierz zasoby - więcej o niej poczytasz poniżej.
+- **ceny sprzedaży** - jeśli wystawiany dokument to wydanie zewnętrzne, masz możliwość określenia ceny sprzedaży. Pole zawsze do ręcznego wypełnienia. Nie podpowiada się i nie przypomina, że warto byłoby wypełnić.
 
 --- 
 

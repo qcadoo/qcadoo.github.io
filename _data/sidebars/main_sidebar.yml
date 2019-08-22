@@ -84,6 +84,10 @@ entries:
         output: web
         url: /latwe-uzupelnianie.html
 
+      - title: Dezaktywacja
+        output: web
+        url: /dezaktywacja.html
+
   - title: Przykładowe procesy
     output: web
     folderitems:
@@ -107,6 +111,10 @@ entries:
       - title: Wyprodukowanie dodatkowego produktu
         output: web
         url: /wyprodukowanie-dodatkowego-produktu.html
+
+      - title: Model pracy bez bieżącej kontroli zużycia surowców
+        output: web
+        url: /praca-bez-biezacej-kontroli-zuzycia.html
 
   - title: Podstawowe
     output: web

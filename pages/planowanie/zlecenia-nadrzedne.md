@@ -66,7 +66,7 @@ Zlecenie produkcyjne możesz dodać do nadrzędnego na kilka sposobów:
 
 Z poziomu zlecenia nadrzędnego można utworzyć wiele zleceń produkcyjnych za pomocą jednego kliknięcia. W tym celu zaznacz wiele produktów na liście produktów i wybierz {% include inline_image.html file="generateIcon24.png" alt="Przycisk Generuj" %} **Utwórz wiele zleceń produkcyjnych**.
 
-Dla każdego zaznaczonego produktu powstanie zlecenie produkcyjne na ilość pozostałą do zlecenia. Mało tego, jeśli chcesz, mogą powstać jeszcze zlecenia na komponenty a także dla każdego utworzonego zlecenia może zostać wyliczony plan produkcji na zmiany. Jedyne co musisz zrobić to włączyć odpowiednie parametry w **ADMINISTRACJA >  Parametry** w zakładce "Zlec. na komponenty".
+Dla każdego zaznaczonego produktu powstanie zlecenie produkcyjne na ilość pozostałą do zlecenia. Mało tego, jeśli chcesz, mogą powstać jeszcze zlecenia na komponenty a także dla każdego utworzonego zlecenia może zostać wyliczony plan produkcji na zmiany. Jedyne co musisz zrobić to włączyć odpowiednie parametry w **ADMINISTRACJA > Parametry** w zakładce [Zlec. na komponenty](/parametry-zlecenia-na-komponenty).
 
 {% include lightbox.html file="planowanie-%20zlecenia%20nadrz%C4%99dne%20par.png" alt="Parametry dotyczące tworzenia wielu zleceń produkcyjnych z poziomu zlecenia nadrzędnego" caption="Parametry dotyczące tworzenia wielu zleceń produkcyjnych z poziomu zlecenia nadrzędnego" %}
 
@@ -75,6 +75,16 @@ Jeżeli chcesz, aby przy tworzeniu wielu zleceń generowały się zlecenia na ko
 - przez funkcję generowania zleceń na komponenty z poziomu pokrycia - wówczas zaznacz parametr "Zlecenia na komponenty generowane przez pokrycie zapotrzebowania",
 
 - przez funkcję generowania zleceń na komponenty z poziomu zlecenia produkcyjnego czyli bez sprawdzania aktualnych stanów magazynowych komponentów - wtedy nie zaznaczaj tego parametru.
+
+Funkcja daje też możliwość analizy obecnego stanu magazynowego zamówionych produktów - jeśli coś znajduje się na magazynie, to nie zostanie utworzone zlecenie produkcyjne (albo zostanie utworzone na mniejszą ilość), tylko program zaproponuje pobranie z magazynu. Jeśli chcesz włączyć takie działanie, zaznacz parametr **Realizacja ze stanu magazynowego** i podaj magazyny, na których stan ma byc sprawdzany w [parametrach zleceń](/parametry-zlecen).
+
+Jeśli program uzna, że jest wystarczający stan aby zrealizować zamówienie bezpośrednio z magazynu, to uzupełni w pozycji zlecenia nadrzędnego ilość pobraną z magazynu.
+
+Jeśli czasami produkty zamawiane przez klientów są dla nich specjalnie przerabiane (nie jest to produkt standardowy, ale np, z dodatkowym grawerem, czy odpowiednio zapakowany) i nie możesz pobrać gotowych produktów z magazynu, tylko zawsze musisz zlecić produkcję, to:
+- zostaw informacje o tym jak produkt ma być zmieniony w polu Uwagi w pozycji zlecenia nadrzędnego
+- zaznacz parametr **Zawsze zlecaj pozycje z personalizacją** w [parametrach zleceń](/parametry-zlecen)
+
+Dodatkowo warto zaznaczyć parametr **Kopiuj uwagi z pozycji zlecenia nadrzędnego** - wówczas wprowadzone szczegóły trafią do zlecenia produkcyjnego i pracownik będzie mógł się z nimi zapoznać w terminalu czy na karcie pracy.
  
 ## Statusy zleceń nadrzędnych
 

@@ -28,3 +28,9 @@ Aby dodać nową operację wybieramy: **TECHNOLOGIE Operacje** {% include inline
 {% include callout.html content="Jeśli chcesz mieć możliwość dokładnego planowania produkcji oraz obliczania kalkulacji kosztów i określania terminów realizacji zleceń musisz zdefiniować dla operacji [Normy kosztowe](/normy-kosztowe) i [Normy czasowe](/normy-czasowe). Jeśli planujesz tworzyć [Karty pracy](/karty-pracy) możesz w zakładce Karty pracy - dane podstawowe rozwinąć wydruk o dodatkowy obrazek (np. dodatkową tabelą)" type="warning" %} 
 
 Wprowadzane operacje układają się w listę dostępną na głównym widoku zakładki **"Operacje"**. Można edytować każdą z nich klikając na jej numer bądź nazwę.
+
+Operacje wprowadzone w tym miejscu traktuj jako szablony - dopiero utworzenie z nich drzewa przyniesie właściwy skutek w postaci technologii, wg której prowadzona będzie produkcja. O tym jak zbudować technologię poczytasz [tutaj](/technologie-szczegoly).
+
+Zaciągnięcie operacji do drzewa technologii tworzy osobny byt: operację technologii. Możesz zmieniać operację w drzewie (podając np. inne normy czasowe), a nie wpłynie to na zmianę operacji - szablonu. Podobnie --> modyfikując operację - szablon, nie zostaną zmienione żadne operacje użyte w technologiach. 
+
+{% include callout.html content="Jeśli chcesz zmienić operację (np. pod kątem norm czasowych) i chcesz aby te zmiany obowiązywały w technologiach, to oprócz modyfikacji w operacjach - szablonach, musisz nanieść zmiany w istniejących technologiach. Jeśli status technologii nie pozwala na edycję - stwórz przez kopiowanie jej nową wersję, wprowadź poprawki i zaakceptuj. Warto też zaznaczyć nową wersję jako domyślną, a starą wycofać" type="warning" %}
