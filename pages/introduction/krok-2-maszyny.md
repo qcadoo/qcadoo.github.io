@@ -4,7 +4,7 @@ permalink: krok-2-maszyny.html
 ---
 
 ## Działy firmy
-Twój zakład produkcyjny zapewne ma wydzielone działy produkcyjne, a wykorzystywane maszyny czy stanowiska robocze są zgrupowane w gniazda czy linie produkcyjne. Podział ten możesz wprowadzić do programu tworząc zbudowaną w formie drzewa strukturę zakładu.
+Twój zakład produkcyjny zapewne ma wydzielone działy produkcyjne, a wykorzystywane maszyny czy stanowiska robocze są zgrupowane w gniazda czy linie produkcyjne. Podział ten możesz wprowadzić do programu tworząc zbudowaną w formie drzewa [strukturę zakładu](/struktura-firmy).
 
 {% include lightbox.html file="dzialy_lista.png" alt="Lista działów" caption="Lista działów" %}
   

@@ -11,11 +11,32 @@ Bazę pracowników uzupełniamy wybierając:
 
 **PODSTAWOWE >> Pracownicy >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**
   
+{% include lightbox.html file="podstawowePracownicyDodaj.png" alt="Dodanie pracownika" caption="Dodanie pracownika" %} 
+
+uzupełnij:
+- **numer** - może istnieć tylko jeden pracownik o danym numerze. Numer posłuży przy logowaniu pracownika w [terminalu rejestracji produkcji](/terminal). Zadbaj zatem o to, by numery były takie, aby pracownik miał szanse je zapamiętać. Rozwiązaniem jest też przygotowanie identyfikatorów dla pracownika z zaszytym numerem w kodzie kreskowym i skanowanie ich czytnikiem kodów kreskowych na stanowisku z terminalem. Pamiętaj, że zawarcie w kodzie kreskowym znaków specjalnych (jak np. polskie litery) znacząco wydłuża kod, przez co umieszczenie ich na małym identyfikatorze może być albo niemożliwe, albo sprawi, że kod nie będzie czytelny
+- **imię i nazwisko**
+
+Możesz zachować też informacje szczegółowe:
+- e-mail
+- telefon
+- dla jakiej firmy pracuje
+- stanowisko
+
+Pracownik może zostać też przypisany do:
+- zmiany
+- działu - przypisany dział będzie podpowiadał się po zalogowaniu do terminala, a to ograniczy widoczne zlecenia czy zadania operacyjne
+- stacji roboczej - tu podobnie: jeśli przypiszesz pracownikowi stację roboczą, to po zalogowaniu do terminala lista zadań operacyjnych będzie ograniczona do tej stacji (pracownik zobaczy też zadania bez przypisanej stacji roboczej)
+- załogi - dzięki temu będziesz mógł wyszukać wszystkich pracowników Twojej załogi podczas tworzenia [przydziału do zmian](/przydzial-do-zmian)
+
+---
 
 **ZASTOSOWANIE** Pracownicy w systemie rejestrowani są na potrzeby przynajmniej dwóch sytuacji: 
 
 - by ustalić kto jest odpowiedzialny za wykonanie danego produktu lub danej partii towaru
 - by móc nagrodzić danego pracownika za sumienne/szybkie wykonanie zadania
+
+---
 
 ## Co gdy koszt godziny pracy pracownika jest ustalany indywidualnie?
 

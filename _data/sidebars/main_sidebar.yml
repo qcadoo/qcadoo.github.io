@@ -254,6 +254,10 @@ entries:
           output: web
           url: /statusy-technologii.html
 
+        - title: Masowa zmiana technologii
+          output: web
+          url: /masowa-zmiana-technologii.html
+
     - title: Grupy technologii
       output: web
       url: /grupy-technologii.html
@@ -661,3 +665,7 @@ entries:
         - title: Parametry planowania na liniach
           output: web
           url: /parametry-planowanie-na-liniach.html
+
+        - title: Parametry terminala
+          output: web
+          url: /parametry-terminal.html

@@ -9,16 +9,25 @@ Terminal rejestracji produkcji może ułatwić zbieranie danych z działów prod
 
 Zanim rozpoczniesz pracę w terminalu musisz kilka rzeczy skonfigurować:
 
+{% include lightbox.html file="rejestracjaParametry.png" alt="Parametry rejestracji" caption="Parametry rejestracji produkcji" class="float-right" %}
+
+{% include lightbox.html file="administracjaParametryTerminal.png" alt="Parametry terminala" caption="Parametry terminala" class="float-right" %}
+
 1. zdefiniuj **pracowników** - szczegółowy opis znajdziesz [tutaj](/pracownicy). Warto tak nadawać numery pracownikom, by w łatwy sposób zamienić je na kod kreskowy umieszczony na indentyfikatorze pracownika. Dzięki temu rejestrowanie na terminalu będzie mogło rozpocząć się od zeskanowania swojego kodu. Szybko i bez pomyłek. Na co jeszcze warto zwrócić uwagę - jeśli pracownik będzie miał przypisany dział, to w terminalu zostanie on zaczytany, a do tego działu będą ograniczone widoczne zlecenia do wykonania. 
 
-2. ustaw **parametry** - w tym celu wejdź do Administracja > Parametry > Rejestracja produkcji i zastanów się jak mają wyglądać następujące kwestie:
-{% include lightbox.html file="rejestracjaParametry.png" alt="Parametry rejestracji" caption="Parametry rejestracji produkcji" class="float-right" %}
+
+2. ustaw **parametry** - w tym celu wejdź do Administracja > Parametry > zakładka [Rejestracja produkcji](/parametry-rejestracja-produkcji) oraz Administracja > Parametry > [Terminal](/parametry-terminal) i zastanów się jak mają wyglądać następujące kwestie:
+
 - _zużycie surowców na podstawie norm_ - jeśli zaznaczysz parametr, to ilość zużyta produktów wejściowych zostanie z automatu wyliczona po podaniu ilości wyprodukowanej (na podstawie określonych w technologii norm). W terminalu będzie można od razu przejść z pracownika do pola z ilością wyprodukowaną.
 - _zezwól na edycję wyliczonej ilości zużytej w terminalu_ - parametr powiązany z powyższym. Zaznacz gdy chcesz pozwolić pracownikowi na edycję wyliczonej zużytej ilości. Jeśli parametr będzie niezaznaczony, to pola w terminalu będą wyszarzone, ale w utworzonym rekordzie rejestracji będziesz mógł wprowadzić zmiany
 - _akceptuj rejestrację produkcji w terminalu_ - zaznaczenie parametru sprawi, że rekord rejestracji utworzony z terminala będzie od razu akceptowany. Czyli od razu zostaną wywołane stutki magazynowe. 
 
+W parametrach terminala zaznacz też jakie przyciski i obszary (opisane niżej) chcesz wykorzystywać.
+
 
 Ponadto - nie ma rejestracji produkcji z terminala, jeśli nie ma zleceń produkcyjnych o statusie rozpoczęte. Ale to już chyba wiesz.
+
+---
 
 # Raportowanie produkcji w terminalu
 
@@ -49,7 +58,7 @@ Jeśli natomiast **plany oparte są o zadania operacyjne**, to pracownik wybiera
 
 {% include lightbox.html file="rejestracjaTerminalWybierzZadanie.png" alt="Wybierz zadanie" caption="Okno wyboru zadania operacyjnego w terminalu" %}
 
-Pracownik widzi swoje zadania operacyjne zaplanowane na daną zmianę (o statusie rozpoczęte). Do tego lista rozszerzana jest o zadania nie przypisane do żadnego pracownika. Domyślnie w oknie zadań widoczne są te, które jeszcze nie zostały w pełni zrealizowane (czyli dla których ilość wyprodukowana jest mniejsza od ilości zleconej). Odznaczając parametr **Nie pokazuj zadań zrealizowanych** lista zostanie poszerzona o zadania zrealizowane, ale nadal ze statusem rozpoczęte. Dzięki temu można dorejestrować produkcję. Aby zaciągnąć zadanie do terminala wystarczy je zaznaczyć i kliknąć _Wybierz_. Na podstawie zadania namierzymy zlecenie i jego operację. I na ich podstawie uzupełnimy pozostałe dane w terminalu. 
+Pracownik widzi swoje zadania operacyjne zaplanowane na daną zmianę (o statusie rozpoczęte) i na stację wczytaną do terminala. Do tego lista rozszerzana jest o zadania nie przypisane do żadnego pracownika i do żadnej stacji. Domyślnie w oknie zadań widoczne są te, które jeszcze nie zostały w pełni zrealizowane (czyli dla których ilość wyprodukowana jest mniejsza od ilości zleconej). Odznaczając parametr **Nie pokazuj zadań zrealizowanych** lista zostanie poszerzona o zadania zrealizowane, ale nadal ze statusem rozpoczęte. Dzięki temu można dorejestrować produkcję. Aby zaciągnąć zadanie do terminala wystarczy je zaznaczyć i kliknąć _Wybierz_. Na podstawie zadania namierzymy zlecenie i jego operację. I na ich podstawie uzupełnimy pozostałe dane w terminalu. 
 
 Domyślnie w liście zadań nie pojawiają się te, których wykonać nie można, z uwagi na nieukończone procesy poprzedzające daną czynność. Aby zobaczyć komplet zaplanowanych zadań odznacz parametr **Nie pokazuj zadań blokowanych przez poprzednie czynności** - pojawią się również te zadania, dla których wykonanie poprzedniej operacji jest niższe niż 100%. I będzie można je wczytać do terminala i zarejestrować produkcję.
 
@@ -64,7 +73,7 @@ Czas na opisanie każdego obszaru terminala z osobna.
 {% include lightbox.html file="rejestracjaTerminalDanePodstawowe.png" alt="Dane podstawowe" caption="Terminal - dane podstawowe" class="float-right"  %}
 
 Pierwsze co należy zrobić to wczytać pracownika - albo skanując jego kod z identyfikatora, albo wklepując go z klawiatury. Pamiętaj, że wielkość liter ma znaczenie. Jeśli program znajdzie pracownika w systemie - uzupełni jego imię i nazwisko w polu obok.
-Na podstawie pracownika wczyta się jego dział. Jeśli oczywiście dział pracownikowi jest przypisany.
+Na podstawie [pracownika](/pracownicy) wczyta się jego dział. Jeśli oczywiście dział pracownikowi jest przypisany. Ponadto - jeśli pracownik ma przypisaną stację roboczą - również zostanie do terminala wczytana. Dzięki temu lista widocznych zadań / zleceń zostanie odpowiednio ograniczona.
 
 Podaj pracownika i kliknij Enter -> program od razu przeskoczy do pola Operacja. To jest kolejne pole, które musi być uzupełnione. Operację uzupełnij albo skanując kod z karty pracy, albo wybierając zlecenie z okna _Wybierz zlecenie_ (w zależności od używanego trybu - opisane powyżej), albo wybierając zadanie z okna _Wybierz zadanie_.
 
@@ -76,7 +85,7 @@ Na podstawie operacji/zlecenia/zadania uzupełnią się pozostałe dane w termin
 
 Jeśli chcesz zobaczyć co już dziś wyprodukowałeś i zarejestrowałeś kliknij w przycisk {% include inline_image.html file="przyciskPostepPracownika.png" alt="Przycisk Postęp pracownika" %} **Postęp pracownika**. W oknie pojawią się informacje o tym na rzecz jakiego zlecenia pracowałeś, jaką wyprodukowałeś ilość i w jakim czasie. Widoczny jest też status rekordu rejestracji - wiesz zatem czy możesz jeszcze meldunek zmienić, czy już jest za późno. Postęp produkcji dotyczy zalogowanego pracownika na zmianie ustawionej w obszarze _Czas pracy_.
 
-### Dostępność surowców 
+#### Dostępność surowców 
 
 {% include lightbox.html file="rejestracjaTerminalDostepnoscSurowcow.png" alt="Dostępność surowców" caption="Dostępność surowców potrzebnych do produkcji" class="float-right" %}
 
@@ -115,6 +124,17 @@ W tabeli widoczne są wszystkie zaplanowane do zużycia produkty:
 
 Pracownik może podać ilość, którą zużył pod dane zlecenie / operacje. Widoczne jest już zaraportowane zużycie (z zaakceptowanych rekordów rejestracji) oraz ilość zaplanowaną do zużycia, wynikającą z norm technologicznych.
 Jeśli w parametrach określono, że zużycie ma być wyliczane na podstawie norm - ilości uzupełnią się po podaniu ilości wyprodukowanej w tabeli Produktów wyjściowych. Jeśli parametr _zezwól na edycję wyliczonej ilości zużytej w terminalu_  nie będzie zaznaczony -> pola te będą wyłączone z edycji.
+
+#### Wykorzystaj zamiennik
+
+{% include lightbox.html file="rejestracjaTerminalProduktyWejscioweZamienniki.png" alt="Lista dostępnych zamienników" caption="Terminal - lista dostępnych zamienników" class="float-right"  %}
+
+Czasami zdarza się, że surowiec zaplanowany do zużycia, nie jest dostępny. Albo w tym konkretnym zleceniu nie może zostać wykorzystany. Wówczas z pomocą przychodzą zamienniki. Jeśli dla [produktu](/produkty) została określona lista subsytutów, to pracownik podczas rejestracji produkcji w terminalu, w menu konekstowym wywołanym z wiersza produktu, pojawi się: istnieje zamiennik = tak. 
+
+Aby zarejestrować wykorzystany zamiennik należy z poziomu produktu wejść w menu kontekstowe i kliknąć przycisk **Wykorzystaj zamiennik**. Pojawi się lista sustytutów. Należy zaznaczyć ten właściwy i kliknąć _Wybierz_. W efekcie wybrany zamiennik trafi na listę produktów wejściowych - będziesz mógł podać jaką ilość faktycznie zużyłeś. 
+Dodatkowo dodany zamiennik w menu kontekstowym będzie miał informację jaki produkt zastępuje (_zamiennik do_). Produkty te nie mają też określonej ilości planowanej - bo nie pochodzą z technologii. 
+
+Każda kolejna rejestracja do tego zlecenia będzie miała wśród produktów wejściowych, ten dodany jako zamiennik.
 
 ---
 

@@ -192,3 +192,7 @@ W tej zakładce wpisujemy minimalną ilość jaką opłaca się nam produkować.
 ## Zakładka "Genealogia dla zleceń" ##
 
 W tym miejscu podejmujemy decyzję o tym, czy produkt tworzony w ramach tej technologii będzie objęty wymogiem przypisania mu numeru partii. Innymi słowy: jeśli będziemy chcieli dla produktów wytworzonych w tej technologii śledzić numery partii, to czy produkt końcowy będzie musiał mieć również określony numer partii. Więcej o [Genealogii](/genealogia).
+
+---
+
+Być może zainteresuje Cię też temat masowej zmiany technologii - opis znajdziejsz [tutaj](/masowa-zmiana-technologii)
