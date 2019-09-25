@@ -14,7 +14,9 @@ W ramach integracji qcadoo:
 - rezerwuje surowce do realizacji zleceń
 - wysyła na magazyn informację o stanie dot. wyprodukowanych półproduktów i gotowych produktów
 
-  
 
-System qcadoo obecnie jest już zintegrowany z systemem Subiekt GT, Enova, Comarch ERP Optima. Jest równocześnie otwarty na integrację z kolejnymi systemami.
+System qcadoo obecnie jest już [zintegrowany z systemami ERP](/integracja-ERP): Subiekt GT, Enova, Comarch ERP Optima. Ponadto współpracuje z BaseLinker, Pipedrive, Asana, BarTender. Jest równocześnie otwarty na integrację z kolejnymi systemami.
+
+
+
 

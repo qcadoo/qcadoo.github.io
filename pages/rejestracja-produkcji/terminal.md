@@ -16,7 +16,7 @@ Zanim rozpoczniesz pracę w terminalu musisz kilka rzeczy skonfigurować:
 1. zdefiniuj **pracowników** - szczegółowy opis znajdziesz [tutaj](/pracownicy). Warto tak nadawać numery pracownikom, by w łatwy sposób zamienić je na kod kreskowy umieszczony na indentyfikatorze pracownika. Dzięki temu rejestrowanie na terminalu będzie mogło rozpocząć się od zeskanowania swojego kodu. Szybko i bez pomyłek. Na co jeszcze warto zwrócić uwagę - jeśli pracownik będzie miał przypisany dział, to w terminalu zostanie on zaczytany, a do tego działu będą ograniczone widoczne zlecenia do wykonania. 
 
 
-2. ustaw **parametry** - w tym celu wejdź do Administracja > Parametry > zakładka [Rejestracja produkcji](/parametry-rejestracja-produkcji) oraz Administracja > Parametry > [Terminal](/parametry-terminal) i zastanów się jak mają wyglądać następujące kwestie:
+2. ustaw **parametry** - w tym celu wejdź do Administracja > Parametry > zakładka [Rejestracja produkcji](/parametry-rejestracja-produkcji) oraz Administracja > Parametry > [Terminal](/parametry-terminal) i zastanów się między innymi jak mają wyglądać następujące kwestie:
 
 - _zużycie surowców na podstawie norm_ - jeśli zaznaczysz parametr, to ilość zużyta produktów wejściowych zostanie z automatu wyliczona po podaniu ilości wyprodukowanej (na podstawie określonych w technologii norm). W terminalu będzie można od razu przejść z pracownika do pola z ilością wyprodukowaną.
 - _zezwól na edycję wyliczonej ilości zużytej w terminalu_ - parametr powiązany z powyższym. Zaznacz gdy chcesz pozwolić pracownikowi na edycję wyliczonej zużytej ilości. Jeśli parametr będzie niezaznaczony, to pola w terminalu będą wyszarzone, ale w utworzonym rekordzie rejestracji będziesz mógł wprowadzić zmiany
@@ -37,7 +37,7 @@ Wszystko poustawiane - możemy zacząć rejestrować. Wejdź w Rejestracja > Ter
 
 ## Tryby pracy z terminalem
 
-qcadoo ma dwa tryby pracy z terminalem - albo poprzez **skanowanie kodu z karty pracy**, albo poprzez **wybór w terminalu zlecenia**. 
+qcadoo ma dwa tryby pracy z terminalem - albo poprzez **skanowanie kodu z karty pracy**, albo poprzez **wybór w terminalu zlecenia / zadania**. 
 
 W pierwszym trybie konieczne jest wydrukowanie kart pracy pracownikom. Na karcie pracy operacje oznaczone są kodem kreskowym. I ten kod kreskowy powinien być wczytany do terminala do pola operacja.
 
@@ -61,6 +61,10 @@ Jeśli natomiast **plany oparte są o zadania operacyjne**, to pracownik wybiera
 Pracownik widzi swoje zadania operacyjne zaplanowane na daną zmianę (o statusie rozpoczęte) i na stację wczytaną do terminala. Do tego lista rozszerzana jest o zadania nie przypisane do żadnego pracownika i do żadnej stacji. Domyślnie w oknie zadań widoczne są te, które jeszcze nie zostały w pełni zrealizowane (czyli dla których ilość wyprodukowana jest mniejsza od ilości zleconej). Odznaczając parametr **Nie pokazuj zadań zrealizowanych** lista zostanie poszerzona o zadania zrealizowane, ale nadal ze statusem rozpoczęte. Dzięki temu można dorejestrować produkcję. Aby zaciągnąć zadanie do terminala wystarczy je zaznaczyć i kliknąć _Wybierz_. Na podstawie zadania namierzymy zlecenie i jego operację. I na ich podstawie uzupełnimy pozostałe dane w terminalu. 
 
 Domyślnie w liście zadań nie pojawiają się te, których wykonać nie można, z uwagi na nieukończone procesy poprzedzające daną czynność. Aby zobaczyć komplet zaplanowanych zadań odznacz parametr **Nie pokazuj zadań blokowanych przez poprzednie czynności** - pojawią się również te zadania, dla których wykonanie poprzedniej operacji jest niższe niż 100%. I będzie można je wczytać do terminala i zarejestrować produkcję.
+
+W oknie wyboru możesz również zdecydować, czy chcesz widzieć zadania pobrane do realizacji przez innego pracownika - służy do tego parametr: **Nie pokazuj zadań pobranych przez innego pracownika**. Wartość domyślną parametru możesz ustawić w parametrach terminala.
+
+Listę zadań możesz wydrukować do **PDF**. Przydatna funkcja w sytuacji, gdy nie tak łatwo zapamiętać wszystkie parametry wykonywanych czynności. Jeśli pracownik będzie miał wydrukowaną listę, zawsze będzie mógł zerknąć, jak produkt ma wyglądać. Będzie mógł też notować na bieżąco wszystkie informacje, które będzie później do terminala wprowadzał. Aby wydrukować listę, zaznacz te zadania, które mają się na niej pojawić i kliknij przycisk PDF. Za dużo kolumn? Ukryj je w tabeli (korzystając z przycisku {% include inline_image.html file="przyciskUkryjKolumnyTerminal.png" alt="Przycisk Kolumny" %}), a na wydruku też się nie pojawią.
 
 
 ## Szczegółowy opis terminala
@@ -110,6 +114,8 @@ Obszar na starcie jest zwinięty. Zawiera wszystkie niezbędne do realizacji zle
 {% include lightbox.html file="rejestracjaTerminalCzasPracy.png" alt="Czas pracy" caption="Terminal - czas pracy" class="float-right"  %}
 
 W tym obszarze wskazujemy kiedy prace były wykonane (w jakim dniu, na jakiej zmianie, w jaki zakresie godzinowym) a także ile trwała praca maszyny czy pracownika. Dane podpowiadają się. Na podstawie momentu aktualnego qcadoo namierza [zmianę](/zmiany) i odpowiednio ustawia daty. Możesz je zmienić na właściwe (np. gdy rejestrujesz produkcję z wczoraj, bo było tyle pracy, że na wprowadzenie danych do systemu nie było już czasu). Ale możesz też ich nie wprowadzać, jeśli nie chcesz informacji o czasach prowadzić. Decyzja należy do Ciebie. Niemniej jednak jeśli czasy i daty będą uzupełnione - analizy i rozliczenie produkcji będą pełniejsze.
+
+W tym obszarze dostępne są przyciski **START** i **STOP** --> ułatwiają one ustalenie jak długo trwała praca na rzecz danej czynności. Przycisk START ustawia czas od, a przycisk STOP - czas do. A różnica to oczywiście czas pracy pracownika. Kiedy z nich korzystać? Załóżmy, że nie drukujesz kart pracy i pracownik o wszystkich swoich zadaniach dowiaduje się z terminala. Loguje się i przegląda co ma dziś wykonać. Wybiera jedno z zadań / zleceń i klika START. Czas początku pracy został ustawiony. Teraz klika POTWIERDŹ --> rekord rejestracji został dodany. Kierownik produkcji wie, że dany pracownik zajmuje się tym zadaniem. Po ukończonej pracy pracownik podchodzi do terminala, ponownie wybiera to zadanie / zlecenie, klika STOP (moment końca pracy został ustawiony i wyliczony czas pracy pracownika) i przystępuje do zapisania efektów produkcji (jaka ilość została wyprodukowana, co zostało zużyte) i znowu klika POTWIERDŹ --> istniejacy rekrod rejestracji został zaktualizowany o najświeższe dane.
 
 ---
 

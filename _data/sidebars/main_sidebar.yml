@@ -572,6 +572,10 @@ entries:
     - title: Integracja
       output: web
       url: /integracja.html
+
+    - title: Integracja z systemami ERP
+      output: web
+      url: /integracja-ERP.html
     
   - title: Administracja
     output: web
