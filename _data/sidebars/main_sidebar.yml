@@ -132,6 +132,10 @@ entries:
       output: web
       url: /pracownicy.html
 
+    - title: Załoga
+      output: web
+      url: /zaloga.html
+
     - title: Zmiany
       output: web
       url: /zmiany.html
@@ -179,6 +183,18 @@ entries:
     - title: Umiejętności
       output: web
       url: /umiejetnosci.html
+
+    - title: Typy usterek
+      output: web
+      url: /typy-usterek.html
+
+    - title: Czynności
+      output: web
+      url: /czynnosci.html
+
+    - title: Części
+      output: web
+      url: /czesci.html
    
   - title: Struktura firmy
     output: web
@@ -536,6 +552,42 @@ entries:
     - title: Wydruki rekordów produkcji
       output: web
       url: /meldunki-zwrotne.html
+
+  - title: Utrzymanie ruchu
+    output: web
+    folderitems:
+
+    - title: Utrzymanie ruchu
+      output: web
+      url: /utrzymanie-ruchu.html
+
+    - title: Zdarzenia
+      output: web
+      url: /zdarzenia.html
+
+    - title: Zdarzenia planowane
+      output: web
+      url: /zdarzenia-planowane.html
+
+    - title: Zdarzenia cykliczne
+      output: web
+      url: /zdarzenia-cykliczne.html
+
+    - title: Kalendarz zdarzeń
+      output: web
+      url: /kalendarz-zdarzen.html
+
+    - title: Źródła kosztów
+      output: web
+      url: /zrodla-kosztow.html
+
+    - title: Raport źródeł kosztów
+      output: web
+      url: /raport-zrodel-kosztow.html
+
+    - title: Raport wykorzystania czasu pracowników
+      output: web
+      url: /raport-wykorzystania-czasu-pracownikow.html
 
   - title: Genealogia
     output: web

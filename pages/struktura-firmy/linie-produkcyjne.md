@@ -20,7 +20,7 @@ Linię produkcyjną tworzymy wybierając z menu głównego: **STRUKTURA FIRMY >>
 
 4. Opcjonalnie możemy dodać "Opis" oraz "Dokumentację" linii produkcyjnej.
 
-5. Używając przycisku {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz** , zatwierdzamy wprowadzone dane.
+5. Używając przycisku {% include inline_image.html file="zapisz.png" alt="Przycisk zapisz" %} **Zapisz** , zatwierdzamy wprowadzone dane.
 
 W zakładce **"Stacje robocze"** określamy te, które wchodzą w skład danej linii produkcyjnej. Do tego celu używamy przycisku {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy**. Wyświetli się Nam pole do wprowadzenia stacji roboczej. Wybieramy te, które wchodzą w skład danej linii produkcyjnej oraz określamy ich ilość. Następnie zatwierdzamy wprowadzone dane przy pomocy przycisku {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %}  **Zapisz**.
 

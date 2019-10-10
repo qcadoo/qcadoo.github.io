@@ -40,13 +40,13 @@ Wprowadzane produkty tworzą listę, która będzie widoczna po wybraniu "Podsta
 {% include callout.html content="Produkty mają szerokie zastosowanie w całym systemie, oto kilka z możliwości: <br>
 - Produkty biorą udział w definiowaniu [Technologii](/technologie) produkcji (w qcadoo jest to bardziej szczegółowy odpowiednik marszruty, BOMu).<br>
 - Na ich podstawie powstaje [Zapotrzebowanie materiałowe](/zapotrzebowanie-materialowe), są one wykorzystywane w [Kartach pracy](/karty-pracy).<br>
-- Produkty niosą ze sobą [Normy kosztowe](/normy-kosztowe), które wykorzystywane są w [Kalkulacji kosztów produkcji](/koszty-zlecenia), pozwalają na śledzenie[Genealogii](/genealogia), itd." type="info" %} 
+- Produkty niosą ze sobą [Normy kosztowe](/normy-kosztowe), które wykorzystywane są w [Kalkulacji kosztów produkcji](/koszty-zlecenia), pozwalają na śledzenie [Genealogii](/genealogia), itd." type="info" %} 
 
 ## Przydatne funkcje w formularzu produktu
 
 Poza samą definicją produktu w formularzu mamy możliwość,za pomocą przycisków, sprawdzenia:
 
-- **Technologii** w których dany produkt jest wykorzystywany lub produkowany oraz do jakich grup technologii należy,
+- **Technologii** w których dany produkt jest [wykorzystywany](/masowa-zmiana-technologii) lub produkowany oraz do jakich grup technologii należy,
 - **Zlecenia** dzięki, którym produkt został wyprodukowany, zarówno te planowane jaki i wszystkie,
 - **Magazyn**  a dokładniej historie miejsc składowania danego produktu,
 - **Rejestracje produkcji** dla tego produktu, pojedynczo lub zgrupowane
