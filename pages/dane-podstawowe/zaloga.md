@@ -10,7 +10,7 @@ Aby dodać załogę wejdź w **Podstawowe > Załoga**
 
 {% include lightbox.html file="podstawoweZalogaLista.png" alt="Lista załóg" caption="Lista załóg" %}
 
-i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy typ usterki" %} **Dodaj nowy**
+i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nową załogę" %} **Dodaj nowy**
 
 {% include lightbox.html file="podstawoweZalogaDodajNowy.png" alt="Formularz dodania nowej załogi" caption="Formularz dodania nowej załogi" %}
 

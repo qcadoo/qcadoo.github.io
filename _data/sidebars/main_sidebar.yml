@@ -274,6 +274,10 @@ entries:
           output: web
           url: /masowa-zmiana-technologii.html
 
+    - title: Generator technologii
+      output: web
+      url: /generator-technologii.html
+
     - title: Grupy technologii
       output: web
       url: /grupy-technologii.html
