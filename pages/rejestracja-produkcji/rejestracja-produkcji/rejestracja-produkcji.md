@@ -63,3 +63,11 @@ Jeśli produkt ma zdefiniowany zamiennik, to podczas rejestracji produkcji w tab
 W oknie wybierz z dostępnej listy zamienników ten właściwy (lista na podstawie subsytutów produktu) i podaj jaką ilość użyłeś. Dodany zamiennik pojawi się w liście produktów wejściowych danego meldunku. Zostanie przy nim zapisana informacja do jakiego produktu jest zamiennikiem - przyda się przy kolejnych rejestracjach do tego zlecenia: pracownik będzie wiedział dzięki temu, że produkt ten nie był zaplanowany, ale już wcześniej ktoś postanowił go użyć.
 
 Dodanie zamiennika z poziomu rejestracji produkcji utworzy odpowiedni zapis w [szczegółowym zapotrzebowaniu zlecenia](/zmiana-stanu-zapotrzebowania). Tutaj również zamienniki będą miały informację o tym do jakiego produktu zostały dodane. Ponadto - ilość planowana zamienników to 0. Dzięki temu łatwo będzie wyciągnąć informację w rozliczeniu produkcji jakie było planowane użycie surowców a jakie faktycznie osiągnięte.
+
+## Atrybuty produktu 
+
+{% include lightbox.html file="rejestracjaRejestracjaProdukcjiAtrybutyProduktu.png" alt="Atrybuty produktu wyjściowego" caption="Atrybuty produktu wyjściowego" class="float-right"  %}
+
+O tym jakimi [atrybutami](/atrybuty) produkty uczestniczące w procesie produkcyjnym zostały opisane dowiesz się wchodząc w szczegóły produktu wejściowego i produktu wyjściowego. Zakładka **Atrybuty produktu** przedstawia wszystkie przypisane atrybuty i ustawione dla nich wartości. Dane te mogą być istotne z punktu widzenia produkcji - dlatego lepiej, aby pracownik miał szanse na zapoznanie się z nimi i nie musiał organizować wielkich poszukiwań w czeluściach systemu.
+
+Atrybuty produktu w rejestracji produkcji pełnią rolę informacyjną. Zmiana może być przeprowadzona tylko z poziomu [produktu](/produkty).

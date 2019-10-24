@@ -102,7 +102,7 @@ O tym jakie produkty będą potrzebne do realizacji produkcji pracownik może do
 {% include lightbox.html file="rejestracjaTerminalInformacje.png" alt="Informacje" caption="Terminal - informacje" class="float-right"  %}
 
 Obszar na starcie jest zwinięty. Zawiera wszystkie niezbędne do realizacji zlecenia informacje jak:
-- zlecony produkt
+- zlecony produkt i jego atrybuty
 - linia produkcyjna, która zlecenie ma wykonać
 - operacje z technologii (drzewko operacji do rozwinięcia)
 - załączniki zdefiniowane w technologii, z której zlecenie korzysta. Załącznik trzeba pobrać i otworzyć w programie dostępnym lokalnie. Dlatego przy specyficznych formatach, zadbaj o dostępność odpowiednich programów obsługujących ten typ pliku.
@@ -142,6 +142,12 @@ Dodatkowo dodany zamiennik w menu kontekstowym będzie miał informację jaki pr
 
 Każda kolejna rejestracja do tego zlecenia będzie miała wśród produktów wejściowych, ten dodany jako zamiennik.
 
+#### Atrybuty produktu wejściowego
+
+{% include lightbox.html file="terminalProduktyWejscioweMenuKontekstowe.png" alt="Atrybuty produktu wejściowego" caption="Atrybuty produktu wejściowego" class="float-right"  %}
+
+W menu kontekstowym wywołanym do produktu wejściowego w terminalu, zaprezentowane są informacje o [atrybutach](/atrybuty) danego produktu. Dzięki temu pracownik w szybki sposób może zapoznać się z ważnymi informacjami odnośnie surowca zaplanowanego do produkcji i upenić się, czy na pewno pobrał do przetworzenia odpowiedni produkt. Dane te są czysto informacyjne - zmiana wartości atrybutów produktu możliwa jest tylko z poziomu samego [produktu](/produkty).
+
 ---
 
 ### Produkty wyjściowe
@@ -159,6 +165,12 @@ Widoczne są ponadto ilości:
 - pozostało do wyprodukowania - informacja dla pracownika ile jeszcze danego produktu trzeba wytworzyć, aby zlecenie uznać za zrealizowane
 
 Dodatkowym ułatwieniem dla pracowników jest możliwość wpisywania kolejnych wyprodukowanych transz używając znaku plusa (np. 17+13+21). W momencie potwierdzania rejestracji w polu zostanie uzupełniona suma podanego działania.
+
+#### Atrybuty produktu wyjściowego
+
+{% include lightbox.html file="terminalProduktyWyjscioweMenuKontekstowe.png" alt="Atrybuty produktu wyjściowego" caption="Atrybuty produktu wyjściowego" class="float-right"  %}
+
+Podobnie jak w produktach zużywanych w procesie, tak i tutaj, pracownik ma możliwość zaznajomienia się z [atrybutami](/atrybuty) charakteryzującymi wytwarzany produkt. Wystarczy, żę kliknie w menu kontekstowe i odczyta atrybuty umieszczone w dodatkowych informacjach. Dane te niejednokrotnie warunkują ostateczny wygląd produktu, dlatego tak ważne jest, aby każdy miał w nie wgląd.
 
 ---
 

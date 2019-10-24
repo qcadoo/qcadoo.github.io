@@ -15,5 +15,5 @@ Zasoby przechowują w sobie bardzo dużo informacji - od atrybutów określonych
 
 {% include callout.html content="Warto zapamiętać, że zasób po rozchodowaniu do zera jest z tabeli usuwany. Historię zasobów można wyczytać z [pozycji dokumentów](/pozycje-dokumentow)" type="warning" %}
 
-Zasób możesz korygować - szczegółowy opis znajdziesz [tutaj](/korekty).
+Zasób możesz korygować i możesz przypisać mu [atrybuty](/atrybuty) - szczegółowy opis znajdziesz [tutaj](/korekty).
 

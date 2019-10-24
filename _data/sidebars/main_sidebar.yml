@@ -195,6 +195,10 @@ entries:
     - title: Części
       output: web
       url: /czesci.html
+
+    - title: Atrybuty
+      output: web
+      url: /atrybuty.html
    
   - title: Struktura firmy
     output: web

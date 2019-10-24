@@ -34,6 +34,17 @@ Decydując się na ręczne wprowadzanie produktów, wybieramy:
 - W zakładce **"Technologie"** przypisujemy produktowi powiązaną grupę technologii. 
 - W zakładce **"Załączniki"** możemy podpiąć różnego formatu pliki, które można pobrać z wielu poziomów Qcadoo MES w trakcie produkcji.
 - W zakładce **"Dostawcy"** istnieje możliwość wskazania [firmy](/Firmy), która dostarcza dany produkt i określenie jedną z nich jako domyślnego dostawcę.
+- w zakładce **Atrybuty** możesz dodatkowo opisać produkt używając zdefiniowanych wcześniej [atrybutów](/atrybuty)
+
+{% include lightbox.html file="podstawoweProduktyAtrybuty.png" alt="Atrybuty produktu" caption="Atrybuty produktu" %} 
+
+{% include lightbox.html file="podstawoweProduktyAtrybutyNowy.png" alt="Przypisanie atrybutu do produktu" caption="Przypisanie atrybutu do produktu" class="float-right" %}
+
+Aby przypisać do produktu atrybut i określić jego wartość, kliknij w tabeli Atrybuty przycisk {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy" %} **Nowy**, wskaż atrybut (widoczne są tylko te, które zostały określone jako atrybut produktu) i określ wartość. Jeśli typ atrybutu to wyliczeniowy - wybierz ją z listy. Jeśli typ ciągły - wprowadź wartość ręcznie. Pamiętaj, że jeśli rodzaj atrybutu to 'liczbowy', to pozwolimy na wpisanie tylko wartości liczbowej, z maksymalną ilością miejsc po przecinku taką, jaką określa precyzja.
+
+{% include callout.html content="Dany atrybut może być do produktu przypisany wielokrotnie, ale każdorazowo musi być wprowadzona jego inna wartość." type="info" %}
+
+---
 
 Wprowadzane produkty tworzą listę, która będzie widoczna po wybraniu "Podstawowe" i "Produkty". Do jej przeszukiwania służy Filtr. [Więcej o Filtrze.](/inteligentny-filtr)
 
