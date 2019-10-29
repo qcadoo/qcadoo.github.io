@@ -88,6 +88,10 @@ entries:
         output: web
         url: /dezaktywacja.html
 
+      - title: Eksport danych do PDF lub Excel
+        output: web
+        url: /eksport-danych.html
+
   - title: Przykładowe procesy
     output: web
     folderitems:
