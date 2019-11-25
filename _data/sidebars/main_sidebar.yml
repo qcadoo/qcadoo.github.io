@@ -203,6 +203,10 @@ entries:
     - title: Atrybuty
       output: web
       url: /atrybuty.html
+
+    - title: Atrybuty produktów
+      output: web
+      url: /atrybuty-produktow.html
    
   - title: Struktura firmy
     output: web
@@ -353,6 +357,14 @@ entries:
     - title: Wydruk stanu magazynu
       output: web
       url: /wydruk-stanu-magazynu.html
+
+    - title: Atrybuty zasobów
+      output: web
+      url: /atrybuty-zasobow.html
+
+    - title: Pozycje dokumentów z atrybutami zasobu i produktu
+      output: web
+      url: /pozycje-dokumentow-z-atrybutami.html
 
   - title: Zaopatrzenie
     output: web

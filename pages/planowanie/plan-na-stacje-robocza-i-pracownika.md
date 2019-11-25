@@ -19,7 +19,7 @@ Zainteresowany takim sposobem działania? Zacznij od odpowiedniej konfiguracji d
 
 ## Konfiguracja 
 
-1. wprowadź [stacje robocze](/stacje-robocze) - zarówno maszyny jak i stanowiska, na których realizowane są zadania --> musimy wiedzieć gdzie praca będzie wykonywana
+1. wprowadź [stacje robocze](/stacje-robocze) - zarówno maszyny jak i stanowiska, na których realizowane są zadania --> musimy wiedzieć gdzie praca będzie wykonywana. Pamiętaj aby każda ze stacji była przypisana do linii produkcyjnej, a ta aby miała zdefiniowane kalendarze
 2. określ umiejętności - czyli podaj jakie kwalifikacje trzeba mieć, aby móc wykonywać dane czynności
 3. zdefiniuj [operacje] --> musimy wiedzieć jakie czynności wykonujesz
 4. dla każdej operacji określ [normy czasowe](/normy-czasowe) --> musimy wiedzieć ile trwa każda z operacji. Podanie czasu Tj (czyli czasu wykonania produktu w jednym cyklu), jeśli chcesz aby operacja i kolejne w procesie, zostały rozplanowane. 

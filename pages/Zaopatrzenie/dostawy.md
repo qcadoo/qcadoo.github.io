@@ -43,13 +43,21 @@ Jeżeli zamówienie jest kompletne możesz przejść do następnego etapu. Wybie
 
 ### Odbiór dostawy
 
-Każdą dostawę, którą otrzymasz na magazyn musisz odebrać w programie qcadoo. Aby odebrać dostawę należy przejść do następnej zakładki **"Odbiór dostawy"** i dodać odebrane w danej dostawie produkty. Produkty te można dodać na dwa sposoby:
+Każdą dostawę, którą otrzymasz na magazyn musisz odebrać w programie qcadoo. Aby odebrać dostawę należy przejść do następnej zakładki **"Odbiór dostawy"** i dodać odebrane w danej dostawie produkty. Produkty te można dodać na trzy sposoby:
 
-- Dodanie zamawianych produktów ręcznie wybierając {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy**.
+- **Dodanie zamawianych produktów ręcznie** wybierając {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy**.
 
-- Kopiowanie automatyczne. Z zakładki znajdującej się na górze należy wybrać "Skopiuj produkty zamawiane do odebranych" {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Bez ilości i ceny** lub {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Z ilością i ceną** , po wybraniu jednej z tych opcji program sam skopuje wszystkie potrzebne dane. Dla każdego produktu uzupełnij informacje na temat odebranej ilości produktówiowystąpieniu produktów wadliwych. Jeżeli wszystko się zgadza mona zaakceptować dostawę wybierając {% include inline_image.html file="acceptIcon24.png" alt="Przycisk akceptuj" %} **Odbierz**.
+- **Kopiowanie automatyczne**. Z zakładki znajdującej się na górze należy wybrać "Skopiuj produkty zamawiane do odebranych" {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Bez ilości i ceny** lub {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Z ilością i ceną** , po wybraniu jednej z tych opcji program sam skopuje wszystkie potrzebne dane. Dla każdego produktu uzupełnij informacje na temat odebranej ilości produktówiowystąpieniu produktów wadliwych. Jeżeli wszystko się zgadza mona zaakceptować dostawę wybierając {% include inline_image.html file="acceptIcon24.png" alt="Przycisk akceptuj" %} **Odbierz**.
 
 {% include lightbox.html file="Zaopatrzenie-%20Dostawy-%20Odbi%C3%B3r%20dostawy.png" alt="Formularz dostawy - odbiór" caption="Formularz dostawy - odbiór" %}
+
+{% include lightbox.html file="zaopatrzenieDostawaPrzypiszMiejscaSkladowania.png" alt="Odbiór przez przypisanie miejsca składowania" caption="Odbiór przez przypisanie miejsca składowania" class="float-right" %}
+
+- **Przypisanie miejsca składowania** - ta funkcjonalność ma na celu odbiór zamówionych produktów wraz z ulokowaniem ich na paletach i w miejscach składowania. Zamówiony produkt może być odebrany w wielu pozycjach - bo nie zawsze cała zamówiona ilość zmieści Ci się do regału. Aby odebrać korzystając z tego sposobu zaznacz pozycje, które kładziesz na danej palecie (wszystkie muszą mieć tą samą paletę) i kliknij przycisk {% include inline_image.html file="przyciskPrzypiszMiejscaSkladowania.png" alt="Przycisk Przypisz miejsca składowania" %} **Przypisz miejsca składowania**. W kolejnym kroku uzupełnij:
+* [numer własny palety](/numery-wlasne-palet)
+* typ palety (z listy stworzonej w słowniku)
+* [miejsce składowania](/miejsca-skladowania)
+i dla każdej pozycji wskaż datę ważności i zweryfikuj, czy podpowiedzieliśmy odpowiednią ilość. Aby zapisać odebrane pozycje kliknij {% include inline_image.html file="przyciskPrzypiszIPowrot.png" alt="Przycisk Przypisz i powrót" %} **Przypisz i powrót**. I powtórz czynność dla wszystkich kompletowanych palet.
 
 ### Rezerwacja produktów
 
@@ -67,6 +75,20 @@ W celu dokonania rezerwacji produkty i automatycznego utworzenia wydań wewnętr
 3. Odbieramy zamówienie i tworzy nam się dokument przyjęcia zewnętrznego na magazynie określonym w formularzu dostawy, zaś w **Zaopatrzenie >> Wydania Wewnętrzne** możemy zobaczyć, że utworzył nam się kolejny dokument w szkicu, oczekujący ewentualnych zmian i zatwierdzenia.
 
 {% include lightbox.html file="Zaopatrzenie-wydanie-z-dostawy.png" alt="Wydanie wewnętrzne utworzone z dostawy" caption="Wydanie wewnętrzne utworzone z dostawy" %}
+
+---
+
+{% include lightbox.html file="zaopatrzenieDostawaAtrybutyDostarczonegoProduktu.png" alt="Atrybuty dostarczonego produktu" caption="Atrybuty dostarczonego produktu" class="float-right" %}
+
+### Określanie atrybutów dostarczonych produktów
+
+Odebranie dostawy utworzy w magazynie [zasoby](/zasoby). Każdy z zasobów możesz dodatkowo oznaczyć [atrybutami](/atrybuty). Po co? Np. po to by zapisać numer atestu dostarczonego produktu, albo jego gatunek, albo cokolwiek innego, co musisz kontrolować podczas wykorzystania produktu poczas produkcji. Atrybuty przypiszesz dostarczonym produktom (zakładka Odbiór dostawy). Wejdź w szczegóły produktu i w zakładkę **Atrybuty**. I przypisz te, którymi chcesz produkt uszczegółowić. 
+
+Pamiętaj, że możesz wybierać tylko wśród atrybutów, które opisują zasób. I określając wartości musisz spełnić wymogi nadane w definicj atrybutu - np. że musi to być wartość liczbowa o podanej precyzji, albo, że musi być to wartość wybrana z listy.
+
+Przypisane w ten sposób atrybuty zostaną przekazane do [dokumentu](/dokumenty) PZ, a z niego do [zasobu](/zasoby). Zasoby pod kątem atrybutów możesz analizować za pomocą listy [Atrybutów zasobów](/atrybuty-zasobow).
+
+---
 
 ## Generowanie dostawy do stanów minimalnych
 

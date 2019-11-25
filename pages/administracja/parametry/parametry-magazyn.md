@@ -26,6 +26,16 @@ Pamiętaj też o parametrze _Szkicowe dokumenty rezerwują stany_, który ustawi
 
 ---
 
+{% include lightbox.html file="parametryMagazynDodajAtrybuty.png" alt="Dodawanie kolumn dokumentu na podstawie atrybutów" caption="Dodawanie kolumn dokumentu na podstawie atrybutów" class="float-right" %}
+
+Jeśli korzystasz z atrybutów zasobów i chcesz, aby pracownicy podczas wystawiania przychodowych dokumentów magazynowych, mogli określać wartości tych atrybutów, koniecznie zdecyduj, które z nich w dokumencie mają się pojawiać. Kliknij przycisk {% include inline_image.html file="przyciskDodajKolumnyZAtrybutamiZasobu.png" alt="Przycisk Dodaj kolumny z atrybutami zasobu" %} **Dodaj kolumny z atrybutami zasobu** i wskaż atrybuty, które chcesz wypełniać z poziomu dokumentu. Tak utworzone kolumny mogą być ukryte (parametr _Widoczność_).
+
+Atrybuty aktywne będą w dokumentach typu przyjęcie wewnętrzne i przyjęcie zewnętrzne. A w pozostałych typach dokumentu będą nieaktywne, ale uzupełnią się w nich informacje o wartościach atrybutów z rozchodowanych zasobów. 
+
+{% include callout.html content="Jeśli w parametrach kolumna nie będzie zdefiniowana, to nie będziesz widzieć które dokumenty jakie wartości atrybutów dodały. Ale same atrybuty zasobu, dodane np. z rejestracji produkcji czy dostawy w zasobie będą zapisane." type="warning" %}
+
+---
+
 ## Parametry stanu magazynowego
 
 Parametry umieszczone w tej zakładce dotyczą [przesuwania palet](/stan-palet). Możemy zasugerować Ci produkty z których palet warto przenieść na inną paletę (aby zrobić miejsce w lokalizacji), a także które palety są w stanie pomieścić dodatkowe produkty.

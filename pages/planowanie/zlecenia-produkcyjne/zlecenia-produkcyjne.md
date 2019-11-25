@@ -6,11 +6,13 @@ Zlecenia produkcyjne realizowane są w oparciu o uprzednio utworzone [Technologi
   
 ## Dodanie nowego zlecenia  
 
-**ZLECENIA PRODUKCYJNE  Zlecenia produkcyjne** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**
+**Planowanie > Zlecenia produkcyjne** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**
 
 {% include lightbox.html file="planowanie-%20zlecenia%20produkcyjne-%20g%C5%82%C3%B3wna-%20strza%C5%82ki.png" alt="Formularz zlecenia produkcyjnego" caption="Formularz zlecenia produkcyjnego" class="float-right" %}
 
 1. W pierwszym kroku przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %}wybieramy "Produkt", którego dotyczy Twoje zamówienie. Produkty pobierają się ze zdefiniowanej wcześniej listy [Produktów](/produkty) z "Danych podstawowych". Po wybraniu "Produktu" wybieramy "Technologię", którą chcesz zastosować. Jeżeli dla danego produktu zaznaczyłeś technologię jako domyślną, pole to uzupełni się automatycznie.  
+
+{% include callout.html content="W zleceniu można skorzystać z technologii o statusie zaakceptowana. Jeśli w oknie technologii jest pusto: 1) upewnij się, że zdefiniowałeś [technologię](/technologie-szczegoly) dla produktu (musisz to zrobić, bo musimy wiedzieć jak proces produkcyjny wygląda, 2) upewnij się, że zaakceptowałeś wprowadzoną technologię" type="info" %}
   
 2. Wybieramy linię produkcyjną, na której chcemy zrealizować zlecenie. Jeśli technologia ma w zasięgu określoną linię - zostanie ona z automatu uzupełniona.
   
@@ -33,7 +35,7 @@ Program daje możliwość obliczenia terminu zakończenia zlecenia. Aby to zrobi
 
 {% include callout.html content="Możliwe jest zapisanie zlecenia produkcyjnego bez podania dat rozpoczęcia i zakończenia zlecenia, jednak bez wprowadzenia tych danych jego zaakceptowanie, czy rozpoczęcie jest niemożliwe (kliknij po więcej o: [Stanach i statusach zleceń](/stany-i-statusy-zlecen))." type="warning" %} 
 
-Alternatywą do wyliczenia czasu przez czasochłonność jest rozplanowanie [produkcji na zmianę](/produkcja-na-zmiane), a przez to wyliczenie daty zakończenia zlecenia.
+Alternatywą do wyliczenia czasu przez czasochłonność jest rozplanowanie [produkcji na zmianę](/produkcja-na-zmiane), a przez to wyliczenie daty zakończenia zlecenia. Natomiast jeśli zdecydowałeś się na raportowanie z dokładnością do operacji, możesz skorzystać z [planowania na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika).
 
 ## Co powinieneś wiedzieć zanim zaakceptujesz zlecenie produkcyjne?
   

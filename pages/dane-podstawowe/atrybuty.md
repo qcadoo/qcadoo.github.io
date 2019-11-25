@@ -39,3 +39,33 @@ Atrybuty produktu określamy tylko i wyłącznie w [produkcie](/produkty). Jego 
 
 Atrybuty zasobu natomiast wprowadzane są wszędzie tam gdzie rejestrujesz przychód na magazyn - w [dostawie](/dostawy), przy [rejestracji produkcji](/rejestracja-produkcji) czy po prostu w [dokumentach](/dokumenty). Będziesz mógł je podać również w już istniejącym [zasobie](/korekty).
 
+Przypisanie atrybutów do produktów i do zasobów może odbyć się też poprzez import danych z Excela.
+
+## Import wartości atrybutów produktu
+
+Co musisz zrobić, aby wykorzystać funkcję importu:
+1. zdefiniuj atrybuty
+2. zdefiniuj produkty (tu też możesz użyć funkcji importu z Excela)
+3. stwórz arkusz Excel i zapisz go na dysku
+4. wejdź w Podstawowe > Atrybuty i kliknij przycisk {% include inline_image.html file="przyciskImportWartosciAtrybutowProduktu.png" alt="Przycisk Import wartości atrybutów produktu" %} **Import wartości atrybutów produktu** -> wskaż przygotowany arkusz i zaimportuj
+
+Najważniejszy jest odpowiednio przygotowany plik Excel. Pierwsza kolumna to kolumna z produktem - wprowadź numery produktów z qcadoo. Kolejne kolumny to kolumny atrybutow. W nagłówku wprowadź numery atrybutów z qcadoo (użyj tych, które określiłeś jako opisujące produkt), a w komórkach przecinających kolumnę atrybutu z wierszem produktu - wartość atrybutu.
+
+Dla przykładu:
+mam dwa produkty: guzik Karo i guzik Miko. Każdemu z nich chcę określić kolor i kształt. Arkusz importu wyglądać będzie następująco:
+
+{% include lightbox.html file="podstawoweAtrybutyImportAtrybutowProduktu.png" alt="Arkusz do importu atrybutów produktów" caption="Arkusz do importu atrybutów produktów" %}
+
+Efekt importu (dla guzika Karo) będzie następujący:
+
+{% include lightbox.html file="podstawoweAtrybutyImportAtrybutowProduktuEfekt.png" alt="Efekt importu atrybutów produktów" caption="Efekt importu atrybutów produktów" %}
+
+{% include callout.html content="Pamiętaj, że przy imporcie obowiązują takie same walidacje, jak przy ręcznym przypisywaniu atrybutów. Jeśli atrybut jest wyliczeniowy - wartości w arkuszu muszą odpowiadać tym zdefiniowanym w atrybucie. Jeśli wartości atrybutu mają być liczbowe - przypilnujemy, aby wartości atrybutu były liczbą w zadanej precyzji." type="info" %}
+
+## Import wartości atrybutów zasobu
+
+Import wartości atrybutów zasobu działa na takiej samej zasadzie jak import atrybutów produktu. Przygotuj arkusz posiadający w pierwszej kolumnie numer zasobu w qcadoo a w kolejnych wartości atrybutów, określonych jako opisujące zasoby (w nagłówku kolumny umieść numer atrubutu, a w komórkach przecinających atrybut z zasobem - wartość). Mógłby on wyglądać tak:
+
+{% include lightbox.html file="podstawoweAtrybutyImportAtrybutowZasobu.png" alt="Arkusz do importu atrybutów zasobów" caption="Arkusz do importu atrybutów zasobów" %}
+
+Zaimportu go klikając przycisk {% include inline_image.html file="przyciskWartosciAtrybutowZasobu.png" alt="Przycisk Import wartości atrybutów zasobu" %} **Import wartości atrybutów zasobu**.

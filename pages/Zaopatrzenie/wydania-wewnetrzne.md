@@ -29,6 +29,8 @@ W zakładce Produkty do wydania ujrzysz listę tych produktów, które zostały 
 - ilość już wydana
 - korekta ilości - czyli o jaką ilość zmniejszono plan wydania na dany magazyn przyjmujący. O szczegółach poczytasz [tutaj](/produkty-do-wydania-wewnetrznego)
 
+Dla każdego zapisanego na liście do wydania produktu, możesz podejrzeć zdefiniowane [atrybuty](/atrybuty). W tym celu zaznacz produkt i kliknij przycisk {% include inline_image.html file="przyciskPokazAtrybutyProduktu.png" alt="Przycisk Pokaż atrybuty produktu" %} **Pokaż atrybuty produktu**.
+
 --- 
 
 No dobrze - wiesz już co trzeba wydać i gdzie. <span style="color:red"> Ale w jaki sposób zapisać co już zostało wydane?</span> Wykonaj następujące kroki:

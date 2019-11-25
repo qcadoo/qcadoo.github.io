@@ -24,7 +24,9 @@ Parametry kart pracy są pogrupwane w zakładki. Każda zostanie omówiona poni�
 
 5. **Generuj każde zlecenie/grupę na osobnej stronie** - zaznacz parametr jeśli na karcie pracy każde zlecenie lub wydzielona grupa (operacje na karcie pracy mogą być pogrupowane np. wg działu) mają zaczynać się od nowej strony. Dzięki temu łatwiej będzie podzielić kartę pracy na wielu pracowników
 
-6. **Kolumny** - ustaw jakie kolumny i w jakiej kolejności mają drukować się w tabeli zleceń
+6. **Włącz grupowanie operacji** - jeśli zaznaczysz parametr, to te same operacje z technologii z takimi samymi produktami wejściowymi, zostaną na karcie pracy zaprezentowane razem (będzie to jedna operacja, ze zsumowaną ilością surowca i wieloma produktami wyjściowymi)
+
+7. **Kolumny** - ustaw jakie kolumny i w jakiej kolejności mają drukować się w tabeli zleceń
 
 ---
 

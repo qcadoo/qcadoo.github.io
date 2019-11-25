@@ -52,3 +52,7 @@ _O tym, że pozycja została skorygowana dowiesz się poprzez_:
 ## Aktualizacja miejsc składowania
 
 W liście produktów do wydania widoczne są przypisane produktom miejsca składowania na magazynach przyjmujących. Dzięki temu wiesz gdzie dany produkt powinien być odłożony po przesunięciu. Przypisanie produktów do lokalizacji może się zmieniać - na pewno reorganizujesz magazyn, tak by często używane produkty były w zasięgu ręki. Zmiana przypisania produktów do miejsc składowania nie będzie od razu widoczna w liście zaplanowanych produktów do wydania. Aby tak się stało konieczne jest wywołanie funkcji {% include inline_image.html file="przyciskAktualizujMiejscaSkladowania.png" alt="Przycisk Aktualizuj miejsca składowania" %} **Aktualizuj miejsca składowania**. Program sprawdzi do jakich lokalizacji produkt jest przypisany na danym magazynie i uzupełni listę o aktualne powiązania.
+
+## Podgląd atrybutów produktu
+
+[Atrybuty](/atrybuty) produktu uszczegółowiają dane o produkcie. Jeśli nie jesteś pewien co konkretnie trzeba wydać, zaznacz produkt i kliknij przycisk {% include inline_image.html file="przyciskPokazAtrybutyProduktu.png" alt="Przycisk Pokaż atrybuty produktu" %} **Pokaż atrybuty produktu**. Pamiętaj, że to tylko podgląd przypisanych atrybutów do produktu. Jeśli chcesz dopisać nowe cechy - dokonaj modyfikacji z poziomu: Podstawowe > [Produkty](/produkty).

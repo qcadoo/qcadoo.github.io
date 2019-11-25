@@ -64,6 +64,8 @@ W oknie wybierz z dostępnej listy zamienników ten właściwy (lista na podstaw
 
 Dodanie zamiennika z poziomu rejestracji produkcji utworzy odpowiedni zapis w [szczegółowym zapotrzebowaniu zlecenia](/zmiana-stanu-zapotrzebowania). Tutaj również zamienniki będą miały informację o tym do jakiego produktu zostały dodane. Ponadto - ilość planowana zamienników to 0. Dzięki temu łatwo będzie wyciągnąć informację w rozliczeniu produkcji jakie było planowane użycie surowców a jakie faktycznie osiągnięte.
 
+---
+
 ## Atrybuty produktu 
 
 {% include lightbox.html file="rejestracjaRejestracjaProdukcjiAtrybutyProduktu.png" alt="Atrybuty produktu wyjściowego" caption="Atrybuty produktu wyjściowego" class="float-right"  %}
@@ -71,3 +73,12 @@ Dodanie zamiennika z poziomu rejestracji produkcji utworzy odpowiedni zapis w [s
 O tym jakimi [atrybutami](/atrybuty) produkty uczestniczące w procesie produkcyjnym zostały opisane dowiesz się wchodząc w szczegóły produktu wejściowego i produktu wyjściowego. Zakładka **Atrybuty produktu** przedstawia wszystkie przypisane atrybuty i ustawione dla nich wartości. Dane te mogą być istotne z punktu widzenia produkcji - dlatego lepiej, aby pracownik miał szanse na zapoznanie się z nimi i nie musiał organizować wielkich poszukiwań w czeluściach systemu.
 
 Atrybuty produktu w rejestracji produkcji pełnią rolę informacyjną. Zmiana może być przeprowadzona tylko z poziomu [produktu](/produkty).
+
+---
+
+## Atrybuty zasobu
+
+{% include lightbox.html file="rejestracjaRejestracjaProdukcjiAtrybutyZasobu.png" alt="Atrybuty zasobu wytworzonego produktu" caption="Atrybuty zasobu wytworzonego produktu" class="float-right"  %}
+
+Każdy wyprodukowany przez Ciebie zasób może być dodatkowo opisywany za pomocą [atrybutów](/atrybuty). Uzupełnij informacje na etapie rejestrowania produkcji, a trafią one na dokument PW i do zasobu. Jak to zrobić? Wejdź w szczegóły produktu wyjściowego rekordu rejestracji i zakładce Atrybuty zasobu wybierz atrybut i podaj dla niego wartość. Atrybutów możesz oczywiście na tym etapie przypisać wiele - dla produktu być może musisz podać jaką ma długość, jaką wagę a także w jakim jest gatunku. Podaj tak dużo danych jak tylko potrzebujesz. 
+Jeśli rejestrujesz produkcję przy pomocy [terminala](/terminal), również możesz określić atrybuty zasobu. Po potwierdzeniu trafią one do rekordu rejestracji.
