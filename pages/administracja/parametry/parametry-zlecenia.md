@@ -33,11 +33,13 @@ Do dyspozycji masz następujące parametry:
 
 10. **Kopiuj uwagi z pozycji zlecenia nadrzędnego** - zaznacz parametr, jeśli chcesz, aby uwagi wprowadzone w pozycji zlecenia nadrzędnego, zostały przeniesione do opisu zlecenia produkcyjnego (utworzonego poprzez funkcję Utwórz wiele zleceń produkcyjnych)
 
-11. **Realizacja ze stanu magazynowego** - zaznacz parametr jeśli chcesz, aby funkcja tworzenia wielu zleceń produkcyjnych do zlecenia nadrzędnego sprawdzała, czy zamówiony produkt trzeba produkować, czy można pobrać z istniejacego stanu magazynowego. Zlecenia produkcyjne będą utworzone tylko na tą część zamówionych produktów, dla których nie został zabezpieczony stan magazynowy. Jeśli chcesz aby funkcja realizacji ze stanu magazynowego działała poprawnie, wskaż w tabeli poniżej na jakich magazynach mamy sprawdzać dostępny stan. Funkcja ta analizuje tylko stany zachowane w qcadoo - nie sprawdza stanów w systemie zewnętrznym.
+11. **Zbiorcze zlecenia tworzone ze zlecenia nadrzędnego** - zaznacz parametr jeśli chcesz, aby podczas tworzenia zleceń do zleceń nadrzędnych, zbijały się one w zbiorcze z dokładnością do tego samego produktu i tej samej technologii
 
-12. **Zawsze zlecaj pozycje z personalizacją** - parametr uaktywni się po zaznaczeniu _Realizacja ze stanu magazynowego_. Jeśli w uwagach pozycji zlecenia nadrzędnego wprowadzasz szczegóły zamówionego produktu, które sprawiają, że produkt wymaga zmian w procesie produkcyjnym specjalnie na życzenie klienta (czyli produkt musi zostać wyprodukowany i nie może być pobrany ze stanu produkt standardowy), to zaznacz parametr, a zawsze do tej pozycji utworzymy zlecenie produkcyjne na ilość zamówioną przez klienta
+12. **Realizacja ze stanu magazynowego** - zaznacz parametr jeśli chcesz, aby funkcja tworzenia wielu zleceń produkcyjnych do zlecenia nadrzędnego sprawdzała, czy zamówiony produkt trzeba produkować, czy można pobrać z istniejacego stanu magazynowego. Zlecenia produkcyjne będą utworzone tylko na tą część zamówionych produktów, dla których nie został zabezpieczony stan magazynowy. Jeśli chcesz aby funkcja realizacji ze stanu magazynowego działała poprawnie, wskaż w tabeli poniżej na jakich magazynach mamy sprawdzać dostępny stan. Funkcja ta analizuje tylko stany zachowane w qcadoo - nie sprawdza stanów w systemie zewnętrznym.
 
-13. **Magazyny** - tabela uaktywnia się po zaznaczeniu parametru _Realizacja ze stanu magazynowego_. Podaj magazyny, na których mamy poszukiwać dostępnego stanu zamówionych produktów
+13. **Zawsze zlecaj pozycje z personalizacją** - parametr uaktywni się po zaznaczeniu _Realizacja ze stanu magazynowego_. Jeśli w uwagach pozycji zlecenia nadrzędnego wprowadzasz szczegóły zamówionego produktu, które sprawiają, że produkt wymaga zmian w procesie produkcyjnym specjalnie na życzenie klienta (czyli produkt musi zostać wyprodukowany i nie może być pobrany ze stanu produkt standardowy), to zaznacz parametr, a zawsze do tej pozycji utworzymy zlecenie produkcyjne na ilość zamówioną przez klienta
+
+14. **Magazyny** - tabela uaktywnia się po zaznaczeniu parametru _Realizacja ze stanu magazynowego_. Podaj magazyny, na których mamy poszukiwać dostępnego stanu zamówionych produktów
 
 ---
 
@@ -86,7 +88,7 @@ Zlecenia nadrzędne to w qcadoo odpowiednik zamówień sprzedaży. Skonfiguruj j
 
 2. **Nie ustalaj dat w generowanych zleceniach** - standardowo daty podane w zleceniu nadrzędnym przenoszone są do tworzonego zlecenia produkcyjnego. Jeśli nie chcesz ich przenosić - zaznacz parametr.
 
-3. **Kopiuj opis ze zlecenia nadrzędnego** - zaznacz parametr jeśli opis zostawiony w zleceniu nadrzędnym ma się przenosić do zlecenia produkcyjnego. Jeśli dodatkowo miałeś zaznaczony parametr **Uzupełniaj opis zlecenia na podstawie opisu technologii**, to w zleceniu produkcyjnym zostaną wprowadzone oba opisy, odzielone enterem.
+3. **Zakończ zlecenie nadrzędne po zleceniu wszystkich pozycji** - jeśli zaznaczysz parametr, to w momencie, gdy wszystkie pozycje będą miały status "Zlecone", oznaczymy zlecenie nadrzędne jako zakończone
 
 4. **Definicje zleceń** - definicje zleceń pozwalają na pogrupowanie zleceń nadrzędnych. Możesz wprowadzić definicje dla zleceń krajowych i unijnych. Dzięki temu od razu będzie wiadomo jaki jest kierunek sprzedaży. Ale możesz definicje wykorzystać do czegoś innego - ogranicza Cię tylko wyobraźnia. Dodaj tutaj definicje i podpinaj je przy tworzeniu zlecenia nadrzędnego
 

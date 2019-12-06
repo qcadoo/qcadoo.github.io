@@ -528,9 +528,22 @@ entries:
       output: web
       url: /planowanie-na-liniach.html
 
-    - title: Plan na stację roboczą i pracownika
-      output: web
-      url: /plan-na-stacje-robocza-i-pracownika.html
+      subfolders:
+      - title: Plan na stację i pracownika
+        output: web
+        subfolderitems:
+
+        - title: Plan na stację roboczą i pracownika
+          output: web
+          url: /plan-na-stacje-robocza-i-pracownika.html
+
+        - title: Gantt stacji roboczych
+          output: web
+          url: /gantt-stacji-roboczych.html
+
+        - title: Gantt pracowników
+          output: web
+          url: /gantt-pracownikow.html
 
   - title: Rejestracja
     output: web

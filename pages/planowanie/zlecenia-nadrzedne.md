@@ -85,6 +85,35 @@ Jeśli czasami produkty zamawiane przez klientów są dla nich specjalnie przera
 - zaznacz parametr **Zawsze zlecaj pozycje z personalizacją** w [parametrach zleceń](/parametry-zlecen)
 
 Dodatkowo warto zaznaczyć parametr **Kopiuj uwagi z pozycji zlecenia nadrzędnego** - wówczas wprowadzone szczegóły trafią do zlecenia produkcyjnego i pracownik będzie mógł się z nimi zapoznać w terminalu czy na karcie pracy.
+
+## Zbiorcze zlecenia produkcyjne
+
+Standardowo w qcadoo do jednej pozycji zlecenia nadrzędnego tworzone jest jedno zlecenie produkcyjne. Przy takim działaniu będziesz w stanie śledzić z poziomu zamówienia jak wygląda produkcja - ile już wykonano i ile pozostało do wyprodukowania. Do zlecenia produkcyjnego będą przekazane informacje o tym kto zamówił, jakie ma szczególne wymagania, zachowane w opisie i na kiedy danego produktu potrzebuje. Czasami jednak takie informacje nie są potrzebne na produkcji. Czasami ważniejsze jest by zebrać wszystkie zamówienia na dany produkt i zlecić na produkcję je wszystkie na raz. Pracownik nie musi wiedzieć kto to zamówił i na rzecz jakiego zamówienia aktualnie produkuje - ważne, że ma skumulowane ilości do wyprodukowania i wszystko umieszczone w jednym zleceniu. Ta funkcjonalność w qcadoo nazywa się: **zbiorcze zlecenia produkcyjne**. 
+
+Aby przy zleceniu produkcji z poziomu zleceń nadrzędnych tworzyły się zbiorcze zlecenia produkcyjne, musisz zaznaczyć parametr **Zbiorcze zlecenia tworzone ze zlecenia nadrzędnego** w Administracja > Parametry > Zlecenia > [zakładka Główna](/parametry-zlecen.html#główna). I przystąp do rozpisywania zleceń. Wejdź do **planowanie > pozycje zleceń nadrzędnych** (gdzie domyślnie widać tylko pozycje nowe, jeszcze nie zlecone), zaznacz te, które chcesz przekazać na produkcję
+
+{% include lightbox.html file="PlanowanieZbiorczeZleceniaListaNowe.png" alt="Lista nowych pozycji zleceń nadrzędnych" caption="Lista nowych pozycji zleceń nadrzędnych" %}
+
+i kliknij przycisk {% include inline_image.html file="generateIcon24.png" alt="Przycisk Generuj" %} **Utwórz wiele zleceń produkcyjnych**. Pojawi się okno, w którym możesz wypełnić daty produkcji (daty te uzupełnią się w każdym tworzonym zleceniu produkcyjnym):
+
+{% include lightbox.html file="planowanieZbiorczeZleceniaOknoDat.png" alt="Daty tworzonych zleceń" caption="Daty tworzonych zleceń" %}
+
+{% include callout.html content="Jeśli korzystasz ze zleceń na komponenty i chcesz aby po wygenerowaniu zlecenia produkcyjnego automatycznie zostały utworzone zlecenia na komponenty, to musisz podać datę rozpoczęcia późniejszą od momentu aktualnego" type="info" %}
+
+Program wyszuka teraz ile różnych produktów zostało zaznaczonych i zsumuje dla nich ilości. I dla każdego produktu utworzy osobne zlecenie produkcyjne. O tym jakie zlecenia powstały, poinformuje Cię za pomocą komunikatu.
+
+{% include lightbox.html file="planowanieZbiorczeZleceniaListaZlecone.png" alt="Utworzone zlecenia produkcyjne" caption="Utworzone zlecenia produkcyjne" %}
+
+Utworzone zlecenia produkcyjne mają informację o tym z jakich zleceń nadrzędnych pochodzą, ale jedynie zawartą w opisie. Powiązania jako takiego nie ma. Brak też informacji o kontrahencie, czy opisów zostawionych w zamówieniu. W zleceniu nadrzędnym przez to nie będzie widać ilości ze zleceń produkcyjnych (jak np. ilość wykonana). 
+
+{% include lightbox.html file="planowanieZbiorczeZleceniaEfekt.png" alt="Pozycje zleceń nadrzędnych, do których utworzono zlecenia produkcyjne zbiorcze" caption="Pozycje zleceń nadrzędnych, do których utworzono zlecenia produkcyjne zbiorcze" %}
+
+Ustawia sie za to status pozycji zlecenia nadrzędnego na **zlecona**, a zlecone domyślnie są ukrywane w liście pozycji zleceń nadrzędnych, zatem od razu możesz przystąpić do rozpisywania kolejnej partii produkcji. 
+
+{% include callout.html content="Jeśli zlecenia mają się tworzyć zbiorczo, to nawet wówczas gdy zaznaczysz 1 pozycję, albo wyjdziesz od konkretnego zlecenia nadrzędnego, tworzenie zleceń produkcyjnych będzie wykonywane za pomocą zbiorczego mechanizmu." type="info" %}
+
+
+
  
 ## Statusy zleceń nadrzędnych
 

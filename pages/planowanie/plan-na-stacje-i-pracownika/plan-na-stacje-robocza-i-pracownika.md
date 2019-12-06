@@ -19,7 +19,7 @@ Zainteresowany takim sposobem działania? Zacznij od odpowiedniej konfiguracji d
 
 ## Konfiguracja 
 
-1. wprowadź [stacje robocze](/stacje-robocze) - zarówno maszyny jak i stanowiska, na których realizowane są zadania --> musimy wiedzieć gdzie praca będzie wykonywana. Pamiętaj aby każda ze stacji była przypisana do linii produkcyjnej, a ta aby miała zdefiniowane kalendarze
+1. wprowadź [stacje robocze](/stacje-robocze) - zarówno maszyny jak i stanowiska, na których realizowane są zadania --> musimy wiedzieć gdzie praca będzie wykonywana. Pamiętaj aby każda ze stacji była przypisana do linii produkcyjnej, a ta aby miała zdefiniowane kalendarze. Jeśli przypisania takiego nie będzie - założymy, że stacja pracuje na wszystkich zdefiniowanych zmianach
 2. określ umiejętności - czyli podaj jakie kwalifikacje trzeba mieć, aby móc wykonywać dane czynności
 3. zdefiniuj [operacje] --> musimy wiedzieć jakie czynności wykonujesz
 4. dla każdej operacji określ [normy czasowe](/normy-czasowe) --> musimy wiedzieć ile trwa każda z operacji. Podanie czasu Tj (czyli czasu wykonania produktu w jednym cyklu), jeśli chcesz aby operacja i kolejne w procesie, zostały rozplanowane. 
@@ -140,6 +140,11 @@ Brak pracownika przy danej operacji może świadczyć też o nie zdefiniowaniu [
 
 Jeśli chcesz planować szybciej i nie masz potrzeby weryfikować planu po każdym kroku, użyj przycisku {% include inline_image.html file="przyciskGenerujPlan.png" alt="Przycisk Generuj plan" %} **Generuj plan**, a zostanie przeprowadzony cały proces planowania (wszystkie 3 kroki opisane wyżej na raz).
 
+Wygenerowany plan możesz obejrzeć na 3 sposoby:
+1. w zakładce Plan
+2. na [wykresie Gantta stacji roboczych](/gantt-stacji-roboczych)
+3. na [wykresie Gantta pracowników](/gantt-pracownikow)
+
 ### Edycja planu
 
 {% include lightbox.html file="planowaniePlanNaStacjeEdycja.png" alt="Edycja pozycji planu" caption="Edycja pozycji planu" class="float-right" %}
@@ -147,6 +152,8 @@ Jeśli chcesz planować szybciej i nie masz potrzeby weryfikować planu po każd
 Utworzony przez nas plan może nie być planem idealnym. Dlatego każdą z pozycji planista może przeedytować, dostosowując daty, stacje i pracowników do własnych potrzeb. W jaki sposób? Wystarczy wejść w pozycję w tabeli w zakładce Plan i wprowadzić stosowne zmiany. Modyfikacje można nanosić tak długo jak plan będzie w statusie szkic.
 
 {% include callout.html content="Pamiętaj, że ponowne wywołanie funkcji planowania nadpisze Twoje ręcznie wprowadzone zmiany w pozycje planu." type="warning" %}
+
+Modyfikację planu można przeprowadzać również z poziomu [Gantta stacji roboczych](/gantt-stacji-roboczych).
 
 ---
 

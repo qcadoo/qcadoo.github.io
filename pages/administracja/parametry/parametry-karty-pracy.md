@@ -39,7 +39,9 @@ Parametry kart pracy są pogrupwane w zakładki. Każda zostanie omówiona poni�
 
 2. **Ukryj technologię i zlecenie** - jeśli zaznaczysz parametr, to karta pracy w obszarze operacji nie będzie zawierała informacji o numerze technologii i zleceniu
 
-3. **Obrazek z dodatkowymi polami** - brakuje Ci pewnych informacji na karcie pracy? Chciałbyś zbierać dodatkowe informacje, np. o zużytych narzędziach, o jakości używanych surowców, o problemach występujących na linii? Przygotuj np. tabelę i załącz ją tutaj w formie obrazka. Wydrukujemy go na karcie pracy
+3. **Ukryj produkt zlecony** - jeśli parametr nie będzie zaznaczony, to w obszarze operacji pojawi się informacja o produkcie zleconym i jego atrybutach
+
+4. **Obrazek z dodatkowymi polami** - brakuje Ci pewnych informacji na karcie pracy? Chciałbyś zbierać dodatkowe informacje, np. o zużytych narzędziach, o jakości używanych surowców, o problemach występujących na linii? Przygotuj np. tabelę i załącz ją tutaj w formie obrazka. Wydrukujemy go na karcie pracy
 
 {% include callout.html content="Obrazek z dodatkowymi polami możesz wprowadzić też na etapie definiowania operacji w Technologie > [operacje](/operacje). Dzięki temu karta pracy może wyglądać inaczej, w zależności od tego jaka operacja ma być wykonywana" type="warning" %} 
 
