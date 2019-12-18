@@ -524,10 +524,6 @@ entries:
       output: web
       url: /karty-pracy.html
 
-    - title: Planowanie na liniach
-      output: web
-      url: /planowanie-na-liniach.html
-
       subfolders:
       - title: Plan na stację i pracownika
         output: web
@@ -544,6 +540,10 @@ entries:
         - title: Gantt pracowników
           output: web
           url: /gantt-pracownikow.html
+
+    - title: Gantt zadań operacyjnych
+      output: web
+      url: /gantt-zadan-operacyjnych.html
 
   - title: Rejestracja
     output: web
@@ -762,3 +762,7 @@ entries:
         - title: Parametry terminala
           output: web
           url: /parametry-terminal.html
+
+        - title: Parametry Gantta
+          output: web
+          url: /parametry-gantta.html

@@ -20,7 +20,10 @@ Zanim rozpoczniesz pracę w terminalu musisz kilka rzeczy skonfigurować:
 
 - _zużycie surowców na podstawie norm_ - jeśli zaznaczysz parametr, to ilość zużyta produktów wejściowych zostanie z automatu wyliczona po podaniu ilości wyprodukowanej (na podstawie określonych w technologii norm). W terminalu będzie można od razu przejść z pracownika do pola z ilością wyprodukowaną.
 - _zezwól na edycję wyliczonej ilości zużytej w terminalu_ - parametr powiązany z powyższym. Zaznacz gdy chcesz pozwolić pracownikowi na edycję wyliczonej zużytej ilości. Jeśli parametr będzie niezaznaczony, to pola w terminalu będą wyszarzone, ale w utworzonym rekordzie rejestracji będziesz mógł wprowadzić zmiany
-- _akceptuj rejestrację produkcji w terminalu_ - zaznaczenie parametru sprawi, że rekord rejestracji utworzony z terminala będzie od razu akceptowany. Czyli od razu zostaną wywołane stutki magazynowe. 
+- _akceptuj rejestrację produkcji w terminalu_ - zaznaczenie parametru sprawi, że rekord rejestracji utworzony z terminala będzie od razu akceptowany. Czyli od razu zostaną wywołane stutki magazynowe.
+- _uwzględnij produkcję niezaakceptowaną_ - zaznacz parametr, jeśli chcesz, aby ilość wyprodukowana prezentowana w terminalu, wyliczana była z istniejących meldunków szkicowych i zaakceptowanych. Jeśli parametr nie będzia zaznaczony - pobierzemy dane tylko z meldunków zaakceptowanych
+- _nie pokazuj zadań pobranych przez innego pracownika_ - zaznacz parametr, jeśli nad danym zadaniem pracuje tylko 1 pracownik. Po pobraniu zadania w terminalu inni pracownicy nie będą widzieć go na liście
+- _wybór zadań wg dat zlecenia_ - jeśli parametr będzie zaznaczony, to zadanie operacyjne będzie widoczne w oknie wyboru zadań w terminalu, tak długo, jak trwa zlecenie. Jeśli nie zaznaczysz parametru - daty zadania będą tu wyznacznikiem: jeśli upłynie data zakończenia zadania - nie będzie się go dało zaraportować w terminalu
 
 W parametrach terminala zaznacz też jakie przyciski i obszary (opisane niżej) chcesz wykorzystywać.
 
@@ -171,6 +174,15 @@ Dodatkowym ułatwieniem dla pracowników jest możliwość wpisywania kolejnych 
 {% include lightbox.html file="terminalProduktyWyjscioweMenuKontekstowe.png" alt="Atrybuty produktu wyjściowego" caption="Atrybuty produktu wyjściowego" class="float-right"  %}
 
 Podobnie jak w produktach zużywanych w procesie, tak i tutaj, pracownik ma możliwość zaznajomienia się z [atrybutami](/atrybuty) charakteryzującymi wytwarzany produkt. Wystarczy, żę kliknie w menu kontekstowe i odczyta atrybuty umieszczone w dodatkowych informacjach. Dane te niejednokrotnie warunkują ostateczny wygląd produktu, dlatego tak ważne jest, aby każdy miał w nie wgląd.
+
+---
+
+{% include lightbox.html file="terminalProduktyWyjscioweAtrybutyZasobu.png" alt="Atrybuty zasobu wytworzonego" caption="Atrybuty zasobu wytworzonego" class="float-right"  %}
+
+#### Atrybuty wyprodukowanego zasobu
+
+Jeśli chcesz, aby wytworzony zasób został oznaczony dodatkowymi [atrybutami](/atrybuty), wejdź w menu kontekstowe danego produktu wyjściowego i wybierz przycisk {% include inline_image.html file="przyciskDodajAtrybutZasobu.png" alt="Przycisk Dodaj atrybut zasobu" %} **Dodaj atrybut zasobu**. W uruchomionym oknie opisz to co zostało wyprodukowane, korzystając z listy dostępnych atrybutów. Wartości atrybutów muszą spełniać nadane w definicji warunki - przypilnujemy, czy podajesz liczbę, wtedy gdy musisz, albo podamy listę dostępnych wartości, wtedy, gdy atrybut jest wyliczeniowy. Dzięki dopisywaniu szczegółowych danych będziesz mógł przeszukać magazyn, po specyficznych dla Ciebie wartościach (ustalając np. jakie produkty o danych wymiarach są aktualnie dostępne), a także wrócić do tych informacji po czasie (np. w celu ustalenia, jak wyglądał produkt wytworzony w listopadzie uprzedniego roku, sprzedany firmie X), przeglądając [listę pozycji dokumentów z atrybutami](/pozycje-dokumentow-z-atrybutami).
+
 
 ---
 
