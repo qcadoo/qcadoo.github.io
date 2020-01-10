@@ -55,7 +55,7 @@ Wprowadzane produkty tworzą listę, która będzie widoczna po wybraniu "Podsta
 
 ## Przydatne funkcje w formularzu produktu
 
-Poza samą definicją produktu w formularzu mamy możliwość,za pomocą przycisków, sprawdzenia:
+Poza samą definicją produktu w formularzu mamy możliwość, za pomocą przycisków, sprawdzenia:
 
 - **Technologii** w których dany produkt jest [wykorzystywany](/masowa-zmiana-technologii) lub produkowany oraz do jakich grup technologii należy,
 - **Zlecenia** dzięki, którym produkt został wyprodukowany, zarówno te planowane jaki i wszystkie,

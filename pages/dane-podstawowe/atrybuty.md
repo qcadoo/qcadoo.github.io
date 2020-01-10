@@ -62,6 +62,8 @@ Efekt importu (dla guzika Karo) będzie następujący:
 
 {% include callout.html content="Pamiętaj, że przy imporcie obowiązują takie same walidacje, jak przy ręcznym przypisywaniu atrybutów. Jeśli atrybut jest wyliczeniowy - wartości w arkuszu muszą odpowiadać tym zdefiniowanym w atrybucie. Jeśli wartości atrybutu mają być liczbowe - przypilnujemy, aby wartości atrybutu były liczbą w zadanej precyzji." type="info" %}
 
+Obsługa importu danych z Excel opisana jest również [tutaj](/import-z-excel).
+
 ## Import wartości atrybutów zasobu
 
 Import wartości atrybutów zasobu działa na takiej samej zasadzie jak import atrybutów produktu. Przygotuj arkusz posiadający w pierwszej kolumnie numer zasobu w qcadoo a w kolejnych wartości atrybutów, określonych jako opisujące zasoby (w nagłówku kolumny umieść numer atrubutu, a w komórkach przecinających atrybut z zasobem - wartość). Mógłby on wyglądać tak:
@@ -69,3 +71,5 @@ Import wartości atrybutów zasobu działa na takiej samej zasadzie jak import a
 {% include lightbox.html file="podstawoweAtrybutyImportAtrybutowZasobu.png" alt="Arkusz do importu atrybutów zasobów" caption="Arkusz do importu atrybutów zasobów" %}
 
 Zaimportu go klikając przycisk {% include inline_image.html file="przyciskWartosciAtrybutowZasobu.png" alt="Przycisk Import wartości atrybutów zasobu" %} **Import wartości atrybutów zasobu**.
+
+Obsługa importu danych z Excel opisana jest również [tutaj](/import-z-excel).

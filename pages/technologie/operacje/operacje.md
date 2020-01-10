@@ -17,10 +17,13 @@ Aby dodać nową operację wybieramy: **TECHNOLOGIE Operacje** {% include inline
   
 2. Następnie nazwę (obowiązkowo) np. heblowanie, pakowanie.  
   
-3. Opcjonalnie do operacji możemy dodać załącznik np.plik graficzny z instrukcją obsługi maszyny, parametry używanej maszyny.  
+3. Opcjonalnie do operacji możemy dodać załącznik np. plik graficzny z instrukcją obsługi maszyny, parametry używanej maszyny.  
   
 4. Dodatkowo możemy również wprowadzić "Opis" operacji oraz "Produkt", który podpowie się jako produkt wyjściowy w technologii.
-  
+
+{% include callout.html content="Pamiętaj, że każda operacja w drzewie technologii musi mieć produkt wyjściowy. Nawet jeśli nie jest on dla Ciebie ważny, nie masz go oindeksowanego i nie zamierzasz przyjmować go na magazyn. W takich sytuacjach warto dodać produkty bardzo ogólne, np. dla operacji 'montaż' produkt 'po montażu', i podpiąć je w operacji w polu Produkt. Dzięki temu szybciej zdefiniujesz technologię - bo dane będą się uzupełniać z automatu po wybraniu operacji." type="warning" %}
+
+{:start="5"}  
 5. Operację możemy przypisać do grupy wybierając lupkę znajdującą się po prawej stronie {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %}. 
 
 6. Następnie wybieramy {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz**, by zachować wprowadzone dane.

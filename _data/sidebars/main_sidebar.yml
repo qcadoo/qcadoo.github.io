@@ -92,6 +92,10 @@ entries:
         output: web
         url: /eksport-danych.html
 
+      - title: Import danych z pliku Excel
+        output: web
+        url: /import-z-excel.html
+
   - title: Przykładowe procesy
     output: web
     folderitems:
@@ -286,6 +290,10 @@ entries:
           output: web
           url: /masowa-zmiana-technologii.html
 
+        - title: Technologie grup produktów
+          output: web
+          url: /technologie-grup-produktow.html
+
     - title: Generator technologii
       output: web
       url: /generator-technologii.html
@@ -297,6 +305,10 @@ entries:
     - title: Normy przezbrojeń
       output: web
       url: /normy-przezbrojen.html
+
+    - title: Produkty do technologii grup produktów
+      output: web
+      url: /produkty-do-technologii-grup-produktow.html
 
   - title: Magazyn
     output: web
