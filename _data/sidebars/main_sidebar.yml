@@ -778,3 +778,20 @@ entries:
         - title: Parametry Gantta
           output: web
           url: /parametry-gantta.html
+
+  - title: API
+    output: web
+    folderitems:
+
+      - title: Wstęp
+        output: web
+        url: /API-Wstep.html
+
+        subfolders:
+          - title: Dane podstawowe
+            output: web
+            subfolderitems:
+
+              - title: Tworzenie i aktualizacja produktów
+                output: web
+                url: /tworzenie-i-aktualizacja-produktow.html
