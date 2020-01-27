@@ -5,13 +5,16 @@ toc: false
 ---
 
 ## Informacje
+
+Za pomocą tej metody api dodasz [produkty](/produkty) do systemu. Zaktualizujsz też istniejące o podanym externalID. 
+
   **Moduł integracyjny:** urcBasic
 
   **Nazwa akcji:** updateProductsBasic
 
-  **URL:** /integration/rest/updateProductsBasic
+  **URL:** /integration/rest/updateProductsBasic.html
 
-  **Matoda http:** POST
+  **Metoda http:** POST
 
 ## Zawartość żądania
 ~~~~~~~~
@@ -52,9 +55,5 @@ toc: false
 W tej akcji MES powinien otrzymać wszystkie produkty z ERP, które zostały zaktualizowane lub utworzone od ostatniej synchronizacji. Produkty mogą mieć globalTypeOfMaterial null'owy.
 
 Dla każdego produktu ta metoda powinna:
-
-jeżeli jest produkt o podanym externalID w qcadoo, to go aktualizuje:
-może zaktualizować nawet numer,
-qcadoo sprawdza czy zmiana przechodzi standardową walidacje systemową. Jeżeli nie - akcja zwróci błąd, i wszystkie aktualizacje z tej akcji nie zostaną wykonane (cofnięcie transakcji),
-jak nie ma danego externalID to dodaje nowy produkt
-tu również powinna działać walidacja
+- jeżeli jest produkt o podanym externalID w qcadoo, to go aktualizuje: może zaktualizować nawet numer, qcadoo sprawdza czy zmiana przechodzi standardową walidacje systemową. 
+- jeżeli nie - akcja zwróci błąd, i wszystkie aktualizacje z tej akcji nie zostaną wykonane (cofnięcie transakcji), jak nie ma danego externalID to dodaje nowy produkt tu również powinna działać walidacja.
