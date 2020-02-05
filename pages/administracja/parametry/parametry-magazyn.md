@@ -47,3 +47,11 @@ Parametry umieszczone w tej zakładce dotyczą [przesuwania palet](/stan-palet).
 2. **Palety z wolnym miejscem** - polaj ilość w jednostce podstawowej produktu. Sprawdzimy czy są są palety z ilością mniejszą niż ta, którą podałeś i uznamy, że mogą one przyjąć prodykty z innych palet.
 
 {% include callout.html content="Parametr jest globalny. Musisz przyjąć średnią ilość dla wszystkich palet składowanych na magazynie. Ma zatem sens tylko wówczas, gdy magazynujesz produkty w miarę jednorodne" type="warning" %}
+
+## Parametry Pozycji dokumentów z atrybutami
+
+Parametry tej zakładki dotyczą listy [pozycje dokumentów z atrybutami zasobu i produktu](/pozycje-dokumentow-z-atrybutami)
+
+{% include lightbox.html file="administracjaParametryMagazynPozycjeDokumentow.png" alt="Parametry stanów magazynowych" caption="Parametry stanów magazynowych" %}
+
+1. **Prezentuj dane z ... miesięcy** - podaj z jakiego okresu / ilu miesięcy (od daty aktualnej wstecz) mamy prezentować dane do analizy. Parametr służy jedynie do podpowiadania danych (dzięki temu nie będziesz musiał każdorazowo danych wpisywać w oknie), ale zawsze będziesz mógł pobrać dane z innego okresu

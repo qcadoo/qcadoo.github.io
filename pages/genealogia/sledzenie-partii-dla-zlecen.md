@@ -3,84 +3,71 @@ title: "Śledzenie partii dla zleceń"
 permalink: sledzenie-partii-dla-zlecen.html
 ---
 
-## Śledzenie partii dla otwartych zleceń
-    
-Ten sposób śledzenia partii pozwala na zdefiniowanie jakich partii surowców i półproduktów użyjemy w zleceniu produkcyjnym.
+Jeśli wytwarzasz produkt z dokładnością do partii i ma dla Ciebie znaczenie jakie partie surowców zostały zużyte w procesie produkcyjnym, to zapewne interesuje Cię również traceability. Śledzenie partii dla zleceń jest zatem funkcjonalnością dla Ciebie. Dzięki niej:
+- zapiszesz jakie partie wyrobu zostały w zleceniu wytworzone
+- zapiszesz jakie partie surowca zostały użyte pod daną partię wyrobu 
 
-Jak wykonać śledzenie partii dla zleceń ?
+Kiedy wykorzystasz śledzenie partii? Np. podczas wycofywania produktu z rynku -> dostaniesz informację od dostawcy, że partia surowca, którą Ci sprzedał była wadliwa i wszystkie produkty wytworozne z jego użyciem powinny być z rynku wycofane. Prawidłowa ewidencja partii sprawi, że wpiszesz numer partii od dostawcy i my pokażemy Ci jakie partie wyrobów trzeba np. naprawić. Dodatkowo: klienci zgłaszają, że Twoje wyroby są wadliwe. Łatwo prześledzisz jakie partie surowców zostały użyte. Być może przyczyną niedostatecznej jakości jest właśnie surowiec użyty. Tracealility daje spore pole do analizy.
 
-{% include lightbox.html file="genealogia%20dla%20zlecenia-%20strza%C5%82ki.png" alt="Sposoby śledzenia partii dla zlecenia" caption="Sposoby śledzenia partii dla zlecenia" class="float-right" %}
+Śledzenie partii przenika się z wieloma funkcjonalnościami w qcadoo. Poniższa dokumentacja wskaże miejsca, z którymi warto się zaznajomić, aby cały proces był jasny i aby móc wykorzystywać działenie w pełni.
 
-1. Wejdź do **PLANOWANIE  Zlecenia produkcyjne**.
+Zacznijmy od tego, że **nie ma śledzenia partii bez partii**. Partie (czy to dostawców czy Twoje) muszą być w qcadoo zdefiniowane. Jak i gdzie? Poczytasz o tym [tutaj](/jak-dodac-numery-partii). 
+Partie możesz dodawać ręcznie wprost do listy. Ale też:
+- definiować na etapie przyjmowania [dostawy](/dostawy.html#dodanie-produktu-do-dostawy)
+- definiować na etapie [meldowania produkcji](//rejestracja-produkcji.html#jak-zarejestrować-produkcję-danej-partii-wyboru)
+- generować wg [wzorca](/wzorce-numerow) na etapie akceptacji zlecenia
 
-2. Utwórz [nowe zlecenie produkcyjne](/zlecenia-produkcyjne), używając {% include inline_image.html file="newIcon24.png" alt="Dodaj nowy" %} **Dodaj nowy** bądź wybierz istniejące z listy zleceń i wejdź w jego edycję.
+Partie nie muszą być pilnowane dla każdego produktu. Pewnie nie każdy surowiec ma oznaczenie partii. Możesz określić, dla których produktów mamy kontrolować, by partia była każdorazowo wskazywana. Wystarczy w [produkcie](/produkty), w zakładce Partie, zaznaczyć parametr **Ewidencja partii**.
 
-3. Wejdź na zakładkę "Genealogia".  
-  
-4. Następnie z rozwijanej listy wybierz jeden z trzech możliwych sposobów śledzenia partii:
+---
 
-- **w dowolnym momencie** - możesz modyfikować i dodawać kolejne partie produktów użyte w zleceniu przed startem zlecenia oraz w jego trakcie,
-- **przed zaakceptowaniem zlecenia** - możliwe jest modyfikowanie i dodawanie kolejnych partii przed startem zlecenia i przed jego akceptacją. Po akceptacji zlecenia wprowadzanie zmian jest niemożliwe,
-- **przed rozpoczęciem zlecenia** - określamy jakie dokładnie partie wejdą w skład gotowego produktu przed startem zlecenia. Po starcie zlecenia nie ma możliwości ich zmiany.
-  
-  {% include callout.html content='Nie można zmienić sposobu śledzenia partii w zaakceptowanym już zleceniu. Jeśli mimo to chcesz je zmienić - skopiuj zlecenie, używając odpowiedniego przycisku ![](/images/copyIcon24.png) **Kopiuj**.' type="info" %}
+Śledzenie partii dla zleceń można wywołać z dwóch poziomów:
 
-{:start="5"}
+1. **Genealogia > śledzenie partii dla zleceń** - gdzie są widoczne wszystkie zarejestrowane śledzenia
+2. **Planowanie > Planowanie zleceń > szczegóły zlecenia > Śledzenie partii** - gdzie można analizować partie wytworzone i użyte pod to konkretne zlecenie
 
-5. Zapisz zlecenie, wybierając {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz**.
+{% include lightbox.html file="genealogiaSledzeniePartiiDlaZlecenLista.png" alt="Lista zarejestrowanych rekordów śledzenia partii dla zlecenia" caption="Lista zarejestrowanych rekordów śledzenia partii dla zlecenia" %}
 
-6. Następnie rozwiń listę dostępnych opcji za pomocą przycisku {% include inline_image.html file="dropdownIcon32.png" alt="Przycisk Rozwiniecia" %}.
+Śledzenie partii dla zlecenia możesz tworzyć poprzez ręcznie komponowanie partii. Jednak zdecydowanie lepszym sposobem jest korzystanie z automatycznego generowania na podstawie efektów zarejestrowanych przy meldowaniu produkcji, np. z terminala.
 
-7. Kliknij {% include inline_image.html file="newGenealogyIcon24.png" alt="Sledzenie partii" %} **Śledzenie partii**. W ten sposób przejdziesz do listy rekordów śledzenia partii.
+## Ręczne dodanie śledzenia partii
 
-{% include lightbox.html file="genealogia-%20zlecenia-%20rekord.png" alt="Rekord śledzenia partii dla zlecenia tworzony z poziomu zlecenia" caption="Rekord śledzenia partii dla zlecenia tworzony z poziomu zlecenia" class="float-right" %}
+Aby ręcznie dodać śledzenie partii kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**:
 
-{:start="8"}
+{% include lightbox.html file="genealogiaSledzeniePartiiDlaZlecenNowyNaglowek.png" alt="Formularz dodawania śledzenia partii dla zlecenia" caption="Formularz dodawania śledzenia partii dla zlecenia" %}
 
-8. Dodaj nowy rekord śledzenia partii dla zlecenia, używając {% include inline_image.html file="newIcon24.png" alt="Dodaj nowy" %} **Dodaj nowy**.
+Rozpocznij od wskazania:
+- zlecenia
+- wyprodukowanej partii
 
-9. "Numer rekordu śledzenia partii" zostanie uzupełniony automatycznie, możesz go jednak w razie potrzeby zmienić.
+i **zapisz**. Na podstawie technologii wskazanego zlecenia zostanie ustalona lista wszystkich surowców niezbędnych do produkcji. 
 
-10. Potem przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybierz "Wyprodukowaną partię" produktu finalnego.
+{% include lightbox.html file="genealogiaSledzeniePartiiDlaZlecenNowyPozycje.png" alt="Formularz dodawania śledzenia partii dla zlecenia - określanie zużytych partii" caption="Formularz dodawania śledzenia partii dla zlecenia - określanie zużytych partii" %}
 
-11. Następnie zapisz dane, wybierając {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz**. Pojawi się lista produktów wejściowych na podstawie drzewa technologii.
+Dla każdego surowca możesz wskazać jakie partie zostały użyte. Nie każdy produkt musi mieć partię określoną - uzupełnij te wiersze, które mają dla Ciebie znaczenie.
+Aby dodać partię zużytego produktu odszukaj go na liście, kliknij {% include inline_image.html file="przyciskPlusADL.png" alt="Dodaj" %} i wskaż [partię](/jak-dodac-numery-partii) ze zdefiniowanej listy dla tego produktu. Jeśli partii zostało zużytych więcej - kliknij ponownie {% include inline_image.html file="przyciskPlusADL.png" alt="Dodaj" %} i znowu wskaż partię. 
 
-12. Dla każdej pozycji przypisz "Numer partii", który zostanie użyty w zleceniu. Jeśli nie masz wprowadzonych numerów partii, sprawdź [jak dodać numery partii](/jak-dodac-numery-partii). Aby przypisać partię, należy przy każdym użytym produkcie kliknąć przycisk {% include inline_image.html file="newIcon24.png" alt="Dodaj nowy" %} i potem {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %}, a następnie wybrać partię z listy.
+{% include lightbox.html file="genealogiaSledzeniePartiiDlaZlecenNowyPartia.png" alt="Wskazanie zużytej partii" caption="Wskazanie zużytej partii" %}
 
-13. Teraz wybierz {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz**. 
-  
-14. Zatwierdź rekord śledzenia partii przyciskiem {% include inline_image.html file="startIcon24.png" alt="Zaakceptuj" %} **Akceptuj**.
+Jeśli śledzenie partii jest już kompletne i nie chcesz aby uległo zmianie, **zmień status na Zaakceptowany**, klikając przycisk {% include inline_image.html file="przyciskAkceptuj.png" alt="Przycisk Akceptuj" %} 
 
-{% include callout.html content='Przed akceptacją upewnij się, że wszystko się zgadza, ponieważ potem nie jest możliwa edycja rekordu śledzenia partii.' type="warning" %}
+## Automatycznie aktualizowane śledzenie partii
 
-{% include callout.html content='Jeśli w zleceniu produkcyjnym wybraliśmy metodę śledzenia partii "przed zaakceptowaniem zlecenia", to zanim zaakceptujemy zlecenie produkcyjne konieczne jest zaakceptowanie wprowadzonych rekordów śledzenia numerów partii dla tego zlecenia. Podobnie w przypadku metody "przed rozpoczęciem zlecenia" konieczne jest zaakceptowanie wprowadzonych rekordów śledzenia partii dla tego zlecenia przed wystartowaniem zlecenia.' type="info" %}
+Przy automatycznym uzupełnianiu śledzenia partii jest ciekawiej. 
+Samo śledzenie partii odwiedzasz tylko raz - na etapie tworzenia zlecenia musisz (no dobrze, może nie musisz, śledzenie partii może być zupełnie zautomatyzowane dzięki [wzorcom numerów](/wzorce-numerow)) zaplanować jakie partie wyrobu mają zostać wytworzone.
 
-{% include callout.html content='Jeżeli w danym zleceniu produkujesz kilka partii produktów, możesz dodać kolejny rekord śledzenia partii.' type="info" %}
+Dodaj zatem [zlecenie produkcyjne](/zlecenia-produkcyjne) tak jak zwykle i kliknij przycisk {% include inline_image.html file="przyciskSledzeniePartii.png" alt="Przycisk Śledzenie partii" %}. Dodaj nowy rekord śledzenia partii, podając tylko partię, jak ma zostać wyprodukowana. Jeśli zakładasz, że w tym zleceniu wytworzysz wiele partii - utwórz odpowiednią ilość rekordów śledzenia.
 
-## Śledzenie partii dla zrealizowanych zleceń
+{% include callout.html content="Jeden rekord śledzenia partii dotyczy jednej partii wytworzonego wyrobu w jednym zleceniu produkcyjnym" type="info" %}
 
-Nie martw się, jeżeli zlecenie jest już zrealizowane, a Ty nie zarejestrowałeś partii dla zużytych produktów i produktu końcowego. W qcadoo można to zrobić również dla zleceń już zrealizowanych.
+I tyle. Resztą zajmiemy się my. Ty musisz tylko pouczyć pracowników, aby:
+- [przyjmując dostawę](/dostawy.html#odbiór-dostawy) definiowali odebrane partie surowców
+- raportując produkcję podawali [jakie partie produktów zużyli](/rejestracja-produkcji.html#jak-zarejestrować-zużycie-konkretnej-partii-surowca) i w ramach [jakiej partii produktu zleconego](/rejestracja-produkcji.html#jak-zarejestrować-produkcję-danej-partii-wyboru)
 
-{% include lightbox.html file="genealogia-%20zlecenia-%20z-%20listy.png" alt="Rekord śledzenia partii dla zlecenia" caption="Rekord śledzenia partii dla zlecenia" class="float-right" %}  
+<span style="color:red"> *Na akceptacji rekordu rejestracji będziemy pobierać partie produktów użytych i uzupełniać nimi rekord śledzenia partii.*</span>
 
-1. W **GENEALOGIA  Śledzenie partii dla zleceń** wybierz {% include inline_image.html file="newIcon24.png" alt="Dodaj nowy" %} **Dodaj nowy**.
+Zostaje Ci tylko **zaakceptować śledzenie partii**, gdy już będzie zawierało komplet danych. Ale i tutaj możemy pomóc - jeśli chcesz, aby śledzenie partii zostało zaakceptowane automatycznie w momencie zamykania zlecenia, zaznacz [parametr genealogii](/parametry-genealogia.html#zakładka-zlecenia-i-technologie) **Akceptuj śledzenie partii przy zamykaniu zlecenia**.
 
-2. Potem przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybierz z listy [zlecenie produkcyjne](/zlecenia-produkcyjne), w ramach którego powstała partia produktu z kolejnego kroku.
+Dane zgromadzone. W każdej chwili możesz do nich wrócić i ustalić zużyte i wyprodukowane partie. Traceability najłatwiej będzie analizować za pomocą [drzewa genealogii](/drzewo-genealogii) lub [tabeli genealogii](/tabele-genealogii).
 
-3. Teraz wskaż "Wyprodukowaną partię" produktu finalnego tego zlecenia.
 
-4. Kliknij {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz**. Spowoduje to pojawienie się operacji i przypisanych im produktów.
-
-5. Określ partię dla każdego produktu, używając przycisku {% include inline_image.html file="newIcon24.png" alt="Dodaj nowy" %} i potem {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %}, a następnie wybierając partię z listy.
-
-{% include callout.html content='Możesz zaraportować zyżycie więcej niż jednej partii danego surowca.' type="info" %} 
-
-{:start="6"}
-
-6. Następnie kliknij {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz**, aby zapisać wprowadzone dane.  
-  
-7. Sprawdź wprowadzone dane, a potem zatwierdź rekord śledzenia partii przyciskiem {% include inline_image.html file="startIcon24.png" alt="Zaakceptuj" %} **Akceptuj**.
-
-{% include callout.html content='Dodany rekord śledzenia partii pojawi się wraz z innymi na głównej liście **GENEALOGIA Śledzenie partii dla zleceń**. Znajdują się na niej również rekordy tworzone z poziomu zlecenia produkcyjnego.' type="info" %}
-
-{% include callout.html content='Wprowadzone partie można śledzić w [Drzewie genealogii](/drzewo-genealogii).' type="info" %}

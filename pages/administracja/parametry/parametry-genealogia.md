@@ -2,6 +2,7 @@
 title: "Parametry genealogii"
 permalink: parametry-genealogia.html 
 ---
+
 W Administracja > Parametry > Genealogia znajdziesz parametry konfigurujące moduł [Genealogii](\genealogia)
 
 ## Zakładka Główna
@@ -19,12 +20,8 @@ W Administracja > Parametry > Genealogia znajdziesz parametry konfigurujące mod
 
 {% include lightbox.html file="administracjaParametryGenealogiaZlecenia.png" alt="Parametry genealogii - zakładka Zlecenia i technologie" caption="Parametry zgenealogii - zakładka lecenia i technologie" %}
 
-1. **Domyślnie w każdym zleceniu wszystkie partie produktów będą wprowadzone** - parametr dotyczy [śledzenia partii dla zleceń](/sledzenie-partii-dla-zlecen). Do wyboru masz następujące opcje:
-- w dowolnym momencie - możesz modyfikować i dodawać kolejne partie produktów użyte w zleceniu przed startem zlecenia oraz w jego trakcie,
-- przed zaakceptowaniem zlecenia - możliwe jest modyfikowanie i dodawanie kolejnych partii przed startem zlecenia i przed jego akceptacją. Po akceptacji zlecenia wprowadzanie zmian jest niemożliwe,
-- przed rozpoczęciem zlecenia - określamy jakie dokładnie partie wejdą w skład gotowego produktu przed startem zlecenia. Po starcie zlecenia nie ma możliwości ich zmiany.
+1. **Akceptuj śledzenie partii przy zamykaniu zlecenia** - parametr dotyczy [śledzenia partii dla zleceń](/sledzenie-partii-dla-zlecen). Zaznacz parametr jeśli chcesz, aby wprowadzone śledzenie było akceptowane wraz z ustawianiem statusu zlecenia produkcyjnego na zakończone. Dzięki temu nie będziesz musiał o zmianie statusu pamiętać
 
-{:start="2"}
-2. **Domyślnie numery partii powinny być wymagane dla produktów końcowych technologii** - zaznacz jeśli mamy przypilnować aby dla produktów zlecanych na produkcję partia musiała być określona
+2. **Generuj partię dla produkcji zleconego** - jeśli zaznaczysz parametr, to przy akceptacji zlecenia produkcyjnego na [produkt](/produkty) z ewidencją partii, z automatu założymy partię wg wskazanego wzorca i utworzymy [śledzenie partii w zleceniu](/sledzenie-partii-dla-zlecen)
 
-3. **Domyślnie numery partii powinny być wymagane dla produktów wejściowych operacji** - zaznacz jeśli chcesz aby pracownicy zawsze wprowadzali partie dla używanych w produkcji surowców
+3. **Wzorzec numeru** - jeśli chcesz, aby partia do produktu zleconego była z automatu utworzona, musimy wiedzieć wg jakiego wzorca numer ma być budowany. Wskaż tutaj zdefiniowany wcześniej [wzorzec numeru](/wzorce-numerow).

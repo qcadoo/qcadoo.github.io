@@ -211,6 +211,10 @@ entries:
     - title: Atrybuty produktów
       output: web
       url: /atrybuty-produktow.html
+
+    - title: Przyczyny przestojów
+      output: web
+      url: /przyczyny-przestojow.html
    
   - title: Struktura firmy
     output: web
@@ -479,7 +483,7 @@ entries:
           output: web
           url: /zmiana-stanu-zapotrzebowania.html
 
-        - title: Parametry dla zlecenia
+        - title: Zmiana technologii zlecenia
           output: web
           url: /parametry-dla-zlecenia.html
 
@@ -490,6 +494,14 @@ entries:
         - title: Produkcja na zmianę
           output: web
           url: /produkcja-na-zmiane.html
+
+        - title: Przestoje zlecenia produkcyjnego
+          output: web
+          url: /przestoje-zlecenia.html
+
+        - title: Śledzenie partii zlecenia
+          output: web
+          url: /sledzenie-partii-zlecenia.html
 
     - title: Planowanie na liniach
       output: web
@@ -685,6 +697,10 @@ entries:
     - title: Użytkownicy
       output: web
       url: /uzytkownicy.html
+
+    - title: Wzorce numerów
+      output: web
+      url: /wzorce-numerow.html
 
       subfolders:
       - title: Parametry

@@ -82,3 +82,38 @@ Atrybuty produktu w rejestracji produkcji pełnią rolę informacyjną. Zmiana m
 
 Każdy wyprodukowany przez Ciebie zasób może być dodatkowo opisywany za pomocą [atrybutów](/atrybuty). Uzupełnij informacje na etapie rejestrowania produkcji, a trafią one na dokument PW i do zasobu. Jak to zrobić? Wejdź w szczegóły produktu wyjściowego rekordu rejestracji i zakładce Atrybuty zasobu wybierz atrybut i podaj dla niego wartość. Atrybutów możesz oczywiście na tym etapie przypisać wiele - dla produktu być może musisz podać jaką ma długość, jaką wagę a także w jakim jest gatunku. Podaj tak dużo danych jak tylko potrzebujesz. 
 Jeśli rejestrujesz produkcję przy pomocy [terminala](/terminal), również możesz określić atrybuty zasobu. Po potwierdzeniu trafią one do rekordu rejestracji.
+
+---
+
+## Przestoje
+
+{% include lightbox.html file="rejestracjaRRPrzestojeLista.png" alt="Przestoje w rejestracji produkcji" caption="Przestoje w rejestracji produkcji" class="float-right"  %}
+
+Jeśli Twoja praca na rzecz zlecenia była przerywana, np. przez awarię, braki surowca, a nawet przez przerwy obiadowe, powinieneś zaewidencjonować przestój. Tylko dzięki temu będzie wiadomo skąd tak długi czas zalogowany do zadania. Ponadto - jeśli będzie ślad po często zdarzających się problemach - będzie podstawa do tego, by popracować nad ich eliminacją.
+
+Będąc w rekordzie rejestracji przejdź do zakładki Przestoje i klikając **Nowy** dodaj przestój, podając:
+- **[przyczynę przestoju](/przyczyny-przestoju)** -> jeśli na liście nie znalazłeś odpowiedniej przyczyny do sytuacji, którą ewidencjonujesz, wybierz wartość Inna i dodaj szczegóły w polu **Opis**
+- **czas przestoju**, najlepiej poprzed podanie daty początku (**od**) i końca (**do**)
+
+Wprowadzone przestoje będą widoczne w liście [przestojów](/przestoje).
+
+---
+
+## Jak zarejestrować produkcję danej partii wyboru
+
+{% include lightbox.html file="rejestracjaRRPartiaProduktuZleconego.png" alt="Partia produktu zleconego w rejestracji produkcji" caption="Partia produktu zleconego w rejestracji produkcji" class="float-right"  %}
+
+Jeśli zdecydowałeś się na ewidencję wytworzonych wyrobów z dokładnością do partii, to każda rejestracja produkcji powinna zawierać informację o tym, na rzecz jakiej partii wyrobu została praca wykonana. Dzięki temu będziemy w stanie jednoznacznie powiązać zużyte surowce z wytworzoną partią. Zatem jeśli w ramach zlecenia wytworzysz wiele partii, pamiętaj by meldować produkcję osobno do każdej z tych partii.
+
+Ewidencja partii wyrobu odbywa się w zakładce **Partia produktu zleconego**. Jeśli w [śledzeniu partii do zlecenia](/sledzenie-partii-zlecenia) zostało zaplanowane wytworzenie partii - zostanie ona z automatu uzupełniona. Jeśli nie: wskaż partię z listy zdefiniowanych w genalogii [partii](/jak-dodac-numery-partii). Jeśli nie znalazłeś partii, którą wytworzyłeś, możesz zdefiniować ją z tego poziomu, zaznaczając **Dodaj nową partię** i wprowadzając ręcznie **Numer partii**. Założymy ją i podepniemy w polu **Partia**.
+
+W zakładce możesz dodatkowo określić **Datę ważności** wytworzonej parti produktu. Data ważności w każdym zasobie tej samej partii musi być taka sama. 
+
+Informacja o partii i dacie ważności zostanie przekazana na [dokument PW](/dokumenty) przyjmujący produkt zlecony na magazyn. A z niego - do [zasobu](/zasoby), kształtującego [stan magazynowy](/stany-magazynu).
+
+## Jak zarejestrować zużycie konkretnej partii surowca
+
+{% include lightbox.html file="rejestracjaRRPartieUzyte.png" alt="Partia produktu zużytego w rejestracji produkcji" caption="Partia produktu zużytego w rejestracji produkcji" class="float-right"  %}
+
+Ewidencja partii to nie tylko wskazywanie jaka partia wyrobu jest wytworzona, ale też jakie partie surowca w produkcji zostały wykorzystane. Masz odpowiednio podefiniowane [partie](/jak-dodac-numery-partii) i stan magazynowy trzymany z dokładnością do tych partii? Zatem możesz rejestrować zużycie ze wskazaniem na nie. Tworząc meldunek produkcji wejdź dla produktu wejściowego w zakładkę Partia, kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %}, wskaż **użytą partię** i **użytą ilość**. Jeśli ewidencjonujesz na poziomie partii, ilość użyta produktu zostanie z automatu wyliczona jako suma ilości podanych dla partii. Rozchody magazynowe będą realizowane z dokładnością do podanych partii. Jeśli w zleceniu produkcyjnym istnieje [rekord śledzenia partii dla produktu zleconego](/sledzenie-partii-zlecenia), zostanie on uzupełniony podanymi partiami surowców.
+

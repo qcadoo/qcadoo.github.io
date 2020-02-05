@@ -27,15 +27,26 @@ Teraz możesz przejść do kolejnej zakładki **"Zamówione produkty"**. Tutaj t
 
 Aby dodać produkt do listy wybierz {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy**.
         
-{% include lightbox.html file="zam%C3%B3wione%20produkty-%20dodaj%20nowy.png" alt="dodanie produktu" caption="Dodanie produktu" %}
+{% include lightbox.html file="zaopatrzenieDostawaZamowioneProduktyNowy.png" alt="Dodanie produktu" caption="Dodanie produktu" %}
 
 Wyświetli się okno w którym za pomocą {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy interesujący Nas produkt oraz określamy "Ilość" oraz "Cenę" - sumaryczną bądź jednostkową. Po podaniu którejkolwiek z nich, qcadoo automatycznie obliczy drugą. Aby dodać produkt do listy należy wybrać {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} Zapisz i powrót.
             
 
 U góry na pasku nad tabelą główną wyświetli się całkowita ilość oraz całkowity koszt zamówienia.
 
-Po skompletowaniu listy zamawianych produktów wybierz {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz**. Dodatkowo "Zamówienie" i "Dostawę" możesz zapisać i wydrukować w formacie dokuemtu PDF {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %}.
+---
 
+Jeśli <span style="color:red"> *ewidencjonujesz produkty z dokładnością do partii*</span> i już teraz wiesz jakie konkretne partie zostały zamówione, możesz je wprowadzić w zakładce Partie:
+
+{% include lightbox.html file="zaopatrzenieDostawaZamowioneProduktyNowyPartia.png" alt="Partia zamawianego produktu" caption="Partia zamawianego produktu" %}
+
+Partię określić można na dwa sposoby:
+1. poprzez wybranie z listy zdefiniowanych [partii](/jak-dodac-numery-parti) w genealogii
+2. poprzez podanie numeru w polu **Numer partii**. Na tej podstawie założymy partię w genealogii i podepniemy ją w polu **Partia**
+
+---
+
+Po skompletowaniu listy zamawianych produktów wybierz {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz**. Dodatkowo "Zamówienie" i "Dostawę" możesz zapisać i wydrukować w formacie dokuemtu PDF {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %}.
 
 Jeżeli zamówienie jest kompletne możesz przejść do następnego etapu. Wybierz {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Przygotuj zamówienie** , na tym etapie można jeszcze edytować swoje zamówienie wybierając przycisk {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Skoryguj zamówienie.** Jeżeli wszystko jest poprawne wybierz {% include inline_image.html file="acceptIcon24.png" alt="Przycisk akceptuj" %} **Potwierdź**. Teraz zamówienie jest gotowe do wysłania.  
 
@@ -47,7 +58,7 @@ Każdą dostawę, którą otrzymasz na magazyn musisz odebrać w programie qcado
 
 - **Dodanie zamawianych produktów ręcznie** wybierając {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy**.
 
-- **Kopiowanie automatyczne**. Z zakładki znajdującej się na górze należy wybrać "Skopiuj produkty zamawiane do odebranych" {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Bez ilości i ceny** lub {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Z ilością i ceną** , po wybraniu jednej z tych opcji program sam skopuje wszystkie potrzebne dane. Dla każdego produktu uzupełnij informacje na temat odebranej ilości produktówiowystąpieniu produktów wadliwych. Jeżeli wszystko się zgadza mona zaakceptować dostawę wybierając {% include inline_image.html file="acceptIcon24.png" alt="Przycisk akceptuj" %} **Odbierz**.
+- **Kopiowanie automatyczne**. Z zakładki znajdującej się na górze należy wybrać "Skopiuj produkty zamawiane do odebranych" {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Bez ilości i ceny** lub {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Z ilością i ceną** , po wybraniu jednej z tych opcji program sam skopuje wszystkie potrzebne dane. Dla każdego produktu uzupełnij informacje na temat odebranej ilości produktówiowystąpieniu produktów wadliwych. 
 
 {% include lightbox.html file="Zaopatrzenie-%20Dostawy-%20Odbi%C3%B3r%20dostawy.png" alt="Formularz dostawy - odbiór" caption="Formularz dostawy - odbiór" %}
 
@@ -58,6 +69,24 @@ Każdą dostawę, którą otrzymasz na magazyn musisz odebrać w programie qcado
 * typ palety (z listy stworzonej w słowniku)
 * [miejsce składowania](/miejsca-skladowania)
 i dla każdej pozycji wskaż datę ważności i zweryfikuj, czy podpowiedzieliśmy odpowiednią ilość. Aby zapisać odebrane pozycje kliknij {% include inline_image.html file="przyciskPrzypiszIPowrot.png" alt="Przycisk Przypisz i powrót" %} **Przypisz i powrót**. I powtórz czynność dla wszystkich kompletowanych palet.
+
+---
+
+Jeśli <span style="color:red"> *ewidencjonujesz produkty z dokładnością do partii*</span>  koniecznie podaj jakiej partii produkty zostały dostarczone. W tym celu przejdź do zakładki **Miejsca składowania** w szczegółach odbieranego produktu. 
+
+{% include lightbox.html file="zaopatrzenieDostawaOdebraneProduktyMS.png" alt="Miejsca składowania odbieranego produktu" caption="Miejsca składowania odbieranego produktu" %}
+
+Podobnie jak na etapie wprowadzania listy zamawianych produktów, tu też możesz partię wskazać na dwa sposoby:
+1. poprzez wybranie z listy zdefiniowanych [partii](/jak-dodac-numery-parti) w genealogii
+2. poprzez podanie numeru w polu **Numer partii**. Na tej podstawie założymy partię w genealogii i podepniemy ją w polu **Partia**
+
+Jeśli produkt miał podaną partię na etapie zamawiania, zostanie ona z automatu zaczytana do produktów odbieranych.
+
+---
+
+Jeżeli wszystko się zgadza można zaakceptować dostawę wybierając {% include inline_image.html file="acceptIcon24.png" alt="Przycisk akceptuj" %} **Odbierz**. W efekcie zostanie utworzony [dokument PZ](/dokumenty) na wskazany w zakładce Główna magazyn. Dokument PZ zostanie z automatu zaakceptowany i utworzone zostaną [zasoby](/zasoby), zwiększając odpowiednio [stan magazynowy](/stany-magazynow).
+
+---
 
 ### Rezerwacja produktów
 

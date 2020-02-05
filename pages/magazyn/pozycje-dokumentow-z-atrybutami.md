@@ -7,7 +7,7 @@ Jeśli używasz [atrybutów](/atrybuty) i ewidencjonujesz dokumenty magazynowe w
 
 Wejdź w **Magazyn > Pozycje dokumentów z atrybutami zasobu i produktu** i poszukaj danych, które Cię interesują.
 
-Domyślnie dane analizowane są z ostatniego miesiąca. Przy wejściu do okna załadowane są daty, które możesz zmienić, na takie, które Ci odpowiadają.
+Domyślnie dane analizowane są z tylu ostatnich miesięcy, ile określiłeś w [parametrach](/parametry-magazyn.html#parametry-pozycji-dokumentów-z-atrybutami). Przy wejściu do okna załadowane są daty, które możesz zmienić, na takie, które Ci odpowiadają.
 
 {% include lightbox.html file="magazynPozycjeDokumentowZAtrybutamiKontekst.png" alt="Ustawianie kontekstu w liście pozycji dokumentów z atrybutami zasobu i produktu" caption="Ustawianie kontekstu w liście pozycji dokumentów z atrybutami zasobu i produktu" %}
 
