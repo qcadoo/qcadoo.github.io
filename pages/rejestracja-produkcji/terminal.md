@@ -153,6 +153,23 @@ W menu kontekstowym wywołanym do produktu wejściowego w terminalu, zaprezentow
 
 ---
 
+#### Zleć naprawę
+
+{% include lightbox.html file="rejestracjaTerminalZlecNaprawe.png" alt="Zlecanie naprawy" caption="Zlecanie naprawy" class="float-right"  %}
+
+Zlecenia naprawy pomagają w zapanowaniu nad poprawianiem produktów. Nie jesteś zadowolony z półproduktu wytworzonego przez poprzedni dział i chcesz go zwrócić? Zgłoś potrzebę przeprowadzenia naprawy. W jaki sposób? Wejdż w obszarze Produkty w zakładkę **Produkty wejściowe** i w tabeli znajdż ten, który nie spełnia norm jakościowych. W menu kontekstowym wybierz **Zleć naprawę** i wypełnij:
+
+- **ilość do naprawy** - podaj ile jednostek chcesz zwrócić
+- **dział** - wskaż jaki dział ma zająć się problemem
+- **magazyn** - podaj magazyn powiązany z działem 
+- **typ usterki** - określ co jest nie tak, wybierając zdefiniowany [typ usterki](typy-usterek) (dotyczący produktu). Jeśli nie znalazłeś odpowiedniego rekordu - wybierz typ: Inny i dodaj opis, na podstawie którego pracownicy będą wiedzieć co wymaga poprawy.
+
+
+Potwierdzenie rejestracji w terminalu utworzy [rekord rejestracji](/rejestracja-produkcji.html#w-jaki-sposób-zgłocić-potrzebę-wykonania-naprawy-produktu) z wypełnionymi danymi o naprawie. A momencie akceptacji rekordu rejestracji zostanie utworzone [zlecenie naprawy](/zlecenia-naprawy).
+
+
+---
+
 ### Produkty wyjściowe
 
 {% include lightbox.html file="rejestracjaTerminalProduktyWyjsciowe.png" alt="Produkty wyjściowe" caption="Terminal - produkty wyjściowe" class="float-right"  %}

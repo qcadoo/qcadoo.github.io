@@ -117,3 +117,18 @@ Informacja o partii i dacie ważności zostanie przekazana na [dokument PW](/dok
 
 Ewidencja partii to nie tylko wskazywanie jaka partia wyrobu jest wytworzona, ale też jakie partie surowca w produkcji zostały wykorzystane. Masz odpowiednio podefiniowane [partie](/jak-dodac-numery-partii) i stan magazynowy trzymany z dokładnością do tych partii? Zatem możesz rejestrować zużycie ze wskazaniem na nie. Tworząc meldunek produkcji wejdź dla produktu wejściowego w zakładkę Partia, kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %}, wskaż **użytą partię** i **użytą ilość**. Jeśli ewidencjonujesz na poziomie partii, ilość użyta produktu zostanie z automatu wyliczona jako suma ilości podanych dla partii. Rozchody magazynowe będą realizowane z dokładnością do podanych partii. Jeśli w zleceniu produkcyjnym istnieje [rekord śledzenia partii dla produktu zleconego](/sledzenie-partii-zlecenia), zostanie on uzupełniony podanymi partiami surowców.
 
+---
+
+## W jaki sposób zgłosić potrzebę wykonania naprawy produktu
+
+{% include lightbox.html file="rejestracjaRRZlecenieNaprawy.png" alt="Zlecenie naprawy do zużywanego produktu" caption="Zlecenie naprawy do zużywanego produktu" class="float-right"  %}
+
+Zlecenia naprawy pomagają w zapanowaniu nad poprawianiem produktów. Nie jesteś zadowolony z półproduktu wytworzonego przez poprzedni dział i chcesz go zwrócić? Zgłoś potrzebę przeprowadzenia naprawy. W jaki sposób? Wejdż w zakładkę **Produkty we./wyj.** i w tabeli produktów wejściowych znajdż ten, który nie spełnia norm jakościowych. Wejdź w jego szczegóły i przejdż do zakładki **Naprawy**. Następnie kliknij {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %} **Nowy** i wypełnij:
+
+- **ilość do naprawy** - podaj ile jednostek chcesz zwrócić
+- **dział** - wskaż jaki dział ma zająć się problemem
+- **magazyn** - podaj magazyn powiązany z działem 
+- **typ usterki** - określ co jest nie tak, wybierając zdefiniowany [typ usterki](typy-usterek) (dotyczący produktu). Jeśli nie znalazłeś odpowiedniego rekordu - wybierz typ: Inny i dodaj opis, na podstawie którego pracownicy będą wiedzieć co wymaga poprawy.
+
+W momencie akceptacji rekordu rejestracji zostanie utworzone [zlecenie naprawy](/zlecenia-naprawy).
+

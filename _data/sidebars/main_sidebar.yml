@@ -544,6 +544,10 @@ entries:
       output: web
       url: /grupy-zlecen.html
 
+    - title: Zlecenia naprawy
+      output: web
+      url: /zlecenia-naprawy.html
+
     - title: Karty pracy
       output: web
       url: /karty-pracy.html
