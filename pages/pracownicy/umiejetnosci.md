@@ -11,7 +11,7 @@ Zdefiniowanie umiejętności realizowane jest w trzech krokach:
 3. określenie [jakie umiejętności posiada pracownik](/pracownicy.html#jak-przypisać-do-pracownika-posiadane-umiejętności)
 
 
-Aby zdefiniować listę możliwych umiejętności wejdź w Podstawowe > Umiejętności i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy** 
+Aby zdefiniować listę możliwych umiejętności wejdź w **Pracownicy > Umiejętności** i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy** 
 
 {% include lightbox.html file="podstawoweUmiejetnosciDodaj.png" alt="Dodanie umiejętności" caption="Dodanie umiejętności" %}  
 

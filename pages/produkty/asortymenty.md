@@ -15,7 +15,7 @@ Aby dodać asortyment:
 
 {% include lightbox.html file="Podstawowe-%20asortyment.png" alt="Asortyment" caption="Asortyment" class="float-right" %}
 
-1. Wejdź do **PODSTAWOWE Asortymenty** i wybierz {% include inline_image.html file="newIcon24.png" alt="Dodaj nowy" %} **Dodaj nowy**.
+1. Wejdź do **Produkty > Asortymenty** i wybierz {% include inline_image.html file="newIcon24.png" alt="Dodaj nowy" %} **Dodaj nowy**.
 
 2. Podaj "Nazwę" dla tworzonego asortymentu.
 

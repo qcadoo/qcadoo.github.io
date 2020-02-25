@@ -14,7 +14,7 @@ W qcadoo mamy dwa rodzaje wyjątków:
 
 ## Dodanie nowego wyjątku dla linii
 
-**PODSTAWOWE Wyjątki dla linii** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy" %} **Dodaj nowy**
+**Kalendarze > Wyjątki dla linii** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy" %} **Dodaj nowy**
 
 1. Na początku określ "Nazwę" wyjątku.
 

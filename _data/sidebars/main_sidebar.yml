@@ -124,25 +124,9 @@ entries:
         output: web
         url: /praca-bez-biezacej-kontroli-zuzycia.html
 
-  - title: Podstawowe
+  - title: Kalendarze
     output: web
     folderitems:
-
-    - title: Podstawowe
-      output: web
-      url: /dane-podstawowe.html
-
-    - title: Firmy
-      output: web
-      url: /firmy.html
-
-    - title: Pracownicy
-      output: web
-      url: /pracownicy.html
-
-    - title: Załoga
-      output: web
-      url: /zaloga.html
 
     - title: Zmiany
       output: web
@@ -152,21 +136,17 @@ entries:
       output: web
       url: /wyjatki-dla-linii.html
 
-    - title: Produkty
-      output: web
-      url: /produkty.html
+  - title: Pracownicy
+    output: web
+    folderitems:
 
-    - title: Rodziny produktów
+    - title: Załoga
       output: web
-      url: /rodziny-produktow.html
+      url: /zaloga.html
 
-    - title: Słowniki
+    - title: Pracownicy
       output: web
-      url: /slowniki.html
-
-    - title: Przeliczniki
-      output: web
-      url: /przeliczniki.html
+      url: /pracownicy.html
 
     - title: Grupy płacowe
       output: web
@@ -176,21 +156,29 @@ entries:
       output: web
       url: /place.html
 
-    - title: Numery katalogowe
+    - title: Umiejętności
       output: web
-      url: /numery-katalogowe.html
+      url: /umiejetnosci.html
 
-    - title: Asortymenty
+  - title: Podstawowe
+    output: web
+    folderitems:
+
+    - title: Firmy
       output: web
-      url: /asortymenty.html
+      url: /firmy.html
+
+    - title: Słowniki
+      output: web
+      url: /slowniki.html
+
+    - title: Przeliczniki
+      output: web
+      url: /przeliczniki.html
 
     - title: Numery własne palet
       output: web
       url: /numery-wlasne-palet.html
-
-    - title: Umiejętności
-      output: web
-      url: /umiejetnosci.html
 
     - title: Typy usterek
       output: web
@@ -208,13 +196,33 @@ entries:
       output: web
       url: /atrybuty.html
 
-    - title: Atrybuty produktów
-      output: web
-      url: /atrybuty-produktow.html
-
     - title: Przyczyny przestojów
       output: web
       url: /przyczyny-przestojow.html
+
+  - title: Produkty
+    output: web
+    folderitems:
+
+    - title: Asortymenty
+      output: web
+      url: /asortymenty.html
+
+    - title: Rodziny produktów
+      output: web
+      url: /rodziny-produktow.html
+
+    - title: Produkty
+      output: web
+      url: /produkty.html
+
+    - title: Numery katalogowe
+      output: web
+      url: /numery-katalogowe.html
+
+    - title: Atrybuty produktów
+      output: web
+      url: /atrybuty-produktow.html
    
   - title: Struktura firmy
     output: web

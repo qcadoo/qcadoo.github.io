@@ -7,7 +7,7 @@ toc: false
   
 ## Jak dodać nową grupę płacową?
 
-Aby stworzyć nową grupę płacową należy wybrać: **PODSTAWOWE >> Grupy płacowe >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
+Aby stworzyć nową grupę płacową należy wybrać: **Pracownicy >> Grupy płacowe >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
 
 Tutaj ustalamy "Numer" grupy oraz "Koszt godzinowy pracy w grupie", są to pola wymagane. Dodatkowo możemy wprowadzić "Nazwę" i wybrać "Nadrzędną grupę płacową" (Nadrzędne grupy płacowe definiujemy w **PODSTAWOWE >> Słowniki**).
 Po wprowadzeniu danych wybieramy {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**. Wprowadzone grupy płacowe wyświetlają się w formie listy.

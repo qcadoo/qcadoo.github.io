@@ -12,7 +12,7 @@ Produkty możemy dodać na dwa sposoby: ręcznie - definiując każdy po kolei, 
 
 Decydując się na ręczne wprowadzanie produktów, wybieramy:
 
-  **PODSTAWOWE >> Produkty >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**  
+  **Produkty >> Produkty >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**  
 
 {% include lightbox.html file="Podstawowe-produkty-glowna.png" alt="Formularz produktu" caption="Formularz produktu" %}  
 

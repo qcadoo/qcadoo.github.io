@@ -4,15 +4,24 @@ permalink: slowniki.html
 ---
 Słowniki pomagają indywidualnie zdefiniować pojęcia dla następujących opcji:
 
-- **"Kategorie"** - stosowane w [Produktach](/produkty)
-- **"Jednostki"** - jednostki miar i wag stosowane w[Produktach](/produkty)
-- **"Stanowiska"** - stanowiska pracy używane w [Genealogii](/genealogia)
-- **"Miejsca linii produkcyjnych"** - stosowane przy definiowaniu [Linii produkcyjnych](/linie-produkcyjne)
+- **Kategorie produktów** - stosowane w [Produktach](/produkty)
+- **Jednostki** - jednostki miar i wag stosowane w [Produktach](/produkty)
+- **Miejsca linii produkcyjnych** - stosowane przy definiowaniu [Linii produkcyjnych](/linie-produkcyjne)
+- **Miejsca linii produkcyjnych przesyłane do SCADY**
+- **Typy adresów kontrahenta** - wykorzystywane w [firmach](/firmy)
+- **Kolory** - przyporządkowywane do kategorii zleceń w [parametrach zleceń](/parametry-zlecen.html#kategorie-zleceń)
+- **Rodzaje opisu** - używane w [asortymencie](/asortymenty)
+- **Zamówienie sprzedaży - status pozycji** - do wykorzystania w [zamówieniach sprzedaży](/zlecenia-nadrzedne), do opisu etapu prac nad zamówioną pozycją
+- **Opisy realizacji zamówień sprzedaży** - do zastosowania w [zamówieniach sprzedaży](/zlecenia-nadrzedne), np. w celu określenia na jakim etapie jest realizacja zamówienia
+- **Typy zajęć na zmianie** - używane przy tworzeniu kalendarza pracy pracowników ([przydział do zmian](/przydzial-do-zmian)])
+- **Kategoria zlecenia** - wykorzystywane w [zleceniach produkcyjnych](/zlecenia-produkcyjne) do grupowania zleceń, czy określenia ich pilności
+- **Forma płatności** - określana dla [firmy](/firmy) i prezentowana w [dostawie](/dostawy)
+- **Przyczyny odstępstw od planowanej produkcji** - używane w [zleceniu produkcyjnym](/zlecenia-produkcyjne) do zachowywania informacji o tym z jakiego powodu zmieniona została data czy ilość 
+- **Nadrzędne grupy płacowe** - do wykorzystania w [grupach płacowych](/grupy-placowe)
+- **Typy palet** - używane w [dokumentach](/dokumenty)
+- **Rodzaje podzespołu** - podpięte w podzespołach
 
-Edytować możemy dane w obrębie tych czterech opcji. Aby to zrobić: wybierz jedną z nich, a następnie, w zależności od potrzeby: {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**, lub kliknij na istniejący, by edytować.
 
-Poza wymienionymi u góry pojęciami, w słownikach możemy znaleźć wiele więcej definicji, które są uzupełniane w ramach potrzeb klienta.
+Edytować możemy dane w obrębie tych opcji. Aby to zrobić: wybierz jedną z nich, a następnie {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**. Wartości słownikowych nie można edytować i usuwać. Jeśli istniejąca nie jest Ci potrzebna - zdezaktywuj ją.
 
 {% include lightbox.html file="slowniki.png" alt="Słownik" caption="Podstawowy zestaw pojęć w słowniku" %}  
-
-

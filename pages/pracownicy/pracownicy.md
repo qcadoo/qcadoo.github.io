@@ -9,7 +9,7 @@ Każdy pracownik ma w systemie przypisany swój identyfikator, imię i nazwisko 
 
 Bazę pracowników uzupełniamy wybierając:
 
-**PODSTAWOWE >> Pracownicy >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**
+**Pracownicy >> Pracownicy >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**
   
 {% include lightbox.html file="podstawowePracownicyDodaj.png" alt="Dodanie pracownika" caption="Dodanie pracownika" %} 
 

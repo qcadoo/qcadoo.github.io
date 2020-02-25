@@ -6,7 +6,7 @@ permalink: zaloga.html
 Załoga to nic innego jak grupa pracowników. Jeśli wykorzytujesz moduł utrzymania ruchu w qcadoo, to stwórz załogę i podepnij do niej pracowniów DUR - a tylko oni będą widoczni w kalendarzu zdarzeń.
 Załoga może się też przydać przy tworzeniu przydziału do zmian - każda załoga może mieć takie przypisanie tworzone z osobna. Dzięki temu liderzy załóg mogą być odpowiedzialni za ułożenie kalendarza pracy swojego zespołu.
 
-Aby dodać załogę wejdź w **Podstawowe > Załoga** 
+Aby dodać załogę wejdź w **Pracownicy > Załoga** 
 
 {% include lightbox.html file="podstawoweZalogaLista.png" alt="Lista załóg" caption="Lista załóg" %}
 

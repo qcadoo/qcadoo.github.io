@@ -7,7 +7,7 @@ toc: false
 
 ## Jak dodać nowy numer katalogowy?
 
-**PODSTAWOWE >> Numery katalogowe >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
+**Produkty >> Numery katalogowe >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
 
 Numery katalogowe definiowane są przez "Produkt", "Firmę" - pozycje te dodajemy wybierając umieszczoną po lewej stronie lupkę {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} .Tam wyświetla się lista zdefiniowanych wcześniej pracowników i firm. Wymaganą informacją są również "Numery katalogowe", które nadajemy ręcznie.
 

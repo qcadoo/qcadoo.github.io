@@ -2,13 +2,13 @@
 title: "Zmiany"
 permalink: zmiany.html
 ---
- W "Zmianach" określamy godziny i terminy pracy Twojego zakładu (oraz wyjątki od nich, np. święta). W tym miejscu zaplanujesz system pracy zarówno jedno-, jak i wielozmianowy. Określamy tutaj także wyjątki od reguł, jak np. dni wolne (z okazji świąt, bądź koniecznych remontów) lub odwrotnie: nadprogramową pracę. 
+W "Zmianach" określamy godziny i terminy pracy Twojego zakładu (oraz wyjątki od nich, np. święta). W tym miejscu zaplanujesz system pracy zarówno jedno-, jak i wielozmianowy. Określamy tutaj także wyjątki od reguł, jak np. dni wolne (z okazji świąt, bądź koniecznych remontów) lub odwrotnie: nadprogramową pracę. 
 
 ## Jak dodać nową zmianę?
 
 {% include lightbox.html file="Podstawowe-%20zmiany.png" alt="Formularz zmiany" caption="Formularz zmiany" %}  
 
-**Podstawowe >> Zmiany >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**
+**Kalendarze >> Zmiany >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**
 
 1. W lewej części witryny podajemy nazwę zmiany (może to być także jej numer)
 
