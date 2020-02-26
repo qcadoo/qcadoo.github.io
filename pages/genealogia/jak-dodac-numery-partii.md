@@ -19,7 +19,7 @@ Partie opisane tutaj są podstawą do następujących funkcjonalności:
 - [tabele genealogii](/tabele-genealogii)
 
 Partie będą wykorzystywane również w:
-- [dokumentach] i [zasobach](/zasoby)
+- [dokumentach](/dokumenty) i [zasobach](/zasoby)
 - [rejestracji produkcji](/rejestracja-produkcji) i [terminalu](/terminal)
 - [dostawach](/dostawy)
 

@@ -164,8 +164,16 @@ Zlecenia naprawy pomagają w zapanowaniu nad poprawianiem produktów. Nie jeste�
 - **magazyn** - podaj magazyn powiązany z działem 
 - **typ usterki** - określ co jest nie tak, wybierając zdefiniowany [typ usterki](typy-usterek) (dotyczący produktu). Jeśli nie znalazłeś odpowiedniego rekordu - wybierz typ: Inny i dodaj opis, na podstawie którego pracownicy będą wiedzieć co wymaga poprawy.
 
-
 Potwierdzenie rejestracji w terminalu utworzy [rekord rejestracji](/rejestracja-produkcji.html#w-jaki-sposób-zgłocić-potrzebę-wykonania-naprawy-produktu) z wypełnionymi danymi o naprawie. A momencie akceptacji rekordu rejestracji zostanie utworzone [zlecenie naprawy](/zlecenia-naprawy).
+
+---
+
+#### Dodaj partię
+
+{% include lightbox.html file="terminalProduktyWejsciowePartie.png" alt="Dodanie partii zużytego surowca" caption="Dodanie partii zużytego surowca" class="float-right"  %}
+
+Jeśli prowadzisz ewidencję surowców z dokładnością do partii (bo zależy Ci na traceability) to bardzo ważne jest aby pracownicy raportowali zużycie surowców wraz z informacją o ich partii. Dla produktu w tabeli rozwiń menu kontekstowe i wybierz przycisk {% include inline_image.html file="przyciskDodajPartie.png" alt="Dodaj partię" %} **Dodaj partię** i wskaż tą właściwą, z dostępnej listy w genealogii. Jeden surowiec może mieć podanych wiele partii - ilość użyta produktu będzie sumą podanych dla nich ilości.
+Partie zostaną przekazane do tworzonego rekordu rejestracji produkcji, a z niego do założonych dokumentów RW (gdzie zostaną rozchodowane zasoby z tych partii). 
 
 
 ---
@@ -199,6 +207,13 @@ Podobnie jak w produktach zużywanych w procesie, tak i tutaj, pracownik ma moż
 #### Atrybuty wyprodukowanego zasobu
 
 Jeśli chcesz, aby wytworzony zasób został oznaczony dodatkowymi [atrybutami](/atrybuty), wejdź w menu kontekstowe danego produktu wyjściowego i wybierz przycisk {% include inline_image.html file="przyciskDodajAtrybutZasobu.png" alt="Przycisk Dodaj atrybut zasobu" %} **Dodaj atrybut zasobu**. W uruchomionym oknie opisz to co zostało wyprodukowane, korzystając z listy dostępnych atrybutów. Wartości atrybutów muszą spełniać nadane w definicji warunki - przypilnujemy, czy podajesz liczbę, wtedy gdy musisz, albo podamy listę dostępnych wartości, wtedy, gdy atrybut jest wyliczeniowy. Dzięki dopisywaniu szczegółowych danych będziesz mógł przeszukać magazyn, po specyficznych dla Ciebie wartościach (ustalając np. jakie produkty o danych wymiarach są aktualnie dostępne), a także wrócić do tych informacji po czasie (np. w celu ustalenia, jak wyglądał produkt wytworzony w listopadzie uprzedniego roku, sprzedany firmie X), przeglądając [listę pozycji dokumentów z atrybutami](/pozycje-dokumentow-z-atrybutami).
+
+---
+### Partia produktu zleconego
+
+{% include lightbox.html file="rejestracjaTerminalPartiaProduktuZleconego.png" alt="Partia produktu zleconego" caption="Terminal - partia produktu zleconego" class="float-right"  %}
+
+Jeśli wytwarzasz produkty z oznaczeniem partii i interesuje Cię traceability ([śledzenie partii](/sledzenie-partii-dla-zlecen)) to ważna dla Ciebie zakładka. Każda rejestracja produkcji powinna odbywać się ze wskazaniem jaka partia wyrobu jest wytwarzana (nawet, gdy meldujesz tylko czas pracy, albo gdy chcesz zaraportować zużycie materiału, ale faktycznego wyrobu jeszcze nie ma). Jeśli w śledzeniu partii zlecenia jest zdefiniowana partia to zostanie ona uzupełniona w terminalu w polu **Partia**. Pracujesz na rzecz innej partii? Wybierz ją korzystając z przycisku lupki. Nie widzisz jej na liście? Zaznacz parametr **Dodaj nową partię** i podaj numer w polu poniżej. Na tej podstawie utworzymy wpis w genealogii i założymy nowy rekord śledzenia w zleceniu.
 
 
 ---
