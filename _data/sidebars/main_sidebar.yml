@@ -479,10 +479,6 @@ entries:
           output: web
           url: /zlecenia-produkcyjne.html
 
-        - title: Typy zleceń
-          output: web
-          url: /typy-zlecen.html
-
         - title: Statusy zleceń
           output: web
           url: /stany-i-statusy-zlecen.html
@@ -544,7 +540,7 @@ entries:
       output: web
       url: /raport-odchylen-planu.html
 
-    - title: Zlecenia nadrzędne
+    - title: Zamówienia sprzedaży
       output: web
       url: /zlecenia-nadrzedne.html
 

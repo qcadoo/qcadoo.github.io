@@ -1,12 +1,10 @@
 ---
 title: "Produkty"
 permalink: produkty.html
-toc: false
 ---
- W qcadoo w "Produktach" gromadzimy: surowce, produkty, półprodukty i odpady. 
-Produkty możemy dodać na dwa sposoby: ręcznie - definiując każdy po kolei, bądź integrując qcadoo z używanym do tej pory w firmie systemem magazynowo-księgowym. [Więcej o Integracji.](/integracja)
 
-  
+W qcadoo w "Produktach" gromadzimy: surowce, produkty, półprodukty i odpady. 
+Produkty możemy dodać na dwa sposoby: ręcznie - definiując każdy po kolei, bądź integrując qcadoo z używanym do tej pory w firmie systemem magazynowo-księgowym. [Więcej o Integracji.](/integracja)
 
 ## Jak ręcznie dodać produkty?  
 
@@ -54,6 +52,8 @@ Wprowadzane produkty tworzą listę, która będzie widoczna po wybraniu "Podsta
 - Produkty biorą udział w definiowaniu [Technologii](/technologie) produkcji (w qcadoo jest to bardziej szczegółowy odpowiednik marszruty, BOMu).<br>
 - Na ich podstawie powstaje [Zapotrzebowanie materiałowe](/zapotrzebowanie-materialowe), są one wykorzystywane w [Kartach pracy](/karty-pracy).<br>
 - Produkty niosą ze sobą [Normy kosztowe](/normy-kosztowe), które wykorzystywane są w [Kalkulacji kosztów produkcji](/koszty-zlecenia), pozwalają na śledzenie [Genealogii](/genealogia), itd." type="info" %} 
+
+---
 
 ## Przydatne funkcje w formularzu produktu
 

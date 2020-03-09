@@ -7,11 +7,14 @@ permalink: planowanie.html
 
 Tutaj można: 
 
+- Ewidencjonować [zamówienia sprzedaży](/zlecenia-nadrzedne)
 - Utworzyć nowe [zlecenie produkcyjne](/zlecenia-produkcyjne)
-- Zdecydować, które zlecenia są nadrzędne
 - Policzyć czasochłonność zleceń
+- Stworzyć [plan produkcji](/plan-na-stacje-robocza-i-pracownika) i wygenerować [zadania do wykonania](/planowanie-operacyjne)
 - [Zaplanować](/planowanie-zlecen) ich realizację
-- Wygenerować [karty pracy](/karty-pracy), dokumenty [zapotrzebowania materiałowego](/zapotrzebowanie-materialowe)
+- Wygenerować [karty pracy](/karty-pracy)
+- Ustalić [zapotrzebowanie materiałowe](/zapotrzebowanie-materialowe)
+- Zamówić brakujące surowce przy pomocy funkcji [pokrycia zapotrzebowania](/pokrycie-zapotrzebowania)
 - Zdecydować o przebiegu [rejestracji postępu realizowanych zleceń](/rejestracja)
 
   

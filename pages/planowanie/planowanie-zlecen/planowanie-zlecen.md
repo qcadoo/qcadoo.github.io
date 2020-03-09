@@ -11,7 +11,7 @@ Aby stworzyć nowy plan zlecenia produkcyjnego, kliknij {% include inline_image.
 
 Możesz przejść do  [Planowania na liniach](/planowanie-na-liniach), klikając {% include inline_image.html file="calendarIcon24.png" alt="Przycisk Kalendarz" %} **Kalendarz zleceń**. Jest to kalendarz ilustrujący zaplanowaną produkcję na poszczególnych liniach produkcyjnych.
 
-{% include lightbox.html file="Planowanie-%20planowanie%20zlece%C5%84.png" alt="Planowanie zleceń" caption="Planowanie zleceń" %}
+{% include lightbox.html file="planowaniePlanowanieZlecenLista.png" alt="Planowanie zleceń" caption="Planowanie zleceń" %}
 
 Na liście znajdziesz wiele informacji o zleceniach produkcyjnych takich jak:
 
@@ -25,7 +25,7 @@ Na liście znajdziesz wiele informacji o zleceniach produkcyjnych takich jak:
 - ilość produktu już wyprodukowaną,
 - ilość produktu jaka pozostała do wyprodukowania,
 - wykonanie procentowe (kolumna może dodatkowo być oznaczona kolorami w zależności od procentu wykonania -> szczegóły znajdziesz poniżej),
-- numer zlecenia nadrzędnego czyli zamówienia, w ramach którego realizowane jest dane zlecenie produkyjne,
+- numer zamówienia sprzedaży, w ramach którego realizowane jest dane zlecenie produkyjne,
 - linię produkcyjną,
 - kontrahenta.
 

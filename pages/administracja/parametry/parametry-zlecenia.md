@@ -13,7 +13,7 @@ Do dyspozycji masz następujące parametry:
 
 {% include lightbox.html file="administracjaParametryZleceniaGlowna.png" alt="Parametry zleceń - zakładka główna" caption="Parametry zleceń - zakładka główna" %}
 
-1. **Domyślna linia produkcyjna** - ustaw tą linię, na której najczęściej realizujesz zlecenia. Podpowiemy Ci ją przy wystawianiu zlecenia produkcyjnego (ręcznie, a także przez generowanie ze zlecenia nadrzędnego). Nie musisz linii uzupełniać tutaj. Jeśli potrafisz przypisać linię do technologii (wybierasz linię w zależności od tego jaki wyrób ma być produkowany) - uzupełnij ją w zasięgu. Podpowiadanie w zleceniu zadziała tak: jeśli w technologii uzupełniona linia, to ją zaciągamy do zlecenia. Jeśli nie - sprawdzamy, czy jest w administracji w parametrach podana domyślna - jeśli tak: zaciągamy do zlecenia. Jeśli nie - linię zostawiamy pustą, będziesz musiał ją wskazać przed akceptacją zlecenia.
+1. **Domyślna linia produkcyjna** - ustaw tą linię, na której najczęściej realizujesz zlecenia. Podpowiemy Ci ją przy wystawianiu zlecenia produkcyjnego (ręcznie, a także przez generowanie ze zamówienia sprzedaży). Nie musisz linii uzupełniać tutaj. Jeśli potrafisz przypisać linię do technologii (wybierasz linię w zależności od tego jaki wyrób ma być produkowany) - uzupełnij ją w zasięgu. Podpowiadanie w zleceniu zadziała tak: jeśli w technologii uzupełniona linia, to ją zaciągamy do zlecenia. Jeśli nie - sprawdzamy, czy jest w administracji w parametrach podana domyślna - jeśli tak: zaciągamy do zlecenia. Jeśli nie - linię zostawiamy pustą, będziesz musiał ją wskazać przed akceptacją zlecenia.
 
 2. **Możliwość zmiany linii produkcyjnej w zaakceptowanym zleceniu** - zaznacz parametr jeśli chcesz pozwolić na ewentualne przesunięcia zaakceptowanego już zlecenia na inną linię. Jeśli nie - uznajesz, że zaakceptowane zlecenie nie powinno być już tak radykalnie zmieniane -> zostaw parametr niezaznaczony
 
@@ -29,15 +29,15 @@ Do dyspozycji masz następujące parametry:
 
 8. **Oznacz kolorem procent wykonania** - w liście [planowanych zleceń](/planowanie-zlecen) jest kolumna Wykonanie %. Przedstawia ona informację o tym ile procent ilości zleconej jest już wyprodukowane. Jeśli chcesz wzmocnić efekt - zaznacz parametr, a oznaczymy kolumnę kolorem. Czerwone będą te zlecenia, które nie są jeszcze rozpoczęte (0% wykonania), zielone - te już całkowicie zrealizowane (100% wykonania), a źółte te, dla których praca trwa (wykonanie między 0 a 100%)
 
-9. **Kopiuj opis ze zlecenia nadrzędnego** - zaznacz parametr, jeśli zlecenia produkcyjne utworzone ze zlecenia nadrzędnego mają otrzymać opis wprowadzony w zleceniu nadrzędnym
+9. **Kopiuj opis z zamówienia sprzedaży** - zaznacz parametr, jeśli zlecenia produkcyjne utworzone z zamówienia sprzedaży mają otrzymać opis wprowadzony w zamówieniu sprzedazy
 
-10. **Kopiuj uwagi z pozycji zlecenia nadrzędnego** - zaznacz parametr, jeśli chcesz, aby uwagi wprowadzone w pozycji zlecenia nadrzędnego, zostały przeniesione do opisu zlecenia produkcyjnego (utworzonego poprzez funkcję Utwórz wiele zleceń produkcyjnych)
+10. **Kopiuj uwagi z pozycji zamówienia sprzedaży** - zaznacz parametr, jeśli chcesz, aby uwagi wprowadzone w pozycji zamówienia sprzedaży, zostały przeniesione do opisu zlecenia produkcyjnego (utworzonego poprzez funkcję Utwórz wiele zleceń produkcyjnych)
 
-11. **Zbiorcze zlecenia tworzone ze zlecenia nadrzędnego** - zaznacz parametr jeśli chcesz, aby podczas tworzenia zleceń do zleceń nadrzędnych, zbijały się one w zbiorcze z dokładnością do tego samego produktu i tej samej technologii
+11. **Zbiorcze zlecenia tworzone z zamówienia sprzedaży** - zaznacz parametr jeśli chcesz, aby podczas tworzenia zleceń do zamówień sprzedaży, zbijały się one w zbiorcze z dokładnością do tego samego produktu i tej samej technologii
 
-12. **Realizacja ze stanu magazynowego** - zaznacz parametr jeśli chcesz, aby funkcja tworzenia wielu zleceń produkcyjnych do zlecenia nadrzędnego sprawdzała, czy zamówiony produkt trzeba produkować, czy można pobrać z istniejacego stanu magazynowego. Zlecenia produkcyjne będą utworzone tylko na tą część zamówionych produktów, dla których nie został zabezpieczony stan magazynowy. Jeśli chcesz aby funkcja realizacji ze stanu magazynowego działała poprawnie, wskaż w tabeli poniżej na jakich magazynach mamy sprawdzać dostępny stan. Funkcja ta analizuje tylko stany zachowane w qcadoo - nie sprawdza stanów w systemie zewnętrznym.
+12. **Realizacja ze stanu magazynowego** - zaznacz parametr jeśli chcesz, aby funkcja tworzenia wielu zleceń produkcyjnych do zamówienia sprzedaży sprawdzała, czy zamówiony produkt trzeba produkować, czy można pobrać z istniejacego stanu magazynowego. Zlecenia produkcyjne będą utworzone tylko na tą część zamówionych produktów, dla których nie został zabezpieczony stan magazynowy. Jeśli chcesz aby funkcja realizacji ze stanu magazynowego działała poprawnie, wskaż w tabeli poniżej na jakich magazynach mamy sprawdzać dostępny stan. Funkcja ta analizuje tylko stany zachowane w qcadoo - nie sprawdza stanów w systemie zewnętrznym.
 
-13. **Zawsze zlecaj pozycje z personalizacją** - parametr uaktywni się po zaznaczeniu _Realizacja ze stanu magazynowego_. Jeśli w uwagach pozycji zlecenia nadrzędnego wprowadzasz szczegóły zamówionego produktu, które sprawiają, że produkt wymaga zmian w procesie produkcyjnym specjalnie na życzenie klienta (czyli produkt musi zostać wyprodukowany i nie może być pobrany ze stanu produkt standardowy), to zaznacz parametr, a zawsze do tej pozycji utworzymy zlecenie produkcyjne na ilość zamówioną przez klienta
+13. **Zawsze zlecaj pozycje z personalizacją** - parametr uaktywni się po zaznaczeniu _Realizacja ze stanu magazynowego_. Jeśli w uwagach pozycji zamówienia sprzedaży wprowadzasz szczegóły zamówionego produktu, które sprawiają, że produkt wymaga zmian w procesie produkcyjnym specjalnie na życzenie klienta (czyli produkt musi zostać wyprodukowany i nie może być pobrany ze stanu produkt standardowy), to zaznacz parametr, a zawsze do tej pozycji utworzymy zlecenie produkcyjne na ilość zamówioną przez klienta
 
 14. **Magazyny** - tabela uaktywnia się po zaznaczeniu parametru _Realizacja ze stanu magazynowego_. Podaj magazyny, na których mamy poszukiwać dostępnego stanu zamówionych produktów
 
@@ -77,20 +77,20 @@ W parametrach wybierz kategorię i przypisz jej kolor z dostępnej listy. Użyj 
 
 ---
 
-## Zlecenia nadrzędne
+## Zamówienia sprzedaży
 
-Zlecenia nadrzędne to w qcadoo odpowiednik zamówień sprzedaży. Skonfiguruj je tak, by spełniały Twoje oczekiwania.
+Dzięki zamówieniom sprzedaży możesz prowadzić rejestr zgłoszeń od klientów. Zamówienia sprzedaży stanowią początek procesu produkcyjnego - dzięki nim wiesz co musisz wyprodukować. Skonfiguruj je tak, by spełniały Twoje oczekiwania
 
 
-{% include lightbox.html file="administracjaParametryZleceniaZleceniaNadrzedne.png" alt="Parametry zleceń - zlecenia nadrzędne" caption="Parametry zleceń - zlecenia nadrzędne" %}
+{% include lightbox.html file="administracjaParametryZleceniaZamowieniaSprzedazy.png" alt="Parametry zleceń - zamówienia sprzedaży" caption="Parametry zleceń - zamówienia sprzedaży" %}
 
-1. **Taki sam numer zlecenia produkcyjnego i nadrzędnego** - jeśli jedno zlecenie nadrzędne ma tylko jedno zlecenie produkcyjne, to możemy przyjąć, że numer zlecenia nadrzędnego będzie przenoszony do zlecenia produkcyjnego, bez dodawania końcówki 001 itd. Jeśli tak ma być - zaznacz parametr. W przeciwnym wypadku dla zlecenia nadrzędnego o numerze ZN123 powstanie zlecenie produkcyjne o numerze ZN123-001
+1. **Taki sam numer zlecenia produkcyjnego i zamówienia sprzedaży** - jeśli jedno zamówienie sprzedaży ma tylko jedno zlecenie produkcyjne, to możemy przyjąć, że numer zamówienia będzie przenoszony do zlecenia produkcyjnego, bez dodawania końcówki 001 itd. Jeśli tak ma być - zaznacz parametr. W przeciwnym wypadku dla zamówienia o numerze ZN123 powstanie zlecenie produkcyjne o numerze ZN123-001
 
-2. **Nie ustalaj dat w generowanych zleceniach** - standardowo daty podane w zleceniu nadrzędnym przenoszone są do tworzonego zlecenia produkcyjnego. Jeśli nie chcesz ich przenosić - zaznacz parametr.
+2. **Nie ustalaj dat w generowanych zleceniach** - standardowo daty podane w zamówieniu sprzedaży przenoszone są do tworzonego zlecenia produkcyjnego. Jeśli nie chcesz ich przenosić - zaznacz parametr.
 
-3. **Zakończ zlecenie nadrzędne po zleceniu wszystkich pozycji** - jeśli zaznaczysz parametr, to w momencie, gdy wszystkie pozycje będą miały status "Zlecone", oznaczymy zlecenie nadrzędne jako zakończone
+3. **Zakończ zamówienie sprzedaży po zleceniu wszystkich pozycji** - jeśli zaznaczysz parametr, to w momencie, gdy wszystkie pozycje będą miały status "Zlecone", oznaczymy zamówienie sprzedaży jako zakończone
 
-4. **Definicje zleceń** - definicje zleceń pozwalają na pogrupowanie zleceń nadrzędnych. Możesz wprowadzić definicje dla zleceń krajowych i unijnych. Dzięki temu od razu będzie wiadomo jaki jest kierunek sprzedaży. Ale możesz definicje wykorzystać do czegoś innego - ogranicza Cię tylko wyobraźnia. Dodaj tutaj definicje i podpinaj je przy tworzeniu zlecenia nadrzędnego
+4. **Definicje zamówień sprzedaży** - definicje zamówień sprzedaży pozwalają na pogrupowanie zamówień. Możesz wprowadzić definicje dla zamówień krajowych i unijnych. Dzięki temu od razu będzie wiadomo jaki jest kierunek sprzedaży. Ale możesz definicje wykorzystać do czegoś innego - ogranicza Cię tylko wyobraźnia. Dodaj tutaj definicje i podpinaj je przy tworzeniu zamówienia sprzedaży
 
 ---
 
@@ -151,4 +151,4 @@ Parametry w tej zakładce przydadzą się, gdy używasz do rozpisywania zleceń 
 - akceptacja rekordów rejestracji nastąpiła co najmniej tydzień wcześniej
 i spróbujemy ustawić im status Zakończone. Jeśli w co najmniej 1 zleceniu nie uda się ustawić statusu - żadne ze zleceń danej grupy nie zostanie zmienione. 
 Za jednym razem spróbujemy pozamykać zlecenia z maksymalnie 100 grup. 
-Po zamknięciu zleceń z grup spróbujemy pozamykać też zlecenia nadrzędne - jeśli w ramach zlecenia nie ma już żadnego otwartego zlecenia, to je też zakończymy.
+Po zamknięciu zleceń z grup spróbujemy pozamykać też zamówienia sprzedaży - jeśli w ramach zamówienia nie ma już żadnego otwartego zlecenia, to je też zakończymy.

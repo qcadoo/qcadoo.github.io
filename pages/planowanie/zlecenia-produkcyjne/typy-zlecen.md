@@ -2,6 +2,9 @@
 title: "Typy zleceń"
 permalink: typy-zlecen.html 
 ---
+
+! STRONA NIEAKTUALNA !
+
 Przy tworzeniu zlecenia produkcyjnego mamy możliwość wyboru jednego z dwóch "Typów zleceń": z własną technologią bądź z technologią wzorcową. Dzięki temu mamy możliwość edycji technologii z poziomu każdego zlecenia.
 Typ zlecenia z technologią wzorcową- przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy z listy technologię, którą utworzyliśmy wcześniej ( **TECHNOLOGIE >> Technologie** ). Aby edytować taką technologię wybieramy {% include inline_image.html file="settingsIcon24.png" alt="settings" %} **Technologia** , a następnie {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Powrót do edycji**. Tutaj można wprowadzać dowolne zmiany: zamieniać operację, zmieniać produkty, ilości, nazwy etc. Po zapisaniu zmian będą one przypisane TYLKO do tego konkretnego zlecenia produkcyjnego.  
 

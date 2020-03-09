@@ -15,7 +15,7 @@ Jeśli jeszcze nie wiesz jak definiuje się technologie z podziałem na komponen
 
 Warto wspomnieć też o tym jak została zdefiniowana [struktura firmy](/struktura-firmy) - zlecenia w firmie są planowane z dokładnością do działu. Ale ponieważ w zleceniach produkcyjnych w qcadoo najważniejsza jest linia produkcyjna i wykres Gantta opiera się o linie produkcyjne, działy zostały opisane jako linie produkcyjne (jeden zakład, jeden dział, linie następujące: obróbka drewna, lakiernia, tapicernia, montaż, pakowalnia). Stacje robocze nie zostały wprowadzone - bo nie są one potrzebne przy realizacji produkcji. Nie jest ważne na jakiej maszynie czy stanowisku praca została wykonana. Nie jest też ważne, który pracownik zajmie się produkcją. Ważne jest jaki dział ma zadanie zrealizować - reszta zostanie dograna na bieżąco. 
 
-Rozpisanie produkcji rozpoczyna się od dodania zlecenia produkcyjnego. Dodajmy je ręcznie z poziomu planowanie > planowanie zleceń. Ale możesz równie dobrze rozpocząć od [zleceń nadrzędnych](/zlecenia-nadrzedne) i wykorzystać automatyczne tworzenie wielu zleceń produkcyjnych.
+Rozpisanie produkcji rozpoczyna się od dodania zlecenia produkcyjnego. Dodajmy je ręcznie z poziomu planowanie > planowanie zleceń. Ale możesz równie dobrze rozpocząć od [zamówień sprzedaży](/zlecenia-nadrzedne) i wykorzystać automatyczne tworzenie wielu zleceń produkcyjnych.
 
 Zlecenie produkcyjne dodajemy na wyrób gotowy (w przykładzie - ława z miękkim siedziskiem) - wg instrukcji opisanej [tutaj](/zlecenia-produkcyjne). Ważne jest, aby podać datę rozpoczęcia zlecenia - późniejszą niż datę aktualną.
 

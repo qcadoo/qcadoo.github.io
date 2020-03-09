@@ -17,7 +17,7 @@ Bez względu na przyjęty sposób integracji zawsze tak samo działa synchroniza
 
 pobieramy z systemu zewnętrznego na starcie. I aktualizujemy, gdy zmienią się dane w ERP w czasie od ostatniej synchronizacji (czasami pobieramy wszystkie dane, a czasami będziesz musiał oznaczyć grupą/cechą te, które mają do nas zostać pobrane). Ponadto produkty dodane w qcadoo są przesyłane do ERP - albo od razu po dodaniu produktu i oznaczeniu go do synchronizacji, albo automatycznie w późniejszym etapie, np. podczas potwierdzania dostawy.
 
-Dodatkowo, niezależnie też od tego, który ze sposobów wybierzesz, w qcadoo mogą się tworzyć zlecenia nadrzędne na podstawie zamówień sprzedaży wprowadzonych do ERP.
+Dodatkowo, niezależnie też od tego, który ze sposobów wybierzesz, w qcadoo mogą się tworzyć zamówienia sprzedaży na podstawie zamówień od klienta wprowadzonych do ERP.
 
 ---
 
