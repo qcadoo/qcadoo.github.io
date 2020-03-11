@@ -145,7 +145,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
-                                Dla zleceń możemy wygenerować rozliczenie produkcji, które gromadzi raporty i zestawienia z produkcji. Natomiast z poziomu zleceń, możemy się dowiedzieć o wyprodukowanej ilości i zużytych surowcach, a jeżeli zlecenia posiada komponenty, to na zakładce „Powiązane zlecenia”, dowiemy się na które komponenty produkcja jest w toku lub się zakończyła.
+                                Jeśli zależy Ci na szybkim ustaleniu jakie zlecenia są już zrealizowane a nad jakimi prace trają - wystarczy, że zerkniesz do listy zleceń produkcyjnych czy zadań operacyjnych. Tam oprócz ilości wykonanych i pozostałych do wyprowowania, dostaniesz informację o procencie wykonania (dla lepszego zobrazowania - podkreślonego kolorem). Jeśli chcesz wiedzieć który pracownik zajmuje się jakim zadaniem - zerknij do listy rejestracji produkcji. Jeśli chcesz wiedzieć, czy są opóźnienia w realizacji zadań - sprawdź wykres Gantta dla zadań operacyjnych. Jeśli zastanawiasz się dlaczego dana maszyna nie pracuje - zerknij, czy nie zaewidencjonowano przestoju. Jesteś ciekawy jakie koszty zostały poniesione podczas produkcji - wykonaj rozliczenie produkcji.  Dla zleceń możemy wygenerować rozliczenie produkcji, które gromadzi raporty i zestawienia z produkcji. A może zeknij do modułu analiz i sprawdź w jaki jeszcze sposób qcadoo pomoże Ci kontrolować bieżącą produkcję. 
                             </div>
                         </div>
                     </div>
@@ -157,19 +157,55 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
-                                System umożliwia nam zaplanowanie produkcji za pomocą Gantta, gdzie metodą Drag&Drop mamy możliwość ustalenia dnia rozpoczęcia produkcji, lini oraz godziny. Poza tym istnieje możliwość zaplanowania produkcji dla zmian lub wspomóc się obliczeniami czasochłonności.
+                                qcadoo pozwala na planowanie produkcji wg dwóch podejść - planujesz albo całe zlecenia, przypisując je do linii, albo poszczególne operacje, przydzielając je na maszyny czy pracowników. To, na jaki system pracy się zdecydujesz, wpływa na to z jakich narzędzi będziesz mógł korzystać. Wykres Gantta zleceń, wykres Gantta zadań operacyjnych, algorytm planowania na stację roboczą i pracownika, rozpisywanie produkcji na zmianę na podstawie norm wydajnościowych, kalkulacja czasochłonności wyliczająca czas trwania zlecenia - to tylko niektóre funkcje, z których będziesz mógł skorzystać tworząc plany. 
                             </div>
                         </div>
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Czy system umożliwia wygenerowanie analiz bądź raportów?</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Czy system umożliwia wygenerowanie analiz z produkcji?</a>
                             </h4>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
-                                Tak, w systemie mamy dostęp do wielu analiz oraz raportów. Możemy je pobrać w formacie PDF lub CSV. Elementem, który kumuluje te wszystkie informacje jest Rozliczenie produkcji.
+                                Tak, w systemie mamy moduł analiz, pozwalający na bieżące kontrolowanie sytuacji na produkcji. Ponadto na podstawie zaraportowanych danych podczas produkcji można wykonać obszerny raport rozliczenia produkcji w Excelu. A jeśli interesują Cię zestawienia przed uruchomieniem produkcji, np. w celu przygotowania oferty dla klientów, to zapewne spodoba Ci się kalkulacja kosztów na podstawie technologii. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Jak przekazać pracownikom zadania do realizacji?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                                Przede wszystkim polecamy używanie terminala rejestracji produkcji - widoczne są w nim zarówno zlecenia jak i zadania operacyjne. Terminal gwarantuje zawsze aktualne dane, łatwość użycia, a także ograniczenie niepotrzebnych papierowych wydruków. Jeśli jednak nie możesz pozwolić sobie na terminal - skorzystaj z kart pracy czy wydruku listy zleceń / zadań (wcześniej ukryj kolumny, które nie są potrzebne). Możesz dodatkowo dorzucić wydruk zapotrzebowania materiałowego. Możesz również dać dostęp pracownikom do qcadoo i pokazać im plany bezpośrednio w systemie (nawet na wykresie Gantta).
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">W jaki sposób wprowadzane są do systemu dane z produkcji?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                                Na dwa sposoby - albo pracownik bezpośrednio rejestruje informacje za pomocą terminala rejestracji produkcji (tu możesz wprowadzić dodatkowy etap potwierdzania meldunków np. przez brygadzistę), albo zapisuje wszystko na wydrukach kart pracy i przekazuje do osób odpowiedzialnych za wprowadzenie danych do qcadoo. I wówczas ewidencjonowane są bezpośrednio do listy rejestracji produkcji.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Jak wygląda obsługa qcadoo w przypadku prowadzenia magazynówki w systemie ERP?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                                System qcadoo może współpracować z systemami klasy ERP. Aby tak się stało musimy udostępnić Ci konektor i przeprowadzić proces synchronizacji. Skontaktuj się z nami a ustalimy jakie są niezbędne kroki. Warto wiedzieć, że są realizowane dwa podejścia do integracji - pierwsze zakłada, że magazynówka prowadzona jest tylko i wyłącznie w ERP. qcadoo, gdy potrzebuje informacje o stanach, to po nie sięga. Tworzy też w ERP dokumenty magazynowe będące efektem raportowanej produkcji. Drugie podejście zakłada, że qcadoo wszystie dokumenty i całą magazynówkę prowadzi u siebie. Dane synchronizowane są poprzez ręczne przesłanie dokumentów (ręczne - czyli ręczne wywołanie funkcji w qcadoo). O tym jakie podejście do integracji będzie funkcjonowało u Ciebie decydujesz sam, odpowiednio ustawiając parametry. 
                             </div>
                         </div>
                     </div>

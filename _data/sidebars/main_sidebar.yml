@@ -686,6 +686,14 @@ entries:
       output: web
       url: /sledzenie-partii-dla-zlecen.html
 
+  - title: Kontrola jakości
+    output: web
+    folderitems:
+
+    - title: Wstęp do kontroli jakości
+      output: web
+      url: /kontrola-jakosci-wstep.html
+
   - title: Integracja
     output: web
     folderitems:

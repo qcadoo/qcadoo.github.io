@@ -226,6 +226,25 @@ Jeśli dla danego działu zaplanowano realizację zleceń naprawy, to będą one
 
 ---
 
+### Przestoje
+
+{% include lightbox.html file="rejestracjaTerminalPrzestoje.png" alt="Naprawy" caption="Terminal - naprawy" class="float-right"  %}
+
+Realizujesz zlecenie i nagle maszyna się zatrzymuje. Awaria. Co robisz? Oczywiście zgłaszasz problem do Działu Utrzymania Ruchu. Ale też - ewidencjonujesz [przestój](/przestoje). Dzięki temu na etapie rozliczania produkcji będzie wiadomo dlaczego zlecenie jest opóźnione, albo dlaczego tak mało sztuk zostało wytworzonych na zmianie. 
+Przestoje mogą być związane też z innymi sytuacjami - np. przerwą obiadową, spotkaniem działowym, koniecznością przyjęcia dostawy, uzupełnieniem surowca w maszynie, czekaniem na instrukcję wykonania zadania, czy po prostu przerwą na siku. Ustal wewnętrznie jakie sytuacje muszą być zarejestrowane. Pamiętaj, że im dokładniej wyznaczycie czasy pracy i czasy niepracujące, tym wskaźnik OEE będzie lepiej odwierciedlał faktyczne wykorzystanie maszyny.
+
+Aby zarejestrować przestój wskaż zlecenie lub zadanie, którym się zajmujesz. Następnie rozwiń obszar Przestoje i kliknij przycisk {% include inline_image.html file="przyciskRozpocznijPrzestoj.png" alt="Rozpocznij przestój" %} **Rozpocznij**. W uruchomionym oknie uzupełniona będzie data początku przestoju (jeśli chcesz - możesz ją edytować). Podaj [przyczynę przestoju](/przyczyny-przestojow) i **Zapisz**.
+
+{% include callout.html content="Jeśli nie znalazłeś w przyczynach przestoju właściwej, wybierz 'Inne' i wyjaśnij w opisie co konkretnie się wydarzyło" type="warning" %}
+
+I potwierdź standardowo rejestrację w terminalu. Przestój zostanie zapisany w zleceniu. Jeśli będziesz mógł wrócić do realizacji zadania (bo np. maszyna zostanie naprawiona) wróć do terminala, wskaż zlecenie / zadanie i kliknij przycisk {% include inline_image.html file="przyciskZakonczPrzestoj.png" alt="Zakończ przestój" %} **Zakończ**. Pojawi się znane Ci już okno przestoju, a w nim uzupełniona data zakończenia i wyliczony czas trwania. Zapisz przestój i standardowo potwierdź rejestrację z terminala.
+
+Zarejestrowane przestoje widoczne są w tabeli w obszarze Przestoje. Jeśli chcesz zmienić, zaznacz wiersz w tabeli i kliknij przycisk {% include inline_image.html file="przyciskEdytujPrzestoj.png" alt="Edytuj przestój" %} **Edytuj**.
+
+---
+
+## Zakończenie pracy z terminalem
+
 Aby zapisać wprowadzone dane kliknij **Potwierdź**. Aby cofnąć to co zostało wpisane w meldunku (do momentu wczytania operacji/zlecenia) kliknij **Czyść**. Aby wyczyścić wszystkie dane w terminalu kliknij **Anuluj**.
 
 O terminalu wiesz już prawie wszystko. A za chwilę będziesz już specjalistą w tym temacie. W tym celu przeczytaj jeszcze kilka wskazówek:
