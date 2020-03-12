@@ -25,6 +25,21 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                  <div class="panel-heading without-padding">
                      <span class="fa-stack fa-5x">
                            <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
+                           <i class="fa fa-clipboard fa-stack-1x fa-inverse"></i>
+                     </span>
+                 </div>
+                 <div class="panel-body">
+                     <h4>Produkty</h4>
+                     <p>Produkty</p>
+                     <a href="produkty.html" class="btn btn-primary">Więcej...</a>
+                 </div>
+             </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+             <div class="panel panel-default text-center">
+                 <div class="panel-heading without-padding">
+                     <span class="fa-stack fa-5x">
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
                            <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
                      </span>
                  </div>
@@ -32,6 +47,38 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                      <h4>Technologie</h4>
                      <p>Technologie</p>
                      <a href="technologie.html" class="btn btn-primary">Więcej...</a>
+                 </div>
+             </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+             <div class="panel panel-default text-center">
+                 <div class="panel-heading without-padding">
+                     <span class="fa-stack fa-5x">
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
+                           <i class="fa fa-gavel fa-stack-1x fa-inverse"></i>
+                     </span>
+                 </div>
+                 <div class="panel-body">
+                     <h4>Utrzymanie ruchu</h4>
+                     <p>Utrzymanie ruchu</p>
+                     <a href="utrzymanie-ruchu.html" class="btn btn-primary">Więcej...</a>
+                 </div>
+             </div>
+         </div>
+</div>
+<div class="row">
+         <div class="col-md-3 col-sm-6">
+             <div class="panel panel-default text-center">
+                 <div class="panel-heading without-padding">
+                     <span class="fa-stack fa-5x">
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
+                           <i class="fa fa-warehouse fa-stack-1x fa-inverse"></i>
+                     </span>
+                 </div>
+                 <div class="panel-body">
+                     <h4>Magazyn</h4>
+                     <p>Magazyn</p>
+                     <a href="magazyny.html" class="btn btn-primary">Więcej...</a>
                  </div>
              </div>
          </div>
@@ -50,23 +97,6 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                  </div>
              </div>
          </div>
-         <div class="col-md-3 col-sm-6">
-             <div class="panel panel-default text-center">
-                 <div class="panel-heading without-padding">
-                     <span class="fa-stack fa-5x">
-                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
-                           <i class="fa fa-calculator fa-stack-1x fa-inverse"></i>
-                     </span>
-                 </div>
-                 <div class="panel-body">
-                     <h4>Kalkulacje</h4>
-                     <p>Kalkulacje</p>
-                     <a href="kalkulacje.html" class="btn btn-primary">Więcej...</a>
-                 </div>
-             </div>
-         </div>
-</div>
-<div class="row">
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
                  <div class="panel-heading without-padding">
@@ -97,6 +127,8 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                  </div>
              </div>
          </div>
+</div>
+<div class="row">
          <div class="col-md-3 col-sm-6">
              <div class="panel panel-default text-center">
                  <div class="panel-heading without-padding">
@@ -109,6 +141,36 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                      <h4>Genealogia</h4>
                      <p>Genealogia</p>
                      <a href="genealogia.html" class="btn btn-primary">Więcej...</a>
+                 </div>
+             </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+             <div class="panel panel-default text-center">
+                 <div class="panel-heading without-padding">
+                     <span class="fa-stack fa-5x">
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
+                           <i class="fa fa-bong fa-stack-1x fa-inverse"></i>
+                     </span>
+                 </div>
+                 <div class="panel-body">
+                     <h4>Kontrola jakości</h4>
+                     <p>Kontrola jakości</p>
+                     <a href="kontrola-jakosci-wstep.html" class="btn btn-primary">Więcej...</a>
+                 </div>
+             </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+             <div class="panel panel-default text-center">
+                 <div class="panel-heading without-padding">
+                     <span class="fa-stack fa-5x">
+                           <i class="fa fa-circle fa-stack-2x knowledge-base-text"></i>
+                           <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
+                     </span>
+                 </div>
+                 <div class="panel-body">
+                     <h4>Analizy</h4>
+                     <p>Analizy</p>
+                     <a href="raport-odchylen-planu.html" class="btn btn-primary">Więcej...</a>
                  </div>
              </div>
          </div>
