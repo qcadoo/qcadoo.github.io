@@ -3,7 +3,7 @@ title: "Kontrola jakości"
 permalink: kontrola-jakosci-wstep.html 
 ---
 
-Moduł kontroli jakości pozwala na nadzorowanie jakości wytworzonych produktów. Podstawą kontroli jakości są [atrybuty](/atrybuty). Sam decydujesz o tym jakie parametry chcesz sprawdzać i jakie wartości mogą być dla nich uzupełniane. Aby wiadomo było jaki zestaw cech musi być skontrolowany dla danego produktu, definiowane są karty jakości. I na ich podstawie przeprowadzana jest kontrola jakości. 
+Moduł kontroli jakości pozwala na nadzorowanie jakości wytworzonych produktów. Podstawą kontroli jakości są [atrybuty](/atrybuty). Sam decydujesz o tym jakie parametry chcesz sprawdzać i jakie wartości mogą być dla nich uzupełniane. Aby wiadomo było jaki zestaw cech musi być skontrolowany dla danego produktu, definiowane są [karty jakości](/karty-jakosci). I na ich podstawie przeprowadzana jest kontrola jakości. 
 
 Produkty mogą być kontrolowane w dwóch trybach:
 1. **kontrola bieżąca** - pracownicy na etapie realizacji produkcji muszą sprawdzić pewne parametry i zanotować efekty. Aby tak się stało musisz atrybuty z karty jakości przydzielić do operacji w technologii. Możesz albo wprowadzać odrębne operacje KJ albo wskazać co trzeba sprawdzić w ramach standardowo wykonywanych czynności. Decyzja należy do Ciebie. Podczas rejestracji produkcji, np. w terminalu, pracownik dostanie informacje co ma sprawdzić i będzie mógł zapisać efekty swoich testów. A Ty na bieżąco będziesz mógł sprawdzać, analizując utworzoną kontrolę jakości, jak wyglądają prace nad produktem i czy czasami nie pojawiły się jakieś problemy. I w porę reagować

@@ -2,13 +2,11 @@
 title: "Zaopatrzenie"
 permalink: Zaopatrzenie.html
 ---
- W tym dziale zawarte są raporty i zestawienia danych dotyczące zaopatrzenia. Znajdują się tu informacje dotyczące: 
+Moduł Zaopatrzenie zadba o dostępność surowców i komponentów do produkcji. To tu znajdziesz narzędzia do
+- ustalenia listy potrzebnych surowców - np. [zapotrzebowanie materiałowego](/zapotrzebowanie-materialowe) czy [pokrycie zapotrzebowania](/pokrycie-zapotrzebowania) i informacji o przewidywanych brakach magazynowych
+- składania zamówień do dostawców na brakujące surowce - zerknij w [dostawy](/dostawy)
+- przeprowadzenia procesu ofertowania - od [negocjacji dostaw](/negocjacje), przez [zapytania ofertowe](/zapytania-ofertowe) aż po [ofert dostaw](/oferty-dostaw)
+- przesuwania produktów na działy produkcyjne - zerknij w [wydania wewnętrzne](/wydania-wewnetrzne)
 
-- [Dostaw](/dostawy),[negocjacji dostaw](/negocjacje), [ofert dostaw](/oferty-dostaw)i [pozycji dostaw](/pozycje-dostaw),
-
-- [Zapotrzebowania materiałowego](/zapotrzebowanie-materialowe),
-
-- [Pokrycia zapotrzebowania](/pokrycie-zapotrzebowania),
-
-- [Pozycji ofert](/pozycje-ofert)i [zapytań ofertowych](/zapytania-ofertowe).
+Zapoznaj się z rozdziałami podpiętymi do menu > zaopatrzenie i zapanuj nad potrzebami materiałowymi Twojej firmy.
 

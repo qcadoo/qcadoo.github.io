@@ -20,12 +20,15 @@ Do każdego produkowanego w Twojej firmie wyrobu kompletujemy osobną technologi
 
 4. Dodatkowo można zamieścić "Opis" technologii, oraz zaznaczyć opcje:
 * Szablon - określa, że tworzona technologia posłuży jako szablon w generatorze technologii
-* Norma wydajnościowa technologii
-* Czynności dodatkowe do wyrobu gotowego
+* Czynności dodatkowe do wyrobu gotowego - parametr jest przydatny, gdy dzielisz proces produkcyjny na technologie na komponenty. I ostatni etap, np. pakowanie, opisane daną technologią, jest dla Ciebie mniej istotny w kontekście analizy wykonanej produkcji. Dla Ciebie wyrób gotowy to ten, którego dopiero czeka pakowanie. Być może dlatego, że pakowaniem zajmujecie się później, niejako przy okazji wysyłki. Zaznacz parametr, a w analizie wyrobu gotowego przed czynnościami dodatkowymi pokażemy Ci produkcję wyrobów bez tego etapu
 
-5. {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} **Wybieramy** "Grupę", do której ma przynależeć dana technologia (opcjonalnie).
+5. Jeśli będziesz korzystać z automatycznie generowanego [planu produkcji na zmianę](/produkcja-na-zmiane), to uzupełnij normę wydajnościową, podając ile jednostek produktu jesteś w stanie wytworzyć w minutę.
 
-6. Po wprowadzeniu powyższych wybieramy przycisk   {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. Teraz można przejść do drugiego kroku - zdefiniowania **drzewa technologii**.
+6. Jeśli w trakcie realizacji produkcji będzie przeprowadzana kontrola jakości uzupełnij [kartę jakości](karty-jakosci) - lista atrybutów określona w karcie jakości będzie musiała być rozpisana w operacjach drzewa, aby pracownicy wiedzieli co mają zweryfikować i na jakim etapie produkcji. Klikając lupkę zobaczysz listę zaakceptowanych kart jakości spiętych z produktem, dla którego tworzona jest technologia.
+
+7. {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} **Wybieramy** "Grupę", do której ma przynależeć dana technologia (opcjonalnie).
+
+8. Po wprowadzeniu powyższych wybieramy przycisk   {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. Teraz można przejść do drugiego kroku - zdefiniowania **drzewa technologii**.
 
 ## Budowa drzewa technologii ##
 
@@ -35,13 +38,15 @@ W qcadoo **Technologię** buduje się w **formie drzewa** operacji - układając
 
 ### Dodawanie operacji ###
 
- {% include lightbox.html file="technologie-technologia-operacja-główna.png" alt="Operacja w technologii" caption="Operacja w technologii" class="float-right" %}
+{% include lightbox.html file="technologie-technologia-operacja-główna.png" alt="Operacja w technologii" caption="Operacja w technologii" class="float-right" %}
 
 1. Dodajemy operację używając przycisku {% include inline_image.html file="newOperationIcon_16one.png" alt="Przycisk lupy" %}**Dodaj operację**.
   
 2. {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} **Wybieramy** "Operację" ze zdefiniowanej wcześniej listy [Operacji](/operacje). Na podstawie wybranej operacji uzupełnione zostaną pola "Opis" i "Załącznik", oraz informacje w tabkach "Stacje robocze", "Normy kosztowe", "Normy czasowe". Uzupełnione w ten sposób informacje można dowolnie zmodyfikować - zmiany obejmą wtedy jedynie obecnie tworzoną technologię.
 
 3. Wybieramy przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. Po zachowaniu zmian możemy wrócić do technologii i dodać produkty do operacji.
+
+Wraz z realizacją operacji może być konieczność **skontrolowania jakości** wytworzonego produktu. Jeśli technologia ma przypisaną [kartę jakości](/karty-jakosci), to w szczegółach operacji w zakładce Kontrola jakości możesz wybrać, które z atrybutów karty jakości na tym etapie mają być weryfikowane. Dzięki temu pracownik podczas rejestracji produkcji (np. z [terminala](/terminal)) otrzyma informacje o tym, że musi przeprowadzić kontrolę i zapisać jej efekt. 
 
 ### Edycja i usuwanie operacji ###
 
@@ -154,13 +159,15 @@ Jeśli technologia ma zasięg = 1 dział, to przyjmujemy, że dla wszystkich sur
 
 Jeśli technologia ma zasięg = wiele działów, to magazyny muszą być wprowadzone na poziomie każdego z produktów. Dane również podpowiedzą się z magazynów przypisanych [działowi](/dzialy).
 
+{% include callout.html content="Aby nie trzeba było każdorazowo ręcznie wywoływać funkcji uzupełniania magazynów w produktach zaznacz parametr Uzupełniaj magazyny dla produktów w przepływie podczas sprawdzania technologii w parametrach technologii. Pamiętaj jednak, że jeśli masz zasięg = wiele działów, to sprawdzenie technologii nadpisze Ci magazyny z tych domyślnych zdefiniowanych dla działu " type="warning" %}
+
 Jakie magazyny musisz określić:
 - **magazyn pobrania surowców** - wskaż z jakiego magazynu mają być rozchodowane surowce do produkcji. Na ten magazyn tworzone będą dokumenty RW,
 - **magazyn przyjmowania wyrobów** - wskaż na jaki magazyn mają być przyjmowane wytworzone wyroby gotowe. Na ten magazyn będą tworzone dokumenty PW.
 
 Możesz też wskazać dodatkowe informacje:
 - **magazyn rozchodowania nadmiarowych surowców** - jeśli przesuwać do produkcji surowce na magazyn działowy (korzystając z [wydań wewnętrznych](/wydania-wewnetrzne)) to możesz podać na jaki magazyn mają być zwrócone produkty przesunięte, a nie zużyte. Dokument MM (z magazynu pobrania surowców na magazyn wskazany tutaj) utworzy się w momencie zakończenia zlecenia,
-- **magazyn produkcji w toku** - jeśli chcesz aby produkty będące efektami operacji, były przyjmowane na magazyn, to ustaw przepływ produkcji w toku = magazyn i podaj na jaki magazyn półprodukty mają być przymowane. Z magazynu tego program rozchoduje również półprodukty wskazane jako zużyte w kolejnych operacjach. 
+- **magazyn produkcji w toku** - jeśli chcesz aby produkty będące efektami operacji, były przyjmowane na magazyn, to ustaw przepływ produkcji w toku = magazyn i podaj na jaki magazyn półprodukty mają być przymowane. Z magazynu tego program rozchoduje również półprodukty wskazane jako zużyte w kolejnych operacjach. Opcja dostępna jest tylko dla rejestracji z dokładnością do operacji.
 
 
 ## Zakończenie tworzenia technologii ##

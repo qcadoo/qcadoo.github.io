@@ -2,11 +2,13 @@
 title: "Rejestracja"
 permalink: rejestracja.html
 ---
-Dzięki funkcjonalności "Rejestracja" możemy rejestrować to co dzieje się z naszą produkcją. Tutaj możesz zarejestrować informacje dotyczące:
+Dzięki funkcjonalności "Rejestracja" możemy rejestrować to co dzieje się z naszą produkcją. Znajdziesz tutaj:
 
-- [Przestoje](/przestoje)
-- [Rejestracja produkcji](/rejestracja-produkcji)
-- [Rozliczenie produkcji](rozliczenie-produkcji)  
-- [Wydruki rekordów produkcji](/meldunki-zwrotne)  
-- [Śledzenie partii](/sledzenie-partii-produktow)
+- [przestoje](/przestoje)
+- [rejestrację produkcji](/rejestracja-produkcji)
+- [terminal](/terminal)
+- [rozliczenie produkcji](rozliczenie-produkcji)  
+- [wydruki rekordów produkcji](/meldunki-zwrotne)  
+
+
 

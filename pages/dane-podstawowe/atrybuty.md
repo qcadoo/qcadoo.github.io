@@ -20,7 +20,7 @@ Podaj:
 - **rodzaj wartości** - albo **tekstowy** albo **liczbowy**. Jeśli wybierzesz tekstowy - będziesz mógł wpisać cokolwiek. Jeśli liczbowy - sprawdzimy, czy na pewno podana wartość jest liczbą. Ponadto dla rodzaju liczbowego możesz podać: precyzję i jednostkę (opisane niżej)
 - **precyzja** - określ ile miejsc po przecinku mają mieć wartości liczbowe danego atrybutu. Jeśli podasz 0 to będziesz mógł wpisać tylko liczby całkowite. Jeśli podasz 5 - będzie możliwe określanie wartości 0,99999.
 - **jednostka** - podaj w jakiej jednostce wartość liczbowa ma być określana. Pracownikowi łatwiej bedzie wpisać długość, gdy będzie wiedział, że ma ją podać w mm.
-- **abrybut produktu** i **atrybut zasobu** - zaznacz co dany atrybut ma opisywać. Jedna definicja może określać jednocześnie produkty i zasoby. Ale zapewne przeważnie będzie albo charakrystyką produktu albo zapasu. Jeśli dany produkt niezależnie od dostawy czy produkcji zawsze ma dany kolor - to będzie to atrybut produktu. Jeśli jednak wartość atrybutu może być inna w zależności od tego co udało się wytworzyć, albo co dostawca przysłał - np. czasami waga to 150 kg a czasami 148 kg, to będzie to atrybut zasobu.
+- **abrybut produktu**, **atrybut zasobu** i **atrybut kontroli jakości** - zaznacz co dany atrybut ma opisywać. Jedna definicja może określać jednocześnie produkty, zasoby i kontrolę jakości. Ale zapewne przeważnie będzie albo charakrystyką jednego z nich. Jeśli dany produkt niezależnie od dostawy czy produkcji zawsze ma dany kolor - to będzie to atrybut produktu. Jeśli jednak wartość atrybutu może być inna w zależności od tego co udało się wytworzyć, albo co dostawca przysłał - np. czasami waga to 150 kg a czasami 148 kg, to będzie to atrybut zasobu. Jeśli atrybut ma być elementem sprawdzanym na etapie kontroli produktu - będzie to atrybut kontroli jakości.
 
 Aby zachować definicję kliknij {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**.
 
@@ -31,13 +31,15 @@ Jeśli atrybut jest w typie wyliczeniowym przejdź do tabeli wartości i dodaj m
 Określ **wartość** i ewentualnie **opis**. Pamiętaj, że jeśli definicja atrybutu mówi, że ma rodzaj liczbowy, to sprawdzimy, czy na pewno podałeś liczbę w zadanej precyzji.
 I w taki sam sposób określ całą listę wartości atrybutu.
 
-Gotowe - atrybut istnieje. Teraz możesz go wykorzystać do uszczegółowienia produktu albo zasobu.
+Gotowe - atrybut istnieje. Teraz możesz go wykorzystać do uszczegółowienia produktu czy zasobu, albo do stworzenia karty jakości.
 
 W jakich miejscach będzie można przypisywać atrybuty? 
 
 Atrybuty produktu określamy tylko i wyłącznie w [produkcie](/produkty). Jego wartości będzie można podejrzeć w dokumencie, czy przy [rejestracji produkcji](/rejestracja-produkcji#atrybuty-produktu) (także w [terminalu](/terminal#atrybuty-produktu-wejściowego), ale wartości tam już nie wprowadzimy. Potraktuj atrybuty produktu tak jak jego nazwę czy jednostkę - wprowdzasz je na starcie przy dodawaniu nowego produktu.
 
 Atrybuty zasobu natomiast wprowadzane są wszędzie tam gdzie rejestrujesz przychód na magazyn - w [dostawie](/dostawy), przy [rejestracji produkcji](/rejestracja-produkcji) czy po prostu w [dokumentach](/dokumenty). Będziesz mógł je podać również w już istniejącym [zasobie](/korekty).
+
+Atrybuty kontroli jakości wykorzystujemy przy tworzeniu [karty jakości](/karty-jakosci). A wartości uzupełniane są na etapie rejestracji produkcji czy rejestracji końcowej kontroli jakości danych partii produktów.
 
 Przypisanie atrybutów do produktów i do zasobów może odbyć się też poprzez import danych z Excela.
 

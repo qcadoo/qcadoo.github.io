@@ -2,19 +2,14 @@
 title: "Technologie"
 permalink: technologie.html 
 ---
+Nie ma produkcji bez technologii. Musimy wiedzieć co trzeba zrobić i jakie surowce użyć (i w jakiej kolejności), aby wytworzyć wyrób najlepszej jakości. Zajrzyj w rozdziały podpięte pod menu > technologie i sprawdź w jaki sposób zdefiniować w qcadoo drzewo technologii i jakie przygotowaliśmy dla Ciebie ułatwienia przy ich wprowadzaniu. 
 
- Nie wiemy dokładnie jak powstała Ziemia. Najprawdopodobniej najpierw był wielki wybuch, chaos z którego za pośrednictwem skomplikowanych procesów fizycznych i chemicznych powstała Ziemia. Wiemy, że podobnie opisać można zarządzanie technologią w obecnie dostępnych na rynku oprogramowaniach. 
+Dzięki modułowi **Technologie** możemy zarządzać:
 
-{% include callout.html content="Dlatego zadbaliśmy o to, by w qcadoo zarządzanie technologią było proste, a co ważne - dokładne.
-" type="success" %}
+- [operacjami](/operacje) - wprowadzać ich definicje, normy czasowe i kosztowe
+- [technologiami](/technologie-szczegoly) - definiować strukturę drzewa określającą jak powstają gotowe produkty
+- [normami przezbrojeń](/normy-przezbrojen) - określać jaka zmiana na linii będzie związana z przebrojeniem
 
-Funkcjonalność "Technologie" pozwala w prosty i dokładny sposób zarządzać technologią. Służy do tego [drzewo technologii](/technologie-szczegoly), które, w sposób przejrzysty i dokładny, modeluje w jaki sposób, za sprawą następujących po sobie operacji wykonywanych na hali produkcyjnej, z surowców/półproduktów powstają wyroby gotowe.
+Znajdziesz tu też [generator technologii](/generator-technologii), dzięki któremu szybciej utorzysz technologie na pokrewne produkty, a także [produkty do technologii grup produktów](/produkty-do-technologii-grup-produktow), w których zdefiniujesz jakie produkty będą zamieniały te wzorcowe, użyte w [technologiach grup produktow(/technologie-grup-produktow).
 
-  
-
-Dzięki działowi "Technologie" możemy zarządzać:
-
-- [Operacjami](/operacje) - wprowadzać ich definicje, normy czasowe i kosztowe
-- [Technologiami](/technologie-szczegoly) - definiować strukturę drzewa określającą jak powstają gotowe produkty
-- [Liniami produkcyjnymi](/linie-produkcyjne) - określać parametry maszyn dostępne na liniach produkcyjnych
 

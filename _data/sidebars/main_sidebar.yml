@@ -164,6 +164,10 @@ entries:
     output: web
     folderitems:
 
+    - title: Wstęp do danych podstawowych
+      output: web
+      url: /dane-podstawowe.html
+
     - title: Firmy
       output: web
       url: /firmy.html
@@ -693,6 +697,10 @@ entries:
     - title: Wstęp do kontroli jakości
       output: web
       url: /kontrola-jakosci-wstep.html
+
+    - title: Karty jakości
+      output: web
+      url: /karty-jakosci.html
 
   - title: Integracja
     output: web
