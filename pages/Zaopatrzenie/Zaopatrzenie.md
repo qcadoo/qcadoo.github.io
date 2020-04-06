@@ -8,5 +8,5 @@ Moduł Zaopatrzenie zadba o dostępność surowców i komponentów do produkcji.
 - przeprowadzenia procesu ofertowania - od [negocjacji dostaw](/negocjacje), przez [zapytania ofertowe](/zapytania-ofertowe) aż po [ofert dostaw](/oferty-dostaw)
 - przesuwania produktów na działy produkcyjne - zerknij w [wydania wewnętrzne](/wydania-wewnetrzne)
 
-Zapoznaj się z rozdziałami podpiętymi do menu > zaopatrzenie i zapanuj nad potrzebami materiałowymi Twojej firmy.
+Zapoznaj się z rozdziałami podpiętymi do menu > zaopatrzenie i zapanuj nad potrzebami materiałowymi Twojej firmy.  
 

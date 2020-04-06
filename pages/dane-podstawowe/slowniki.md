@@ -20,6 +20,7 @@ Słowniki pomagają indywidualnie zdefiniować pojęcia dla następujących opcj
 - **Nadrzędne grupy płacowe** - do wykorzystania w [grupach płacowych](/grupy-placowe)
 - **Typy palet** - używane w [dokumentach](/dokumenty)
 - **Rodzaje podzespołu** - podpięte w podzespołach
+- **Ocena jakości** - wykorzystywana do ustalenia jak wygląda efekt [kontroli jakości](/kontrola-jakosci)
 
 
 Edytować możemy dane w obrębie tych opcji. Aby to zrobić: wybierz jedną z nich, a następnie {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**. Wartości słownikowych nie można edytować i usuwać. Jeśli istniejąca nie jest Ci potrzebna - zdezaktywuj ją.

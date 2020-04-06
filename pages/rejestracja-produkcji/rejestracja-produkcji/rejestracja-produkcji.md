@@ -132,3 +132,22 @@ Zlecenia naprawy pomagają w zapanowaniu nad poprawianiem produktów. Nie jeste�
 
 W momencie akceptacji rekordu rejestracji zostanie utworzone [zlecenie naprawy](/zlecenia-naprawy).
 
+---
+
+## Jak zapisać wyniki bieżącej kontroli jakości?
+
+{% include lightbox.html file="rejestracjaRRKontrolaJakosci.png" alt="Bieżąca kontrola jakości" caption="Bieżąca kontrola jakości" class="float-right"  %}
+
+Jeśli zdecydowałeś, że podczas realizacji produkcji ma być przeprowadzana kontrola jakości (czyli [atrybuty](/atrybuty) z [karty jakości](karty-jakosci) rozpisałeś w technologii produktu), to w zakładce **Kontrola jakości** zobaczysz:
+- elementy weryfikowane w danej operacji - jeśli używasz rejestracji do każdej operacji,
+- wszystkie atrybuty kontroli jakości wskazane w technologii - jeśli raportujesz produkcję zbiorczo.
+
+Lista atrybutów, która pochodzi z technologii nie jest już do zmiany na etapie rejestracji. Jeśli skontrolowałeś przy okazji coś dodatkowego i chcesz zachować wynik - dodaj nowy atrybut i podaj dla niego wartość. Wartości wszystkich atrybutów w danym rekordzie rejestarcji będą musiały być wypełnione, aby móc meldunek zaakceptować.
+
+Wytworzony produkt powinien mieć też podaną **[ocenę jakości](/slowniki)** - wypełnij ją, gdy meldujesz wykonanie produktu zleconego.
+
+W momencie akceptacji pierwszej rejestracji z atrybutami KJ utworzy się [kontrola jakości](/kontrola-jakosci) bieżąca, z wypełnionymi informacjami o tym co już zostało zweryfikowane. Każdy kolejny meldunek będzie aktualizował tą kontole o najświeższe dane. W momencie pojawienia się [oceny jakości](/slowniki) w rejestracji będzie ona przekazana zarówno do kontroli jakości jak i do dokumentu PW przyjmującego produkt zlecony na magazyn (a z dokumentu PW trafi do zasobu kształtującego stan magazynowy).
+
+Utworzona kontrola jakości ma status **W trakcie**. Zostanie ona z automatu **zakończona** podczas zamykania powiązanego zlecenia produkcyjnego. 
+ 
+{% include callout.html content="Pamiętaj, że kontrola jakości bieżąca może być realizowana tylko przez rejestrację produkcji. Jeśli interesuje Cię weryfikowanie wyrobów już znajdujących się na magazynie, utwórz kontrolę jakości końcową" type="warning" %}

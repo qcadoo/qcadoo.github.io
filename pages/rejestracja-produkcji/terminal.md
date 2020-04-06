@@ -239,7 +239,9 @@ Aby zarejestrować przestój wskaż zlecenie lub zadanie, którym się zajmujesz
 
 I potwierdź standardowo rejestrację w terminalu. Przestój zostanie zapisany w zleceniu. Jeśli będziesz mógł wrócić do realizacji zadania (bo np. maszyna zostanie naprawiona) wróć do terminala, wskaż zlecenie / zadanie i kliknij przycisk {% include inline_image.html file="przyciskZakonczPrzestoj.png" alt="Zakończ przestój" %} **Zakończ**. Pojawi się znane Ci już okno przestoju, a w nim uzupełniona data zakończenia i wyliczony czas trwania. Zapisz przestój i standardowo potwierdź rejestrację z terminala.
 
-Zarejestrowane przestoje widoczne są w tabeli w obszarze Przestoje. Jeśli chcesz zmienić, zaznacz wiersz w tabeli i kliknij przycisk {% include inline_image.html file="przyciskEdytujPrzestoj.png" alt="Edytuj przestój" %} **Edytuj**.
+Zarejestrowane przestoje widoczne są w tabeli w obszarze Przestoje. 
+
+{% include callout.html content="Jeśli w danym meldunku zatrzymujesz istniejący przestój i chcesz rozpocząć kolejny, to najpierw kliknij Potwierdź w terminalu i na nowo wczytaj zlecenie / zadanie." type="warning" %}
 
 ---
 

@@ -702,6 +702,10 @@ entries:
       output: web
       url: /karty-jakosci.html
 
+    - title: Kontrola jakości
+      output: web
+      url: /kontrola-jakosci.html
+
   - title: Integracja
     output: web
     folderitems:
