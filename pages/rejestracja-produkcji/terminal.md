@@ -215,6 +215,8 @@ Jeśli chcesz, aby wytworzony zasób został oznaczony dodatkowymi [atrybutami](
 
 Jeśli wytwarzasz produkty z oznaczeniem partii i interesuje Cię traceability ([śledzenie partii](/sledzenie-partii-dla-zlecen)) to ważna dla Ciebie zakładka. Każda rejestracja produkcji powinna odbywać się ze wskazaniem jaka partia wyrobu jest wytwarzana (nawet, gdy meldujesz tylko czas pracy, albo gdy chcesz zaraportować zużycie materiału, ale faktycznego wyrobu jeszcze nie ma). Jeśli w śledzeniu partii zlecenia jest zdefiniowana partia to zostanie ona uzupełniona w terminalu w polu **Partia**. Pracujesz na rzecz innej partii? Wybierz ją korzystając z przycisku lupki. Nie widzisz jej na liście? Zaznacz parametr **Dodaj nową partię** i podaj numer w polu poniżej. Na tej podstawie utworzymy wpis w genealogii i założymy nowy rekord śledzenia w zleceniu.
 
+Dla wytworzonej partii produktu możesz ponadto podać **datę ważności**.
+
 
 ---
 
@@ -228,7 +230,7 @@ Jeśli dla danego działu zaplanowano realizację zleceń naprawy, to będą one
 
 ### Przestoje
 
-{% include lightbox.html file="rejestracjaTerminalPrzestoje.png" alt="Naprawy" caption="Terminal - naprawy" class="float-right"  %}
+{% include lightbox.html file="rejestracjaTerminalPrzestoje.png" alt="Przestoje" caption="Terminal - przestoje" class="float-right"  %}
 
 Realizujesz zlecenie i nagle maszyna się zatrzymuje. Awaria. Co robisz? Oczywiście zgłaszasz problem do Działu Utrzymania Ruchu. Ale też - ewidencjonujesz [przestój](/przestoje). Dzięki temu na etapie rozliczania produkcji będzie wiadomo dlaczego zlecenie jest opóźnione, albo dlaczego tak mało sztuk zostało wytworzonych na zmianie. 
 Przestoje mogą być związane też z innymi sytuacjami - np. przerwą obiadową, spotkaniem działowym, koniecznością przyjęcia dostawy, uzupełnieniem surowca w maszynie, czekaniem na instrukcję wykonania zadania, czy po prostu przerwą na siku. Ustal wewnętrznie jakie sytuacje muszą być zarejestrowane. Pamiętaj, że im dokładniej wyznaczycie czasy pracy i czasy niepracujące, tym wskaźnik OEE będzie lepiej odwierciedlał faktyczne wykorzystanie maszyny.
@@ -242,6 +244,24 @@ I potwierdź standardowo rejestrację w terminalu. Przestój zostanie zapisany w
 Zarejestrowane przestoje widoczne są w tabeli w obszarze Przestoje. 
 
 {% include callout.html content="Jeśli w danym meldunku zatrzymujesz istniejący przestój i chcesz rozpocząć kolejny, to najpierw kliknij Potwierdź w terminalu i na nowo wczytaj zlecenie / zadanie." type="warning" %}
+
+---
+
+### Kontrola jakości
+
+{% include lightbox.html file="rejestracjaTerminalKontrolaJakosci.png" alt="Kontrola jakości" caption="Terminal - kontrola jakości" class="float-right"  %}
+
+Jeśli w trakcie wykonania operacji lub realizacji zlecenia produkcyjnego konieczne jest przeprowadzenie kontroli, to obszar **kontrola jakości** zostanie rozwinięty i będą zaprezentowane w nim zdefiniowane atrybuty z wykorzystanej w technologii [karcie jakości](/karty-jakosci). Dzięki temu pracownik będzie wiedział co musi sprawdzić i może zapisać efekty swojej kontroli, nie opuszczając terminala. 
+
+Lista atrybutów jest zaprezentowana w kolejności ustawionej w technologii. Jeśli raportujesz produkcję z dokładnością do operacji - zobaczysz tylko atrybuty, które trzeba skontrolować przy okazji tej czynności. Dla zleceń raportowanych zbiorczo zaprezentowany zostanie cały zestaw atrybutów z karty jakości.
+
+Dla każdego atrybutu wskaż **wartość** - albo klikając w lupkę i wybierając odpowiednią z listy, albo wprowadzając opis. Jest to zależne od tego jakiego typu jest dany atrybut. 
+
+Jeśli w terminalu widoczny jest produkt zlecony, czyli raportowany jest właśnie efekt końcowy zlecenia, uaktywni się pole **Ocena jakości**. Wybierz z listy jak oceniasz jakość wytworzonego produktu.
+
+W momencie potwierdzenia meldunku wartości atrybutów i ocena jakości zostaną przekazane do [rekordu rejestracji](/rejestracja-produkcji).
+
+
 
 ---
 

@@ -105,7 +105,7 @@ Wprowadzone przestoje będą widoczne w liście [przestojów](/przestoje).
 
 Jeśli zdecydowałeś się na ewidencję wytworzonych wyrobów z dokładnością do partii, to każda rejestracja produkcji powinna zawierać informację o tym, na rzecz jakiej partii wyrobu została praca wykonana. Dzięki temu będziemy w stanie jednoznacznie powiązać zużyte surowce z wytworzoną partią. Zatem jeśli w ramach zlecenia wytworzysz wiele partii, pamiętaj by meldować produkcję osobno do każdej z tych partii.
 
-Ewidencja partii wyrobu odbywa się w zakładce **Partia produktu zleconego**. Jeśli w [śledzeniu partii do zlecenia](/sledzenie-partii-zlecenia) zostało zaplanowane wytworzenie partii - zostanie ona z automatu uzupełniona. Jeśli nie: wskaż partię z listy zdefiniowanych w genalogii [partii](/jak-dodac-numery-partii). Jeśli nie znalazłeś partii, którą wytworzyłeś, możesz zdefiniować ją z tego poziomu, zaznaczając **Dodaj nową partię** i wprowadzając ręcznie **Numer partii**. Założymy ją i podepniemy w polu **Partia**.
+Ewidencja partii wyrobu odbywa się w zakładce **Partia produktu zleconego**. Jeśli w [śledzeniu partii do zlecenia](/sledzenie-partii-zlecenia) zostało zaplanowane wytworzenie partii - zostanie ona z automatu uzupełniona. Jeśli nie: wskaż partię z listy zdefiniowanych w genalogii [partii](/jak-dodac-numery-partii). Jeśli nie znalazłeś partii, którą wytworzyłeś, możesz zdefiniować ją z tego poziomu, zaznaczając **Dodaj nową partię** i wprowadzając ręcznie **Numer nowej partii**. Założymy ją i podepniemy w polu **Partia**.
 
 W zakładce możesz dodatkowo określić **Datę ważności** wytworzonej parti produktu. Data ważności w każdym zasobie tej samej partii musi być taka sama. 
 

@@ -69,8 +69,7 @@ Zdefiniowane elementy struktury zakładu będziesz mógł przypisać do pojedync
 - z jakiego magazynu będą pobierane surowce,
 - czy i na jaki magazyn będą rozchodowane surowce przesunięte na magazyn działowy (pobierania surowców), ale nie zużyte w produkcji,
 - czy produkcja w toku będzie rejestrowana na magazynie czy będzie przechodziła płynnie w ramach procesu produkcyjnego,
-- na jaki magazyn będą przyjmowane wytworzone wyroby,
-- czy wyprodukowane półprodukty lub wyroby po przyjęciu na magazyn mają być przesunięte dokumentem MM do innej lokalizacji.
+- na jaki magazyn będą przyjmowane wytworzone wyroby.
 
 Wprowadzone magazyny program traktuje jako wartości domyślne. Będą one się podpowiadać podczas tworzenia technologii w zakładce Przepływy, ale będą mogły zostać przez Ciebie zmienione na dowolnie inne. Ale o tym dowiesz się w [kroku 5. - opisującym zakładanie technologii](/krok-4-technologie).
 

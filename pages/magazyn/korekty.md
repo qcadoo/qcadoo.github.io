@@ -16,6 +16,7 @@ Aby wprowdzić korektę wejdź w Magazyn > Zasoby, znajdź interesujący Cię wi
 - przelicznik
 - [numer palety](/numery-wlasne-palet)
 - typ palety
+- ocenę jakości
 - [atrybuty](/atrybuty)
 
 **Atrybuty** zasobu widoczne są w osobnej zakładce:

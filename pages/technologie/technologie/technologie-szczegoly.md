@@ -136,6 +136,20 @@ Strukturę wyrobu można wygenerować po sprawdzeniu technologii.
 
 {% include callout.html content="Technologie na komponent mogą być wielopoziomowe - wyrób może mieć na liście produktów wejściowych komponent. A technologia na komponent może mieć na liście produktów wejściowych inny komponent, czy nawet listę komponentów" type="info" %}
 
+## Kontrola jakości 
+
+Jeśli chcesz, aby podczas podczas produkcji, wraz z wykonywaniem zaplanowanych w technologii czynności, przeprowadzana była [kontrola jakości](/kontrola-jakosci), musisz wskazać co na jakim etapie ma być sprawdzane. Masz już zbudowane drzewo technologii (lista operacji) i w zakładce Główna podaną kartę jakości? Jeśli tak - możesz przystąpić do przypisania atrybutów do operacji. 
+
+{% include lightbox.html file="technologieTechnologieKontrolaJakosci.png" alt="Kontrola jakości technologii" caption="Kontrola jakości technologii" %}
+
+Przejdź do zakładki **Kontrola jakości**. W lewej tabeli zobaczysz wszystkie zdefiniowane w drzewie operacje. Zaznacz tą operację, podczas której kontrola ma być wykonywana, i w prawej tabeli dodaj atrybuty (przycisk: {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %} **Nowy**), korzystając z listy przygotowanej w [karcie jakości](/karty-jakosci).  Dla każdego atrybutu możesz doprecyzować moment weryfikacji - czy ma to być przed operacją, w jej trakcie czy po zakończeniu. Rozpisz w ten sposób wszystkie atrybuty z karty jakości.
+
+O tym, że choć jeden atrybut jest przypisany do operacji dowiesz się dzięki wartośći 'tak' w kolumnie KJ w lewej tabeli.
+
+Warto podkreślić, że jeśli raportujesz produkcję zbiorczo, to nie ma znaczenia do jakiej operacji będą przypisane atrybuty. W terminalu i tak wszystkie elementy będą wyświetlone na raz. Jeśli raportujesz z dokładnością do operacji - wprowadź dane skrupulatnie. Pracownik po zalogowaniu się do terminala i wybraniu zadania, które ma realizować, zostanie poinformowany o tym jakie czynności kontrolne będzie musiał przy okazji przeprowadzić.
+
+{% include callout.html content="Atrybuty mogą być też przypisane poprzez okno edycyjne operacji, wywołane z drzewa technologii." type="warning" %}
+
 
 ## Zasięg technologii ##
 
@@ -218,10 +232,6 @@ W tej zakładce dla sprawdzonych i zaakceptowanych technologii pojawia się stru
 ## Zakładka "Minimalna ilość" ##
     
 W tej zakładce wpisujemy minimalną ilość jaką opłaca się nam produkować. Jest to istotne z punktu widzenia Zlecenia produkcyjnego, ponieważ jeśli uruchomimy zlecenie na mniejszą ilość niż opłacalna, program poinformuje nas o tym, aby ostrzec przed popełnieniem ewentualnego błędu.
-
-## Zakładka "Genealogia dla zleceń" ##
-
-W tym miejscu podejmujemy decyzję o tym, czy produkt tworzony w ramach tej technologii będzie objęty wymogiem przypisania mu numeru partii. Innymi słowy: jeśli będziemy chcieli dla produktów wytworzonych w tej technologii śledzić numery partii, to czy produkt końcowy będzie musiał mieć również określony numer partii. Więcej o [Genealogii](/genealogia).
 
 ---
 

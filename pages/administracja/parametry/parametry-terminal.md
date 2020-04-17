@@ -25,4 +25,5 @@ Parametry terminala konfigurują [terminal rejestarcji produkcji](/terminal). We
 - przycisk **Dostępność surowców**
 - obszar **Naprawy**
 - obszar **Przestoje**
+- obszar **Kontrola jakości**
 
