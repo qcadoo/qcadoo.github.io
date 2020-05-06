@@ -2,7 +2,11 @@
 title: "Słowniki"
 permalink: slowniki.html
 ---
-Słowniki pomagają indywidualnie zdefiniować pojęcia dla następujących opcji:
+Słowniki pomagają indywidualnie zdefiniować pojęcia dla wielu opcji, które napotkasz w qcadoo. Przejdziesz do nich z dwóch poziomów:
+**Podstawowe > Słowniki**
+**Administracja > Słowniki**
+
+Dostępne są następujące słowniki:
 
 - **Kategorie produktów** - stosowane w [Produktach](/produkty)
 - **Jednostki** - jednostki miar i wag stosowane w [Produktach](/produkty)

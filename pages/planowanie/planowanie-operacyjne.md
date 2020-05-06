@@ -1,11 +1,11 @@
 ---
-title: "Planowanie operacyjne"
+title: "Zadania operacyjne"
 permalink: planowanie-operacyjne.html 
 ---
 
 W qcadoo obsługiwane są dwa podejścia do planowania. Pierwsze zakłada, że planujemy całe [zlecenia produkcyjne](/zlecenia-produkcyjne), przypisując je do [linii](/linie-produkcyjne). W tym podejściu wszystkie operacje wykonywane są po kolei, bez możliwości odłożenia w czasie realizacji części czynności. Drugie podejście zakłada planowanie każdej operacji zlecenia osobno. Operacje przypisywane są do [stacji roboczych](/stacje-robocze) i/lub do [pracowników](/pracownicy). I to one układane są czasowo oraz raportowane. Odzwierciedleniem zaplanowanej operacji jest zadanie operacyjne. Zadanie operacyjne to element planowania operacyjnego. I właśnie o nich będzie opowiadała ta strona dokumentacji.
 
-Aby przejrzeć listę zadań operacyjnych wejdź w **Planowanie > Planowanie operacyjne**:
+Aby przejrzeć listę zadań operacyjnych wejdź w **Planowanie > Zadania operacyjne**:
 
 {% include lightbox.html file="planowaniePlanowanieOperacyjneLista.png" alt="Lista zadań operacyjnych" caption="Lista zadań operacyjnych" %}
 

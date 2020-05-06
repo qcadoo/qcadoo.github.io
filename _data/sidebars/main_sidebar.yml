@@ -524,7 +524,7 @@ entries:
           output: web
           url: /planowanie-zlecen.html
           
-    - title: Planowanie operacyjne
+    - title: Zadania operacyjne
       output: web
       url: /planowanie-operacyjne.html
 
@@ -705,6 +705,10 @@ entries:
     - title: Kontrola jakości
       output: web
       url: /kontrola-jakosci.html
+
+    - title: Wyniki kontroli jakości
+      output: web
+      url: /wyniki-kontroli-jakosci.html
 
   - title: Integracja
     output: web

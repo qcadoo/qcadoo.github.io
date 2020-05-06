@@ -22,7 +22,7 @@ Należy skopiować zlecenie - wtedy pojawi się duplikat, tyle że w statusie sz
  {% include callout.html content="Możliwe jest rozpoczęcie zlecenia przed planowanym terminem." type="info" %}
  
 - {% include inline_image.html file="pauseIcon16.png" alt="Przycisk do wstrzymania" %} **Przerwane** - ten status jest przydatny w sytuacji, gdy okazuje się, że na przykład zabrakło surowców, klient nie zapłacił jednej z faktur, rozchorował się pracownik realizujący kluczowe zadanie. Zlecenie może zostać ponownie wystartowane,
-- {% include inline_image.html file="acceptIcon24.png" alt="Przycisk do akceptacji" %} **Zakończone** - zlecenie zostało sfinalizowane, udało się doprowadzić je do końca,
+- {% include inline_image.html file="acceptIcon24.png" alt="Przycisk do akceptacji" %} **Zakończone** - zlecenie zostało sfinalizowane, udało się doprowadzić je do końca. Zakończyć można tylko zlecenia, w których ilość wyprodukowana > 0,
 - {% include inline_image.html file="deleteIcon24.png" alt="Przycisk do usuwania" %} **Zaniechane** - zlecenie zostało wycofane z produkcji w trakcie realizacji.
 
 {% include lightbox.html file="planowanieStatusyZlecenia.png" alt="Ścieżka statusów" caption="Ścieżka statusów" %}

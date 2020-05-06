@@ -93,4 +93,24 @@ Zapewne zastanawiasz się do czego służą i czy mogłyby Ci pomóc w codzienne
 4. **dodaj wiele pozycji** - przycisk aktywny w rochodowym dokumencie. Kliknij go jeśli chcesz zaznaczyć wiele zasobów na raz, które mają zostać wydane - program zaciągnie je do dokumentu z ilością ustaloną na podstawie ilości dostępnej w zasobie
 5. **dobierz zasoby** - funkcja dostępna w rozchodowych dokumentach na magazynach, dla których szkicowe dokumenty rezerwują stany. Kliknij jeśli chcesz aby program do pozycji dokumentu dobrał zasoby wg metody rozchodu ustalonej na magazynie. Dzięki temu jeszcze przed akceptacją będziesz w stanie przejrzeć (i zmienić)skąd (z jakiego miejsca, z jakiej palety) produkt trzeba będzie wydać
 6. **Importuj pozycje z XLSX** - funkcja dostępna w dokumentach przychodowych. Pozwala na dodanie do dokumentu pozycji z pliku Excel. To znaczne przyspieszenie. Funkcja będzie szczególnie przydatna przy rozpoczynaniu prac w qcadoo - w ten sposób łatwo wprowadzisz stan początkowy na magazyn. Jak z niej skorzystać? Dodaj dokument i wypełnij w nim dane nagłówkowe (zakładka Nagłówek). Kliknij przycisk {% include inline_image.html file="przyciskImportujPozycjeZXLXS.png" alt="Przycisk Importuj pozycje z XLSX" %} **Importuj pozycje z XLSX** i pobierz szablon do importu (przycisk {% include inline_image.html file="przyciskPobierzSzablon.png" alt="Przycisk Pobierz szablon" %} **Pobierz szablon**). Wypełnij go danymi (koniecznie wprowadź numer produktu i ilość - reszta kolumn może, ale nie musi być wypełniona), zapisz na dysku. Następnie wróć do dokumentu, ponownie kliknij przycisk importu, wskaż utworzony plik z danymi i kliknij {% include inline_image.html file="przyciskImportuj.png" alt="Przycisk Importuj" %} **Importuj**. Gotowe. Teraz możesz akceptować - co spowoduje przyjęcie produktów na magazyn. Jeśli podczas importu coś pójdzie nie tak, to szczegóły możesz poznać przeglądając logi dostępne z okna importu. Obsługa importu danych z Excel opisana jest również [tutaj](/import-z-excel).
+
+Jeszcze słów kilka o tym jak powinny być wypełnione kolumny w arkuszu. 
+- **produkt** (kolumna A) - podaj numer produktu zdefiniowanego w qcadoo
+- **ilość** (kolumna B) - wartość musi być liczbowa i większa od 0. Jest to ilość w jednostce podstawowej produktu
+- **ilość dodatkowa** (kolumna C) - jeśli prowadzisz ewidencję produktu w dwóch jednostkach to tu podaj ilość w jednostce dodatkowej
+- **przelicznik** (kolumna D) - podaj jaki jest przelicznik między jednostkami (przykład: masz jednostkę podstawową 'karton', a dodatkową 'sztuka'. W kartonie mieści się 20 sztuk. Zatem przelicznik to 20)
+- **cena** (kolumna E) - cena po jakiej przyjmujesz dany produkt na magazyn, np. cena zakupu
+- **partia** (kolumna F) - numer partii przyjmowanego produktu. Na tej podstawie zostanie założona [partia](/jak-dodac-numery-partii) w genealogii i odpowiednio podpięta do dokumentu
+- **data produkcji** (kolumna G) - np. 01.05.2020
+- **data ważności** (kolumna H) - np. 01.05.2021
+- **miejsce składowania** (kolumna I) - do podania [miejsce składowania](/miejsca-skladowania) zdefiniowane w qcadoo. Ważne, aby była to lokalizacja przypisana do magazynu wskazanego w nagłówku dokumentu
+- **typ palety** (kolumna J) - jeśli składujesz produkty na paletach, to wskaż tu wartość zdefiniowaną w [słowniku](/slowniki) typy palet
+- **numer palety** (kolumna K) - jeśli składujesz produkty na paletach, to wprowadź tutaj [numer palety](/numery-wlasne-palet) zdefiniowanej w qcadoo.
+
+---
+
+{:start="7"}
 7. **Pokaż atrybuty produktu** - zaznacz pozycję dokumentu i kliknij przycisk, aby zobaczyć jakie [atrybuty](/atrybuty) są przypisane do danego produktu. 
+
+
+{% include callout.html content="Do dokumentu rozchodowego nie są dobierane zasoby, które są zablokowane do [kontroli jakości](/kontrola-jakosci)" type="warning" %}
