@@ -36,6 +36,7 @@ Uzupełnij:
 
 - **data**, w której przeprowadzasz kontrolę. Podpowiemy Ci datę dzisiejszą
 - **pracownik**, który konroluje. Zakładamy, że to Ty, zatem podpowiemy pracownika przypisanego do Twojego użytkownika
+- **opis**, w którym możesz zostawić ważne dla siebie informacje
 
 i zapisz, używajac przycisku {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**. 
 
@@ -43,9 +44,16 @@ W tym momencie kontrola jakości dostanie swój unikalny **numer**. Ponadto zost
 
 {% include lightbox.html file="jakoscKontrolaJakosciNowyAtrybutyKontroli.png" alt="Lista atrybutów kontroli" caption="Lista atrybutów kontroli" %}
 
-Widoczne są tu wszystkie **atrybuty zdefiniowane w karcie jakości**. To te elementy musisz sprawdzić, najlepiej w kolejności zaprezentowanej w tabeli. Potrzebujesz wydruku z listą rzeczy do skontrolowania? Proszę bardzo - wydruk kontroli jakości dostępny jest pod przyciskiem PDF.
+Widoczne są tu wszystkie **atrybuty zdefiniowane w karcie jakości**. To te elementy musisz sprawdzić, najlepiej w kolejności zaprezentowanej w tabeli. Potrzebujesz wydruku z listą rzeczy do skontrolowania? Proszę bardzo - wydruk kontroli jakości dostępny jest pod przyciskiem {% include inline_image.html file="przyciskKontrolaJakosci.png" alt="Przycisk Kontrola jakości" %} **Kontrola jakości**.
 
-Pozostaje Ci zmienić status na **Rozpoczęta** (przycisk  {% include inline_image.html file="przyciskRozpocznij.png" alt="Przycisk Rozpocznij" %} **Rozpocznij**) i, co pewnie najważniejsze w całym procesie, fizyczne przeprowadzenie kontroli. 
+Jeśli chcesz do kontroli jakości możesz podpiąć załączniki - np. rysunki techniczne czy inną dokumentację mająca pomóc w przeprowadzeniu kontroli. W zakładce **Załączniki** możesz załączyć plik albo przez kliknięcie w przycisk **Wybierz pliki** i wskazanie go z dysku, albo poprzez przeciągnięcie i upuszczenie w czarny obszar opisany tekstem **Upuść pliki tutaj**. 
+
+{% include lightbox.html file="jakoscKontrolaJakosciNowyZalaczniki.png" alt="Załączniki w kontroli jakości" caption="Załączniki w kontroli jakości" %}
+
+Jeśli [karta jakości](/karty-jakosci), na podstawie której będziesz weryfikować jakość produktów, ma załączniki, to zostaną one z automatu zaciągnięte do kontroli jakości.
+Podpięte pliki możesz podejrzeć klikając w nie, albo pobrać zaznaczając i klikając przycisk {% include inline_image.html file="przyciskPobierz.png" alt="Przycisk Pobierz" %} **Pobierz**.
+
+Gotowe. Pozostaje Ci zmienić status na **Rozpoczęta** (przycisk  {% include inline_image.html file="przyciskRozpocznij.png" alt="Przycisk Rozpocznij" %} **Rozpocznij**) i, co pewnie najważniejsze w całym procesie, fizyczne przeprowadzenie kontroli. 
 
 {% include callout.html content="Rozpoczęcie kontroli jakości zablokuje podane w tabeli zasoby. Co znaczy zablokuje? Ustawi flagę w zasobie (więc przeglądając listę, będziesz wiedział, które są aktualnie kontrolowane) i ograniczy listę możliwych do rozchodowania zasobów do tych, które tej flagi nie posiadają." type="warning" %}
 

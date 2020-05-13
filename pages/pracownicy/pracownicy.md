@@ -1,11 +1,11 @@
 ---
 title: "Pracownicy"
 permalink: pracownicy.html
-toc: false
+toc: true
 ---
 Każdy pracownik ma w systemie przypisany swój identyfikator, imię i nazwisko oraz (pole niewymagane) stanowisko, na którym pracuje. Ostatnie pole nie jest wymaganym, ponieważ wiemy, że zdarzają się sytuacje, gdy jeden pracownik posiada kompetencje do wypełniania zadań na więcej niż jednym stanowisku. Dodatkowo każdemu pracownikowi możemy przypisać zmianę, na której pracuje oraz dział. Te pola również nie są wymagane, ponieważ w zależności od zlecenia pracownicy mogą pracować na różnych zmianach lub w różnych działach.
 
-## Jak dodać pracownika?
+## Jak dodać ręcznie pracownika?
 
 Bazę pracowników uzupełniamy wybierając:
 
@@ -28,6 +28,24 @@ Pracownik może zostać też przypisany do:
 - działu - przypisany dział będzie podpowiadał się po zalogowaniu do terminala, a to ograniczy widoczne zlecenia czy zadania operacyjne
 - stacji roboczej - tu podobnie: jeśli przypiszesz pracownikowi stację roboczą, to po zalogowaniu do terminala lista zadań operacyjnych będzie ograniczona do tej stacji (pracownik zobaczy też zadania bez przypisanej stacji roboczej)
 - załogi - dzięki temu będziesz mógł wyszukać wszystkich pracowników Twojej załogi podczas tworzenia [przydziału do zmian](/przydzial-do-zmian)
+
+## Jak dodać pracowników poprzez import z arkusza Excel?
+
+Nie musisz wprowadzać każdego z pracowników ręcznie do systemu. Możesz przygotować dane w arkuszu Excel i zaciągnąć całą listę na raz do qcadoo. Jak tego dokonać? Zacznij od zapoznania się z [tą dokumentacją](/import-z-excel) - każdy import danych z pliku .xlsx działa wg takich samych zasad. Pobierasz szablon, wypełniasz go danymi i zaciągasz do qcadoo. W tym przypadku w arkuszu możesz podać następujace informacje:
+
+- **numer** (kolumna A) - kolumna musi być wypełniona. Numer może być zarówno liczbą jak i dowolnym tekstem. Ważne, aby dany numer wystąpił tylko raz,
+- **imię** (kolumna B) - koniecznie podaj jak pracownik ma na imię,
+- **nazwisko** (kolumna C) - nazwisko również jest daną wymaganą,
+- **e-mail** (kolumna D) - dana opcjonalna, jeśli chcesz możesz zapisać adres e-mail swojego pracownika. E-mail będzie potrzebny, jeśli pracownik ten będzie miał otrzymywać powiadomienia mailowe, np. o automatycznym utworzeniu dostawy,
+- **telefon** (kolumna E) - dana opcjonalna,
+- **pracuje dla** (kolumna F) - w kolumnie możesz wpisać dla kogo pracuje dana osoba. Wpisz w tym celu numer firmy zdefiniowanej w qcadoo. Jeśli korzystasz z portalu podwykonawców, to zdefiniuj w qcadoo również pracowników kooperanta, którzy mają mieć dostęp do portalu,
+- **stanowisko** (kolumna G) - dana opcjonalna, możesz opisać jakie stanowisko pracownik zajmuje,
+- **dział** (kolumna H) - dana opcjonalna, jeśli chcesz przypisać pracownika do działu, podaj numer zdefiniowanego działu w qcadoo,
+- **stacja robocza** (kolumna I) - dana opcjonalna, jeśli chcesz możesz przypisać pracownika do stacji roboczej, podając numer stacji zdefiniowanej w qcadoo. Stacja ta musi być przypisana do działu podanego wyżej,
+- **załoga** (kolumna J) - jeśli pracownik jest częścią zdefiniowanej w qcadoo załogi, podaj w kolumnie jej numer.
+
+{% include callout.html content="Jeśli plik ma posłużyć aktualizacji danych pamiętaj o zaznaczeniu w oknie importu opcji **Czy aktualizować istniejące dane?**." type="warning" %}
+
 
 ---
 

@@ -690,7 +690,7 @@ entries:
       output: web
       url: /sledzenie-partii-dla-zlecen.html
 
-  - title: Kontrola jakości
+  - title: Jakość
     output: web
     folderitems:
 

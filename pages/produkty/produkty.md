@@ -3,58 +3,148 @@ title: "Produkty"
 permalink: produkty.html
 ---
 
-W qcadoo w "Produktach" gromadzimy: surowce, wyroby, półprodukty i odpady. 
-Produkty możemy dodać na kilka sposobów: ręcznie - definiując każdy po kolei, integrując qcadoo z używanym do tej pory w firmie systemem magazynowo-księgowym ([więcej o Integracji.](/integracja)) czy poprzez import z Excela.
+Produkty to bardzo ważny element qcadoo. To one będą zlecane na produkcje. To one będą zużywane w procesie produkcyjnym. To one będą kształtowały technologię. To je będziesz składować na magazynie. To produkty będą poddawane kontroli. To do produktów będą ewidencjonowane partie. Zastosowań jest pewnie jeszcze kilka. Produkty musisz uzupełnić na starcie wdrożenia i dbać o aktualizację listy na bieżąco podczas pracy w systemie.
 
-## Jak ręcznie dodać produkty?  
+Listę produktów znajdziesz w **Produkty > Produkty**:
 
-Decydując się na ręczne wprowadzanie produktów, wybieramy:
+{% include lightbox.html file="produktyProduktyLista.png" alt="Lista produktów" caption="Lista produktów" %}
+
+Z poziomu listy możesz:
+- dodać ręcznie produkty
+- zaimportować produkty z Excela
+- utworzyć zlecenia produkcyjne
+- zaktualizować koszty produktów
+
+Funkcje te zostaną szczegółowo opisane poniżej.
+
+# Jak dodać produkty?
+
+Zacznijmy od dodawania produktów. Możesz to zrobić na kilka sposobów: ręcznie - definiując każdy po kolei, integrując qcadoo z używanym do tej pory w firmie systemem magazynowo-księgowym ([więcej o integracji](/integracja)) czy poprzez import z Excela.
+
+## Ręczne dodawanie produktów
+
+Decydując się na ręczne wprowadzanie produktów, wybierz:
 
 **Produkty >> Produkty >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**  
 
-{% include lightbox.html file="Podstawowe-produkty-glowna.png" alt="Formularz produktu" caption="Formularz produktu" %}  
+{% include lightbox.html file="Podstawowe-produkty-glowna.png" alt="Formularz dodawania produktu" caption="Formularz dodawania produktu" %}  
 
-- W zakładce **"Główna"** nadajemy produktom numer i nazwę oraz typ produktu i jednostkę, podajemy też kod EAN (kod kreskowy).   
- Niekiedy półprodukt jest jednocześnie produktem finalnym, dlatego, choć jest to pole obowiązkowe, nie ma to dalszych konsekwencji w systemie (jest to parametr potrzebny w przypadku integracji qcadoo z innym oprogramowaniem).
-- W zakładce **Rodzina** określamy czy dodany przez nas produkt reprezentuje konkretny produkt czy rodzinę produktów. Jeśli produkt należy do istniejącej już rodziny produktów tutaj możemy go do niej przypisać.
-- W zakładce **Historia** mamy podgląd na daty dodania i edycji produktu oraz nazwę pracownika wprowadzającego dane.
-- Jeśli w produkcji stosujemy zamienniki produktów, to w zakładce **Zamienniki** możemy je zdefiniować. Dla każdego zamiennika konieczne jest określenie jaka ilość subsytutu zastępuje jednostkę naszego produktu (np. ksylitol może być zamiennikiem cukru białego. Ale gdy zaplanowaliśmy użycie 1 kg cukru białego, to stosując zamiennik w postaci ksylitolu trzeba będzie wykorzystać 1,1 kg). Takie wyjątki Ciebie nie dotyczą? Zawsze subsytut zastępuje zaplanowany produkt 1 do 1? Możesz wprowadzić listę zamienników zdecydowanie szybciej zaznaczając w liście odpowiednie produkty. W tym celu użyj przycisku {% include inline_image.html file="przyciskDodajWieleZamiennikow.png" alt="Przycisk Dodaj wiele zamienników" %} **Przycisk Dodaj wiele zamienników**. 
+Zacznij od wypełnienia zakładki Główna. Podaj koniecznie:
+- **numer** - do wpisania dowolny tekst (nie tylko liczba). Potraktuj pole jako miejsce do zostawienia symbolu, skrótu, identyfikatora produktu. Niech pracownicy po numerze potrafią ustalić co to za produkt. Jeśli nie stosujecie skrótów - może być to to samo co nazwa,
+- **nazwa** - wprowadź pełną nazwę produktu. Im więcej szczegółów tym lepiej - niech pracownik wie z czym ma do czynienia,
+- **jednostka podstawowa** - wybierz z listy dostępnych [jednostek](/slowniki) właściwą. Jest to jednostka podstawowa - w niej będzie prowadzona ewidencja magazynowa, ona będzie się zawsze podpowiadała, gdy będziesz musiał określić ilość tego produktu.
 
-{% include callout.html content="Zamienniki będzie można wykorzystać do produkcji - więcej w tym temacie przeczytasz [tutaj](/rejestracja-produkcji.html#jak-zarejestrować-wykorzystany-zamiennik) " type="info" %}
+Możesz uzupełnić też produkt o następujące informacje:
+- **globalny typ materiału** - możesz oznaczyć produkt jako: produkt finalny, półprodukt, surowiec lub odpad. Ułatwi Ci to odszukanie produktów odpowiedniego typu,
+- **jednostka dodatkowa** - jeśli chciałbyś prowadzić ewidencję magazynową w dwóch jednostkach, to podaj tutaj jednostkę dodatkową. Pamiętaj o zdefiniowaniu przelicznika między jednostką podstawową a jednostką dodatkową,
+- **kod EAN** - jeśli używasz dodatkowego kodu do identyfikacji produktu, możesz go tutaj podać. Kod EAN musi być unikalny,
+- **kategoria produktu** - pole służy do grupowania produktów. Zdefiniuj w [słowniku Kategorie produktów](/slowniki) odpowiednie wartości i przypisz produktowi jedną z nich. Kategorię produktu zobaczysz m.in. w terminalu w oknie wyboru zleceń,
+- **opis** - w tym polu możesz zostawić te informacje, które są dla Ciebie ważne, ale nie znalazłeś na nie miejsca w innych dostępnych polach,
+- **producent** - wskaż tutaj producenta danego produktu, korzystając z listy [firm](/firmy) zdefiniowanych w qcadoo,
+- **asortyment** - do wybrania [asortyment](/asortymenty) zdefiniowany w qcadoo. Asortyment to dodatkowa forma grupowania produktów, niezbędna, gdy chcesz korzystać z [grup zleceń](/grupy-zlecen).
+
+Tak opisany produkt możesz zapisać używając przycisku {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**.
+
+---
+
+W produkcie widocznych jest szereg **dodatkowych zakładek**, w których możesz doszczegółowić dany indeks.
+
+1. zakładka **Rodzina** 
+
+{% include lightbox.html file="produktyProduktyRodzina.png" alt="Rodzina produktu" caption="Rodzina produktu" %} 
+
+to kolejny sposób na grupowanie produktów (jak widzisz - dostępnych jest kilka, więc albo wybierz ten, który jest dla Ciebie najwygodniejszy, albo wykorzystaj każdy, grupując produkty wg różnych kryteriów). Ogólna idea jest taka - tworzymy rodziny i do tych rodzin podpinamy konkretne produkty. Rodzina produktów dodawana jest jak standardowy produkt - różnica polega na tym, że w zakładce Rodzina ustawić musisz **Reprezentuje = rodzinę produktów**. Jeśli chcesz 'normalne' produkty (czyli takie, które mają **Reprezentuje = konkretny produkt**) podpiąć pod rodzinę, to w zakładce rodzina w polu **Należy do rodziny** wskaż tą rodzinę właśnie.
+
+Rodzina produktu wykorzystywana jest w [generatorze technologii](/generator-technologii) do oznaczania tych produktów, do których mają tworzyć się nowe produkty.
+
+{:start="2"}
+2. zakładka **Zamienniki** 
+
+{% include lightbox.html file="produktyProduktyZamienniki.png" alt="Zamienniki produktu" caption="Zamienniki produktu" %} 
+
+Jeśli w produkcji stosujemy zamienniki produktów, to w zakładce **Zamienniki** możemy je zdefiniować. Dla każdego zamiennika konieczne jest określenie jaka ilość subsytutu zastępuje jednostkę naszego produktu (np. ksylitol może być zamiennikiem cukru białego. Ale gdy zaplanowaliśmy użycie 1 kg cukru białego, to stosując zamiennik w postaci ksylitolu trzeba będzie wykorzystać 1,1 kg). Takie wyjątki Ciebie nie dotyczą? Zawsze subsytut zastępuje zaplanowany produkt 1 do 1? Możesz wprowadzić listę zamienników zdecydowanie szybciej zaznaczając w liście odpowiednie produkty. W tym celu użyj przycisku {% include inline_image.html file="przyciskDodajWieleZamiennikow.png" alt="Przycisk Dodaj wiele zamienników" %} **Przycisk Dodaj wiele zamienników**. 
+
+{% include callout.html content="Zamienniki będzie można wykorzystać do produkcji - więcej w tym temacie przeczytasz [tutaj](/rejestracja-produkcji.html#jak-zarejestrować-wykorzystany-zamiennik) " type="warning" %}
+
+{:start="3"}
+3. zakładka **Przeliczenia jednostek** 
+
+{% include lightbox.html file="produktyProduktyPrzeliczeniaJednostek.png" alt="Przeliczenia jednostek produktu" caption="Przeliczenia jednostek produktu" %} 
+
+Jeśli planujesz wprowadzać ilości produktu w innych jednostkach niż jednostka podstawowa, to musisz zdefiniować tutaj przeliczniki między tymi jednostkami. Z lewej strony równania niech będzie jednostka podstawowa - z prawej podaj dowolną inną jednostkę. Przykład: ewidencjonujesz na magazynie produkty w kartonach, ale chcesz też wiedzieć ile konkretnie sztuk produktu posiadasz. Jeśli w jednym kartonie jest 20 sztuk produktów wprowadź przelicznik: 1 karton = 20 szt.
 
 
-- Zakładka **Przeliczenia jednostki** umożliwia przeliczenie głównej jednostki produktu. W tym miejscu wprowadzamy informację, na jaką inną jednostkę może być przeliczona główna jednostka produktu.  
-
-- W zakładce **Koszty** podajemy 4 rodzaje cen zakupu danego surowca: cenę ostatniego zakupu, cenę z ostatniej oferty, ceny obliczone na podstawie średnich ważonych oraz koszt nominalny produktu.  
-
-{% include lightbox.html file="Podstawowe-%20produkty-%20koszty.png" alt="Koszty produktu" caption="Koszty produktu" %}  
- 
-- W zakładce **Technologie** przypisujemy produktowi powiązaną grupę technologii. 
-- W zakładce **Załączniki** możemy podpiąć różnego formatu pliki, które można pobrać z wielu poziomów Qcadoo MES w trakcie produkcji.
-- W zakładce **Dostawcy** istnieje możliwość wskazania [firmy](/Firmy), która dostarcza dany produkt i określenie jedną z nich jako domyślnego dostawcę.
-- W zakładce **Partie** możesz określić, czy dany produkt ma być zawsze ewidencjonowany wraz z numerem partii. Wówczas - wszędzie tam, gdzie produkt będzie pojawiał się na dokumencie magazynowym, będziemy prosili o wskazanie dodatkowo [partii produktu](/jak-dodac-numery-partii).
-- W zakładce **Atrybuty** możesz dodatkowo opisać produkt używając zdefiniowanych wcześniej [atrybutów](/atrybuty)
-
+{:start="4"}
+4. zakładka **Atrybuty** - możesz w niej dodatkowo opisać produkt używając zdefiniowanych wcześniej [atrybutów](/atrybuty)
 
 {% include lightbox.html file="podstawoweProduktyAtrybuty.png" alt="Atrybuty produktu" caption="Atrybuty produktu" %} 
 
-{% include lightbox.html file="podstawoweProduktyAtrybutyNowy.png" alt="Przypisanie atrybutu do produktu" caption="Przypisanie atrybutu do produktu" class="float-right" %}
+{% include lightbox.html file="podstawoweProduktyAtrybutyNowy.png" alt="Przypisanie atrybutu do produktu" caption="Przypisanie atrybutu do produktu" %}
 
 Aby przypisać do produktu atrybut i określić jego wartość, kliknij w tabeli Atrybuty przycisk {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy" %} **Nowy**, wskaż atrybut (widoczne są tylko te, które zostały określone jako atrybut produktu) i określ wartość. Jeśli typ atrybutu to wyliczeniowy - wybierz ją z listy. Jeśli typ ciągły - wprowadź wartość ręcznie. Pamiętaj, że jeśli rodzaj atrybutu to 'liczbowy', to pozwolimy na wpisanie tylko wartości liczbowej, z maksymalną ilością miejsc po przecinku taką, jaką określa precyzja.
 
-{% include callout.html content="Dany atrybut może być do produktu przypisany wielokrotnie, ale każdorazowo musi być wprowadzona jego inna wartość." type="info" %}
+{% include callout.html content="Dany atrybut może być do produktu przypisany wielokrotnie, ale każdorazowo musi być wprowadzona jego inna wartość." type="warning" %}
+
+{:start="5"}
+5. zakładka **Charakterystyka produktu**
+
+{% include lightbox.html file="produktyProduktyCharakterystyka.png" alt="Charakterystyka produktu" caption="Charakterystyka produktu" %} 
+
+W zakładce tej możesz podać następujące dane:
+- **rozmiar** - do podania dowolny tekst. Rozmiar widoczny jest np. w analizach
+- **ważność** - jeśli chcesz abyśmy wyznaczali datę ważności produkowanych wyrobów, podaj w polu ważność wyrażoną w miesiącach. Podczas rejestracji podpowiemy datę ważności późniejszą od daty rozpoczęcia zlecenia o podaną ilość miesięcy
+- **forma** - jeśli do produkcji będziesz używał konkretnej formy, możesz ją tutaj wskazać
+- **pokaż jako materiał na karcie produktu** - produkty wejściowe technologii z zaznaczonym parametrem pojawiają się na karcie produktu
+
+{:start="6"}
+6. zakładka **Kody dodatkowe**
+
+{% include lightbox.html file="produktyProduktyKodyDodatkowe.png" alt="Kody dodatkowe produktu" caption="Kody dodatkowe produktu" %} 
+
+Kod dodatkowy przyda się w sytuacji, gdy ten sam produkt jest przez różnych dostawców inaczej indeksowany. Możesz przyjąć produkt pod jednym indeksem, a pozostałe zapisać jako kody dodatkowe.
+
+{:start="7"}
+7. zakładka **Załączniki**
+
+{% include lightbox.html file="produktyProduktyZalaczniki.png" alt="Załączniki produktu" caption="Załączniki produktu" %} 
+
+Jeśli chcesz do produktu możesz podpiąć załączniki - np. rysunki techniczne, certyfikaty, czy inną dokumentację mająca pomóc w identyfikacji. W zakładce **Załączniki** możesz załączyć plik albo przez kliknięcie w przycisk **Wybierz pliki** i wskazanie go z dysku, albo poprzez przeciągnięcie i upuszczenie w czarny obszar opisany tekstem **Upuść pliki tutaj**. 
+Podpięte pliki możesz podejrzeć klikając w nie, albo pobrać zaznaczając i klikając przycisk {% include inline_image.html file="przyciskPobierz.png" alt="Przycisk Pobierz" %} **Pobierz**.
+
+{:start="8"}
+8. zakładka **Koszty**
+
+{% include lightbox.html file="produktyProduktyKoszty.png" alt="Koszty produktu" caption="Koszty produktu" %} 
+
+Dane zawarte w tej zakładce to podstawa do [kalkulacji kosztów](/koszty-zlecenia). W zależności od tego jak ustawisz [parametry rozliczenia](/parametry-rozliczenie-produkcji) (źródło kosztów materiałó∑ i wykorzystywane koszty materiałów) to takie konkretne ceny będziemy do kalkulacji pobierać. Jakie są możliwości?
+- cena ostatniego przychodu
+- cena średnio ważona
+- cena z ostatniej oferty
+- cena średnio ważona
+
+do tego jest też koszt nominalny. Tu zastosowanie jest szersze - możesz to pole wykorzystać do kalkulacji kosztów. Ale możesz też wytworzone produkty przyjmować w tej właśnie cenie. Aby tak się stało w parametrach rozliczenia produkcji **Cena PW na podst. = koszt nominalny produktu**. Koszt ten możesz albo uzupełniać sam, albo wyliczyć TKW przy pomocy kalkulacji kosztów i zapisać koszt używając funkcji {% include inline_image.html file="przyciskZapiszKosztNominalnyWyboru.png" alt="Przycisk Zapisz koszt nominalny wyrobu" %} **Zapisz koszt nominalny wyrobu**.
+Dla prawidłowego określenia kosztów ważne jest też pole **Podane koszty/ceny dotyczą ilości** - jeśli cena dotyczy innej ilości niż 1 jednostka, to odpowiednio nanieś zmiany.
+
+{% include callout.html content="Koszty mogą być ustalane na podstawie danych z dokumentów magazynowych. Ze szczegółami zapoznasz się z rozdziału **Uzupełnij koszty produktów**" type="warning" %}
+
+{:start="9"}
+9. zakładka **Partie**
+
+{% include lightbox.html file="produktyProduktyPartie.png" alt="Ewidencja partii" caption="Ewidencja partii" %} 
+
+W zakładce znajduje się parametr związany z modułem Genealogii. Jeśli chcesz, aby dany produkt zawsze w momencie przychodu lub rozchodu, a także podczas raportowania produkcji, musiał mieć podawaną partię, zaznacz parametr **Ewidencja partii**. 
+
+{:start="10"}
+10. zakładka **Karty jakości**
+
+{% include lightbox.html file="produktyProduktyKartyJakosci.png" alt="Karty jakości produktu" caption="Karty jakości produktu" %} 
+
+Karta jakości zawiera informacje o tym, jakie elementy muszą być zweryfikowane podczas ustalania jakości produktu (czy to wytwarzanego przez Ciebie, czy kupowanego od dostawców). Jedna karta jakości może dotyczyć wielu produktów. Przypisać je możemy albo bezpośrednio w karcie jakości, albo z poziomu omawianej zakładki w produkcie.
+
+{% include callout.html content="Z produktem możesz powiązać zaakceptowaną kartę jakości." type="warning" %}
 
 ---
 
-Wprowadzane produkty tworzą listę, która będzie widoczna po wybraniu "Podstawowe" i "Produkty". Do jej przeszukiwania służy Filtr. [Więcej o Filtrze.](/inteligentny-filtr)
-
-{% include callout.html content="Produkty mają szerokie zastosowanie w całym systemie, oto kilka z możliwości: <br>
-- Produkty biorą udział w definiowaniu [Technologii](/technologie) produkcji (w qcadoo jest to bardziej szczegółowy odpowiednik marszruty, BOMu).<br>
-- Na ich podstawie powstaje [Zapotrzebowanie materiałowe](/zapotrzebowanie-materialowe), są one wykorzystywane w [Kartach pracy](/karty-pracy).<br>
-- Produkty niosą ze sobą [Normy kosztowe](/normy-kosztowe), które wykorzystywane są w [Kalkulacji kosztów produkcji](/koszty-zlecenia), pozwalają na śledzenie [Genealogii](/genealogia), itd." type="info" %} 
-
----
- 
 ## Jak zaimportować produkty z Excela?
 
 Import z Excela zdecydowanie przyspiesza wprowadzanie produktów na starcie pracy z systemem. Zapewne prowadzisz ewidencję już w Excelu. Albo jesteś w stanie z obecnego systemu wyciągnąć listę produktów i otworzyć ją w arkuszu. Albo po prostu - nazwy są bardzo podobne i używając powielania wierszy w Excelu i późniejszą modyfikację, stworzyć kompletną listę szybciej niż ręcznie wklepując produkt po produkcie do qcadoo.
@@ -90,14 +180,43 @@ Po uzupełnieniu szablonu zapisz plik na swoim komputerze i zaciągnij do qcadoo
 
 {% include callout.html content="Jeśli chcesz zaktualizować dane - np. chcesz masowo produktom określić kategorię, albo zaznaczyć parametr ewidencji partii, przygotuj ponownie plik, z aktualnymi danymi i zaciągając do qcadoo zaznacz w oknie importu parametr: **Czy zaktualizować istniejące dane?**" type="warning" %}
 
+---
+
+## Synchronizacja produktów z systemu zewnętrznego
+
+Jeśli chcesz zintegrować qcadoo z systemem zewnętrznym klasy ERP skontaktuj się z nami - skonfigurujemy konektor i przeprowadzimy pierwszą synchronizację. 
+
+O integracji więcej poczytasz [tutaj](/integracja-ERP).
 
 ---
 
-## Przydatne funkcje w formularzu produktu
+# Dodatkowe funkcje wywoływane dla produktu
 
-Poza samą definicją produktu w formularzu mamy możliwość, za pomocą przycisków, sprawdzenia:
+Z poziomu produktów możesz wywołać kilka ciekawych funkcji. Warto się z nimi zapoznać.
 
-- **Technologii** w których dany produkt jest [wykorzystywany](/masowa-zmiana-technologii) lub produkowany oraz do jakich grup technologii należy,
-- **Zlecenia** dzięki, którym produkt został wyprodukowany, zarówno te planowane jaki i wszystkie,
-- **Magazyn**  a dokładniej historie miejsc składowania danego produktu,
-- **Rejestracje produkcji** dla tego produktu, pojedynczo lub zgrupowane
+## Uzupełnij koszty produktu
+
+Koszty produktów, które są wykorzystywane do kalkulacji, mogą być ustalane na podstawie danych wprowadzonych w dokumentach magazynowych. I to zarówno w qcadoo jak i w zintegrowanym systemie zewnętrznym. Aby zaktualizować dane zapisane w produkcie konieczne jest uruchomienie funkcji **Uzupełnij koszty produktów**.
+
+Funkcja wywoływana jest z listy produktów przyciskiem {% include inline_image.html file="przyciskUzupelnijKosztyProduktu.png" alt="Przycisk Uzupełnij koszty produktu" %} **Uzupełnij koszty produktu**.
+
+{% include lightbox.html file="produktyUzupelnijKosztyProduktow.png" alt="Funkcja uzupełniania kosztów produktów" caption="Funkcja uzupełniania kosztów produktów" %} 
+
+Jeśli masz włączoną integrację to podaj, czy chcesz aktualizować koszty na podstawie danych z qcadoo czy z systemu zewnętrznego. Przy braku integracji **Źródło kosztów** to qcadoo MES. Podaj z jakich **magazynów** mamy pobierać dokumenty - jeśli nie podasz żadnego będziemy analizować dokumenty z wszystkich magazynów. Ostatnim krokiem jest zdecydowanie dla jakich produktów mają być wykonane przeliczenia - jeśli dla wszystkich to zostaw ustawienie **Produkty = wszystkie**. Jeśli tylko dla części, zmień na **Produkty = wybrane**, następnie kliknij przycisk {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** i do tabeli **Produktów** zaciągnij te, dla których koszty mają być zaktualizowane. Teraz wystarczy wywołać funkcję przyciskiem {% include inline_image.html file="przyciskGeneruj.png" alt="Przycisk Generuj" %} **Generuj**.
+
+{% include callout.html content="Jeśli masz bardzo dużo produktów i bardzo dużo dokumentów, to czas trwania może być dłuższy niż innych znanych Ci funkcjonalności." type="warning" %}
+
+## Utwórz wiele zleceń produkcyjnych
+
+Tworzenie zleceń produkcyjnych z poziomu listy produktów zostało opisane szerzej [tutaj](/zlecenia-produkcyjne.html#dodanie-zlecenia-z-poziomu-produktu).
+
+
+## Pozostałe przydatne funkcje w formularzu produktu
+
+Dla produktu mamy możliwość, za pomocą przycisków, sprawdzenia:
+
+- **technologii**, w których dany produkt jest [wykorzystywany](/masowa-zmiana-technologii) lub produkowany oraz do jakich grup technologii należy,
+- **zlecenia** dzięki, którym produkt został wyprodukowany, zarówno te planowane jaki i wszystkie,
+- **historię miejsc składowania**, czyli do jakiego miejsca składowania produkt był przywiązany kiedyś, a gdzie go składujemy aktualnie,
+- **rejestracje produkcji** dla tego produktu, pojedynczo lub zgrupowane
+- **dodatkowych informacji** takich jak historia zmian produktów, numer ID w systemie zewnętrznym (w przypadku integracji), powiązana grupa technologii, czy wreszcie dostawców danego produktu.

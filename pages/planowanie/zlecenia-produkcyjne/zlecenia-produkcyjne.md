@@ -22,7 +22,8 @@ Zlecenie produkcyjne możesz dodać:
 - z poziomu zamówienia sprzedaży (pojedynczo i zbiorowo),
 - z poziomu produktu,
 - przez wygenerowanie zleceń na komponenty,
-- przy okazji dodania grupy zleceń.
+- przy okazji dodania grupy zleceń,
+- poprzez import z pliku .xlsx.
 
 Poniżej znajdziesz szczegółowy opis każdej z tych metod.
 
@@ -115,6 +116,31 @@ Wygenerowane zlecenia na komponenty będą ze sobą powiązane. Numery zleceń m
 ### Dodanie zlecenie przez dodanie grupy zleceń do zamówienia sprzedaży
 
 O grupach zleceń szeroko prawi [ta dokumentacja](/grupy-zlecen) - wspomnę tu tylko, że grupy zleceń przydają się, gdy produkujesz wiele bardzo podobnych produktów, np. różniących się rozmiarem, na raz. Pracownik dostaje informacje o tym co wyprodukować łącznie, na jednej kartce i nie musi szukać podobnych produktów po wielu przypisanych mu zleceniach. 
+
+### Tworzenie zleceń poprzez import z akrusza Excel
+
+Z importem danych z pliku .xlsx spotkałeś się w qcadoo już w kilku miejscach (np. przy tworzeniu [produktów](/produkty.html#jak-zaimportować-produkty-z-excela), [pracowników](/pracownicy.html#jak-dodać-pracowników-poprzez-import-z-arkusza-excel), czy [stacji roboczych](/stacje-robocze.html#jak-zaimportować-stacje-robocze-z-arkusza-excel)). I tutaj zasada działania jest taka sama - po szczegóły odsyłam do [tej dokumentacji](/import-z-excel).
+
+Aby zaimportować zlecenia wejdź w **Planowanie > Planowanie zleceń** i kliknij przycisk {% include inline_image.html file="przyciskImportujZleceniaZXLSX.png" alt="Przycisk Importuj zlecenia z .xlsx" %} **Importuj zlecenia z .xlsx**. Zacznij od pobrania szablonu i wypełnienia go damymi. Koniecznie wypełnij dwie pierwsze kolumny:
+
+- **produkt** (kolumna A) - podaj numer [produktu](/produkty) zdefiniowanego w qcadoo,
+- **ilość** (kolumna B) - podaj ilość wyrażoną w jednostce podstawowej produktu. W komórce musi znaleźć się wartość liczbowa.
+
+Ponadto możesz uzupełnić następujące kolumny:
+
+- **numer** (kolumna C) - jeśli nie podasz numeru, nadamy go za Ciebie (będzie to kolejny numer zlecenia). Jeśli chcesz podać swoje numery, pamiętaj, by były one unikalne,
+- **nazwa** (kolumna D) - jeśli nie podasz nazwy, nadamy ją za Ciebie na podstawie informacji o produkcie, technologii i dacie utworzenia,
+- **opis** (kolumna E) - jeśli parametry qcadoo na to wskazują, opis może zostać z automatu uzupełniony na podstawie opisu technologii,
+- **kontrahent** (kolumna F) - podaj numer [firmy](/firmy) zdefiniowanej w qcadoo,
+- **data rozpoczęcia** (kolumna G) - podaj datę i godzinę rozpoczęcia zlecenia (np. 2020-05-11 06:00:00),
+- **data zakończenia** (kolumna H) - podaj datę i godzinę planowanego zakończenia zlecenia (np. 2020-05-11 14:00:00). Data zakończenia musi być późniejsza od daty rozpoczęcia,
+- **termin ostateczny** (kolumna I) - podaj datę i godzinę maksymalnego zakończenia zlecenia (np. terminu, na który umówiłeś się z klientem),
+- **technologia** (kolumna J) - podaj numer [technologii](/technologie) zdefiniowanej w qcadoo. Pamiętaj, że musi być to zaakceptowana technologia podanego produktu. Jeśli nie podasz technologii, to uzupełnimy jego domyślną technologię. 
+- **kategoria** (kolumna K) - podaj wartość ze słownika kategorii zleceń
+- **dział** (kolumna L) - podaj numer [działu](/dzialy) zdefiniowanego w qcadoo. Jeśli dział nie będzie podany uzupełnimy go na podstawie działu uzupełnionego w technologii,
+- **linia** (kolumna M) - podaj numer [linii](/linie-produkcyjne) produkcyjnej zdefiniowanej w qcadoo. Jeśli nie podasz linii to uzupełnimy ją na podstawie linii podanej w technologii. A jeśli tam będzie pusto - pobierzemy linię w parametrów.
+
+Tak przygotowany plik zaciągnij do qcadoo. Wszystkie utworzone zlecenia otrzymają status Oczekujące. 
 
 ## Ustalanie dat realizacji zlecenia
 

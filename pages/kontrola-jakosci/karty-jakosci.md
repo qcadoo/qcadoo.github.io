@@ -36,6 +36,12 @@ i używając przycisku {% include inline_image.html file="przyciskDodajIstniejac
 
 Dany produkt może mieć przyporządkowanych wiele kart - właściwa będzie mogła być wybierana przy rozpisywaniu technologii (aby móc przeprowadzać kontrole bieżącą) lub przy uruchamianiu kontroli końcowej.
 
+Opcją dodatkową w karcie jakości jest możliwość przypisania do niej **załączników**:
+
+{% include lightbox.html file="jakoscKartaJakosciNowaZalaczniki.png" alt="Załączniki karty jakości" caption="Załączniki karty jakości" %}
+
+Załącz pliki poprzez wybranie pliku zapisanego na dysku bądź poprzez jego przesunięcie i upuszczenie na obszarze 'Upuść pliki tutaj'. Zapisane załączniki będą przekazywane do [kontroli jakości końcowej](/kontrola-jakosci) tworzonej na podstawie tej karty jakości.
+
 
 Karta jakości jest już zdefiniowana. Jeśli chcesz ją wypuścić w świat, by czyniła dobro, lub chociaż, by pomogła przy weryfikowaniu jakości wytwarzanych produktów, zmień jej status na **Zaakceptowana**, klikając przycisk {% include inline_image.html file="przyciskZaakceptuj.png" alt="Zaakceptuj" %} **Zaakceptuj**.
 

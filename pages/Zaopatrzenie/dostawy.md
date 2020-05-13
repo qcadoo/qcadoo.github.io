@@ -56,19 +56,43 @@ Jeżeli zamówienie jest kompletne możesz przejść do następnego etapu. Wybie
 
 Każdą dostawę, którą otrzymasz na magazyn musisz odebrać w programie qcadoo. Aby odebrać dostawę należy przejść do następnej zakładki **"Odbiór dostawy"** i dodać odebrane w danej dostawie produkty. Produkty te można dodać na trzy sposoby:
 
-- **Dodanie zamawianych produktów ręcznie** wybierając {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy**.
+1. **Dodanie zamawianych produktów ręcznie** wybierając {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy**.
 
-- **Kopiowanie automatyczne**. Z zakładki znajdującej się na górze należy wybrać "Skopiuj produkty zamawiane do odebranych" {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Bez ilości i ceny** lub {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Z ilością i ceną** , po wybraniu jednej z tych opcji program sam skopuje wszystkie potrzebne dane. Dla każdego produktu uzupełnij informacje na temat odebranej ilości produktówiowystąpieniu produktów wadliwych. 
+2. **Kopiowanie automatyczne**. Z zakładki znajdującej się na górze należy wybrać "Skopiuj produkty zamawiane do odebranych" {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Bez ilości i ceny** lub {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Z ilością i ceną** , po wybraniu jednej z tych opcji program sam skopuje wszystkie potrzebne dane. Dla każdego produktu uzupełnij informacje na temat odebranej ilości produktówiowystąpieniu produktów wadliwych. 
 
 {% include lightbox.html file="Zaopatrzenie-%20Dostawy-%20Odbi%C3%B3r%20dostawy.png" alt="Formularz dostawy - odbiór" caption="Formularz dostawy - odbiór" %}
 
 {% include lightbox.html file="zaopatrzenieDostawaPrzypiszMiejscaSkladowania.png" alt="Odbiór przez przypisanie miejsca składowania" caption="Odbiór przez przypisanie miejsca składowania" class="float-right" %}
 
-- **Przypisanie miejsca składowania** - ta funkcjonalność ma na celu odbiór zamówionych produktów wraz z ulokowaniem ich na paletach i w miejscach składowania. Zamówiony produkt może być odebrany w wielu pozycjach - bo nie zawsze cała zamówiona ilość zmieści Ci się do regału. Aby odebrać korzystając z tego sposobu zaznacz pozycje, które kładziesz na danej palecie (wszystkie muszą mieć tą samą paletę) i kliknij przycisk {% include inline_image.html file="przyciskPrzypiszMiejscaSkladowania.png" alt="Przycisk Przypisz miejsca składowania" %} **Przypisz miejsca składowania**. W kolejnym kroku uzupełnij:
+{:start="3"}
+3. **Przypisanie miejsca składowania** - ta funkcjonalność ma na celu odbiór zamówionych produktów wraz z ulokowaniem ich na paletach i w miejscach składowania. Zamówiony produkt może być odebrany w wielu pozycjach - bo nie zawsze cała zamówiona ilość zmieści Ci się do regału. Aby odebrać korzystając z tego sposobu zaznacz pozycje, które kładziesz na danej palecie (wszystkie muszą mieć tą samą paletę) i kliknij przycisk {% include inline_image.html file="przyciskPrzypiszMiejscaSkladowania.png" alt="Przycisk Przypisz miejsca składowania" %} **Przypisz miejsca składowania**. W kolejnym kroku uzupełnij:
 * [numer własny palety](/numery-wlasne-palet)
 * typ palety (z listy stworzonej w słowniku)
 * [miejsce składowania](/miejsca-skladowania)
 i dla każdej pozycji wskaż datę ważności i zweryfikuj, czy podpowiedzieliśmy odpowiednią ilość. Aby zapisać odebrane pozycje kliknij {% include inline_image.html file="przyciskPrzypiszIPowrot.png" alt="Przycisk Przypisz i powrót" %} **Przypisz i powrót**. I powtórz czynność dla wszystkich kompletowanych palet.
+
+{% include lightbox.html file="zaopatrzenieDostawaOdbierzISKontroluj.png" alt="Odbiór i skontrolowanie dostawy" caption="Odbiór i skontrolowanie dostawy" class="float-right" %}
+
+{:start="4"}
+4. **Odebranie i skontrolowanie jakości** - ta metoda pozwala na skontrolowanie podczas odbioru dostawy tych produktów, które powinny być skontrolowane. Skąd wiadomo, że powinny? Mają swoją [kartę jakości](/karty-jakosci) i została ona przypisana zamówionemu produktowi. Aby odebrać dostawę tą metodą zaznacz produkty w zakladce **Zamówione produkty** i kliknij przycisk {% include inline_image.html file="przyciskOdbierzISkontroluj.png" alt="Przycisk Odbierz i skontroluj" %} **Odbierz i skontroluj**. Dla każdego produktu dostępne są następujące pola:
+- **partia** - możesz wskazać z listy zdefiniowanych partii tą, która została Ci dostarczona,
+- **numer partii** - jeśli nie znalazłeś na liście zdefiniowanych partii właściwej, wpisz tutaj numer, a założymy ją dla Ciebie w genealogii i podepniemy do dostarczanego produktu,
+- **ilość odebrana** - podpowiemy Ci ilość pozostałą do odebrania. Sprawdź, czy pokrywa się z ilością, którą chcesz odebrać i ewentualnie nanieś zmiany,
+- **cena** - uzupełnimy cenę, którą podałeś na etapie zamawiania. Jeśli cena ostateczna różni się - zaktualizuj ją,
+- **miejsce składowania** - jeśli chcesz możesz podać lokalizację, w której produkt będzie składowany.
+
+Ponadto, jeśli konieczne jest przeprowadzenie kontroli jakości, pojawia się obszar, w którym dostępne są:
+- **ocena jakości** - do wyboru ze zdefiniowanej listy [ocen jakości](/slowniki)
+- zdefiniowane w karcie jakości **atrybuty** z miejscem na uzupełnienie ich **wartości**
+
+Po uzupełnieniu danych zapisz je używając przycisku {% include inline_image.html file="przyciskZapiszOdbierzISkontroluj.png" alt="Przycisk odbierz i skontroluj" %} **Odbierz i skontroluj**. W efekcie:
+- pojawią się wpisy w zakładce **Dostarczone produkty**
+- do każdej skontrolowanej partii produktu zostanie utworzona [kontrola jakości](/kontrola-jakosci) wstępna. 
+
+{% include callout.html content="Utworzona kontrola jakości ma status W trakcie. Podczas odbioru dostawy kontrola jakości zostanie zakończona" type="warning" %}
+
+
+
 
 ---
 
