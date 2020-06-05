@@ -10,7 +10,7 @@ permalink: dostawy.html
 
 Aby dodać nową dostawę musimy wejść w: **ZAOPATRZENIE >> Dostawy >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
 
-{% include lightbox.html file="Zaopatrzenie-%20dostawy.png" alt="Formularz dostawy" caption="Formularz dostawy" %}
+{% include lightbox.html file="zaopatrzenieDostawyNowa.png" alt="Formularz dostawy" caption="Formularz dostawy" %}
 
 1. W zakładce **"Główna"** nadajemy dostawie "Numer" (wymagane), opcjonalnie możemy uzupełnić pola "Nazwa" i "Opis".
 
@@ -50,7 +50,7 @@ Po skompletowaniu listy zamawianych produktów wybierz {% include inline_image.h
 
 Jeżeli zamówienie jest kompletne możesz przejść do następnego etapu. Wybierz {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Przygotuj zamówienie** , na tym etapie można jeszcze edytować swoje zamówienie wybierając przycisk {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Skoryguj zamówienie.** Jeżeli wszystko jest poprawne wybierz {% include inline_image.html file="acceptIcon24.png" alt="Przycisk akceptuj" %} **Potwierdź**. Teraz zamówienie jest gotowe do wysłania.  
 
-{% include lightbox.html file="Zaopatrzenie-%20Dostawy-%20Zam%C3%B3wione%20produkty.png" alt="Formularz dostawy - produkty" caption="Formularz dostawy - produkty" %}
+{% include lightbox.html file="zaopatrzenieDostawyZamowioneProdukty.png" alt="Formularz dostawy - produkty" caption="Formularz dostawy - zamówione produkty" %}
 
 ### Odbiór dostawy
 
@@ -60,7 +60,7 @@ Każdą dostawę, którą otrzymasz na magazyn musisz odebrać w programie qcado
 
 2. **Kopiowanie automatyczne**. Z zakładki znajdującej się na górze należy wybrać "Skopiuj produkty zamawiane do odebranych" {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Bez ilości i ceny** lub {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %} **Z ilością i ceną** , po wybraniu jednej z tych opcji program sam skopuje wszystkie potrzebne dane. Dla każdego produktu uzupełnij informacje na temat odebranej ilości produktówiowystąpieniu produktów wadliwych. 
 
-{% include lightbox.html file="Zaopatrzenie-%20Dostawy-%20Odbi%C3%B3r%20dostawy.png" alt="Formularz dostawy - odbiór" caption="Formularz dostawy - odbiór" %}
+{% include lightbox.html file="zaopatrzenieDostawyDostarczoneProdukty.png" alt="Formularz dostawy - odbiór" caption="Formularz dostawy - odbiór" %}
 
 {% include lightbox.html file="zaopatrzenieDostawaPrzypiszMiejscaSkladowania.png" alt="Odbiór przez przypisanie miejsca składowania" caption="Odbiór przez przypisanie miejsca składowania" class="float-right" %}
 
@@ -96,7 +96,7 @@ Po uzupełnieniu danych zapisz je używając przycisku {% include inline_image.h
 
 ---
 
-Jeśli <span style="color:red"> *ewidencjonujesz produkty z dokładnością do partii*</span>  koniecznie podaj jakiej partii produkty zostały dostarczone. W tym celu przejdź do zakładki **Miejsca składowania** w szczegółach odbieranego produktu. 
+Jeśli <span style="color:red"> *ewidencjonujesz produkty z dokładnością do partii*</span>  koniecznie podaj jakiej partii produkty zostały dostarczone. W tym celu przejdź do zakładki **Dane szczegółowe** w szczegółach odbieranego produktu. 
 
 {% include lightbox.html file="zaopatrzenieDostawaOdebraneProduktyMS.png" alt="Miejsca składowania odbieranego produktu" caption="Miejsca składowania odbieranego produktu" %}
 

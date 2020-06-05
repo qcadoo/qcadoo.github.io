@@ -3,6 +3,8 @@ title: "Normy czasowe"
 permalink: normy-czasowe.html 
 ---
 
+Normy czasowe operacji są podstawą do wyznaczenia czasu realizacji czynności. Dzięki temu wyznaczysz czas trwania zlecenia czy zadania operacyjnego, ale też określisz planowane koszty robocizny.
+
 Czasy operacji uwzględniają następujące parametry:
 
 - **Czas przygotowawczo-zakończeniowy (TPZ)**- obejmuje czas potrzebny do przygotowania stanowiska pracy i uruchomienia maszyny oraz czas po zakończeniu wykonywanych na niej operacji. Nie zależy od ilości wykonywanych sztuk produktu. Jest liczony tylko raz dla całej zadanej w tej operacji liczby produktów.
@@ -30,3 +32,4 @@ Wartości te mogą zostać wprowadzone w Operacjach i wtedy obowiązywać będą
 
 Możliwe jest także zdefiniowanie powyższych wartości unikatowo dla danego zlecenia produkcyjnego (więcej [Parametry dla zlecenia](/parametry-dla-zlecenia)), wtedy obowiązywać będą tylko w wypadku tego konkretnego zlecenia produkcyjnego.
 
+Jeśli chcesz na podstawie norm czasowych podanych w szablonie operacji zaktualizować istniejące technologie, skorzystaj z funkcji **[Zbiorczej zmiany parametrów zlecenia](/zmiana-parametrow)**.

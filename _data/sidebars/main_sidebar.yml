@@ -306,6 +306,10 @@ entries:
           output: web
           url: /masowa-zmiana-technologii.html
 
+        - title: Zbiorcza zmiana parametrów technologii
+          output: web
+          url: /zmiana-parametrow.html
+
         - title: Technologie grup produktów
           output: web
           url: /technologie-grup-produktow.html
@@ -710,17 +714,37 @@ entries:
       output: web
       url: /wyniki-kontroli-jakosci.html
 
-  - title: Integracja
+  - title: Analizy
     output: web
     folderitems:
 
-    - title: Integracja
+    - title: Analizy
       output: web
-      url: /integracja.html
+      url: /analizy.html
 
-    - title: Integracja z systemami ERP
+    - title: Analiza wyrobu gotowego
       output: web
-      url: /integracja-ERP.html
+      url: /analiza-wyrobu-gotowego.html
+
+    - title: Analiza wyrobu gotowego przed czynnościami dodatkowymi
+      output: web
+      url: /analiza-przed-czynnosciami-dodatkowymi.html
+
+    - title: Analiza wydajności
+      output: web
+      url: /analiza-wydajnosci.html
+
+    - title: Analiza wykonanej produkcji
+      output: web
+      url: /analiza-wykonanej-produkcji.html
+
+    - title: Analiza planowanego czasu pracy
+      output: web
+      url: /analiza-planowanego-czasu-pracy.html
+
+    - title: Analiza genealogii produkcji
+      output: web
+      url: /analiza-genealogii-produkcji.html
     
   - title: Administracja
     output: web
@@ -826,6 +850,18 @@ entries:
         - title: Parametry Gantta
           output: web
           url: /parametry-gantta.html
+
+  - title: Integracja
+    output: web
+    folderitems:
+
+    - title: Integracja
+      output: web
+      url: /integracja.html
+
+    - title: Integracja z systemami ERP
+      output: web
+      url: /integracja-ERP.html
 
   - title: API
     output: web
