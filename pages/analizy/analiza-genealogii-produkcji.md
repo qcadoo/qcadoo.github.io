@@ -28,6 +28,10 @@ W tym celu zaznacz wiersz z produktem wejściowym będącym komponentem (poznasz
 {% include lightbox.html file="analizyAnalizaGenealogiiProdukcjiKomponent.png" alt="Analizy genealogii produkcji dla komponentu" caption="Analizy genealogii produkcji dla komponentu" %}
 
 Jeśli i tym razem używałeś komponentu - możesz ponownie go zaznaczyć i przejść w głąb drzewa technologicznego.
-Aby wrócić do pełnej analizy użyj przycisku {% include inline_image.html file="przychejiskPowrocPoziomWyzej.png" alt="Przycisk Powróć poziom wyżej" %} **Powróć poziom wyżej**.
+Aby wrócić do pełnej analizy użyj przycisku {% include inline_image.html file="przyciskPowrocPoziomWyzej.png" alt="Przycisk Powróć poziom wyżej" %} **Powróć poziom wyżej**.
 
 {% include callout.html content="Klikając prawym przyciskiem myszy w nagłówek kolumny możesz ukryć te, które nie są Ci potrzebne." type="warning" %}
+
+Dane widoczne w tabeli możesz wyeksportować do pliku CSV i otworzyć go w Excelu (instrukcję znajdziesz [tutaj](/eksport-danych.html#otwarcie-pliku-csv-w-excelu)). Wczytaj do analizy dane i kliknij przycisk {% include inline_image.html file="przyciskCSV.png" alt="Przycisk CSV" %} **CSV**. Zostaną wyeksportowane wszystkie dane spełniające nadane przez Ciebie kryteria filtrowania. Jeśli w [parametrach raportów](/parametry-raport) określiłeś, że eksportowane mają być tylko widoczne kolumny, to w pliku .csv nie będziesz widzieć tych kolumn, które są ukryte.
+
+{% include callout.html content="Aby ukryć nieinteresujące Cię kolumny, kliknij w nagłówek tabeli prawym przyciskiem myszy i odznacz te, które nie mają się pojawiać." type="warning" %}

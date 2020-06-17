@@ -19,13 +19,14 @@ Aby dodać nową stację roboczą wybierz: **Struktura firmy >> Stacje robocze >
 {% include lightbox.html file="strukturaFirmyStacjaNowa.png" alt="Dodanie stacji roboczej" caption="Dodanie stacji roboczej" %} 
 
 Koniecznie podaj **numer**, **nazwę** oraz **[typ stacji roboczej](/typy-stacji-roboczych)**. Ponadto możesz dla stacji roboczej zapisać takie dane jak:
-- opis
-- numer fabryczny
-- numer UDT
-- seria
-- producent
-- data produkcji
-- numer inwentarzowy
+- opis,
+- numer fabryczny,
+- numer UDT,
+- seria,
+- producent,
+- data produkcji,
+- numer inwentarzowy,
+- pracownik - jest to domyślny pracownik obsługujący daną stację roboczą. Przypisanie przyda się w [planie na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika), gdzie dla odpowiednio wybranego kryterium doboru pracownika, do każdej operacji na daną stację zostanie przyporządkowany podany pracownik.
 
 Potraktuj qcadoo jako bazę wszelkich dostępnych informacji o maszynie. Dzięki temu będziesz mieć inforamcje zawsze pod ręką - nie będziesz musiał przeszukiwać segregatorów z dokumentami.
 
