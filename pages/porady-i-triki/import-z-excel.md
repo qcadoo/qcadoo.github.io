@@ -12,6 +12,7 @@ Jakie dane możesz zaimportować? Są to między innymi:
 - [produkty wejściowe technologii](/technologie-szczegoly.html#import-produktów-wejściowych-technologii-z-excela)
 - [stacje robocze](/stacje-robocze.html#jak-zaimportowa%C4%87-stacje-robocze-z-arkusza-excel)
 - [pracowników](/pracownicy.html#jak-dodać-pracowników-poprzez-import-z-arkusza-excel)
+- operacje
 
 
 Aby zaimportować dane wejdź do danej listy (np. Podstawowe > Produkty) i kliknij przycisk Importuj z XLSX (np. {% include inline_image.html file="przyciskImportujPozycjeZXLXS.png" alt="Przycisk Importuj pozycje z XLSX" %}):

@@ -26,6 +26,8 @@ Dodatkowo możesz podać:
 
 Zarejestrowane przestoje będą widoczne w [rozliczeniu produkcji](/rozliczenie-produkcji).
 
+{% include callout.html content="Przestoje moga być ewidencjonowane, na zasadzie START - STOP, z poziomu [terminala rejestracji produkcji](/terminal.html#przestoje)." type="warning" %}
+
 
 
 
