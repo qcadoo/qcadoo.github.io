@@ -38,11 +38,12 @@ Jeśli natomiast komunikat jest czerwony, to oznacza, że coś jest nie tak. Wkr
 {% include lightbox.html file="oknoImportuPokazLogi.png" alt="Logi" caption="Logi" %}
 
 **Co może być nie tak?**
-- niepoprawne kolumny w arkuszu
-- nie można znaleźć odpowiedniego rekordu w bazie w qcadoo (np. w arkuszu podałeś produkt, którego w qcadoo nie ma)
-- w komórce zamiast liczby znajduje się formuła, która tą liczbę ma wyliczać
-- nie wypełniono w arkuszu wymaganych kolumn
-- nie są spełnione standardowe walidacje w qcadoo (np. unikalność rekordu)
+- niepoprawne kolumny w arkuszu,
+- nie można znaleźć odpowiedniego rekordu w bazie w qcadoo (np. w arkuszu podałeś produkt, którego w qcadoo nie ma),
+- w komórce zamiast liczby znajduje się formuła, która tą liczbę ma wyliczać,
+- nie wypełniono w arkuszu wymaganych kolumn,
+- nie są spełnione standardowe walidacje w qcadoo (np. unikalność rekordu),
+- nie jest zastosowany poprawny format danych w kolumnach (np. koluman typu data).
 
 Popraw dane i zaimportuj ponownie.
 
