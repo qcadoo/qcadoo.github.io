@@ -29,6 +29,42 @@ Zamówienia sprzedaży mogą być wykorzystywane albo do zaewidencjonowania zam�
 
 {% include callout.html content='"Ilość zlec." to ilość zlecona czyli taka, na którą są już utworzone zlecenia produkcyjne na dany produkt, "Poz. do wyprod." to ilość, która pozostała do wyprodukowania, a "Ilość wykon." to ilość produktu, którą już wyprodukowano w ramach tego zamówienia.' type="info" %}
 
+Zamówienie sprzedaży może pojawić się też w systemie qcadoo na dwa inne sposoby:
+1. poprzez pobranie z systemu zewnętrznego - jeśli masz uruchomioną integrację ze swoim ERP, to zamówienie od klienta wprowadzone w ERP może zostać przesłane do qcadoo i stanowić początek procesu produkcyjnego
+2. poprzez zaimportowanie z arkusza .xlsx - o czym będzie prawić kolejny podrozdział
+
+### Import zamówień sprzedaży z pliku .xlsx
+
+Aby zaimportować zamówienia sprzedaży z pliku .xslx wejdź w **Planowanie > Pozycje zamówień sprzedaży** i kliknij przycisk {% include inline_image.html file="przyciskImportujZamowieniaXLSX.png" alt="Przycisk Importuj zamówienia sprzedaży z XLSX" %} **Importuj zamówienia sprzedaży z XLSX**, pobierz szablon i wypełnij go danymi. 
+
+Kilka istotnych informacji na początek:
+1. sposób działania importu z arkusza Excel jest taki sam w wielu miejscach systemu. Dokumentację znajdziesz [tutaj](/import-z-excel),
+2. zamówienia sprzedaży w qcadoo mogą mieć wiele pozycji (czyli klient za jednym razem może zamówić kilka produktów). Takie zamówienie w pliku będzie tyle wierszy ile pozycji. I każdy z tych wierszy będzie miał takie same dane nagłówkowe (czyli kolumny: A, D, E, F, G, H, I, J, K) - dzięki temu poznamy, które pozycje mają wskoczyć na jakie zamówienie,
+3. w jednym arkuszu możesz rozpisać wiele zamówień i na raz je zaimportować.
+
+
+Koniecznie uzupełnij 3 pierwsze kolumny:
+- **numer** (kolumna A) - numer zamówienia musi być unikalny (czyli: może istnieć tylko jedno zamówienie o danym numerze)
+- **produkt** (kolumna B) - numer [produktu](/produkty) zdefiniowanego w qcadoo. W danym zamówieniu dany produkt może wystąpić tylko raz,
+- **ilość** (kolumna C) - ilość zamówiona wyrażona w jednostce podstawowej produktu.
+
+Ponadto możesz uzupełnić kolumny:
+- **nazwa** (kolumna D) - nazwa zamówienia sprzedaży,
+- **opis** (kolumna E) - miejsce na dodatkowe informacje odnośnie całego zamówienia,
+- **kontrahent** (kolumna F) - numer firmy zdefiniowanej w qcadoo,
+- **data rozpoczęcia** (kolumna G) - planowana data rozpoczęcia produkcji. Koniecznie zastosuj format: RRRR-MM-DD GG:MM:SS
+- **data zakończenia** (kolumna H) - planowana data zakończenia produkcji. Koniecznie zastosuj format: RRRR-MM-DD GG:MM:SS
+- **termin ostateczny** (kolumna I) - maksymalny termin realizacji zamówoienia. Koniecznie zastosuj format: RRRR-MM-DD GG:MM:SS
+- **data wpływu** (kolumna J) - moment złożenia zamówienia przez klienta. Koniecznie zastosuj format: RRRR-MM-DD GG:MM:SS
+- **opis realizacji** (kolumna K) - musi być zgodny z wartością [słownika](/slowniki): Opisy realizacji zamówień sprzedaży
+- **technologia** (kolumna L) - numer technologii danego produktu, zdefiniowanej w qcadoo. Jeśli zostawisz kolumnę pustą - namierzymy domyślną zaakceptowaną technologię danego produktu. Jeśli takiej nie ma - nie zostanie ona w pozycji zamówienia uzupełniona (być może dopiero będziesz nad tehchologią pracować i uzupełnisz ją później)
+- **uwagi** (kolumna M) - dodatkowe informacje odnośnie konkretnej zamówionej pozycji,
+- **status pozycji** (kolumna N) - wartość [słownika](/slowniki): zamówienia sprzedaży - status pozycji. Jeśli zostawisz komórkę niewypełnioną, to pozycja zamówienia otrzyma status: nowa
+
+Tak przygotowany arkusz zaimportuj do qcadoo. W razie błędów z importem przeanalizuj zapisane w oknie importu logi, popraw dane i spróbuj ponownie.
+
+---
+
 Utworzyłeś zamówienie sprzedaży. Teraz pozostaje jeszcze dodanie do niego zlecenia/zleceń produkcyjnych, przy pomocy których zrealizujesz zamówienie. Możesz dodać zlecenia, które już wcześniej założyłeś lub utworzyć całkiem nowe.
  
 ## Sposoby dodawania zleceń produkcyjnych do zamówienia sprzedaży

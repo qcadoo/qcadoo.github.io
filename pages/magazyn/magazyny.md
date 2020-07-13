@@ -28,7 +28,7 @@ Praktyki są takie, że definiuje się co najmniej dwa magazyny: surowców i wyr
 
 Aby wprowadzić magazyn wejdź w Magazyn > Magazyny i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy wydruk" %} **Dodaj nowy**
 
-Podaj numer i nazwę. A jako typ ustaw _magazyn z zasobami_. Zapisz. I gotowe. 
+Podaj numer i nazwę. Zapisz. I gotowe. 
 
 Teraz dla magazynu warto ustawić parametry w zakładce: _Metoda rozchodu i atrybuty dokumentów_:
 - wybierz **metodę, wg której zasoby mają być wydawane z magazynu**. Dostepne wartości to: FIFO (pierwsze przyszło, pierwsze wyszło), LIFO (ostatnie przyszło, pierwsze wyszło), FEFO (pierwsze traci ważność, pierwsze wyszło). LEFO (ostatnie traci ważność, pierwsze wyszło)

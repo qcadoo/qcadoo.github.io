@@ -23,7 +23,7 @@ Zainteresowany takim sposobem działania? Zacznij od odpowiedniej konfiguracji d
 2. określ umiejętności - czyli podaj jakie kwalifikacje trzeba mieć, aby móc wykonywać dane czynności
 3. zdefiniuj [operacje] --> musimy wiedzieć jakie czynności wykonujesz
 4. dla każdej operacji określ [normy czasowe](/normy-czasowe) --> musimy wiedzieć ile trwa każda z operacji. Podanie czasu Tj (czyli czasu wykonania produktu w jednym cyklu), jeśli chcesz aby operacja i kolejne w procesie, zostały rozplanowane. 
-5. do każdej [operacji przyporządkuj stacje robocze](/stacje-robocze-operacji) --> musimy wiedzieć gdzie czynność może być realizowana. Może to być dowolna ilość stacji - postaramy się wybrać na etapie planowania te najodpowiedniejsze w danym momencie
+5. do każdej [operacji przyporządkuj stacje robocze](/stacje-robocze-operacji) --> musimy wiedzieć gdzie czynność może być realizowana. Może to być dowolna ilość stacji (możesz też podać typ stacji roboczych, do którego przypisanych jest wiele stacji) - postaramy się wybrać na etapie planowania te najodpowiedniejsze w danym momencie
 6. każdej [operacji przypisz wymagane umiejętności](/wymagane-umiejetnosci-operacji) --> musimy wiedzieć jakie umiejętności i na jakim poziomie pracownik musi posiadać, aby mógł być do zadania przydzielony
 7. wprowadź [pracowników](/pracownicy) produkcyjnych --> musimy wiedzieć, kto może zadania wykonywać. Jeśli wystarczy Ci plan z przypisaniem zadań do stacji, to pracowników nie musisz definiować - nie są oni niezbędni do planowania
 8. przypisz [pracownikom posiadane umiejętności i określ ich poziom](/pracownicy.html#jak-przypisać-do-pracownika-posiadane-umiejętności) --> musimy wiedzieć kto ma odpowiednie kwalifikacje do realizacji zadania

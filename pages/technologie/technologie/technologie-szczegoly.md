@@ -6,11 +6,11 @@ Do każdego produkowanego w Twojej firmie wyrobu kompletujemy osobną technologi
 
 ## Dodanie nowej technologii
     
-**TECHNOLOGIE  Technologie** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nową technologię" %} **Dodaj nowy**
+**TECHNOLOGIE > Technologie** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nową technologię" %} **Dodaj nowy**
 
 {% include lightbox.html file="technologie-technologia-główna.png" alt="Formularz technologii" caption="Formularz technologii" class="float-right" %}
 
- W zakładce "Główna"
+W zakładce "Główna"
 
 1. W pierwszym kroku przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Produkt", na który ma powstać technologia. Produkty pobierają się ze zdefiniowanej wcześniej listy [Produktów](/produkty) z "Danych podstawowych". 
 
@@ -162,6 +162,9 @@ Technologia może dotyczyć jednego lub wielu działów.
 Jeśli dotyczy jednego działu - informacje o dziale i linii będą wypełnione w nagłówku. Jeśli wielu - dla każdej operacji z osobna (w dolnej tabeli). Stacje robocze uzupełniane są zawsze na poziomie operacji - kliknij w operację w lewej tabeli, a uaktywni się dodawanie w tabeli prawej. Stacje robocze zaczytywane są z danych domyślnych zdefiniowanych w [operacji](/stacje-robocze-operacji).
 
 Jeśli technologia ma zasięg = 1 dział i wskażesz dział i linie, to zostaną one podpowiedziane przy tworzeniu zleceń produkcyjnych.
+
+{% include callout.html content="Zasięg w technologii może podpowiedzieć się z [parametów](/parametry-technologia.html#zasięg)." type="warning" %}
+
 
 ## Przepływy technologii ##
 

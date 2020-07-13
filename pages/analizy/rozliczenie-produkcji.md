@@ -7,7 +7,7 @@ Rozliczanie produkcji przynosi dwie korzyści.
 - na podstawie zbieranych danych można zrewidować i uczynić bliższymi prawdy nasze założenia produkcyjne co do czasów realizacji zleceń i ilości potrzebnych surowców
 - wiadomo ile faktycznie kosztowało nas zrealizowanie danego zlecenia produkcyjnego i wyeliminowanie na przyszłość zbędne koszty
 
-Funkcjonalność " **Rozliczenie produkcji**" pozwala również na tworzenie i gromadzenie raportów i zestawień z rejestracji produkcji (dla wariantów: "zbiorczego" i "dla każdej operacji"). 
+Funkcjonalność "**Rozliczenie produkcji**" pozwala również na tworzenie i gromadzenie raportów i zestawień z rejestracji produkcji (dla wariantów: "zbiorczego" i "dla każdej operacji"). 
   
 {% include callout.html content="Gdy tworzymy raport rozliczenia produkcji dla danego zlecenia/zleceń produkcyjnego/produkcyjnych, bierzemy pod uwagę tylko zarejestrowane meldunki zwrotne (patrz odpowiednio: [Zbiorcze rejestrowanie produkcji](/zbiorcze-rejestrowanie-produkcji) i [Rejestracja każdej operacji](/rejestracja-kazdej-operacji)) w stanie **Zaakceptowane**." type="info" %} 
 
@@ -15,9 +15,9 @@ Funkcjonalność " **Rozliczenie produkcji**" pozwala również na tworzenie i g
 
 Aby wygenerować nowy raport wybieramy:
 
-**REJESTRACJA >> Rozliczenie produkcji >> {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
+**Analizy >> Rozliczenie produkcji >> {% include inline_image.html file="newIcon24.png" %} Dodaj nowy**
 
-{% include lightbox.html file="rejestracja-%20rozliczenie%20produkcji.png" alt="Rozliczenie produkcji" caption="Rozliczenie produkcji" %}
+{% include lightbox.html file="analizyRozliczenieProdukcjiNowe.png" alt="Rozliczenie produkcji" caption="Rozliczenie produkcji" %}
 
 1. W pierwszym kroku możemy nadać "Nazwę" tego raportu. Nazwa ta powinna identyfikować raport tak, by łatwiej było zidentyfikować go na liście wśród innych. Opcjonalnie dodajemy "Opis" zlecenia.  
   
@@ -27,7 +27,7 @@ Aby wygenerować nowy raport wybieramy:
   
 4. Następnie przechodzimy do edycji **"Danych kosztowych"** dla tego raportu. Tam można dodać marże dla kosztów pracy oraz zdecydować które koszty materiałów mają być uwzględnione - te określone w [definicji produktu](/produkty), czy te, [wprowadzone dla tego konkretnego zlecenia](/ceny-materialow-dla-zlecenia).
 
-{% include lightbox.html file="dane%20dla%20koszt%C3%B3w.png" alt="Dane kosztów" caption="Dane kosztów" %}
+{% include lightbox.html file="analizyRozliczenieProdukcjiDaneDlaKosztow.png" alt="Dane kosztów" caption="Dane kosztów" %}
 
 {:start="5"} 
 5. Po wprowadzeniu wszystkich zmian wybieramy {% include inline_image.html file="saveIcon24.png" %} **Zapisz** i {% include inline_image.html file="generateIcon24.png" %} **Generuj**.  

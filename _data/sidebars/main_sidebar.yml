@@ -811,6 +811,10 @@ entries:
           output: web
           url: /parametry-technologia.html
 
+        - title: Parametry dashboardu
+          output: web
+          url: /parametry-dashboard.html
+
         - title: Parametry zleceń
           output: web
           url: /parametry-zlecen.html

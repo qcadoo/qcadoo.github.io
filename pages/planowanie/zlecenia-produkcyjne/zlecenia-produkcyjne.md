@@ -146,6 +146,12 @@ Tak przygotowany plik zaciągnij do qcadoo. Wszystkie utworzone zlecenia otrzyma
 
 Każde zlecenie produkcyjne musi mieć określone daty realizacji - musimy wiedzieć kiedy planujesz rozpocząć i skończyć prace. Możesz daty określić ręcznie bazując na swoim doświadczeniu. Możesz też skorzystać z pomocy funkcji qcadoo, które pomogą Ci w tym zakresie.
 
+Pierwsza pomoc dotyczyć będzie ustawienia daty rozpoczęcia - zaznacz [parametr](/parametry-zlecen.html#główna) **Podpowiadaj datę rozpoczęcia zlecenia przy tworzeniu zlecenia** i wskaż na podstawie czego data ma być ustalana, a w momencie zapisu, gdy pole z datą będzie puste, uzupełnimy albo datę aktualną, albo datę rozpoczęcia pracy w następnym dniu roboczym, albo datę zakończenia ostatniego zlecenia na tej linii.
+
+Data rozpoczęcia może też przenieść się z zamówienia sprzedaży - jeśli będziesz korzystać z opcji generowania zleceń do zamówienia.
+
+Czas na ustalenie daty zakończenia.
+
 {% include lightbox.html file="czasoch%C5%82onno%C5%9B%C4%87-%20strza%C5%82ki.png" alt="Formularz czasochłnności" caption="Formularz czasochłonności" class="float-right" %}
 
 Pierwszym sposobem jest skorzystanie z **kalkulacji czasochłonności**. Funkcja na podstawie zdefiniowanych norm czasowych w operacji technologii wyznaczy czas trwania zlecenia, od podanej przez Ciebie daty rozpoczęcia (wyznaczając tym samym datę zakończenia). 
@@ -169,60 +175,56 @@ Ponadto pomocnym przy wyznaczaniu dat realizacji będzie **[wykres Gantta](/plan
 
 Zapewne zwróciłeś uwagę, że w zleceniu produkcyjnym jest bardzo dużo zakładek i funkcji na pasku narzędziowym. Z tego rozdziału dowiesz się do czego mogą Ci być potrzebne.
 
-1. **zakładka Rejestracja** - większość z ustawianych tu parametrów jest powieleniem [parametrów z administracji](/parametry-rejestracja-produkcji). Najważniejszy jest sposób rejestracji produkcji - oprócz tego, czy przy rejestracji będzie trzeba odnosić się do każdej operacji czy do całego zlecenia, decyduje również o podejściu do planowania. Jeśli chcesz planować całe zlecenia (na jedną linię/maszynę) i pozwolić na ich wybór w terminalu - ustaw zbiorczy sposób rejestracji. Jeśli ważne jest aby rozbić zlecenie na operacje, każdą z operacji przypisać do właściwej maszyny i pozwolić na wybór w terminalu zadania operacyjnego - ustaw rejestrację do każdej operacji.
+1. **zakładka Daty** - daty w zleceniu produkcyjnym mogą zmieniać się na każdym etapie życia zlecenia - zarówno podczas ustalania warunków produkcji, jak już po akceptacji, czy nawet już po rozpoczęciu prac. W zakładce Główna widzisz aktualne daty. W zakładce Daty zobaczysz jak wyglądały modyfikacje. Oprócz analizy zmian dat możesz zostawiać tu przyczyny zmian (a nawet wymusić ich zostawianie odpowiednio ustawiając [parametry](/parametry-zlecen.html#dokumentacja-odchyleń)). W tym temacie zerknij też w [raport odchyleń planu](/raport-odchylen-planu).
 
-
-2. **zakładka Daty** - daty w zleceniu produkcyjnym mogą zmieniać się na każdym etapie życia zlecenia - zarówno podczas ustalania warunków produkcji, jak już po akceptacji, czy nawet już po rozpoczęciu prac. W zakładce Główna widzisz aktualne daty. W zakładce Daty zobaczysz jak wyglądały modyfikacje. Oprócz analizy zmian dat możesz zostawiać tu przyczyny zmian (a nawet wymusić ich zostawianie odpowiednio ustawiając [parametry](/parametry-zlecen.html#dokumentacja-odchyleń)). W tym temacie zerknij też w [raport odchyleń planu](/raport-odchylen-planu).
-
-
-3. **zakładka Ilość produktu** - w zakładce Główna widzisz aktualną ilość planowaną. Jeśli już po akceptacji zlecenia ilość była zmieniana zobaczysz ją jako ilość skorygowaną. Przy zmianie, podobnie jak w przypadku dat, można zostawić przyczynę korekty. 
+2. **zakładka Ilość produktu** - w zakładce Główna widzisz aktualną ilość planowaną. Jeśli już po akceptacji zlecenia ilość była zmieniana zobaczysz ją jako ilość skorygowaną. Przy zmianie, podobnie jak w przypadku dat, można zostawić przyczynę korekty. 
 Ponadto w zakładce widać:
 - ile już wyprodukowano (ilość z zaakceptowanych rekordów rejestracji)
 - jaki jest procent wykonania
 - ile zarejestrowano wyprodukowanych braków
 - ile pozostało jeszcze do wyprodukowania
 
+3. **zakładka Zamówienie sprzedaży** - zobaczysz tutaj z jakim zamówieniem sprzedaży dane zlecenie jest powiązane. Możesz tu również odłączyć zlecenie od zamówienia, czy spiąć je z zamówieniem.
 
-4. **zakładka Zamówienie sprzedaży** - zobaczysz tutaj z jakim zamówieniem sprzedaży dane zlecenie jest powiązane. Możesz tu również odłączyć zlecenie od zamówienia, czy spiąć je z zamówieniem.
+4. **zakładka Powiązane zlecenia** - w tabeli zobaczysz wszytkie powiązane zlecenia na komponenty
 
+5. **przycisk Technologia** - umożliwia naniesienie zmian w technologii tego zlecenia. Ze szczegółami zapoznasz się [tutaj](/parametry-dla-zlecenia).
 
-5. **zakładka Magazyn - surowce** - jeśli chcesz uruchamiać produkcję dopiero wtedy, gdy wszystkie surowce będą dostępne, to odznacz parametr. Nie pozwolimy wówczas zaakceptować zlecenia, gdy stany nie będą wystarczające.
+6. **przycisk Parametry zlecenia** - a w nim następujące zakładki:
+- **zakładka Rejestracja** - większość z ustawianych tu parametrów jest powieleniem [parametrów z administracji](/parametry-rejestracja-produkcji). Najważniejszy jest sposób rejestracji produkcji - oprócz tego, czy przy rejestracji będzie trzeba odnosić się do każdej operacji czy do całego zlecenia, decyduje również o podejściu do planowania. Jeśli chcesz planować całe zlecenia (na jedną linię/maszynę) i pozwolić na ich wybór w terminalu - ustaw zbiorczy sposób rejestracji. Jeśli ważne jest aby rozbić zlecenie na operacje, każdą z operacji przypisać do właściwej maszyny i pozwolić na wybór w terminalu zadania operacyjnego - ustaw rejestrację do każdej operacji.
+- **zakładka Magazyn - surowce** - jeśli chcesz uruchamiać produkcję dopiero wtedy, gdy wszystkie surowce będą dostępne, to odznacz parametr. Nie pozwolimy wówczas zaakceptować zlecenia, gdy stany nie będą wystarczające.
 
-6. **zakładka Powiązane zlecenia** - w tabeli zobaczysz wszytkie powiązane zlecenia na komponenty
+7. **przycisk Utwórz zadania operacyjne** - jeśli zależy Ci na tym aby pracownicy wybierali w terminalu zadania do wykonania, ale nie chcesz wykonywać planowania na stację roboczą i pracownika, możesz pójść na skróty - kliknij przycisk, a do każdej operacji z technologii zostanie założone zadanie operacyjne. Funkcja możliwa do wywołania dla zleceń zaakceptowanych z rejestracją do każdej operacji. 
 
-7. **przycisk Technologia** - umożliwia naniesienie zmian w technologii tego zlecenia. Ze szczegółami zapoznasz się [tutaj](/parametry-dla-zlecenia).
+8. **przycisk Pokaż zadania operacyjne** - pozwala na przeanalizowanie zadań operacyjnych powiązanych z danym zleceniem produkcyjnym. Zadania operacyjne opisane są [tutaj](/planowanie-operacyjne)
 
-8. **przycisk Utwórz zadania operacyjne** - jeśli zależy Ci na tym aby pracownicy wybierali w terminalu zadania do wykonania, ale nie chcesz wykonywać planowania na stację roboczą i pracownika, możesz pójść na skróty - kliknij przycisk, a do każdej operacji z technologii zostanie założone zadanie operacyjne. Funkcja możliwa do wywołania dla zleceń zaakceptowanych z rejestracją do każdej operacji. 
+9. **przycisk Przezbrojenia** - jeśli na podstawie zdefiniowanych [norm](/normy-przezbrojen) wynika, że przed rozpoczęciem zlecenia konieczne jest przezbrojenie linii, to taka informacja będzie dostępna pod tym przyciskiem.
 
-9. **przycisk Pokaż zadania operacyjne** - pozwala na przeanalizowanie zadań operacyjnych powiązanych z danym zleceniem produkcyjnym. Zadania operacyjne opisane są [tutaj](/planowanie-operacyjne)
+10. **przycisk Pokaż przestoje** - przycisk uruchamia listę [przestojów](/przestoje-zlecenia) zaewidencjonowanych do tego zlecenia.
 
-10. **przycisk Przezbrojenia** - jeśli na podstawie zdefiniowanych [norm](/normy-przezbrojen) wynika, że przed rozpoczęciem zlecenia konieczne jest przezbrojenie linii, to taka informacja będzie dostępna pod tym przyciskiem.
-
-11. **przycisk Pokaż przestoje** - przycisk uruchamia listę [przestojów](/przestoje-zlecenia) zaewidencjonowanych do tego zlecenia.
-
-12. **przycisk Ilości wyprodukowane/użyte** - w momencie akceptacji zlecenia produkcyjnego tworzy się jego szczegółowe zapotrzebowanie - czyli szczegółowo rozpisywana jest lista potrzebnych produktów do zlecenia oraz produktów, które będą efektem Twojej pracy. Podstawą do wygenerowania szczegółowego zapotrzebowania jest technologia. Od momentu akceptacji zlecenia technologia jest nie do zmiany - teraz wszelkie modyfikacje produktowe (np. wprowadzenie zamiennika) możesz przeprowadzać z tego poziomu. 
+11. **przycisk Ilości wyprodukowane/użyte** - w momencie akceptacji zlecenia produkcyjnego tworzy się jego szczegółowe zapotrzebowanie - czyli szczegółowo rozpisywana jest lista potrzebnych produktów do zlecenia oraz produktów, które będą efektem Twojej pracy. Podstawą do wygenerowania szczegółowego zapotrzebowania jest technologia. Od momentu akceptacji zlecenia technologia jest nie do zmiany - teraz wszelkie modyfikacje produktowe (np. wprowadzenie zamiennika) możesz przeprowadzać z tego poziomu. 
 Funkcjonalność przyda się również do analizy zaraportowanego zużycia czy wyprodukowania każdego z produktów w procesie. 
 Ze szczegółami działania zapoznasz się w tej [dokumentacji](/zmiana-stanu-zapotrzebowania).
 
-13. **przycisk Czasochłonność** - funkcjonalność opisana na etapie wyznaczania czasów realizacji zlecenia
+12. **przycisk Czasochłonność** - funkcjonalność opisana na etapie wyznaczania czasów realizacji zlecenia
 
-14. **przycisk Ceny** - skorzystasz z niego po to, by ustalić koszty materiałowe zlecenia. Przeanalizujesz tutaj: ostatnią cenę zakupu, cenę średnio ważoną czy przyjęty koszt nominalny. Ponadto:
+13. **przycisk Ceny** - skorzystasz z niego po to, by ustalić koszty materiałowe zlecenia. Przeanalizujesz tutaj: ostatnią cenę zakupu, cenę średnio ważoną czy przyjęty koszt nominalny. Ponadto:
 - dowiesz się jakie konkretne dokumenty RW zostały wystawione do zlecenia, o jakich partiach i jakich cenach
 - wyliczymy dla Ciebie TKW
 - zapiszesz w zleceniu dodatkowe koszty bezpośrednie, zwiększające koszty całkowite zlecenia
 Więcej informacji znajdziesz [tutaj](/ceny-materialow-dla-zlecenia)
 
-15. **przycisk Koszty** - pozwala na wyliczenie planowanych kosztów zlecenia na podstawie technologii. Po szczegóły odsyłam do [dokumentacji](/koszty-zlecenia).
+14. **przycisk Koszty** - pozwala na wyliczenie planowanych kosztów zlecenia na podstawie technologii. Po szczegóły odsyłam do [dokumentacji](/koszty-zlecenia).
 
-16. **przycisk Produkcja na zmianę** - daje możliwość rozplanowania produkcji ilości zleconej na kolejne zmiany. Do wykorzystania w firmach produkujących seryjnie, z dającą się wyliczyć na podstawie norm, wydajnością danej linii. Dokładniejsze wyjaśnienia i instrukcję znajdziesz [tutaj](/produkcja-na-zmiane).
+15. **przycisk Produkcja na zmianę** - daje możliwość rozplanowania produkcji ilości zleconej na kolejne zmiany. Do wykorzystania w firmach produkujących seryjnie, z dającą się wyliczyć na podstawie norm, wydajnością danej linii. Dokładniejsze wyjaśnienia i instrukcję znajdziesz [tutaj](/produkcja-na-zmiane).
 
-17. **przycisk Śledzenie partii** - jedno słowo - traceability. Chcesz więcej? Odsyłam do [dokumentacji](/sledzenie-partii-zlecenia).
+16. **przycisk Śledzenie partii** - jedno słowo - traceability. Chcesz więcej? Odsyłam do [dokumentacji](/sledzenie-partii-zlecenia).
 
-18. **przycisk Dostępność surowców** - pozwala na analizę stanów magazynowych surowców potrzebnych do produkcji. Sprawdzisz stan na magazynach, z których zaplanowano rozchód, ale też na pozostałych magazynach zakładu - na wypadek, gdyby trzeba było produktu poszukiwać.
+7. **przycisk Dostępność surowców** - pozwala na analizę stanów magazynowych surowców potrzebnych do produkcji. Sprawdzisz stan na magazynach, z których zaplanowano rozchód, ale też na pozostałych magazynach zakładu - na wypadek, gdyby trzeba było produktu poszukiwać.
 
-19. **przycisk Wydania wewnętrzne** - temat wydań wewnętrznych omówiony jest [tutaj](/wydania-wewnetrzne.html). Z tego poziomu możesz zobaczyć wydania utworzone dla danego zlecenia
+18. **przycisk Wydania wewnętrzne** - temat wydań wewnętrznych omówiony jest [tutaj](/wydania-wewnetrzne.html). Z tego poziomu możesz zobaczyć wydania utworzone dla danego zlecenia
 
-20. **przycisk Pokrycie zapotrzebowania** - umożliwa:
+19. **przycisk Pokrycie zapotrzebowania** - umożliwa:
 - ustalenie jakie surowce i komponenty będą potrzebne do produkcji
 - sprawdzenie, czy w momencie planowanego rozpoczęcia zlecenia produkty będą dostępne na magazynie (funkcjonalność analizuje nie tylko dane zlecenie, ale też inne otwarte zlecenia korzystające z danych produktów)
 - uzyskanie informacji o planowanych dostawach na potrzebne produkty 
@@ -231,7 +233,7 @@ Więcej informacji znajdziesz [tutaj](/ceny-materialow-dla-zlecenia)
 - ustalenie stanu magazynowego zamienników
 Po więcej odsyłam do tej [dokumentacji](/pokrycie-zapotrzebowania).
 
-21. **przycisk Zlecenia na komponenty** - jeśli zaplanowane w technologii komponenty chcesz produkować zawsze (niezależnie od tego, czy są na magazynie, czy nie), to do generowania zleceń na komponenty wybierz tą funkcjonalność.
+20. **przycisk Zlecenia na komponenty** - jeśli zaplanowane w technologii komponenty chcesz produkować zawsze (niezależnie od tego, czy są na magazynie, czy nie), to do generowania zleceń na komponenty wybierz tą funkcjonalność.
 
 Ponadto z listy zleceń możesz wygenerować: [zapotrzebowanie materiałowe](/zapotrzebowanie-materialowe) i [karty pracy](/karty-pracy).
 
