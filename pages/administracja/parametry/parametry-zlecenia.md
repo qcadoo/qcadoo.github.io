@@ -140,7 +140,8 @@ W tej zakładce mamy jeden parametr - decydujący o tym, czy rozpoczynamy zlecen
 
 {% include lightbox.html file="administracjaParametryZleceniaMagazynSurowce.png" alt="Parametry zleceń - magazyn surowce" caption="Parametry zleceń - magazyn surowce" %}
 
-1. **Ignoruj brak surowców** - jeśli parametr będzie niezaznaczony, to nie pozwolimy na akceptację zlecenia jeśli na magazynie nie będzie wystarczającego stanu surowców pod dane zlecenie. W administracji ustawiamy wartość domyślną parametru. Możesz ją zmienić jeszcze na poziomie zlecenia produkcyjnego
+1. **Ignoruj brak surowców** - jeśli parametr będzie niezaznaczony, to nie pozwolimy na akceptację lub rozpoczęcie zlecenia jeśli na magazynie nie będzie wystarczającego stanu surowców pod dane zlecenie. W administracji ustawiamy wartość domyślną parametru. Możesz ją zmienić jeszcze na poziomie zlecenia produkcyjnego
+2. **Moment walidacji** - wskaż, czy mamy sprawdzać stan surowców w momencie akceptacji czy rozpoczynania zlecenia
 
 ---
 

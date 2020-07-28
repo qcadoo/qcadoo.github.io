@@ -124,6 +124,14 @@ entries:
         output: web
         url: /praca-bez-biezacej-kontroli-zuzycia.html
 
+  - title: Dashboard
+    output: web
+    folderitems:
+
+    - title: Dashboard
+      output: web
+      url: /dashboard.html
+
   - title: Kalendarze
     output: web
     folderitems:
@@ -622,10 +630,6 @@ entries:
       output: web
       url: /terminal.html
 
-    - title: Rozliczenie produkcji
-      output: web
-      url: /rozliczenie-produkcji.html
-
     - title: Wydruki rekordów produkcji
       output: web
       url: /meldunki-zwrotne.html
@@ -745,6 +749,10 @@ entries:
     - title: Analiza genealogii produkcji
       output: web
       url: /analiza-genealogii-produkcji.html
+
+    - title: Rozliczenie produkcji
+      output: web
+      url: /rozliczenie-produkcji.html
     
   - title: Administracja
     output: web
