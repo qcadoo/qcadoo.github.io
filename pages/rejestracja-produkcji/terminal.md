@@ -67,7 +67,10 @@ Domyślnie w liście zadań nie pojawiają się te, których wykonać nie można
 
 W oknie wyboru możesz również zdecydować, czy chcesz widzieć zadania pobrane do realizacji przez innego pracownika - służy do tego parametr: **Nie pokazuj zadań pobranych przez innego pracownika**. Wartość domyślną parametru możesz ustawić w parametrach terminala.
 
-Jeśli pracujesz w terminalu w systemie START-STOP na pewno będziesz korzystać z parametru **Pokaż tylko zadania aktualnie realizowane** - zaznacz go, a lista zadań zostanie ograniczona do tych, dla których praca została wystartowana (czyli prace aktualnie trwają).
+Jeśli pracujesz w terminalu w systemie START-STOP na pewno będziesz korzystać z filtru: **Pokaż zadania**. Ustaw:
+- **realizowane**, a lista zadań zostanie ograniczona do tych, dla których praca została wystartowana (czyli prace aktualnie trwają),
+- **nierealizowane**, a lista zadań zostanie ograniczona do tych, dla których nie ma zarejestrowanych aktualnie niezakończonych prac (czyli nie kliknięto dla nich START, bez klikania STOP),
+- **wszystkie**, a będzie pokazana pełna lista zadań.
 
 Listę zadań możesz wydrukować do **PDF**. Przydatna funkcja w sytuacji, gdy nie tak łatwo zapamiętać wszystkie parametry wykonywanych czynności. Jeśli pracownik będzie miał wydrukowaną listę, zawsze będzie mógł zerknąć, jak produkt ma wyglądać. Będzie mógł też notować na bieżąco wszystkie informacje, które będzie później do terminala wprowadzał. Aby wydrukować listę, zaznacz te zadania, które mają się na niej pojawić i kliknij przycisk PDF. Za dużo kolumn? Ukryj je w tabeli (korzystając z przycisku {% include inline_image.html file="przyciskUkryjKolumnyTerminal.png" alt="Przycisk Kolumny" %}), a na wydruku też się nie pojawią.
 

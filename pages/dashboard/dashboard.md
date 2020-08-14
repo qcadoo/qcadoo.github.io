@@ -7,7 +7,7 @@ Logując się do qcadoo wia Cię dashboard. Będziesz jednak wracał na nią cz�
 
 Zacznę od tego, że cały dashboard jest konfigurowalny. Wejdź w **Administracja > Parametry > [Dashboard](/parametry-dashboard)** i wskaż co chciałbyś zobaczyć na stronie startowej. 
 
-Pamiętaj, że w każdej chwili możesz przejść do dashboardu klikając w lewym górnym rogu ekranu w przycisk {% include inline_image.html file="przyciskQcadoo.png" alt="Przycisk qcadoo" %} **Pokaż qcadoo**).
+Pamiętaj, że w każdej chwili możesz przejść do dashboardu klikając w lewym górnym rogu ekranu w przycisk {% include inline_image.html file="przyciskQcadoo.png" alt="Przycisk qcadoo" %} **qcadoo**).
 
 ---
 
@@ -69,6 +69,7 @@ Natomiast o tym w jakiej grupie zostanie zaprezentowane zadanie operacyjne świa
 Z poziomu zleceń produkcyjnych widocznych na dashboardzie możesz wykonać następujące funkcje:
 1. klikając w numer zlecenia (czarna belka) przejdziesz do szczegółów zlecenia produkcyjnego. I z tego poziomu możesz wykonać wszystko to, co jest możliwe w standardzie dla zlecenia o danym statusie
 2. w obszarze **realizowane** z poziomu zlecenia raportowanego zbiorczo możliwe jest przejście do terminala rejestarcji produkcji (przycisk {% include inline_image.html file="przyciskPokazTerminal.png" alt="Przycisk Pokaż terminal" %} **Pokaż terminal**). Dane z automatu zostaną zaczytane, wystarczy, że wprowadzisz efekty wykonanej produkcji i potwierdzisz meldunek
+3. klikając w przycisk {% include inline_image.html file="przyciskDodajZlecenie.png" alt="Przycisk Dodaj zlecenie" %} **Dodaj zlecenie** utworzysz w bardzo intuicyjny sposób zlecenie produkcyjne. Poczytasz o tym [tutaj](/dashboard-dodawanie-zlecen)
 <br/>
 <br/>
 

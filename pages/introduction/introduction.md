@@ -21,3 +21,8 @@ Zachęcamy do poznania pełnej funkcjonalności systemu, dlatego ten tutorial ba
 Zaczynamy?
   
 **Krok 1/11: [Wprowadź surowce, półprodukty i wyroby](/krok-1-produkty-1)**
+
+<br/>
+<br/>
+
+{% include callout.html content="Jest też ścieżka alternatywna, szybka, minimalistyczna - zerknij do [tego opisu](/zlecenia-z-wykorzystaniem-dashboardu)." type="warning" %}

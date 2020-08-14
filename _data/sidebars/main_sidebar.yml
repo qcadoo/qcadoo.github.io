@@ -124,6 +124,10 @@ entries:
         output: web
         url: /praca-bez-biezacej-kontroli-zuzycia.html
 
+      - title: Zarządzanie zleceniami produkcyjnymi z wykorzystaniem dashboardu
+        output: web
+        url: /zlecenia-z-wykorzystaniem-dashboardu.html
+
   - title: Dashboard
     output: web
     folderitems:
@@ -131,6 +135,10 @@ entries:
     - title: Dashboard
       output: web
       url: /dashboard.html
+
+    - title: Dodawanie zleceń z dashboardu
+      output: web
+      url: /dashboard-dodawanie-zlecen.html
 
   - title: Kalendarze
     output: web

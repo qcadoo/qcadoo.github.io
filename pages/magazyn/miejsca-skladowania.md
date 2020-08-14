@@ -63,7 +63,7 @@ Funkcję można wywoływać wielokrotnie, tworząc tym samym całą siatkę miej
 
 ## Import miejsc składowania z pliku Excel
 
-Jeśli masz przypisane na stałe produkty do miejsc składowania to funkcja importu miejsc składowania z pliku Excel jest dla Ciebie. 
+Jeśli masz przypisane na stałe produkty do miejsc składowania to funkcja importu miejsc składowania z pliku Excel (format .xls) jest dla Ciebie. 
 
 {% include lightbox.html file="magazynMiejsceSkladowaniaImport.png" alt="Import miejsc składowania" caption="Import miejsc składowania" class="float-right" %}
 
