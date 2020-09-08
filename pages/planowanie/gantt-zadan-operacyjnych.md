@@ -55,7 +55,7 @@ Jakie jeszcze kolory możesz na wykresie Gantta dostrzec:
 
 {:start="3"}
 
-3. kolor zadania może nieść informacje o procencie wykonania. Aby tak się stało zaznacz w [parametrach Gantta](parametry-gantta) **Pokazuj postęp**. Pamiętasz procent wykonania w liście zadań operacyjnych? Jeśli nie - to zerknij [tutaj](/planowanie-operacyjne.html#śledzenie-postępu-produkcji). W zależności od tego w jakim procencie zadanie jest wykonane, tak będzie się napełniać kolorem dany kafelek. Wykonanie 100% spowoduje pokolorowanie zadania na ciemno zielono.
+3. kolor zadania może nieść informacje o procencie wykonania. Aby tak się stało zaznacz w [parametrach Gantta](/parametry-planowania.html#gantt-zadań-operacyjnych) **Pokazuj postęp**. Pamiętasz procent wykonania w liście zadań operacyjnych? Jeśli nie - to zerknij [tutaj](/planowanie-operacyjne.html#śledzenie-postępu-produkcji). W zależności od tego w jakim procencie zadanie jest wykonane, tak będzie się napełniać kolorem dany kafelek. Wykonanie 100% spowoduje pokolorowanie zadania na ciemno zielono.
 
 {% include lightbox.html file="planowanieGanttZadanPostep.png" alt="Postęp zadania operacyjnego" caption="Postęp zadania operacyjnego" %}
 

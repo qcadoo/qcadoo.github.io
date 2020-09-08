@@ -3,7 +3,7 @@ title: "Parametry genealogii"
 permalink: parametry-genealogia.html 
 ---
 
-W Administracja > Parametry > Genealogia znajdziesz parametry konfigurujące moduł [Genealogii](\genealogia)
+W Parametry > Parametry ogólne > przycisk: Genealogia znajdziesz parametry konfigurujące moduł [Genealogii](\genealogia)
 
 ## Zakładka Główna
 

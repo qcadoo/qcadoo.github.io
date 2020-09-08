@@ -58,6 +58,8 @@ Jeśli **wprowadzasz zadanie o typie: _inne zadanie_**, to wypełnij następują
 - _data rozpoczęcia_ i _data zakończenia_ - określ w jakim czasie zadanie ma zostać wykonane.
 
 Numer zadania operacyjnego zostanie nadany automatycznie.
+<br/>
+<br/>
 
 ## Dodawanie zadań przez zatwierdzenie planu 
 
@@ -85,6 +87,12 @@ Do danej operacji zlecenia produkcyjnego może istnieć tylko jedno zadanie oper
 
 ---
 
+## Szczegółowe zapotrzebowanie zadania operacyjnego
+
+Jeśli zadanie operacyjne powiązane jest ze zleceniem produkcyjnym o statusie co najmniej zaakceptowanym, to uaktywni się przycisk {% include inline_image.html file="przyciskSzczegoloweZapotrzebowanie.png" alt="Szczegółowe zapotrzebowanie" %} **Szczegółowe zapotrzebowanie**. Skorzystaj z niego, aby ustalić jakie produkty będą brały udział w wykonaniu danej operacji. Dowiesz się o ilościach planowanych, ale też o ilościach już zaraportowanych jako zużyte czy wyprodukowane. Zobaczysz tu również wykorzystane zamienniki. Szczegółowe zapotrzebowanie pozwala też na modyfikację listy produktów - poczytasz o tym w [tej dokumentacji](/zmiana-stanu-zapotrzebowania).
+
+--- 
+
 ## Śledzenie postępu produkcji
 
 Wykonanie zadania operacyjnego może być raportowane z poziomu [terminala](/terminal) - wybierając z listy przypisane pracownikowi zadanie, albo z poziomu Rejestracja > [Rejestracja produkcji](/rejestracja-produkcji), wybierając operację zlecenia. Zadeklarowana ilość wyprodukowana będzie widoczna w zadaniu. Spowoduje to ponadto przeliczenie wykonania procentowego.
@@ -96,4 +104,4 @@ Kolumna Wykonano % może zostać oznaczona kolorami. Stosujemy trzy kolory:
 - <span style="color:green"> zielony</span> - oznacza, że cała ilość zlecona jest już wyprodukowana (suma ilości wyprodukowanej pochodzącej z zaakceptowanych rekordów rejestracji jest co najmniej taka jak ilość zlecona),
 - <span style="color:yellow"> żółty</span> - oznacza, że praca trwa (czyli mamy już zarejestrowaną ilość wyprodukowaną do tej operacji, ale jest ona nadal mniejsza od ilości zleconej).
 
-Aby kolor się pojawił, zaznacz parametr Oznacz kolorem procent wykonania w Administracja > Parametry > [Zadania operacyjne](/parametry-zadania-operacyjne)
+Aby kolor się pojawił, zaznacz parametr Oznacz kolorem procent wykonania w Parametry > Parametry planowania > [Zadania operacyjne](/parametry-planowania.html#zadania-operacyjne)

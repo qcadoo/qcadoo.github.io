@@ -116,7 +116,7 @@ Podpięte pliki możesz podejrzeć klikając w nie, albo pobrać zaznaczając i 
 
 {% include lightbox.html file="produktyProduktyKoszty.png" alt="Koszty produktu" caption="Koszty produktu" %} 
 
-Dane zawarte w tej zakładce to podstawa do [kalkulacji kosztów](/koszty-zlecenia). W zależności od tego jak ustawisz [parametry rozliczenia](/parametry-rozliczenie-produkcji) (źródło kosztów materiałó∑ i wykorzystywane koszty materiałów) to takie konkretne ceny będziemy do kalkulacji pobierać. Jakie są możliwości?
+Dane zawarte w tej zakładce to podstawa do [kalkulacji kosztów](/koszty-zlecenia). W zależności od tego jak ustawisz [parametry rozliczenia](/parametry-rejestracja-produkcji.html#rozliczenie-produkcji) (źródło kosztów materiałó∑ i wykorzystywane koszty materiałów) to takie konkretne ceny będziemy do kalkulacji pobierać. Jakie są możliwości?
 - cena ostatniego przychodu
 - cena średnio ważona
 - cena z ostatniej oferty
@@ -161,17 +161,19 @@ i uzupełnij dane. Zacznę od opisu kolumn, które wypełnić musisz. Mianowicie
 
 Ponadto produkty możesz wzbogacić o następujące dane:
 - **globalny typ materiału** (kolumna C) - to oznaczenie czym dany produkt u Ciebie jest. Wykorzystasz tą daną do filtrowania produktów i ich szybszego znalezienia. Do wyboru są wartości 'surowiec', 'półprodukt', 'odpad', 'finalny produkt'
-- **kod EAN** (kolumna E) - do wpisania dowolny tekst. Dany kod EAN może wystąpić tylko raz
-- **kategoria** (kolumna F) - wartość tu podana musi być najpierw zdefiniowana w [słowniku](/slowniki) kategorii produktów. Wykorzystasz to pole do pogrupowania produktów i przekazania pracownikom dodatkowych informacji. Kategoria produktu widoczna jest np. w terminalu rejestracji produkcji
-- **opis** (kolumna G) - do wpisania dowolny tekst
-- **producent** (kolumna H) - do wpisania numer [firmy](/firmy) zdefiniowanej w qcadoo
-- **asortyment** (kolumna I) - do wpisania [asortyment](/asortymenty) zdefiniowany w qcadoo. Asortyment to dodatkowa forma grupowania produktów, niezbędna, gdy chcesz korzystać z [grup zleceń](/grupy-zlecen)
-- **należy do rodziny** (kolumna J) - i kolejny element grupujący. Możesz zdefiniować produkty będące rodziną i pod tą rodzinę podpiąć inne "zwykłe" produkty. Do wpisania zatem numer istniejącego produktu w qcadoo
-- **koszt nominalny** (kolumna K) - koszt szczególnie ważny dla produktów finalnych (wyrobów gotowych), które są przyjmowane na magazyn w cenie ewidencyjnej (czyli gdy [parametr](/parametry-rozliczenie-produkcji) Cena PW na podst. = koszt nominalny produktu). Wpisz wartość liczbową
-- **cena ostatniego przychodu** (kolumna L) - szczególnie ważna dla surowców. Wykorzystasz ją, gdy wyceniasz produkcję wg ceny ostatniego zakupu. Standardowo cena ta ustalana jest na podstawie ostaniego wprowadzonego dokumentu. Jednak jeśli startujesz z pracą w systemie, to dokumentów nie mamy. Możesz zatem tą cenę uzupełnić resztę - podaj tutaj wartość liczbową
-- **cena średnio ważona** (kolumna M) - podobnie jak powyżej: cena średnio ważona wykorzystywana jest do wycen produkcji. Standardowo wyliczana jest z przyjętych dokumentów. Na starcie systemu warto podać ją ręcznie. Wprowadź tutaj wartość liczbową
-- **rozmiar** (kolumna N) - do wpisania dowolna wartość. Rozmiar może być liczbą, może być też tekstem
-- **ważność** (kolumna O) - jeśli produkt będzie przez Ciebie produkowany i będziesz dla niego wyznaczać datę ważności, to możesz w polu podać jaki czas (w miesiącach) produkt będzie nadawał się do użytku. Przy rejestracji produkcji podpowiemy datę wyliczoną jako data rozpoczęcia zlecenia + ilość miesięcy podaną w polu ważność. Wprowadź tu dodatnią całkowitą liczbę
+- **jednostka dodatkowa** (kolumna E) - produkt może być na magazynie prowadzony w dwóch jednostkach, np. w kartonach i w sztukach. Dzięki temu będziesz mógł szybko ustalić ile kartonów i ile sztuk na magazynie się znajduje. W tej kolumnie, podobnie jak w jednostce podstawowej, wpisz wartość zdefiniowaną w słowniku jednostek. Wypełnienie tej kolumny wiąże się z koniecznością podania przelicznika
+- **przelicznik** (kolumna F) - kolumna wymagana, gdy podałeś jednostkę dodatkową. Musisz podać ile jednostek dodatkowych mieści się w jednej jednostce podstawowej. Dla przykładu: jeśli jednostką podstawową jest karton, a dodatkową sztuka, a w jednym kartonie mieści się 12 sztuk, to przelicznik = 12.
+- **kod EAN** (kolumna G) - do wpisania dowolny tekst. Dany kod EAN może wystąpić tylko raz
+- **kategoria** (kolumna H) - wartość tu podana musi być najpierw zdefiniowana w [słowniku](/slowniki) kategorii produktów. Wykorzystasz to pole do pogrupowania produktów i przekazania pracownikom dodatkowych informacji. Kategoria produktu widoczna jest np. w terminalu rejestracji produkcji
+- **opis** (kolumna I) - do wpisania dowolny tekst
+- **producent** (kolumna J) - do wpisania numer [firmy](/firmy) zdefiniowanej w qcadoo
+- **asortyment** (kolumna K) - do wpisania [asortyment](/asortymenty) zdefiniowany w qcadoo. Asortyment to dodatkowa forma grupowania produktów, niezbędna, gdy chcesz korzystać z [grup zleceń](/grupy-zlecen)
+- **należy do rodziny** (kolumna L) - i kolejny element grupujący. Możesz zdefiniować produkty będące rodziną i pod tą rodzinę podpiąć inne "zwykłe" produkty. Do wpisania zatem numer istniejącego produktu w qcadoo
+- **koszt nominalny** (kolumna M) - koszt szczególnie ważny dla produktów finalnych (wyrobów gotowych), które są przyjmowane na magazyn w cenie ewidencyjnej (czyli gdy [parametr](/parametry-rejestracja-produkcji.html#rozliczenie-produkcji) Cena PW na podst. = koszt nominalny produktu). Wpisz wartość liczbową
+- **cena ostatniego przychodu** (kolumna N) - szczególnie ważna dla surowców. Wykorzystasz ją, gdy wyceniasz produkcję wg ceny ostatniego zakupu. Standardowo cena ta ustalana jest na podstawie ostaniego wprowadzonego dokumentu. Jednak jeśli startujesz z pracą w systemie, to dokumentów nie mamy. Możesz zatem tą cenę uzupełnić resztę - podaj tutaj wartość liczbową
+- **cena średnio ważona** (kolumna O) - podobnie jak powyżej: cena średnio ważona wykorzystywana jest do wycen produkcji. Standardowo wyliczana jest z przyjętych dokumentów. Na starcie systemu warto podać ją ręcznie. Wprowadź tutaj wartość liczbową
+- **rozmiar** (kolumna P) - do wpisania dowolna wartość. Rozmiar może być liczbą, może być też tekstem
+- **ważność** (kolumna R) - jeśli produkt będzie przez Ciebie produkowany i będziesz dla niego wyznaczać datę ważności, to możesz w polu podać jaki czas (w miesiącach) produkt będzie nadawał się do użytku. Przy rejestracji produkcji podpowiemy datę wyliczoną jako data rozpoczęcia zlecenia + ilość miesięcy podaną w polu ważność. Wprowadź tu dodatnią całkowitą liczbę
 - **ewidencja partii** (kolumna P) - jeśli dany produkt ma mieć podczas ewidencji podawany numer partii i chcesz abyśmy nie pozwalali na zapisy dla tego produktu bez podania partii, wskaż w komórce wartość 'tak'. W przeciwnym razie przyjmiemy, że nie chcesz i ustawimy ewidencję partii na 'nie'.
 
 {% include callout.html content="Jeśli nadal będziesz mieć wątpliwości co w daną komórkę trzeba wpisać, zerknij na komentarz jaki jest dodany do nagłówka kolumny w szablonie." type="warning" %}

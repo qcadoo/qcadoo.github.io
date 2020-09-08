@@ -22,7 +22,7 @@ Dzięki tej funkcji możesz rozplanować przydział pracowników do zmian na lin
 {:start="6"}
 6. Po wprowadzeniu wszystkich informacji wybierz {% include inline_image.html file="startIcon24.png" alt="Przycisk Zaakceptuj" %} **Zaakceptuj**.
 
-{% include callout.html content="Zajrzyj też do [parametrów przydziału do zmian](/parametry-przydzial-do-zmian)" type="warning" %}
+{% include callout.html content="Zajrzyj też do [parametrów przydziału do zmian](/parametry-planowania.html#zadania-operacyjne)" type="warning" %}
 
 ## Korekta zdefiniowanego przydziału do zmian
 

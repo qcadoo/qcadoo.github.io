@@ -30,7 +30,7 @@ Wejdź w **jakość > kontrola jakości** i kliknij {% include inline_image.html
 Uzupełnij:
 - **produkt**, który chcesz kontrolować
 - **kartę jakości**, wg której chcesz przeprowadzić kontrolę. Lista kart jakości jest ograniczona do tych, które są zaakceptowane i przypisane do produktu
-- **partię**, która będzie podlegała kontroli - w zależności od ustawionych parametrów możesz realizować dwa tryby:
+- **partię**, która będzie podlegała kontroli - w zależności od ustawionych [parametrów](/parametry-glowna.html#jakość) możesz realizować dwa tryby:
  1. zakłada, że blokujesz zasoby - wówczas partia może być w kontoli podana, ale nie musi. Na jej podstawie zostanie zawężona lista zasobów. Ale możesz też zasoby wskazać ręcznie i one nie muszą nieść informacji o partii
  2. zakłada, że zasoby nie będą blokowane. A nawet - że zasoby nie istnieją. W tej sytuacji partia będzie niezbędna - musisz wskazać to, po czym będziemy identyfikować jakie konkretnie wyroby zostały sprawdzone
 

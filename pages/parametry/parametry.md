@@ -9,7 +9,7 @@ Opis parametrów pogrupowany będzie z dokładnością do zakładek czy przycisk
 
 Najistotniejsze wg nas są te:
 - [rejestracja produkcji](/parametry-rejestracja-produkcji)
-- [rozliczenie produkcji](/parametry-rozliczenie-produkcji)
+- [rozliczenie produkcji](/parametry-rejestracja-produkcji.html#rozliczenie-produkcji)
 - [zlecenia](/parametry-zlecen)
 - [zaopatrzenie](/parametry-zaopatrzenie)
 - [magazyn](/parametry-magazyn)

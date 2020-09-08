@@ -102,7 +102,7 @@ Zlecenie produkcyjne możesz dodać do zamówienia na kilka sposobów:
 
 Z poziomu zamówienia sprzedaży można utworzyć wiele zleceń produkcyjnych za pomocą jednego kliknięcia. W tym celu zaznacz wiele produktów na liście produktów i wybierz {% include inline_image.html file="generateIcon24.png" alt="Przycisk Generuj" %} **Utwórz wiele zleceń produkcyjnych**.
 
-Dla każdego zaznaczonego produktu powstanie zlecenie produkcyjne na ilość pozostałą do zlecenia. Mało tego, jeśli chcesz, mogą powstać jeszcze zlecenia na komponenty a także dla każdego utworzonego zlecenia może zostać wyliczony plan produkcji na zmiany. Jedyne co musisz zrobić to włączyć odpowiednie parametry w **ADMINISTRACJA > Parametry** w zakładce [Zlec. na komponenty](/parametry-zlecenia-na-komponenty).
+Dla każdego zaznaczonego produktu powstanie zlecenie produkcyjne na ilość pozostałą do zlecenia. Mało tego, jeśli chcesz, mogą powstać jeszcze zlecenia na komponenty a także dla każdego utworzonego zlecenia może zostać wyliczony plan produkcji na zmiany. Jedyne co musisz zrobić to włączyć odpowiednie parametry w **Parametry > Parametry planowania > przycisk Zlecenia** w zakładce [Zlec. na komponenty](/parametry-zlecen.html#zlecenia-na-komponenty).
 
 {% include lightbox.html file="planowanie-%20zlecenia%20nadrz%C4%99dne%20par.png" alt="Parametry dotyczące tworzenia wielu zleceń produkcyjnych z poziomu zamówienia sprzedaży" caption="Parametry dotyczące tworzenia wielu zleceń produkcyjnych z poziomu zamówienia sprzedaży" %}
 

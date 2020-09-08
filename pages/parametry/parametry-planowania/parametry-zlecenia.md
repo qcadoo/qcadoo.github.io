@@ -5,7 +5,7 @@ permalink: parametry-zlecen.html
 
 Zlecenia produkcyjne to serce qcadoo MES. To dzięki nim przekazujesz prace na produkcję. To one są podstawą do wyprodukowania wyrobu. To pod nie zużywane są produkty. To na ich podstawie rozliczamy produkcję. Sporo się wokół nich dzieje - zatem i sposobó konfiguracji wiele. Warto zapoznać się z parametrami zleceń i ustawić je tak, by jak najwygodniej się z nimi pracowało.
 
-Parametry zleceń ustawiane są w Administracja > Parametry > Zlecenia. Są one pogrupowane w zakładki. Każda zakładka będzie omówiona w osobnym rozdziale.
+Parametry zleceń ustawiane są w Parametry > Parametry planowania > przycisk Zlecenia. Są one pogrupowane w zakładki. Każda zakładka będzie omówiona w osobnym rozdziale.
 
 ## Główna
 
@@ -84,23 +84,6 @@ W parametrach wybierz kategorię i przypisz jej kolor z dostępnej listy. Użyj 
 
 ---
 
-## Zamówienia sprzedaży
-
-Dzięki zamówieniom sprzedaży możesz prowadzić rejestr zgłoszeń od klientów. Zamówienia sprzedaży stanowią początek procesu produkcyjnego - dzięki nim wiesz co musisz wyprodukować. Skonfiguruj je tak, by spełniały Twoje oczekiwania
-
-
-{% include lightbox.html file="administracjaParametryZleceniaZamowieniaSprzedazy.png" alt="Parametry zleceń - zamówienia sprzedaży" caption="Parametry zleceń - zamówienia sprzedaży" %}
-
-1. **Taki sam numer zlecenia produkcyjnego i zamówienia sprzedaży** - jeśli jedno zamówienie sprzedaży ma tylko jedno zlecenie produkcyjne, to możemy przyjąć, że numer zamówienia będzie przenoszony do zlecenia produkcyjnego, bez dodawania końcówki 001 itd. Jeśli tak ma być - zaznacz parametr. W przeciwnym wypadku dla zamówienia o numerze ZN123 powstanie zlecenie produkcyjne o numerze ZN123-001
-
-2. **Nie ustalaj dat w generowanych zleceniach** - standardowo daty podane w zamówieniu sprzedaży przenoszone są do tworzonego zlecenia produkcyjnego. Jeśli nie chcesz ich przenosić - zaznacz parametr.
-
-3. **Zakończ zamówienie sprzedaży po zleceniu wszystkich pozycji** - jeśli zaznaczysz parametr, to w momencie, gdy wszystkie pozycje będą miały status "Zlecone", oznaczymy zamówienie sprzedaży jako zakończone
-
-4. **Definicje zamówień sprzedaży** - definicje zamówień sprzedaży pozwalają na pogrupowanie zamówień. Możesz wprowadzić definicje dla zamówień krajowych i unijnych. Dzięki temu od razu będzie wiadomo jaki jest kierunek sprzedaży. Ale możesz definicje wykorzystać do czegoś innego - ogranicza Cię tylko wyobraźnia. Dodaj tutaj definicje i podpinaj je przy tworzeniu zamówienia sprzedaży
-
----
-
 ## Postęp produkcji
 
 Parametr w zakładce dotyczy [szczegółowego zapotrzebowania](/zmiana-stanu-zapotrzebowania), czyli listy produktów uczestniczących w produkcji pod dane zlecenie i jego operacje.
@@ -145,18 +128,16 @@ W tej zakładce mamy jeden parametr - decydujący o tym, czy rozpoczynamy zlecen
 
 ---
 
-## Grupy zleceń
+## Zlecenia na komponenty
 
-Parametry w tej zakładce przydadzą się, gdy używasz do rozpisywania zleceń na produkcji [grup zleceń](/grupy-zlecen).
+Komponenty to wydzielone z całej produkcji danego wyrobu osobno zlecane elementy, np. półprodukty. Posiadają one swoją własną technologię, ale z technologiami powiązanymi tworzą całą strukturę wyrobu, tworząc tym samym kompletny wyrób gotowy. 
 
-{% include lightbox.html file="administracjaParametryZleceniaGrupyZlecen.png" alt="Parametry zleceń - grupy zleceń" caption="Parametry zleceń - grupy zleceń" %}
+O tym, czy mamy brać pod uwagę komponenty podczas wykonywanych działań, zadecyduj w parametrach:
 
-1. **Uwzględnij poziom i sufix numeru zlecenia** - standardowo przy grupowaniu wygenerowanych zleceń na komponenty tworzymy grupę ze zleceń o takich samych: asortyment i linia produkcyjna. Jeśli zaznaczysz ten parametr, to zlecenia będą musiały mieć też taki sam poziom (wynikający z drzewa technologii) oraz przyrostek (nadany przy generowaniu zlecenia na komponent)
+{% include lightbox.html file="administracjaParametryZleceniaNaKomponenty.png" alt="Parametry zleceń na komponenty" caption="Parametry zleceń na komponenty" %}
 
-2. **Automatyczne zamykanie zleceń w ramach grup** - zaznacz parametr jeśli mamy Ci pomóc w zamykaniu zleceń. Co zrobimy? W sobotę o północy zbierzemy wszystkie zlecenia w ramach grup, dla których:
-- wyprodukowano co najmniej tyle ile zlecono
-- statusy są inne niż zaakceptowane lub oczekujące
-- akceptacja rekordów rejestracji nastąpiła co najmniej tydzień wcześniej
-i spróbujemy ustawić im status Zakończone. Jeśli w co najmniej 1 zleceniu nie uda się ustawić statusu - żadne ze zleceń danej grupy nie zostanie zmienione. 
-Za jednym razem spróbujemy pozamykać zlecenia z maksymalnie 100 grup. 
-Po zamknięciu zleceń z grup spróbujemy pozamykać też zamówienia sprzedaży - jeśli w ramach zamówienia nie ma już żadnego otwartego zlecenia, to je też zakończymy.
+1. **Uwzględnij zlecenia na komponenty** - domyślne ustawienie parametru wykorzystywanego w [kalkulacji kosztów ](/koszty-zlecenia)i [kalkulacji czasochłonności](/czasochlonnosc-zlecenia). Zaznacz parametr jeśli chcesz, żebyśmy wykonywali obliczenia nie tylko dla danego zlecenia, ale dla wszystkich powiązanych zleceń na komponenty
+
+2. **Automatycznie generuj zlecenia na komponenty** - zaznacz jeśli chcesz, aby podczas rozpisywania zleceń produkcyjnych z zamówień sprzedaży  przy pomocy funkcji [Utwórz wiele zleceń produkcyjnych](/zlecenia-nadrzedne#utworzenie-wielu-zleceń-produkcyjnych-z-poziomu-zlecenia-nadrzędnego), program z automatu wywołał generowanie zleceń na komponenty
+
+3. **Zlecenia na komponenty generowane przez pokrycie zapotrzebowania** - parametr powiązany z powyższym. Jeśli zlecenia na komponenty mają się generować z automatu, to wskaż którą ścieżką: przez pokrycie zapotrzebowania - czyli ze sprawdzaniem stanu magazynowego i zlecanie tylko tego czego nie ma (jeśli tak - zaznacz parametr), czy bez pokrycia - czyli zawsze generowanie zleceń na komponenty na ilość wynikającą z technologii (jeśli tak - parametr pozostaw niezaznaczony)

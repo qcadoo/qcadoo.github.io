@@ -32,6 +32,6 @@ Aby wrócić do pełnej analizy użyj przycisku {% include inline_image.html fil
 
 {% include callout.html content="Klikając prawym przyciskiem myszy w nagłówek kolumny możesz ukryć te, które nie są Ci potrzebne." type="warning" %}
 
-Dane widoczne w tabeli możesz wyeksportować do pliku CSV i otworzyć go w Excelu (instrukcję znajdziesz [tutaj](/eksport-danych.html#otwarcie-pliku-csv-w-excelu)). Wczytaj do analizy dane i kliknij przycisk {% include inline_image.html file="przyciskCSV.png" alt="Przycisk CSV" %} **CSV**. Zostaną wyeksportowane wszystkie dane spełniające nadane przez Ciebie kryteria filtrowania. Jeśli w [parametrach raportów](/parametry-raport) określiłeś, że eksportowane mają być tylko widoczne kolumny, to w pliku .csv nie będziesz widzieć tych kolumn, które są ukryte.
+Dane widoczne w tabeli możesz wyeksportować do pliku CSV i otworzyć go w Excelu (instrukcję znajdziesz [tutaj](/eksport-danych.html#otwarcie-pliku-csv-w-excelu)). Wczytaj do analizy dane i kliknij przycisk {% include inline_image.html file="przyciskCSV.png" alt="Przycisk CSV" %} **CSV**. Zostaną wyeksportowane wszystkie dane spełniające nadane przez Ciebie kryteria filtrowania. Jeśli w [parametrach raportów](/parametry-glowna.html#rarport) określiłeś, że eksportowane mają być tylko widoczne kolumny, to w pliku .csv nie będziesz widzieć tych kolumn, które są ukryte.
 
 {% include callout.html content="Aby ukryć nieinteresujące Cię kolumny, kliknij w nagłówek tabeli prawym przyciskiem myszy i odznacz te, które nie mają się pojawiać." type="warning" %}
