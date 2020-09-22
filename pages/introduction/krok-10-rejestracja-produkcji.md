@@ -8,8 +8,8 @@ Utworzyłeś już zlecenie produkcyjne i ropocząłeś je. Teraz możesz zaczą�
 Podczas definiowania zlecenia w zakładce "Rejestracja produkcji" określiłeś sposób, w jaki chcesz rejestrować produkcję na poczet tego zlecenia. W naszym systemie istnieją trzy takie sposoby:
 
 - [podstawowy](/podstawowe-rejestrowanie-produkcji) - rejestracja produkcji jest wykonywana z poziomu zlecenia produkcyjnego, rejestrujemy w niej zużytą ilość surowców, wyprodukowaną i zużytą ilość półproduktów oraz wyprodukowaną ilość produktu finalnego,
-- [zbiorczy](/zbiorcze-rejestrowanie-produkcji) - zużycie i produkcję rejestrujemy dla całego zlecenia, zbiorczo, bez podziału na poszczególne operacje. Oprócz podania ilości zużytych i wyprodukowanych produktów, możemy również zarejestrować czas pracy pracowników oraz maszyn,  
-- [dla każdej operacji](/rejestracja-kazdej-operacji) - różni się od zbiorczego tym, że ilości zużyte i wyprodukowane podajemy dla każdej operacji technologii osobno.  
+- [zbiorczy](/rejestracja-produkcji) - zużycie i produkcję rejestrujemy dla całego zlecenia, zbiorczo, bez podziału na poszczególne operacje. Oprócz podania ilości zużytych i wyprodukowanych produktów, możemy również zarejestrować czas pracy pracowników oraz maszyn,  
+- [dla każdej operacji](/rejestracja-produkcji) - różni się od zbiorczego tym, że ilości zużyte i wyprodukowane podajemy dla każdej operacji technologii osobno.  
 
 ## Podstawowa rejestracja produkcji 
 

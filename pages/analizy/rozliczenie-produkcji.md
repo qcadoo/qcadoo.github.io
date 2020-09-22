@@ -9,7 +9,7 @@ Rozliczanie produkcji przynosi dwie korzyści.
 
 Funkcjonalność "**Rozliczenie produkcji**" pozwala również na tworzenie i gromadzenie raportów i zestawień z rejestracji produkcji (dla wariantów: "zbiorczego" i "dla każdej operacji"). 
   
-{% include callout.html content="Gdy tworzymy raport rozliczenia produkcji dla danego zlecenia/zleceń produkcyjnego/produkcyjnych, bierzemy pod uwagę tylko zarejestrowane meldunki zwrotne (patrz odpowiednio: [Zbiorcze rejestrowanie produkcji](/zbiorcze-rejestrowanie-produkcji) i [Rejestracja każdej operacji](/rejestracja-kazdej-operacji)) w stanie **Zaakceptowane**." type="info" %} 
+{% include callout.html content="Gdy tworzymy raport rozliczenia produkcji dla danego zlecenia/zleceń produkcyjnego/produkcyjnych, bierzemy pod uwagę tylko [zarejestrowane meldunki zwrotne](/rejestracja-produkcji) w stanie **Zaakceptowane**." type="info" %} 
 
 ## Jak wygenerować raport rozliczenia produkcji?
 

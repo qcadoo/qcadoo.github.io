@@ -211,7 +211,7 @@ Jeśli mamy pewność wprowadzonych danych możemy od razu nadać jej status {% 
 
 Więcej o [Stanach technologii](/statusy-technologii)
 
-{% include callout.html content='Wprowadzając produkty należy pamiętać, że produkt wyjściowy w operacji podrzędnej musi być użyty w kolejnej operacji jako jeden z produktów wejściowych. Aby przyspieszyć definiowanie, wprowadź produkty będące efektami operacji w drzewie i użyj przycisku **Przenieś produkty do kolejnych operacji**, a załączymy je jako produkty wejściowe do operacji kolejnych ' type="warning" %}
+{% include callout.html content='Wprowadzając produkty należy pamiętać, że produkt wyjściowy w operacji podrzędnej musi być użyty w kolejnej operacji jako jeden z produktów wejściowych. Aby przyspieszyć definiowanie, wprowadź produkty będące efektami operacji w drzewie i użyj przycisku **Przenieś produkty do kolejnych operacji**, a załączymy je jako produkty wejściowe do operacji kolejnych. Możesz też w [parametrach technologii](/parametry-technologia) zaznaczyć parametr _Przenoś produkty do kolejnych operacji podczas sprawdzania technologii_, a za każdym razem przy sprawdzaniu technologii funkcja ta będzie wywoływana. ' type="warning" %}
 
 {% include callout.html content='Z każdej operacji może powstać tylko jedna pozycja w polu "Produkt wyjściowy". Jeśli wpiszemy tam więcej produktów, pozostałe zostaną potraktowane jako odpad.' type="warning" %}
 

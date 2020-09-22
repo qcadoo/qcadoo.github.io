@@ -4,54 +4,64 @@ permalink: rejestracja-produkcji.html
 ---
 Funkcja ta służy do gromadzenia informacji zwrotnych zebranych na hali produkcyjnej, dających obraz postępów w realizacji zleceń (tzw. meldunki zwrotne).
   
-W qcadoo rejestrowanie przebiegu produkcji odbywa się na jednym z trzech poziomów (szerszy opis w osobnych artykułach):
+W qcadoo rejestrowanie przebiegu produkcji odbywa się na jednym z trzech poziomów:
 
 - [podstawowy](/podstawowe-rejestrowanie-produkcji) - zbieramy dane o **ilości** pobranych i skonsumowanych produktów w zleceniu,
-- [zbiorczy](/zbiorcze-rejestrowanie-produkcji)- rejestrujemy **czas pracy** (pracowników i maszyn) nad danym zleceniem **oraz ilości** produktów w tym czasie użytych,
-- [dla każdej operacji](/rejestracja-kazdej-operacji) - dokładniejszy od zbiorczego, **czas pracy i ilości produktów** rejestrowane są w ramach **każdej operacji.** 
+- [zbiorczy](/rejestracja-produkcji)- rejestrujemy **czas pracy** (pracowników i maszyn) nad danym zleceniem **oraz ilości** produktów w tym czasie użytych,
+- [dla każdej operacji](/rejestracja-produkcji) - dokładniejszy od zbiorczego, **czas pracy i ilości produktów** rejestrowane są w ramach **każdej operacji.** 
 
 ## Jak rejestrować produkcję i wprowadzać meldunki zwrotne?
 
-Aby wykonać rejestrację produkcji w qcadoo przy zakładaniu nowego **zlecenia produkcyjnego (PLANOWANIE > Planowanie zleceń)**, w karcie **Rejestracja produkcji** należy wybrać interesujący nas sposób zbierania danych.
+Zanim rozpoczniesz raportowanie produkcji, a nawet - zanim utworzysz technologie i zlecenia produkcyjne, zajrzyj do [parametrów rejestracji produkcji](/parametry-rejestracja-produkcji). Ustaw w jakiej konfiguracji będziesz zbierał dane z produkcji. Szczególnie ważny jest parametr dotyczący sposobu rejestracji produkcji. Jeśli każde zlecenie będziesz chciał meldować tak samo: zbiorczo lub z dokładnością do operacji, ustaw odpowiednią wartość w parametrach, a my zajmiemy się resztą. Jeśli jednak część produkcji chcesz raportować zbiorczo, a część z dokładnością do operacji, wskaż odpowiednie wartości już na etapie budowania [technologii](/technologie-szczegoly). Z technologii wartość przeniesie się do zlecenia (co również możesz zmienić wchodząc w [parametry zlecenia](/zlecenia-produkcyjne.html#dodatkowe-możliwości-konfiguracji-zlecenia)), a to będzie pobierane do rejestracji. 
 
-Sposoby rejestracji meldunków: **Zbiorczy** i **Dla każdej operacji** dają możliwość określenia czy (pole po lewej stronie):
+W konfiguracji ważne jest też to, czy chcesz zbierać dane o zużytych i wytworzonych produktach, a także to, czy interesuje Cię zbieranie czasu pracy. Wyłączenie tych parametrów spowoduje ukrycie zakładek w meldunku. Pamiętaj jednak, że coś co nie zostało zaraportowane, nie może stanowić źródła danych do analizy. 
 
-- rejestrujemy produkty wejściowe i wyjściowe
-- czy rejestrujemy czasy produkcji
 
-Parametry te, według uznania, mogą być pominięte w formularzu rejestracji produkcji.
-
-{% include lightbox.html file="planowanie-%20rejestracja%20produkcji.png" alt="Parametry rejestracji produkcji" caption="Parametry rejestracji produkcji" %}
-  
-Parametry widoczne po prawej stronie:
-
-- **Jeden meldunek zbiorczy lub jeden dla każdej operacji** - jeśli zaznaczymy to pole: przy rejestracji produkcji w danym zleceniu możliwe będzie wprowadzenie JEDNEGO raportu zbiorczego lub po JEDNYM meldunku dla każdej operacji.
-- **Pozwól na zamknięcie zlecenia tylko, jeśli został wprowadzony ostatni meldunek zwrotny** - System będzie pilnował, by zlecenie produkcyjne nie zostało zamknięte bez ostatniego meldunku zwrotnego
-- **Ostatni meldunek zamyka automatycznie zlecenie** - Wprowadzenie ostatniego meldunku zwrotnego będzie jednoznacznie kończyło zlecenie produkcyjne.
-
-{% include callout.html content="Jeśli przy **Rejestracji produkcji** chcemy zawsze gromadzić te same dane, to w **Administracji** (pozycja menu) należy wybrać **Parametry**, a następnie zakładkę **Rejestracja produkcji** i zaznaczyć interesujące nas preferencje." type="info" %} 
-
-## Aby wprowadzić meldunek zwrotny wybierz:
+Aby wprowadzić meldunek zwrotny wybierz:
 
 **REJESTRACJA >> Rejestracja produkcji >> {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} Dodaj nowy**
 
 {% include lightbox.html file="rejestracja-%20rejestracja%20produkcji.png" alt="Rejestracja produkcji" caption="Rejestracja produkcji" %}
 
-1. W pierwszym kroku przy użyciu {% include inline_image.html file="lupka.png" %} wybieramy "Zlecenie produkcyjne", które chcemy zarejestrować. Po wybraniu zlecenia, pole "Linia produkcyjna" wypełni się automatycznie.
+1. W pierwszym kroku przy użyciu {% include inline_image.html file="lupka.png" %} wybierz "Zlecenie produkcyjne", które chcesz zarejestrować. Po wybraniu zlecenia, pole "Linia produkcyjna" wypełni się automatycznie.
 
-2. Następnie, jeżeli wybraliśmy sposób rejestracji meldunku "dla każdej operacji", należy wybrać "Operację". W przypadku rejestracji w sposób zbiorczy pole to pozostaje niewidoczne.
+2. Następnie, jeżeli zlecenie ma sposób rejestracji meldunku "dla każdej operacji", należy wybrać "Operację". W przypadku rejestracji w sposób zbiorczy pole to pozostaje niewidoczne.
 
-3. {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**. Po zapisaniu danych uaktywnią nam się dane w następnej karcie **Produkty we./wyj.**
+3. {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**. Po zapisaniu danych uaktywnią się dane w następnej karcie **Produkty we./wyj.**
 
 {% include lightbox.html file="rejestracja%20produkcji%20produkty%20wej%C5%9Bcia-%20wyj%C5%9Bcia.png" alt="Rejestracja produkcji - produkty" caption="Rejestracja produkcji - produkty" %}  
 
-4. Kolejno należy wypełnić dane dotyczące ilości zużytych materiałów ("Podana ilość"). Informacje te możemy wprowadzić ręcznie w oparciu o otrzymane z hali produkcyjnej karty pracy (meldunki zwrotne) lub skopiować ilości z planowanych {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %}  
-  
-5. Ponownie zapisujemy dane {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** i przechodzimy do następnej zakładki **Czas pracy** , gdzie będziemy rejestrować czas pracy maszyn oraz pracowników.
+{:start="4"}
+4. Zacznij od wypełnienia ilości dla produktów wytwarzanych w tabeli **Produkty wyjściowe**:
 
-Po wprowadzeniu i zapisaniu wszystkich informacji możemy zaakceptować taki meldunek. Aby to zrobić wybieramy przycisk {% include inline_image.html file="startIcon24.png" alt="Przycisk Zapisz" %} **Akceptuj**, wówczas nie możemy już wprowadzać żadnych zmian. 
+{% include lightbox.html file="rejestracjaProduktWyjsciowy.png" alt="Rejestracja produkcji - produkt wyjściowy" caption="Rejestracja produkcji - produkt wyjściowy" %} 
 
-Jeżeli dany meldunek jest ostatnim meldunkiem wprowadzanym dla danej operacji bądź zlecenia, w zakładce **"Główna"** zaznaczamy "Końcowy".
+Podaj ilość wytworzonych produktów o najwyższej jakości w polu **Wyprodukowana ilość w jedn. podst.**. Jeśli potrzebujesz użyć innej jednostki niż jednostka podstawowa produktu - użyj pola **Wyprodukowana ilość w jedn. dok.** i podaj w jakiej jednostce ją wyrażasz (pamiętaj, że produkt musi mieć zdefiniowane przeliczniki między tymi jednostkami). Jeśli wytworzono produkty niepełnowartościowe, takie, które nie nadają się do dalszej obróbki czy sprzedaży klientowi, podaj ilość w polu **brak**. Dodatkowo możesz wypełnić co spowodowało brak, korzystając z listy zdefiniowanej w słowniku [Przyczyny braków](/slowniki).
+
+{% include callout.html content="Pozostawione w meldunku przyczyny braków przeanalizujesz w [analizie wykonanej produkcji](/analiza-wykonanej-produkcji) " type="info" %} 
+
+{:start="5"}
+5. Jeśli w parametrach rejestracji masz zaznaczony: **Zużycie surowców na podstawie norm** to na podstawie sumy ilości wyprodukowanej i braków zostanie wyznaczone zużycie surowców. Jeśli chcesz podać je ręcznie przejdź do tabeli **Produkty wejściowe** i w każdym zużytym surowcu określ właściwą ilość. 
+
+{% include lightbox.html file="rejestracjaProduktWejsciowy.png" alt="Rejestracja produkcji - produkt wejściowy" caption="Rejestracja produkcji - produkt wejściowy" %} 
+
+Możesz skorzystać też z opcji kopiowania ilości z planowanych {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiuj" %}  
+
+{% include callout.html content="Listę produktów widocznych w meldunku warunkuje sposób rejestracji produkcji i magazyny zdefiniowane w [przepływach technologii](/technologie-szczegoly.html#przepływy-technologii). Dla rejestracji zbiorczej widoczne są wszystkie surowce i produkt finalny, a także te półprodukty, które mają być przyjmowane na magazyn. Dla rejestracji do każdej operacji widoczne są wszystkie produkty wejściowe i wyjściowe danej operacji. " type="info" %} 
+
+{:start="6"}
+6. Teraz możesz przejść do następnej zakładki **Czas pracy** , gdzie zarejestrujesz czas pracy maszyn oraz pracowników.
+
+{% include lightbox.html file="rejestracjaRejestracjaProdukcjiCzasPracy.png" alt="Rejestracja produkcji - czas pracy" caption="Rejestracja produkcji - czas pracy" %} 
+
+Możesz albo podać listę pracowników pracujących na rzecz zlecenia / operacji i dla nich zsumować czas pracy, albo, gdy nie zależy Ci na tak szczegółowym podejściu, wprowadzić od razu czas zagregowany.
+
+{% include callout.html content="Kliknij przycisk **Oblicz sumaryczny czas pracowników**, a wyliczymy dla Ciebie jak długo pracownicy pracowali na rzecz zlecenia. Możesz też w parametrach rejestracji zaznaczyć **Przeliczaj sumę czasu pracowników na akceptacji meldunku**, a zawsze przy akceptacji będziemy przeliczać sumę. Ta wartość jest potrzebna między innymi do rozliczenia produkcji.  " type="info" %} 
+
+Po wprowadzeniu i zapisaniu wszystkich informacji możesz zaakceptować taki meldunek. Aby to zrobić wybieramy przycisk {% include inline_image.html file="startIcon24.png" alt="Przycisk Zapisz" %} **Akceptuj**, wówczas nie możemy już wprowadzać żadnych zmian. 
+
+Jeżeli dany meldunek jest ostatnim meldunkiem wprowadzanym dla danej operacji bądź zlecenia, w zakładce **"Główna"** zaznacz "Końcowy". Dzięki temu zlecenie produkcyjne zostanie z automatu zakończone (jeśli tylko [parametr rejestracji](/parametry-rejestracja-produkcji) Ostatni meldunek zamyka automatycznie zlecenie? = tak). 
+
 
 ## Jak zarejestrować wykorzystany zamiennik?
 

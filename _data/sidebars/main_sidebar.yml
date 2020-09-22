@@ -630,21 +630,9 @@ entries:
           output: web
           url: /podstawowe-rejestrowanie-produkcji.html
 
-        - title: Zbiorcze rejestrowanie produkcji
-          output: web
-          url: /zbiorcze-rejestrowanie-produkcji.html
-
-        - title: Rejestracja każdej operacji
-          output: web
-          url: /rejestracja-kazdej-operacji.html
-
     - title: Terminal rejestracji produkcji
       output: web
       url: /terminal.html
-
-    - title: Wydruki rekordów produkcji
-      output: web
-      url: /meldunki-zwrotne.html
 
   - title: Utrzymanie ruchu
     output: web
@@ -843,6 +831,10 @@ entries:
     - title: Użytkownicy
       output: web
       url: /uzytkownicy.html
+
+    - title: Słowniki
+      output: web
+      url: /slowniki.html
 
     - title: Wzorce numerów
       output: web

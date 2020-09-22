@@ -13,7 +13,9 @@ W zakładce Główna znajdują się ogólne parametry do technologii.
 
 1. **Uzupełniaj magazyny dla produktów w przepływie podczas sprawdzania technologii** - zaznacz parametr jeśli chcesz, abyśmy z automatu (podczas sprawdzania technologii) wywoływali funkcję uzupełniania magazynów w zakładce _Przepływ_ w technologii. Nie będziesz musiał wtedy klikać każdorazowo przycisku _Uzupełnij magazyny w produktach_. Pamiętaj, że gdy w procesie korzystasz z różnych magazynów (do jednej operacji pobierasz produkty z różnych lokalizacji) to zaznaczenie tego parametru nie jest dobrym pomysłem - sprawdzenie technologii spowoduje nadpisanie Twoich ręcznych zmian w przepływach, wartościami domyślnymi.
 
-2. **Przenoś rozmiar do utworzonych z generatora produktów** - jeśli zaznaczysz parametr, to wszystkie półprodukty z automatu utworzone przez generator dostaną takie rozmiary, jak wyrób dla którego tworzona jest technologia
+2. **Przenoś produkty do kolejnych operacji podczas sprawdzania technologii** - zaznacz parametr a na etapie sprawdzania technologii wywołamy funkcję Przenoś produkty do kolejnej operacji. Pozwoli to na szybsze definiowanie technologii - produkty wyjściowe operacji z automatu zostaną wrzucone jako wejście do operacji następnej.
+
+3. **Przenoś rozmiar do utworzonych z generatora produktów** - jeśli zaznaczysz parametr, to wszystkie półprodukty z automatu utworzone przez generator dostaną takie rozmiary, jak wyrób dla którego tworzona jest technologia
 
 ---
 

@@ -9,6 +9,7 @@ Słowniki pomagają indywidualnie zdefiniować pojęcia dla wielu opcji, które 
 Dostępne są następujące słowniki:
 
 - **Kategorie produktów** - stosowane w [Produktach](/produkty)
+- **Przyczyny braków** - wykorzystywane podczas raportowania produkcji w [terminalu](/terminal) i [rejestracji standardowej](/rejestracja-produkcji)
 - **Jednostki** - jednostki miar i wag stosowane w [Produktach](/produkty)
 - **Miejsca linii produkcyjnych** - stosowane przy definiowaniu [Linii produkcyjnych](/linie-produkcyjne)
 - **Miejsca linii produkcyjnych przesyłane do SCADY**

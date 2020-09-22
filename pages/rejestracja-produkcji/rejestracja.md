@@ -6,9 +6,7 @@ Dzięki funkcjonalności "Rejestracja" możemy rejestrować to co dzieje się z 
 
 - [przestoje](/przestoje)
 - [rejestrację produkcji](/rejestracja-produkcji)
-- [terminal](/terminal)
-- [rozliczenie produkcji](rozliczenie-produkcji)  
-- [wydruki rekordów produkcji](/meldunki-zwrotne)  
+- [terminal](/terminal) 
 
 
 
