@@ -42,6 +42,7 @@ Możesz uzupełnić też produkt o następujące informacje:
 - **opis** - w tym polu możesz zostawić te informacje, które są dla Ciebie ważne, ale nie znalazłeś na nie miejsca w innych dostępnych polach,
 - **producent** - wskaż tutaj producenta danego produktu, korzystając z listy [firm](/firmy) zdefiniowanych w qcadoo,
 - **asortyment** - do wybrania [asortyment](/asortymenty) zdefiniowany w qcadoo. Asortyment to dodatkowa forma grupowania produktów, niezbędna, gdy chcesz korzystać z [grup zleceń](/grupy-zlecen).
+- **model** - do wybrania [model](/modele) zdefiniowany w qcadoo. Model to kolejny sposób na grupowanie produktów. Modelem możemy nazywać np. produkty bardzo podobne, charakteryzujące się podobnymi cechami.
 
 Tak opisany produkt możesz zapisać używając przycisku {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**.
 
@@ -91,7 +92,7 @@ Aby przypisać do produktu atrybut i określić jego wartość, kliknij w tabeli
 {% include lightbox.html file="produktyProduktyCharakterystyka.png" alt="Charakterystyka produktu" caption="Charakterystyka produktu" %} 
 
 W zakładce tej możesz podać następujące dane:
-- **rozmiar** - do podania dowolny tekst. Rozmiar widoczny jest np. w analizach
+- **rozmiar** - do wybrania z listy [rozmiarów](/rozmiary). Rozmiar widoczny jest np. w analizach. Dodatkowo: produkty rozmiarowe mają w qcadoo specjalną ścieżkę obsługi w planach sprzedaży i zamówieniach sprzedaży - szybciej wprowadzisz ilości dla każdego z rozmiarów.
 - **ważność** - jeśli chcesz abyśmy wyznaczali datę ważności produkowanych wyrobów, podaj w polu ważność wyrażoną w miesiącach. Podczas rejestracji podpowiemy datę ważności późniejszą od daty rozpoczęcia zlecenia o podaną ilość miesięcy
 - **forma** - jeśli do produkcji będziesz używał konkretnej formy, możesz ją tutaj wskazać
 - **pokaż jako materiał na karcie produktu** - produkty wejściowe technologii z zaznaczonym parametrem pojawiają się na karcie produktu

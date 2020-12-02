@@ -136,9 +136,17 @@ entries:
       output: web
       url: /dashboard.html
 
+    - title: Konfigurator
+      output: web
+      url: /konfigurator.html
+
     - title: Dodawanie zleceń z dashboardu
       output: web
       url: /dashboard-dodawanie-zlecen.html
+
+    - title: Dodawanie zadań z dashboardu
+      output: web
+      url: /dashboard-dodawanie-zadan.html
 
   - title: Kalendarze
     output: web
@@ -228,6 +236,10 @@ entries:
       output: web
       url: /asortymenty.html
 
+    - title: Modele
+      output: web
+      url: /modele.html
+
     - title: Rodziny produktów
       output: web
       url: /rodziny-produktow.html
@@ -243,6 +255,14 @@ entries:
     - title: Atrybuty produktów
       output: web
       url: /atrybuty-produktow.html
+
+    - title: Rozmiary
+      output: web
+      url: /rozmiary.html
+
+    - title: Grupy rozmiarowe
+      output: web
+      url: /grupy-rozmiarowe.html
    
   - title: Struktura firmy
     output: web
@@ -823,6 +843,10 @@ entries:
     - title: Parametry rejestracji
       output: web
       url: /parametry-rejestracja-produkcji.html
+
+    - title: Parametry analiz
+      output: web
+      url: /parametry-analizy.html
     
   - title: Administracja
     output: web

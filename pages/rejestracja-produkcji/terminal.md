@@ -214,6 +214,19 @@ Podobnie jak w produktach zużywanych w procesie, tak i tutaj, pracownik ma moż
 Jeśli chcesz, aby wytworzony zasób został oznaczony dodatkowymi [atrybutami](/atrybuty), wejdź w menu kontekstowe danego produktu wyjściowego i wybierz przycisk {% include inline_image.html file="przyciskDodajAtrybutZasobu.png" alt="Przycisk Dodaj atrybut zasobu" %} **Dodaj atrybut zasobu**. W uruchomionym oknie opisz to co zostało wyprodukowane, korzystając z listy dostępnych atrybutów. Wartości atrybutów muszą spełniać nadane w definicji warunki - przypilnujemy, czy podajesz liczbę, wtedy gdy musisz, albo podamy listę dostępnych wartości, wtedy, gdy atrybut jest wyliczeniowy. Dzięki dopisywaniu szczegółowych danych będziesz mógł przeszukać magazyn, po specyficznych dla Ciebie wartościach (ustalając np. jakie produkty o danych wymiarach są aktualnie dostępne), a także wrócić do tych informacji po czasie (np. w celu ustalenia, jak wyglądał produkt wytworzony w listopadzie uprzedniego roku, sprzedany firmie X), przeglądając [listę pozycji dokumentów z atrybutami](/pozycje-dokumentow-z-atrybutami).
 
 ---
+
+{% include lightbox.html file="terminalProduktyWyjsciowePrzyczynyBrakow.png" alt="Przyczyny braków" caption="Przyczyny braków" class="float-right"  %}
+
+####  Przyczyny braków
+
+Dla produktu wyjściowego możesz zapisać ilość wyprodukowaną, ale też ilość braków. Braki to te wyroby, które nie spełniają norm jakościowych i nie nadają się do sprzedaży, czy dalszego przetworzenia. Korzystając z funkcji **Dodaj przyczynę braków** w menu kontekstowym możesz zapisać co było przyczyną tak nieudanej produkcji. Przyczyny braków są definiowane w [słownikach](/slowniki). 
+
+Jeśli chcesz, aby podanie przyczyny było konieczne zaznacz parametr: Wymagaj przyczyny braków w [parametrach terminala](/parametry-rejestracja-produkcji.html#terminal).
+
+Przyczyny braków przeanalizujesz w [analizie wykonanej produkcji](/analiza-wykonanej-produkcji).
+
+
+---
 ### Partia produktu zleconego
 
 {% include lightbox.html file="rejestracjaTerminalPartiaProduktuZleconego.png" alt="Partia produktu zleconego" caption="Terminal - partia produktu zleconego" class="float-right"  %}

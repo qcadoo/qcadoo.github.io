@@ -37,7 +37,9 @@ Aby dodać **ręcznie** partię dla danego produktu, należy postępować zgodni
 
 5. Następnie kliknij {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %} **Zapisz**, aby zapisać wprowadzone dane. 
     
-{% include lightbox.html file="Genealogia-%20partie-%20strza%C5%82ki.png" alt="Formularz partii" caption="Formularz partii" %}
+{% include lightbox.html file="genealogiaPartieNowa.png" alt="Formularz dodawania partii" caption="Formularz dodawania partii" %}
+
+Do partii można podpiąć załącznik, np. z dokumentacją techniczną.
 
 {% include callout.html content='Można nadać wiele numerów partii jednemu produktowi.' type="info" %}
  
@@ -51,4 +53,15 @@ Istnieją dwa statusy partii:
 - **Zablokowany** - kliknij {% include inline_image.html file="disableIcon16.png" alt="Zablokowany" %} **Zablokuj**, aby zmienić status ze śledzonego na zablokowany. Zrób to, gdy dana partia nie będzie wykorzystywana (na stałe lub tylko czasowo). W ten sposób nie będzie się pojawiała na liście możliwych numerów partii do przypisania dla danego zlecenia.
 
 {% include callout.html content='Historię zmian statusów partii możesz przeanalizować w zakładce "Historia".' type="info" %}
+
+---
+
+Partie, które używasz w systemie nie znikają, dzięki czemu możesz w każdej chwili ustalić jaka jest jej historia. Jednak w bieżącej rejestracji zużycia w terminalu ilość widocznych partii może być kłopotliwa - widoczna jest pełna lista zdefiniowanych numerów, a nie tylko tych, które znajdują się na magazynie. Dlatego warto na bieżąco robić przegląd partii i dezaktywować te, które już nie są dostępne. Możesz to albo zrobić ręcznie ([tutaj](/dezaktywacja) przeczytasz jak to zrobić), albo wykorzystać funkcję **Dezaktywuj partie bez stanu magazynowego dostępną** w liście partii. Kliknij przycisk {% include inline_image.html file="przyciskDezaktywujPartie.png" alt="Dezaktywuj partie" %} a wszystkie partie, które:
+- nie mają stanu magazynowego
+- nie znajdują się w zamówionej dostawie
+- nie są wskazane do wyprodukowania w zleceniu
+<br/>
+zostaną zdezaktywowane. Będziesz mógł nadal je analizować, ale nie będą pojawiać się w listach wyboru w terminalu.
+
+{% include callout.html content='Wyznacz osobę, która np. raz w tygodniu wywoła tą funkcję. Pracy niewiele, a ułatwienie przy rejestracji produkcji znaczące.' type="info" %}
 

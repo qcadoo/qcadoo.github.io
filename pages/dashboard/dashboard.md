@@ -5,7 +5,10 @@ permalink: dashboard.html
 
 Logując się do qcadoo wia Cię dashboard. Będziesz jednak wracał na nią częściej - bo proponuje kilka ciekawych rozwiazań, o których poczytasz poniżej.
 
-Zacznę od tego, że cały dashboard jest konfigurowalny. Wejdź w **Administracja > Parametry > [Dashboard](/parametry-dashboard)** i wskaż co chciałbyś zobaczyć na stronie startowej. 
+{% include callout.html content="Jeśli logujesz się po raz pierwszy i masz uprawnienia administratora pojawi się [konfigurator](/konfigurator), który pozwoli w szybki sposób ustawić dane niezbędne do rozpoczęcia pracy w qcadoo." type="warning" %}
+
+
+Zacznę od tego, że cały dashboard jest konfigurowalny. Wejdź w **Parametry > Parametry ogólne > przycisk [Dashboard](/parametry-dashboard)** i wskaż co chciałbyś zobaczyć na stronie startowej. 
 
 Pamiętaj, że w każdej chwili możesz przejść do dashboardu klikając w lewym górnym rogu ekranu w przycisk {% include inline_image.html file="przyciskQcadoo.png" alt="Przycisk qcadoo" %} **qcadoo**).
 

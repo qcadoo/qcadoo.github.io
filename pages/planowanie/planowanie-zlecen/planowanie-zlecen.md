@@ -20,14 +20,19 @@ Na liście znajdziesz wiele informacji o zleceniach produkcyjnych takich jak:
 - status - [stan](/stany-i-statusy-zlecen), w jakim znajduje się dane zlecenie,
 - planowaną datę rozpoczęcia zlecenia,
 - planowaną datę zakończenia zlecenia,
+- termin ostateczny,
+- dni pozostałe do terminu ostatecznego,
 - numer produktu, który ma zostać wyprodukowany w ramach zlecenia,
 - ilość produktu zaplanowaną do wyprodukowania,
 - ilość produktu już wyprodukowaną,
+- ilość braków, czyli produktów wyprodukowanych, ale nie spełniajacych wymagań jakościowych i nie nadających się do sprzedaży czy dalszej obróbki,
 - ilość produktu jaka pozostała do wyprodukowania,
 - wykonanie procentowe (kolumna może dodatkowo być oznaczona kolorami w zależności od procentu wykonania -> szczegóły znajdziesz poniżej),
 - numer zamówienia sprzedaży, w ramach którego realizowane jest dane zlecenie produkyjne,
 - linię produkcyjną,
-- kontrahenta.
+- dział,
+- kontrahenta,
+- kategoria zlecenia.
 
 To tylko przykładowe informacje widoczne na liście zleceń. Możesz chcieć wyświetlać je wszystkie, jeśli jednak któreś z nich są dla Ciebie nadmiarowe, skorzystaj z funkcji ukrywania kolumn. Wybierz te kolumny, które są dla Ciebie ważne, kilkając {% include inline_image.html file="fileviewColumn16.png" alt="Przycisk Kolumny" %}.
 

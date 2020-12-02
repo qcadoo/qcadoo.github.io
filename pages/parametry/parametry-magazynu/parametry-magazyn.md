@@ -48,6 +48,13 @@ Parametry umieszczone w tej zakładce dotyczą [przesuwania palet](/stan-palet).
 
 {% include callout.html content="Parametr jest globalny. Musisz przyjąć średnią ilość dla wszystkich palet składowanych na magazynie. Ma zatem sens tylko wówczas, gdy magazynujesz produkty w miarę jednorodne" type="warning" %}
 
+{:start="3"}
+3. **oznacz kolorem zasoby po terminie i z krótkim terminem ważności** - zaznacz parametr, a w liście zasobów oznaczymy czerwonym kolorem zasoby, których data ważności została przekroczona. Dodatkowo - jeśli wypełnisz pole poniżej pojawi się kolor pomarańczowy, oznaczający zasoby, których data ważności się zbliża.
+
+4. **krótki termin ważności** - wskaż na ile dni przed terminem ważności chcesz być informowany, że ważność zasobu się zbliża
+
+---
+
 ## Parametry Pozycji dokumentów z atrybutami
 
 Parametry tej zakładki dotyczą listy [pozycje dokumentów z atrybutami zasobu i produktu](/pozycje-dokumentow-z-atrybutami)

@@ -17,3 +17,9 @@ Zasoby przechowują w sobie bardzo dużo informacji - od atrybutów określonych
 
 Zasób możesz korygować i możesz przypisać mu [atrybuty](/atrybuty) - szczegółowy opis znajdziesz [tutaj](/korekty).
 
+
+Jeśli data ważności surowców, które zużywasz ma dla Ciebie znaczenie, zaznacz [parametr magazynu](/parametry-magazyn.html#parametry-stanu-magazynowego) **oznacz kolorem zasoby po terminie i z krótkim terminem ważności**. Dzięki temu kolumna data ważności zostanie oznaczona kolorami:
+- **<span style="color:red">czerwonym</span>** - gdy data ważności zostanie przekroczona
+- **<span style="color:orange">pomarańczowym</span>** - gdy osiągnięty zostanie tzw. krótki termin ważności. Ustaw w parametrach ile dni przed upływem daty ważności mamy Cię o tym informować.
+
+Dodatkowo możesz w szybki sposób wyciągnąć listę zasobów o krótkim terminie ważności - kliknij przycisk {% include inline_image.html file="przyciskPokazZasobyOKrotkimTerminieWaznosci.png" alt="Przycisk Pokaż zasoby o krótkim terminie ważności" %} **Pokaż zasoby o krótkim terminie ważności**. Jeśli natomiast chcesz zobaczyć zasoby, których data ważności została przekroczona - kliknij przycisk: {% include inline_image.html file="przyciskPokazZasobyPoTerminieWaznosci.png" alt="Przycisk Pokaż zasoby po terminie ważności" %} **Pokaż zasoby po terminie ważności**. Lista zasobów zostanie odpowiedni przefiltrowana. Jeśli chcesz ponownie zobaczyć pełną listę użyj przycisku {% include inline_image.html file="przyciskPokazWszystkieZasoby.png" alt="Przycisk Pokaż wszystkie zasoby" %} **Pokaż wszystkie zasoby**.
