@@ -232,6 +232,21 @@ W tej zakładce możemy dodać załącznik do technologii, mogą to być przykł
 {% include lightbox.html file="technologie-technologia-struktura.png" alt="Struktura wyrobu" caption="Struktura wyrobu" %}
 W tej zakładce dla sprawdzonych i zaakceptowanych technologii pojawia się struktura wyrobu, uwzględniająca wszystkie operacje i produkty wchodzące w skład wszystkich technologii tworzących ostateczny produkt. Zielonym kolorem zaznaczone są produkty będące komponentami - czyli posiadające własne technologie. Ich struktury pojawiają się w drzewie, nawet jeśli obecna technologia ma dodany tylko sam produkt-komponent.
 
+## Zakładka "Procesy" ##
+
+Zakładka *Procesy* umożliwia powiązanie stworzonej [listy procesów technologicznych](/listy-procesow) z konkretną operacją w drzewie technologii. Możesz to uczynić w każdym momencie życia technologii - nawet, gdy jest już zaakceptowana. 
+Przypisanie listy procesów do technologii pozwoli na wygenerowanie procesów do zlecenia, a to z kolei umożliwi potwierdzanie ich wykonania z poziomu zlecenia produkcyjnego.
+
+{% include lightbox.html file="technologieTechnologieProcesy.png" alt="Zakładka Procesy w technologii" caption="Zakładka Procesy w technologii" %} 
+
+Aby przypisać listę procesów do operacji:
+1. wejdż w technologii w zakładkę procesy 
+2. znajdź w tabeli z lewej strony okna (Operacje technologii) interesującą Cię operację i wejdź w jej szczegóły (klikając operację w tabeli)
+3. wskaż listę procesów technologicznych - możesz wybrać tylko taką, która dotyczy danej operacji
+4. zapisz
+
+W tabeli operacji uzupełniła się informacja o liście. Jeśli zaznaczysz tą operację w tabeli procesów będziesz mógł przejrzeć zdefiniowaną listę.
+
 ## Zakładka "Minimalna ilość" ##
     
 W tej zakładce wpisujemy minimalną ilość jaką opłaca się nam produkować. Jest to istotne z punktu widzenia Zlecenia produkcyjnego, ponieważ jeśli uruchomimy zlecenie na mniejszą ilość niż opłacalna, program poinformuje nas o tym, aby ostrzec przed popełnieniem ewentualnego błędu.

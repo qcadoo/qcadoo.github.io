@@ -184,6 +184,10 @@ entries:
       output: web
       url: /umiejetnosci.html
 
+    - title: Stawki za procesy technologiczne
+      output: web
+      url: /stawki-za-procesy.html
+
   - title: Podstawowe
     output: web
     folderitems:
@@ -227,6 +231,14 @@ entries:
     - title: Przyczyny przestojów
       output: web
       url: /przyczyny-przestojow.html
+
+    - title: Formy
+      output: web
+      url: /formy.html
+
+    - title: Etykiety
+      output: web
+      url: /etykiety.html
 
   - title: Produkty
     output: web
@@ -365,6 +377,18 @@ entries:
     - title: Produkty do technologii grup produktów
       output: web
       url: /produkty-do-technologii-grup-produktow.html
+
+    - title: Typy produktu wejściowego technologii
+      output: web
+      url: /typy-produktu-wejsciowego.html
+
+    - title: Procesy technologiczne
+      output: web
+      url: /procesy-technologiczne.html
+
+    - title: Listy procesów technologicznych
+      output: web
+      url: /listy-procesow.html
 
   - title: Magazyn
     output: web
@@ -510,6 +534,10 @@ entries:
       output: web
       url: /koszty-zlecenia.html
 
+    - title: Standardowe koszty robocizny
+      output: web
+      url: /standardowe-koszty-robocizny.html
+
   - title: Planowanie
     output: web
     folderitems:
@@ -572,6 +600,22 @@ entries:
       output: web
       url: /planowanie-operacyjne.html
 
+    - title: Gantt zadań operacyjnych
+      output: web
+      url: /gantt-zadan-operacyjnych.html
+
+    - title: Plany sprzedaży
+      output: web
+      url: /plany-sprzedazy.html
+
+    - title: Zamówienia sprzedaży
+      output: web
+      url: /zlecenia-nadrzedne.html
+
+    - title: Grupy zleceń
+      output: web
+      url: /grupy-zlecen.html
+
     - title: Przydział do zmian
       output: web
       url: /przydzial-do-zmian.html
@@ -587,14 +631,6 @@ entries:
     - title: Raport odchyleń planu
       output: web
       url: /raport-odchylen-planu.html
-
-    - title: Zamówienia sprzedaży
-      output: web
-      url: /zlecenia-nadrzedne.html
-
-    - title: Grupy zleceń
-      output: web
-      url: /grupy-zlecen.html
 
     - title: Zlecenia naprawy
       output: web
@@ -620,10 +656,6 @@ entries:
         - title: Gantt pracowników
           output: web
           url: /gantt-pracownikow.html
-
-    - title: Gantt zadań operacyjnych
-      output: web
-      url: /gantt-zadan-operacyjnych.html
 
   - title: Rejestracja
     output: web

@@ -213,6 +213,16 @@ Jeśli masz włączoną integrację to podaj, czy chcesz aktualizować koszty na
 
 Tworzenie zleceń produkcyjnych z poziomu listy produktów zostało opisane szerzej [tutaj](/zlecenia-produkcyjne.html#dodanie-zlecenia-z-poziomu-produktu).
 
+## Importuj kody EAN
+
+Produkty istniejące w qcadoo mogą być uzupełnione o kody EAN poprzez import pliku Excel. W tym celu w liście produktów kliknij przycisk {% include inline_image.html file="przyciskImportujEAN.png" alt="Przycisk Importuj EAN z XLSX" %} **Importuj EAN z XLSX**:
+
+{% include lightbox.html file="produktyProduktyImportEAN.png" alt="Funkcja importu kodów EAN z Excel" caption="Funkcja importu kodów EAN z Excel" %}
+
+Pobierz szablon, wypełnij go danymi i zaimportuj do qcadoo. Funkcja działa jak standardowy mechanizm importu opisany na stronie: [Import danych z pliku Excel](/import-z-excel).
+
+{% include callout.html content="Ułatwisz sobie zadanie, gdy najpierw wyeksportujesz listę produktów do csv i z niego (po otwarciu w Excel) wyciągniesz numery produktów." type="warning" %}
+
 
 ## Pozostałe przydatne funkcje w formularzu produktu
 
@@ -223,3 +233,4 @@ Dla produktu mamy możliwość, za pomocą przycisków, sprawdzenia:
 - **historię miejsc składowania**, czyli do jakiego miejsca składowania produkt był przywiązany kiedyś, a gdzie go składujemy aktualnie,
 - **rejestracje produkcji** dla tego produktu, pojedynczo lub zgrupowane
 - **dodatkowych informacji** takich jak historia zmian produktów, numer ID w systemie zewnętrznym (w przypadku integracji), powiązana grupa technologii, czy wreszcie dostawców danego produktu.
+
