@@ -92,7 +92,7 @@ I zachowaj wydanie używając przycisku {% include inline_image.html file="zapis
 
 ---
 
-{% include lightbox.html file="zaopatrzenieWydanieWewnętrzneDodajProdukt.png" alt="Dodawanie produktu do wydania wewnętrznego" caption="Dodawanie produktu do wydania wewnętrznego" class="float-right" %}
+{% include lightbox.html file="zaopatrzenieWydanieWewneetrzneDodajProdukt.png" alt="Dodawanie produktu do wydania wewnętrznego" caption="Dodawanie produktu do wydania wewnętrznego" class="float-right" %}
 
 Uzupełnij następujace dane:
 - **produkt** - do wyboru z listy

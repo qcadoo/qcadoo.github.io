@@ -80,6 +80,34 @@ Po zaznaczeniu operacji w drzewie uzupełnione zostają tabelki z produktami wej
 
 6. Przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Produkt" dodawany do produktów wejściowych. Podajemy następnie ilość, jaką produkuje operacja - możemy podać ilość w innej jednostce, niż podstawowa jednostka produktu. Warunkiem jest zdefiniowanie wcześniej w produkcie przelicznika na wybraną jednostkę. Wybieramy następnie przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. 
 
+Produkt wejściowy możesz oznaczyć dodatkowym [typem](/typy-produktu-wejsciowego). Niesie to następujące korzyści:
+ - pracownik lepiej potrafi zidentyfikować surowiec zużywany
+ - możesz zapisać technologię szablonową, gdy nie znamy dokładnego indeksu materiału. Wiesz np. że będziesz zużywać blachę i w jakiej ilości, ale nie wiesz dokładnie, którą. Takie zapisanie produktu wejściowego, z samym typem i ilością, pozwoli dodatkowo na przygotowanie kalkulacji kosztów i ustalenie wyceny w oparciu o średnią cenę zapisaną w typie produktu wejściowego technologii
+ - jeśli przygotowujesz technologię dla rodziny produktu możesz wskazać, że dla danego typu produktu wejściowego, w zależności od grupy rozmiarowej mają być używane różne surowce.
+
+#### Różne produkty wejściowe technologii w zależności od rozmiarów
+
+Załóżmy, że tworzysz technologię dla rodziny produktu. Teoretycznie w każdym rozmiarze konkretnego produktu należącego do tej rodziny używasz produktu o danym typie i nawet w tej samej ilości, ale konkretny indeks produktu różni się. Dla przykładu - produkujesz koszulkę w różnych rozmiarach. W każdej koszulce używasz guzików. Ale w mniejszych koszulkach guziki są małe, a w większych - duże. Możesz takie rozróżnienie opisać za pomocą technologii. Podczas tworzenia zleceń na konkretne produkty do listy potrzebnych surowców zostanie pobrany ten, który pasuje do rozmiaru zlecanego produktu.
+
+Aby zdefiniować produkty różne w zależności od rozmiaru w techologii na rodzinę produktu rozpocznij dodawanie produktu wejściowego do operacji, uzupełnij **typ produktu wejściowego**, zaznacz parametr **Różne produkty w różnych rozmiarach** i podaj **ilość** razem z **jednostką**. Zapisz. 
+
+{% include lightbox.html file="technologieTechnologieRozneProdWgRozmiaru.png" alt="Nowy produkt wejściowy z różnymi produktami w zależności od rozmiaru" caption="Nowy produkt wejściowy z różnymi produktami w zależności od rozmiaru" %}
+
+Przejdź do zakładki **Produkty wg rozmiarów**
+
+{% include lightbox.html file="technologieTechnologieProduktyWgRozmiaru.png" alt="Zakładka Produkty wg rozmiaru" caption="Zakładka Produkty wg rozmiaru" %}
+
+i kliknij przycisk {% include inline_image.html file="newIcon16.png" alt="Nowy" %} "Nowy"
+
+{% include lightbox.html file="technologieTechnologieProduktyWgRozmiaruNowy.png" alt="Nowy produkt wg rozmiaru" caption="Nowy produkt wg rozmiaru" %}
+
+Podaj:
+- **grupę rozmiarową**
+- **produkt**
+
+Dany produkt i dana grupa rozmiarowa w ramach jednego produktu wejściowego operacji może wystąpić tylko raz. 
+
+
 ---
 
 ### Import produktów wejściowych technologii z Excela

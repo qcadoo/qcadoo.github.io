@@ -73,7 +73,7 @@ a reszta danych zostanie uzupełniona na podstawie dobranego zasobu. Zasób moż
 
 Dokumenty magazynowe powstają jako efekty wykonywanych w qcadoo następujących funkcji:
 1. **dostawy** - przy odbiorze dostawy tworzy się dokument PZ
-2. **rejestracja produkcji** - na akceptacji meldunku tworzony jest dokument RW do zużytych produktów wejściowych. Natomiast PW do wyprodukowanych produktów wyjściowych tworzy się albo na akceptacji meldunku, albo na zakończeniu zlecenia produkcyjnego (w zależności od ustawionych parametrów)
+2. **rejestracja produkcji** - na akceptacji [meldunku](/rejestracja-produkcji) tworzony jest dokument RW do zużytych produktów wejściowych. Natomiast PW do wyprodukowanych produktów wyjściowych tworzy się albo na akceptacji meldunku, albo na zakończeniu zlecenia produkcyjnego (w zależności od ustawionych parametrów)
 3. **wydanie wewnętrzne** - w zależności od ustawionych parametrów wydań utworzy się albo dokument MM, albo para dokumentów WZ - PZ. Dokumenty te mogą być albo zaakceptowane albo szkicowe
 4. **zdarzenia (utrzymanie ruchu)** - jeśli w zdarzeniu zarejestrowane zostały użyte części, to na zamknięciu zdarzenia tworzone są dokumenty RW
 5. **zdarzenia planowane (utrzymanie ruchu)** - podobnie jak w zdarzeniach: jeśli do wykonania zdarzenia planowanego konieczne było zużycie części, to qcadoo rozchoduje je tworząc dokument RW w momencie zamknięcia zdarzenia planowanego

@@ -73,3 +73,21 @@ Dzięki przypisaniu pracownikowi umiejętności, będziesz potrafił ustalić kt
 Aby móc przypisać umiejętność pracownikowi musisz zacząć od zdefiniowania listy [umiejętności](/umiejetnosci). 
 
 Jeśli lista gotowa, wejdź w szczegóły pracownika i w zakładkę **Umiejętności pracownika** i kliknij przycisk **Nowy**. Wybierz z listy umiejętność. Na jej podstawie wypełnione zostanie pole Maksymalny poziom. Teraz podaj na jakim poziomie pracownik włada daną umiejętnością - nie może być on wyższy od maksymalnego poziomu umiejętności. 
+
+---
+
+## Jak wydrukować identyfikatory pracownikom?
+
+Pracownicy zdefiniowani w qcadoo mogą korzystać z terminala rejestracji produkcji. Aby się zalogować trzeba użyć numeru pracownika. Jeśli numery są długie - pracownicy mogą mieć problem z ich zapamiętaniem. Wtedy warto przygotować identyfikatory z kodem kreskowym i zaopatrzyć stanowisko, na którym rejestrowana jest produkcja w skaner.
+
+Aby wygenerować identyfikatory wejść w **Pracownicy > Pracownicy** 
+
+{% include lightbox.html file="pracownicyPracownicyZaznaczeni.png" alt="Drukowanie etykiet z listy pracowników" caption="Drukowanie etykiet z listy pracowników" %}
+
+zaznaczyć wybranych pracowników i kliknąć w przycisk {% include inline_image.html file="przyciskDrukujEtykietyPracownikow.png" alt="Przycisk Drukuj etykiety pracowników" %} **Drukuj etykiety pracowników**
+
+{% include lightbox.html file="pracownicyPracownicyEtykietyPracownikow.png" alt="Etykiety pracowników" caption="Etykiety pracowników" %}
+
+Etykiety mieszczą się w standardowych uchwytach na identyfikatory.
+
+

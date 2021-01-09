@@ -27,3 +27,12 @@ Przechodzimy do: **ZAOPATRZENIE >> Zapotrzebowanie materiałowe >>**  {% includ
 5. Dokument możemy pobrać w formacie {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %}**PDF** bądź {% include inline_image.html file="xlsIcon24.png" alt="Przycisk XLS" %} **XLS**.
 
 {% include callout.html content="Wydruk ten jest pomocny, jeśli qcadoo nie jest zintegrowane z systemem magazynowo - księgowym. Wtedy na podstawie tej listy można skompletować potrzebne do zrealizowania zlecenia na komponenty. Jeżeli chcemy sprawdzić ilości potrzebne do produkcji, ale uwzględniając stany magazynowe, to należy skorzystać z [Pokrycia zapotrzebowania](/pokrycie-zapotrzebowania) " type="info" %} 
+
+## Zapotrzebowanie materiałowe z poziomu listy zlecen
+
+
+Zapotrzebowanie materiałowe możesz wygenerować szybciej, z poziomu [listy zleceń produkcyjnych](/planowanie-zlecen). W tym celu wejdź w **Planowanie > Planowanie zleceń**, zaznacz te zlecenia, dla których chcesz ustalić potrzebne materiały:
+
+{% include lightbox.html file="planowaniePlanowanieZlecenGenerowanieZapotrzebowania.png" alt="Lista planowanych zleceń" caption="Lista planowanych zleceń" %}
+
+i kliknij przycisk {% include inline_image.html file="przyciskGenerujZapotrzebowanie.png" alt="Przycisk Wygeneruj zapotrzebowanie" %} **Wygeneruj PDF** lub **Wygeneruj XLS**.

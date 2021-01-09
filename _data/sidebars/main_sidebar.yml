@@ -806,6 +806,10 @@ entries:
       output: web
       url: /rozliczenie-produkcji.html
 
+    - title: Rozliczenie czasu pracy pracownika
+      output: web
+      url: /rozliczenie-czasu-pracy-pracownika.html
+
     - title: OEE
       output: web
       url: /oee.html
