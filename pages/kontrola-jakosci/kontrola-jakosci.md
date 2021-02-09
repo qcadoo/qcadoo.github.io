@@ -73,6 +73,19 @@ W efekcie:
 **<span style="color:red"> *Ważna informacja na koniec!*</span>**
 Jeśli efekt kontroli nie jest zadowalajacy, musisz sam przeprowadzić dalszą procedurę: przesuwania produktów, likwidacji, utylizacji, zlecenia napraw, czy inne działania, które zwykle w takiej sytuacji wykonujesz. Jeśli chcesz abyśmy Cię wsparli, skontaktuj się z nami - być może wspólnie napiszemy mechanizm reakcji na podaną ocenę jakości.
 
+## Korekta kontroli jakości
+
+W zakończonej kontroli jakości możesz nanieść poprawki - zawsze mogliście się pomylić na etapie zapisywania wyników kontroli. Kliknij w kontroli przycisk  {% include inline_image.html file="przyciskKorygujKJ.png" alt="Przycisk Koryguj" %} **Koryguj**, nanieś poprawki i ponownie zakończ zlecenie. Co możesz zmodyfikować:
+- opis,
+- partię,
+- datę kontroli,
+- pracownika kontrolującego,
+- ocenę jakości
+- wartości atrybutów.
+
+Zmiana jest dokonana tylko w tej kontroli jakości. Jeśli jest to kontrola bieżąca i chcesz zmodyfikować też dane w meldunku z produkcji - [skoryguj dodatkowo rekord rejestracji](/rejestracja-produkcji.html#jak-skorygować-rejestrację-produkcji).
+
+
 
 
 

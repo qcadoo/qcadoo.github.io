@@ -161,3 +161,16 @@ W momencie akceptacji pierwszej rejestracji z atrybutami KJ utworzy się [kontro
 Utworzona kontrola jakości ma status **W trakcie**. Zostanie ona z automatu **zakończona** podczas zamykania powiązanego zlecenia produkcyjnego. 
  
 {% include callout.html content="Pamiętaj, że kontrola jakości bieżąca może być realizowana tylko przez rejestrację produkcji. Jeśli interesuje Cię weryfikowanie wyrobów już znajdujących się na magazynie, utwórz kontrolę jakości końcową" type="warning" %}
+
+---
+
+## Jak skorygować rejestrację produkcji
+
+Zaakceptowałeś rekord rejestracji i zorientowałeś się, że nie wszystkie dane są zgodne z rzeczywistością? Nic straconego. Skoryguj meldunek klikając przycisk {% include inline_image.html file="przyciskKorygujRR.jpg" alt="Przycisk Koryguj" %} **Koryguj** i zaktualizuj dane.
+
+{% include callout.html content="Pamiętaj, że wszelkie analizy z produkcji przeprowadzane są na podstawie rekordów rejestracji. Dlatego ważne jest, by dane wprowadzone były realne." type="warning" %}
+
+Wywołanie funkcji korygowania powoduje ustawienie w rekordzie rejestracji, który chcemy zmienić, status Skorygowany i powstaje nowy meldunek, będący kopią poprzedniego. Zaktualizuj dane w nowym meldunku i potwierdź. Możesz modyfikować dowolną ilość razy - zawsze wychodząc od ostatnio stworzonej kopii rekordu rejestracji.
+
+{% include callout.html content="Korekta danych w rekordzie rejestracji nie zmienia danych utworzonych na jego akceptacji (jak np. dokumentów, kontroli jakości, przestojów, śledzenia partii w zleceniu itp.). Zmiany w każdym z tych miejsc trzeba wykonać ręcznie." type="warning" %}
+

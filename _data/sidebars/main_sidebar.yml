@@ -530,7 +530,7 @@ entries:
       output: web
       url: /czasochlonnosc-zlecenia.html
 
-    - title: Koszty zlecenia
+    - title: Kalkulacje kosztów
       output: web
       url: /koszty-zlecenia.html
 

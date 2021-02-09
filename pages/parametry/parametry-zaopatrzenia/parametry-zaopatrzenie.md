@@ -26,7 +26,13 @@ W zakładce umieszono parametry dotyczące [dostaw](/dostawy)
 
 5. **Odbieranie większej ilości niż zamawiana** - zdarzyło Ci się, że dostawca przysłał więcej sztuk produktu niż zamówiłeś? Zawsze odsyłasz, czy czasami przyjmujesz? A może nie masz innej możliwości, bo dostawca zawsze przysyła pełną paletę nawet gdy zamówisz mniej? Jeśli pozwalasz na przyjęcie większej ilości niż sobie zażyczyłeś - zaznacz parametr. Jeśli zostanie niezaznaczony będziemy pilnować, by ilość odbierana nie przekroczyła zamówionej.
 
-6. **Kolumny w zamówieniu** - tabela zawiera listę kolumn, które będziemy prezentować na wydruku zamówienia. Ustaw, jakie kolumny Cię interesują. I usuń te, których widzieć na wydruku nie chcesz.
+6. **wymagaj wskazania dostawcy** - zaznacz parametr, a nie pozwolimy na zapis dostawy bez uzupełnienia firmy
+
+7. **uzupełniaj ceny na podstawie** - wskaż, która cena: ostatnia zakupu czy ostatnia z oferty dostawcy, ma być podpowiadana w dostawie (funkcja wywoływana przyciskiem: Uzupełniaj ceny)
+
+8. **użyj kosztu nominalnego, gdy cena nie jest określona** - parametr powiązany z powyższym. Jeśli zaznaczysz parametr w sytuacji, gdy cena ostatniego zakupu lub z ostatniej oferty będzie zerowa (lub nieokreślona) pobierzemy koszt nominalny. Koszt nominalny możesz uzupełnić ręcznie ceną, którą spodziewasz się otrzymać od kontrahenta
+
+9. **Kolumny w zamówieniu** - tabela zawiera listę kolumn, które będziemy prezentować na wydruku zamówienia. Ustaw, jakie kolumny Cię interesują. I usuń te, których widzieć na wydruku nie chcesz.
 
 ---
 

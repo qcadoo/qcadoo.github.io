@@ -36,6 +36,39 @@ Wchodząc w Administracja > Parametry > zakładka Czasochłonność dla tech. mo
 
 ---
 
+## Kalkulacja kosztów
+
+W zakładce kalkulacja kosztów ustawisz parametry, które będą podpowiadały się podczas tworzenia [wyceny produktu](/koszty-zlecenia). 
+
+{% include lightbox.html file="administracjaParametryTechnologiaKalkulacjaKosztow.png" alt="Parametry technologii - zakładka Kalkulacja kosztów" caption="Parametry technologii - zakładka Kalkulacja kosztów" %}
+
+1. **wykorzystane koszty materiałów** - do wyboru: nominalny, średnia ważona, cena ostatniego przychodu, średnia cena z ofert, cena z ostatniej oferty. Każdy z tych kosztów zapisywany jest w [produkcie](/produkty) w zakładce Koszty. Wskaż, która z cen ma być pobierana do wyliczenia kosztu materiałowego
+
+2. **użyj kosztu nominalnego, gdy cena nie jest określona** - jeśli zaznaczysz parametr w momencie, gdy zadana wyżej cena w produkcie będzie zerowa (lub nieokreślona) do szacunków będzie pobrany koszt nominalny. Koszt nominalny musi być uzupełniony ręcznie, ale daje Ci możliwości wprowdzenia spodziewanej ceny danego materiału, w sytuacji, gdy jeszcze nigdy nie miałeś produktu na stanie magazynowym
+
+3. **źródło kosztów operacji** - do wyboru: 
+- z operacji technologii - czyli stawka godzinowa pobierana jest z [norm kosztowych](/normy-kosztowe) zdefiniowanych w operacji technologii. Dzięki temu każda z operacji może stanowić inny koszt
+- z parametrów ogólnych - czyli stawka godzinowa pobierana jest z pól poniżej: średnia roboczogodzina maszyny, średnia roboczogodzina pracownika
+- standardowe koszty robocizny - wykorzystaj wtedy, gdy w technologii nie podałeś [norm czasowych](/normy-czasowe). Zdefiniuj [stałe kwoty](/standardowe-koszty-robocizny), które będą doliczane do wyceny produktu. W poniższym polu: standardowy koszt robocizny wskaż tą wartość, która domyślnie ma się podpowiadać
+
+{:start="4"}
+4. **uwzględnić czas przygotowawczo-zakończeniowy TPZ** - zaznacz parametr jeśli chcesz, aby do czasu trwania operacji uwzględnianego w wycenie, wliczany był też czas TPZ
+
+5. **uwzględnić dodatkowy czas** - zaznacz parametr, jeśli czas dodatkowy podany w normach czasowych operacji ma być wliczany do ustalenia kosztu robocizny
+
+6. **narzut kosztów materiału** - podaj o jaki procent ma być zwiększony koszt materiału
+
+7. **narzut kosztów robocizny** - wskaż o jaki procent ma być zwiększony koszt pracy
+
+8. **dodatkowe obciążenie** - określ dodatkową kwotę, którą chcesz doliczać do wyceny produktu
+
+9. **narzut do ceny ewidencyjnej** - zdefiniuj o jaki procent chcesz zwiększyć wyliczoną cenę ewidencyjną
+
+10. **zysk** - podaj procent zysku, który ma być wykorzystany do wyliczenia planowanej ceny sprzedaży
+
+
+---
+
 ## Zasięg
 
 W zakładce zasięg możesz ustawić wartości domyślne dla zasięgu definiowanego w technologiach.

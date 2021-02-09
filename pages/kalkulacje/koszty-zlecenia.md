@@ -1,41 +1,80 @@
 ---
-title: "Koszty zlecenia"
+title: "Kalkulacje kosztów"
 permalink: koszty-zlecenia.html
-toc: false
 ---
-## Kalkulacja kosztów produkcji służy do obliczenia kwot - kosztów produkcji.
-        
-Na te kwoty składają się:
 
-- **Techniczny koszt wytworzenia** - koszty czasów pracy maszyn i pracowników, koszty surowców i półproduktów. Dane te są wyliczane na podstawie [Drzewa technologii](/technologie-szczegoly). Do obliczeń mogą być wykorzystywane dwa rodzaje kosztów zatrudnienia pracownika: godzinowy i akordowy, natomiast w przypadku kosztów materiałowych uwzględnić można cenę nominalną, ostatniego zakupu bądź średnią ważoną. Warunkiem tego jest jednak zintegrowanie qcadoo z systemem magazynowo-księgowym. Więcej o [Integracji](/integracja).
+Kalkulacja kosztów pozwoli określisz szacowany koszt wytworzenia wyrobu gotowego. Kalkulacje przeprowadza się na podstawie technologii produktu. Technologia musi być co najmniej sprawdzona. Dzięki temu możesz wycenić produkt nawet wtedy, gdy nie do końca znasz listę materiałów, które będą wykorzystywane. 
 
-- **Narzuty** - marże kosztów operacji, kosztów materiałowych (przykładowo: koszty te mogą być doliczane za wykonanie tego zlecenia poza godzinami pracy zakładu) oraz inne koszty, czyli kwota, którą chcielibyśmy uwzględnić w tej kalkulacji (przykładowo: należność za dowóz zamówienia pod wskazany przez klienta adres).
+Wywołać kalkulację kosztów można na dwa sposoby:
+1. techologie > technologie > zaznacz te technologie, dla których chcesz oszacować koszty (może być ich wiele) i kliknij przycisk {% include inline_image.html file="przyciskUtworzKalkulacje.jpg" alt="Przycisk Utwórz kalkulację" %} **Utwórz kalkulację**. W tym wypadku nie będziesz musiał wykonać opisanego niżej kroku z zaciąganiem technologii do kalkulacji  
+2. kalkulacje > kalkulacje kosztów 
 
-#### Jak wykonać kalkulację kosztów zlecenia?
+{% include lightbox.html file="kalkulacjeKalkulacjeKosztowLista.jpg" alt="Lista kalkulacji kosztów" caption="Lista kalkulacji kosztów"%}
 
-{% include lightbox.html file="kalkulacje-%20koszty%20zjecenie-%20g%C5%82%C3%B3wna-%20strza%C5%82ki.png" alt="Formularz kosztów kalkulacji" caption="Formularz kosztów kalkulacji"%}
+Kliknij przycisk {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
 
-Aby wykonać kalkulację kosztów zlecenia wybieramy: **Kalkulacje >> Koszty zlecenia >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
+{% include lightbox.html file="kalkulacjeKalkulacjeKosztowLista.jpg" alt="Lista kalkulacji kosztów" caption="Lista kalkulacji kosztów"%}
 
-1. W pierwszym kroku w zakładce **"Główna"** , wybierz przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} "Technologię", "Zlecenie" bądź "Produkt" (warunkiem jest, by była stworzona dla niego technologia). Jeżeli od razu wybierzemy "Zlecenie" pozostałe pola uzupełnią się automatycznie.  
-  
-2. Wybierz "Linię produkcyjną", na której realizowana ma być dana technologia, zlecenie lub produkt.  
-  
-3. Podaj wybraną przez siebie"Ilość" produktów, dla których chcesz otrzymać kalkulację. 
-  
+Podaj **ilość** jaką chcesz wycenić (pamiętając, że taka ilość będzie analizowana dla każdego kalkulowanego produktu) i zapisz.
 
-4. Następnie przechodzimy do zakładki **„Dane wejściowe”**. Tutaj wybieramy, źródło kosztów (z bieżących definicji produktów lub z kosztów materiałowych zleceń) oraz decydujemy które koszty materiałów będą brane pod uwagę w kalkulacji (nominalne, średnia ważona czy cena ostatniego zakupu). Podobnie w przypadku kosztów operacji: (godzinowy, czy akordowy). Dodatkowo można zaznaczyć czy w danej kalkulacji będziemy uwzględniać czas przygotowawczo- zakończeniowy TPZ bądź czy chcemy uwzględnić dodatkowy czas.
-                
-5. Opcjonalnie w kalkulacji możemy uwzględnić **"Narzuty"** w postacimarży na materiały i na koszty operacji oraz inne, dodatkowe koszta.  
-  
-6. Po wprowadzeniu danych wybieramy {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz.**
+Kolejny krok to wskazanie technologii, które mają być estymowane. Możesz wskazać dowolną ilość technologii sprawdzonych lub zaakceptowanych. 
 
-{% include lightbox.html file="Kalkulacje-%20koszty%20zlecenia-%20dane%20wej%C5%9Bciowe-%20strza%C5%82ki.png" alt=" Zakładka - dane wejściowe" caption="Zakładka - dane wejściowe"%}
+Zanim wygenerujesz kalkulację zajrzyj do zakładki **Dane dla kosztów**
 
-{:start="7"}
-7. Następnie, w celu przeprowadzenia kalkulacji wybieramy {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj kalkulację.**   
-  
-8. Jej wynik pokaże się w ostatniej karcie - **„Wyniki kalkulacji”**. Można również pobrać raport kalkulacji w formie pliku w formacie {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %} **PDF.** 
-  
-{% include callout.html content="Kalkulacje mogą być wykonywane z poziomu innych zakładek w systemie:[Technologii](/technologie-szczegoly) oraz [Zleceń produkcyjnych](/zlecenia-produkcyjne)." type="info" %}
+{% include lightbox.html file="kalkulacjeKalkulacjeKosztowDaneDlaKosztow.jpg" alt="Lista kalkulacji kosztów" caption="Lista kalkulacji kosztów"%}
+
+Ustal kryteria, wg jakich mają być produkty wycenione. 
+
+{% include callout.html content="Warto wartości ustawić w parametrach technologii. Dzięki temu będą się one podpowiadały do kalkulacji i nie będziesz musiał ich każdorazowo ustawiać." type="warning" %}
+
+Kryteria podzielone są na 3 grupy:
+
+**1. koszty materiałowe**
+
+Wskaż wg jakiej ceny ma być ustalana wartość zużywanego materiału (pole: **wykorzystywane koszty materiałów**). Ceny te zapisywane są w produkcie, w zakładce Koszty. Cena ostatniego przychodu i Cena średnio ważona automatycznie ustalona jest na podstawie dokumentów magazynowych i stanów (czyli: ceny będą > 0, gdy już kiedyś dany materiał przyjąłeś na magazyn). Średnia cena z ofert i cena z ostatniej oferty ustalana jest na podstawie zarejestrowanych ofert dostawy. Natomiast koszt nominalny uzupełniony musi być ręcznie. 
+
+Jeśli chcesz korzystać np. z ceny zakupu, ale wiesz, że nie wszystkie materiały mają taką cenę ustaloną, możesz dla nich zapisać spodziewaną cenę w polu koszt nominalny w produkcie, a w kalkulacji zaznaczyć parametr: **Użyj kosztu nominalnego gdy cena nie jest określona**. Wówczas gdy cena zakupu (lub inna wybrana) jest > 0 to z niej skorzystamy, ale gdy jest 0 to sięgniemy po koszt nominalny.
+
+{:start="2"}
+**2. koszty robocizny**
+
+W obszarze tym wskaż co będzie podstawą do wyznaczania kosztów pracy. Zacznij od podania **źródła kosztów operacji**. Do wyboru masz:
+- **z parametrów ogólnych** - średnia roboczogodzina będzie pobierana z pól poniżej: Średnia roboczogodzina maszyny i Średnia roboczogodzina pracownika. Każda z operacji będzie stanowić taki sam, uśredniony koszt za godzinę. Wartości te podpowiedzą się z ustawionych parametrów technologii, więc wystarczy, że wyznaczysz je raz
+- z operacji technologii - koszt za godzinę pobierany jest z wartości zdefiniowanych w operacji technologii w zakładce [normy kosztowe](/normy-kosztowe). Każda operacja może stanowić inny koszt za godzinę
+- standardowy koszt robocizny - aby wyliczyły się koszty robocizny w dwóch powyższych opcjach operacje technologii muszą mieć wypełnione [normy czasowe](/normy-czasowe). Jeśli nie masz takich informacji, możesz wykorzystać doliczanie do wyceny produktu kosztów robocizny na podstawie [standardowych kosztów robocizny](/standardowe-koszty-robocizny). Możesz zdefiniować kilka różnych wartości i w zależności np. od typu wyrobu, czy złożoności produkcji wskazać w kalkulacji tą, która ma zostać wykorzystana
+
+Dodatkowo możesz ustalić, zaznaczając parametr, czy **czas przygotowawczo-zakończeniowy TPZ** i **czas dodatkowy** ma być uwzględniany w wyliczaniu kosztów robocizny.
+
+{:start="3"}
+**3. narzuty**
+
+W obszarze tym możesz doliczyć (zazwyczaj) procentowe narzuty, które mają zwiększać wyliczone koszty:
+
+- **narzut kosztów materiału** - ustalone koszty materiału zostaną zwiększone o zadany procent
+- **narzut kosztów robocizny** - ustalone koszty robocizny zostaną zwiększone o zadany procent
+- **dodatkowe obciążenie** - doliczana kwota do kosztów produkcji
+- **narzut do ceny ewidencyjnej** - wyliczona cena ewidencyjna zostanie zwiększona o zadany procent
+- **zysk** - wyznaczony TKW zwiększony zostanie o zadany zysk i wyliczona będzie cena sprzedaży
+
+
+Po ustaleniu danych do kosztów zapisz kalkulację i wywołaj generowanie przyciskiem {% include inline_image.html file="przyciskGenerujKalkulacje.jpg" alt="Przycisk Generuj kalkulację" %} **Generuj kalkulację**. Daj nam chwilę - przeprowadzamy właśnie bardzo skomplikowane obliczenia. Efekty zobaczysz w zakładce **Wyniki kalkulacji**:
+
+{% include lightbox.html file="kalkulacjeKalkulacjeKosztowWyniki.jpg" alt="Wyniki kalkulacji kosztów" caption="Wyniki kalkulacji kosztów"%}
+
+Jeśli **brak ceny materiału** = tak, to co najmniej jeden materiał w wycenie nie ma określonej ceny. Zatem ostateczne wyniki mogą być zakłamane.
+
+Szczegóły wyceny zaprezentowane są w Excelu. Aby ją uzyskać kliknij przycisk {% include inline_image.html file="przyciskXLSDuzy.jpg" alt="Przycisk XLS" %} **XLS**.
+
+{% include lightbox.html file="kalkulacjeKalkulacjeKosztowXLS.jpg" alt="Wyniki kalkulacji kosztów w Excelu" caption="Wyniki kalkulacji kosztów w Excelu"%}
+
+Kalkulacja jest podzielona na kilka arkuszy. Dokumentacja nie będzie omawiać każdego. Podreślone zostaną tylko niektóre kwestie:
+
+A. jeśli przeprowadzasz wycenę dla wyrobu z technologią sprawdzoną, ale zamiast konkretnych produktów masz [typy produktów wejściowych](/typy-produktu-wejsciowego), to zdefiniuj dla typu średnią cenę. Dzięki temu będziemy mogli wyznaczyć spodziewne koszty materiałowe
+
+B. jeśli wyceniasz technologię produktu będącego rodziną i rozpisałeś w niej różne produkty wejściowe w zależności od rozmiaru, to koszt widoczny w zakładce koszty materiałów będzie wyliczony w oparciu o średnią cenę wyznaczoną w oparciu o ceny produktów wg rozmiaru. Ceny każdego z produktów zobaczysz w arkuszu Materiały wg rozmiarów
+
+C. jeśli estymowana technologia korzysta z technologii na komponenty i przy generowaniu zaznaczyłeś parametr **Uwzględnij komponenty** (w zakładce Uwzględnij komponenty) to w arkuszu Koszty komponentów przeanalizujesz szczegóły kosztów dla każdego z nich. Pozostałe arkusze będą tak analizować technologię, jakby jej technologię na komponenty stanowiły element wskazanej technologii.
+
+{% include callout.html content="Kalkulację kosztów dla danej technologii możesz generować wielokrotnie. I w ten sposób dopracowywać kształt technologii." type="warning" %}
+
 

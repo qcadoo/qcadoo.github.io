@@ -3,30 +3,35 @@ title: "Zapotrzebowanie materiałowe"
 permalink: zapotrzebowanie-materialowe.html
 toc: false
 ---
-Zapotrzebowanie materiałowe to lista produktów: surowców i półproduktów potrzebnych do zrealizowania danego zlecenia produkcyjnego lub wielu zleceń produkcyjnych. To tak, jakbyśmy urządzali przyjęcie w domu dla naszych przyjaciół. Tworzymy wtedy jedną zbiorczą listę zakupów, zawierając w niej wszystkie produkty potrzebne do przygotowania kilku potraw.
+Zapotrzebowanie materiałowe to lista produktów potrzebnych do zrealizowania zlecenia produkcyjnego. To tak, jakbyśmy urządzali przyjęcie w domu dla naszych przyjaciół. Tworzymy wtedy jedną zbiorczą listę zakupów, zawierając w niej wszystkie produkty potrzebne do przygotowania kilku potraw.
 
 Zapotrzebowanie materiałowe wyliczane jest na podstawie [drzewa technologii](/technologie-szczegoly) i zaplanowanej ilości produktów do wykonania, zawartej w [zleceniu produkcyjnym](/zlecenia-produkcyjne).
 
 Jeśli nasza technologia zakłada, że do wyprodukowania jednej sztuki stołu będziemy potrzebować 5 desek, to mając zlecenie produkcyjne na 10 stołów, zapotrzebowanie materiałowe wskaże, że potrzebujemy 50 desek. 
+
+Zapotrzebowanie materiałowe dodatkowo może pokazać z jakiego magazynu produkty będą rozchodowane, na kiedy produkt jest potrzebny a także jaki jest aktualny stan magazynowy. Może stanowić zatem podstawowy wydruk dotyczący koniecznych do wydania produktów na produkcję, dla pracowników obsługujących magazyn.
 
 
 ## Jak wygenerować zapotrzebowanie materiałowe?
             
 Przechodzimy do: **ZAOPATRZENIE >> Zapotrzebowanie materiałowe >>**  {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy.**
 
-{% include lightbox.html file="Zaopatrzenie-%20zapotrzebowanie%20materia%C5%82owe.png" alt="Formularz zapotrzebowania materiałowego" caption="Formularz zapotrzebowania materiałowego" %}
+{% include lightbox.html file="zaopatrzenieZapotrzebowanieMaterialowe.png" alt="Formularz zapotrzebowania materiałowego" caption="Formularz zapotrzebowania materiałowego" %}
 
-1. Najpierw nadajemy "Numer" zapotrzebowania i wybieramy jego "Typ", opcjonalnie wprowadzamy nazwę w celu łatwiejszej identyfikacji zapotrzebowania. Możemy wygenerować zapotrzebowanie uwzględniając tylko surowce technologi, produkty wejścia wszystkich operacji lub surowce technologii oraz produkty podwykonawców.
+Podaj **numer** i ewentualnie **nazwę** tworzonego raportu. Wybierz, wskazując **typ** jakie produkty chcesz zebrać - mają to być surowce, czy surowce i komponenty, a może wszystkie produkty wejściowe operacji, łącznie z półproduktami.
 
-2. Następnie wybieramy {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz.**
+Ustal także jak mają wyglądać parametry zapotrzebowania:
+- **uwzględnij magazyn** - jeśli zaznaczysz parametr, to produkty zostaną pogrupowane po magazynie, z którego ma nastąpić rozchód
+- **pokaż aktualny stan magazynowy** - zaznacz parametr, aby na wydruku pojawiła się informacja o stanie magazynowym produktów
+- **uwzględnij datę rozpoczęcia zlecenia** - jeśli zaznaczysz parametr, to produkty będą pogrupowane po dacie planowanego rozpoczęcia produkcji
 
-3. Po prawej stronie: aktywuje się przycisk {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj istniejący**. Wybieramy zlecenie produkcyjne, dla którego chcemy wygenerować zapotrzebowanie materiałowe. Jeśli tworzymy zbiorczą listę - wybieramy kilka zleceń produkcyjnych, np. z ostatniego tygodnia bądź ostatniego miesiąca.
 
-4. Następnie klikamy w  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj**. Uzupełni nam się informacja kto i kiedy wygenerował zapotrzebowanie.
+Zapisz zapotrzebowanie przyciskiem {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz.** I wskaż dla jakich zleceń chcesz ustalić listę potrzebnych produktów używając przycisku {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj istniejący** z prawej strony okna.
 
-5. Dokument możemy pobrać w formacie {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %}**PDF** bądź {% include inline_image.html file="xlsIcon24.png" alt="Przycisk XLS" %} **XLS**.
+Wygeneruj zapotrzebowanie przyciskiem  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj**. Uzupełni się informacja kto i kiedy wygenerował zestawienie.
 
-{% include callout.html content="Wydruk ten jest pomocny, jeśli qcadoo nie jest zintegrowane z systemem magazynowo - księgowym. Wtedy na podstawie tej listy można skompletować potrzebne do zrealizowania zlecenia na komponenty. Jeżeli chcemy sprawdzić ilości potrzebne do produkcji, ale uwzględniając stany magazynowe, to należy skorzystać z [Pokrycia zapotrzebowania](/pokrycie-zapotrzebowania) " type="info" %} 
+Raport możesz pobrać w formacie {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %}**PDF** bądź {% include inline_image.html file="xlsIcon24.png" alt="Przycisk XLS" %} **XLS**.
+
 
 ## Zapotrzebowanie materiałowe z poziomu listy zlecen
 
