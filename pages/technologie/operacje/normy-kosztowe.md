@@ -14,7 +14,6 @@ Nie jest wymagane trzymanie się tylko jednej z form rozliczeń. W kalkulacjach 
 
 Wartości te mogą zostać wprowadzone w [Operacjach](/operacje) i wtedy obowiązywać będą dla wszystkich zleceń tworzonych w oparciu o te normy.
 
-Możliwe jest także zdefiniowanie powyższych wartości unikatowo dla danego zlecenia produkcyjnego (więcej [Parametry dla zlecenia](/parametry-dla-zlecenia)), wtedy obowiązywać będą tylko w wypadku tego konkretnego zlecenia produkcyjnego.
 
 {% include lightbox.html file="technologie-%20operacje-%20normy%20kosztowe.png" alt="Normy kosztowe" caption="Normy kosztowe"%}
 

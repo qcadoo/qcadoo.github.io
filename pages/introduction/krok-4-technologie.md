@@ -3,8 +3,10 @@ title: "Krok 5 - Technologie"
 permalink: krok-4-technologie.html
 ---
 Masz już zdefiniowane produkty, maszyny i operacje, więc czas na kolejny krok! Możesz teraz utworzyć technologię produkcji - model mówiący o tym, jak operacja po operacji, z surowców i półproduktów powstaje gotowy produkt.  
+
+{% include callout.html content='Dokładniejsza instrukcja dotycząca wprowadzania technologii znajduje się [tutaj](/technologie-szczegoly)' type="warning" %}
   
- Aby utworzyć technologię postępuj zgodnie z poniższymi wskazówkami:  
+Aby utworzyć technologię postępuj zgodnie z poniższymi wskazówkami:  
 
 {% include lightbox.html file="technologie-technologia-główna.png" alt="Formularz technologii" caption="Formularz technologii"%}
 
@@ -16,7 +18,7 @@ Masz już zdefiniowane produkty, maszyny i operacje, więc czas na kolejny krok!
 
 W qcadoo technologię buduje się w formie drzewa operacji - układając je od ostatniej (np. malowanie, lub pakowanie) do pierwszej (np. piłowanie, cięcie). Aby wprowadzić model produkcji, wykonaj następujące kroki:  
 
-1. Dodaj operacje wchodzące w skład technologii. Dla każdej dodanej operacji możesz zmienić szereg parametrów, w tym normy czasowe i kosztowe. Zmiany te będą uwględnione tylko w tej technologii.  
+1. Dodaj operacje wchodzące w skład technologii. Dla każdej dodanej operacji możesz zmienić szereg parametrów, w tym normy czasowe i kosztowe, czy lista stacji roboczych, na których czynność może być wykonana. Zmiany te będą uwględnione tylko w tej technologii.  
 
 {% include lightbox.html file="technologie-technologia-drzewo.png" alt="Drzewo technologii" caption="Drzewo technologii" %}
 
@@ -26,7 +28,7 @@ W qcadoo technologię buduje się w formie drzewa operacji - układając je od o
 
 qcadoo wymaga, aby produkt wytworzony w danej operacji (wyjściowy), był wykorzystany w kolejnej operacji (wejście). Aby przyspieszyć pracę, wprowadź półprodukty tylko jako produkty wyjściowe z operacji i kliknij przycisk  **Przenieś produkty do kolejnych operacji** - qcadoo odpowiednio podepnie je jako wejścia do kolejnych operacji. 
 
-{% include callout.html content='Może się zdarzyć, że na liście produktów nie będzie wszystkich materiałów potrzebnych do uzupełnienia produktów wejściowych i wyjściowych. Możesz je dopisać otwierając qcadoo w osobnym oknie przeglądarki iwchodząc ponownie w zakładkę „Produkty” (patrz **[Krok 1](/krok-1-produkty-1)**).' type="info" %}
+{% include callout.html content='Może się zdarzyć, że na liście produktów nie będzie wszystkich materiałów potrzebnych do uzupełnienia produktów wejściowych i wyjściowych. Możesz je dopisać otwierając qcadoo w osobnym oknie przeglądarki i wchodząc ponownie w zakładkę „Produkty” (patrz **[Krok 1](/krok-1-produkty-1)**).' type="info" %}
 {:start="3"}
 3. Kliknij przycisk {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** aby zachować wprowadzone zmiany.
 
@@ -36,8 +38,8 @@ Najcięższe zadanie masz już za sobą. Teraz pozostało jeszcze zdefiniowanie 
   
 Zasięg to przypisanie operacji technologii do jednostek organizacyjnych wystepujących w firmie (patrz: **[Krok 3 - Struktura zakładu](/krok-2-maszyny)**). Celem ustalenia zasięgu jest określenie, które jednostki są odpowiedzialne za wykonanie danej operacji technologii. Wszystkie operacje danej technologii mogą być wykonywane przez jeden dział, a nawet jedną linię produkcyjną. Może również być tak, że technologia będzie składała się z operacji wykonywanych przez różne działy i wiele różnych linii produkcyjnych.  
 
-Określenie zasięgu technologii nie jest konieczne. Ale dzięki określeniu jaka linia danymi czynnościami się zajmuje, podpowiemy ją przy tworzeniu zlecenia. Czyli będzie jeden krok mniej do wykonania podczas rozpisywania produkcji.
-  
+Określenie zasięgu technologii nie jest konieczne. Ale dzięki określeniu jaka linia danymi czynnościami się zajmuje, podpowiemy ją przy tworzeniu zlecenia. Czyli będzie jeden krok mniej do wykonania podczas rozpisywania produkcji. Jeśli natomiast będziesz planował każdą czynność z osobna, lepiej będzie wskazać możliwe stacje robocze. Dzięki temu będziesz mógł skorzystać z [planu na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika).
+
 Aby zdefiniować zasięg technologii:  
 
 {% include lightbox.html file="Technologie-zasiegtech.png" alt="Zasięg technologii" caption="Zasięg technologii" %}
@@ -48,20 +50,23 @@ Aby zdefiniować zasięg technologii:
 
 {% include callout.html content='Zasięg dla operacji w technologii możesz również ustalić podczas edytowania konkretnych operacji w drzewie.' type="info" %}
 
+Kolejny krok to uzupełnienie zakładki **Przepływy**. Musisz wskazać z jakiego magazynu będą rozchodowane surowce i na jaki magazyn będzie przyjmowany produkt finalny tego zlecenia. Możesz ponadto określić, czy półprodukty będą składowane na magazynie oraz czy nie zużyte w produkcji surowce mają być przesyłane na inny magazyn. 
 
-{% include callout.html content='Jeżeli zasięg Twojej technologii obejmuje jeden dział, to teraz przyszedł czas na określenie przepływu produktów użytych i wyprodukowanych w tej technologii. W tym celu przejdź na zakładke **„Przepływy”.** Popatrz na zrzut znajdujący się poniżej. Możesz określić magazyny, w których gromadzone są produkty (surowce, półprodukty i produkt finalny), zaczynając od momentu pobrania produktów wejściowych dla pierwszej operacji technologii i kończąc na przeniesieniu gotowego produktu finalnego na magazyn. Pamiętaj, aby po określeniu przepływu, wybrać opcję **Uzupełnij magazyny w produktach** , co spowoduje powiązanie wszystkich produktów (wejściowych, półproduktów oraz finalnego) z odpowiednimi magazynami.  ' type="info" %}
+Jeśli zasięg = 1 dział, to uzupełniasz magazyny u góry okna. I funkcją: **uzupełnij magazyny w produktach** przenosisz je do produktów z technologii. Jeśli zasięg = wiele działów wywołanie funkcji powoduje pobranie magazynów zdefiniowanych dla działów. Możesz domyślne wartości zmieniać wchodząc w szczegóły produktu w tabeli przepływów.
+
+{% include callout.html content='Funkcja **uzupełnij magazyny w produktach** nie musi być ręcznie wywoływana. Możesz ustawić tak parametry, aby wywołała się w momencie sprawdzenia poprawności technologii.' type="info" %}
   
-{% include lightbox.html file="technologia-przeplywy.png" alt=" przeływy technologii" caption="Uzupełnieni magazynów w technologii" %}
+{% include lightbox.html file="technologia-przeplywy.png" alt=" przeływy technologii" caption="Uzupełnienie magazynów w technologii" %}
 
 Skończyłeś wprowadzać technologię. Teraz, aby użyć jej w zleceniu produkcyjnym, musisz ją jeszcze zaakceptować.  
 
 
-Najpierw upewnij się, że dane zostały wprowadzone prawidłowo, korzystając z funkcji {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Sprawdź poprawność**. Jeżeli w którymś miejscu popełniłeś błąd, qcadoo poinformuje Cię otym, wyświetlając odpowiedni komunikat. Jeżeli zaś wszystkie dane wprowadzone są poprawnie, nadaj gotowej technologii status „Zaakceptowana”, wybierając przycisk {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Akceptuj**.
+Najpierw upewnij się, że dane zostały wprowadzone prawidłowo, korzystając z funkcji {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Sprawdź poprawność**. Jeżeli w którymś miejscu popełniłeś błąd, qcadoo poinformuje Cię o tym, wyświetlając odpowiedni komunikat. Jeżeli zaś wszystkie dane wprowadzone są poprawnie, nadaj gotowej technologii status „Zaakceptowana", wybierając przycisk {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Akceptuj**.
 
 {% include callout.html content='Nadanie technologii statusu „Zaakceptowana” uniemożliwia wprowadzanie w niej zmian.' type="warning" %}
 
 {% include callout.html content="
-Warto wiedzieć, że cały proces produkcyjny danego wyrobu nie musi być opisany jedną technologią. Możemy ją podzielić na tzw. technologie na komponenty. Opcja przydatna, gdy produkujesz kilka elementów, a później np. montujesz w całość. I każdy z tych elementów produkuje inna linia. A nawet - każdy z tych elementów jest zlecany w innym czasie. Więcej o technologiach na komponent przeczytasz w [Technologie](/technologie-szczegoly) " type="info" %} 
+Warto wiedzieć, że cały proces produkcyjny danego wyrobu nie musi być opisany jedną technologią. Możemy ją podzielić na tzw. technologie na komponenty. Opcja przydatna, gdy produkujesz kilka elementów, a później np. montujesz w całość. I każdy z tych elementów produkuje inna linia. A nawet - każdy z tych elementów jest zlecany w innym czasie. Więcej o technologiach na komponent (i samych technologiach) przeczytasz w [Technologie](/technologie-szczegoly) " type="info" %} 
   
 Technologia zaakceptowana? Teraz sprawdź ile kosztuje Cię produkcja tego towaru.
 

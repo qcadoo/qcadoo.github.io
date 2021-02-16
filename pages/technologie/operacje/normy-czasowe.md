@@ -30,6 +30,4 @@ Współczynnik wykorzystania w czasie:
 
 Wartości te mogą zostać wprowadzone w Operacjach i wtedy obowiązywać będą dla wszystkich zleceń tworzonych w oparciu o te normy.
 
-Możliwe jest także zdefiniowanie powyższych wartości unikatowo dla danego zlecenia produkcyjnego (więcej [Parametry dla zlecenia](/parametry-dla-zlecenia)), wtedy obowiązywać będą tylko w wypadku tego konkretnego zlecenia produkcyjnego.
-
 Jeśli chcesz na podstawie norm czasowych podanych w szablonie operacji zaktualizować istniejące technologie, skorzystaj z funkcji **[Zbiorczej zmiany parametrów zlecenia](/zmiana-parametrow)**.

@@ -16,7 +16,7 @@ Wybierz produkt, którego dotyczy Twoje zamówienie ("Produkt"), następnie nada
 
 ---
 
-Dla wprowadzonego zlecenia produkcyjnego możesz wyznaczyć czas realizacji. Możesz skorzystać z dwóch niezależnych opcji, które daje qcadoo: kalkulacja czasochłonności lub produkcja na zmianę.
+Dla wprowadzonego zlecenia produkcyjnego możesz wyznaczyć czas realizacji. Możesz skorzystać z kilku niezależnych opcji, które daje qcadoo: kalkulacja czasochłonności, produkcja na zmianę czy najbardziej złożony algorytm: plan na stację roboczą i pracownika.
 
 1. **kalkulacja czasochłonności**
 
@@ -36,7 +36,14 @@ Następnie wybierz „Kopiuj obliczoną datę do plan. daty zakończenia” i po
 
 Jeśli produkujesz seryjnie i jesteś w stanie okreslić normę wydajnościową dla technologii (określającą ile produktu wytworzysz na minutę), to możesz wyznaczyć czasy realizacji poprzez rozłożenie zleconej ilości na zmiany. Oczywiście nie musisz ręcznie liczyć - możesz skorzystać z pomocy qcadoo. Wejdź w szczegółach zlecenia do _"Produkcja na zmianę"_ i wywołaj funkcję **Zaplanuj produkcję na zmiany**. Więcej o tym jak działa produkcja na zmianę oraz jak skonfigurować qcadoo, by móc z niej skorzystać, przeczytasz [tutaj](/produkcja-na-zmiane).
 
- Teraz wiadomo ile dokładnie potrwa realizacja zlecenia oraz którego dnia zostanie sfinalizowana.
+{:start="3"}
+3. **plan na stację roboczą i pracownika** - opcja ta zakłada, że chcesz planować każdą z wykonywanych czynności. Plan wyciąga operacje z technologii, przypisuje je do stacji roboczych i pracowników, tworzy zadania operacyjne i wyznacza ramy czasowe zlecenia produkcyjnego. Funkcjonalność opisana jest szczegółowo w [tej dokumentacji](/plan-na-stacje-robocza-i-pracownika).
+
+---
+
+Teraz wiadomo ile dokładnie potrwa realizacja zlecenia oraz którego dnia zostanie sfinalizowana.
+
+{% include callout.html content="Jeśli chcesz planować każdą operację zlecenia produkcyjnego musisz zadbać o to, by pojawiły się zadania operacyjne. [Ta dokumentacja](/planowanie-operacyjne) Cię poprowadzi." type="warning" %} 
 
 ---
 

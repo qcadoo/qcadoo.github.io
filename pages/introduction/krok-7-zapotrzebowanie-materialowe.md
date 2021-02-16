@@ -8,16 +8,16 @@ Do określenia faktycznej daty startu zlecenia potrzebujesz jeszcze wiedzieć, j
 - dostępność surowców zlecenia,
 - pokrycie zapotrzebowania.
 
-{% include lightbox.html file="zapotrzebowanie-%20zapotrzebowanie%20materia%C5%82owe.png" alt="Pokrycie zapotrzebowanie" caption="Formularz pokrycia zapotrzebowania"%}
+{% include lightbox.html file="zapotrzebowanie-%20zapotrzebowanie%20materia%C5%82owe.png" alt="Formularz zapotrzebowania materiałowego" caption="Formularz zapotrzebowania materiałowego"%}
 
 Zaczniemy od zapoznania się z **„Zapotrzebowaniem materiałowym”**. Możesz je sporządzić nawet wówczas, gdy zlecenie nie jest jeszcze zaakceptowane.
 
-Wybierz „Zaopatrzenie”, a następnie „Zapotrzebowanie materiałowe” i {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**. Nadaj zapotrzebowaniu nazwę, następnie {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** by zachować. Aktywuje się wtedy pole „Lista zleceń”. Dodaj zlecenie, dla którego chcesz wygenerować "Zapotrzebowanie materiałowe". Następnie wybierz  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj** , by utworzyć dokument. Masz do dyspozycji dwa rodzaje dokumentów: **PDF** {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %} i **XLS** {% include inline_image.html file="xlsIcon24.png" alt="Przycisk XLS" %}(arkusz kalkulacyjny).
+Wybierz **Zaopatrzenie >Zapotrzebowanie materiałowe** i {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**. Nadaj zapotrzebowaniu nazwę, następnie {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** by zachować. Aktywuje się wtedy pole „Lista zleceń”. Dodaj zlecenie, dla którego chcesz wygenerować "Zapotrzebowanie materiałowe". Następnie wybierz  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj** , by utworzyć dokument. Masz do dyspozycji dwa rodzaje dokumentów: **PDF** {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %} i **XLS** {% include inline_image.html file="xlsIcon24.png" alt="Przycisk XLS" %}(arkusz kalkulacyjny).
 Zapotrzebowanie materiałowe możesz również utworzyć z poziomu listy zleceń produkcyjnych - zaznacz interesujące Cię zlecenia i wywołaj generowanie klikając przycisk {% include inline_image.html file="generujZapotrzebowanie.png" alt="Generuj zapotrzebowanie" %}.
 
 Pokrycie zapotrzebowania jest funkcjonalnością bardziej rozbudowaną. Oprócz ustalenia listy niezbędnych materiałów dowiesz się z niego jakie masz aktualne stany magazynowe produktów, czy produkt jest zamówiony u dostawcy i kiedy jest planowany termin dostarczenia, a także, czy komponent został zlecony na produkcję i kiedy jest planowany termin jego wpłynięcia na magazyn (data zakończenia zlecenia).
 
-Pokrycie zapotrzebowania wywoływane jest z dwóch miejsc - z menu "Zaopatrzenie" (skąd można zbiorczo sporządzić raport dla wszystkich lub wybranych zleceń przygotowanych do realizacji), a także z poziomu pojedynczego zlecenia.
+Pokrycie zapotrzebowania wywoływane jest z dwóch miejsc - z menu **Zaopatrzenie** (skąd można zbiorczo sporządzić raport dla wszystkich lub wybranych zleceń przygotowanych do realizacji), a także z poziomu pojedynczego zlecenia.
 
 
 {% include callout.html content=' W zleceniu produkcyjnym pokrycie zapotrzebowania mogło schować się pod **zieloną strzałką**' type="warning" %} 

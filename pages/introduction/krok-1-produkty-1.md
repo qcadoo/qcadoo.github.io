@@ -7,7 +7,7 @@ Z pustego, jak wiadomo, i Salomon nie naleje. Dlatego, by mieć z czego produkow
  
 {% include lightbox.html file="podstawowe-%20produkty.png" alt="Lista produktów" caption="Lista produktów" %}
 
-Wybierz "Podstawowe”, a następnie zakładkę „Produkty” i kliknij {% include inline_image.html file="dodaj%20nowy.png" alt="Dodaj nowy" %} **Dodaj nowy**. Tutaj wprowadzamy: surowce, półprodukty i wyroby gotowe, a także odpady.
+Wybierz "Produkty, a następnie zakładkę „Produkty” i kliknij {% include inline_image.html file="dodaj%20nowy.png" alt="Dodaj nowy" %} **Dodaj nowy**. Tutaj wprowadzamy: surowce, półprodukty i wyroby gotowe, a także odpady.
   
 Przy każdym wpisywanym produkcie wypełnij pola dotyczące „Norm kosztowych”. Dzięki temu w kolejnych krokach będziesz miał możliwość obliczenia dokładnych kosztów produkcji. 
 

@@ -563,13 +563,13 @@ entries:
           output: web
           url: /zmiana-stanu-zapotrzebowania.html
 
-        - title: Zmiana technologii zlecenia
-          output: web
-          url: /parametry-dla-zlecenia.html
-
         - title: Ceny materiałów dla zlecenia
           output: web
           url: /ceny-materialow-dla-zlecenia.html
+
+        - title: Paczki w zleceniu produkcyjnym
+          output: web
+          url: /paczki-w-zleceniu.html
 
         - title: Produkcja na zmianę
           output: web
@@ -656,6 +656,10 @@ entries:
         - title: Gantt pracowników
           output: web
           url: /gantt-pracownikow.html
+
+    - title: Paczki zlecenia
+      output: web
+      url: /paczki-zlecenia.html
 
   - title: Rejestracja
     output: web

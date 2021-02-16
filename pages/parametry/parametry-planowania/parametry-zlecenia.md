@@ -84,6 +84,24 @@ W parametrach wybierz kategorię i przypisz jej kolor z dostępnej listy. Użyj 
 
 ---
 
+## Paczki
+
+W zakładce tej ustawisz parametry dotyczące [paczek](/paczki-zlecenia) generowanych do zlecenia.
+
+{% include lightbox.html file="administracjaParametryZleceniaPaczki.png" alt="Parametry zleceń - paczki" caption="Parametry zleceń - paczki" %}
+
+1. **generuj paczki dla zleceń** - zaznacz parametr jeśli chcesz aby do zlecenia można było wygenrować paczki - albo przyciskiem w paczkach zlecenia, albo automatycznie w momencie rozpoczynania zlecenia. Ustaw w polach poniżej jak podzielić ilość zlecenia na paczki
+
+2. **optymalna wielkość paczki** - podaj jaką ilość ma mieć paczka
+
+3. **reszta zasilająca ostatnią paczkę** - podaj do jakiej ilości pozostałej po dzieleniu ilości zleconej na paczki wg optymalnej ilości, mamy nią zasilać ostanio wygenerowaną paczkę. Jeśli reszta będzie większa od podanej liczby, zostanie utworzona nowa, mniejsza paczka. 
+
+4. **uwzględnij paczki przy generowaniu procesów do zlecenia** - jeśli w ramach każdej paczki mają być wykonywane te same procesy technologiczne, zaznacz parametr, a wygenerujemy tyle zestawów procesów ile paczek w zleceniu.
+
+
+
+---
+
 ## Postęp produkcji
 
 Parametr w zakładce dotyczy [szczegółowego zapotrzebowania](/zmiana-stanu-zapotrzebowania), czyli listy produktów uczestniczących w produkcji pod dane zlecenie i jego operacje.

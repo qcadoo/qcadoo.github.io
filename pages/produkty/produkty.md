@@ -191,6 +191,8 @@ Jeśli chcesz zintegrować qcadoo z systemem zewnętrznym klasy ERP skontaktuj s
 
 O integracji więcej poczytasz [tutaj](/integracja-ERP).
 
+{% include callout.html content="Jeśli produkt jest zsynchronizowany z produktem z systemu zewnętrznego, to w qcadoo nie można go edytować ani usuwać. Jednak wybrani użytkownicy mogą otrzymać dostęp do przycisku Usuń ID z syst. zewn. który pozwoli na przeprowadzenie zmian. Przycisk usuwa wiążące ID, więc produkt jest traktowany jak taki, który jest związany tylko z qcadoo. Zmiany trzeba przeprowadzać z głową - tak by nie zaburzyć synchronizacji." type="warning" %}
+
 ---
 
 # Dodatkowe funkcje wywoływane dla produktu

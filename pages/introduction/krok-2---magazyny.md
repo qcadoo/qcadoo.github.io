@@ -11,7 +11,7 @@ W menu Magazyn wybierz pozycję Magazyny i kliknij {% include inline_image.html 
 
 {% include lightbox.html file="magazyn_lista.png" alt="Lista magazynów" caption="Lista magazynów" %}
 
-W uruchomionym oknie podaj **numer** i **nazwę** magazynu, a także **typ** magazyn z zasobami.
+W uruchomionym oknie podaj **numer** i **nazwę** magazynu.
 
 W zakładce **Metoda rozchodu i atrybuty dokumentu** możesz wybrać wg jakiej metody chcesz wydawać produkty z magazynu (FIFO, LIFO, FEFO, LEFO), a także jakie atrybuty dokumentów chcesz koniecznie wypełniać (program wymusi wówczas na użytkownikach, by dane pole było zawsze wypełnione).
 
@@ -23,7 +23,7 @@ Po zapisaniu {% include inline_image.html file="saveIcon24.png" alt="Przycisk Za
 
 Magazyny mogą zostać również przypisane do działu - po to by pomóc w określeniu skąd dany dział ma czerpać zasoby oraz gdzie efekty produkcji mają być przyjmowane - ale o tym szczegółowo w kolejnym kroku.
 
-{% include callout.html content="Zerknij w parametry magazynu (Administracja > Parametry > Magazyn) i wybierz kolumny, które chcesz mieć widoczne przy wprowadzaniu pozycji dokumentu." type="info" %}
+{% include callout.html content="Zerknij w parametry magazynu (Parametry > Parametry magazynu) i wybierz kolumny, które chcesz mieć widoczne przy wprowadzaniu pozycji dokumentu." type="info" %}
 
 Po więcej informacji zapraszam [tutaj](/magazyny).
 

@@ -3,6 +3,11 @@ title: "Zmiana technologii zlecenia"
 permalink: parametry-dla-zlecenia.html
 toc: false
 ---
+UWAGA!!!
+Zmiana technologii z poziomu zlecenia wkrótce przestanie być możliwa.
+
+
+
 W qcadoo zlecenia produkcyjne opierają się ściśle o drzewo technologii. Z kolei drzewo technologii zbudowane jest z operacji, którym przypisaliście Państwo standardowe, ogólne normy czasowe i kosztowe.
 
 Parametry te możemy modyfikować indywidualnie dla danego zlecenia.
