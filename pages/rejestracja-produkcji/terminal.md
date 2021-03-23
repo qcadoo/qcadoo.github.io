@@ -24,6 +24,7 @@ Zanim rozpoczniesz pracę w terminalu musisz kilka rzeczy skonfigurować:
 - _uwzględnij produkcję niezaakceptowaną_ - zaznacz parametr, jeśli chcesz, aby ilość wyprodukowana prezentowana w terminalu, wyliczana była z istniejących meldunków szkicowych i zaakceptowanych. Jeśli parametr nie będzia zaznaczony - pobierzemy dane tylko z meldunków zaakceptowanych
 - _nie pokazuj zadań pobranych przez innego pracownika_ - zaznacz parametr, jeśli nad danym zadaniem pracuje tylko 1 pracownik. Po pobraniu zadania w terminalu inni pracownicy nie będą widzieć go na liście
 - _wybór zadań wg dat zlecenia_ - jeśli parametr będzie zaznaczony, to zadanie operacyjne będzie widoczne w oknie wyboru zadań w terminalu, tak długo, jak trwa zlecenie. Jeśli nie zaznaczysz parametru - daty zadania będą tu wyznacznikiem: jeśli upłynie data zakończenia zadania - nie będzie się go dało zaraportować w terminalu
+- _skanowanie_ - jeśli nie chcesz wybierać zleceń lub zadań z okna wyboru, wskaż, co będziesz skanować, by namierzyć zlecenie - kod operacji (z [karty pracy](/karty-pracy)), czy kod paczki ([z etykiety paczki](/paczki-zlecenia)).
 
 W parametrach terminala zaznacz też jakie przyciski i obszary (opisane niżej) chcesz wykorzystywać.
 
@@ -87,9 +88,9 @@ Czas na opisanie każdego obszaru terminala z osobna.
 Pierwsze co należy zrobić to wczytać pracownika - albo skanując jego kod z identyfikatora, albo wklepując go z klawiatury. Pamiętaj, że wielkość liter ma znaczenie. Jeśli program znajdzie pracownika w systemie - uzupełni jego imię i nazwisko w polu obok.
 Na podstawie [pracownika](/pracownicy) wczyta się jego dział. Jeśli oczywiście dział pracownikowi jest przypisany. Ponadto - jeśli pracownik ma przypisaną stację roboczą - również zostanie do terminala wczytana. Dzięki temu lista widocznych zadań / zleceń zostanie odpowiednio ograniczona.
 
-Podaj pracownika i kliknij Enter -> program od razu przeskoczy do pola Operacja. To jest kolejne pole, które musi być uzupełnione. Operację uzupełnij albo skanując kod z karty pracy, albo wybierając zlecenie z okna _Wybierz zlecenie_ (w zależności od używanego trybu - opisane powyżej), albo wybierając zadanie z okna _Wybierz zadanie_.
+Podaj pracownika i kliknij Enter -> program od razu przeskoczy do pola Operacja (lub Paczka, jeśli tak zdecydowałeś w parametrach). To jest kolejne pole, które musi być uzupełnione. Operację uzupełnij albo skanując kod z karty pracy, albo wybierając zlecenie z okna _Wybierz zlecenie_ (w zależności od używanego trybu - opisane powyżej), albo wybierając zadanie z okna _Wybierz zadanie_.
 
-Na podstawie operacji/zlecenia/zadania uzupełnią się pozostałe dane w terminalu.
+Na podstawie operacji/paczki/zlecenia/zadania uzupełnią się pozostałe dane w terminalu.
 
 #### Postęp produkcji pracownika
 
@@ -114,6 +115,7 @@ Obszar na starcie jest zwinięty. Zawiera wszystkie niezbędne do realizacji zle
 - linia produkcyjna, która zlecenie ma wykonać
 - operacje z technologii (drzewko operacji do rozwinięcia)
 - załączniki zdefiniowane w technologii, z której zlecenie korzysta. Załącznik trzeba pobrać i otworzyć w programie dostępnym lokalnie. Dlatego przy specyficznych formatach, zadbaj o dostępność odpowiednich programów obsługujących ten typ pliku.
+- procesy technologiczne - [lista procesów]() musi być przypisana do technologii, wówczas w terminalu będzie dostępny podgląd szczegółowych czynności do wykonania. Z tego poziomu procesy są jedynie informacją. Jeśli chcesz, aby pracownicy raportowali ich wykonanie, skorzystaj z [terminala potwierdzania procesów](/terminal-potwierdzania-procesow).
 
 ---
 
@@ -276,6 +278,8 @@ Lista atrybutów jest zaprezentowana w kolejności ustawionej w technologii. Je�
 Dla każdego atrybutu wskaż **wartość** - albo klikając w lupkę i wybierając odpowiednią z listy, albo wprowadzając opis. Jest to zależne od tego jakiego typu jest dany atrybut. 
 
 Jeśli w terminalu widoczny jest produkt zlecony, czyli raportowany jest właśnie efekt końcowy zlecenia, uaktywni się pole **Ocena jakości**. Wybierz z listy jak oceniasz jakość wytworzonego produktu.
+
+Jeśli masz potrzebę, możesz załączyć plik obrazujący efekt przeprowadzonej kontroli, w zakładce Załączniki. W tabeli załączników pojawią się także te pliki, które znajdują się w [karcie jakości](/karty-jakosci), z której produkt korzysta.
 
 W momencie potwierdzenia meldunku wartości atrybutów i ocena jakości zostaną przekazane do [rekordu rejestracji](/rejestracja-produkcji).
 

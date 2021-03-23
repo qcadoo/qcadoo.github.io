@@ -73,7 +73,7 @@ Parametry w tej zakładce przydadzą się, gdy używasz do rozpisywania zleceń 
 
 {% include lightbox.html file="administracjaParametryZleceniaGrupyZlecen.png" alt="Parametry zleceń - grupy zleceń" caption="Parametry zleceń - grupy zleceń" %}
 
-1. **Uwzględnij poziom i sufix numeru zlecenia** - standardowo przy grupowaniu wygenerowanych zleceń na komponenty tworzymy grupę ze zleceń o takich samych: asortyment i linia produkcyjna. Jeśli zaznaczysz ten parametr, to zlecenia będą musiały mieć też taki sam poziom (wynikający z drzewa technologii) oraz przyrostek (nadany przy generowaniu zlecenia na komponent)
+1. **Uwzględnij poziom i przyrostek numeru zlecenia** - standardowo przy grupowaniu wygenerowanych zleceń na komponenty tworzymy grupę ze zleceń o takich samych: asortyment i linia produkcyjna. Jeśli zaznaczysz ten parametr, to zlecenia będą musiały mieć też taki sam poziom (wynikający z drzewa technologii) oraz przyrostek (nadany przy generowaniu zlecenia na komponent)
 
 2. **Automatyczne zamykanie zleceń w ramach grup** - zaznacz parametr jeśli mamy Ci pomóc w zamykaniu zleceń. Co zrobimy? W sobotę o północy zbierzemy wszystkie zlecenia w ramach grup, dla których:
 - wyprodukowano co najmniej tyle ile zlecono
@@ -82,3 +82,23 @@ Parametry w tej zakładce przydadzą się, gdy używasz do rozpisywania zleceń 
 i spróbujemy ustawić im status Zakończone. Jeśli w co najmniej 1 zleceniu nie uda się ustawić statusu - żadne ze zleceń danej grupy nie zostanie zmienione. 
 Za jednym razem spróbujemy pozamykać zlecenia z maksymalnie 100 grup. 
 Po zamknięciu zleceń z grup spróbujemy pozamykać też zamówienia sprzedaży - jeśli w ramach zamówienia nie ma już żadnego otwartego zlecenia, to je też zakończymy.
+
+3. **Zmiana dat zleceń na podstawie zmiany dat grupy** - zaznacz parametr, a wszystkie zlecenia powiązane z grupą będą miały aktualizowane daty zawsze po ich zmianie w grupie. W tym podejściu - wszystkie zlecenia grupy będą miały takie same daty jak grupa.
+
+4. **Wymagaj asortymentu** - zaznacz parametr jeśli chcesz, by każda grupa zleceń dotyczyła jednego asortymentu i by ten asortyment zawsze był wypełniony
+
+
+## Wydruk grupy zleceń
+
+Parametry w tej zakładce przydadzą się (tak jak w przypadku poprzedniej zakładki), gdy używasz do rozpisywania zleceń na produkcji [grup zleceń](/grupy-zlecen). A dokładniej - gdy chcesz grupy zleceń drukować.
+
+{% include lightbox.html file="parametryParametryPlanowaniaWydrukGrupyZlecen.png" alt="Parametry zleceń - wydrukgrupy zleceń" caption="Parametry zleceń - grupy zleceń" %}
+
+1. **Pokaż na wydruku kod QR** - zaznacz parametr a na wydruku grupy zleceń pojawi się kod QR z numerem grupy zleceń i numerem produktu finalnego. Kod ten pojawiać się będzie albo zawsze, albo tylko a wydrukach grup z liniami podanymi w tabeli poniżej
+
+2. **Linie produkcyjne** - tabela uaktywnia się, gdy _Pokaż na wydruku kod QR_ jest zaznaczony. W tabeli możesz podać te linie produkcyjne, do których chcesz ograniczyć drukowanie kodu
+
+3. **Wydruk wg rozmiarów** - poniższe parametry dotyczą wydruku wg rozmiaru:
+- **Pokaż opis produktu z technologii** - zaznacz parametr jeśli chcesz aby opis zostawiony w produkcie wejściowym technologii pojawiał się obok typu produktu wejściowego na wydruku
+- **Atrybut wyrobu** - wskaż atrybut produktu, który chcesz, aby pojawił się na wydruku grupy zleceń
+- **Sumowanie** - wydruk grupy zleceń wg rozmiaru pozwala na wyznaczanie sum ilości dla różnych grup rozmiarowych. Co wiecej - rozmiary z różnych grup mogą być oznaczane różnymi kolorami. I to jest to miejsce, w którym możesz podać do jakich grup rozmiarowych chcesz przeprowadzić sumowanie oraz jakie kolory mają one mieć. Ważna uwaga - na wydruku pojawi się tylko pierwszych 6 grup z tej tabeli (wg kolejności ustawionej strzałkami).

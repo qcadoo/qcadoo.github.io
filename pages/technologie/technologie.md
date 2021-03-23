@@ -8,8 +8,9 @@ Dzięki modułowi **Technologie** możemy zarządzać:
 
 - [operacjami](/operacje) - wprowadzać ich definicje, normy czasowe i kosztowe
 - [technologiami](/technologie-szczegoly) - definiować strukturę drzewa określającą jak powstają gotowe produkty
+- [procesami technologicznymi](/procesy-technologiczne) - uszczegóławiać operacje, poprzez wprowadzenie listy czynności do wykonania
 - [normami przezbrojeń](/normy-przezbrojen) - określać jaka zmiana na linii będzie związana z przebrojeniem
 
-Znajdziesz tu też [generator technologii](/generator-technologii), dzięki któremu szybciej utorzysz technologie na pokrewne produkty, a także [produkty do technologii grup produktów](/produkty-do-technologii-grup-produktow), w których zdefiniujesz jakie produkty będą zamieniały te wzorcowe, użyte w [technologiach grup produktow(/technologie-grup-produktow).
+Znajdziesz tu też [generator technologii](/generator-technologii), dzięki któremu szybciej utorzysz technologie na pokrewne produkty, a także [produkty do technologii grup produktów](/produkty-do-technologii-grup-produktow), w których zdefiniujesz jakie produkty będą zamieniały te wzorcowe, użyte w [technologiach grup produktow](/technologie-grup-produktow).
 
 

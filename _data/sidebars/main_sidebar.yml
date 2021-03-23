@@ -514,6 +514,10 @@ entries:
       output: web
       url: /szczegolowe-zapotrzebowanie.html
 
+    - title: Zapotrzebowanie materiałowe planu sprzedaży
+      output: web
+      url: /zapotrzebowanie-materialowe-planu-sprzedazy.html
+
   - title: Kalkulacje
     output: web
     folderitems:
@@ -570,6 +574,10 @@ entries:
         - title: Paczki w zleceniu produkcyjnym
           output: web
           url: /paczki-w-zleceniu.html
+
+        - title: Procesy zlecenia produkcyjnego
+          output: web
+          url: /procesy-zlecenia.html
 
         - title: Produkcja na zmianę
           output: web
@@ -686,9 +694,21 @@ entries:
           output: web
           url: /podstawowe-rejestrowanie-produkcji.html
 
+    - title: Procesy technologiczne zlecenia
+      output: web
+      url: /procesy-technologiczne-zlecenia.html
+
+    - title: Braki do procesów technologicznych zlecenia
+      output: web
+      url: /braki-do-procesow.html
+
     - title: Terminal rejestracji produkcji
       output: web
       url: /terminal.html
+
+    - title: Terminal potwierdzania procesów
+      output: web
+      url: /terminal-potwierdzania-procesow.html
 
   - title: Utrzymanie ruchu
     output: web

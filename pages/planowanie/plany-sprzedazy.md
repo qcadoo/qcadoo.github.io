@@ -45,6 +45,7 @@ W oknie szczegółów produktu widoczna jest:
 - ilość zamówiona - pobierana z powiązanych zamówień sprzedaży
 - nadwyżka z planu - liczona jako różnica między ilością planowaną a zamówioną
 
+---
 
 ## Zbiorcze dodawanie do planu produktu rozmiarowych danej rodziny
 
@@ -62,6 +63,46 @@ Podaj ilości w tych wierszach, w których widnieją rozmiary, które chcesz w p
 
 Kliknij przycisk {% include inline_image.html file="przyciskDodajPozycje.png" alt="Przycisk Dodaj pozycje" %} **Dodaj pozycje** - do produktów planu zostaną dodane produkty z rozmiarem, dla którego ilość > 0.
 
+---
+
+## Zapotrzebowanie materiałowe planu sprzedaży
+
+Aby móc zrealizować przyjęty plan konieczne jest zapewnienie materiałów do produkcji. Z poziomu planu możesz wygenerować zapotrzebowanie materiałowe - bardzo dokładne rozposanie potrzebnych produktów i ilości pod przyjęte wielkości w planie. Co więcej - zapotrzebowanie materiałowe pozwala na szybkie złożenie zamówienia u dostawcy.
+
+Więcej o zapotrzebowaniu materiałowym planu sprzedaży przeczytasz [tutaj](/zapotrzebowanie-materialowe-planu-sprzedazy). A jak wywołać generowanie z poziomu planu? Kliknij przycisk: {% include inline_image.html file="przyciskZapotrzebowanieMaterialowe.png" alt="Przycisk Zapotrzebowanie materiałowe" %} **Zapotrzebowanie materiałowe**. I dalej postępuj z powyższą dokumentacją.
+
+
+## Zlecanie produkcji z poziomu planu sprzedaży
+
+Z poziomu planu sprzedaży możesz zlecić produkcję. Na dwa sposoby - albo tworząc tylko [zlecenia produkcyjne](/zlecenia-produkcyjne), albo tworząc zlecenia i łącząc je w [grupy zleceń](/grupy-zlecen). 
+
+#### Tworzenie grup zleceń do planu sprzedaży
+
+Aby utworzyć grupę zleceń zaznacz w planie produkty, które mają znaleźć się w jednej grupie i kliknij przycisk {% include inline_image.html file="przyciskUtworzGrupeZlecen.png" alt="Przycisk Utwórz grupę zleceń" %} **Utwórz grupę zleceń**
+
+{% include lightbox.html file="planowaniePlanSprzedazyUtworzGrupe.png" alt="Tworzenie grupy zleceń do planu sprzedaży" caption="Tworzenie grupy zleceń do planu sprzedaży" %} 
+
+Jeśli wśród zaznaczonych produktów znajduje się rodzina produktów, to w oknie zaprezentowane będą wszystkie powiązane z nią konkretne produkty. Wskaż jakie produkty chcesz zlecić, poprzez podane ilości zleconej. Podpowiemy ją na podstawie ilości z planu (dla konkretnego produktu w planie) lub ilości zamówionej (dla produktu, dla którego w planie znajduje się jego rodzina). Jeśli nie chcesz produkować danego produktu - ustaw mu ilość 0 lub zostaw puste miejsce. 
+
+{% include callout.html content="Konkretne produkty danej rodziny w oknie tworzenia grupy posortowane będą po rozmiarze (priorytecie nadanym w liście rozmiarów)" type="warning" %}
+
+Aby grupa zleceń została utworzona kliknij przycisk {% include inline_image.html file="przyciskUtworzGrupeIZlecenia.png" alt="Przycisk Utwórz grupę i zlecenia" %} **Utwórz grupę i zlecenia**.
+
+W efekcie zostanie utworzona grupa zleceń:
+
+{% include lightbox.html file="planowaniePlanSprzedazyGrupaGlowna.png" alt="Utworzona grupa zleceń" caption="Utworzona grupa zleceń" %}
+
+z wypełnioną informacją o planie sprzedaży. Jeśli zaznaczone produkty miały ten sam asortyment - zostanie on w grupie wypełniony.
+
+Utworzone będą również zlecenia produkcyjne i podpięte zostaną pod tą grupę:
+
+{% include lightbox.html file="planowaniePlanSprzedazyGrupaZlecenia.png" alt="Utworzone zlecenia produkcyjne" caption="Utworzone zlecenia produkcyjne" %}
+
+W samym planie zostaną zaprezentowane ilości zlecone.
+
+
+
+---
 
 ## Dodatkowe funkcje wykonywane w planie sprzedaży
 

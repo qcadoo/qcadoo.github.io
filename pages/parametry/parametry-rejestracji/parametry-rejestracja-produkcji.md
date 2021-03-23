@@ -71,7 +71,9 @@ Parametry terminala konfigurują [terminal rejestarcji produkcji](/terminal). We
 
 7. **Wymagaj przyczyny braków** - jeśli zaznaczysz parametr to zawsze w terminalu po wpisaniu dla produktu wyjściowego ilości braku > 0 będzie wymagane podanie przyczyny takiego stanu
 
-8. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
+8. **Skanowanie** - wskaż, czy chcesz w terminalu namierzać zlecenie poprzez skanowanie numeru operacji z karty pracy czy numeru paczki z etykiety
+
+9. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
 - przycisk **Wybierz zlecenie**
 - przycisk **Wybierz zadanie**
 - przycisk **Postęp pracownika**
@@ -79,3 +81,15 @@ Parametry terminala konfigurują [terminal rejestarcji produkcji](/terminal). We
 - obszar **Naprawy**
 - obszar **Przestoje**
 - obszar **Kontrola jakości**
+
+
+---
+
+## Terminal potwierdzania procesów
+
+Parametry terminala potwierdzania procesów dotyczą terminala potwierdzania procesów. Przejdź do zakładki i skonfiguruj jego działanie.
+
+
+{% include lightbox.html file="parametryParametryRejestracjiTerminalProcesow.png" alt="Parametry terminala potwierdzania procesów" caption="Parametry terminala potwierdzania procesów" %}
+
+1. **Źródło procesów** - wskaż, czy chcesz namierzać procesy do wykonania poprzez wskazanie paczki zlecenia, czy poprzez wybranie operacji zlecenia. Paczki wybierz wtedy, gdy zlecona produkcja dzielona jest na paczki i dla każdej paczki wygenerowany jest osobny zestaw procesów technologicznych.

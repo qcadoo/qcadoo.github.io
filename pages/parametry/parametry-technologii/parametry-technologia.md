@@ -17,6 +17,11 @@ W zakładce Główna znajdują się ogólne parametry do technologii.
 
 3. **Przenoś rozmiar do utworzonych z generatora produktów** - jeśli zaznaczysz parametr, to wszystkie półprodukty z automatu utworzone przez generator dostaną takie rozmiary, jak wyrób dla którego tworzona jest technologia
 
+4. **Pozwól na sprawdzoną technologię bez produktów wejściowych** - zaznacz parametr jeśli potrzebujesz ustawić status _sprawdzona_ w technologii już wtedy, gdy technologia nie jest ukończona i nie posiada wszystkich zużywanych indeksów produktów. Taka technologia będzie mogła stanowić podstawę do przeprowadzania kalkulacji kosztów
+
+5. **Akceptowana technologia oznaczana jako domyślna** - zaznacz parametr, gdy nowo powstająca technologia ma w momencie akceptacji stać się technologią domyślną produktu. Dzięki zaznaczeniu parametru flaga: domyślna technologia zostanie ustawiona automatycznie bezpośrednio po akceptacji technologii
+
+
 ---
 
 ## Czasochłonność dla technologii

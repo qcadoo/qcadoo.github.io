@@ -14,15 +14,18 @@ Z grup korzystamy gdy chcemy, aby [zlecenia produkcyjne](/zlecenia-produkcyjne) 
 
 Weźmy przykład: nasza firma zajmuje się produkcją oświetlenia, między innymi abażurów ze sznurka w róźnych rozmiarach. Wyrób gotowy musi przejść 2 procesy: montaż i pakowanie. Na [zamówieniu sprzedaży](/zlecenia-nadrzedne) są 3 rozmiary tego samego wyrobu (3 indeksy produktów). W qcadoo będzie istnieć 6 zleceń produkcyjnych - 3 pierwsze powstaną przez utworzenie zleceń do zamówienia sprzedaży, a 3 kolejne przez generowanie zleceń na komponenty.
 
-Grupę zleceń możesz utworzyć na dwa sposoby:
+Grupę zleceń możesz utworzyć na trzy sposoby:
 
 - z poziomu zamówienia sprzedaży,
+- z poziomu planu sprzedaży,
 - z poziomu listy grup zleceń.
 
 Zanim przystąpisz do tworzenia grupy, musisz zadbać o odpowiednią parametryzację w qcadoo:
 
 - upewnij się, że wykorzystywane [technologie](/technologie-szczegoly) mają zdefiniowaną linię produkcyjną,
 - utwórz [asortymenty](/asortymenty) i przypisz je do produktów końcowych.
+
+{% include callout.html content="Jeśli w parametrach grupy uznasz, że asortyment nie jest potrzebny, to nie musisz go w systemie definiować" type="warning" %}
 
 Grupa zleceń może przyjmować następujące statusy:
 
@@ -64,5 +67,19 @@ Grupa zleceń może przyjmować następujące statusy:
 8. Teraz utwórz zlecenia na komponenty, wybierając {% include inline_image.html file="GenerateIcon24.png" alt="Przycisk Generuj" %} **Generuj zlecenia**.
 
 9. Następnie zgrupuj utworzone zlecenia. Aby to zrobić, wywołaj funkcję {% include inline_image.html file="GenerateIcon24.png" alt="Przycisk Generuj" %} **Grupuj zlecenia na komponenty**. Analizuje ona wszystkie wygenerowane zlecenia na komponenty i grupuje je pod kątem takich samych linii produkcyjnych oraz asortymentu.
+
+---
+
+## Jak dodać grupę z poziomu planu sprzedaży
+
+1. Wejdż do **Planowanie > Plany sprzedaży** 
+
+2. wybierz interesujący Cię plan, wejdź w jego szczegóły i przejdź do zakładki **Produkty**
+
+3. zaznacz te produkty, które chcesz umieścić na jednej grupie i kliknij przycisk {% include inline_image.html file="przyciskUtworzGrupeZlecen.png" alt="Przycisk Utwórz grupę zleceń" %} **Utwórz grupę zleceń** 
+
+4. podaj ilości zlecone i potwierdź tworzenie przyciskiem {% include inline_image.html file="przyciskUtworzGrupeIZlecenia.png" alt="Przycisk Utwórz grupę i zlecenia" %} **Utwórz grupę i zlecenia**
+
+Ze szczegółami zapoznasz się w [tej dokumentacji](/plany-sprzedazy.html#tworzenie-grup-zleceń-do-planu-sprzedaży).
 
 
