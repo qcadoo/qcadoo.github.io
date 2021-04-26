@@ -98,6 +98,19 @@ W zakładce tej ustawisz parametry dotyczące [paczek](/paczki-zlecenia) generow
 
 4. **uwzględnij paczki przy generowaniu procesów do zlecenia** - jeśli w ramach każdej paczki mają być wykonywane te same procesy technologiczne, zaznacz parametr, a wygenerujemy tyle zestawów procesów ile paczek w zleceniu.
 
+5. **atrybut na etykiecie** - etykiety do paczek możesz wzbogacić o jeden atrybut produktu. Wskaż jaki, a wydrukujemy go pod rozmiarem produktu.
+
+---
+
+## Procesy technologiczne
+
+Parametry z tej zakładki konfigurują [działanie procesów technologicznych zlecenia](/procesy-technologiczne-zlecenia).
+
+{% include lightbox.html file="administracjaParametryZleceniaProcesyTechnologiczne.png" alt="Parametry zleceń - paczki" caption="Parametry zleceń - paczki" %}
+
+1. **Uwzględnij paczki przy generowaniu procesów do zlecenia** - zaznacz parametr, a dla każdej [paczki zlecenia](//paczki-zlecenia) będzie wygenerowany osobny zestaw procesów technologicznych
+
+2. **Pozwól na edycję ilości lub usunięcie wykonanego procesu** - zaznacz parametr jeśli chcesz, aby wykonany proces (czyli taki z przypisaną osobą i datą realizacji) mógł być usunięty lub edytowany. Usunięcie procesu technologicznego powoduje usunięcie pozostałych procesów związanych z daną paczką lub danym zleceniem.
 
 
 ---

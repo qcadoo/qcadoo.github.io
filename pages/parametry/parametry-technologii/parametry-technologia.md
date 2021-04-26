@@ -67,7 +67,9 @@ W zakładce kalkulacja kosztów ustawisz parametry, które będą podpowiadały 
 
 8. **dodatkowe obciążenie** - określ dodatkową kwotę, którą chcesz doliczać do wyceny produktu
 
-9. **narzut do ceny ewidencyjnej** - zdefiniuj o jaki procent chcesz zwiększyć wyliczoną cenę ewidencyjną
+9. **narzut do kosztów produkcji** - zdefiniuj o jaki procent chcesz zwiększyć sumę kosztów materiału i robocizny, powiększone o powyższe narzuty. Mogą to być np. koszty wydziałowe
+
+10. **narzut do TKW** - podaj o jaki procent chcesz powiększyć techniczny koszt wytworzenia. Mogą to być koszty sprzedaży, zarządu czy administracji.
 
 10. **zysk** - podaj procent zysku, który ma być wykorzystany do wyliczenia planowanej ceny sprzedaży
 

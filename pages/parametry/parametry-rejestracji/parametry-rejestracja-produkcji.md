@@ -46,6 +46,14 @@ Co oznaczają poszczególne parametry:
 
 13. **Zużycie surowców na podstawie norm** - zaznaczenie parametru sprawi, że po podaniu ilości wyprodukowanej przeliczymy ilość zużytą surowców, zgodnie z przyjętymi w technologiami normami ilościowymi. Co więcej - takie ustawienie sprawi, że w terminalu od razu ustawiona będzie zakładka z produktami wyjściowymi, co przyspieszy rejestrację
 
+14. **Przeliczaj sumę czasu pracowników na akceptacji meldunku** - zaznacz parametr, a na etapie akceptacji rekordu rejestracji wyliczmy sumę czasu pracy pracowników z tego meldunku. Dzięki temu nie będziesz musiał wywoływać ręcznie funkcji: Oblicz sumaryczny czas pracowników
+
+15. **Twórz dokumenty do rejestracji produkcji** - zaznaczenie parametru spowoduje, że akceptacja rekordu rejestracji utworzy dokumenty RW i PW. Jeśli nie chcesz aby tak się stało - odznacz parametr. Nie utworzą się dokumenty i nie będą sprawdzane stany dostępnych produktów. Dokumenty magazynowe będziesz musiał wystawić sam ręcznie, albo poprzez funkcję wydania i przyjęcia do grupy zleceń
+
+16. **Cena PW na podst.** - to parametr mówiący o tym w jaki sposób mamy ustalać cenę na dokumenty PW przyjmujące na magazyn wytworzone wyroby. Do wyboru dwie opcje:
+- koszt nominalny produktu - inaczej: cena ewidencyjna. Wyroby przyjmowane są na magazyn w cenie przyjętej jako stała w danym okresie. Ewentualne odchylenia rozksięgowywane są już w systemie księgowym. Koszt nominalny wprowdzany jest w [produkcie](/produkty) w zakładce Koszty. Jeśli zdecydujesz się na ten tryb, to dokumenty PW będą tworzyły się do każdej akceptacji rekordu rejestracji. A zatem wytworzone produkty znajdą się na magazynie od razu po wyprodukowaniu
+- rzeczywisty TKW - wyroby przyjmowane są na magazyn w rzeczywistych kosztach wytworzenia - czyli koszt zużytych materiałów ustalany jest na podstawie cen zasobów rozchodowanych pod zlecenie powiększony o koszt robocizny na podstawie zarejestrowanego czasu. W takiej sytuacji na akceptacji każdego rekordu rejestracji tworzone są tylko dokumenty RW, a dokumenty PW tworzone są dopiero po zakończeniu produkcji do danego zlecenia, w momencie jego zakończenia
+
 Jeśli do rejestracji produkcji będziesz używać terminala - zernij także w zakładkę [Terminal](/parametry-rejestracja-produkcji.html#terminal).
 
 ---
@@ -73,7 +81,9 @@ Parametry terminala konfigurują [terminal rejestarcji produkcji](/terminal). We
 
 8. **Skanowanie** - wskaż, czy chcesz w terminalu namierzać zlecenie poprzez skanowanie numeru operacji z karty pracy czy numeru paczki z etykiety
 
-9. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
+9. **Stacja robocza** - wybierz jedną z metod wprowadzania stacji roboczej w terminalu - albo poprzez wybranie z listy albo poprzez zeskanowanie (lub ręczne wpisanie) numeru stacji
+
+10. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
 - przycisk **Wybierz zlecenie**
 - przycisk **Wybierz zadanie**
 - przycisk **Postęp pracownika**

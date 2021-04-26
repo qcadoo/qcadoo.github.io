@@ -76,7 +76,20 @@ Więcej o zapotrzebowaniu materiałowym planu sprzedaży przeczytasz [tutaj](/za
 
 Z poziomu planu sprzedaży możesz zlecić produkcję. Na dwa sposoby - albo tworząc tylko [zlecenia produkcyjne](/zlecenia-produkcyjne), albo tworząc zlecenia i łącząc je w [grupy zleceń](/grupy-zlecen). 
 
-#### Tworzenie grup zleceń do planu sprzedaży
+### Tworzenie zleceń produkcyjnych do planu sprzedaży
+
+Aby utworzyć zlecenia produkcyjne zaznacz w planie produkty, które chcesz zlecić i kliknij przycisk: {% include inline_image.html file="przyciskUtworzWieleZlecenProdukcyjnych.png" alt="Przycisk Utwórz wiele zleceń produkcyjnych" %} **Utwórz wiele zleceń produkcyjnych**
+
+{% include lightbox.html file="planowaniePlanSprzedazyUtworzZlecenia.png" alt="Tworzenie zleceń produkcyjnych do planu sprzedaży" caption="Tworzenie zleceń produkcyjnych do planu sprzedaży" %} 
+
+Podaj jakie ilości chcesz produkować. Jeśli w planie zaznaczyłeś produkt będący rodziną produktu, to w oknie pojawią się wszystkie konkretne produkty z nim związane. Podpowiemy Ci ilość na podstawie ilości planowanej (gdy w planie znajduje się konkretny produkt) lub na podstawie ilości zamówionej (gdy w planie znajduje się rodzina produktu). Jeśli w wierszu produktu nie podasz ilości lub ilość będzie zerem - pominiemy tą pozycję przy tworzeniu zlecenia. 
+
+Aby zlecenia zostały założone kliknij przycisk {% include inline_image.html file="przyciskUtworzZleceniaKolka.png" alt="Przycisk Utwórz zlecenia" %} **Utwórz zlecenia**
+
+W pozycji planu sprzedaży uzupełniona będzie ilość zlecona - będziesz wiedzieć zatem jaka część planu została przekazana na produkcję.
+
+
+### Tworzenie grup zleceń do planu sprzedaży
 
 Aby utworzyć grupę zleceń zaznacz w planie produkty, które mają znaleźć się w jednej grupie i kliknij przycisk {% include inline_image.html file="przyciskUtworzGrupeZlecen.png" alt="Przycisk Utwórz grupę zleceń" %} **Utwórz grupę zleceń**
 
@@ -106,7 +119,7 @@ W samym planie zostaną zaprezentowane ilości zlecone.
 
 ## Dodatkowe funkcje wykonywane w planie sprzedaży
 
-Ilości planowane możesz zestawić z ilościami zamówionymi. Kliknij przycisk {% include inline_image.html file="przyciskPobierzZamowioneIlosci.png" alt="Przycisk Pobierz zamówione pozycje" %} **Pobierz zamówione pozycje**, a w tabeli produktów planu przeliczone zostaną ilości zamówione i nadwyżki. Ilości zamówione pobierane są z powiązanych zamówień sprzedaży. Ilość zamówiona to zsumowana ilość dla wszystkich odnalezionych w zamówieniach pozycji z danym produktem lub z produktami należącymi do rodziny produktu (jeśli to rodzina znalazła się w planie).
+Ilości planowane możesz zestawić z ilościami zamówionymi. Kliknij przycisk {% include inline_image.html file="przyciskPobierzZamowioneIlosci.png" alt="Przycisk Pobierz zamówione ilości" %} **Pobierz zamówione ilości**, a w tabeli produktów planu przeliczone zostaną ilości zamówione i nadwyżki. Ilości zamówione pobierane są z powiązanych zamówień sprzedaży. Ilość zamówiona to zsumowana ilość dla wszystkich odnalezionych w zamówieniach pozycji z danym produktem lub z produktami należącymi do rodziny produktu (jeśli to rodzina znalazła się w planie).
 
 {% include callout.html content="Aby powiązać zamówienia sprzedaży z planem wystarczy w szczegółach zamówienia wypełnić pole: plan sprzedaży." type="warning" %}
 

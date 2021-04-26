@@ -41,19 +41,18 @@ Do czego służą poszczególne parametry:
 
 8. **Uwzględnij płace pracowników** - jeśli zaznaczysz parametr, to koszty robocizny w rozliczeniu produkcji będą wyliczane w oparciu o [płace pracowników](/place) uczestniczących w procesie
 
-9. **Marża kosztów materiału** - podaj o ile procent ma zostać zwiększony koszt zużycia materiałow (możesz w ten sposób doliczyć np. koszty materiałów pomocniczych, nie związanych bezpośrednio z produkcją)
+9. **Narzut do kosztów materiału** - podaj o ile procent ma zostać zwiększony koszt zużycia materiałow (możesz w ten sposób doliczyć np. koszty materiałów pomocniczych, nie związanych bezpośrednio z produkcją)
 
-10. **Marża kosztów robocizny** - wskaż o jaki procent mają zostać zwiększone koszty robocizny (możesz w ten sposób doliczyć np. koszty okołoprodukcyjne)
+10. **Narzut do kosztów robocizny** - wskaż o jaki procent mają zostać zwiększone koszty robocizny (możesz w ten sposób doliczyć np. koszty okołoprodukcyjne)
 
 11. **Dodatkowe obciążenie** - kwota w złotówkach, możesz ją doliczyć do kosztów wyrobu. Jakaś stała część, którą zawsze ponosisz i dobrze byłoby ją wliczać w cenę proponowaną nabywcy
 
-12. **Narzut do ceny ewidencyjnej** - określ o jaki procent mamy podwyższyć techniczny koszt wytworzenia (możesz tutaj doliczyć np. koszty zarządu, koszty sprzedaży, czy koszty wydziałowe)
+12. **Narzut do kosztów produkcji** - określ o jaki procent mamy podwyższyć jednostkowy koszt produkcji (możesz tutaj doliczyć np. koszty wydziałowe)
 
-13. **Zysk** - podaj jaki procent zysku mamy doliczyć do ceny ewidencyjnej, wyznaczając tym samym cenę sprzedaży
+13. **Narzut do TKW** - określ o jaki procent mamy podwyższyć techniczny koszt wytworzenia (możesz tutaj doliczyć np. koszty zarządu, koszty sprzedaży, czy administracji)
 
-14. **Cena PW na podst.** - to parametr mówiący o tym w jaki sposób mamy ustalać cenę na dokumenty PW przyjmujące na magazyn wytworzone wyroby. Do wyboru dwie opcje:
-- koszt nominalny produktu - inaczej: cena ewidencyjna. Wyroby przyjmowane są na magazyn w cenie przyjętej jako stała w danym okresie. Ewentualne odchylenia rozksięgowywane są już w systemie księgowym. Koszt nominalny wprowdzany jest w [produkcie](/produkty) w zakładce Koszty. Jeśli zdecydujesz się na ten tryb, to dokumenty PW będą tworzyły się do każdej akceptacji rekordu rejestracji. A zatem wytworzone produkty znajdą się na magazynie od razu po wyprodukowaniu
-- rzeczywisty TKW - wyroby przyjmowane są na magazyn w rzeczywistych kosztach wytworzenia - czyli koszt zużytych materiałów ustalany jest na podstawie cen zasobów rozchodowanych pod zlecenie powiększony o koszt robocizny na podstawie zarejestrowanego czasu. W takiej sytuacji na akceptacji każdego rekordu rejestracji tworzone są tylko dokumenty RW, a dokumenty PW tworzone są dopiero po zakończeniu produkcji do danego zlecenia, w momencie jego zakończenia
+14. **Zysk** - podaj jaki procent zysku mamy doliczyć do ceny ewidencyjnej, wyznaczając tym samym cenę sprzedaży
+
 
 --- 
 ## OEE

@@ -183,8 +183,6 @@ Po uzupełnieniu szablonu zapisz plik na swoim komputerze i zaciągnij do qcadoo
 
 {% include callout.html content="Jeśli chcesz zaktualizować dane - np. chcesz masowo produktom określić kategorię, albo zaznaczyć parametr ewidencji partii, przygotuj ponownie plik, z aktualnymi danymi i zaciągając do qcadoo zaznacz w oknie importu parametr: **Czy zaktualizować istniejące dane?**" type="warning" %}
 
----
-
 ## Synchronizacja produktów z systemu zewnętrznego
 
 Jeśli chcesz zintegrować qcadoo z systemem zewnętrznym klasy ERP skontaktuj się z nami - skonfigurujemy konektor i przeprowadzimy pierwszą synchronizację. 
@@ -192,8 +190,6 @@ Jeśli chcesz zintegrować qcadoo z systemem zewnętrznym klasy ERP skontaktuj s
 O integracji więcej poczytasz [tutaj](/integracja-ERP).
 
 {% include callout.html content="Jeśli produkt jest zsynchronizowany z produktem z systemu zewnętrznego, to w qcadoo nie można go edytować ani usuwać. Jednak wybrani użytkownicy mogą otrzymać dostęp do przycisku Usuń ID z syst. zewn. który pozwoli na przeprowadzenie zmian. Przycisk usuwa wiążące ID, więc produkt jest traktowany jak taki, który jest związany tylko z qcadoo. Zmiany trzeba przeprowadzać z głową - tak by nie zaburzyć synchronizacji." type="warning" %}
-
----
 
 # Dodatkowe funkcje wywoływane dla produktu
 
@@ -224,6 +220,19 @@ Produkty istniejące w qcadoo mogą być uzupełnione o kody EAN poprzez import 
 Pobierz szablon, wypełnij go danymi i zaimportuj do qcadoo. Funkcja działa jak standardowy mechanizm importu opisany na stronie: [Import danych z pliku Excel](/import-z-excel).
 
 {% include callout.html content="Ułatwisz sobie zadanie, gdy najpierw wyeksportujesz listę produktów do csv i z niego (po otwarciu w Excel) wyciągniesz numery produktów." type="warning" %}
+
+
+## Produkty wg rozmiaru
+
+qcadoo wspiera obsługę produktów rozmiarowych. Możesz wprowadzić produkt jako rodzinę. Dla niego tworzyć technologię z rozróżnieniem jakie różne surowce muszą być użyte w różnych rozmiarach. Z rodziną możesz powiazać konkretne produkty na konkretne rozmiary. I one będą korzystały z technologii rodziny. Przypisanie takie może być realizowane ręcznie - możesz sam utworzyć produkty i je powiązać z rodziną. Ale możesz też skorzystać z automatu. Jak? Wejdź w rodzinę produktu i kliknij przycisk {% include inline_image.html file="przyciskRozmiaryRodzinyProduktow.png" alt="Przycisk Rozmiary rodziny produktów" %} **Rozmiary rodziny produktów**
+
+{% include lightbox.html file="produktyProduktyDodajRozmiary.png" alt="Dodawanie produktów wg rozmiaru" caption="Dodawanie produktów wg rozmiaru" %}
+
+Zobaczysz wszystkie produkty rozmiarowe należące do tej rodziny. Chcesz dodać kolejny? Kliknij przycisk {% include inline_image.html file="przyciskDodajRozmiary.png" alt="Przycisk Dodaj rozmiary" %} **Rozmiary Dodaj rozmiary** i wybierz te, w których dany produkt występuje. Zatwierdź wybór klikając {% include inline_image.html file="przyciskGenerujProduktyDlaRozmiarow.png" alt="Przycisk Generuj produkty dla rozmiarów" %} **Generuj produkty dla rozmiarów**. W efekcie zostanie utworzonych tyle produktów ile rozmiarów. Każdy z produktów będzie miał:
+- numer zbudowany na podstawie numeru produktu-rodziny z dodanym rozmiarem
+- nazwa i pozostałe dane na podstawie nazwy produktu-rodziny
+
+Jeśli parametr **Kopiuj atrybuty z rodziny na produkty rozmiarowe** = tak, to i atrybuty z produktu-rodziny zostaną do nowych, konkretnych produktów, przeniesione.
 
 
 ## Pozostałe przydatne funkcje w formularzu produktu

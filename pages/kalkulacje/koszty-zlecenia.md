@@ -13,7 +13,7 @@ Wywołać kalkulację kosztów można na dwa sposoby:
 
 Kliknij przycisk {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
 
-{% include lightbox.html file="kalkulacjeKalkulacjeKosztowLista.jpg" alt="Lista kalkulacji kosztów" caption="Lista kalkulacji kosztów"%}
+{% include lightbox.html file="kalkulacjeKalkulacjeKosztowGlowna.png" alt="Formularz dodawania kalkulacji kosztów" caption="Formularz dodawania kalkulacji kosztów"%}
 
 Podaj **ilość** jaką chcesz wycenić (pamiętając, że taka ilość będzie analizowana dla każdego kalkulowanego produktu) i zapisz.
 
@@ -21,7 +21,7 @@ Kolejny krok to wskazanie technologii, które mają być estymowane. Możesz wsk
 
 Zanim wygenerujesz kalkulację zajrzyj do zakładki **Dane dla kosztów**
 
-{% include lightbox.html file="kalkulacjeKalkulacjeKosztowDaneDlaKosztow.jpg" alt="Lista kalkulacji kosztów" caption="Lista kalkulacji kosztów"%}
+{% include lightbox.html file="kalkulacjeKalkulacjeKosztowDaneDlaKosztow.png" alt="Lista kalkulacji kosztów" caption="Lista kalkulacji kosztów"%}
 
 Ustal kryteria, wg jakich mają być produkty wycenione. 
 
@@ -53,13 +53,14 @@ W obszarze tym możesz doliczyć (zazwyczaj) procentowe narzuty, które mają zw
 - **narzut kosztów materiału** - ustalone koszty materiału zostaną zwiększone o zadany procent
 - **narzut kosztów robocizny** - ustalone koszty robocizny zostaną zwiększone o zadany procent
 - **dodatkowe obciążenie** - doliczana kwota do kosztów produkcji
-- **narzut do ceny ewidencyjnej** - wyliczona cena ewidencyjna zostanie zwiększona o zadany procent
+- **narzut do kosztów produkcji** - wyliczone jednostkowe koszty produkcji zostaną zwiększone o zadany procent
+- **narzut do TKW** - wyliczony techniczny koszt wytworzenia będzie powiększony o podany procent
 - **zysk** - wyznaczony TKW zwiększony zostanie o zadany zysk i wyliczona będzie cena sprzedaży
 
 
 Po ustaleniu danych do kosztów zapisz kalkulację i wywołaj generowanie przyciskiem {% include inline_image.html file="przyciskGenerujKalkulacje.jpg" alt="Przycisk Generuj kalkulację" %} **Generuj kalkulację**. Daj nam chwilę - przeprowadzamy właśnie bardzo skomplikowane obliczenia. Efekty zobaczysz w zakładce **Wyniki kalkulacji**:
 
-{% include lightbox.html file="kalkulacjeKalkulacjeKosztowWyniki.jpg" alt="Wyniki kalkulacji kosztów" caption="Wyniki kalkulacji kosztów"%}
+{% include lightbox.html file="kalkulacjeKalkulacjeKosztowWyniki.png" alt="Wyniki kalkulacji kosztów" caption="Wyniki kalkulacji kosztów"%}
 
 Jeśli **brak ceny materiału** = tak, to co najmniej jeden materiał w wycenie nie ma określonej ceny. Zatem ostateczne wyniki mogą być zakłamane.
 

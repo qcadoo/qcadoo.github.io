@@ -88,6 +88,8 @@ Czas na opisanie każdego obszaru terminala z osobna.
 Pierwsze co należy zrobić to wczytać pracownika - albo skanując jego kod z identyfikatora, albo wklepując go z klawiatury. Pamiętaj, że wielkość liter ma znaczenie. Jeśli program znajdzie pracownika w systemie - uzupełni jego imię i nazwisko w polu obok.
 Na podstawie [pracownika](/pracownicy) wczyta się jego dział. Jeśli oczywiście dział pracownikowi jest przypisany. Ponadto - jeśli pracownik ma przypisaną stację roboczą - również zostanie do terminala wczytana. Dzięki temu lista widocznych zadań / zleceń zostanie odpowiednio ograniczona.
 
+{% include callout.html content="Stacja robocza może być wybierana listy bądź wczytywana np. z kodu kreskowego zawierającego numer stacji. Zdecyduj o tym jaka opcja jest dla Ciebie lepsza w parametrach." type="warning" %}
+
 Podaj pracownika i kliknij Enter -> program od razu przeskoczy do pola Operacja (lub Paczka, jeśli tak zdecydowałeś w parametrach). To jest kolejne pole, które musi być uzupełnione. Operację uzupełnij albo skanując kod z karty pracy, albo wybierając zlecenie z okna _Wybierz zlecenie_ (w zależności od używanego trybu - opisane powyżej), albo wybierając zadanie z okna _Wybierz zadanie_.
 
 Na podstawie operacji/paczki/zlecenia/zadania uzupełnią się pozostałe dane w terminalu.
@@ -283,6 +285,26 @@ Jeśli masz potrzebę, możesz załączyć plik obrazujący efekt przeprowadzone
 
 W momencie potwierdzenia meldunku wartości atrybutów i ocena jakości zostaną przekazane do [rekordu rejestracji](/rejestracja-produkcji).
 
+---
+
+### Zgłoszenie awarii
+
+{% include lightbox.html file="rejestracjaTerminalZgloszenieAwarii.png" alt="Zgłoszenie awarii" caption="Terminal - zgłoszenie awarii" class="float-right"  %}
+
+Jeśli podczas pracy okaże się, że stacja robocza, na której miała być wykonywana praca uległa awarii, możesz ją zgłosić do Działu Utrzymania Ruchu. W efekcie zostanie utworzone [zdarzenie](/zdarzenia) o typie: awaria.
+
+Aby zgłosić awarię z terminala wypełnij:
+- **pracownika** - innymi słowy: pracownik musi być do terminala zalogowany
+- **stację roboczą**
+
+i kliknij: {% include inline_image.html file="przyciskZglosAwarieTerminal.png" alt="Przycisk Zgłoś awarię" %} **Zgłoś awarię**. W uruchomionym oknie stacja robocza powinna być zaczytana wraz z linią, działem i zakładem, do której należy. Jeśli nie ma - oznacza to, że w strukturze firmy nie ma stworzonego prawidłowego drzewka powiązań. Uzupełnij je, aby móc w pełni korzystać z modułu DUR. Możesz ponadto podać:
+
+- **podzespół**
+- **typ usterki** - jeśli parametr *Wymagaj typu usterki przy tworzeniu zdarzeń = tak*, wypełnienie będzie wymagane
+- **opis** - jeśli typ usterki to 'inne' to opisz co konkretnie się wydarzyło
+- **najwyższy priorytet** - jeśli awaria powoduje, że nie możesz pracować i to zdarzenie powinno być w pierwszej kolejności realizowane, zaznacz ten parametr, a zdarzenie będzie oznaczone kolorem czerwonym. Nie sposób nie zwrócić na nie uwagi.
+
+Po wypełnieniu danych zapisz przyciskiem {% include inline_image.html file="przyciskPotwierdzTerminalNiebieski.png" alt="Przycisk Potwierdź" %} **Potwierdź**. Zdarzenie zostanie zgłoszone, a Ty możesz wrócić do raportowania produkcji.
 
 
 ---

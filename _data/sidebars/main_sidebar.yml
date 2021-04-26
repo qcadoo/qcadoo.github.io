@@ -128,6 +128,14 @@ entries:
         output: web
         url: /zlecenia-z-wykorzystaniem-dashboardu.html
 
+      - title: Zlecanie produkcji na podstawie planu sprzedaży
+        output: web
+        url: /plany-sprzedazy-zlecenia.html
+
+      - title: Wykorzystanie procesów technologicznych do analizy pracy pracowników
+        output: web
+        url: /procesy-technologiczne-przyklad.html
+
   - title: Dashboard
     output: web
     folderitems:
@@ -275,6 +283,10 @@ entries:
     - title: Grupy rozmiarowe
       output: web
       url: /grupy-rozmiarowe.html
+
+    - title: Karta modelu
+      output: web
+      url: /karta-modelu.html
    
   - title: Struktura firmy
     output: web
@@ -517,6 +529,10 @@ entries:
     - title: Zapotrzebowanie materiałowe planu sprzedaży
       output: web
       url: /zapotrzebowanie-materialowe-planu-sprzedazy.html
+
+    - title: Zapotrzebowanie materiałowe grupy zleceń
+      output: web
+      url: /zapotrzebowanie-materialowe-grupy-zlecen.html
 
   - title: Kalkulacje
     output: web

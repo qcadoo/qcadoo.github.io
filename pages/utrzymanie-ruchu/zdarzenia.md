@@ -31,7 +31,7 @@ Otwarte zdarzenia, to te, nad którymi prace ciągle trwają. Jeśli chcesz zoba
 
 Aby dodać nową awarię kliknij przycisk {% include inline_image.html file="przyciskDodajNowaAwaria.png" alt="Przycisk Dodaj nową awarię" %} **Dodaj nową awarię** i wprowadź dane:
 - **obiekt**, którego awaria dotyczy --> wskaź na jakim zakładzie, dziale, linii, stacji a nawet podzespole pojawił się problem. To od Ciebie zaleźy na jakim poziomie skończysz dane o obiekcie uzupełniać. Zakładamy, że awaria może dotyczyć najmniejszego elementu maszyny, ale też może popsuć się coś na dziale, co niekoniecznie dotyczy maszyny
-- **typ usterki** - wskaż co się stało, dokonując wyboru ze zdefiniowanej przez Ciebie listy [typów usterek](/typy-usterek). Jeśli nie znalazłeś odpowiedniego typu usterki - wskaż typ "Inne" i podaj w opisie co się wydarzyło
+- **typ usterki** - wskaż co się stało, dokonując wyboru ze zdefiniowanej przez Ciebie listy [typów usterek](/typy-usterek). Jeśli nie znalazłeś odpowiedniego typu usterki - wskaż typ "Inne" i podaj w opisie co się wydarzyło. W zależności od ustawionego [parametru](/parametry-glowna.html#zdarzenia), typ usterki będzie wymagany albo na tworzeniu, albo na wystartowaniu zdarzenia.
 - **źródło kosztów** - określ z jakiego źródła będzie naprawa finansowana. [Źródła kosztów](/zrodla-kosztow) to lista definiowana przez Ciebie. Możesz domyślne źródło kosztów przypisać do zakładu - wówczas osoba zgłaszająca nie będzie musiała się zastanawiać co wskazać
 
 Te dane są niezbędne do tego by zgłosić awarię. Resztę danych uzupełni realizujący zdarzenie pracownik Działu Utrzymania Ruchu (opis znajdziesz poniżej).
@@ -47,6 +47,10 @@ Jeśli chcesz dodać zdarzenie o innych typach - postępuj tak samo, ale użyj w
 - {% include inline_image.html file="przyciskDodajNowyWniosek.png" alt="Przycisk Dodaj nowy wniosek" %} **Dodaj nowy wniosek**
 
 {% include callout.html content="Możemy tak zdefiniować uprawnienia użytkownika, by miał dostęp tylko do wybranych przycisków dodawania - dzięki temu mógłby np. zgłaszać awarię i problemy, a wnioski już nie." type="info" %}
+
+Awarie mogą być zgłaszane również z [terminala rejestracji produkcji](/terminal.html#zgłoszenie-awarii). Wówczas osoba zalogowana w terminalu będzie widniała w zdarzeniu jako pracownik zgłaszający.
+
+
 
 ## Realizacja zdarzenia 
 
@@ -96,6 +100,8 @@ Zdajemy sobie sprawę, że nie zawsze awaria będzie rozwiazywana. Albo nie będ
 Powiadomienia dżwiękowe odtwarzane są wówczas, gdy istnieje choć jedno zdarzenie o typie awaria o statusie nowe z zaznaczonym parametrem Powiadomienie dźwiękowe. W praktyce - jeśli pojawi się nowa awaria i nikt się nią jeszcze nie zajął. Słyszy je każdy zalogowany użytkownik, który ma dodane uprawnienia do dżwięków ze zdarzeń. Zatem spokojnie - pani Teresa od przyjmowania zamówień od klientów nie będzie wiedzieć, że frezarka przestała w tym momencie działać.
 
 Co zrobić, aby qcadoo przestało wołać? Najprościej - kliknij Start w zdarzeniu i zacznij naprawiać. Ale możesz też odznaczyć w zdarzeniu parametr Powiadomienie dżwiękowe, albo zaznaczyć zdarzenie w liście i kliknąć przycisk {% include inline_image.html file="przyciskWylaczPowiadomieniaDzwiekowe.png" alt="Przycisk Wyłącz powiadomienia dźwiękowe" %} **Wyłącz powiadomienia dźwiękowe**
+
+Dodatkową opcją powiadamiania o konieczności szybkiego zajęcia się tematem jest pole: **Najwyższy priorytet**. Jeśli będzie zaznaczone - zdarzenie w liście będzie podświetlane na czerwono tak długo aż zdarzenie będzie w statusie Nowe. 
 
 ---
 

@@ -83,3 +83,78 @@ Grupa zleceń może przyjmować następujące statusy:
 Ze szczegółami zapoznasz się w [tej dokumentacji](/plany-sprzedazy.html#tworzenie-grup-zleceń-do-planu-sprzedaży).
 
 
+---
+
+## Zmiana statusów zlecenia z poziomu grupy
+
+Grupa zleceń zmienia status realizacji poprzez zmianę statusu zleceń, które z tą grupą są spięte. Możesz zmienić zaakceptować czy rozpocząć zlecenia z poziomu listy zleceń, filtrując po numerze grupy (wszystkie zlecenia wygenerowane wraz z grupą mają numer nadany na podstawie numeru grupy, z przyrostkiem oznaczający kolejne zlecenie). Ale możesz też zmienić statusy zbiorczo z poziomu grupy zleceń. Masz do dyspozycji 3 możliwości:
+
+1. jednoczesna akceptacja i rozpoczynanie z poziomu listy grup zleceń - zaznacz zlecenia i kliknij przycisk: {% include inline_image.html file="przyciskRozpocznijZleceniaProdukcyjne.png" alt="Przycisk Rozpoczynij zlecenia produkcyjne" %} **Rozpocznij zlecenia produkcyjne**
+
+2. akceptacja zleceń związanych z daną grupą - wejdź w szczegóły grupy i kliknij przycisk: {% include inline_image.html file="przyciskZaakceptujZlecenia.png" alt="Przycisk Zaakceptuj zlecenia" %} **Zaakceptuj zlecenia**
+
+3. rozpoczynanie zleceń związanych z daną grupą - wejdź w szczegóły grupy i kliknij przycisk: {% include inline_image.html file="przyciskRozpocznijZlecenia.png" alt="Przycisk Rozpocznij zlecenia" %} **Rozpocznij zlecenia**
+
+--- 
+
+## Wydawanie materiałów do grupy zleceń
+
+Jeśli chcesz, aby dokumenty RW tworzone były na całą grupę zleceń, a nie do każdego zlecenia z osobna, skorzystaj z opcji wydawania dostępnej w szczególe grupy.
+
+Zacznij od odpowiedniej konfiguracji:
+- wejdź w parametry > parametry rejestracji > zakładka Rejestracja prod. i wyłącz parametr: **Twórz dokumenty do rejestracji produkcji**
+- wejdź w parametry > parametry planowania > zakładka Grupa zleceń i włącz parametr **Pozwól na tworzenie PW i RW do grup zleceń**
+
+Dzięki temu w grupie zleceń zobaczysz:
+- zakładkę Wydane materiały
+- zakładkę Wytworzone wyroby
+- aktywny przycisk {% include inline_image.html file="przyciskWydajMaterialy.png" alt="Przycisk Wydaj materiały" %} **Wydaj materiały** w [zapotrzebowaniu materiałowym grupy zleceń](/zapotrzebowanie-materialowe-grupy-zlecen) 
+
+Aby wydać materiały do grupy zleceń musisz zacząć od wygenerowania zapotrzebowania materiałowego grupy zleceń. Możesz to zrobić na dwa sposoby:
+
+1. wejdź w szczegóły grupy zleceń i kliknij przycisk {% include inline_image.html file="przyciskZapotrzebowanieMaterialowe.png" alt="Przycisk Zapotrzebowanie materiałowe" %} **Zapotrzebowanie materiałowe**
+lub
+2. wejdź w zaopatrzenie > zapotrzebowanie materiałowe grupy zleceń
+
+i postępuj zgodnie z tą dokumentacją: [zapotrzebowanie materiałowe grupy zleceń](/zapotrzebowanie-materialowe-grupy-zlecen).
+
+Po wygenerowaniu zapotrzebowania zaznacz w zakładce **Materiały** te produkty, które chcesz wydać i kliknij przycisk {% include inline_image.html file="przyciskWydajMaterialy.png" alt="Przycisk Wydaj materiały" %} **Wydaj materiały**. Utworzy się szkicowy dokument magazynowy RW. I od razu zostaniesz do niego przeniesiony - tak, byś mógł nanieść zmiany np. w ilości, czy w faktycznie wydawanych produktach. 
+
+{% include callout.html content="Możesz wydać na raz produkty z jednego magazynu. Jeśli magazynów jest wiele - zaznacz najpierw pozycje z pierwszego, wydaj, a później przejdź do materiałów z kolejnego magazynu." type="warning" %}
+
+{% include lightbox.html file="planowanieGrupyZlecenWydajDokumentRW.png" alt="Utworzony dokument RW" caption="Utworzony dokument RW" %}
+
+Dokument RW będzie miał powiązanie z grupą zleceń - jej numer pojawi się w kolumnie w liście dokumentów. Będzie też kształtował wydane materiały widoczne w grupie zleceń.
+
+{% include lightbox.html file="planowanieGrupyZlecenWydaneMaterialy.png" alt="Wydane materiały grupy zleceń" caption="Wydane materiały grupy zleceń" %}
+
+Tabela wydanych materiałów aktualizuje się w dwóch sytuacjach:
+- na utworzeniu dokumentu RW z poziomu zapotrzebowania materiałowego grupy zleceń
+- na akceptacji dokumentu RW powiązanego z tą grupą zleceń
+
+Dokumentów RW do grupy może być wiele. Tu ilości są agregowane z dokładnością do produktu, a widoczna cena jest średnią z pozycji faktycznie rozchodowanych dokumentów. Wchodząc w szczegóły pozycji tabeli (czyli klikając w podlinkowany tekst) zobaczysz jakie pozycje dokumentów składają się na dany wydany materiał.
+
+{% include lightbox.html file="planowanieGrupyZlecenWydaneMaterialySzczegoly.png" alt="Pozycje dokumentów dla wydanego materiału" caption="Pozycje dokumentów dla wydanego materiału" %}
+
+---
+
+## Paczki zlecenia
+
+Zlecenie produkcyjne może być podzielone na mniejsze części - [paczki](/paczki). I każda z tych paczek może być realizowana osobno, przez innego pracownika. Paczki mogą generować się z automatu w momencie rozpoczynania zlecenia. Możesz też wydzielić je ręcznie z listy **planowanie > paczki zlecenia**. Ale możesz też generować je ręcznie w liście paczek wywołanej z poziomu zlecenia lub z poziomu grupy zleceń.
+
+Aby przejść do paczek z poziomu grupy zaznacz w grupie w zakładce **Zlecenia** te, dla których paczki Cię interesują. Kliknij przycisk {% include inline_image.html file="przyciskPaczkiZlecenia.png" alt="Przycisk Paczki zlecenia" %} **Paczki zlecenia**. Jeśli paczki istnieją - to będziesz mógł je w uruchomionym oknie podejrzeć. Jeśli nie - wygeneruj je klikajac przycisk {% include inline_image.html file="przyciskWygenerujPaczki.png" alt="Przycisk Wygeneruj paczki" %} **Wygeneruj paczki**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

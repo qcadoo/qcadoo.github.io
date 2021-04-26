@@ -94,16 +94,18 @@ Innymi słowy - koszty robocizny wyznaczane są na podstawie danych zaprezentowa
 Jednym wierszem w arkuszu jest 1 zlecenie.
 
 To tu zaczynają się większe wyliczenia. Wyznaczymy:
-- techniczne koszty produkcji - jako suma kosztów materiałowych i kosztów robocizny
+- bezpośrednie koszty produkcji - jako suma kosztów materiałowych i kosztów robocizny
 - narzut do kosztów materiałow - wyliczony jako podany w parametrach wskaźnik x koszty materiałów
 - narzut do kosztów robocizny - wyliczony jako podany w parametrach wskaźnik x koszty robocizny. Jako narzut do kosztów robocizny można ująć np. koszty wydziałowe
 - dodatkowe koszty bezpośrednie zlecenia - podane w zleceniu w oknie [Ceny materiałow dla zlecenia](/ceny-materialow-dla-zlecenia)
-- całkowity koszt - jako suma technicznych kosztów produkcji i wartości narzutów, dodatkowych kosztów i obciążeń
-- cenę ewidencyjną - jako całkowity koszt poniesiony na jednostkę 
-- narzut do ceny ewidencyjnej - wyliczony jako wskaźnik podany w parametrach x cena ewidencyjna. Za pomocą tego narzutu można doliczyć do kosztów wytworzenia np. koszty zarządu, administracji czy sprzedaży
-- TKW (techniczny koszt wytworzenia) - wyznaczony jako cena ewidencyjna powiększona o wartość narzutu do ceny ewidencyjnej
-- zysk - wyliczony jako wskaźnik podany w parametrach x TKW
-- cena sprzedaży - wyznaczony poprzez powiększenie TKW o wartość zysku
+- całkowity koszt produkcji - jako suma technicznych kosztów produkcji i wartości narzutów, dodatkowych kosztów i obciążeń
+- jednostkowy koszt produkcji - jako całkowity koszt poniesiony na jednostkę 
+- narzut do kosztów produkcji - wyliczony jako wskaźnik podany w parametrach x jednostkowy koszt produkcji. Za pomocą tego narzutu można doliczyć do kosztów produkcji np. koszty wydziałowe
+- TKW (techniczny koszt wytworzenia) - wyznaczony jako jednostkowy koszt produkcji powiększony o wartość narzutu do ceny ewidencyjnej
+- narzut do TKW - wyliczony jako wskaźnik podany w parametrach x TKW. Za pomocą tego narzutu można doliczyć do kosztów wytworzenia np. koszty zarządu, administracji czy sprzedaży
+- całkowity koszt wytworzenia (CKW) - wyliczony jako TKW powiększony o wartość narzutu do TKW
+- zysk - wyliczony jako wskaźnik podany w parametrach x CKW
+- cena sprzedaży - wyznaczony poprzez powiększenie CKW o wartość zysku
 
 {% include lightbox.html file="rejestracjaRozliczenieProdukcjiRozliczenieDoZlecen.png" alt="Rozliczenie do zleceń" caption="Rozliczenie do zleceń" %}
 

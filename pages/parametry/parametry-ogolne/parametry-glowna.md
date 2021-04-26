@@ -40,6 +40,16 @@ Nie przesadź z długością tekstu - jak widzisz nie ma za dużo miejsca na tek
 
 ---
 
+## Produkty 
+
+W zakładce znajdują się parametry konfigurujące [produkty](/produkty).
+
+{% include lightbox.html file="administracjaParametryProdukty.png" alt="Parametry raportów" caption="Parametry produktów" %}
+
+1. **Kopiuj atrybuty z rodziny na produkty rozmiarowe** - zaznacz parametr a atrybuty, które przypiszesz do produktu rodziny zostaną przeniesione na konkretne produkty utworzone przez funkcję Dodaj rozmiary do produktu
+
+---
+
 ## Powiadomienia
 
 Chcesz aby pracownicy otrzymywali maila o utworzeniu [dostawy do stanów minimalnych](/dostawy#generowanie-dostawy-do-stanów-minimalnych)? Jeśli tak - to musimy wiedzieć na jaki adres wiadomości wysyłać. 
@@ -68,6 +78,8 @@ W Parametry > Parametry ogólne > zakładka Zdarzenia możesz skonfigurować ich
 
 2. **Akceptacja zdarzeń** - jeśli chcesz, aby przed zamknięciem zdarzeń i zdarzeń planowanych, konieczna była ich akceptacja (np. przez pracowników, którzy daną awarię zgłosili), to zaznacz parametr
 
+3. **Wymagaj typu usterki przy tworzeniu zdarzeń** - jeśli zostawisz parametr niezaznaczony w momencie zgłaszania zdarzenia podanie typu usterki nie będzie konieczne. Trzeba będzie daną uzupełnić przy przejściu krok dalej, w momencie wystartowania lub zaplanowania zdarzenia.
+
 ---
 
 ## Jakość
@@ -77,3 +89,19 @@ W zakładce Jakość znajdziesz parametry dotyczące [kontroli jakości](/kontro
 {% include lightbox.html file="parametryParametryOgolneJakosc.png" alt="Parametry zdarzeń" caption="Parametry zdarzeń" %}
 
 1. **Końcowa kontrola jakości bez zasobów** - zaznacz parametr jeśli chcesz przeprowadzać końcową kontrolę jakości bez wskazywania i blokowania zasobów magazynowych. Jeśli parametr nie będzie zaznaczony, kontrola jakości będzie przeprowadzana w trybie blokowania zasobów.
+
+---
+
+## Karta modelu
+
+W zakładce Karta modelu umieszczone są parametry generowania [karty modelu](/karta-modelu).
+
+{% include lightbox.html file="parametryParametryOgolneKartaModelu.png" alt="Parametry zdarzeń" caption="Parametry karty modelu" %}
+
+1. **Wykorzystane koszty materiału** - ustaw wg jakiej ceny zapisanej w produkcie chcesz wyliczyć koszt materiałów dla danego wyrobu
+
+2. **Użyj kosztu nominalnego, gdy cena nie jest określona** - jeśli zaznaczysz parametr to w momencie, gdy cena podana w polu wyżej będzie zerem lub nieokreślona, pobierzemy do wyliczeń koszt nominalny produktu. Koszt nominalny nie jest aktualizowany danymi z dokumentów czy ofert, więc możesz w nim zostawić spodziewaną cenę produktu, np. ustaloną z dostawcą.
+
+3. **Atrybut wyrobu** - atrybut i jego wartość pojawi się na wydruku karty modelu w obszarze wyrobu
+
+4. **Atrybut materiału** - atrybut i jego wartość pojawi się na wydruku karty modelu w tabeli materiałów

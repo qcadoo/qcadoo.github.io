@@ -35,6 +35,12 @@ albo skorzystać z [terminala potwierdzania procesów](terminal-potwierdzania-pr
 
 Rozliczenie wykonanych procesów łącznie z wyliczeniem pełnego kosztu wykonania (w oparciu o [stawki za procesy](/stawki-za-procesy)) przeprowadzisz w **analizy > wykonanie procesów technologicznych zlecenia**.
 
+{% include callout.html content="Usunięcie procesu technologicznego powoduje usunięcie wszystkich procesów związanych z danym zleceniem lub paczką zlecenia. Jeśli wśród nich znajduje się choć jeden proces już wykonany, to usunięcie będzie możliwe tylko wtedy, gdy parametr Pozwól na edycję ilości lub usunięcie wykonanego procesu będzie zaznaczony." type="warning" %}
+
+{% include callout.html content="Aby móc edytować proces technologiczny już wykonany zaznacz parametr Pozwól na edycję ilości lub usunięcie wykonanego procesu będzie zaznaczony." type="warning" %}
+
+---
+
 ## Podział procesu technologicznego zlecenia
 
 Domyślnie dany proces technologiczny realizowany jest przez jedną osobę. Ale nie musi tak być - możesz poprosić kilku pracowników o jego jednoczesne wykonywanie. Podziel proces, wskazując na ile części i jaka ilość w każdej części ma być przetwarzana. Jak tego dokonać? Wejdź w **rejestracja > procesy technologiczne zlecenia**, zaznacz proces i kliknij przycisk: {% include inline_image.html file="przyciskPodzielProces.png" alt="Przycisk Podziel proces" %} **Podziel proces**:
