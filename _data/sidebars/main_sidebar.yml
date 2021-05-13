@@ -968,3 +968,7 @@ entries:
               - title: Tworzenie i aktualizacja produktów
                 output: web
                 url: /tworzenie-i-aktualizacja-produktow.html
+
+              - title: Tworzenie i aktualizacja jednostek
+                output: web
+                url: /tworzenie-i-aktualizacja-jednostek.html
