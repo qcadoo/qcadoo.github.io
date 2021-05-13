@@ -1,0 +1,62 @@
+---
+title: "Tworzenie i aktualizacja firm"
+permalink: tworzenie-i-aktualizacja-firm.html
+toc: false 
+---
+
+## Informacje
+
+Za pomocą tej metody api dodasz firmy do systemu. Zaktualizujsz też istniejące o podanym externalID. 
+
+  **Moduł integracyjny:** urcBasic
+
+  **Nazwa akcji:** updateCompaniesBasic
+
+  **URL:** /integration/rest/updateCompaniesBasic.html
+
+  **Metoda http:** POST
+
+## Zawartość żądania
+~~~~~~~~
+{
+    "companies" : [
+        {
+            "externalID" : "externalID",
+            "number" : "number",
+            "name" : "name",
+            "tax" : "tax", //opcjonalne
+            "street" : "street", //opcjonalne
+            "house" : "house", //opcjonalne
+            "flat" : "flat", //opcjonalne
+            "zipCode" : "zipCode", //opcjonalne
+            "city" : "city", //opcjonalne
+            "state" : "state", //opcjonalne
+            "country" : "country", //opcjonalne
+            "email" : "email", //opcjonalne
+            "website" : "website", //opcjonalne
+            "phone" : "phone", //opcjonalne
+            "isSupplier" : true or false, // opcjonalne
+            "isReceiver" : true or false // opcjonalne
+        }
+    ]
+}
+~~~~~~~~
+
+
+## Zawartość odpowiedzi
+~~~~~~~~
+{
+    "status": "OK",
+    "message": null // Gdy status ERROR - informacja z przyczyną błędu
+}
+~~~~~~~~
+
+## Działanie
+W tej akcji MES powinien otrzymać wybrane firmy z ERP, które zostały zaktualizowane lub utworzone od ostatniej synchronizacji.
+
+Dla każdej firmy ta metoda powinna:
+- jeżeli jest to firma o podanym externalID w qcadoo to go aktualizuje
+    - może zaktualizować nawet numer,
+    - qcadoo sprawdza czy zmiana przechodzi standardową walidację systemową. Jeżeli nie - akcja zwróci błąd i wszystkie aktualizacje z tej akcji nie zostaną wykonane (cofnięcie transakcji)
+- jak nie ma danego externalID to dodaje nową firmę
+    - tu również powinna działać walidacja

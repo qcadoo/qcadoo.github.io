@@ -972,3 +972,11 @@ entries:
               - title: Tworzenie i aktualizacja jednostek
                 output: web
                 url: /tworzenie-i-aktualizacja-jednostek.html
+
+              - title: Tworzenie przeliczeń jednostek
+                output: web
+                url: /tworzenie-przeliczen-jednostek.html
+
+              - title: Tworzenie i aktualizacja firm
+                output: web
+                url: /tworzenie-i-aktualizacja-firm.html
