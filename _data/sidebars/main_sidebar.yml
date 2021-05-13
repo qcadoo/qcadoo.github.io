@@ -980,3 +980,7 @@ entries:
               - title: Tworzenie i aktualizacja firm
                 output: web
                 url: /tworzenie-i-aktualizacja-firm.html
+
+              - title: Tworzenie adresów
+                output: web
+                url: /tworzenie-adresow.html

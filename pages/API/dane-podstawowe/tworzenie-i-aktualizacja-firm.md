@@ -6,7 +6,7 @@ toc: false
 
 ## Informacje
 
-Za pomocą tej metody api dodasz firmy do systemu. Zaktualizujsz też istniejące o podanym externalID. 
+Za pomocą tej metody api dodasz [firmy](/firmy) do systemu. Zaktualizujsz też istniejące o podanym externalID. 
 
   **Moduł integracyjny:** urcBasic
 

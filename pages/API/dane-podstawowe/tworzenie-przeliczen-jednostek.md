@@ -6,7 +6,7 @@ toc: false
 
 ## Informacje
 
-Za pomocą tej metody api utworzysz przeliczenia jednostek w systemie.
+Za pomocą tej metody api utworzysz [przeliczenia jednostek](/przeliczniki) w systemie.
 
   **Moduł integracyjny:** urcBasic
 
