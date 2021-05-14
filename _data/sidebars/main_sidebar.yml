@@ -984,3 +984,15 @@ entries:
               - title: Tworzenie adresów
                 output: web
                 url: /tworzenie-adresow.html
+
+          - title: Normy kosztowe dla produktów
+            output: web
+            subfolderitems:
+
+              - title: Pobieranie norm kosztowych produktu
+                output: web
+                url: /pobieranie-norm-kosztowych-produktu.html
+
+              - title: Aktualizacja norm kosztowych produktu
+                output: web
+                url: /aktualizacja-norm-kosztowych-produktu.html
