@@ -6,7 +6,7 @@ toc: false
 
 ## Informacje
 
-Za pomocą tej metody api utworzysz adresy w systemie.
+Za pomocą tej metody api utworzysz normy kosztowe w systemie.
 
   **Moduł integracyjny:** urcCostNormsForProduct
 
