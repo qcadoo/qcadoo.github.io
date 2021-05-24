@@ -31,7 +31,6 @@ Za pomocą tej metody api utworzysz normy kosztowe produktu w systemie.
 }
 ~~~~~~~~
 
-
 ## Zawartość odpowiedzi
 ~~~~~~~~
 {
