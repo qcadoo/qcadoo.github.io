@@ -6,7 +6,7 @@ toc: false
 
 ## Informacje
 
-Za pomocą tej metody api dodasz jednostki do systemu. Zaktualizujsz też istniejące o podanym externalID. 
+Za pomocą tej metody api dodasz jednostki do systemu. Zaktualizujesz też istniejące o podanym externalID. 
 
   **Moduł integracyjny:** urcBasic
 

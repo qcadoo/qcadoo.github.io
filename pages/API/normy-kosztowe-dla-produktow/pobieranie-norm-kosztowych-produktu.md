@@ -42,4 +42,4 @@ Za pomocą tej metody api pobierzesz normy kosztowe produktu.
 ~~~~~~~~
 
 ## Działanie
-Pobiera informacje o normach kosztowych danego produktu.
+Pobiera informacje o normach kosztowych danego produktu. API to wykorzystywane jest podczas realizacji funkcji: [Uzupełnij koszty produktu](/produkty.html#uzupełnij-koszty-produktu).

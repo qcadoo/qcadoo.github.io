@@ -6,7 +6,7 @@ toc: false
 
 ## Informacje
 
-Za pomocą tej metody api utworzysz adresy w systemie.
+Za pomocą tej metody api utworzysz adresy kontrahentów w systemie.
 
   **Moduł integracyjny:** urcBasic
 

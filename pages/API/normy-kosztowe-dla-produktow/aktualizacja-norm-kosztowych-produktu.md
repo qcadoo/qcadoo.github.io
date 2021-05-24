@@ -6,7 +6,7 @@ toc: false
 
 ## Informacje
 
-Za pomocą tej metody api utworzysz normy kosztowe w systemie.
+Za pomocą tej metody api utworzysz normy kosztowe produktu w systemie.
 
   **Moduł integracyjny:** urcCostNormsForProduct
 
@@ -41,11 +41,11 @@ Za pomocą tej metody api utworzysz normy kosztowe w systemie.
 ~~~~~~~~
 
 ## Działanie
-W tej akcji MES powinien otrzymać wszystkie normy kosztowe produktów z ERP, które zostały zaktualizowane od ostatniej synchronizacji oraz istnieją w qcadoo MES.
+W tej akcji MES powinien otrzymać wszystkie normy kosztowe produktów z ERP, które istnieją w qcadoo i zostały zaktualizowane od ostatniej synchronizacji. 
 
 Jeżeli costForNumber nie jest podane wtedy ustawiamy na 1.
 
 Jeżeli nominalCost nie jest podane lub null wtedy w qcadoo:
 
 - wartość tego pola pozostaje niezmieniona jeżeli w qcadoo jest taki sam costForNumber jak w akcji API
-- w. p. w. gdy chcemy ustawić costForNumber na inną wartość niż była poprzednio wtedy poprzednia wartość nominalCost zostanie odpowiednio przekalkulowana.
+- w przeciwnym wypadku gdy chcemy ustawić costForNumber na inną wartość niż była poprzednio wtedy poprzednia wartość nominalCost zostanie odpowiednio przekalkulowana.
