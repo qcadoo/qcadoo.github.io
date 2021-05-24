@@ -5,7 +5,7 @@ permalink: analiza-wykonanej-produkcji.html
 
 Analiza wykonanej produkcji dostarczy Ci informacji o tym kto, kiedy i ile jakiego produktu wytworzono. Analizowany jest każdy produkt wyjściowy zlecenia - nie tylko wyroby gotowe, ale też komponenty.
 
-Aby przeprowadzić analizę wejdź w **Analizy > Analiza wydajności**:
+Aby przeprowadzić analizę wejdź w **Analizy > Analiza wykonanej produkcji**:
 
 {% include lightbox.html file="analizyAnalizaWykonanejProdukcji.png" alt="Analiza wykonanej produkcji" caption="Analiza wykonanej produkcji" %}
 

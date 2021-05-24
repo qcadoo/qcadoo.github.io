@@ -32,7 +32,7 @@ Ponadto aktywuje się przycisk {% include inline_image.html file="przyciskPDF.pn
 
 {% include lightbox.html file="zaopatrzenieZapotrzebowanieMaterialoweGrupyZlecenPDF.png" alt="Zapotrzebowanie materiałowe grupy zleceń w PDF" caption="Zapotrzebowanie materiałowe grupy zleceń w PDF" %}
 
-
+{% include callout.html content="Jeśli do grupy zleceń było zaewidencjonowane wydanie to ilość wydana będzie widoczna w kolumnie. Kolumna ta jest domyślnie ukryta - jeśli używasz ręcznych wydań do grupy, a nie na akceptacji rekordu rejestracji, to włącz widoczność tej kolumny." type="warning" %}
 
 ---
 
@@ -41,3 +41,9 @@ Ponadto aktywuje się przycisk {% include inline_image.html file="przyciskPDF.pn
 Aby wygenerować zapotrzebowanie materiałowe z poziomu grupy wejdź w **Planowanie > Grupy zleceń > szczegóły grupy** i kliknij przycisk {% include inline_image.html file="przyciskZapotrzebowanieMaterialowe.png" alt="Przycisk Zapotrzebowanie materiałowe" %} **Zapotrzebowanie materiałowe**. Dane w zakładce Główna są już wypełnione. Zostaje tylko wygenerowanie przyciskiem {% include inline_image.html file="przyciskGenerujKola.png" alt="Generuj" %} **Generuj**. Wyniki, podobnie jak w zapotrzebowaniu dodawanym z menu, możesz obejrzeć w zakładce **Materiały** i w raporcie **PDF**. 
 
 przycisk  {% include inline_image.html file="przyciskZapotrzebowanieMaterialowe.png" alt="Przycisk Zapotrzebowanie materiałowe" %} **Zapotrzebowanie materiałowe**
+
+---
+
+## Wydanie materiałów do grupy zleceń
+
+Z poziomu zapotrzebowania materiałowego grupy zleceń możliwe jest wydanie materiałów. Opis funkcjonalności znajduje się w [tym rozdziale](/grupy-zlecen.html#wydawanie-materiałów-do-grupy-zleceń).

@@ -73,6 +73,10 @@ Wejdź w zlecenie produkcyjne, podaj datę rozpoczęcia i wybierz {% include inl
 
 Czym różnią się zadania operacyjne pochodzące z planu od zadań z czasochłonności zlecenia? Plan na stację i pracownika wyodrębnia zadania do wykonania i przypisuje je do stacji roboczych i pracowników. Ponadto - ustawiając daty realizacji uwzględnia istniejące zadania, dzięki temu unika realizacji wielu zadań w jednym czasie. Natomiast plan operacyjny z kalkulacji czasochłonności ogranicza się do wyodrębnienia operacji i nadania im dat rozpoczęcia i zakończenia, jednak bez próby ustalenia, czy coś w tym samym czasie jest zaplanowane do realizacji. 
 
+## Dodawanie zadań operacyjnych poprzez wygenerowanie do zlecenia produkcyjnego
+
+Jeśli chcesz raportować realizację operacji, ale nie zależy Ci na dokładnym planowaniu czasowym zadań, możesz przyjąć, że zadania operacyjne będą wykonywane w czasie realizacji zlecenia produkcyjnego. W takim podejściu najłatwiej będzie wygenerować zadania ze zlecenia produkcyjnego. Wejdź do zlecenia produkcyjnego i zaakceptuj je. Kliknij przycisk {% include inline_image.html file="przyciskUtworzZadaniaOperacyjne.png" alt="Utwórz zadania operacyjne" %} **Utwórz zadania operacyjne**. W efekcie do każdej operacji technologii zostaje założone zadanie. Daty rozpoczęcia i zakończenia zadania ustalone są na podstawie dat zlecenia. Zadanie nie ma uzupełnionej stacji roboczej - jeśli masz potrzebę, możesz je uzupełnić.
+
 ## Statusy zadań operacyjnych
 
 Zadania operacyjne mogą przyjmować 4 statusy:

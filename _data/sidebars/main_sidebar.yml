@@ -854,6 +854,10 @@ entries:
       output: web
       url: /oee.html
 
+    - title: Wykonanie procesów technologicznych
+      output: web
+      url: /wykonanie-procesow-technologicznych.html
+
   - title: Parametry
     output: web
     folderitems:

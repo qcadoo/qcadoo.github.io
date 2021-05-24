@@ -118,7 +118,15 @@ lub
 
 i postępuj zgodnie z tą dokumentacją: [zapotrzebowanie materiałowe grupy zleceń](/zapotrzebowanie-materialowe-grupy-zlecen).
 
-Po wygenerowaniu zapotrzebowania zaznacz w zakładce **Materiały** te produkty, które chcesz wydać i kliknij przycisk {% include inline_image.html file="przyciskWydajMaterialy.png" alt="Przycisk Wydaj materiały" %} **Wydaj materiały**. Utworzy się szkicowy dokument magazynowy RW. I od razu zostaniesz do niego przeniesiony - tak, byś mógł nanieść zmiany np. w ilości, czy w faktycznie wydawanych produktach. 
+Po wygenerowaniu zapotrzebowania zaznacz w zakładce **Materiały** te produkty, które chcesz wydać i kliknij przycisk {% include inline_image.html file="przyciskWydajMaterialy.png" alt="Przycisk Wydaj materiały" %} **Wydaj materiały**:
+
+{% include lightbox.html file="zaopatrzenieZapotrzebowanieMatGrupyWydanieMaterialy.png" alt="Wydawanie materiałów do grupy zleceń" caption="Wydawanie materiałów do grupy zleceń" %}
+
+Zweryfikuj ilości wydawane i ponownie kliknij przycisk {% include inline_image.html file="przyciskWydajMaterialy.png" alt="Przycisk Wydaj materiały" %} **Wydaj materiały**. 
+
+{% include callout.html content="Zakładamy, że dążysz do tego, by wydać ilość wynikającą z zapotrzebowania. Możesz wydać ją w kilku transach, samodzielnie podając jaką część chcesz aktualnie przekazać na produkcję. Możesz też rozchodować więcej niż wynikało z normy. Nadpisz podpowiedziane zero właściwą ilością do wydania." type="warning" %}
+
+W efekcie utworzy się szkicowy dokument magazynowy RW. Przeniesiemy Cię do niego abyś mógł dobrać zasoby (i ustalić dzięki temu np. z jakiego miejsca składowania powinieneś pobrać lub jakie partie powinny zostać wydane) czy od razu zaakceptować. 
 
 {% include callout.html content="Możesz wydać na raz produkty z jednego magazynu. Jeśli magazynów jest wiele - zaznacz najpierw pozycje z pierwszego, wydaj, a później przejdź do materiałów z kolejnego magazynu." type="warning" %}
 
@@ -128,13 +136,34 @@ Dokument RW będzie miał powiązanie z grupą zleceń - jej numer pojawi się w
 
 {% include lightbox.html file="planowanieGrupyZlecenWydaneMaterialy.png" alt="Wydane materiały grupy zleceń" caption="Wydane materiały grupy zleceń" %}
 
-Tabela wydanych materiałów aktualizuje się w dwóch sytuacjach:
-- na utworzeniu dokumentu RW z poziomu zapotrzebowania materiałowego grupy zleceń
-- na akceptacji dokumentu RW powiązanego z tą grupą zleceń
+Tabela wydanych materiałów aktualizuje się w trzech sytuacjach:
+- na utworzeniu dokumentu RW z poziomu zapotrzebowania materiałowego grupy zleceń,
+- na akceptacji dokumentu RW powiązanego z tą grupą zleceń,
+- poprzez wywołanie funkcji aktualizacji danych o wydaniu.
 
 Dokumentów RW do grupy może być wiele. Tu ilości są agregowane z dokładnością do produktu, a widoczna cena jest średnią z pozycji faktycznie rozchodowanych dokumentów. Wchodząc w szczegóły pozycji tabeli (czyli klikając w podlinkowany tekst) zobaczysz jakie pozycje dokumentów składają się na dany wydany materiał.
 
 {% include lightbox.html file="planowanieGrupyZlecenWydaneMaterialySzczegoly.png" alt="Pozycje dokumentów dla wydanego materiału" caption="Pozycje dokumentów dla wydanego materiału" %}
+
+---
+## Przyjmowanie wyrobów do grupy zleceń
+
+Jeśli nie chcesz, aby dokumenty PW dotyczyły każdego wykonywanego zlecenia, tylko chcesz wyroby przyjować na magazyn zbiorczo do grupy zleceń ustaw:
+- [parametr rejestracji](/parametry-rejestracja-produkcji.html#rejestracja-produkcji) *Twórz dokumenty do rejestracji produkcji* = nie
+- [parametr grupy zleceń](/parametry-planowania.html#grupy-zleceń) *Pozwól na tworzenie PW i RW do grup zleceń* = tak
+
+Dzięki temu będziesz mógł wywołać funkcję {% include inline_image.html file="przyciskPrzyjmijWybory.png" alt="Przycisk Przyjmij wybory" %} **Przyjmij wyroby** na podstawie zgromadzonych informacji w [rekordach rejestracji](/rejestracja-produkcji) o wytworzonych produktach. 
+
+Proces jest następujący:
+- pracownicy np. za pomocą terminala raportują wytworzenie wyrobu,
+- akceptacja rekordu rejestracji powoduje zapisanie w grupie zleceń w zakładce *Wytworzone wyroby* informacji o tym co i w jakiej ilości jest już gotowe:
+
+{% include lightbox.html file="planowanieGrupyZlecenWytworzoneWybory.png" alt="Wytworzone wyroby w grupie zleceń" caption="Wytworzone wyroby w grupie zleceń" %}
+
+- w grupie zleceń widoczne są wszystkie wytworzone wyroby. Te pozycje, które mają Przyjęte = nie, to te, które jeszcze nie zostały przyjęte na magazyn
+- przyjęcie odbywa się poprzez kliknięcie w grupie przycisku {% include inline_image.html file="przyciskPrzyjmijWybory.png" alt="Przycisk Przyjmij wybory" %} **Przyjmij wyroby**
+- w efekcie powstaje dokument magazynowy PW powiązany z daną grupą zleceń. Numer dokumentu widoczny jest w zakładce *Wytworzone wyroby*. 
+
 
 ---
 
@@ -143,18 +172,3 @@ Dokumentów RW do grupy może być wiele. Tu ilości są agregowane z dokładno�
 Zlecenie produkcyjne może być podzielone na mniejsze części - [paczki](/paczki). I każda z tych paczek może być realizowana osobno, przez innego pracownika. Paczki mogą generować się z automatu w momencie rozpoczynania zlecenia. Możesz też wydzielić je ręcznie z listy **planowanie > paczki zlecenia**. Ale możesz też generować je ręcznie w liście paczek wywołanej z poziomu zlecenia lub z poziomu grupy zleceń.
 
 Aby przejść do paczek z poziomu grupy zaznacz w grupie w zakładce **Zlecenia** te, dla których paczki Cię interesują. Kliknij przycisk {% include inline_image.html file="przyciskPaczkiZlecenia.png" alt="Przycisk Paczki zlecenia" %} **Paczki zlecenia**. Jeśli paczki istnieją - to będziesz mógł je w uruchomionym oknie podejrzeć. Jeśli nie - wygeneruj je klikajac przycisk {% include inline_image.html file="przyciskWygenerujPaczki.png" alt="Przycisk Wygeneruj paczki" %} **Wygeneruj paczki**.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

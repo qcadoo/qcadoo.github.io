@@ -60,7 +60,7 @@ Jeśli do rejestracji produkcji będziesz używać terminala - zernij także w z
 
 ## Terminal
 
-Parametry terminala konfigurują [terminal rejestarcji produkcji](/terminal). Wejdż w zakładkę **terminal** i ustaw, jak ma działać i wyglądać.
+Parametry terminala konfigurują [terminal rejestracji produkcji](/terminal). Wejdż w zakładkę **terminal** i ustaw, jak ma działać i wyglądać.
 
 
 {% include lightbox.html file="administracjaParametryTerminal.png" alt="Parametry terminala" caption="Parametry terminala" %}
@@ -102,4 +102,6 @@ Parametry terminala potwierdzania procesów dotyczą terminala potwierdzania pro
 
 {% include lightbox.html file="parametryParametryRejestracjiTerminalProcesow.png" alt="Parametry terminala potwierdzania procesów" caption="Parametry terminala potwierdzania procesów" %}
 
-1. **Źródło procesów** - wskaż, czy chcesz namierzać procesy do wykonania poprzez wskazanie paczki zlecenia, czy poprzez wybranie operacji zlecenia. Paczki wybierz wtedy, gdy zlecona produkcja dzielona jest na paczki i dla każdej paczki wygenerowany jest osobny zestaw procesów technologicznych.
+1. **Źródło procesów** - wskaż, czy chcesz namierzać procesy do wykonania poprzez wskazanie paczki zlecenia, czy poprzez wybranie operacji zlecenia. Paczki wybierz wtedy, gdy zlecona produkcja dzielona jest na paczki i dla każdej z nich wygenerowany jest osobny zestaw procesów technologicznych.
+
+2. **Miejsce wykonania** - w terminalu możemy zaprezentować stacje robocze lub typ stacji roboczej przypisanej do procesu technologicznego. Wskaż co chciałbyś zaprezentować pracownikom

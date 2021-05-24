@@ -20,6 +20,8 @@ Aby dodać nową stację roboczą wybierz: **Struktura firmy >> Stacje robocze >
 
 Koniecznie podaj **numer**, **nazwę** oraz **[typ stacji roboczej](/typy-stacji-roboczych)**. Ponadto możesz dla stacji roboczej zapisać takie dane jak:
 - opis,
+- data przyjęcia,
+- data wycofania,
 - numer fabryczny,
 - numer UDT,
 - seria,
@@ -54,9 +56,11 @@ Arkusz .xlsx do importu stacji roboczych zawiera następujące kolumny:
 - **seria** (kolumna G) - dana opcjonalna, do wpisania dowolny tekst
 - **producent** (kolumna H) - dana opcjonalna, do wpisania dowolny tekst
 - **data produkcji** (kolumna I) - dana opcjonalna, do wpisania data
-- **nr inwentarzowy** (kolumna J) - dana opcjonalna, do wpisania dowolny tekst
-- **dział** (kolumna K) - dana opcjonalna, do wpisania numer działu zdefiniowanego w qcadoo
-- **linia** (kolumna L) - dana opcjonalna, do wpisania numer linii zdefiniowanej w qcadoo. Linia tu podana musi należeć do działu podanego w kolumnie wcześniej
+- **data przyjęcia** (kolumna J) - dana opcjonalna, do wpisania data
+- **data wycofania** (kolumna K) - dana opcjonalna, do wpisania data
+- **nr inwentarzowy** (kolumna L) - dana opcjonalna, do wpisania dowolny tekst
+- **dział** (kolumna M) - dana opcjonalna, do wpisania numer działu zdefiniowanego w qcadoo
+- **linia** (kolumna N) - dana opcjonalna, do wpisania numer linii zdefiniowanej w qcadoo. Linia tu podana musi należeć do działu podanego w kolumnie wcześniej
 
     
 

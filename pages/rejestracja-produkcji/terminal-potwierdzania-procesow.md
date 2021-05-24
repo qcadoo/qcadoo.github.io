@@ -21,7 +21,7 @@ Zacznij od zalogowania się - z terminala może korzystać każdy wprowadzony do
 
 Kolejny krok to wskazanie realizowanej paczki lub realizowanej operacji zlecenia. To, które z nich będzie widoczne w terminalu, definiujesz w [parametrach](/parametry-rejestracja-produkcji.html#terminal-potwierdzania-procesów). Możesz:
 - albo zeskanować numer **paczki z etykiety** lub **operacji z karty pracy**
-- albo wybrać odpowiednią paczkę czy operację z udostępnionej listy (odpowiednio przyciskami: {% include inline_image.html file="przyciskWybierzPaczke.png" alt="Przycisk Wybierz paczkę" %} lub {% include inline_image.html file="przyciskWybierzPaczke.png" alt="Przycisk Wybierz paczkę" %} )
+- albo wybrać odpowiednią paczkę czy operację z udostępnionej listy (odpowiednio przyciskami: {% include inline_image.html file="przyciskWybierzPaczke.png" alt="Przycisk Wybierz paczkę" %} lub {% include inline_image.html file="przyciskWybierzOperacjeZlecenia.png" alt="Przycisk Wybierz operację zlecenia" %} )
 
 {% include lightbox.html file="rejestracjaTerminalPotwierdzaniaProcesowCaly.png" alt="Terminal potwierdzania procesów z wybraną paczką" caption="Terminal potwierdzania procesów z wybraną paczką" %}
 

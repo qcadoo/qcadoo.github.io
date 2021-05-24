@@ -87,11 +87,13 @@ Produkt wejściowy możesz oznaczyć dodatkowym [typem](/typy-produktu-wejsciowe
 
 #### Różne produkty wejściowe technologii w zależności od rozmiarów
 
-Załóżmy, że tworzysz technologię dla rodziny produktu. Teoretycznie w każdym rozmiarze konkretnego produktu należącego do tej rodziny używasz produktu o danym typie i nawet w tej samej ilości, ale konkretny indeks produktu różni się. Dla przykładu - produkujesz koszulkę w różnych rozmiarach. W każdej koszulce używasz guzików. Ale w mniejszych koszulkach guziki są małe, a w większych - duże. Możesz takie rozróżnienie opisać za pomocą technologii. Podczas tworzenia zleceń na konkretne produkty do listy potrzebnych surowców zostanie pobrany ten, który pasuje do rozmiaru zlecanego produktu.
+Załóżmy, że tworzysz technologię dla rodziny produktu. Teoretycznie w każdym rozmiarze konkretnego produktu należącego do tej rodziny używasz produktu o danym typie i nawet w tej samej ilości, ale konkretny indeks produktu różni się. Dla przykładu - produkujesz koszulkę w różnych rozmiarach. W każdej koszulce używasz guzików. Ale w mniejszych koszulkach guziki są małe, a w większych - duże. Możesz takie rozróżnienie opisać za pomocą technologii. Podczas tworzenia zleceń na konkretne produkty do listy potrzebnych surowców zostanie pobrany ten, który pasuje do rozmiaru zlecanego produktu. 
 
 Aby zdefiniować produkty różne w zależności od rozmiaru w techologii na rodzinę produktu rozpocznij dodawanie produktu wejściowego do operacji, uzupełnij **typ produktu wejściowego**, zaznacz parametr **Różne produkty w różnych rozmiarach** i podaj **ilość** razem z **jednostką**. Zapisz. 
 
 {% include lightbox.html file="technologieTechnologieRozneProdWgRozmiaru.png" alt="Nowy produkt wejściowy z różnymi produktami w zależności od rozmiaru" caption="Nowy produkt wejściowy z różnymi produktami w zależności od rozmiaru" %}
+
+Jeśli produkty zużywane w ramach tego typu produktu mają mieć inne normy zużycia, to zaznacz parametr: **Różne ilości w produktach wg rozmiarów**. Ilość będziesz podawać wówczas na etapie rozpisywania produktów w zależności od grup rozmiarowych. Jeśli każdy produkt ma taką samą normę - zostaw parametr niezaznaczony i podaj ilość w zakładce Główna. Każdy z produktów uzależniony od rozmiaru otrzyma tą ilość (lub ta ilość będzie przeliczona na ilość podstawową produktu, gdy ten posiada odpowiedni przelicznik z jednostki podanej w zakładce Główna).
 
 Przejdź do zakładki **Produkty wg rozmiarów**
 
@@ -104,6 +106,8 @@ i kliknij przycisk {% include inline_image.html file="newIcon16.png" alt="Nowy" 
 Podaj:
 - **grupę rozmiarową**
 - **produkt**
+
+Jeśli Różne ilości w produktach wg rozmiarów = tak, to podaj dodatkowo **ilość** zużywaną.
 
 Dany produkt i dana grupa rozmiarowa w ramach jednego produktu wejściowego operacji może wystąpić tylko raz. 
 

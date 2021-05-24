@@ -11,4 +11,7 @@ Do wyboru masz następujące analizy:
 - [analiza wyrobu gotowego](/analiza-wyrobu-gotowego),
 - [analiza wyrobu gotowego przed czynnościami dodatkowymi](/analiza-przed-czynnosciami-dodatkowymi),
 - [analiza wykonanej produkcji](/analiza-wykonanej-produkcji),
-- [analiza planowanego czasu pracy](/analiza-planowanego-czasu-pracy).
+- [analiza planowanego czasu pracy](/analiza-planowanego-czasu-pracy),
+- [oee](/oee),
+- [rozliczenie czasu pracy pracownika](/rozliczenie-czasu-pracy-pracownika),
+- [wykonanie procesów technologicznych](/wykonanie-procesow-technologicznych).

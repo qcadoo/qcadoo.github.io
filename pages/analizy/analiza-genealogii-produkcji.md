@@ -11,7 +11,7 @@ Aby przeprowadzić analizę wejdź w **Analizy > Analiza genealogii produkcji**
 
 {% include lightbox.html file="analizyAnalizaGenealogiiProdukcjiKontekst.png" alt="Zakładka Kontekst analizy genealogii produkcji" caption="Zakładka Kontekst analizy genealogii produkcji" %}
 
-Zacznij od wskazania dat, dla których chcesz zebrać dane. Po uzupełnieniu obu pól kliknij przycisk {% include inline_image.html file="przyciskGeneruj.png" alt="Przycisk Generuj" %} **Generuj**. Po zebraniu niezbędnych informacji zostaniesz przeniesiony do zakładki Dane:
+Zacznij od wskazania dat, dla których chcesz zebrać dane. Po uzupełnieniu obu pól kliknij przycisk {% include inline_image.html file="przyciskWczytajDane.png" alt="Przycisk Wczytaj dane" %} **Wczytaj dane**. Po zebraniu niezbędnych informacji zostaniesz przeniesiony do zakładki Dane:
 
 {% include lightbox.html file="analizyAnalizaGenealogiiProdukcjiDane.png" alt="Analizy genealogii produkcji" caption="Analizy genealogii produkcji" %}
 

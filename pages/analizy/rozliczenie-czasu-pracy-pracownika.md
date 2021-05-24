@@ -9,7 +9,7 @@ Aby przeprowadzić analizę czasu pracy wejdź w **analizy > rozliczenie czasu p
 
 {% include lightbox.html file="analizyRozliczenieCzasuPracyPracownikaKontekst.png" alt="Ustawianie kontekstu czasowego" caption="Ustawianie kontekstu czasowego" %}
 
-Podaj daty, dla jakich chcesz uzyskać zestawienie i kliknij przycisk {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy" %} **Dodaj nowy** 
+Podaj daty, dla jakich chcesz uzyskać zestawienie i kliknij przycisk {% include inline_image.html file="przyciskWczytajDane.png" alt="Przycisk Wczytaj dane" %} **Wczytaj dane**
 
 {% include lightbox.html file="analizyRozliczenieCzasuPracyPracownikaDane.png" alt="Dane z rozliczenia czasu pracy pracownika" caption="Dane z rozliczenia czasu pracy pracownika" %}
 
