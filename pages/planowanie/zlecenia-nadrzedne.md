@@ -63,6 +63,16 @@ Ponadto możesz uzupełnić kolumny:
 
 Tak przygotowany arkusz zaimportuj do qcadoo. W razie błędów z importem przeanalizuj zapisane w oknie importu logi, popraw dane i spróbuj ponownie.
 
+### Dodawanie produktów rozmiarowych
+
+{% include lightbox.html file="planowanieZamowienieSprzedazyProduktyRozmiary.png" alt="Dodawanie produktów wg rozmiarów" caption="Dodawanie produktów wg rozmiarów" class="float-right" %}
+
+Jeśli produktujesz wyroby z oznaczonymi rozmiarami i masz je pogrupowane z dokładnością do produktu-rodziny to możesz skorzystać z opcji szybkiego dodawania produktów na zamówienie. Wprowadź nagłówek zamówienia, zapisz i kliknij przycisk {% include inline_image.html file="przyciskDodajProduktyWgRozmiarow.png" alt="Przycisk Dodaj produkty wg rozmiarów" %} **Dodaj produkty wg rozmiarów** i podaj produkt-rodzinę. Na tej podstawie w tabeli zostaną zaciągnięte wszystkie rozmiary, w jakim występuje. Podaj ilość dla tych rozmiarów, które kontrahent zamówił i kliknij przycisk {% include inline_image.html file="przyciskDodajPozycje.png" alt="Przycisk Dodaj pozycje" %} **Dodaj pozycje**. W efekcie do każdego rozmiaru zostanie dodana pozycja zamówienia.
+
+Co warto wiedzieć:
+- po kolejnych wierszach tabeli możesz przechodzić klikając klawisz TAB. W związku z tym wystarczy: ilość - TAB - ilość - TAB itd. 
+- jeśli dany rozmiar nie jest zamówiony, zostaw puste miejsce w polu ilości
+
 ---
 
 Utworzyłeś zamówienie sprzedaży. Teraz pozostaje jeszcze dodanie do niego zlecenia/zleceń produkcyjnych, przy pomocy których zrealizujesz zamówienie. Możesz dodać zlecenia, które już wcześniej założyłeś lub utworzyć całkiem nowe.

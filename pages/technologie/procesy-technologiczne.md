@@ -8,7 +8,7 @@ Nie wszystkie czynności, które są konieczne do wykonania w procesie produkcyj
 - podczas rejestrowania produkcji nie musimy potwierdzać każdej z wykonywanej czynności
 - nie musimy planować wykonania każdego procesu z osobna - planujemy całą operację
 
-Procesy technologiczne mogą być zbijane w listę procesów technologicznych. A ta może być przypisywana do operacji technologii.
+Procesy technologiczne mogą być zbijane w [listę procesów technologicznych](/listy-procesow). A ta może być przypisywana do [operacji technologii](/technologie-szczegoly.html#zakładka-procesy).
 
 Aby dodać proces technologiczny wejdź w **Technologie > Procesy technologiczne**
 
@@ -27,3 +27,5 @@ Koniecznie podaj **nazwę** procesu. Ponadto możesz wprowadzić następujące d
 - **procent wzrostu** - pole uaktywni się, gdy parametr *wydłużony czas dla grupy rozmiarowej* będzie zaznaczony. Musisz wówczas podać o ile procent dłużej trwa realizacja danego procesu dla grupy rozmiarowej wskazanej niżej,
 - **grupa rozmiarowa** - pole uaktywni się, gdy parametr *wydłużony czas dla grupy rozmiarowej* będzie zaznaczony. Musisz wówczas podać jakiej grupy rozmiarowej dotyczy powyższe wydłużenie
 - **stawka godzinowa** - możesz podać wg jakiej [stawki](stawki-za-procesy) ten proces będzie rozliczany
+
+{% include callout.html content="Czy wiesz, że możesz raportować wykonanie czynności za pomocą [terminala potwierdzania procesów](/terminal-potwierdzania-procesow)?" type="warning" %}
