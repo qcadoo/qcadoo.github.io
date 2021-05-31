@@ -19,7 +19,7 @@ Za pomocą tej metody api utworzysz [przeliczenia jednostek](/przeliczniki) w sy
 ## Zawartość żądania
 ~~~~~~~~
 {
-    "possibleUnitConversions" : [
+    "products" : [
         {
             "externalID" : "externalID",
             "possibleUnitConversions" : [
