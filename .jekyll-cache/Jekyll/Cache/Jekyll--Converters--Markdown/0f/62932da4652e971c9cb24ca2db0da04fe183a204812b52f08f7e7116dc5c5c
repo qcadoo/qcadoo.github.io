@@ -1,6 +1,0 @@
-I"<p>Tabela wydanych produktów (Zaopatrzenie &gt; Wydane produkty) to kolejny (po <a href="/produkty-do-wydania-wewnetrznego">produktach do wydania wewnętrznego</a>) widok do <a href="/wydania-wewnetrzne">wydań wewnętrznych</a>. Powstał po to, abyś mógł w łatwy sposób ustalić co już zostało wydane, kiedy, a także jakie dokumenty zostały do wydania utworzone.</p>
-
-<figure><a target="_blank" href="images/zaopatrzenieWydaneProdukty.png"><img src="images/zaopatrzenieWydaneProdukty.png" alt="Wydane produkty" /></a><figcaption>Wydane produkty</figcaption></figure>
-
-<p>Zapis w tabeli pojawi się nawet wówczas, gdy dokument nie został jeszcze utworzony, ale pracownik rozpoczął już proces wydawania i przeniósł produkty do zakładki <strong>Wydanie</strong> w wydaniu.</p>
-:ET

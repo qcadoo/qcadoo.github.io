@@ -1,9 +1,0 @@
-I"�<p>Do wykonania danej operacji niezbędne są pewne kwalifikacje. Nie zlecisz zapewne uszycia pokrowca na fotel osobie, która nigdy nie siedziała przy maszynie do szycia. Nie każesz spawać pracownikowi, który do tej pory tylko zajmował się montażem. Prawda? Abyśmy wiedzieli jakie umiejętności trzeba posiadać, aby móc wykonać czynność (i abyśmy stworzyli odpowiedni <a href="plan-na-stacje-robocza-i-pracownika">plan na stację roboczą i pracownika</a>), wprowadź odpowiednie powiązanie w operacji w zakładce Wymagane umiejętności.</p>
-
-<figure class="float-right "><a target="_blank" href="images/technologieOperacjeWymaganeUmiejetnosci.png"><img src="images/technologieOperacjeWymaganeUmiejetnosci.png" alt="Dodawanie niezbędnych umiejętności do wykonania operacji" class="percent90 " /></a><figcaption>Dodawanie niezbędnych umiejętności do wykonania operacji</figcaption></figure>
-
-<p>Aby przypisanie było możliwe, rozpocznij od zdefiniowania listy <a href="umiejetnosci">umiejętności</a>.</p>
-
-<p>Teraz wejdź w szczegóły operacji (Technologie &gt; Operacje) w zakładkę <strong>Wymagane umiejętności</strong> i kliknij <strong>Nowy</strong>
-Wybierz z listy umiejętność. Na jej podstawie wypełnione zostanie pole Maksymalny poziom. Teraz podaj na jakim poziomie trzeba władać umiejętnością, aby móc wykonać operację - nie może być on wyższy od maksymalnego poziomu umiejętności.</p>
-:ET
