@@ -2,3 +2,4 @@
 *.iml
 .idea/
 _site/
+.jekyll-cache/
