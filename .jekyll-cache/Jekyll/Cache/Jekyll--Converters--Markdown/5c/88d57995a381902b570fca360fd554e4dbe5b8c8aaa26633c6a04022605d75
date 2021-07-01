@@ -1,0 +1,357 @@
+I"��<p>Do każdego produkowanego w Twojej firmie wyrobu kompletujemy osobną technologię.</p>
+
+<h2 id="dodanie-nowej-technologii">Dodanie nowej technologii</h2>
+
+<p><strong>TECHNOLOGIE &gt; Technologie</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nową technologię" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure class="float-right "><a target="_blank" href="images/technologie-technologia-główna.png"><img src="images/technologie-technologia-główna.png" alt="Formularz technologii" class="percent90 " /></a><figcaption>Formularz technologii</figcaption></figure>
+
+<p>W zakładce “Główna”</p>
+
+<ol>
+  <li>
+    <p>W pierwszym kroku przy pomocy <img class="inline" src="images/lupka.png" alt="Przycisk lupy" />
+ wybieramy “Produkt”, na który ma powstać technologia. Produkty pobierają się ze zdefiniowanej wcześniej listy <a href="/produkty">Produktów</a> z “Danych podstawowych”.</p>
+  </li>
+  <li>
+    <p>Jeden produkt może mieć w systemie zdefiniowanych kilka technologii, natomiast może istnieć tylko jedna domyślna technologia na jeden produkt. Zatem jeśli wprowadzana przez Ciebie technologia będzie tą główną i najczęściej używaną, po jej zaakceptowaniu będzie można oznaczyć ją jako <strong>domyślną</strong>.</p>
+  </li>
+  <li>
+    <p>“Numer” i “Nazwa” technologii uzupełnią się automatycznie po wybraniu produktu. Możesz dowolnie zmieniać te dane, warunkiem jest wprowadzanie danych unikatowych. W systemie nie mogą funkcjonować więcej niż jedna technologia o danym numerze.</p>
+  </li>
+  <li>Dodatkowo można zamieścić “Opis” technologii, oraz zaznaczyć opcje:
+    <ul>
+      <li>Szablon - określa, że tworzona technologia posłuży jako szablon w generatorze technologii</li>
+      <li>Czynności dodatkowe do wyrobu gotowego - parametr jest przydatny, gdy dzielisz proces produkcyjny na technologie na komponenty. I ostatni etap, np. pakowanie, opisane daną technologią, jest dla Ciebie mniej istotny w kontekście analizy wykonanej produkcji. Dla Ciebie wyrób gotowy to ten, którego dopiero czeka pakowanie. Być może dlatego, że pakowaniem zajmujecie się później, niejako przy okazji wysyłki. Zaznacz parametr, a w analizie wyrobu gotowego przed czynnościami dodatkowymi pokażemy Ci produkcję wyrobów bez tego etapu</li>
+    </ul>
+  </li>
+  <li>
+    <p>Jeśli będziesz korzystać z automatycznie generowanego <a href="/produkcja-na-zmiane">planu produkcji na zmianę</a>, to uzupełnij normę wydajnościową, podając ile jednostek produktu jesteś w stanie wytworzyć w minutę.</p>
+  </li>
+  <li>
+    <p>Jeśli w trakcie realizacji produkcji będzie przeprowadzana kontrola jakości uzupełnij <a href="karty-jakosci">kartę jakości</a> - lista atrybutów określona w karcie jakości będzie musiała być rozpisana w operacjach drzewa, aby pracownicy wiedzieli co mają zweryfikować i na jakim etapie produkcji. Klikając lupkę zobaczysz listę zaakceptowanych kart jakości spiętych z produktem, dla którego tworzona jest technologia.</p>
+  </li>
+  <li>
+    <p><img class="inline" src="images/lupka.png" alt="Przycisk lupy" />
+ <strong>Wybieramy</strong> “Grupę”, do której ma przynależeć dana technologia (opcjonalnie).</p>
+  </li>
+  <li>Po wprowadzeniu powyższych wybieramy przycisk   <img class="inline" src="images/saveIcon24.png" alt="Przycisk zapisu" />
+ <strong>Zapisz,</strong> by zachować. Teraz można przejść do drugiego kroku - zdefiniowania <strong>drzewa technologii</strong>.</li>
+</ol>
+
+<h2 id="budowa-drzewa-technologii">Budowa drzewa technologii</h2>
+
+<p>W qcadoo <strong>Technologię</strong> buduje się w <strong>formie drzewa</strong> operacji - układając je od ostatniej wykonywanej na produkcie (np. malowanie, lub pakowanie) do pierwszej - rozpoczynającej (np. piłowanie, cięcie). Aby przejść do budowy drzewa technologii, pozostajemy w widoku <strong>TECHNOLOGIE Technologie,</strong> przechodzimy następnie do kolejnej karty: <strong>Drzewo</strong>.</p>
+
+<figure><a target="_blank" href="images/technologie-technologia-drzewo.png"><img src="images/technologie-technologia-drzewo.png" alt="Drzewo technologii" /></a><figcaption>Drzewo technologii</figcaption></figure>
+
+<h3 id="dodawanie-operacji">Dodawanie operacji</h3>
+
+<figure class="float-right "><a target="_blank" href="images/technologie-technologia-operacja-główna.png"><img src="images/technologie-technologia-operacja-główna.png" alt="Operacja w technologii" class="percent90 " /></a><figcaption>Operacja w technologii</figcaption></figure>
+
+<ol>
+  <li>
+    <p>Dodajemy operację używając przycisku <img class="inline" src="images/newOperationIcon_16one.png" alt="Przycisk lupy" />
+<strong>Dodaj operację</strong>.</p>
+  </li>
+  <li>
+    <p><img class="inline" src="images/lupka.png" alt="Przycisk lupy" />
+ <strong>Wybieramy</strong> “Operację” ze zdefiniowanej wcześniej listy <a href="/operacje">Operacji</a>. Na podstawie wybranej operacji uzupełnione zostaną pola “Opis” i “Załącznik”, oraz informacje w tabkach “Stacje robocze”, “Normy kosztowe”, “Normy czasowe”. Uzupełnione w ten sposób informacje można dowolnie zmodyfikować - zmiany obejmą wtedy jedynie obecnie tworzoną technologię.</p>
+  </li>
+  <li>
+    <p>Wybieramy przycisk <img class="inline" src="images/saveIcon24.png" alt="Przycisk zapisu" />
+ <strong>Zapisz,</strong> by zachować. Po zachowaniu zmian możemy wrócić do technologii i dodać produkty do operacji.</p>
+  </li>
+</ol>
+
+<p>Wraz z realizacją operacji może być konieczność <strong>skontrolowania jakości</strong> wytworzonego produktu. Jeśli technologia ma przypisaną <a href="/karty-jakosci">kartę jakości</a>, to w szczegółach operacji w zakładce Kontrola jakości możesz wybrać, które z atrybutów karty jakości na tym etapie mają być weryfikowane. Dzięki temu pracownik podczas rejestracji produkcji (np. z <a href="/terminal">terminala</a>) otrzyma informacje o tym, że musi przeprowadzić kontrolę i zapisać jej efekt.</p>
+
+<h3 id="edycja-i-usuwanie-operacji">Edycja i usuwanie operacji</h3>
+
+<p>W celu edycji lub usunięcia operacji należy najpiere zaznaczyć ją w drzewie - aktywuje to przyciski do edycji drzewa.</p>
+
+<ol>
+  <li>
+    <p>Aby zmodyfikować dodaną do technologii operację, wybieramy przycisk <img class="inline" src="images/editIcon16.png" alt="Edytuj" />
+ “Edytuj” w drzewie technologii.</p>
+  </li>
+  <li>
+    <p>Aby usunąć <strong>operację</strong> z drzewa oraz <strong>wszystkie położone poniżej</strong> operacje, wybieramy przycisk <img class="inline" src="images/deleteIcon24.png" alt="Usuń" />
+ “Usuń”.</p>
+  </li>
+  <li>
+    <p>Aby usunąć <strong>operację</strong> z drzewa oraz <strong>bez usuwania położonych poniżej</strong> operacje, wybieramy przycisk “Usuń ze środka”. Spowoduje to usunięcie tylko wybranej operacji oraz podpięcie leżących poniżej operacji do operacji nadrzędnej.</p>
+  </li>
+</ol>
+
+<h3 id="dodawanie-produktów-do-operacji">Dodawanie produktów do operacji</h3>
+
+<p>Po zaznaczeniu operacji w drzewie uzupełnione zostają tabelki z produktami wejściowymi i wyjściowymi. Dodatkowo w tabeli <strong>“Produkty wejściowe”</strong> kolorami zaznaczone są te produkty, które posiadają własne technologie - pomarańczowym ze sprawdzonymi technologiami, a zielonym produkty posiadające zaakceptowane technologie.</p>
+
+<figure><a target="_blank" href="images/technologie-technologia-produkty.png"><img src="images/technologie-technologia-produkty.png" alt="Produkty w technologii" /></a><figcaption>Produkty wejściowe i wyjściowe w technologii</figcaption></figure>
+
+<figure class="float-right "><a target="_blank" href="images/technologie-technologia-produkty-wyjściowy.png"><img src="images/technologie-technologia-produkty-wyjściowy.png" alt="Nowy produkt wyjściowy" class="percent90 " /></a><figcaption>Nowy produkt wyjściowy</figcaption></figure>
+
+<figure class="float-right "><a target="_blank" href="images/technologie-technologia-produkty-wejściowy.png"><img src="images/technologie-technologia-produkty-wejściowy.png" alt="Nowy produkt wejściowy" class="percent90 " /></a><figcaption>Nowy produkt wejściowy</figcaption></figure>
+
+<ol>
+  <li>
+    <p>Aby dodać produkt do operacji, należy najpierw zaznaczyć wybraną operację w <strong>Drzewie technologii</strong></p>
+  </li>
+  <li>
+    <p>W celu dodania produktu wyjściowego wybieramy przycisk <img class="inline" src="images/newIcon16.png" alt="Nowy" />
+ “Nowy” w tabelce <strong>“Produkty wyjściowe”</strong>.</p>
+  </li>
+  <li>
+    <p>Przy pomocy <img class="inline" src="images/lupka.png" alt="Przycisk lupy" />
+ wybieramy “Produkt” dodawany do produktów wyjściowych. Podajemy następnie ilość, jaką produkuje operacja i wybieramy przycisk <img class="inline" src="images/saveIcon24.png" alt="Przycisk zapisu" />
+ <strong>Zapisz,</strong> by zachować. Możemy dodatkowo oznaczyć produkt</p>
+  </li>
+  <li>
+    <p>W ostatniej operacji w drzewie, produkującej ostateczny produkt technologii, zostanie dodany automatycznie produkt finalny całej technologii. Dodatkowo w takim produkcie można zaznaczyć opcję <strong>“Szablon”</strong>.</p>
+  </li>
+  <li>
+    <p>W celu dodania produktu wejściowego wybieramy przycisk <img class="inline" src="images/newIcon16.png" alt="Nowy" />
+ “Nowy” w tabelce <strong>“Produkty wejściowe”</strong>.</p>
+  </li>
+  <li>
+    <p>Przy pomocy <img class="inline" src="images/lupka.png" alt="Przycisk lupy" />
+ wybieramy “Produkt” dodawany do produktów wejściowych. Podajemy następnie ilość, jaką produkuje operacja - możemy podać ilość w innej jednostce, niż podstawowa jednostka produktu. Warunkiem jest zdefiniowanie wcześniej w produkcie przelicznika na wybraną jednostkę. Wybieramy następnie przycisk <img class="inline" src="images/saveIcon24.png" alt="Przycisk zapisu" />
+ <strong>Zapisz,</strong> by zachować.</p>
+  </li>
+</ol>
+
+<p>Produkt wejściowy możesz oznaczyć dodatkowym <a href="/typy-produktu-wejsciowego">typem</a>. Niesie to następujące korzyści:</p>
+<ul>
+  <li>pracownik lepiej potrafi zidentyfikować surowiec zużywany</li>
+  <li>możesz zapisać technologię szablonową, gdy nie znamy dokładnego indeksu materiału. Wiesz np. że będziesz zużywać blachę i w jakiej ilości, ale nie wiesz dokładnie, którą. Takie zapisanie produktu wejściowego, z samym typem i ilością, pozwoli dodatkowo na przygotowanie kalkulacji kosztów i ustalenie wyceny w oparciu o średnią cenę zapisaną w typie produktu wejściowego technologii</li>
+  <li>jeśli przygotowujesz technologię dla rodziny produktu możesz wskazać, że dla danego typu produktu wejściowego, w zależności od grupy rozmiarowej mają być używane różne surowce.</li>
+</ul>
+
+<h4 id="różne-produkty-wejściowe-technologii-w-zależności-od-rozmiarów">Różne produkty wejściowe technologii w zależności od rozmiarów</h4>
+
+<p>Załóżmy, że tworzysz technologię dla rodziny produktu. Teoretycznie w każdym rozmiarze konkretnego produktu należącego do tej rodziny używasz produktu o danym typie i nawet w tej samej ilości, ale konkretny indeks produktu różni się. Dla przykładu - produkujesz koszulkę w różnych rozmiarach. W każdej koszulce używasz guzików. Ale w mniejszych koszulkach guziki są małe, a w większych - duże. Możesz takie rozróżnienie opisać za pomocą technologii. Podczas tworzenia zleceń na konkretne produkty do listy potrzebnych surowców zostanie pobrany ten, który pasuje do rozmiaru zlecanego produktu.</p>
+
+<p>Aby zdefiniować produkty różne w zależności od rozmiaru w techologii na rodzinę produktu rozpocznij dodawanie produktu wejściowego do operacji, uzupełnij <strong>typ produktu wejściowego</strong>, zaznacz parametr <strong>Różne produkty w różnych rozmiarach</strong> i podaj <strong>ilość</strong> razem z <strong>jednostką</strong>. Zapisz.</p>
+
+<figure><a target="_blank" href="images/technologieTechnologieRozneProdWgRozmiaru.png"><img src="images/technologieTechnologieRozneProdWgRozmiaru.png" alt="Nowy produkt wejściowy z różnymi produktami w zależności od rozmiaru" /></a><figcaption>Nowy produkt wejściowy z różnymi produktami w zależności od rozmiaru</figcaption></figure>
+
+<p>Jeśli produkty zużywane w ramach tego typu produktu mają mieć inne normy zużycia, to zaznacz parametr: <strong>Różne ilości w produktach wg rozmiarów</strong>. Ilość będziesz podawać wówczas na etapie rozpisywania produktów w zależności od grup rozmiarowych. Jeśli każdy produkt ma taką samą normę - zostaw parametr niezaznaczony i podaj ilość w zakładce Główna. Każdy z produktów uzależniony od rozmiaru otrzyma tą ilość (lub ta ilość będzie przeliczona na ilość podstawową produktu, gdy ten posiada odpowiedni przelicznik z jednostki podanej w zakładce Główna).</p>
+
+<p>Przejdź do zakładki <strong>Produkty wg rozmiarów</strong></p>
+
+<figure><a target="_blank" href="images/technologieTechnologieProduktyWgRozmiaru.png"><img src="images/technologieTechnologieProduktyWgRozmiaru.png" alt="Zakładka Produkty wg rozmiaru" /></a><figcaption>Zakładka Produkty wg rozmiaru</figcaption></figure>
+
+<p>i kliknij przycisk <img class="inline" src="images/newIcon16.png" alt="Nowy" />
+ “Nowy”</p>
+
+<figure><a target="_blank" href="images/technologieTechnologieProduktyWgRozmiaruNowy.png"><img src="images/technologieTechnologieProduktyWgRozmiaruNowy.png" alt="Nowy produkt wg rozmiaru" /></a><figcaption>Nowy produkt wg rozmiaru</figcaption></figure>
+
+<p>Podaj:</p>
+<ul>
+  <li><strong>grupę rozmiarową</strong></li>
+  <li><strong>produkt</strong></li>
+</ul>
+
+<p>Jeśli Różne ilości w produktach wg rozmiarów = tak, to podaj dodatkowo <strong>ilość</strong> zużywaną.</p>
+
+<p>Dany produkt i dana grupa rozmiarowa w ramach jednego produktu wejściowego operacji może wystąpić tylko raz.</p>
+
+<hr />
+
+<h3 id="import-produktów-wejściowych-technologii-z-excela">Import produktów wejściowych technologii z Excela</h3>
+
+<figure class="float-right "><a target="_blank" href="images/technologieTechnologieSameOperacje.png"><img src="images/technologieTechnologieSameOperacje.png" alt="Drzewo technologii przygotowane pod import produktów wejściowych" class="percent90 " /></a><figcaption>Drzewo technologii przygotowane pod import produktów wejściowych</figcaption></figure>
+
+<p>Produkty wejściowe do operacji technologii możesz dodać na dwa sposoby - albo ręcznie każdy z produktów po kolei, albo wykorzystując import danych w Excelu. Druga możliwość będzie dla Ciebie wygodna, gdy przechowujecie BOM w Excelu, albo w łatwy sposób jesteś w stanie wyeksportować receptury do .xlsx z systemu ERP.</p>
+
+<p>Rozpocznij budowanie technologii tak jak zwykle - ułóż operacje w drzewo. Po uzyskaniu drzewa takiego, jak potrzebujesz, <strong>zapisz</strong> technologię (wówczas w bazie zostaną nadane wartości umożliwiające import produktów wejściowych). Zwróć uwagę na nadane operacjom numery - jest to poziom, do którego będziesz się w pliku do importu odwoływać.</p>
+
+<p>Teraz pobierz szablon do importu. Kliknij <img class="inline" src="images/przyciskImportujProduktyWejsciowe.png" alt="Przycisk Importuj produkty wejściowe z .xlsx" />
+ <strong>Importuj produkty wejściowe z .xlsx</strong> i w uruchomionym oknie kliknij <img class="inline" src="images/przyciskPobierzSzablon.png" alt="Przycisk Pobierz szablon" />
+ <strong>Pobierz szablon</strong>. Wypełnij pobrany arkusz danymi:</p>
+
+<figure><a target="_blank" href="images/technologieTechnologieSzablonImportuProduktow.png"><img src="images/technologieTechnologieSzablonImportuProduktow.png" alt="Wypełniony szablon do importu produktów wejściowych" /></a><figcaption>Wypełniony szablon do importu produktów wejściowych</figcaption></figure>
+
+<ul>
+  <li><em>poziom operacji</em> - to nadany przez qcadoo numer operacji w drzewie technologii. Np. ‘1.’ lub ‘2.B.2.”. Pamiętaj o wpisaniu każdego znaku - nawet kropki na końcu numeru</li>
+  <li><em>produkt</em> - numer produktu istniejącego w qcadoo</li>
+  <li><em>ilość</em> - planowana ilość użycia. Jako separatora dziesiętnego użyj przecinka</li>
+</ul>
+
+<p>Zapisz tak przygotowany plik na dysku i ponownie kliknij <img class="inline" src="images/przyciskImportujProduktyWejsciowe.png" alt="Przycisk Importuj produkty wejściowe z .xlsx" />
+ <strong>Importuj produkty wejściowe z .xlsx</strong>, wskaż plik i zaciągnij dane do qcadoo klikając<img class="inline" src="images/przyciskImportuj.png" alt="Przycisk Importuj" />
+ <strong>Importuj</strong>. Jeśli pojawią się błędy - możesz je przeanalizować wywołując <img class="inline" src="images/przyciskPokazLogi.png" alt="Przycisk Pokaż logi" />
+ <strong>Pokaż logi</strong>.</p>
+
+<p>Obsługa importu danych z Excel opisana jest również <a href="/import-z-excel">tutaj</a>.</p>
+
+<hr />
+
+<h2 id="technologie-na-komponenty">Technologie na komponenty</h2>
+
+<p>Jedna technologia to jedno zlecenie produkcyjne - cały proces opisany daną technologią musi przeprowadzony być w jednym zleceniu produkcyjnym. A co jeśli pewne etapy produkcji zlecasz wcześniej? Albo co w sytuacji, gdy półprodukt może być użyty pod wiele wyrobów i został wcześniej wyprodukowany z nadwyżką i czeka na magazynie? A co jeśli cały proces produkcyjny przeprowadzany jest po kolei na kilku liniach produkcyjnych (po klika czynności na każdej z linii i chcesz raportować efekt całości prac, a nie każdej operacji z osobna), a Ty chcesz zadania dla każdej linii planować odrębnie? Z pomocą przychodzą <strong>technologie na komponenty</strong>.</p>
+
+<p>Komponentem jest ten produkt wejściowy technologii, który posiada swoją własną technologię. Jeśli na liście produktów wejściowych znajdzie się komponent, to dociągniemy jego technologię, tworząc pełną stukturę wyrobu.</p>
+
+<p>Dla przykładu - produkujemy komplet ubrań składający się z koszulki i spodni. Osobno produkujemy koszulkę i osobno spodnie. I pakujemy je razem. Technologia na komplet wyglądać będzie następująco:</p>
+
+<figure><a target="_blank" href="images/technologieTechnologiaNaKomponentGlowna.png"><img src="images/technologieTechnologiaNaKomponentGlowna.png" alt="Główna technologia" /></a><figcaption>Główna technologia</figcaption></figure>
+
+<p>W tabeli produktów wejściowych koszulka waniliowa i spodnie buggy waniliowe są oznaczone kolorem zielonym - to są produkty uznane za komponenty. Każdy z tych produktów ma swoją własną technologię. Koszulka waniliowa np. taką:</p>
+
+<figure><a target="_blank" href="images/technologieTechnologiaNaKomponentKomponent.png"><img src="images/technologieTechnologiaNaKomponentKomponent.png" alt="Komponent" /></a><figcaption>Komponent</figcaption></figure>
+
+<p>Tak zbudowana technologia tworzy następującą strukturę wyrobu:</p>
+
+<figure><a target="_blank" href="images/technologieTechnologiaNaKomponentStruktura.png"><img src="images/technologieTechnologiaNaKomponentStruktura.png" alt="Struktura wyrobu" /></a><figcaption>Struktura wyrobu</figcaption></figure>
+
+<p>Zlecając komplet waniliowy na produkcję, utorzą się następujące zlecenia:</p>
+
+<figure><a target="_blank" href="images/technologieTechnologiaNaKomponentZlecenia.png"><img src="images/technologieTechnologiaNaKomponentZlecenia.png" alt="Zlecenia" /></a><figcaption>Zlecenia</figcaption></figure>
+
+<p><strong>Jak zbudować technologię z technologiami na komponenty - krok po kroku</strong>:</p>
+<ol>
+  <li>wyodrębnij z całego procesu produkcyjnego te obszary / elementy, które chcesz zlecać osobno. W przykładzie wyżej - półprodukty: koszulka i spodnie</li>
+  <li>dla każdego wydzielonego obszaru zbuduj technologie (standardowo - wg instrukcji opisanej na tej stronie). Utworzone technologie zaakceptuj i oznacz jako domyślne</li>
+  <li>produkt-komponent dodaj na liście produktów wejściowych (tak samo jak surowce) w technologii głównej</li>
+</ol>
+
+<p>Strukturę wyrobu można wygenerować po sprawdzeniu technologii.</p>
+
+<div class="bs-callout bs-callout-info">Technologie na komponent mogą być wielopoziomowe - wyrób może mieć na liście produktów wejściowych komponent. A technologia na komponent może mieć na liście produktów wejściowych inny komponent, czy nawet listę komponentów</div>
+
+<h2 id="kontrola-jakości">Kontrola jakości</h2>
+
+<p>Jeśli chcesz, aby podczas podczas produkcji, wraz z wykonywaniem zaplanowanych w technologii czynności, przeprowadzana była <a href="/kontrola-jakosci">kontrola jakości</a>, musisz wskazać co na jakim etapie ma być sprawdzane. Masz już zbudowane drzewo technologii (lista operacji) i w zakładce Główna podaną kartę jakości? Jeśli tak - możesz przystąpić do przypisania atrybutów do operacji.</p>
+
+<figure><a target="_blank" href="images/technologieTechnologieKontrolaJakosci.png"><img src="images/technologieTechnologieKontrolaJakosci.png" alt="Kontrola jakości technologii" /></a><figcaption>Kontrola jakości technologii</figcaption></figure>
+
+<p>Przejdź do zakładki <strong>Kontrola jakości</strong>. W lewej tabeli zobaczysz wszystkie zdefiniowane w drzewie operacje. Zaznacz tą operację, podczas której kontrola ma być wykonywana, i w prawej tabeli dodaj atrybuty (przycisk: <img class="inline" src="images/przyciskNowyMaly.png" alt="Przycisk Nowy" />
+ <strong>Nowy</strong>), korzystając z listy przygotowanej w <a href="/karty-jakosci">karcie jakości</a>.  Dla każdego atrybutu możesz doprecyzować moment weryfikacji - czy ma to być przed operacją, w jej trakcie czy po zakończeniu. Rozpisz w ten sposób wszystkie atrybuty z karty jakości.</p>
+
+<p>O tym, że choć jeden atrybut jest przypisany do operacji dowiesz się dzięki wartośći ‘tak’ w kolumnie KJ w lewej tabeli.</p>
+
+<p>Warto podkreślić, że jeśli raportujesz produkcję zbiorczo, to nie ma znaczenia do jakiej operacji będą przypisane atrybuty. W terminalu i tak wszystkie elementy będą wyświetlone na raz. Jeśli raportujesz z dokładnością do operacji - wprowadź dane skrupulatnie. Pracownik po zalogowaniu się do terminala i wybraniu zadania, które ma realizować, zostanie poinformowany o tym jakie czynności kontrolne będzie musiał przy okazji przeprowadzić.</p>
+
+<div class="bs-callout bs-callout-warning">Atrybuty mogą być też przypisane poprzez okno edycyjne operacji, wywołane z drzewa technologii.</div>
+
+<h2 id="zasięg-technologii">Zasięg technologii</h2>
+
+<p>Zasięg technologii to określenie w jakim miejscu Twojej firmy operacje mają być wykonywane.</p>
+
+<figure><a target="_blank" href="images/technologieTechnologieZasieg.png"><img src="images/technologieTechnologieZasieg.png" alt="Zasięg technologii" /></a><figcaption>Zasięg technologii</figcaption></figure>
+
+<p>Technologia może dotyczyć jednego lub wielu działów.</p>
+
+<p>Jeśli dotyczy jednego działu - informacje o dziale i linii będą wypełnione w nagłówku. Jeśli wielu - dla każdej operacji z osobna (w dolnej tabeli). Stacje robocze uzupełniane są zawsze na poziomie operacji - kliknij w operację w lewej tabeli, a uaktywni się dodawanie w tabeli prawej. Stacje robocze zaczytywane są z danych domyślnych zdefiniowanych w <a href="/stacje-robocze-operacji">operacji</a>.</p>
+
+<p>Jeśli technologia ma zasięg = 1 dział i wskażesz dział i linie, to zostaną one podpowiedziane przy tworzeniu zleceń produkcyjnych.</p>
+
+<div class="bs-callout bs-callout-warning">Zasięg w technologii może podpowiedzieć się z <a href="/parametry-technologia.html#zasięg">parametów</a>.</div>
+
+<h2 id="przepływy-technologii">Przepływy technologii</h2>
+
+<p>Przepływy technologii określają przez jakie magazyny będą przechodzić produkty potrzebne do produkcji danego produktu finalnego.</p>
+
+<figure><a target="_blank" href="images/technologieTechnologiePrzeplywy.png"><img src="images/technologieTechnologiePrzeplywy.png" alt="Przepływy technologii" /></a><figcaption>Przepływy technologii</figcaption></figure>
+
+<p>Jeśli technologia ma zasięg = 1 dział, to przyjmujemy, że dla wszystkich surowców magazyn jest taki sam, dla wszystkich półproduktów taki sam i dla wszystkich wyrobów taki sam. Magazyny uzupełnij w nagłówku (podpowiedzą się one z magazynów zdefiniowanych dla działu podanego w zasięgu) i wywołaj funkcję <strong>Uzupełnij magazyny w produktach</strong>, która wprowadzi magazyn dla każdego z produktów.</p>
+
+<p>Jeśli technologia ma zasięg = wiele działów, to magazyny muszą być wprowadzone na poziomie każdego z produktów. Dane również podpowiedzą się z magazynów przypisanych <a href="/dzialy">działowi</a>.</p>
+
+<div class="bs-callout bs-callout-warning">Aby nie trzeba było każdorazowo ręcznie wywoływać funkcji uzupełniania magazynów w produktach zaznacz parametr Uzupełniaj magazyny dla produktów w przepływie podczas sprawdzania technologii w parametrach technologii. Pamiętaj jednak, że jeśli masz zasięg = wiele działów, to sprawdzenie technologii nadpisze Ci magazyny z tych domyślnych zdefiniowanych dla działu </div>
+
+<p>Jakie magazyny musisz określić:</p>
+<ul>
+  <li><strong>magazyn pobrania surowców</strong> - wskaż z jakiego magazynu mają być rozchodowane surowce do produkcji. Na ten magazyn tworzone będą dokumenty RW,</li>
+  <li><strong>magazyn przyjmowania wyrobów</strong> - wskaż na jaki magazyn mają być przyjmowane wytworzone wyroby gotowe. Na ten magazyn będą tworzone dokumenty PW.</li>
+</ul>
+
+<p>Możesz też wskazać dodatkowe informacje:</p>
+<ul>
+  <li><strong>magazyn rozchodowania nadmiarowych surowców</strong> - jeśli przesuwasz do produkcji surowce na magazyn działowy (korzystając z <a href="/wydania-wewnetrzne">wydań wewnętrznych</a>) to możesz podać na jaki magazyn mają być zwrócone produkty przesunięte, a nie zużyte. Dokument MM (z magazynu pobrania surowców na magazyn wskazany tutaj) utworzy się w momencie zakończenia zlecenia,</li>
+  <li><strong>magazyn produkcji w toku</strong> - jeśli chcesz aby produkty będące efektami operacji, były przyjmowane na magazyn, to ustaw przepływ produkcji w toku = magazyn i podaj na jaki magazyn półprodukty mają być przymowane. Z magazynu tego program rozchoduje również półprodukty wskazane jako zużyte w kolejnych operacjach. Opcja dostępna jest tylko dla rejestracji z dokładnością do operacji.</li>
+</ul>
+
+<h2 id="zakończenie-tworzenia-technologii">Zakończenie tworzenia technologii</h2>
+<p>Po skończeniu należy upewnić się, że wprowadzone dane są prawidłowe. W tym przypadku można skorzystać z opcji <img class="inline" src="images/startIcon24.png" alt="Sprawdzenie poprawności" />
+ <strong>Sprawdź poprawność,</strong> by upewnić się, czy drzewo technologii zostało skonstruowane poprawnie. Po sprawdzeniu można będzie powrócić do edycji lub zaakceptować technologię.</p>
+
+<p>O nieprawidłowościach poinformujemy Cię komunikatami. Mogą pojawić się następujące:</p>
+
+<ol>
+  <li><strong>“Nie uzupełniono magazynów dla surowców/komponentów”</strong> –&gt; oznacza to, że produkty w zakładce Przepływ nie mają wskazanych magazynów. Nie wiemy zatem skąd produkty pobierać i gdzie je przyjmować. Na 99% zapomniałeś wywołać funkcję “Uzupełnij magazyny w produktach”. Kliknij przycisk i ponownie sprawdź technologię. Jeśli nadal pojawia się błąd to:
+    <ul>
+      <li>dla zasięgu = 1 dział –&gt; uzupełnij magazyny pobrania surowców i przyjmownia wyrobów w górnej części zakładki Przepływ i ponownie wywołaj funkcje uzupełniania magazynów</li>
+      <li>dla zasiegu = wiele działów –&gt; wejdź w każdy produkt widoczny w tabelach w zakładce Przepływ i podaj ręcznie dla nich magazyny.</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>“W operacji wykrój na poziomie X brakuje produktów wejściowych”</strong> –&gt; oznacza to, że operacja o podanym poziomie ma pustą tabelę produktów wejściowych. Przejdż do zakładki Drzewo i ją uzupełnij. Każda operacja technologii musi mieć co najmniej 1 produkt wejściowy i co najmniej 1 produkt wyjściowy</p>
+  </li>
+  <li><strong>“Każda operacja w drzewie technologii musi wykorzystywać przynajmniej jeden produkt wyprodukowany przez podrzędną operację. Błędna operacja jest na poziomie: X”</strong> –&gt; może to wskazywać na jedną z opisanych niżej sytuacji:
+    <ul>
+      <li>w operacji na podanym poziomie nie został określony produkt wyjściowy. Przejdź do zakładki Drzewo i uzupełnij dane w tabeli produktów wyjściowych.</li>
+      <li>dany produkt został podany jako wejściowy jednej operacji i jednocześnie jako wyjściowy innej operacji (ale nie bezpośrednio następujących po sobie). Innymi słowy najpierw określiłeś, że używasz sklejki drewnianej, a w kolejnych operacjach drzewa wskazałeś, że sklejkę drewnianą uzyskasz jako efekt operacji. Poszukaj w zakładce Drzewo na podanym poziomie nieprawidłowości i popraw dane</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>“Wystąpił błąd walidacji na elementach drzewka technologii: - Jednostka musi się zgadzać z jednostką głównego produktu operacji”</strong> –&gt; komunikat informuje o tym, że jednostka produkty wyjściowego operacji nie zgadza się z jednostką podaną w operacji w normach czasowych. Wejdź w edycję operacji w zakładce drzewo i w uruchomionym oknie w zakładce <a href="/normy-czasowe">Normy czasowe</a> popraw jednostkę przy polu <em>Dla produkcji w jednym cyklu</em></p>
+  </li>
+  <li><strong>“Produkt wyjściowy końcowej operacji, musi być taki sam jak produkt dla którego zdefiniowano technologię.”</strong> –&gt; oznacza to, że produkt wyjściowy najwyższej operacji w drzewie nie zgadza się z produktem, dla którego technologie budujesz (uzupełniony w zakładce Główna). Ustal, który z tych produktów jest prawidłowy i popraw dane. Jeśli będziesz poprawiać produkt w zakładce Główna, to zwróć uwagę, że na jego podstawie został nadany numer i nazwa. Zmiana produktu tych danych nie zmieni. Zatem polecam najpierw wyczyścić numer i nazwę, a dopiero wybrać nowy produkt - numer i nazwa zostaną na nowo określone.</li>
+</ol>
+
+<p>Jeśli mamy pewność wprowadzonych danych możemy od razu nadać jej status <img class="inline" src="images/startIcon24.png" alt="Akceptacja" />
+ <strong>Zaakceptowana</strong>. Tylko zaakceptowane technologie mogą zostać użyte w zleceniu produkcyjnym.</p>
+
+<p>Więcej o <a href="/statusy-technologii">Stanach technologii</a></p>
+
+<div class="bs-callout bs-callout-warning">Wprowadzając produkty należy pamiętać, że produkt wyjściowy w operacji podrzędnej musi być użyty w kolejnej operacji jako jeden z produktów wejściowych. Aby przyspieszyć definiowanie, wprowadź produkty będące efektami operacji w drzewie i użyj przycisku <strong>Przenieś produkty do kolejnych operacji</strong>, a załączymy je jako produkty wejściowe do operacji kolejnych. Możesz też w <a href="/parametry-technologia">parametrach technologii</a> zaznaczyć parametr <em>Przenoś produkty do kolejnych operacji podczas sprawdzania technologii</em>, a za każdym razem przy sprawdzaniu technologii funkcja ta będzie wywoływana. </div>
+
+<div class="bs-callout bs-callout-warning">Z każdej operacji może powstać tylko jedna pozycja w polu “Produkt wyjściowy”. Jeśli wpiszemy tam więcej produktów, pozostałe zostaną potraktowane jako odpad.</div>
+
+<div class="bs-callout bs-callout-info">Może się zdarzyć, że na liście produktów nie będzie wszystkich komponentów potrzebnych do uzupełnienia produktów wejściowych i wyjściowych. Można je dopisać otwierając qcadoo w osobnym oknie przeglądarki i wchodząc ponownie w zakładkę <a href="/produkty">Produkty</a>.</div>
+
+<div class="bs-callout bs-callout-info">Kolejność operacji na drzewie technologii można modyfikować. Można także skopiować całe drzewo technologii z innej, wcześniej utworzonej. W tym celu należy skorzystać z funkcji dostępnych z menu wskazanego na powyższym obrazku (pkt. 1.). Po najechaniu kursorem na każdy przycisk, pojawi się dymek z objaśnieniem.</div>
+
+<h2 id="zakładka-historia">Zakładka “Historia”</h2>
+
+<p>W tej zakładce mamy podgląd wszystkich zmian ustawień technologii wraz z dokładną datą i nazwą użytkownika, który wprowadził modyfikację. Zakładka rejestruje edycję parametrów oraz zmiany statusów i stanów technologii.</p>
+
+<h2 id="zakładka-załączniki">Zakładka “Załączniki”</h2>
+
+<p>W tej zakładce możemy dodać załącznik do technologii, mogą to być przykładowo parametry stosowanych maszyn bądź instrukcje ich obsługi.</p>
+
+<h2 id="zakładka-struktura">Zakładka “Struktura”</h2>
+
+<figure><a target="_blank" href="images/technologie-technologia-struktura.png"><img src="images/technologie-technologia-struktura.png" alt="Struktura wyrobu" /></a><figcaption>Struktura wyrobu</figcaption></figure>
+
+<p>W tej zakładce dla sprawdzonych i zaakceptowanych technologii pojawia się struktura wyrobu, uwzględniająca wszystkie operacje i produkty wchodzące w skład wszystkich technologii tworzących ostateczny produkt. Zielonym kolorem zaznaczone są produkty będące komponentami - czyli posiadające własne technologie. Ich struktury pojawiają się w drzewie, nawet jeśli obecna technologia ma dodany tylko sam produkt-komponent.</p>
+
+<h2 id="zakładka-procesy">Zakładka “Procesy”</h2>
+
+<p>Zakładka <em>Procesy</em> umożliwia powiązanie stworzonej <a href="/listy-procesow">listy procesów technologicznych</a> z konkretną operacją w drzewie technologii. Możesz to uczynić w każdym momencie życia technologii - nawet, gdy jest już zaakceptowana. 
+Przypisanie listy procesów do technologii pozwoli na wygenerowanie procesów do zlecenia, a to z kolei umożliwi potwierdzanie ich wykonania z poziomu zlecenia produkcyjnego.</p>
+
+<figure><a target="_blank" href="images/technologieTechnologieProcesy.png"><img src="images/technologieTechnologieProcesy.png" alt="Zakładka Procesy w technologii" /></a><figcaption>Zakładka Procesy w technologii</figcaption></figure>
+
+<p>Aby przypisać listę procesów do operacji:</p>
+<ol>
+  <li>wejdż w technologii w zakładkę procesy</li>
+  <li>znajdź w tabeli z lewej strony okna (Operacje technologii) interesującą Cię operację i wejdź w jej szczegóły (klikając operację w tabeli)</li>
+  <li>wskaż listę procesów technologicznych - możesz wybrać tylko taką, która dotyczy danej operacji</li>
+  <li>zapisz</li>
+</ol>
+
+<p>W tabeli operacji uzupełniła się informacja o liście. Jeśli zaznaczysz tą operację w tabeli procesów będziesz mógł przejrzeć zdefiniowaną listę.</p>
+
+<h2 id="zakładka-minimalna-ilość">Zakładka “Minimalna ilość”</h2>
+
+<p>W tej zakładce wpisujemy minimalną ilość jaką opłaca się nam produkować. Jest to istotne z punktu widzenia Zlecenia produkcyjnego, ponieważ jeśli uruchomimy zlecenie na mniejszą ilość niż opłacalna, program poinformuje nas o tym, aby ostrzec przed popełnieniem ewentualnego błędu.</p>
+
+<hr />
+
+<p>Być może zainteresuje Cię też temat masowej zmiany technologii - opis znajdziejsz <a href="/masowa-zmiana-technologii">tutaj</a></p>
+:ET

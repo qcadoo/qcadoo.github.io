@@ -1,0 +1,20 @@
+I"g	<p>Zlecenie produkcyjne możesz podzielić na paczki - więcej o idei paczek przeczytasz <a href="/paczki-zlecenia">tutaj</a>.</p>
+
+<p>Z poziomu zlecenia produkcyjnego możesz zobaczyć na jakie paczki zostało podzielone. Wejdź w: <strong>planowanie &gt; planowanie zleceń</strong> i w konkretne zlecenia. Teraz kliknij przycisk: <img class="inline" src="images/przyciskPaczkiZlecenia.png" alt="Przycisk Paczki zlecenia" />
+ <strong>Paczki zlecenia</strong></p>
+
+<figure><a target="_blank" href="images/planowaniePlanowanieZlecenPaczki.png"><img src="images/planowaniePlanowanieZlecenPaczki.png" alt="Lista paczek w zleceniu" /></a><figcaption>Lista paczek w zleceniu</figcaption></figure>
+
+<p>Z tego poziomu możesz dodać paczkę ręcznie, klikając przycisk <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong>. Po opis dodawania odsyłam do <a href="/paczki-zlecenia">tej dokumentacji</a>.</p>
+
+<p>Z tego poziomu możemy też podzielić zlecenie na paczki korzystając z funkcji generowania. Ustaw najpierw <a href="/parametry-zlecen.html#paczki">parametry</a> - musi być zaznaczony parametr: <strong>Generuj paczki dla zleceń</strong> i musza być ustawione ilości: <strong>optymalna wielkość paczki</strong> i <strong>Reszta zasilająca ostatnią paczkę</strong>.</p>
+
+<p>Aby wywołać funkcję kliknij przycisk <img class="inline" src="images/przyciskWygenerujPaczki.png" alt="Przycisk Wygeneruj paczki" />
+ <strong>Wygeneruj paczki</strong>. Ilość zlecona zostanie podzielona na tyle paczek ile wynika z optymalnej wielości z parametrów. Pozostała reszta będzie albo przydzielona do ostatnio utworzonej paczki (jeśli będzie mniejsza lub równa podanej w parametrach reszty zasilającej ostatnią paczkę) albo zostanie do niej utworzona nowa paczka, z mniejszą ilością (jeśli będzie większa od podanej w parametrach reszty zasilającej ostatnią paczkę). Wygenerowane paczki możesz zmodyfikować - ale tak, by suma ilości z paczek nie przewyższała ilości zleconej.</p>
+
+<div class="bs-callout bs-callout-warning">Jeśli do zlecenia istnieje co najmniej 1 paczka, to nie można użyć funkcji generowania.</div>
+
+<p>Paczek nie musisz generować ręcznie. Możesz zostawić to qcadoo. Jeśli parametr <strong>Generuj paczki dla zleceń</strong> = tak to paczki zostaną utworzone w momencie rozpoczynania zlecenia.</p>
+
+:ET

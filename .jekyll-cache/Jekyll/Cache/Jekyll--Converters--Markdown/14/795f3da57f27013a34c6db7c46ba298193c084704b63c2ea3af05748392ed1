@@ -1,0 +1,33 @@
+I"<p>Dashboard to strona główna w qcadoo. Możesz, wchodząc w parametry &gt; parametry ogólne &gt; przycisk: dashboard, ustawić co ma być na nim widoczne.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryDashboard.png"><img src="images/administracjaParametryDashboard.png" alt="Parametry dashboardu" /></a><figcaption>Parametry dashboardu</figcaption></figure>
+
+<ol>
+  <li>
+    <p><strong>Pokaż wykres dziennej produkcji</strong> - zaznacz parametr, jeśli ma się pojawiać wykres kołowy, przedstawiający ilości do realizacji, w trakcierealizacji i wykonane danego dnia</p>
+  </li>
+  <li>
+    <p><strong>Widoczne</strong> - do wyboru:</p>
+    <ul>
+      <li><em>zlecenia produkcyjne</em></li>
+      <li><em>zadania operacyjne</em></li>
+    </ul>
+  </li>
+</ol>
+
+<p>Wskaż co chciałbyś widzieć w obszarze tematów do realizacji na dany dzień.</p>
+
+<ol start="3">
+  <li><strong>Parametry dodawania zleceń i zadań</strong> - ich wypełnienie jest niezbędne, gdy chcesz korzystać z szybkiego dodawania zleceń / zadań z dashboardu wraz z tworzeniem technologii w tle. Uzupełnij:
+    <ul>
+      <li><em>operacja</em> - pole będzie aktywne, gdy na dashboardzie będą widoczne zlecenia produkcyjne i zlecenia będą z niego dodawane. Zakładamy, że utworzymy dla Ciebie w tle jednooperacyjną technologię. Wskaż jaka operacja ma być w niej uzupełniona (jeśli używasz tej opcji, to zapewne nie interesuje Cię wyodrębnianie każdej czynności, jaka jest konieczna do realizacji w procesie produkcyjnym. Załóż <a href="/operacje">operację</a> bardzo ogólną, np. produkcja i ją podepnij w parametrach).</li>
+      <li><em>magazyn pobrania surowców</em> - wskaż z jakiego magazynu pobierasz surowce do produkcji. Uzupełnimy nim technologię, którą założymy do zlecenia dodawanego z dashboardu</li>
+      <li><em>magazyn przyjmowania wyrobów</em> - wskaż na jaki magazyn będziesz przyjmował wytworzone wyroby. Uzupełnimy nim technologię, którą założymy do zlecenia dodawanego z dashboardu</li>
+    </ul>
+  </li>
+</ol>
+
+<ol start="4">
+  <li><strong>Przyciski szybkiego wybierania</strong> - w tabeli znajdziesz listę przycisków, z których możesz wybrać maksymalnie 6. Pokażemy je na dashboardzie - dzięki temu szybko będziesz mógł przejść do ulubionych funkcjonalności. Wejdź do szczegółów danego przycisku (wiersza w tabeli) i zaznacz parametr <em>Widoczność</em>. Możesz ponadto ustawić kolejność prezentacji przycisków - zaznacz wiersz i przesuń w odpowiednie miejsce strzałką umieszczoną nad tabelą. Przyciski na dashboardzie umieszczone są w dwóch kolumnach, po 3 elementy (wypełniamy pierwszą kolumnę i przechodzimy dopiero do kolejnej - jeśli wybierzesz 4 elementy, to będziesz mieć 3 przyciski w lewej kolumnie i 1 w prawej).</li>
+</ol>
+:ET

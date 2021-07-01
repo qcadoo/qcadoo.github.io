@@ -1,0 +1,66 @@
+I"�<p>Jednym z podstawowych kwestii, które warto pilnować podczas produkcji, jest dostępność surowców. Ważne aby odpowiednio wcześniej zamówić produkty brakujące, by nie dopuścić do opóźnienia czy przestojów w pracy.</p>
+
+<p>Jeśli jesteś ciekawy jak ustalić co trzeba zamówić i przeprowadzić cały proces dostawy - przeczytaj opisany poniżej przykład.</p>
+
+<p>W qcadoo zawsze podstawą do analizy dostępnych do produkcji wyrobów są przede wszystkim:</p>
+<ul>
+  <li><a href="/planowanie-zlecen">otwarte zlecenia produkcyjne</a></li>
+</ul>
+
+<figure><a target="_blank" href="images/procesyZamowienieSurowcowListaZlecen.png"><img src="images/procesyZamowienieSurowcowListaZlecen.png" alt="Lista otwartych zleceń produkcyjnych" /></a><figcaption>Lista otwartych zleceń produkcyjnych</figcaption></figure>
+
+<ul>
+  <li><a href="/stany-magazynow">aktualny stan magazynowy</a></li>
+</ul>
+
+<figure><a target="_blank" href="images/procesyZamowienieSurowcowStanMag.png"><img src="images/procesyZamowienieSurowcowStanMag.png" alt="Aktualny stan magazynowy" /></a><figcaption>Aktualny stan magazynowy</figcaption></figure>
+
+<p>Planista wprowadził zlecenia produkcyjne, które będziecie w najbliższym czasie realizować. Osoba odpowiedzialna za magazyn lub za zaopatrzenie, dzięki funkcji <a href="/pokrycie-zapotrzebowania">pokrycia zapotrzebowania</a> jest w stanie ustalić <strong>jakie produkty muszą znależć się na magazynie i w jakim momencie, aby móc uruchomić produkcję</strong>.</p>
+
+<figure><a target="_blank" href="images/procesyZamowienieSurowcowPokrycie.png"><img src="images/procesyZamowienieSurowcowPokrycie.png" alt="Ustawienia pokrycia zapotrzebowania" /></a><figcaption>Ustawienia pokrycia zapotrzebowania</figcaption></figure>
+
+<p>W pokryciu zapotrzebowania wprowadź zakres czasowy, z jakiego chcesz pobrać zlecenia (bo przecież zamawianie surowców w maju pod zlecenie w grudniu nie jest najlepszym pomysłem) oraz na jakich magazynach mają być zbadane stany magazynowe. Po wywołaniu funkcji generowania, pokażemy wszystkie produkty wejściowe uczestniczące w zleceniach z danego okresu i pokażemy przy każdym <strong>czy będzie dostępny, czy też nie</strong>.</p>
+
+<figure><a target="_blank" href="images/procesyZamowienieSurowcowPokrycieDane.png"><img src="images/procesyZamowienieSurowcowPokrycieDane.png" alt="Produkty niezbędne do produkcji" /></a><figcaption>Produkty niezbędne do produkcji</figcaption></figure>
+
+<p>Pamiętaj, że możesz dla każdego produktu przeprowadzić analizę szczegółową - np. po to by ustalić w jakim momencie produktu zabraknie. W tym celu wystarczy wejść w podlinkowany w tabeli produkt.</p>
+
+<figure><a target="_blank" href="images/procesyZamowienieSurowcowPokrycieDaneSzczegoly.png"><img src="images/procesyZamowienieSurowcowPokrycieDaneSzczegoly.png" alt="Szczegóły dotyczące pokrycia zapotrzebowania danego produktu" /></a><figcaption>Szczegóły dotyczące pokrycia zapotrzebowania danego produktu</figcaption></figure>
+
+<p>Kolumna stan mówi, że jersey waniliowy skończy się 10 czerwca 2019 r., na etapie realizacji zlecenia 000002.</p>
+
+<p>Jak widać - pokrycie zapotrzebowania podpowie Ci też od jakiego <a href="/firmy">dostawcy</a> zamawiasz produkty. To co? Chyba <strong>trzeba złożyć zamówienie</strong>. Polecam skorzystać z <a href="/dostawy.html#generowanie-dostaw-z-poziomu-pokrycia-zapotrzebowania">funkcji tworzenia dostaw do produktów z pokrycia</a> - zaznacz produkty, które chcesz zamówić i kliknij przycisk Utwórz dostawę:</p>
+
+<figure><a target="_blank" href="images/procesyZamowienieSurowcowPokrycieUtworzDostawe.png"><img src="images/procesyZamowienieSurowcowPokrycieUtworzDostawe.png" alt="Tworzenie dostawy z poziomu pokrycia zapotrzebowania" /></a><figcaption>Tworzenie dostawy z poziomu pokrycia zapotrzebowania</figcaption></figure>
+
+<p>I w ten sposób w bardzo szybki sposób <strong>utworzyłeś <a href="/dostawy">dostawę</a></strong>, czyli zamówienie zakupu:</p>
+
+<figure><a target="_blank" href="images/procesyZamowienieSurowcowDostawaGlowna.png"><img src="images/procesyZamowienieSurowcowDostawaGlowna.png" alt="Utworzona dostawa" /></a><figcaption>Utworzona dostawa</figcaption></figure>
+
+<p>Na liście zamówionych produktów widoczne są wszystkie te, które zaznaczyłeś w pokryciu zapotrzebowania. Ilość została uzupełniona na podstawie ilości brakującej. Oczywiście możesz całość zmodyfikować.</p>
+
+<figure><a target="_blank" href="images/procesyZamowienieSurowcowDostawaZamowioneProdukty.png"><img src="images/procesyZamowienieSurowcowDostawaZamowioneProdukty.png" alt="Zamówione produkty w utworzonej dostawie" /></a><figcaption>Zamówione produkty w utworzonej dostawie</figcaption></figure>
+
+<p>Uzupełnij dostawę - podaj na jaki magazyn produkty będą przyjmowane i jaki jest spodziewany termin realizacji. Możesz wskazać ceny, czy dodatkowe opisy. Jeśli uzyskasz kształ ostateczny - przygotuj ją lub potwierdź (czym się różni? Jeśli jesteś umówiony z dostawcą, że każdorazowo potwierdza on realizację, ustaw status przygotowane, a potwierdzone dopiero po jego uzyskaniu od kontrahenta. Jeśli dostawca realizuje każde otrzymane zamówienie - możesz od razu ustawić status potwierdzone), wygeneruj PDF:</p>
+
+<figure><a target="_blank" href="images/procesyZamowienieSurowcowDostawaWydruk.png"><img src="images/procesyZamowienieSurowcowDostawaWydruk.png" alt="Wydruk w PDF zamówienia do dostawcy" /></a><figcaption>Wydruk w PDF zamówienia do dostawcy</figcaption></figure>
+
+<p>i <strong>wyślij do dostawcy</strong>.</p>
+
+<p>Teraz pozostaje Ci czekać. Gdy nadejdzie dzień dostawy zapewne sprawadzisz z listą zamówionych produktów czy wszystko się zgadza. I <strong>przyjmiesz produkty na magazyn</strong>. Ale oczywiście nie ręcznie - za dużo czasu by Ci to zajęło. Wykorzystaj mechanizmy <a href="dostawy.html#odbiór-dostawy">odbioru</a>, wbudowane do dostawy. Kliknij skopiuj proudkty zamówione do odebranych z ilością i ceną. Tabela dostarczonych produktów się uzupełni:</p>
+
+<figure><a target="_blank" href="images/procesyZamowienieSurowcowDostawaOdebraneProdukty.png"><img src="images/procesyZamowienieSurowcowDostawaOdebraneProdukty.png" alt="Produkty odebrane z dostawy" /></a><figcaption>Produkty odebrane z dostawy</figcaption></figure>
+
+<p>Jeśli wszystko przyszło zgodnie z zamówieniem - wystarczy, że teraz dostawę odbierzesz. Jeśli coś się nie zgadza - popraw w odebranym produkcie ilość czy cenę. Możesz też wskazać czy jakieś produkty były wadliwe. I dopiero teraz odebrać.</p>
+
+<p>Odbiór dostawy od razu utworzy zaakceptowany <a href="/dokumenty">dokument PZ</a>.</p>
+
+<figure><a target="_blank" href="images/procesyZamowienieSurowcowDokumentPZ.png"><img src="images/procesyZamowienieSurowcowDokumentPZ.png" alt="Dokument PZ przyjmujący produkty na stan" /></a><figcaption>Dokument PZ przyjmujący produkty na stan</figcaption></figure>
+
+<p>I <strong>stan magazynowy zostanie odpowiednio zwiększony</strong>. Jeśli teraz wykonasz ponownie pokrycie zapotrzebowania zobaczysz, że przyjęta dostawa została uwzględniona - możemy zacząć produkować: stan tkanin jest już wystarczający.</p>
+
+<figure><a target="_blank" href="images/procesyZamowienieSurowcowPokryciePoOdbiorzeDostawy.png"><img src="images/procesyZamowienieSurowcowPokryciePoOdbiorzeDostawy.png" alt="Pokrycie zapotrzebowania po odbiorze dostawy" /></a><figcaption>Pokrycie zapotrzebowania po odbiorze dostawy</figcaption></figure>
+
+<p>Już wiesz jak zadbać o dostępność surowców do produkcji, prawda?</p>
+
+:ET

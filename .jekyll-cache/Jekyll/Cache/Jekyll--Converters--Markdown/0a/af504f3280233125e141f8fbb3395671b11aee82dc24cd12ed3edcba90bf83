@@ -1,0 +1,83 @@
+I"�<p>Dodawanie zlecenia produkcyjnego z poziomu dashboardu jest dedykowane dla użytkowników z nieskomplikowaną produkcją. Jeśli interesuje Cię zlecenie jako całość, bez wyróżniania poszczególnych czynności do wykonania i nie potrzebujesz mechanizmów wyliczających czas trwania zlecenia, możesz w ten sposób tworzyć plany produkcyjne.</p>
+
+<p>Tworząc ten sposób pracy myśleliśmy też o użytkownikach rozpoczynających przygotę z qcadoo. Chcesz zacząć szybko rejestrować produkcję i nie bardzo wiesz od czego zacząć? Docelowo planujesz rozpoznać dostępne w qcadoo funkcjonalności i pewnie z nich korzystać w pełni, ale na początek wystarczy, że zlecenie zostanie utworzone i pracownik będzie wiedział co zrobić i do czego zaraportować produkcję? Zacznij od dashboardu. Nie będziesz musiał błądzić po menu - w kilku krokach powiemy Ci w jaki sposób zaplanować produkcję.
+<br />
+<br /></p>
+
+<p>Jakie są atuty tworzenia zlecenia z poziomu dashboardu?</p>
+<ol>
+  <li><strong>przejrzystość</strong> - przechodzisz ekran po ekranie i wypełniasz wszystkie dane, które pozwalają na istnienie zlecenia.</li>
+  <li><strong>kompleksowość</strong> - nie musisz najpierw tworzyć produktów. Później technologii. I dopiero później w innym miejscu - zlecenia produkcyjnego. Możesz wszystko na raz stworzyć przechodząc tych kilka kroków, o których poczytasz niżej.</li>
+  <li><strong>szybkość</strong> - nie tracisz czasu na definiowanie danych w kilku miejscach w qcadoo. Możesz dodać zlecenie w kilkanaście sekund z poziomu dashboardu.</li>
+</ol>
+
+<p>Zanim zaczniesz dodawać z dashboardu zlecenie produkcyjne razem z technologią ustaw następujące parametry:</p>
+<ul>
+  <li><a href="/parametry-dashboard">parametry dashboardu</a> - wskaż operację, która ma być podpięta do drzewa technologicznego oraz magazyny, które będą uczestniczyły w procesie (musimy wiedzieć skąd chcesz pobierać surowce do produkcji i gdzie chcesz składować wytworzone wyroby)</li>
+  <li><a href="/parametry-technologia">parametry technologii</a> - zaznacz <em>Uzupełniaj magazyny dla produktów w przepływie podczas sprawdzania technologii</em>. Dzięki temu technologia będzie mogła być zaakceptowana z automatu.</li>
+</ul>
+
+<p>Teraz możesz zacząć! Kliknij przycisk: <img class="inline" src="images/przyciskDodajZlecenie.png" alt="Przycisk Dodaj zlecenie" />
+ <strong>Dodaj zlecenie</strong></p>
+
+<figure><a target="_blank" href="images/dashboardDodajZlecenie1.png"><img src="images/dashboardDodajZlecenie1.png" alt="Formularz dodawania zlecenia produkcyjnego" /></a><figcaption>Pierwszy krok dodawania zlecenia produkcyjnego z dashboardu - co chcesz produkować?</figcaption></figure>
+
+<p>Podaj:</p>
+<ul>
+  <li><strong>produkt</strong>, który chcesz wyprodukować. Nie znalazłeś go na liście? Kliknij przycisk <img class="inline" src="images/przyciskZdefiniujNowyProdukt.png" alt="Przycisk Dodaj produkt" />
+ <strong>Zdefiniuj nowy produkt</strong> i podaj jego numer, nazwę i jednostkę</li>
+  <li><strong>ilość</strong>, którą należy wyprodukować.
+<br />
+<br /></li>
+</ul>
+
+<p>Możesz ponadto zamieścić dodatkowe informacje uszczegóławiające zlecenie w polu Opis. Jeśli masz zdefiniowaną technologię wskaż ją (co więcej - jeśli istnieje technologia domyślna, to się podpowie i nie musisz o tym pamiętać). A jeśli nie - przejdź dalej klikając w przycisk <img class="inline" src="images/przyciskDalejDashboard.png" alt="Przycisk Dalej" />
+ <strong>Dalej</strong></p>
+
+<div class="bs-callout bs-callout-warning">Jeśli raz dodasz zlecenie produkcyjne na dany produkt z dashboardu, to przy kolejnym zlecaniu technologia będzie już istniała, podpowie się na ekranie 1. i kolejne dane zostaną z niej uzupełnione. A zatem - będzie jeszcze szybciej!</div>
+
+<figure><a target="_blank" href="images/dashboardDodajZlecenie2.png"><img src="images/dashboardDodajZlecenie2.png" alt="Formularz dodawania zlecenia produkcyjnego" /></a><figcaption>Drugi krok dodawania zlecenia produkcyjnego z dashboardu - gdzie i kiedy chcesz produkować?</figcaption></figure>
+
+<p>Uzupełnij:</p>
+<ul>
+  <li><strong>linię produkcyjną</strong> - podpowie się z parametrów. Jeśli to zlecenie będziesz realizować w innym miejscu - zmień na właściwą. Jeśli nie znalazłeś na liście tej odpowiedniej, kliknij w przycisk <img class="inline" src="images/przyciskDodajLinieProdukcyjna.png" alt="Przycisk Dodaj linię produkcyjną" />
+ <strong>Dodaj linię produkcyjną</strong> i podaj numer i nazwę linii, na której chcesz produkować,</li>
+  <li><strong>datę rozpoczęcia zlecenia</strong>,</li>
+  <li><strong>datę zakończenia zlecenia</strong>.
+<br />
+<br /></li>
+</ul>
+
+<p>I przejdź dalej znowu klikając w przycisk <img class="inline" src="images/przyciskDalejDashboard.png" alt="Przycisk Dalej" />
+ <strong>Dalej</strong>.</p>
+
+<div class="bs-callout bs-callout-warning">Jeśli chcesz zmodyfikować dane podane wcześciej użyj przycisk Wstecz by powrócić do poprzednich kroków.</div>
+
+<p>Kolejny krok to określenie z czego będziesz produkować. Zacznij od przycisku <img class="inline" src="images/przyciskDodajSurowiec.png" alt="Przycisk Dodaj surowiec" />
+ <strong>Dodaj surowiec</strong>. Do tabeli zostanie dodany wiersz, w którym musisz wypełnić następujące dane:</p>
+<ul>
+  <li><strong>surowiec</strong> - na dwa sposoby: jeśli dodałeś go wcześniej do qcadoo, wybierz z listy używając przycisku <img class="inline" src="images/przyciskLupkaDashboard.png" alt="Przycisk Lupka" />
+ <strong>Szukaj</strong>. Jeśli natomiast nie znalazłeś interesującego Cię produktu dodaj go używając przycisku <img class="inline" src="images/przyciskDodajDashboard.png" alt="Przycisk Plus" />
+ <strong>Dodaj</strong> i nadając mu numer, nazwę i jednostkę</li>
+  <li><strong>ilość zużywana</strong> - czyli podaj ile surowca musisz użyć aby wyprodukować zleconą ilość wyrobu</li>
+  <li><strong>ilość na jednostkę</strong> - podpowiemy tutaj ile jednostek surowca trzeba zużyć aby wytworzyć 1 jednostkę wyboru. Po co? Wraz ze zleceniem utworzymy technologię. Ale technologia będzie utworzona na 1 jednostkę wyrobu. Dzięki temu będziesz mógł zlecać ten produkt w dowolnych ilościach w późniejszym terminie</li>
+</ul>
+
+<p>W taki sam sposób podaj pozostałe produkty, które w procesie produkcyjnym będą zużywane. Jeśli się pomyliłeś - zaznacz wiersz z surowcem (kwadrat z lewej strony tabeli) i usuń go, wykorzystując przycisk <img class="inline" src="images/przyciskUsunSurowiec.png" alt="Przycisk Usuń surowiec" />
+ <strong>Usuń surowiec</strong></p>
+
+<div class="bs-callout bs-callout-warning">Jeśli w pierwszym kroku wypełniłeś technologię, to tabela ta będzie wypełniona. Aby zmodyfikować jej zawartość usuń wiersz i dodaj kolejny.</div>
+
+<p>Po kliknięciu <img class="inline" src="images/przyciskDalejDashboard.png" alt="Przycisk Dalej" />
+ <strong>Dalej</strong> przejdziesz do ostatniego kroku: Podsumowania wprowadzonych do zlecenia danych.</p>
+
+<figure><a target="_blank" href="images/dashboardDodajZlecenie4.png"><img src="images/dashboardDodajZlecenie4.png" alt="Formularz dodawania zlecenia produkcyjnego" /></a><figcaption>Czwarty krok dodawania zlecenia produkcyjnego z dashboardu - podsumowanie danych</figcaption></figure>
+
+<p>Sprawdź, czy wszystko jest tak jak należy (jeśli nie: wróć do odpowiednich ekranów i popraw dane). I potwierdź utworzenie zlecenia klikajac przycisk <img class="inline" src="images/przyciskZapiszIAkceptuj.png" alt="Przycisk Zapisz i akceptuj" />
+ <strong>Zapisz i akceptuj</strong>.</p>
+
+<p>I gotowe. Zlecenie utworzone - pojawi się ono w obszarze zleceń oczekujących na dashboardzie, więc możesz od razu przeciągnąć je do obszaru Realizowane i przejść do terminala aby zarejestrować produkcję.</p>
+
+<p><span style="color:red"> Ważne jest też to, że przy okazji dodawania zlecenia wprowadzasz produkty i technologie, które przy kolejnym zlecaniu będą już istniały i będziesz mógł je wykorzystać, zatem tworzenie zlecenia będzie jeszcze szybsze.</span></p>
+
+:ET

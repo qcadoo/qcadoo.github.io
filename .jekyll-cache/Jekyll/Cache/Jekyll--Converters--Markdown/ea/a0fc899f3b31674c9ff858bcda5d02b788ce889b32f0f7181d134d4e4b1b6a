@@ -1,0 +1,17 @@
+I"B<p>Strukturę firmy w qcadoo tworzą:</p>
+<ul>
+  <li>zakład</li>
+  <li><a href="/dzialy">działy</a></li>
+  <li><a href="/linie-produkcyjne">linie produkcyjne</a></li>
+  <li><a href="/stacje-robocze">stacje robocze</a></li>
+  <li>podzespoły</li>
+</ul>
+
+<p>Struktura firmy wykorzystywana będzie w całości w dziale utrzymania ruchu - będziesz mógł tam zaplanować konieczne do wykonania przeglądy czy remonty, z dokładnością do najdrobniejszego elementu używanego w Twojej firmie.</p>
+
+<p>Jednak strukturę firmy należy zdefiniować też pod kątem planowania zleceń produkcyjnych w qcadoo i raportowania realizacji. qcadoo proponuje podział struktury na wymienione wyżej elementy. Jednak nie traktuj tego jako sztywny podział. Linia produkcyjna wcale nie musi być linią produkcyjną - zdefiniuj na tym poziomie ten obszar Twojej firmy, z dokładnością do którego planujesz zlecenia produkcyjne. Jeśli zlecenia planujesz na dział - zdefiniuj dział jako linia produkcyjna (możesz wówczas powtórzyć działy w struktura firmy &gt; działy i w struktura firmy &gt; linie produkcyjne). I stacj roboczych pod kątem planowania nie musisz już wprowadzać.</p>
+
+<p>Jeśli jednak zależy Ci na planowaniu każdej operacji do wykonania (wykorzystując <a href="/plan-na-stacje-robocza-i-pracownika">plan na stację roboczą i pracownika</a>) to ten obszar, na który będziesz planować operacje zdefiniuj jako stacje robocze. W tej sytuacji musisz wprowadzić jedną linię - aby przypisywać do niej zlecenia. Dla Ciebie nie będzie miała ona znaczenia, ale qcadoo wymaga podania linii w zleceniu produkcyjnym.</p>
+
+<p>Pamiętaj o przypisaniu odpowiednich działów, linii i stacji w technologii w <a href="/technologie-szczegoly.html#zasięg-technologii">zasięgu</a> –&gt; dzięki temu będą się podpowiadać przy planowaniu.</p>
+:ET

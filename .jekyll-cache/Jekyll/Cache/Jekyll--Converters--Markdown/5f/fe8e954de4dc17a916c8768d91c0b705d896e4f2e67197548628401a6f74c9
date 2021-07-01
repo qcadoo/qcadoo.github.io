@@ -1,0 +1,101 @@
+I"�(<p>Twój zakład produkcyjny zapewne ma wydzielone działy produkcyjne, a wykorzystywane maszyny czy stanowiska robocze są zgrupowane w gniazda czy linie produkcyjne. Podział ten możesz wprowadzić do programu tworząc zbudowaną w formie drzewa <a href="/struktura-firmy">strukturę zakładu</a>.</p>
+
+<p>W strukturze najważniejsze są te elementy, na które będzie planowana produkcja. qcadoo pozwala na dwa podstawowe kierunki planowania:</p>
+<ol>
+  <li><strong>planowane są całe zlecenia</strong> - <em>wówczas najważniejszym elementem jest linia produkcyjna</em>. Zdefiniuj zakłady, działy i linie prodykcyjne. Jeśli całe zlecenie wykonywane jest na jednej maszynie - jako linie wprowadź swoje maszyny. W tym podejściu stacje robocze nie muszą być uzupełnione. Nie będą one brane pod uwagę przy planowaniu. Możesz je zdefiniować tylko dla celów działu utrzymania ruchu.</li>
+  <li><strong>planowane są konkretne operacje zlecenia</strong> - <em>wówczas najważniejszym elementem jest stacja robocza</em>. Zdefiniuj zakłady, działy i stacje robocze. Linia produkcyjna musi być jedna (trzeba przypisać ją do każdego z działów i wszystkie stacje będą przypisane do tej linii) - qcadoo jej potrzebuje w zleceniu produkcyjnym. Ale to nie linia będzie wykonywać operacje. Poszczególne stacje robocze będą przypisywane do zadań operacyjnych i to one będą realizować produkcję.</li>
+</ol>
+
+<p>Elementy organizacji firmy znajdziesz w menu: <strong>Struktura firmy</strong>.</p>
+
+<h2 id="zakład">Zakład</h2>
+
+<p>Zacznij od zakładu. Wybierz <strong>Struktura firmy &gt; Zakłady</strong> i kliknij przycisk <img class="inline" src="images/dodaj%20nowy.png" alt="Dodaj nowy" />
+ <strong>Dodaj nowy</strong>.</p>
+
+<figure><a target="_blank" href="images/Krok3Zaklad.png"><img src="images/Krok3Zaklad.png" alt="Dodawanie zakładu" /></a><figcaption>Dodawanie zakładu</figcaption></figure>
+
+<p>Koniecznie podaj <strong>numer</strong> i <strong>nazwę</strong> i to są jedyne niezbędne do wypełnienia dane (i taka podpowiedź: dane wymagane w systemie oznaczone są <strong>pogrubioną czcionką</strong>. Warto tą zasadę zapamiętać - będzie pomocna w pracy w programie).</p>
+
+<h2 id="działy">Działy</h2>
+
+<p>Następnie wprowadź <a href="/dzialy">działy</a>. Wybierz <strong>Struktura firmy &gt; Działy</strong> i kliknij przycisk <img class="inline" src="images/dodaj%20nowy.png" alt="Dodaj nowy" />
+ <strong>Dodaj nowy</strong>.</p>
+
+<figure><a target="_blank" href="images/krok3Dzial.png"><img src="images/krok3Dzial.png" alt="Dodawanie działu" /></a><figcaption>Dodawanie działu</figcaption></figure>
+
+<p>Podaj <strong>numer</strong> i <strong>nazwę</strong> i wskaż w jakim <strong>zakładzie</strong> dział leży.</p>
+
+<p>Do działów wrócimy jeszcze, aby odpowiednio przypisać do nich linie i stacje robocze - ale o tym w dalszej części opisu struktury zakładu.</p>
+
+<p>Kolejnym krokiem jest wprowadzenie linii.</p>
+
+<h2 id="linie-produkcyjne">Linie produkcyjne</h2>
+
+<p>Pamiętaj o informacjach z początku strony - linie produkcyjne mają dla Ciebie znaczenie, tylko gdy chcesz planować całe zlecenia (czyli nie są dla Ciebie istotne kroki, które trzeba wykonać - ważny jest dla Ciebie efekt w postaci wyprodukowanego wyrobu). Jeśli będziesz planować operacje na maszyny wprowadź tutaj jedną linię i przejdź od razu do stacji roboczych.</p>
+
+<p>Aby wprowadzić <a href="/linie-produkcyjne">linię produkcyjną</a> wejdź w <strong>struktura firmy &gt; linie produkcyjne</strong> i kliknij przycisk <img class="inline" src="images/dodaj%20nowy.png" alt="Dodaj nowy" />
+ <strong>Dodaj nowy</strong>.</p>
+
+<figure><a target="_blank" href="images/krok4Linie.png"><img src="images/krok4Linie.png" alt="Dodawanie linii produkcyjnych" /></a><figcaption>Dodawanie linii produkcyjnych</figcaption></figure>
+
+<p>Potraktuj linię produkcyjną jako ten obszar, na który chcesz planować zlecenia produkcyjne. Jeśli zlecasz produkcję z dokładnością do działu - wprowadź jako linie te działy właśnie (wówczas albo powtórz to samo w działach i liniach, albo zdefiniuj jeden dział ogólny). Jeśli chcesz planować z dokładnością do gniazda - wprowadź jako linię te gniazda. Jeśli całe zlecenie planujesz na jedną maszynę - niech linia będzie maszyną. Linia - to tylko nazwa w systemie. To Ty decydujesz, co pod nią będzie się faktycznie kryło. Zlecenie produkcyjne ma przypisanie do linii - i na linie będziesz mógł je układać na wykresie Gantta.</p>
+
+<p>Linia produkcyjna wymaga podania <strong>numeru</strong> i <strong>nazwy</strong>. Dodatkowo możesz dodać dodatkowy opis, podpiąć dokumentację do danej linii, czy określić miejsce w zakładzie, które zajmuje dana linia (miejsca są do zdefiniowania w słownikach). Wskaż w zakładce <strong>kalendarz</strong> na jakich zmianach będzie pracować dana linia. Ponadto możesz już na tym etapie przypisać ją do działu i w zakładce Stacje robocze podpiąć maszyny czy stanowiska znajdujące się w danej linii - jednak za chwilę pokażemy Ci jak całe drzewo struktury zakładu zbudować z poziomu działu - zatem możesz się z tym jeszcze wstrzymać.</p>
+
+<div class="bs-callout bs-callout-warning">Linia produkcyjna jest bardzo ważnym elementem w programie - zlecenia produkcyjne wymagają podania na jakiej linii będą wykonywane.</div>
+
+<p>Wszelkie operacje w procesie produkcyjnym są wykonywane na maszynach lub stanowiskach zgromadzonych na danej linii produkcyjnej. Oprócz zdefiniowania konkretnych jednostkowych stacji roboczych, qcadoo MES umożliwia wprowadzenie <strong>typu stacji roboczych</strong>, dla pogrupowania wszystkich maszyn pakujących czy wszystkich frezarek wykorzystywanych w firmie. Dana stacja robocza musi mieć określony swój typ, dlatego wprowadź teraz typy stacji roboczej.</p>
+
+<h2 id="typy-stacji-roboczych">Typy stacji roboczych</h2>
+
+<p>Uruchom: <strong>Struktura firmy &gt; Typy stacji roboczych</strong>. Kliknij przycisk <img class="inline" src="images/dodaj%20nowy.png" alt="Dodaj nowy" />
+ <strong>Dodaj nowy</strong>.</p>
+
+<figure><a target="_blank" href="images/krok3TypyStacji.png"><img src="images/krok3TypyStacji.png" alt="Dodawanie typów stacji roboczych" /></a><figcaption>Dodawanie typów stacji roboczych</figcaption></figure>
+
+<p>W uruchomionym oknie podaj <strong>nazwę</strong> i <strong>numer</strong> oraz ewentualny <strong>opis</strong>.</p>
+
+<p>Już teraz jesteś gotowy do zdefiniowania najbardziej elementarnych składowych struktury zakładu - <strong>stacji roboczych</strong>. W qcadoo MES stacjami roboczymi są wszystkie maszyny i wszystkie stanowiska produkcyjne zlokalizowane w zakładzie, na których prowadzone są operacje procesu produkcyjnego.</p>
+
+<h2 id="stacje-robocze">Stacje robocze</h2>
+
+<p>W menu <strong>Struktura firmy</strong> wejdź w <strong>Stacje robocze</strong> i kliknij przycisk <img class="inline" src="images/dodaj%20nowy.png" alt="Dodaj nowy" />
+ <strong>Dodaj nowy</strong>.</p>
+
+<figure><a target="_blank" href="images/krok3Stacje.png"><img src="images/krok3Stacje.png" alt="Dodawanie stacji roboczych" /></a><figcaption>Dodawanie stacji roboczych</figcaption></figure>
+
+<p>W oknie konieczne jest podanie unikalnego <strong>numeru</strong> , <strong>nazwy</strong> oraz <strong>typu stacji roboczej</strong>. Możesz również już teraz określić linię produkcyjną, na której stacja jest umiejscowiona. Szczegółowy opis stacji roboczych znajdziejsz <a href="/stacje-robocze">tutaj</a>.</p>
+
+<p>Zdefiniowałeś wszystkie elementy - możesz je teraz powiązać ze sobą w drzewiastą strukturę zakładu. Najłatwiej uczynisz to z poziomu <strong>działu produkcyjnego</strong>.</p>
+
+<figure><a target="_blank" href="images/dzialy_linie.png"><img src="images/dzialy_linie.png" alt="Dział" /></a><figcaption>Linie i stacje robocze przypisane do działu</figcaption></figure>
+
+<p>W danym dziale w zakładce Linie produkcyjne dodaj wszystkie <strong>linie</strong> , które w danym dziale się znajdują. Następnie do linii możesz dodać jej <strong>stacje robocze</strong> (po kliknięciu w daną linię produkcyjną w tabeli z prawej części okna uaktywni się przycisk dodawania).</p>
+
+<h2 id="struktura-firmy">Struktura firmy</h2>
+
+<p>W ten sposób stworzysz drzewiastą strukturę zakładu tego typu:</p>
+<figure><a target="_blank" href="images/struktura.png"><img src="images/struktura.png" alt="Struktura firmy" /></a><figcaption>Struktura firmy</figcaption></figure>
+
+<p>Zdefiniowane elementy struktury zakładu będziesz mógł przypisać do pojedynczych operacji technologii w zakładce Zasięg w technologii. Szczegółów dowiesz się podczas zaznajamiania się z <a href="/krok-4-technologie">krokiem 5. - technologie</a>.</p>
+
+<figure class="float-right "><a target="_blank" href="images/dzialy_magazyny.png"><img src="images/dzialy_magazyny.png" alt="Magazynu działu" class="percent90 " /></a><figcaption>Magazyny przypisane do działu</figcaption></figure>
+
+<p>Dodatkowo do działu możesz, w zakładce <strong>Magazyny</strong> , określić:</p>
+<ul>
+  <li>z jakiego magazynu będą pobierane surowce,</li>
+  <li>czy i na jaki magazyn będą rozchodowane surowce przesunięte na magazyn działowy (pobierania surowców), ale nie zużyte w produkcji,</li>
+  <li>czy produkcja w toku będzie rejestrowana na magazynie czy będzie przechodziła płynnie w ramach procesu produkcyjnego,</li>
+  <li>na jaki magazyn będą przyjmowane wytworzone wyroby.</li>
+</ul>
+
+<p>Wprowadzone magazyny program traktuje jako wartości domyślne. Będą one się podpowiadać podczas tworzenia technologii w zakładce Przepływy, ale będą mogły zostać przez Ciebie zmienione na dowolnie inne. Ale o tym dowiesz się w <a href="/krok-4-technologie">kroku 5. - opisującym zakładanie technologii</a>.</p>
+
+<div class="bs-callout bs-callout-info">Zdefiniowanie struktury zakładu jest pomocne, ale nie jest konieczne. Jeśli nie masz potrzeby rozplanowywania zadań ze wskazaniem na miejsce wykonywanych czynności, to możesz w tym kroku zdefiniować jedynie jedną linię produkcyjną, na którą zlecane będą wszystkie prace.</div>
+
+<p>Możesz teraz przejść do:</p>
+
+<p><strong>Krok 4/11: <a href="/krok-3-operacje">Wprowadź operacje jakie wykonywane są na Twojej hali produkcyjnej.</a></strong></p>
+
+:ET

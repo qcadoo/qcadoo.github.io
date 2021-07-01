@@ -1,0 +1,71 @@
+I"3<p>Operacje gromadzą opisy wszystkich prac realizowanych na produkcji, wykonywanych zarówno przy udziale maszyn jak i przez samych pracowników. Operacje wprowadzamy oddzielnie, definiując dla każdej czasy i koszty ich wykonania. To tutaj możemy także określić informacje jakie chcemy mieć zawarte na kartach pracy.</p>
+
+<h2 id="dodawanie-nowej-operacji">Dodawanie nowej operacji</h2>
+
+<figure class="float-right "><a target="_blank" href="images/technologie-operacja-główna.png"><img src="images/technologie-operacja-główna.png" alt="Formularz operacji" class="percent90 " /></a><figcaption>Formularz operacji</figcaption></figure>
+
+<p>Aby dodać nową operację wybierz: <strong>TECHNOLOGIE &gt; Operacje</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong> i uzupejnij koniecznie - <strong>numer</strong> i <strong>nazwę</strong>. Pamiętaj, że numer nie musi być liczbą - może to być skrótowa nazwa operacji, jedno słowo, po którym pracownicy będą wiedzieli co jest do wykonania</p>
+
+<p>Ponadto możesz uzupełnić:</p>
+<ul>
+  <li><strong>opis</strong> - jeśli chcesz zostawić szczegółowe informacje odnośnie sposobu wykonania czynności</li>
+  <li><strong>załącznik</strong> np. plik graficzny z instrukcją obsługi maszyny, parametry używanej maszyny</li>
+  <li><strong>produkt</strong>, który podpowie się jako produkt wyjściowy w technologii.</li>
+</ul>
+
+<p>Pamiętaj, że każda operacja w drzewie technologii musi mieć produkt wyjściowy. Nawet jeśli nie jest on dla Ciebie ważny, nie masz go oindeksowanego i nie zamierzasz przyjmować go na magazyn. W takich sytuacjach warto:</p>
+<ul>
+  <li>albo dodać produkty bardzo ogólne, np. dla operacji ‘montaż’ produkt ‘po montażu’, i podpiąć je w operacji w polu Produkt.</li>
+  <li>albo zaznaczyć parametr <strong>Utwórz produkt wyjściowy operacji</strong>, a założymy dla Ciebie produkt na wzór numeru operacji i podepniemy w polu produkt.
+Dzięki temu szybciej zdefiniujesz technologię - bo dane będą się uzupełniać z automatu po wybraniu operacji.</li>
+</ul>
+
+<div class="bs-callout bs-callout-warning">Wskazanie produktu znacząco przyspiesza budowanie drzewa technologii - produkt wyjściowy uzupełni się po wybraniu operacji.</div>
+
+<p>Następnie wybierz <img class="inline" src="images/saveIcon24.png" alt="Przycisk zapisu" />
+ <strong>Zapisz</strong>, by zachować wprowadzone dane.</p>
+
+<div class="bs-callout bs-callout-warning">Jeśli chcesz mieć możliwość dokładnego planowania produkcji oraz obliczania kalkulacji kosztów i określania terminów realizacji zleceń musisz zdefiniować dla operacji <a href="/normy-kosztowe">Normy kosztowe</a> i <a href="/normy-czasowe">Normy czasowe</a>. Jeśli planujesz tworzyć <a href="/karty-pracy">Karty pracy</a> możesz w zakładce Karty pracy - dane podstawowe rozwinąć wydruk o dodatkowy obrazek (np. dodatkową tabelą)</div>
+
+<p>Operacje wprowadzone w tym miejscu traktuj jako szablony - dopiero utworzenie z nich drzewa przyniesie właściwy skutek w postaci technologii, wg której prowadzona będzie produkcja. O tym jak zbudować technologię poczytasz <a href="/technologie-szczegoly">tutaj</a>.</p>
+
+<p>Zaciągnięcie operacji do drzewa technologii tworzy osobny byt: operację technologii. Możesz zmieniać operację w drzewie (podając np. inne normy czasowe), a nie wpłynie to na zmianę operacji - szablonu. Podobnie –&gt; modyfikując operację - szablon, nie zostaną zmienione żadne operacje użyte w technologiach.</p>
+
+<div class="bs-callout bs-callout-warning">Jeśli chcesz zmienić operację (np. pod kątem norm czasowych) i chcesz aby te zmiany obowiązywały w technologiach, to oprócz modyfikacji w operacjach - szablonach, musisz nanieść zmiany w istniejących technologiach. Jeśli status technologii nie pozwala na edycję - stwórz przez kopiowanie jej nową wersję, wprowadź poprawki i zaakceptuj. Warto też zaznaczyć nową wersję jako domyślną, a starą wycofać</div>
+
+<h2 id="import-operacji-z-pliku-excel">Import operacji z pliku Excel</h2>
+
+<p>Import z akrusza .xlsx znasz już zapewne z innych miejsc w systemie –&gt; o tym jak wygląda proces importu dowiesz się czytając tą <a href="(/import-z-excel)">dokumentację</a>.</p>
+
+<p>Operacje możesz albo zdefiniować korzystając z arkusza, albo możesz je poprzez import zaktualizować. Druga opcja przyda Ci się szczególnie wtedy, gdy chcesz dostosować normy czasowe do bieżącej sytuacji (np. po przeanalizowaniu danych z rozliczenia produkcji z dłuższego okresu). Taka modyfikacja, wraz z <a href="/zmiana-parametrow">zbiorczą zmianą parametrów</a> pozwoli Ci na szybkie odświeżenie technologii.</p>
+
+<p>Aby zaimportować operacje z pliku Excel wejdź w <strong>Technologie &gt; Operacje</strong>, kliknij przycisk <img class="inline" src="images/przyciskImportujOperacjeXLSX.png" alt="Przycisk Importuj operacje z .xlsx" />
+ <strong>Importuj operacje z .xlsx</strong>, pobierz szablon i wypełnij go danymi. Koniecznie uzupełnij dwie pierwsze kolumny:</p>
+<ul>
+  <li><strong>numer</strong> (kolumna A) - musi być unikalny (czyli dana numer operacji może wystąpić tylko raz). Pamiętaj, że numer nie musi być liczbą, potraktuj to pole jako skrótową nazwę, taką, po której użytkownicy będą rozpoznawać daną czynność</li>
+  <li><strong>nazwa</strong> (kolumna B) - pełna nazwa operacji. Może być tożsama z numerem.</li>
+</ul>
+
+<p>Możesz dodatkowo wskazać następujące dane:</p>
+<ul>
+  <li><strong>produkt</strong> (kolumna C) - numer produktu zdefiniowanego w qcadoo. Produkt ten podpowiemy w <a href="/technologie-szczegoly.html#budowa-drzewa-technologii">drzewie technologii</a> jako efekt wyjściowy tej operacji,</li>
+  <li><strong>opis</strong> (kolumna D) - dodatkowe informacje o sposobie wykonania operacji.</li>
+  <li><strong>dział</strong> (kolumna E) - numer działu zdefiniowanego w qcadoo,</li>
+  <li><strong>linia</strong> (kolumna F) - numer linii zdefiniowanej w qcadoo. Wskazana linia musi należeć do popdanego wyżej działu</li>
+  <li><strong>stacja robocza</strong> (kolumna G) - numer stacji roboczej zdefiniowanej w qcadoo. Wskazana stacja robocza musi należeć do podanej wyżej linii.</li>
+</ul>
+
+<div class="bs-callout bs-callout-warning">Dział, linia i stacja robocza uzupełniane są po to, by w technologii mogły z automatu uzupełnić się informacje o zasięgu i by podczas układania planu produkcyjnego wiadomo było, gdzie czynność ma być realizowana.</div>
+
+<ul>
+  <li><strong>TPZ</strong> (kolumna H) - podaj w sekundach czas przygotowawczo-zakończeniowy operacji,</li>
+  <li><strong>TJ</strong> (kolumna I) - podaj w sekundach czas jednostkowy operacji (wykonania pojedynczego cyklu),</li>
+  <li><strong>ile w cyklu</strong> (kolumna J) - podaj ile jednostek produktu wykonywanych jest w jednym cyklu,</li>
+  <li><strong>dodatkowy czas</strong> (kolumna K) - podaj w sekundach dodatkowy czas, który musi upłynąć, aby móc zrealizować kolejną operację w drzewie technologii.</li>
+</ul>
+
+<div class="bs-callout bs-callout-warning">Dane: TPZ, TJ, ile w cyklu i dodatkowy czas to informacje zapisywane w zakładce <a href="/normy-czasowe">normy czasowe</a> operacji.</div>
+
+<p>Tak przygotowany plik zaciągnij do qcadoo i wykonaj funkcję importu. W razie błędów - przeanalizuj logi, popraw dane w pliku i spróbuj ponownie.</p>
+:ET

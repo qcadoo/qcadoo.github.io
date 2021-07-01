@@ -1,0 +1,16 @@
+I"�<p>Niezależnie od tego, czy rozliczasz się z pracownikami według godzinnego czasu pracy, czy za wykonanie określonego zadania (akord), w qcadoo możesz dokładnie określić koszty produkcji.</p>
+
+<p>Normy kosztowe uwzględniają dwa sposoby rozliczeń za wykonaną pracę:</p>
+
+<ul>
+  <li><strong>akordowy koszt pracy</strong> - w pierwszym polu wpisujemy stawkę za tę operację (np. za piłowanie), w drugiej określamy ile operacji obejmuje wskazana kwota</li>
+  <li><strong>godzinowy koszt pracy</strong> - koszt godzinowy pracy pracownika i koszt godzinowy pracy maszyny</li>
+</ul>
+
+<p>Nie jest wymagane trzymanie się tylko jednej z form rozliczeń. W kalkulacjach kosztów możliwe jest wybranie, który z nich ma zostać użyty do obliczeń.</p>
+
+<p>Wartości te mogą zostać wprowadzone w <a href="/operacje">Operacjach</a> i wtedy obowiązywać będą dla wszystkich zleceń tworzonych w oparciu o te normy.</p>
+
+<figure><a target="_blank" href="images/technologie-%20operacje-%20normy%20kosztowe.png"><img src="images/technologie-%20operacje-%20normy%20kosztowe.png" alt="Normy kosztowe" /></a><figcaption>Normy kosztowe</figcaption></figure>
+
+:ET

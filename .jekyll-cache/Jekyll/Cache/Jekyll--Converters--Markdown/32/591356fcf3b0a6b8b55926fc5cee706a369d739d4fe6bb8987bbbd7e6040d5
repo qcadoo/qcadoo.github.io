@@ -1,0 +1,237 @@
+I"�?<h2 id="czym-są-grupy-zleceń">Czym są grupy zleceń?</h2>
+
+<p>Grupa zleceń to element łączący zlecenia produkcyjne o tych samych:</p>
+
+<ul>
+  <li>linii produkcyjnej,</li>
+  <li>asortymencie.</li>
+</ul>
+
+<p>Z grup korzystamy gdy chcemy, aby <a href="/zlecenia-produkcyjne">zlecenia produkcyjne</a> przekazywane na produkcję były zgrupowane z dokładnością do asortymentu i procesu (linii produkcyjnej).</p>
+
+<p>Weźmy przykład: nasza firma zajmuje się produkcją oświetlenia, między innymi abażurów ze sznurka w róźnych rozmiarach. Wyrób gotowy musi przejść 2 procesy: montaż i pakowanie. Na <a href="/zlecenia-nadrzedne">zamówieniu sprzedaży</a> są 3 rozmiary tego samego wyrobu (3 indeksy produktów). W qcadoo będzie istnieć 6 zleceń produkcyjnych - 3 pierwsze powstaną przez utworzenie zleceń do zamówienia sprzedaży, a 3 kolejne przez generowanie zleceń na komponenty.</p>
+
+<p>Grupę zleceń możesz utworzyć na trzy sposoby:</p>
+
+<ul>
+  <li>z poziomu zamówienia sprzedaży,</li>
+  <li>z poziomu planu sprzedaży,</li>
+  <li>z poziomu listy grup zleceń.</li>
+</ul>
+
+<p>Zanim przystąpisz do tworzenia grupy, musisz zadbać o odpowiednią parametryzację w qcadoo:</p>
+
+<ul>
+  <li>upewnij się, że wykorzystywane <a href="/technologie-szczegoly">technologie</a> mają zdefiniowaną linię produkcyjną,</li>
+  <li>utwórz <a href="/asortymenty">asortymenty</a> i przypisz je do produktów końcowych.</li>
+</ul>
+
+<div class="bs-callout bs-callout-warning">Jeśli w parametrach grupy uznasz, że asortyment nie jest potrzebny, to nie musisz go w systemie definiować</div>
+
+<p>Grupa zleceń może przyjmować następujące statusy:</p>
+
+<ul>
+  <li>Oczekujące - gdy nie jest spełniony żaden poniższy warunek,</li>
+  <li>W trakcie - kiedy przynajmniej jedno powiązane zlecenie produkcyjne ma status “Rozpoczęte”, “Przerwane” lub “Zakończone”,</li>
+  <li>Zakończone - gdy wszystkie powiązane zlecenia produkcyjne mają status “Zakończone” lub “Zaniechane”, albo gdy na liście powiązanych zleceń jest jednocześnie przynajmniejniej jedno zlecenie “Zakończone”/”Zaniechane” i jedno “Odrzucone”,</li>
+  <li>Odrzucone - kiedy wszystkie powiązane zlecenia produkcyjne mają status “Odrzucone”.</li>
+</ul>
+
+<h2 id="jak-dodać-grupę-zleceń-z-poziomu-zamówienia-sprzedaży">Jak dodać grupę zleceń z poziomu zamówienia sprzedaży?</h2>
+
+<figure class="float-right "><a target="_blank" href="images/planowanieZamowieniaDodajGrupe.png"><img src="images/planowanieZamowieniaDodajGrupe.png" alt="Grupowanie" class="percent90 " /></a><figcaption>Grupowanie</figcaption></figure>
+
+<ol>
+  <li>
+    <p>Wejdź do <strong>PLANOWANIE &gt; Zamówienia sprzedaży</strong>.</p>
+  </li>
+  <li>
+    <p>Utwórz <a href="/zlecenia-nadrzedne">nowe zamówienie sprzedaży</a>, używając <img class="inline" src="images/newIcon24.png" alt="Dodaj nowy" />
+ <strong>Dodaj nowy</strong> bądź wybierz istniejące z listy zamówień i wejdź w jego edycję.</p>
+  </li>
+  <li>
+    <p>Dodaj do zlecenia <a href="/produkty">produkty</a> które chcesz wyprodukować.</p>
+  </li>
+  <li>
+    <p>Zaznacz interesujące Cię produkty i kliknij <img class="inline" src="images/GenerateIcon24.png" alt="Przycisk Generuj" />
+ <strong>Generuj grupę zleceń</strong>.</p>
+  </li>
+</ol>
+
+<div class="bs-callout bs-callout-info">Pamiętaj, że zaznaczone produkty muszą należeć do tego samego asortymentu i być produkowane na tej samej linii.</div>
+
+<figure class="float-right "><a target="_blank" href="images/planowanieGrupyZlecenGlowna.png"><img src="images/planowanieGrupyZlecenGlowna.png" alt="Grupa zleceń" class="percent90 " /></a><figcaption>Grupa zleceń</figcaption></figure>
+
+<ol start="5">
+  <li>
+    <p>Pojawi się okno ze szczegółami tworzonej grupy. Kliknij <img class="inline" src="images/saveIcon24.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>, aby zapisać wprowadzone dane. Zapisanie spowoduje utworzenie zleceń produkcyjnych dla wybranych w kroku 4. produktów. Powstanie tyle zleceń ile zostało wybranych produktów. Zlecenia zostaną utworzone na ilość pozostałą do zlecenia, którą można sprawdzić w zamówieniu sprzedaży.</p>
+  </li>
+  <li>
+    <p>Teraz możesz przystąpić do generowania zleceń na komponenty. W tym celu kliknij <img class="inline" src="images/genealogyClockIcon24.png" alt="Przycisk generowania" />
+ <strong>Pokrycie zapotrzebowania</strong>.</p>
+  </li>
+  <li>
+    <p>Zostaniesz przeniesiony do okna pokrycia zapotrzebowania. Wybierz <img class="inline" src="images/GenerateIcon24.png" alt="Przycisk Generuj" />
+ <strong>Generuj</strong>, aby je wygenerować.</p>
+  </li>
+</ol>
+
+<div class="bs-callout bs-callout-info">Pokrycie zapotrzebowania generowane jest dla tych zleceń produkcyjnych, które są powiązane z grupą i których statusy są różne od: “Zakończone”, “Odrzucone” i “Zaniechane”.</div>
+
+<figure class="float-right "><a target="_blank" href="images/planowanieGrupaJejZlecenia.png"><img src="images/planowanieGrupaJejZlecenia.png" alt="Lista zleceń produkcyjnych wchodzących w skład grupy" class="percent90 " /></a><figcaption>Lista zleceń produkcyjnych wchodzących w skład grupy</figcaption></figure>
+
+<ol start="8">
+  <li>
+    <p>Teraz utwórz zlecenia na komponenty, wybierając <img class="inline" src="images/GenerateIcon24.png" alt="Przycisk Generuj" />
+ <strong>Generuj zlecenia</strong>.</p>
+  </li>
+  <li>
+    <p>Następnie zgrupuj utworzone zlecenia. Aby to zrobić, wywołaj funkcję <img class="inline" src="images/GenerateIcon24.png" alt="Przycisk Generuj" />
+ <strong>Grupuj zlecenia na komponenty</strong>. Analizuje ona wszystkie wygenerowane zlecenia na komponenty i grupuje je pod kątem takich samych linii produkcyjnych oraz asortymentu.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="jak-dodać-grupę-z-poziomu-planu-sprzedaży">Jak dodać grupę z poziomu planu sprzedaży</h2>
+
+<ol>
+  <li>
+    <p>Wejdż do <strong>Planowanie &gt; Plany sprzedaży</strong></p>
+  </li>
+  <li>
+    <p>wybierz interesujący Cię plan, wejdź w jego szczegóły i przejdź do zakładki <strong>Produkty</strong></p>
+  </li>
+  <li>
+    <p>zaznacz te produkty, które chcesz umieścić na jednej grupie i kliknij przycisk <img class="inline" src="images/przyciskUtworzGrupeZlecen.png" alt="Przycisk Utwórz grupę zleceń" />
+ <strong>Utwórz grupę zleceń</strong></p>
+  </li>
+  <li>
+    <p>podaj ilości zlecone i potwierdź tworzenie przyciskiem <img class="inline" src="images/przyciskUtworzGrupeIZlecenia.png" alt="Przycisk Utwórz grupę i zlecenia" />
+ <strong>Utwórz grupę i zlecenia</strong></p>
+  </li>
+</ol>
+
+<p>Ze szczegółami zapoznasz się w <a href="/plany-sprzedazy.html#tworzenie-grup-zleceń-do-planu-sprzedaży">tej dokumentacji</a>.</p>
+
+<hr />
+
+<h2 id="zmiana-statusów-zlecenia-z-poziomu-grupy">Zmiana statusów zlecenia z poziomu grupy</h2>
+
+<p>Grupa zleceń zmienia status realizacji poprzez zmianę statusu zleceń, które z tą grupą są spięte. Możesz zmienić zaakceptować czy rozpocząć zlecenia z poziomu listy zleceń, filtrując po numerze grupy (wszystkie zlecenia wygenerowane wraz z grupą mają numer nadany na podstawie numeru grupy, z przyrostkiem oznaczający kolejne zlecenie). Ale możesz też zmienić statusy zbiorczo z poziomu grupy zleceń. Masz do dyspozycji 3 możliwości:</p>
+
+<ol>
+  <li>
+    <p>jednoczesna akceptacja i rozpoczynanie z poziomu listy grup zleceń - zaznacz zlecenia i kliknij przycisk: <img class="inline" src="images/przyciskRozpocznijZleceniaProdukcyjne.png" alt="Przycisk Rozpoczynij zlecenia produkcyjne" />
+ <strong>Rozpocznij zlecenia produkcyjne</strong></p>
+  </li>
+  <li>
+    <p>akceptacja zleceń związanych z daną grupą - wejdź w szczegóły grupy i kliknij przycisk: <img class="inline" src="images/przyciskZaakceptujZlecenia.png" alt="Przycisk Zaakceptuj zlecenia" />
+ <strong>Zaakceptuj zlecenia</strong></p>
+  </li>
+  <li>
+    <p>rozpoczynanie zleceń związanych z daną grupą - wejdź w szczegóły grupy i kliknij przycisk: <img class="inline" src="images/przyciskRozpocznijZlecenia.png" alt="Przycisk Rozpocznij zlecenia" />
+ <strong>Rozpocznij zlecenia</strong></p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="wydawanie-materiałów-do-grupy-zleceń">Wydawanie materiałów do grupy zleceń</h2>
+
+<p>Jeśli chcesz, aby dokumenty RW tworzone były na całą grupę zleceń, a nie do każdego zlecenia z osobna, skorzystaj z opcji wydawania dostępnej w szczególe grupy.</p>
+
+<p>Zacznij od odpowiedniej konfiguracji:</p>
+<ul>
+  <li>wejdź w parametry &gt; parametry rejestracji &gt; zakładka Rejestracja prod. i wyłącz parametr: <strong>Twórz dokumenty do rejestracji produkcji</strong></li>
+  <li>wejdź w parametry &gt; parametry planowania &gt; zakładka Grupa zleceń i włącz parametr <strong>Pozwól na tworzenie PW i RW do grup zleceń</strong></li>
+</ul>
+
+<p>Dzięki temu w grupie zleceń zobaczysz:</p>
+<ul>
+  <li>zakładkę Wydane materiały</li>
+  <li>zakładkę Wytworzone wyroby</li>
+  <li>aktywny przycisk <img class="inline" src="images/przyciskWydajMaterialy.png" alt="Przycisk Wydaj materiały" />
+ <strong>Wydaj materiały</strong> w <a href="/zapotrzebowanie-materialowe-grupy-zlecen">zapotrzebowaniu materiałowym grupy zleceń</a></li>
+</ul>
+
+<p>Aby wydać materiały do grupy zleceń musisz zacząć od wygenerowania zapotrzebowania materiałowego grupy zleceń. Możesz to zrobić na dwa sposoby:</p>
+
+<ol>
+  <li>wejdź w szczegóły grupy zleceń i kliknij przycisk <img class="inline" src="images/przyciskZapotrzebowanieMaterialowe.png" alt="Przycisk Zapotrzebowanie materiałowe" />
+ <strong>Zapotrzebowanie materiałowe</strong>
+lub</li>
+  <li>wejdź w zaopatrzenie &gt; zapotrzebowanie materiałowe grupy zleceń</li>
+</ol>
+
+<p>i postępuj zgodnie z tą dokumentacją: <a href="/zapotrzebowanie-materialowe-grupy-zlecen">zapotrzebowanie materiałowe grupy zleceń</a>.</p>
+
+<p>Po wygenerowaniu zapotrzebowania zaznacz w zakładce <strong>Materiały</strong> te produkty, które chcesz wydać i kliknij przycisk <img class="inline" src="images/przyciskWydajMaterialy.png" alt="Przycisk Wydaj materiały" />
+ <strong>Wydaj materiały</strong>:</p>
+
+<figure><a target="_blank" href="images/zaopatrzenieZapotrzebowanieMatGrupyWydanieMaterialy.png"><img src="images/zaopatrzenieZapotrzebowanieMatGrupyWydanieMaterialy.png" alt="Wydawanie materiałów do grupy zleceń" /></a><figcaption>Wydawanie materiałów do grupy zleceń</figcaption></figure>
+
+<p>Zweryfikuj ilości wydawane i ponownie kliknij przycisk <img class="inline" src="images/przyciskWydajMaterialy.png" alt="Przycisk Wydaj materiały" />
+ <strong>Wydaj materiały</strong>.</p>
+
+<div class="bs-callout bs-callout-warning">Zakładamy, że dążysz do tego, by wydać ilość wynikającą z zapotrzebowania. Możesz wydać ją w kilku transach, samodzielnie podając jaką część chcesz aktualnie przekazać na produkcję. Możesz też rozchodować więcej niż wynikało z normy. Nadpisz podpowiedziane zero właściwą ilością do wydania.</div>
+
+<p>W efekcie utworzy się szkicowy dokument magazynowy RW. Przeniesiemy Cię do niego abyś mógł dobrać zasoby (i ustalić dzięki temu np. z jakiego miejsca składowania powinieneś pobrać lub jakie partie powinny zostać wydane) czy od razu zaakceptować.</p>
+
+<div class="bs-callout bs-callout-warning">Możesz wydać na raz produkty z jednego magazynu. Jeśli magazynów jest wiele - zaznacz najpierw pozycje z pierwszego, wydaj, a później przejdź do materiałów z kolejnego magazynu.</div>
+
+<figure><a target="_blank" href="images/planowanieGrupyZlecenWydajDokumentRW.png"><img src="images/planowanieGrupyZlecenWydajDokumentRW.png" alt="Utworzony dokument RW" /></a><figcaption>Utworzony dokument RW</figcaption></figure>
+
+<p>Dokument RW będzie miał powiązanie z grupą zleceń - jej numer pojawi się w kolumnie w liście dokumentów. Będzie też kształtował wydane materiały widoczne w grupie zleceń.</p>
+
+<figure><a target="_blank" href="images/planowanieGrupyZlecenWydaneMaterialy.png"><img src="images/planowanieGrupyZlecenWydaneMaterialy.png" alt="Wydane materiały grupy zleceń" /></a><figcaption>Wydane materiały grupy zleceń</figcaption></figure>
+
+<p>Tabela wydanych materiałów aktualizuje się w trzech sytuacjach:</p>
+<ul>
+  <li>na utworzeniu dokumentu RW z poziomu zapotrzebowania materiałowego grupy zleceń,</li>
+  <li>na akceptacji dokumentu RW powiązanego z tą grupą zleceń,</li>
+  <li>poprzez wywołanie funkcji aktualizacji danych o wydaniu.</li>
+</ul>
+
+<p>Dokumentów RW do grupy może być wiele. Tu ilości są agregowane z dokładnością do produktu, a widoczna cena jest średnią z pozycji faktycznie rozchodowanych dokumentów. Wchodząc w szczegóły pozycji tabeli (czyli klikając w podlinkowany tekst) zobaczysz jakie pozycje dokumentów składają się na dany wydany materiał.</p>
+
+<figure><a target="_blank" href="images/planowanieGrupyZlecenWydaneMaterialySzczegoly.png"><img src="images/planowanieGrupyZlecenWydaneMaterialySzczegoly.png" alt="Pozycje dokumentów dla wydanego materiału" /></a><figcaption>Pozycje dokumentów dla wydanego materiału</figcaption></figure>
+
+<hr />
+<h2 id="przyjmowanie-wyrobów-do-grupy-zleceń">Przyjmowanie wyrobów do grupy zleceń</h2>
+
+<p>Jeśli nie chcesz, aby dokumenty PW dotyczyły każdego wykonywanego zlecenia, tylko chcesz wyroby przyjować na magazyn zbiorczo do grupy zleceń ustaw:</p>
+<ul>
+  <li><a href="/parametry-rejestracja-produkcji.html#rejestracja-produkcji">parametr rejestracji</a> <em>Twórz dokumenty do rejestracji produkcji</em> = nie</li>
+  <li><a href="/parametry-planowania.html#grupy-zleceń">parametr grupy zleceń</a> <em>Pozwól na tworzenie PW i RW do grup zleceń</em> = tak</li>
+</ul>
+
+<p>Dzięki temu będziesz mógł wywołać funkcję <img class="inline" src="images/przyciskPrzyjmijWybory.png" alt="Przycisk Przyjmij wybory" />
+ <strong>Przyjmij wyroby</strong> na podstawie zgromadzonych informacji w <a href="/rejestracja-produkcji">rekordach rejestracji</a> o wytworzonych produktach.</p>
+
+<p>Proces jest następujący:</p>
+<ul>
+  <li>pracownicy np. za pomocą terminala raportują wytworzenie wyrobu,</li>
+  <li>akceptacja rekordu rejestracji powoduje zapisanie w grupie zleceń w zakładce <em>Wytworzone wyroby</em> informacji o tym co i w jakiej ilości jest już gotowe:</li>
+</ul>
+
+<figure><a target="_blank" href="images/planowanieGrupyZlecenWytworzoneWybory.png"><img src="images/planowanieGrupyZlecenWytworzoneWybory.png" alt="Wytworzone wyroby w grupie zleceń" /></a><figcaption>Wytworzone wyroby w grupie zleceń</figcaption></figure>
+
+<ul>
+  <li>w grupie zleceń widoczne są wszystkie wytworzone wyroby. Te pozycje, które mają Przyjęte = nie, to te, które jeszcze nie zostały przyjęte na magazyn</li>
+  <li>przyjęcie odbywa się poprzez kliknięcie w grupie przycisku <img class="inline" src="images/przyciskPrzyjmijWybory.png" alt="Przycisk Przyjmij wybory" />
+ <strong>Przyjmij wyroby</strong></li>
+  <li>w efekcie powstaje dokument magazynowy PW powiązany z daną grupą zleceń. Numer dokumentu widoczny jest w zakładce <em>Wytworzone wyroby</em>.</li>
+</ul>
+
+<hr />
+
+<h2 id="paczki-zlecenia">Paczki zlecenia</h2>
+
+<p>Zlecenie produkcyjne może być podzielone na mniejsze części - <a href="/paczki">paczki</a>. I każda z tych paczek może być realizowana osobno, przez innego pracownika. Paczki mogą generować się z automatu w momencie rozpoczynania zlecenia. Możesz też wydzielić je ręcznie z listy <strong>planowanie &gt; paczki zlecenia</strong>. Ale możesz też generować je ręcznie w liście paczek wywołanej z poziomu zlecenia lub z poziomu grupy zleceń.</p>
+
+<p>Aby przejść do paczek z poziomu grupy zaznacz w grupie w zakładce <strong>Zlecenia</strong> te, dla których paczki Cię interesują. Kliknij przycisk <img class="inline" src="images/przyciskPaczkiZlecenia.png" alt="Przycisk Paczki zlecenia" />
+ <strong>Paczki zlecenia</strong>. Jeśli paczki istnieją - to będziesz mógł je w uruchomionym oknie podejrzeć. Jeśli nie - wygeneruj je klikajac przycisk <img class="inline" src="images/przyciskWygenerujPaczki.png" alt="Przycisk Wygeneruj paczki" />
+ <strong>Wygeneruj paczki</strong>.</p>
+:ET

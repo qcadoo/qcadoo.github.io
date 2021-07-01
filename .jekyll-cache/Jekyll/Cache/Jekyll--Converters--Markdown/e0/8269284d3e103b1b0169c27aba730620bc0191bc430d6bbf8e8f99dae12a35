@@ -1,0 +1,13 @@
+I"<p>Surowce, które zużywasz w procesie produkcyjnym, mogą mieć nadane typy. Pracownikowi być może łatwiej będzie namierzyć właściwy produkt, gdy będzie wiedział, że to jest dąb do zrobienia nóżek w stoliku. Dodatkową korzyścią z włączenia do definiowania technologii typów produktu wejściowego jest to, że możesz stworzyć szablony technologii korzystając z typów i uzupełnić konkretne indeksy produktów przy tworzeniu właściwej technologii na wyrób, na świeżo przed uruchomieniem produkcji. Ponadto - możesz zrobić kalkulację kosztów technologii, która nie ma jeszcze wskazanego produktu, ale ma typ produktu wejściowego ze zdefiniowaną średnią ceną.</p>
+
+<p>Aby zdefiniować typ produktu wejściowego wybierz: <strong>Technologie &gt; typy produktów wejściowych technologii</strong></p>
+
+<figure><a target="_blank" href="images/technologieTypyProduktuLista.png"><img src="images/technologieTypyProduktuLista.png" alt="Lista typów produktu wejściowego technologii" /></a><figcaption>Lista typów produktu wejściowego technologii</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong>  </p>
+
+<figure><a target="_blank" href="images/technologieTypyProduktuNowy.png"><img src="images/technologieTypyProduktuNowy.png" alt="Formularz dodawania typów produktu wejściowego technologii" /></a><figcaption>Formularz dodawania typów produktu wejściowego technologii</figcaption></figure>
+
+<p>Wprowadź <strong>nazwę</strong> typu. Możesz dodatkowo wprowadzić <strong>średnią cenę</strong> - pozwoli to na uzyskanie właściwej ceny w kalkulacji kosztów w sytuacji, gdy w technologii nie możesz wskazać jeszcze konkretnego indeksu zużywnego surowca.</p>
+:ET

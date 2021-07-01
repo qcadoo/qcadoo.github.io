@@ -1,0 +1,181 @@
+I"�:<h2 id="do-czego-przyda-ci-się-ta-opcja">Do czego przyda Ci się ta opcja?</h2>
+
+<p>W <strong>PLANOWANIE &gt; Planowanie na liniach</strong> zaplanujesz produkcję na konkretnych liniach. Dzięki intuicyjnemu interfejsowi zrobisz to szybko i bezproblemowo.</p>
+
+<p>Na wykresie znajdziesz:</p>
+
+<ul>
+  <li>linie produkcyjne,</li>
+  <li>okresy pracujące i niepracujące tych linii,</li>
+  <li>zlecenia produkcyjne bądź grupy zleceń,</li>
+  <li>przezbrojenia,</li>
+  <li>kolizje.</li>
+</ul>
+
+<p>Z poziomu tej opcji możesz:</p>
+
+<ul>
+  <li>przeplanować zlecenie, przeciągając odpowiadający mu kafelek,</li>
+  <li>skorzystać z opcji ułożenia planu,</li>
+  <li>wykorzystać funkcję przeliczenia planu,</li>
+  <li>zaplanować produkcję zlecenia znajdującego się w buforze,</li>
+  <li>odnaleźć powiązane ze sobą zlecenia produkcyjne lub grupy zleceń - po kliknięciu w kafelek podświetlą się na fioletowo wszystkie związane z nim zlecenia produkcyjne bądź grupy.</li>
+</ul>
+
+<p>Więcej o możliwościach planowania na liniach dowiesz się w dalszej części rozdziału.</p>
+
+<div class="bs-callout bs-callout-info">Skorzystaj z filtrów, aby ograniczyć liczbę wyświetlonych zleceń/grup zleceń. Możesz je przefiltrować po numerze linii produkcyjnej, kontrahencie, numerze produktu lub numerze zlecenia/grupy zleceń.</div>
+
+<p>Wykres jest skalowalny. Domyślnie widzisz na nim cały tydzień. Widok możesz powiększyć, pomniejszyć, przesunąć w przód i tył o jeden dzień lub o ilość wyświetlonych dni. Dodatkowo możesz wybrać z kalendarza dzień, który chcesz zobaczyć, a także przejść do dnia dzisiejszego.</p>
+
+<p>Zacznij pracę z wykresem Gantta od ustawienia <a href="/parametry-planowanie-na-liniach">parametrów</a></p>
+
+<h2 id="linie-produkcyjne-i-ich-kalendarze">Linie produkcyjne i ich kalendarze</h2>
+
+<p>W planowaniu na liniach prezentujemy <a href="/linie-produkcyjne">linie produkcyjne</a>, które jednocześnie:</p>
+<ul>
+  <li>mają zaznaczony parametr “Produkcja” - znajdziesz go w <strong>STRUKTURA FIRMY &gt; Linie produkcyjne</strong> w szczegółach linii,</li>
+  <li>są aktywne.</li>
+</ul>
+
+<p>Wyświetlone linie są posortowane po numerze.</p>
+
+<p>Na wykresie dla każdej linii zaznaczone są okresy pracujące (na biało) i niepracujące (na szaro). W qcadoo każda linia ma zdefiniowany swój własny kalendarz <a href="/zmiany">zmian</a>, na których pracuje, a także <a href="/wyjatki-dla-linii">wyjątki</a> do nich. Widać to w planowaniu na liniach, gdzie okresy pracujące i niepracujące są zaznaczane dla każdej linii z osobna z uwzględnieniem wyjątków.</p>
+
+<div class="bs-callout bs-callout-info">Aby zdefiniować kalendarz zmian dla linii, wejdź do szczegółów linii z poziomu <strong>STRUKTURA FIRMY &gt; Linie produkcyjne</strong> i przypisz zmiany w zakładce ‘Kalendarz’.</div>
+
+<h2 id="zlecenia-produkcyjne-i-grupy-zleceń">Zlecenia produkcyjne i grupy zleceń</h2>
+
+<p>Przed rozpoczęciem pracy z Planowaniem na liniach musisz określić czy chcesz, aby na wykresie prezentowane były zlecenia produkcyjne czy grupy zleceń. Decydujesz o tym, ustawiając odpowiednią wartość parametru “Prezentuj na wykresie Gantta” w parametrach Planowania na liniach.</p>
+
+<figure><a target="_blank" href="images/Planowanie-%20Planowanie%20na%20liniach%20parametry.png"><img src="images/Planowanie-%20Planowanie%20na%20liniach%20parametry.png" alt="Parametry Planowania na liniach" /></a><figcaption>Parametry Planowania na liniach</figcaption></figure>
+
+<div class="bs-callout bs-callout-info">Długość kafelka odpowiada czasowi trwania zlecenia - początek to data rozpoczęcia, a koniec to data zakończenia.</div>
+
+<figure class="float-right "><a target="_blank" href="images/Planowanie-%20Planowanie%20na%20liniach%20zlecenia.png"><img src="images/Planowanie-%20Planowanie%20na%20liniach%20zlecenia.png" alt="Zlecenia w Planowaniu na liniach" class="percent90 " /></a><figcaption>Zlecenia w Planowaniu na liniach</figcaption></figure>
+
+<p>Kafelki są oznaczone kolorem w zależności od statusu w jakim się znajdują.</p>
+
+<p>W przypadku zlecenia produkcyjnego występują kolory:</p>
+<ul>
+  <li>niebieski - oczekujące,</li>
+  <li>szary - zakończone i zaniechane,</li>
+  <li>pomarańczowy - zaakceptowane,</li>
+  <li>zielony - rozpoczęte i przerwane.</li>
+</ul>
+
+<p>Natomiast dla grupy zleceń mamy następujące kolory:</p>
+<ul>
+  <li>niebieski - oczekujące,</li>
+  <li>szary - zakończone i odrzucone,</li>
+  <li>zielony - w trakcie.</li>
+</ul>
+
+<figure class="float-right "><a target="_blank" href="images/Planowanie-%20Planowanie%20na%20liniach%20grupy.png"><img src="images/Planowanie-%20Planowanie%20na%20liniach%20grupy.png" alt="Grupy w Planowaniu na liniach" class="percent90 " /></a><figcaption>Grupy w Planowaniu na liniach</figcaption></figure>
+
+<p>W przypadku zlecenia produkcyjnego kafelek zawiera następujące informacje:</p>
+<ul>
+  <li>numer zlecenia,</li>
+  <li>numer produktu,</li>
+  <li>ilość zlecona,</li>
+  <li>jednostka.</li>
+</ul>
+
+<p>Na kafelku grupy zleceń znajdziesz informacje o:</p>
+<ul>
+  <li>numerze grupy,</li>
+  <li><a href="/asortymenty">asortymencie</a>,</li>
+  <li>ilości zleconej.</li>
+</ul>
+
+<div class="bs-callout bs-callout-info">Najedź na kafelek kursorem myszki, aby zobaczyć więcej informacji o danym zleceniu/grupie zleceń.</div>
+
+<p>Kafelki umieszczone na wykresie możesz przesuwać w pionie (na inne linie) i w poziomie (zmieniać czas rozpoczęcia i zakończenia). Pamiętaj, że wykonane przec Ciebie zmiany nie zostaną automatycznie zapisane, jeżeli masz zaznaczony parametr “Ręczny zapis planu”. Wówczas niezbędne jest kliknięcie <img class="inline" src="images/saveIcon24.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>, aby zapisać wprowadzone zmiany. Zapis spowoduje:</p>
+<ul>
+  <li>aktualizację linii i dat w zleceniu - jeżeli wartość parametru “Rodzaj zapisu” masz ustawioną na “tylko zapis”,</li>
+  <li>aktualizację linii i dat w zleceniu wraz z przeliczeniem planu na zmianę - jeśli parametr “Rodzaj zapisu” ma wartość “zapis z przeliczeniem planu na zmianę”.</li>
+</ul>
+
+<div class="bs-callout bs-callout-info">Przeplanować zlecenie/grupę możesz również z poziomu szczegółów zlecenia/grupy. W tym celu kliknij w kafelek prawym przyciskiem myszki i wybierz <strong>Pokaż szczegóły</strong>. Pojawi się okno, w którym będziesz mógł zmienić daty i linię.</div>
+
+<h2 id="przezbrojenia">Przezbrojenia</h2>
+
+<p><a href="/normy-przezbrojen">Przezbrojenia</a> są zaznaczone w Planowaniu na liniach kolorem żółtym. Stanowią przedłużenie kafelka zlecenia produkcyjnego. Przezbrojenia  występują tylko jeżeli planowanie odbywa się w oparciu o zlecenia. Są wówczas wyświetlane jedynie wtedy, gdy podczas parametryzacji Planowania na liniach zdecydujesz, że chcesz aby przezbrojenia były uwzględniane na wykresie. Wówczas ustaw wartość parametru “Planuj przezbrojenia w oparciu o” na “normy przezbrojeń”.</p>
+
+<figure><a target="_blank" href="images/Planowanie-%20Planowanie%20na%20liniach%20przezbrojenia.png"><img src="images/Planowanie-%20Planowanie%20na%20liniach%20przezbrojenia.png" alt="Przezbrojenia w Planowaniu na liniach" /></a><figcaption>Przezbrojenia w Planowaniu na liniach</figcaption></figure>
+
+<h2 id="kolizje">Kolizje</h2>
+
+<p>W qcadoo mamy możliwość ustawienia dwóch parametrów związanych z kolizjami:</p>
+<ol>
+  <li>“Wykrywaj kolizję” - jeżeli jest zaznaczony to na wykresie oznaczone są na czerwono kafelki, które nachodzą czasowo na danej linii na inny kafelek.</li>
+  <li>“Nie pozwól na kolizję” - jeśli zaznaczysz ten parametr, qcadoo będzie pilnowało, aby kafelki nie nachodziły na siebie (były ułożone jeden po drugim w jednej linii). Jeśli po wejściu do Planowania na liniach kafelki będą na siebie nachodziły to konflikty zostaną oznaczone czerwonym kolorem. Wówczas możesz ręcznie przeplanować problematyczne zlecenia albo skorzystać z funkcji “Ułóż plan”, o której przeczytasz niżej. Jeżeli parametr nie będzie zaznaczony, qcadoo pozwoli na jednoczesną realizację zleceń.</li>
+</ol>
+
+<p>Tak wygląda Planowanie na liniach bez wykrywania kolizji:</p>
+
+<figure><a target="_blank" href="images/Planowanie-%20Planowanie%20na%20liniach%20bez%20kolizji.png"><img src="images/Planowanie-%20Planowanie%20na%20liniach%20bez%20kolizji.png" alt="Planowanie na liniach bez wykrywania kolizji" /></a><figcaption>Planowanie na liniach bez wykrywania kolizji</figcaption></figure>
+
+<p>A tak przy wykrywaniu kolizji:</p>
+
+<figure><a target="_blank" href="images/Planowanie-%20Planowanie%20na%20liniach%20z%20kolizjami.png"><img src="images/Planowanie-%20Planowanie%20na%20liniach%20z%20kolizjami.png" alt="Planowanie na liniach z wykrywaniem kolizji" /></a><figcaption>Planowanie na liniach z wykrywaniem kolizji</figcaption></figure>
+
+<h2 id="zlecenie-i-grupy-w-buforze">Zlecenie i grupy w buforze</h2>
+
+<p>W zależności od tego czy prezentowane na wykresie kafelki odpowiadają zleceniom czy grupom zleceniem, na liście umieszczamy albo zlecenia produkcyjne albo grupy będące w buforze.</p>
+
+<p>W przypadku zleceń na liście znajdują się zlecenia o statusie Oczekujące, których daty (jeżeli są uzupełnione) nachodzą na okres widoczny na wykresie, spełniające przynajmniej jeden z warunków:</p>
+<ul>
+  <li>nie mają określonej linii produkcyjnej,</li>
+  <li>nie mają podanej daty rozpoczęcia lub zakończenia.</li>
+</ul>
+
+<p>Podobnie w przypadku grup zleceń poza grupami bez linii produkcyjnej, bo takie nie mogą istnieć w qcadoo.</p>
+
+<p>Przeciągnięcie zlecenia bądź grupy z bufora na wykres usuwa go z listy zleceń/grup w buforze.</p>
+
+<p>Aby dla przesuwanych z bufora zleceń był wyliczany automatycznie czas trwania należy zaznaczyć parametr “Wyliczaj czas zleceń przesuwanych z bufora”. Czas może być liczony, w zależności od ustawień, na podstawie kalkulacji czasochłonności lub planu na zmianę.</p>
+
+<h2 id="funkcja-ułóż-plan">Funkcja “Ułóż plan”</h2>
+
+<p>Funkcja “Ułóż plan” układa po kolei zlecenia widoczne na wykresie. Dla każdej linii pobiera pierwsze widoczne zlecenie. Dokleja do niego kolejne zlecenie, a następnie do drugiego trzecie itd., dzieje się to po kolei dla wszystkich widocznych zleceń. Jeśli między zleceniami jest zaplanowane przezbrojenie, to zostaje ono odpowiednio uwzględnione przy przeplanowaniu.</p>
+
+<p>Nasz przykładowy plan produkcji wygląda następujaco:</p>
+
+<figure><a target="_blank" href="images/Planowanie-%20Planowanie%20na%20liniach%20przed%20uloz.png"><img src="images/Planowanie-%20Planowanie%20na%20liniach%20przed%20uloz.png" alt="Planowanie na liniach przed ułożeniem planu" /></a><figcaption>Planowanie na liniach przed ułożeniem planu</figcaption></figure>
+
+<p>Jak widać daleko mu do doskonałości. Pomiędzy zleceniami występują długie przerwy, co oznacza niepotrzebne przestoje w zaplanowanej pracy. Po skorzystaniu z funkcji ‘Ułóż plan’ widać że zlecenia zostały ułożone liniowo, jedno za drugim, tak aby nie było kolizji i aby linia produkcyjna była wykorzystana w optymalnym stopniu.</p>
+
+<figure><a target="_blank" href="images/Planowanie-%20Planowanie%20na%20liniach%20po%20uloz.png"><img src="images/Planowanie-%20Planowanie%20na%20liniach%20po%20uloz.png" alt="Planowanie na liniach po ułożeniu planu" /></a><figcaption>Planowanie na liniach po ułożeniu planu</figcaption></figure>
+
+<h2 id="funkcja-przelicz-plan">Funkcja “Przelicz plan”</h2>
+
+<p>Już po wprowadzeniu planów produkcyjnych może pojawić się potrzeba ich zmiany, na przykład z uwagi na zmiany wprowadzone w kalendarzu linii (dzień może okazać się niepracujący). Wówczas wystarczy kliknąć “Przelicz plan” i plan zostanie dostosowany do nowych warunków. Opcja “Przelicz plan” działa tylko u niektórych Klientów. Jeżeli chciałbyś móc korzystać z tej funkcji, zgłoś się do nas.</p>
+
+<p>Przy układaniu planu zapomnieliśmy o tym, że 1 listopada jest dniem wolnym od pracy i nie wprowadziliśmy wyjątku w qcadoo, co widać na wykresie:</p>
+
+<figure><a target="_blank" href="images/Planowanie-%20Planowanie%20na%20liniach%20przed%20przeplanuj.png"><img src="images/Planowanie-%20Planowanie%20na%20liniach%20przed%20przeplanuj.png" alt="Planowanie na liniach przed przeliczeniem planu" /></a><figcaption>Planowanie na liniach przed przeliczeniem planu</figcaption></figure>
+
+<p>Wprowadzamy go teraz. Aby dzień wolny został uwzględniony w zaplanowanych zleceniach, należy skorzystać z opcji ‘Przelicz plan’, która odpowiednio przeplanuje produkcję.</p>
+
+<figure><a target="_blank" href="images/Planowanie-%20Planowanie%20na%20liniach%20po%20przeplanuj.png"><img src="images/Planowanie-%20Planowanie%20na%20liniach%20po%20przeplanuj.png" alt="Planowanie na liniach po przeliczeniu planu" /></a><figcaption>Planowanie na liniach po przeliczeniu planu</figcaption></figure>
+
+<h2 id="tryb-postępu-produkcji">Tryb postępu produkcji</h2>
+
+<p>Standardowo na wykresie Gantta kafelki zleceń lub grup zleceń kolorowane są w zależności od tego jakie przyjmują statusy (ale to już wiesz, bo przecież jesteś po lekturze powyższego opisu). Możesz zmienić sposób kolorowania na uzależniony od procentu wykonania (czyli od tego ile faktycznie wyprodukowano).</p>
+
+<p>Aby tak się stało kliknij przycisk <img class="inline" src="images/przyciskWlaczTrybPostepuProdukcji.png" alt="Przycisk Włącz tryb postępu produkcji" />
+ <strong>Włącz tryb postępu produkcji</strong>. Kafelki zleceń przybiorą wówczas następujące barwy:</p>
+
+<figure><a target="_blank" href="images/planowanieGanttTrybPostepuProdukcji.png"><img src="images/planowanieGanttTrybPostepuProdukcji.png" alt="Planowanie na liniach w trybie postępu produkcji" /></a><figcaption>Planowanie na liniach w trybie postępu produkcji</figcaption></figure>
+
+<ul>
+  <li><span style="color:red"> czerwony</span> - oznacza, że jeszcze nic nie zostało wyprodukowane (ilość wyprodukowana pochodząca z zaakceptowanych rekordów rejestracji produkcji to 0),</li>
+  <li><span style="color:green"> zielony</span> - oznacza, że cała ilość zlecona jest już wyprodukowana (suma ilości wyprodukowanej pochodzącej z zaakceptowanych rekordów rejestracji jest co najmniej taka jak ilość zlecona),</li>
+  <li><span style="color:yellow"> żółty</span> - oznacza, że praca trwa (czyli mamy już zarejestrowaną ilość wyprodukowaną do tego zlecenia, ale jest ona nadal mniejsza od ilości zleconej).</li>
+</ul>
+
+<p>Ustawienie trybu wyświetlania kolorów zostanie zapamiętane - jeśli ponownie wejdziesz do planowania na liniach będzie uruchomiony wybrany przez Ciebie sposób. Aby powrócić do informowania o statusach kliknij przycisk <img class="inline" src="images/przyciskWylaczTrybPostepuProdukcji.png" alt="Przycisk Wyłącz tryb postępu produkcji" />
+ <strong>Wyłącz tryb postępu produkcji</strong></p>
+:ET

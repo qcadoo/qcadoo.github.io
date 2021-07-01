@@ -1,0 +1,37 @@
+I"U<h2 id="informacje">Informacje</h2>
+
+<p>Za pomocą tej metody api pobierzesz normy kosztowe produktu.</p>
+
+<p><strong>Moduł integracyjny:</strong> urcCostNormsForProduct</p>
+
+<p><strong>Nazwa akcji:</strong> getProductCostNorms</p>
+
+<p><strong>URL:</strong> /integration/rest/getProductCostNorms.html</p>
+
+<p><strong>Metoda http:</strong> POST</p>
+
+<h2 id="zawartość-żądania">Zawartość żądania</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "product" : {
+    {
+      "externalID" : "externalID"
+    }
+  }
+}
+</code></pre></div></div>
+
+<h2 id="zawartość-odpowiedzi">Zawartość odpowiedzi</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "product" : {
+      "externalID" : "externalID",
+      "costForNumber" : "quantity for which we define the prices",
+      "nominalCost" : "nominal cost per given number of units",
+      "lastPurchaseCost" : "last purchase price per given number of units",
+      "averageCost" : "average price per given number of units"
+  }
+}
+</code></pre></div></div>
+
+<h2 id="działanie">Działanie</h2>
+<p>Pobiera informacje o normach kosztowych danego produktu. API to wykorzystywane jest podczas realizacji funkcji: <a href="/produkty.html#uzupełnij-koszty-produktu">Uzupełnij koszty produktu</a>.</p>
+:ET

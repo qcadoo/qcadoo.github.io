@@ -1,0 +1,74 @@
+I"w<p>Jeśli Twoja technologia została uszczegółowiona za pomocą listy procesów technologicznych i oczekujesz od pracowników, aby potwierdzili wykonanie każdej z rozpisanej czynności, to ta funkcjonalność jest dla Ciebie. Lista procesów technologicznych zlecenia pełni dwie podstawowe funkcje:</p>
+<ul>
+  <li>wiadomo co jest do wykonania,</li>
+  <li>wiadomo kto i kiedy dany proces zrealizował.</li>
+</ul>
+
+<h2 id="obsługa-procesów-technologicznych-zlecenia">Obsługa procesów technologicznych zlecenia</h2>
+
+<p>Listę procesów technologicznych zlecenia znajdziesz wchodząc w: <strong>Rejestracja &gt; Procesy technologiczne zlecenia</strong></p>
+
+<figure><a target="_blank" href="images/rejestracjaProcesyTechnologiczneZleceniaLista.png"><img src="images/rejestracjaProcesyTechnologiczneZleceniaLista.png" alt="Lista procesów technologicznych zlecenia" /></a><figcaption>Lista procesów technologicznych zlecenia</figcaption></figure>
+
+<p>Procesy technologiczne zlecenia powstają w trybie generowania z poziomu zlecenia. Cały proces generowania składa się z następujących kroków:</p>
+
+<ol>
+  <li>zdefiniuj <a href="/procesy-technologiczne">procesy technologiczne</a></li>
+  <li>ułóż z nich <a href="/listy-procesow">listy procesów technologicznych</a> opisujące procedurę wykonania danaj operacji dla danego typu produktu</li>
+  <li>przypisz listę procesów do <a href="/technologie-szczegoly.html#zakładka-procesy">technologii</a></li>
+  <li>dodaj <a href="/zlecenia-produkcyjne">zlecenie produkcyjne</a></li>
+  <li>jeśli dzielisz zlecenie na paczki - wygeneruj <a href="/paczki-w-zleceniu">paczki do zlecenia</a>. Jeśli nie wykorzystujesz paczek - przejdź do kolejnego punktu</li>
+  <li>przejdź o <a href="/procesy-zlecenia">procesów zlecenia</a> i wygeneruj je</li>
+</ol>
+
+<p><br />
+<br /></p>
+
+<p>Gotowe!</p>
+
+<p>Możesz teraz albo ręcznie wskazać osobę wykonującą i datę realizacji w szczegółach procesu:</p>
+
+<figure><a target="_blank" href="images/rejestracjaProcesyTechnologiczneZleceniaSzczegoly.png"><img src="images/rejestracjaProcesyTechnologiczneZleceniaSzczegoly.png" alt="Widok szczegółów procesu technologicznego zlecenia" /></a><figcaption>Widok szczegółów procesu technologicznego zlecenia</figcaption></figure>
+
+<p>albo skorzystać z <a href="terminal-potwierdzania-procesow">terminala potwierdzania procesów</a>.</p>
+
+<p>Rozliczenie wykonanych procesów łącznie z wyliczeniem pełnego kosztu wykonania (w oparciu o <a href="/stawki-za-procesy">stawki za procesy</a>) przeprowadzisz w <strong>analizy &gt; wykonanie procesów technologicznych zlecenia</strong>.</p>
+
+<div class="bs-callout bs-callout-warning">Usunięcie procesu technologicznego powoduje usunięcie wszystkich procesów związanych z danym zleceniem lub paczką zlecenia. Jeśli wśród nich znajduje się choć jeden proces już wykonany, to usunięcie będzie możliwe tylko wtedy, gdy parametr Pozwól na edycję ilości lub usunięcie wykonanego procesu będzie zaznaczony.</div>
+
+<div class="bs-callout bs-callout-warning">Aby móc edytować proces technologiczny już wykonany zaznacz parametr Pozwól na edycję ilości lub usunięcie wykonanego procesu będzie zaznaczony.</div>
+
+<hr />
+
+<h2 id="podział-procesu-technologicznego-zlecenia">Podział procesu technologicznego zlecenia</h2>
+
+<p>Domyślnie dany proces technologiczny realizowany jest przez jedną osobę. Ale nie musi tak być - możesz poprosić kilku pracowników o jego jednoczesne wykonywanie. Podziel proces, wskazując na ile części i jaka ilość w każdej części ma być przetwarzana. Jak tego dokonać? Wejdź w <strong>rejestracja &gt; procesy technologiczne zlecenia</strong>, zaznacz proces i kliknij przycisk: <img class="inline" src="images/przyciskPodzielProces.png" alt="Przycisk Podziel proces" />
+ <strong>Podziel proces</strong>:</p>
+
+<figure><a target="_blank" href="images/rejestracjaProcesyTechnologicznePodzial.png"><img src="images/rejestracjaProcesyTechnologicznePodzial.png" alt="Podział procesu technologicznego zlecenia" /></a><figcaption>Podział procesu technologicznego zlecenia</figcaption></figure>
+
+<p>przy otwarciu okna widoczne są 2 części, z równo podzieloną ilością. Możesz podzielić proces na więcej części, używając przycisku <img class="inline" src="images/przyciskPlusADL.png" alt="Przycisk Plus" />
+. Potwierdź operację przyciskiem <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>.</p>
+
+<h2 id="zgłoszenie-braku-do-procesu">Zgłoszenie braku do procesu</h2>
+
+<p>Jeśli proces technologiczny nie został wykonany poprawnie, możesz zlecić jego ponowne wykonanie czy poprawienie. Aby zapisać taki fakt w systemie, zgłoś brak do procesu technologicznego. Dzięki temu w analizie wykonania procesów pojawi się informacja o niepopranych sztukach. Może stanowić to podstawę do oceny pracy pracownika.</p>
+
+<p>Aby zgłosić brak wejdź do: <strong>Rejestracja &gt; Procesy technologiczne zlecenia</strong>, zaznacz proces i kliknij przycisk <img class="inline" src="images/przyciskZglosBrak.png" alt="Przycisk Zgłoś brak" />
+ <strong>Zgłoś brak</strong>:</p>
+
+<figure><a target="_blank" href="images/rejestracjaProcesyTechnologiczneZgloszenieBraku.png"><img src="images/rejestracjaProcesyTechnologiczneZgloszenieBraku.png" alt="Zgłoszenie braku do procesu technologicznego zlecenia" /></a><figcaption>Zgłoszenie braku do procesu technologicznego zlecenia</figcaption></figure>
+
+<p>Podaj:</p>
+<ul>
+  <li>jaka <strong>ilość</strong> nie spełnia norm jakościowych,</li>
+  <li>jaka jest <strong><a href="/slowniki">przyczyna braku</a></strong>,</li>
+  <li>ewentualnie opis zaistniałej sytuacji.</li>
+</ul>
+
+<p>i potwierdź przyciskiem <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>. W efekcie utworzony zostanie brak w liście <a href="/braki-do-procesow">braków</a>. A w samym procesie będzie ustawiona liczba braków. Do każdego procesu brak może być zgłaszany wielokrotnie.</p>
+
+<div class="bs-callout bs-callout-warning">Interesujący Cię proces możesz znaleźć np. poprzez zeskanowanie do kolumny paczka, jej kodu z etykiety i wywołanie filtrowania klawiszem Enter</div>
+:ET

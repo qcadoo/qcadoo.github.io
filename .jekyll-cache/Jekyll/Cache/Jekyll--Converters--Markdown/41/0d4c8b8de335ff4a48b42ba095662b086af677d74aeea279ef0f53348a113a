@@ -1,0 +1,39 @@
+I"k<p>Dzięki tej funkcji możesz rozplanować przydział pracowników do zmian na liniach produkcyjnych oraz przeprowadzić późniejszą rejestrację faktycznego obłożenia.</p>
+
+<h2 id="dodanie-nowego-przydziału-do-zmian">Dodanie nowego przydziału do zmian</h2>
+
+<p><strong>PLANOWANIE Przydział do zmian</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy wydruk" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure class="float-right "><a target="_blank" href="images/Planowanie-%20przydzia%C5%82%20do%20zmian-%20G%C5%82%C3%B3wna-%20strza%C5%82ki.png"><img src="images/Planowanie-%20przydzia%C5%82%20do%20zmian-%20G%C5%82%C3%B3wna-%20strza%C5%82ki.png" alt="Formularz przydziału do zmian" class="percent90 " /></a><figcaption>Formularz przydziału do zmian</figcaption></figure>
+
+<ol>
+  <li>W pierwszym kroku określ “Datę rozpoczęcia”, od której będzie obowiązywał zdefiniowany przydział pracowników.</li>
+  <li>Potem wybierz <a href="/zmiany">Zmianę</a>, dla której chcesz przydzielić pracowników.</li>
+  <li>Niezbędne jest również podanie “Zakładu”, dla którego tworzymy przydział.</li>
+  <li>Następnie kliknij  <img class="inline" src="images/saveIcon24.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>, aby zapisać wprowadzone dane.</li>
+  <li>
+    <p>Teraz przy użyciu przycisku <img class="inline" src="images/newIcon16.png" alt="Przycisk Nowy" />
+ <strong>Nowy</strong> zacznij wprowadzać pracowników, których chcemy przypisać do danej “Zmiany”.</p>
+
+    <div class="bs-callout bs-callout-info">Jeżeli do tej samej linii produkcyjnej jest przypisanych wielu pracowników, nie musisz wprowadzać każdego z nich osobno. Skorzystaj z funkcji <img src="/images/newIcon16.png" alt="" /> <strong>Dodaj wielu pracowników</strong>, która pozwala dodać wielu pracowników na raz.</div>
+  </li>
+</ol>
+
+<ol start="6">
+  <li>Po wprowadzeniu wszystkich informacji wybierz <img class="inline" src="images/startIcon24.png" alt="Przycisk Zaakceptuj" />
+ <strong>Zaakceptuj</strong>.</li>
+</ol>
+
+<div class="bs-callout bs-callout-warning">Zajrzyj też do <a href="/parametry-planowania.html#zadania-operacyjne">parametrów przydziału do zmian</a></div>
+
+<h2 id="korekta-zdefiniowanego-przydziału-do-zmian">Korekta zdefiniowanego przydziału do zmian</h2>
+
+<p>Jeżeli po zaakceptowaniu przydziału chcesz wprowadzić jakieś zmiany, możesz to zrobić, wybierając <img class="inline" src="images/deleteIcon24.png" alt="Przejdź do korekcji" />
+ <strong>Przejdź do korekcji</strong>. Pozwoli to na modyfikację wcześniej wprowadzonych danych. Po wprowadzeniu zmian kliknij <img class="inline" src="images/deleteIcon24.png" alt="Skoryguj" />
+ <strong>Skoryguj</strong>.</p>
+
+<div class="bs-callout bs-callout-info">Aby porównać dane przed korektą z danymi po modyfikacji przydziału, przejdź do zakładki “Porównanie plan. i skoryg.”.</div>
+
+:ET

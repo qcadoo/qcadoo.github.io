@@ -1,0 +1,75 @@
+I"+<p>Załóżmy, że głównym Twoim celem jest płynna realizacja produkcji. Masz małą firmę, produkujesz niewielką ilość stałych wyrobów, pracownicy ciągle się komunikują, wiadomo kiedy można wykonywać kolejne czynności. Pracownik powienien wiedzieć jakie produkty trzeba wykonać na jego dziale. Jakie są planowane terminy. I jaką ilość trzeba wyprodukować. Zależy Ci na tym, by praca każdej linii produkcyjnej planowana była osobno - czyli aby każda linia miała swoje odrębne zlecenie i aby na wykresie Gantta każdy etap prac miał swój odrębny kafelek. Zależy Ci też na tym aby pracownicy raportowali efekty pracy oraz to jakie surowce zużyli, ale nie zależy Ci na tym, aby robili to bezpośrednio po wykonaniu zadania. Jeśli jest im wygodniej aby zanotować coś na kartce i wprowadzić jutro czy w piątek - niech tak będzie. Być może umówisz się z pracownikami, by do końca tygodnia zawsze zaewidencjonowane były meldunki z produkcji. A być może - zawsze na koniec dnia. Decyzja należy do Ciebie.</p>
+
+<p>Poniższy opis przedstawi jak może wyglądać proces w qcadoo w opisanym wyżej modelu pracy.</p>
+
+<p>Produkujemy ławkę z miękkim siedziskiem. Niezależnie powstają nogi (najpierw surowe, później są lakierowane) i siedzisko. Elementy te spotykają się na montażu. I już gotowy mebel jest pakowany. Kompletna struktura wyrobu wygląda następująco:</p>
+
+<figure><a target="_blank" href="images/procesyBezKontroliZuzyciaTechnologia.png"><img src="images/procesyBezKontroliZuzyciaTechnologia.png" alt="Technologia" /></a><figcaption>Technologia</figcaption></figure>
+
+<p>Jak widać - proces został podzielony na technologie na komponenty. Etapy produkowane przez każdą z linii są objęte osobnymi technologiami (w zasięgu każdej z technologii uzupełniona jest linia produkcyjna - dzięki temu przy tworzeniu zleceń z automatu się uzupełni). Operacje nie są rozdrobnione - jeśli jest potrzeba w opisie technologii można zawrzeć informacje o tym jakie czynności trzeba wykonać (jeśli chcesz, aby opis technologii przeniósł się do zlecenia zaznacz parametr <em>Uzupełniaj opis zlecenia na podstawie opisu technologii</em> w zakładce <a href="/parametry-zlecen.html#główna">Główna</a> parametrów zlecenia). Pracownik ma zrealizować całość prac i z całości się rozliczyć. W technologiach została przyjęta rejestracja zbiorcza.
+Jeśli jeszcze nie wiesz jak definiuje się technologie z podziałem na komponenty zajrzyj <a href="/technologie-szczegoly.html#technologie-na-komponenty">tutaj</a></p>
+
+<p>Warto wspomnieć też o tym jak została zdefiniowana <a href="/struktura-firmy">struktura firmy</a> - zlecenia w firmie są planowane z dokładnością do działu. Ale ponieważ w zleceniach produkcyjnych w qcadoo najważniejsza jest linia produkcyjna i wykres Gantta opiera się o linie produkcyjne, działy zostały opisane jako linie produkcyjne (jeden zakład, jeden dział, linie następujące: obróbka drewna, lakiernia, tapicernia, montaż, pakowalnia). Stacje robocze nie zostały wprowadzone - bo nie są one potrzebne przy realizacji produkcji. Nie jest ważne na jakiej maszynie czy stanowisku praca została wykonana. Nie jest też ważne, który pracownik zajmie się produkcją. Ważne jest jaki dział ma zadanie zrealizować - reszta zostanie dograna na bieżąco.</p>
+
+<p>Rozpisanie produkcji rozpoczyna się od dodania zlecenia produkcyjnego. Dodajmy je ręcznie z poziomu planowanie &gt; planowanie zleceń. Ale możesz równie dobrze rozpocząć od <a href="/zlecenia-nadrzedne">zamówień sprzedaży</a> i wykorzystać automatyczne tworzenie wielu zleceń produkcyjnych.</p>
+
+<p>Zlecenie produkcyjne dodajemy na wyrób gotowy (w przykładzie - ława z miękkim siedziskiem) - wg instrukcji opisanej <a href="/zlecenia-produkcyjne">tutaj</a>. Ważne jest, aby podać datę rozpoczęcia zlecenia - późniejszą niż datę aktualną.</p>
+
+<figure><a target="_blank" href="images/procesyBezKontroliZuzyciaZlecenieGlowne.png"><img src="images/procesyBezKontroliZuzyciaZlecenieGlowne.png" alt="Utworzenie zlecenia na wyrób gotowy" /></a><figcaption>Utworzenie zlecenia na wyrób gotowy</figcaption></figure>
+
+<p>Na razie wiemy, że linia pakowania ma spakować gotowy produkt. Brakuje nam jeszcze zleceń na obróbkę drewna, lakiernię, tapicernię i montaż. Trzeba zatem wywołać funkcję generowania zleceń na komponenty. W tym celu należy kliknąć przycisk Pokrycia zapotrzebowania:</p>
+
+<figure><a target="_blank" href="images/procesyBezKontroliZuzyciaPrzyciskPokrycie.png"><img src="images/procesyBezKontroliZuzyciaPrzyciskPokrycie.png" alt="Przycisk pokrycia zapotrzebowania" /></a><figcaption>Przycisk pokrycia zapotrzebowania</figcaption></figure>
+
+<p>wygenerować pokrycie:</p>
+
+<figure><a target="_blank" href="images/procesyBezKontroliZuzyciaPokrycieGeneruj.png"><img src="images/procesyBezKontroliZuzyciaPokrycieGeneruj.png" alt="Generowanie pokrycia zapotrzebowania" /></a><figcaption>Generowanie pokrycia zapotrzebowania</figcaption></figure>
+
+<p>i wygenerować zlecenia na komponenty.</p>
+
+<figure><a target="_blank" href="images/procesyBezKontroliZuzyciaPokrycieGenerujZlecenia.png"><img src="images/procesyBezKontroliZuzyciaPokrycieGenerujZlecenia.png" alt="Generowanie zleceń na komponenty z pokrycia zapotrzebowania" /></a><figcaption>Generowanie zleceń na komponenty z pokrycia zapotrzebowania</figcaption></figure>
+
+<p>Jeśli w zleceniu głównym data rozpoczęcia nie byłaby podana lub byłaby wcześniejsza od daty aktualnej - zlecenia na kompomenty nie wygenerowałyby się, ponieważ nie moglibyśmy ustalić czy w danym momencie komponenty byłyby dostępne na magazynie, czy zachodziłaby konieczność ich wyprodukowania.</p>
+
+<p>W efekcie lista zleceń o numerze 000117 wydłużyła się do następującej:</p>
+
+<figure><a target="_blank" href="images/procesyBezKontroliZuzyciaZestawZlecen.png"><img src="images/procesyBezKontroliZuzyciaZestawZlecen.png" alt="Zlecenia potrzebne do wyprodukowania wyrobu gotowego" /></a><figcaption>Zlecenia potrzebne do wyprodukowania wyrobu gotowego</figcaption></figure>
+
+<p>Każda linia, zgodnie z technologią, ma osobne zlecenie produkcyjne. Każde ze zleceń na komponenty ma datę rozpoczęcia taką jak w zleceniu głównym. I żadne ze zleceń nie ma daty zakończenia. Trzeba poukładać zlecenia wg kolejności realizacji.</p>
+
+<div class="bs-callout bs-callout-info">Jeśli w zleceniu głównym podasz obie daty - to będą one razem przekazane do generowanych zleceń na komponenty</div>
+
+<p>Moglibyśmy do tego celu użyć <a href="/czasochlonnosc-zlecenia">kalkulacji czasochłonności</a> wywołanej ze zlecenia głównego - ale może nie mamy zdefiniowanych norm czasowych w technologii, bo być może nie są nam one potrzebne. Użyjemy zatem <a href="/planowanie-na-liniach">wykresu Gantta</a>.</p>
+
+<figure><a target="_blank" href="images/procesyBezKontroliZuzyciaGantt.png"><img src="images/procesyBezKontroliZuzyciaGantt.png" alt="Planowanie na wykresie Gantta" /></a><figcaption>Planowanie na wykresie Gantta</figcaption></figure>
+
+<p>Zlecenia produkcyjne bez daty rozpoczęcia, daty zakończenia lub linii prodykcyjnej trafiają do bufora. Zadaniem planisty jest przesunięcie ich do obszaru kalendarza. I tak jest w naszym przypadku - ręcznie wrzucamy zlecenia na odpowiednią linię, ręcznie ustawiając ich kolejność i czas trwania. Po zapisaniu aktualizują się daty w zleceniach produkcyjnych. Aby móc rozpocząć produkować należy zmienić ich statusy na: zaakceptowane i rozpoczęte. W tym celu najlepiej w liście planowanych zleceń przefiltrować po numerze 000117, zaznaczyć wszystkie i kliknąć najpierw <strong>akceptuj</strong> a później <strong>rozpocznij</strong>.</p>
+
+<div class="bs-callout bs-callout-info">Nie musisz używać wykresu Gantta - możesz ustawić daty takie jak chcesz w szczegółach zlecenia</div>
+
+<p>Gotowe - etap planowania został ukończony. Przechodzimy do produkcji i rejestracji jej efektów. Jeśli chcesz - wydrukuj <a href="/karty-pracy">karty pracy</a> dla pracowników. Ale nie musisz tego robić - pracownicy mogą korzystać z <a href="/terminal">terminala</a>.</p>
+
+<p>Aby się zalogować - trzeba użyć numeru pracownika.</p>
+
+<div class="bs-callout bs-callout-info">Jeśli wprowadzając pracownika do qcadoo, przypiszesz do niego dział - zostanie on wczytany po zalogowaniu pracownika do terminala. I do niego zostaną ograniczone zlecenia w oknie wyboru</div>
+
+<p>Pracownik pozna listę zadań do wykonania klikając <strong>Wybierz zlecenie</strong></p>
+
+<figure><a target="_blank" href="images/procesyBezKontroliZuzyciaTerminalWyborZlecen.png"><img src="images/procesyBezKontroliZuzyciaTerminalWyborZlecen.png" alt="Wybór zlecenia w terminalu rejestracji produkcji" /></a><figcaption>Wybór zlecenia w terminalu rejestracji produkcji</figcaption></figure>
+
+<p>W uruchomionym oknie sprawdzamy co zostało zaplanowane do realizacji. Jako, że pracownik wie, co już czeka na dalszą obróbkę (bo: albo kolega ze stanowiska obok go poinformował, albo zostały mu na stanowisko przywiezione półprodukty, albo po prostu pracownicy pracują ramię w ramię i po przetworzeniu każdej sztuki przekazują sobie do dalszych prac), łatwo znaleźć mu właściwe zlecenie. Po wybraniu odpowiedniego wiersza może:</p>
+<ul>
+  <li>poznać szczegóły zlecenia</li>
+  <li>zaraportować efekty swoich prac</li>
+</ul>
+
+<figure><a target="_blank" href="images/procesyBezKontroliZuzyciaTerminal.png"><img src="images/procesyBezKontroliZuzyciaTerminal.png" alt="Terminal rejestracji produkcji" /></a><figcaption>Terminal rejestracji produkcji</figcaption></figure>
+
+<p>W przyjętym modelu pracownik rejestruje ilość wyprodukowaną. Ilość zużyta wylicza się wg norm (<a href="/parametry-rejestracja-produkcji">do ustawienia w parametrach rejestracji produkcji</a>). Po potwierdzeniu meldunku tworzy się <a href="/rejestracja-produkcji">rekord rejestracji</a>. Nikt na ten moment ich nie weryfikuje, nikt nie obrabia i nie akceptuje. Zostają w szkicu. Stany magazynowe się nie zmieniają. Ilości wyprodukowane w zleceniu nie zostają ustawione. Pracownik na doprecyzowanie szczegółów swojej pracy ma jeszcze czas.
+Takie podejście sprawia, że można zaraportować zmontowanie całej ławki mimo, iż dział obróbki drewna nie wprowadził jeszcze do systemu wyprodukowanych nóg.</p>
+
+<figure><a target="_blank" href="images/procesyBezKontroliZuzyciaRR.png"><img src="images/procesyBezKontroliZuzyciaRR.png" alt="Utworzone podczas pracy rekordy rejestracji produkcji" /></a><figcaption>Utworzone podczas pracy rekordy rejestracji produkcji</figcaption></figure>
+
+<p>Gdy nadejdzie czas rozliczeń - osoba odpowiedzialna akceptuje istniejące rekordy rejestracji. To utworzy dokumenty, ukształtuje stany magazynowe i ustawi właściwe ilości w zleceniach produkcyjnych. I będzie można przeprowadzić rozliczenie produkcji czy analizy.</p>
+
+:ET

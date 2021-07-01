@@ -1,0 +1,37 @@
+I"�<p>Technologie grup produktów pozwalają na korzystanie z jednej technologii przez wiele produktów. Jeśli masz bardzo podobne produkty, które produkuje się dokładnie w taki sam sposób, a rozróżnieniem jest np. kolor użytej tkaniny, to będzie to funkcjonalność dla Ciebie.</p>
+
+<p>Dla lepszego zrozumienia celu, opiszę temat na przykładzie.</p>
+
+<p>Firma MEBLAK produkuje ławki z siedziskiem. Klient podczas składania zamówienia ma możliwość wybrania koloru tkaniny obiciowej. Poza tym - każda wyprodukowana ławka wygląda tak samo i produkowana jest w dokładnie taki sam sposób. MEBLAK mógłby wprowadzić do każdej ławki osobną technologię. Ale może też zdefiniować produkt będący rodziną: ławka i dla niego stworzyć technologię. A wszystkie konkretne produkty, mające skorzystać z tej technologii, podpiąć pod rodzinę. Jakby to wyglądało w qcadoo?</p>
+
+<p>Tworzymy produkt - rodzinę:</p>
+
+<figure><a target="_blank" href="images/technologieTechnologieGrupProduktowRodzina.png"><img src="images/technologieTechnologieGrupProduktowRodzina.png" alt="Produkt będący rodziną" /></a><figcaption>Produkt będący rodziną</figcaption></figure>
+
+<p>I dla niego definiujemy technologię:</p>
+
+<figure><a target="_blank" href="images/technologieTechnologieGrupProduktowTechnologiaRodziny.png"><img src="images/technologieTechnologieGrupProduktowTechnologiaRodziny.png" alt="Technologia dla produktu będącego rodziną" /></a><figcaption>Technologia dla produktu będącego rodziną</figcaption></figure>
+
+<p>I podpinamy pod produkt te, które do tej rodziny należą:</p>
+
+<figure><a target="_blank" href="images/technologieTechnologieGrupProduktowRodzinyProd.png"><img src="images/technologieTechnologieGrupProduktowRodzinyProd.png" alt="Hierarchia rodziny produktu" /></a><figcaption>Hierarchia rodziny produktu</figcaption></figure>
+
+<p>Podczas tworzenia zlecenia produkcyjnego na konkretną ławkę (np. ławka z siedziskiem czarnym) podepniemy technologię produktu rodziny w sytuacji, gdy nie znajdziemy technologii bezpośrednio dla tego produktu.</p>
+
+<figure><a target="_blank" href="images/technologieTechnologieGrupProduktowZlecenie.png"><img src="images/technologieTechnologieGrupProduktowZlecenie.png" alt="Zlecenie z technologią grupy produktu" /></a><figcaption>Zlecenie z technologią grupy produktu</figcaption></figure>
+
+<p>Obsługa takiego zlecenia jest w zasadzie taka sama jak standardowego zlecenia, ze standardową technologią. <strong>Różnice są następujące</strong>:</p>
+<ul>
+  <li>w zleceniu z technologią grup produktów nie można edytować technologii</li>
+  <li>póki zlecenie nie zostanie zaakceptowane (czyli dopóki jest w statusie Oczekujące) ma produkty uczestniczące w procesie ustalone na podstawie technologii rodziny (czyli produktem wyjściowym ostatniej operacji w naszym przykładzie będzie ‘ławka’ a nie ‘ławka z siedziskiem czarnym’), dlatego takie funkcje jak: pokrycie zapotrzebowania, zapotrzebowanie materiałowe czy karty pracy, lepiej wykonywać po akceptacji zlecenia</li>
+</ul>
+
+<p>Zapewne zadajesz sobie pytanie - skoro ławki te mają różny kolor obicia, to pewnie lista produktów używanych się różni, więc technologia nie może być dokładnie taka sama! Zgadza się. Funkcjonalność daje nam jeszcze jedną opcję - <strong>podmiany jednego produktu wejściowego z technologii rodziny</strong>. Należy w technologii grupy produktu jako surowiec podać stworzony produkt - rodzinę (w naszym przykładzie będzie to ‘tkanina obiciowa’) i zdefiniować jakimi konkretnymi surowcami mamy go zastępować podczas tworzenia zlecenia (szczegóły znajdziesz <a href="/produkty-do-technologii-grup-produktow">tutaj</a>).</p>
+
+<figure><a target="_blank" href="images/technologieTechnologieGrupProduktowRodzinaTkanina.png"><img src="images/technologieTechnologieGrupProduktowRodzinaTkanina.png" alt="Hierarchia rodziny dla surowca" /></a><figcaption>Hierarchia rodziny dla surowca</figcaption></figure>
+
+<p>W momencie zaakceptowania zlecenia do <a href="/zmiana-stanu-zapotrzebowania">szczegółowego zapotrzebowania</a> zaciągniemy odpowiedni surowiec i to on będzie uczestniczył w procesie.</p>
+
+<figure><a target="_blank" href="images/technologieTechnologieGrupProduktowSzczegoloweZapotrzebowanie.png"><img src="images/technologieTechnologieGrupProduktowSzczegoloweZapotrzebowanie.png" alt="Szczegółowe zapotrzebowanie z podmienionymi produktami" /></a><figcaption>Szczegółowe zapotrzebowanie z podmienionymi produktami</figcaption></figure>
+
+:ET

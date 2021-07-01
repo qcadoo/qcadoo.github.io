@@ -1,0 +1,105 @@
+I"�&<p>Chciałbyś mieć pewność, że produkty przez Ciebie wytwarzane są najwyższej jakości? Potrzebujesz przekazać pracownikom instrukcję co dokładnie mają mierzyć, badać, próbkować, liczyć podczas wykonywania konkretnych czynności w procesie produkcyjnym? A może wolisz sam zweryfikować jakość wykorzystywanych do produkcji materiałów? Jeśli na choć jedno z tych pytań odpowiedziałeś “tak”, to znaczy, że kontrola jakości jest dla Ciebie.</p>
+
+<p>Każdą zaewidencjonowaną kontrolę jakości znajdziesz w <strong>jakość &gt; kontrola jakości</strong>.</p>
+
+<p>W qcadoo mamy trzy tryby kontroli jakości: wstępną, bieżącą i końcową. Kontrola wstępna realizowana jest na etapie odbioru <a href="/dostawy">dostawy</a>. Kontrola bieżąca sprawdza jakość wytwarzanych wyrobów w trakcie procesu produkcyjnego i dodawana jest wraz z <a href="/rejestracja-produkcji">rejestracją produkcji</a>. Kontrola jakości końcowa dodawana jest ręcznie - służy do tego, abyś mógł sprawdzić jakość dowolnych produktów znajdujących się na magazynie. I ta kontrola jakości zostanie opisana w tej dokumentacji.</p>
+
+<hr />
+
+<p><strong>Końcowa kontrola jakości</strong> zakłada, że już po wyprodukowaniu kontrolowana jest dana <a href="/jak-dodac-numery-partii">partia</a> produktów. Na podstawie podanej partii zaciągane są <a href="/zasoby">zasoby</a>, które w momencie rozpoczęcia kontroli są blokowane. Po co blokowane? Aby przypadkiem nie zostały rozchodowane w trakcie ustalania, czy nadają się do sprzedaży, czy do dalszego przerobienia.</p>
+
+<p>Jeśli nie trzymasz stanów w qcadoo (a tym samym lista Twoich zasobów jest pusta), to się nie martw. Nadal będziesz mógł kontrolować wyprodukowane przez siebie <a href="/jak-dodac-numery-partii">partie</a> i trzymać efekty kontroli w systemie. Wystarczy, że zdefiniujesz partię w genealogii i dla niej strorzysz kontrolę jakości.</p>
+
+<p><strong>Efektem końcowej kontroli jakości</strong> są:</p>
+<ul>
+  <li>wystawiona ocena jakości, która zostanie przekazana do zasobów,</li>
+  <li>zapisane wartości dla zdefiniowanych elementów podlegających kontroli.</li>
+</ul>
+
+<p>Wiesz już chyba wszystko na temat tego czego możesz się spodziewać. Gotowy na przeprowadzenie pierwszej kontroli końcowej? Sprawdźmy jeszcze, czy masz wszystko odpowiednio przygotowane:</p>
+<ol>
+  <li>produkt, który chcesz sprawdzić ma zdefiniowaną <a href="karty-jakosci">kartę jakości</a></li>
+  <li>masz produkty przyjęte na magazyn (czyli masz zasoby) i/lub masz zdefiniowaną partię w genealogii</li>
+</ol>
+
+<p>Wejdź w <strong>jakość &gt; kontrola jakości</strong> i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/jakoscKontrolaJakosciNowaGlowna.png"><img src="images/jakoscKontrolaJakosciNowaGlowna.png" alt="Formularz dodawania końcowej kontroli jakości" /></a><figcaption>Formularz dodawania końcowej kontroli jakości</figcaption></figure>
+
+<p>Uzupełnij:</p>
+<ul>
+  <li><strong>produkt</strong>, który chcesz kontrolować</li>
+  <li><strong>kartę jakości</strong>, wg której chcesz przeprowadzić kontrolę. Lista kart jakości jest ograniczona do tych, które są zaakceptowane i przypisane do produktu</li>
+  <li><strong>partię</strong>, która będzie podlegała kontroli - w zależności od ustawionych <a href="/parametry-glowna.html#jakość">parametrów</a> możesz realizować dwa tryby:
+    <ol>
+      <li>zakłada, że blokujesz zasoby - wówczas partia może być w kontoli podana, ale nie musi. Na jej podstawie zostanie zawężona lista zasobów. Ale możesz też zasoby wskazać ręcznie i one nie muszą nieść informacji o partii</li>
+      <li>zakłada, że zasoby nie będą blokowane. A nawet - że zasoby nie istnieją. W tej sytuacji partia będzie niezbędna - musisz wskazać to, po czym będziemy identyfikować jakie konkretnie wyroby zostały sprawdzone</li>
+    </ol>
+  </li>
+  <li><strong>data</strong>, w której przeprowadzasz kontrolę. Podpowiemy Ci datę dzisiejszą</li>
+  <li><strong>pracownik</strong>, który konroluje. Zakładamy, że to Ty, zatem podpowiemy pracownika przypisanego do Twojego użytkownika</li>
+  <li><strong>opis</strong>, w którym możesz zostawić ważne dla siebie informacje</li>
+</ul>
+
+<p>i zapisz, używajac przycisku <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>.</p>
+
+<p>W tym momencie kontrola jakości dostanie swój unikalny <strong>numer</strong>. Ponadto zostaną zaciągnięte <strong>zasoby</strong> z podanej partii. Jeśli kontrolujesz w trybie blokowania zasobów, a pole partia jest puste, albo nie ma zasobów z taką partią, będziesz musiał sam zasoby wskazać, zaciągając je do tabeli <strong>Kontrolowane zasoby</strong> (użyj w tym celu przycisku  <img class="inline" src="images/przyciskNowyMaly.png" alt="Przycisk Nowy" />
+ <strong>Nowy</strong>). Dodatkowo - zostaną uzupełnione dane w zakładce <strong>Atrybuty kontroli</strong></p>
+
+<figure><a target="_blank" href="images/jakoscKontrolaJakosciNowyAtrybutyKontroli.png"><img src="images/jakoscKontrolaJakosciNowyAtrybutyKontroli.png" alt="Lista atrybutów kontroli" /></a><figcaption>Lista atrybutów kontroli</figcaption></figure>
+
+<p>Widoczne są tu wszystkie <strong>atrybuty zdefiniowane w karcie jakości</strong>. To te elementy musisz sprawdzić, najlepiej w kolejności zaprezentowanej w tabeli. Potrzebujesz wydruku z listą rzeczy do skontrolowania? Proszę bardzo - wydruk kontroli jakości dostępny jest pod przyciskiem <img class="inline" src="images/przyciskKontrolaJakosci.png" alt="Przycisk Kontrola jakości" />
+ <strong>Kontrola jakości</strong>.</p>
+
+<p>Jeśli chcesz do kontroli jakości możesz podpiąć załączniki - np. rysunki techniczne czy inną dokumentację mająca pomóc w przeprowadzeniu kontroli. W zakładce <strong>Załączniki</strong> możesz załączyć plik albo przez kliknięcie w przycisk <strong>Wybierz pliki</strong> i wskazanie go z dysku, albo poprzez przeciągnięcie i upuszczenie w czarny obszar opisany tekstem <strong>Upuść pliki tutaj</strong>.</p>
+
+<figure><a target="_blank" href="images/jakoscKontrolaJakosciNowyZalaczniki.png"><img src="images/jakoscKontrolaJakosciNowyZalaczniki.png" alt="Załączniki w kontroli jakości" /></a><figcaption>Załączniki w kontroli jakości</figcaption></figure>
+
+<p>Jeśli <a href="/karty-jakosci">karta jakości</a>, na podstawie której będziesz weryfikować jakość produktów, ma załączniki, to zostaną one z automatu zaciągnięte do kontroli jakości.
+Podpięte pliki możesz podejrzeć klikając w nie, albo pobrać zaznaczając i klikając przycisk <img class="inline" src="images/przyciskPobierz.png" alt="Przycisk Pobierz" />
+ <strong>Pobierz</strong>.</p>
+
+<p>Gotowe. Pozostaje Ci zmienić status na <strong>Rozpoczęta</strong> (przycisk  <img class="inline" src="images/przyciskRozpocznij.png" alt="Przycisk Rozpocznij" />
+ <strong>Rozpocznij</strong>) i, co pewnie najważniejsze w całym procesie, fizyczne przeprowadzenie kontroli.</p>
+
+<div class="bs-callout bs-callout-warning">Rozpoczęcie kontroli jakości zablokuje podane w tabeli zasoby. Co znaczy zablokuje? Ustawi flagę w zasobie (więc przeglądając listę, będziesz wiedział, które są aktualnie kontrolowane) i ograniczy listę możliwych do rozchodowania zasobów do tych, które tej flagi nie posiadają.</div>
+
+<p><strong><span style="color:red"> <em>Pamiętaj, żeby po skończonej kontroli jakości wrócić do qcadoo!</em></span></strong> Musisz zostawić efekty swojej pracy.</p>
+
+<p>Do zrobienia trzy rzeczy:</p>
+<ol>
+  <li>uzupełnij <strong>wartościami</strong> listę atrybutów w zakładce Atrybuty kontroli,</li>
+  <li>podaj <strong><a href="/slowniki">ocenę jakości</a></strong>,</li>
+  <li><strong>zakończ</strong> kontrolę jakości (przycisk <img class="inline" src="images/przyciskZakoncz.png" alt="Przycisk Zakończ" />
+ <strong>Zakończ</strong>).</li>
+</ol>
+
+<p>W efekcie:</p>
+<ul>
+  <li>każdy z kontrolowanych zasobów otrzyma ustaloną przez Ciebie ocenę jakości,</li>
+  <li>zasoby kontrolowane zostaną odblokowane.</li>
+</ul>
+
+<div class="bs-callout bs-callout-warning">Jeśli kontrola będzie trwała długo, a Ty nie możesz pozwolić na to, by przez ten cały czas zasoby nie mogły być rozchodowane, użyj funkcji Odblokuj zasoby, zwalniając te, które zostały już przez Ciebie skontrolowane.</div>
+
+<p><strong><span style="color:red"> <em>Ważna informacja na koniec!</em></span></strong>
+Jeśli efekt kontroli nie jest zadowalajacy, musisz sam przeprowadzić dalszą procedurę: przesuwania produktów, likwidacji, utylizacji, zlecenia napraw, czy inne działania, które zwykle w takiej sytuacji wykonujesz. Jeśli chcesz abyśmy Cię wsparli, skontaktuj się z nami - być może wspólnie napiszemy mechanizm reakcji na podaną ocenę jakości.</p>
+
+<h2 id="korekta-kontroli-jakości">Korekta kontroli jakości</h2>
+
+<p>W zakończonej kontroli jakości możesz nanieść poprawki - zawsze mogliście się pomylić na etapie zapisywania wyników kontroli. Kliknij w kontroli przycisk  <img class="inline" src="images/przyciskKorygujKJ.png" alt="Przycisk Koryguj" />
+ <strong>Koryguj</strong>, nanieś poprawki i ponownie zakończ zlecenie. Co możesz zmodyfikować:</p>
+<ul>
+  <li>opis,</li>
+  <li>partię,</li>
+  <li>datę kontroli,</li>
+  <li>pracownika kontrolującego,</li>
+  <li>ocenę jakości</li>
+  <li>wartości atrybutów.</li>
+</ul>
+
+<p>Zmiana jest dokonana tylko w tej kontroli jakości. Jeśli jest to kontrola bieżąca i chcesz zmodyfikować też dane w meldunku z produkcji - <a href="/rejestracja-produkcji.html#jak-skorygować-rejestrację-produkcji">skoryguj dodatkowo rekord rejestracji</a>.</p>
+
+:ET

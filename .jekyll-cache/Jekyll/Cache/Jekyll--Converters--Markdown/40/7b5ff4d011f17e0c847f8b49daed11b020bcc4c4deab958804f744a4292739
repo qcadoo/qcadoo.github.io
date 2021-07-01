@@ -1,0 +1,18 @@
+I"�<p>Załoga to nic innego jak grupa pracowników. Jeśli wykorzytujesz moduł utrzymania ruchu w qcadoo, to stwórz załogę i podepnij do niej pracowniów DUR - a tylko oni będą widoczni w kalendarzu zdarzeń.
+Załoga może się też przydać przy tworzeniu przydziału do zmian - każda załoga może mieć takie przypisanie tworzone z osobna. Dzięki temu liderzy załóg mogą być odpowiedzialni za ułożenie kalendarza pracy swojego zespołu.</p>
+
+<p>Aby dodać załogę wejdź w <strong>Pracownicy &gt; Załoga</strong></p>
+
+<figure><a target="_blank" href="images/podstawoweZalogaLista.png"><img src="images/podstawoweZalogaLista.png" alt="Lista załóg" /></a><figcaption>Lista załóg</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nową załogę" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/podstawoweZalogaDodajNowy.png"><img src="images/podstawoweZalogaDodajNowy.png" alt="Formularz dodania nowej załogi" /></a><figcaption>Formularz dodania nowej załogi</figcaption></figure>
+
+<p>Podaj <strong>numer</strong> załogi oraz wskaż kto jest jej <strong>liderem</strong>. Zapisz. Dla tak stworzonej załogi <strong>dobierz pracowników</strong> w tabeli z prawej strony okna.</p>
+
+<p>Jeśli załoga ma mieć przypisywane zdarzenia planowane z poziomu kalemdarza, zaznacz w zakładce Utrzymanie ruchu parametr <strong>Kalendarz zdarzeń planowanych</strong></p>
+
+<figure><a target="_blank" href="images/podstawoweZalogaUtrzymanieRuchu.png"><img src="images/podstawoweZalogaUtrzymanieRuchu.png" alt="Zakładka Utrzymanie ruchu" /></a><figcaption>Zakładka Utrzymanie ruchu</figcaption></figure>
+:ET

@@ -1,0 +1,68 @@
+I"�<p><strong>Stacja robocza</strong> to konkretna maszyna lub stanowisko biorące udział w danym procesie produkcyjnym.</p>
+
+<p>Stacja robocza w qcadoo wykorzystywana będzie przy planowaniu operacji do wykonania. <a href="/plan-na-stacje-robocza-i-pracownika">Plan na stację roboczą i pracownika</a> rozdzieli istniejące zlecenia na operacje i ułoży je wg wybranego algorytmu na stacjach, które daną czynność mogą wykonać.</p>
+
+<p>Stacje robocze wykorzystywane są też w module <a href="/utrzymanie-ruchu">działu utrzymania ruchu</a> - możesz planować remonty, zarządzać przeglądami czy reagować na pojawiające się awarie.</p>
+
+<p>Stacje robocze mogą być dodane ręcznie oraz przez import danych z arkusza Excel.</p>
+
+<h2 id="jak-dodać-ręcznie-nową-stację-roboczą">Jak dodać ręcznie nową stację roboczą?</h2>
+
+<p>Aby dodać nową stację roboczą wybierz: <strong>Struktura firmy » Stacje robocze »</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/strukturaFirmyStacjaNowa.png"><img src="images/strukturaFirmyStacjaNowa.png" alt="Dodanie stacji roboczej" /></a><figcaption>Dodanie stacji roboczej</figcaption></figure>
+
+<p>Koniecznie podaj <strong>numer</strong>, <strong>nazwę</strong> oraz <strong><a href="/typy-stacji-roboczych">typ stacji roboczej</a></strong>. Ponadto możesz dla stacji roboczej zapisać takie dane jak:</p>
+<ul>
+  <li>opis,</li>
+  <li>data przyjęcia,</li>
+  <li>data wycofania,</li>
+  <li>numer fabryczny,</li>
+  <li>numer UDT,</li>
+  <li>seria,</li>
+  <li>producent,</li>
+  <li>data produkcji,</li>
+  <li>numer inwentarzowy,</li>
+  <li>pracownik - jest to domyślny pracownik obsługujący daną stację roboczą. Przypisanie przyda się w <a href="/plan-na-stacje-robocza-i-pracownika">planie na stację roboczą i pracownika</a>, gdzie dla odpowiednio wybranego kryterium doboru pracownika, do każdej operacji na daną stację zostanie przyporządkowany podany pracownik.</li>
+</ul>
+
+<p>Potraktuj qcadoo jako bazę wszelkich dostępnych informacji o maszynie. Dzięki temu będziesz mieć inforamcje zawsze pod ręką - nie będziesz musiał przeszukiwać segregatorów z dokumentami.</p>
+
+<p>Poza standardowymi informacjami z zakładki <strong>Główna</strong>, możesz ten indeks uzupełnić o więcej danych:</p>
+<ul>
+  <li>w zakładce <strong>“Załączniki”</strong> - możesz załączyć pliki powiązane z tym stanowiskiem np. instrukcje lub wymagane certyfikaty,</li>
+  <li>w zakładce <strong>“Firmy obsługujące”</strong> - przypisać moższ <a href="/firmy">firmy</a>, kótre serwisuję daną maszynę,</li>
+  <li>w zakładce <strong>“Linie produkcyjne”</strong> - przypiszesz dział i linię produkcyjną, do których dana stacja należy. Warto uzupełnić tą inforamcję jeśli zależy Ci na planowaniu zadań z dokładnością do stacji, albo gdy zamierzasz wykorzystywać moduł działu utrzymania ruchu w qcadoo</li>
+  <li>w zakładce <strong>“Lokalizacja”</strong> - zobaczysz gdzie dana stacja znajduje się w całej strukturze firmy. W tym celu wygeneruj strukturę za pomocą przycisku  <img class="inline" src="images/generateIcon24.png" alt="Generuj" />
+ <strong>Generuj strukturę</strong>. Warunkiem niezbędnym do tego, by drzewo mogło się zbudować, jest przypisanie do zakładu działów, do działu - linii, do linii - stacji, a nawet do stacji - podzespołu</li>
+</ul>
+
+<div class="bs-callout bs-callout-warning">Jeśli zależy Ci na planie produkcji z dokładnością do stacji roboczej koniecznie wskaż w drzewie technologii jakie stacje robocze mogą daną operację wykonać.</div>
+
+<h2 id="jak-zaimportować-stacje-robocze-z-arkusza-excel">Jak zaimportować stacje robocze z arkusza Excel?</h2>
+
+<p>qcadoo MES pozwala na zaciągnięciu wielu danych z arkusza Excel. Sposób działania w każdym z miejsc jest dokładnie taki sam - opis znajdziesz w <a href="/import-z-excel">tej dokumentacji</a>. Poszczególne funkcjonalności różnią się tylko szablonem, który trzeba wypełnić.</p>
+
+<p>Aby zaimportować stacje robocze (i pobrać szablon do wypełnienia) wejdź w <strong>Struktura firmy &gt; Stacje robocze</strong> i kliknij przycisk <img class="inline" src="images/przyciskImportujStacjeRobocze.png" alt="Przycisk Importuj stacje robocze" />
+ <strong>Importuj stacje robocze z XLSX</strong>.</p>
+
+<p>Arkusz .xlsx do importu stacji roboczych zawiera następujące kolumny:</p>
+<ul>
+  <li><strong>numer</strong> (kolumna A) - dana wymagana, do wpisana dowolny tekst. Warunek - numer danej stacji może wystąpić tylko raz</li>
+  <li><strong>nazwa</strong> (kolumna B) - dana wymagana, do wpisania dowolny tekst</li>
+  <li><strong>typ stacji roboczej</strong> (kolumna C) - dana wymagana, do wpisania numer typu stacji roboczej zdefiniowany w qcadoo</li>
+  <li><strong>opis</strong> (kolumna D) - dana opcjonalna, do wpisania dowolny tekst</li>
+  <li><strong>nr fabryczny</strong> (kolumna E) - dana opcjonalna, do wpisania dowolny tekst</li>
+  <li><strong>nr UDT</strong> (kolumna F) - dana opcjonalna, do wpisania dowolny tekst</li>
+  <li><strong>seria</strong> (kolumna G) - dana opcjonalna, do wpisania dowolny tekst</li>
+  <li><strong>producent</strong> (kolumna H) - dana opcjonalna, do wpisania dowolny tekst</li>
+  <li><strong>data produkcji</strong> (kolumna I) - dana opcjonalna, do wpisania data</li>
+  <li><strong>data przyjęcia</strong> (kolumna J) - dana opcjonalna, do wpisania data</li>
+  <li><strong>data wycofania</strong> (kolumna K) - dana opcjonalna, do wpisania data</li>
+  <li><strong>nr inwentarzowy</strong> (kolumna L) - dana opcjonalna, do wpisania dowolny tekst</li>
+  <li><strong>dział</strong> (kolumna M) - dana opcjonalna, do wpisania numer działu zdefiniowanego w qcadoo</li>
+  <li><strong>linia</strong> (kolumna N) - dana opcjonalna, do wpisania numer linii zdefiniowanej w qcadoo. Linia tu podana musi należeć do działu podanego w kolumnie wcześniej</li>
+</ul>
+
+:ET

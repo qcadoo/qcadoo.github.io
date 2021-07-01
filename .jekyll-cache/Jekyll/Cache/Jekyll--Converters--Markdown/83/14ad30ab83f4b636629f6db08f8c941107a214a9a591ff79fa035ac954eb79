@@ -1,0 +1,24 @@
+I"�
+<p>Zasób tworzony jest przez pojedyncze przyjęcie produktu na magazyn. Jeśli w dokumencie przychodowym wprowadzonych jest 10 pozycji, to na akceptacji utworzonych zostanie 10 zasobów. Jeśli dokumentów takich byłoby 5, to zasobów będziemy mieli 50.</p>
+
+<p>Zasoby przechowują w sobie bardzo dużo informacji - od atrybutów określonych w dokumencie, po dane uzupełniane w tle przy jego tworzeniu, aż po wyliczone podczas jego aktualizacji (np. przy rozchodzie czy rezerwacji).</p>
+
+<div class="bs-callout bs-callout-info">Tabela zasobów niesie najbardziej szczegółowe informacje odnośnie tego co znajduje się aktualnie na magazynie.</div>
+
+<figure><a target="_blank" href="images/magazynZasoby.png"><img src="images/magazynZasoby.png" alt="Zasoby" /></a><figcaption>Zasoby</figcaption></figure>
+
+<div class="bs-callout bs-callout-warning">Warto zapamiętać, że zasób po rozchodowaniu do zera jest z tabeli usuwany. Historię zasobów można wyczytać z <a href="/pozycje-dokumentow">pozycji dokumentów</a></div>
+
+<p>Zasób możesz korygować i możesz przypisać mu <a href="/atrybuty">atrybuty</a> - szczegółowy opis znajdziesz <a href="/korekty">tutaj</a>.</p>
+
+<p>Jeśli data ważności surowców, które zużywasz ma dla Ciebie znaczenie, zaznacz <a href="/parametry-magazyn.html#parametry-stanu-magazynowego">parametr magazynu</a> <strong>oznacz kolorem zasoby po terminie i z krótkim terminem ważności</strong>. Dzięki temu kolumna data ważności zostanie oznaczona kolorami:</p>
+<ul>
+  <li><strong><span style="color:red">czerwonym</span></strong> - gdy data ważności zostanie przekroczona</li>
+  <li><strong><span style="color:orange">pomarańczowym</span></strong> - gdy osiągnięty zostanie tzw. krótki termin ważności. Ustaw w parametrach ile dni przed upływem daty ważności mamy Cię o tym informować.</li>
+</ul>
+
+<p>Dodatkowo możesz w szybki sposób wyciągnąć listę zasobów o krótkim terminie ważności - kliknij przycisk <img class="inline" src="images/przyciskPokazZasobyOKrotkimTerminieWaznosci.png" alt="Przycisk Pokaż zasoby o krótkim terminie ważności" />
+ <strong>Pokaż zasoby o krótkim terminie ważności</strong>. Jeśli natomiast chcesz zobaczyć zasoby, których data ważności została przekroczona - kliknij przycisk: <img class="inline" src="images/przyciskPokazZasobyPoTerminieWaznosci.png" alt="Przycisk Pokaż zasoby po terminie ważności" />
+ <strong>Pokaż zasoby po terminie ważności</strong>. Lista zasobów zostanie odpowiedni przefiltrowana. Jeśli chcesz ponownie zobaczyć pełną listę użyj przycisku <img class="inline" src="images/przyciskPokazWszystkieZasoby.png" alt="Przycisk Pokaż wszystkie zasoby" />
+ <strong>Pokaż wszystkie zasoby</strong>.</p>
+:ET

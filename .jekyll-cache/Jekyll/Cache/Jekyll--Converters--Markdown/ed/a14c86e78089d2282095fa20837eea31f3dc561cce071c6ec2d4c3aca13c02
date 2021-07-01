@@ -1,0 +1,124 @@
+I"k.<p>Dodawanie zadań operacyjnych z dashboardu skierowane jest do osób, które chcą zaplanować do realizacji każdą z wykonywanych na produkcji czynności. Produkcja nie jest skomplikowana. A firma nie oczekuje algorytmów planowania przypisujących operację do najlepszej maszyny czy kolejkujących je w najbardziej optymalny sposób. Funkcja, którą proponujemy, pozwoli Ci szybko dodać zlecenie i utworzy do niego zadania operacyjne wg Twoich wskazań. Każde z tych zadań będzie miało takie same daty jak podany zakres czasowy dla zlecenia produkcyjnego. Pracownicy będą widzieli je na dashboardzie i będą mogli z tego poziomu zaraportować efekty produkcji w terminalu.</p>
+
+<p>Plusem tego podejścia jest także to, że nie musisz nic (lub prawie nic - o tym za chwilę) najpierw zrobić. Nie potrzebna Ci technologia, nie potrzebne Ci produkty, nie potrzebne Ci maszyny. Wszystko zrobisz przy okazji wprowadzania zlecenia i zadań.</p>
+
+<p>Aby można było dodać zlecenie i zadania z dashboardu musisz ustawić kilka parametrów:</p>
+
+<ol>
+  <li><strong>parametry &gt; parametry ogólne &gt; <a href="/parametry-dashboard">przycisk Dashboard</a></strong>:
+    <ul>
+      <li><em>widoczne</em> = zadania operacyjne</li>
+      <li>wypełnione pola: <em>magazyn pobrania surowców</em> i <em>magazyn przyjmowania wyrobów</em>. Jeśli nie masz zdefiniowanych magazynów wprowadź je (co najmniej jeden) zgodnie z <a href="/magazyny">tą instrukcją</a>.</li>
+    </ul>
+  </li>
+  <li><strong>parametry &gt; parametry technologii &gt; zakładka Główna</strong>:
+    <ul>
+      <li><em>Uzupełniaj magazyny dla produktów w przepływie podczas sprawdzania technologii</em> = tak</li>
+      <li><em>Przenoś produkty do kolejnych operacji podczas sprawdzania technologii</em> = tak</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Jeśli będziesz chciał przypisywać zadania do konkretnych <a href="/stacje-robocze">stacji roboczych</a>, zerknij dla pewności czy masz zdefiniowany choć jeden <a href="/typy-stacji-roboczych">typ stacji roboczej</a>.</p>
+
+<p>Jesteś gotowy, do wprowadzenia z dashboardu swojego pierwszego zlecenia i utworzenia do nich zadań operacyjnych. Przejdź do dashboardu klikając w lewym górnym rogu ekranu w przycisk <img class="inline" src="images/przyciskQcadoo.png" alt="Przycisk qcadoo" />
+ <strong>qcadoo</strong>). I wywołaj funkcję: <img class="inline" src="images/przyciskDodajZadania.png" alt="Przycisk Dodaj zadania" />
+ <strong>Dodaj zadania</strong>).</p>
+
+<p>Zlecenie i jego zadania operacyjne dodasz w 6. krokach. Między ekranami możesz przechodzić klikając w przycisk <img class="inline" src="images/przyciskDalejDashboard.png" alt="Przycisk Dalej" />
+ <strong>Dalej</strong>, w przycisk <img class="inline" src="images/przyciskDashboardWstecz.png" alt="Przycisk Wstecz" />
+ <strong>Wstecz</strong>, a także klikając w poszczególne kroki (już wcześniej wykonane) na pasku u góry:</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweKroki.png"><img src="images/dashboardZadaniaNoweKroki.png" alt="Etapy dodawania zlecenia i zadań operacyjnych" /></a><figcaption>Etapy dodawania zlecenia i zadań operacyjnych</figcaption></figure>
+
+<h2 id="krok-1-co-chcesz-produkować">Krok 1. Co chcesz produkować?</h2>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweEkran1.png"><img src="images/dashboardZadaniaNoweEkran1.png" alt="Formularz dodawania zadań operacyjnych - krok 1." /></a><figcaption>Formularz dodawania zadań operacyjnych - krok 1.</figcaption></figure>
+
+<p>Zacznij od podania <a href="/produkty">produktu</a>. Jeśli przeszukując lupkę nie znalazłeś odpowiedniego - dodaj go klikając przycisk <img class="inline" src="images/przyciskZdefiniujNowyProdukt.png" alt="Przycisk Dodaj produkt" />
+ <strong>Zdefiniuj nowy produkt</strong> i podaj jego numer, nazwę i jednostkę.</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweEkran1NowyProdukt.png"><img src="images/dashboardZadaniaNoweEkran1NowyProdukt.png" alt="Formularz dodawania zadań operacyjnych - definiowanie nowego produktu" /></a><figcaption>Formularz dodawania zadań operacyjnych - definiowanie nowego produktu</figcaption></figure>
+
+<p>Koniecznie wprowadź <strong>ilość</strong> jaką chcesz wyprodukować.</p>
+
+<p>W kroku pierwszym możesz podać też dodatkowy opis zlecenia oraz technologię. Jeśli nie masz technologii - przejdź dalej. W kolejnych krokach uzupełnisz niezbędne dane.</p>
+
+<div class="bs-callout bs-callout-warning">Jeśli raz dodasz zlecenie produkcyjne na dany produkt z dashboardu, to przy kolejnym zlecaniu technologia będzie już istniała, podpowie się na ekranie 1. i kolejne dane zostaną z niej uzupełnione. A zatem - będzie jeszcze szybciej!</div>
+
+<p>Przykładowo wypełniony ekran może wyglądać tak:</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweEkran1Dane.png"><img src="images/dashboardZadaniaNoweEkran1Dane.png" alt="Formularz dodawania zadań operacyjnych - krok 1. z wypełnionymi danymi" /></a><figcaption>Formularz dodawania zadań operacyjnych - krok 1. z wypełnionymi danymi</figcaption></figure>
+
+<h2 id="krok-2-kiedy-chcesz-produkować">Krok 2. Kiedy chcesz produkować?</h2>
+
+<p>W kolejnym kroku musisz wskazać kiedy będzie realizowana produkcja. Aby było szybciej podpowiemy dla Ciebie datę rozpoczęcia na podstawie momentu aktualnego, a data zakończenia na podstawie daty zakończenia najbliższej <a href="/zmiany">zmiany</a> przypisanej do <a href="/parametry-zlecen.html#główna">linii produkcyjnej z parametrów</a>.</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweEkran2.png"><img src="images/dashboardZadaniaNoweEkran2.png" alt="Formularz dodawania zadań operacyjnych - krok 2." /></a><figcaption>Formularz dodawania zadań operacyjnych - krok 2.</figcaption></figure>
+
+<h2 id="krok-3-jak-chcesz-produkować">Krok 3. Jak chcesz produkować?</h2>
+
+<p>Przyszła pora na opisanie procesu produkcyjnego. Wypisz wszystkie czynności, które są konieczne do wykonania, aby wyprodukować wyrób gotowy.</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweEkran3.png"><img src="images/dashboardZadaniaNoweEkran3.png" alt="Formularz dodawania zadań operacyjnych - krok 3." /></a><figcaption>Formularz dodawania zadań operacyjnych - krok 3.</figcaption></figure>
+
+<p>Kliknij przycisk <img class="inline" src="images/przyciskDodajOperacje.png" alt="Przycisk Dodaj operację" />
+ <strong>Dodaj operację</strong> i wybierz czynność z dostępnej listy. Nie znalazłeś właściwej operacji? Nic straconego. Kliknij w <strong>plus</strong> <img class="inline" src="images/przyciskPlusDashboard.png" alt="Przycisk Plus" />
+ i podaj numer i nazwę.</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweEkran3NowaOperacja.png"><img src="images/dashboardZadaniaNoweEkran3NowaOperacja.png" alt="Formularz dodawania zadań operacyjnych - definiowanie nowej operacji" /></a><figcaption>Formularz dodawania zadań operacyjnych - definiowanie nowej operacji</figcaption></figure>
+
+<p>Układaj operacje od ostatniej do najwcześniej wykonywanych. Przykładowo wypełnione okno może wyglądać następująco.</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweEkran3Dane.png"><img src="images/dashboardZadaniaNoweEkran3Dane.png" alt="Formularz dodawania zadań operacyjnych - krok 3. z wypełnionymi danymi" /></a><figcaption>Formularz dodawania zadań operacyjnych - krok 3. z wypełnionymi danymi</figcaption></figure>
+
+<h2 id="krok-4-z-czego-chcesz-produkować">Krok 4. Z czego chcesz produkować?</h2>
+
+<p>Kolejny krok to wskazanie jakich surowców będziesz używać w każdej z operacji.</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweEkran4.png"><img src="images/dashboardZadaniaNoweEkran4.png" alt="Formularz dodawania zadań operacyjnych - krok 4." /></a><figcaption>Formularz dodawania zadań operacyjnych - krok 4.</figcaption></figure>
+
+<p>Lista operacji jest już wypełniona. Pozostaje kliknąć przy czynności przycisk Dodaj produkt, wybrać z listy i podać ilość. Masz do dyspozycji dwa pola:</p>
+<ul>
+  <li>ilość zużywana - to ilość potrzebna pod całe zlecenie, na ilość wyrobu podaną na ekranie 1.</li>
+  <li>ilość na jednostkę - to ilość przeliczona na jednostkę wyrobu. Taka ilość zostanie zapisana w technologii</li>
+</ul>
+
+<p>I tu podobnie jak na ekranie 1. - jeśli nie masz zdefiniowanych produktów możesz dodać je z tego poziomu. Kliknij w przycisk <strong>plus</strong> <img class="inline" src="images/przyciskPlusDashboard.png" alt="Przycisk Plus" />
+ w wierszu surowca i podaj numer oraz nazwę produktu.</p>
+
+<p>Okno z wypełnionymi surowcami może wyglądać następująco:</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweEkran4Dane.png"><img src="images/dashboardZadaniaNoweEkran4Dane.png" alt="Formularz dodawania zadań operacyjnych - krok 4. z wypełnionymi danymi" /></a><figcaption>Formularz dodawania zadań operacyjnych - krok 4. z wypełnionymi danymi</figcaption></figure>
+
+<div class="bs-callout bs-callout-warning">Pamiętaj, że nie każda operacja musi mieć podany surowiec. Operacja może tylko przetwarzać wcześniej przygotowany produkt.</div>
+
+<h2 id="krok-5-gdzie-chcesz-produkować">Krok 5. Gdzie chcesz produkować?</h2>
+
+<p>Jeśli chcesz wskazać na jakich maszynach czy stanowiskach mają być wykonywane operacje, to podaj dla każdej operacji właściwą stację roboczą.</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweEkran5.png"><img src="images/dashboardZadaniaNoweEkran5.png" alt="Formularz dodawania zadań operacyjnych - krok 5." /></a><figcaption>Formularz dodawania zadań operacyjnych - krok 5.</figcaption></figure>
+
+<p>Jeśli nie masz stacji, możesz ją dodać klikając w <strong>plus</strong> <img class="inline" src="images/przyciskPlusDashboard.png" alt="Przycisk Plus" />
+ w wierszu operacji.</p>
+
+<p>Przykładowo wypełnione dane mogą wyglądać następująco:</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweEkran5Dane.png"><img src="images/dashboardZadaniaNoweEkran5Dane.png" alt="Formularz dodawania zadań operacyjnych - krok 5. z wypełnionymi danymi" /></a><figcaption>Formularz dodawania zadań operacyjnych - krok 5. z wypełnionymi danymi</figcaption></figure>
+
+<h2 id="krok-6-podsumowanie">Krok 6. Podsumowanie</h2>
+
+<p>Ostatni krok to podsumowanie. Nic tu nie będziesz definiować - sprawdź tylko, czy wszystko poprawnie podałeś wcześniej. Jeśli nie - możesz się cofność i skorygować dane.</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweEkran6.png"><img src="images/dashboardZadaniaNoweEkran6.png" alt="Formularz dodawania zadań operacyjnych - podsumowanie" /></a><figcaption>Formularz dodawania zadań operacyjnych - podsumowanie</figcaption></figure>
+
+<p>Jeśli wszystko jest jak należy kliknij w przycisk <img class="inline" src="images/przyciskZapiszIAkceptuj.png" alt="Przycisk Zapisz i akceptuj" />
+ <strong>Zapisz i akceptuj</strong>. Utworzone zadania operacyjne będą widoczne na dashboardzie:</p>
+
+<figure><a target="_blank" href="images/dashboardZadaniaNoweKafelek.png"><img src="images/dashboardZadaniaNoweKafelek.png" alt="Utworzone zadania operacyjne" /></a><figcaption>Utworzone zadania operacyjne</figcaption></figure>
+
+<p>Zlecenie, z którym zadania są powiazane, dostanie status Zaakceptowane. Aby móc wystartować produkcję musisz przejść do zlecenia (możesz to zrobić z kafelka zadania, klikając w podlinkowany numer zlecenia) i zmienić status na rozpoczęte.</p>
+
+<p><span style="color:red"> Ważne jest też to, że przy okazji dodawania zlecenia wprowadzasz produkty i technologie, które przy kolejnym zlecaniu będą już istniały i będziesz mógł je wykorzystać, zatem tworzenie zlecenia będzie jeszcze szybsze.</span></p>
+
+:ET

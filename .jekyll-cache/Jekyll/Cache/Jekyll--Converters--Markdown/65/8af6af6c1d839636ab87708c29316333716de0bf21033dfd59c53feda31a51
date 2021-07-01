@@ -1,0 +1,12 @@
+I"$<p>W qcadoo <strong>Typy stacji roboczych</strong> to zbiór wszystkich maszyn i stanowisk roboczych danego typu, które biorą udział w produkcji. Typ stacji jest niezbędny do tego aby zdefiniować <a href="/stacje-robocze">stację roboczą</a>.</p>
+
+<h2 id="jak-dodać-nowy-typ-stacji-roboczej">Jak dodać nowy typ stacji roboczej?</h2>
+
+<p>Wybieramy: <strong>Stacje robocze » Typy stacji roboczych »</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" />
+ <strong>Dodaj nowy</strong></p>
+
+<p>Podaj <strong>numer</strong>, <strong>nazwę</strong> oraz ewentualny <strong>opis</strong>. Opis nie jest polem wymaganym. Określ ponadto, czy jest to typ stacji roboczej czy podzespołu (w drugim wypadku zaznacz parametr <strong>Podzespół</strong>).</p>
+
+<div class="bs-callout bs-callout-info">Na ten moment typy stacji roboczych są używane do określenia stanowisk roboczych mających swojego kierownika, na których wykonywane są <a href="/operacje">Operacje</a> biorące udział w procesie produkcji.</div>
+
+:ET

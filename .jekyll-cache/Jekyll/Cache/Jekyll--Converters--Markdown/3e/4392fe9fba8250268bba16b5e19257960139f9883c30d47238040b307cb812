@@ -1,0 +1,13 @@
+I"/<p>Analiza wyrobu gotowego przed czynnościami dodatkowym to siostra <a href="/analiza-wyrobu-gotowego">analizy wyrobu gotowego</a>. Można nawet powiedzieć, że bliźniaczka dwujajowa. Różnica polega na tym jakie produkty są widoczne w liście. Jeśli ostatnia czynność, czy tam ostatni etap produkcji, nie jest dla Ciebie istotny (bo to np. pakowanie, realizowane na szybko w momencie wysyłki) i traktujesz jako wyroby gotowe te, które jeszcze ostatniego etapu nie przeszły (co oznacza, że ostatni etap w technologii ma zaznaczony parametr <strong>Czynności dodatkowe do wyrobu gotowego</strong>), to ta wersja analizy przypadnie Ci go gustu. Zobaczysz tu produkty poprzedzające ostatni (mniej istotny dla Ciebie) etap produkcji.</p>
+
+<p>Aby przeprowadzić analizę wejdź w <strong>Analizy &gt; Analiza wyrobu gotowego przed czynnościami dodatkowymi</strong>:</p>
+
+<figure><a target="_blank" href="images/analizyAnalizaWyboruGotowegoPrzedCzynnosciamiDodatkowymi.png"><img src="images/analizyAnalizaWyboruGotowegoPrzedCzynnosciamiDodatkowymi.png" alt="Analiza wyrobu gotowego przed czynnościami dodatkowymi" /></a><figcaption>Analiza wyrobu gotowego przed czynnościami dodatkowymi</figcaption></figure>
+
+<p>Ilość to suma zaraportowanej ilości wyprodukowanej. Ilość wykonana to natomiast suma ilości wyprodukowanej i braków.</p>
+
+<p>Aby wyliczyć całkowitą wykonaną ilość kliknij przycisk <img class="inline" src="images/przyciskPrzeliczCalkowitaIlosc.png" alt="Przycisk Przelicz całkowitą ilość" />
+ <strong>Przelicz całkowitą ilość</strong>. Suma ta będzie wyznaczona z wszystkich rekordów spełniających kryteria filtrowania, nawet, gdy nie zmieściły się na danej stronie.</p>
+
+<div class="bs-callout bs-callout-warning">Wiersze sumujące agregują dane widoczne na danej stronie tabeli.</div>
+:ET

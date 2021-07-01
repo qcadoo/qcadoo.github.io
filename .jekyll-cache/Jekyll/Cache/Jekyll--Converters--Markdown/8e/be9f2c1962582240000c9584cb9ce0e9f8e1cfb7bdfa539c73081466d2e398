@@ -1,0 +1,22 @@
+I"<p>Działy przedsiębiorstwa w qcadoo rozumiane są jako zespół wykonujący daną operację, który ma określoną osobę odpowiedzialną za zadanie.</p>
+
+<h2 id="jak-dodać-nowy-dział">Jak dodać nowy dział?</h2>
+
+<p>Działy firmy dodajemy wybierając z głównego menu: <strong>PODSTAWOWE » Działy »</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong></p>
+
+<p>Działy definiowane są poprzez “Numer”, “Nazwę” i (opcjonalnie) “Kierownika”. Kierownika danego działu dodajemy wybierając umieszczoną po prawej stronie okna 
+<img class="inline" src="images/lupka.png" alt="Przycisk lupy" />
+. Wyświetla się lista wszystkich zdefiniowanych pracowników.<a href="/pracownicy">Jak dodać pracownika?</a></p>
+
+<p>W kolejnej zakładce <strong>Linie produkcyjne</strong> dodajemy “Stacje robocze” oraz “Linie produkcyjne” jakie znajdują się w tym dziale.</p>
+
+<figure><a target="_blank" href="images/dzialy_linie.png"><img src="images/dzialy_linie.png" alt="działy linie" /></a><figcaption>Działy - linie oraz stacje robocze</figcaption></figure>
+
+<p>W zakładce <strong>Magazyny</strong> definiujemy domyślne magazyny pobrania surowców i przyjmowania wyrobów dla danego działu. Podpowiedzą się one przy tworzeniu <a href="/technologie-szczegoly.html#przepływy-technologii">przepływów technologii</a>.</p>
+
+<figure><a target="_blank" href="images/dzialy_magazyny.png"><img src="images/dzialy_magazyny.png" alt="działy-magzyn" /></a><figcaption>Działy - konfiguracja magazynu</figcaption></figure>
+
+<div class="bs-callout bs-callout-info">Działy mogą być przypisywane do stacji roboczych i typów stacji roboczych. Według działów mogą być również rozdysponowane karty pracy.</div>
+
+:ET

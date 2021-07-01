@@ -1,0 +1,127 @@
+I"G+<p>W qcadoo obsługiwane są dwa podejścia do planowania. Pierwsze zakłada, że planujemy całe <a href="/zlecenia-produkcyjne">zlecenia produkcyjne</a>, przypisując je do <a href="/linie-produkcyjne">linii</a>. W tym podejściu wszystkie operacje wykonywane są po kolei, bez możliwości odłożenia w czasie realizacji części czynności. Drugie podejście zakłada planowanie każdej operacji zlecenia osobno. Operacje przypisywane są do <a href="/stacje-robocze">stacji roboczych</a> i/lub do <a href="/pracownicy">pracowników</a>. I to one układane są czasowo oraz raportowane. Odzwierciedleniem zaplanowanej operacji jest zadanie operacyjne. Zadanie operacyjne to element planowania operacyjnego. I właśnie o nich będzie opowiadała ta strona dokumentacji.</p>
+
+<p>Aby przejrzeć listę zadań operacyjnych wejdź w <strong>Planowanie &gt; Zadania operacyjne</strong>:</p>
+
+<figure><a target="_blank" href="images/planowaniePlanowanieOperacyjneLista.png"><img src="images/planowaniePlanowanieOperacyjneLista.png" alt="Lista zadań operacyjnych" /></a><figcaption>Lista zadań operacyjnych</figcaption></figure>
+
+<p>Zadania operacyjne mają dwa typy:</p>
+<ul>
+  <li>wykonanie operacji w zleceniu - powiązane jest z konkretną operacją wynikającą z drzewa technologii użytej w zleceniu</li>
+  <li>inne zadanie - jest dodatkowym zadaniem, które powierzamy pracownikowi</li>
+</ul>
+
+<p>Zadania operacyjne będące wykonaniem operacji w zleceniu mogą być wprowadzone na 3 sposoby:</p>
+<ol>
+  <li>ręcznie</li>
+  <li>poprzez zatwierdzenie planu na stację i pracownika</li>
+  <li>poprzez utworzenie planu operacyjnego z kalkulacji czasochłonności zlecenia</li>
+</ol>
+
+<p>Inne zadania mogą być wprowadzane tylko ręcznie.</p>
+
+<h2 id="ręczne-dodawanie-zadań-operacyjnych">Ręczne dodawanie zadań operacyjnych</h2>
+
+<figure class="float-right "><a target="_blank" href="images/planowaniePlanowanieOperacyjneNowe.png"><img src="images/planowaniePlanowanieOperacyjneNowe.png" alt="Dodanie nowego zadania operacyjnego" class="percent90 " /></a><figcaption>Dodanie nowego zadania operacyjnego</figcaption></figure>
+
+<p>Aby dodać nowe zadanie operacyjne wejdź w Planowanie &gt; Planowanie operacyjne i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong>.</p>
+
+<p>Rozpocznij od wskazania <strong>typu zadania</strong> - to on uwarunkuje aktywność pozostałych pól. Jeśli chcesz zaplanować realizację czynności ze zlecenia, to <strong>wskaż <em>typ = wykonanie operacji w zleceniu</em></strong>. Podaj następnie:</p>
+<ul>
+  <li><em>zlecenie produkcyjne</em> - lista zleceń jest ograniczona do tych raportowanych z dokładnością do operacji. Wskaż to zlecenie, które chcesz rozpisać na zadania operacyjne</li>
+  <li><em>operacja w drzewie</em> - wskaż operację z technologii, którą używać będziesz we wskazanym wyżej zleceniu. Każda operacja powinna mieć swoje zadanie - aby pracownicy wiedzieli jakie czynności mają zostać wykonane</li>
+  <li><em>data rozpoczęcia</em> i <em>data zakończenia</em> - zaplanuj w jakim okresie zadanie ma zostać zrealizowane</li>
+  <li><em>pracownik</em> - możesz wskazać, kto ma się zająć zadaniem</li>
+  <li><em>stacja robocza</em> - możesz wskazać na jakiej stacji roboczej (czy to maszynie czy stanowisku) zadanie ma być wykonywane</li>
+</ul>
+
+<p>Na podstawie wskazanego zlecenia produkcyjnego uzupełnią się:</p>
+<ul>
+  <li>linia produkcyjna</li>
+  <li>ilości: planowana, wyprodukowana</li>
+  <li>procent wykonania</li>
+</ul>
+
+<div class="bs-callout bs-callout-warning">Jeśli zadanie operacyjne wystawione ręcznie jest przypisane do zlecenia produkcyjnego o statusie oczekujące, to ilości nie będą wypełnione. Uzupełnią się dopiero po akceptacji zlecenia produkcyjnego.</div>
+
+<p>Na podstawie operacji natomiast uzupełni się:</p>
+<ul>
+  <li>nazwa</li>
+  <li>opis</li>
+</ul>
+
+<p>Numer zadania zostanie nadany automatycznie.</p>
+
+<hr />
+
+<figure class="float-right "><a target="_blank" href="images/planowaniePlanowanieOperacyjneNoweInne.png"><img src="images/planowaniePlanowanieOperacyjneNoweInne.png" alt="Dodanie nowego zadania operacyjnego o typie inne zadanie" class="percent90 " /></a><figcaption>Dodanie nowego zadania operacyjnego o typie inne zadanie</figcaption></figure>
+
+<p>Jeśli <strong>wprowadzasz zadanie o typie: <em>inne zadanie</em></strong>, to wypełnij następujące pola:</p>
+<ul>
+  <li><em>nazwa</em> - określ co pracownik ma wykonać</li>
+  <li><em>opis</em> - możesz wprowadzić szczegółowe informacje o czynności do wykonania</li>
+  <li><em>pracownik</em> - wskaż kto ma zająć się danym zadaniem</li>
+  <li><em>data rozpoczęcia</em> i <em>data zakończenia</em> - określ w jakim czasie zadanie ma zostać wykonane.</li>
+</ul>
+
+<p>Numer zadania operacyjnego zostanie nadany automatycznie.
+<br />
+<br /></p>
+
+<h2 id="dodawanie-zadań-przez-zatwierdzenie-planu">Dodawanie zadań przez zatwierdzenie planu</h2>
+
+<p>Efektem planu na stację roboczą i pracownika, jest utworzenie zadań operacyjnych. Zadania są odpowiednio ułożone czasowo i mają przypisaną stację roboczą i pracownika. Z poziomu planu tworzą się tylko zadania powiązane ze zleceniem produkcyjnym.</p>
+
+<h2 id="dodawanie-zadań-z-poziomu-kalkulacji-czasochłonności-zlecenia">Dodawanie zadań z poziomu kalkulacji czasochłonności zlecenia</h2>
+
+<p>Z poziomu zlecenia produkcyjnego możesz przeprowadzić <a href="/czasochlonnosc-zlecenia">kalkulację czasochłonności</a>. Funkcja przeliczy (na podstawie norm technologii) jak długo będą trwały poszczególne operacje, a także ułoży je czasowo zgodnie z drzewem technologii. Do tak przygotowanych wyliczeń można utworzyć plan operacyjny. Jak tego dokonać?</p>
+
+<p>Wejdź w zlecenie produkcyjne, podaj datę rozpoczęcia i wybierz <img class="inline" src="images/iconProducts24.png" alt="Czasochłonność" />
+ <strong>Czasochłonność</strong>. Wygeneruj kalkulację i kliknij <img class="inline" src="images/przyciskUtworzZSymulacjiPlanOperacyjny.png" alt="Utwórz plan operacyjny" />
+ <strong>Utwórz z symulacji plan operacyjny</strong>. Zadania operacyjne zostaną założone.</p>
+
+<p>Czym różnią się zadania operacyjne pochodzące z planu od zadań z czasochłonności zlecenia? Plan na stację i pracownika wyodrębnia zadania do wykonania i przypisuje je do stacji roboczych i pracowników. Ponadto - ustawiając daty realizacji uwzględnia istniejące zadania, dzięki temu unika realizacji wielu zadań w jednym czasie. Natomiast plan operacyjny z kalkulacji czasochłonności ogranicza się do wyodrębnienia operacji i nadania im dat rozpoczęcia i zakończenia, jednak bez próby ustalenia, czy coś w tym samym czasie jest zaplanowane do realizacji.</p>
+
+<h2 id="dodawanie-zadań-operacyjnych-poprzez-wygenerowanie-do-zlecenia-produkcyjnego">Dodawanie zadań operacyjnych poprzez wygenerowanie do zlecenia produkcyjnego</h2>
+
+<p>Jeśli chcesz raportować realizację operacji, ale nie zależy Ci na dokładnym planowaniu czasowym zadań, możesz przyjąć, że zadania operacyjne będą wykonywane w czasie realizacji zlecenia produkcyjnego. W takim podejściu najłatwiej będzie wygenerować zadania ze zlecenia produkcyjnego. Wejdź do zlecenia produkcyjnego i zaakceptuj je. Kliknij przycisk <img class="inline" src="images/przyciskUtworzZadaniaOperacyjne.png" alt="Utwórz zadania operacyjne" />
+ <strong>Utwórz zadania operacyjne</strong>. W efekcie do każdej operacji technologii zostaje założone zadanie. Daty rozpoczęcia i zakończenia zadania ustalone są na podstawie dat zlecenia. Zadanie nie ma uzupełnionej stacji roboczej - jeśli masz potrzebę, możesz je uzupełnić.</p>
+
+<h2 id="statusy-zadań-operacyjnych">Statusy zadań operacyjnych</h2>
+
+<p>Zadania operacyjne mogą przyjmować 4 statusy:</p>
+<ul>
+  <li>oczekujące</li>
+  <li>rozpoczęte</li>
+  <li>zakończone</li>
+  <li>odrzucone</li>
+</ul>
+
+<p>Nowe zadanie otrzymuje status oczekujące. W momencie rozpoczynania zlecenia produkcyjnego statusy wszystkich powiązanych zadań zmieniają się na rozpoczęte. W momencie zakańczania zlecenia produkcyjnego - jego zadania operacyjne również są zakończone. Status odrzucone nadawany jest w momencie odrzucenia planu na stację i pracownika.</p>
+
+<p>Do danej operacji zlecenia produkcyjnego może istnieć tylko jedno zadanie operacyjne o statusie innym niż odrzucone.</p>
+
+<hr />
+
+<h2 id="szczegółowe-zapotrzebowanie-zadania-operacyjnego">Szczegółowe zapotrzebowanie zadania operacyjnego</h2>
+
+<p>Jeśli zadanie operacyjne powiązane jest ze zleceniem produkcyjnym o statusie co najmniej zaakceptowanym, to uaktywni się przycisk <img class="inline" src="images/przyciskSzczegoloweZapotrzebowanie.png" alt="Szczegółowe zapotrzebowanie" />
+ <strong>Szczegółowe zapotrzebowanie</strong>. Skorzystaj z niego, aby ustalić jakie produkty będą brały udział w wykonaniu danej operacji. Dowiesz się o ilościach planowanych, ale też o ilościach już zaraportowanych jako zużyte czy wyprodukowane. Zobaczysz tu również wykorzystane zamienniki. Szczegółowe zapotrzebowanie pozwala też na modyfikację listy produktów - poczytasz o tym w <a href="/zmiana-stanu-zapotrzebowania">tej dokumentacji</a>.</p>
+
+<hr />
+
+<h2 id="śledzenie-postępu-produkcji">Śledzenie postępu produkcji</h2>
+
+<p>Wykonanie zadania operacyjnego może być raportowane z poziomu <a href="/terminal">terminala</a> - wybierając z listy przypisane pracownikowi zadanie, albo z poziomu Rejestracja &gt; <a href="/rejestracja-produkcji">Rejestracja produkcji</a>, wybierając operację zlecenia. Zadeklarowana ilość wyprodukowana będzie widoczna w zadaniu. Spowoduje to ponadto przeliczenie wykonania procentowego.</p>
+
+<figure><a target="_blank" href="images/planowaniePlanowanieOperacyjneWykonanoKolor.png"><img src="images/planowaniePlanowanieOperacyjneWykonanoKolor.png" alt="Oznaczenie kolorem wykonania procentowego w zadaniach operacyjnych" /></a><figcaption>Oznaczenie kolorem wykonania procentowego w zadaniach operacyjnych</figcaption></figure>
+
+<p>Kolumna Wykonano % może zostać oznaczona kolorami. Stosujemy trzy kolory:</p>
+<ul>
+  <li><span style="color:red"> czerwony</span> - oznacza, że jeszcze nic nie zostało wyprodukowane (ilość wyprodukowana pochodząca z zaakceptowanych rekordów rejestracji produkcji to 0),</li>
+  <li><span style="color:green"> zielony</span> - oznacza, że cała ilość zlecona jest już wyprodukowana (suma ilości wyprodukowanej pochodzącej z zaakceptowanych rekordów rejestracji jest co najmniej taka jak ilość zlecona),</li>
+  <li><span style="color:yellow"> żółty</span> - oznacza, że praca trwa (czyli mamy już zarejestrowaną ilość wyprodukowaną do tej operacji, ale jest ona nadal mniejsza od ilości zleconej).</li>
+</ul>
+
+<p>Aby kolor się pojawił, zaznacz parametr Oznacz kolorem procent wykonania w Parametry &gt; Parametry planowania &gt; <a href="/parametry-planowania.html#zadania-operacyjne">Zadania operacyjne</a></p>
+:ET

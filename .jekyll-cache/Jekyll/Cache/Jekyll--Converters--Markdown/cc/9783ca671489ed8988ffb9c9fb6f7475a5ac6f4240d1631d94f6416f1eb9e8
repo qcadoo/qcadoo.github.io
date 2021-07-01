@@ -1,0 +1,18 @@
+I"<p>O tym jakie efekty przyniosła kontrola jakości możesz dowiedzieć się na 3 sposoby:</p>
+<ul>
+  <li>przez analizę konkretnej zarejestrowanej <a href="/kontrola-jakosci">kontroli jakości</a></li>
+  <li>przez zapoznanie się z oceną jakości, którą zostały oznaczone <a href="/zasoby">zasoby</a></li>
+  <li>przez listę wyników kontroli jakości - i to niej będzie ta dokumentacja</li>
+</ul>
+
+<p>Aby wyświetlić listę wejdź w <strong>jakość &gt; wyniki kontroli jakości</strong></p>
+
+<figure><a target="_blank" href="images/jakoscWynikiKontroliJakosci.png"><img src="images/jakoscWynikiKontroliJakosci.png" alt="Wyniki kontroli jakości" /></a><figcaption>Wyniki kontroli jakości</figcaption></figure>
+
+<p>Czego dowiesz się z tego miejsca:</p>
+<ol>
+  <li>jakie kontrole jakości były zrealizowane - na rzecz jakich produktów, jaki partii, kiedy, przez kogo</li>
+  <li>jakie zapisano wartości kontrolowanych atrybutów - czyli jaki jest efekt sprawdzenia</li>
+  <li>jaką podano ocenę kontroli jakości</li>
+</ol>
+:ET

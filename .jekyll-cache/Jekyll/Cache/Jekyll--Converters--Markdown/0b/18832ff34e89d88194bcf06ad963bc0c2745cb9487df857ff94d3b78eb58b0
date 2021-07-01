@@ -1,0 +1,120 @@
+I"t<p>Miejsca składowania to wydzielone na magazynie dokładniejsze lokalizacje. Wprowadzenie ich na magazynie pozwoli na jednoznaczne ustalenie gdzie dany produkt się znajduje, bez konieczności przeszukiwania każdej półki na regale i każdego kartonu tam ułożonego.</p>
+
+<p>Gdzie wykorzystasz miejsca składowania w qcadoo?</p>
+<ul>
+  <li>przyjmowanie dostaw może być realizowane na dokładną lokalizację</li>
+  <li>dokumenty magazynowe przychodowe będą mogły tworzyć zasoby ze wskazaniem na miejsce składowania</li>
+  <li>dokumenty magazynowe rozchodowe będą informowały o tym z jakiego miejsca należy pobrać zasób</li>
+  <li>stany magazynowe będzie można analizować z dokładnością do miejsca składowania</li>
+  <li>inwentaryzację będzie można przeprowadzać uwzględniając lokalizację</li>
+  <li>w wydaniach wewnętrznych program poinformuje z jakiego miejsca i na jakie miejsce należy produkt przesunąć</li>
+</ul>
+
+<p>Zainteresowany? Wierzę, że tak! 
+Zacznij zatem wprowadzać miejsca składowania do qcadoo. Zanim jednak do tego przystąpisz, opowiem Ci o tym jakie są dostępne metody definiowania - a są aż trzy.</p>
+
+<ol>
+  <li>ręczne dodawanie każdego miejsca z osobna</li>
+  <li>dodanie wielu miejsc poprzez generator wbudowany w qcadoo</li>
+  <li>dodanie wielu miejsc na podstawie listy sporządzonej w Excelu</li>
+</ol>
+
+<h2 id="ręczne-wprowadzanie-miejsc-składowania">Ręczne wprowadzanie miejsc składowania</h2>
+
+<figure class="float-right "><a target="_blank" href="images/magazynMiejscaSkladowania.png"><img src="images/magazynMiejscaSkladowania.png" alt="Dodawanie miejsca składowania" class="percent90 " /></a><figcaption>Dodawanie miejsca składowania</figcaption></figure>
+
+<p>Aby dodać nowe miejsce składowania wejdź w Magazyn &gt; Miejsca składowania i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy wydruk" />
+ <strong>Dodaj nowy</strong>. Określ:</p>
+<ul>
+  <li><strong>miejsce składowania</strong> - czyli jego numer / kod / symbol. Coś co pozwoli Tobie i Twoim pracownikom na jednoznaczną identyfikację tej lokalizacji</li>
+  <li><strong>magazyn</strong> - wybierz z listy dostępnych magazynów. Na danym magazynie dany kod lokalizacji może wystąpić tylko raz</li>
+  <li><strong>produkt</strong> - jeśli w danej lokalizacji chcesz składować tylko jeden produkt (i ten produkt będzie mógł być położony tylko tam) to wypełnij to pole. Nie wskazanie produktu będzie oznaczało, że miejsce składowania może być wykorzystane do ulokowania czegokolwiek (jeśli pracownik zobaczy, że jest wolne miejsce, to przyjmie na nie dany produkt i program nie będzie protestował)</li>
+  <li><strong>miejsce paletowe</strong> - zaznacz, jeśli w danej lokalizacji będziesz umieszczał palety. Wówczas uaktywni się pole <strong>Max liczba palet</strong>, w którym będziesz mógł podać ile palet w danej lokalizacji się mieści. Program przy przyjęciu dostawy będzie sprawdzał, czy ktoś nie próbuje przyjąć palety w dane miejsce, mimo iż nie ma tam na dodatkową paletę miejsca</li>
+  <li><strong>miejsce wysokiego składowania</strong> - zaznacz, jeśli dana lokalizacja znajduje się na regale wysokiego składowania. Dzięki temu w raporcie rozliczenia palet, ruchy na i z tego miejsca będą traktowane inaczej.</li>
+</ul>
+
+<hr />
+
+<h2 id="generator-dodawania-miejsc-składowania">Generator dodawania miejsc składowania</h2>
+
+<p>Jeśli Twoje miejsca składowania ponazywane są wg jakiegoś klucza, to istnieje spore prawdopodobieństwo, że generator dodawania miejsc składowania pomoże Ci je zdefiniować w qcadoo. Idea generatora jest taka, że na program tworzy kolejne miejsca podbijając zadany numer o 1. I każde miejsce dostaje stały prefix i wszystkie podane w oknie parametry.</p>
+
+<figure class="float-right "><a target="_blank" href="images/magazynMiejsceSkladowaniaDodajWiele.png"><img src="images/magazynMiejsceSkladowaniaDodajWiele.png" alt="Dodawanie wielu miejsc składowania" class="percent90 " /></a><figcaption>Dodawanie wielu miejsc składowania</figcaption></figure>
+
+<p>Dla przykładu –&gt; jeśli podamy takie dane:</p>
+<ul>
+  <li>prefix = RegA</li>
+  <li>numer = 08</li>
+  <li>ilość kolejnyc miejsc składowania = 5</li>
+  <li>magazyn = MS</li>
+</ul>
+
+<p>to wygenerowane miejsca zostaną zdefiniowane następująco:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">miejsce składowania</th>
+      <th style="text-align: center">magazyn</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">RegA08</td>
+      <td style="text-align: center">MS</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">RegA09</td>
+      <td style="text-align: center">MS</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">RegA10</td>
+      <td style="text-align: center">MS</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">RegA11</td>
+      <td style="text-align: center">MS</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">RegA12</td>
+      <td style="text-align: center">MS</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Funkcję można wywoływać wielokrotnie, tworząc tym samym całą siatkę miejsc składowania na magazynie.</p>
+
+<div class="bs-callout bs-callout-warning">Generator miejsc składowania tworzy miejsca bez przypisania do produktu</div>
+
+<hr />
+
+<h2 id="import-miejsc-składowania-z-pliku-excel">Import miejsc składowania z pliku Excel</h2>
+
+<p>Jeśli masz przypisane na stałe produkty do miejsc składowania to funkcja importu miejsc składowania z pliku Excel (format .xls) jest dla Ciebie.</p>
+
+<figure class="float-right "><a target="_blank" href="images/magazynMiejsceSkladowaniaImport.png"><img src="images/magazynMiejsceSkladowaniaImport.png" alt="Import miejsc składowania" class="percent90 " /></a><figcaption>Import miejsc składowania</figcaption></figure>
+
+<p>Działanie funkcji jest następujące:</p>
+<ul>
+  <li>pobieramy pierwsze miejsce składowania z pliku</li>
+  <li>sprawdzamy czy takie miejsce istnieje w qcadoo
+    <ul>
+      <li>jeśli nie - zakładamy je (z magazynem wskazanym w oknie), z przypisanym produktem z pliku</li>
+      <li>jeśli tak - tylko nadpisujemy w nim produkt, na podstawie przypisanego produktu w pliku</li>
+    </ul>
+  </li>
+  <li>pobieramy kolejne miejsce z pliku i powtarzamy działanie. I tak dla wszystkich wierszy z Excel
+Dodatkowo: dla wszystkich miejsc składowania, które dla tego magazynu są zdefiniowane w qcadoo, ale nie znalazły się w pliku czyścimy powiązanie z produktem (ustawiamy w produkcie null)
+Ponadto przeliczamy zasoby dla tego magazynu, uzupełniając w nich aktualne miejsca składowania.</li>
+</ul>
+
+<p>Plik Excel musi mieć dwie kolumny:</p>
+<ul>
+  <li>A –&gt; numery miejsc składowania</li>
+  <li>B –&gt; numery produktów</li>
+</ul>
+
+<p>W oknie importu określamy dla jakiego magazynu chcemy utworzyć miejsca i wskazujemy z dysku plik.</p>
+
+<div class="bs-callout bs-callout-warning">Import miejsca składowania można wykorzystać nie tylko przy tworzeniu miejsc, ale także w momencie reorganizacji magazynu i zmiany ułożenia produktów. Nazewnictwo miejsc zostanie niezmienione. Aktualizacji podlegają tylko przypisane im produkty</div>
+:ET

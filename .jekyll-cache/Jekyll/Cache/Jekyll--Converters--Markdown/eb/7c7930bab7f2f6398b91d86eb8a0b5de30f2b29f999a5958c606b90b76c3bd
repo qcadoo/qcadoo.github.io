@@ -1,0 +1,123 @@
+I"�<p>Zaczynasz przygodę z qcadoo! Gratulacje! 
+Jeśli chcesz szybko sprawdzić możliwości systemu, albo Twoja firma jest mała i nie prowadzi skomplikowanej produkcji, skorzystaj z konfiguratora, który w mniej niż 5 minut (czasami nawet mniej niż minutę!) tak ustawi niezbędne dane w qcadoo, że będziesz mógł utworzyć pierwsze zlecenie produkcyjne.</p>
+
+<p>Aby konfigurator się pojawił muszą być spełnione następujące warunki:</p>
+<ul>
+  <li>musisz mieć uprawnienia administratora</li>
+  <li>musisz logować się do qcadoo po raz pierwszy (jeśli choć raz rozpocząłeś konfigurację lub uznałeś, że jej nie potrzebujesz, musisz poradzić sobie sam, opierając się np. o <a href="/introduction">tą dokumentację</a>)</li>
+</ul>
+
+<p>Działanie konfiguratora jest następujące:</p>
+
+<p>po pierwszym zalogowaniu pojawia się ekran:</p>
+
+<figure><a target="_blank" href="images/konfiguratorStart.png"><img src="images/konfiguratorStart.png" alt="Pierwsze logowanie" /></a><figcaption>Pierwsze logowanie</figcaption></figure>
+
+<p>jeśli chcesz skorzystać z konfiguratora, wybierz opcję: <img class="inline" src="images/przyciskUruchomKonfigurator.png" alt="Przycisk Uruchom konfigurator" />
+. Jeśli wolisz samodzielnie ustawić dane wejściowe, kliknij <img class="inline" src="images/przyciskBezKonfiguratora.png" alt="Przycisk Nie uruchamiaj konfiguratora" /></p>
+<ul>
+  <li>wówczas załaduje się standardowy <a href="/dashboard">dashboard</a>, a propozycja konfiguracji więcej się nie pojawi.</li>
+</ul>
+
+<p>Konfigurację zacznij od wypełnienia danych o sobie:</p>
+
+<figure><a target="_blank" href="images/konfigurator1.png"><img src="images/konfigurator1.png" alt="Pierwsze logowanie" /></a><figcaption>Konfigurator - Twoje dane</figcaption></figure>
+
+<p>podaj koniecznie numer i nazwę (mogą być takie same). Możesz podać też dane szczegółowe takie jak:</p>
+<ul>
+  <li>NIP</li>
+  <li>telefon</li>
+  <li>email</li>
+  <li>strona www</li>
+</ul>
+
+<p>oraz dane adresowe jak:</p>
+<ul>
+  <li>ulica</li>
+  <li>nr domu</li>
+  <li>nr mieszkania</li>
+  <li>kod pocztowy</li>
+  <li>miasto</li>
+  <li>województwo</li>
+  <li>kraj
+<br />
+<br />
+i przejdź Dalej.</li>
+</ul>
+
+<p>W drugim kroku określ <strong>ścieżkę pracy w qcadoo</strong></p>
+
+<figure><a target="_blank" href="images/konfigurator2.png"><img src="images/konfigurator2.png" alt="Konfigurator - planowanie" /></a><figcaption>Konfigurator - planowanie</figcaption></figure>
+
+<p>masz do wyboru dwie opcje:</p>
+
+<ol>
+  <li>
+    <p><strong>całe zlecenia</strong> - interesuje Cię realizacja całego zlecenia. Nie ma znaczenia, jakie czynności mają być wykonane. Pracownicy raportują efekty pracy i zużycie surowców pod całe zlecenie.</p>
+  </li>
+  <li>
+    <p><strong>każda operacja</strong> - technologia jest wielooperacyjna. Chcesz planować każdą operację z osobna, przypisując ją do maszyny czy pracownika. Pracownicy raportują efekty produkcji z dokładnością do wykonanej czynności.
+<br />
+<br />
+Kolejne kroki konfiguracji zależne są od tego kroku. Jeśli wybierzesz prowadzenie całych zleceń - od razu przejdziesz do ostatniego etapu. Nic więcej nie musisz już podawać. Założyliśmy dla Ciebie:</p>
+    <ul>
+      <li>zakład</li>
+      <li>dział</li>
+      <li>linię produkcyjną</li>
+      <li>operację</li>
+      <li>magazyny
+i odpowiednio ustawiliśmy parametry qcadoo.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Jeśli natomiast będziesz planował każdą z operacji z osobna, przejdź dalej w celu <strong>zdefiniowania stacji roboczych</strong>:</p>
+
+<figure><a target="_blank" href="images/konfigurator3.png"><img src="images/konfigurator3.png" alt="Konfigurator - stacje robocze" /></a><figcaption>Konfigurator - stacje robocze</figcaption></figure>
+
+<p>Jeśli chcesz wskazywać na jakiej maszynie czy stanowisku roboczym ma być wykonywana operacja, zdefiniuj tutaj posiadane stacje robocze. Klijnij w przycisk <img class="inline" src="images/przyciskNowaStacjaRobocza.png" alt="Przycisk Nowa stacja robocza" />
+ i w uaktywnionym wierszu tabeli podaj <strong>numer, nazwę i typ stacji</strong>. Jeśli nie znalazłeś typu na liście kliknij przycisk <img class="inline" src="images/przyciskPlusDashboard.png" alt="Przycisk Dodaj nowy" />
+ i wprowadź jego numer i nazwę:</p>
+
+<figure><a target="_blank" href="images/konfiguratorTypyStacji.png"><img src="images/konfiguratorTypyStacji.png" alt="Konfigurator - typy stacji roboczych" /></a><figcaption>Konfigurator - typy stacji roboczych</figcaption></figure>
+
+<p>Przejdź dalej, aby <strong>dodać operacje</strong>, które wykonujecie:</p>
+
+<figure><a target="_blank" href="images/konfigurator4.png"><img src="images/konfigurator4.png" alt="Konfigurator - operacje" /></a><figcaption>Konfigurator - operacje</figcaption></figure>
+
+<p>kliknij przycisk <img class="inline" src="images/przyciskNowaOperacja.png" alt="Przycisk Nowa operacja" />
+ i w aktywnym wierszu tabeli podaj: numer i nazwę operacji. Możesz też przypisać do operacji stację roboczą, która może tą czynność wykonać. Więcej, niż jedna maszyna może zająć się tym zadaniem? Kliknij przycisk <img class="inline" src="images/przyciskDodajStacje.png" alt="Przycisk Nowa stacja" />
+ i wybierz kolejną stację z listy.</p>
+
+<p>Po wprowadzeniu ostatniej operacji przejdź dalej. I to w zasadzie <strong>koniec</strong>. Założyliśmy dla Ciebie:</p>
+<ul>
+  <li>zakład</li>
+  <li>dział</li>
+  <li>linię</li>
+  <li>stacje robocze podane przez Ciebie</li>
+  <li>magazyny</li>
+  <li>operacje podane przez Ciebie
+i odpowiednio ustawiliśmy parametry qcadoo.</li>
+</ul>
+
+<p>Możesz zacząć zarządzać produkcją za pomocą qcadoo. Jeśli chcesz wprowdzić pierwsze zlecenie w piątym kroku konfiguratora:</p>
+
+<figure><a target="_blank" href="images/konfigurator5.png"><img src="images/konfigurator5.png" alt="Konfigurator - podsumowanie" /></a><figcaption>Konfigurator - podsumowanie</figcaption></figure>
+
+<p>wybierz opcję: <strong>Wprowadź pierwsze zlecenie produkcyjne</strong>.</p>
+
+<figure><a target="_blank" href="images/konfiguratorZlecenie.png"><img src="images/konfiguratorZlecenie.png" alt="Formularz dodawania zlecenia z dashboardu" /></a><figcaption>Formularz dodawania zlecenia z dashboardu</figcaption></figure>
+
+<p>Ale o tym procesie więcej przeczytasz:</p>
+<ul>
+  <li><a href="/dashboard-dodawanie-zlecen">tutaj</a>, gdy w drugim kroku konfiguratora wybrałeś opcję Całe zlecenia</li>
+  <li><a href="/dashboard-dodawanie-zadan">tutaj</a>, gdy w drugim kroku konfiguratora wybrałes opcję każda operacja</li>
+</ul>
+
+<p>I na koniec jeszcze kilka informacji:</p>
+<ul>
+  <li>pamiętaj, że to tylko mały skrawek qcadoo. Pozwala na szybkie wprowadzenia zleceń nieskomplikowanych. Ale qcadoo sprzyja też produkcji bardzo złożonej i rozbudowanej. Zachęcam do zapoznania się z resztą dokumentacji</li>
+  <li>jeśli chcesz raportować produkcję za pomocą <a href="/terminal">terminala</a> zdefiniuj pracowników i przypisz je do użytkownika (lub po proś o to osobę mającą uprawnienia administratora).</li>
+  <li>produkcja to nie tylko wytwarzanie wyrobów, ale też zużywanie materiałów. Zanim zaczniesz raportować produkcję przyjmij na stan posiadane materiały. Możesz wykorzystać <a href="/dostawy">dostawy</a> lub <a href="/dokumenty">dokumenty magazynowe</a>.</li>
+</ul>
+:ET

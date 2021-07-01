@@ -1,0 +1,18 @@
+I"	<p>Stany magazynowe w qcadoo to informacja o tym jak wyglądają ilości na magazynie na dany moment. Nie da się w łatwy sposób wyznaczyć stanów na dzień sprzed miesiąca. Musiałbyś od aktualnych stanów odjąć wszystkie przychody i dodać rozchody, do interesującego Cię dnia. Brzmi skomplikowanie, prawda? Takie może być, jeśli dokumentów wystawiasz sporo. Dlatego warto czasami zapisać sobie stan, do którego można sięgnąć w każdej chwili. Z pomocą przyjdzie Ci wydruk stanu magazynu.</p>
+
+<p>Wejdź w Magazyn &gt; Wydruk stanu magazynu i <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/magazynWydrukStanuMagazynu.png"><img src="images/magazynWydrukStanuMagazynu.png" alt="Wydruk stanu magazynu" /></a><figcaption>Wydruk stanu magazynu</figcaption></figure>
+
+<p>W uruchomionym oknie określ warunki wydruku - przede wszystkim podaj <strong>magazyn</strong>, którego stan aktualny chcesz zachować. Możesz ograniczyć listę produktów do <strong>kategorii</strong>. Możesz też wskazać, czy zestawienie ma zawierać <strong>niepełne zasoby</strong>. Dodatkowo - raport może być albo na wszystkie miejsca składowania, albo na wybrane (jeśli interesuje Cię stan tylko niektórych lokalizacji ustaw <strong>Miejsca składowania = wybrane</strong>. Wówczas w tabeli uaktywni się przycisk <img class="inline" src="images/przyciskDodajIstniejacy.png" alt="Dodaj istniejący" />
+, dzięki czemu będziesz mógł wybrać miejsca składowania z listy).</p>
+
+<p>Warunki wydruku określone. Teraz praca nasza - kliknij <img class="inline" src="images/generateIcon24.png" alt="Generuj" />
+ <strong>Generuj</strong>, a my zaczniemy zbierać, liczyć i rysować. Gdy skończymy, uaktywni się przycisk <img class="inline" src="images/przyciskWydrukStanuMagazynu.png" alt="Wydruk stanu magazynu" />
+. Kliknij go, aby wywołać raport w PDF:</p>
+
+<figure><a target="_blank" href="images/magazynWydrukStanuMagazynuPDF.png"><img src="images/magazynWydrukStanuMagazynuPDF.png" alt="Wydruk stanu magazynu w PDF" /></a><figcaption>Wydruk stanu magazynu w PDF</figcaption></figure>
+
+<div class="bs-callout bs-callout-warning">Warto zapisać sobie stan magazynu przed i po inwentaryzacji</div>
+:ET

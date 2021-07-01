@@ -1,0 +1,24 @@
+I"4<p>Genealogia w qcadoo pozwala udzielić odpowiedzi na pytania:</p>
+
+<ul>
+  <li>Z jakich surowców i półproduktów (z jakiej partii) został wykonany nasz produkt?</li>
+  <li>W jakich innych jeszcze produktach użyliśmy surowca z tej samej partii?</li>
+</ul>
+
+<p>Funkcja ta będzie pomocna, gdy w Twojej firmie pojawi się klient z reklamacją towaru.</p>
+
+<p>Przykładowo okaże się, że w wyprodukowanych szafkach notorycznie odpadają drzwiczki i klienci masowo oddają wadliwy produkt. Wtedy masz szansę, po zbadaniu przyczyn i określeniu numeru partii tego produktu, dojść albo do producenta, który dostarczył wadliwe śruby bądź zawiasy, albo poszukać przyczyny u siebie w zakładzie i określić kto i przy użyciu jakiego sprzętu wykonał nieprawidłowe wiercenia otworów.</p>
+
+<p>W qcadoo mamy możliwość śledzenia partii produktów:</p>
+
+<ul>
+  <li><strong>automatycznie w ramach zleceń</strong> - raportujemy produkcję z dokładności do wytworzonych i użytych partii i analizujemy zebrane dane za pomocą widoku <a href="/sledzenie-partii-dla-zlecen">śledzenia partii dla zleceń</a>,</li>
+  <li><strong>ręczne, niezależne od zleceń</strong> - do wyprodukowanego produktu dodajemy partie użyte do jego wyprodukowania. Przeczytaj o tym w sekcji <a href="/sledzenie-partii-produktow">Proste śledzenie partii</a>.</li>
+</ul>
+
+<p>Niezależnie od tego, w jaki sposób śledzić będziemy partie - możemy podejrzeć z czego powstał dany produkt na <a href="/drzewo-genealogii">Drzewie genealogii</a>.</p>
+
+<div class="bs-callout bs-callout-info">Najlepiej zacząć jednak od przeczytania o tym <a href="/jak-dodac-numery-partii">jak przypisać numery partii do produktów</a>.</div>
+
+<p>Przed rozpoczęciem korzystania z tej funkcjonalności dokonaj jej <a href="/parametry-genealogia">parametryzacji</a></p>
+:ET

@@ -1,0 +1,39 @@
+I"1<p>Zdajemy sobie sprawę, że czasami to co zostało zaewidencjonowane poprzez dokumenty, musi zostać poprawione. A to pracownik się pomylił. A to dostawca przysłał korektę dokumentu. A to przenosimy produkt w inne miejsce składowania. Przyczyn może być naprawdę wiele. Tego typu zmiany mogą być nanoszone w qcadoo wprost w <a href="/zasoby">zasobie</a>.</p>
+
+<figure class="float-right "><a target="_blank" href="images/magazynZasobKorekta.png"><img src="images/magazynZasobKorekta.png" alt="Korygowanie zasobu" class="percent90 " /></a><figcaption>Korygowanie zasobu</figcaption></figure>
+
+<p>Aby wprowdzić korektę wejdź w Magazyn &gt; Zasoby, znajdź interesujący Cię wiersz i kliknij w niego, wchodząc w szczegóły. Co możesz zmienić?</p>
+<ul>
+  <li><a href="/miejsca-skladowania">miejsce składowania</a></li>
+  <li>ilość i ilość dodatkową - zmiana jednej, przeliczy drugą</li>
+  <li>cena</li>
+  <li>partia</li>
+  <li>data ważności</li>
+  <li>przelicznik</li>
+  <li><a href="/numery-wlasne-palet">numer palety</a></li>
+  <li>typ palety</li>
+  <li>ocenę jakości</li>
+  <li><a href="/atrybuty">atrybuty</a></li>
+</ul>
+
+<p><strong>Atrybuty</strong> zasobu widoczne są w osobnej zakładce:</p>
+
+<figure><a target="_blank" href="images/magazynKorektyAtrybutyZasobu.png"><img src="images/magazynKorektyAtrybutyZasobu.png" alt="Atrybuty zasobu" /></a><figcaption>Atrybuty zasobu</figcaption></figure>
+
+<figure class="float-right "><a target="_blank" href="images/magazynKorektyAtrybutZasobuNowy.png"><img src="images/magazynKorektyAtrybutZasobuNowy.png" alt="Dodanie nowego atrybutu zasobu" class="percent90 " /></a><figcaption>Dodanie nowego atrybutu zasobu</figcaption></figure>
+
+<p>Aby dodatkowo opisać zasób, kliknij w zakładce Atrybuty przycisk <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Nowy</strong>, wskaż atrybut (widoczne są tylko te, które zostały określone jako atrybut zasobu) i określ wartość. Jeśli typ atrybutu to wyliczeniowy - wybierz ją z listy. Jeśli typ ciągły - wprowadź wartość ręcznie. Pamiętaj, że jeśli rodzaj atrybutu to ‘liczbowy’, to pozwolimy na wpisanie tylko wartości liczbowej, z maksymalną ilością miejsc po przecinku taką, jaką określa precyzja.</p>
+
+<div class="bs-callout bs-callout-info">Dany atrybut może być do zasobu przypisany wielokrotnie, ale każdorazowo musi być wprowadzona jego inna wartość.</div>
+
+<hr />
+<p>Efekty zmian będą zachowane w liście korekt (Magazyn &gt; Korekty). Co istotne - będą tutaj nawet wówczas, gdy zasoby zostaną już wyzerowane.</p>
+
+<figure><a target="_blank" href="images/magazynKorekty.png"><img src="images/magazynKorekty.png" alt="Korekty zasobów" /></a><figcaption>Korekty zasobów</figcaption></figure>
+
+<p>W tabeli zobaczysz jaka dana została zmieniona. A także jakie były poprzednie i nowo ustawione wartości. Dowiesz się także kto i kiedy wprowadził zmiany.</p>
+
+<div class="bs-callout bs-callout-info">Jeśli dany zasób jest już rozchodowany, to korekta zasobu nie zmieni danych ustawionych w dokumencie</div>
+
+:ET

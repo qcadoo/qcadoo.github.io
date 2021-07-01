@@ -1,0 +1,15 @@
+I"<p>Jeśli na poważnie myślisz o analizowaniu czasu jaki pracownicy i/lub maszyny tracą dziennie / tygodniowo / miesięcznie podczas produkcji, to powinieneś zalecić ewiedencjonowanie przestojów. A jeśli zależy Ci na tym aby wiedzieć nie tylko jak długo produkcja nie była realizowana, ale także dlaczego linia stała - musisz zdefiniować przyczyny przestojów.</p>
+
+<p>Aby wprowadzić przyczyny przestojów wejdź w <strong>Podstawowe &gt; Przyczyny przestojów</strong>:</p>
+
+<figure><a target="_blank" href="images/podstawowePrzyczynyPrzestojowLista.png"><img src="images/podstawowePrzyczynyPrzestojowLista.png" alt="Lista przyczyn przestojów" /></a><figcaption>Lista przyczyn przestojów</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/podstawowePrzyczynyPrzestojowLista.png"><img src="images/podstawowePrzyczynyPrzestojowLista.png" alt="Lista przyczyn przestojów" /></a><figcaption>Lista przyczyn przestojów</figcaption></figure>
+
+<p>Obowiązkowo wprowadź <strong>nazwę</strong>, możesz dodatkowo podać <strong>opis</strong>, aby ułatwić pracownikowi wybór. W liście znajduje się wartość Inna - warto mieć w zapasie, gdyby wydarzyło się coś wyjątkowego i pracownik nie będzie potrafił dopasować żadnej ze zdefiniowanych przyczyn.</p>
+
+<p>Aby analizować zarejestrowane przestoje wg przyczyn wejdź w <strong>Rejestracja &gt; <a href="/przestoje">Przestoje</a></strong></p>
+:ET

@@ -1,0 +1,140 @@
+I"40<p>Plany sprzedaży pozwalają na zapisanie jakie masz przewidywania odnośnie produkcji w najbliższym czasie. Najbliższy to może być zarówno tydzień, jak i miesiąc, a nawet rok, czy dłużej - jeśli taką masz specyfikę produkcji. Ewidencja planów sprzedaży pozwoli na konfrontację Twoich założeń z tym co zostało zamówione przez klientów. Możesz też wykorzystać plany sprzedaży gdy produkujesz na magazyn. Z ich poziomów będziesz mógł zlecać produkcję i analizować wykonanie planu (funkcjonalność zostanie lada moment o taką możliwość rozbudowana).</p>
+
+<p>Aby dodać plan sprzedaży wejdź w <strong>Planowanie &gt; Plany sprzedaży</strong></p>
+
+<figure><a target="_blank" href="images/planowaniePlanySprzedazyLista.png"><img src="images/planowaniePlanySprzedazyLista.png" alt="Lista planów sprzedaży" /></a><figcaption>Lista planów sprzedaży</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong>  </p>
+
+<figure><a target="_blank" href="images/planowaniePlanySprzedazyGlowna.png"><img src="images/planowaniePlanySprzedazyGlowna.png" alt="Formularz dodawania planów sprzedaży" /></a><figcaption>Formularz dodawania planów sprzedaży</figcaption></figure>
+
+<p>Koniecznie podaj <strong>nazwę</strong> planu sprzedaży. Możesz ponadto wprowadzić:</p>
+<ul>
+  <li><strong>opis</strong></li>
+  <li>zakres obowiązywania planu w polach: <strong>od daty</strong> i <strong>do daty</strong></li>
+</ul>
+
+<p>Unikalny numer planu zostanie nadany z automatu po zapisie.
+<br />
+<br /></p>
+
+<p>W kolejnym kroku przejdź do zakładki <strong>Produkty planu</strong> i wprowadź informację o tym jakie produkty i w jakich ilościach chcesz w ramach tego planu wyprodukować.</p>
+
+<figure><a target="_blank" href="images/planowaniePlanySprzedazyProduktyPlanu.png"><img src="images/planowaniePlanySprzedazyProduktyPlanu.png" alt="Zakładka Produkty planu" /></a><figcaption>Zakładka Produkty planu</figcaption></figure>
+
+<p>Masz do dyspozycji dwa sposoby dodawania produktów:</p>
+<ol>
+  <li>standardowe dodawanie każdego produktu z osobna</li>
+  <li>zbiorcze dodanie produktów rozmiarowych z danej rodziny</li>
+</ol>
+
+<h2 id="dodawanie-produktu-do-planu---ścieżka-standardowa">Dodawanie produktu do planu - ścieżka standardowa</h2>
+
+<p>Aby dodać produkt do planu sprzedaży kliknij przycisk <img class="inline" src="images/przyciskNowyMaly.png" alt="Przycisk Nowy" />
+ <strong>Nowy</strong></p>
+
+<figure><a target="_blank" href="images/planowaniePlanySprzedazyNowyProdukt.png"><img src="images/planowaniePlanySprzedazyNowyProdukt.png" alt="Dodawanie produktu do planu sprzedaży" /></a><figcaption>Dodawanie produktu do planu sprzedaży</figcaption></figure>
+
+<p>Podaj:</p>
+<ul>
+  <li><strong>produkt</strong> - może być on zarówno konkretnym produktem, jak i produktem - rodziną. Zakładamy, że możesz wiedzieć, że chcesz wyprodukować 1 000 koszulek, ale na tym etapie nie wiesz jeszcze w jakich rozmiarach, albo wiesz, że wyprodukujesz 50 kanap, ale nie wiesz jeszcze z jakim obiciem</li>
+  <li><strong>planowana ilość</strong> - wskaż jaką ilość planujesz wyprodukować.</li>
+</ul>
+
+<p>Ponadto możesz podać <strong>technologię</strong>. Technologia podpowie się jeśli taka istnieje dla produktu. Technologia może dotyczyć podanego produktu lub produktu-rodziny, do której należy.</p>
+
+<p>W oknie szczegółów produktu widoczna jest:</p>
+<ul>
+  <li>ilość zamówiona - pobierana z powiązanych zamówień sprzedaży</li>
+  <li>nadwyżka z planu - liczona jako różnica między ilością planowaną a zamówioną</li>
+</ul>
+
+<hr />
+
+<h2 id="zbiorcze-dodawanie-do-planu-produktu-rozmiarowych-danej-rodziny">Zbiorcze dodawanie do planu produktu rozmiarowych danej rodziny</h2>
+
+<p>Jeśli chcesz dodać wiele rozmiarów danego produktu, to szybciej będzie gdy skorzystasz z funkcji dodawania produktów rozmiarowych, wywoływanej przyciskiem <img class="inline" src="images/przyciskDodajProduktyWgRozmiarow.png" alt="Przycisk Dodaj produkty wg rozmiarów" />
+ <strong>Dodaj produkty wg rozmiarów</strong></p>
+
+<div class="bs-callout bs-callout-warning">Każdy rozmiar definiowany jest jako osobny indeks produktu i ma wypełnione pole: rozmiar. A wszystkie rozmiary tego samego produktu łączone są rodziną produktu.</div>
+
+<p>Zacznij od wskazania produktu będącego <strong>rodziną produktu</strong>. Jeśli produkt ten ma przypisane konkretne produkty, z określonymi rozmiarami, to zostanie aktywowana tabela poniżej. W tabeli znajdą się rozmiary w jakich dana rodzina może występować:</p>
+
+<figure><a target="_blank" href="images/planowaniePlanySprzedazyDodajProduktyWgRozmiarow.png"><img src="images/planowaniePlanySprzedazyDodajProduktyWgRozmiarow.png" alt="Dodawanie produktów rozmiarowych do planu sprzedaży" /></a><figcaption>Dodawanie produktów rozmiarowych do planu sprzedaży</figcaption></figure>
+
+<p>Podaj ilości w tych wierszach, w których widnieją rozmiary, które chcesz w planie umieścić.</p>
+
+<div class="bs-callout bs-callout-warning">Pomiędzy polami ilościowymi, w dół tabeli, możesz przechodzić klawiszem TAB.</div>
+
+<p>Kliknij przycisk <img class="inline" src="images/przyciskDodajPozycje.png" alt="Przycisk Dodaj pozycje" />
+ <strong>Dodaj pozycje</strong> - do produktów planu zostaną dodane produkty z rozmiarem, dla którego ilość &gt; 0.</p>
+
+<hr />
+
+<h2 id="zapotrzebowanie-materiałowe-planu-sprzedaży">Zapotrzebowanie materiałowe planu sprzedaży</h2>
+
+<p>Aby móc zrealizować przyjęty plan konieczne jest zapewnienie materiałów do produkcji. Z poziomu planu możesz wygenerować zapotrzebowanie materiałowe - bardzo dokładne rozposanie potrzebnych produktów i ilości pod przyjęte wielkości w planie. Co więcej - zapotrzebowanie materiałowe pozwala na szybkie złożenie zamówienia u dostawcy.</p>
+
+<p>Więcej o zapotrzebowaniu materiałowym planu sprzedaży przeczytasz <a href="/zapotrzebowanie-materialowe-planu-sprzedazy">tutaj</a>. A jak wywołać generowanie z poziomu planu? Kliknij przycisk: <img class="inline" src="images/przyciskZapotrzebowanieMaterialowe.png" alt="Przycisk Zapotrzebowanie materiałowe" />
+ <strong>Zapotrzebowanie materiałowe</strong>. I dalej postępuj z powyższą dokumentacją.</p>
+
+<h2 id="zlecanie-produkcji-z-poziomu-planu-sprzedaży">Zlecanie produkcji z poziomu planu sprzedaży</h2>
+
+<p>Z poziomu planu sprzedaży możesz zlecić produkcję. Na dwa sposoby - albo tworząc tylko <a href="/zlecenia-produkcyjne">zlecenia produkcyjne</a>, albo tworząc zlecenia i łącząc je w <a href="/grupy-zlecen">grupy zleceń</a>.</p>
+
+<h3 id="tworzenie-zleceń-produkcyjnych-do-planu-sprzedaży">Tworzenie zleceń produkcyjnych do planu sprzedaży</h3>
+
+<p>Aby utworzyć zlecenia produkcyjne zaznacz w planie produkty, które chcesz zlecić i kliknij przycisk: <img class="inline" src="images/przyciskUtworzWieleZlecenProdukcyjnych.png" alt="Przycisk Utwórz wiele zleceń produkcyjnych" />
+ <strong>Utwórz wiele zleceń produkcyjnych</strong></p>
+
+<figure><a target="_blank" href="images/planowaniePlanSprzedazyUtworzZlecenia.png"><img src="images/planowaniePlanSprzedazyUtworzZlecenia.png" alt="Tworzenie zleceń produkcyjnych do planu sprzedaży" /></a><figcaption>Tworzenie zleceń produkcyjnych do planu sprzedaży</figcaption></figure>
+
+<p>Podaj jakie ilości chcesz produkować. Jeśli w planie zaznaczyłeś produkt będący rodziną produktu, to w oknie pojawią się wszystkie konkretne produkty z nim związane. Podpowiemy Ci ilość na podstawie ilości planowanej (gdy w planie znajduje się konkretny produkt) lub na podstawie ilości zamówionej (gdy w planie znajduje się rodzina produktu). Jeśli w wierszu produktu nie podasz ilości lub ilość będzie zerem - pominiemy tą pozycję przy tworzeniu zlecenia.</p>
+
+<p>Aby zlecenia zostały założone kliknij przycisk <img class="inline" src="images/przyciskUtworzZleceniaKolka.png" alt="Przycisk Utwórz zlecenia" />
+ <strong>Utwórz zlecenia</strong></p>
+
+<p>W pozycji planu sprzedaży uzupełniona będzie ilość zlecona - będziesz wiedzieć zatem jaka część planu została przekazana na produkcję.</p>
+
+<h3 id="tworzenie-grup-zleceń-do-planu-sprzedaży">Tworzenie grup zleceń do planu sprzedaży</h3>
+
+<p>Aby utworzyć grupę zleceń zaznacz w planie produkty, które mają znaleźć się w jednej grupie i kliknij przycisk <img class="inline" src="images/przyciskUtworzGrupeZlecen.png" alt="Przycisk Utwórz grupę zleceń" />
+ <strong>Utwórz grupę zleceń</strong></p>
+
+<figure><a target="_blank" href="images/planowaniePlanSprzedazyUtworzGrupe.png"><img src="images/planowaniePlanSprzedazyUtworzGrupe.png" alt="Tworzenie grupy zleceń do planu sprzedaży" /></a><figcaption>Tworzenie grupy zleceń do planu sprzedaży</figcaption></figure>
+
+<p>Jeśli wśród zaznaczonych produktów znajduje się rodzina produktów, to w oknie zaprezentowane będą wszystkie powiązane z nią konkretne produkty. Wskaż jakie produkty chcesz zlecić, poprzez podane ilości zleconej. Podpowiemy ją na podstawie ilości z planu (dla konkretnego produktu w planie) lub ilości zamówionej (dla produktu, dla którego w planie znajduje się jego rodzina). Jeśli nie chcesz produkować danego produktu - ustaw mu ilość 0 lub zostaw puste miejsce.</p>
+
+<div class="bs-callout bs-callout-warning">Konkretne produkty danej rodziny w oknie tworzenia grupy posortowane będą po rozmiarze (priorytecie nadanym w liście rozmiarów)</div>
+
+<p>Aby grupa zleceń została utworzona kliknij przycisk <img class="inline" src="images/przyciskUtworzGrupeIZlecenia.png" alt="Przycisk Utwórz grupę i zlecenia" />
+ <strong>Utwórz grupę i zlecenia</strong>.</p>
+
+<p>W efekcie zostanie utworzona grupa zleceń:</p>
+
+<figure><a target="_blank" href="images/planowaniePlanSprzedazyGrupaGlowna.png"><img src="images/planowaniePlanSprzedazyGrupaGlowna.png" alt="Utworzona grupa zleceń" /></a><figcaption>Utworzona grupa zleceń</figcaption></figure>
+
+<p>z wypełnioną informacją o planie sprzedaży. Jeśli zaznaczone produkty miały ten sam asortyment - zostanie on w grupie wypełniony.</p>
+
+<p>Utworzone będą również zlecenia produkcyjne i podpięte zostaną pod tą grupę:</p>
+
+<figure><a target="_blank" href="images/planowaniePlanSprzedazyGrupaZlecenia.png"><img src="images/planowaniePlanSprzedazyGrupaZlecenia.png" alt="Utworzone zlecenia produkcyjne" /></a><figcaption>Utworzone zlecenia produkcyjne</figcaption></figure>
+
+<p>W samym planie zostaną zaprezentowane ilości zlecone.</p>
+
+<hr />
+
+<h2 id="dodatkowe-funkcje-wykonywane-w-planie-sprzedaży">Dodatkowe funkcje wykonywane w planie sprzedaży</h2>
+
+<p>Ilości planowane możesz zestawić z ilościami zamówionymi. Kliknij przycisk <img class="inline" src="images/przyciskPobierzZamowioneIlosci.png" alt="Przycisk Pobierz zamówione ilości" />
+ <strong>Pobierz zamówione ilości</strong>, a w tabeli produktów planu przeliczone zostaną ilości zamówione i nadwyżki. Ilości zamówione pobierane są z powiązanych zamówień sprzedaży. Ilość zamówiona to zsumowana ilość dla wszystkich odnalezionych w zamówieniach pozycji z danym produktem lub z produktami należącymi do rodziny produktu (jeśli to rodzina znalazła się w planie).</p>
+
+<div class="bs-callout bs-callout-warning">Aby powiązać zamówienia sprzedaży z planem wystarczy w szczegółach zamówienia wypełnić pole: plan sprzedaży.</div>
+
+<p>Jeśli w produktem planu jest rodzina, to możesz, zaznaczając pozycję i klikając przycisk <img class="inline" src="images/przyciskPokazZamowioneRodzinyZPlanu.png" alt="Przycisk Pokaż zamówione produkty rodziny z planu" />
+ <strong>Pokaż zamówione produkty rodziny z planu</strong>, ustalić jakie konkretne produkty (np. w jakim rozmiarze, czy w jakim kolorze) zostały zamówione. Tutaj także dane pochodzą z powiązanych z planem zamówień sprzedaży:</p>
+
+<figure><a target="_blank" href="images/planowaniePlanySprzedazyZamowioneProduktyRodziny.png"><img src="images/planowaniePlanySprzedazyZamowioneProduktyRodziny.png" alt="Prezentacja ilości zamówionych konkretnych produktów danej rodziny" /></a><figcaption>Prezentacja ilości zamówionych konkretnych produktów danej rodziny</figcaption></figure>
+
+:ET

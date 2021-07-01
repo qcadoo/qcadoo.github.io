@@ -1,0 +1,19 @@
+I"a<p>Typy usterek wykorzystywane są w qcadoo w module utrzymania ruchu oraz w zleceniu napraw. Zgłaszając zdarzenie, trzeba określić co się dzieje z danym obiektem. Możesz przygotować listę typowych usterek czy problemów, a nawet przypisac je jako domyślne do typów stacji czy stacji roboczych. Jeśli wydarzy się coś nieprzewidzianego - użytkownik będzie mógł wskazać typ usterki = inne i w polu opis uszczegółowić sytuację.</p>
+
+<p>Aby zdefiniować listę typowych usterek wejdź w Podstawowe &gt; Typy usterek</p>
+
+<figure><a target="_blank" href="images/podstawoweTypyUsterekLista.png"><img src="images/podstawoweTypyUsterekLista.png" alt="Lista typów usterek" /></a><figcaption>Lista typów usterek</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy typ usterki" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/podstawoweTypyUsterekNowa.png"><img src="images/podstawoweTypyUsterekNowa.png" alt="Formatka dodawania nowego typu usterki" /></a><figcaption>Formatka dodawania nowego typu usterki</figcaption></figure>
+
+<p>Definicja typów usterek jest bardzo prosta. Wystarczy podać <strong>nazwę</strong> i wskazać czego dotyczy dana usterka - stacji / podzespołu, typu stacji czy produktu. Od ustawień pola Dotyczy zależy aktywność zakładek Stacje / podzespoły i Typy stacji.</p>
+
+<p>Typy usterek dla stacji / podzespołu i typu stacji wykorzystywane są w dziale utrzymania ruchu, natomiast typ usterek dla produktu przyda się przy realizacji <a href="/zlecenia-naprawy">zleceń naprawy</a>.</p>
+
+<figure><a target="_blank" href="images/podstawoweTypyUsterekStacje.png"><img src="images/podstawoweTypyUsterekStacje.png" alt="Przypisanie domyślej stacji lub typu stacji do typu usterki" /></a><figcaption>Przypisanie domyślej stacji lub typu stacji do typu usterki</figcaption></figure>
+
+<p>To w tych zakładkach możesz przypiać w jakiej maszynie czy typie maszyn może tego typu usterka wystąpić. Dzięki tym wskazaniom będą się podpowiadać odpowiednie dane przy dodawaniu <a href="/zdarzenia">zdarzeń</a>.</p>
+:ET

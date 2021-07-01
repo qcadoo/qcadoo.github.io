@@ -1,0 +1,144 @@
+I"�7<p>Parametry wykorzystywane podczas <a href="/rejestracja-produkcji">rejestracji produkcji</a> z poziomu listy meldunków jak i z poziomu <a href="/terminal">terminala</a>. Znajdziesz je w <strong>Parametry &gt; Parametry rejestracji</strong></p>
+
+<h2 id="rejestracja-produkcji">Rejestracja produkcji</h2>
+
+<figure><a target="_blank" href="images/administracjaParametryRejestracjaProdukcji.png"><img src="images/administracjaParametryRejestracjaProdukcji.png" alt="Parametry rejestracji produkcji" /></a><figcaption>Parametry rejestracji produkcji</figcaption></figure>
+
+<p>Wiele z tych parametrów można zmienić na etapie <a href="/technologie-szczegoly">technologii</a> a nawet <a href="/zlecenia-produkcyjne">zlecenia produkcyjnego</a>.</p>
+
+<figure><a target="_blank" href="images/technologieZakladkaRejestracja.png"><img src="images/technologieZakladkaRejestracja.png" alt="Parametry rejestracji produkcji w technologii" /></a><figcaption>Parametry rejestracji produkcji w technologii</figcaption></figure>
+
+<p>Oznacza to, że decyzję np. o sposobie rejestracji możesz podjąć inną dla różnych produkowanych wyrobów. Ale zawsze ustawienia z parametów będą traktowane jako domyślne i będą podpowiadane.</p>
+
+<p>Co oznaczają poszczególne parametry:</p>
+<ol>
+  <li><strong>Sposób rejestracji meldunków</strong> - do wyboru: podstawowy, dla każdej operacji, zbiorczy. Szczegółowy opis rodzajów znajdzies <a href="/krok-10-rejestracja-produkcji">tutaj</a> i w podlinkowanych tam stronach. W skrócie wygląda to tak:
+    <ul>
+      <li>podstawowy sposób - ustaw, gdy nie interesuje Cię dokładne zbieranie danych z produkcji ani dokumenty magazynowe. Jedyne na czym Ci zależy to określenie ile zostało wyprodukowanych zleconych produktów. Rejestracja podstawowa to uzupełnienie ilości wprost w zleceniu</li>
+      <li>zbiorczy sposób - pracownicy raportują wykonanie do całego zlecenia. Oznacza to, że nie interesuje Cię jakie operacje kto wykonał. Interesuje Cię, że produkt finalny został wytworzony i zużyte zostały w procesie surowce</li>
+      <li>dla każdej operacji - Twoja technologia jest wielooperacyjna, a Ty chcesz, żeby każda z tych operacji została zaraportowana. Chcesz wiedzieć kto i kiedy wykonał każdą z operacji.</li>
+    </ul>
+  </li>
+</ol>
+
+<ol start="2">
+  <li>
+    <p><strong>Rejestrować produkty wejściowe</strong> - jeśli parametr będzie zaznaczony, to przy rejestracji produkcji będziesz miał możliwość wskazania jakie produkty i w jakich ilościach zostały zużyte</p>
+  </li>
+  <li>
+    <p><strong>Rejestrować produkty wyjściowe</strong> - jeśli parametr będzie zaznaczony, to podczas rejestracji produkcji będziesz mógł podać jakie produkty zostały wytworzone i w jakich ilościach</p>
+  </li>
+  <li>
+    <p><strong>Rejestrować czas produkcji</strong> - jeśli zaznaczysz parametr, w meldunku z produkcji będzie aktywna zakładka Czas pracy, w której będziesz mógł gromadzić informacje kto i ile czasu poświęcił na realizację zlecenia, a także jak długo pracowały maszyny</p>
+  </li>
+  <li>
+    <p><strong>Rejestrować pracę akordową</strong> - zaznaczenie parametru spowoduje uaktywnienie w rekordzie rejestracji zakładki Akord. Dzięki temu praca akordowa będzie mogła być zarejestrowana. Uwaga! akord można raportować tylko wykorzystując sposób rejestracji do każdej operacji</p>
+  </li>
+  <li>
+    <p><strong>Pozwól na tworzenie anomalii na akceptacji rekordu rejestracji</strong> - anomalia to niezaplanowana sytuacja, którą pracownicy napotkali podczas produkcji. Taka, z którą sami nie potrafią sobie poradzić. Np. pracownik zużył 10 szt. surowca (tyle znalazł na magazynie, to przerobił), ale podczas rejestracji okazuje się, że ewidencyjny stan magazynowy jest niższy i rejestracja nie może zostać zaakceptowana. Jeśli parametr będzie zaznaczony, to anomalia utworzy się podczas akceptacji rekordu rejestracji, do każdego produktu wejściowego, dla którego stan magazynowy jest niższy od wskazanej ilości zużytej</p>
+  </li>
+  <li>
+    <p><strong>Jedna zbiorcza rejestracja produkcji lub po jednej dla każdej operacji?</strong> - jeśli zaznaczysz parametr do dla danego zlecenia (przy rejestracji zbiorczej) lub operacji zlecenia (przy rejestracji do każdej operacji) pracownicy będą mogli wprowadzić tylko jeden rekord rejestracji</p>
+  </li>
+  <li>
+    <p><strong>Zezwól na zamknięcie zlecenia jeśli końcowy meldunek zwrotny został wygenerowany?</strong> - jeśli zaznaczysz parametr, to nie uda się zakończyć zlecenia, jeśli pracownicy nie wprowadzili jeszcze meldunku końcowego</p>
+  </li>
+  <li>
+    <p><strong>Ostatni meldunek zamyka automatycznie zlecenie?</strong> - zaznacz parametr jeśli chcesz aby zlecenia samodzielnie się zamykały w momencie akceptacji rekordu rejestracji oznaczonego jako końcowy</p>
+  </li>
+  <li>
+    <p><strong>Wyprodukowanie zleconej ilości przelicza automatycznie kolejne zaplanowane zlecenie</strong> - parametr ma znaczenie, gdy używasz planów <a href="/produkcja-na-zmiane">produkcji na zmianę</a>. Jeśli wyprodukowano co najmniej tyle ile zlecono do produkcji, to qcadoo spróbuje przesunąć w czasie kolejne zlecenie, tak by można było je zacząć już (albo: dopiero) teraz. Zlecenie zostanie przesunięte w czasie i zostanie przeliczony jego plan na zmianę</p>
+  </li>
+  <li>
+    <p><strong>Powiadamiaj o nie podaniu czasu pracy</strong> - jeśli chcesz aby pracownicy raportowali czas pracy, możesz zdecydować również, czy mamy pilnować aby na pewno uzupełnili. Zaznacz parametr, a akceptacja rekordu rejestracji nie powiedzie się jeśli czas pracy będzie nieokreślony</p>
+  </li>
+  <li>
+    <p><strong>Pozwalaj na wielokrotną rejestrację czasu tego samego pracownika</strong> - jeśli parametr nie będzie zaznaczony, to dany pracownik będzie mógł zadeklarować swój udział w zleceniu przez zarejestrowanie tylko jednego czasu pracy. Zatem jeśli podczas całej zmiany z rana poświęcił godzinę i póżniej pod koniec zmiany - dwie, to będzie musiał swoje trzy godziny wprowdzić jako zbiorczy zapis. Jeśli zaznaczysz parametr pracownik będzie mógł zarejestrować w danym meldunku dwa wpisy - z godziną i z dwiema godzinami</p>
+  </li>
+  <li>
+    <p><strong>Zużycie surowców na podstawie norm</strong> - zaznaczenie parametru sprawi, że po podaniu ilości wyprodukowanej przeliczymy ilość zużytą surowców, zgodnie z przyjętymi w technologiami normami ilościowymi. Co więcej - takie ustawienie sprawi, że w terminalu od razu ustawiona będzie zakładka z produktami wyjściowymi, co przyspieszy rejestrację</p>
+  </li>
+  <li>
+    <p><strong>Przeliczaj sumę czasu pracowników na akceptacji meldunku</strong> - zaznacz parametr, a na etapie akceptacji rekordu rejestracji wyliczmy sumę czasu pracy pracowników z tego meldunku. Dzięki temu nie będziesz musiał wywoływać ręcznie funkcji: Oblicz sumaryczny czas pracowników</p>
+  </li>
+  <li>
+    <p><strong>Twórz dokumenty do rejestracji produkcji</strong> - zaznaczenie parametru spowoduje, że akceptacja rekordu rejestracji utworzy dokumenty RW i PW. Jeśli nie chcesz aby tak się stało - odznacz parametr. Nie utworzą się dokumenty i nie będą sprawdzane stany dostępnych produktów. Dokumenty magazynowe będziesz musiał wystawić sam ręcznie, albo poprzez funkcję wydania i przyjęcia do grupy zleceń</p>
+  </li>
+  <li>
+    <p><strong>Cena PW na podst.</strong> - to parametr mówiący o tym w jaki sposób mamy ustalać cenę na dokumenty PW przyjmujące na magazyn wytworzone wyroby. Do wyboru dwie opcje:</p>
+    <ul>
+      <li>koszt nominalny produktu - inaczej: cena ewidencyjna. Wyroby przyjmowane są na magazyn w cenie przyjętej jako stała w danym okresie. Ewentualne odchylenia rozksięgowywane są już w systemie księgowym. Koszt nominalny wprowdzany jest w <a href="/produkty">produkcie</a> w zakładce Koszty. Jeśli zdecydujesz się na ten tryb, to dokumenty PW będą tworzyły się do każdej akceptacji rekordu rejestracji. A zatem wytworzone produkty znajdą się na magazynie od razu po wyprodukowaniu</li>
+      <li>rzeczywisty TKW - wyroby przyjmowane są na magazyn w rzeczywistych kosztach wytworzenia - czyli koszt zużytych materiałów ustalany jest na podstawie cen zasobów rozchodowanych pod zlecenie powiększony o koszt robocizny na podstawie zarejestrowanego czasu. W takiej sytuacji na akceptacji każdego rekordu rejestracji tworzone są tylko dokumenty RW, a dokumenty PW tworzone są dopiero po zakończeniu produkcji do danego zlecenia, w momencie jego zakończenia</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Jeśli do rejestracji produkcji będziesz używać terminala - zernij także w zakładkę <a href="/parametry-rejestracja-produkcji.html#terminal">Terminal</a>.</p>
+
+<hr />
+
+<h2 id="terminal">Terminal</h2>
+
+<p>Parametry terminala konfigurują <a href="/terminal">terminal rejestracji produkcji</a>. Wejdż w zakładkę <strong>terminal</strong> i ustaw, jak ma działać i wyglądać.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryTerminal.png"><img src="images/administracjaParametryTerminal.png" alt="Parametry terminala" /></a><figcaption>Parametry terminala</figcaption></figure>
+
+<ol>
+  <li>
+    <p><strong>Zezwól na edycję wyliczonej ilości zużytej w terminalu</strong> - parametr aktywny, gdy w <a href="/parametry-rejestracja-produkcji">parametrach rejestracji produkcji</a> zaznaczysz Zużycie surowców na podstawie norm. Włącz parametr, gdy chcesz pozwolić pracownikowi na modyfikację ilości zużytej wyliczonej na podstawie norm z technologii. Dzięki temu jeśli pracownik zużył np. więcej, to będzie mógł od razu ilość zaktualizować.</p>
+  </li>
+  <li>
+    <p><strong>Akceptuj rejestrację produkcji z terminala</strong> - jeśli zaznaczysz parametr, to potwierdzenie rejestracji z produkcji, utworzy meldunek zbiorczy i z automatu zostanie wywołane jego akceptowanie (a co za tym idzie skutki magazynowe). Jeśli parametr nie będzie zaznaczony - meldunek się utworzy, ale w szkicu. I ktoś będzie musiał akceptację wywołać ręcznie. Pamiętaj, że póki rekord rejestracji jest szkicowy, to można go edytować.</p>
+  </li>
+  <li>
+    <p><strong>Uwzględnij produkcję niezaakceptowaną</strong> - jeśli zaznaczysz parametr, to ilość zarezerwowana w oknie wyboru zadań operacyjnych w terminalu będzie ustalana na podstawie zaakceptowanych i szkicowych meldunków.</p>
+  </li>
+  <li>
+    <p><strong>Nie pokazuj zadań pobranych przez innego pracownika</strong> - parametr przydatny w sytuacji, gdy zadania realizowane są zawsze przez jednego pracownika i są zaplanowane do wykonania na dany dzień, ale nie wskazany jest wykonawca. Zaznacz parametr, a zadania pobrane przez jednego pracownika, nie będą prezentowane innym pracownikom. Ustawienie tego parametru będzie można zmienić w samym terminalu - w razie gdybyś wyjątkowo chciał dorejestrować produkcję do czynności wykonywanej przez kogoś innego.</p>
+  </li>
+  <li>
+    <p><strong>Wybór zadań według dat zlecenia</strong> - pracownicy w terminalu wybierają zadania operacyjne. Każde z tych zadań ma określone daty realizacji. Jednak zdarza się często, że czynności wykonywane są trochę później niż zaplanowano, wtedy, gdy zadanie w terminalu nie jest już widoczne. A nie masz możliwości by ciągle przeplanowywać daty operacji. Rozwiązaniem może być ten parametr. Zaznacz go, a zadania w terminalu będą prezentowane tak długo, jak będzie trwało całe zlecenie.</p>
+  </li>
+  <li>
+    <p><strong>Atrybut produktu w oknie zadań</strong> - wskaż atrybut produktu. Wartości tego atrybutu przypisanego do produktu, który masz w danej operacji wykonać, pokażemy w oknie wyboru zadań w terminalu.</p>
+  </li>
+  <li>
+    <p><strong>Wymagaj przyczyny braków</strong> - jeśli zaznaczysz parametr to zawsze w terminalu po wpisaniu dla produktu wyjściowego ilości braku &gt; 0 będzie wymagane podanie przyczyny takiego stanu</p>
+  </li>
+  <li>
+    <p><strong>Skanowanie</strong> - wskaż, czy chcesz w terminalu namierzać zlecenie poprzez skanowanie numeru operacji z karty pracy czy numeru paczki z etykiety</p>
+  </li>
+  <li>
+    <p><strong>Stacja robocza</strong> - wybierz jedną z metod wprowadzania stacji roboczej w terminalu - albo poprzez wybranie z listy albo poprzez zeskanowanie (lub ręczne wpisanie) numeru stacji</p>
+  </li>
+  <li>
+    <p><strong>Pokaż w terminalu</strong> - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:</p>
+    <ul>
+      <li>przycisk <strong>Wybierz zlecenie</strong></li>
+      <li>przycisk <strong>Wybierz zadanie</strong></li>
+      <li>przycisk <strong>Postęp pracownika</strong></li>
+      <li>przycisk <strong>Dostępność surowców</strong></li>
+      <li>obszar <strong>Naprawy</strong></li>
+      <li>obszar <strong>Przestoje</strong></li>
+      <li>obszar <strong>Kontrola jakości</strong></li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="terminal-potwierdzania-procesów">Terminal potwierdzania procesów</h2>
+
+<p>Parametry terminala potwierdzania procesów dotyczą terminala potwierdzania procesów. Przejdź do zakładki i skonfiguruj jego działanie.</p>
+
+<figure><a target="_blank" href="images/parametryParametryRejestracjiTerminalProcesow.png"><img src="images/parametryParametryRejestracjiTerminalProcesow.png" alt="Parametry terminala potwierdzania procesów" /></a><figcaption>Parametry terminala potwierdzania procesów</figcaption></figure>
+
+<ol>
+  <li>
+    <p><strong>Źródło procesów</strong> - wskaż, czy chcesz namierzać procesy do wykonania poprzez wskazanie paczki zlecenia, czy poprzez wybranie operacji zlecenia. Paczki wybierz wtedy, gdy zlecona produkcja dzielona jest na paczki i dla każdej z nich wygenerowany jest osobny zestaw procesów technologicznych.</p>
+  </li>
+  <li>
+    <p><strong>Miejsce wykonania</strong> - w terminalu możemy zaprezentować stacje robocze lub typ stacji roboczej przypisanej do procesu technologicznego. Wskaż co chciałbyś zaprezentować pracownikom</p>
+  </li>
+</ol>
+:ET

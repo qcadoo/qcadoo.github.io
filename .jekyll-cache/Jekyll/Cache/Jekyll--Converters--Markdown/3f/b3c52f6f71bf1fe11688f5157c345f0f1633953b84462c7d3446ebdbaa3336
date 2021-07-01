@@ -1,0 +1,47 @@
+I"�	<p>Asortyment to zestaw produkowanych przez Twoją firmę wyrobów.</p>
+
+<p>Wprowadzenie asortymentów pozwala na:</p>
+
+<ul>
+  <li>grupowanie indeksów produktów w produkty podobne, traktowane w procesie produkcyjnym jako takie same produkty,</li>
+  <li>przypisywanie dodatkowych informacji do produktów, niezbędnych do prawidłowego przeprowadzenia procesu produkcyjnego,</li>
+  <li>zlecanie podobnych produktów (z tego samego asortymentu) na jednym zleceniu.</li>
+</ul>
+
+<p>Aby dodać asortyment:</p>
+
+<figure class="float-right "><a target="_blank" href="images/Podstawowe-%20asortyment.png"><img src="images/Podstawowe-%20asortyment.png" alt="Asortyment" class="percent90 " /></a><figcaption>Asortyment</figcaption></figure>
+
+<ol>
+  <li>
+    <p>Wejdź do <strong>Produkty &gt; Asortymenty</strong> i wybierz <img class="inline" src="images/newIcon24.png" alt="Dodaj nowy" />
+ <strong>Dodaj nowy</strong>.</p>
+  </li>
+  <li>
+    <p>Podaj “Nazwę” dla tworzonego asortymentu.</p>
+  </li>
+  <li>
+    <p>Za pomocą przycisku <img class="inline" src="images/newIcon24.png" alt="Dodaj nowy" />
+ zacznij dodawać opisy czyli cechy łączące produkty danego asortymentu. Opisy są wartościami ze <a href="/slowniki">słownika</a> “Rodzaje opisu”. Przykładowym opisem jest “Pakowanie”, które wskazuje sposób pakowania danego asortymentu czy też “Laser” opisujący laser wykorzystywany do wytworzenia produktów należących do danego asortymentu.
+Z rozwijanej listy wybierz interesujący Cię rodzaj opisu, a potem wypełnij dla niego pole ‘Opis’.</p>
+
+    <div class="bs-callout bs-callout-info">Asortyment może mieć przypisanych wiele rodzajów opisów.</div>
+  </li>
+</ol>
+
+<ol start="4">
+  <li>
+    <p>Następnie kliknij  <img class="inline" src="images/saveIcon24.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>, aby zapisać wprowadzone dane.</p>
+  </li>
+  <li>
+    <p>Przejdź do zakładki “Produkty” i przypisz produkty do tworzonego asortymentu, klikając <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj Nowy" />
+ <strong>Dodaj istniejący</strong>.</p>
+
+    <div class="bs-callout bs-callout-info">Produkt możesz przypisać do asortymentu również z poziomu szczegółów produktu. W tym celu w <strong>PODSTAWOWE Produkty</strong> wybierz produkt, wejdź w jego edycję i tam wybierz odpowiedni asortyment z listy.</div>
+
+    <div class="bs-callout bs-callout-info">Dany produkt może należeć tylko do jednego asortmentu.</div>
+  </li>
+</ol>
+
+:ET

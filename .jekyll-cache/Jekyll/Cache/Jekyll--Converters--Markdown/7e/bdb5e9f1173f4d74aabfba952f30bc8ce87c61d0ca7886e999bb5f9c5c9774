@@ -1,0 +1,15 @@
+I"(<p>Czynności, to kroki trzeba wykonać, aby zrealizować <a href="/zdarzenia-planowane">zdarzenie planowane</a>. Zdefiniuj listę czynności i wykorzystuj ją przy planowaniu remontów czy przeglądów.</p>
+
+<p>Listę czynności znajdziesz w <strong>Podstawowe &gt; Czynności</strong>.</p>
+
+<figure><a target="_blank" href="images/podstawoweCzynnosciLista.png"><img src="images/podstawoweCzynnosciLista.png" alt="Lista czynności" /></a><figcaption>Lista czynności</figcaption></figure>
+
+<p>Aby dodać czynność kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/podstawoweCzynnosciNowa.png"><img src="images/podstawoweCzynnosciNowa.png" alt="Formularz dodawania czynności" /></a><figcaption>Formularz dodawania czynności</figcaption></figure>
+
+<p>Określ <strong>nazwę czynności</strong> oraz to, czy <strong>dotyczy</strong> stacj roboczej / podzespołu czy typu stacji. W zależności od ustawień pola dotyczy aktywują się przyciski dodawania albo w zakładce Stacje / podzespoły, albo w zakładce Typy stacji. Przypisz na jakich obiektach czynności mogą być wykonywane - dzięki temu szybciej odnajdziesz właściwe kroki przy planowaniu zdarzeń.</p>
+
+<figure><a target="_blank" href="images/podstawoweCzynnosciStacjeTypy.png"><img src="images/podstawoweCzynnosciStacjeTypy.png" alt="Przypisanie do czynności stacji, podzespołu lub typu stacji" /></a><figcaption>Przypisanie do czynności stacji, podzespołu lub typu stacji</figcaption></figure>
+:ET

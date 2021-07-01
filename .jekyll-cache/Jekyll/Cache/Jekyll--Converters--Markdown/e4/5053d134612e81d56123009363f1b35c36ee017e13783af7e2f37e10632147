@@ -1,0 +1,48 @@
+I"�<p>Produkty do technologii grup produktów służą do zdefiniowania jakie surowce mają być zastępować surowiec wzorcowy z <a href="/technologie-grup-produktow">technologii grup produktów</a>. Innymi słowy - wskaż tutaj jaki surowiec będziesz używał do produkcji podczas realizacji zlecenia na konkretny wyrów, korzystający z technologii grup produktów.</p>
+
+<p>Przykład:</p>
+
+<p>w technologii grupy produktu ‘Ławka’ mamy użyty surowiec ‘tkanina obiciowa’:</p>
+
+<figure><a target="_blank" href="images/technologieProduktyDoTechnologiiGrupProduktowTechnologia.png"><img src="images/technologieProduktyDoTechnologiiGrupProduktowTechnologia.png" alt="Technologia grupy produktu" /></a><figcaption>Technologia grupy produktu</figcaption></figure>
+
+<p>Zlecać będziemy na produkcję konkretne ławki: ławka z siedziskiem limonkowym, ławka z siedziskiem białym, ławka z siedziskiem czarnym itp. odpowiednio zużywając tkaniny: tkanina obiciowa limonkowa, tkanina obiciowa biała, tkanina obiciowa czarna. Abyśmy wiedzieli jakie surowce mają się pojawić w zleceniu, konieczne jest zdefiniowanie powiązania.</p>
+
+<p>Wejdź w <strong>Technologie &gt; Produkty do technologii grup produktów</strong>:</p>
+
+<figure><a target="_blank" href="images/technologieProduktyDoTechnologiiGrupProduktowLista.png"><img src="images/technologieProduktyDoTechnologiiGrupProduktowLista.png" alt="Lista produktów do technologii grup produktów" /></a><figcaption>Lista produktów do technologii grup produktów</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/technologieProduktyDoTechnologiiGrupProduktowDodaj.png"><img src="images/technologieProduktyDoTechnologiiGrupProduktowDodaj.png" alt="Formularz dodawania produktów do technologii grup produktów" /></a><figcaption>Formularz dodawania produktów do technologii grup produktów</figcaption></figure>
+
+<p>Wypełnij:</p>
+<ul>
+  <li><strong>produkt</strong> - to wyrób, który będziesz zlecać. W naszym przykładzie: ‘ławka z siedziskiem limonkowym’. Czyli: w zleceniu na taki produkt będziemy podmieniać surowiec</li>
+  <li><strong>rodzina z szablonu technologii</strong> - to ten produkt wzorcowy, który został użyty w technologii grupy produktów. W naszym przykładzie: ‘tkanina obiciowa’. Czyli: jaki produkt z technologii będzie usuwany i zastępowany innym</li>
+  <li><strong>produkt do zastosowania w zleceniu</strong> - to ten produkt, który tak naprawdę zużywasz. W naszym przykładzie: ‘tkanina obiciowa limonka’. Czyli: jaki produkt pojawi się w zleceniu zamiast produktu wzorcowego z technologii grup produktu</li>
+</ul>
+
+<div class="bs-callout bs-callout-warning">W danym zleceniu możemy podmienić tylko jeden produkt. Zatem może istnieć tylko jeden rekord z takimi samymi polami: ‘produkt’ i ‘rodzina z szablonu technologii’</div>
+
+<p>Stwórz takie powiązania dla wszystkich produktów, które będziesz zlecać, a które nie mają swojej technologii. Aby Ci ułatwić - dodaliśmy funkcję importu danych z Excela.</p>
+
+<h2 id="import-produktów-do-technologii-grup-produktów-z-excel">Import produktów do technologii grup produktów z Excel</h2>
+
+<p>Zasady importu są dokładnie takie same jak w innych miejscach w qcadoo - jeśli jeszcze nie miałeś przyjemności skorzystać z funkcji, zajrzyj <a href="/import-z-excel">tutaj</a>.</p>
+
+<p>Kliknij przycisk: <img class="inline" src="images/przyciskImportujPowiazaniaZXLSX.png" alt="Importuj powiązania z XLSX" />
+ i pobierz szablon do importu. Wypełnij go danymi, wg zaleceń do ręcznego dodawania powiązania, opisanych powyżej. Użyj w kolumnach:</p>
+<ul>
+  <li>A: produkt - numer produktu zdefiniowanego w qcadoo</li>
+  <li>B: rodzina z szablonu technologii - numer produktu zdefiniowanego w qcadoo</li>
+  <li>C: produkt do zastosowania w zleceniu - numer produktu zdefiniowanego w qcadoo</li>
+</ul>
+
+<p>Gotowy plik może wyglądać tak:</p>
+
+<figure><a target="_blank" href="images/technologieProduktyDoTechnologiGrupProduktowImport.png"><img src="images/technologieProduktyDoTechnologiGrupProduktowImport.png" alt="Arkusz Excel z wypełnionymi danymi" /></a><figcaption>Arkusz Excel z wypełnionymi danymi</figcaption></figure>
+
+<p>Zapisz go na dysku i wskaż w oknie zaciągania w qcadoo. Zaimportuj. I gotowe. Jeśli pojawią się jakieś błędy (szczegóły znajdziesz w logach), nie zostanie utworzone żadne powiązanie. Popraw dane i zaciągnij je ponownie.</p>
+:ET

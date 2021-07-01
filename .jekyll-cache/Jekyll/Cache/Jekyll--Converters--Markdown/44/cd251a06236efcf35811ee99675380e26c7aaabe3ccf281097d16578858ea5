@@ -1,0 +1,6 @@
+I"�<p>Przyjmując produkt na magazyn masz możliwość określenia jego atrybutów. Jeśli chcesz przeanalizować jak wyglądają stany magazynowe pod kątem wartości atrybutów (bo np. jesteś ciekawy ile 4m profili aktualnie posiadasz, albo która rolka tkaniny ma gramaturę 240 g/m2), skorzystaj z widoku <strong>Magazyn &gt; Atrybuty zasobów</strong>.</p>
+
+<figure><a target="_blank" href="images/magazynAtrybutyZasobow.png"><img src="images/magazynAtrybutyZasobow.png" alt="Lista atrybutów zasobów" /></a><figcaption>Lista atrybutów zasobów</figcaption></figure>
+
+<p>Oprócz standardowych kolumn opisujących <a href="/zasoby">zasoby</a>, znajdziesz tu też kolumny zbudowane w oparciu o <a href="/atrybuty">atrybuty</a> oznaczone jako atrybuty zasobu. Listę możesz dowolnie filtrować i sortować. Natomiast w celu edycji danych musisz przejść do <strong>Magazyn &gt; Zasoby</strong>.</p>
+:ET

@@ -1,0 +1,28 @@
+I"�<p>W tej zakładce wprowadzamy dane dotyczące kosztu godziny pracy każdego pracownika.</p>
+
+<figure><a target="_blank" href="images/Podstawowe-%20p%C5%82ace-%20g%C5%82%C3%B3wna.png"><img src="images/Podstawowe-%20p%C5%82ace-%20g%C5%82%C3%B3wna.png" alt="formularz-płace" /></a><figcaption>Formularz płacy pracownika</figcaption></figure>
+
+<p>Aby określić koszty godziny pracy należy wejść w <strong>Pracownicy » Płace</strong> , a następnie z listy wybrać interesującego nas pracownika.</p>
+
+<p>Pojawi się okno, w którym będziemy mieć 2 zakładki: <strong>“Główna”</strong> i <strong>“Koszt godziny pracy”</strong>.</p>
+
+<p>Dane w zakładce “Główna” kopiują się samodzielnie. Będą tam widoczne wszystkie informacje, które wprowadziliśmy wcześniej dla danego pracownika w <strong>Pracownicy »  Pracownicy</strong>.</p>
+
+<figure><a target="_blank" href="images/podstawowe-%20p%C5%82ace-%20koszt%20godziny%20pracy.png"><img src="images/podstawowe-%20p%C5%82ace-%20koszt%20godziny%20pracy.png" alt="koszt godziny pracy" /></a><figcaption>Formularz kosztu godziny pracy</figcaption></figure>
+
+<p>Kolejną zakładkę uzupełniamy samodzielnie. Możemy:</p>
+
+<ol>
+  <li>
+    <p>Przypisać pracownika do konkretnej grupy płacowej, wówczas koszt godziny pracy uzupełni się automatycznie.</p>
+  </li>
+  <li>
+    <p>W lewym górnym rogu zaznaczyć <strong>Ustalony indywidualnie</strong>. Wówczas Indywidualny godzinowy koszt pracy uzupełniamy ręcznie.</p>
+  </li>
+  <li>
+    <p>Po wprowadzeniu danych wciskamy <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>.</p>
+  </li>
+</ol>
+
+:ET

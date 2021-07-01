@@ -1,0 +1,90 @@
+I"<p>W <strong>Parametry &gt; Parametry analiz</strong> znajdują się parametry związane z modułem analiz.</p>
+
+<h2 id="rozliczenie-produkcji">Rozliczenie produkcji</h2>
+
+<p>Parametry rozliczenia produkcji są wykorzystywane do <a href="/rozliczenie-produkcji">rozliczenia produkcji</a> i <a href="/koszty-zlecenia">kalkulacji kosztów</a>. Parametry ustawione tuaj traktowane są jako domyślne - na etapie wykonywania wyliczeń można dokonać ich zmiany.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryRozliczenieProdukcji.png"><img src="images/administracjaParametryRozliczenieProdukcji.png" alt="Parametry rozliczenia produkcji" /></a><figcaption>Parametry rozliczenia produkcji</figcaption></figure>
+
+<p>Do czego służą poszczególne parametry:</p>
+
+<ol>
+  <li><strong>Źródło kosztów materiału</strong> - parametr mówi o tym, skąd mamy wziąć cenę zużytych materiałów. Do wyboru dwie opcje:
+    <ul>
+      <li>z bieżących definicji produktów - do kosztów materiałów pobierana będzie cena zapisana w produkcie w zakładce Koszty. Jaka cena? Ustaw w parametrze poniżej (Wykorzystywane koszty materiałów)</li>
+      <li>z kosztów materiałowych zleceń - koszty materiałów będą ustalane na podstawie konkretnych cen zasobów ustalonych w zleceniu. Ceny materiałów możesz podejrzeć sobie <a href="/ceny-materialow-dla-zlecenia">tutaj</a></li>
+    </ul>
+  </li>
+</ol>
+
+<ol start="2">
+  <li><strong>Wykorzystywane koszty materiałów</strong> - parametr powiązany z powyższym. Jeśli Żródło kosztów materiałów = z kosztów materiałowych zleceń, to ustaw tutaj koszt dla zlecenia. Jeśli natomiast źródłem kosztów będzie definicja produktów to możesz wybrać, która ze zdefiniowanych cen jest dla Ciebie najlepsza:
+    <ul>
+      <li>nominalna</li>
+      <li>średnio ważona</li>
+      <li>ostatniego zakupu</li>
+      <li>średnia z ofert</li>
+      <li>z ostaniej oferty</li>
+    </ul>
+  </li>
+</ol>
+
+<ol start="3">
+  <li><strong>Źródło kosztów operacji</strong> - czyli innymi słowy: gdzie będziesz ustawiał ile kosztuje godzina pracy pracownika / maszyny. Jeśli chcesz przyjąć średnią stawkę za godzinę niezależnie od wykonywanej czynności to wskaż: <em>z parametrów ogólnych</em>. Jeśli natomiast interesuje Cię rozróżnienie, bo każda operacja kosztuje inaczej - ustaw: <em>z operacji technologii</em>. Pamiętaj jednak, że wówczas normy kosztowe w każdej operacji będą musiały być uzupełnione, abyśmy mogli je wykorzystać przy tworzeniu zestawień do kosztów.</li>
+</ol>
+
+<div class="bs-callout bs-callout-warning">Pamiętaj, że technologia już zaakceptowana nie może być modyfikowana, a zatem i dopisanie do jej operacji norm kosztowych nie będzie możliwe</div>
+
+<ol start="4">
+  <li>
+    <p><strong>Średnia roboczogodzina maszyny</strong> - jeśli źródłem kosztów operacji są u Ciebie parametry ogólne, to wprowadź tutaj jaki jest średni koszt za roboczogodzinę maszyny. To ta wartość będzie pobierana do kalkulacji kosztów i do rozliczenia produkcji</p>
+  </li>
+  <li>
+    <p><strong>Średnia roboczogodzina pracownika</strong> - jeśli źródłem kosztów operacji są u Ciebie parametry ogólne, to wprowadź tutaj jaki jest średni koszt za roboczogodzinę pracownika. To ta wartość będzie pobierana do kalkulacji kosztów i do rozliczenia produkcji</p>
+  </li>
+  <li>
+    <p><strong>Uwzględnić czas przygotowawczo-rozliczeniowy TPZ</strong> - zaznacz jeśli chcesz aby do planowanych kosztów robocizny wliczany był czas przygotowawczo-zakończeniowy. Czas ten ustawiany jest w normach czasowych operacji technologii</p>
+  </li>
+  <li>
+    <p><strong>Uwzględnić dodatkowy czas</strong> - zaznacz, aby do planowanych kosztów robocizny wliczać czas dodatkowy określony w normach czasowch operacji technologii</p>
+  </li>
+  <li>
+    <p><strong>Uwzględnij płace pracowników</strong> - jeśli zaznaczysz parametr, to koszty robocizny w rozliczeniu produkcji będą wyliczane w oparciu o <a href="/place">płace pracowników</a> uczestniczących w procesie</p>
+  </li>
+  <li>
+    <p><strong>Narzut do kosztów materiału</strong> - podaj o ile procent ma zostać zwiększony koszt zużycia materiałow (możesz w ten sposób doliczyć np. koszty materiałów pomocniczych, nie związanych bezpośrednio z produkcją)</p>
+  </li>
+  <li>
+    <p><strong>Narzut do kosztów robocizny</strong> - wskaż o jaki procent mają zostać zwiększone koszty robocizny (możesz w ten sposób doliczyć np. koszty okołoprodukcyjne)</p>
+  </li>
+  <li>
+    <p><strong>Dodatkowe obciążenie</strong> - kwota w złotówkach, możesz ją doliczyć do kosztów wyrobu. Jakaś stała część, którą zawsze ponosisz i dobrze byłoby ją wliczać w cenę proponowaną nabywcy</p>
+  </li>
+  <li>
+    <p><strong>Narzut do kosztów produkcji</strong> - określ o jaki procent mamy podwyższyć jednostkowy koszt produkcji (możesz tutaj doliczyć np. koszty wydziałowe)</p>
+  </li>
+  <li>
+    <p><strong>Narzut do TKW</strong> - określ o jaki procent mamy podwyższyć techniczny koszt wytworzenia (możesz tutaj doliczyć np. koszty zarządu, koszty sprzedaży, czy administracji)</p>
+  </li>
+  <li>
+    <p><strong>Zysk</strong> - podaj jaki procent zysku mamy doliczyć do ceny ewidencyjnej, wyznaczając tym samym cenę sprzedaży</p>
+  </li>
+</ol>
+
+<hr />
+<h2 id="oee">OEE</h2>
+
+<p>Ustaw parametry OEE, aby analiza wykazywała dane najbardziej zbliżone do realizowanego przez Firmę sposobu pracy.</p>
+
+<figure><a target="_blank" href="images/parametryParametryAnalizOEE.png"><img src="images/parametryParametryAnalizOEE.png" alt="Parametry rozliczenia produkcji" /></a><figcaption>Parametry OEE</figcaption></figure>
+
+<ol>
+  <li>
+    <p><strong>Wyznaczaj OEE dla</strong> - do wyboru: linii produkcyjnej lub stacji roboczej. Jeśli pracujesz na zleceniach produkcyjnych raportowanych zbiorczo to wybierz liczenie wskaźnika dla linii. Jeśli natomiast rejestrujesz produkcję z dokładnością do operacji / zadań operacyjnych, to ustaw: stacji roboczej</p>
+  </li>
+  <li>
+    <p><strong>czas pracy pobierany z</strong> - do wyboru: tabeli czasu pracy pracowników w zakładce Czas pracy lub z przedziału czasowego w zakładce Główna. Ustaw tą opcję, w której zostawiasz czas poświęcony na realizację zadania / zlecenia w rejestracji produkcji</p>
+  </li>
+</ol>
+
+:ET

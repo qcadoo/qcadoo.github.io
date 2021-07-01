@@ -1,0 +1,84 @@
+I"X<p>Magazyn &gt; Stan palet to miejsce ważne z punktu widzenia zarządzania paletami na magazynie. Dowiesz się tutaj:</p>
+<ul>
+  <li>jakie palety są w jakich miejscach składowania</li>
+  <li>co znajduje się na paletach</li>
+  <li>jakie palety mają na tyle wolnego miejsca, by móc na nich coś jeszcze położyć</li>
+  <li>z jakich palet produkty warto przesunąć na inne palety (bo jest ich na tyle mało na palecie, że szkoda aby zajmowały miejsce magazynowe)</li>
+</ul>
+
+<p>Ponadto:</p>
+<ul>
+  <li>dokonasz przesunięcia całych palet w inną lokalizację</li>
+  <li>dokonasz przesunięcia produktów palety na inną paletę</li>
+</ul>
+
+<h1 id="stan-magazynowy-palet">Stan magazynowy palet</h1>
+
+<figure><a target="_blank" href="images/magazynStanPalet.png"><img src="images/magazynStanPalet.png" alt="Stan palet" /></a><figcaption>Stan palet</figcaption></figure>
+
+<p>Informowanie o tym jakie palety są na magazynie i w jakich lokalizacjach to podstawowy cel tej tabeli. Zaznacz paletę i kliknij <img class="inline" src="images/przyciskPokazSzczegoly.png" alt="Pokaż szczegóły" />
+ <strong>Pokaż szczegóły</strong>, aby dowiedzieć się jakie produkty, w jakich ilościach i o jakim terminie ważności są na niej ulokowane.</p>
+
+<figure><a target="_blank" href="images/magazynStanPaletSzczegoly.png"><img src="images/magazynStanPaletSzczegoly.png" alt="Zasoby palety" /></a><figcaption>Zasoby palety</figcaption></figure>
+
+<h1 id="przesunięcia-palet">Przesunięcia palet</h1>
+
+<p>Na magazynie nic nie jest stałe. Można powiedzieć, że magazyn żyje. Ciągle następują przesunięcia. Tworzone jest puste miejsce pod nową dostawę. Aby móc się w tym wszystkim połapać trzeba każdy ruch odtworzyć w qcadoo. Z pomocą przyjdą Ci opisane poniżej funkcjonalności.</p>
+
+<p>Parametry do przesuwania palet znajdziesz <a href="/parametry-magazyn#parametry-stanu-magazynowego">tutaj</a></p>
+
+<h2 id="palety-z-wolnym-miejscem">Palety z wolnym miejscem</h2>
+
+<figure class="float-right "><a target="_blank" href="images/parametryPrzesuwaniePalet.png"><img src="images/parametryPrzesuwaniePalet.png" alt="Parametry przesuwania palet" class="percent90 " /></a><figcaption>Parametry przesuwania palet</figcaption></figure>
+
+<p>Jeśli jesteś w stanie określić jaka jest ładowność danej palety, to będziemy w stanie pokazać Ci te palety, które mają jeszcze miejsce na przyjęcie dodatkowych produktów.</p>
+
+<p>Zacznij od określenia w parametrach ilości - musimy wiedzieć poniżej jakiej ilości możemy uznać, że paleta ma wolne miejsce. 
+Wejdź w Administracja &gt; Parametry &gt; Magazyn &gt; zakładka Stany magazynowe i podaj ilość w polu <strong>Palety z wolnym miejscem</strong>.</p>
+
+<p>Dla przykładu: jeśli paleta mieści 25 kartonów. A chcesz dokładać na nią produkty, gdy jest co najmniej miejsca na 10 kartonów, to podaj w parametrach 15.</p>
+
+<div class="bs-callout bs-callout-warning">Parametr dotyczy wszystkich palet na magazynie, zatem trzeba przyjąć jedną uśrednioną wartość</div>
+
+<p>Dzięki temu wywołując w tabeli stanu palet funkcję <img class="inline" src="images/przyciskPokazPaletyZWolnymMiejscem.png" alt="Pokaż palety z wolnym miejscem" />
+ <strong>Pokaż palety z wolnym miejscem</strong> zobaczysz listę tych palet, których stan (ilościowo) jest mniejszy niż zadana w parametrach ilość. A zatem z założenia takie palety, które mógłbyś dopełnić innymi produktami.</p>
+
+<h2 id="palety-z-produktami-do-przesunięcia">Palety z produktami do przesunięcia</h2>
+
+<figure class="float-right "><a target="_blank" href="images/parametryPrzesuwaniePalet.png"><img src="images/parametryPrzesuwaniePalet.png" alt="Parametry przesuwania palet" class="percent90 " /></a><figcaption>Parametry przesuwania palet</figcaption></figure>
+
+<p>Bardzo podobna funkcjonalność do powyższej. Znowu - jeśli jesteś w stanie określić ile produktów przyjmuje średnio paleta na magazynie, to przy odpowiednio ustawionych parametrach, będziemy w stanie pokazać Ci, które palety są niż niemal puste i warto byłoby produkty przenieść w inną lokalizację, tworząc tym samym miejsce na inne palety.</p>
+
+<p>Wejdź w Administracja &gt; Parametry &gt; Magazyn &gt; zakładka Stany magazynowe i podaj ilość w polu <strong>Palety do przesunięcia</strong></p>
+
+<p>Zastanów się jaka ilość produktu na palecie to dla Ciebie niepotrzebne zajmowanie miejsca. I ustaw taką ilość w parametrze. Dla przykładu: jeśli podasz 3, to wywołując z tabeli stanu palet funkcję <img class="inline" src="images/przyciskPokazPaletyZProduktamiDoPrzesuniecia.png" alt="Pokaż palety z produktami do przesunięcia" />
+ <strong>Pokaż palety z produtami do przesunięcia</strong> zobaczysz listę tych palet, których ilość jest mniejsza niż 3, zatem warto przenieść produkty na inną paletę.</p>
+
+<div class="bs-callout bs-callout-warning">Po wykonaniu funkcji Pokaż palety z produktami do przesunięcia lub Pokaż palety z wolnym miejscem kliknij przycisk <strong>Pokaż wszystkie palety</strong>, aby tabela pokazywała ponownie stan wszystkich palet</div>
+
+<p>Wiesz już jakie porządki w paletach proponujemy przeprowadzić. Efekty faktycznych przesunięć możesz zarejestrować korzystając z opisanych poniżej funkcji.</p>
+
+<h2 id="przesunięcie-palet-w-inne-miejsce">Przesunięcie palet w inne miejsce</h2>
+
+<figure class="float-right "><a target="_blank" href="images/magazynStanPaletPrzesuniecieWInneMiejsce.png"><img src="images/magazynStanPaletPrzesuniecieWInneMiejsce.png" alt="Przesuwanie palet w inne miejsce" class="percent90 " /></a><figcaption>Przesuwanie palet w inne miejsce</figcaption></figure>
+
+<p>Idea jest taka, że daną paletę w całości przenosisz w inną lokalizację. Zasoby nie zmieniają numeru palet, tylko miejsce składowania.</p>
+
+<p>Zaznacz w tabeli stanu palet te palety, które przesunąłeś i kliknij <img class="inline" src="images/przyciskPrzesunieciePaletWInneMiejsce.png" alt="Przesunięcie palet w inne miejsce" />
+ <strong>Przesunięcie palet w inne miejsce</strong>
+Teraz wskaż nowe miejsca składowania każdej przesuniętej palety.</p>
+
+<p>W efekcie wszystkim zasobom przesuwanej palety zaktualizujemy miejsce składowania. Historię przesunięć zobaczysz w <a href="/korekty">tabeli korekt</a></p>
+
+<h2 id="przesunięcie-palety-na-inną-paletę">Przesunięcie palety na inną paletę</h2>
+
+<figure class="float-right "><a target="_blank" href="images/magazynStanPaletPrzesuwanieProduktowNaInnaPalete.png"><img src="images/magazynStanPaletPrzesuwanieProduktowNaInnaPalete.png" alt="Przesuwanie produktów na inną paletę" class="percent90 " /></a><figcaption>Przesuwanie produktów na inną paletę</figcaption></figure>
+
+<p>Kolejna funkcja do wywołania z poziomu tabeli stanu palet to przesunięcie palety na inną paletę. Innymi słowy - produkt z jednej palety (wszystkie produkty tej palety) przekładasz na inną paletę w innej lokalizacji.</p>
+
+<p>Zaznacz w tabeli stanu palet te palety, które przesunąłeś i kliknij <img class="inline" src="images/przyciskPrzesunieciePaletyNaInnaPalete.png" alt="Przesunięcie palety na inną paletę" />
+ <strong>Przesunięcie palety na inną paletę</strong>
+W oknie dla każdej palety wskaź numer palety, na którą odłożyłeś produkty.</p>
+
+<p>W efekcie wszystkim zasobom przesuwanej palety zaktualizujemy numer palety, typ palety i miejsce składowania. Historię zmian zobaczysz w <a href="/korekty">tabeli korekt</a></p>
+:ET

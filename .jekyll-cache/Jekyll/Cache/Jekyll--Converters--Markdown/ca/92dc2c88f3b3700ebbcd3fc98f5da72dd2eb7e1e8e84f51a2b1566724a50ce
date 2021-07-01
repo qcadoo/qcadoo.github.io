@@ -1,0 +1,46 @@
+I"�<p>Zdajemy sobie sprawę, że czasami będziesz musiał dostarczyć dane z qcadoo szefowi, albo księgowej, albo nawet klientowi. Często nie mają oni dostęp do qcadoo. Najlepszą opcją jest wówczas wygenerowanie raportu. Niemal każda lista w qcadoo ma podpięte opcje eksportu danych do PDF lub CSV. Dzięki temu dane widoczne w tabeli (odpowiednio przez Ciebie przefiltrowane) szybko znajdą się w PDF-ie lub w Excelu.</p>
+
+<h2 id="eksport-danych">Eksport danych</h2>
+
+<p>Eksport danych zostanie omówiony na liście produktów.</p>
+
+<p>Aby przerzucić listę produktów do PDFa lub CSV wystarczy wejść w Podstawowe &gt; Produkt i kliknąć przycisk <img class="inline" src="images/przyciskZapiszJakoPDFcsv.png" alt="Przycisk Eksport danych" />
+ <strong>Zapisz jako PDF</strong> lub <strong>Zapisz jako CSV</strong>. I tyle - powinien pobrać się plik, z wyeksportowanymi danymi.</p>
+
+<figure><a target="_blank" href="images/podstawoweProduktyPDF.png"><img src="images/podstawoweProduktyPDF.png" alt="Lista produktów w PDF" /></a><figcaption>Lista produktów w PDF</figcaption></figure>
+
+<p>Wyeksportować możesz wszystkie kolumny dostępne w tabeli, albo tylko kolumny widoczne. Decydują o tym parametry <strong>Eksport do PDF tylko widocznych na ekranie kolumn</strong> i <strong>Eksport do CSV tylko widocznych na ekranie kolumn</strong> w Administracja &gt; Parametry &gt; <a href="/parametry-glowna.html#rarport">Raport</a>.</p>
+
+<p>Plik CSV warto otworzyć w Excelu. Aby poprawnie się wyświetlił przejdź krok po kroku poniższą instrukcję.</p>
+
+<h2 id="otwarcie-pliku-csv-w-excelu">Otwarcie pliku CSV w Excelu</h2>
+
+<p>Pobrany plik otwieramy w Excelu - początkowo będzie wyglądał tak:</p>
+
+<figure><a target="_blank" href="images/eksportDanychCSV1.png"><img src="images/eksportDanychCSV1.png" alt="Eksport danych do CSV i otwarcie w Excelu" /></a></figure>
+
+<p>Zaznacz całą pierwszą kolumnę (klikając w nagłówek kolumny A) i <strong>Dane &gt; Tekst jako kolumny</strong>:</p>
+
+<figure><a target="_blank" href="images/eksportDanychCSV2.png"><img src="images/eksportDanychCSV2.png" alt="Eksport danych do CSV i otwarcie w Excelu" /></a></figure>
+
+<p>Otworzy się kreator tekstu na kolumny. Ustaw najpierw: <strong>Rozdzielany</strong>:</p>
+
+<figure><a target="_blank" href="images/eksportDanychCSV3.png"><img src="images/eksportDanychCSV3.png" alt="Eksport danych do CSV i otwarcie w Excelu" /></a></figure>
+
+<p>kliknij <strong>Dalej</strong>. W następnym oknie wprowadź następujące <strong>ograniczniki</strong>:</p>
+
+<figure><a target="_blank" href="images/eksportDanychCSV4.png"><img src="images/eksportDanychCSV4.png" alt="Eksport danych do CSV i otwarcie w Excelu" /></a></figure>
+
+<p>I znowu kliknij <strong>Dalej</strong>. W ostatnim kroku ustaw:</p>
+
+<figure><a target="_blank" href="images/eksportDanychCSV5.png"><img src="images/eksportDanychCSV5.png" alt="Eksport danych do CSV i otwarcie w Excelu" /></a></figure>
+
+<p>i kliknij <strong>Zakończ</strong>.</p>
+
+<p>Jeśli chcemy ustawić format tekstowy w kolumnie (np. po to, by numer produkt 00123 nie miał uciętych początkowych zer), to zaznacz kolumnę w tabeli <strong>Podgląd wybranych danych</strong> i wybierz Format danych kolumny = tekst.</p>
+
+<p>Dane w Excelu wyglądają teraz następująco:</p>
+
+<figure><a target="_blank" href="images/eksportDanychCSV6.png"><img src="images/eksportDanychCSV6.png" alt="Eksport danych do CSV i otwarcie w Excelu" /></a></figure>
+
+:ET

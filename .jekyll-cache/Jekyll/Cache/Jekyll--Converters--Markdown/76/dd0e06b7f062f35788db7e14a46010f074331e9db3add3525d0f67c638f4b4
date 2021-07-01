@@ -1,0 +1,15 @@
+I"i<p>Program qcadoo pozwala na współpracę z innym oprogramowaniem funkcjonującym w firmach produkcyjnych. Najczęściej są to systemy magazynowe, księgowe, służące do tworzenia projektów technicznych, systemy zarządzające zaopatrzeniem itp.</p>
+
+<p>W ramach integracji qcadoo:</p>
+
+<ul>
+  <li>pobiera z magazynu dane o surowcach</li>
+  <li>rozlicza pobrane surowce</li>
+  <li>synchronizuje się ze stanami magazynowymi</li>
+  <li>rezerwuje surowce do realizacji zleceń</li>
+  <li>wysyła na magazyn informację o stanie dot. wyprodukowanych półproduktów i gotowych produktów</li>
+</ul>
+
+<p>System qcadoo obecnie jest już <a href="/integracja-ERP">zintegrowany z systemami ERP</a>: Subiekt GT, Enova, Comarch ERP Optima. Ponadto współpracuje z BaseLinker, Pipedrive, Asana, BarTender. Jest równocześnie otwarty na integrację z kolejnymi systemami.</p>
+
+:ET

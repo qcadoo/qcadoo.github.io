@@ -1,0 +1,11 @@
+I"�<p>Analiza planowanego czasu pracy przedstawia informacje o tym na jak długo masz rozpisaną produkcję. Źródłem danych do analizy są grupy zleceń i normy wydajnościowe podane w technologii (przyjmujemy założenie, że każdy produkt zlecany daną grupą ma taką samą normę wydajnościową).</p>
+
+<p>Aby przeprowadzić analizę wejdź w <strong>Analizy &gt; Analiza planowanego czasu pracy</strong>:</p>
+
+<figure><a target="_blank" href="images/analizyAnalizaPlanowanegoCzasuPracy.png"><img src="images/analizyAnalizaPlanowanegoCzasuPracy.png" alt="Analiza planowanego czasu pracy" /></a><figcaption>Analiza planowanego czasu pracy</figcaption></figure>
+
+<p>Aby wyliczyć <strong>całkowitą ilość</strong>, <strong>całkowity czas wg norm</strong> i <strong>całkowitą ilość zmian</strong> kliknij przycisk <img class="inline" src="images/przyciskPrzeliczWartosciCalkowite.png" alt="Przycisk Przelicz wartości całkowite" />
+ <strong>Przelicz wartości całkowite</strong>. Suma ta będzie wyznaczona z wszystkich rekordów spełniających kryteria filtrowania, nawet, gdy nie zmieściły się na danej stronie.</p>
+
+<div class="bs-callout bs-callout-warning">Wiersze sumujące agregują dane widoczne na danej stronie tabeli.</div>
+:ET

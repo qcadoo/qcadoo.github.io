@@ -1,0 +1,21 @@
+I".<p>Standardowe koszty robocizny są alternatywą dla norm kosztowych definiowanych dla operacji technologii. Jeśli nie jesteś w stanie dokładnie określić ile trwa operacja i wg jakiej stawki powinna być rozliczana, ale potrafisz przyjąć przybliżoną stałą kwotę za robociznę, którą wykorzystujesz przy tworzeniu wyceny, to standardowe koszty robocizny są dla Ciebie.</p>
+
+<p>Możesz zdefiniować wiele standardowych kosztów robocizny - np. w zależności od skomplikowania produkcji i wybierać je podczas tworzenia kalkulacji kosztów do danej technologii.</p>
+
+<p>Aby dodać standardowy koszt robocizny wejdź w <strong>Planowanie &gt; Plany sprzedaży</strong></p>
+
+<figure><a target="_blank" href="images/kalkulacjeStandardoweKosztyRobociznyLista.png"><img src="images/kalkulacjeStandardoweKosztyRobociznyLista.png" alt="Lista standardowych kosztów robocizny" /></a><figcaption>Lista planów sprzedaży</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong>  </p>
+
+<figure><a target="_blank" href="images/kalkulacjeStandardoweKosztyRobociznyNowe.png"><img src="images/kalkulacjeStandardoweKosztyRobociznyNowe.png" alt="Formularz dodawania standardowego kosztu robocizny" /></a><figcaption>Formularz dodawania standardowego kosztu robocizny</figcaption></figure>
+
+<p>Podaj:</p>
+<ul>
+  <li><strong>nazwę</strong></li>
+  <li><strong>koszt robocizny</strong> - musi być liczbą &gt; 0</li>
+</ul>
+
+<p>Unikalny <strong>numer</strong> zostanie nadany z automatu po zapisie.</p>
+:ET

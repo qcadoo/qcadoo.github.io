@@ -1,0 +1,117 @@
+I"*<p>Na pewno wiele razy zdarzyło się, że jakieś zlecenie ma opóźnienie, ponieważ zapomniano przekazać je w porę na halę produkcyjną. Albo któryś z pracowników, np. z powodu dużych ilości zadań, zapomniał wykonać zlecenie. Może jest też tak, że zlecenia rozpisywane są w pośpiechu na kartce, nie zawsze czytelnej?</p>
+
+<p>Karty pracy rozwiązują ten i wiele innych problemów wynikających z szumu komunikacyjnego.</p>
+
+<h2 id="parametryzacja-kart-pracy">Parametryzacja kart pracy</h2>
+
+<p>Karty pracy mogą zawierać dane dotyczące:</p>
+
+<ul>
+  <li><a href="/zlecenia-produkcyjne">Zlecenia produkcyjnego</a> - nazwę, numer, planowaną data zakończenia, nazwę i numer produktu, ilość do wyprodukowania, opis,</li>
+  <li>technologii -  numer,</li>
+  <li>operacji do wykonania - nazwy i numery,</li>
+  <li>produktów wyjściowych i ich ilości - dzięki temu wiadomo co jest do wykonania,</li>
+  <li>produktów wejściowych - przez co wiemy z czego towar ma zostać wykonany,</li>
+  <li>dodatkowego obrazka: może to być tabela, ale też szczegółowy opis, np. zdjęcie gotowego produktu z niestandardowym elementem do wykonania,</li>
+  <li>działu, typu stanowiska roboczego, stacji roboczej, linii produkcyjnej oraz osoby wykonującej.</li>
+</ul>
+
+<div class="bs-callout bs-callout-info">Zanim zaczniesz korzystać z kart pracy, wykonaj parametryzację, aby określić jakie dane mają znaleźć się na kartach.</div>
+
+<p>Możemy określić, które z powyższych danych mają być widoczne na kartach pracy, z poziomu:</p>
+<ul>
+  <li><strong>Administracja &gt; Parametry</strong> - definiujemy globalne ustawienia dla wszystkich kart pracy powstających w systemie,</li>
+  <li><strong>Technologie &gt; Operacje</strong> - jedynie obrazek, który ma być widoczny dla danej operacji,</li>
+  <li><strong>Planowanie &gt; Karty pracy</strong> - stricte dla danego wydruku.</li>
+</ul>
+
+<p>Jak wykonać parametryzację?</p>
+
+<figure class="float-right "><a target="_blank" href="images/planowanie-%20karty%20pracy%20par1.png"><img src="images/planowanie-%20karty%20pracy%20par1.png" alt="Parametry ogólne kart pracy" class="percent90 " /></a><figcaption>Parametry ogólne kart pracy</figcaption></figure>
+
+<ol>
+  <li>
+    <p>Wejdź do <strong>Administracja &gt; Parametry</strong> i kliknij <img class="inline" src="images/CalendarIcon24.png" alt="Przycisk Karty pracy" />
+ <a href="/parametry-karty-pracy">Karty pracy</a>.</p>
+  </li>
+  <li>
+    <p>Zdecyduj, które elementy nie znajdą się na wydruku karty pracy - być może nie potrzebujesz kodów kreskowych operacji lub tabeli zleceń.</p>
+  </li>
+  <li>
+    <p>Następnie określ jakie dane o zleceniach Cię interesują.</p>
+  </li>
+  <li>
+    <p>Przejdź do zakładki “Operacje - dane podst.”.</p>
+  </li>
+  <li>
+    <p>Dodaj załącznik - obraz, który będzie przypisany operacji.</p>
+
+    <div class="bs-callout bs-callout-info">W przypadku dodania obrazu z poziomu <strong>Administacja</strong> będzie się on pojawiał pod każdą operacją. Jeżeli chcesz, aby obraz był zależny od operacji wybierz go z poziomu <strong>Technologie&gt; Operacje</strong>.</div>
+
+    <div class="bs-callout bs-callout-info">Nie musisz martwić się tym czy wybrany przez Ciebie obraz jest zbyt duzy. Jeżeli tak będzie, zostanie on odpowiednio przeskalowany na kartach pracy.</div>
+
+    <figure class="float-right "><a target="_blank" href="images/planowanie-%20karty%20pracy%20par3.png"><img src="images/planowanie-%20karty%20pracy%20par3.png" alt="Parametry kart pracy dotyczące produktów wejściowych i wyjściowych operacji" class="percent90 " /></a><figcaption>Parametry kart pracy dotyczące produktów wejściowych i wyjściowych operacji</figcaption></figure>
+  </li>
+</ol>
+
+<ol start="6">
+  <li>
+    <p>Określ czy chcesz, aby przy informacjach o operacji pojawiał się opis, technologia i zlecenie.</p>
+  </li>
+  <li>
+    <p>Następnie przejdź do kolejnej zakładki - “Operacje - produkty wej./wyj.”.</p>
+  </li>
+  <li>
+    <p>Zdecyduj czy produkty wejściowe i/lub wyjściowe w ogóle pojawią się na kartach.</p>
+  </li>
+  <li>
+    <p>Jeśli tak, to wybierz za pomocą przycisku <img class="inline" src="images/newIcon16.png" alt="Przycisk Dodaj" />
+  <strong>Dodaj</strong> jakie konkretnie informacje o nich będą Ci potrzebne.</p>
+  </li>
+  <li>
+    <p>Na koniec zapisz ustawienia, klikając przycisk <img class="inline" src="images/saveIcon24.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>.</p>
+  </li>
+</ol>
+
+<h2 id="jak-stworzyć-karty-pracy">Jak stworzyć karty pracy?</h2>
+
+<ol>
+  <li>
+    <p>Wybierz jedno lub wiele zleceń z listy z poziomu <strong>Planowanie &gt; Zlecenia produkcyjne</strong> i kliknij przycisk <img class="inline" src="images/pdfIcon24.png" alt="Przycisk PDF" />
+ <strong>Dodaj karty pracy</strong>,
+bądź też skorzystaj z <strong>Planowanie &gt; Karty pracy</strong>  <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj Nowy" />
+ <strong>Dodaj nowy</strong>.</p>
+  </li>
+  <li>
+    <p>Wskaż sposób kategoryzowania danych w kartach - w jaki sposób mają być dzielone i sortowane operacje.</p>
+
+    <div class="bs-callout bs-callout-info">Dane na kartach pracy możemy podzielić według następujących kategorii: produkt końcowy, typ stacji roboczej, dział, linia produkcyjna, stacja robocza i pracownik.</div>
+
+    <figure class="float-right "><a target="_blank" href="images/planowanie-%20karty%20pracy.png"><img src="images/planowanie-%20karty%20pracy.png" alt="Formularz kart pracy" class="percent90 " /></a><figcaption>Formularz kart pracy</figcaption></figure>
+  </li>
+</ol>
+
+<ol start="3">
+  <li>
+    <p>Następnie wybierz <img class="inline" src="images/saveIcon24.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>, uaktywnią się tabelki po prawej stronie.</p>
+  </li>
+  <li>
+    <p>Wskaż zlecenia produkcyjne, klikając <img class="inline" src="images/newIcon16.png" alt="Przycisk Dodaj" />
+ <strong>Dodaj</strong> (w przypadku generowania kart pracy z poziomu “Zleceń produkcyjnych” dodadzą się one automatycznie).</p>
+  </li>
+  <li>
+    <p>Możesz zdecydować jakie dane dotyczace zleceń pojawią się na wydruku - domyślnie są one takie jak zdefiniowano w parametrach qcadoo.</p>
+  </li>
+  <li>
+    <p>Kliknij <img class="inline" src="images/generateIcon24.png" alt="Przycisk Generuj" />
+ <strong>Generuj</strong> . Teraz możesz już pobrać gotowe karty pracy poprzez <img class="inline" src="images/pdfIcon24.png" alt="Przycisk PDF" />
+ <strong>PDF</strong>.</p>
+  </li>
+</ol>
+
+<figure><a target="_blank" href="images/planowanieKartyPracyPDF.png"><img src="images/planowanieKartyPracyPDF.png" alt="Karta pracy" /></a><figcaption>Karta pracy</figcaption></figure>
+
+<div class="bs-callout bs-callout-info">Kartę pracy możesz wykorzystać do rejestracji produkcji z <a href="/terminal">terminala</a> poprzez sczytywanie kodów kreskowych operacji.</div>
+:ET

@@ -1,0 +1,17 @@
+I"+<p>Prawda jest taka, że w menu Podstawowe znajdziesz wszystko to, czego wprost nie dało się podporządkować do modułów pozostałych. Są to dane początkowe - takie, które muszą być zdefiniowane, aby móc w pełni korzystać z funkcjonalności dostępnych w qcadoo.</p>
+
+<p>Znajdziesz tutaj:</p>
+<ul>
+  <li><a href="typy-usterek">typy usterek</a> - potrzebne aby założyć zlecenie naprawy lub zdarzenie (np. awarię) w dziale utrzymania ruchu.</li>
+  <li><a href="/numery-wlasne-palet">numery własne palet</a> - wykorzystywane na magazynie. Możesz generować własną numerację palet, na których przechowujecie produkty,</li>
+  <li><a href="/firmy">firmy</a> - zawiera listę kontrahentów, z którymi współpracujesz,</li>
+  <li><a href="/slowniki">słowniki</a> - to Twoje własne listy wartości typu: jednostki, kolory, kaategorie zleceń czy produktów. Słowniki w qcadoo to takie listy, których wartości mają tylko nazwy. Więcej danych nie potrzebują,</li>
+  <li><a href="/czynnosci">czynności</a> - potrzebne do opisania działań koniecznych do wykonania w ramach zdarzenia planowanego (np. remont) w dziale utrzymania ruchu,</li>
+  <li><a href="/czesci">części</a> - produkty / części zamienne wykorzystywane w realizacji zdarzeń (np. awarii) i zdarzeń planowanych (np. remontów) w dziale utrzymania ruchu,</li>
+  <li><a href="/atrybuty">atrybuty</a> - pozwalające na ujęcie charakterystycznych dla Ciebie szczegółów w produkcie, czy zasobie, a także na realizowanie kontroli jakości wytwarzanych wyrobów,</li>
+  <li><a href="/przyczyny-przestojow">przyczyny przestojów</a> - wykorzystywane podczas rejestrowania przestoju, który pojawił się w trakcie realizacj zlecenia produkcyjnego,</li>
+</ul>
+
+<p>i kilka innych. Rozwiń menu &gt; podstawowe i sprawdź podpięte rozdziały.</p>
+
+:ET

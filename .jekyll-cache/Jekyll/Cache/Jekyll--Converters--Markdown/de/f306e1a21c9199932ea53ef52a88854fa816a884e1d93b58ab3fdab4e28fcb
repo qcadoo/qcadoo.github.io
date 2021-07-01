@@ -1,0 +1,44 @@
+I"�<p>Zapotrzebowanie materiałowe to lista produktów potrzebnych do zrealizowania zlecenia produkcyjnego. To tak, jakbyśmy urządzali przyjęcie w domu dla naszych przyjaciół. Tworzymy wtedy jedną zbiorczą listę zakupów, zawierając w niej wszystkie produkty potrzebne do przygotowania kilku potraw.</p>
+
+<p>Zapotrzebowanie materiałowe wyliczane jest na podstawie <a href="/technologie-szczegoly">drzewa technologii</a> i zaplanowanej ilości produktów do wykonania, zawartej w <a href="/zlecenia-produkcyjne">zleceniu produkcyjnym</a>.</p>
+
+<p>Jeśli nasza technologia zakłada, że do wyprodukowania jednej sztuki stołu będziemy potrzebować 5 desek, to mając zlecenie produkcyjne na 10 stołów, zapotrzebowanie materiałowe wskaże, że potrzebujemy 50 desek.</p>
+
+<p>Zapotrzebowanie materiałowe dodatkowo może pokazać z jakiego magazynu produkty będą rozchodowane, na kiedy produkt jest potrzebny a także jaki jest aktualny stan magazynowy. Może stanowić zatem podstawowy wydruk dotyczący koniecznych do wydania produktów na produkcję, dla pracowników obsługujących magazyn.</p>
+
+<h2 id="jak-wygenerować-zapotrzebowanie-materiałowe">Jak wygenerować zapotrzebowanie materiałowe?</h2>
+
+<p>Przechodzimy do: <strong>ZAOPATRZENIE » Zapotrzebowanie materiałowe »</strong>  <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy.</strong></p>
+
+<figure><a target="_blank" href="images/zaopatrzenieZapotrzebowanieMaterialowe.png"><img src="images/zaopatrzenieZapotrzebowanieMaterialowe.png" alt="Formularz zapotrzebowania materiałowego" /></a><figcaption>Formularz zapotrzebowania materiałowego</figcaption></figure>
+
+<p>Podaj <strong>numer</strong> i ewentualnie <strong>nazwę</strong> tworzonego raportu. Wybierz, wskazując <strong>typ</strong> jakie produkty chcesz zebrać - mają to być surowce, czy surowce i komponenty, a może wszystkie produkty wejściowe operacji, łącznie z półproduktami.</p>
+
+<p>Ustal także jak mają wyglądać parametry zapotrzebowania:</p>
+<ul>
+  <li><strong>uwzględnij magazyn</strong> - jeśli zaznaczysz parametr, to produkty zostaną pogrupowane po magazynie, z którego ma nastąpić rozchód</li>
+  <li><strong>pokaż aktualny stan magazynowy</strong> - zaznacz parametr, aby na wydruku pojawiła się informacja o stanie magazynowym produktów</li>
+  <li><strong>uwzględnij datę rozpoczęcia zlecenia</strong> - jeśli zaznaczysz parametr, to produkty będą pogrupowane po dacie planowanego rozpoczęcia produkcji</li>
+</ul>
+
+<p>Zapisz zapotrzebowanie przyciskiem <img class="inline" src="images/SaveIcon24.png" alt="Przycisk zapisz" />
+ <strong>Zapisz.</strong> I wskaż dla jakich zleceń chcesz ustalić listę potrzebnych produktów używając przycisku <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj istniejący</strong> z prawej strony okna.</p>
+
+<p>Wygeneruj zapotrzebowanie przyciskiem  <img class="inline" src="images/generateIcon24.png" alt="Generuj" />
+ <strong>Generuj</strong>. Uzupełni się informacja kto i kiedy wygenerował zestawienie.</p>
+
+<p>Raport możesz pobrać w formacie <img class="inline" src="images/pdfIcon24.png" alt="Przycisk PDF" />
+<strong>PDF</strong> bądź <img class="inline" src="images/xlsIcon24.png" alt="Przycisk XLS" />
+ <strong>XLS</strong>.</p>
+
+<h2 id="zapotrzebowanie-materiałowe-z-poziomu-listy-zlecen">Zapotrzebowanie materiałowe z poziomu listy zlecen</h2>
+
+<p>Zapotrzebowanie materiałowe możesz wygenerować szybciej, z poziomu <a href="/planowanie-zlecen">listy zleceń produkcyjnych</a>. W tym celu wejdź w <strong>Planowanie &gt; Planowanie zleceń</strong>, zaznacz te zlecenia, dla których chcesz ustalić potrzebne materiały:</p>
+
+<figure><a target="_blank" href="images/planowaniePlanowanieZlecenGenerowanieZapotrzebowania.png"><img src="images/planowaniePlanowanieZlecenGenerowanieZapotrzebowania.png" alt="Lista planowanych zleceń" /></a><figcaption>Lista planowanych zleceń</figcaption></figure>
+
+<p>i kliknij przycisk <img class="inline" src="images/przyciskGenerujZapotrzebowanie.png" alt="Przycisk Wygeneruj zapotrzebowanie" />
+ <strong>Wygeneruj PDF</strong> lub <strong>Wygeneruj XLS</strong>.</p>
+:ET

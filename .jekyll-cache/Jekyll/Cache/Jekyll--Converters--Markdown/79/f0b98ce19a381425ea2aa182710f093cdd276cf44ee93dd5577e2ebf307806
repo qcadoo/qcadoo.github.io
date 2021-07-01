@@ -1,0 +1,53 @@
+I"�<h2 id="informacje">Informacje</h2>
+
+<p>Za pomocą tej metody api dodasz <a href="/produkty">produkty</a> do systemu. Zaktualizujsz też istniejące o podanym externalID.</p>
+
+<p><strong>Moduł integracyjny:</strong> urcBasic</p>
+
+<p><strong>Nazwa akcji:</strong> updateProductsBasic</p>
+
+<p><strong>URL:</strong> /integration/rest/updateProductsBasic.html</p>
+
+<p><strong>Metoda http:</strong> POST</p>
+
+<h2 id="zawartość-żądania">Zawartość żądania</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "products" : [
+        {
+            "externalID" : "externalID",
+            "number" : "number",
+            "name" : "name",
+            "ean" : "ean", //opcjonalne
+            "globalTypeOfMaterial" : "01component or 02intermediate or 03finalProduct or 04waste", //opcjonalne
+            "description" : "description", //opcjonalne
+            "unit" : {
+                "externalID" : "externalID",
+                "name" : "name",
+                "description" : "description" //opcjonalne
+            },
+            "category" : {
+                "externalID" : "externalID",
+                "name" : "name",
+                "description" : "description" //opcjonalne
+            }
+        }
+    ]
+}
+</code></pre></div></div>
+
+<h2 id="zawartość-odpowiedzi">Zawartość odpowiedzi</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "status": "OK",
+    "message": null // Gdy status ERROR - informacja z przyczyną błędu
+}
+</code></pre></div></div>
+
+<h2 id="działanie">Działanie</h2>
+<p>W tej akcji MES powinien otrzymać wszystkie produkty z ERP, które zostały zaktualizowane lub utworzone od ostatniej synchronizacji. Produkty mogą mieć globalTypeOfMaterial null’owy.</p>
+
+<p>Dla każdego produktu ta metoda powinna:</p>
+<ul>
+  <li>jeżeli jest produkt o podanym externalID w qcadoo, to go aktualizuje: może zaktualizować nawet numer, qcadoo sprawdza czy zmiana przechodzi standardową walidacje systemową.</li>
+  <li>jeżeli nie - akcja zwróci błąd, i wszystkie aktualizacje z tej akcji nie zostaną wykonane (cofnięcie transakcji), jak nie ma danego externalID to dodaje nowy produkt tu również powinna działać walidacja.</li>
+</ul>
+:ET

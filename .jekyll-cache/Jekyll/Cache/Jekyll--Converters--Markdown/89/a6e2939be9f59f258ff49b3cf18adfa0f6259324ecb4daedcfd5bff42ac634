@@ -1,0 +1,147 @@
+I"�;<p>Wydania wewnętrzne to informacja do pracownika magazynu jakie produkty planuje się wydać w magazynu. Dzięki temu może przygotować produkty i dostarczyć je pracownikom w odpowiednim momencie.</p>
+
+<p>Wydania wewnętrzne mogą przyjmować jedną z dwóch form:</p>
+<ul>
+  <li>wydania produktów do zleceń produkcyjnych</li>
+  <li>wydania produktów, na podstawie ręcznie tworzonej listy</li>
+</ul>
+
+<p>Oba typy zostaną omówione bliżej poniżej.</p>
+
+<p>Zacznij jednak od ustawienia <a href="/parametry-zaopatrzenie#wydania-wewnętrzne">parametrów wydania wewnętrznego</a>. Wejdź w Administracja &gt; Parametry &gt; Zaopatrzenie &gt; zakładka: Wydanie wewnętrzne.</p>
+
+<h1 id="sposób-pracy-z-wydaniami-wewnętrznymi">Sposób pracy z wydaniami wewnętrznymi</h1>
+
+<p>Obojętnie czy wydanie wewnętrzne do zleceń czy na podstawie ręcznej dyspozycji - sposób pracy i główna idea pozostają takie same. Wydanie informuje z jakiego magazynu mają być wydane jakie proodukty i na jaki magazyn.</p>
+
+<figure class="float-right "><a target="_blank" href="images/zaopatrzenieWydanieWewnetrzne.png"><img src="images/zaopatrzenieWydanieWewnetrzne.png" alt="Wydanie wewnętrzne" class="percent90 " /></a><figcaption>Wydanie wewnętrzne</figcaption></figure>
+
+<p>Zakładka główna zawiera informacje o miejscu wydania (czyli magazynie, z którego produkty mają być przesunięte). Jeśli jest to wydanie pod zlecenie, to widoczne są dane zlecenia: numer, data rozpoczęcia i linia produkcyjna. Możesz zostawić tutaj informacje jaki pracownik wydał a jaki pobrał produkty,</p>
+
+<p>W zakładce Produkty do wydania ujrzysz listę tych produktów, które zostały zaplanowane do wydania. Przy każdym produkcie uzupełniona jest potrzeba (w jednostce miary podstawowej i dodatkowej, wraz z przelicznikem), czyli ilość, którą magazynier musi przygotować do przesunięcia. Ponadto:</p>
+<ul>
+  <li>stan na magazynie wydającym</li>
+  <li>stan na magazynie przyjmującym</li>
+  <li>miejsce składowania jaki produkt ma zająć na magazynie przyjmującym (lokalizacja uzupełni się tylko wówczas, gdy produkt ma zdefiniowane stałe <a href="/miejsca-skladowania">miejsce składowania</a>)</li>
+  <li>ilość już wydana</li>
+  <li>korekta ilości - czyli o jaką ilość zmniejszono plan wydania na dany magazyn przyjmujący. O szczegółach poczytasz <a href="/produkty-do-wydania-wewnetrznego">tutaj</a></li>
+</ul>
+
+<p>Dla każdego zapisanego na liście do wydania produktu, możesz podejrzeć zdefiniowane <a href="/atrybuty">atrybuty</a>. W tym celu zaznacz produkt i kliknij przycisk <img class="inline" src="images/przyciskPokazAtrybutyProduktu.png" alt="Przycisk Pokaż atrybuty produktu" />
+ <strong>Pokaż atrybuty produktu</strong>.</p>
+
+<hr />
+
+<p>No dobrze - wiesz już co trzeba wydać i gdzie. <span style="color:red"> Ale w jaki sposób zapisać co już zostało wydane?</span> Wykonaj następujące kroki:</p>
+<ol>
+  <li><em>zaznacz w tabeli produktów do wydania te, które zamierzasz teraz wydać</em>. Nie musisz wszystkiego wydawać od razu. Możesz to podzielić na kilka transz - jeśli zlecenie będzie trwać 2 tygodnie nie musisz w dniu rozpoczęcia zlecenia przewozić wszystkich surowców na magazyn działowy. Szczególnie, gdy będą potrzebne w ostatnim dniu produkcji. Pracownik może przyjść po nie później - wówczas przeprowadzisz kolejne wydanie.</li>
+  <li><em>przenieś produkty do zakładki Wydanie</em> używając funkcji <img class="inline" src="images/przyciskKopiujProduktyWydanie.png" alt="Kopiuj produkty" />
+ <strong>Kopiuj produkty</strong>.</li>
+  <li>zakładamy domyślnie, że chcesz wydać całą ilość pozostałą do wydania (czyli potrzeba pomniejszona o to co już zostało wydane). Jeśli chcesz wydać inną ilość - <em>wejdź w szczegóły pozycji do wydania i ustaw ilość Cię satysfakcjonującą</em>. Możesz wydać mniej. Ale możesz wydać też więcej - pod warunkiem, że parametr ilość wydana do wysokości potrzeby nie jest zaznaczony</li>
+  <li><em>potwierdź przesunięcie</em> klikając <img class="inline" src="images/przyciskWydaj.png" alt="Wydaj" />
+ <strong>Wydaj</strong>. W efekcie do każdej nie wydanej jeszcze pozycji (zobacz na kolumnę Wydano w zakładce Wydanie) zostanie utworzony dokument MM (lub para dokumentów WZ - PZ jeśli tak ustawiłeś w parametrach). Dokumentów będzie tyle ile różnych magazynów przyjmujących produkty ma otrzymać. Skutki magazynowe będą widoczne od razu, jeśli ustawiłeś w parametrach status dokumentu = zaakceptowane. Jeśli dokumenty mają tworzyć się szkicowe wejdź do listy dokumentów (magazyn &gt; <a href="/dokumenty">dokumenty</a>) i je ręcznie zaakceptuj.</li>
+</ol>
+
+<p>Po wydaniu zostaną zaktualizowane ilości w zakładce Produkty do wydania. A w kolumnie Wydano w zakładce Wydanie pojawi się “tak”.</p>
+
+<h2 id="rezerwacje-wydań-wewnętrznych">Rezerwacje wydań wewnętrznych</h2>
+
+<p>Jeśli wydania wewnętrzne mają rezerwować stan (o czym decydujesz w parametrach) to już na etapie tworzenia listy produktów do wydania, musi wystarczająca ilość magazynowa. Jeśli nie jest dostępny - nie pozwolimy na zapisanie takiego produktu.</p>
+
+<p>Rezerwacje tworzone są do każdego produktu z listy produktów do wydania na ilość pozostałą do wydania (czyli potrzeba pomniejszona o ilość wydaną). Rezerwowany jest tylko stan - zasoby będą dopierane na etapie akceptacji dokumentu magazynowego. Listę utworzonych rezerwacji możesz podejrzeć w Magazyn &gt; <a href="/rezerwacje-stanow">Rezerwacje stanu</a>.</p>
+
+<h1 id="wydania-wewnętrzne-do-zlecenia-produkcyjnego">Wydania wewnętrzne do zlecenia produkcyjnego</h1>
+
+<p>Dodanie wydania wewnętrznego do zlecenia produkcyjnego możliwe jest z dwóch poziomów:</p>
+<ol>
+  <li>z menu: zaopatrzenie &gt; wydania wewnętrzne</li>
+  <li>ze szczegółów <a href="/zlecenia-produkcyjne">zlecenia produkcyjnego</a>, wybierając na pasku przycisk <img class="inline" src="images/przyciskWydaniaWewnetrzne.png" alt="Przycisk Wydania wewnętrzne" />
+ <strong>Wydania wewnętrzne</strong></li>
+</ol>
+
+<figure class="float-right "><a target="_blank" href="images/zaopatrzenieWydaniaWewnetrzneDoZlecDodaj.png"><img src="images/zaopatrzenieWydaniaWewnetrzneDoZlecDodaj.png" alt="Dodawanie wydania wewnętrznego do zlecenia" class="percent90 " /></a><figcaption>Dodawanie wydania wewnętrznego do zlecenia</figcaption></figure>
+
+<p>W obu przypadkach aby utworzyć wydanie klikamy przycisk <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong>.</p>
+<ul>
+  <li><strong>numer</strong> wydania uzupełni się z automatu - jeśli masz potrzebę, możesz go zmienić. Ważne by był unikalny - czyli żeby nie było żadnego wydania o podanym przez Ciebie numerze,</li>
+  <li>wybierz z listy <strong>zlecenie produkcyjne</strong> - wydania można tworzyć do zleceń o statusie Zaakceptowane lub Rozpoczęte. Jeśli nie widzisz swojego zlecenia - upewnij się, czy ma odpowiedni status. Nie wiesz jak zmieniać statusy? Poczytaj o tym <a href="/stany-i-statusy-zlecen">tutaj</a>. Na podstawie zlecenia uzupełnimy datę rozpoczęcia i linię produkcyjną. Dla magazyniera będzie to istotna informacja - dzięki temu będzie wiedział na kiedy i w jakie miejsce produkty dostarczyć,</li>
+  <li>wskaż magazyn, z którego produkty będą wydawane (<strong>miejsce wydania</strong>),</li>
+  <li>w polu <strong>Opis</strong> możesz zostawić dodatkowe informacje dla magazyniera,</li>
+  <li>w wydaniu możesz ustawić dwa parametry ograniczające listę produktów do wydania:</li>
+  <li>
+    <ul>
+      <li><strong>pobierz produkty</strong> - na całe zlecenie, na operację, na dział. Jeśli wybierzesz “na operację” poprosimy Cię o wskazanie konkretnej operacji technologii danego zlecenia. Jeśli chcesz wydawać “na dział” - podaj nam o jaki dział chodzi (wówczas z technologii wydzielimy te produkty, które w zasięgu mają przypisany wskazany dział).</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li><strong>produkty do wydania</strong> - możesz ograniczyć listę tylko do surowców, albo wydać wszystkie produkty wejściowe. Wartość podpowie się z ustawień w parametrach administracji</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Dodatkowo możesz określić kto wydał i kto pobrał (wskazując z listy pracowników) produkty pod dane zlecenie.</p>
+
+<p>Po wypełnieniu wszystkich niezbędnych pól pozostaje kliknąć <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>.</p>
+
+<p>Przyszła pora na ustalenie co konkretnie pod to zlecenie trzeba wydać - ale zostaw to nam. Wywołaj funkcję <img class="inline" src="images/przyciskPobierzProdukty.png" alt="Przycisk Pobierz produkty" />
+ <strong>Pobierz produkty</strong> i patrz jak uzupełnia się lista w zakładce Produkty do wydania.</p>
+
+<p>I tyle - resztę już znasz (bo zakładam, że przeczytałeś początek tej instrukcji). Nie było trudne, prawda? Ale nawet nie trudne rzeczy lubimy poprawić. Dlatego dodaliśmy opcję generowania wydań. Mówią, że nic się samo nie dzieje - co oni tam wiedzą! Chyba nie mieli do tej pory do czynienia z qcadoo :-) U nas same tworzą się wydania wewnętrzne.</p>
+
+<h2 id="automatycznie-tworzenie-wydań-wewnętrznych-do-zlecenia">Automatycznie tworzenie wydań wewnętrznych do zlecenia</h2>
+
+<p>Jeśli chcesz, aby magazynier po przyjściu do pracy miał przygotowaną listę produktów, które musi przygotować do wydania, zaznacz w parametrach <strong>generuj wydania wewnętrzne do zleceń</strong> (opisane u góry strony). Co należy do Ciebie? Musisz wprowadzić zlecenia, wprowadzić im datę rozpoczęcia i zaakceptować. Do takich zleceń na tyle dni wcześniej ile określisz w parametrach w nocy wygenerujemy wydania wewnętrzne - po jednym do każdego zlecenia. W każdym wydaniu miejsce wydania będzie uzupełnione na podstawie magazynu określonego w parametrach.</p>
+
+<div class="bs-callout bs-callout-warning">Pamiętaj, że miejsce wydania i magazyn zużycia surowców w technologii muszą być inne. Jeśli będą takie same - wydanie się nie utworzy</div>
+
+<h1 id="wydania-wewnętrzne-jako-ręczna-dyspozycja">Wydania wewnętrzne jako ręczna dyspozycja</h1>
+
+<figure class="float-right "><a target="_blank" href="images/zaopatrzenieWydaniaWewnetrzneReczneDodaj.png"><img src="images/zaopatrzenieWydaniaWewnetrzneReczneDodaj.png" alt="Dodawanie wydania wewnętrznego na podstawie ręcznej dyspozycji" class="percent90 " /></a><figcaption>Dodawanie wydania wewnętrznego na podstawie ręcznej dyspozycji</figcaption></figure>
+
+<p>Początek dodawania wydania wewnętrznego na podstawie ręcznej dyspozycji jest niemal taka sama jak w przypadku wydania do zlecenia. W zaopatrzenie &gt; Wydania wewnętrzne klikamy przycisk <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong>. I podajemy następujące dane:</p>
+<ul>
+  <li><strong>numer</strong> - uzupełnimy go za Ciebie</li>
+  <li><strong>miejsce wydania</strong> - wskaż z jakiego magazynu produkty będą przesuwane</li>
+  <li><strong>opis</strong> - jeśli chcesz zostaw notatkę dla magazyniera
+Dodatkowo - możesz podać, który pracownik będzie wydawał, a który pobierał produkty. Ale nie musisz tego robić.
+I zachowaj wydanie używając przycisku <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>. Mamy tutaj mniej pól do wypełnienia - ale póki co działanie spójne. Dopiero teraz zaczynają się różnice. W wydaniu na podstawie ręcznej dyspozycji nie mamy źródła, z którego moglibyśmy produkty pobrać. Dlatego musisz wskazać je ręcznie. Wejdź w zakładkę produkty do wydania i kliknij <img class="inline" src="images/przyciskNowyMaly.png" alt="Przycisk Nowy" />
+ <strong>Nowy</strong></li>
+</ul>
+
+<hr />
+
+<figure class="float-right "><a target="_blank" href="images/zaopatrzenieWydanieWewneetrzneDodajProdukt.png"><img src="images/zaopatrzenieWydanieWewneetrzneDodajProdukt.png" alt="Dodawanie produktu do wydania wewnętrznego" class="percent90 " /></a><figcaption>Dodawanie produktu do wydania wewnętrznego</figcaption></figure>
+
+<p>Uzupełnij następujace dane:</p>
+<ul>
+  <li><strong>produkt</strong> - do wyboru z listy</li>
+  <li><strong>kod dodatkowy</strong> - jeśli produkt ma dodatkowe rozróżnienie, to wskaż je w tym miejscu</li>
+  <li><strong>magazyn przyjmujący</strong> - podaj na jaki magazyn produkt ma być przesuwany</li>
+  <li><strong>miejsce składowania</strong> - jeśli na magazynie przyjmującym produkt zajmuje stałe miejsce, to wskaż tutaj lokalizację</li>
+  <li><strong>potrzeba w jednostce podstawowej, potrzeba w jednostce dodatkowej, przelicznik</strong> - wprowdź ilość produktu jaka ma być przesunięta. Możesz podać potrzebuę używając jednostki podstawowej lub jednostki dodatkowej produktu - odpowiednio druga ilość się z automatu przeliczy, w oparciu o podany przelicznik. Przelicznik podpowie się z tego zdefinowanego w produkcie (pole uaktywnia się, gdy produkt ma wprowadzoną i jednostkę podstawową i jednostkę dodatkową), ale możesz go tutaj zmienić (bo np. wyjątkowo w dostawie przyszedł karton z 50 szt. w środku, a nie 40 szt. jak zwykle).</li>
+</ul>
+
+<p>Korekta - to pole wypełniane jest z automatu podczas zmieniania miejsca docelowego, na który ma trafić produkt. O szczegółach poczytasz <a href="/produkty-do-wydania-wewnetrznego">tutaj</a></p>
+
+<p>Zapisz wprowadzone dane używając przycisku <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>. I na takiej samej zasadzie wprowadź pozostałe produkty do wydania.</p>
+
+<p>Dla wydań wewnętrznych na podstawie ręcznej dyspozycji także powstał generator. Tym razem wydania mogą się z automatu tworzyć na podstawie dostaw.</p>
+
+<h2 id="automatyczne-tworzenie-wydań-wewnętrznych-do-dostaw">Automatyczne tworzenie wydań wewnętrznych do dostaw</h2>
+
+<p>Idea generatora jest taka - podczas przyjmowania <a href="/dostawy">dostawy</a> określamy dla każdego produktu na jaki magazyn ma docelowo trafić (najpierw przyjmujemy na magazyn główny, ale od razu z rezerwacją na inny magazyn).</p>
+
+<p>W szczegółach produktu w dostawie musi znaleźć się <strong>rezerwacja</strong>:</p>
+
+<figure><a target="_blank" href="images/zaopatrzenieWydaniaWewnetrzneDostawa.png"><img src="images/zaopatrzenieWydaniaWewnetrzneDostawa.png" alt="Dostawa" /></a><figcaption>Dostawa, na podstawie której zostanie utworzone wydanie wewnętrzne</figcaption></figure>
+
+<p>Dzięki temu w momencie odbioru dostawy (oczywiście jeśli w parametrach będziesz miał zaznaczoną opcję <strong>generuj wydania wewnętrzne do dostaw</strong>) z automatu utworzy się wydanie wewnętrzne do wszystkich rezerwacji dostawy. Utworzone wydanie wewnętrzne będzie miało w opisie informacje z jakiej dostawy powstało.</p>
+
+<div class="bs-callout bs-callout-warning">Jeden odebrany produkt może być przeznaczony na więcej niż 1 magazyn. Aby tak się stało w rezerwacjach w dostawie ilość odebrana powinna być porozbijana na tyle magazynów, na ile będzie organizowane przesunięcie</div>
+:ET

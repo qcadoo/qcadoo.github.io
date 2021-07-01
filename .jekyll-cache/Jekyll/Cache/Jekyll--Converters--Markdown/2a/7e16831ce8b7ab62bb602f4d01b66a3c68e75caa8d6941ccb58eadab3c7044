@@ -1,0 +1,29 @@
+I"W
+<p>W Administracja &gt; Parametry &gt; Planowanie na liniach znajdziesz konfigurację <a href="/planowanie-na-liniach">wykresu Gantta</a></p>
+
+<figure><a target="_blank" href="images/administracjaParametryPlanowanieNaLiniach.png"><img src="images/administracjaParametryPlanowanieNaLiniach.png" alt="Parametry planowania na liniach" /></a><figcaption>Parametry planowania na liniach</figcaption></figure>
+
+<ol>
+  <li>
+    <p><strong>Prezentuj na wykresie Gantta</strong> - wskaż, czy chcesz aby wykres Gantta przedstawiał <a href="/zlecenia-produkcyjne">zlecenia produkcyjne</a> czy <a href="/grupy-zlecen">grupy zleceń</a></p>
+  </li>
+  <li>
+    <p><strong>Planuj przezbrojenia w oparciu o</strong> - jeśli chcesz, aby przezbrojenia były dobierane zgodnie ze zdefiniowanymi <a href="/normy-przezbrojen">normami</a> ustaw w parametrze wartość: “normy przezbrojeń”.</p>
+  </li>
+  <li>
+    <p><strong>Ręczny zapis planu</strong> - zaznacz parametr. Dzięki temu zmiany poczynione w układzie kafelków w Gantt będą widoczne w zleceniach / grupach zleceń</p>
+  </li>
+  <li>
+    <p><strong>Wyliczaj czas zleceń przesuwanych z bufora</strong> - jeśli chcesz aby przy przesuwaniu zleceń produkcyjnych z bufora był wyliczany czas jego trwania, to zaznacz parametr. Jeśli korzystasz z planu na zmianę (czyli masz zaznaczony parametr <em>Automatyczny plan na zmianę</em> opisany <a href="/parametry-zlecen#plan-na-zmianę">tutaj</a>) to czas trwania będzie wyznaczony przez dodanie planu na zmianę właśnie. Jeśli natomiast parametr <em>Automatyczny plan na zmianę</em> będzie wyłączony - wyznaczymy długość kafelka na podstawie <a href="/czasochlonnosc-zlecenia">czasochłonności technologii</a>.</p>
+  </li>
+  <li>
+    <p><strong>Wykrywaj kolizje</strong> - zaznacz parametr jeśli chcesz aby kafelki, które na danej linii nachodzą na siebie czasowo (czyli jest kolizja), zostały oznaczone na czerwono</p>
+  </li>
+  <li>
+    <p><strong>Nie pozwól na kolizje</strong> - zaznacz parametr jeśli nie chcesz pozwolić, aby zlecenia na danej linii nachodziły na siebie czasowo. Wówczas będziemy przesuwać kolejne zlecenie, tak by nie nachodziło na aktualnie zmieniane</p>
+  </li>
+  <li>
+    <p><strong>Rodzaj zapisu</strong> - jeśli ustawisz: <em>tylko zapis</em> to zmiany w kafelkach będą dotyczyły tylko dat samego zlecenia. Jeśli natomiast ustawisz: <em>zapisz z przeliczeniem planu na zmianę</em> to oprócz zmiany daty zostanie przeliczony plan na zmianę i wyznaczona nowa data zakończenia. Jeśli nie używasz planu na zmianę - ustaw wartość pierwszą, przyspieszy to działanie.</p>
+  </li>
+</ol>
+:ET

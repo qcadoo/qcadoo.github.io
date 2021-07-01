@@ -1,0 +1,83 @@
+I"�!<p>Kalkulacja kosztów pozwoli określisz szacowany koszt wytworzenia wyrobu gotowego. Kalkulacje przeprowadza się na podstawie technologii produktu. Technologia musi być co najmniej sprawdzona. Dzięki temu możesz wycenić produkt nawet wtedy, gdy nie do końca znasz listę materiałów, które będą wykorzystywane.</p>
+
+<p>Wywołać kalkulację kosztów można na dwa sposoby:</p>
+<ol>
+  <li>techologie &gt; technologie &gt; zaznacz te technologie, dla których chcesz oszacować koszty (może być ich wiele) i kliknij przycisk <img class="inline" src="images/przyciskUtworzKalkulacje.jpg" alt="Przycisk Utwórz kalkulację" />
+ <strong>Utwórz kalkulację</strong>. W tym wypadku nie będziesz musiał wykonać opisanego niżej kroku z zaciąganiem technologii do kalkulacji</li>
+  <li>kalkulacje &gt; kalkulacje kosztów</li>
+</ol>
+
+<figure><a target="_blank" href="images/kalkulacjeKalkulacjeKosztowLista.jpg"><img src="images/kalkulacjeKalkulacjeKosztowLista.jpg" alt="Lista kalkulacji kosztów" /></a><figcaption>Lista kalkulacji kosztów</figcaption></figure>
+
+<p>Kliknij przycisk <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/kalkulacjeKalkulacjeKosztowGlowna.png"><img src="images/kalkulacjeKalkulacjeKosztowGlowna.png" alt="Formularz dodawania kalkulacji kosztów" /></a><figcaption>Formularz dodawania kalkulacji kosztów</figcaption></figure>
+
+<p>Podaj <strong>ilość</strong> jaką chcesz wycenić (pamiętając, że taka ilość będzie analizowana dla każdego kalkulowanego produktu) i zapisz.</p>
+
+<p>Kolejny krok to wskazanie technologii, które mają być estymowane. Możesz wskazać dowolną ilość technologii sprawdzonych lub zaakceptowanych.</p>
+
+<p>Zanim wygenerujesz kalkulację zajrzyj do zakładki <strong>Dane dla kosztów</strong></p>
+
+<figure><a target="_blank" href="images/kalkulacjeKalkulacjeKosztowDaneDlaKosztow.png"><img src="images/kalkulacjeKalkulacjeKosztowDaneDlaKosztow.png" alt="Lista kalkulacji kosztów" /></a><figcaption>Lista kalkulacji kosztów</figcaption></figure>
+
+<p>Ustal kryteria, wg jakich mają być produkty wycenione.</p>
+
+<div class="bs-callout bs-callout-warning">Warto wartości ustawić w parametrach technologii. Dzięki temu będą się one podpowiadały do kalkulacji i nie będziesz musiał ich każdorazowo ustawiać.</div>
+
+<p>Kryteria podzielone są na 3 grupy:</p>
+
+<p><strong>1. koszty materiałowe</strong></p>
+
+<p>Wskaż wg jakiej ceny ma być ustalana wartość zużywanego materiału (pole: <strong>wykorzystywane koszty materiałów</strong>). Ceny te zapisywane są w produkcie, w zakładce Koszty. Cena ostatniego przychodu i Cena średnio ważona automatycznie ustalona jest na podstawie dokumentów magazynowych i stanów (czyli: ceny będą &gt; 0, gdy już kiedyś dany materiał przyjąłeś na magazyn). Średnia cena z ofert i cena z ostatniej oferty ustalana jest na podstawie zarejestrowanych ofert dostawy. Natomiast koszt nominalny uzupełniony musi być ręcznie.</p>
+
+<p>Jeśli chcesz korzystać np. z ceny zakupu, ale wiesz, że nie wszystkie materiały mają taką cenę ustaloną, możesz dla nich zapisać spodziewaną cenę w polu koszt nominalny w produkcie, a w kalkulacji zaznaczyć parametr: <strong>Użyj kosztu nominalnego gdy cena nie jest określona</strong>. Wówczas gdy cena zakupu (lub inna wybrana) jest &gt; 0 to z niej skorzystamy, ale gdy jest 0 to sięgniemy po koszt nominalny.</p>
+
+<p start="2"><strong>2. koszty robocizny</strong></p>
+
+<p>W obszarze tym wskaż co będzie podstawą do wyznaczania kosztów pracy. Zacznij od podania <strong>źródła kosztów operacji</strong>. Do wyboru masz:</p>
+<ul>
+  <li><strong>z parametrów ogólnych</strong> - średnia roboczogodzina będzie pobierana z pól poniżej: Średnia roboczogodzina maszyny i Średnia roboczogodzina pracownika. Każda z operacji będzie stanowić taki sam, uśredniony koszt za godzinę. Wartości te podpowiedzą się z ustawionych parametrów technologii, więc wystarczy, że wyznaczysz je raz</li>
+  <li>z operacji technologii - koszt za godzinę pobierany jest z wartości zdefiniowanych w operacji technologii w zakładce <a href="/normy-kosztowe">normy kosztowe</a>. Każda operacja może stanowić inny koszt za godzinę</li>
+  <li>standardowy koszt robocizny - aby wyliczyły się koszty robocizny w dwóch powyższych opcjach operacje technologii muszą mieć wypełnione <a href="/normy-czasowe">normy czasowe</a>. Jeśli nie masz takich informacji, możesz wykorzystać doliczanie do wyceny produktu kosztów robocizny na podstawie <a href="/standardowe-koszty-robocizny">standardowych kosztów robocizny</a>. Możesz zdefiniować kilka różnych wartości i w zależności np. od typu wyrobu, czy złożoności produkcji wskazać w kalkulacji tą, która ma zostać wykorzystana</li>
+</ul>
+
+<p>Dodatkowo możesz ustalić, zaznaczając parametr, czy <strong>czas przygotowawczo-zakończeniowy TPZ</strong> i <strong>czas dodatkowy</strong> ma być uwzględniany w wyliczaniu kosztów robocizny.</p>
+
+<p start="3"><strong>3. narzuty</strong></p>
+
+<p>W obszarze tym możesz doliczyć (zazwyczaj) procentowe narzuty, które mają zwiększać wyliczone koszty:</p>
+
+<ul>
+  <li><strong>narzut kosztów materiału</strong> - ustalone koszty materiału zostaną zwiększone o zadany procent</li>
+  <li><strong>narzut kosztów robocizny</strong> - ustalone koszty robocizny zostaną zwiększone o zadany procent</li>
+  <li><strong>dodatkowe obciążenie</strong> - doliczana kwota do kosztów produkcji</li>
+  <li><strong>narzut do kosztów produkcji</strong> - wyliczone jednostkowe koszty produkcji zostaną zwiększone o zadany procent</li>
+  <li><strong>narzut do TKW</strong> - wyliczony techniczny koszt wytworzenia będzie powiększony o podany procent</li>
+  <li><strong>zysk</strong> - wyznaczony TKW zwiększony zostanie o zadany zysk i wyliczona będzie cena sprzedaży</li>
+</ul>
+
+<p>Po ustaleniu danych do kosztów zapisz kalkulację i wywołaj generowanie przyciskiem <img class="inline" src="images/przyciskGenerujKalkulacje.jpg" alt="Przycisk Generuj kalkulację" />
+ <strong>Generuj kalkulację</strong>. Daj nam chwilę - przeprowadzamy właśnie bardzo skomplikowane obliczenia. Efekty zobaczysz w zakładce <strong>Wyniki kalkulacji</strong>:</p>
+
+<figure><a target="_blank" href="images/kalkulacjeKalkulacjeKosztowWyniki.png"><img src="images/kalkulacjeKalkulacjeKosztowWyniki.png" alt="Wyniki kalkulacji kosztów" /></a><figcaption>Wyniki kalkulacji kosztów</figcaption></figure>
+
+<p>Jeśli <strong>brak ceny materiału</strong> = tak, to co najmniej jeden materiał w wycenie nie ma określonej ceny. Zatem ostateczne wyniki mogą być zakłamane.</p>
+
+<p>Szczegóły wyceny zaprezentowane są w Excelu. Aby ją uzyskać kliknij przycisk <img class="inline" src="images/przyciskXLSDuzy.jpg" alt="Przycisk XLS" />
+ <strong>XLS</strong>.</p>
+
+<figure><a target="_blank" href="images/kalkulacjeKalkulacjeKosztowXLS.jpg"><img src="images/kalkulacjeKalkulacjeKosztowXLS.jpg" alt="Wyniki kalkulacji kosztów w Excelu" /></a><figcaption>Wyniki kalkulacji kosztów w Excelu</figcaption></figure>
+
+<p>Kalkulacja jest podzielona na kilka arkuszy. Dokumentacja nie będzie omawiać każdego. Podreślone zostaną tylko niektóre kwestie:</p>
+
+<p>A. jeśli przeprowadzasz wycenę dla wyrobu z technologią sprawdzoną, ale zamiast konkretnych produktów masz <a href="/typy-produktu-wejsciowego">typy produktów wejściowych</a>, to zdefiniuj dla typu średnią cenę. Dzięki temu będziemy mogli wyznaczyć spodziewne koszty materiałowe</p>
+
+<p>B. jeśli wyceniasz technologię produktu będącego rodziną i rozpisałeś w niej różne produkty wejściowe w zależności od rozmiaru, to koszt widoczny w zakładce koszty materiałów będzie wyliczony w oparciu o średnią cenę wyznaczoną w oparciu o ceny produktów wg rozmiaru. Ceny każdego z produktów zobaczysz w arkuszu Materiały wg rozmiarów</p>
+
+<p>C. jeśli estymowana technologia korzysta z technologii na komponenty i przy generowaniu zaznaczyłeś parametr <strong>Uwzględnij komponenty</strong> (w zakładce Uwzględnij komponenty) to w arkuszu Koszty komponentów przeanalizujesz szczegóły kosztów dla każdego z nich. Pozostałe arkusze będą tak analizować technologię, jakby jej technologię na komponenty stanowiły element wskazanej technologii.</p>
+
+<div class="bs-callout bs-callout-warning">Kalkulację kosztów dla danej technologii możesz generować wielokrotnie. I w ten sposób dopracowywać kształt technologii.</div>
+
+:ET

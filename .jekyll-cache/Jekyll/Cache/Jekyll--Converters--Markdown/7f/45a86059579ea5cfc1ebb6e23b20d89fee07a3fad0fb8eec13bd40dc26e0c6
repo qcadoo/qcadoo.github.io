@@ -1,0 +1,24 @@
+I"�<p>W tym miejscu określamy z jakiej technologii na jaką inną przezbrajamy naszą linię produkcyjną. Normy przezbrojeń możemy również określać dla całych grup technologii.</p>
+
+<h2 id="jak-dodać-normy-przezbrojeń">Jak dodać normy przezbrojeń?</h2>
+
+<p>Aby dodać normy przezbrojeń należy wejść w: <strong>TECHNOLOGIE » Normy przezbrojeń »</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/technologie-%20normy%20przezbroje%C5%84.png"><img src="images/technologie-%20normy%20przezbroje%C5%84.png" alt="Formularz normy przezbrojenia" /></a><figcaption>Definiowanie normy</figcaption></figure>
+
+<ol>
+  <li>
+    <p>Wypełniamy pole “Typ” przezbrojeń, dla pojedynczej technologii lub dla całej grupy.Następnieprzy pomocy lupki <img class="inline" src="images/lupka.png" alt="Przycisk lupy" />
+ wybieramy z listy, z jakiej technologii do jakiej wykonujemy przezbrojenie. Są to pola wymagane. Po wypełnieniu tych pól, pole “Numer” wypełni się automatycznie.</p>
+  </li>
+  <li>
+    <p>Następnie określamy czas trwania tego przezbrojenia. Opcjonalnie możemy ustalić dla jakiej linii przezbrojenie jest specyficzne (“Specyficzne dla linii”).</p>
+  </li>
+  <li>
+    <p>Po wprowadzeniu danych wybieramy <img class="inline" src="images/SaveIcon24.png" alt="Przycisk zapisz" />
+ <strong>Zapisz</strong>.</p>
+  </li>
+</ol>
+
+:ET

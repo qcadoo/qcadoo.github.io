@@ -1,0 +1,159 @@
+I"/<p>Rozliczanie produkcji przynosi dwie korzyści.</p>
+
+<ul>
+  <li>na podstawie zbieranych danych można zrewidować i uczynić bliższymi prawdy nasze założenia produkcyjne co do czasów realizacji zleceń i ilości potrzebnych surowców</li>
+  <li>wiadomo ile faktycznie kosztowało nas zrealizowanie danego zlecenia produkcyjnego i wyeliminowanie na przyszłość zbędne koszty</li>
+</ul>
+
+<p>Funkcjonalność “<strong>Rozliczenie produkcji</strong>” pozwala również na tworzenie i gromadzenie raportów i zestawień z rejestracji produkcji (dla wariantów: “zbiorczego” i “dla każdej operacji”).</p>
+
+<div class="bs-callout bs-callout-info">Gdy tworzymy raport rozliczenia produkcji dla danego zlecenia/zleceń produkcyjnego/produkcyjnych, bierzemy pod uwagę tylko <a href="/rejestracja-produkcji">zarejestrowane meldunki zwrotne</a> w stanie <strong>Zaakceptowane</strong>.</div>
+
+<h2 id="jak-wygenerować-raport-rozliczenia-produkcji">Jak wygenerować raport rozliczenia produkcji?</h2>
+
+<p>Aby wygenerować nowy raport wybieramy:</p>
+
+<p><strong>Analizy » Rozliczenie produkcji » <img class="inline" src="images/newIcon24.png" alt="" />
+ Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/analizyRozliczenieProdukcjiNowe.png"><img src="images/analizyRozliczenieProdukcjiNowe.png" alt="Rozliczenie produkcji" /></a><figcaption>Rozliczenie produkcji</figcaption></figure>
+
+<ol>
+  <li>
+    <p>W pierwszym kroku możemy nadać “Nazwę” tego raportu. Nazwa ta powinna identyfikować raport tak, by łatwiej było zidentyfikować go na liście wśród innych. Opcjonalnie dodajemy “Opis” zlecenia.</p>
+  </li>
+  <li>
+    <p>Następnie przy pomocy przycisku Dodaj istniejący z zakładki Zlecenia wybieramy “Zlecenie” produkcyjne, dla których chcemy wygenerować raport.</p>
+  </li>
+  <li>
+    <p>Możemy zdecydować jakie dane zostaną uwidocznione w raporcie oraz które wejdą w skład kalkulacji. Więcej o <a href="/normy-czasowe">parametrach czasów operacji</a>.</p>
+  </li>
+  <li>
+    <p>Następnie przechodzimy do edycji <strong>“Danych kosztowych”</strong> dla tego raportu. Tam można dodać marże dla kosztów pracy oraz zdecydować które koszty materiałów mają być uwzględnione - te określone w <a href="/produkty">definicji produktu</a>, czy te, <a href="/ceny-materialow-dla-zlecenia">wprowadzone dla tego konkretnego zlecenia</a>.</p>
+  </li>
+</ol>
+
+<figure><a target="_blank" href="images/analizyRozliczenieProdukcjiDaneDlaKosztow.png"><img src="images/analizyRozliczenieProdukcjiDaneDlaKosztow.png" alt="Dane kosztów" /></a><figcaption>Dane kosztów</figcaption></figure>
+
+<ol start="5">
+  <li>
+    <p>Po wprowadzeniu wszystkich zmian wybieramy <img class="inline" src="images/saveIcon24.png" alt="" />
+ <strong>Zapisz</strong> i <img class="inline" src="images/generateIcon24.png" alt="" />
+ <strong>Generuj</strong>.</p>
+  </li>
+  <li>
+    <p>Po wygenerowaniu można pobrać raport w formacie pliku XLS <img class="inline" src="images/xlsIcon16.png" alt="" />
+.</p>
+  </li>
+</ol>
+
+<h2 id="wygląd-raportu">Wygląd raportu</h2>
+
+<p>Rozliczenie produkcji w formacie XLS składa się z następujących arkuszy:</p>
+
+<ol>
+  <li><strong>Ilości wyprodukowane</strong> - W arkuszu prezentujemy jakie produkty powinny zostać wytworzone. Zestawiamy dla nich ilości planowane z ilościami wyprodukowanymi i wyznaczamy odchylenie ilościowe. Jeśli zostały zaewidencjonowane braki (czyli produkty niepełnowartościowe, nienadające się do sprzedaży czy dalszej obróbki), to ilość zostanie zaprezentowana (kolumna: braki). W arkuszu zawsze prezentujemy finalne produkty ze zleceń - jednym wierszem w arkuszu jest 1 zlecenie. Jeśli jednak efektem produkcji były odpady (inny produktu wyjściowy zlecenia oznaczony jako odpad), to ich suma będzie w wierszu danego zlecenia zaczytana w kolumnie Ilość wyprodukowanych odpadów.</li>
+</ol>
+
+<figure><a target="_blank" href="images/rejestracjaRozliczenieProdukcjiIlosciWyprodukowane.png"><img src="images/rejestracjaRozliczenieProdukcjiIlosciWyprodukowane.png" alt="Ilości wyprodukowane" /></a><figcaption>Ilości wyprodukowane</figcaption></figure>
+
+<ol start="2">
+  <li><strong>Koszty materiałów</strong> - W arkuszu prezentowane są wszystkie zużyte surowce w zleceniu. Surowce to wszystkie produkty, które w szczegółowym zapotrzebowaniu oznaczone są jako: rola = użyty, typ = surowiec, a które nie są komponentem. Ustalisz tutaj ile jakich produktów miałeś użyć w produkcji, a ile ostatecznie ich wykorzystałeś. Dane są w ujęciu ilościowym i wartościowym. Ponadto arkusz zawiera informacje o:
+    <ul>
+      <li>odchyleniach ilościowych i wartościowych</li>
+      <li>wykorzystanym zamienniku</li>
+      <li>ilościach użytego odpadu - czyli jeśli zamiast surowca zaplanowanego użyto produkt niezaewidencjonowany na magazynie (np. zostały skrawki z poprzedniej produkcji i nadały się one idealnie pod dane zlecenie)</li>
+    </ul>
+  </li>
+</ol>
+
+<figure><a target="_blank" href="images/rejestracjaRozliczenieProdukcjiKosztyMaterialow.png"><img src="images/rejestracjaRozliczenieProdukcjiKosztyMaterialow.png" alt="Koszty materiałów" /></a><figcaption>Koszty materiałów</figcaption></figure>
+
+<ol start="3">
+  <li><strong>Czas pracy pracowników</strong> - arkusz prezentuje wszystkich pracowniów biorących udział w produkcji pod dane zlecenie, czy daną operację zlecenia (czyli: zostali zarejestrowani w rekordach rejestracji produkcji w zakładce Czas pracy pracowników). Dla każdego pracownika przedstawiamy czas poświęcony na zadanie. Jeśli pracownik należy do grupy płacowej - zaprezentujemy do jakiej i jaki jest koszt godziny pracy.</li>
+</ol>
+
+<figure><a target="_blank" href="images/rejestracjaRozliczenieProdukcjiCzasPracownikow.png"><img src="images/rejestracjaRozliczenieProdukcjiCzasPracownikow.png" alt="Czas pracowników" /></a><figcaption>Czas pracowników</figcaption></figure>
+
+<ol start="4">
+  <li><strong>Czas pracy pracowników - szczegóły</strong> - arkusz ten jest rozwinięciem poprzedniego. Zawiera szczegółowe informacje odnośnie czasu poświęconego na zlecenie i dat realizacji. Dowiesz się z niego kiedy miało być zlecenie realizowane, a kiedy faktycznie było. Ustalisz kto pracował na rzecz zlecenia, w jakim dniu i na jakiej zmianie, ile poświęcił czasu. Dane rzeczywiste zestawiane są z planowanymi i wyznaczane jest odchylenie.</li>
+</ol>
+
+<figure><a target="_blank" href="images/rejestracjaRozliczenieProdukcjiCzasPracownikowSzczegoly.png"><img src="images/rejestracjaRozliczenieProdukcjiCzasPracownikowSzczegoly.png" alt="Czas pracowników - szczegóły" /></a><figcaption>Czas pracowników - szczegóły</figcaption></figure>
+
+<ol start="5">
+  <li><strong>Przestoje</strong> - w arkuszu zobaczysz wszystkie zarejestrowane do zleceń z rozliczenia <a href="/przestoje">przestoje</a>. Dowiesz się ile produkcja stała, co było przyczyną postoju, a także na jakim stanowisku i podczas pracy jakiego pracownika miał on miejsce.</li>
+</ol>
+
+<figure><a target="_blank" href="images/rejestracjaRozliczenieProdukcjiPrzestoje.png"><img src="images/rejestracjaRozliczenieProdukcjiPrzestoje.png" alt="Przestoje" /></a><figcaption>Przestoje</figcaption></figure>
+
+<ol start="6">
+  <li><strong>Akord</strong> - jeśli rozliczasz wykonanie akordowo - to zakładka Cię zainteresuje. Prezentujemy w niej liczbę wykonanych cykli w operacji danego zlecenia. Źródłem danych do operacji jest zakładka Akordowo w zaakceptowanych Rekordach rejestracji. Jednym wierszem w arkuszu jest operacja zlecenia. W arkuszu pojawiają się tylko zlecenia raportowane z dokładnością do operacji (bo tylko takie zlecenia można rozliczać akordowo)</li>
+</ol>
+
+<figure><a target="_blank" href="images/rejestracjaRozliczenieProdukcjiAkord.png"><img src="images/rejestracjaRozliczenieProdukcjiAkord.png" alt="Akord" /></a><figcaption>Akord</figcaption></figure>
+
+<ol start="7">
+  <li><strong>Koszty robocizny</strong> - W arkuszu będą zestawione planowane i rzeczywiste czasy maszyn i pracowników, a także planowane i rzeczywiste koszty maszyn i pracowników.</li>
+</ol>
+
+<p>Źródłem danych do arkusza są:</p>
+
+<ul>
+  <li>sumy czasów w zakładce Czas pracy w zaakceptowanych rekordach rejestracji</li>
+  <li>czasy wynikające z technologii zlecenia</li>
+</ul>
+
+<p>Innymi słowy - koszty robocizny wyznaczane są na podstawie danych zaprezentowanych w arkuszach Ceny pracowników, Ceny pracowników - szczegóły i Akord.</p>
+
+<figure><a target="_blank" href="images/rejestracjaRozliczenieProdukcjiKosztyRobocizny.png"><img src="images/rejestracjaRozliczenieProdukcjiKosztyRobocizny.png" alt="Koszty robocizny" /></a><figcaption>Koszty robocizny</figcaption></figure>
+
+<ol start="8">
+  <li><strong>Rozliczenie do zleceń</strong> - Arkusz rozliczenie do zleceń agreguje dane z dokładnością do każdego ze zleceń. Korzysta z danych uzyskanych w arkuszach:</li>
+</ol>
+
+<ul>
+  <li>ilości wyprodukowane</li>
+  <li>koszty materiałów</li>
+  <li>koszty robocizny</li>
+  <li>a także z parametrów rozliczenia produkcji - sięgając po zdefiniowane narzuty.</li>
+</ul>
+
+<p>Jednym wierszem w arkuszu jest 1 zlecenie.</p>
+
+<p>To tu zaczynają się większe wyliczenia. Wyznaczymy:</p>
+<ul>
+  <li>bezpośrednie koszty produkcji - jako suma kosztów materiałowych i kosztów robocizny</li>
+  <li>narzut do kosztów materiałow - wyliczony jako podany w parametrach wskaźnik x koszty materiałów</li>
+  <li>narzut do kosztów robocizny - wyliczony jako podany w parametrach wskaźnik x koszty robocizny. Jako narzut do kosztów robocizny można ująć np. koszty wydziałowe</li>
+  <li>dodatkowe koszty bezpośrednie zlecenia - podane w zleceniu w oknie <a href="/ceny-materialow-dla-zlecenia">Ceny materiałow dla zlecenia</a></li>
+  <li>całkowity koszt produkcji - jako suma technicznych kosztów produkcji i wartości narzutów, dodatkowych kosztów i obciążeń</li>
+  <li>jednostkowy koszt produkcji - jako całkowity koszt poniesiony na jednostkę</li>
+  <li>narzut do kosztów produkcji - wyliczony jako wskaźnik podany w parametrach x jednostkowy koszt produkcji. Za pomocą tego narzutu można doliczyć do kosztów produkcji np. koszty wydziałowe</li>
+  <li>TKW (techniczny koszt wytworzenia) - wyznaczony jako jednostkowy koszt produkcji powiększony o wartość narzutu do ceny ewidencyjnej</li>
+  <li>narzut do TKW - wyliczony jako wskaźnik podany w parametrach x TKW. Za pomocą tego narzutu można doliczyć do kosztów wytworzenia np. koszty zarządu, administracji czy sprzedaży</li>
+  <li>całkowity koszt wytworzenia (CKW) - wyliczony jako TKW powiększony o wartość narzutu do TKW</li>
+  <li>zysk - wyliczony jako wskaźnik podany w parametrach x CKW</li>
+  <li>cena sprzedaży - wyznaczony poprzez powiększenie CKW o wartość zysku</li>
+</ul>
+
+<figure><a target="_blank" href="images/rejestracjaRozliczenieProdukcjiRozliczenieDoZlecen.png"><img src="images/rejestracjaRozliczenieProdukcjiRozliczenieDoZlecen.png" alt="Rozliczenie do zleceń" /></a><figcaption>Rozliczenie do zleceń</figcaption></figure>
+
+<ol start="9">
+  <li><strong>Rozliczenie z uwzględnieniem komponentów</strong> - Arkusz bardzo podobny do poprzedniego. Różnica polega na tym, że kumulujemy dane z dokładnością do głównego zlecenia → w jednym wierszu zlecenie i jego zlecenie na komponenty.</li>
+</ol>
+
+<p>Jeśli w arkuszu Rozliczenie dla zleceń mielibyśmy 3 zlecenia:</p>
+
+<ul>
+  <li>000001</li>
+  <li>000001-1.1</li>
+  <li>000001-1.1.1</li>
+</ul>
+
+<p>to w tym arkuszu będzie widoczny tylko wiersz dla 000001, z sumą kosztów materiałów i robocizny ze zleceń podległych i zlecenia głównego.</p>
+
+<ol start="10">
+  <li><strong>Rozliczenie do wyrobu</strong> - Arkusz przedstawia kolejny poziom agregacji danych kosztowych - tym razem do wyrobu. Dane z arkusza Rozliczenie z uwzględnieniem komponentów sumowane prezentowane z dokładnością do zlecenia głównego sumowane są z dokładnością do produktu.</li>
+</ol>
+:ET

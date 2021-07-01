@@ -1,0 +1,39 @@
+I"�
+<p>Linia produkcyjna to zbiór stacji roboczych, na których wykonywane są poszczególne operacje w procesie technologicznym. W qcadoo linie produkcyjne definiowane są przez nadanie im nazwy i miejsca oraz przez wyznaczenie stacji roboczych, ilości urządzeń wchodzących w skład linii oraz ustalenia, które zmiany pracują na linii.</p>
+
+<h2 id="jak-dodać-nową-linię-produkcyjną">Jak dodać nową linię produkcyjną?</h2>
+
+<figure><a target="_blank" href="images/Technologie-%20linie%20produkcyjne.png"><img src="images/Technologie-%20linie%20produkcyjne.png" alt="Formularz lini produkcyjnej" /></a><figcaption>Definiowanie linii produkcyjnej</figcaption></figure>
+
+<p>Linię produkcyjną tworzymy wybierając z menu głównego: <strong>STRUKTURA FIRMY » Linie produkcyjne »</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong></p>
+
+<ol>
+  <li>
+    <p>W zakładce <strong>“Główna”</strong> nadajemy “Numer” i “Nazwę” tworzonej linii produkcyjnej (obowiązkowo).</p>
+  </li>
+  <li>
+    <p>Następnie przy pomocy <img class="inline" src="images/lupka.png" alt="Przycisk lupy" />
+ wybieramy “Dział” i przypisujemy “Miejsce” linii produkcyjnej (opcjonalnie). Miejsca linii produkcyjnych definiowane są w <a href="/slowniki">Słownikach</a>.</p>
+  </li>
+  <li>
+    <p>W zakładce “Kalendarz” wprowadzamy zmiany, które pracują na danej linii. Jest to konieczne jeśli chcemy korzystać z planowania na liniach.</p>
+  </li>
+  <li>
+    <p>Opcjonalnie możemy dodać “Opis” oraz “Dokumentację” linii produkcyjnej.</p>
+  </li>
+  <li>
+    <p>Używając przycisku <img class="inline" src="images/zapisz.png" alt="Przycisk zapisz" />
+ <strong>Zapisz</strong> , zatwierdzamy wprowadzone dane.</p>
+  </li>
+</ol>
+
+<p>W zakładce <strong>“Stacje robocze”</strong> określamy te, które wchodzą w skład danej linii produkcyjnej. Do tego celu używamy przycisku <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Nowy</strong>. Wyświetli się Nam pole do wprowadzenia stacji roboczej. Wybieramy te, które wchodzą w skład danej linii produkcyjnej oraz określamy ich ilość. Następnie zatwierdzamy wprowadzone dane przy pomocy przycisku <img class="inline" src="images/SaveIcon24.png" alt="Przycisk zapisz" />
+  <strong>Zapisz</strong>.</p>
+
+<p>Pole <strong>“Ilość dla pozostałych stacji roboczych”</strong> służy do określenia po ile sztuk z pozostałych (niewymienionych w tabeli po prawej) stacji roboczych, wchodzi jeszcze w skład tej linii.</p>
+
+<p>Dane te w późniejszej kolejności są wykorzystywane do planowania oraz kalkulacji czasu realizacji zlecenia na tej linii produkcyjnej.</p>
+
+:ET

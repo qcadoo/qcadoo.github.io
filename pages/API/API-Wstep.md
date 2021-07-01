@@ -1,6 +1,7 @@
 ---
 title: "Wstęp"
-permalink: API-Wstep.html 
+permalink: API-Wstep.html
+toc: false
 ---
 
 Qcadoo posiada API REST, dzięki któremu inne programy mogą się z nim integrować. Większość metod API powstało na potrzeby

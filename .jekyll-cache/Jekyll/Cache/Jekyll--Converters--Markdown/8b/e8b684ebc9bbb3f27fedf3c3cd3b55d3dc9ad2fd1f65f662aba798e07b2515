@@ -1,0 +1,20 @@
+I"�<p>“Pozycje ofert” to miejsce, w którym mamy zestawienie wszystkich pozycji z wielu ofert, ujęte w jednej tabeli. Dzięki temu możemy porównać oferty tego samego produktu i posortować je według ceny, co pomoże nam wybrać najkorzystniejszą dla nas ofertę.</p>
+
+<div class="bs-callout bs-callout-info">PRZYKŁADOWO: Jeżeli potrzebujesz zakupić nogi do taboretu, które dostarczane są przez kilku dostawców, możesz dzięki tej tabeli porównać oferty tylko w kontekście jednego produktu i wybrać tą która jest dla Ciebie najkorzystniejsza.</div>
+
+<figure><a target="_blank" href="images/Zaopatrzenie-pozycje-ofert.png"><img src="images/Zaopatrzenie-pozycje-ofert.png" alt="Pozycje ofert" /></a><figcaption>Lista pozycji ofert</figcaption></figure>
+
+<ol>
+  <li>
+    <p>Na liście pokazują się wszystkie oferty - zarówno te zatwierdzone jak i te będące w fazie szkicu.</p>
+  </li>
+  <li>
+    <p>Zestawienie ofert możemy również przygotować w formie dokumentu w formacie <img class="inline" src="images/pdfIcon24.png" alt="Przycisk PDF" />
+ <strong>PDF</strong>.</p>
+  </li>
+  <li>
+    <p>W tabeli wyświetlają się ceny sumaryczne i jednostkowe. Aby móc porównać produkty pod względem ceny musisz, dla każdej oferty z osobna, wprowadzić ręcznie ceny zaproponowane przez dostawców. Aby to zrobić wejdź w konkretną ofertę naciskając na nią, następnie przejdź do zakładki “Produkt” i dla każdego produktu z listy wprowadź oferowaną Ci cenę.</p>
+  </li>
+</ol>
+
+:ET

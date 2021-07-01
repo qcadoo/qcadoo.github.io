@@ -1,0 +1,38 @@
+I"-
+<p>Normy czasowe operacji są podstawą do wyznaczenia czasu realizacji czynności. Dzięki temu wyznaczysz czas trwania zlecenia czy zadania operacyjnego, ale też określisz planowane koszty robocizny.</p>
+
+<p>Czasy operacji uwzględniają następujące parametry:</p>
+
+<ul>
+  <li><strong>Czas przygotowawczo-zakończeniowy (TPZ)</strong>- obejmuje czas potrzebny do przygotowania stanowiska pracy i uruchomienia maszyny oraz czas po zakończeniu wykonywanych na niej operacji. Nie zależy od ilości wykonywanych sztuk produktu. Jest liczony tylko raz dla całej zadanej w tej operacji liczby produktów.</li>
+</ul>
+
+<p>Czas cyklu:</p>
+
+<ul>
+  <li><strong>TJ</strong> - czas jednostkowy, czyli czas potrzebny do wykonania jednej operacji</li>
+  <li><strong>Dla produkcji w jednym cyklu</strong> - ile jednostek produktu wykonanych zostanie w trakcie jednej operacji</li>
+  <li><strong>Dodatkowy czas</strong> - czas dodatkowy, po którym można wykonać następną operację</li>
+</ul>
+
+<p>Podzielność cyklu:</p>
+
+<ul>
+  <li><strong>Produkowana ilość w jednym cyklu jest podzielna</strong> - zaznaczamy to pole, jeśli w jednym cyklu operacji możemy wykonać mniej jednostek produktu, niż to zostało określone w polach po lewej stronie</li>
+  <li><strong>Ilość cykli jest podzielna</strong> - zaznaczamy to pole, jeżeli przy produkcji ciągłej będziemy produkować mniej produktu wyjściowego niż jest to określone w technologii, wówczas zostanie wykonana tylko część cyklu</li>
+</ul>
+
+<p>Współczynnik wykorzystania w czasie:</p>
+
+<ul>
+  <li><strong>Maszyn -</strong> Jaką część czasu całkowitego operacji zajmuje praca maszyn</li>
+  <li><strong>Pracowników -</strong> Jaką część czasu całkowitego operacji zajmuje praca pracowników</li>
+  <li><strong>Następna operacja po wyprodukowaniu:</strong> - Po wykonaniu ilu jednostek można przystąpić do kolejnej operacji. (np. po wykonaniu dwóch kół, możemy przejść dalej, aby skręcić z nich rower)</li>
+</ul>
+
+<figure><a target="_blank" href="images/technologie-%20operacje-%20normy%20czasowe.png"><img src="images/technologie-%20operacje-%20normy%20czasowe.png" alt="Normy czasowe" /></a><figcaption>Normy czasowe</figcaption></figure>
+
+<p>Wartości te mogą zostać wprowadzone w Operacjach i wtedy obowiązywać będą dla wszystkich zleceń tworzonych w oparciu o te normy.</p>
+
+<p>Jeśli chcesz na podstawie norm czasowych podanych w szablonie operacji zaktualizować istniejące technologie, skorzystaj z funkcji <strong><a href="/zmiana-parametrow">Zbiorczej zmiany parametrów zlecenia</a></strong>.</p>
+:ET

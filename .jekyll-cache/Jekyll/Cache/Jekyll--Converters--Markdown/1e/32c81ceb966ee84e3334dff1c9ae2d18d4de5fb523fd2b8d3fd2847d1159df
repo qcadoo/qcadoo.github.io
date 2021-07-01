@@ -1,0 +1,45 @@
+I"�<h2 id="informacje">Informacje</h2>
+
+<p>Za pomocą tej metody api utworzysz <a href="/przeliczniki">przeliczenia jednostek</a> w systemie.</p>
+
+<p><strong>Moduł integracyjny:</strong> urcBasic</p>
+
+<p><strong>Nazwa akcji:</strong> setProductsPossibleUnitConversions</p>
+
+<p><strong>URL:</strong> /integration/rest/setProductsPossibleUnitConversions.html</p>
+
+<p><strong>Metoda http:</strong> POST</p>
+
+<h2 id="zawartość-żądania">Zawartość żądania</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "products" : [
+        {
+            "externalID" : "externalID",
+            "possibleUnitConversions" : [
+                {
+                    "quantityFrom" : "quantity of main unit",
+                    "quantityTo" : "quantity of toUnit",
+                    "unitTo" : {
+                        "externalID" : "externalID",
+                        "name" : "name",
+                        "description" : "description" //opcjonalne
+                    }
+                }
+            ]
+        }
+    ]
+}
+</code></pre></div></div>
+
+<h2 id="zawartość-odpowiedzi">Zawartość odpowiedzi</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "status": "OK",
+    "message": null // Gdy status ERROR - informacja z przyczyną błędu
+}
+</code></pre></div></div>
+
+<h2 id="działanie">Działanie</h2>
+<p>Ustawia produktowi możliwe przeliczenia jednostek. Poprzednie przeliczenia dla produktu są usuwane.</p>
+
+<p>Jeżeli jest już w systemie jednosta toUnit (patrzymy po externalID) to ją aktualizujemy. Jak nie to dodajemy nową.</p>
+:ET

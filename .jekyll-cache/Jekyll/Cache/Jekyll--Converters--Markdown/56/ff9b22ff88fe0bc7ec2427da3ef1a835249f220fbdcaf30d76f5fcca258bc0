@@ -1,0 +1,17 @@
+I"<p>Dezaktywacja w qcadoo to sposób na ukrycie danego rekordu. Zostaje on w bazie, zawsze możesz do niego wrócić i go aktywować, ale nie zaśmieca Ci widoku.</p>
+
+<p>Dezaktywacja dostępna jest niemal z każdej listy w qcadoo. Jeśli dany rekord (np. produkt) chcesz ukryć, zaznacz to w tabeli i kliknij <img class="inline" src="images/przyciskDezaktywuj.png" alt="Dezaktywuj" />
+. Zniknął z listy? I bardzo dobrze - o to właśnie chodziło.</p>
+
+<p>Nad tabelę znajdziesz przyciski, które zmieniają ustawienia widoczności rekordów w liście:</p>
+<ul>
+  <li><img class="inline" src="images/przyciskAktywne.png" alt="Widoczne aktywne rekordy" />
+ -&gt; przy takim ustawieniu w tabeli widoczne są tylko rekordy aktywne</li>
+  <li><img class="inline" src="images/przyciskNieaktywne.png" alt="Widoczne nieaktywne rekordy" />
+ -&gt; przy takim ustawieniu w tabeli widoczne są tylko rekordy nieaktywne</li>
+  <li><img class="inline" src="images/przyciskAktywneINieaktywne.png" alt="Widoczne aktywne i nieaktywne rekordy" />
+ -&gt; przy takim ustawieniu w tabeli widoczne są zarówno aktywne jak i nieaktywne rekordy</li>
+</ul>
+
+<p>Jeśli chcesz ponownie aktywować rekord, zaznacz go w tabeli i kliknij przycisk <img class="inline" src="images/przyciskAktywuj.png" alt="Aktywuj" /></p>
+:ET

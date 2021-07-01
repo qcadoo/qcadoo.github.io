@@ -1,0 +1,61 @@
+I"�<p>Jeśli produkujesz seryjnie i jesteś w stanie określić ile danego produktu można wytworzyć w ciągu minuty, to produkcja na zmianę może być funkcjonalnością, która ułatwi Ci zaplanowanie produkcji. Funkcja rozkłada wykonanie ilości ze zlecenia produkcyjnego na kolejne zmiany i wyznacza datę zakończenia zlecenia. Zmiana rozpoczęcia zlecenia czy ilości zleconej powoduje przeliczenie planu - więc zawsze wiadomo ile na danej zmianie produktu ma być wytworzone wg norm, a także kiedy zlecenie zostanie ukończone.</p>
+
+<h2 id="konfiguracja-qcadoo-pod-plan-produkcji-na-zmianę">Konfiguracja qcadoo pod plan produkcji na zmianę</h2>
+
+<p>Aby móc skorzystać w pełni z funkcjonalności konieczna jest odpowiednia konfiguracja qcadoo:</p>
+<ol>
+  <li>muszą być zdefiniowane <a href="/zmiany">zmiany</a> na jakich firma pracuje (podstawowe &gt; zmiany)</li>
+  <li>zmiany muszą być przypisane do <a href="/linie-produkcyjne">linii produkcyjnej</a></li>
+  <li>aby plan mógł być tworzony z automatu konieczne jest ustawienie parametrów (Administracja &gt; Parametry &gt; Zlecenia &gt; Plan na zmianę)</li>
+</ol>
+
+<figure class="float-right "><a target="_blank" href="images/parametryPlanNaZmiane.png"><img src="images/parametryPlanNaZmiane.png" alt="Parametry planu na zmianę" class="percent90 " /></a><figcaption>Parametry planu na zmianę</figcaption></figure>
+
+<p>ustaw:</p>
+<ul>
+  <li><strong>automatyczny plan na zmianę</strong> = tak,</li>
+  <li><strong>algorytm wyliczania wydajności</strong>: jeśli czas wykonania zleconej ilości zależy tylko od normy wydajnościowej produktu to ustaw algorytm = <em>norma w technologii</em>. Jeśli czas wykonana uzależniony jest od normy i ilości zaangazowanych do pracy osób, to ustaw algorytm = <em>norma w technologii i ilość osób na zmianę</em>. Jeśli natomiast w inny sposób wyliczasz wydajność produkcji - skontaktuj się z nami, przygotujemy algorytm specjalnie dla Ciebie. Wówczas ustawisz algorytm <em>użytkownika</em>,</li>
+  <li><strong>pozwalać na niepełne jednostki</strong> = nie, jeśli nie da się wyprodukować ułamka produktu (np. maszyna w jednym cyklu wytwarza zawsze 1 sztukę wyrobu. Nigdy nie jesteśmy w stanie wyprodukować połowy sztuki).</li>
+</ul>
+
+<hr />
+
+<ol start="4">
+  <li>w <a href="/technologie">technologii</a> musi być podana norma wydajnościowa (czyli ile jednostek danego produktu można wykonać w ciągu minuty. Pamiętaj, że może to być również liczba z częścią ułamkową po przecinku)</li>
+  <li>jeśli będziesz korzystać z algorytmu: <em>norma w technologii i lość osób na zmianę</em> to musisz zadbać, by właściwa liczba pracowników była przypisana do linii w <a href="/przydzial-do-zmian">przydziale do zmian</a></li>
+</ol>
+
+<hr />
+
+<p>Wszystko poukładane. Czas na najciekawszy punkt programu!</p>
+
+<h2 id="produkcja-na-zaminę-w-zleceniu-produkcyjnym">Produkcja na zaminę w zleceniu produkcyjnym</h2>
+
+<p>Wprowadż zlecenie produkcyjne tak jak zwykle. Określ ilość, która powinna zostać wykonana, a także datę rozpoczęcia zlecenia. Przejdź w zleceniu do <img class="inline" src="images/przyciskProdukcjaNaZmiane.png" alt="Produkcja na zmianę" />
+ <strong>Produkcja na zmianę</strong> (przycisk mógł schowac się pod zieloną strzałką) i wywołaj funkcję<img class="inline" src="images/przyciskZaplanujProdukcjeNaZmiany.png" alt="Zaplanuj produkcję na zmianę" />
+ <strong>Zaplanuj produkcję na zmianę</strong>. Program policzy jaka będzie maksymalna produkcja na poszczególnych zmianach:</p>
+
+<figure><a target="_blank" href="images/zlecenieProdukcjaNaZmiane.png"><img src="images/zlecenieProdukcjaNaZmiane.png" alt="Produkcja na zmianę" /></a><figcaption>Rozłożenie planu produkcji na zmianę</figcaption></figure>
+
+<p>Na powyższym przykładzie widać, że aby zrealizować zlecenie trzeba przez 2 dni na 2 zmianach wykonać po 240 szt. a na trzeci dzień 1. zmiana powinna wykonać sztuk 40. Jeśli zapiszesz wyliczony plan na zmianę, po powrocie do zlecenia, zostanie ustawiona data zakończenia zlecenia.</p>
+
+<div class="bs-callout bs-callout-info">Jeśli w zleceniu z planem na zmianę zmienisz datę rozpoczęcia lub ilość zleconą, plan produkcji na zmianę zostanie z automatu przeliczony i zostanie wyznaczona nowa data zakończenia zlecenia</div>
+
+<p>Teraz możesz przekazać pracownikom co jest do zrobienia i w jakiej ilości sporządzając <a href="/wydruk-produkcji-na-zmiane">wydruk produkcji na zmianę</a></p>
+
+<p>Przydatne? Mam nadzieję, że tak.</p>
+
+<hr />
+<h2 id="produkcja-na-zmianę-na-wykresie-gantta">Produkcja na zmianę na wykresie Gantta</h2>
+
+<figure class="float-right "><a target="_blank" href="images/parametryPlanowanieNaLinie.png"><img src="images/parametryPlanowanieNaLinie.png" alt="Parametry Gantta" class="percent90 " /></a><figcaption>Parametry planowania na linię</figcaption></figure>
+
+<p>Dodatkowo - jeśli pracujesz na <strong>wykresie Gantta</strong>, to odpowiednio ustawione parametry pozwolą na przeliczanie planu na zmianę przy przeciąganiu kafelków, a także jego tworzenie przy przesuwaniu z bufora do kalendarza. Dzięki temu zawsze czas trwania zlecenia będzie taki jak normy wskazują.</p>
+
+<p>Jak ustawić parametry? Wejdź w <em>Administracja &gt; Parametry &gt; Planowanie na linie</em> i ustaw:</p>
+
+<ul>
+  <li><strong>wyliczaj czas zleceń przesuwanych z bufora</strong> = tak</li>
+  <li><strong>rodzaj zapisu</strong> = zapis z przeliczeniem planu na zmianę</li>
+</ul>
+:ET

@@ -1,0 +1,62 @@
+I"6	<h2 id="informacje">Informacje</h2>
+
+<p>Za pomocą tej metody api dodasz <a href="/firmy">firmy</a> do systemu. Zaktualizujsz też istniejące o podanym externalID.</p>
+
+<p><strong>Moduł integracyjny:</strong> urcBasic</p>
+
+<p><strong>Nazwa akcji:</strong> updateCompaniesBasic</p>
+
+<p><strong>URL:</strong> /integration/rest/updateCompaniesBasic.html</p>
+
+<p><strong>Metoda http:</strong> POST</p>
+
+<h2 id="zawartość-żądania">Zawartość żądania</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "companies" : [
+        {
+            "externalID" : "externalID",
+            "number" : "number",
+            "name" : "name",
+            "tax" : "tax", //opcjonalne
+            "street" : "street", //opcjonalne
+            "house" : "house", //opcjonalne
+            "flat" : "flat", //opcjonalne
+            "zipCode" : "zipCode", //opcjonalne
+            "city" : "city", //opcjonalne
+            "state" : "state", //opcjonalne
+            "country" : "country", //opcjonalne
+            "email" : "email", //opcjonalne
+            "website" : "website", //opcjonalne
+            "phone" : "phone", //opcjonalne
+            "isSupplier" : true or false, // opcjonalne
+            "isReceiver" : true or false // opcjonalne
+        }
+    ]
+}
+</code></pre></div></div>
+
+<h2 id="zawartość-odpowiedzi">Zawartość odpowiedzi</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "status": "OK",
+    "message": null // Gdy status ERROR - informacja z przyczyną błędu
+}
+</code></pre></div></div>
+
+<h2 id="działanie">Działanie</h2>
+<p>W tej akcji MES powinien otrzymać wybrane firmy z ERP, które zostały zaktualizowane lub utworzone od ostatniej synchronizacji.</p>
+
+<p>Dla każdej firmy ta metoda powinna:</p>
+<ul>
+  <li>jeżeli jest to firma o podanym externalID w qcadoo to go aktualizuje
+    <ul>
+      <li>może zaktualizować nawet numer,</li>
+      <li>qcadoo sprawdza czy zmiana przechodzi standardową walidację systemową. Jeżeli nie - akcja zwróci błąd i wszystkie aktualizacje z tej akcji nie zostaną wykonane (cofnięcie transakcji)</li>
+    </ul>
+  </li>
+  <li>jak nie ma danego externalID to dodaje nową firmę
+    <ul>
+      <li>tu również powinna działać walidacja</li>
+    </ul>
+  </li>
+</ul>
+:ET

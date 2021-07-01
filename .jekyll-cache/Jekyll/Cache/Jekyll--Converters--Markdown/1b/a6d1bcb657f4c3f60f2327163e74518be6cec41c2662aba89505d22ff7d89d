@@ -1,0 +1,14 @@
+I"u<p>Aby ułatwić pracę z definiowaniem wynagrodzeń pracowników na poszczególnych stanowiskach system Qcadoo stworzył możliwość grupowania pracowników. Tutaj możemy pogrupować pracowników według takiej samej stawki godzinowej dzięki czemu będziemy mogli w łatwy i szybki sposób dodawać informacje odnośnie wynagrodzenia pracownika przypisując go do konkretnej grupy płacowej.</p>
+
+<h2 id="jak-dodać-nową-grupę-płacową">Jak dodać nową grupę płacową?</h2>
+
+<p>Aby stworzyć nową grupę płacową należy wybrać: <strong>Pracownicy » Grupy płacowe »</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong></p>
+
+<p>Tutaj ustalamy “Numer” grupy oraz “Koszt godzinowy pracy w grupie”, są to pola wymagane. Dodatkowo możemy wprowadzić “Nazwę” i wybrać “Nadrzędną grupę płacową” (Nadrzędne grupy płacowe definiujemy w <strong>PODSTAWOWE » Słowniki</strong>).
+Po wprowadzeniu danych wybieramy <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>. Wprowadzone grupy płacowe wyświetlają się w formie listy.</p>
+
+<figure><a target="_blank" href="images/Podstawowe-%20grupy%20p%C5%82acowe.png"><img src="images/Podstawowe-%20grupy%20p%C5%82acowe.png" alt="grupa płacowa" /></a><figcaption>Formularz grupy płacowej</figcaption></figure>
+
+:ET

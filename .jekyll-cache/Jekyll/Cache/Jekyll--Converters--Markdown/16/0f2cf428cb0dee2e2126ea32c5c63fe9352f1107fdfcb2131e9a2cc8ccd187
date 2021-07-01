@@ -1,0 +1,71 @@
+I"X<p>Zapotrzebowanie materiałowe planu sprzedaży niesie informację o materiałach potrzebnych, aby zrealizować <a href="plany-sprzedazy">plan</a>.</p>
+
+<h2 id="dodawanie-zapotrzebowania-materiałowego-planu-sprzedaży">Dodawanie zapotrzebowania materiałowego planu sprzedaży</h2>
+
+<p>Aby utworzyć zapotrzebowanie wejdź w <strong>Zaopatrzenie &gt; Zapotrzebowanie materiałowe planu sprzedaży</strong>:</p>
+
+<figure><a target="_blank" href="images/zaopatrzenieZapotrzebowanieMaterialowePlanuLista.png"><img src="images/zaopatrzenieZapotrzebowanieMaterialowePlanuLista.png" alt="Lista zapotrzebowań materiałowych planu sprzedaży" /></a><figcaption>Lista zapotrzebowań materiałowych planu sprzedaży</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong>  </p>
+
+<figure><a target="_blank" href="images/zaopatrzenieZapotrzebowanieMaterialowePlanuGlowna.png"><img src="images/zaopatrzenieZapotrzebowanieMaterialowePlanuGlowna.png" alt="Formularz dodawania zapotrzebowania materiałowego planu sprzedaży" /></a><figcaption>Formularz dodawania zapotrzebowania materiałowego planu sprzedaży</figcaption></figure>
+
+<div class="bs-callout bs-callout-warning">Zapotrzebowanie materiałowe może być też dodane z poziomu szczegółów planu sprzedaży.</div>
+
+<p>Podaj <strong>plan sprzedaży</strong>, którego zestawienie ma dotyczyć. I zapisz używając przycisku: <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>. I wygeneruj: <img class="inline" src="images/generateIcon24.png" alt="Generuj" />
+ <strong>Generuj</strong>.</p>
+
+<p>W efekcie wypełniona zostaje zakładka <strong>materiały</strong></p>
+
+<figure><a target="_blank" href="images/zaopatrzenieZapotrzebowanieMaterialowePlanuMaterialy.png"><img src="images/zaopatrzenieZapotrzebowanieMaterialowePlanuMaterialy.png" alt="Materiały potrzebne do zrealizowania planu" /></a><figcaption>Materiały potrzebne do zrealizowania planu</figcaption></figure>
+
+<p>Z planu sprzedaży wyciągnięte są produky wejściowe zdefiniowane w technologiach. Dla każdego produktu, na podstawie normy technologii i ilości planowanej, wyliczona jest potrzebna ilość. Jeśli w planie ujęta jest rodzina produktu, a w technologii rodziny znajdują się produkty uzależnione od rozmiaru, zostaną one także ujęte w zapotrzebowaniu, ale nie będzie wskazana konkretna potrzebna ilość (z planu nie wynika jaka będzie produkowana ilość każdego z produktów należących do rodziny - przyjmujemy tylko zagregowaną ilość dla całej rodziny). Dla tych produktów uzupełnione będą informacje o:</p>
+<ul>
+  <li>grupie rozmiarowej</li>
+  <li>sumie ilości dla rozmiarów</li>
+</ul>
+
+<p>Zapotrzebowanie materiałowe niesie ponadto informacje o:</p>
+<ul>
+  <li>aktualnym stanie magazynowym produktu</li>
+  <li>ilości zaplanowanej do użycia tego produktu w otwartych zleceniach produkcyjnych</li>
+  <li>domyślnym dostawcy</li>
+  <li>minimalnej ilości zamówienia u tego dostawcy</li>
+</ul>
+
+<h2 id="zamawianie-brakujących-surowców">Zamawianie brakujących surowców</h2>
+
+<p>Z poziomu zapotrzebowania materiałowego planu sprzedaży możesz utworzyć <a href="/dostawy">dostawy</a> na brakujące surowce.</p>
+
+<p>Aby to uczynić zaznacz produkty, które mają pojawić się na jednym zamówieniu</p>
+
+<figure><a target="_blank" href="images/zaopatrzenieZapotrzebowanieMaterialowePlanuTworzenieDostawy.png"><img src="images/zaopatrzenieZapotrzebowanieMaterialowePlanuTworzenieDostawy.png" alt="Tworzenie dostawy" /></a><figcaption>Tworzenie dostawy</figcaption></figure>
+
+<p>i kliknij przycisk: <img class="inline" src="images/przyciskUtworzDostawe.png" alt="Przycisk Utwórz dostawę" />
+ <strong>Utwórz dostawę</strong></p>
+
+<p>otworzy się częściowo wypełniony formularz dodawania dostawy:</p>
+
+<figure><a target="_blank" href="images/zaopatrzenieZapotrzebowanieMaterialowePlanuTworzenieDostawyGlowna.png"><img src="images/zaopatrzenieZapotrzebowanieMaterialowePlanuTworzenieDostawyGlowna.png" alt="Tworzenie dostawy - zakładka Główna" /></a><figcaption>Tworzenie dostawy - zakładka Główna</figcaption></figure>
+
+<p>Jeśli produkty nie miały przypisanego <a href="/firmy">domyślnego dostawcy</a>, wskaż u kogo złożysz zamówienie. Uzupełnij też spodziewaną datę dostawy. Jeśli magazyn nie podpowiedział się z <a href="/parametry-zaopatrzenie.html#dostawy">parametrów</a> - wskaż na który dostawa będzie przyjmowana.</p>
+
+<p>W zakładce <strong>Zamówione produkty</strong> widoczne będą produkty zaznaczone w planie:</p>
+
+<figure><a target="_blank" href="images/zaopatrzenieZapotrzebowanieMaterialowePlanuTworzenieDostawyZamowioneProd.png"><img src="images/zaopatrzenieZapotrzebowanieMaterialowePlanuTworzenieDostawyZamowioneProd.png" alt="Tworzenie dostawy - zakładka Zamówione produkty" /></a><figcaption>Tworzenie dostawy - zakładka Zamówione produkty</figcaption></figure>
+
+<p>Dla każdego produktu uzupełni się ilość na podstawie ilości z zapotrzebowania lub na podstawie minimalnej ilości zamówienia, jeśli jest wyższa od ilości potrzebnej.</p>
+
+<p>Jeśli w zapotrzebowaniu zaznaczone zostały produkty wg rozmiaru, to w dostawie ilość nie będzie wypełniona - musisz ją podać samodzielnie (wiersze zostaną oznaczone kolorem czerwonym, dlatego na pewno nie przeoczysz, że dostawa wymaga uzupełnienia).</p>
+
+<p>Jeśli chcesz - wszystkie podpowiedziane informacje mogą być przez Ciebie zmienione.</p>
+
+<p>O tym co dalej dzieje się z dostawą przeczytasz w <a href="/dostawy">tej dokumentacji</a>.</p>
+
+<p>Po powrocie do zapotrzebowania materiałowego planu sprzedaży te wiersze, do których dostawa została wygenerowana, będą miały w kolumnie Dostawa wartość ‘tak’.</p>
+
+<p>Do jednego zapotrzebowania materiałowego możesz tworzyć wiele dostaw - np. tyle u ilu różnych dostawców składasz zamówienie.</p>
+
+:ET

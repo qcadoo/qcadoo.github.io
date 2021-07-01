@@ -1,0 +1,74 @@
+I"r!<p>W Parametry &gt; Parametry magazynu znajdują się parametry związane z magazynem.</p>
+
+<h2 id="zakładka-główna---parametry-dokumentów">Zakładka główna - parametry dokumentów</h2>
+
+<p>W pierwszej zakładce możesz skonfigurować <a href="/dokumenty">dokumenty magazynowe</a>.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryMagazynGlowna.png"><img src="images/administracjaParametryMagazynGlowna.png" alt="Parametry magazynu - zakładka główna" /></a><figcaption>Parametry magazynu - zakładka główna</figcaption></figure>
+
+<p>Ustaw, które pola pozycji dokumentów mają być widoczne. Jeśli nie chcesz ewidencjonować z dokładnością do palet (i ich numerować) to pewnie kolumny: typ palety i paleta nie będą Ci potrzebne. Wejdź w szczegóły pola w tabeli i odznacz parametr <em>Widoczność</em>. Dzięki temu Twój widok nie będzie zaśmiecony kolumnami, których nie potrzebujesz. A i Twoi pracownicy nie będą się zastanawiać co w danym polu wpisać.</p>
+
+<div class="bs-callout bs-callout-warning">Jest lista pól w pozycjach dokumentu, których w parametrach wyłączyć się nie da. Pola te w tabeli w parametrach mają <em>Możliwość zmiany widoczności</em> = nie. qcadoo ich potrzebuje do prawidłowej ewidencji</div>
+
+<p>Za co odpowiadają pozostałe parametry:</p>
+<ul>
+  <li><strong>Podpowiadaj jeden zasób</strong> - jeśli będziesz wystawiać dokument magazynowy rozchodowy, to przy podaniu produktu program podpowie zasób, który będzie wydawany. Dzięki temu od razu będą widoczne atrybuty wynikające z zasobu (jak cena, data ważności, czy miejsce składowania). Rozwiązanie ma to jednak swoje minusy - jeśli danego zasobu zostały 2 szt. a Ty potrzebujesz wydać 10 szt. to program zasób podpowie, ale przy zapisie zawoła, że nie ma wystarczającego stanu. Jeśli zasób nie będzie podpowiadany przy tworzeniu pozycji, to na akceptacji dokumentu taką pozycję porozbija na tyle, ile różnych zasobów musi wydać</li>
+  <li><strong>Akceptacja dokumentu przy wydruku dyspozycji</strong> - jeśli zaznaczysz parametr, to w momencie wywołania wydruku dokumentu w szablonie Dyspozycja przesunięcia, dany dokument zostanie zaakceptowany. Dzięki temu w jednym kroku możesz potwierdzić, że realizacja dokumentu nastąpiła. Jeśli parametr nie będzie zaznaczony - trzeba będzie osobno zaakceptować i wydrukować dokument.</li>
+  <li><strong>Nie pokazuj cen na wydruku dokumentu</strong> - wolisz aby pracownicy nie widzieli ile kosztują dane produkty? Zaznacz parametr, a na wydrukowanym dokumencie kolumny z ceną i wartością zostaną ukryte.</li>
+  <li><strong>Prezentuj ilość całkowitą i resztę</strong> - parametr przydatny w sytuacji, gdy prowadzisz ewidencję produktu w jednostce podstawowej i dodatkowej. Innymi słowy - gdy masz na magazynie produkt w kartonach, a w kartonach jakąś ilość sztuk. Np. karton długopisów to 80 szt. Założmy, że wydajesz 346 szt. długopisów - już widzisz jak pracownik próbuje ustalić ile to kartonów? Zaznacz parametr, wówczas na wydruku dokumentu pojawi się informacja, że to 4 kartony i 26 sztuk.</li>
+  <li><strong>Dobieraj zasoby bez względu na przelicznik</strong> - ten parametr też przyda się tylko, gdy prowadzisz ewidencję produktu w dwóch jednostkach. Zasoby tworzone na magazynie mają informację o obu jednostkach (i ilościach w tych jednostkach) a także o przeliczniku, w jakim zasób jest przyjęty. Podczas wydawania produktu z magazynu dokumentem rozchodowym, program poszukuje zasobów danego produktu o przeliczniku podanym w pozycji dokumentu (innymi słowy - qcadoo zakłada, że jeśli podałeś przelicznik 80 to znaczy, że chcesz wydać karton, który zawiera 80 szt. długopisów, a nie taki, który zawiera tych długopisów 120). Jeśli nie ma to jednak dla Ciebie znaczenia to zaznacz parametr - wówczas przy dobieraniu zasobów program najpierw sprawdzi, czy ma na stanie zasób o podanym w pozycji dokumentu przeliczniku. Jeśli nie ma - to spróbuje dobrać zasób o innym przeliczniku i odpowiednio przeliczy ilosci w pozyci dokumentu</li>
+</ul>
+
+<p>Pamiętaj też o parametrze <em>Szkicowe dokumenty rezerwują stany</em>, który ustawia się w <a href="/magazyny">magazynie</a>.</p>
+
+<hr />
+
+<figure class="float-right "><a target="_blank" href="images/parametryMagazynDodajAtrybuty.png"><img src="images/parametryMagazynDodajAtrybuty.png" alt="Dodawanie kolumn dokumentu na podstawie atrybutów" class="percent90 " /></a><figcaption>Dodawanie kolumn dokumentu na podstawie atrybutów</figcaption></figure>
+
+<p>Jeśli korzystasz z atrybutów zasobów i chcesz, aby pracownicy podczas wystawiania przychodowych dokumentów magazynowych, mogli określać wartości tych atrybutów, koniecznie zdecyduj, które z nich w dokumencie mają się pojawiać. Kliknij przycisk <img class="inline" src="images/przyciskDodajKolumnyZAtrybutamiZasobu.png" alt="Przycisk Dodaj kolumny z atrybutami zasobu" />
+ <strong>Dodaj kolumny z atrybutami zasobu</strong> i wskaż atrybuty, które chcesz wypełniać z poziomu dokumentu. Tak utworzone kolumny mogą być ukryte (parametr <em>Widoczność</em>).</p>
+
+<p>Atrybuty aktywne będą w dokumentach typu przyjęcie wewnętrzne i przyjęcie zewnętrzne. A w pozostałych typach dokumentu będą nieaktywne, ale uzupełnią się w nich informacje o wartościach atrybutów z rozchodowanych zasobów.</p>
+
+<div class="bs-callout bs-callout-warning">Jeśli w parametrach kolumna nie będzie zdefiniowana, to nie będziesz widzieć które dokumenty jakie wartości atrybutów dodały. Ale same atrybuty zasobu, dodane np. z rejestracji produkcji czy dostawy w zasobie będą zapisane.</div>
+
+<hr />
+
+<h2 id="parametry-stanu-magazynowego">Parametry stanu magazynowego</h2>
+
+<p>Parametry umieszczone w tej zakładce dotyczą <a href="/stan-palet">przesuwania palet</a>. Możemy zasugerować Ci produkty z których palet warto przenieść na inną paletę (aby zrobić miejsce w lokalizacji), a także które palety są w stanie pomieścić dodatkowe produkty.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryMagazynStanyMagazynowe.png"><img src="images/administracjaParametryMagazynStanyMagazynowe.png" alt="Parametry stanów magazynowych" /></a><figcaption>Parametry stanów magazynowych</figcaption></figure>
+
+<ol>
+  <li>
+    <p><strong>Palety do przesunięcia</strong> - podaj ilość w jednostce podstawowej produktu. Sprawdzimy czy są palety z ilością produktów mniejszą niż podałeś - jeśli tak, to uznamy, że warto przełożyć je na inną paletę</p>
+  </li>
+  <li>
+    <p><strong>Palety z wolnym miejscem</strong> - polaj ilość w jednostce podstawowej produktu. Sprawdzimy czy są są palety z ilością mniejszą niż ta, którą podałeś i uznamy, że mogą one przyjąć prodykty z innych palet.</p>
+  </li>
+</ol>
+
+<div class="bs-callout bs-callout-warning">Parametr jest globalny. Musisz przyjąć średnią ilość dla wszystkich palet składowanych na magazynie. Ma zatem sens tylko wówczas, gdy magazynujesz produkty w miarę jednorodne</div>
+
+<ol start="3">
+  <li>
+    <p><strong>oznacz kolorem zasoby po terminie i z krótkim terminem ważności</strong> - zaznacz parametr, a w liście zasobów oznaczymy czerwonym kolorem zasoby, których data ważności została przekroczona. Dodatkowo - jeśli wypełnisz pole poniżej pojawi się kolor pomarańczowy, oznaczający zasoby, których data ważności się zbliża.</p>
+  </li>
+  <li>
+    <p><strong>krótki termin ważności</strong> - wskaż na ile dni przed terminem ważności chcesz być informowany, że ważność zasobu się zbliża</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="parametry-pozycji-dokumentów-z-atrybutami">Parametry Pozycji dokumentów z atrybutami</h2>
+
+<p>Parametry tej zakładki dotyczą listy <a href="/pozycje-dokumentow-z-atrybutami">pozycje dokumentów z atrybutami zasobu i produktu</a></p>
+
+<figure><a target="_blank" href="images/administracjaParametryMagazynPozycjeDokumentow.png"><img src="images/administracjaParametryMagazynPozycjeDokumentow.png" alt="Parametry stanów magazynowych" /></a><figcaption>Parametry stanów magazynowych</figcaption></figure>
+
+<ol>
+  <li><strong>Prezentuj dane z … miesięcy</strong> - podaj z jakiego okresu / ilu miesięcy (od daty aktualnej wstecz) mamy prezentować dane do analizy. Parametr służy jedynie do podpowiadania danych (dzięki temu nie będziesz musiał każdorazowo danych wpisywać w oknie), ale zawsze będziesz mógł pobrać dane z innego okresu</li>
+</ol>
+:ET

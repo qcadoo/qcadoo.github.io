@@ -1,0 +1,38 @@
+I"�<p>Do rozpoczęcia prac potrzebujesz jeszcze rozdysponować zadania na halę produkcyjną. W jaki sposób? Jak to zwykle bywa w qcadoo - na kilka sposobów. Opiszemy je poniżej - a Ty wybierz ten, który dla Twojej Firmy będzie najkorzystejszy.</p>
+
+<h2 id="karty-pracy">Karty pracy</h2>
+
+<p>Karty pracy wskazują wszystkie operacje, które mają być wykonane w celu realizacji konkretnego zlecenia.</p>
+
+<p>Wybierz „Planowanie” i „Karty pracy”. Postępuj dalej analogicznie jak w wypadku generowania zapotrzebowania materiałowego. Nadaj nazwę kartom pracy dla tego zlecenia. Wybierz <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>. Aktywuje się pole „Lista zleceń”. Klikając „Dodaj istniejący”, wybierz z listy zlecenie produkcyjne, dla którego chcesz stworzyć karty pracy. Kolejno wybierz według jakiego podziału chcesz mieć wyszczególnione operacje: produktu końcowego, typu stacji roboczej, działu, bądź bez podziału. Następnie wybierz <img class="inline" src="images/generateIcon24.png" alt="Generuj" />
+ <strong>Generuj</strong>. Teraz karty pracy są już gotowe do wydruku (przycisk <img class="inline" src="images/pdfIcon24.png" alt="Przycisk PDF" />
+).</p>
+
+<p>Jeśli ustawisz Podział operacji względem = działu, to będziesz miał do dyspozycji dodatkowy szablon wydruku –&gt; PDF do działu. Wypróbuj oba i sprawdź, który bardziej Ci odpowiada.</p>
+
+<figure><a target="_blank" href="images/planowanie-%20karty%20pracy.png"><img src="images/planowanie-%20karty%20pracy.png" alt="karta pracy" /></a><figcaption>Formularz karty pracy</figcaption></figure>
+
+<p>Karty pracy możesz również utworzyć bezpośrednio z listy zleceń - zaznacz zlecenia, które Cię interesują i kliknij <img class="inline" src="images/dodaj%20nowy.png" alt="Dodaj nowy" />
+ Dodaj karty pracy. Dalej postępuj wg instrukcji podanej powyżej.</p>
+
+<p>Więcej o kartach pracy i ich parametryzacji przeczytasz <a href="/karty-pracy">tutaj</a>.</p>
+
+<h2 id="terminal-produkcyjny">Terminal produkcyjny</h2>
+
+<p>Uważasz, że karty pracy generują za dużo papieru? I masz możliwość dostarczenia komputerów / tabletów na działy produkcyjne? Przekaż informacje o tym co jest do zrobienia przy pomocy terminala produkcyjnego. 
+W terminalu produkcyjnym widoczne są zlecenia rozpoczęte zaplanowane na dziś (a tak naprawdę na datę rozpoczęcia zmiany ustawioną w terminalu). Lista może być dodatkowo przefiltrowana do działu (a dział może się uzupełnić na podstawie przypisania do pracownika). Pracownik widzi co ma do zrobienia, wybiera zlecenie, zaznajamia się z opisem. I produkuje.</p>
+
+<p>O szczegółach poczytać można <a href="/terminal">tutaj</a>.</p>
+
+<h2 id="lista-zleceń-produkcyjnych-do-wykonania">Lista zleceń produkcyjnych do wykonania</h2>
+
+<p>Być może produkcja w Twojej firmie jest powtarzalna i doskonale wiadomo z jakich surowców produkować i jakie czynności trzeba wykonać. I być może pracownikom wystarczy informacja co produkować, w jakiej ilości i na jakiej linii. Jeśli tak - przygotuj dla nich (w PDF lub Excel) listę zleceń. W tym celu ustaw w liście planowanych zleceń kolumny, które chcesz na raporcie zobaczyć i wykonaj eksport do PDF/XLS. Wydrukuj i rozdaj pracownikom. 
+Dodatkowo - kolumna Kategoria na wydruku PDF może być oznaczana kolorem, ustawionym w parametrach (Administracja &gt; Parametry &gt; Zlecenia &gt; Kategorie zleceń). Może to być przydatne, gdy chcesz, by pilne zlecenia rzucały się pracownikowi w oczy.</p>
+
+<hr />
+<p>Pracownicy już wiedzą co mają robić - czas produkować. I raportować w qcadoo efekty.</p>
+
+<p><strong>Krok 10/11: <a href="/krok-10-rejestracja-produkcji">Rejestracja produkcji</a></strong></p>
+
+:ET

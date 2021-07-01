@@ -1,0 +1,12 @@
+I"L<p>Raport źródeł kosztów da Ci informację o tym ile czasu Twoi pracownicy poświęcili na realizację zdarzeń, w ramach danego <a href="/zrodla-kosztow">źródła kosztów</a>.</p>
+
+<p>Aby stworzyć raport wejdź w <strong>Utrzymanie ruchu &gt; Raport źródeł kosztów</strong></p>
+
+<figure><a target="_blank" href="images/DURRaportZrodelKosztow.png"><img src="images/DURRaportZrodelKosztow.png" alt="Formularz generowania raportu źródeł kosztów" /></a><figcaption>Formularz generowania raportu źródeł kosztów</figcaption></figure>
+
+<p>podaj zakres czasowy, dla jakiego zestawienie chcesz uzyskać. Możesz ograniczyć też dane do konkretnego źródła kosztów. Raport zostanie wygenerowany po kliknięciu przycisku: <img class="inline" src="images/przyciskKosztyPracownika.png" alt="Przycisk Koszty pracownika" />
+ <strong>Koszty pracownika</strong></p>
+
+<figure><a target="_blank" href="images/DURRaportKosztowPracownikaXLS.png"><img src="images/DURRaportKosztowPracownikaXLS.png" alt="Raport źródeł kosztów" /></a><figcaption>Raport źródeł kosztów</figcaption></figure>
+
+:ET

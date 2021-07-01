@@ -1,0 +1,21 @@
+I"�<p>Model grupuje produkty o podobnych cechach. Może to być cała seria ubrań z danym motywem. Informacje przypisane do modelu widoczne będą na wydruku grupy zleceń.</p>
+
+<p>Aby dodać model wejdź w <strong>Produkty &gt; Modele</strong></p>
+
+<figure><a target="_blank" href="images/produktyModeleLista.png"><img src="images/produktyModeleLista.png" alt="Lista modeli" /></a><figcaption>Lista modeli</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong>  </p>
+
+<figure><a target="_blank" href="images/produktyModeleNowy.png"><img src="images/produktyModeleNowy.png" alt="Formularz dodawania modelu" /></a><figcaption>Formularz dodawania modelu</figcaption></figure>
+
+<p>Uzupełnij następujące informacje:</p>
+
+<ul>
+  <li><strong>nazwa</strong> - musi być unikalna, czyli może istnieć tylko jeden model o danej nazwie</li>
+  <li><strong>asortyment</strong> - model może należeć do asortymentu - wskaż odpowiedni z listy <a href="/asortymenty">asortymentów</a></li>
+  <li><strong>forma</strong> - możesz wskazać z jakiej formy trzeba korzystać przy produkcji danego modelu</li>
+  <li><strong>rodzaj wyrobu</strong> -  do wyboru ze słownika. Użyj jeśli produkujesz różnego rodzaju wyroby i chcesz pokazać pracownikom do jakiej grupy należy ten model (np. spodnie, koszulki i bluzy)</li>
+  <li><strong>etykieta</strong> - możesz do modelu przypisać etykietę, która powinna zostać do wyrobu użyta</li>
+</ul>
+:ET

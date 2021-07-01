@@ -1,0 +1,99 @@
+I"V<p>Logując się do qcadoo wia Cię dashboard. Będziesz jednak wracał na nią częściej - bo proponuje kilka ciekawych rozwiazań, o których poczytasz poniżej.</p>
+
+<div class="bs-callout bs-callout-warning">Jeśli logujesz się po raz pierwszy i masz uprawnienia administratora pojawi się <a href="/konfigurator">konfigurator</a>, który pozwoli w szybki sposób ustawić dane niezbędne do rozpoczęcia pracy w qcadoo.</div>
+
+<p>Zacznę od tego, że cały dashboard jest konfigurowalny. Wejdź w <strong>Parametry &gt; Parametry ogólne &gt; przycisk <a href="/parametry-dashboard">Dashboard</a></strong> i wskaż co chciałbyś zobaczyć na stronie startowej.</p>
+
+<p>Pamiętaj, że w każdej chwili możesz przejść do dashboardu klikając w lewym górnym rogu ekranu w przycisk <img class="inline" src="images/przyciskQcadoo.png" alt="Przycisk qcadoo" />
+ <strong>qcadoo</strong>).</p>
+
+<hr />
+
+<p>Dashboard dzieli się na 3 obszary:</p>
+<ol>
+  <li>obszar przycisków szybkiego wybierania</li>
+  <li>obszar wykresu dziennej produkcji</li>
+  <li>obszar dzisiejszych zleceń produkcyjnych lub zadań operacyjnych</li>
+</ol>
+
+<figure><a target="_blank" href="images/dashboard_caly.png"><img src="images/dashboard_caly.png" alt="Dashboard" /></a><figcaption>Dashboard</figcaption></figure>
+
+<h2 id="przyciski-szybkiego-wybierania">Przyciski szybkiego wybierania</h2>
+
+<p>Masz możliwość ustawienia maksymalnie 6 przycisków z oferowanych w parametrach. Dzięki temu najczęściej używane funkcjonalności będziesz mieć zawsze pod ręką i szybko będziesz mógł je wywołać.</p>
+
+<div class="bs-callout bs-callout-warning">W parametrach możesz też ustawić kolejność w jakiej wyświetlane są przyciski.</div>
+
+<h2 id="wykres-dziennej-produkcji">Wykres dziennej produkcji</h2>
+
+<p>Wykres przedstawia dane z dzisiejszej produkcji. Składa się z trzech grup:</p>
+<ul>
+  <li>produkcja nie rozpoczęta</li>
+  <li>produkcja aktualnie realizowana</li>
+  <li>produkcja ukończona</li>
+</ul>
+
+<p>Analizowane są wszystkie zlecenia produkcyjne z dziś. Z każdego zlecenia pobierany jest procent wykonania. I to procent wykonania kwalifukuje zlecenie do danej grupy na wykresie. Jeśli w zleceniu nie ma ilości wyprodukowanej (czyli procent wykonania = 0) to zlecenie kształtuję grupę produkcji nie rozpoczętej. Jeśli produkcja została rozpoczęta i zarejestrowano już ilość wyprodukowaną, a procent wykonania jest większy od 0 ale nie przekroczył jeszcze 100%, to zlecenie wskakuje do grupy aktualnie realizowanych. Jeśli natomiast produkcja została zrealizowana w pełni, czyli wykonano 100% albo ustawiono status ‘zakończone’ to dane ze zlecenia zwiększają grupę produkcji ukończonej.</p>
+
+<h2 id="obszar-zleceń-produkcyjnych-lub-zadań-operacyjnych">Obszar zleceń produkcyjnych lub zadań operacyjnych</h2>
+
+<p>O tym co będziesz widzieć na dashboardzie decydują parametry - jeśli raportujesz zlecenia produkcyjne, ustaw widoczność zleceń. Jeśli natomiast raportujesz wykonanie każdej operacji - ustaw widoczność zadań operacyjnych.</p>
+
+<p>Ten element dashboardu ma na celu szybkie pokazanie Ci co masz zaplanowane do realizacji na dziś. I tu znowu 3 grupy:</p>
+<ul>
+  <li>oczekujące</li>
+  <li>realizowane</li>
+  <li>gotowe
+<br />
+<br /></li>
+</ul>
+
+<p>W zależności od statusu zlecenie wskakuje do właściwej grupy::</p>
+<ul>
+  <li>jeśli zlecenia mają status <em>zaakceptowane</em> lub <em>przerwane</em> to prezentowane są w grupie <strong>oczekujące</strong></li>
+  <li>jeśli zlecenia mają status <em>rozpoczęte</em> to pojawiają się w grupie <strong>realizowane</strong></li>
+  <li>jeśli zlecenia mają status <em>zakończone</em> to kształtują grupę <strong>gotowe</strong> 
+<br />
+<br /></li>
+</ul>
+
+<p>Przeciągając zlecenia między grupami (z lewej strony na prawą) możesz zmieniać ich statusy:</p>
+<ul>
+  <li>z grupy <em>oczekujące</em> do <em>realizowane</em> –&gt; zlecenie dostaje status <strong>rozpoczęte</strong></li>
+  <li>z grupy <em>realizowane</em> do <em>gotowe</em> –&gt; zlecenie dostaje status <strong>zakończone</strong>
+<br />
+<br /></li>
+</ul>
+
+<p>Natomiast o tym w jakiej grupie zostanie zaprezentowane zadanie operacyjne świadczy stopień jego realizacji, interpretowany w następujący sposób:</p>
+<ul>
+  <li>jeśli zadanie nie ma zarejestrowanej produkcji i jego procent wykonania to 0, pojawia się w grupie <strong>oczekujące</strong>,</li>
+  <li>jeśli zadanie ma co najmniej jeden meldunek z produkcji, a procent wykonania kształtuje się między 0 a 100 procent, to widoczne jest w grupie <strong>realizowane</strong></li>
+  <li>jeśli zadanie jest w pełni wykonane i jego procent = 100 albo status to <em>zakończone</em> to zadanie będzie zaprezentowane w grupie <strong>gotowe</strong></li>
+</ul>
+
+<div class="bs-callout bs-callout-warning">Zadania operacyjne nie mogą być przesuwane między grupami. Statusy zadań muszą być zmieniane z poziomu <a href="/zlecenia-produkcyjne">listy zleceń produkcyjnych</a>.</div>
+
+<h3 id="dodatkowe-funkcje-dostępne-z-poziomu-obszaru-zleceń--zadań-operacyjnych">Dodatkowe funkcje dostępne z poziomu obszaru zleceń / zadań operacyjnych</h3>
+
+<p>Z poziomu zleceń produkcyjnych widocznych na dashboardzie możesz wykonać następujące funkcje:</p>
+<ol>
+  <li>klikając w numer zlecenia (czarna belka) przejdziesz do szczegółów zlecenia produkcyjnego. I z tego poziomu możesz wykonać wszystko to, co jest możliwe w standardzie dla zlecenia o danym statusie</li>
+  <li>w obszarze <strong>realizowane</strong> z poziomu zlecenia raportowanego zbiorczo możliwe jest przejście do terminala rejestarcji produkcji (przycisk <img class="inline" src="images/przyciskPokazTerminal.png" alt="Przycisk Pokaż terminal" />
+ <strong>Pokaż terminal</strong>). Dane z automatu zostaną zaczytane, wystarczy, że wprowadzisz efekty wykonanej produkcji i potwierdzisz meldunek</li>
+  <li>klikając w przycisk <img class="inline" src="images/przyciskDodajZlecenie.png" alt="Przycisk Dodaj zlecenie" />
+ <strong>Dodaj zlecenie</strong> utworzysz w bardzo intuicyjny sposób zlecenie produkcyjne. Poczytasz o tym <a href="/dashboard-dodawanie-zlecen">tutaj</a>
+<br />
+<br /></li>
+</ol>
+
+<p>Z poziomu zadań operacyjnych widocznych na dashboardzie możesz wykonać następujące funkcje:</p>
+<ol>
+  <li>klikając w numer zadania (czarna belka) przejdziesz do szczegółów zadania operacyjnego</li>
+  <li>klikając w numer zlecenia (widoczny w treści kafelka) przejdziesz do szczegółów zlecenia produkcyjnego</li>
+  <li>klikając przycisk <img class="inline" src="images/przyciskPokazTerminal.png" alt="Przycisk Pokaż terminal" />
+ <strong>Pokaż terminal</strong> przejdziesz do terminala rejestracji produkcji i będziesz mógł zaraportować efekty swojej produkcji (dane zostaną z automatu wczytane, zostaje Ci podanie ilości, czasu i potwierdzenie meldunku).</li>
+</ol>
+
+<div class="bs-callout bs-callout-warning">Jeśli użytkownik, z którego korzystasz, ma przypisanego pracownika, to zostanie on z automatu wypełniony po przejściu do terminala. Jeśli nie ma - będziesz musiał pracownika ręcznie zalogować i dopiero wówczas wczytają się dane o zadaniu / zleceniu.</div>
+:ET

@@ -1,0 +1,22 @@
+I"�<p>Rozliczenie czasu pracy pracownika zbiera informacje o czasie pracy poświeconym na rzecz danego zlecenia czy zadania operacyjnego. Źródłem danych do zestawienia są rekordy rejestracji, czyli efekty raportowania produkcji np. z terminala. Aby dane były realne - każdy z pracowników musi przy każdym zleceniu czy zadaniu tworzyć meldunek z terminala wskazując swój czas pracy (np. wykorzystując START - STOP).</p>
+
+<p>Aby przeprowadzić analizę czasu pracy wejdź w <strong>analizy &gt; rozliczenie czasu pracy pracownika</strong>:</p>
+
+<figure><a target="_blank" href="images/analizyRozliczenieCzasuPracyPracownikaKontekst.png"><img src="images/analizyRozliczenieCzasuPracyPracownikaKontekst.png" alt="Ustawianie kontekstu czasowego" /></a><figcaption>Ustawianie kontekstu czasowego</figcaption></figure>
+
+<p>Podaj daty, dla jakich chcesz uzyskać zestawienie i kliknij przycisk <img class="inline" src="images/przyciskWczytajDane.png" alt="Przycisk Wczytaj dane" />
+ <strong>Wczytaj dane</strong></p>
+
+<figure><a target="_blank" href="images/analizyRozliczenieCzasuPracyPracownikaDane.png"><img src="images/analizyRozliczenieCzasuPracyPracownikaDane.png" alt="Dane z rozliczenia czasu pracy pracownika" /></a><figcaption>Dane z rozliczenia czasu pracy pracownika</figcaption></figure>
+
+<p>Odpowiednio filtrując dane możesz ustalić:</p>
+<ul>
+  <li>ile czasu przepracowała dana osoba</li>
+  <li>ile czasu pracowano na danej stacji roboczej</li>
+  <li>ile czasu przepracowano na danej linii produkcyjnej</li>
+  <li>ile czasu poświęcono na pracę w danym dziale</li>
+  <li>jak długo pracowano na rzecz danego wyrobu</li>
+  <li>ile czasu zajęła praca zaraportowana do danego zlecenia</li>
+</ul>
+
+:ET

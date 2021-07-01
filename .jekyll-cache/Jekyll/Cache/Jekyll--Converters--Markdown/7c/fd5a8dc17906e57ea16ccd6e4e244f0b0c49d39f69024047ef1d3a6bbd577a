@@ -1,0 +1,82 @@
+I"�'<p>Atrybuty pozwolą na opisanie produktów i zasobów dokładnie w taki sposób jaki chcesz. Jeśli nie widzisz wśród standardowych pól produktu czy zasobu w qcadoo takiego, jakie Ci jest potrzebne - wykorzystaj atrybuty i dodaj tym samym nowe pola, bez konieczności zlecania nam ich obsługi. Jak to działa? Załóżmy, że chcesz zapisać w wytwarzanych produktach wymiary i kolor. Dodaj atrybuty: długość, szerokość i kolor i przypisz je do produktu podając jakie wartości przyjmuje. Jeśli dodatkowo chcesz zapisywać nr serii dla wytwarzanych produktów (i zapisywać je w zasobach) - dodaj atrybut ‘nr serii’ i określaj jego wartość przy okazji raportowania produkcji. A może chcesz dla przyjmowanych z dostawy surowców zachowywać nr atestu - stwórz taki atrybut i podawaj wartości na etapie przyjmowania dostawy.</p>
+
+<p>Pracę z atrybutami rozpocznij od utworzenia ich definicji. Wejdź w <strong>Podstawowe &gt; Atrybuty</strong>:</p>
+
+<figure><a target="_blank" href="images/podstawoweAtrybutyLista.png"><img src="images/podstawoweAtrybutyLista.png" alt="Lista atrybutów" /></a><figcaption>Lista atrybutów</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure class="float-right "><a target="_blank" href="images/podstawoweAtrybutyNowy.png"><img src="images/podstawoweAtrybutyNowy.png" alt="Formularz definiowania atrybutów" class="percent90 " /></a><figcaption>Formularz definiowania atrybutów</figcaption></figure>
+
+<p>Podaj:</p>
+<ul>
+  <li><strong>numer</strong> - inaczej symbol, kod atybutu. Oczywiście nie musi być liczbą. Ważne, żeby mówiło Tobie i Twoim pracownikom cóż to za atrybut jest</li>
+  <li><strong>nazwa</strong></li>
+  <li><strong>typ danych</strong> - do wyboru <strong>wyliczeniowy</strong> lub <strong>ciągły</strong>. Jeśli wybierzesz wyliczeniowy, to w tabeli obok będziesz musiał zdefiniować dostępne wartości, z których pracownicy będą mogli wybierać podczas opisywania atrybutami produktów czy zasobów. Jeśli wybierzesz ciągły, to wartość atrybutu będzie określana każdorazowo na etapie przypisywania atrybutu do produktu czy zasobu - pracownik będzie wpisywał wówczas dowolny tekst. Dla przykładu - jeśli atrybut gatunek będzie wyliczeniowy i w definicji określisz wartości ‘1’ i ‘2’ to produkty i/lub zasoby będą mogły mieć albo gatunek = 1, albo gatunek = 2. Łatwo będzie później dane analizować. A i pracownikom łatwo określać wartości - nie będą musieli się zastanawiać co trzeba wpisać. Czasami jednak nie jesteś w stanie stworzyć listy wartości, z której pracownik będzie wybierał. Np. numery atestów surowców są każdorazowo inne - wówczas lepszym rozwiązaniem jest typ ciągły. Podczas określania wartości atrybutu pracownik wpisze w polu dokładnie taki nr atestu jaki odczyta z dokumentu dostawy.</li>
+  <li><strong>rodzaj wartości</strong> - albo <strong>tekstowy</strong> albo <strong>liczbowy</strong>. Jeśli wybierzesz tekstowy - będziesz mógł wpisać cokolwiek. Jeśli liczbowy - sprawdzimy, czy na pewno podana wartość jest liczbą. Ponadto dla rodzaju liczbowego możesz podać: precyzję i jednostkę (opisane niżej)</li>
+  <li><strong>precyzja</strong> - określ ile miejsc po przecinku mają mieć wartości liczbowe danego atrybutu. Jeśli podasz 0 to będziesz mógł wpisać tylko liczby całkowite. Jeśli podasz 5 - będzie możliwe określanie wartości 0,99999.</li>
+  <li><strong>jednostka</strong> - podaj w jakiej jednostce wartość liczbowa ma być określana. Pracownikowi łatwiej bedzie wpisać długość, gdy będzie wiedział, że ma ją podać w mm.</li>
+  <li><strong>abrybut produktu</strong>, <strong>atrybut zasobu</strong> i <strong>atrybut kontroli jakości</strong> - zaznacz co dany atrybut ma opisywać. Jedna definicja może określać jednocześnie produkty, zasoby i kontrolę jakości. Ale zapewne przeważnie będzie albo charakrystyką jednego z nich. Jeśli dany produkt niezależnie od dostawy czy produkcji zawsze ma dany kolor - to będzie to atrybut produktu. Jeśli jednak wartość atrybutu może być inna w zależności od tego co udało się wytworzyć, albo co dostawca przysłał - np. czasami waga to 150 kg a czasami 148 kg, to będzie to atrybut zasobu. Jeśli atrybut ma być elementem sprawdzanym na etapie kontroli produktu - będzie to atrybut kontroli jakości.</li>
+</ul>
+
+<p>Aby zachować definicję kliknij <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>.</p>
+
+<p>Jeśli atrybut jest w typie wyliczeniowym przejdź do tabeli wartości i dodaj możliwe wartości danego atrybutu używając przycisku <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Nowy</strong>.</p>
+
+<figure><a target="_blank" href="images/podstawoweAtrybutyNowaWartosc.png"><img src="images/podstawoweAtrybutyNowaWartosc.png" alt="Formularz dodawania wartości atrybutów" /></a><figcaption>Formularz dodawania wartości atrybutów</figcaption></figure>
+
+<p>Określ <strong>wartość</strong> i ewentualnie <strong>opis</strong>. Pamiętaj, że jeśli definicja atrybutu mówi, że ma rodzaj liczbowy, to sprawdzimy, czy na pewno podałeś liczbę w zadanej precyzji.
+I w taki sam sposób określ całą listę wartości atrybutu.</p>
+
+<p>Gotowe - atrybut istnieje. Teraz możesz go wykorzystać do uszczegółowienia produktu czy zasobu, albo do stworzenia karty jakości.</p>
+
+<p>W jakich miejscach będzie można przypisywać atrybuty?</p>
+
+<p>Atrybuty produktu określamy tylko i wyłącznie w <a href="/produkty">produkcie</a>. Jego wartości będzie można podejrzeć w dokumencie, czy przy <a href="/rejestracja-produkcji#atrybuty-produktu">rejestracji produkcji</a> (także w <a href="/terminal#atrybuty-produktu-wejściowego">terminalu</a>, ale wartości tam już nie wprowadzimy. Potraktuj atrybuty produktu tak jak jego nazwę czy jednostkę - wprowdzasz je na starcie przy dodawaniu nowego produktu.</p>
+
+<p>Atrybuty zasobu natomiast wprowadzane są wszędzie tam gdzie rejestrujesz przychód na magazyn - w <a href="/dostawy">dostawie</a>, przy <a href="/rejestracja-produkcji">rejestracji produkcji</a> czy po prostu w <a href="/dokumenty">dokumentach</a>. Będziesz mógł je podać również w już istniejącym <a href="/korekty">zasobie</a>.</p>
+
+<p>Atrybuty kontroli jakości wykorzystujemy przy tworzeniu <a href="/karty-jakosci">karty jakości</a>. A wartości uzupełniane są na etapie rejestracji produkcji czy rejestracji końcowej kontroli jakości danych partii produktów.</p>
+
+<p>Przypisanie atrybutów do produktów i do zasobów może odbyć się też poprzez import danych z Excela.</p>
+
+<h2 id="import-wartości-atrybutów-produktu">Import wartości atrybutów produktu</h2>
+
+<p>Co musisz zrobić, aby wykorzystać funkcję importu:</p>
+<ol>
+  <li>zdefiniuj atrybuty</li>
+  <li>zdefiniuj produkty (tu też możesz użyć funkcji importu z Excela)</li>
+  <li>stwórz arkusz Excel i zapisz go na dysku</li>
+  <li>wejdź w Podstawowe &gt; Atrybuty i kliknij przycisk <img class="inline" src="images/przyciskImportWartosciAtrybutowProduktu.png" alt="Przycisk Import wartości atrybutów produktu" />
+ <strong>Import wartości atrybutów produktu</strong> -&gt; wskaż przygotowany arkusz i zaimportuj</li>
+</ol>
+
+<p>Najważniejszy jest odpowiednio przygotowany plik Excel. Pierwsza kolumna to kolumna z produktem - wprowadź numery produktów z qcadoo. Kolejne kolumny to kolumny atrybutow. W nagłówku wprowadź numery atrybutów z qcadoo (użyj tych, które określiłeś jako opisujące produkt), a w komórkach przecinających kolumnę atrybutu z wierszem produktu - wartość atrybutu.</p>
+
+<p>Dla przykładu:
+mam dwa produkty: guzik Karo i guzik Miko. Każdemu z nich chcę określić kolor i kształt. Arkusz importu wyglądać będzie następująco:</p>
+
+<figure><a target="_blank" href="images/podstawoweAtrybutyImportAtrybutowProduktu.png"><img src="images/podstawoweAtrybutyImportAtrybutowProduktu.png" alt="Arkusz do importu atrybutów produktów" /></a><figcaption>Arkusz do importu atrybutów produktów</figcaption></figure>
+
+<p>Efekt importu (dla guzika Karo) będzie następujący:</p>
+
+<figure><a target="_blank" href="images/podstawoweAtrybutyImportAtrybutowProduktuEfekt.png"><img src="images/podstawoweAtrybutyImportAtrybutowProduktuEfekt.png" alt="Efekt importu atrybutów produktów" /></a><figcaption>Efekt importu atrybutów produktów</figcaption></figure>
+
+<div class="bs-callout bs-callout-info">Pamiętaj, że przy imporcie obowiązują takie same walidacje, jak przy ręcznym przypisywaniu atrybutów. Jeśli atrybut jest wyliczeniowy - wartości w arkuszu muszą odpowiadać tym zdefiniowanym w atrybucie. Jeśli wartości atrybutu mają być liczbowe - przypilnujemy, aby wartości atrybutu były liczbą w zadanej precyzji.</div>
+
+<p>Obsługa importu danych z Excel opisana jest również <a href="/import-z-excel">tutaj</a>.</p>
+
+<h2 id="import-wartości-atrybutów-zasobu">Import wartości atrybutów zasobu</h2>
+
+<p>Import wartości atrybutów zasobu działa na takiej samej zasadzie jak import atrybutów produktu. Przygotuj arkusz posiadający w pierwszej kolumnie numer zasobu w qcadoo a w kolejnych wartości atrybutów, określonych jako opisujące zasoby (w nagłówku kolumny umieść numer atrubutu, a w komórkach przecinających atrybut z zasobem - wartość). Mógłby on wyglądać tak:</p>
+
+<figure><a target="_blank" href="images/podstawoweAtrybutyImportAtrybutowZasobu.png"><img src="images/podstawoweAtrybutyImportAtrybutowZasobu.png" alt="Arkusz do importu atrybutów zasobów" /></a><figcaption>Arkusz do importu atrybutów zasobów</figcaption></figure>
+
+<p>Zaimportu go klikając przycisk <img class="inline" src="images/przyciskWartosciAtrybutowZasobu.png" alt="Przycisk Import wartości atrybutów zasobu" />
+ <strong>Import wartości atrybutów zasobu</strong>.</p>
+
+<p>Obsługa importu danych z Excel opisana jest również <a href="/import-z-excel">tutaj</a>.</p>
+:ET

@@ -1,0 +1,45 @@
+I"�<p>Zapewne masz bardzo długą listę produktów wytwarzanych. I wiele z tych produków jest bardzo podobnych - technologie różnią się nieznacznie. Dany surowiec wykorzystywany jest w kilkunastu, może kilkudziesięciu technologiach. Wyobraź sobie sytuację, że dostawca wycofał surowiec - od następnego będziesz musiał wykorzystywać do produkcji inny element. Zatem wszystkie technologie korzystające z dotychczasowego surowca muszą zostać zmodyfikowane. Pewnie wyobrażasz sobie żmudne poszukiania i ręczną modyfikację przez długie godziny. Nic bardziej mylnego - qcadoo pomoże. Wykorzystaj w tym celu masową zmianę technologii.</p>
+
+<p>Punktem wyjścia do modyfikacji jest produkt wejściowy (nasz surowiec). Załóżmy, że chcesz w technologiach zamienić produkt <em>torebka papierowa</em> na <em>papier pakowy</em>. Wejdź w Podstawowe &gt; Produkty i znajdź produkt <em>torebka papierowa</em>:</p>
+
+<figure><a target="_blank" href="images/podstawoweProduktyTorebkaLista.png"><img src="images/podstawoweProduktyTorebkaLista.png" alt="Lista produktów" /></a><figcaption>Lista produktów</figcaption></figure>
+
+<p>i wejdź w jego szczegóły:</p>
+
+<figure><a target="_blank" href="images/podstawoweProduktyTorebkaSzczegoly.png"><img src="images/podstawoweProduktyTorebkaSzczegoly.png" alt="Szczegóły produktu" /></a><figcaption>Szczegóły produktu</figcaption></figure>
+
+<p>i kliknij w przycisk <img class="inline" src="images/przyciskPokazWykorzystujaceProdukt.png" alt="Przycisk Pokaż technologie wykorzytujące produkt" />
+ <strong>Pokaż technologie wykorzystujące produkt</strong>.</p>
+
+<figure><a target="_blank" href="images/podstawoweProduktyTechnologieWykorzystujace.png"><img src="images/podstawoweProduktyTechnologieWykorzystujace.png" alt="Lista technologii wykorzystujących dany produkt" /></a><figcaption>Lista technologii wykorzystujących dany produkt</figcaption></figure>
+
+<p>Pojawi się lista wszystkich technologii (a tak naprawdę operacji technologii), w których dany produkt jest użyty. Zaznacz te, które chcesz zmodyfikować i kliknij w przycisk <img class="inline" src="images/przyciskZmodyfikujTechnologie.png" alt="Przycisk Zmodyfikuj technologię" />
+ <strong>Zmodyfikuj technologie</strong>.</p>
+
+<div class="bs-callout bs-callout-warning">Zmienić możesz tylko technologie zaakceptowane i domyślne. Jeśli wśród zaznaczonych będzie technologia nie spełniająca tych warunków - przycisk nie uaktywni się</div>
+
+<figure><a target="_blank" href="images/podstawoweProduktyMasowaZmianaTechnologiiZamien.png"><img src="images/podstawoweProduktyMasowaZmianaTechnologiiZamien.png" alt="Okno masowej zmiany technologii" /></a><figcaption>Okno masowej zmiany technologii</figcaption></figure>
+
+<p>W uruchomionym oknie zaznacz opcję <strong>Zamień produkt z operacji technologii</strong> i polu z produktem zamień produkt obecny na nowy (w naszym przykładzie: papier pakowy). Podaj ilość. I zapisz zmiany używając przycisku <img class="inline" src="images/przyciskUtworzNoweTechnologie.png" alt="Przycisk Utwórz nowe technologie" />
+ <strong>Utwórz nowe technologie</strong>.</p>
+
+<p>W efekcie utworzone zostaną nowe zaakceptowane i domyślne technologie z podmienionym produktem we wskazanych operacjach technologii. A stare (zaznaczone do zmiany) zostaną wycofane.</p>
+
+<hr />
+
+<figure class="float-right "><a target="_blank" href="images/podstawoweProduktyMasowaZmianaTechnologiiDodaj.png"><img src="images/podstawoweProduktyMasowaZmianaTechnologiiDodaj.png" alt="Okno masowej zmiany technologii - dodanie produktu" class="percent90 " /></a><figcaption>Okno masowej zmiany technologii - dodanie produktu</figcaption></figure>
+
+<p>Funkcjonalność daje jeszcze dwie możliwości modyfikacji technologii.</p>
+
+<ol>
+  <li>
+    <p>Jeśli chcesz, aby oprócz <em>torebki papierowej</em> już znajdującej się w technologii, dodać produkt <em>sznurek jutowy</em>, postępuj tak samo, a w oknie masowej zmiany technologii zaznacz opcję <strong>Dodaj nowy produkt do operacji technologii</strong> i w polu produkt wskaż ten, który chcesz dopisać. Podaj ilość i zapisz zmiany używając przycisku <img class="inline" src="images/przyciskUtworzNoweTechnologie.png" alt="Przycisk Utwórz nowe technologie" />
+ <strong>Utwórz nowe technologie</strong>.</p>
+  </li>
+  <li>
+    <p>jeśli chcesz z wielu technologii usunąć dany surowiec (nie chcesz aby znajdował się on juz w technologiach), to w oknie masowej zmiany technologii zaznacz opcję <strong>Usuń produkt z operacji technologii</strong> i kliknij przycisk <img class="inline" src="images/przyciskUtworzNoweTechnologie.png" alt="Przycisk Utwórz nowe technologie" />
+ <strong>Utwórz nowe technologie</strong>.</p>
+  </li>
+</ol>
+
+:ET

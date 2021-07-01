@@ -1,0 +1,48 @@
+I"�<p><em>Załóżmy, że planujesz produkcję w oparciu o przyjęte plany sprzedaży. Ogłaszasz plan - np. w oparciu o historię sprzedaży i przez pewien czas przyjmujesz zamówienia od klientów. Konfrontujesz ilości planowane z zamówionymi. I w oparciu o te dane zlecasz produkcję. Jeśli chcesz wiedzieć jak wspiera qcadoo w tym zakresie - przeczytaj ten rozdział dokumentacji.</em></p>
+
+<p>Nasza firma produkuje ubrania - koszulki i sukienki. Dla każdej nowej kolekcji przyjmowany jest plan sprzedaży. W planie widoczne są ilości dla konkretnego modelu ubrania, ale bez rozbicia na rozmiary. O tym w jakich rozmiarach ubrania będą produkowane, decyzja zostanie podjęta już po wpłynięciu zamówień od klientów.</p>
+
+<p>Wprowadzamy plan sprzedaży (instrukcja jak to wykonać krok po kroku znajduje się tutaj: <a href="/plany-sprzedazy">Plan sprzedaży</a>).</p>
+
+<figure><a target="_blank" href="images/procesPlanySprzedazyZleceniaPlan.png"><img src="images/procesPlanySprzedazyZleceniaPlan.png" alt="Szczegóły planu sprzedaży" /></a><figcaption>Szczegóły planu sprzedaży</figcaption></figure>
+
+<p>Wszystkie produkty planu są rodzinami produktów - nie są konkretnymi, produkowanymi wyrobami.</p>
+
+<div class="bs-callout bs-callout-warning">W planie produkcji mogą znaleźć się zarówno rodziny produktów jak i konkretne produkty.</div>
+
+<p>Na bieżąco rejestrujemy wpływające od klientów <a href="/zlecenia-nadrzedne">zamówienia sprzedaży</a> - klienci zamawiawiają produkty ze wskazaniem na rozmiar.</p>
+
+<div class="bs-callout bs-callout-warning">W omawianym przykładzie dany model produktu w danym kolorze jest rodziną produktu. Na rodzinę produktu tworzona jest technologia. Do rodziny produktu przypisane są konkretne produkty, będące modelem w danym kolorze o danym rozmiarze. I te konkretne rozmiary produktów korzystają z technologii produktu-rodziny.</div>
+
+<figure><a target="_blank" href="images/procesPlanySprzedazyZleceniaZamSprzedazy.png"><img src="images/procesPlanySprzedazyZleceniaZamSprzedazy.png" alt="Zamówienia sprzedaży do planu" /></a><figcaption>Zamówienia sprzedaży do planu</figcaption></figure>
+
+<p>O tym jak mają się ilości planowane do zamówionych dowiadujemy się klikając w planie sprzedaży przycisk <img class="inline" src="images/przyciskPobierzZamowioneIlosci.png" alt="Przycisk Pobierz zamówione ilości" />
+ <strong>Pobierz zamówione ilości</strong></p>
+
+<figure><a target="_blank" href="images/procesPlanySprzedazyZleceniaIlosciZamWPlanie.png"><img src="images/procesPlanySprzedazyZleceniaIlosciZamWPlanie.png" alt="Aktualizacja ilości zamówionych w planie sprzedaży" /></a><figcaption>Aktualizacja ilości zamówionych w planie sprzedaży</figcaption></figure>
+
+<div class="bs-callout bs-callout-warning">Jeśli Twoje qcadoo ma uruchomioną integrację z systemem zewnętrznym, to zamówienia sprzedaży mogą wpływać do qcadoo z ERP. W qcadoo wystarczy je powiązać z planem sprzedaży.</div>
+
+<p>Wiadomo zatem, czy założone w planie sprzedaży ilości, znajdą swoich nabywców. Teraz trzeba zdecydować - produkujemy to to przyjęliśmy w planie, czy to zostało zamówione przez klientów?</p>
+
+<p>Czas na zlecenie produkcji. Użyjemy grup zleceń, ale można z poziomu planu utworzyć normalne zlecenia produkcyjne - o czym przeczytasz tutaj: <a href="/plany-sprzedazy.html#tworzenie-zleceń-produkcyjnych-do-planu-sprzedaży">Tworzenie zleceń produkcyjnych do planu sprzedaży</a>.</p>
+
+<p>Tworzymy grupy zleceń po kolei - zaznaczamy w planie te produkty, które mają znaleźć się w jednej grupie, klikamy przycisk <img class="inline" src="images/przyciskUtworzGrupeZlecen.png" alt="Przycisk Utwórz grupę zleceń" />
+ <strong>Utwórz grupę zleceń</strong>, podajemy ilości, które chcemy zlecić i potwierdzamy przyciskiem  <img class="inline" src="images/przyciskUtworzGrupeIZlecenia.png" alt="Przycisk Utwórz grupę i zlecenia" />
+ <strong>Utwórz grupę i zlecenia</strong>.</p>
+
+<div class="bs-callout bs-callout-warning">Ilości w oknie generowania są domyślnie uzupełnione - albo na podstawie ilości planowanej (gdy w planie znajduje się konkretny produkt), albo na podstawie ilości zleconej (gdy w planie znajduje się rodzina produktów). Zweryfikuj je i popraw na takie, jakie chcesz produkować.</div>
+
+<p>Każda z utworzonych grup:</p>
+
+<figure><a target="_blank" href="images/procesPlanySprzedazyZleceniaGrupaGlowna.png"><img src="images/procesPlanySprzedazyZleceniaGrupaGlowna.png" alt="Utworzona grupa zleceń" /></a><figcaption>Utworzona grupa zleceń</figcaption></figure>
+
+<p>ma podpięte zlecenia produkcyjne - po jednym do każdego z produktów:</p>
+
+<figure><a target="_blank" href="images/procesPlanySprzedazyZleceniaGrupaZlecenia.png"><img src="images/procesPlanySprzedazyZleceniaGrupaZlecenia.png" alt="Utworzona grupa zleceń" /></a><figcaption>Utworzona grupa zleceń</figcaption></figure>
+
+<p>Zostaje tylko akceptacja (przycisk: <img class="inline" src="images/przyciskZaakceptujZlecenia.png" alt="Przycisk Zaakceptuj zlecenia" />
+ <strong>Zaakceptuj zlecenia</strong>) i rozpoczenie (przycisk: <img class="inline" src="images/przyciskRozpocznijZlecenia.png" alt="Przycisk Rozpocznij zlecenia" />
+ <strong>Rozpocznij zlecenia</strong>). I zaczynamy produkcję!</p>
+
+:ET

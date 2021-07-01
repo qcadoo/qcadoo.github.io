@@ -1,0 +1,42 @@
+I"<p>Drzewo genealogii jest miejscem, gdzie prześledzić możemy, w ciągu zaledwie kilku chwil, w jakich zleceniach produkcyjnych (<a href="/sledzenie-partii-dla-zlecen">Śledzenie partii dla zleceń</a>) oraz w jakich produktach zarejestrowanych w katalogach Genealogii (<a href="/sledzenie-partii-produktow">Proste śledzenie partii</a>) został użyty produkt o danym numerze partii.</p>
+
+<p>To rozwiązanie niweluje godziny śledzenia i wertowania stosów papierów w poszukiwaniu numerów partii i dochodzenia jakich numerów partii użyto w danym zleceniu oraz który kontrahent dostarczył nam wadliwy towar.</p>
+
+<p>Drzewo genealogii pozwala na śledzenie partii na dwa sposoby:</p>
+
+<ul>
+  <li><strong>Wyprodukowano z</strong> - sprawdzamy, które produkty i o jakim numerze partii weszły w skład danego produktu,</li>
+  <li><strong>Użyto do wyprodukowania</strong> - dowiadujemy się, w których konkretnie partiach produktów użyto surowca o danym numerze partii.</li>
+</ul>
+
+<p>Takie rozwiązanie pozwala nie tylko sprawdzić, które produkty weszły w skład wadliwego towaru, ale też zorientować się w jakich jeszcze innych zleceniach i produktach pojawił się ten numer partii i podjąć dalsze kroki, aby wyeliminować problem.</p>
+
+<div class="bs-callout bs-callout-info">Aby móc śledzić numery partii poprzez Drzewo genealogii, konieczne jest wprowadzenie <a href="/jak-dodac-numery-partii">Partii</a> oraz rekordów <a href="/sledzenie-partii-dla-zlecen">Śledzenia partii dla zleceń</a> lub <a href="/sledzenie-partii-produktow">Śledzenia partii produktów</a>.</div>
+
+<p>Jak skorzystać z drzewa genealogii?</p>
+
+<ol>
+  <li>Wejdź do <strong>GENEALOGIA  Drzewo genealogii</strong> i wybierz <img class="inline" src="images/newIcon24.png" alt="Dodaj nowy" />
+ <strong>Dodaj nowy</strong>.</li>
+</ol>
+
+<figure class="float-right "><a target="_blank" href="images/Genealogia-%20drzewo%20genealogii-%20strza%C5%82ki.png"><img src="images/Genealogia-%20drzewo%20genealogii-%20strza%C5%82ki.png" alt="Drzewo genealogii" class="percent90 " /></a><figcaption>Drzewo genealogii</figcaption></figure>
+
+<ol start="2">
+  <li>
+    <p>Następnie przy pomocy <img class="inline" src="images/lupka.png" alt="Przycisk lupy" />
+ wybierz “Partię” produktu, dla którego chcesz utworzyć drzewo.</p>
+  </li>
+  <li>
+    <p>Określ “Typ” czyli sposób śledzenia partii. Masz do wyboru dwie opcje: “Wyprodukowano z” i “Użyto do wyprodukowania”. Pierwsza pozwoli Ci na utworzenie listy partii produktów, które weszły w skład produktu wskazanego w poprzednim kroku, a druga - listy partii produktów, które zostały wyprodukowane przy użyciu tego produktu.</p>
+  </li>
+  <li>
+    <p>Zdecyduj czy drzewo ma uwzględnić również szkice rekordów czyli wprowadzone lecz niezaakceptowane rekordy śledzenia partii. Jeśli tak, zaznacz “Uwzględniaj informacje ze szkiców rekordów”.</p>
+  </li>
+  <li>
+    <p>Aby wygenerować drzewo, wybierz <img class="inline" src="images/generateIcon24.png" alt="Przycisk generuj" />
+ <strong>Generuj</strong>.</p>
+  </li>
+</ol>
+
+:ET

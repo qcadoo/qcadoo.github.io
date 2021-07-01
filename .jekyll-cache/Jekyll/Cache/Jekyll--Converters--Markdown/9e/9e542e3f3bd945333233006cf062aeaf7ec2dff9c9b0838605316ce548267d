@@ -1,0 +1,31 @@
+I"	<p>Produkty zostały już zdefiniowane. W kolejnym kroku należy określić magazyny, na których produkty będą składowane. qcadoo MES umożliwia prowadzenie dowolnej ilości magazynów. Mogą być one prowadzone albo w naszym systemie, albo w zintegrowanym ERPie.</p>
+
+<p>Magazyny będą uczestniczyły w całym procesie produkcyjnym - to na nie będziemy przyjmować zakupione od dostawców materiały. To z nich będziemy wydawać produkty do zużycia, czy przesuwać w ramach rezerwacji na magazyny działowe. I to na nie w końcu przyjmiemy wyprodukowane wyroby gotowe.</p>
+
+<p>W menu Magazyn wybierz pozycję Magazyny i kliknij <img class="inline" src="images/dodaj%20nowy.png" alt="Dodaj nowy" />
+ <strong>Dodaj nowy</strong>.</p>
+
+<figure><a target="_blank" href="images/magazyn_lista.png"><img src="images/magazyn_lista.png" alt="Lista magazynów" /></a><figcaption>Lista magazynów</figcaption></figure>
+
+<p>W uruchomionym oknie podaj <strong>numer</strong> i <strong>nazwę</strong> magazynu.</p>
+
+<p>W zakładce <strong>Metoda rozchodu i atrybuty dokumentu</strong> możesz wybrać wg jakiej metody chcesz wydawać produkty z magazynu (FIFO, LIFO, FEFO, LEFO), a także jakie atrybuty dokumentów chcesz koniecznie wypełniać (program wymusi wówczas na użytkownikach, by dane pole było zawsze wypełnione).</p>
+
+<p>Po zapisaniu <img class="inline" src="images/saveIcon24.png" alt="Przycisk Zapisz" />
+ magazynu będziesz mógł:</p>
+
+<ul>
+  <li>wystawiać dokumenty magazynowe</li>
+  <li>kontrolować ukształtowane dokumentami stany magazynowe oraz analizować utworzone zasoby</li>
+  <li>określać w technologii domyślny przepływ między magazynami produktów uczestniczących w procesie produkcyjnym</li>
+</ul>
+
+<p>Magazyny mogą zostać również przypisane do działu - po to by pomóc w określeniu skąd dany dział ma czerpać zasoby oraz gdzie efekty produkcji mają być przyjmowane - ale o tym szczegółowo w kolejnym kroku.</p>
+
+<div class="bs-callout bs-callout-info">Zerknij w parametry magazynu (Parametry &gt; Parametry magazynu) i wybierz kolumny, które chcesz mieć widoczne przy wprowadzaniu pozycji dokumentu.</div>
+
+<p>Po więcej informacji zapraszam <a href="/magazyny">tutaj</a>.</p>
+
+<p><strong>Krok 3/11:<a href="/krok-2-maszyny">Wprowadź strukturę zakładu</a></strong></p>
+
+:ET

@@ -1,0 +1,15 @@
+I"�<p>W qcadoo masz możliwość nadania stanu swojej technologii. Zdajemy sobie sprawę z tego, że niektóre technologie produkcyjne mają od wielu lat niezmienną procedurę. Ale wiemy również, że mogą pojawiać się rozwiązania usprawniające technologię, dlatego by była możliwość testowania różnych rozwiązań oraz by wyróżnić te aktualnie używane od przestarzałych i już nieobowiązujących, w qcadoo możliwe jest nadawanie im określonych stanów. Stany te mają dalsze konsekwencje w systemie.</p>
+
+<p>Technologie będące w stanie:</p>
+
+<ul>
+  <li><strong>Szkic</strong> - nowo wprowadzona technologia, niemożliwe jest zastosowanie jej w zleceniu produkcyjnym,</li>
+  <li><strong>Sprawdzona</strong> - technologia sprawdzona, możliwy powrót do edycji, na tym etapie możliwe jest poznanie kosztów,</li>
+  <li><strong>Zaakceptowany</strong> - technologia zaakceptowana, może zostać użyta w zleceniu produkcyjnym, nie ma możliwości modyfikacji jej parametrów,</li>
+  <li><strong>Odrzucone</strong> - technologia wycofana z innego powodu niż z tego, że została uznana za przestarzałą,</li>
+  <li><strong>Przestarzałe</strong> - technologia wycofana, na liście wszystkich technologii widoczna jako przestarzała.</li>
+</ul>
+
+<figure><a target="_blank" href="images/Stany%20technologii.png"><img src="images/Stany%20technologii.png" alt="Stany technologii" /></a><figcaption>Stany technologii</figcaption></figure>
+
+:ET

@@ -1,0 +1,40 @@
+I";<p>Qcadoo stara się odwzorować rzeczywistość dziejącą się na hali produkcyjnej. Jednym z dowodów na to są statusy zleceń produkcyjnych. Poszczególne stany zleceń produkcyjnych można dopasować do realnych sytuacji z życia codziennego:</p>
+
+<p>Mamy do dyspozycji następujące statusy:</p>
+
+<ul>
+  <li><strong>Oczekujące</strong> - zlecenie produkcyjne jest już założone, jednak znajduje się jeszcze w fazie negocjacji. Zmieniane są jego parametry w zależności od ustaleń z klientem. W tym momencie wybieramy technologię, na podstawie której będzie wykonywana produkcja. W razie potrzeby konfigurujemy ustawienia dotyczące sposobu <a href="/rejestracja">Rejestracji produkcji</a>,</li>
+</ul>
+
+<div class="bs-callout bs-callout-info">Pamiętaj, aby ustawić wszystkie parametry zlecenia, gdy znajduje się ono w statusie “Oczekujące”. Po akceptacji zlecenia nie będziesz mógł już zmienić większości z nich.</div>
+
+<ul>
+  <li><img class="inline" src="images/startIcon24.png" alt="Przycisk Rozpocznij zlecenie" />
+<strong>Zaakceptowane</strong> - zlecenie produkcyjne ma już zatwierdzone warunki (takie jak terminy, ilość produktu do wykonania, sposób rejestracji produkcji). Po zaakceptowaniu zlecenia nie można dokonać w nim zbyt wielu zmian. Jest to status po ustaleniu warunków, zlecenie czeka na start zgodnie z harmonogramem,</li>
+</ul>
+
+<div class="bs-callout bs-callout-info">
+<strong>Co zrobić gdy zlecenie zostało już zaakceptowane?</strong> <br />
+Należy skopiować zlecenie - wtedy pojawi się duplikat, tyle że w statusie szkic. Pamiętaj jednak, by usunąć (dezaktywować) poprzednią wersję, aby uniknąć ewentualnej pomyłki</div>
+
+<ul>
+  <li><img class="inline" src="images/deleteIcon24.png" alt="Przycisk do usuwania" />
+ <strong>Odrzucone</strong> - istnieją powody, które sprawiają że pomimo ustalonych warunków rezygnujemy z przystąpienia do realizacji zlecenia. Możemy jedynie podejrzeć jego parametry, ale niemożliwy jest powrót do statusu “Zaakceptowane” czy “W realizacji”,</li>
+  <li><img class="inline" src="images/startIcon24.png" alt="Przycisk Rozpocznij zlecenie" />
+ <strong>Rozpoczęte</strong> - zlecenie jest już wystartowane,</li>
+</ul>
+
+<div class="bs-callout bs-callout-info">Możliwe jest rozpoczęcie zlecenia przed planowanym terminem.</div>
+
+<ul>
+  <li><img class="inline" src="images/pauseIcon16.png" alt="Przycisk do wstrzymania" />
+ <strong>Przerwane</strong> - ten status jest przydatny w sytuacji, gdy okazuje się, że na przykład zabrakło surowców, klient nie zapłacił jednej z faktur, rozchorował się pracownik realizujący kluczowe zadanie. Zlecenie może zostać ponownie wystartowane,</li>
+  <li><img class="inline" src="images/acceptIcon24.png" alt="Przycisk do akceptacji" />
+ <strong>Zakończone</strong> - zlecenie zostało sfinalizowane, udało się doprowadzić je do końca. Zakończyć można tylko zlecenia, w których ilość wyprodukowana &gt; 0,</li>
+  <li><img class="inline" src="images/deleteIcon24.png" alt="Przycisk do usuwania" />
+ <strong>Zaniechane</strong> - zlecenie zostało wycofane z produkcji w trakcie realizacji.</li>
+</ul>
+
+<figure><a target="_blank" href="images/planowanieStatusyZlecenia.png"><img src="images/planowanieStatusyZlecenia.png" alt="Ścieżka statusów" /></a><figcaption>Ścieżka statusów</figcaption></figure>
+
+:ET

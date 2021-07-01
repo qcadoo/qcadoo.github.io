@@ -1,0 +1,26 @@
+I"i<p>Gantt stacji roboczych jest wizualizacją wygenerowanego <a href="/plan-na-stacje-robocza-i-pracownika">planu</a> z dokładnością do stacji roboczych. Oznacza to, że zobaczysz jak zostały ułożone zadania maszynach czy stanowiskach.</p>
+
+<p>Gantt uruchamiany jest z poziomu planu: wejdź w <strong>planowanie &gt; plan na stację roboczą i pracownika</strong> &gt; otwórz plan i kliknij <img class="inline" src="images/przyciskGanttStacjiRoboczych.png" alt="Przycisk Gantt stacji roboczych" />
+ <strong>Gantt stacji roboczych</strong>. Można go edytować, przeciągając kafelki w czasie oraz między wierszami, tak długo, aż plan nie jest zatwierdzony.</p>
+
+<figure><a target="_blank" href="images/planowanieGanttStacjiRoboczych.png"><img src="images/planowanieGanttStacjiRoboczych.png" alt="Gantt stacji roboczych" /></a><figcaption>Gantt stacji roboczych</figcaption></figure>
+
+<p><strong><span style="color:red"> <em>Kilka informacji o działaniu Gantta</em></span>:</strong></p>
+<ol>
+  <li>wierszem jest stacja robocza. Pokazujemy wszystkie zdefiniowane stacje, posortowane alfabetycznie. Nie można zmieniać kolejności prezentowanych wierszy</li>
+  <li>na wykresie prezentowane są zadania z planu. Są one ułożone czasowo na liniach danej stacji roboczej</li>
+  <li>niebieskim kolorem oznaczone są okresy niepracujące. Wynikają one z kalendarza przypisanego do linii produkcyjnej, do której dana stacja należy. Jeśli zadanie zacznie się w piątek i skończy w poniedziałek to kafelek będzie przechodził przez wolny od pracy weekend</li>
+  <li>najważniejsze informacje o zadaniu zaprezentowane są w jego etykiecie. Ale jeśli chcesz zobaczyc więcej, najedź myszką na kafelek - pojawi się tooltip z pozostałymi informacjami</li>
+  <li>jeśli klikniesz w kafelek, zaznaczy się on na oliwkowo. Ponadto - odnalezione zostaną zadania poprzedzające i następujące, i też zostaną oznaczone. A między nimi narysowana zostanie zależność (zwana: linkiem)</li>
+  <li>zależności między kafelkami też mają swojego tooltipa - najedź na strzałkę myszką a zobaczysz między jakimi operacjami jest to link</li>
+  <li>dane na wykresie możesz filtrować. Wprowadź tekst do pola filtra (szukamy operacji po: zleceniu, pracowniku, stacji i dowolnym tekście) i wybierz jedną z dwóch opcji:
+    <ul>
+      <li><em>filtruj</em> - wówczas pokażą się tylko te wiersze na których występują operacje spełniające warunki filtrowania, a odpowiednie kafelki zostaną podświetlone na oliwkowo</li>
+      <li><em>zaznacz</em> - wówczas będą widoczne wszystkie wiersze, a operacje spełniające warunki filtrowania, zostaną zaznaczone na oliwkowo</li>
+    </ul>
+  </li>
+  <li>aby odznaczyć zaznaczone kafelki wystarczy w nie dwukrotnie kliknąć</li>
+  <li>klikając w wiersze nagłówkowe wykresu (te wiersze z datami i godzinami) przybliżasz lub oddalasz widok</li>
+</ol>
+
+:ET

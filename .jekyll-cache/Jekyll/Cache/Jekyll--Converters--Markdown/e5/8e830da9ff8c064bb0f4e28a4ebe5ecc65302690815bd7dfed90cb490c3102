@@ -1,0 +1,57 @@
+I"3<h2 id="czym-są-wyjątki-dla-linii">Czym są wyjątki dla linii?</h2>
+
+<p>Wyjątki to odstępstwa od standardowego czasu pracy określonego za pomocą <a href="/zmiany">zmian</a>. Możemy za ich pomocą zdefiniować przerwy produkcyjne lub nadgodziny na konkretnych liniach produkcyjnych w danych okresach czasowych.</p>
+
+<p>W qcadoo mamy dwa rodzaje wyjątków:</p>
+
+<ul>
+  <li>wolne - używamy go, gdy chcemy określić przerwy w produkcji,</li>
+  <li>praca - korzystamy z niego, kiedy chcemy zdefiniować nadgodziny.</li>
+</ul>
+
+<h2 id="dodanie-nowego-wyjątku-dla-linii">Dodanie nowego wyjątku dla linii</h2>
+
+<p><strong>Kalendarze &gt; Wyjątki dla linii</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong></p>
+
+<ol>
+  <li>
+    <p>Na początku określ “Nazwę” wyjątku.</p>
+  </li>
+  <li>
+    <p>Potem wybierz przedział czasowy, dla którego ma obowiązywać wyjątek - wypełnij datę “Od” i “Do”.</p>
+  </li>
+  <li>
+    <p>Zdecyduj jaki “Rodzaj” wyjątku chcesz stworzyć.</p>
+  </li>
+  <li>
+    <p>Kliknij <img class="inline" src="images/saveIcon24.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>, żeby utrwalić wprowadzone dane.</p>
+  </li>
+  <li>
+    <p>Dodaj <a href="/linie-produkcyjne">linie produkcyjne</a>, dla których ma obowiązywać wyjątek, wybierając <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj Nowy" />
+ <strong>Dodaj istniejący</strong>.</p>
+  </li>
+  <li>
+    <p>Wybierz <a href="/zmiany">zmiany</a>, których dotyczy wyjątek przez kliknięcie <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj Nowy" />
+ <strong>Dodaj istniejący</strong>.</p>
+  </li>
+</ol>
+
+<figure><a target="_blank" href="images/Planowanie-%20wyjatki%20dla%20linii.png"><img src="images/Planowanie-%20wyjatki%20dla%20linii.png" alt="Przykład wyjątku typu wolne" /></a><figcaption>Przykład wyjątku typu wolne</figcaption></figure>
+
+<h2 id="przykłady-wykorzystania-wyjątków">Przykłady wykorzystania wyjątków</h2>
+
+<p>Najlepszym sposobem wyjaśnienia zagadnienia wyjątków dla linii będzie przedstawienie przykładów ich użycia.</p>
+
+<p>Rozważmy taki przypadek: Nasza firma pracuje na jedną zmianę od poniedziałku do piątku w godzinach 7:00 - 15:00.</p>
+
+<p>Dni świąteczne od 24 do 26 grudnia są w niej dniami wolnymi od pracy, ale w tym roku wypadają w dni powszednie. Aby produkcja nie była planowana na te dni, należy zdefiniować wyjątek typu wolne. Wyjątek ten ma dotyczyć wszystkich linii w naszym zakładzie. Będzie wyglądał następująco:</p>
+
+<figure><a target="_blank" href="images/Planowanie-%20wyjatek%20wolne.png"><img src="images/Planowanie-%20wyjatek%20wolne.png" alt="Wyjątek typu wolne" /></a><figcaption>Wyjątek typu wolne</figcaption></figure>
+
+<p>Teraz wyobraźmy sobie inną sytuację. Mamy bardzo dużo zamówień i niestety mimo dobrej organizacji pracy nie wyrabiamy się z produkcją. Decydujemy, że w najbliższy weekend niektóre linie będą wyjątkowo pracować. Praca nie będzie trwała całą zmianę, tylko od 9:00 do 14:00. W tym celu tworzymy wyjątek typu praca:</p>
+
+<figure><a target="_blank" href="images/Planowanie-%20wyjatek%20praca.png"><img src="images/Planowanie-%20wyjatek%20praca.png" alt="Wyjątek typu praca" /></a><figcaption>Wyjątek typu praca</figcaption></figure>
+
+:ET

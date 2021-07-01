@@ -1,0 +1,17 @@
+I"`<p>Rodziny produktów pozwalają uporządkować produkty według odpowiedniej hierarchii. Może okazać się to bardzo pomocne, na przykład przy generowaniu zapytań ofertowych do dostawców. Jeśli wiemy, że dostawca dostarcza nam kilka różnych produktów, możemy stworzyć taką właśnie rodzinę, a następnie generować zapytanie dla całej rodziny produktów, zamiast dla każdego produktu z osobna.</p>
+
+<p>Rodzina produktów pozwala też na zmniejszenie ilości technologii w systemie. Jeśli produkujesz produkty bardzo podobne, różniące się niuansami (np. kolorem użytego materiału), to możesz stworzyć technologię na rodzinę produktu i korzystać z niej przy produkcji produktów należących do niej.</p>
+
+<p>Rodzinę produktów zakładamy jak zwykły <a href="/produkty">produkt</a>, a w zakładce <strong>Rodzina</strong> ustawiamy Reprezentuje = rodzinę produktów. Do rodziny podpinamy konkretne produkty - albo każdy z osobna, wskazując na produkt-rodzinę w zakładce Rodzina. Albo korzystając z widoku <strong>Produkty &gt; Rodziny produktów</strong></p>
+
+<figure><a target="_blank" href="images/produktyRodzinyProduktowLista.png"><img src="images/produktyRodzinyProduktowLista.png" alt="Lista rodzin produktów" /></a><figcaption>Lista rodzin produktów</figcaption></figure>
+
+<p>Widoczne są tutaj wszystkie produkty oznaczone jako ‘rodzina’. Zaznacz ten, do którego chcesz zobaczyć konkretne produkty (lub do którego chcesz przypisać nowe) i kliknij przycisk <img class="inline" src="images/przyciskPokazProduktyRodziny.png" alt="Przycisk Pokaż produkty rodziny" />
+ <strong>Pokaż produkty rodziny</strong></p>
+
+<figure><a target="_blank" href="images/produktyRodzinyProduktowListaProduktow.png"><img src="images/produktyRodzinyProduktowListaProduktow.png" alt="Lista produktów danej rodziny" /></a><figcaption>Lista produktów danej rodziny</figcaption></figure>
+
+<p>Aby do rodziny podpiąć nowe produkty kliknij przycisk <img class="inline" src="images/przyciskDodajIstniejacy.png" alt="Dodaj istniejący" />
+ <strong>Dodaj istniejacy</strong> i wybierz produkty z dostępnej listy.</p>
+
+:ET

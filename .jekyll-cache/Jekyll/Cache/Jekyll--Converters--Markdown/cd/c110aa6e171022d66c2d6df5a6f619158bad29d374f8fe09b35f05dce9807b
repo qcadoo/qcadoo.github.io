@@ -1,0 +1,92 @@
+I"�-<p>Zdarzenia planowane to wszystkie te działania, na rzecz parku maszynowego, których realizację planujesz z wyprzedzeniem. Idealnym przykładem są remonty czy przeglądy. Ale wśród typów zdarzeń planowanych w qcadoo znajdziesz też takie jak: serwis zewnętrzny, przegląd UDT, spisanie licznika, ręczne, prace dodatkowe, poprzeglądowe. Myślę, że ten zestaw pozwoli Ci stworzyć całościowy plan prac w dziale utrzymania ruchu. O tym w jaki sposób qcadoo pomoże Ci w realizacji dowiesz się czytając poniższą dokumentację.</p>
+
+<p>Listę zdarzeń planowanych znajdziesz w <strong>Utrzymanie ruchy &gt; Zdarzenia planowane</strong>.</p>
+
+<figure><a target="_blank" href="images/DURZdarzeniaPlanowaneKontekst.png"><img src="images/DURZdarzeniaPlanowaneKontekst.png" alt="Kontekst pracy w zdarzeniach planowanych" /></a><figcaption>Kontekst pracy w zdarzeniach planowanych</figcaption></figure>
+
+<p>Podobnie jak w przypadkku <a href="/zdarzenia">zdarzeń</a> trzeba na początek ustawić kontekst pracy - w ramach jakiego zakładu i/lub działu chcesz się poruszać. Uzupełnij zakład, zakład i dział, dział, albo zostaw pola puste i kliknij <img class="inline" src="images/przyciskPotwierdzKontekst.png" alt="Przycisk Potwierdź kontekst" />
+ <strong>Potwierdź kontekst</strong></p>
+
+<figure><a target="_blank" href="images/DURZdarzeniaPlanowaneLista.png"><img src="images/DURZdarzeniaPlanowaneLista.png" alt="Lista zdarzeń planowanych" /></a><figcaption>Lista zdarzeń planowanych</figcaption></figure>
+
+<p>Na starcie widoczne są wszystkie otwarte zdarzenia planowane. Otwarte, czyli takie, nad którymi prace trwają, a ich status jest różny od <em>zrealizowane</em>, <em>zaakceptowane</em> lub <em>unieważnione</em>. Jeśli chcesz widzieć wszystkie zdarzenia planowane, albo te zakończone - zmień ustawienie filtra nad tabelą.</p>
+
+<p>Zdarzenie planowane może być dodane na kilka sposobów:</p>
+<ul>
+  <li>ręcznie</li>
+  <li>automatycznie na podstawie <a href="/zdarzenia-cykliczne">zdarzeń cyklicznych</a></li>
+  <li>przez planowanie <a href="/zdarzenia">zdarzenia</a> nagłego</li>
+  <li>automatycznie do niepoprawnie wykonanych czynności podczas przeglądu (zdarzenia poprzeglądowe)</li>
+</ul>
+
+<h2 id="ręczne-dodanie-zdarzenia-planowanego">Ręczne dodanie zdarzenia planowanego</h2>
+
+<figure class="float-right "><a target="_blank" href="images/DURZdarzeniaPlanowaneNowe.png"><img src="images/DURZdarzeniaPlanowaneNowe.png" alt="Formatka dodania zdarzenia planowanego" class="percent90 " /></a><figcaption>Formatka dodania zdarzenia planowanego</figcaption></figure>
+
+<p>Aby dodać ręcznie zdarzenie planowane kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong>. W zakładce Główna wypełnić możesz następujące pola:</p>
+
+<ul>
+  <li><strong>numer</strong> - podpowiada się kolejny numer. Jeśli masz ochotę - możesz zmienić na swój. Ważne, by był unikalny</li>
+  <li><strong>rodzaj</strong> - do wyboru z listy: przegląd, remont, serwis zewnętrzny, przegląd UDT, spisanie licznika, ręczne, prace dodatkowe. To pole jest bardzo istotne - w zależności od wybranego rodzaju, będą dostępne inne pola i inne zakładki. Jakie? Dowiesz się tego z poniższego tekstu</li>
+  <li><strong>obiekt</strong> - wskaż posługując się strukturą firmy (zakład, dział, linia produkcyjna, stacja robocza, podzespół) jakiego miejsca w firmie zdarzenie planowane będzie dotyczyć. Musisz podać zakład i dział - a to jak dalego zejdziesz w drzewku zależy od Ciebie. Możesz zaplanować zadanie na dział (np. pomalowanie ścian na dziale montażu), a nawet na podzespole (np. wymiana głowicy).</li>
+  <li><strong>opis</strong></li>
+  <li><strong>właściciel</strong> - wskaż kto z działu utrzymania ruchu będzie zarządzał danym zadaniem. Dzięki przypisaniu właściciela, można w <a href="/kalendarz-zdarzen">kalendarzu</a> tak odfiltrować zdarzenia w buforze, aby widoczne były tylko te, którymi ty masz się zająć i je rozplanować</li>
+  <li><strong>czynności planowane osobno</strong> - pole widoczne dla zdarzeń planowanych o rodzaju: przegląd, remont i prace dodatkowe. Jeśli parametr będzie zaznaczony, to każda czynność w nim rozpisana będzie miała osobny kafelek w <a href="/kalendarz-zdarzen">kalendarzu</a>. Każda z czynności będzie mogła być zaplanowana innemu pracownikowi i w innym terminie. I w końcu - każda czynność będzie musiała być przez pracownika z osobna zaraportowana</li>
+  <li><strong>wymaga wyłączenia z ruchu</strong> - zaznacz parametr, jeśli pracę na danym obiekcie sprawią, że nie będzie mogła być na nim realizowana w tym czasie produkcja. Spisanie licznika nie może powodować wyłączenia obiektu z ruchu, dlatego dla tego rodzaju parametr jest niewidoczny</li>
+  <li><strong>planowany termin zdarzenia</strong> - obszar ten określa czy zdarzenie planowane jest wg daty czy wg stanu licznika. Określ w nim w jakim dniu bądź po osiągnięciu jakiego stanu na liczniku, chcesz wykonać zdarzenie. Określ też ile czasu będzie trwała realizacja. Spisanie licznika, zdarzenie ręczne lub poprzeglądowe możesz zaplanować tylko na podstawie daty</li>
+  <li><strong><a href="/zrodlo-kosztow">źródło kosztów</a></strong> - wskaż z jakiego budżetu zdarzenie będzie finansowane. Podpowie się domyślne źródło dla wybranego zakładu</li>
+  <li><strong>rzeczywisty stan licznika</strong> - możesz w zdarzeniu planowanym uzupełnić jaki był stan licznika w momencie rozpoczęcia prac nad zadaniem.</li>
+  <li><strong>firma odpowiedzialna</strong> - pole można uzupełnić w zdarzeniu planowanym o rodzaju: serwis zewnętrzny i przegląd UDT. Wskaż jaka firma dany obiekt serwisuje</li>
+</ul>
+
+<p>Aby móc zapisać nowe zdarzenie planowane musisz podać co najmniej: numer, rodzaj, zakład, dział. Dodane zdarzenie planowane otrzymuje status: <strong>nowe</strong>.</p>
+
+<h2 id="planowanie-zdarzenia-planowanego">Planowanie zdarzenia planowanego</h2>
+
+<p>Wprowadzone do systemu zdarzenie musisz zaplanować. Co to oznacza? Trzeba ustalić jakie czynności muszą być zrealizowane, kiedy prace mają być prowadzone, kto będzie nad zadaniami pracował. Jak to zrobić? Zacznij zmiany statusu na Planowane. W tym celu kliknij <img class="inline" src="images/przyciskPlanuj.png" alt="Przycisk Planuj" />
+ <strong>Planuj</strong></p>
+
+<p>Co warto rozstrzygnąć:</p>
+
+<ul>
+  <li>kto jest <strong>właścicielem</strong> zdarzenia planowanego - jeśli jeszcze tego nie zrobiłeś teraz wskaż odpowiedniego pracownika w polu Właściciel w zakładce Główna</li>
+  <li>jakie są <strong>planowane daty realizacji</strong> - w zakładce Daty wskaż w jakim czasie zdarzenie ma pojawiać się w buforze <a href="/kalendarz-zdarzen">kalendarza</a>. Nie oznacza to jeszcze, że remont będzie odbywał się dokładnie w tym czasie. Oznacza to, że w tym czasie będziesz widzieć zdarzenie w kalendarzu i że będziesz mógł je zaplanować do realizacji pracownikom (przesuwając kafelek lub dodając wpis realizacji w zakładce czas pracy)</li>
+</ul>
+
+<figure class="float-right "><a target="_blank" href="images/DURZdarzeniaPlanowaneCzynnosci.png"><img src="images/DURZdarzeniaPlanowaneCzynnosci.png" alt="Czynności zdarzenia planowanego" class="percent90 " /></a><figcaption>Czynności zdarzenia planowanego</figcaption></figure>
+
+<ul>
+  <li><strong>kto</strong> będzie zadanie realizował - w zakładce Osoby wskaż pracowników odpowiedzialnych za zadanie</li>
+  <li>jakie <strong>części</strong> mogą być potrzebne do realizacji zdarzenia planowanego - listę możesz stworzyć w zakładce Części</li>
+  <li>jakie <strong>czynności</strong> są do przeprowadzenia, aby zdarzenie planowane mogło być wykonane - dla zdarzeń o typie remont, przegląd, ręczne i prace dodatkowe aktywny jest przycisk <img class="inline" src="images/przyciskCzynnosci.png" alt="Przycisk Czynności" />
+ <strong>Czynności</strong> - kliknij w niego i stwórz listę czynności do wykonania w ramach tego zdarzenia planowanego. Korzystać będziesz tu z wcześniej zdefiniowanych <a href="/czynnosci">czynności</a> w menu Podstawowe. Listę możesz budować albo wskazując po kolei każdą z czynności, albo zaciągając wiele czynności na raz korzystając z funkcji <img class="inline" src="images/przyciskDodajWieleCzynnosci.png" alt="Przycisk Dodaj wiele czynności" />
+ <strong>Dodaj wiele czynności</strong></li>
+</ul>
+
+<p>Jeśli doprecyzowałeś już wszystko oznacz zdarzenie jako zaplanowane, klikając przycisk <img class="inline" src="images/przyciskZaplanowane.png" alt="Przycisk Zaplanowane" />
+ <strong>Zaplanowane</strong>. Od tego momentu najwygodniej będzie Ci korzystać z <a href="/kalendarz-zdarzen">kalendarza</a> - zostaje Ci wrzucenie pracownikom zadań na konkretny dzień (a nawet zmianę) i nadzorowanie wykonania.</p>
+
+<h2 id="realizacja-zdarzenia-planowanego">Realizacja zdarzenia planowanego</h2>
+
+<p>Przyszedł dzień, w którym rozplanowane zdarzenie jest wykonywane. Pracownik dowie się o tym, że ma się dziś nim zająć (albo zająć się czynnością rozpisaną w zdarzeniu) zapewne z kalendarza - ale jego wykorzystanie nie jest konieczne. Możecie przekazywać sobie informacje ustnie, bądź możesz pracownikom wydrukować listę zaplanowanych na dany dzień zdarzeń. Zrobisz jak Ci jest wygodnie. 
+Początek prac nad zadaniem powinien być oznaczony klikając przycisk <img class="inline" src="images/przyciskStart.png" alt="Przycisk Start" />
+ <strong>Start</strong>. Zdarzenie planowane otrzyma status W realizacji, a Ty wiesz, że prace trwają.</p>
+
+<p>Po skończonym zadaniu pracownik klika <img class="inline" src="images/przyciskStop.png" alt="Przycisk Stop" />
+ <strong>Stop</strong>. Jeśli zdarzenie miało czynności planowane osobno (parametr w zakładce główna) to zanim zdarzenie będzie zastopowane, konieczne będzie ustawienie statusów realizacji we wszystkich czynnościach.</p>
+
+<p>Czynność może być wykonana <strong>poprawnie lub niepoprawnie</strong>. Jeśli nie udało się czegoś przeprowadzić tak jak należy, ale albo nie ma czasu teraz na poprawę, albo nie ma takich możliwości, a możesz pozwolić sobie na to, by w takim stanie maszynę zostawić - ustaw status niepoprawna i wprowadź uzasadnienie. Do czynności niepoprawnych w przeglądzie utworzymy zdarzenie poprzeglądowe.</p>
+
+<p>Kolejnym krokiem jest rozpisanie poświęconego czasu pracy na rzecz zdarzenia planowanego lub jego czynności - w tym celu 
+przejdź do zakładki <strong>Czas pracy</strong> i wprowadź kto i ile czasu pracował nad zadaniem. Jeśli czynności planowane były osobno - czas musi być rozpisany z dokładnością do każdego kroku. 
+Pomocny tutaj może okazać się widok: Rozpisany czas pracy opisany opisany bliżej w <a href="/zdarzenia.html#rozpisany-czas-pracy">zdarzeniach</a>.</p>
+
+<p>Sprawdź jeszcze listę <strong>części</strong> - czy to co zostało zaplanowane faktycznie zostało zużyte, czy może trzeba jeszcze dodatkowe zużycie zaewidencjonować.</p>
+
+<p>Warto też zostawić <strong>opis rozwiązania</strong> - to nieoceniona baza wiedzy przy realizacji podobnych zdarzeń planowanych w przyszłości.</p>
+
+<p>Ostatnim krokiem jest ustawienie statusu: zrealizowana. W tym celu kliknij przycisk <img class="inline" src="images/przyciskZrealizowane.png" alt="Przycisk Zrealizowane" />
+ <strong>Zrealizowane</strong>. Do wszysktich rozpisanych części zostanie utworzony dokument RW. A samo zdarzenie nie będzie mogło być już edytowane i usunięte.</p>
+
+:ET

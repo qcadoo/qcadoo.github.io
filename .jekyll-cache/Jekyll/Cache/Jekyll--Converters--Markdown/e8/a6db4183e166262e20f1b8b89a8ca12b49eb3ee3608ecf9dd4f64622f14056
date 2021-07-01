@@ -1,0 +1,109 @@
+I"k7<p>Jeśli czytając “generator” spodziewasz się czegoś super przyspieszającego Twoją pracę, to się nie zawiedziesz! Tak - generator technologii powstał właśnie po to, by pomóc Ci w bardzo szybkim ich definiowaniu. Kiedy znajdzie zastosowanie? Gdy masz dużo (lub nawet bardzo dużo) bardzo podobnych produktów, produkowanych w taki sam lub bardzo podobny sposób, różniących się nieznacznie - np. zużytymi produktami. Gdy produkujesz wyroby w wielu rozmiarach - technologia ta sama, ale każdy rozmiar to osobny indeks produktu. Gdy produkujesz wybory w wielu kolorach - technologia ta sama, ale znowu: każdy kolor jest osobnym indeksem produktu. Generator technologii sprawdza się także, gdy proces produkcyjny podzielony masz na <a href="/technologie-szczegoly.html#technologie-na-komponenty">komponenty</a> - tworząc technologie na podstawie szablonu, rozpatrujesz proces produkcyjny jako całą strukturę, a nie każdy komponent z osobna.</p>
+
+<p>Dokumentacja omówi na przykładzie krok po kroku działanie generatora. Jeśli masz problem z konfiguracją szablonu albo z ustaleniem, czy generator sprawdzi się u Ciebie - skontaktuj się z nami, a pomożemy.</p>
+
+<p>Generator technologii działa w oparciu o <strong>szablon</strong>. Zatem zawsze musisz wprowadzić pierwszą technologię w <a href="/technologie-szczegoly">sposób standardowy</a>. Najlepiej wprowadzić sobie nowe produkty, które nie są tymi zamawianymi przez klienta, ale takimi, które ogólnie opiszą rodzaj produktu. U mnie będzie to sofa. Technologia na sofę składa się z technologii na komponenty - kompletny proces podzielony jest na 3 etapy:</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorListaSzablonow.png"><img src="images/technologieGeneratorListaSzablonow.png" alt="Szablony technologii" /></a><figcaption>Lista szablonów technologii</figcaption></figure>
+
+<p>Cała struktura wyrobu wygląda następująco:</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorStrukturaSzablonu.png"><img src="images/technologieGeneratorStrukturaSzablonu.png" alt="Struktura wyboru z szablonów technologii" /></a><figcaption>Struktura wyrobu wygenerowana z szablonów technologii</figcaption></figure>
+
+<p>Zależy mi na tym, aby <a href="/technologie-szczegoly.html#przepływy-technologii">półprodukty były przyjmowane na magazyn</a>. I abym potrafiła rozróżnić półprodukty pod konkretne wyroby. Czyli półprodukt po stolarni na sofę ZOFIA to inny półprodukt niż półprodukt po stolarni na sofę IRENA. Mam taką listę produktów:</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorProduktyPoczatek.png"><img src="images/technologieGeneratorProduktyPoczatek.png" alt="Lista produktów" /></a><figcaption>Lista produktów</figcaption></figure>
+
+<p>produkty <em>po CNC</em>, <em>po stolarni</em>, <em>po tapicerowaniu</em> oznaczone są jako <a href="/produkty">rodzina produktów</a>. Generator technologii takie produkty wyłapuje i przy tworzeniu technologii właściwych tworzy zamiast nich nowe, właściwe produkty. Schemat nadawania indeksów nowych produktów jest nastepujący:</p>
+
+<ul>
+  <li>numer = numer produktu z szablonu + numer wyrobu, dla którego tworzona jest technologia z generatora</li>
+  <li>nazwa = nazwa produktu z szablonu + nazwa wyrobu, dla którego tworzona jest technologia z generatora</li>
+</ul>
+
+<p>Dla mojego przypadku do produktu <em>po CNC</em> pod wyrób <em>sofa ZOFIA</em> utworzy się <em>po CNC - sofa ZOFIA</em>.</p>
+
+<p><span style="color:red"> <em>Szablon gotowy.</em></span> Można przystąpić do stworzenia generatora. Wejdź w <strong>Technologie &gt; Generator technologii</strong> i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk nowy" />
+ <strong>Dodaj nowy</strong>:</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorUstawienia.png"><img src="images/technologieGeneratorUstawienia.png" alt="Dodawanie generatora technologii" /></a><figcaption>Dodawanie generatora technologii</figcaption></figure>
+
+<p>W zakładce <strong>Ustawienia</strong> wypełnij:</p>
+
+<ul>
+  <li><strong>numer</strong> - podpowiadamy kolejny numer, ale polecam nazwanie tak generatora, abyś wiedział później do jakiej grupy produktów go wykorzystać. Ja swój nazwałam <em>sofy</em> - bo będę z tego szablonu tworzyć technologie na sofy, a Ty wprowadź taką nazwę, jaką uważasz za stosowną</li>
+  <li><strong>produkt</strong> - od tego momentu zaczynamy tworzyć technologie na konkretne produkty u Ciebie wytwarzane. Wybierz zatem pierwszy z produktów, który będzie miał technologie tworzone w oparciu o szablon. U mnie - <em>sofa ŁUCJA</em></li>
+  <li><strong>na podstawie technologii</strong> - tutaj wskaż szablon technologii na wyrób (stworzony w kroku wcześniej). Aby technologia mogła być wybrana, musi mieć status zaakceptowany</li>
+</ul>
+
+<p>Tak zdefiniowany generator możesz zapisać - używając przycisku <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>.</p>
+
+<p>W zakładce są jeszcze dodatkowe pola - pewnie jesteś ciekawy za co są odpowiedzialne. Zatem tak:</p>
+<ul>
+  <li><strong>trwa generowanie technologii na produkty dodatkowe</strong> - pole nie jest aktywne. Zaznaczymy je na czas trwania procesu generowania technologii na produkty dodane w tabeli produktów dodatkowych. Jeszcze nie wiesz o co chodzi - doczytaj do końca, a temat stanie się jaśniejszy</li>
+  <li><strong>pobierz domyślne technologie na komponenty</strong> - jeśli parametr będzie zaznaczony, to do generatora zostanie zaciągnięta cała struktura wyrobu do wskazanej technologii (czyli wskazana technologia i jej technologie na komponenty),</li>
+  <li><strong>automatycznie twórz i podmieniaj produkty</strong> - o działaniu tej funkcji już wspomniałam wcześniej –&gt; generator jest tak przygotowany, aby tworzył nowe produkty do produktów oznaczonych w szablonie jako rodzina produktu. Aby funkcjonalność działała - parametr musi być zaznaczony.</li>
+  <li><strong>zachowaj</strong> - jeśli parametr będzie zaznaczony, generator będzie zapisany i będzie na Ciebie czekał tutaj tak długo jak będziesz potrzebować. Jeśli jednak nie jest Ci potrzebny ten generator na dłużej, możesz odznaczyć parametr, a wówczas, po 7 dniach, sami go usuniemy (zachowując tym samym porządek w generatorach - niech zostają tylko te, które są Ci potrzebne)</li>
+</ul>
+
+<p>Tabelę produktów dodatkowych omówię później - a teraz wspomnę, że to właśnie w niej tkwi sedno generatora.</p>
+
+<p>W kolejnym kroku trzeba utworzyć pierwsze technologie właściwe, które będą później powielane na produkty podane jako produkty dodatkowe do generatora. Pierwszą trzeba stworzyć niejako ręcznie - jednak jeśli wskazany szablon nie musi być już modyfikowany, to wystarczy, że wywołasz tworzenie technologii dla każdej technologii na komponent ze struktury. Zacznij od wygenerowania struktury, używając przycisku <img class="inline" src="images/przyciskGenerujStrukture.png" alt="Przycisk Generuj strukturę" />
+ <strong>Generuj strukturę</strong>.</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorWygenerowanaStruktura.png"><img src="images/technologieGeneratorWygenerowanaStruktura.png" alt="Wygenerowana struktura w generatorze technologii" /></a><figcaption>Wygenerowana struktura w generatorze technologii</figcaption></figure>
+
+<p>ustaw się na pierwszej zielonej linii (przechodząc np. od dołu drzewka), czyli na pierwszej technologii na komponent:</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorKopiujModyfikuj.png"><img src="images/technologieGeneratorKopiujModyfikuj.png" alt="Tworzenie technologii do komponentu" /></a><figcaption>Tworzenie technologii do komponentu</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/przyciskKopiujModyfikujTechnologie.png" alt="Przycisk Kopiuj / modyfikuj technologie" />
+ <strong>Kopiuj / modyfikuj technologie</strong>.</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorNowaTechnologiaGlowna.png"><img src="images/technologieGeneratorNowaTechnologiaGlowna.png" alt="Dane podstawowe nowo utworzonej technologii" /></a><figcaption>Dane podstawowe nowo utworzonej technologii</figcaption></figure>
+
+<p>W tym momencie nastąpiło utworzenie pierwszej właściwej technologii na komponent. Widać, że został założony nowy produkt i podpięty jako finalny do tej technologii.</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorNowaTechnologiaDrzewo.png"><img src="images/technologieGeneratorNowaTechnologiaDrzewo.png" alt="Drzewo nowo utworzonej technologii" /></a><figcaption>Drzewo nowo utworzonej technologii</figcaption></figure>
+
+<p>Drzewo technologii zbudowane jest na podstawie użytego w generatorze szablonu. Jeśli potrzebna jest jakaś zmiana (nowa operacja, albo usunięcie jakiejś czynności, nowe normy czasowe, nowe czy inne produkty wejściowe …) - to to jest ten moment, w którym modyfikacja powinna zostać przeprowadzana. Jeśli poprawki będą ukończone, lub poprawek nie wykonujesz - kliknij <img class="inline" src="images/przyciskPowrot.png" alt="Przycisk Powrót" />
+ <strong>Powrót</strong></p>
+
+<figure><a target="_blank" href="images/technologieGeneratorStrukturaPoPowrocie.png"><img src="images/technologieGeneratorStrukturaPoPowrocie.png" alt="Zaktualizowana struktura technologii" /></a><figcaption>Zaktualizowana struktura technologii</figcaption></figure>
+
+<p>Technologia na komponent, która już została utworzona, została oznaczona zieloną ikoną. Teraz trzeba czynność powtórzyć dla pozostałych zielonych wierszy, czyli dla pozostałych technologii na komponent.</p>
+
+<div class="bs-callout bs-callout-warning">Pamiętaj, że nawet gdy nie wprowadzasz zmian w szablonie, trzeba dla każdego zielonego wiersza wywołać tworzenie technologii właściwych, klikając kopiuj/modyfikuj technologie.</div>
+
+<p>Gotowa struktura w generatorze wygląda tak:</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorPoWygenerowaniuCalosci.png"><img src="images/technologieGeneratorPoWygenerowaniuCalosci.png" alt="Zaktualizowana struktura technologii po wygenerowaniu nowych technologii na wszystkie komponenty" /></a><figcaption>Zaktualizowana struktura technologii po wygenerowaniu nowych technologii na wszystkie komponenty</figcaption></figure>
+
+<p>Jeśli chcesz zobaczyć wszystkie naniesione zmiany kliknij <img class="inline" src="images/przyciskOdswiezStrukture.png" alt="Przycisk Odśwież strukturę" />
+ <strong>Odśwież strukturę</strong>.</p>
+
+<p>Czas obejrzeć efekty pracy. Zostały dodane nowe technologie:</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorListaNowychTechnologii.png"><img src="images/technologieGeneratorListaNowychTechnologii.png" alt="Nowo utworzone technologie" /></a><figcaption>Nowo utworzone technologie</figcaption></figure>
+
+<p>Pojawiły się też nowe produkty:</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorNowaListaProduktow.png"><img src="images/technologieGeneratorNowaListaProduktow.png" alt="Nowo utworzone produkty" /></a><figcaption>Nowo utworzone produkty</figcaption></figure>
+
+<p><span style="color:red"> <em>Czas na finał!</em></span> Generator technologii skonfigurowany. Teraz możesz wykorzystywać go do szybkiego tworzenia technologii na pozostałe podobne produkty. Na mojej liscie jest jeszcze kilka sof, których produkcja nie różni się znacznie od produkcji wskazanej w generatorze sofy ŁUCJI. Aby utworzyć na nie technologie, zaciągnę produkty do <strong>tabeli produktów dodatkowych</strong> w zakładce Ustawienia:</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorProduktyDodatkowe.png"><img src="images/technologieGeneratorProduktyDodatkowe.png" alt="Tworzenie technologii z generatora dla nowych wyrobów" /></a><figcaption>Tworzenie technologii z generatora dla nowych wyrobów</figcaption></figure>
+
+<p>i wywołam tworzenie technologii przyciskiem <img class="inline" src="images/przyciskGenerujTechnologieNaProduktyDodatkowe.png" alt="Przycisk Generuj technologie na produkty dodatkowe" />
+ <strong>Generuj technologie na produkty dodatkowe</strong>. Na czas generowania parametr <strong>Trwa generowanie technologii na produkty dodatkowe</strong> będzie zaznaczony. Jeśli dodasz kilkadziesiąt produktów na raz, a Twoja struktura wyrobu jest bardzo złożona i wielopoziomowa, to może to chwilę potrwać. Ale nie próżnujemy w tym czasie! Tworzymy produkty i technologie. Aby mieć pewność, że generator skończył powierzoną mu pracę, odśwież widok klikając <img class="inline" src="images/przyciskOdswiez.png" alt="Przycisk Odśwież" />
+ <strong>Odśwież</strong> i sprawdź czy parametr się odznaczył i czy tabela produktów dodatkowych została wyczyszczona. To znak, że wszystko gotowe. Jeśli nie jesteś tak cierpliwy - możesz na bieżąco sprawdzać listę w zakładce Technologie na produkty dodatkowe:</p>
+
+<figure><a target="_blank" href="images/technologieGeneratorTechnologieNaProduktyDodatkowe.png"><img src="images/technologieGeneratorTechnologieNaProduktyDodatkowe.png" alt="Lista wygenerowanych technologii na produkty dodatkowe" /></a><figcaption>Lista wygenerowanych technologii na produkty dodatkowe</figcaption></figure>
+
+<p>lub po prostu w liście technologii. Kompletna utworzona lista wygląda tak:</p>
+<figure><a target="_blank" href="images/technologieGeneratorListaKompletnaTechnologii.png"><img src="images/technologieGeneratorListaKompletnaTechnologii.png" alt="Kompletna lista technologii" /></a><figcaption>Kompletna lista technologii</figcaption></figure>
+
+<p>Możesz teraz nanieść dodatkowe zmiany - np. inny surowiec na wejściu w każdej utworzonej technologii, czy dodatkowo zużywane produkty. Naniesienie drobnych zmian jest zawsze zdecydowanie szybsze niż wprowadzanie całości od podstaw. I ustaw odpowiednie <a href="/statusy-technologii">statusy</a>.
+Mam nadzieję, że generator oszczędził dla Ciebie kilka godzin pracy. Możesz je spożytkować jak tylko chcesz! Nie dziękuj ;)</p>
+:ET

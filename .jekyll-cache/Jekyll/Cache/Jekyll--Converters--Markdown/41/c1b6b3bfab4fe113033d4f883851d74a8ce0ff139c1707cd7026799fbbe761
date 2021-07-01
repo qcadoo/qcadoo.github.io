@@ -1,0 +1,14 @@
+I"P<p>Analiza wykonania <a href="/procesy-technologiczne-zlecenia">procesów technologicznych</a> zbierze informacje o wszystkich procesach technologicznych mających być realizowane w zadanym czasie. Szybko ustalisz kto potwierdził wykonanie i kiedy. Ponadto ustalisz koszty zwiazane z realizacją procesów - program pobierze <a href="/stawki-za-procesy">aktualną stawkę</a> za proces i wyznaczy jego wartość (jako iloczyn czasu trwania i stawki za godzinę). Po co? Jeśli płacisz pracownikom za wykonanie konkretnych czynności, łatwo wyznaczysz wielkość wynagrodzenia.</p>
+
+<p>Aby przeprowadzić analizę wejdź w <strong>Analizy &gt; Wykonanie procesów techologicznych</strong> i podaj w zakładce <strong>Kontekst</strong> zakres dat, który Cię interesuje:</p>
+
+<figure><a target="_blank" href="images/analizyWykonanieProcesowTechnologicznychKontekst.png"><img src="images/analizyWykonanieProcesowTechnologicznychKontekst.png" alt="Ustawianie kontekstu w analizie wykonania procesów technologicznych" /></a><figcaption>Ustawianie kontekstu w analizie wykonania procesów technologicznych</figcaption></figure>
+
+<p>Do analizy pobrane zostaną te procesy technologiczne zlecenia, których data realizacji wpada w podany okres, a jeśli proces nie jest wykonany - to będzie zakwalifikowany do zestawienia na podstawie daty rozpoczęcia zlecenia, do którego należy.</p>
+
+<p>Po podaniu dat kliknij przycisk <img class="inline" src="images/przyciskWczytajDane.png" alt="Przycisk Wczytaj dane" />
+ <strong>Wczytaj dane</strong> i przejdź do zakładki <strong>Dane</strong>:</p>
+
+<figure><a target="_blank" href="images/analizyWykonanieProcesowTechnologicznychDane.png"><img src="images/analizyWykonanieProcesowTechnologicznychDane.png" alt="Wykonanie procesów technologicznych" /></a><figcaption>Wykonanie procesów technologicznych</figcaption></figure>
+
+:ET

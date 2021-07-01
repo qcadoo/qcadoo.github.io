@@ -1,0 +1,134 @@
+I"E<p>Parametry ogólne to te parametry, które nie znalazły przyporządkowania do pozostałych grup parametrów. Znajdziesz je w <strong>Parametry &gt; Parametry ogólne</strong>. Każda zakładka i przycisk zostanie omówiona w osobnym rozdziale.</p>
+
+<h2 id="główna">Główna</h2>
+
+<p>W zakładce Główna ustaw parametry dotyczące całego systemu qcadoo.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryGlowna.png"><img src="images/administracjaParametryGlowna.png" alt="Parametry - zakładka Główna" /></a><figcaption>Parametry - zakładka Główna</figcaption></figure>
+
+<p>Wskaż:</p>
+<ol>
+  <li><strong>firma</strong> - z listy zdefiniowanych firm (podstawowe &gt; <a href="/firmy">firmy</a>) wskaż swoją. Dzięki temu będziemy potrafili umieścić np. na wydrukach odpowiednie dane</li>
+  <li><strong>kraj</strong> - określ w jakim kraju ma miejsce działalność</li>
+  <li><strong>waluta</strong> - podaj jaką walutą głównie się posługujesz</li>
+  <li><strong>jednostka</strong> - jednostka domyślna, najczęściej u Ciebie używana. Będziemy ją podpowiadać np. przy dodawaniu produktów</li>
+</ol>
+
+<hr />
+
+<h2 id="raport">Raport</h2>
+
+<p>W zakładce Raport znajdziesz konfigurację raportów tworzonych w qcadoo MES.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryRaport.png"><img src="images/administracjaParametryRaport.png" alt="Parametry raportów" /></a><figcaption>Parametry raportów</figcaption></figure>
+
+<ol>
+  <li>
+    <p><strong>szerokości kolumn</strong> - tabela dotyczy raportów PDF zamówień do dostawców i ofert. Dla każdej zaprezentowanej na wydruku kolumny możesz ustawić szerokość, która jest dla Ciebie najodpowiedniejsza. Szerokość podajemy w pikselach - ale najlepiej metodą prób i błędów ustawiać odpowiednie wartości</p>
+  </li>
+  <li>
+    <p><strong>dodatkowy tekst w stopce</strong> - wypełniony tekst będzie się pojawiał na wydrukach PDF na środku stopki:</p>
+  </li>
+</ol>
+
+<figure><a target="_blank" href="images/administracjaParametryRaportStopka.png"><img src="images/administracjaParametryRaportStopka.png" alt="Dodatkowy tekst w stopce" /></a><figcaption>Dodatkowy tekst w stopce</figcaption></figure>
+
+<p>Nie przesadź z długością tekstu - jak widzisz nie ma za dużo miejsca na tekst dodatkowy.</p>
+
+<ol start="3">
+  <li>
+    <p><strong>Eksport do PDF tylko widocznych na ekranie kolumn</strong> - zaznacz, jeśli PDF zawierający eksport danych z tabel, ma nie pokazywać kolumn ukrytych</p>
+  </li>
+  <li>
+    <p><strong>Eksport do CSV tylko widocznych na ekranie kolumn</strong> - zaznacz, jeśli CSV zawierający eksport danych z tabel, ma nie pokazywać kolumn ukrytych</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="produkty">Produkty</h2>
+
+<p>W zakładce znajdują się parametry konfigurujące <a href="/produkty">produkty</a>.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryProdukty.png"><img src="images/administracjaParametryProdukty.png" alt="Parametry raportów" /></a><figcaption>Parametry produktów</figcaption></figure>
+
+<ol>
+  <li><strong>Kopiuj atrybuty z rodziny na produkty rozmiarowe</strong> - zaznacz parametr a atrybuty, które przypiszesz do produktu rodziny zostaną przeniesione na konkretne produkty utworzone przez funkcję Dodaj rozmiary do produktu</li>
+</ol>
+
+<hr />
+
+<h2 id="powiadomienia">Powiadomienia</h2>
+
+<p>Chcesz aby pracownicy otrzymywali maila o utworzeniu <a href="/dostawy#generowanie-dostawy-do-stanów-minimalnych">dostawy do stanów minimalnych</a>? Jeśli tak - to musimy wiedzieć na jaki adres wiadomości wysyłać.</p>
+
+<p>Co musisz zrobić:</p>
+<ol>
+  <li>wprowadź <a href="/pracownicy">pracowników</a></li>
+  <li>pracownikowi zdefiniuj adres mailowy (pole Email)</li>
+  <li>wejdź w Parametry &gt; Parametry ogólne &gt; zakładka Powiadomienia i dodaj do listy pracownika</li>
+</ol>
+
+<figure><a target="_blank" href="images/administracjaParametryPowiadomienia.png"><img src="images/administracjaParametryPowiadomienia.png" alt="Parametry powiadomień" /></a><figcaption>Parametry powiadomień</figcaption></figure>
+
+<ol start="4">
+  <li>aby adres mailowy został uwzględniony przy wysyłaniu powiadomienia do utworzonej dostawy zaznacz parametr <strong>Utworzenie dostawy do stanów min.</strong> w zakładce Dostawy</li>
+</ol>
+
+<hr />
+
+<h2 id="zdarzenia">Zdarzenia</h2>
+
+<p><a href="/zdarzenia">Zdarzenia</a> to funkcjonalność z działu utrzymania ruchu. Zdarzenia to sytuacje, które występują nagle i nie da się ich zaplanować. Jak np. awarie.</p>
+
+<p>W Parametry &gt; Parametry ogólne &gt; zakładka Zdarzenia możesz skonfigurować ich działanie.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryZdarzenia.png"><img src="images/administracjaParametryZdarzenia.png" alt="Parametry zdarzeń" /></a><figcaption>Parametry zdarzeń</figcaption></figure>
+
+<ol>
+  <li>
+    <p><strong>Dopuszczalne odchylenie czasu pracy</strong> - wskaż o jaki procent czas zaraportowany danego pracownika może różnić się od czasu jaki upłynął między nadaniem statusu W trakcie a W Edycji. Jeśli będzie dłuższy o zadany procent, poinformujemy Cię o tym na etapie zamykania zdarzenia</p>
+  </li>
+  <li>
+    <p><strong>Akceptacja zdarzeń</strong> - jeśli chcesz, aby przed zamknięciem zdarzeń i zdarzeń planowanych, konieczna była ich akceptacja (np. przez pracowników, którzy daną awarię zgłosili), to zaznacz parametr</p>
+  </li>
+  <li>
+    <p><strong>Wymagaj typu usterki przy tworzeniu zdarzeń</strong> - jeśli zostawisz parametr niezaznaczony w momencie zgłaszania zdarzenia podanie typu usterki nie będzie konieczne. Trzeba będzie daną uzupełnić przy przejściu krok dalej, w momencie wystartowania lub zaplanowania zdarzenia.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="jakość">Jakość</h2>
+
+<p>W zakładce Jakość znajdziesz parametry dotyczące <a href="/kontrola-jakosci">kontroli jakości</a>.</p>
+
+<figure><a target="_blank" href="images/parametryParametryOgolneJakosc.png"><img src="images/parametryParametryOgolneJakosc.png" alt="Parametry zdarzeń" /></a><figcaption>Parametry zdarzeń</figcaption></figure>
+
+<ol>
+  <li><strong>Końcowa kontrola jakości bez zasobów</strong> - zaznacz parametr jeśli chcesz przeprowadzać końcową kontrolę jakości bez wskazywania i blokowania zasobów magazynowych. Jeśli parametr nie będzie zaznaczony, kontrola jakości będzie przeprowadzana w trybie blokowania zasobów.</li>
+</ol>
+
+<hr />
+
+<h2 id="karta-modelu">Karta modelu</h2>
+
+<p>W zakładce Karta modelu umieszczone są parametry generowania <a href="/karta-modelu">karty modelu</a>.</p>
+
+<figure><a target="_blank" href="images/parametryParametryOgolneKartaModelu.png"><img src="images/parametryParametryOgolneKartaModelu.png" alt="Parametry zdarzeń" /></a><figcaption>Parametry karty modelu</figcaption></figure>
+
+<ol>
+  <li>
+    <p><strong>Wykorzystane koszty materiału</strong> - ustaw wg jakiej ceny zapisanej w produkcie chcesz wyliczyć koszt materiałów dla danego wyrobu</p>
+  </li>
+  <li>
+    <p><strong>Użyj kosztu nominalnego, gdy cena nie jest określona</strong> - jeśli zaznaczysz parametr to w momencie, gdy cena podana w polu wyżej będzie zerem lub nieokreślona, pobierzemy do wyliczeń koszt nominalny produktu. Koszt nominalny nie jest aktualizowany danymi z dokumentów czy ofert, więc możesz w nim zostawić spodziewaną cenę produktu, np. ustaloną z dostawcą.</p>
+  </li>
+  <li>
+    <p><strong>Atrybut wyrobu</strong> - atrybut i jego wartość pojawi się na wydruku karty modelu w obszarze wyrobu</p>
+  </li>
+  <li>
+    <p><strong>Atrybut materiału</strong> - atrybut i jego wartość pojawi się na wydruku karty modelu w tabeli materiałów</p>
+  </li>
+</ol>
+:ET

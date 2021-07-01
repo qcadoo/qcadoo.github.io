@@ -1,0 +1,66 @@
+I"k<p>Zlecenie produkcyjne może zostać podzielone na paczki. Po co? Np. po to, by dużą ilość do zrealizowania podzielić na mniejsze transze. Paczki są dedykowane realizacji procesów technologicznych. Załóżmy, że Twoja produkcja polega na montażu - produkt przechodzi z rąk do rąk i każdy z pracowników dokręca kolejny element produktu. Te poszczególne czynności możesz rozpisać jako procesy technologiczne. A zamiast takich podejść:</p>
+<ul>
+  <li>montuję po sztuce i po wykonaniu przekazuję dalej</li>
+  <li>montuję wszystko co jest zlecone i dopiero wówczas przekazuję dalej
+możesz podzielić zlecenie na paczki (np. po 20 sztuk) i po montażu na rzecz tych całej paczki przekazywać ją do kolejnego stanowiska roboczego. Takie podejście wydaje się najbardziej optymalne.</li>
+</ul>
+
+<p>Paczki mogą być albo dodane ręcznie albo wygenerowane. Tutaj dowiesz się w jaki sposób dodać paczki ręcznie. Opis generowania znajdziesz <a href="/paczki-w-zleceniu">tutaj</a>.</p>
+
+<p>Aby wyświetlić listę paczek wejdź w: <strong>planowanie &gt; paczki zlecenia</strong></p>
+
+<figure><a target="_blank" href="images/planowaniePaczkiZleceniaLista.png"><img src="images/planowaniePaczkiZleceniaLista.png" alt="Lista paczek zlecenia" /></a><figcaption>Lista paczek zlecenia</figcaption></figure>
+
+<p>Paczkę dodasz klikając przycisk <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong>:</p>
+
+<figure><a target="_blank" href="images/planowaniePaczkiZleceniaDodajNowy.png"><img src="images/planowaniePaczkiZleceniaDodajNowy.png" alt="Formularz dodawania paczki zlecenia" /></a><figcaption>Formularz dodawania paczki zlecenia</figcaption></figure>
+
+<p>Zacznij od wybrania <strong>zlecenia produkcyjnego</strong>. Na jego podstawie podpowiedzą się ilości: <strong>zlecona</strong> i <strong>suma ilości paczek</strong> już istniejących do tego zlecenia. Podaj <strong>ilość dla paczki</strong>, którą dodajesz. I zapisz używając przycisku <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>.</p>
+
+<div class="bs-callout bs-callout-warning">Ilość ze wszystkich paczek danego zlecenia nie może przekraczać jego ilości zleconej.</div>
+
+<hr />
+
+<h2 id="generowanie-paczek">Generowanie paczek</h2>
+
+<p>Aby móc generować paczki ustaw odpowiednio <a href="/parametry-zlecen.html#paczki">parametry</a>. Musimy wiedzieć jaka jest:</p>
+<ul>
+  <li><strong>optymalna wielkość paczki</strong> - czyli ile jednostek (np. sztuk) ma składać się na jedną paczkę</li>
+  <li><strong>reszta zasilająca ostatnią paczkę</strong> - czyli jak duża reszta po podziale powiększy ostatnią paczkę. Reszta powyżej tej liczby będzie stanowić nową, najmniejszą paczkę.</li>
+</ul>
+
+<p>Jeśli chcesz, aby paczki generowały się automatycznie w momencie rozpoczyniania zlecenia, zaznacz parametr: <strong>Generuj paczki dla zleceń</strong>.</p>
+
+<p>Niezależnie od tego, czy paczki maja być generowane automatycznie, czy nie, w zleceniu zaakceptowanym i rozpoczętym możesz ręcznie wywołać funkcję generowania. Opcja taka możliwa jest z dwóch miejsc:</p>
+<ol>
+  <li>listy paczek wywołanej ze <a href="/paczki-w-zleceniu">zlecenia produkcyjnego</a></li>
+  <li>listy paczek wywołanej z <a href="/grupy-zlecen.html#paczki-zlecenia">grupy zleceń</a></li>
+</ol>
+
+<p>Kliknij przycisk <img class="inline" src="images/przyciskWygenerujPaczki.png" alt="Przycisk Wygeneruj paczki" />
+ <strong>Wygeneruj paczki</strong>.</p>
+
+<p>Utworzone paczki możesz edytować zmieniając ilość.</p>
+
+<div class="bs-callout bs-callout-warning">Jeśli zlecenie posiada co najmniej 1 paczkę, generowanie nie jest możliwe.</div>
+
+<hr />
+
+<h2 id="etykiety-do-paczek">Etykiety do paczek</h2>
+
+<p>Paczki zlecenia mogą być oznaczane etykietami drukowanymi z qcadoo. Etykiety zawierają kod kreskowy z numerem paczki, który może posłużyć do raportowania w <a href="/terminal">terminalu rejestracji produkcji</a> albo w <a href="/terminal-potwierdzania-procesow">terminalu potwierdzania procesów</a>.</p>
+
+<p>Aby wygenerować etykiety wejdź w listę paczek (zarówno z menu planowanie, jak i ze szczegółów zlecenia czy grupy zleceń), zaznacz paczki, które chcesz oznaczyć etykietami:</p>
+
+<figure><a target="_blank" href="images/planowaniePaczkiZleceniaListaEtykiety.png"><img src="images/planowaniePaczkiZleceniaListaEtykiety.png" alt="Generowanie etykiet do paczek" /></a><figcaption>Generowanie etykiet do paczek</figcaption></figure>
+
+<p>i kliknij przycisk <img class="inline" src="images/przyciskWygenerujEtykiety.png" alt="Przycisk Wygeneruj etykiety" />
+ <strong>Wygeneruj etykiety</strong>. Pojawi się raport PDF z 6 etykietami na stronie:</p>
+
+<figure><a target="_blank" href="images/planowaniePaczkiZleceniaEtykietyPDF.png"><img src="images/planowaniePaczkiZleceniaEtykietyPDF.png" alt="Etykiety do paczek" /></a><figcaption>Etykiety do paczek</figcaption></figure>
+
+<div class="bs-callout bs-callout-warning">Pole kolor na widocznej etykiecie, to atrybut produktu. Wskaż w <a href="/parametry-zlecen.html#paczki">parametrach paczek</a> jaki atrybut Ty chcesz widzieć na etykiecie.</div>
+
+:ET

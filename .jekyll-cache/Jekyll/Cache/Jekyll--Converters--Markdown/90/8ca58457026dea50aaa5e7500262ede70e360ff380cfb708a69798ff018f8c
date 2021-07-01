@@ -1,0 +1,39 @@
+I"P<p>Genealogia przechowuje nie tylko informacje o partiach produktów wytworzonych za sprawą zleceń z qcadoo. Umożliwia również śledzenie partii tych wyrobów, które na przykład były wytworzone jeszcze przed wdrożeniem naszego systemu.</p>
+
+<p>Jak wprowadzić rejestr partii, które weszły w skład naszych produktów?</p>
+
+<ol>
+  <li>W <strong>GENEALOGIA  Proste śledzenie partii</strong> wybierz <img class="inline" src="images/newIcon24.png" alt="Dodaj nowy" />
+ <strong>Dodaj nowy</strong>.</li>
+</ol>
+
+<figure class="float-right "><a target="_blank" href="images/Genealogia-%20proste%20%C5%9Bledzenie%20partii-%20strza%C5%82ki.png"><img src="images/Genealogia-%20proste%20%C5%9Bledzenie%20partii-%20strza%C5%82ki.png" alt="Śledzenie partii produktów" class="percent90 " /></a><figcaption>Śledzenie partii produktów</figcaption></figure>
+
+<ol>
+  <li>
+    <p>Wskaż wytworzony produkt czyli produkt końcowy wraz z <a href="/jak-dodac-numery-partii">przypisaną mu partią</a>.</p>
+  </li>
+  <li>
+    <p>Podaj wyprodukowaną ilość.</p>
+  </li>
+  <li>
+    <p>Następnie zapisz dane, wybierając <img class="inline" src="images/saveIcon24.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>.</p>
+  </li>
+  <li>
+    <p>Kliknij <img class="inline" src="images/newIcon24.png" alt="Dodaj nowy" />
+ <strong>Nowy</strong>, aby dodać partie produktów, które zostały użyte do wytworzenia podanej partii produktu. Po dodaniu produktu w tabeli “Użyte partie” pojawią się między innymi data dodania oraz dane osoby, która wprowadziła tę partię.</p>
+  </li>
+  <li>
+    <p>Po wprowadzeniu wszystkich produktów ponownie wybierz <img class="inline" src="images/saveIcon24.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>.</p>
+  </li>
+  <li>
+    <p>Następnie, jeśli wprowadzona wersja zapisanego rekordu śledzenia partii jest końcową, zmień jej status na <img class="inline" src="images/startIcon24.png" alt="Zaakceptuj" />
+ <strong>Zaakceptowana.</strong></p>
+  </li>
+</ol>
+
+<div class="bs-callout bs-callout-info">Dla każdej partii możliwy jest wydruk dokumentu w formie pliku PDF.</div>
+
+:ET

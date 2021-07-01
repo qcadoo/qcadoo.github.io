@@ -1,0 +1,34 @@
+I"�<p>Raz na jakiś czas warto (a nawet trzeba) sprawdzić czy ewidencyjny stan magazynu nie odbiega od stanu faktycznego. W tym celu organizuje się inwentaryzację.</p>
+
+<p>W qcadoo <strong>spis z natury przeprowadza się w następujących krokach</strong>:</p>
+<ol>
+  <li>przyszykuj wydruk inwentaryzacji (opis poniżej)</li>
+  <li>utwórz <a href="/wydruk-stanu-magazynu">wydruk stanu magazynu</a> z takimi samymi kryteriami jak wydruk inwentaryzacyjny</li>
+  <li>policz produkty na magazynie i uzupełnij ręcznie ilości na wydruku inwentaryzacyjnym</li>
+  <li>porównaj stan spisany z ewidencyjnym stanem magazynu (z wydruku stanu magazynu) i wyznacz nadwyżki (różnice na plus) i niedobory (różnice na minus)</li>
+  <li>wprowadź do qcadoo nadwyżki dokumentem PW (zostawiając informacje w opisie, że to wynik inwentaryzacji)</li>
+  <li>wprowadź do qcadoo niedobory dokumentem RW (tu również zostawiając informacje w opisie, że to wynik inwentaryzacji)</li>
+</ol>
+
+<p>Wydruk inwentaryzacyjny przygotujesz w Magazyn &gt; Inwentaryzacja.</p>
+
+<figure><a target="_blank" href="images/magazynInwentaryzacja.png"><img src="images/magazynInwentaryzacja.png" alt="Inwentaryzacja" /></a><figcaption>Inwentaryzacja</figcaption></figure>
+
+<p>Kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong> i wskaż kryteria wydruku:</p>
+<ul>
+  <li>jaka <strong>data inwentaryzacji</strong></li>
+  <li>jaki <strong>magazyn</strong></li>
+  <li>jakie <strong>miejsca składowania</strong> - wszystkie czy wybrane. Jeśli wybrane - wskaż je w tabeli</li>
+  <li>czy wszystkie produkty, czy może ograniczone do wskazanej <strong>kategorii</strong></li>
+  <li>czy inwentaryzacja ma zawierać <strong>niepełne zasoby</strong></li>
+</ul>
+
+<p>Po wygenerowaniu udostępniony zostanie przycisk 
+<img class="inline" src="images/przyciskWydrukInwentaryzacyjny.png" alt="Wydruk inwentaryzacyjny" /></p>
+<ul>
+  <li>kliknij go, aby otworzyć przygotowane zestawienie w PDF.</li>
+</ul>
+
+<figure><a target="_blank" href="images/magazynWydrukInwentaryzacyjnyPDF.png"><img src="images/magazynWydrukInwentaryzacyjnyPDF.png" alt="Wydruk inwentaryzacyjny w PDF" /></a><figcaption>Wydruk inwentaryzacyjny w PDF</figcaption></figure>
+:ET

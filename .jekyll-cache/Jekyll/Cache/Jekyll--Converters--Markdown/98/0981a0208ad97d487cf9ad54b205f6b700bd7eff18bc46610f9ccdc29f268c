@@ -1,0 +1,17 @@
+I"R<p>Zdarzenia i zdarzenia planowane muszą być finansowane a jakiegoś źródła. Pod zaplanowane remonty są zwykle tworzone osobne budżety. A później wszystkie działania mogą być z dokładnością do tego budżetu rozliczane. Budżety definiowane są w qcadoo jako źródła kosztów i później uzupełniane w <a href="/zdarzenia">zdarzeniach</a> i <a href="/zdarzenia-planowane">zdarzeniach planowanych</a>.</p>
+
+<p>Aby zdefiniować źródła kosztów wejdź w Utrzymanie ruchu &gt; Źródła kosztów:</p>
+
+<figure><a target="_blank" href="images/DURZrodlaKosztowLista.png"><img src="images/DURZrodlaKosztowLista.png" alt="Lista źródeł kosztów" /></a><figcaption>Lista źródeł kosztów</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy typ usterki" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/DURZrodlaKosztowNowy.png"><img src="images/DURZrodlaKosztowNowy.png" alt="Formularz dodawania źródeł kosztów" /></a><figcaption>Formularz dodawania źródeł kosztów</figcaption></figure>
+
+<p>Wprowadź <strong>numer</strong> (dana wymagana) i <strong>nazwę</strong>. Możesz podać też jakiego <strong>zakładu</strong> źródło kosztów dotyczy. Dodatkowo możesz też jedno źródło kosztów oznaczyć jako <strong>domyślne</strong> - podpowie się po uzupełnieniu zakładu przy dodawaniu zdarzeń i zdarzeń planowanych.</p>
+
+<hr />
+
+<p>Jeśli zainteresowały Cię źródła kosztów, to zapewne zainteresuje Cię też raport źródeł kosztów - zerknij <a href="/raport-zrodel-kosztow">tutaj</a>.</p>
+:ET

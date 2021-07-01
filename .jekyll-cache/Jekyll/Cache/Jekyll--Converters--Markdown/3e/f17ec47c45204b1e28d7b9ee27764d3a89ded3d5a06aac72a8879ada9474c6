@@ -1,0 +1,35 @@
+I"�<p>Słowniki pomagają indywidualnie zdefiniować pojęcia dla wielu opcji, które napotkasz w qcadoo. Przejdziesz do nich z dwóch poziomów:
+<strong>Podstawowe &gt; Słowniki</strong>
+<strong>Administracja &gt; Słowniki</strong></p>
+
+<p>Dostępne są następujące słowniki:</p>
+
+<ul>
+  <li><strong>Kategorie produktów</strong> - stosowane w <a href="/produkty">Produktach</a></li>
+  <li><strong>Przyczyny braków</strong> - wykorzystywane podczas raportowania produkcji w <a href="/terminal">terminalu</a> i <a href="/rejestracja-produkcji">rejestracji standardowej</a>, a także podczas <a href="/procesy-technologiczne-zlecenia.html#zgłoszenie-braku-do-procesu">zgłaszania braku do procesu technologicznego</a></li>
+  <li><strong>Jednostki</strong> - jednostki miar i wag stosowane w <a href="/produkty">Produktach</a></li>
+  <li><strong>Miejsca linii produkcyjnych</strong> - stosowane przy definiowaniu <a href="/linie-produkcyjne">Linii produkcyjnych</a></li>
+  <li><strong>Miejsca linii produkcyjnych przesyłane do SCADY</strong></li>
+  <li><strong>Typy adresów kontrahenta</strong> - wykorzystywane w <a href="/firmy">firmach</a></li>
+  <li><strong>Kolory</strong> - przyporządkowywane do kategorii zleceń w <a href="/parametry-zlecen.html#kategorie-zleceń">parametrach zleceń</a></li>
+  <li><strong>Rodzaje opisu</strong> - używane w <a href="/asortymenty">asortymencie</a></li>
+  <li><strong>Zamówienie sprzedaży - status pozycji</strong> - do wykorzystania w <a href="/zlecenia-nadrzedne">zamówieniach sprzedaży</a>, do opisu etapu prac nad zamówioną pozycją</li>
+  <li><strong>Opisy realizacji zamówień sprzedaży</strong> - do zastosowania w <a href="/zlecenia-nadrzedne">zamówieniach sprzedaży</a>, np. w celu określenia na jakim etapie jest realizacja zamówienia</li>
+  <li><strong>Typy zajęć na zmianie</strong> - używane przy tworzeniu kalendarza pracy pracowników (<a href="/przydzial-do-zmian">przydział do zmian</a>])</li>
+  <li><strong>Kategoria zlecenia</strong> - wykorzystywane w <a href="/zlecenia-produkcyjne">zleceniach produkcyjnych</a> do grupowania zleceń, czy określenia ich pilności</li>
+  <li><strong>Forma płatności</strong> - określana dla <a href="/firmy">firmy</a> i prezentowana w <a href="/dostawy">dostawie</a></li>
+  <li><strong>Przyczyny odstępstw od planowanej produkcji</strong> - używane w <a href="/zlecenia-produkcyjne">zleceniu produkcyjnym</a> do zachowywania informacji o tym z jakiego powodu zmieniona została data czy ilość</li>
+  <li><strong>Nadrzędne grupy płacowe</strong> - do wykorzystania w <a href="/grupy-placowe">grupach płacowych</a></li>
+  <li><strong>Typy palet</strong> - używane w <a href="/dokumenty">dokumentach</a></li>
+  <li><strong>Rodzaje podzespołu</strong> - podpięte w podzespołach</li>
+  <li><strong>Rodzaje wyrobu</strong> - służące do doprecyzowania <a href="/modele">modelu</a></li>
+  <li><strong>Ocena jakości</strong> - wykorzystywana do ustalenia jak wygląda efekt <a href="/kontrola-jakosci">kontroli jakości</a></li>
+  <li><strong>Przyczyny braków</strong> - do wykorzystania w <a href="/terminal">terminalu rejestracji produkcji</a> do określenia co było przyczyną wyprodukowania wyrobu niepełnowartościowego</li>
+</ul>
+
+<p>Edytować możemy dane w obrębie tych opcji. Aby to zrobić: wybierz jedną z nich, a następnie <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong>. Wartości słownikowych nie można edytować i usuwać. Jeśli istniejąca nie jest Ci potrzebna - zdezaktywuj ją.</p>
+
+<figure><a target="_blank" href="images/slowniki.png"><img src="images/slowniki.png" alt="Słownik" /></a><figcaption>Podstawowy zestaw pojęć w słowniku</figcaption></figure>
+
+:ET

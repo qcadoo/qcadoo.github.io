@@ -1,0 +1,164 @@
+I",6<p>Parametry zaoptrzenia dotyczą funkcjonalności, które znajdziesz w menu &gt; zaopatrzenie. Przejrzyj je i ustaw tak, aby korzystanie z dostaw czy wydań wewnętrznych było do Ciebie jak najbardziej dopasowane.</p>
+
+<p>Parametry znajdziesz w Parametry &gt; Parametry zaopatrzenia. Pogrupowane zostały w zakładkach - dzięki temu łatwiej będzie znaleźć te odpowiednie.</p>
+
+<h2 id="dostawy">Dostawy</h2>
+
+<p>W zakładce umieszono parametry dotyczące <a href="/dostawy">dostaw</a></p>
+
+<figure><a target="_blank" href="images/administracjaParametryZaopatrzenieDostawy.png"><img src="images/administracjaParametryZaopatrzenieDostawy.png" alt="Parametry dostaw" /></a><figcaption>Parametry dostaw</figcaption></figure>
+
+<ol>
+  <li>
+    <p><strong>Domyślny opis</strong> - uzupełniony tutaj tekst będziemy każdorazowo podpowiadać do opisu dostawy. Do czego to możesz wykorzystać? Jeśli każdorazowo wysyłasz do dostawcy prośbę o potwierdzenie terminu dostawy - możesz w opisie wprowadzić odpowiednią adnotację, a pokaże się ona na wydruku w PDF. Raz zdefiniowane - nie trzeba o tym później pamiętać.</p>
+  </li>
+  <li>
+    <p><strong>Domyślnie dostarczyć do miejsca</strong> - wskaż magazyn, na który zwykle przyjmujes dostawy. Podpowiemy go przy tworzeniu dostawy</p>
+  </li>
+  <li>
+    <p><strong>Domyślny adres docelowy dostawy</strong> - możesz albo przyjąć, że produkty mają być dostarczane na <em>adres Twojej firmy</em> albo na <em>inny adres</em> uzupełniony w polu, które pojawi się poniżej. Adres ten pojawi się na wydruku dostawy / zamówienia do PDF.</p>
+  </li>
+</ol>
+
+<div class="bs-callout bs-callout-info">Twoja firma to z naszego punktu widzenia ta firma, która jest uzupełniona w <a href="/parametry-glowna">parametrach w zakładce główna</a> w polu <strong>Firma</strong></div>
+
+<ol start="4">
+  <li>
+    <p><strong>Dodatnia cena zakupu</strong> - jeśli zależy Ci na tym, aby każda przyjmowana z dostawy pozycja miała określoną cenę (większą od zera) to zaznacz ten parametr. Będziemy tego pilnować.</p>
+  </li>
+  <li>
+    <p><strong>Odbieranie większej ilości niż zamawiana</strong> - zdarzyło Ci się, że dostawca przysłał więcej sztuk produktu niż zamówiłeś? Zawsze odsyłasz, czy czasami przyjmujesz? A może nie masz innej możliwości, bo dostawca zawsze przysyła pełną paletę nawet gdy zamówisz mniej? Jeśli pozwalasz na przyjęcie większej ilości niż sobie zażyczyłeś - zaznacz parametr. Jeśli zostanie niezaznaczony będziemy pilnować, by ilość odbierana nie przekroczyła zamówionej.</p>
+  </li>
+  <li>
+    <p><strong>wymagaj wskazania dostawcy</strong> - zaznacz parametr, a nie pozwolimy na zapis dostawy bez uzupełnienia firmy</p>
+  </li>
+  <li>
+    <p><strong>uzupełniaj ceny na podstawie</strong> - wskaż, która cena: ostatnia zakupu czy ostatnia z oferty dostawcy, ma być podpowiadana w dostawie (funkcja wywoływana przyciskiem: Uzupełniaj ceny)</p>
+  </li>
+  <li>
+    <p><strong>użyj kosztu nominalnego, gdy cena nie jest określona</strong> - parametr powiązany z powyższym. Jeśli zaznaczysz parametr w sytuacji, gdy cena ostatniego zakupu lub z ostatniej oferty będzie zerowa (lub nieokreślona) pobierzemy koszt nominalny. Koszt nominalny możesz uzupełnić ręcznie ceną, którą spodziewasz się otrzymać od kontrahenta</p>
+  </li>
+  <li>
+    <p><strong>Kolumny w zamówieniu</strong> - tabela zawiera listę kolumn, które będziemy prezentować na wydruku zamówienia. Ustaw, jakie kolumny Cię interesują. I usuń te, których widzieć na wydruku nie chcesz.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="oferty">Oferty</h2>
+
+<p>Oferty opisane są <a href="/oferty-dostaw">tutaj</a>. W parametrach możesz ustawić jakie kolumny mają zostać zaprezentowane na wydruku w PDF.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryZaopatrzenieOferty.png"><img src="images/administracjaParametryZaopatrzenieOferty.png" alt="Parametry ofert" /></a><figcaption>Parametry ofert</figcaption></figure>
+
+<p>Wybierz z dostępnej listy, te które Cię interesują.</p>
+
+<hr />
+
+<h2 id="zapytania-ofertowe">Zapytania ofertowe</h2>
+
+<p>Analogicznie jak w zakładce Oferty - możesz ustawić jakie kolumny mają być widoczne na wydruku <a href="/zapytania-ofertowe">Zapytania ofertowego</a></p>
+
+<figure><a target="_blank" href="images/administracjaParametryZaopatrzenieZapytaniaOfertowe.png"><img src="images/administracjaParametryZaopatrzenieZapytaniaOfertowe.png" alt="Parametry zapytań ofertowych" /></a><figcaption>Parametry zapytań ofertowych</figcaption></figure>
+
+<hr />
+
+<h2 id="dostawy-do-stanów-minimalnych">Dostawy do stanów minimalnych</h2>
+
+<p>Jeśli chcesz, abyśmy tworzyli automatycznie <a href="/dostawy#generowanie-dostawy-do-stanów-minimalnych">dostawy do stanów minimalnych</a>, zaznacz parametr <strong>Twórz dostawy do stanów min.</strong></p>
+
+<figure><a target="_blank" href="images/administracjaParametryZaopatrzenieDostawyDoStanowMin.png"><img src="images/administracjaParametryZaopatrzenieDostawyDoStanowMin.png" alt="Parametry dostaw do stanów minimalnych" /></a><figcaption>Parametry dostaw do stanów minimalnych</figcaption></figure>
+
+<hr />
+
+<h2 id="wydania-wewnętrzne">Wydania wewnętrzne</h2>
+
+<p><a href="/wydania-wewnetrzne">Wydania wewnętrzne</a> służą do przesuwania produktów między magazynami. Skonfiguruj je tak, aby spełniły wszystkie Twoje oczekiwania.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryZaopatrzenieWydaniaWewnetrzne.png"><img src="images/administracjaParametryZaopatrzenieWydaniaWewnetrzne.png" alt="Parametry wydań wewnętrznych" /></a><figcaption>Parametry wydań wewnętrznych</figcaption></figure>
+
+<ol>
+  <li>
+    <p><strong>Źródło produktów do wydania</strong> - wskaż, czy chcesz aby lista produktów tworzona była na podstawie zapotrzebowania zlecenia produkcyjnego (=zlecenia produkcyjne), czy na podstawie ręcznie tworzonej listy (=ręczna dyspozycja)</p>
+  </li>
+  <li>
+    <p><strong>Produkty do wydania</strong> - jeśli wydania będą tworzone do zleceń produkcyjnych, to możesz określić czy chcesz, aby lista tworzona była na podstawie wszystkich produktów wejściowych technologii, czy tylko na podstawie surowców. Jest to zależne w dużej mierze od tego, czy półprodukty przyjmowane są na magazyn w trakcie produkcji i magazynier musi zadbać o odpowiednie ich przesunięcie na działy</p>
+  </li>
+  <li>
+    <p><strong>Generuj wydania wewnętrzne do dostaw</strong> - parametr aktywny, gdy żródłem produktów do wydania jest ręczna dyspozycja. Zaznacz parametr jeśli chcesz, abyśmy w momencie odbioru dostawy założyli wydanie wewnętrzne informujace pracowników na jakie docelowe magazyny produkty mają być przesunięte. O szczegółach tej możliwości poczytasz poniżej.</p>
+  </li>
+  <li>
+    <p><strong>Generuj wydania wewnętrzne do zleceń</strong> - parametr aktywny, gdy źródłem produktów do wydania są zlecenia produkcyjne. Zaznacz parametr jeśli chcesz, abyśmy na określoną ilość dni przed planowanym rozpoczęciem zlecenia, utworzyli wydanie wewnętrzne z listą produktów potrzebnych do zlecenia. O tym jak działa generowanie poczytasz poniżej</p>
+  </li>
+  <li>
+    <p><strong>Ile dni przed rozpoczęciem zlecenia</strong> - jeśli chesz generować wydania wewnętrzne do zleceń, to podaj na ile dni przed rozpoczęciem zlecenia wydanie ma się założyć</p>
+  </li>
+  <li>
+    <p><strong>Magazyn wydający</strong> - jeśli wydanie ma się tworzyć do zlecenia, to musimy wiedzieć z jakiego magazynu będą przesuwane produkty ma magazyny, z których produkty faktycznie będą zużywane (czyli magazyny ustawione w przepływach technologii)</p>
+  </li>
+  <li>
+    <p><strong>Wystawiane dokumenty</strong> - określ czy chcesz aby wydanie kończyło się dokumentami MM czy parą WZ - PZ</p>
+  </li>
+  <li>
+    <p><strong>Status dokumentów</strong> - wskaż, czy wystawione z wydania dokumenty mają zostać w szkicu, czy od razu zostać zaakceptowane</p>
+  </li>
+  <li>
+    <p><strong>Wydania wewnętrzne rezerwują stany</strong> - zaznacz jeśli chcesz aby lista produktów do wydania była zajęta pod to wydanie. Dzięki temu nikt nie będzie mógł rozchodować tych produktów i mamy pewność, że nam nie zabraknie do produkcji</p>
+  </li>
+  <li>
+    <p><strong>Ilość wydana do wysokości potrzeby</strong> - wydanie wewnętrzne może być tylko wyznacznikiem tego w jakiej ilości produkty mają być przesuwane na magazyn. Np. w technologii określono, że potrzebujemy 0,05 m danego materiału. I taka ilość pojawi się w wydaniu. Jednak magazynierzy mogą nie ciąć materiału i wydawać do na działy w całych belkach - więc wiadomo, że ostatecznie wydają np. 50 m. Jeśli chcesz pozwolić na taką możliwość - zostaw parametr nie zaznaczony. Jeśli natomiast chcesz aby magazynier nie mógł wydać więcej niż technologia określa, to parametr powinien zostać zaznaczony - przypilnujemy to podczas wydania.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="pokrycie-zapotrzebowania">Pokrycie zapotrzebowania</h2>
+
+<p><a href="/pokrycie-zapotrzebowania">Pokrycie zapotrzebowania</a> to funkcjonalność, która pozwoli Ci na ustalenie jakie produkty potrzebne są do produkcji, na kiedy, w jakiej ilości a także czy są już zamówione u dostawcy, albo zlecone do wyprodukowania.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryZaopatrzeniePokrycie.png"><img src="images/administracjaParametryZaopatrzeniePokrycie.png" alt="Parametry pokrycia zapotrzebowania" /></a><figcaption>Parametry pokrycia zapotrzebowania</figcaption></figure>
+
+<p>Dostępne są następujące parametry:</p>
+
+<ol>
+  <li>
+    <p><strong>Domyślnie oblicz pokrycie do … dni</strong> - podaj tutaj z jakiego okresu do przodu mamy pobierać zlecenia. Pewnie nie chcesz na ten moment wiedzieć, że za rok będziesz potrzebować sklejki sosnowej. Ale informacja o tym, że w przyszłym tygodniu będziesz używać koronkowej taśmy, może być już cenna. Wstaw taką ilość dni, aby bez problemu móc zorganizować dostawę na czas. Na podstawie podanej liczby wyliczymy datę, do jakiej wykonywane będzie pokrycie. Oczywiście w samym pokryciu wyliczoną datę będziesz mógł zmienić.</p>
+  </li>
+  <li>
+    <p><strong>Magazyny</strong> - musimy wiedzieć z jakich magazynów mamy zbierać stan, aby ustalić, czy produkty potrzebne do zleceń są dostępne, czy też nie. Wskaż zatem listę magazynów (kliknij <img class="inline" src="images/przyciskMalyPlusADS.png" alt="Przycisk dodawania" />
+ i wybierz z listy magazyn. Możesz dodać tak dużo magazynów, jak potrzebujesz). Oczywiście tutaj również traktujemy ustawienia w parametrach jako domyślne, bez problemu będziesz mógł listę magazynów zmienić bezpośrednio w pokryciu zapotrzebowania</p>
+  </li>
+  <li><strong>W wynikach pokaż tylko produkty</strong> - dostępne opcje:
+    <ul>
+      <li>pozyskiwane przez - wszystkich, zakup od dostawców, operacje podwykonywane. Odpowiednio ograniczymy listę wg Twoich wskazań - np. możesz zobaczyć tylko te produkty, które są wykonywane przez Twoich kooperantów. Ustawiasz tutaj wartość domyślną, którą możesz zmienić z poziomu pokrycia zapotrzebowania.</li>
+      <li>należące do rodziny - możesz ograniczyć zaprezentowane produkty tylko do tych należących do wskazanej rodziny. I znowu - ustawiasz tutaj wartość domyślną, którą możesz zmienić na etapie generowania pokrycia zapotrzebowania</li>
+      <li>pokrycie zapotrzebowania - wszystkie, bez produktów znajdujących się na magazynie lub tylko braki i opóźnienia. Wybierając jedną z opcji zawężasz wyniki wyszukiwania. Wartość parametru może być zmieniona w samym pokryciu zapotrzebowania</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Uwzględnij niezatwierdzone dostawy</strong> - jeśli zaznaczysz parametr, to będziemy szukać informacji o dostawach (czy zamówione i na kiedy) również wśród dostaw szkicowych i przygotowanych</p>
+  </li>
+  <li>
+    <p><strong>Zachowuj raport pokrycia</strong> - każde pokrycie zapotrzebowania, które generujesz możesz zapisać jako PDF i później do niego wrócić. Jeśli chcesz abyśmy zawsze przygotowali taki wydruk, zaznacz parametr</p>
+  </li>
+  <li><strong>Statusy zleceń</strong> - domyślnie do pokrycia zapotrzebowania zbieramy wszystkie otwarte zlecenia produkcyjne. Możesz jednak ograniczyć listę wskazując statusy, które Cię interesują. Do wyboru: oczekujace, zaakceptowane, rozpoczęte</li>
+</ol>
+
+<hr />
+
+<h2 id="pokrycie-zapotrzebowania-a-stany-minimalne">Pokrycie zapotrzebowania a stany minimalne</h2>
+
+<p>Parametry dotyczą zachowania się <a href="/stan-min">stanów minimalnych</a>.</p>
+
+<figure><a target="_blank" href="images/administracjaParametryZaopatrzenieStanyMin.png"><img src="images/administracjaParametryZaopatrzenieStanyMin.png" alt="Parametry stanów minimalnych w pokryciu zapotrzebowania" /></a><figcaption>Parametry stanów minimalnych w pokryciu zapotrzebowania</figcaption></figure>
+
+<ol>
+  <li>
+    <p><strong>Uwzględniaj zapotrzebowanie w stanie aktualnym</strong> - stany minimalne działają w oparciu o dostępną ilość magazynową. Sprawdzamy, czy to co jest dostępne, jest mniejsze od zdefiniowanego stanu minimalnego. Standardowo ilość dostępna to stan magazynowy pomniejszony o ilość zarezerwowaną. Jednak jeśli zaznaczysz ten parametr będziemy stan aktualny pomniejszać o ilości potrzebne pod istniejące zlecenia produkcyjne, z zadanego poniżej okresu</p>
+  </li>
+  <li>
+    <p><strong>Pobierz zlecenia zaplanowane na … dni</strong> - jeśli zaznaczyłeś powyższy parametr, musisz podać na ile dni do przodu zlecenia mają wpływać na analizę dostępnych stanów pod stany minimalne</p>
+  </li>
+</ol>
+
+:ET

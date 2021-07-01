@@ -1,0 +1,224 @@
+I"�P<p>Zamówienia sprzedaży mogą być wykorzystywane albo do zaewidencjonowania zamówienia płynącego od klienta, ale też do grupowania zleceń produkcyjnych w projekty czy plany na dłuższy okres. Są początkiem procesu produkcyjnego. Ale nie koniecznym do wykorzystywania - jeśli nie masz ochoty i chcesz zaczynać od razu od zleceń produkcyjnych - proszę bardzo. Nie mniej jednak zapoznaj się z poniższą dokumentacją i dowiedz się jakie korzyści płyną z tej funkcjonalności.</p>
+
+<h2 id="dodanie-nowego-zamówienia-sprzedaży">Dodanie nowego zamówienia sprzedaży</h2>
+
+<p><strong>PLANOWANIE &gt; Zamówienia sprzedaży</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj Nowy" />
+ <strong>Dodaj nowy</strong></p>
+
+<ol>
+  <li>
+    <p>W zakładce “Główna” możesz zmienić “Numer” zamówienia, który nadawany jest automatycznie.</p>
+  </li>
+  <li>
+    <p>Opcjonalnie możesz również podać jego “Nazwę”, “Opis”, a także przyporządkować “Kontrahenta” i określić “Datę rozpoczęcia”, “Datę zakończenia” oraz “Termin ostateczny”.</p>
+  </li>
+</ol>
+
+<div class="bs-callout bs-callout-info">Jeżeli określisz “Termin ostateczny” to wówczas termin w każdym zleceniu produkcyjnym wchodzącym w skład tego zamówienia sprzedaży będzie musiał być taki sam.</div>
+
+<figure class="float-right "><a target="_blank" href="images/planowanieZamowieniaDodajPozycje.png"><img src="images/planowanieZamowieniaDodajPozycje.png" alt="Formularz dodawania produktu do zamówienia sprzedaży" class="percent90 " /></a><figcaption>Formularz dodawania produktu do zamówienia sprzedaży</figcaption></figure>
+
+<ol start="3">
+  <li>
+    <p>Po uzupełnieniu tych danych wybierz <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>, aby utrwalić podane do tej pory dane.</p>
+  </li>
+  <li>
+    <p>Następnie przejdź do kolejnej zakładki. - “Produkty wyj.”, w której określisz jakie produkty i w jakiej ilości będziesz produkować na rzecz tego zamówienia.</p>
+  </li>
+  <li>
+    <p>Dodaj jeden lub wiele produktów do zamówienia, klikając <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj Nowy" />
+ <strong>Nowy</strong>.</p>
+  </li>
+  <li>
+    <p>W formularzu dodawania produktu do zamówienia sprzedaży podaj “Produkt”, “Technologię” (podpowiadana jest technologia domyślna) oraz “Ilość zamówiona” czyli ilość, która ma zostać wyprodukowana w ramach zamówienia.</p>
+  </li>
+</ol>
+
+<div class="bs-callout bs-callout-info">“Ilość zlec.” to ilość zlecona czyli taka, na którą są już utworzone zlecenia produkcyjne na dany produkt, “Poz. do wyprod.” to ilość, która pozostała do wyprodukowania, a “Ilość wykon.” to ilość produktu, którą już wyprodukowano w ramach tego zamówienia.</div>
+
+<p>Zamówienie sprzedaży może pojawić się też w systemie qcadoo na dwa inne sposoby:</p>
+<ol>
+  <li>poprzez pobranie z systemu zewnętrznego - jeśli masz uruchomioną integrację ze swoim ERP, to zamówienie od klienta wprowadzone w ERP może zostać przesłane do qcadoo i stanowić początek procesu produkcyjnego</li>
+  <li>poprzez zaimportowanie z arkusza .xlsx - o czym będzie prawić kolejny podrozdział</li>
+</ol>
+
+<h3 id="import-zamówień-sprzedaży-z-pliku-xlsx">Import zamówień sprzedaży z pliku .xlsx</h3>
+
+<p>Aby zaimportować zamówienia sprzedaży z pliku .xslx wejdź w <strong>Planowanie &gt; Pozycje zamówień sprzedaży</strong> i kliknij przycisk <img class="inline" src="images/przyciskImportujZamowieniaXLSX.png" alt="Przycisk Importuj zamówienia sprzedaży z XLSX" />
+ <strong>Importuj zamówienia sprzedaży z XLSX</strong>, pobierz szablon i wypełnij go danymi.</p>
+
+<p>Kilka istotnych informacji na początek:</p>
+<ol>
+  <li>sposób działania importu z arkusza Excel jest taki sam w wielu miejscach systemu. Dokumentację znajdziesz <a href="/import-z-excel">tutaj</a>,</li>
+  <li>zamówienia sprzedaży w qcadoo mogą mieć wiele pozycji (czyli klient za jednym razem może zamówić kilka produktów). Takie zamówienie w pliku będzie tyle wierszy ile pozycji. I każdy z tych wierszy będzie miał takie same dane nagłówkowe (czyli kolumny: A, D, E, F, G, H, I, J, K) - dzięki temu poznamy, które pozycje mają wskoczyć na jakie zamówienie,</li>
+  <li>w jednym arkuszu możesz rozpisać wiele zamówień i na raz je zaimportować.</li>
+</ol>
+
+<p>Koniecznie uzupełnij 3 pierwsze kolumny:</p>
+<ul>
+  <li><strong>numer</strong> (kolumna A) - numer zamówienia musi być unikalny (czyli: może istnieć tylko jedno zamówienie o danym numerze)</li>
+  <li><strong>produkt</strong> (kolumna B) - numer <a href="/produkty">produktu</a> zdefiniowanego w qcadoo. W danym zamówieniu dany produkt może wystąpić tylko raz,</li>
+  <li><strong>ilość</strong> (kolumna C) - ilość zamówiona wyrażona w jednostce podstawowej produktu.</li>
+</ul>
+
+<p>Ponadto możesz uzupełnić kolumny:</p>
+<ul>
+  <li><strong>nazwa</strong> (kolumna D) - nazwa zamówienia sprzedaży,</li>
+  <li><strong>opis</strong> (kolumna E) - miejsce na dodatkowe informacje odnośnie całego zamówienia,</li>
+  <li><strong>kontrahent</strong> (kolumna F) - numer firmy zdefiniowanej w qcadoo,</li>
+  <li><strong>data rozpoczęcia</strong> (kolumna G) - planowana data rozpoczęcia produkcji. Koniecznie zastosuj format: RRRR-MM-DD GG:MM:SS</li>
+  <li><strong>data zakończenia</strong> (kolumna H) - planowana data zakończenia produkcji. Koniecznie zastosuj format: RRRR-MM-DD GG:MM:SS</li>
+  <li><strong>termin ostateczny</strong> (kolumna I) - maksymalny termin realizacji zamówoienia. Koniecznie zastosuj format: RRRR-MM-DD GG:MM:SS</li>
+  <li><strong>data wpływu</strong> (kolumna J) - moment złożenia zamówienia przez klienta. Koniecznie zastosuj format: RRRR-MM-DD GG:MM:SS</li>
+  <li><strong>opis realizacji</strong> (kolumna K) - musi być zgodny z wartością <a href="/slowniki">słownika</a>: Opisy realizacji zamówień sprzedaży</li>
+  <li><strong>technologia</strong> (kolumna L) - numer technologii danego produktu, zdefiniowanej w qcadoo. Jeśli zostawisz kolumnę pustą - namierzymy domyślną zaakceptowaną technologię danego produktu. Jeśli takiej nie ma - nie zostanie ona w pozycji zamówienia uzupełniona (być może dopiero będziesz nad tehchologią pracować i uzupełnisz ją później)</li>
+  <li><strong>uwagi</strong> (kolumna M) - dodatkowe informacje odnośnie konkretnej zamówionej pozycji,</li>
+  <li><strong>status pozycji</strong> (kolumna N) - wartość <a href="/slowniki">słownika</a>: zamówienia sprzedaży - status pozycji. Jeśli zostawisz komórkę niewypełnioną, to pozycja zamówienia otrzyma status: nowa</li>
+</ul>
+
+<p>Tak przygotowany arkusz zaimportuj do qcadoo. W razie błędów z importem przeanalizuj zapisane w oknie importu logi, popraw dane i spróbuj ponownie.</p>
+
+<h3 id="dodawanie-produktów-rozmiarowych">Dodawanie produktów rozmiarowych</h3>
+
+<figure class="float-right "><a target="_blank" href="images/planowanieZamowienieSprzedazyProduktyRozmiary.png"><img src="images/planowanieZamowienieSprzedazyProduktyRozmiary.png" alt="Dodawanie produktów wg rozmiarów" class="percent90 " /></a><figcaption>Dodawanie produktów wg rozmiarów</figcaption></figure>
+
+<p>Jeśli produktujesz wyroby z oznaczonymi rozmiarami i masz je pogrupowane z dokładnością do produktu-rodziny to możesz skorzystać z opcji szybkiego dodawania produktów na zamówienie. Wprowadź nagłówek zamówienia, zapisz i kliknij przycisk <img class="inline" src="images/przyciskDodajProduktyWgRozmiarow.png" alt="Przycisk Dodaj produkty wg rozmiarów" />
+ <strong>Dodaj produkty wg rozmiarów</strong> i podaj produkt-rodzinę. Na tej podstawie w tabeli zostaną zaciągnięte wszystkie rozmiary, w jakim występuje. Podaj ilość dla tych rozmiarów, które kontrahent zamówił i kliknij przycisk <img class="inline" src="images/przyciskDodajPozycje.png" alt="Przycisk Dodaj pozycje" />
+ <strong>Dodaj pozycje</strong>. W efekcie do każdego rozmiaru zostanie dodana pozycja zamówienia.</p>
+
+<p>Co warto wiedzieć:</p>
+<ul>
+  <li>po kolejnych wierszach tabeli możesz przechodzić klikając klawisz TAB. W związku z tym wystarczy: ilość - TAB - ilość - TAB itd.</li>
+  <li>jeśli dany rozmiar nie jest zamówiony, zostaw puste miejsce w polu ilości</li>
+</ul>
+
+<hr />
+
+<p>Utworzyłeś zamówienie sprzedaży. Teraz pozostaje jeszcze dodanie do niego zlecenia/zleceń produkcyjnych, przy pomocy których zrealizujesz zamówienie. Możesz dodać zlecenia, które już wcześniej założyłeś lub utworzyć całkiem nowe.</p>
+
+<h2 id="sposoby-dodawania-zleceń-produkcyjnych-do-zamówienia-sprzedaży">Sposoby dodawania zleceń produkcyjnych do zamówienia sprzedaży</h2>
+
+<p>Zlecenie produkcyjne możesz dodać do zamówienia na kilka sposobów:</p>
+
+<ol>
+  <li>
+    <p>Tworząc nowe zlecenie produkcyjne z poziomu zamówienia</p>
+
+    <p>W tym celu wejdź do zakładki “Produkty wyj.”, zaznacz jeden produkt na liście produktów i kliknij <img class="inline" src="images/generateIcon24.png" alt="Przycisk Generuj" />
+ <strong>Utwórz zlecenie produkcyjne</strong>.</p>
+
+    <div class="bs-callout bs-callout-info">Dla zaznaczonego produktu powstanie zlecenie produkcyjne na ilość pozostałą do zlecenia czyli “Ilość zamówiona” - “Ilość zlec.”.</div>
+
+    <div class="bs-callout bs-callout-info">Dla jednej pozycji zamówienia sprzedaży może istnieć wiele zleceń produkcyjnych.”.</div>
+  </li>
+  <li>
+    <p>Przez utworzenie wielu zleceń produkcyjnych z poziomu zamówienia</p>
+
+    <p>Więcej o tej metodzie dowiesz się w kolejnym podrozdziale.</p>
+  </li>
+  <li>
+    <p>Tworząc grupę zleceń, w której później zostaną wygenerowane zlecenia produkcyjne</p>
+
+    <p>Zaznacz wiele produktów i wybierz <img class="inline" src="images/generateIcon24.png" alt="Przycisk Generuj" />
+ <strong>Generuj grupę zleceń</strong>. Warunkiem skorzystania z tej opcji jest to, aby zaznaczone produkty należały do tego samego asorymentu i były produkowane na tej samej linii.</p>
+  </li>
+</ol>
+
+<figure><a target="_blank" href="images/planowanie-%20zlecenia%20nadrz%C4%99dne%20grupy.png"><img src="images/planowanie-%20zlecenia%20nadrz%C4%99dne%20grupy.png" alt="Zlecenia produkcyjne wygenerowane z poziomu grupy zleceń" /></a><figcaption>Zlecenia produkcyjne wygenerowane z poziomu grupy zleceń</figcaption></figure>
+
+<ol start="4">
+  <li>
+    <p>Zaciągając istniejące zlecenie produkcyjne</p>
+
+    <p>Przejdź do zakładki “Zlecenia” i dodaj zlecenia, klikając <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj Nowy" />
+ <strong>Dodaj istniejący</strong>.</p>
+  </li>
+  <li>
+    <p>Z poziomu zlecenia produkcyjnego</p>
+
+    <p><strong>PLANOWANIE &gt; Zlecenia produkcyjne</strong> Wybierz interesujące Cię zlecenie i wejdź w jego szczegóły. Przejdź do zakładki “Zamówienia sprzedaży” i w polu “Zamówienie sprzedaży” wybierz zamówienie, z którym chcesz je powiązać.</p>
+  </li>
+</ol>
+
+<h2 id="utworzenie-wielu-zleceń-produkcyjnych-z-poziomu-zamówienia-sprzedaży">Utworzenie wielu zleceń produkcyjnych z poziomu zamówienia sprzedaży</h2>
+
+<p>Z poziomu zamówienia sprzedaży można utworzyć wiele zleceń produkcyjnych za pomocą jednego kliknięcia. W tym celu zaznacz wiele produktów na liście produktów i wybierz <img class="inline" src="images/generateIcon24.png" alt="Przycisk Generuj" />
+ <strong>Utwórz wiele zleceń produkcyjnych</strong>.</p>
+
+<p>Dla każdego zaznaczonego produktu powstanie zlecenie produkcyjne na ilość pozostałą do zlecenia. Mało tego, jeśli chcesz, mogą powstać jeszcze zlecenia na komponenty a także dla każdego utworzonego zlecenia może zostać wyliczony plan produkcji na zmiany. Jedyne co musisz zrobić to włączyć odpowiednie parametry w <strong>Parametry &gt; Parametry planowania &gt; przycisk Zlecenia</strong> w zakładce <a href="/parametry-zlecen.html#zlecenia-na-komponenty">Zlec. na komponenty</a>.</p>
+
+<figure><a target="_blank" href="images/planowanie-%20zlecenia%20nadrz%C4%99dne%20par.png"><img src="images/planowanie-%20zlecenia%20nadrz%C4%99dne%20par.png" alt="Parametry dotyczące tworzenia wielu zleceń produkcyjnych z poziomu zamówienia sprzedaży" /></a><figcaption>Parametry dotyczące tworzenia wielu zleceń produkcyjnych z poziomu zamówienia sprzedaży</figcaption></figure>
+
+<p>Jeżeli chcesz, aby przy tworzeniu wielu zleceń generowały się zlecenia na komponenty, zaznacz parametr “Automatycznie generuj zlecenia na komponenty”, a potem określ sposób w jaki ma się to dziać:</p>
+
+<ul>
+  <li>
+    <p>przez funkcję generowania zleceń na komponenty z poziomu pokrycia - wówczas zaznacz parametr “Zlecenia na komponenty generowane przez pokrycie zapotrzebowania”,</p>
+  </li>
+  <li>
+    <p>przez funkcję generowania zleceń na komponenty z poziomu zlecenia produkcyjnego czyli bez sprawdzania aktualnych stanów magazynowych komponentów - wtedy nie zaznaczaj tego parametru.</p>
+  </li>
+</ul>
+
+<p>Funkcja daje też możliwość analizy obecnego stanu magazynowego zamówionych produktów - jeśli coś znajduje się na magazynie, to nie zostanie utworzone zlecenie produkcyjne (albo zostanie utworzone na mniejszą ilość), tylko program zaproponuje pobranie z magazynu. Jeśli chcesz włączyć takie działanie, zaznacz parametr <strong>Realizacja ze stanu magazynowego</strong> i podaj magazyny, na których stan ma byc sprawdzany w <a href="/parametry-zlecen">parametrach zleceń</a>.</p>
+
+<p>Jeśli program uzna, że jest wystarczający stan aby zrealizować zamówienie bezpośrednio z magazynu, to uzupełni w pozycji zamówienia sprzedaży ilość pobraną z magazynu.</p>
+
+<p>Jeśli czasami produkty zamawiane przez klientów są dla nich specjalnie przerabiane (nie jest to produkt standardowy, ale np, z dodatkowym grawerem, czy odpowiednio zapakowany) i nie możesz pobrać gotowych produktów z magazynu, tylko zawsze musisz zlecić produkcję, to:</p>
+<ul>
+  <li>zostaw informacje o tym jak produkt ma być zmieniony w polu Uwagi w pozycji zamówienia sprzedaży</li>
+  <li>zaznacz parametr <strong>Zawsze zlecaj pozycje z personalizacją</strong> w <a href="/parametry-zlecen">parametrach zleceń</a></li>
+</ul>
+
+<p>Dodatkowo warto zaznaczyć parametr <strong>Kopiuj uwagi z pozycji zamówienia sprzedaży</strong> - wówczas wprowadzone szczegóły trafią do zlecenia produkcyjnego i pracownik będzie mógł się z nimi zapoznać w terminalu czy na karcie pracy.</p>
+
+<h2 id="zbiorcze-zlecenia-produkcyjne">Zbiorcze zlecenia produkcyjne</h2>
+
+<p>Standardowo w qcadoo do jednej pozycji zamówienia sprzedaży tworzone jest jedno zlecenie produkcyjne. Przy takim działaniu będziesz w stanie śledzić z poziomu zamówienia jak wygląda produkcja - ile już wykonano i ile pozostało do wyprodukowania. Do zlecenia produkcyjnego będą przekazane informacje o tym kto zamówił, jakie ma szczególne wymagania, zachowane w opisie i na kiedy danego produktu potrzebuje. Czasami jednak takie informacje nie są potrzebne na produkcji. Czasami ważniejsze jest by zebrać wszystkie zamówienia na dany produkt i zlecić na produkcję je wszystkie na raz. Pracownik nie musi wiedzieć kto to zamówił i na rzecz jakiego zamówienia aktualnie produkuje - ważne, że ma skumulowane ilości do wyprodukowania i wszystko umieszczone w jednym zleceniu. Ta funkcjonalność w qcadoo nazywa się: <strong>zbiorcze zlecenia produkcyjne</strong>.</p>
+
+<p>Aby przy zleceniu produkcji z poziomu zamówień sprzedaży tworzyły się zbiorcze zlecenia produkcyjne, musisz zaznaczyć parametr <strong>Zbiorcze zlecenia tworzone z zamówienia sprzedaży</strong> w Administracja &gt; Parametry &gt; Zlecenia &gt; <a href="/parametry-zlecen.html#główna">zakładka Główna</a>. I przystąp do rozpisywania zleceń. Wejdź do <strong>planowanie &gt; pozycje zamówień sprzedaży</strong> (gdzie domyślnie widać tylko pozycje nowe, jeszcze nie zlecone), zaznacz te, które chcesz przekazać na produkcję</p>
+
+<figure><a target="_blank" href="images/PlanowanieZbiorczeZleceniaListaNowe.png"><img src="images/PlanowanieZbiorczeZleceniaListaNowe.png" alt="Lista nowych pozycji zamówień sprzedaży" /></a><figcaption>Lista nowych pozycji zamówień sprzedaży</figcaption></figure>
+
+<p>i kliknij przycisk <img class="inline" src="images/generateIcon24.png" alt="Przycisk Generuj" />
+ <strong>Utwórz wiele zleceń produkcyjnych</strong>. Pojawi się okno, w którym możesz wypełnić daty produkcji (daty te uzupełnią się w każdym tworzonym zleceniu produkcyjnym):</p>
+
+<figure><a target="_blank" href="images/planowanieZbiorczeZleceniaOknoDat.png"><img src="images/planowanieZbiorczeZleceniaOknoDat.png" alt="Daty tworzonych zleceń" /></a><figcaption>Daty tworzonych zleceń</figcaption></figure>
+
+<div class="bs-callout bs-callout-info">Jeśli korzystasz ze zleceń na komponenty i chcesz aby po wygenerowaniu zlecenia produkcyjnego automatycznie zostały utworzone zlecenia na komponenty, to musisz podać datę rozpoczęcia późniejszą od momentu aktualnego</div>
+
+<p>Program wyszuka teraz ile różnych produktów zostało zaznaczonych i zsumuje dla nich ilości. I dla każdego produktu utworzy osobne zlecenie produkcyjne. O tym jakie zlecenia powstały, poinformuje Cię za pomocą komunikatu.</p>
+
+<figure><a target="_blank" href="images/planowanieZbiorczeZleceniaListaZlecone.png"><img src="images/planowanieZbiorczeZleceniaListaZlecone.png" alt="Utworzone zlecenia produkcyjne" /></a><figcaption>Utworzone zlecenia produkcyjne</figcaption></figure>
+
+<p>Utworzone zlecenia produkcyjne mają informację o tym z jakich zamówień sprzedaży pochodzą, ale jedynie zawartą w opisie. Powiązania jako takiego nie ma. Brak też informacji o kontrahencie, czy opisów zostawionych w zamówieniu. W zamówieniu sprzedaży przez to nie będzie widać ilości ze zleceń produkcyjnych (jak np. ilość wykonana).</p>
+
+<figure><a target="_blank" href="images/planowanieZbiorczeZleceniaEfekt.png"><img src="images/planowanieZbiorczeZleceniaEfekt.png" alt="Pozycje zamówień sprzedaży, do których utworzono zlecenia produkcyjne zbiorcze" /></a><figcaption>Pozycje zamówień sprzedaży, do których utworzono zlecenia produkcyjne zbiorcze</figcaption></figure>
+
+<p>Ustawia sie za to status pozycji zamówienia sprzedaży na <strong>zlecona</strong>, a zlecone domyślnie są ukrywane w liście pozycji zamówień sprzedaży, zatem od razu możesz przystąpić do rozpisywania kolejnej partii produkcji.</p>
+
+<div class="bs-callout bs-callout-info">Jeśli zlecenia mają się tworzyć zbiorczo, to nawet wówczas gdy zaznaczysz 1 pozycję, albo wyjdziesz od konkretnego zamówienia sprzedaży, tworzenie zleceń produkcyjnych będzie wykonywane za pomocą zbiorczego mechanizmu.</div>
+
+<h2 id="statusy-zamówień-sprzedaży">Statusy zamówień sprzedaży</h2>
+
+<figure class="float-right "><a target="_blank" href="images/planowanie-%20zlecenia%20nadrz%C4%99dne%20statusy.png"><img src="images/planowanie-%20zlecenia%20nadrz%C4%99dne%20statusy.png" alt="Statusy zamówień sprzedaży" class="percent90 " /></a><figcaption>Statusy zamówień sprzedaży</figcaption></figure>
+
+<p>Zamówienie sprzedaży może przyjmować następujące statusy:</p>
+<ul>
+  <li>
+    <p>nowe - zamówienie sprzedaży otrzymuje ten status po dodaniu. Pozostaje w nim dopóki nie zostanie powiązane ze zleceniem produkcyjnym,</p>
+  </li>
+  <li>
+    <p>w realizacji - nowemu zamówieniu sprzedaży zostaje nadany ten status, gdy zostanie powiązane z choć jednym zleceniem produkcyjnym. Usunięcie powiązania z ostatnim zleceniem produkcyjnym w zleceniu o statusie W realizacji ustawia status na Nowe,</p>
+  </li>
+  <li>
+    <p>zakończone - ten status może zostać nadany na dwa sposoby: ręcznie lub automatycznie. Ręcznie czyli przez użytkownika w każdej chwili (zarówno dla zamówienia w statusie Nowe jak i W realizacji) przez wybranie <img class="inline" src="images/acceptIcon24.png" alt="Przycisk Zakończ" />
+ <strong>Zakończ</strong>. Automatycznie, gdy w każdej pozycji zamówienia sprzedaży “Ilość zamówiona” &lt;= “Ilość wykon.” czyli kiedy zostały wyprodukowane wszystkie produkty ze zamówienia sprzedaży,</p>
+  </li>
+  <li>
+    <p>odrzucone - tylko zamówienie o statusie Nowe może dostać ten status. Jest on nadawany ręcznie przez kliknięcie <img class="inline" src="images/deleteIcon24.png" alt="Przycisk Odrzuć" />
+ <strong>Odrzuć</strong>.</p>
+  </li>
+</ul>
+:ET

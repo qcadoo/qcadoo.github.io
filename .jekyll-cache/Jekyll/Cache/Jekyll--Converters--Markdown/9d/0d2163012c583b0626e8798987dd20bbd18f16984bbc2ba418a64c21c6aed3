@@ -1,0 +1,32 @@
+I"3<p>Lista procesów technologicznych jest zestawiem szczegółowych czynności, które trzeba wykonać, aby zrealizować daną operację. Listę tworzy się z wcześniej zdefiniowanych <a href="/procesy-technologiczne">procesów technologicznych</a>. Można im jednak, na rzecz tej listy, zmienić pewne wartości. Dzięki temu przykręcenie nóżki do stolika zwykle może zajmować 2 minuty, ale w jakimś konkretnym stoliku, czyli konkretnej liście procesów, czas może być wydłużony do 3 minut.</p>
+
+<p>Aby dodać listę procesów wejdź w <strong>Technologie &gt; Listy procesów technologicznych</strong></p>
+
+<figure><a target="_blank" href="images/technologieListyProcesowTechnologicznychLista.png"><img src="images/technologieListyProcesowTechnologicznychLista.png" alt="Lista procesów technologicznych" /></a><figcaption>Lista procesów technologicznych</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong>  </p>
+
+<figure><a target="_blank" href="images/technologieListyProcesowTechnologicznychNowa.png"><img src="images/technologieListyProcesowTechnologicznychNowa.png" alt="Formularz dodawania listy procesów technologicznych" /></a><figcaption>Formularz dodawania listy procesów technologicznych</figcaption></figure>
+
+<p>Zacznij od wypełnienia danych nagłówkowych. Podaj nazwę listy oraz jakiej operacji będzie się tyczyć. Zapisz dane używając przycisku <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong>. Spowoduje to uaktywnie tabeli w dole okna. Kliknij <img class="inline" src="images/przyciskDodajIstniejacy.png" alt="Dodaj istniejący" />
+ i wybierz te procesy, które mają się w danej liście znaleźć.</p>
+
+<div class="bs-callout bs-callout-warning">Możesz zaznaczyć wiele procesów i jednocześnie dodać je do listy.</div>
+
+<p>Procesy możesz ułożyć w odpowiedniej kolejności, zaznaczając jeden z nich i przesuwajac w górę lub w dół tabeli strzałkami: <img class="inline" src="images/przyciskStrzalki.png" alt="Strzałki" />
+.</p>
+
+<p>Jeśli chcesz zmienić wartości procesu w tej liście, wejdź w jego szczegóły (klikając w rekord w tabeli).</p>
+
+<figure><a target="_blank" href="images/technologiaListaProcesowNowaZmiana.png"><img src="images/technologiaListaProcesowNowaZmiana.png" alt="Zmiana wartości procesu w liście" /></a><figcaption>Zmiana wartości procesu w liście</figcaption></figure>
+
+<p>Zmodyfikować możesz:</p>
+<ul>
+  <li>czas jednostkowy</li>
+  <li>parametr: wydłużony czas dla grupy rozmiarowej, a także: procent wzrostu i grupę rozmiarową, gdy ten parametr będzie zaznaczony.</li>
+</ul>
+
+<p>Utworzona lista procesów technologicznych może być przypisana do <a href="/technologie-szczegoly.html#zakładka-procesy">operacji technologii</a>.</p>
+:ET

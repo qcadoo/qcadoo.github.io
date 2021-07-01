@@ -1,0 +1,30 @@
+I"�<p>Inteligentny filtr w qcadoo pozwala na szybkie i wygodne wyszukiwanie interesujących nas pozycji. Dzięki tej funkcji nie musimy wertować stron z poszczególnymi nazwami, wystarczy wpisać interesujące nas wyrażenie w pole filtru i zostanie ono odnalezione.</p>
+
+<p>Filtrować możemy nie tylko nazwy i numery, lecz także daty. Ten rodzaj filtrowania umożliwia nam wyszukiwanie dat na dwa sposoby:</p>
+
+<ol>
+  <li>
+    <p>Wyszukiwanie konkretnej daty, nawet z dokładnością do godziny. Pożądany format daty to: RRRR-MM-DD gg:mm:ss. Aby filtr zadziałał, wymagane jest tylko wpisanie roku. Można więc pominąć np. miesiąc, dzień i czas. Przykładowo: możemy użyć filtru wpisując tylko rok „2013”, albo dzień: „2013-01” itd.</p>
+  </li>
+  <li>
+    <p>Wyszukiwanie daty wcześniejszej (&lt;) lub późniejszej (&gt;) od interesującego nas terminu.Przykładowo: na liście zleceń chcemy wyszukać te, które zostały rozpoczęte po 1 maja 2013 r. Wystarczy wtedy wpisać w oknie filtru: „&gt;2013-05-01” i otrzymamy wówczas interesującą nas listę zleceń.</p>
+  </li>
+</ol>
+
+<p>Do filtrowania wartości można również wykorzystać następujące znaczniki:</p>
+
+<ol>
+  <li>
+    <p>”%” - znacznik ten wyszuka wszystkie pozycje, które mają wprowadzone jakikolwiek ciąg znaków w danej kolumnie. Można go łączyć z tektstem np. wyszukując nazwę produktu, możemy go wprowadzić w środek tekstu.</p>
+  </li>
+  <li>
+    <p>“_” - podłoga działa w podobny sposób jak “%”, z taką różnicą, że zastępuje on pojedynczy znak.</p>
+  </li>
+  <li>
+    <p>Isnull - wyraz ten wyszuka pozycje, które w danej kolumnie nie mają wpisanej wartości.</p>
+  </li>
+  <li>
+    <p>“[nazwa_produktu]” - Domyślnie filtr wyszukuje wszystko co w danej wartości znajdzie, jeśli poszukiwany jest tylko dany wyraz, musimy umieścić ciąg znaków w “[]”.</p>
+  </li>
+</ol>
+:ET

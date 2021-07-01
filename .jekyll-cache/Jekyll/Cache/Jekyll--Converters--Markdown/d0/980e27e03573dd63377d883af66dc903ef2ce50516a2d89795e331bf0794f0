@@ -1,0 +1,141 @@
+I"�7<p>Stworzyliśmy dashboard po to, by łatwiej było zaprzyjaźnić się z qcadoo. Po to, by móc szybko zacząć pracę, bez konieczności przeczytania całej dokumentacji i wielogodzinnego definiowania danych początkowych. Dzięki dashboardowi możesz w pół godziny po pierwszym zalogowaniu się zacząć prawdziwą pracę w qcadoo. Nie wierzysz? Po przeczytaniu tego rozdziału dokumentacji - zmienisz zdanie.</p>
+
+<p>Pola Dobroń prowadzi firmę Polanka. Zajmuje się szyciem ubrań. Chciałaby ewidencjonować to co zostało wyprodukowane wraz z materiałami, które w procesie produkcyjnym zużyto. Zależy jej na ustaleniu kosztów materiałowych produkcji.</p>
+
+<p>Zaczyna pracę w qcadoo. Loguje się po raz pierwszy i widzi:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduStart.png"><img src="images/zleceniaZDashboarduStart.png" alt="Dashboard - widok po pierwszym zalogowaniu" /></a><figcaption>Dashboard - widok po pierwszym zalogowaniu</figcaption></figure>
+
+<p>Od czego zacząć? Od szybkiej konfiguracji. Nie potrzeba wiele:</p>
+
+<ol>
+  <li><span style="color:grey">zdefiniowanie magazynów</span> –&gt; wchodzi do <strong>Magazyn &gt; Magazyny</strong> i wprowadza dwa: osobny dla składowania surowców, osobny dla wyrobów gotowych:</li>
+</ol>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduMagazyny.png"><img src="images/zleceniaZDashboarduMagazyny.png" alt="Zdefiniowane magazyny" /></a><figcaption>Zdefiniowane magazyny</figcaption></figure>
+
+<ol start="2">
+  <li><span style="color:grey">zdefiniowanie operacji</span> (wystarczy jedna ogólna czynność - nie na planowaniu każdej operacji zależy Poli, zatem wystarczy zlecenie zbiorczo raportowane z jedną operacją w drzewie technologii) –&gt; wchodzi do <strong>Technologie &gt; Operacje</strong> i wprowadza operację: produkcja (podaje tylko numer i nazwę, resztę danych pozostawia niewypełnione):</li>
+</ol>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduOperacja.png"><img src="images/zleceniaZDashboarduOperacja.png" alt="Zdefiniowana operacja" /></a><figcaption>Zdefiniowana operacja</figcaption></figure>
+
+<ol start="3">
+  <li><span style="color:grey">ustawienie parametrów dashboardu</span> –&gt; wchodzi do <strong>Administracja &gt; Parametry &gt; Dashboard</strong> i ustawia zdefiniowane w krokach poprzednich magazyny i operację:</li>
+</ol>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduParametryDashboardu.png"><img src="images/zleceniaZDashboarduParametryDashboardu.png" alt="Ustawione parametry dashboardu" /></a><figcaption>Ustawione parametry dashboardu</figcaption></figure>
+
+<p><span style="color:red">W zasadzie z wymaganych danych początkowych to byłoby wszystko</span>. Pola wie natomiast, że będzie chciała rejestrować produkcję poprzez terminal i przyjmować dostawy, zatem definiuje jeszcze dwie rzeczy:</p>
+
+<ol start="4">
+  <li><span style="color:grey">zdefiniowanie pracownika</span> - Pola pracuje sama, więc wprowadza tylko swoje dane. Wchodzi w <strong>Pracownicy &gt; Pracownicy</strong> i dodaje:</li>
+</ol>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduPracownik.png"><img src="images/zleceniaZDashboarduPracownik.png" alt="Zdefiniowany pracownik" /></a><figcaption>Zdefiniowany pracownik</figcaption></figure>
+
+<p>i przypisuje go do swojego użytkownika (to jest możliwe dzięki temu, że Pola korzysta z użytkownika o uprawnieniach Admina). W tym celu wchodzi w <strong>Administracja &gt; Użytkownicy</strong>, wchodzi w szczegóły swojego użytkownika, przechodzi do zakładki <em>Pracownik</em> i wybiera właściwego z listy:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduPracownikUzytkownik.png"><img src="images/zleceniaZDashboarduPracownikUzytkownik.png" alt="Przypisanie pracownika do użytkownika" /></a><figcaption>Przypisanie pracownika do użytkownika</figcaption></figure>
+
+<div class="bs-callout bs-callout-warning">Do terminala loguje się pracownik, a nie użytkownik. Dzięki temu ograniczamy konieczne do wykupienia licencje</div>
+
+<ol start="5">
+  <li><strong>zdefiniowanie dostawców</strong> - aby można było ewidencjonować w qcadoo dostawy (i przyjmować dzięki nim surowce na stan) konieczne jest wprowadzenie listy firm, z którymi współpracujemy. Pola wprowadza na początek jednego - z którym współpracuje najczęściej. Wchodzi w tym celu w <strong>Podstawowe &gt; Firmy</strong> i dodaje następujące dane:</li>
+</ol>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduFirmy.png"><img src="images/zleceniaZDashboarduFirmy.png" alt="Zdefiniowany dostawca" /></a><figcaption>Zdefiniowany dostawca</figcaption></figure>
+
+<p>Parametry ustawione. Czas rozpocząć zarządzanie produkcją!</p>
+
+<p>Pola przechodzi do dashboardu (wybierając <img class="inline" src="images/przyciskQcadoo.png" alt="Przycisk qcadoo" />
+ <strong>qcadoo</strong> z lewej strony okna) i klika przycisk <img class="inline" src="images/przyciskDodajZlecenie.png" alt="Przycisk Dodaj zlecenie" />
+ <strong>Dodaj zlecenie</strong>:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduKrok1.png"><img src="images/zleceniaZDashboarduKrok1.png" alt="Dodawanie zlecenia z dashboardu - krok 1." /></a><figcaption>Dodawanie zlecenia z dashboardu - krok 1.</figcaption></figure>
+
+<p>Jako, że nie ma zdefiniowanego żadnego produktu, klika przycisk <img class="inline" src="images/przyciskZdefiniujNowyProdukt.png" alt="Przycisk Dodaj produkt" />
+ <strong>Zdefiniuj nowy produkt</strong> i wprowdza pierwszy produkt, który chciałaby zlecić:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduNowyWyrob.png"><img src="images/zleceniaZDashboarduNowyWyrob.png" alt="Dodawanie zlecenia z dashboardu - definiowanie nowego wyrobu" /></a><figcaption>Dodawanie zlecenia z dashboardu - definiowanie nowego wyrobu</figcaption></figure>
+
+<p>Po kliknięciu przycisku <img class="inline" src="images/przyciskZapiszDashboard.png" alt="Przycisk zapisz" />
+ <strong>Zapisz</strong> uzupełnia ilość do wyprodukowania. Mogłaby też zostawić dodatkowe informacje w polu Opis - ale Pola nie ma takiej potrzeby:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduKrok1Reszta.png"><img src="images/zleceniaZDashboarduKrok1Reszta.png" alt="Dodawanie zlecenia z dashboardu - uzupełnienie niezbędnych danych w kroku 1." /></a><figcaption>Dodawanie zlecenia z dashboardu - uzupełnienie niezbędnych danych w kroku 1.</figcaption></figure>
+
+<p>Przechodzi do kolejnego kroku, klikając przycisk <img class="inline" src="images/przyciskDalejDashboard.png" alt="Przycisk Dalej" />
+ <strong>Dalej</strong>. Czas określić gdzie i kiedy ma być realizowana produkcja. qcadoo podpowiedziało zarówno linię produkcyjną jak i zakres dat:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduKrok2.png"><img src="images/zleceniaZDashboarduKrok2.png" alt="Dodawanie zlecenia z dashboardu - krok 2." /></a><figcaption>Dodawanie zlecenia z dashboardu - krok 2.</figcaption></figure>
+
+<div class="bs-callout bs-callout-warning">Linia produkcyjna rozumiana jest jako miejsce wykonania danego zlecenia. Jeśli chcesz wprowadzić ich więcej i przypisać to zlecenie do innej linii - kliknij przycisk <strong>Dodaj linię produkcyjną</strong> i ją zdefiniuj.</div>
+
+<p>Pola zmienia datę zakończenia na jutrzejszą i przechodzi Dalej. Krok 3. to określenie z jakich surowców produkcja jest wykonywana. Pola klika <img class="inline" src="images/przyciskDodajSurowiec.png" alt="Przycisk Dodaj surowiec" />
+ <strong>Dodaj surowiec</strong> i przycisk <img class="inline" src="images/przyciskDodajDashboard.png" alt="Przycisk Plus" />
+ <strong>Plus</strong> w wierszu tabeli. Chce zdefiniować pierwszy z potrzebnych materiałów:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduKrok3.png"><img src="images/zleceniaZDashboarduKrok3.png" alt="Dodawanie zlecenia z dashboardu - krok 3." /></a><figcaption>Dodawanie zlecenia z dashboardu - krok 3.</figcaption></figure>
+
+<p>I tak postępuje dla wszystkich wykrzystywanych produktów, tworząc kompletną listę materiałów:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduKrok3Lista.png"><img src="images/zleceniaZDashboarduKrok3Lista.png" alt="Dodawanie zlecenia z dashboardu - cała lista surowców definiowanych w kroku 3." /></a><figcaption>Dodawanie zlecenia z dashboardu - cała lista surowców definiowanych w kroku 3.</figcaption></figure>
+
+<p>Pola przechodzi <img class="inline" src="images/przyciskDalejDashboard.png" alt="Przycisk Dalej" />
+ <strong>Dalej</strong> i w ostatnim kroku upewnia się, czy wszystko wprowadziła jak należy. Nie pomyliła się, nie ma potrzeby wracać do poprzednich kroków, zatem klika <img class="inline" src="images/przyciskZapiszIAkceptuj.png" alt="Przycisk Zapisz i akceptuj" />
+ <strong>Zapisz i akceptuj</strong>.</p>
+
+<div class="bs-callout bs-callout-warning">Wraz ze zleceniem utworzyła się też technologia produktu - zatem kolejne zlecanie do produkcji białej koszulki basic S będzie jeszcze szybsze.</div>
+
+<p>Zlecenie się tworzy. Widoczne jest na dashboardzie.</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduZlecenieOczekujace.png"><img src="images/zleceniaZDashboarduZlecenieOczekujace.png" alt="Utworzone zlecenie produkcyjne w sekcji Oczekujące" /></a><figcaption>Utworzone zlecenie produkcyjne w sekcji Oczekujące</figcaption></figure>
+
+<p>Pola od razu chce produkować. Przeciąga zatem kafelek zlecenia do sekcji Realizowane:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduZlecenieRealizowane.png"><img src="images/zleceniaZDashboarduZlecenieRealizowane.png" alt="Utworzone zlecenie produkcyjne w sekcji Realizowane" /></a><figcaption>Utworzone zlecenie produkcyjne w sekcji Realizowane</figcaption></figure>
+
+<p>I już teraz mogłaby zacząć raportować efekty wykonanej produkcji. Ale najpierw koniecznie trzeba przyjąć na stan potrzebne surowce. Pola wykorzysta do tego celu dostawy. Przechodzi do <strong>Zaopatrzenie &gt; Dostawy</strong> i wprowadza dostawę podając w nagłówku informację o: dostawcy, magazynie na jakim produkty będą składowane oraz terminie dostawy:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduDostawaGlowna.png"><img src="images/zleceniaZDashboarduDostawaGlowna.png" alt="Nagłówek dostawy" /></a><figcaption>Nagłówek dostawy</figcaption></figure>
+
+<div class="bs-callout bs-callout-warning">Dostępny stan magazynowy potrzebny jest do tego, by móc zaakceptować rejestrację produkcji. To wtedy tworzą się dokumenty RW. Jeśli dopiero testujesz qcadoo i nie chcesz zajść aż na sam koniec ścieżki - nie musisz robić tego kroku.</div>
+
+<p>W zakładce Zamówione produkty dodaje wszystkie surowce, które zamówiła u tego dostawcy:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduDostawaZamowioneProdukty.png"><img src="images/zleceniaZDashboarduDostawaZamowioneProdukty.png" alt="Zamówione produkty w dostawie" /></a><figcaption>Zamówione produkty w dostawie</figcaption></figure>
+
+<p>I ją potwierdza, klikając <img class="inline" src="images/acceptIcon24.png" alt="Przycisk akceptuj" />
+ <strong>Potwierdź</strong>. Dostawa ta w rzeczywistości już została dostarczona, zatem Pola od razu przyjmuje produkty na stan klikając przycisk “Skopiuj produkty zamawiane do odebranych” <img class="inline" src="images/copyIcon24.png" alt="Przycisk Kopiuj" />
+ <strong>Z ilością i ceną</strong>:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduDostawaDostarczoneProdukty.png"><img src="images/zleceniaZDashboarduDostawaDostarczoneProdukty.png" alt="Dostarczone produkty w dostawie" /></a><figcaption>Dostarczone produkty w dostawie</figcaption></figure>
+
+<p>Jako, że dostawca nie popełnił błędu i przysłał wszystko to co zostało zamówione, Pola nic nie poprawia i obiera dostawę klikając <img class="inline" src="images/acceptIcon24.png" alt="Przycisk akceptuj" />
+ <strong>Odbierz</strong>. W efekcie - na magazyn zostały przyjęte zasoby dokumentem PZ:</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduZasoby.png"><img src="images/zleceniaZDashboarduZasoby.png" alt="Przyjęte na magazyn zasoby" /></a><figcaption>Przyjęte na magazyn zasoby</figcaption></figure>
+
+<p>Stan magazynowy zapewniony. Pola wyprodukowała całą planowaną ilość i chciałaby zaraportować to co zużyła i to co zostało wytworzone. Wraca zatem na dashboard i kafelku zlecenia klika przycisk <img class="inline" src="images/przyciskPokazTerminal.png" alt="Przycisk Pokaż terminal" />
+ <strong>Pokaż terminal</strong></p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduTerminal.png"><img src="images/zleceniaZDashboarduTerminal.png" alt="Terminal rejestracji produkcji" /></a><figcaption>Terminal rejestracji produkcji</figcaption></figure>
+
+<p>Podaje jaką ilość wyprodukowała (co powoduje wyliczenie ilości zużywanych produktów - na wszelki wypadek weryfikuje dane w zakładce Produkty wejściowe) i potwierdza przyciskiem <img class="inline" src="images/przyciskPotwierdzTerminal.png" alt="Przycisk Potwierdź" />
+ <strong>Potwierdź</strong>. Następnie przechodzi do <strong>Rejestracja &gt; Rejestracja produkcji</strong> i akceptuje utworzony meldunek.</p>
+
+<div class="bs-callout bs-callout-warning">W parametrach terminala możesz ustawić, aby meldunek akceptował się od razu po potwierdzaniu z terminala.</div>
+
+<p>I pora na ostatni krok, wieńczący proces w qcadoo. Pola wraca do dashboardu i przesuwa zlecenie do sekcji Gotowe.</p>
+
+<figure><a target="_blank" href="images/zleceniaZDashboarduKoniec.png"><img src="images/zleceniaZDashboarduKoniec.png" alt="Dashboard - widok po ukończeniu procesu" /></a><figcaption>Dashboard - widok po ukończeniu procesu</figcaption></figure>
+
+<p>Zlecenie zostało ukończone, dane z produkcji zarejestrowane, dokumenty magazynowe wystawione. Ile czasu zajęło Ci przejście całego procesu?</p>
+
+<hr />
+
+<p><span style="color:red">Na koniec ważna informacja!</span>
+<br />
+<span style="color:red">Opisany przykład to podejście minimalistyczne. Pamiętaj, że qcadoo potrafi dużo więcej.</span></p>
+
+:ET

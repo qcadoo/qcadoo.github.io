@@ -1,0 +1,16 @@
+I"�<p>Numery katalogowe powstały w celu ułatwienia identyfikacji produktów. Numery nadawane są zgodnie z przyjętą w firmie zasadą, są przydatne głównie w celach informacyjnych i przy wyszukiwaniu.</p>
+
+<h2 id="jak-dodać-nowy-numer-katalogowy">Jak dodać nowy numer katalogowy?</h2>
+
+<p><strong>Produkty » Numery katalogowe »</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong></p>
+
+<p>Numery katalogowe definiowane są przez “Produkt”, “Firmę” - pozycje te dodajemy wybierając umieszczoną po lewej stronie lupkę <img class="inline" src="images/lupka.png" alt="Przycisk lupy" />
+ .Tam wyświetla się lista zdefiniowanych wcześniej pracowników i firm. Wymaganą informacją są również “Numery katalogowe”, które nadajemy ręcznie.</p>
+
+<div class="bs-callout bs-callout-info">
+<strong>Zastosowanie:</strong> <br />
+- Szybkie i łatwe wyszukiwanie konkretnych produktów,<br />
+- Kodowanie informacji o produkcie.</div>
+
+:ET

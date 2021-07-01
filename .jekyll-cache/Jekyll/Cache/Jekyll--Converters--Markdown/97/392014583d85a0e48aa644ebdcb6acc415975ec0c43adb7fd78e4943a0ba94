@@ -1,0 +1,91 @@
+I"3(<p>Materiały zużywane w trakcie produkcji są często sporym narzutem kosztowym całego procesu. Często zarządzanie materiałami stanowi nie lada wyzwanie - nie wiadomo jakie surowce będą potrzebne, na kiedy, gdzie należy je wydać, kto i ile zużył i ile w sumie nas to kosztowało. Sporo tematów do opanowania. Na szczęście qcadoo MES wesprze Cię w każdym elemencie.</p>
+
+<p>Opisany proces zakłada, że magazyn surowców i magazyny produkcyjne są odseparowane. Zanim pracownik produkcyjny rozpocznie prace - magazynier przesuwa odpowiednie surowce na dział. Posłużą do tego wydania wewnętrzne - w parametrach ustawione są takie wartości:</p>
+
+<figure><a target="_blank" href="images/procesyZuzycieMaterialowParametryWydan.png"><img src="images/procesyZuzycieMaterialowParametryWydan.png" alt="Parametry wydań wewnętrznych" /></a><figcaption>Parametry wydań wewnętrznych</figcaption></figure>
+
+<p>Zacznijmy zatem przykład od ustalenia jakie zlecenia produkcyjne będziesz wykonywać. <a href="/planowanie-zlecen">Lista otwartych zleceń</a> jest następująca:</p>
+
+<figure><a target="_blank" href="images/procesyZuzycieMaterialowListaZlecen.png"><img src="images/procesyZuzycieMaterialowListaZlecen.png" alt="Lista zleceń produkcyjnych" /></a><figcaption>Lista otwartych produkcyjnych</figcaption></figure>
+
+<p>Do tych zleceń <a href="/pokrycie-zapotrzebowania">potrzebne będą następujące surowce</a>:</p>
+
+<figure><a target="_blank" href="images/procesyZuzycieMaterialowPokrycie.png"><img src="images/procesyZuzycieMaterialowPokrycie.png" alt="Lista potrzebnych do produkcji surowców" /></a><figcaption>Lista potrzebnych do produkcji surowców</figcaption></figure>
+
+<p>Widać, że masz wystarczającą ilość produktów, aby zacząć realizację zleceń. Skąd magazynier ma wiedzieć <strong>jakie produkty i na kiedy</strong> ma przygotować?</p>
+
+<p>Wygenerujemy dla Ciebie wydanie wewnętrzne na tyle dni przed rozpoczęciem zlecenia, ile ustawisz w <a href="/parametry-zaopatrzenie.html#wydania-wewnętrzne">parametrach</a>. Najwygodniejszą listą do pracy magazyniera jest widok <a href="/produkty-do-wydania-wewnetrznego">produktów do wydania wewnętrznego</a>.</p>
+
+<figure><a target="_blank" href="images/procesyZuzycieMaterialowProduktyDoWydaniaWewn.png"><img src="images/procesyZuzycieMaterialowProduktyDoWydaniaWewn.png" alt="Produkty do wydania wewnętrznego" /></a><figcaption>Produkty do wydania wewnętrznego</figcaption></figure>
+
+<p>Użyj filtrowania po magazynie i dacie - a dowiesz się co, gdzie i w jakiej ilości masz dziś przesunąć.</p>
+
+<div class="bs-callout bs-callout-warning">Jeśli w profilu użytkownika przypiszesz sobie magazyn, to w liście od razu będą widoczne planowane przesunięcia z Twojego magazynu</div>
+
+<p>Możesz <strong>posortować / przefiltrować po produkcie</strong> - dzięki temu przygotujesz od razu cały materiał pod wszystkie dziś rozpoczynane zlecenia.
+Możesz <strong>posortować / przefiltrować po miejscu składowania</strong> - dzięki temu zminimalizujesz bezcelowe spacery po magazynie.
+Możesz <strong>posortować / przefiltrować po magazynie docelowym</strong> - dzięki temu od razu możesz przyszykować wózek na dany magazyn i jechać z nim tylko raz.
+Możesz <strong>posortować / przefiltrować po dacie (i godzinie) rozpoczęcia zlecenia</strong> i wydawać w kolejności w jakiej zadania będą realizowane.
+Jak widać - możliwości wiele. Możesz dostowować działanie do swoich potrzeb.</p>
+
+<p>Jak już wiesz co chcesz wydawać i chcesz zarejestrować wydanie, zaznacz produkty w tabeli i kliknij <img class="inline" src="images/przyciskKopiujProduktyDoWydania.png" alt="Kopiuj produkty do wydania" />
+ <strong>Kopiuj produkty do wydania</strong> i ewentualnie popraw dane (np. ilość - bo przecież nawet jak pod zlecenie potrzebne jest 10 ml farby, to i tak wydasz całą puszkę) i wydaj (używając przycisku <img class="inline" src="images/przyciskWydaj.png" alt="Wydaj" />
+ <strong>Wydaj</strong>). W efekcie powstaną <a href="/dokumenty">dokumenty</a> MM lub para WZ - PZ (w zależności od tego co ustawisz w parametrach):</p>
+
+<figure><a target="_blank" href="images/procesyZuzycieMaterialowDokument.png"><img src="images/procesyZuzycieMaterialowDokument.png" alt="Utworzony dokument MM" /></a><figcaption>Utworzony dokument MM</figcaption></figure>
+
+<figure><a target="_blank" href="images/procesyZuzycieMaterialowPozycjeDokumentow.png"><img src="images/procesyZuzycieMaterialowPozycjeDokumentow.png" alt="Pozycje utworzonego dokumentu MM" /></a><figcaption>Pozycje utworzonego dokumentu MM</figcaption></figure>
+
+<p>a <strong>stany magazynowe zostały odpowiednio ukształtowane</strong>. Magazyn działowy zasilony - produkcja ma z czego wytwarzać wyroby.</p>
+
+<p>Aby zaewidencjonować <strong>co faktycznie zostało zużyte</strong>, trzeba wprowadzić meldunek - albo wprost z listy <a href="/rejestracja-produkcji">rekordów rejestracji</a> albo korzystając z <a href="/terminal">terminala</a>.</p>
+
+<figure><a target="_blank" href="images/procesyZuzycieMaterialowRR.png"><img src="images/procesyZuzycieMaterialowRR.png" alt="Zaraportowanie zużytego materiału do zlecenia" /></a><figcaption>Zaraportowanie zużytego materiału do zlecenia</figcaption></figure>
+
+<p>Możesz ręcznie podawać ilość zużytą dla każdego zaplanowanego do zlecenia produktu. Ale możesz też zaznacz <a href="/parametry-rejestracja-produkcji">parametr</a> Zużycie surowców na podstawie norm, a ilość będzie wyliczona po wprowadzeniu ilości wyprodukowanej (do wyliczeń wykorzystamy dane wprowadzone w technologii). Możesz też użyć przycisku kopiowania ilości planowanej do podanych - przydatne przy założeniu, że całą zleconą ilość produkujesz od razu, bez dzielenia na etapy.</p>
+
+<p>W kolejnym kroku konieczne jest zaakceptowanie rekordu rejestracji - co się stanie? Do podanych zużytych ilości <strong>utworzymy dokument (lub dokumenty) RW</strong>. Od razu zaakceptowane, aktualizujące stan magazynowy.</p>
+
+<p>Dokument RW zawiera informacje o:</p>
+<ul>
+  <li>zużytych produktach,§</li>
+  <li>ilości zużytych produktów,</li>
+  <li>magazynie, z którego nastąpił rozchód,</li>
+  <li>dobranych, na podstawie metody wyceny określonej w magazynie, zasobach,</li>
+  <li>atrybutach zasobu, takich jak: cena, data ważności, data produkcji, nr partii, miejsce składowania, nr palety itp.</li>
+  <li>zleceniu, na rzecz którego realizowane były prace.</li>
+</ul>
+
+<figure><a target="_blank" href="images/procesyZuzycieMaterialowPozycjeDokumentowRW.png"><img src="images/procesyZuzycieMaterialowPozycjeDokumentowRW.png" alt="Pozycje utworzonego dokumentu RW" /></a><figcaption>Pozycje utworzonego dokumentu RW</figcaption></figure>
+
+<p>Efekty zużycia materiałów możesz prześledzić też z poziomu samego zlecenia produkcyjnego. Wchodząc w <img class="inline" src="images/iconProducts24.png" alt="postęp produkcji" />
+ <strong>Ilości wyprodukowane/ zużyte</strong> ustalisz co na danym etapie zostało już zużyte i wyprodukowane.</p>
+
+<figure><a target="_blank" href="images/procesyZuzycieMaterialowPostepProdukcji.png"><img src="images/procesyZuzycieMaterialowPostepProdukcji.png" alt="Ogólny postęp produkcji" /></a><figcaption>Ogólny postęp produkcji</figcaption></figure>
+
+<p>Przechodząc krok dalej, w: <img class="inline" src="images/genealogyIcon24.png" alt="szczegółowe zapotrzebowanie" />
+ <strong>Szczegółowe zapotrzebowanie i postęp</strong> będziesz mógł przeanalizować zużycie z dokładnością do operacji (a także zmienić planowane zużycie, np. wprowadzając zamienniki - ale o tym więcej przeczytasz <a href="/zmiana-stanu-zapotrzebowania">tutaj</a>).</p>
+
+<figure><a target="_blank" href="images/procesyZuzycieMaterialowSzczegoloweZapotrzebowanie.png"><img src="images/procesyZuzycieMaterialowSzczegoloweZapotrzebowanie.png" alt="Szczegółowe zapotrzebowanie i postęp" /></a><figcaption>Szczegółowe zapotrzebowanie i postęp</figcaption></figure>
+
+<p>O zużytych ilościach surowców pod dane zlecenie wiesz już niemal wszystko. Do pełnego obrazu brakuje Ci jeszcze cen pobranych zasobów. Owszem - analizując dokumenty takie informacje można wyciągnąć. Jednak dane te możesz wyciągnąć też z poziomu zlecenia produkcyjnego. Wejdź w: <img class="inline" src="images/calculateTimeIcon24.png" alt="Przycisk kalkulacji" />
+ <strong><a href="/ceny-materialow-dla-zlecenia">Ceny</a></strong></p>
+
+<figure><a target="_blank" href="images/procesyZuzycieMaterialowCenyMaterialow.png"><img src="images/procesyZuzycieMaterialowCenyMaterialow.png" alt="Ceny materiałów zużywanyh w zleceniu" /></a><figcaption>Ceny materiałów zużywanyh w zleceniu</figcaption></figure>
+
+<p>Jakie informacje możesz tutaj uzyskać? Przede wszystkim różne ujęcia cen - ustalisz zapisane w <a href="/produkty">produktach</a> ceny ostatniego zakupy czy średnio ważone, a także faktyczne ceny zasobów zużytych na rzecz danego zlecenia (kolumna: cena dla zlecenia). Wchodząc w szczegóły produktu w tabeli zobaczysz także wystawione dokumenty RW (zarówno w qcadoo jak i w systemie zewnętrznym).</p>
+
+<p>Została do omówienia wisienka na torcie - <a href="//rozliczenie-produkcji">rozliczenie produkcji</a>. W raporcie kosztom materiałów został poświęcony osobny <strong>arkusz Koszty materiałów</strong>:</p>
+
+<figure><a target="_blank" href="images/procesyZuzycieMaterialowRozliczenieProdukcjiKosztyMaterialow.png"><img src="images/procesyZuzycieMaterialowRozliczenieProdukcjiKosztyMaterialow.png" alt="Koszty materiałów w rozliczeniu produkcji" /></a><figcaption>Koszty materiałów w rozliczeniu produkcji</figcaption></figure>
+
+<p>Dowiesz się tutaj jakie produkty miały być zużyte i w jakich ilościach, wraz z porównaniem faktycznego zużycia zarejestrowanego po produkcji. Ustalisz i porównasz koszt planowany z kosztem rzeczywistym. Wyliczone zostaną też odchylenia ilościowe i wartościowe.</p>
+
+<p>Poniesiony koszt zużycia materiałów będzie wykorzystany w rozliczeniu całkowitych kosztów zlecenia, w arkuszach:</p>
+<ul>
+  <li>rozliczenie do zleceń,</li>
+  <li>rozliczenie z uwzględnieniem komponentów,</li>
+  <li>rozliczenie do wyrobu.</li>
+</ul>
+
+:ET

@@ -1,0 +1,81 @@
+I"X&<p>Po lekturze tej strony będziesz wiedzieć jak wygląda praca w qcadoo od momentu złożenia zamówienia przez klienta, przez rozpisanie produkcji, przekazanie zadań pracownikom, po zaraportowanie wykonanych wyrobów.</p>
+
+<p>Opis dotyczy podstawowej ścieżki. Pamiętaj, że możliwości qcadoo są zdecydowanie większe.</p>
+
+<p>Zaczynamy?</p>
+
+<p>Klient Modna Helena składa zamówienie - chce, aby Twoja firma wyprodukowała dla niego 10 sukienek waniliowych i 20 sukienek w kolorze butelkowej zieleni. Potrzebuje tych produktów do końca czerwca 2019. Ale oczywiście - im szybciej otrzyma tym lepiej. Są to typowe produkty dla Twojej firmy - masz już stworzone dla nich <a href="/technologie-szczegoly">technologie</a>.</p>
+
+<p>Wprowadź <strong><a href="/zlecenia-nadrzedne">zamówienie sprzedaży</a></strong> - czyli odpowiednik zamówienia sprzedaży. Będziesz dzięki temu wiedział kiedy wpłynęło zamówienie, kto zamówił, jaki jest termin ostateczny i co najważniejsze - co zostało zamówione.</p>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZamowieniaZlecenieNadrzedneGlowna.png"><img src="images/procesyRealizacjaZamowieniaZlecenieNadrzedneGlowna.png" alt="Wprowadzanie nagłówkowych danych zamówienia sprzedaży" /></a><figcaption>Wprowadzanie nagłówkowych danych zamówienia sprzedaży</figcaption></figure>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZamowieniaZlecenieNadrzedneProdukty.png"><img src="images/procesyRealizacjaZamowieniaZlecenieNadrzedneProdukty.png" alt="Wprowadzanie produktów zamówienia sprzedaży" /></a><figcaption>Wprowadzanie produktów zamówienia sprzedaży</figcaption></figure>
+
+<p>OK - zamówienie jest. Teraz trzeba przekazać zlecenia na produkcję. Przyjmujemy w qcadoo założenie, że w jednym zleceniu produkcyjnym wytwarzamy jeden wyrób. Modna Helena zamówiła dwa produkty - zatem utworzone muszą być dwa zlecenia produkcyjne. Aby było szybciej skorzystaj z funkcji <a href="/zlecenia-nadrzedneutworzenie-wielu-zleceń-produkcyjnych-z-poziomu-zlecenia-nadrzędnego">Utwórz wiele zleceń produkcyjnych</a>. Zaznaczy wszystkie zamówione produkty i kliknij przycisk <img class="inline" src="images/przyciskUtworzWieleZlecenProdukcyjnych.png" alt="Przycisk Zapisz" />
+ <strong>Utwórz wiele zleceń produkcyjncyh</strong>. W efekcie utworzymy dla Ciebie dwa zlecenia produkcyjne. Dane zostaną przeniesione z zamówienia sprzedaży. Do tego namierzymy dane domyślne (jak linia produkcyjna - z technologii lub parametrów) i też je wprowadzimy.</p>
+
+<p><a href="/zlecenia-produkcyjne">Zlecenia produkcyjne</a>, które powstały będą podpięte pod zamówienie sprzedaży - możesz je w każdej chwili podejrzeć i ustalić co się z nimi aktualnie dzieje.</p>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZamowieniaZlecenieNadrzedneZlecenia.png"><img src="images/procesyRealizacjaZamowieniaZlecenieNadrzedneZlecenia.png" alt="Powiązane z zamówieniem sprzedaży zlecenia produkcyjne" /></a><figcaption>Powiązane z zamówieniem sprzedaży zlecenia produkcyjne</figcaption></figure>
+
+<p>Samo zlecenie produkcyjne wygląda tak:</p>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZamowieniaZlecenieProdukcyjne.png"><img src="images/procesyRealizacjaZamowieniaZlecenieProdukcyjne.png" alt="Utworzone zlecenie produkcyjne" /></a><figcaption>Utworzone zlecenie produkcyjne</figcaption></figure>
+
+<p>Czyli <strong>już wiadomo, że będziecie produkować</strong> - co, w jakiej technologii, dla kogo i w jakiej ilości. Nie wiesz jeszcze natomiast kiedy zlecenie będzie realizowane. Na szczęście tworząc technologię określiłeś <a href="normy-czasowe">normy czasowe</a>, zatem wiadomo ile powinny zająć operacje do wykonania:</p>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZamowieniaTechnologiaNormyCzasowe.png"><img src="images/procesyRealizacjaZamowieniaTechnologiaNormyCzasowe.png" alt="Normy czasowe operacji technologii" /></a><figcaption>Normy czasowe operacji technologii</figcaption></figure>
+
+<p>Funkcja <a href="czasochlonnosc-zlecenia">czasochłonności</a> pozwoli na przeliczenie czasu trwania zlecenia. Najszybciej będzie wywołać ją na <a href="/planowanie-na-liniach">wykresie Gantta</a> przesuwając zlecenie z bufora na linię - od razu wskażesz dzięki temu moment rozpoczęcia zlecenia, a my wyliczymy czas trwania i ustalimy datę zakończenia.</p>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZamowieniaGantt.png"><img src="images/procesyRealizacjaZamowieniaGantt.png" alt="Umiejscowienie zlecenia w czasie na wykresie Gantta" /></a><figcaption>Umiejscowienie zlecenia w czasie na wykresie Gantta</figcaption></figure>
+
+<p>Dzięki ułożeniu kafelków zleceń w kalendarzu wyznaczyłeś <strong>daty realizacji</strong>:</p>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZamowieniaListaZlecen.png"><img src="images/procesyRealizacjaZamowieniaListaZlecen.png" alt="Daty rozpoczęcia i zakończenia zleceń" /></a><figcaption>Daty rozpoczęcia i zakończenia zleceń</figcaption></figure>
+
+<p>Wygląda na to, że zlecenia są już kompletne. Pora zmienić status na zaakceptowany - będzie to znak dla Ciebie i pracowników, że dane są już dopięte na ostatni guzik. I że niemal na pewno odbędzie się produkcja.</p>
+
+<p>Upewnij się <strong>czy posiadasz niezbędne do produkcji surowce</strong>. W zleceniu wejdź w Dostępność surowców:</p>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZamowieniaDostepnoscSurowcow.png"><img src="images/procesyRealizacjaZamowieniaDostepnoscSurowcow.png" alt="Analiza dostępności surowców do zlecenia" /></a><figcaption>Analiza dostępności surowców do zlecenia</figcaption></figure>
+
+<p>Dostępność pełna - czyli masz z czego produkować. Zatem - do dzieła. Rozpocznij zlecenia i zaczynaj produkcję. Skąd pracownicy mają wiedzieć co jest do wykonania? Najłatwiej (i bez krążących po działach papierach) z <a href="/terminal">terminala</a>. Pracownik po zalogowaniu zobaczy w liście zleceń co jest zaplanowane do realizacji na dany dzień i daną zmianę. Po wybraniu zlecenia będzie mógł wprowadzić jaką ilość wyprodukował.</p>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZamowieniaDostepnoscSurowcow.png"><img src="images/procesyRealizacjaZamowieniaDostepnoscSurowcow.png" alt="Analiza dostępności surowców do zlecenia" /></a><figcaption>Analiza dostępności surowców do zlecenia</figcaption></figure>
+
+<p>Na tej podstawie możemy wyliczyć jakie surowce powinien do produkcji użyć. Jeśli produkcja wymagała zużycia innej ilości produktów niż ta określona w normach - pracownik może je w terminalu zmienić.</p>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZamowieniaTerminal.png"><img src="images/procesyRealizacjaZamowieniaTerminal.png" alt="Rejestracja produkcji przy użyciu terminala" /></a><figcaption>Rejestracja produkcji przy użyciu terminala</figcaption></figure>
+
+<p>Efektem potwierdzenia będzie utworzenie <strong><a href="/rejestracja-produkcji">rekordu rejestracji</a></strong> - wiesz już kto wyprodukował, w jakiej ilości, kiedy, na rzecz jakiego zlecenia i kontrahenta. Wiesz też jakie produkty zostały zużyte i w jakich ilościach.</p>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZamowieniaRekordyRejestracji.png"><img src="images/procesyRealizacjaZamowieniaRekordyRejestracji.png" alt="Lista utworzonych meldunków z produkcji" /></a><figcaption>Lista utworzonych meldunków z produkcji</figcaption></figure>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZamowieniaRRProdukty.png"><img src="images/procesyRealizacjaZamowieniaRRProdukty.png" alt="Produkty uczestniczące w produkcji" /></a><figcaption>Produkty uczestniczące w produkcji</figcaption></figure>
+
+<p>Zaakceptuj rekordy rejestracji, aby wywołać skutki magazynowe. Co się wydarzyło?</p>
+<ul>
+  <li><strong>powstały <a href="/dokumenty">dokumenty magazynowe</a></strong> PW i RW</li>
+</ul>
+
+<figure><a target="_blank" href="images/procesyRealizacjaDokumenty.png"><img src="images/procesyRealizacjaDokumenty.png" alt="Dokumenty utworzone przy akceptacji rekordu rejestracji" /></a><figcaption>Dokumenty utworzone przy akceptacji rekordu rejestracji</figcaption></figure>
+
+<ul>
+  <li><strong>w zleceniu produkcyjnym została zapisana ilość wyprodukowana, wyliczona ilość pozostała do produkcji oraz ustalony procent wykonania</strong></li>
+</ul>
+
+<figure><a target="_blank" href="images/procesyRealizacjaListaZlecenWykonano.png"><img src="images/procesyRealizacjaListaZlecenWykonano.png" alt="Informacja o ilości wykonanej w liście zleceń" /></a><figcaption>nformacja o ilości wykonanej w liście zleceń</figcaption></figure>
+
+<ul>
+  <li><strong>w zamówieniu sprzedaży ustalona została ilość wykonana i wyliczona ilość, którą jeszcze trzeba wyprodukować</strong></li>
+</ul>
+
+<figure><a target="_blank" href="images/procesyRealizacjaZlecenieNadrzedneWykonano.png"><img src="images/procesyRealizacjaZlecenieNadrzedneWykonano.png" alt="Informacja o ilości wykonanej w zamówieniu sprzedaży" /></a><figcaption>nformacja o ilości wykonanej w zamówieniu sprzedaży</figcaption></figure>
+
+<figure><a target="_blank" href="images/procesyRealizacjaPozycjeZlecenNadrzednychWykonano.png"><img src="images/procesyRealizacjaPozycjeZlecenNadrzednychWykonano.png" alt="Informacja o ilości wykonanej w widoku pozycji zamówienia sprzedaży" /></a><figcaption>Informacja o ilości wykonanej w w widoku pozycji zamówienia sprzedaży</figcaption></figure>
+
+<p>Gotowe! Sukienka waniliowa dla Modnej Heleny wyprodukowana. Wysyłasz czy czekasz aż skończą się prace na rzecz całego zamówienia? Ta decyzja należy do Ciebie - w niej już Ci nie pomożemy.</p>
+
+:ET

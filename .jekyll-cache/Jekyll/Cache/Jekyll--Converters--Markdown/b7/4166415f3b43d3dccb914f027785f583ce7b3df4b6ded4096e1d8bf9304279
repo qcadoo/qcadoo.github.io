@@ -1,0 +1,42 @@
+I"�<p>Tutaj program qcadoo daje możliwość wygenerowania informacji jakie jest nasze zapotrzebowanie na konkretny produkt w danej jednostce czasu, na kiedy go potrzebujemy, ile produktu będzie nam dostarczone oraz kiedy go otrzymamy. Oprócz dostaw program uwzględnia stan magazynów. Funkcja ta jest szczególnie pomocna w przypadku składania zamówienia.</p>
+
+<p><strong>PRZYKŁADOWO:</strong> Jeżeli wiemy, że w danym okresie mamy do zrealizowania zlecenie produkcyjne na 5 stołów, to po wygenerowaniu zapotrzebowania wyświetli nam się lista produktów, które będą nam potrzebne do zrealizowania tego zlecenia, wraz z informacją z jakich źródeł zapotrzebowanie to będzie pokryte, z dostaw czy z magazynów.</p>
+
+<h2 id="jak-wygenerować-pokrycie-zapotrzebowania-">Jak wygenerować pokrycie zapotrzebowania ?</h2>
+
+<figure><a target="_blank" href="images/pokrycie-zapotrzebowania.png"><img src="images/pokrycie-zapotrzebowania.png" alt="Formularz pokrycia zapotrzebowania" /></a><figcaption>Formularz pokrycia zapotrzebowania</figcaption></figure>
+
+<p>Pokrycie zapotrzebowania generujemy wchodząc w:</p>
+
+<p><strong>ZAOPATRZENIE » Pokrycie zapotrzebowania »</strong> <img class="inline" src="images/generateIcon24.png" alt="Przycisk generuj" />
+ <strong>Generuj</strong></p>
+
+<p>(Aby wygenerować zapotrzebowanie musisz wypełnić wszystkie wymagane informacje)</p>
+
+<ol>
+  <li>
+    <p>W zakładce <strong>Główna</strong> wybierz okres czasu dla którego chcesz sprawdzić pokrycie.</p>
+  </li>
+  <li>
+    <p>W następnym kroku musisz dodać “Magazyny” w których będziesz sprawdzał dostępność materiałów.</p>
+  </li>
+  <li>
+    <p>W kolejnym etapie musimy wybrać jakie produkty chcemy zobaczyć w wynikach, możemy zdecydować się na wszystkie, produkty nie znajdujące się na magazynie lub tylko braki/opóźnienia. Pole “Numer” wypełniane jest automatycznie, jeżeli chcemy zmienić numerację możemy zrobić to ręcznie.</p>
+  </li>
+  <li>
+    <p>Jeżeli chcemy możemy również zaznaczyć opcję “Uwzględnij niezatwierdzone dostawy”, wówczas program uwzględni w obliczeniach produkty znajdujące się w tych dostawach.</p>
+  </li>
+  <li>
+    <p>Jeżeli wypełnimy wszystkie wymagane pola, możemy wygenerować listę z pokryciem zapotrzebowania, używając przycisku <img class="inline" src="images/generateIcon24.png" alt="Przycisk generuj" />
+ <strong>Generuj</strong> ,a następnie przejść do następnej zakładki <strong>“Pokrycie zapotrzebowania”</strong>.</p>
+  </li>
+</ol>
+
+<p>Pokrycie możemy zapisać także w formie raportu w formacie PDF <img class="inline" src="images/PDF.png" alt="PDF" />
+ oraz zapisać do późniejszego wglądu wybierając <img class="inline" src="images/zapisz.png" alt="Przycisk zapisz" />
+ <strong>Zachowaj raport.</strong> Dodatkowo na podstawie otrzymanej listy możemy wygenerować zapytanie ofertowe bo wiemy czego nam brakuje i kto może nam te produkty dostarcza. Możemy więc poprosić dostawcę aby przygotował ofertę na dostawę podanych produktów.Aby wygenerować takie zapytanie użyj przycisku <img class="inline" src="images/genealogyIcon24.png" alt="Przycisk generuj" />
+ <strong>Utwórz rundę negocjacyjną</strong>.</p>
+
+<div class="bs-callout bs-callout-info">Aby mieć informację na temat tego kto dostarcza nam konkretny produkt, musimy wybrać PODSTAWOWE » Firmy i tam wybierając konkretnego dostawcę dodać ręcznie produkty które sprzedaje (zakładka Sprzedaje).</div>
+
+:ET

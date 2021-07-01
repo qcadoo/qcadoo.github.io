@@ -1,0 +1,13 @@
+I"�<p>Etykiety wykorzystywane są w modelach - można podpiąć etykietę, która jest dorzucana do produktu o danym <a href="/modele">modelu</a>. Na etykiecie można zawrzeć informacje np. o składzie surowcowym danego modelu.</p>
+
+<p>Aby zdefiniować etykietę wybierz: <strong>Podstawowe &gt; etykiety</strong></p>
+
+<figure><a target="_blank" href="images/podstawoweEtykietyLista.png"><img src="images/podstawoweEtykietyLista.png" alt="Lista etykiet" /></a><figcaption>Lista etykiet</figcaption></figure>
+
+<p>i kliknij <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowy" />
+ <strong>Dodaj nowy</strong>  </p>
+
+<figure><a target="_blank" href="images/podstawoweEtykietyNowa.png"><img src="images/podstawoweEtykietyNowa.png" alt="Formularz dodawania etykiet" /></a><figcaption>Formularz dodawania etykiet</figcaption></figure>
+
+<p>Uzupełnij <strong>nazwę</strong> etykiety i opcjonalnie jej <strong>opis</strong>.</p>
+:ET

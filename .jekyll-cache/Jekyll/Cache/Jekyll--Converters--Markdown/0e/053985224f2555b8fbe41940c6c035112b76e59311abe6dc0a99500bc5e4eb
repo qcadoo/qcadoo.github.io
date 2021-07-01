@@ -1,0 +1,53 @@
+I"�<p><em>Załóżmy, że jeden z działów wykonuje szereg czynności, w celu wytworzenia wyrobu. Nie chcesz planować każdej z tych czynności - to byłoby zbyt skomplikowane i niepotrzebne. Zależy Ci jednak na tym, aby pracownicy wiedzieli co trzeba po kolei zrobić oraz aby potwierdzili, że to zrobili. W tym rozdziale dokumentacji dowiesz się jak zarządzać procesami technologicznymi w qcadoo.</em></p>
+
+<p>Nasza firma produkuje ubrania. Na szwalni pracuje wielu pracowników, przy wielu maszynach. Po wykonaniu jednej z czynności praca przekazywana jest na kolejną maszynę i tam produkt jest dalej przetwarzany. Nie ma szczegółowego planowania na każdą z maszyn czy pracownika. Wiadomo tylko jakie produkty szwalnia ma wytworzyć i w jakiej ilości. Rozdziałem prac zajmuje się brygadzista. Pracownicy szwalni wynagradzani są za wykonaną pracę.</p>
+
+<p>Każda z tych drobnych czynności do wykonania na szwalni to <a href="/procesy-technologiczne">proces technologiczny</a>:</p>
+
+<figure><a target="_blank" href="images/procesyPrzykladProces.png"><img src="images/procesyPrzykladProces.png" alt="Proces technologiczny" /></a><figcaption>Proces technologiczny</figcaption></figure>
+
+<p>Wiadomo co trzeba zrobić, na jakiej stacji lub typie stacji, a także ile czasu powinno zająć wykonanie czynności. Dodatkowo - proces ma przypisaną stawkę godzinową - będziemy potrafili wyliczyć dzięki temu wartość wynagrodzenia. Niektóre procesy trają dłużej, gdy wykonywane są na rzecz produktów o większych rozmiarach.</p>
+
+<p>Z procesów technologicznych stworzona jest <a href="/listy-procesow">lista</a> - czyli opis wykonania danego typu produktów:</p>
+
+<figure><a target="_blank" href="images/procesyPrzykladListaProcesow.png"><img src="images/procesyPrzykladListaProcesow.png" alt="Lista procesów technologicznych" /></a><figcaption>Lista procesów technologicznych</figcaption></figure>
+
+<p>A ta lista przypisywana jest <a href="/technologie-szczegoly.html#zakładka-procesy">do technologii</a>:</p>
+
+<figure><a target="_blank" href="images/procesyPrzykladProcesyWTechnologii.png"><img src="images/procesyPrzykladProcesyWTechnologii.png" alt="Lista procesów w technologii" /></a><figcaption>Lista procesów w technologii</figcaption></figure>
+
+<p>Zlecamy produkcję. Zlecenie raportowane będzie zbiorczo - na magazyn przyjmowany będzie dopiero spakowany wyrób. Cała ilość zlecona będzie podzielona na paczki - tak by jednocześnie wielu pracowników mogło szyć ten sam wyrób. W ramach każej paczki (10 szt.) będzie do wykonania szereg procesów technologicznych.</p>
+
+<p>Wprowadzamy <a href="/zlecenia-produkcyjne">zlecenie</a>:</p>
+
+<figure><a target="_blank" href="images/procesyPrzykladZlecenie.png"><img src="images/procesyPrzykladZlecenie.png" alt="Zlecenie produkcyjne" /></a><figcaption>Zlecenie produkcyjne</figcaption></figure>
+
+<p>akceptujemy je i rozpoczynamy. Dzięki temu, że w <a href="/parametry-zlecen.html#paczki">parametrach</a> mamy zaznaczoną opcję automatycznego generowania paczek, zlecenie zostaje podzielone na <a href="/paczki-w-zleceniu">paczki</a>:</p>
+
+<figure><a target="_blank" href="images/procesyPrzykladPaczkiZlecenia.png"><img src="images/procesyPrzykladPaczkiZlecenia.png" alt="Paczki zlecenia produkcyjnego" /></a><figcaption>Paczki zlecenia produkcyjnego</figcaption></figure>
+
+<p>Do paczek generujemy etykiety:</p>
+
+<figure><a target="_blank" href="images/procesyPrzykladEtykiety.png"><img src="images/procesyPrzykladEtykiety.png" alt="Etykieta paczki" /></a><figcaption>Etykieta paczki</figcaption></figure>
+
+<p>i oznaczamy nimi każdą z paczek. Etykieta przyda się do łatwego namierzania zlecenia np. w termialu.</p>
+
+<p>Rozpoczynamy pracę na szwalni - brygadzista wybiera jakie zlecenie będzie realizowane, przechodzi do niego i <a href="/procesy-zlecenia">generuje procesy</a>:</p>
+
+<figure><a target="_blank" href="images/procesyPrzykladProcesyZlecenia.png"><img src="images/procesyPrzykladProcesyZlecenia.png" alt="Procesy zlecenia produkcyjnego" /></a><figcaption>Procesy zlecenia produkcyjnego</figcaption></figure>
+
+<p>W dziale szwalnia są stanowiska komputerowe z dostępem do qcadoo. Pracownik korzysta z <a href="/terminal-potwierdzania-procesow">terminala potwierdzania procesów</a>. Loguje się i skanuje numer paczki z etykiety. Pojawiają się wszystkie procesy do wykonania:</p>
+
+<figure><a target="_blank" href="images/procesyPrzykladTerminal.png"><img src="images/procesyPrzykladTerminal.png" alt="Terminal potwierdzania procesów" /></a><figcaption>Terminal potwierdzania procesów</figcaption></figure>
+
+<p>Po wykonaniu czynności zaznacza te, którymi się zajmował i potwierdza realizację. W efekcie kierownik produkcji będzie widział w liście <a href="/procesy-technologiczne-zlecenia">procesów technologicznych zlecenia</a> na jakim etapie prac jest szwalnia, jakie czynności zostały zakończone, czy jest ryzyko, że pracownicy nie wyrobią się z produkcją.</p>
+
+<figure><a target="_blank" href="images/procesyPrzykladRejestracjaProcesy.png"><img src="images/procesyPrzykladRejestracjaProcesy.png" alt="Procesy technologiczne zlecenia w rejestracji produkcji" /></a><figcaption>Procesy technologiczne zlecenia w rejestracji produkcji</figcaption></figure>
+
+<p>Podsumowanie prac pracowników szwalni możliwa jest poprzez analizę wykonania procesów technologicznych. Szybko można ustalić wysokość wynagrodzenia za zrealizowaną pracę.</p>
+
+<p>Po szyciu produkt przechodzi do pakowania. Pracownik pakuje wyroby w ramach paczek. W <a href="/terminal">terminalu rejestracji produkcji</a> skanuje kod paczki, zapisuje ilość spakowaną i potwierdza. Po akceptacji <a href="/rejestracja-produkcji">rekordu rejestracji</a> wyrób przyjmowany jest na magazyn <a href="/dokumenty.html#dokumenty-magazynowe-jako-efekty-funkcji-qcadoo">dokumentem</a> PW. Spakowanie całej zleconej produkcji oznacza zakończenie prac nad zleceniem produkcyjnym.</p>
+
+<div class="bs-callout bs-callout-warning">Jeśli zlecach produkcję wykorzystując grupy zleceń nie musisz przyjmować wyrobów po akceptacji każdego rekordu rejestracji produkcji. Zaraportowana produkcja może się odkładać w grupie zleceń, a na magazyn trafi dopiero po wywołaniu funkcji przyjęcia w ramach grupy.</div>
+
+:ET

@@ -1,0 +1,55 @@
+I"<p>W “Zmianach” określamy godziny i terminy pracy Twojego zakładu (oraz wyjątki od nich, np. święta). W tym miejscu zaplanujesz system pracy zarówno jedno-, jak i wielozmianowy. Określamy tutaj także wyjątki od reguł, jak np. dni wolne (z okazji świąt, bądź koniecznych remontów) lub odwrotnie: nadprogramową pracę.</p>
+
+<h2 id="jak-dodać-nową-zmianę">Jak dodać nową zmianę?</h2>
+
+<figure><a target="_blank" href="images/Podstawowe-%20zmiany.png"><img src="images/Podstawowe-%20zmiany.png" alt="Formularz zmiany" /></a><figcaption>Formularz zmiany</figcaption></figure>
+
+<p><strong>Kalendarze » Zmiany »</strong> <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" />
+ <strong>Dodaj nowy</strong></p>
+
+<ol>
+  <li>
+    <p>W lewej części witryny podajemy nazwę zmiany (może to być także jej numer)</p>
+  </li>
+  <li>
+    <p>Określamy godziny pracy wrozłożeniu na dni tygodnia.</p>
+  </li>
+  <li>
+    <p>Następnie zatwierdzamy wprowadzone dane wybierając przycisk <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong></p>
+  </li>
+  <li>
+    <p>Po prawej stronie uaktywni się pole: <strong>“Wyjątki”</strong>. Aby dodać niestandardowe godziny (terminy) pracy danej zmiany wybieramy przycisk <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" />
+ <strong>Nowy</strong>. Nadajemy nazwę wyjątku, np. “Pracująca Sobota” i wybieramy daty oraz godziny.Następnie określamy rodzaj wyjątku. Mamy do dyspozycji dwa: wolne lub praca. Wprowadzone wyjątki możliwe są do wglądu w postaci listy jak na załączonym obrazku. Ponownie klikamy  <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong></p>
+  </li>
+</ol>
+
+<figure><a target="_blank" href="images/definicja_wyjatku.png"><img src="images/definicja_wyjatku.png" alt="Formularz wyjątku" /></a><figcaption>Formularz wyjątku</figcaption></figure>
+
+<ol start="5">
+  <li>
+    <p>Dodawane zmiany będą pojawiać się w formie listy.</p>
+  </li>
+  <li>
+    <p>Dodane zmiany można podejrzeć w <img class="inline" src="images/calendarIcon24.png" alt="Kalendarz" />
+ <strong>Kalendarzu zmian</strong>.</p>
+  </li>
+</ol>
+
+<div class="bs-callout bs-callout-info">Na podstawie godzin pracy zakładu wyliczany jest czas realizacji zlecenia produkcyjnego (czas potrzebny dla Twojego zakładu na wyprodukowanie danego towaru wokreślonej ilości) iwyliczany jest jego termin końcowy.</div>
+
+<h2 id="kalendarz-zmian">Kalendarz zmian</h2>
+
+<figure><a target="_blank" href="images/Podstawowe-%20kalendarz%20zmian.png"><img src="images/Podstawowe-%20kalendarz%20zmian.png" alt="Kalendarz zmiany" /></a><figcaption>Kalendarz zmiany</figcaption></figure>
+
+<p><img class="inline" src="images/calendarIcon24.png" alt="Kalendarz" />
+ <strong>Kalendarz zmian</strong> prezentuje na wykresie, w formie graficznej godziny pracy wszystkich zmian funkcjonujących wTwojej firmie.</p>
+
+<ul>
+  <li>Kalendarz prezentuje widok w wybieranym przez Ciebie zakresie dat.</li>
+  <li>Możemy wybrać za pomocą kwadratów (punkt 2) rodzaj przybliżenia widoku wg. jednostek godzinowych (1 godzina, 2 godziny, 6 godzin i 1 dzień)</li>
+  <li>Po wskazaniu kursorem na jedną z pozycji, w kalendarzu pojawią się jej dane szczegółowe.</li>
+</ul>
+
+:ET

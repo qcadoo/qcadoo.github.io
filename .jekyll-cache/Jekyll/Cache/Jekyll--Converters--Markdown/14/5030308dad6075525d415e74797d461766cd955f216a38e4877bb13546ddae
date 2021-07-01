@@ -1,0 +1,32 @@
+I"�<p>Braki do procesów technologicznych to zapisane informacje o niewpełni lub niepoprawnie wykonanych procesach technologicznych. Innymi słowy - pracownicy zrealizowali procesy technologiczne, sprawdzasz efekty - okazuje się, że nie wszystko zostało wykonane jak należy i konieczne jest wprowadzenie poprawki lub ponowne wykonanie. Aby móc analizować wielkość pomyłek - warto zapisać ujawnione braki.</p>
+
+<p>Braki do procesów technologicznych widoczne są w: <strong>Rejestracja &gt; Braki do procesów technologicznych zlecenia</strong></p>
+
+<figure><a target="_blank" href="images/rejestracjaBrakiDoProcesowLista.png"><img src="images/rejestracjaBrakiDoProcesowLista.png" alt="Lista braków do procesów technologicznych zlecenia" /></a><figcaption>Lista braków do procesów technologicznych zlecenia</figcaption></figure>
+
+<p>Braki możesz dodawać na dwa sposoby:</p>
+<ol>
+  <li>z poziomu listy braków</li>
+  <li>z poziomu listy <a href="procesy-technologiczne-zlecenia">procesów technologicznych zlecenia</a></li>
+</ol>
+
+<p>W tej dokumentacji omówiony zostanie pierwszy sposób - po szczegóły drugiego sposobu odsyłam po podlinkowanej strony.</p>
+
+<p>Aby dodać brak w liście braków kliknij przycisk <img class="inline" src="images/newIcon24.png" alt="Przycisk Dodaj nowe" />
+ <strong>Dodaj nowy</strong></p>
+
+<figure><a target="_blank" href="images/rejestracjaBrakiDoProcesowNowy.png"><img src="images/rejestracjaBrakiDoProcesowNowy.png" alt="Formularz dodawania braku do procesu technologicznego zlecenia" /></a><figcaption>Formularz dodawania braku do procesu technologicznego zlecenia</figcaption></figure>
+
+<p>Podaj:</p>
+<ul>
+  <li><strong>proces zlecenia</strong>, do którego brak ujawniono</li>
+  <li><strong>ilość wybrakowaną</strong></li>
+  <li><strong>przyczynę braku</strong> - wybierz ze <a href="/slowniki">słownika</a></li>
+  <li>ewentualny <strong>opis</strong></li>
+</ul>
+
+<p><strong>Data zgłoszenia</strong> i <strong>osoba zgłaszająca</strong> uzupełnią się z automatu - jeśli potrzebujesz: popraw na właściwsze.</p>
+
+<p>Potwierdź wprowadzone dane przyciskiem: <img class="inline" src="images/zapisz.png" alt="Przycisk Zapisz" />
+ <strong>Zapisz</strong></p>
+:ET

@@ -1,0 +1,24 @@
+I"�<p>UWAGA!!!
+Zmiana technologii z poziomu zlecenia wkrótce przestanie być możliwa.</p>
+
+<p>W qcadoo zlecenia produkcyjne opierają się ściśle o drzewo technologii. Z kolei drzewo technologii zbudowane jest z operacji, którym przypisaliście Państwo standardowe, ogólne normy czasowe i kosztowe.</p>
+
+<p>Parametry te możemy modyfikować indywidualnie dla danego zlecenia.</p>
+
+<h3 id="jak-modyfikować-parametry-operacji-dla-zlecenia">Jak modyfikować parametry operacji dla zlecenia?</h3>
+
+<p>W tym celu:</p>
+
+<ol>
+  <li>Wybieramy przycisk <img class="inline" src="images/settingsIcon24.png" alt="settings" />
+ <strong>Technologia</strong> z poziomego menu. Pojawia się drzewo technologii.</li>
+  <li>Następnie wybieramy operację, którą chcemy modyfikować i wybieramy przycisk <img class="inline" src="images/editIcon16.png" alt="Edytuj" />
+ <strong>Edytuj</strong>.</li>
+  <li>Teraz mamy wgląd i możliwość edycji jej danych: <a href="/normy-czasowe">Norm czasowych</a> i <a href="/normy-kosztowe">Norm kosztowych</a>.</li>
+  <li>Należy pamiętać, że każdą zmianę należy zapisać przyciskiem <img class="inline" src="images/SaveIcon24.png" alt="Przycisk zapisz" />
+ <strong>Zapisz.</strong></li>
+</ol>
+
+<div class="bs-callout bs-callout-warning">Edycja tych parametrów odbywa się tylko dla tego danego zlecenia produkcyjnego. W “Operacjach” wszystkie ustawienia pozostają niezmienne</div>
+
+:ET
