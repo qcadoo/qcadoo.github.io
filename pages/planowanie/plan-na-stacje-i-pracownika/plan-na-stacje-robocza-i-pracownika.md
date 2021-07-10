@@ -76,7 +76,7 @@ Określ:
 3. **sortowanie** - do wyboru dwie opcje: 
 - malejące - do najdłuższej do najkrótszej operacji
 - rosnące - od najkrótszej do najdłuższej operacji
-wskaż, czy chcesz najpierw układać w planie te opercje, na które trzeba będzie poświęcić najwięcej czasu, czy te, które wykonasz najszybciej
+wskaż, czy chcesz najpierw układać w planie te operacje, na które trzeba będzie poświęcić najwięcej czasu, czy te, które wykonasz najszybciej
 
 Operacje do planu będą dodatkowo posortowane po poziomie w drzewie technologii - tak by zapewnić kolejność wykonywanych działań.
 
@@ -94,6 +94,14 @@ Operacje do planu będą dodatkowo posortowane po poziomie w drzewie technologii
 - **_domyślny pracownik dla danej stacji_** - w tej opcji planowania do każdego zadania operacyjnego zostanie przypisany pracownik ustawiony jako domyślny w [stacji roboczej](/stacje-robocze).
 
 {% include callout.html content="Pierwszym bezwzględnym kryterium przypisywania pracownika do operacji na danej stacji są [jego umiejętności](/pracownicy.html#jak-przypisać-do-pracownika-posiadane-umiejętności) i poziom ich zaawansowania. Operację może wykonać tylko ten pracownik, który włada umiejętnością na co najmniej takim poziomie jaki został zdefiniowany w [operacji](/wymagane-umiejetnosci-operacji)" type="warning" %}
+
+6. **Planuj na bufor** - jeśli zaznaczycz parametr, to gdy na liście stacji, które mogą wykonać zadanie, znajduje się stacja buforowa - zostanie ona przydzielona do zadania. Po co planować na bufor? Załóżmy, że o kolejności i miejscu wykonania pewnego typu operacji chce decydować kierownik produkcji. Plan na stację wyznaczy czas trwania operacji i wrzuci ją do "worka", ale zaplanuje pozostałe czynności na właściwe stacje. Kierownik produkcji, np. korzystając  [Gantta zadań operacyjnych](gantt-zadan-operacyjnych), umieści zadania w harmonogramie produkcji.
+
+7. **Czas dodatkowy wydłuża operację** - zaznaczenie parametru będzie skutkowało tym, że data zakończenia operacji zostanie ustawiona po zakończeniu czasu dodatkowego. Jeśli parametr będzie niezaznaczony, to operacja skończy się po czasie Tj + TPZ, ale kolejna operacja zlecenia zostanie zaplanowana wtedy, gdy minie czas dodatkowy. Natomiast na danej stacji, mimo iż czas dodatkowy zadania trwa, będą mogły być realizowane inne czynności
+
+{% include callout.html content="Wartości domyślne warunków generowania ustawisz w [parametrach planu na stację roboczą i pracownika](/parametry-planowania.html#plan-na-stację-roboczą-i-pracownika)." type="warning" %}
+
+---
 
 ### Wskazanie zleceń do przeplanowania
 

@@ -24,7 +24,7 @@ Jeśli chcesz zmienić wartości procesu w tej liście, wejdź w jego szczegół
 {% include lightbox.html file="technologiaListaProcesowNowaZmiana.png" alt="Zmiana wartości procesu w liście" caption="Zmiana wartości procesu w liście" %}
 
 Zmodyfikować możesz:
-- czas jednostkowy
+- czasy: TPZ, czas jednostkowy i czas dodatkowy,
 - parametr: wydłużony czas dla grupy rozmiarowej, a także: procent wzrostu i grupę rozmiarową, gdy ten parametr będzie zaznaczony.
 
 Utworzona lista procesów technologicznych może być przypisana do [operacji technologii](/technologie-szczegoly.html#zakładka-procesy).

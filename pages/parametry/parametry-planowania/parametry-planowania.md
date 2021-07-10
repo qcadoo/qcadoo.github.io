@@ -18,6 +18,36 @@ Stosujemy trzy kolory:
 
 ---
 
+## Plan na stację roboczą i pracownika 
+
+W tej zakładce ustawiasz domyślne wartości do generowania [planu na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika).
+
+{% include lightbox.html file="parametryParametryPlanowaniaPlanNaStacje.png" alt="Parametry planu na stację roboczą i pracownika" caption="Parametry planu na stację roboczą i pracownika" %}
+
+1. **Sortowanie** - do wyboru dwie opcje: 
+- malejące - do najdłuższej do najkrótszej operacji
+- rosnące - od najkrótszej do najdłuższej operacji
+wskaż, czy chcesz najpierw układać w planie te operacje, na które trzeba będzie poświęcić najwięcej czasu, czy te, które wykonasz najszybciej
+
+{:start="2"}
+2. **Kryterium oceny przypisania do stacji** - po każdym ułożeniu operacji na możliwych stacjach dokonujemy oceny przypisania. I pozostawiamy to przypisanie, które jest najlepsze z punktu widzenia wskazanego kryterium. Do wyboru dwie opcje:
+- **_najkrótszy czas trwania prac na stacji roboczej_** - czyli operacja będzie ułożona na tej stacji, która zagwarantuje najszybszą jej datę zakończenia
+- **_najmniej uruchomionych stacji roboczych_** - czyli opracja będzie ułożona tak, by jak najmniej stacji roboczych było w użyciu. Jeśli można to operacja będzie wykonywana na stacji, która już pracuje.
+
+{:start="3"}
+3. **Kryterium oceny przypisania pracownika** - gdy operacje są już przydzielone do stacji, następuje proces przypisania pracownika. Do operacji przypisywany jest każdy pracownik, który może daną czynność wykonać i każde przypisanie poddawane jest ocenie wg wskazanego kryterium. Wygrywa to, które daje najlepszy rezultat. Kryteria są następujące:
+- **_pracownik wykonujący na stacji poprzednią operację lub taki który najpóźniej skończył poprzednią operację_** - zawsze pracownik zajmujący się poprzednim zadaniem na stacji będzie pracownikiem najwłaściwszym do wykonania na niej czynności kolejnej. Nie chcemy aby pracownik niepotrzebnie krążył między maszynami. Jeśli natomiast pracownik ten nie może wykonać kolejnej czynności, bo nie ma wystarczających umiejętności, spróbujemy poszukać innego pracownika. Przy tym kryterium najlepszym będzie ten, który skończy poprzednią czynność najpóźniej - zadbamy dzięki temu o to, by przerwa w pracy tego pracownika była jak najkrótsza
+- **_pracownik wykonujący na stacji poprzednią operację lub taki który najwcześniej skończył poprzednią operację_** - to kryterium różni się od poprzedniego tym, że gdy pracownik nie może kontynuować pracy na danej stacji, poszukując innego pracownika dobierzemy tego, którego przerwa w pracy jest najdłuższa
+- **_domyślny pracownik dla danej stacji_** - w tej opcji planowania do każdego zadania operacyjnego zostanie przypisany pracownik ustawiony jako domyślny w [stacji roboczej](/stacje-robocze).
+
+{:start="4"}
+4. **Planuj na bufor** - jeśli zaznaczycz parametr, to gdy na liście stacji, które mogą wykonać zadanie, znajduje się stacja buforowa - zostanie ona przydzielona do zadania
+
+5. **Czas dodatkowy wydłuża operację** - zaznaczenie parametru będzie skutkowało tym, że data zakończenia operacji zostanie ustawiona po zakończeniu czasu dodatkowego. Jeśli parametr będzie niezaznaczony, to operacja skończy się po czasie Tj + TPZ, ale kolejna operacja zlecenia zostanie zaplanowana wtedy, gdy minie czas dodatkowy. Natomiast na danej stacji, mimo iż czas dodatkowy zadania trwa, będą mogły być realizowane inne czynności
+
+
+---
+
 ## Zamówienia sprzedaży
 
 Dzięki zamówieniom sprzedaży możesz prowadzić rejestr zgłoszeń od klientów. Zamówienia sprzedaży stanowią początek procesu produkcyjnego - dzięki nim wiesz co musisz wyprodukować. Skonfiguruj je tak, by spełniały Twoje oczekiwania
@@ -64,6 +94,16 @@ W zakładce Gantt zadań operacyjnych ustawisz parametry do [graficznej prezenta
 {% include lightbox.html file="administracjaParametryGantt.png" alt="Parametry Gantta" caption="Parametry Gantta" %}
 
 1. **Pokazuj postęp** - zaznacz parametr, jeśli chcesz, aby na kafelkach widoczny był procent wykonania zadania. Zadania będą dopełniane kolorem, aż do 100% wykonania. Zadania w pełni wykonane oznaczone będą kolorem ciemno zielonym
+
+2. **Pokazuj opóźnienia** - zaznacz parametr, a pokażemy Ci na wykresie Gantta opóźnienia w realizacji zadań
+
+3. **Stacje buforowe widoczne na wykresie** - jeśli nie zaznaczysz parametru, to stacje buforowe nie będą wierszami na wykresie Gantta, a zadania do nich przypisane będą widoczne w buforze wykresu, skąd będziesz mógł je przenieść na właściwe miejsce wykonania.
+
+4. **Pozwól na edycję długości zadania** - jeśli parametr nie będzie zaznaczony, to długość kafelka wyliczona w oparciu o normy czasowe, nie będzie mogła być zmieniona poprzez jego rozciąganie czy zwężanie.
+
+5. **Analizuj dostępne zasoby** - zaznacz parametr, jeśli chcesz widzieć na wykresie Gantta wiersz analizujący zasoby. Wskaż poniżej analizą jakich danych jesteś zainteresowany:
+- **ilość planowana** - słupki w wierszu analizy będą prezentować zsumowaną w danym okresie ilością planowaną wszyskich widocznych na wykresie zadań. Wskaż ilość maksymalną, a każda suma ilości ponad nią będzie zaprezentowana kolorem czerwonym. Opcję tą możesz wykorzystać, gdy wiesz, że jednocześnie nie będziesz w stanie wytworzyć ilości poniżej ilości maksymalnej. Dzięki analizie na pierwszy rzut oka będziesz w stanie ocenić realność przygotowanych planów.
+
 
 ---
 

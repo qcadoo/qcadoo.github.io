@@ -58,4 +58,13 @@ i kliknij przycisk {% include inline_image.html file="przyciskWygenerujEtykiety.
 
 {% include callout.html content="Pole kolor na widocznej etykiecie, to atrybut produktu. Wskaż w [parametrach paczek](/parametry-zlecen.html#paczki) jaki atrybut Ty chcesz widzieć na etykiecie." type="warning" %}
 
+---
+
+## Statusy paczek 
+
+Za pomocą statusów możesz wskazać na jakim etapie są prace nad daną paczką. Utworzona paczka ma status **oczekująca** - oznacza to, że nie zaczęto jeszcze nad nią prac. Aby przyjąć paczkę do realizacji kliknij przycisk {% include inline_image.html file="przyciskRozpocznijProdukcje.png" alt="Przycisk Rozpocznij produkcję" %} **Rozpocznij produkcję**. W tym momencie paczka będzie miała status **W trakcie produkcji**. Po skończonej pracy kliknij przycisk {% include inline_image.html file="przyciskZakonczProdukcje.png" alt="Przycisk Zakończ produkcję" %} **Zakończ produkcję** - paczka będzie oznaczona statusem **Zakończono produkcję**.
+
+{% include callout.html content="Statusy paczek możesz zmieniać albo z okna szczegółów pojedynczej paczki, albo z poziomu listy, dla wielu zaznaczonych paczek." type="warning" %}
+
+Jeśli chcesz aby w terminalu potwierdzania procesów można było wskazać tylko paczki, dla których produkcja została rozpoczęta, zaznacz [parametr](/parametry-rejestracja-produkcji.html#terminal-potwierdzania-procesów) **Tylko paczki w trakcie produkcji**.
 

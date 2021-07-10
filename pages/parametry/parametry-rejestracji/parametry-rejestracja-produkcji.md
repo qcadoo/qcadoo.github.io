@@ -104,4 +104,6 @@ Parametry terminala potwierdzania procesów dotyczą terminala potwierdzania pro
 
 1. **Źródło procesów** - wskaż, czy chcesz namierzać procesy do wykonania poprzez wskazanie paczki zlecenia, czy poprzez wybranie operacji zlecenia. Paczki wybierz wtedy, gdy zlecona produkcja dzielona jest na paczki i dla każdej z nich wygenerowany jest osobny zestaw procesów technologicznych.
 
-2. **Miejsce wykonania** - w terminalu możemy zaprezentować stacje robocze lub typ stacji roboczej przypisanej do procesu technologicznego. Wskaż co chciałbyś zaprezentować pracownikom
+2. **Tylko paczki w trakcie produkcji** - zaznacz parametr, a w terminalu potwierdzania procesów będziesz mógł wybrać tylko procesy powiązane z paczkami o statusie _w trakcie produkcji_
+
+3. **Miejsce wykonania** - w terminalu możemy zaprezentować stacje robocze lub typ stacji roboczej przypisanej do procesu technologicznego. Wskaż co chciałbyś zaprezentować pracownikom

@@ -22,7 +22,9 @@ Koniecznie podaj **nazwę** procesu. Ponadto możesz wprowadzić następujące d
 
 - **typ stacji roboczej** - możesz wskazać na jakim typie stacji dany proces powinien zostać wykonywany,
 - **stacja robocza** - jeśli wiesz konkretnie, na której stacji roboczej proces musi być realizowany - wskaż ją. 
+- **TPZ** - w polu można podać ile trwa czas przygotowawczo - zakończeniowy danego procesu 
 - **czas jednostkowy** - możesz określić czas trwania danego procesu
+- **czas dodatkowy** - użyj pola, by określić jaki czas musi minąć po realizacji procesu, aby móc przystąpić do kolejnego (może być to czas potrzebny np. na wysuszenie pomalowanego elementu)
 - **wydłużony czas dla grupy rozmiarowej** - jeśli dany proces wykonywany dla tych samych produktów ale w innych rozmiarach trwa dłużej, zaznacz parametr i w polach poniżej wskać o ile procent dłużej i jakiej grupy rozmiarowej to dotyczy,
 - **procent wzrostu** - pole uaktywni się, gdy parametr *wydłużony czas dla grupy rozmiarowej* będzie zaznaczony. Musisz wówczas podać o ile procent dłużej trwa realizacja danego procesu dla grupy rozmiarowej wskazanej niżej,
 - **grupa rozmiarowa** - pole uaktywni się, gdy parametr *wydłużony czas dla grupy rozmiarowej* będzie zaznaczony. Musisz wówczas podać jakiej grupy rozmiarowej dotyczy powyższe wydłużenie

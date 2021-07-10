@@ -113,6 +113,13 @@ Utworzone będą również zlecenia produkcyjne i podpięte zostaną pod tą gru
 
 W samym planie zostaną zaprezentowane ilości zlecone.
 
+---
+## Statusy planu sprzedaży
+
+Wprowadzony plan sprzedaży otrzymuje status **szkic**. To plan, z którym możesz pracować - przyjmować zamówienia, zlecać produkcję, rozwijać plan o produkty, zmieniać daty obowiazywania. Jeśli wykonałeś wszystko co zostało zaplanowane możesz plan **zamknąć** używając przycisku {% include inline_image.html file="przyciskZakonczZielony.png" alt="Przycisk Zakończ" %} **Zakończ**. Jeśli natomiast dodałeś plan, ale nie będziesz go realizować, to możesz go odrzucić klikając przycisk {% include inline_image.html file="przyciskOdrzuc.png" alt="Przycisk Odrzuć" %} **Odrzuć**. 
+
+{% include callout.html content="Odrzucenie planu jest możliwe tylko, gdy do planu nie istnieje zlecenie produkcyjne lub zamówienie sprzedaży." type="warning" %}
+
 
 
 ---

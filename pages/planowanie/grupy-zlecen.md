@@ -145,6 +145,8 @@ Dokumentów RW do grupy może być wiele. Tu ilości są agregowane z dokładno�
 
 {% include lightbox.html file="planowanieGrupyZlecenWydaneMaterialySzczegoly.png" alt="Pozycje dokumentów dla wydanego materiału" caption="Pozycje dokumentów dla wydanego materiału" %}
 
+Aby mieć pewność, że dane o wydanych materiałach w grupie zleceń są najświeższe, zaktualizuj dane klikając w przycisk  {% include inline_image.html file="przyciskZaktualizujWydaneMaterialy.png" alt="Przycisk Zaktualizuj wydane materiały" %} **Zaktualizuj wydane materiały**. Dlaczego funkcja może się przydać? Wydanie tworzy szkicowy dokument RW. Do akceptacj tego dokumentu może minąć dłuższy czas - w tym czasie mogą zostać dobrane zasoby, czy zmodyfikowane ilości rozchodowane. Dane w grupie zleceń będą odświeżone dopiero w momencie akceptacji. Jeśli chcesz znać rzeczywisty stan przed akceptacją - wywołaj funkcję ręcznie.
+
 ---
 ## Przyjmowanie wyrobów do grupy zleceń
 

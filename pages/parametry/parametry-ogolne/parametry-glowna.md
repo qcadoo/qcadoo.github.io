@@ -48,6 +48,8 @@ W zakładce znajdują się parametry konfigurujące [produkty](/produkty).
 
 1. **Kopiuj atrybuty z rodziny na produkty rozmiarowe** - zaznacz parametr a atrybuty, które przypiszesz do produktu rodziny zostaną przeniesione na konkretne produkty utworzone przez funkcję Dodaj rozmiary do produktu
 
+2. **Kopiuj koszt nominalny z rodziny na produkty rozmiarowe** - zaznacz parametr jeśli chcesz, aby podczas generowania produktów rozmiarowych, został skopiowany do nich koszt nominalny z produktu-rodziny.
+
 ---
 
 ## Powiadomienia
