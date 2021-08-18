@@ -29,6 +29,8 @@ Więcej o możliwościach planowania na liniach dowiesz się w dalszej części 
 
 Wykres jest skalowalny. Domyślnie widzisz na nim cały tydzień. Widok możesz powiększyć, pomniejszyć, przesunąć w przód i tył o jeden dzień lub o ilość wyświetlonych dni. Dodatkowo możesz wybrać z kalendarza dzień, który chcesz zobaczyć, a także przejść do dnia dzisiejszego.
 
+{% include callout.html content="Użytkownik może mieć dostęp do wykresu Gantta w pełnym wymiarze, albo tylko w trybie podglądu. Zgłoś się do nas w celu odpowiedniej konfiguracji uprawnień do systemu." type="warning" %}
+
 Zacznij pracę z wykresem Gantta od ustawienia [parametrów](/parametry-planowanie-na-liniach)
 
 ## Linie produkcyjne i ich kalendarze

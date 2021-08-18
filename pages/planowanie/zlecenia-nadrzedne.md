@@ -29,6 +29,16 @@ Zamówienia sprzedaży mogą być wykorzystywane albo do zaewidencjonowania zam�
 
 {% include callout.html content='"Ilość zlec." to ilość zlecona czyli taka, na którą są już utworzone zlecenia produkcyjne na dany produkt, "Poz. do wyprod." to ilość, która pozostała do wyprodukowania, a "Ilość wykon." to ilość produktu, którą już wyprodukowano w ramach tego zamówienia.' type="info" %}
 
+Zamówiona pozycja może być opisana dodatkowo atrybutami. Dzięki temu możesz zapisać dodatkowe informacje uzyskiwane od klienta, które pozwolą na prawidłową realizację. W tym celu:
+- zdefiniuj atrybuty zasobu zgodnie z [tą dokumentacją](/atrybuty),
+- przejdź do zakładki **Atrybuty zasobu** kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %} **Nowy**, wybierz atrybut i zostaw jego wartość.
+
+{% include lightbox.html file="planowanieZamowieniaDodajPozycjeAtrybut.png" alt="Dodawanie atrybutów do pozycji zamówionej" caption="Dodawanie atrybutów do pozycji zamówionej" %}
+
+Dana pozycja może być opisana wieloma atrybutami. Zostaną one przekazane do tworzonych zleceń produkcyjnych (widoczne będą w [szczegółowym zapotrzebowaniu](/zmiana-stanu-zapotrzebowania)), będą widoczne w [terminalu rejestracji produkcji](/terminal), a po produkcji przyjęte na magazyn [zasoby](/zasoby) będą nimi oznaczone.
+
+---
+
 Zamówienie sprzedaży może pojawić się też w systemie qcadoo na dwa inne sposoby:
 1. poprzez pobranie z systemu zewnętrznego - jeśli masz uruchomioną integrację ze swoim ERP, to zamówienie od klienta wprowadzone w ERP może zostać przesłane do qcadoo i stanowić początek procesu produkcyjnego
 2. poprzez zaimportowanie z arkusza .xlsx - o czym będzie prawić kolejny podrozdział

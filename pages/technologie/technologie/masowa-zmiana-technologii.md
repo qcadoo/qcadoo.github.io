@@ -21,6 +21,8 @@ Pojawi się lista wszystkich technologii (a tak naprawdę operacji technologii),
 
 {% include callout.html content="Zmienić możesz tylko technologie zaakceptowane i domyślne. Jeśli wśród zaznaczonych będzie technologia nie spełniająca tych warunków - przycisk nie uaktywni się" type="warning" %}
 
+{% include callout.html content="Jednocześnie możesz zmienić technologie, w których produkt użyty jest jako bezpośredni produkt wyjściowy albo takie w których użyty jest jako produkt wg rozmiarów. " type="warning" %}
+
 {% include lightbox.html file="podstawoweProduktyMasowaZmianaTechnologiiZamien.png" alt="Okno masowej zmiany technologii" caption="Okno masowej zmiany technologii" %} 
 
 W uruchomionym oknie zaznacz opcję **Zamień produkt z operacji technologii** i polu z produktem zamień produkt obecny na nowy (w naszym przykładzie: papier pakowy). Podaj ilość. I zapisz zmiany używając przycisku {% include inline_image.html file="przyciskUtworzNoweTechnologie.png" alt="Przycisk Utwórz nowe technologie" %} **Utwórz nowe technologie**.

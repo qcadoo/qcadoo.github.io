@@ -16,6 +16,11 @@ Stosujemy trzy kolory:
 - <span style="color:green"> zielony</span> - oznacza, że cała ilość zlecona jest już wyprodukowana (suma ilości wyprodukowanej pochodzącej z zaakceptowanych rekordów rejestracji jest co najmniej taka jak ilość zlecona),
 - <span style="color:yellow"> żółty</span> - oznacza, że praca trwa (czyli mamy już zarejestrowaną ilość wyprodukowaną do tej operacji zlecenia, ale jest ona nadal mniejsza od ilości zleconej).
 
+{:start="2"}
+2. **Kopiuj opis ze zlecenia produkcyjnego** - zaznacz parametr, a opis każdego zadania operacyjnego tworzonego do zlecenia, będzie uzupełniony o opis ze zlecenia produkcyjnego. Może on zatem stanowić połączenie opisu operacji i opisu zlecenia.
+3. **Ustawiaj daty zlelcenia na podstawie dat zadań** - zaznacz parametr, a zmiana dat w zadaniu operacyjnym będzie się wiązała z przeliczeniem dat w powiązanym zleceniu produkcyjnym
+4. **Automatycznie generuj zadania do zlecenia produkcyjnego** - jeśli zaznaczysz parametr to w momencie akceptacji zlecenia produkcyjnego raportowanedo z dokładnością do operacji zostaną wygenerowane zadania operacyjnego. Nie będziesz musiał klikać każdorazowo przycisku: Utwórz zadania operacyjne. Pamiętaj jednak, że zadania operacyjne mogą tworzyć się też na zatwierdzaniu planu na stację roboczą i pracownika - sprawdź [tutaj](/plan-na-stacje-robocza-i-pracownika) czy jest to funkcja dla Ciebie.
+
 ---
 
 ## Plan na stację roboczą i pracownika 
@@ -128,6 +133,8 @@ Po zamknięciu zleceń z grup spróbujemy pozamykać też zamówienia sprzedaży
 4. **Wymagaj asortymentu** - zaznacz parametr jeśli chcesz, by każda grupa zleceń dotyczyła jednego asortymentu i by ten asortyment zawsze był wypełniony
 
 5. **Pozwól na tworzenie PW i RW do grup zleceń** - parametr aktywny jest tylko wówczas, gdy [parametr rejestracji](/parametry-rejestracja-produkcji.html#rejestracja-produkcji) *Twórz dokumenty do rejestracji produkcji* nie jest zaznaczony. Zaznaczenie parametru to włączenie możliwości tworzenia dokumentów RW i PW do grupy zleceń. Dokumenty te tworzone są poprzez ręczne wywołanie funkcji w grupie. A wydane i przyjęte produkty są zapisane w dedykowanych zakładkach w grupie.
+
+6. **Numer na podstawie wzorca** - zdefiniuj [wzorzec](/wzorce-numerow) i wskaż go w polu. Dzieki temu utworzona grupa zleceń otrzyma numer w stworzonej przez Ciebie konfiguracji
 
 
 ## Wydruk grupy zleceń

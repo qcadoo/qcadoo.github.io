@@ -41,6 +41,7 @@ Możesz uzupełnić też produkt o następujące informacje:
 - **kategoria produktu** - pole służy do grupowania produktów. Zdefiniuj w [słowniku Kategorie produktów](/slowniki) odpowiednie wartości i przypisz produktowi jedną z nich. Kategorię produktu zobaczysz m.in. w terminalu w oknie wyboru zleceń,
 - **opis** - w tym polu możesz zostawić te informacje, które są dla Ciebie ważne, ale nie znalazłeś na nie miejsca w innych dostępnych polach,
 - **producent** - wskaż tutaj producenta danego produktu, korzystając z listy [firm](/firmy) zdefiniowanych w qcadoo,
+- **dostawca** - dostawca tutaj wprowadzony (do wyboru z listy firm) oznaczony będzie jako dostawca domyślny tego produktu. Jeśli chcesz zapisać większą ilość kontrahentów, od których dany produkt kupujesz stwórz ją przechodząc ze szczegółów produktu do: dodatkowe informacje > zakładka Dostawcy
 - **asortyment** - do wybrania [asortyment](/asortymenty) zdefiniowany w qcadoo. Asortyment to dodatkowa forma grupowania produktów, niezbędna, gdy chcesz korzystać z [grup zleceń](/grupy-zlecen).
 - **model** - do wybrania [model](/modele) zdefiniowany w qcadoo. Model to kolejny sposób na grupowanie produktów. Modelem możemy nazywać np. produkty bardzo podobne, charakteryzujące się podobnymi cechami.
 

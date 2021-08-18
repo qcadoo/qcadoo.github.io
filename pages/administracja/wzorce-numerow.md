@@ -30,7 +30,9 @@ i wybierz z listy pierwszy **człon**, który w numerze ma się pojawić. Do wyb
 - 99999 - numer pięcioznakowy
 - XX - dowolny tekst (gdy wybierzesz ten człon, będziesz musiał uzupełnić wartość. Wykorzystaj tą opcję do wprowadzenia do numerów znaków typu: / - )
 
-I dodawaj do wzorca po kolei człony, tak, by uzyskać numer taki, który Cię interesuje. Możesz zmieniać kolejność członów w tabeli używając strzałek: {% include inline_image.html file="przyciskStrzalki.png" alt="Przycisk Strzałki" %} (uaktywnią się po zaznaczeniu wiersza w tabeli). Jeśli jesteś ciekawy jak aktualnie wygląda stworzony szablon, wywołaj funkcję {% include inline_image.html file="przyciskGenerujWzorzecZCzlonow.png" alt="Przycisk Generuj wzorzec z członów" %} **Generuj wzorzec z członów**, a uzupełnimy pole **Wzorzec** w lewej części okna.
+Dla członu numeru możesz określić **cykl sekwencji**: miesieczy lub roczny. Dzięki temu numer będzie się rozpoczynał od 1 od każdego nowego miesiąca lub roku.
+
+Dodawaj do wzorca po kolei człony, tak, by uzyskać numer taki, który Cię interesuje. Możesz zmieniać kolejność członów w tabeli używając strzałek: {% include inline_image.html file="przyciskStrzalki.png" alt="Przycisk Strzałki" %} (uaktywnią się po zaznaczeniu wiersza w tabeli). Jeśli jesteś ciekawy jak aktualnie wygląda stworzony szablon, wywołaj funkcję {% include inline_image.html file="przyciskGenerujWzorzecZCzlonow.png" alt="Przycisk Generuj wzorzec z członów" %} **Generuj wzorzec z członów**, a uzupełnimy pole **Wzorzec** w lewej części okna.
 
 {% include callout.html content="Dany człon we wzorcu może wystąpić tylko raz. Przy czym - jeśli wybierzesz numer trzyznakowy, to czteroznakowego i pięcioznakowego już dodać nie będziesz mógł. Wyjątek stanowi dowolny tekst - jego możesz użyć wielokrotnie." type="info" %}
 
@@ -38,4 +40,5 @@ Jeśli wzorzec jest gotowy przypnij go w parametrach do miejsca, które ma z nie
 
 Wzorce numerów można wykorzystywać do numerowania:
 - partii --> zaznacz [parametr](/parametry-genealogia.html#zakładka-zlecenia-i-technologie) **Generuj partię dla produktu zleconego** i wskaż **Wzorzec** 
+- grup zleceń --> wskaż wzorzec w polu **Numer na podstawie wzorca** w [parametrach grup zleceń](/parametry-planowania.html#grupy-zleceń).
 

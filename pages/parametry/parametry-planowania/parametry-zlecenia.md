@@ -112,6 +112,8 @@ Parametry z tej zakładki konfigurują [działanie procesów technologicznych zl
 
 2. **Pozwól na edycję ilości lub usunięcie wykonanego procesu** - zaznacz parametr jeśli chcesz, aby wykonany proces (czyli taki z przypisaną osobą i datą realizacji) mógł być usunięty lub edytowany. Usunięcie procesu technologicznego powoduje usunięcie pozostałych procesów związanych z daną paczką lub danym zleceniem.
 
+3. **Automatycznie generuj procedy do zlecenia produkcyjnego** - jeśli parametr będzie zaznaczony, to po rozpoczęciu zlecenia, zostaną z automatu utworzone procesy technologiczne.
+
 
 ---
 

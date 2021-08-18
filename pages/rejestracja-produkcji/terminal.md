@@ -115,6 +115,7 @@ O tym jakie produkty będą potrzebne do realizacji produkcji pracownik może do
 Obszar na starcie jest zwinięty. Zawiera wszystkie niezbędne do realizacji zlecenia informacje jak:
 - zlecony produkt i jego atrybuty
 - linia produkcyjna, która zlecenie ma wykonać
+- dodatkowe informacje jak opis zadania czy opis zlecenia
 - operacje z technologii (drzewko operacji do rozwinięcia)
 - załączniki zdefiniowane w technologii, z której zlecenie korzysta. Załącznik trzeba pobrać i otworzyć w programie dostępnym lokalnie. Dlatego przy specyficznych formatach, zadbaj o dostępność odpowiednich programów obsługujących ten typ pliku.
 - procesy technologiczne - [lista procesów]() musi być przypisana do technologii, wówczas w terminalu będzie dostępny podgląd szczegółowych czynności do wykonania. Z tego poziomu procesy są jedynie informacją. Jeśli chcesz, aby pracownicy raportowali ich wykonanie, skorzystaj z [terminala potwierdzania procesów](/terminal-potwierdzania-procesow).

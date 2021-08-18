@@ -39,3 +39,21 @@ Tabelę ze szczegółowym zapotrzebowaniem możemy zapisać w formie dokumentu w
 {% include callout.html content="Oprócz możliwości zmiany zapotrzebowania dla danego zlecenia, wszystkie tryby rejestracji produkcji, mają możliwość modyfikowania ogólnego postępu produkcji. Wszystkie wprowadzane zmiany będą widoczne w Rejestracji produkcji." type="info" %}
 
 Zmiana szczegółowego zapotrzebowania możliwa jest również podczas [rejestracji produkcji](/rejestracja-produkcji). Dzięki temu pracownik na etapie meldowania efektów produkcji będzie mógł wprowadzić zamiennik, czy dodać odpad (aby móc zarejestrować wyprodukowanie wyrobu o niższej jakości).
+
+---
+## Atrybuty zasobu w szczegółowym zapotrzebowaniu 
+
+Funkcja przydatna, gdy wytwarzasz pod jednym indeksem produktu różne jego warianty. Np. o różnych wymiarach lub personalizowane pod klienta. Każdemu wytwarzonemu produktowi (czyli o roli: wyprodukowany) możesz przypisać dowolne atrybuty zasobu. W ten sposób informujesz pracowników jakie cechy ma uzyskać.
+
+Zapoznaj się najpierw z [atrybutami](/atrybuty) - w szczegółowym zapotrzebowaniu wykorzystasz atrybuty zasobu. Musisz je zdefiniować, aby móc tutaj przypisać do produktu.
+
+W szczegółowym zapotrzebowaniu wejdź w szczegóły produktu i przejdź do zakładki **Atrybuty zasobu**
+
+
+{% include lightbox.html file="planowanieSzczegoloweZapotrzebowanieAtybutyZasobu.png" alt="Szczegółowe zapotrzebowanie - atrybuty zasobu" caption="Szczegółowe zapotrzebowanie - atrybuty zasobu"%}
+
+Kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %} **Nowy**, wybierz **atrybut** i podaj jego **wartość**. Dla danego produktu możesz przypisać wiele atrybutów.
+
+{% include callout.html content="Pamiętaj, że zakładka Atrybuty zasobu, widoczna jest tylko dla produktów wytwarzanych." type="info" %}
+
+Jeśli zlecenie produkcyjne pochodzi z [zamówienia sprzedaży](/zlecenia-nadrzedne.html#dodanie-nowego-zamówienia-sprzedaży), w którym atrybuty były określone, to produkt finalny zlecenia będzie miał je wypełnione. Zlecenie produkcyjne przekaże atrybuty dalej, do kolejnych etapów procesu - zobaczysz je na karcie pracy, w terminalu rejestracji produkcji czy w rekordzie rejestracji. A z rekordu rejestracji będą przekazane na tworzony dokument PW. A z dokumentu z kolei - to kształtującego stan magazynowy zasobu. 
