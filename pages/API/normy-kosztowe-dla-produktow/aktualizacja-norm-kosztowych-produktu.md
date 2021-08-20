@@ -25,7 +25,10 @@ Za pomocą tej metody api utworzysz normy kosztowe produktu w systemie.
       "nominalCost" : "nominal cost", // opcjonalne
       "costForNumber" : "quantity for which we define the prices", // opcjonalne
       "lastPurchaseCost" : "last purchase per given number of units",
-      "averageCost" : "average price per given number of units"
+      "averageCost" : "average price per given number of units",
+      "nominalCostCurrency" : "nominal cost currency",
+      "lastPurchaseCostCurrency" : "last purchase cost currency",
+      "averageCostCurrency" : "average cost currency"
     }
   ]
 }

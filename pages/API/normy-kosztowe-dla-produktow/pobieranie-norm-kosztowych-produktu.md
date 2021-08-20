@@ -20,9 +20,7 @@ Za pomocą tej metody api pobierzesz normy kosztowe produktu.
 ~~~~~~~~
 {
   "product" : {
-    {
       "externalID" : "externalID"
-    }
   }
 }
 ~~~~~~~~
@@ -36,7 +34,10 @@ Za pomocą tej metody api pobierzesz normy kosztowe produktu.
       "costForNumber" : "quantity for which we define the prices",
       "nominalCost" : "nominal cost per given number of units",
       "lastPurchaseCost" : "last purchase price per given number of units",
-      "averageCost" : "average price per given number of units"
+      "averageCost" : "average price per given number of units",
+      "nominalCostCurrency" : "nominal cost currency",
+      "lastPurchaseCostCurrency" : "last purchase cost currency",
+      "averageCostCurrency" : "average cost currency"
   }
 }
 ~~~~~~~~
