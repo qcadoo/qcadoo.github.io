@@ -118,13 +118,15 @@ Podpięte pliki możesz podejrzeć klikając w nie, albo pobrać zaznaczając i 
 
 {% include lightbox.html file="produktyProduktyKoszty.png" alt="Koszty produktu" caption="Koszty produktu" %} 
 
-Dane zawarte w tej zakładce to podstawa do [kalkulacji kosztów](/koszty-zlecenia). W zależności od tego jak ustawisz [parametry rozliczenia](/parametry-rejestracja-produkcji.html#rozliczenie-produkcji) (źródło kosztów materiałó∑ i wykorzystywane koszty materiałów) to takie konkretne ceny będziemy do kalkulacji pobierać. Jakie są możliwości?
+Dane zawarte w tej zakładce to podstawa do [kalkulacji kosztów](/koszty-zlecenia). W zależności od tego jak ustawisz [parametry rozliczenia](/parametry-rejestracja-produkcji.html#rozliczenie-produkcji) (źródło kosztów materiałów i wykorzystywane koszty materiałów) to takie konkretne ceny będziemy do kalkulacji pobierać. Jakie są możliwości?
 - cena ostatniego przychodu
 - cena średnio ważona
 - cena z ostatniej oferty
 - cena średnio ważona
 
 do tego jest też koszt nominalny. Tu zastosowanie jest szersze - możesz to pole wykorzystać do kalkulacji kosztów. Ale możesz też wytworzone produkty przyjmować w tej właśnie cenie. Aby tak się stało w parametrach rozliczenia produkcji **Cena PW na podst. = koszt nominalny produktu**. Koszt ten możesz albo uzupełniać sam, albo wyliczyć TKW przy pomocy kalkulacji kosztów i zapisać koszt używając funkcji {% include inline_image.html file="przyciskZapiszKosztNominalnyWyboru.png" alt="Przycisk Zapisz koszt nominalny wyrobu" %} **Zapisz koszt nominalny wyrobu**.
+Koszt nominalny możesz określić w innej walucie, niż waluta systemowa. Np. po to by zapisać obiecaną przez dostawcę cenę za dany materiał. Cena zostanie albo wykorzystana w qcadoo w tej walucie (np. w dostawie), albo przeliczona na PLN zgodnie z średnim kursem waluty (np. w kalkulacji kosztów, czy rozliczeniu produkcji).
+
 Dla prawidłowego określenia kosztów ważne jest też pole **Podane koszty/ceny dotyczą ilości** - jeśli cena dotyczy innej ilości niż 1 jednostka, to odpowiednio nanieś zmiany.
 
 {% include callout.html content="Koszty mogą być ustalane na podstawie danych z dokumentów magazynowych. Ze szczegółami zapoznasz się z rozdziału **Uzupełnij koszty produktów**" type="warning" %}

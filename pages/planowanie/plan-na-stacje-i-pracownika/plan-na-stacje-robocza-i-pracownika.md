@@ -99,6 +99,8 @@ Operacje do planu będą dodatkowo posortowane po poziomie w drzewie technologii
 
 7. **Czas dodatkowy wydłuża operację** - zaznaczenie parametru będzie skutkowało tym, że data zakończenia operacji zostanie ustawiona po zakończeniu czasu dodatkowego. Jeśli parametr będzie niezaznaczony, to operacja skończy się po czasie Tj + TPZ, ale kolejna operacja zlecenia zostanie zaplanowana wtedy, gdy minie czas dodatkowy. Natomiast na danej stacji, mimo iż czas dodatkowy zadania trwa, będą mogły być realizowane inne czynności
 
+8. **Uwzględnij czas przygotowawczo-zakończeniowy**  - jeśli parametr będzie zaznaczony, to przy wyliczaniu czasu trwania operacji będzie uwzględniany czas TPZ określony w normach czasowych 
+
 {% include callout.html content="Wartości domyślne warunków generowania ustawisz w [parametrach planu na stację roboczą i pracownika](/parametry-planowania.html#plan-na-stację-roboczą-i-pracownika)." type="warning" %}
 
 ---

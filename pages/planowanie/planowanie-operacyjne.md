@@ -45,6 +45,8 @@ Na podstawie operacji natomiast uzupełni się:
 - nazwa
 - opis
 
+{% include callout.html content="Jeśli [parametr](/parametry-planowania.html#zadania-operacyjne): **Kopiuj opis ze zlecenia produkcyjnego** jest zaznaczony, to opis operacji zostanie rozszerzony o dodatkowe uwagi wprowdzone w zleceniu produkcyjnym." type="warning" %}
+
 Numer zadania zostanie nadany automatycznie.
 
 ---

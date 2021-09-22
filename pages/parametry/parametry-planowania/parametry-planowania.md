@@ -50,6 +50,8 @@ wskaż, czy chcesz najpierw układać w planie te operacje, na które trzeba bę
 
 5. **Czas dodatkowy wydłuża operację** - zaznaczenie parametru będzie skutkowało tym, że data zakończenia operacji zostanie ustawiona po zakończeniu czasu dodatkowego. Jeśli parametr będzie niezaznaczony, to operacja skończy się po czasie Tj + TPZ, ale kolejna operacja zlecenia zostanie zaplanowana wtedy, gdy minie czas dodatkowy. Natomiast na danej stacji, mimo iż czas dodatkowy zadania trwa, będą mogły być realizowane inne czynności
 
+6. **Uwzględnij czas przygotowawczo-zakończeniowy** - zaznacz parametr jeśli chcesz, aby podczas wyliczania czasu trwania operacji, uwzględniany był czas przygotowawczo-zakończeniowy zdefiniowany w normach czasowych operacji
+
 
 ---
 
@@ -149,5 +151,6 @@ Parametry w tej zakładce przydadzą się (tak jak w przypadku poprzedniej zakł
 
 3. **Wydruk wg rozmiarów** - poniższe parametry dotyczą wydruku wg rozmiaru:
 - **Pokaż opis produktu z technologii** - zaznacz parametr jeśli chcesz aby opis zostawiony w produkcie wejściowym technologii pojawiał się obok typu produktu wejściowego na wydruku
+- **Sortuj wg priorytetu rodzaju wyrobu** - na wydruku grupy zleceń wg rozmiarów prezentowane zlecenia zbijane są z dokładnością do rodziny produktu. Rodzina produktu może być przypisana do modelu. Model ten może mieć rodzaj wyrobu. Rodzaj wyrobu jest słownikiem, w którym można ustawiać własną kolejność. Jeśli zaznaczysz ten parametr, to rodziny produktu na wydruku będą posortowane wg kolejności ustawionej w słowniku Rodzaj wyrobu
 - **Atrybut wyrobu** - wskaż atrybut produktu, który chcesz, aby pojawił się na wydruku grupy zleceń
 - **Sumowanie** - wydruk grupy zleceń wg rozmiaru pozwala na wyznaczanie sum ilości dla różnych grup rozmiarowych. Co wiecej - rozmiary z różnych grup mogą być oznaczane różnymi kolorami. I to jest to miejsce, w którym możesz podać do jakich grup rozmiarowych chcesz przeprowadzić sumowanie oraz jakie kolory mają one mieć. Ważna uwaga - na wydruku pojawi się tylko pierwszych 6 grup z tej tabeli (wg kolejności ustawionej strzałkami).

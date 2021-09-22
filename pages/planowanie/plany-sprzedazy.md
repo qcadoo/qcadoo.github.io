@@ -65,6 +65,18 @@ Kliknij przycisk {% include inline_image.html file="przyciskDodajPozycje.png" al
 
 ---
 
+## Dodawanie produktów do planu sprzedaży przez import z Excela
+
+Lista produktów w planie sprzedaży może być ustalona poprzez import z pliku Excel. Procedura jest standardowa - jak w wielu miejscach w systemie. Kroki opisane są w [tej dokumentacji](//import-z-excel).
+
+Zapisz plan podając dane w zakładce **Główna** i kliknij przycisk **Importuj produkty planu z XLSX**. Pobierz szablon i wypełnij w nim:
+- numer produktu (kolumna A) - numer produktu zdefiniowanego w qcadoo
+- ilość planowana (kolumna B) - wyrażona w jednostce podstawowej produktu
+
+I zaciągnij arkusz do qcadoo. W ramach danego planu możeszy wykonać import wielokrotnie. Jeśli zaznaczysz w oknie importu parametr **Czy aktualizować istniejące dane?** to istniejący wiersz w planie o danym produkcie będzie miał zaktualizowaną ilość. Zasada, że danym produkt w planie może wystąpić tylko raz i tutaj obowiązuje.
+
+---
+
 ## Zapotrzebowanie materiałowe planu sprzedaży
 
 Aby móc zrealizować przyjęty plan konieczne jest zapewnienie materiałów do produkcji. Z poziomu planu możesz wygenerować zapotrzebowanie materiałowe - bardzo dokładne rozposanie potrzebnych produktów i ilości pod przyjęte wielkości w planie. Co więcej - zapotrzebowanie materiałowe pozwala na szybkie złożenie zamówienia u dostawcy.

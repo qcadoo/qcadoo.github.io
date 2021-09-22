@@ -2,8 +2,23 @@
 title: "Ceny materiałów dla zlecenia"
 permalink: ceny-materialow-dla-zlecenia.html 
 ---
-Dla każdego zlecenia produkcyjnego możesz określić inne ceny użytych w nim materiałów. Jeśli qcadoo MES [zintegrowane](/integracja) jest z programem magazynowym, to ceny te mogą być pobierane automatycznie. Jeśli nie korzysta się z tej możliwości istnieje rozwiązanie, pozwalające na ręczne wpisane cen. W tym celu wchodzimy w konkretne zlecenie produkcyjne. W widoku szczegółowym zlecenia, na pasku przycisków funkcyjnych wybieramy   {% include inline_image.html file="calculateTimeIcon24.png" alt="Przycisk kalkulacji" %} **Ceny**, tam będzie lista wszystkich produktów wejściowych dla danego zlecenia, wraz z podanymi cenami (rys.1). Powybraniu konkretnego produktu, pojawia się szczegółowy widok kosztów materiału (rys.2). Pierwsze cztery wiersze to dane pobrane z definicji produktu. W polu "Cena dla zlecenia" wprowadzamy kwotę za materiały dla tego, konkretnego zlecenia.
 
-{% include lightbox.html file="zlecenie%20produkcyjne-%20ceny.png" alt="Ceny w zleceniu" caption="rys. 1" %}
+W ramach zlecenia produkcyjnego możesz przeanalizować ceny zużywanych produktów. I dzieki temu oszacować koszt materiałowy. Kliknij w przycisk  {% include inline_image.html file="calculateTimeIcon24.png" alt="Przycisk ceny" %} **Ceny**. W uruchomionym oknie zobaczysz listę potrzebnych materiałów:
+
+{% include lightbox.html file="planowaniePlanowanieZlecenCenyLista.png" alt="Ceny w zleceniu" caption="Ceny materiałów użytych w zleceniu" %}
+
+A dla każdego z nich podpowiedziane z kosztów produktu:
+- cena ostatniego zakupu,
+- cena średnio ważona,
+- cena ostatniej oferty,
+- cena średnio ważona z ofert,
+- koszt nominalny,
+- ilość jakiej dotyczą prezentowane ceny.
+
+Dane te można podejrzeć również wchodząc w szczegóły produktu (klikając w link tabeli):
   
-{% include lightbox.html file="zlecenie%20produkcyjne-%20koszty.png" alt="koszty" caption="rys. 2" %}
+{% include lightbox.html file="planowaniePlanowanieZlecenCenySzczegoly.png" alt="koszty" caption="Widok szczegółów cen danego materiału zlecenia" %}
+
+Widok szczegółów dostarcza dodatkowo informacji o pozycjach dokumentów faktycznie rozchodowanych pod dane zlecenie, wraz z rzeczywistym kosztem poniesionym pod dane zlecenie.
+
+Koszt zlecenia może być zmieniony - popraw kwotę, jeśli chcesz doliczyć nieujętą w dokumentach wartość. Koszt ten będzie uwzględniony w rozliczeniu produkcji.

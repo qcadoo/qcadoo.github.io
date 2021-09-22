@@ -191,38 +191,38 @@ Ponadto w zakładce widać:
 5. **przycisk Parametry zlecenia** - a w nim następujące zakładki:
 - **zakładka Rejestracja** - większość z ustawianych tu parametrów jest powieleniem [parametrów z administracji](/parametry-rejestracja-produkcji). Najważniejszy jest sposób rejestracji produkcji - oprócz tego, czy przy rejestracji będzie trzeba odnosić się do każdej operacji czy do całego zlecenia, decyduje również o podejściu do planowania. Jeśli chcesz planować całe zlecenia (na jedną linię/maszynę) i pozwolić na ich wybór w terminalu - ustaw zbiorczy sposób rejestracji. Jeśli ważne jest aby rozbić zlecenie na operacje, każdą z operacji przypisać do właściwej maszyny i pozwolić na wybór w terminalu zadania operacyjnego - ustaw rejestrację do każdej operacji.
 - **zakładka Magazyn - surowce** - jeśli chcesz uruchamiać produkcję dopiero wtedy, gdy wszystkie surowce będą dostępne, to odznacz parametr. Nie pozwolimy wówczas zaakceptować zlecenia, gdy stany nie będą wystarczające.
+- **przycisk Przezbrojenia** - jeśli na podstawie zdefiniowanych [norm](/normy-przezbrojen) wynika, że przed rozpoczęciem zlecenia konieczne jest przezbrojenie linii, to taka informacja będzie dostępna pod tym przyciskiem.
+- **przycisk Technologia** - przenosi do szczegółów technologii użytej w tym zleceniu
 
 6. **przycisk Utwórz zadania operacyjne** - jeśli zależy Ci na tym aby pracownicy wybierali w terminalu zadania do wykonania, ale nie chcesz wykonywać planowania na stację roboczą i pracownika, możesz pójść na skróty - kliknij przycisk, a do każdej operacji z technologii zostanie założone zadanie operacyjne. Jeśli do operacji [przypisana jest tylko jedna stacja](/technologie-szczegoly.html#zasięg-technologii) - to zostanie ona w zadaniu uzupełniona. Jeśli stacja ma domyślnego pracownika - on również będzie do zadania przekazany. Pamiętaj, że funkcja możliwa do wywołania dla zleceń zaakceptowanych z rejestracją do każdej operacji. Jeśli chcesz, aby zadania tworzyły się z automatu, zaznacz [parametr](/parametry-planowania.html#zadania-operacyjne) **Automatycznie generuj zadania do zlecenia produkcyjnego**.
 
 7. **przycisk Pokaż zadania operacyjne** - pozwala na przeanalizowanie zadań operacyjnych powiązanych z danym zleceniem produkcyjnym. Zadania operacyjne opisane są [tutaj](/planowanie-operacyjne)
 
-8. **przycisk Przezbrojenia** - jeśli na podstawie zdefiniowanych [norm](/normy-przezbrojen) wynika, że przed rozpoczęciem zlecenia konieczne jest przezbrojenie linii, to taka informacja będzie dostępna pod tym przyciskiem.
+8. **przycisk Pokaż przestoje** - przycisk uruchamia listę [przestojów](/przestoje-zlecenia) zaewidencjonowanych do tego zlecenia.
 
-9. **przycisk Pokaż przestoje** - przycisk uruchamia listę [przestojów](/przestoje-zlecenia) zaewidencjonowanych do tego zlecenia.
-
-10. **przycisk Ilości wyprodukowane/użyte** - w momencie akceptacji zlecenia produkcyjnego tworzy się jego szczegółowe zapotrzebowanie - czyli szczegółowo rozpisywana jest lista potrzebnych produktów do zlecenia oraz produktów, które będą efektem Twojej pracy. Podstawą do wygenerowania szczegółowego zapotrzebowania jest technologia. Od momentu akceptacji zlecenia technologia jest nie do zmiany - teraz wszelkie modyfikacje produktowe (np. wprowadzenie zamiennika) możesz przeprowadzać z tego poziomu. 
+9. **przycisk Ilości wyprodukowane/użyte** - w momencie akceptacji zlecenia produkcyjnego tworzy się jego szczegółowe zapotrzebowanie - czyli szczegółowo rozpisywana jest lista potrzebnych produktów do zlecenia oraz produktów, które będą efektem Twojej pracy. Podstawą do wygenerowania szczegółowego zapotrzebowania jest technologia. Od momentu akceptacji zlecenia technologia jest nie do zmiany - teraz wszelkie modyfikacje produktowe (np. wprowadzenie zamiennika) możesz przeprowadzać z tego poziomu. 
 Funkcjonalność przyda się również do analizy zaraportowanego zużycia czy wyprodukowania każdego z produktów w procesie. 
 Ze szczegółami działania zapoznasz się w tej [dokumentacji](/zmiana-stanu-zapotrzebowania).
 
-11. **przycisk Czasochłonność** - funkcjonalność opisana na etapie wyznaczania czasów realizacji zlecenia
+10. **przycisk Czasochłonność** - funkcjonalność opisana na etapie wyznaczania czasów realizacji zlecenia
 
-12. **przycisk Ceny** - skorzystasz z niego po to, by ustalić koszty materiałowe zlecenia. Przeanalizujesz tutaj: ostatnią cenę zakupu, cenę średnio ważoną czy przyjęty koszt nominalny. Ponadto:
+11. **przycisk Ceny** - skorzystasz z niego po to, by ustalić koszty materiałowe zlecenia. Przeanalizujesz tutaj: ostatnią cenę zakupu, cenę średnio ważoną czy przyjęty koszt nominalny. Ponadto:
 - dowiesz się jakie konkretne dokumenty RW zostały wystawione do zlecenia, o jakich partiach i jakich cenach
 - wyliczymy dla Ciebie TKW
 - zapiszesz w zleceniu dodatkowe koszty bezpośrednie, zwiększające koszty całkowite zlecenia
 Więcej informacji znajdziesz [tutaj](/ceny-materialow-dla-zlecenia)
 
-13. **przycisk Koszty** - pozwala na wyliczenie planowanych kosztów zlecenia na podstawie technologii. Po szczegóły odsyłam do [dokumentacji](/koszty-zlecenia).
+12. **przycisk Koszty** - pozwala na wyliczenie planowanych kosztów zlecenia na podstawie technologii. Po szczegóły odsyłam do [dokumentacji](/koszty-zlecenia).
 
-14. **przycisk Produkcja na zmianę** - daje możliwość rozplanowania produkcji ilości zleconej na kolejne zmiany. Do wykorzystania w firmach produkujących seryjnie, z dającą się wyliczyć na podstawie norm, wydajnością danej linii. Dokładniejsze wyjaśnienia i instrukcję znajdziesz [tutaj](/produkcja-na-zmiane).
+13. **przycisk Produkcja na zmianę** - daje możliwość rozplanowania produkcji ilości zleconej na kolejne zmiany. Do wykorzystania w firmach produkujących seryjnie, z dającą się wyliczyć na podstawie norm, wydajnością danej linii. Dokładniejsze wyjaśnienia i instrukcję znajdziesz [tutaj](/produkcja-na-zmiane).
 
-15. **przycisk Śledzenie partii** - jedno słowo - traceability. Chcesz więcej? Odsyłam do [dokumentacji](/sledzenie-partii-zlecenia).
+14. **przycisk Śledzenie partii** - jedno słowo - traceability. Chcesz więcej? Odsyłam do [dokumentacji](/sledzenie-partii-zlecenia).
 
-16. **przycisk Dostępność surowców** - pozwala na analizę stanów magazynowych surowców potrzebnych do produkcji. Sprawdzisz stan na magazynach, z których zaplanowano rozchód, ale też na pozostałych magazynach zakładu - na wypadek, gdyby trzeba było produktu poszukiwać.
+15. **przycisk Dostępność surowców** - pozwala na analizę stanów magazynowych surowców potrzebnych do produkcji. Sprawdzisz stan na magazynach, z których zaplanowano rozchód, ale też na pozostałych magazynach zakładu - na wypadek, gdyby trzeba było produktu poszukiwać.
 
-17. **przycisk Wydania wewnętrzne** - temat wydań wewnętrznych omówiony jest [tutaj](/wydania-wewnetrzne.html). Z tego poziomu możesz zobaczyć wydania utworzone dla danego zlecenia
+16. **przycisk Wydania wewnętrzne** - temat wydań wewnętrznych omówiony jest [tutaj](/wydania-wewnetrzne.html). Z tego poziomu możesz zobaczyć wydania utworzone dla danego zlecenia
 
-18. **przycisk Pokrycie zapotrzebowania** - umożliwa:
+17. **przycisk Pokrycie zapotrzebowania** - umożliwa:
 - ustalenie jakie surowce i komponenty będą potrzebne do produkcji
 - sprawdzenie, czy w momencie planowanego rozpoczęcia zlecenia produkty będą dostępne na magazynie (funkcjonalność analizuje nie tylko dane zlecenie, ale też inne otwarte zlecenia korzystające z danych produktów)
 - uzyskanie informacji o planowanych dostawach na potrzebne produkty 
@@ -231,7 +231,7 @@ Więcej informacji znajdziesz [tutaj](/ceny-materialow-dla-zlecenia)
 - ustalenie stanu magazynowego zamienników
 Po więcej odsyłam do tej [dokumentacji](/pokrycie-zapotrzebowania).
 
-19. **przycisk Zlecenia na komponenty** - jeśli zaplanowane w technologii komponenty chcesz produkować zawsze (niezależnie od tego, czy są na magazynie, czy nie), to do generowania zleceń na komponenty wybierz tą funkcjonalność.
+18. **przycisk Zlecenia na komponenty** - jeśli zaplanowane w technologii komponenty chcesz produkować zawsze (niezależnie od tego, czy są na magazynie, czy nie), to do generowania zleceń na komponenty wybierz tą funkcjonalność.
 
 Ponadto z listy zleceń możesz wygenerować: [zapotrzebowanie materiałowe](/zapotrzebowanie-materialowe) i [karty pracy](/karty-pracy).
 

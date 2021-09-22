@@ -14,6 +14,7 @@ Dostępne są następujące słowniki:
 - **Miejsca linii produkcyjnych** - stosowane przy definiowaniu [Linii produkcyjnych](/linie-produkcyjne)
 - **Miejsca linii produkcyjnych przesyłane do SCADY**
 - **Typy adresów kontrahenta** - wykorzystywane w [firmach](/firmy)
+- **Kategoria kontrahenta** - pozwalająca na pogrupowanie [firm](/firmy)
 - **Kolory** - przyporządkowywane do kategorii zleceń w [parametrach zleceń](/parametry-zlecen.html#kategorie-zleceń)
 - **Rodzaje opisu** - używane w [asortymencie](/asortymenty)
 - **Zamówienie sprzedaży - status pozycji** - do wykorzystania w [zamówieniach sprzedaży](/zlecenia-nadrzedne), do opisu etapu prac nad zamówioną pozycją

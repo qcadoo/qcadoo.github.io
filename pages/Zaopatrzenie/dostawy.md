@@ -14,9 +14,9 @@ Aby dodać nową dostawę musimy wejść w: **ZAOPATRZENIE >> Dostawy >>** {% in
 
 1. W zakładce **"Główna"** nadajemy dostawie "Numer" (wymagane), opcjonalnie możemy uzupełnić pola "Nazwa" i "Opis".
 
-2. W następnym kroku przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Dostawcę" u którego chcemy złożyć zamówienie, a także "Termin dostawy" (pole to jest wymagane przy potwierdzeniu dostawy). Opcjonalnie możemy uzupełnić pola z "Adresem docelowym" oraz "Formą płatności".
+2. W następnym kroku przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Dostawcę" u którego chcemy złożyć zamówienie, a także "Termin dostawy" (pole to jest wymagane przy potwierdzeniu dostawy) i "walutę". Opcjonalnie możemy uzupełnić pola z "Adresem docelowym" oraz "Formą płatności".
 
-{% include callout.html content='"Formę płatności" oraz "Bufor dla dostaw" ustalamy dla indywidualnie dla każdej firmy, aby to zrobić musimy wejść w **PODSTAWOWE >> Firmy  >> Dostawy**.' type="info" %} 
+{% include callout.html content='"Formę płatności", "Kategorię kontrahenta", "Walutę" oraz "Bufor dla dostaw" ustalamy dla indywidualnie dla każdej firmy, aby to zrobić musimy wejść w **PODSTAWOWE >> Firmy  >> Dostawy**.' type="info" %} 
 
 {:start="3"}
 3. Aby przejść do następnego etapu, po wprowadzeniu wszystkich danych, wybieramy {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz**.
@@ -31,7 +31,7 @@ Aby dodać produkt do listy wybierz {% include inline_image.html file="newIcon2
 
 Wyświetli się okno w którym za pomocą {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy interesujący Nas produkt oraz określamy "Ilość" oraz "Cenę" - sumaryczną bądź jednostkową. Po podaniu którejkolwiek z nich, qcadoo automatycznie obliczy drugą. Aby dodać produkt do listy należy wybrać {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} Zapisz i powrót.
 
-{% include callout.html content="Cenę produktów możemy Ci podpowiedzieć, albo na podstawie ostatniej ceny zakupu produktu albo ostatniej ceny z ofert tego produktu tego dostawcy (odpowiadającą Ci wartość zdefiniujesz w parametrach). Zaznacz zamówione produkty i wywołaj funkcję Uzupełnij ceny." type="warning" %}
+{% include callout.html content="Cenę produktów możemy Ci podpowiedzieć, albo na podstawie ostatniej ceny zakupu produktu albo ostatniej ceny z ofert tego produktu tego dostawcy (odpowiadającą Ci wartość zdefiniujesz w parametrach). Zaznacz zamówione produkty i wywołaj funkcję Uzupełnij ceny. Jeśli waluta dostawy to PLN a w produkcie koszty podanej są w innej walucie, to cena zostanie odpowiednio przeliczona wg aktualnego średniego kursu." type="warning" %}
             
 
 U góry na pasku nad tabelą główną wyświetli się całkowita ilość oraz całkowity koszt zamówienia. 
