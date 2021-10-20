@@ -13,9 +13,10 @@ W zakładce Główna ustaw parametry dotyczące całego systemu qcadoo.
 
 Wskaż:
 1. **firma** - z listy zdefiniowanych firm (podstawowe > [firmy](/firmy)) wskaż swoją. Dzięki temu będziemy potrafili umieścić np. na wydrukach odpowiednie dane
-2. **kraj** - określ w jakim kraju ma miejsce działalność
-3. **waluta** - podaj jaką walutą głównie się posługujesz 
-4. **jednostka** - jednostka domyślna, najczęściej u Ciebie używana. Będziemy ją podpowiadać np. przy dodawaniu produktów
+2. **logo** - wskazane tutaj logo będzie zaprezentowane na etykietach zlecenia, drukowanych z poziomu [dashboardu](/dashboard)
+3. **kraj** - określ w jakim kraju ma miejsce działalność
+4. **waluta** - podaj jaką walutą głównie się posługujesz 
+5. **jednostka** - jednostka domyślna, najczęściej u Ciebie używana. Będziemy ją podpowiadać np. przy dodawaniu produktów
 
 ---
 

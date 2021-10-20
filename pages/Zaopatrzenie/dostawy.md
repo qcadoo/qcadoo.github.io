@@ -48,7 +48,7 @@ Partię określić można na dwa sposoby:
 
 ---
 
-Po skompletowaniu listy zamawianych produktów wybierz {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz**. Dodatkowo "Zamówienie" i "Dostawę" możesz zapisać i wydrukować w formacie dokuemtu PDF {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %}.
+Po skompletowaniu listy zamawianych produktów wybierz {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz**. Teraz możesz przekazać zamówienie dostawcy. Możesz wydrukować je korzystając z dwóch szablonów: "Zamówienie" i "Dostawę" (format PDF) {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %}. Możesz też listę produktów zamówionych wyeksportować do CSV lub PDF (korzystając ze standardowego działania qcadoo, opisanego [tutaj](/eksport-danych)) i ją załączyć do zamówienia.
 
 Jeżeli zamówienie jest kompletne możesz przejść do następnego etapu. Wybierz {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Przygotuj zamówienie** , na tym etapie można jeszcze edytować swoje zamówienie wybierając przycisk {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Skoryguj zamówienie.** Jeżeli wszystko jest poprawne wybierz {% include inline_image.html file="acceptIcon24.png" alt="Przycisk akceptuj" %} **Potwierdź**. Teraz zamówienie jest gotowe do wysłania.  
 

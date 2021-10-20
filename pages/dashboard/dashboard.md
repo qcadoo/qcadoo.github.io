@@ -73,6 +73,7 @@ Z poziomu zleceń produkcyjnych widocznych na dashboardzie możesz wykonać nast
 1. klikając w numer zlecenia (czarna belka) przejdziesz do szczegółów zlecenia produkcyjnego. I z tego poziomu możesz wykonać wszystko to, co jest możliwe w standardzie dla zlecenia o danym statusie
 2. w obszarze **realizowane** z poziomu zlecenia raportowanego zbiorczo możliwe jest przejście do terminala rejestarcji produkcji (przycisk {% include inline_image.html file="przyciskPokazTerminal.png" alt="Przycisk Pokaż terminal" %} **Pokaż terminal**). Dane z automatu zostaną zaczytane, wystarczy, że wprowadzisz efekty wykonanej produkcji i potwierdzisz meldunek
 3. klikając w przycisk {% include inline_image.html file="przyciskDodajZlecenie.png" alt="Przycisk Dodaj zlecenie" %} **Dodaj zlecenie** utworzysz w bardzo intuicyjny sposób zlecenie produkcyjne. Poczytasz o tym [tutaj](/dashboard-dodawanie-zlecen)
+4. w obszarze **realizowane** z poziomu zlecenia możliwe jest wydrukowanie etykiet. Etykieta drukowana jest w PDF w formacie: 104 x 160 mm. Na etykiecie, oprócz danych ze zlecenia, umieszczane jest logo firmy - możesz je podpiąć w [parametrach ogólnych](/parametry-glowna.html#główna) systemu
 <br/>
 <br/>
 

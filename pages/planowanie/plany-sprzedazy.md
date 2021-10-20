@@ -138,6 +138,8 @@ Wprowadzony plan sprzedaży otrzymuje status **szkic**. To plan, z którym może
 
 ## Dodatkowe funkcje wykonywane w planie sprzedaży
 
+### Prezentacja zamówionych ilości 
+
 Ilości planowane możesz zestawić z ilościami zamówionymi. Kliknij przycisk {% include inline_image.html file="przyciskPobierzZamowioneIlosci.png" alt="Przycisk Pobierz zamówione ilości" %} **Pobierz zamówione ilości**, a w tabeli produktów planu przeliczone zostaną ilości zamówione i nadwyżki. Ilości zamówione pobierane są z powiązanych zamówień sprzedaży. Ilość zamówiona to zsumowana ilość dla wszystkich odnalezionych w zamówieniach pozycji z danym produktem lub z produktami należącymi do rodziny produktu (jeśli to rodzina znalazła się w planie).
 
 {% include callout.html content="Aby powiązać zamówienia sprzedaży z planem wystarczy w szczegółach zamówienia wypełnić pole: plan sprzedaży." type="warning" %}
@@ -145,3 +147,11 @@ Ilości planowane możesz zestawić z ilościami zamówionymi. Kliknij przycisk 
 Jeśli w produktem planu jest rodzina, to możesz, zaznaczając pozycję i klikając przycisk {% include inline_image.html file="przyciskPokazZamowioneRodzinyZPlanu.png" alt="Przycisk Pokaż zamówione produkty rodziny z planu" %} **Pokaż zamówione produkty rodziny z planu**, ustalić jakie konkretne produkty (np. w jakim rozmiarze, czy w jakim kolorze) zostały zamówione. Tutaj także dane pochodzą z powiązanych z planem zamówień sprzedaży:
 
 {% include lightbox.html file="planowaniePlanySprzedazyZamowioneProduktyRodziny.png" alt="Prezentacja ilości zamówionych konkretnych produktów danej rodziny" caption="Prezentacja ilości zamówionych konkretnych produktów danej rodziny" %} 
+
+### Zapotrzebowanie materiałowe planu sprzedaży
+
+Funkcja pozwala na ustalnie listy materiałów potrzebnej do realizacji przyjętego planu. Możesz ją albo wywołać przyciskiem przycisk {% include inline_image.html file="przyciskZapotrzebowanieMaterialowe.png" alt="Przycisk Zapotrzebowanie materiałowe" %} **Zapotrzebowanie materiałowe** z danego planu, albo wygenerować z menu zaopatrzenie. Funkcjonalność opisana jest w [tej dokumentacji](/zapotrzebowanie-materialowe-planu-sprzedazy).
+
+### Grupy zleceń planu
+
+Klijąc w przycisk przycisk {% include inline_image.html file="przyciskGrupyZlecenPlanu.png" alt="Przycisk Grupy zleceń planu" %} **Grupy zleceń planu** przejdziesz do listy grupy zleceń powiązanych z danym planem. Dzięki temu po wygenerowaniu grup, będziesz mógł od razu do nich przejść, w celu dalszego uszczegóławiania zleceń.

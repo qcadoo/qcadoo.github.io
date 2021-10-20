@@ -63,7 +63,11 @@ O tym co dalej dzieje się z dostawą przeczytasz w [tej dokumentacji](/dostawy)
 
 Po powrocie do zapotrzebowania materiałowego planu sprzedaży te wiersze, do których dostawa została wygenerowana, będą miały w kolumnie Dostawa wartość 'tak'.
 
-Do jednego zapotrzebowania materiałowego możesz tworzyć wiele dostaw - np. tyle u ilu różnych dostawców składasz zamówienie.
+Do jednego zapotrzebowania materiałowego możesz tworzyć wiele dostaw - np. tyle u ilu różnych dostawców składasz zamówienie. Wszystkie dostawy powiązane z planem sprzedaży, dla którego badasz zapotrzebowanie, możesz podejrzeć klikając przycisk: {% include inline_image.html file="przyciskDostawyPlanu.png" alt="Przycisk Dostawy planu" %} **Dostawy planu**.
+
+## Podgląd technologii, w których wykorzystany jest dany materiał
+
+Zamawiasz materiały potrzebne do realizacji planu. Zastanawiasz się, czy może warto zamówić danego produktu więcej, bo wkrótce będzie wykorzystywany pod nowe kolekcje? Zaznacz materiał i kliknij przycisk {% include inline_image.html file="przyciskPokazTechnologieWykorzystujaceProdukt.png" alt="Przycisk Pokaż technologie wykorzystujące produkt" %} **Pokaż technologie wykorzystujące produkt**. W uruchomionym oknie zaprezentowane będą wszystkie technologie, w których dany produkt zdefiniowany jest jako produkt wejściowy lub produkt wg rozmiaru.
 
 
 

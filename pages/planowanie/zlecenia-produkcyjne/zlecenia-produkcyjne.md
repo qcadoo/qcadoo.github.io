@@ -179,7 +179,8 @@ Zapewne zwróciłeś uwagę, że w zleceniu produkcyjnym jest bardzo dużo zakł
 
 2. **zakładka Ilość produktu** - w zakładce Główna widzisz aktualną ilość planowaną. Jeśli już po akceptacji zlecenia ilość była zmieniana zobaczysz ją jako ilość skorygowaną. Przy zmianie, podobnie jak w przypadku dat, można zostawić przyczynę korekty. 
 Ponadto w zakładce widać:
-- ile już wyprodukowano (ilość z zaakceptowanych rekordów rejestracji)
+- zatwierdzoną produkcję (ilość wyprodukowaną z zaakceptowanych rekordów rejestracji)
+- zaraportowaną produkcję (ilość wyprodukowaną z zaakceptowanych i szkicowych rekordów rejestracji)
 - jaki jest procent wykonania
 - ile zarejestrowano wyprodukowanych braków
 - ile pozostało jeszcze do wyprodukowania

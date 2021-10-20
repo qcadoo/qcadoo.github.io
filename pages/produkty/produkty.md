@@ -237,6 +237,12 @@ Zobaczysz wszystkie produkty rozmiarowe należące do tej rodziny. Chcesz dodać
 
 Jeśli parametr **Kopiuj atrybuty z rodziny na produkty rozmiarowe** = tak, to i atrybuty z produktu-rodziny zostaną do nowych, konkretnych produktów, przeniesione.
 
+## Stan magazynowy
+
+Aby ustalić czy dany produkt znajduje się obecnie na magazynie i w jakiej ilości kliknij przycisk {% include inline_image.html file="przyciskStanMagazynowy.png" alt="Przycisk Stan magazynowy" %} **Stan magazynowy**. Uruchomione okno zaprezentuje dostępną ilość. Sięgnie po nią nie tylko do qcadoo, ale też do zintegrowanego systemu ERP.
+
+{% include lightbox.html file="produktyProduktyStanMagazynowy.png" alt="Stan magazynowy produktu" caption="Stan magazynowy produktu" %}
+
 
 ## Pozostałe przydatne funkcje w formularzu produktu
 

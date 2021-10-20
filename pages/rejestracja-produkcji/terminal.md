@@ -56,7 +56,7 @@ Jeśli **plany oparte są o zlecenia produkcyjne** to pracownik może wskazać t
 {% include lightbox.html file="rejestracjaTerminalWybierzZlecenie.png" alt="Wybierz zlecenie" caption="Okno wyboru zlecenia produkcyjnego w terminalu" %}
 
 W tym trybie możemy rejestrować tylko zlecenia raportowane zbiorczo. W oknie widoczne są zlecenia wskazanego w terminalu działu. Jeśli dział pusty - widzimy wszystkie zlecenia. "Wszystkie" - czyli te, które są rozpoczęte i zaplanowane na dziś. I znowu: "dziś" - czyli na moment daty rozpoczęcia ustawiony w obszarze _Czas pracy_ w terminalu. 
-Aby zaciągnąć zlecenie do terminala wystarczy je zaznaczyć i kliknąć _Wybierz_. Zlecenia możesz filtrować wpisując dowolny tekst w polu wyszukiwania (prawy górny róg) - program szuka po wszystkich widocznych w tabeli informacjach. Podczas filtrowania możesz użyć * (gwiazdki) zastępując nią dowolny ciąg znaków.
+Aby zaciągnąć zlecenie do terminala wystarczy je zaznaczyć i kliknąć _Wybierz_. Zlecenia możesz filtrować wpisując dowolny tekst w polu wyszukiwania (prawy górny róg) - program szuka po wszystkich widocznych w tabeli informacjach. Podczas filtrowania możesz użyć * (gwiazdki) zastępując nią dowolny ciąg znaków. Możesz również pomóc sobie w wyszukiwaniu zleceń, korzystając z kryteriów filtrowania umieszczonych u góry okna. Zlecenia zrealizowane mogą nie być w oknie pokazywane. Zrealizowane to takie, dla których ilość wyprodukowana jest co najmniej taka jak ilość planowana. Ponadto - możesz nie widzieć w oknie tych zleceń, które do realizacji pobrał inny pracownik. A także - widzieć tylko te, które aktualnie są realizowane lub aktualnie nie są realizowane.
 
 Jeśli natomiast **plany oparte są o zadania operacyjne**, to pracownik wybiera aktualnie realizowaną czynność z listy dostępnej pod przyciskiem **Wybierz zadanie**
 
@@ -106,6 +106,11 @@ Jeśli chcesz zobaczyć co już dziś wyprodukowałeś i zarejestrowałeś klikn
 
 O tym jakie produkty będą potrzebne do realizacji produkcji pracownik może dowiedzieć się z obszaru **Produkty wejściowe**. Nie znajdzie tam jednak informacji o tym, czy dany produkt znajduje się na magazynie i w jakiej ilości (weryfikacja taka może być konieczna w przypadku przesuwania surowców na magazyn działowy - jeśli stan nie jest wystarczający, to zapewne przesunięcie jeszcze nie zostało zrealizowane i warto skonsultować sytuację z magazynem). W tym celu został dodany przycisk {% include inline_image.html file="przyciskDostepnoscSurowcow.png" alt="Przycisk Dostępność surowców" %} **Dostępność surowców**. Uruchamia on okno z wszystkimi surowcami potrzebnymi pod dane zlecenie (przycisk uaktywnia się po wybraniu zlecenia w terminalu) i z informacją o stanie na magazynie zdefiniowanym w [przepływach technologii](/technologie-szczegoly.html#przepływy-technologii) (innymi słowy - na magazynie, z którego zaplanowane jest rozchodowanie surowca do produkcji).
 
+Z poziomu okna możesz ustalić dodatkowo 3 informacje:
+- na jakich innych magazynach, niż ten z którego nastąpi rozchód pod zlecenie, dostępny jest dany surowiec - zaznacz wiersz w tabeli i kliknij przycisk {% include inline_image.html file="przyciskPokazDostepnoscWeWszystkichMagazynach.png" alt="Przycisk Pokaż dostępność we wszystkich magazynach" %} **Pokaż dostępność we wszystkich magazynach**
+- czy dostępne są zamienniki danego produktu - zaznacz wiersz w tabeli i kliknij przycisk przycisk {% include inline_image.html file="przyciskPokazStanyZamiennikow.png" alt="Przycisk Pokaż stany zamienników" %} **Pokaż stany zamienników**
+- jakie zasoby danego surowca znajdują się na magazynie. Czego dzięki temu można się dowiedzieć? Np. na jakich stanach magazynowych składowane są produkty, albo w jakich partiach, albo z jakimi datami ważności. W tym celu kliknij przycisk {% include inline_image.html file="przyciskPokazZasobyMagazynu.png" alt="Przycisk Pokaż zasoby magazynu" %} **Pokaż zasoby magazynu**
+
 ---
 
 ### Informacje
@@ -115,7 +120,7 @@ O tym jakie produkty będą potrzebne do realizacji produkcji pracownik może do
 Obszar na starcie jest zwinięty. Zawiera wszystkie niezbędne do realizacji zlecenia informacje jak:
 - zlecony produkt i jego atrybuty
 - linia produkcyjna, która zlecenie ma wykonać
-- dodatkowe informacje jak opis zadania czy opis zlecenia
+- dodatkowe informacje jak opis zadania, opis zlecenia czy kategoria zlecenia
 - operacje z technologii (drzewko operacji do rozwinięcia)
 - załączniki zdefiniowane w technologii, z której zlecenie korzysta. Załącznik trzeba pobrać i otworzyć w programie dostępnym lokalnie. Dlatego przy specyficznych formatach, zadbaj o dostępność odpowiednich programów obsługujących ten typ pliku.
 - procesy technologiczne - [lista procesów]() musi być przypisana do technologii, wówczas w terminalu będzie dostępny podgląd szczegółowych czynności do wykonania. Z tego poziomu procesy są jedynie informacją. Jeśli chcesz, aby pracownicy raportowali ich wykonanie, skorzystaj z [terminala potwierdzania procesów](/terminal-potwierdzania-procesow).
@@ -143,6 +148,8 @@ W tabeli widoczne są wszystkie zaplanowane do zużycia produkty:
 
 Pracownik może podać ilość, którą zużył pod dane zlecenie / operacje. Widoczne jest już zaraportowane zużycie (z zaakceptowanych rekordów rejestracji) oraz ilość zaplanowaną do zużycia, wynikającą z norm technologicznych.
 Jeśli w parametrach określono, że zużycie ma być wyliczane na podstawie norm - ilości uzupełnią się po podaniu ilości wyprodukowanej w tabeli Produktów wyjściowych. Jeśli parametr _zezwól na edycję wyliczonej ilości zużytej w terminalu_  nie będzie zaznaczony -> pola te będą wyłączone z edycji.
+
+Jeśli nie wszystkie kolumny są Ci potrzebne - ukryj je. A jeśli chcesz mieć pod ręką listę materiałów, nawet gdy nie masz ze sobą komputera, wyeksportuj do PDF dane z tabeli.
 
 #### Wykorzystaj zamiennik
 
