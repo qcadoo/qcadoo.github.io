@@ -956,6 +956,10 @@ entries:
       output: web
       url: /integracja-ERP.html
 
+    - title: Azure Service Bus
+      output: web
+      url: /Azure-Service-Bus.html
+
   - title: API
     output: web
     folderitems:
@@ -1000,7 +1004,3 @@ entries:
               - title: Aktualizacja norm kosztowych produktu
                 output: web
                 url: /aktualizacja-norm-kosztowych-produktu.html
-
-      - title: Azure Service Bus
-        output: web
-        url: /Azure-Service-Bus.html
