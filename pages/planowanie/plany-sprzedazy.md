@@ -155,3 +155,16 @@ Funkcja pozwala na ustalnie listy materiałów potrzebnej do realizacji przyjęt
 ### Grupy zleceń planu
 
 Klijąc w przycisk przycisk {% include inline_image.html file="przyciskGrupyZlecenPlanu.png" alt="Przycisk Grupy zleceń planu" %} **Grupy zleceń planu** przejdziesz do listy grupy zleceń powiązanych z danym planem. Dzięki temu po wygenerowaniu grup, będziesz mógł od razu do nich przejść, w celu dalszego uszczegóławiania zleceń.
+
+### Użyj innej technologii
+
+Funkcja przyda się, gdy:
+- korzystasz z technologii rodziny produktów
+- ciągle pracujesz nad ostateczną wersją technologii i ta ujęta w planie nie jest już aktualna. 
+
+Aby móc zamówić dobre materiały do planu i aby móc we właściwy sposób wytworzyć wyrób, warto zaktualizować technologię w planu. Dla produktów związanych z taką samą rodziną produktu, możesz podmienić technologię korzystając z funkcji **Użyj innej technologii**. Zaznacz produkty planu i kliknij przycisk: {% include inline_image.html file="przyciskUzyjInnejTechnologii.png" alt="Przycisk Użyj innej technologii" %} **Użyj innej technologii** 
+
+{% include lightbox.html file="planowaniePlanySprzedazyUzyjNowejTechnologii.png" alt="Aktualizacja użytej technologii" caption="Aktualizacja użytej technologii" %} 
+
+Wskaż **nową technologię** i **zaktualizuj**. W efekcie w zaznaczonych produktach zostanie zmieniona technologia. Zmianę możesz przeprowadzić wielokrotnie, pamiętajac że jednocześnie można aktualizować dane produktów z jednej rodziny.
+
