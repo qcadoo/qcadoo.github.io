@@ -168,3 +168,13 @@ Aby móc zamówić dobre materiały do planu i aby móc we właściwy sposób wy
 
 Wskaż **nową technologię** i **zaktualizuj**. W efekcie w zaznaczonych produktach zostanie zmieniona technologia. Zmianę możesz przeprowadzić wielokrotnie, pamiętajac że jednocześnie można aktualizować dane produktów z jednej rodziny.
 
+### Uzupełnij technologię rodziny
+
+Jeśli ująłeś w planie produkty jeszcze zanim przygotowałeś do nich technologię, a korzystasz z technologii na rodzinę produktu, to funkcja uzupełniania technologii bardzo Ci się przyda. Zaznaczając produkty z jednej rodziny, możesz w jednym kroku wypełnić brakującą technologię.
+
+Zaznacz produkty bez technologii, należące do tej samej rodziny i kliknij w przycisk % include inline_image.html file="przyciskUzupelnijTechnologieRodziny.png" alt="Przycisk Uzupełnij technologię rodziny" %} **Uzupełnij technologię rodziny** 
+
+{% include lightbox.html file="planowaniePlanySprzedazyUzupelnijTechnologie.png" alt="Uzupełnianie technologii rodziny produktu" caption="Uzupełnianie technologii rodziny produktu" %} 
+
+Wskaż **Nową technologię** i zapisz przyciskiem **Uzupełnij**.
+

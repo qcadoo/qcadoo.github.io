@@ -19,3 +19,5 @@ Przypisanie do magazynu pozwoli na ograniczenie danych z menu Magazyn do przypis
 Przypisywanie do pracownika natomiast pozwoli na szybkie przechodzenie z dashboardu do terminala, w celu zaraportowania produkcji do zlecenia, czy zadania.
 
 Przypisanie do zakładu będzie pomocne podczas obsługi działu utrzymania ruchu w qcadoo. Pracownik przypisany do zakładu ma zakład z automatu uzupełniony w kontekście zdarzeń i zdarzeń planowanych i nie musi każdorazowo go uzupełniać, aby ograniczyć widoczne dane.
+
+Przypisanie do linii produkcyjnej pozwoli na ograniczenie widocznych na dashboardzie zleceń do tej linii i na ograniczenie listy stacji roboczych na wykresie Gantta zadań operacyjnych do tych powiązanych z daną linią.

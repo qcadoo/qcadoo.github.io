@@ -219,7 +219,7 @@ Więcej informacji znajdziesz [tutaj](/ceny-materialow-dla-zlecenia)
 
 14. **przycisk Śledzenie partii** - jedno słowo - traceability. Chcesz więcej? Odsyłam do [dokumentacji](/sledzenie-partii-zlecenia).
 
-15. **przycisk Dostępność surowców** - pozwala na analizę stanów magazynowych surowców potrzebnych do produkcji. Sprawdzisz stan na magazynach, z których zaplanowano rozchód, ale też na pozostałych magazynach zakładu - na wypadek, gdyby trzeba było produktu poszukiwać.
+15. **przycisk Dostępność surowców** - pozwala na analizę stanów magazynowych surowców potrzebnych do produkcji. Sprawdzisz stan na magazynach, z których zaplanowano rozchód, ale też na pozostałych magazynach zakładu - na wypadek, gdyby trzeba było produktu poszukiwać. Możesz z tego miejsca przejść też do listy zasobów na magazynie. Dzięki temu ustalisz szczegóły jak: dostępne partie, lokalizacja (miejsca składowania), data ważności zasobów itp.
 
 16. **przycisk Wydania wewnętrzne** - temat wydań wewnętrznych omówiony jest [tutaj](/wydania-wewnetrzne.html). Z tego poziomu możesz zobaczyć wydania utworzone dla danego zlecenia
 
@@ -246,6 +246,7 @@ W jaki sposób przekazać informację pracownikom o tym co mają wykonać:
 2. [karty pracy](/karty-pracy) - dostępne są dwa szablony wydruku. Dodatkowo możliwa jest ich konfiguracja w [parametrach](/parametry-karty-pracy).
 3. wyeksportowana lista zleceń - poukrywaj zbędne kolumny i [przerzuć dane go Excela lub PDFa](/eksport-danych), i w takiej formie przekaż dane pracownikom 
 4. Gantt - daj pracownikom dostęp do qcadoo i pokaż jak działa [planowanie na liniach](//planowanie-na-liniach) (jeśli planujesz całe zlecenia) lub [Gantt zadań operacyjnych](/gantt-zadan-operacyjnych) (jeśli planujesz każdą operację do wykonania)
+5. [dashboard](/dashboard) - wskaż w [parametrach](/parametry-dashboard) czy chcesz widzieć zadania czy zlecenia i zdecyduj którzy użytkownicy mają mieć dostęp pełen (łącznie z edycją zlecenia), a którzy w formie ograniczonej (tylko z przesuwaniem między obszarami, przejściem do terminala i wydrukiem etykiet).
 
 
 ## Efekty raportowania wykonanej produkcji

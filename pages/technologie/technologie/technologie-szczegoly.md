@@ -6,7 +6,7 @@ Do każdego produkowanego w Twojej firmie wyrobu kompletujemy osobną technologi
 
 ## Dodanie nowej technologii
     
-**TECHNOLOGIE > Technologie** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nową technologię" %} **Dodaj nowy**
+**Technologie > Technologie** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nową technologię" %} **Dodaj nowy**
 
 {% include lightbox.html file="technologie-technologia-główna.png" alt="Formularz technologii" caption="Formularz technologii" class="float-right" %}
 
@@ -83,7 +83,7 @@ Po zaznaczeniu operacji w drzewie uzupełnione zostają tabelki z produktami wej
 Produkt wejściowy możesz oznaczyć dodatkowym [typem](/typy-produktu-wejsciowego). Niesie to następujące korzyści: 
 - pracownik lepiej potrafi zidentyfikować surowiec zużywany
 - możesz zapisać technologię szablonową, gdy nie znamy dokładnego indeksu materiału. Wiesz np. że będziesz zużywać blachę i w jakiej ilości, ale nie wiesz dokładnie, którą. Takie zapisanie produktu wejściowego, z samym typem i ilością, pozwoli dodatkowo na przygotowanie kalkulacji kosztów i ustalenie wyceny w oparciu o średnią cenę zapisaną w typie produktu wejściowego technologii
-- jeśli przygotowujesz technologię dla rodziny produktu możesz wskazać, że dla danego typu produktu wejściowego, w zależności od grupy rozmiarowej mają być używane różne surowce.
+- jeśli przygotowujesz technologię dla rodziny produktu możesz wskazać, że dla danego typu produktu wejściowego, w zależności od grupy rozmiarowej mają być używane różne surowce (albo ten sam surowiec, ale w zależności od grupy rozmiarowej - w innej ilości).
 
 #### Różne produkty wejściowe technologii w zależności od rozmiarów
 
@@ -249,6 +249,11 @@ O nieprawidłowościach poinformujemy Cię komunikatami. Mogą pojawić się nas
 
 5. **"Produkt wyjściowy końcowej operacji, musi być taki sam jak produkt dla którego zdefiniowano technologię."** --> oznacza to, że produkt wyjściowy najwyższej operacji w drzewie nie zgadza się z produktem, dla którego technologie budujesz (uzupełniony w zakładce Główna). Ustal, który z tych produktów jest prawidłowy i popraw dane. Jeśli będziesz poprawiać produkt w zakładce Główna, to zwróć uwagę, że na jego podstawie został nadany numer i nazwa. Zmiana produktu tych danych nie zmieni. Zatem polecam najpierw wyczyścić numer i nazwę, a dopiero wybrać nowy produkt - numer i nazwa zostaną na nowo określone.
 
+6. **Produkty wg rozmiarów możemy podać tylko gdy technologia budowana jest na rodzinę produktu.** --> oznacza to, że produkt, dla którego tworzona jest technologia nie jest rodziną produktu. A tylko dla rodziny możemy rozpisać produkty wg rozmiaru. Ustal, czy produkt na pewno ma być rodziną, jeśli tak, to zmień wartość pola "Reprezentuje" w produkcie na "rodzinę produktu". Jeśli jest to konkretny produkt, to usuń w technologii produkt wejściowy z Rozmiar = tak. Albo odznacz w nim parametr: Różne produkty w różnych rozmiarach. I jeszcze jak do tego mogło dojść:
+- albo w trakcie tworzenia technologii została zmieniona wartość pola Reprezentuje w produkcie
+- albo technologia produktu rodziny została skopiowana przy okazji tworzenia technologii na konkretny produkt 
+- albo technologia produktu rodziny została wykorzystana do utworzenia nowych, na konkretne produkty, z poziomu generatora
+
 
 Jeśli mamy pewność wprowadzonych danych możemy od razu nadać jej status {% include inline_image.html file="startIcon24.png" alt="Akceptacja" %} **Zaakceptowana**. Tylko zaakceptowane technologie mogą zostać użyte w zleceniu produkcyjnym.
 
@@ -293,6 +298,18 @@ W tabeli operacji uzupełniła się informacja o liście. Jeśli zaznaczysz tą 
 ## Zakładka "Minimalna ilość" ##
     
 W tej zakładce wpisujemy minimalną ilość jaką opłaca się nam produkować. Jest to istotne z punktu widzenia Zlecenia produkcyjnego, ponieważ jeśli uruchomimy zlecenie na mniejszą ilość niż opłacalna, program poinformuje nas o tym, aby ostrzec przed popełnieniem ewentualnego błędu.
+
+## Dodatkowe opcje 
+
+W widoku szczegółów technologii dostępne są następujące dodatkowe opcje:
+
+1. **Generuj strukturę wyrobu** - funkcja rozrysuje drzewo technologii, łącznie z produktami wejściowymi, działami, normami czasowymi. Jeśli dla produktów wejściowych istnieją technologie, to zostaną one podpięte do drzewa jak technologie na komponent i cała struktura będzie prezentowała pełną produkcję, od wytworzenia wszelkich komponentów aż po uzyskanie produktu finalnego danej technologii. Funkcja dostępna dla technologii sprawdzonej i zaakceptowanej.
+
+2. **Zatwierdź szablon** - tworzona przez Ciebie technologia może być szablonem, który inny pracownicy wykorzystają do tworzenia technologii właściwych. Zaznacz pole **szablon** w zakładce Główna, a po ukończeniu tworzenia kliknij przycisk **Zatwierdź szablon**. Dzięki temu nie będzie można technologii edytować (aby była możliwość trzeba kliknąć przycisk **Przejdź do edycji szablonu**). Pamietaj, że szablon może być zatwierdzony nawet wówczas, gdy technologia nie jest kompletna - np. produkt wejściowy może zawierać tylko typ produktu wejściowego i ilość.
+
+3. **Pokaż ceny** - funkcja pozwala na podejrzenie jakie są koszty materiałów zawartych w technologii. Źródłem danych są koszty produktu - tu zebrane są do jednej tabeli, więc łatwo je przeanalizować.
+
+4. **Utwórz kartę modelu** - funkcja tworzy [kartę modelu](/karta-modelu) na produkt finalny technologii w ilości 1. Wystarczy tylko wygenerować i wydrukować.
 
 ---
 

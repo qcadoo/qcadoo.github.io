@@ -20,6 +20,7 @@ Stosujemy trzy kolory:
 2. **Kopiuj opis ze zlecenia produkcyjnego** - zaznacz parametr, a opis każdego zadania operacyjnego tworzonego do zlecenia, będzie uzupełniony o opis ze zlecenia produkcyjnego. Może on zatem stanowić połączenie opisu operacji i opisu zlecenia.
 3. **Ustawiaj daty zlelcenia na podstawie dat zadań** - zaznacz parametr, a zmiana dat w zadaniu operacyjnym będzie się wiązała z przeliczeniem dat w powiązanym zleceniu produkcyjnym
 4. **Automatycznie generuj zadania do zlecenia produkcyjnego** - jeśli zaznaczysz parametr to w momencie akceptacji zlecenia produkcyjnego raportowanedo z dokładnością do operacji zostaną wygenerowane zadania operacyjnego. Nie będziesz musiał klikać każdorazowo przycisku: Utwórz zadania operacyjne. Pamiętaj jednak, że zadania operacyjne mogą tworzyć się też na zatwierdzaniu planu na stację roboczą i pracownika - sprawdź [tutaj](/plan-na-stacje-robocza-i-pracownika) czy jest to funkcja dla Ciebie.
+5. **Uzupełniaj stację i pracownika w wygenerowanych zadaniach** - jeśli zaznaczysz parametr, to dla operacji powiązanej z zadaniem ustalimy przypisane stacje. I jeśli jest tylko jedna, to uzupełnimy nią zadanie operacyjne. A jeśli stacja ta ma domyślnego pracownika, to w zadaniu wpiszemy również tego pracownika.
 
 ---
 

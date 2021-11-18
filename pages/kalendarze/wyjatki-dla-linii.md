@@ -44,5 +44,15 @@ Teraz wyobraźmy sobie inną sytuację. Mamy bardzo dużo zamówień i niestety 
 
 {% include lightbox.html file="Planowanie-%20wyjatek%20praca.png" alt="Wyjątek typu praca" caption="Wyjątek typu praca" %}
 
+## Powielanie wyjątków
 
+Jeśli codziennie od 10:00 do 10:30 produkcja ma przerwę śniadaniową, albo co poniedziałek między 07:00 a 09:00 wszyscy mają spotkanie organizacyjne, warto zadbać o naniesienie tych informacji do kalendarza. Aby przyspieszyć pracę możesz skorzystać z funkcji powielania wyjątków. Dodaj pierwszy wyjątek, standardowo, tak jak opisano wyżej. I kliknij przycisk {% include inline_image.html file="przyciskPowielWyjatek.png" alt="Przycisk Powiel wyjątek" %} **Powiel wyjątek**
+
+{% include lightbox.html file="kalendarzeWyjatkiDlaLiniiPowielanie.png" alt="Powielanie wyjatku" caption="Powielanie wyjątku" %}
+
+Wskaż:
+- **rodzaj powielenia** - czyli czy dany wyjątek ma występować codziennie, co tydzień, co miesiac, czy co rok
+- **datę zakończenia** - czyli do jakiej daty wyjątek ma zostać założony. Zastanów się, czy warto od razu generować wyjątki do "końca świata". Jeśli okaże się, że za dwa lata przerwa obiadowa będzie krótsza, będziesz miał sporo wyjątków do usunięcia. Lepiej funkcję wykonywać wielokrotnie co jakiś czas.
+
+Wyjątki wygenerują się po kliknięciu przycisku **Wykonaj**.
     

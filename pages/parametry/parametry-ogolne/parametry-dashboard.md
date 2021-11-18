@@ -36,11 +36,13 @@ Zatwierdzona produkcja, to ta ilość wyprodukowana, która pochodzi z zaakcepto
 
 5. **Pokaż opis zlecenia lub zadania** - zaznacz parametr jeśli chcesz, aby na kafelku pojawiał się opis zlecenia lub zadania operacyjnego. Wówczas, nawet, gdy opis nie jest wypełniony, na kafelku pojawi się labelka 'opis'. 
 
-6. **Parametry dodawania zleceń i zadań** - ich wypełnienie jest niezbędne, gdy chcesz korzystać z szybkiego dodawania zleceń / zadań z dashboardu wraz z tworzeniem technologii w tle. Uzupełnij:
+6. **Sortowanie zleceń** - wskaż czy chcesz mieć poukładane zlecenia na dashboardzie wg daty rozpoczęcia czy daty zakończenia
+
+7. **Parametry dodawania zleceń i zadań** - ich wypełnienie jest niezbędne, gdy chcesz korzystać z szybkiego dodawania zleceń / zadań z dashboardu wraz z tworzeniem technologii w tle. Uzupełnij:
 - _operacja_ - pole będzie aktywne, gdy na dashboardzie będą widoczne zlecenia produkcyjne i zlecenia będą z niego dodawane. Zakładamy, że utworzymy dla Ciebie w tle jednooperacyjną technologię. Wskaż jaka operacja ma być w niej uzupełniona (jeśli używasz tej opcji, to zapewne nie interesuje Cię wyodrębnianie każdej czynności, jaka jest konieczna do realizacji w procesie produkcyjnym. Załóż [operację](/operacje) bardzo ogólną, np. produkcja i ją podepnij w parametrach).
 - _magazyn pobrania surowców_ - wskaż z jakiego magazynu pobierasz surowce do produkcji. Uzupełnimy nim technologię, którą założymy do zlecenia dodawanego z dashboardu
 - _magazyn przyjmowania wyrobów_ - wskaż na jaki magazyn będziesz przyjmował wytworzone wyroby. Uzupełnimy nim technologię, którą założymy do zlecenia dodawanego z dashboardu
 
-{:start="7"}
+{:start="8"}
 
-7. **Przyciski szybkiego wybierania** - w tabeli znajdziesz listę przycisków, z których możesz wybrać maksymalnie 6. Pokażemy je na dashboardzie - dzięki temu szybko będziesz mógł przejść do ulubionych funkcjonalności. Wejdź do szczegółów danego przycisku (wiersza w tabeli) i zaznacz parametr _Widoczność_. Możesz ponadto ustawić kolejność prezentacji przycisków - zaznacz wiersz i przesuń w odpowiednie miejsce strzałką umieszczoną nad tabelą. Przyciski na dashboardzie umieszczone są w dwóch kolumnach, po 3 elementy (wypełniamy pierwszą kolumnę i przechodzimy dopiero do kolejnej - jeśli wybierzesz 4 elementy, to będziesz mieć 3 przyciski w lewej kolumnie i 1 w prawej). 
+8. **Przyciski szybkiego wybierania** - w tabeli znajdziesz listę przycisków, z których możesz wybrać maksymalnie 6. Pokażemy je na dashboardzie - dzięki temu szybko będziesz mógł przejść do ulubionych funkcjonalności. Wejdź do szczegółów danego przycisku (wiersza w tabeli) i zaznacz parametr _Widoczność_. Możesz ponadto ustawić kolejność prezentacji przycisków - zaznacz wiersz i przesuń w odpowiednie miejsce strzałką umieszczoną nad tabelą. Przyciski na dashboardzie umieszczone są w dwóch kolumnach, po 3 elementy (wypełniamy pierwszą kolumnę i przechodzimy dopiero do kolejnej - jeśli wybierzesz 4 elementy, to będziesz mieć 3 przyciski w lewej kolumnie i 1 w prawej). 

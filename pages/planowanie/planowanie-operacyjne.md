@@ -35,7 +35,7 @@ Rozpocznij od wskazania **typu zadania** - to on uwarunkuje aktywność pozosta�
 - _stacja robocza_ - możesz wskazać na jakiej stacji roboczej (czy to maszynie czy stanowisku) zadanie ma być wykonywane
 
 Na podstawie wskazanego zlecenia produkcyjnego uzupełnią się:
-- linia produkcyjna
+- dział
 - ilości: planowana, wyprodukowana
 - procent wykonania
 
