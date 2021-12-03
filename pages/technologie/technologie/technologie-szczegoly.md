@@ -74,11 +74,13 @@ Po zaznaczeniu operacji w drzewie uzupełnione zostają tabelki z produktami wej
 
 3. Przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Produkt" dodawany do produktów wyjściowych. Podajemy następnie ilość, jaką produkuje operacja i wybieramy przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. Możemy dodatkowo oznaczyć produkt
 
-4. W ostatniej operacji w drzewie, produkującej ostateczny produkt technologii, zostanie dodany automatycznie produkt finalny całej technologii. Dodatkowo w takim produkcie można zaznaczyć opcję **"Szablon"**.
+4. W ostatniej operacji w drzewie, produkującej ostateczny produkt technologii, zostanie dodany automatycznie produkt finalny całej technologii. 
 
 5. W celu dodania produktu wejściowego wybieramy przycisk {% include inline_image.html file="newIcon16.png" alt="Nowy" %} "Nowy" w tabelce **"Produkty wejściowe"**. 
 
 6. Przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Produkt" dodawany do produktów wejściowych. Podajemy następnie ilość, jaką produkuje operacja - możemy podać ilość w innej jednostce, niż podstawowa jednostka produktu. Warunkiem jest zdefiniowanie wcześniej w produkcie przelicznika na wybraną jednostkę. Wybieramy następnie przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. 
+
+{% include callout.html content="Technologia w statusie szkic może mieć podany produkt wejściowy bez podania ilości. Ilości będą musiały być uzupełnione do sprawdzenia czy akceptacji technologii." type="info" %}
 
 Produkt wejściowy możesz oznaczyć dodatkowym [typem](/typy-produktu-wejsciowego). Niesie to następujące korzyści: 
 - pracownik lepiej potrafi zidentyfikować surowiec zużywany

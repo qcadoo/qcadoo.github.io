@@ -85,7 +85,9 @@ Parametry terminala konfigurują [terminal rejestracji produkcji](/terminal). We
 
 9. **Stacja robocza** - wybierz jedną z metod wprowadzania stacji roboczej w terminalu - albo poprzez wybranie z listy albo poprzez zeskanowanie (lub ręczne wpisanie) numeru stacji
 
-10. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
+10. **Uwzględniaj wyjątki przy podpowiadaniu aktualnej zmiany** - zaznacz parametr jeśli w trakcie wyjątku typu wolne w terminalu ma nie być podpowiadana aktualna zmiana. Jeśli parametr będzie niezaznaczony, to zmiana w terminalu podpowie się nawet, gdy wg kalendarza powinniśmy mieć przerwę w pracy (bo trwa wyjątek typu wolne).
+
+11. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
 - przycisk **Wybierz zlecenie**
 - przycisk **Wybierz zadanie**
 - przycisk **Postęp pracownika**

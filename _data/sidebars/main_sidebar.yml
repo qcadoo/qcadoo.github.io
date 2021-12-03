@@ -858,6 +858,10 @@ entries:
       output: web
       url: /wykonanie-procesow-technologicznych.html
 
+    - title: Rozliczenie kosztów materiałowych grup zleceń
+      output: web
+      url: /rozliczenie-kosztow-mat-grup-zlecen.html
+
   - title: Parametry
     output: web
     folderitems:
