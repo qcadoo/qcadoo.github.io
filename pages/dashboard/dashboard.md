@@ -47,7 +47,7 @@ Ten element dashboardu ma na celu szybkie pokazanie Ci co masz zaplanowane do re
 <br/>
 <br/>
 
-{% include callout.html content="Jeśli chcesz, aby obszar zleceń/zadań rozciągnięty był na całą wysokość ekranu, wyłącz w parametrach Wykres dzienny produkcji i dla każdego przycisku ustaw by był niewidoczny." type="warning" %}
+{% include callout.html content="Jeśli chcesz, aby obszar zleceń/zadań rozciągnięty był na całą wysokość ekranu, wyłącz w parametrach *Wykres dzienny produkcji* i dla każdego *przycisku* ustaw, by był niewidoczny." type="warning" %}
 
 W zależności od statusu zlecenie wskakuje do właściwej grupy::
 - jeśli zlecenia mają status _zaakceptowane_ lub _przerwane_ to prezentowane są w grupie **oczekujące**
