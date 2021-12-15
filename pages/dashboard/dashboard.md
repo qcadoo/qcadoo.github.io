@@ -47,6 +47,8 @@ Ten element dashboardu ma na celu szybkie pokazanie Ci co masz zaplanowane do re
 <br/>
 <br/>
 
+{% include callout.html content="Jeśli chcesz, aby obszar zleceń/zadań rozciągnięty był na całą wysokość ekranu, wyłącz w parametrach Wykres dzienny produkcji i dla każdego przycisku ustaw by był niewidoczny." type="warning" %}
+
 W zależności od statusu zlecenie wskakuje do właściwej grupy::
 - jeśli zlecenia mają status _zaakceptowane_ lub _przerwane_ to prezentowane są w grupie **oczekujące**
 - jeśli zlecenia mają status _rozpoczęte_ to pojawiają się w grupie **realizowane**
@@ -83,3 +85,15 @@ Z poziomu zadań operacyjnych widocznych na dashboardzie możesz wykonać nastę
 3. klikając przycisk {% include inline_image.html file="przyciskPokazTerminal.png" alt="Przycisk Pokaż terminal" %} **Pokaż terminal** przejdziesz do terminala rejestracji produkcji i będziesz mógł zaraportować efekty swojej produkcji (dane zostaną z automatu wczytane, zostaje Ci podanie ilości, czasu i potwierdzenie meldunku).
 
 {% include callout.html content="Jeśli użytkownik, z którego korzystasz, ma przypisanego pracownika, to zostanie on z automatu wypełniony po przejściu do terminala. Jeśli nie ma - będziesz musiał pracownika ręcznie zalogować i dopiero wówczas wczytają się dane o zadaniu / zleceniu." type="warning" %}
+
+Dodatkowo zarówno zlecenia jak i zadania mogą być filtrowane po następujących danych: 
+- numer produktu
+- nazwa kontrahenta
+- opis
+- kategoria zlecenia
+- numer linii produkcyjnej
+- numer stacji roboczej
+- pracownik
+- numer zlecenia
+
+Aby przefiltrować należy wpisać kryterium w pole Szukaj i nacisnąć Enter.

@@ -135,10 +135,9 @@ Po zamknięciu zleceń z grup spróbujemy pozamykać też zamówienia sprzedaży
 
 4. **Wymagaj asortymentu** - zaznacz parametr jeśli chcesz, by każda grupa zleceń dotyczyła jednego asortymentu i by ten asortyment zawsze był wypełniony
 
-5. **Pozwól na tworzenie PW i RW do grup zleceń** - parametr aktywny jest tylko wówczas, gdy [parametr rejestracji](/parametry-rejestracja-produkcji.html#rejestracja-produkcji) *Twórz dokumenty do rejestracji produkcji* nie jest zaznaczony. Zaznaczenie parametru to włączenie możliwości tworzenia dokumentów RW i PW do grupy zleceń. Dokumenty te tworzone są poprzez ręczne wywołanie funkcji w grupie. A wydane i przyjęte produkty są zapisane w dedykowanych zakładkach w grupie.
+5. **Numer na podstawie wzorca** - zdefiniuj [wzorzec](/wzorce-numerow) i wskaż go w polu. Dzieki temu utworzona grupa zleceń otrzyma numer w stworzonej przez Ciebie konfiguracji
 
-6. **Numer na podstawie wzorca** - zdefiniuj [wzorzec](/wzorce-numerow) i wskaż go w polu. Dzieki temu utworzona grupa zleceń otrzyma numer w stworzonej przez Ciebie konfiguracji
-
+6. **Atrybut wyrobu na wydruku zapotrzebowania materiałowego grupy zleceń** - wartość wskazanego tutaj atrybutu pojawi się na wydruku zapotrzebowania materiałowego grupy zleceń, w nagłówku, w obszarze wyrobów, czyli rodzin produktów, których produkcję zleca dana grupa zleceń
 
 ## Wydruk grupy zleceń
 

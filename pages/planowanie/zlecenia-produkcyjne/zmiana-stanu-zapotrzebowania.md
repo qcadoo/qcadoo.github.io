@@ -57,3 +57,10 @@ Kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="P
 {% include callout.html content="Pamiętaj, że zakładka Atrybuty zasobu, widoczna jest tylko dla produktów wytwarzanych." type="info" %}
 
 Jeśli zlecenie produkcyjne pochodzi z [zamówienia sprzedaży](/zlecenia-nadrzedne.html#dodanie-nowego-zamówienia-sprzedaży), w którym atrybuty były określone, to produkt finalny zlecenia będzie miał je wypełnione. Zlecenie produkcyjne przekaże atrybuty dalej, do kolejnych etapów procesu - zobaczysz je na karcie pracy, w terminalu rejestracji produkcji czy w rekordzie rejestracji. A z rekordu rejestracji będą przekazane na tworzony dokument PW. A z dokumentu z kolei - to kształtującego stan magazynowy zasobu. 
+
+--- 
+## Ręczne wydanie materiałów do zlecenia produkcyjnego
+
+Jeśli chcesz wydawać materiały ręcznie do zlecenia produkcyjnego zacznij od ustawienia [parametru rejestracji](/parametry-rejestracja-produkcji.html#rejestracja-produkcji) **Wydanie materiałów** na ręcznie do zlecenia / grupy. Dzięki temu w szczegółowym zapotrzebowaniu będzie aktywny przycisk {% include inline_image.html file="przyciskWydajSurowce.png" alt="Przycisk Wydaj surowce" %} **Wydaj surowce**. Zaznacz materiały, które chcesz rozchodować (zielone wiersze w szczegółowym zapotrzebowaniu, czyli produkty o typie = surowiec i roli = użyty) i kliknij przycisk. Spowoduje to utworzenie dokumentu magazynowego RW na zaznaczone produkty, w ilościach pozostałych do wydania (ilość wyliczona jako różnica między ilością planowaną a już użytą). Dokument RW będzie miał przypisanie do zlecenia produkcyjnego. W szczegółowym zapotrzebowaniu zostaną ustawione odpowiednio ilości użyte. W rejestracji produkcji będą widoczne produkty wejściowe, potrzebne do realizacji zlecenia, ale pracownik nie będzie mógł zaraportować zużycia.
+
+{% include callout.html content="Jeśli chcesz wydać więcej niż pierwotnie zaplanowano, wejdź w dany produkt i zwiększ mu ilość planowaną. Dzięki temu będziesz mógł ponownie przeprowadzić proces wydania materiału." type="info" %}

@@ -101,9 +101,7 @@ Grupa zleceń zmienia status realizacji poprzez zmianę statusu zleceń, które 
 
 Jeśli chcesz, aby dokumenty RW tworzone były na całą grupę zleceń, a nie do każdego zlecenia z osobna, skorzystaj z opcji wydawania dostępnej w szczególe grupy.
 
-Zacznij od odpowiedniej konfiguracji:
-- wejdź w parametry > parametry rejestracji > zakładka Rejestracja prod. i wyłącz parametr: **Twórz dokumenty do rejestracji produkcji**
-- wejdź w parametry > parametry planowania > zakładka Grupa zleceń i włącz parametr **Pozwól na tworzenie PW i RW do grup zleceń**
+Zacznij od odpowiedniej konfiguracji. Wejdź w parametry > parametry rejestracji > zakładka Rejestracja prod. i dla **Wydanie materiałów** ustaw = ręcznie do zlecenia / grupy.
 
 Dzięki temu w grupie zleceń zobaczysz:
 - zakładkę Wydane materiały
@@ -150,9 +148,8 @@ Aby mieć pewność, że dane o wydanych materiałach w grupie zleceń są najś
 ---
 ## Przyjmowanie wyrobów do grupy zleceń
 
-Jeśli nie chcesz, aby dokumenty PW dotyczyły każdego wykonywanego zlecenia, tylko chcesz wyroby przyjować na magazyn zbiorczo do grupy zleceń ustaw:
-- [parametr rejestracji](/parametry-rejestracja-produkcji.html#rejestracja-produkcji) *Twórz dokumenty do rejestracji produkcji* = nie
-- [parametr grupy zleceń](/parametry-planowania.html#grupy-zleceń) *Pozwól na tworzenie PW i RW do grup zleceń* = tak
+Jeśli nie chcesz, aby dokumenty PW dotyczyły każdego wykonywanego zlecenia, tylko chcesz wyroby przyjować na magazyn zbiorczo do grupy zleceń ustaw [parametr rejestracji](/parametry-rejestracja-produkcji.html#rejestracja-produkcji) *Przyjęcie wyrobów* = ręcznie do grupy zleceń.
+
 
 Dzięki temu będziesz mógł wywołać funkcję {% include inline_image.html file="przyciskPrzyjmijWybory.png" alt="Przycisk Przyjmij wybory" %} **Przyjmij wyroby** na podstawie zgromadzonych informacji w [rekordach rejestracji](/rejestracja-produkcji) o wytworzonych produktach. 
 

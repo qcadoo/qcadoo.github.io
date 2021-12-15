@@ -20,3 +20,18 @@ Uzupełnij następujące informacje:
 - **forma** - możesz wskazać z jakiej formy trzeba korzystać przy produkcji danego modelu
 - **rodzaj wyrobu** -  do wyboru ze słownika. Użyj jeśli produkujesz różnego rodzaju wyroby i chcesz pokazać pracownikom do jakiej grupy należy ten model (np. spodnie, koszulki i bluzy)
 - **etykieta** - możesz do modelu przypisać etykietę, która powinna zostać do wyrobu użyta
+
+## Jak zaimportować modele z Excela?
+
+qcadoo MES pozwala na zaciągnięciu wielu danych z arkusza Excel. Sposób działania w każdym z miejsc jest dokładnie taki sam - opis znajdziesz w [tej dokumentacji](/import-z-excel). Poszczególne funkcjonalności różnią się tylko szablonem, który trzeba wypełnić.
+
+Aby zaimportować modele (i pobrać szablon do wypełnienia) wejdź w **Produkty > Modele** i kliknij przycisk {% include inline_image.html file="przyciskImportujModele.png" alt="Przycisk Importuj modele" %} **Importuj modele z XLSX**.
+
+Arkusz .xlsx do importu modeli zawiera następujące kolumny:
+- **nazwa** (kolumna A) - nazwa modelu musi być unikalna,
+- **asortyment** (kolumna B) - numer [asortymentu](/asortymenty) zdefiniowanego w qcadoo,
+- **forma** (kolumna C) - numer [formy](/formy) zdefiniowanej w qcadoo,
+- **rodzaj wyrobu** (kolumna D) - rodzaj wyrobu, zdefiniowany w [słownikach](slowniki) qcadoo,
+- **etykieta** (kolumna E) - numer [etykiety](/etykiety) zdefiniowanej w qcadoo.
+
+
