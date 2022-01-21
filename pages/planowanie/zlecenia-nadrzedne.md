@@ -16,6 +16,8 @@ Zamówienia sprzedaży mogą być wykorzystywane albo do zaewidencjonowania zam�
 
 {% include callout.html content='Jeżeli określisz "Termin ostateczny" to wówczas termin w każdym zleceniu produkcyjnym wchodzącym w skład tego zamówienia sprzedaży będzie musiał być taki sam.' type="info" %}
 
+{% include callout.html content='Jeżeli określisz "Jeśli pracujesz z planami sprzedaży, to produkcję, którą zamierzasz wytworzyć w celu zwiększenia stanu magazynowego, zapisz jako zamówienie sprzedaży z oznaczonym parametrem Zamówienie na magazyn. Dzięki temu w planie będzie robita ilość zamówiona - osobno pokażemy ile zamówili klienci i osobno ile będzie produkowane na zapas.' type="info" %}
+
 {% include lightbox.html file="planowanieZamowieniaDodajPozycje.png" alt="Formularz dodawania produktu do zamówienia sprzedaży" caption="Formularz dodawania produktu do zamówienia sprzedaży" class="float-right" %}
 
 {:start="3"}

@@ -125,3 +125,5 @@ Parametry dotyczą zachowania się [stanów minimalnych](/stan-min).
 
 2. **Pobierz zlecenia zaplanowane na ... dni** - jeśli zaznaczyłeś powyższy parametr, musisz podać na ile dni do przodu zlecenia mają wpływać na analizę dostępnych stanów pod stany minimalne
 
+3. **Uwzględnij stan minimalny przy tworzeniu zleceń produkcyjnych** - zaznacz parametr, a podczas zlecania produkcji do zamówień sprzedaży z uwzględnieniem ilości mogących być pobrane z magazynu, zlecana była taka ilość, by zachować zaplanowany na magazynie stan minimalny
+

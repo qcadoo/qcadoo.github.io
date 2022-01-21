@@ -9,7 +9,7 @@ Terminal rejestracji produkcji może ułatwić zbieranie danych z działów prod
 
 Zanim rozpoczniesz pracę w terminalu musisz kilka rzeczy skonfigurować:
 
-{% include lightbox.html file="rejestracjaParametry.png" alt="Parametry rejestracji" caption="Parametry rejestracji produkcji" class="float-right" %}
+{% include lightbox.html file="administracjaParametryRejestracjaProdukcji.png" alt="Parametry rejestracji" caption="Parametry rejestracji produkcji" class="float-right" %}
 
 {% include lightbox.html file="administracjaParametryTerminal.png" alt="Parametry terminala" caption="Parametry terminala" class="float-right" %}
 
@@ -55,14 +55,14 @@ Jeśli **plany oparte są o zlecenia produkcyjne** to pracownik może wskazać t
 
 {% include lightbox.html file="rejestracjaTerminalWybierzZlecenie.png" alt="Wybierz zlecenie" caption="Okno wyboru zlecenia produkcyjnego w terminalu" %}
 
-W tym trybie możemy rejestrować tylko zlecenia raportowane zbiorczo. W oknie widoczne są zlecenia wskazanego w terminalu działu. Jeśli dział pusty - widzimy wszystkie zlecenia. "Wszystkie" - czyli te, które są rozpoczęte i zaplanowane na dziś. I znowu: "dziś" - czyli na moment daty rozpoczęcia ustawiony w obszarze _Czas pracy_ w terminalu. 
+W tym trybie możemy rejestrować tylko zlecenia raportowane zbiorczo. W oknie widoczne są zlecenia wskazanego w terminalu działu i linii produkcyjnej. Jeśli dane te nie są podane - widzimy wszystkie zlecenia. "Wszystkie" - czyli te, które są rozpoczęte i zaplanowane na dziś. I znowu: "dziś" - czyli na moment daty rozpoczęcia ustawiony w obszarze _Czas pracy_ w terminalu. 
 Aby zaciągnąć zlecenie do terminala wystarczy je zaznaczyć i kliknąć _Wybierz_. Zlecenia możesz filtrować wpisując dowolny tekst w polu wyszukiwania (prawy górny róg) - program szuka po wszystkich widocznych w tabeli informacjach. Podczas filtrowania możesz użyć * (gwiazdki) zastępując nią dowolny ciąg znaków. Możesz również pomóc sobie w wyszukiwaniu zleceń, korzystając z kryteriów filtrowania umieszczonych u góry okna. Zlecenia zrealizowane mogą nie być w oknie pokazywane. Zrealizowane to takie, dla których ilość wyprodukowana jest co najmniej taka jak ilość planowana. Ponadto - możesz nie widzieć w oknie tych zleceń, które do realizacji pobrał inny pracownik. A także - widzieć tylko te, które aktualnie są realizowane lub aktualnie nie są realizowane.
 
 Jeśli natomiast **plany oparte są o zadania operacyjne**, to pracownik wybiera aktualnie realizowaną czynność z listy dostępnej pod przyciskiem **Wybierz zadanie**
 
 {% include lightbox.html file="rejestracjaTerminalWybierzZadanie.png" alt="Wybierz zadanie" caption="Okno wyboru zadania operacyjnego w terminalu" %}
 
-Pracownik widzi swoje zadania operacyjne zaplanowane na daną zmianę (o statusie rozpoczęte) i na stację wczytaną do terminala. Do tego lista rozszerzana jest o zadania nie przypisane do żadnego pracownika i do żadnej stacji. Domyślnie w oknie zadań widoczne są te, które jeszcze nie zostały w pełni zrealizowane (czyli dla których ilość wyprodukowana jest mniejsza od ilości zleconej). Odznaczając parametr **Nie pokazuj zadań zrealizowanych** lista zostanie poszerzona o zadania zrealizowane, ale nadal ze statusem rozpoczęte. Dzięki temu można dorejestrować produkcję. Aby zaciągnąć zadanie do terminala wystarczy je zaznaczyć i kliknąć _Wybierz_. Na podstawie zadania namierzymy zlecenie i jego operację. I na ich podstawie uzupełnimy pozostałe dane w terminalu. 
+Pracownik widzi swoje zadania operacyjne zaplanowane na daną zmianę (o statusie rozpoczęte) i na stację wczytaną do terminala (jeśli stacja nie jest podana, to zadania ograniczone są do działu). Do tego lista rozszerzana jest o zadania nie przypisane do żadnego pracownika i do żadnej stacji. Domyślnie w oknie zadań widoczne są te, które jeszcze nie zostały w pełni zrealizowane (czyli dla których ilość wyprodukowana jest mniejsza od ilości zleconej). Odznaczając parametr **Nie pokazuj zadań zrealizowanych** lista zostanie poszerzona o zadania zrealizowane, ale nadal ze statusem rozpoczęte. Dzięki temu można dorejestrować produkcję. Aby zaciągnąć zadanie do terminala wystarczy je zaznaczyć i kliknąć _Wybierz_. Na podstawie zadania namierzymy zlecenie i jego operację. I na ich podstawie uzupełnimy pozostałe dane w terminalu. 
 
 Domyślnie w liście zadań nie pojawiają się te, których wykonać nie można, z uwagi na nieukończone procesy poprzedzające daną czynność. Aby zobaczyć komplet zaplanowanych zadań odznacz parametr **Nie pokazuj zadań blokowanych przez poprzednie czynności** - pojawią się również te zadania, dla których wykonanie poprzedniej operacji jest niższe niż 100%. I będzie można je wczytać do terminala i zarejestrować produkcję.
 
@@ -105,11 +105,6 @@ Jeśli chcesz zobaczyć co już dziś wyprodukowałeś i zarejestrowałeś klikn
 {% include lightbox.html file="rejestracjaTerminalDostepnoscSurowcow.png" alt="Dostępność surowców" caption="Dostępność surowców potrzebnych do produkcji" class="float-right" %}
 
 O tym jakie produkty będą potrzebne do realizacji produkcji pracownik może dowiedzieć się z obszaru **Produkty wejściowe**. Nie znajdzie tam jednak informacji o tym, czy dany produkt znajduje się na magazynie i w jakiej ilości (weryfikacja taka może być konieczna w przypadku przesuwania surowców na magazyn działowy - jeśli stan nie jest wystarczający, to zapewne przesunięcie jeszcze nie zostało zrealizowane i warto skonsultować sytuację z magazynem). W tym celu został dodany przycisk {% include inline_image.html file="przyciskDostepnoscSurowcow.png" alt="Przycisk Dostępność surowców" %} **Dostępność surowców**. Uruchamia on okno z wszystkimi surowcami potrzebnymi pod dane zlecenie (przycisk uaktywnia się po wybraniu zlecenia w terminalu) i z informacją o stanie na magazynie zdefiniowanym w [przepływach technologii](/technologie-szczegoly.html#przepływy-technologii) (innymi słowy - na magazynie, z którego zaplanowane jest rozchodowanie surowca do produkcji).
-
-Z poziomu okna możesz ustalić dodatkowo 3 informacje:
-- na jakich innych magazynach, niż ten z którego nastąpi rozchód pod zlecenie, dostępny jest dany surowiec - zaznacz wiersz w tabeli i kliknij przycisk {% include inline_image.html file="przyciskPokazDostepnoscWeWszystkichMagazynach.png" alt="Przycisk Pokaż dostępność we wszystkich magazynach" %} **Pokaż dostępność we wszystkich magazynach**
-- czy dostępne są zamienniki danego produktu - zaznacz wiersz w tabeli i kliknij przycisk przycisk {% include inline_image.html file="przyciskPokazStanyZamiennikow.png" alt="Przycisk Pokaż stany zamienników" %} **Pokaż stany zamienników**
-- jakie zasoby danego surowca znajdują się na magazynie. Czego dzięki temu można się dowiedzieć? Np. na jakich stanach magazynowych składowane są produkty, albo w jakich partiach, albo z jakimi datami ważności. W tym celu kliknij przycisk {% include inline_image.html file="przyciskPokazZasobyMagazynu.png" alt="Przycisk Pokaż zasoby magazynu" %} **Pokaż zasoby magazynu**
 
 ---
 

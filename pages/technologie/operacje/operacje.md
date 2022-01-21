@@ -8,9 +8,9 @@ Operacje gromadzą opisy wszystkich prac realizowanych na produkcji, wykonywanyc
 
 ## Dodawanie nowej operacji ##    
 
-{% include lightbox.html file="technologie-operacja-główna.png" alt="Formularz operacji" caption="Formularz operacji" class="float-right" %}
+{% include lightbox.html file="technologie-operacja-glowna.png" alt="Formularz operacji" caption="Formularz operacji" class="float-right" %}
 
-Aby dodać nową operację wybierz: **TECHNOLOGIE > Operacje** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy" %} **Dodaj nowy** i uzupejnij koniecznie - **numer** i **nazwę**. Pamiętaj, że numer nie musi być liczbą - może to być skrótowa nazwa operacji, jedno słowo, po którym pracownicy będą wiedzieli co jest do wykonania
+Aby dodać nową operację wybierz: **TECHNOLOGIE > Operacje** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy" %}**Dodaj nowy** i uzupejnij koniecznie - **numer** i **nazwę**. Pamiętaj, że numer nie musi być liczbą - może to być skrótowa nazwa operacji, jedno słowo, po którym pracownicy będą wiedzieli co jest do wykonania
 
 Ponadto możesz uzupełnić:
 - **opis** - jeśli chcesz zostawić szczegółowe informacje odnośnie sposobu wykonania czynności
@@ -62,3 +62,9 @@ Możesz dodatkowo wskazać następujące dane:
 {% include callout.html content="Dane: TPZ, TJ, ile w cyklu i dodatkowy czas to informacje zapisywane w zakładce [normy czasowe](/normy-czasowe) operacji." type="warning" %}
 
 Tak przygotowany plik zaciągnij do qcadoo i wykonaj funkcję importu. W razie błędów - przeanalizuj logi, popraw dane w pliku i spróbuj ponownie.
+
+## Ustalenie w jakiej technologii jest wykrzystana operacja
+
+Załóżmy, że przeanalizowałeś (np. w [analizie czasu trwania operacji](/analiza-czasu-trwania-operacji)) ile faktycznie trwa wykonanie na produkcji danej operacji. Okazuje się, że przyjęte normy czasowe nie są aktualne. I chciałbyś nanieść poprawki. Najłatwiej będzie w tym celu użyć funkcji [zbiorczej zmiany parametrów technologii](/zmiana-parametrow). Tylko jakie technologie zmienić? Z pomocą przyjdzie możliwość zobaczenia w jakich technologiach użyta jest dana operacja. Wejdź do operacji i kliknij przycisk {% include inline_image.html file="przyciskPokazTechnologieWykorzystujaceOperacje.png" alt="Przycisk Pokaż technologie wykorzystujące operacje" %} **Pokaż technologie wykorzystujące operacje**. W uruchomionym oknie zobaczysz listę technologii, w których drzewach użyta została ta operacja:
+
+{% include lightbox.html file="technologieOperacjeOperacjeWykorzystaneWTechnologiach.png" alt="Technologie wykorzystujące daną operację" caption="Technologie wykorzystujące daną operację" %}

@@ -862,6 +862,10 @@ entries:
       output: web
       url: /rozliczenie-kosztow-mat-grup-zlecen.html
 
+    - title: Analiza czasu trwania operacji
+      output: web
+      url: /analiza-czasu-trwania-operacji.html
+
   - title: Parametry
     output: web
     folderitems:

@@ -171,3 +171,16 @@ Proces jest następujący:
 Zlecenie produkcyjne może być podzielone na mniejsze części - [paczki](/paczki). I każda z tych paczek może być realizowana osobno, przez innego pracownika. Paczki mogą generować się z automatu w momencie rozpoczynania zlecenia. Możesz też wydzielić je ręcznie z listy **planowanie > paczki zlecenia**. Ale możesz też generować je ręcznie w liście paczek wywołanej z poziomu zlecenia lub z poziomu grupy zleceń.
 
 Aby przejść do paczek z poziomu grupy zaznacz w grupie w zakładce **Zlecenia** te, dla których paczki Cię interesują. Kliknij przycisk {% include inline_image.html file="przyciskPaczkiZlecenia.png" alt="Przycisk Paczki zlecenia" %} **Paczki zlecenia**. Jeśli paczki istnieją - to będziesz mógł je w uruchomionym oknie podejrzeć. Jeśli nie - wygeneruj je klikajac przycisk {% include inline_image.html file="przyciskWygenerujPaczki.png" alt="Przycisk Wygeneruj paczki" %} **Wygeneruj paczki**.
+
+---
+
+## Zestawienie produktów do wytworzenia
+
+Zestawienie może być wygenerowane po to, by ułatwić pracownikom produkcji raportowanie produkcji. Jest to raport w Excelu, z wydzielonymi arkuszami dla każdej rodziny produktu z danej grupy zleceń. W każdym arkuszu widzimy komplet produktów z tej rodziny, wraz z niezbędnymi informacjami o nich i z miejscem do zapisania ile już zostało wykonane i kiedy. 
+
+Aby wygenerować raport wejdź w grupę zleceń i kliknij przycisk {% include inline_image.html file="przyciskZestawienieProduktowDoWytworzenia.png" alt="Przycisk Zestawienie produktów do wytworzenia" %} **Zestawienie produktów do wytworzenia**
+
+{% include lightbox.html file="planowanieGrupyZlecZestawienieProduktowDoWytworzeniaXLSX.png" alt="Zestawienie produktów do wytworzenia" caption="Zestawienie produktów do wytworzenia" %}
+
+
+

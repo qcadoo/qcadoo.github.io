@@ -140,7 +140,7 @@ Wprowadzony plan sprzedaży otrzymuje status **szkic**. To plan, z którym może
 
 ### Prezentacja zamówionych ilości 
 
-Ilości planowane możesz zestawić z ilościami zamówionymi. Kliknij przycisk {% include inline_image.html file="przyciskPobierzZamowioneIlosci.png" alt="Przycisk Pobierz zamówione ilości" %} **Pobierz zamówione ilości**, a w tabeli produktów planu przeliczone zostaną ilości zamówione i nadwyżki. Ilości zamówione pobierane są z powiązanych zamówień sprzedaży. Ilość zamówiona to zsumowana ilość dla wszystkich odnalezionych w zamówieniach pozycji z danym produktem lub z produktami należącymi do rodziny produktu (jeśli to rodzina znalazła się w planie).
+Ilości planowane możesz zestawić z ilościami zamówionymi. Kliknij przycisk {% include inline_image.html file="przyciskPobierzZamowioneIlosci.png" alt="Przycisk Pobierz zamówione ilości" %} **Pobierz zamówione ilości**, a w tabeli produktów planu przeliczone zostaną ilości zamówione i nadwyżki. Ilości zamówione pobierane są z powiązanych zamówień sprzedaży. Ilość zamówiona to zsumowana ilość dla wszystkich odnalezionych w zamówieniach pozycji z danym produktem lub z produktami należącymi do rodziny produktu (jeśli to rodzina znalazła się w planie). Natomiast zamówione na magazyn to analogiczna suma ilości z zamówień sprzedaży z zaznaczonym parametrem Zamówienie na magazyh.
 
 {% include callout.html content="Aby powiązać zamówienia sprzedaży z planem wystarczy w szczegółach zamówienia wypełnić pole: plan sprzedaży." type="warning" %}
 
