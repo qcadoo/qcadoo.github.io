@@ -95,6 +95,35 @@ Grupa zleceń zmienia status realizacji poprzez zmianę statusu zleceń, które 
 
 3. rozpoczynanie zleceń związanych z daną grupą - wejdź w szczegóły grupy i kliknij przycisk: {% include inline_image.html file="przyciskRozpocznijZlecenia.png" alt="Przycisk Rozpocznij zlecenia" %} **Rozpocznij zlecenia**
 
+---
+## Tworzenie nowej wersji technologii
+
+Funkcja będzie szczególnie przydatna, gdy:
+- korzystasz z technologii rodziny produktów i w grupie zleceń masz wiele zleceń realizowanych wg tej samej technologii
+- często, nawet już po uruchomieniu produkcji, zmienia się lista potrzebnych materiałów lub normy ich zużycia.
+
+Tworzenie nowej wersji technologii pozwala na szybką podmianę potrzebnych materiałów do produkcji. W efekcie utworzona w ten sposób technologia zostaje zaktualizowana w zaznaczonych zleceniach. Ważne jest, że możesz modyfikację przeprowadzić wielokrotnie. Ale nie zawsze. Kiedy zmiana technologii nie będzie możliwa?:
+- gdy do zlecenia istnieje rekord rejestracji produkcji,
+- gdy zlecenie ma status: zakończone, odrzucone lub zaniechane.
+
+Aby utworzyć nową wersję technologii w zleceniach grupy wejdź w grupę zleceń (**Planowanie > Grupy zleceń**) i przejdź do zakładki: zlecenia. Zaznacz zlecenia, w których chcesz zmienić listę potrzebnych produktów. Ważne, żeby wszystkie zaznaczone zlecenia korzystały z tej samej technologii. 
+
+{% include lightbox.html file="planowanieGrupyZlecenZleceniaZaznaczone.png" alt="Zaznaczone zlecenia do zmiany technologii" caption="Zaznaczone zlecenia do zmiany technologii" %}
+
+Kliknij przycisk {% include inline_image.html file="przyciskUtworzNowaWersjeTechnologii.png" alt="Przycisk Utwórz nową wersję technologii" %} **Utwórz nową wersję technologii**:
+
+{% include lightbox.html file="planowanieGrupaZlecenNowaWersjaTechnologii.png" alt="Nowa wersja technologii" caption="Nowa wersja technologii" %}
+
+W tabeli widoczne są wszystkie produkty wejściowe technologii. Możesz:
+- usunąć produkt,
+- dodać nowy - działając bardzo podobnie jak przy dopisywaniu produktu do technologii. Z tą różnicą, że musisz podać w jakiej operacji materiał będzie zużywany,
+- zmodyfikować normy ilościowe danego produktu.
+
+Po przeprowadzonych zmianach zatwierdź klikając przycisk {% include inline_image.html file="przyciskZapiszIPodmien.png" alt="Przycisk Zapisz i podmień" %} **Zapisz i podmień**.
+
+{% include callout.html content="Nowa wersja technologii tworzy się już w momencie kliknięcia przycisku _Utwórz nową wersję technologii_. Przycisk _Zapisz i podmień_ akceptuje ją i wprowadza do zlecenia produkcyjnego." type="info" %}
+
+
 --- 
 
 ## Wydawanie materiałów do grupy zleceń

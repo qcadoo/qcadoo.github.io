@@ -51,6 +51,8 @@ W zakładce znajdują się parametry konfigurujące [produkty](/produkty).
 
 2. **Kopiuj koszt nominalny z rodziny na produkty rozmiarowe** - zaznacz parametr jeśli chcesz, aby podczas generowania produktów rozmiarowych, został skopiowany do nich koszt nominalny z produktu-rodziny.
 
+3. **Uzupełnianie kosztów produktów** - grupa parametrów pozwala na skonfigurowanie automatycznie wywoływanej w nocy (o godzinie 3:00) funkcji aktualizacji kosztów produktów. Aby uruchomić funkcję zaznacz parametr: **Automatycznie wywołuj funkcję uzupełniania kosztów**. Jeśli pracujesz w trybie z integracją z ERP, wybierz co ma być źródłem informacji o kosztach - qcadoo MES czy system zewnętrzny. Przy opcji prowadzenia magazynów w qcadoo, możesz wskazać z jakich magazynów mają być pobierane dokumenty do ustalenia kosztów.
+
 ---
 
 ## Powiadomienia

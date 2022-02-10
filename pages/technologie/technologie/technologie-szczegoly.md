@@ -72,7 +72,11 @@ Po zaznaczeniu operacji w drzewie uzupełnione zostają tabelki z produktami wej
 
 2. W celu dodania produktu wyjściowego wybieramy przycisk {% include inline_image.html file="newIcon16.png" alt="Nowy" %} "Nowy" w tabelce **"Produkty wyjściowe"**. 
 
-3. Przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Produkt" dodawany do produktów wyjściowych. Podajemy następnie ilość, jaką produkuje operacja i wybieramy przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. Możemy dodatkowo oznaczyć produkt
+3. Przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Produkt" dodawany do produktów wyjściowych. Podajemy następnie ilość, jaką produkuje operacja i wybieramy przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. Możemy dodatkowo oznaczyć produkt jako odpad, wtedy, gdy produkt będzie efektem tej operacji, ale nie będzie to produkt dla którego organizujemy tą produkcję (czyli będzie to produkt wytwarzany przy okazji, nadający się do dalszego przetworzenia lub nie nadający).
+
+{% include callout.html content="W danej operacji może być tylko jeden produkt wyjściowy, który nie jest odpadem i dowolnie wiele produktów, które są odpadem." type="info" %}
+
+{:start="4"}
 
 4. W ostatniej operacji w drzewie, produkującej ostateczny produkt technologii, zostanie dodany automatycznie produkt finalny całej technologii. 
 
@@ -230,6 +234,7 @@ Jakie magazyny musisz określić:
 Możesz też wskazać dodatkowe informacje:
 - **magazyn rozchodowania nadmiarowych surowców** - jeśli przesuwasz do produkcji surowce na magazyn działowy (korzystając z [wydań wewnętrznych](/wydania-wewnetrzne)) to możesz podać na jaki magazyn mają być zwrócone produkty przesunięte, a nie zużyte. Dokument MM (z magazynu pobrania surowców na magazyn wskazany tutaj) utworzy się w momencie zakończenia zlecenia,
 - **magazyn produkcji w toku** - jeśli chcesz aby produkty będące efektami operacji, były przyjmowane na magazyn, to ustaw przepływ produkcji w toku = magazyn i podaj na jaki magazyn półprodukty mają być przymowane. Z magazynu tego program rozchoduje również półprodukty wskazane jako zużyte w kolejnych operacjach. Opcja dostępna jest tylko dla rejestracji z dokładnością do operacji.
+- **magazyn przyjmowania odpadów** - jeśli chcesz, aby produkty wyjściowe oznaczone jako odpady były przyjmowane na stan, to podaj magazyn w tym polu.
 
 
 ## Zakończenie tworzenia technologii ##
@@ -255,6 +260,8 @@ O nieprawidłowościach poinformujemy Cię komunikatami. Mogą pojawić się nas
 - albo w trakcie tworzenia technologii została zmieniona wartość pola Reprezentuje w produkcie
 - albo technologia produktu rodziny została skopiowana przy okazji tworzenia technologii na konkretny produkt 
 - albo technologia produktu rodziny została wykorzystana do utworzenia nowych, na konkretne produkty, z poziomu generatora
+
+7. **W operacji X na poziomie Y w produktach wejściowych należy uzupełnić ilości.** --> technologia szkicowa może nie mieć podanej normy ilościowej materiałów. Ale aby móc przejść dalej, do technologii sprawdzonej i zaakceptowanej, ilości muszą zostać uzupełnione. Komunikat wskazuje miejsce w drzewie, w których należy uzupełnić dane.
 
 
 Jeśli mamy pewność wprowadzonych danych możemy od razu nadać jej status {% include inline_image.html file="startIcon24.png" alt="Akceptacja" %} **Zaakceptowana**. Tylko zaakceptowane technologie mogą zostać użyte w zleceniu produkcyjnym.

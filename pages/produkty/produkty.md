@@ -210,6 +210,8 @@ Jeśli masz włączoną integrację to podaj, czy chcesz aktualizować koszty na
 
 {% include callout.html content="Jeśli masz bardzo dużo produktów i bardzo dużo dokumentów, to czas trwania może być dłuższy niż innych znanych Ci funkcjonalności." type="warning" %}
 
+{% include callout.html content="Funkcja uzupełniania kosztów może być wywoływana automatycznie w nocy - dzięki temu zawsze rano koszty produktu będą aktualne. Aby tak się stało, wejdź w [parametry produktów](/parametry-glowna.html#produkty), zaznacz **Automatycznie wywołuj funkcję uzupełniania kosztów** i określ **Źródło kosztów**." type="warning" %}
+
 ## Utwórz wiele zleceń produkcyjnych
 
 Tworzenie zleceń produkcyjnych z poziomu listy produktów zostało opisane szerzej [tutaj](/zlecenia-produkcyjne.html#dodanie-zlecenia-z-poziomu-produktu).

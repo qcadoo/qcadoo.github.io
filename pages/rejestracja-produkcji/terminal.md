@@ -232,6 +232,20 @@ Jeśli chcesz, aby podanie przyczyny było konieczne zaznacz parametr: Wymagaj p
 
 Przyczyny braków przeanalizujesz w [analizie wykonanej produkcji](/analiza-wykonanej-produkcji).
 
+---
+
+{% include lightbox.html file="terminalProduktyWyjscioweMiejscaSkladowania.png" alt="Miejsce składowania" caption="Miejsce składowania" class="float-right"  %}
+
+#### Miejsce składowania
+
+Dla produktu wyjściowego możesz wskazać miejsce składowania oraz paletę, na których produkt będzie ulokowany. Aby to zrobić rozwiń w wierszu produktu menu kontekstowe i kliknij przycisk **Miejsce składowania**.
+
+Wybierz z listy:
+- miejsce składowania - lista będzie ograniczona do miejsc zdefiniowanych na magazynie przyjmującym z [przepływów technologii](/technologie-szczegoly.html#przepływy-technologii). 
+- palety - z listy numerów wcześniej wygenerowanych jako [numery własne palet](/numery-wlasne-palet).
+
+Dane po potwierdzeniu meldunku zostaną przekazane do rekordu rejestracji produkcji. A z niego (czy to na akceptacji, czy na zakończeniu zlecenia) do dokumentu PW i zasobów magazynowych.
+
 
 ---
 ### Partia produktu zleconego

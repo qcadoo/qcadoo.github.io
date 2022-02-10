@@ -19,3 +19,27 @@ W celu dodania firmy należy przejść do **Podstawowe >> Firmy**  i kliknąć *
 
 {% include callout.html content="Jeżeli nasz system jest zintegrowany z zewnętrznym systemem ERP, to istnieje możliwość pobrania listy klientów bezpośrednio do Qcadoo MES." type="info" %} 
 
+## Jak zaimportować firmy z arkusza Excel?
+
+qcadoo MES pozwala na zaciągnięciu wielu danych z arkusza Excel. Sposób działania w każdym z miejsc jest dokładnie taki sam - opis znajdziesz w [tej dokumentacji](/import-z-excel). Poszczególne funkcjonalności różnią się tylko szablonem, który trzeba wypełnić.
+
+Aby zaimportować firmy (i pobrać szablon do wypełnienia) wejdź w **Podstawowe > Firmy** i kliknij przycisk {% include inline_image.html file="przyciskImportujFirmyZXLSX.png" alt="Przycisk Importuj firmy z XLSX" %} **Importuj firmy z XLSX**.
+
+Arkusz do importu zawiera następujące kolumny:
+
+- **numer** (kolumna A) - dana wymagana. Może istnieć tylko jeden kontrahent o danym numerze
+- **nazwa** (kolumna B) - dana wymagana,
+- **NIP** (kolumna C) - dana opcjonalna. Wprowadź NIP w prawidłowym formacie
+- **kod kraju** (kolumna D) - dana opcjonalna. Posłuż się obowiązującymi kodami kraju, np.: PL (Polska), DE (Niemcy), CZ (Czechy) itp. Jeśli masz wątpliwości, wejdź do okna dodawania firmy w qcadoo i wywołaj listę lupką przy polu Kraj,
+- **ulica** (kolumna E) - dana opcjonalna,
+- **nr domu** (kolumna F) - dana opcjonalna,
+- **nr mieszkania** (kolumna G) - dana opcjonalna,
+- **kod pocztowy** (kolumna H) - dana opcjonalna,
+- **miasto** (kolumna I) - dana opcjonalna,
+- **województwo** (kolumna J) - dana opcjonalna,
+- **telefon** (kolumna K) - dana opcjonalna,
+- **email** (kolumna L) - dana opcjonalna,
+- **adres www** (kolumna M) - dana opcjonalna,
+- **osoba kontaktowa** (kolumna N) - dana opcjonalna.
+
+
