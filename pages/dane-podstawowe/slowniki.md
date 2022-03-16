@@ -29,6 +29,7 @@ Dostępne są następujące słowniki:
 - **Rodzaje wyrobu** - służące do doprecyzowania [modelu](/modele)
 - **Ocena jakości** - wykorzystywana do ustalenia jak wygląda efekt [kontroli jakości](/kontrola-jakosci)
 - **Przyczyny braków** - do wykorzystania w [terminalu rejestracji produkcji](/terminal) do określenia co było przyczyną wyprodukowania wyrobu niepełnowartościowego 
+- **Metody próbkowania** - wykorzystywany w [karcie jakości](/karty-jakosci) do określenia co ile produktów ma być poddanych testom
 
 
 Edytować możemy dane w obrębie tych opcji. Aby to zrobić: wybierz jedną z nich, a następnie {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**. Wartości słownikowych nie można edytować i usuwać. Jeśli istniejąca nie jest Ci potrzebna - zdezaktywuj ją.

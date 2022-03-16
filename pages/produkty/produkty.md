@@ -49,6 +49,8 @@ Tak opisany produkt możesz zapisać używając przycisku {% include inline_imag
 
 ---
 
+### Dodatkowe zakładki produktu
+
 W produkcie widocznych jest szereg **dodatkowych zakładek**, w których możesz doszczegółowić dany indeks.
 
 1. zakładka **Rodzina** 

@@ -35,3 +35,8 @@ Wydrukowane numery palet wyglądają tak:
 {% include lightbox.html file="podstawoweNumeryWlasnePaletWydruk.png" alt="Wydruk numerów własnych palety" caption="Wydruk numerów własnych palety" %}
 
 
+Z poziomu listy numerów własnych palet możesz wydrukować też:
+- **kartę palety** - po to, by pracownicy nie mający dostępu do systemu mogli zapisać jakie produkty położyli na jakiej palecie. Wydruk ten jest dedykowany raczej jednorodnym produktom na danej palecie
+- **paleta mix** - po to, by pracownicy mogli zapisać listę różnorodnych produktów umieszczonych na palecie o danym numerze.
+
+

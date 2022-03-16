@@ -31,7 +31,7 @@ Rozpocznij od wskazania **typu zadania** - to on uwarunkuje aktywność pozosta�
 - _zlecenie produkcyjne_ - lista zleceń jest ograniczona do tych raportowanych z dokładnością do operacji. Wskaż to zlecenie, które chcesz rozpisać na zadania operacyjne
 - _operacja w drzewie_ - wskaż operację z technologii, którą używać będziesz we wskazanym wyżej zleceniu. Każda operacja powinna mieć swoje zadanie - aby pracownicy wiedzieli jakie czynności mają zostać wykonane
 - _data rozpoczęcia_ i _data zakończenia_ - zaplanuj w jakim okresie zadanie ma zostać zrealizowane
-- _pracownik_ - możesz wskazać, kto ma się zająć zadaniem
+- _pracownik_ - możesz wskazać, kto ma się zająć zadaniem. Jeśli pracowników przypisanych do zadania ma być więcej, skorzystaj z zakładki Obsada
 - _stacja robocza_ - możesz wskazać na jakiej stacji roboczej (czy to maszynie czy stanowisku) zadanie ma być wykonywane
 
 Na podstawie wskazanego zlecenia produkcyjnego uzupełnią się:
@@ -80,6 +80,20 @@ Czym różnią się zadania operacyjne pochodzące z planu od zadań z czasochł
 Jeśli chcesz raportować realizację operacji, ale nie zależy Ci na dokładnym planowaniu czasowym zadań, możesz przyjąć, że zadania operacyjne będą wykonywane w czasie realizacji zlecenia produkcyjnego. W takim podejściu najłatwiej będzie wygenerować zadania ze zlecenia produkcyjnego. Wejdź do zlecenia produkcyjnego i zaakceptuj je. Kliknij przycisk {% include inline_image.html file="przyciskUtworzZadaniaOperacyjne.png" alt="Utwórz zadania operacyjne" %} **Utwórz zadania operacyjne**. W efekcie do każdej operacji technologii zostaje założone zadanie. Daty rozpoczęcia i zakończenia zadania ustalone są na podstawie dat zlecenia. Zadanie nie ma uzupełnionej stacji roboczej - jeśli masz potrzebę, możesz je uzupełnić.
 
 {% include callout.html content="Zmiana dat w zadaniach operacyjnych może aktualizować daty w powiązanym zleceniu produkcyjnym. Aby tak się stało zaznacz [parametr](/parametry-planowania.html#zadania-operacyjne): **Ustawiaj daty zlelcenia na podstawie dat zadań**." type="warning" %}
+
+## Obsada zadania operacyjnego
+
+{% include lightbox.html file="planowanieZadanieOperacyjneObsada.png" alt="Obsada zadania operacyjnego" caption="Obsada zadania operacyjnego" class="float-right" %}
+
+Obsada to lista pracowników, którzy mają zajmować się realizacją danego zadania. Możesz zatrzymać się na określeniu rzeczywistej ilości pracowników w obsadzie. Ale możesz też przypisać listę konkretnych pracowników, z imienia i nazwiska.
+
+**Minimalna i optymalna ilość pracowników w obsadzie** uzupełniana jest na podstawie [norm czasowych operacji](/normy-czasowe). **Rzeczywista ilość pracowników w obsadzie** podpowiadana jest na podstawie optymalnej obsady. I możesz ją modyfikować w ramach zadania. Czyli standardowo zadanie wykonuje 4 pracowników, ale musicie przyspieszyć, więc delegujesz do niego 6 pracowników. Jeśli w normach czasowych operacji zaznaczony będzie parametr: **Czas jednostkowy zmniejszany dla powiększonej obsady**, to zmiana rzeczywistej obsady, będzie wiązała się z przeliczeniem czasu trwania zadania.
+
+{% include callout.html content="Rzeczywista ilość pracowników w obsadzie nie może być mniejsza od obsady minimalnej. A jeśli jest większa, to musi być jej wielokrotnością." type="warning" %}
+
+Jeśli zadanie ma realizować tylko jeden pracownik, to możesz go wskazać w zakładce **Główna**. Tam podany pracownik będzie wczytany do tabeli w zakładce **Obsada**.
+
+---
 
 ## Statusy zadań operacyjnych
 

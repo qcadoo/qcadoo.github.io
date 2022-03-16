@@ -17,7 +17,7 @@ Domyślnie widoczne są wszystkie aktywne stacje robocze. Możesz:
 - ukryć stacje buforowe, zostawiając [parametr](/parametry-planowania.html#gantt-zadań-operacyjnych) _Stacje buforowe widoczne na wykresie_ niezaznaczony
 - ukryć na czas planowania nieistotne stacje, klikając przycisk {% include inline_image.html file="przyciskXGanttWierszStacji.png" alt="X" %} w wierszu stacji. Usunięte stacje wrócą po ponownym wczytaniu Gantta lub odświeżeniu jego zawartości.
 
-Dane zapisywane są od razu po wprowadzonych zmianach. Jeśli przesuniesz kafelek - efekt od razu będzie widoczny w [liście planowania operacyjnego](/planowanie-operacyjne). Jeśli jednak inny użytkownik doda nowe zadania, czy je zmieni, zobaczysz aktualny stan dopiero po odświeżeniu widoku. Możesz albo ponownie wczytać kalendarz, albo kliknąć przycisk odświeżenia {% include inline_image.html file="przyciskGanttOdswiez.png" alt="Odśwież" %} pod wykresem.
+Dane zapisywane są od razu po wprowadzonych zmianach. Jeśli przesuniesz kafelek - efekt od razu będzie widoczny w [liście zadań operacyjnych](/planowanie-operacyjne). Jeśli jednak inny użytkownik doda nowe zadania, czy je zmieni, zobaczysz aktualny stan dopiero po odświeżeniu widoku. Możesz albo ponownie wczytać kalendarz, albo kliknąć przycisk odświeżenia {% include inline_image.html file="przyciskGanttOdswiez.png" alt="Odśwież" %} pod wykresem.
 
 **Edycja planu** odbywa się poprzez przenoszenie kafelek w czasie (w lewo i w prawo, wzdłuż wiersza stacji) oraz między stacjami (w górę i w dół). Jeśli chcesz dorzucić do planu, coś co znajduje się w buforze - złap myszką wiersz tabeli i przeciągnij w odpowiednie miejsce kalendarza. Czyli standardowy, znany Ci już z planowania na linię, drag&drop. 
 
@@ -27,9 +27,13 @@ Dodatkowo zmiany możesz przeprowadzić z okna edycyjnego. Kliknij w kafelek pra
 
 {% include lightbox.html file="planowanieGanttZadanOperacyjnychEdycja.png" alt="Okno edycyjne" caption="Okno edycyjne" %}
 
-Ten sposób modyfikacji, poza zmianą dat i stacji roboczej, pozwala na przypisanie do zadania [pracownika](/pracownicy).
+Ten sposób modyfikacji, poza zmianą dat i stacji roboczej, pozwala na określenie koniecznej do realizacji zadania obsady o raz na przypisanie do zadania [pracowników](/pracownicy).
+
+{% include callout.html content="Obsada zadania operacyjnego musi być taka sama jak podana w normach operacji obsada minimalna lub musi być jej wielokrotnością. Jeśli w operacji zaznaczono parametr _Czas jednostkowy zmniejszany dla powiększonej obsady_, to zmiana obsady wyznaczy nową długość kafelka." type="info" %}
 
 W menu kontekstowym (wywołanym kliknięciem w kafelek prawym przyciskiem myszy) dostępna jest dodatkowo opcja **Przenieś do niezaplanowanych** - dzięki niej usuniesz zadanie z planu i wrzucisz do bufora.
+
+Z poziomu menu kontekstowego przejdziesz też do widoku szczegółów zadania operacyjnego (przycisk **Przejdź do zadania**) lub do szczegółów zlecenia produkcyjnego (przycisk **Przejdź do zlecenia**).
 
 **Szczegółowe informacje** o zadaniu zaprezentowane są w tooltipie (dymku, chmurce), który pojawia się po najechaniu myszką na kafelek.
 
@@ -77,15 +81,19 @@ Zadania widoczne w planie możesz przeszukiwać używając filtra umieszczonego 
 
 Aby odznaczyć znalezione zadania - wystarczy w nie dwukrotnie kliknąć.
 
+Jeśli chcesz szybko przenieść się do planów aktualnych, kliknij przycisk **dziś** {% include inline_image.html file="przyciskDzisGantt.png" alt="Dziś" %}.
+
 ---
 
 ## Wiersz analizy zasobów
 
-Gantt zadań operacyjnych pozwala analizować sumę ilości zleconych w wierszu analizy zasobów, pod obszarem wykresu. Za pomocą narysowanych słupków zobaczysz zagregowaną ilość, którą musisz wykonać na produkcji, w danych odcinkach czasu:
+Gantt zadań operacyjnych pozwala analizować w wierszu analizy zasobów, pod obszarem wykresu: sumę ilości zleconych oraz potrzebną obsadę. Za pomocą narysowanych słupków zobaczysz zagregowaną ilość, w danych odcinkach czasu:
 
 {% include lightbox.html file="planowanieGanttZadanAnalizaZasobow.png" alt="Analiza zasobów na wykresie Gantta" caption="Analiza zasobów na wykresie Gantta" %}
 
-Wiersz analizy zasobów włączysz w [parametrach](/parametry-planowania.html#gantt-zadań-operacyjnych), zaznaczając: **Analizuj dostępne zasoby** i **ilość planowana**. Jeśli podasz ilość maksymalną, to w momencie, gdy słupek przekroczy tą grancę - zostanie oznaczony kolorem czerwonym. Od razu zauważysz, że plan wykracza poza przyjęte możliwości.
+Wiersz analizy zasobów włączysz w [parametrach](/parametry-planowania.html#gantt-zadań-operacyjnych), zaznaczając: **Analizuj dostępne zasoby**. Wybierz jakie dane chcesz analizować:
+- **ilość planowana**. Jeśli podasz ilość maksymalną, to w momencie, gdy słupek przekroczy tą grancę - zostanie oznaczony kolorem czerwonym. Od razu zauważysz, że plan wykracza poza przyjęte możliwości.
+- **obsada**. Tu też możesz podać ilość maksymalną, po przekroczeniu której Gantt poinformuje, że zaplanowałeś pracę dla wiekszej ilości osób niż powinieneś.
 
 Wiersz analizy sumuje tylko dane z widocznych wierszy stacji. Jeśli zatem analizujesz w ten sposób tylko jeden obszar zakładu - usuń czasowo niepotrzebne stacje.
 

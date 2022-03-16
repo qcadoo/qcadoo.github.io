@@ -14,9 +14,13 @@ Aby dodać kartę jakości wybierz {% include inline_image.html file="newIcon24.
 {% include lightbox.html file="jakoscKartaJakosciNowaGlowna.png" alt="Formularz dodawania karty jakości" caption="Formularz dodawania karty jakości" %}
 
 Zacznij od wypełnienia danych podstawowych w zakładce **Główna**. Podaj:
-- **nazwę** - tak byś wiedział czego karta jakości się tyczy,
-- i ewentualnie **opis**.
-**Numer** nadamy za Ciebie. I zapisz używając przycisku {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**. 
+- **numer**
+- **nazwę** - tak byś wiedział czego karta jakości się tyczy 
+i ewentualnie:
+- **próbkowanie** - wybierz ze [słownika](/slowniki) metod próbkowania. Dzięki temu pracownik KJ będzie wiedział ile produktów w  całej partii musi przetestować
+- **opis**.
+
+I zapisz używając przycisku {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**. 
 
 Kolejny krok to rzecz najważniejsza - przejdź do zakładki **Atrybuty** i skomponuj z dostępnej listy atrybutów zestaw badany w tej karcie jakości.
 

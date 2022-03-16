@@ -24,6 +24,12 @@ Podzielność cyklu:
 - **Produkowana ilość w jednym cyklu jest podzielna** - zaznaczamy to pole, jeśli w jednym cyklu operacji możemy wykonać mniej jednostek produktu, niż to zostało określone w polach po lewej stronie
 - **Ilość cykli jest podzielna** - zaznaczamy to pole, jeżeli przy produkcji ciągłej będziemy produkować mniej produktu wyjściowego niż jest to określone w technologii, wówczas zostanie wykonana tylko część cyklu
 
+Obsada:
+
+- **Min. obsada** - pole określa ilu pracowników będzie koniecznych do realizacji danej operacji. Dla tej ilości pracowników wyznaczane są normy czasowe (Tj, TPZ)
+- **Optymalna obsada** - w polu definiowana jest taka ilość pracowników jaka zazwyczaj zajmuje się czynnością. Na podstawie ilości optymalnej uzupełniana będzie rzeczywista ilość pracowników w obsadzie w zadaniu operacyjnym. Optymalna obsada nie może być mniejsza od minimalnej. A w sytuacji, gdy jest większa - musi być jej wielokrotnością
+- **Czas jednostkowy zmniejszany dla powiększonej obsady** - zaznacz parametr jeśli w sytuacji obsady większej niż minimalna, czas trwania operacji jest proporcjonalnie krótszy (dla przykładu - jedna osoba zmontuje 10 długopisów w 6 minut. Ale dwie osoby 10 długopisów zmontuje w 3 minuty). Zawsze po zmianie rzeczywistej obsady w zadaniu, zostanie przeliczony czas jego trwania
+
 Współczynnik wykorzystania w czasie:
 
 - **Maszyn -** Jaką część czasu całkowitego operacji zajmuje praca maszyn

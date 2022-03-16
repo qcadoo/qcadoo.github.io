@@ -23,7 +23,7 @@ Zamówienia sprzedaży mogą być wykorzystywane albo do zaewidencjonowania zam�
 {:start="3"}
 3. Po uzupełnieniu tych danych wybierz {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**, aby utrwalić podane do tej pory dane.
 
-4. Następnie przejdź do kolejnej zakładki. - "Produkty wyj.", w której określisz jakie produkty i w jakiej ilości będziesz produkować na rzecz tego zamówienia.
+4. Następnie przejdź do kolejnej zakładki. - "Produkty wyj.", w której określisz jakie produkty i w jakiej ilości będziesz produkować na rzecz tego zamówienia. Zamówić można tylko konkretny produkt, a nie produkt-rodzinę.
 
 5. Dodaj jeden lub wiele produktów do zamówienia, klikając {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj Nowy" %} **Nowy**.
 

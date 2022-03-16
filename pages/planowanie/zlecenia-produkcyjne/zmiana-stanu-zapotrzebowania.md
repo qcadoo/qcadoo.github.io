@@ -30,6 +30,10 @@ W zakładce Przepływ uzupełnij magazyny - dzięki temu będą mogły być twor
 
 Magazyny w zakładce będą się podpowiadać. Jeśli w technologii użytej w zleceniu jest zasięg = 1 dział, to podpowiedzą się magazyny podane w nagłówku zakładki Przepływ w technologii. Jeśli natomiast zasięg = wiele działów, to domyślnie ustawią się magazyny przypisane do [działu](/dzialy), w zakładce **Magazyny**.
 
+Dla produktu możesz ustalić też jakie **partie** mają zostać zużyte w procesie produkcji. Nie jest to rezerwacja partii na magazynie, ale plan realizacji produkcji. Przypisane w zakładce Partie dane będą widoczne w:
+- **dostępności surowców w zleceniu produkcyjnym** - zobaczysz czy masz wystarczający stan magazynowy zaplanowanych partii,
+- **terminalu rejestracji produkcji** - pracownik otrzyma informacje w menu kontekstowym do produktu wejściowego.
+
 Po wprowadzeniu danych wybieramy {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz**.
 
 Tabelę ze szczegółowym zapotrzebowaniem możemy zapisać w formie dokumentu w formacie {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %} **PDF** lub {% include inline_image.html file="exportToCsvIcon24.png" alt="Przycisk CSV" %} **CSV**.
@@ -64,3 +68,17 @@ Jeśli zlecenie produkcyjne pochodzi z [zamówienia sprzedaży](/zlecenia-nadrze
 Jeśli chcesz wydawać materiały ręcznie do zlecenia produkcyjnego zacznij od ustawienia [parametru rejestracji](/parametry-rejestracja-produkcji.html#rejestracja-produkcji) **Wydanie materiałów** na ręcznie do zlecenia / grupy. Dzięki temu w szczegółowym zapotrzebowaniu będzie aktywny przycisk {% include inline_image.html file="przyciskWydajSurowce.png" alt="Przycisk Wydaj surowce" %} **Wydaj surowce**. Zaznacz materiały, które chcesz rozchodować (zielone wiersze w szczegółowym zapotrzebowaniu, czyli produkty o typie = surowiec i roli = użyty) i kliknij przycisk. Spowoduje to utworzenie dokumentu magazynowego RW na zaznaczone produkty, w ilościach pozostałych do wydania (ilość wyliczona jako różnica między ilością planowaną a już użytą). Dokument RW będzie miał przypisanie do zlecenia produkcyjnego. W szczegółowym zapotrzebowaniu zostaną ustawione odpowiednio ilości użyte. W rejestracji produkcji będą widoczne produkty wejściowe, potrzebne do realizacji zlecenia, ale pracownik nie będzie mógł zaraportować zużycia.
 
 {% include callout.html content="Jeśli chcesz wydać więcej niż pierwotnie zaplanowano, wejdź w dany produkt i zwiększ mu ilość planowaną. Dzięki temu będziesz mógł ponownie przeprowadzić proces wydania materiału." type="info" %}
+
+---
+## Wykorzystanie zamiennika
+
+W qcadoo surowce mogą mieć przypisane [zamienniki](/produkty.html#dodatkowe-zakładki-produktu) - czyli listę produktów, którą pracownik może wykorzystać, gdy produktu ujętego w technologii nie ma aktualnie na stanie magazynowym. 
+
+{% include lightbox.html file="planowanieSzczegoloweZapotrzebowanieWykorzystajZamiennik.png" alt="Wykorzystanie zamiennika" caption="Wykorzystanie zamiennika" class="float-right" %}
+
+Użycie zamiennika może być zapisane na etapie rejestracji produkcji (i w [rejestracji](/rejestracja-produkcji.html#jak-zarejestrować-wykorzystany-zamiennik) i w [terminalu rejestracji produkcji](/terminal.html#wykorzystaj-zamiennik)). Ale mogą być też dodane już w szczegółowym zapotrzebowaniu zlecenia produkcyjnego. Po co? Np. po to, by już na etapie planów wskazać wykorzystanie innego produktu. Albo by móc zapisać właściwe produkty zużywane w sytuacji ręcznego wydawania produktów do zlecenia produkcyjnego.
+
+O tym jakie produkty mają zdefiniowane zamienniki dowiesz się z kolumny **Istnieje zamiennik**. Aby wprowadzić do szczegółowego zapotrzebowania zamiennik zaznacz produkt z *Istnieje zamiennik* = tak i kliknij przycisk {% include inline_image.html file="przyciskWykorzystajZamiennik.png" alt="Przycisk Wykorzystaj zamiennik" %} **Wykorzystaj zamiennik**. Wskaż **zamiennik** z listy wcześniej zdefiniowanych. I podaj **ilość planowaną** czyli ilość w jakiej zamierzasz zużyć dany produkt. Jeśli dodanie zamiennika powoduje umniejszenie ilości zużycia produktu, z którego wyszedłeś, to możesz tą ilość podać w polu **Zastępuje ilość** - dzięki temu zapis zamiennika skoryguje ilość planowaną produktu pierwotnego.
+
+{% include callout.html content="Jeśli ilość podana w polu **Zastępuje ilość** przewyższa ilość planowaną produktu pierwotenego, to zapis zamiennika nie będzie możliwy." type="warning" %}
+

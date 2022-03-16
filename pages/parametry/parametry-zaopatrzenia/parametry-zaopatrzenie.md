@@ -80,13 +80,15 @@ Jeśli chcesz, abyśmy tworzyli automatycznie [dostawy do stanów minimalnych](/
 
 6. **Magazyn wydający** - jeśli wydanie ma się tworzyć do zlecenia, to musimy wiedzieć z jakiego magazynu będą przesuwane produkty ma magazyny, z których produkty faktycznie będą zużywane (czyli magazyny ustawione w przepływach technologii) 
 
-7. **Wystawiane dokumenty** - określ czy chcesz aby wydanie kończyło się dokumentami MM czy parą WZ - PZ
+7. **Automatyczne wydanie po wygenerowaniu** - zaznacz parametr a po wygenerowaniu wydania wewnętrznego zostanie ono całkowicie wydane. Jesli ustawisz w parametrach niżej, że status dokumentu to szkic, magazynier dostanie gotowy dokument magazynowy, na podstawie którego ma przygotować dane do wydania
 
-8. **Status dokumentów** - wskaż, czy wystawione z wydania dokumenty mają zostać w szkicu, czy od razu zostać zaakceptowane 
+8. **Wystawiane dokumenty** - określ czy chcesz aby wydanie kończyło się dokumentami MM czy parą WZ - PZ
 
-9. **Wydania wewnętrzne rezerwują stany** - zaznacz jeśli chcesz aby lista produktów do wydania była zajęta pod to wydanie. Dzięki temu nikt nie będzie mógł rozchodować tych produktów i mamy pewność, że nam nie zabraknie do produkcji
+9. **Status dokumentów** - wskaż, czy wystawione z wydania dokumenty mają zostać w szkicu, czy od razu zostać zaakceptowane 
 
-10. **Ilość wydana do wysokości potrzeby** - wydanie wewnętrzne może być tylko wyznacznikiem tego w jakiej ilości produkty mają być przesuwane na magazyn. Np. w technologii określono, że potrzebujemy 0,05 m danego materiału. I taka ilość pojawi się w wydaniu. Jednak magazynierzy mogą nie ciąć materiału i wydawać do na działy w całych belkach - więc wiadomo, że ostatecznie wydają np. 50 m. Jeśli chcesz pozwolić na taką możliwość - zostaw parametr nie zaznaczony. Jeśli natomiast chcesz aby magazynier nie mógł wydać więcej niż technologia określa, to parametr powinien zostać zaznaczony - przypilnujemy to podczas wydania.
+10. **Wydania wewnętrzne rezerwują stany** - zaznacz jeśli chcesz aby lista produktów do wydania była zajęta pod to wydanie. Dzięki temu nikt nie będzie mógł rozchodować tych produktów i mamy pewność, że nam nie zabraknie do produkcji
+
+11. **Ilość wydana do wysokości potrzeby** - wydanie wewnętrzne może być tylko wyznacznikiem tego w jakiej ilości produkty mają być przesuwane na magazyn. Np. w technologii określono, że potrzebujemy 0,05 m danego materiału. I taka ilość pojawi się w wydaniu. Jednak magazynierzy mogą nie ciąć materiału i wydawać do na działy w całych belkach - więc wiadomo, że ostatecznie wydają np. 50 m. Jeśli chcesz pozwolić na taką możliwość - zostaw parametr nie zaznaczony. Jeśli natomiast chcesz aby magazynier nie mógł wydać więcej niż technologia określa, to parametr powinien zostać zaznaczony - przypilnujemy to podczas wydania.
 
 ---
 

@@ -21,6 +21,8 @@ W zakładce Główna znajdują się ogólne parametry do technologii.
 
 5. **Akceptowana technologia oznaczana jako domyślna** - zaznacz parametr, gdy nowo powstająca technologia ma w momencie akceptacji stać się technologią domyślną produktu. Dzięki zaznaczeniu parametru flaga: domyślna technologia zostanie ustawiona automatycznie bezpośrednio po akceptacji technologii
 
+6. **Sprawdzaj istnienie cen produktów wejściowych** - zaznacz parametr, a w momencie sprawdzania technologii ustalimy, czy wszystkie produkty wejściowe (surowce) mają zdefiniowane koszty. Przejrzymy ostatnią cenę zakupu, a jeśli tak będzie pusta - zerkniemy w koszt nominalny. O wszystkich brakach cenowych poinformujemy komunikatem
+
 
 ---
 

@@ -146,8 +146,11 @@ Pora na ostatni krok planowania - kliknij {% include inline_image.html file="prz
 
 {% include lightbox.html file="planowaniePlanNaStacjePlanPracownik.png" alt="Pracownicy przypisani do operacji" caption="Pracownicy przypisani do operacji" %}
 
-Operacje ulokowane na stacjach roboczych powinny otrzymać wykonawców. Dobieramy pracownika zgodnie z jego umiejętnościami. Plan zakłada, że w danym momencie pracownik może planowac na rzecz jednej czynności. Operacje czasowo nie są już dostosowywane. Jeśli w danym momencie nie będzie wolnego pracownika - czynność nie zostanie nikomu przypisana. Planista będzie musiał zadbać o obsadę. 
-Brak pracownika przy danej operacji może świadczyć też o nie zdefiniowaniu [umiejętności w operacji](/wymagane-umiejetnosci-operacji) (tutaj - w odróżnieniu od przypisywania stacji i norm czasowych, wystarczy określenie wymaganych umiejętności w technologie > operacje), albo o braku [pracowników o danej umiejętności na określonym poziomie](/pracownicy.html#jak-przypisać-do-pracownika-posiadane-umiejętności).
+Operacje ulokowane na stacjach roboczych powinny otrzymać wykonawców. Dobieramy pracownika na dwa sposoby (w zależności od przyjętego kryterium oceny przypisania pracownika):
+- zgodnie z jego **umiejętnościami**. Plan zakłada, że w danym momencie pracownik może planowac na rzecz jednej czynności. Operacje czasowo nie są już dostosowywane. Jeśli w danym momencie nie będzie wolnego pracownika - czynność nie zostanie nikomu przypisana. Planista będzie musiał zadbać o obsadę. Brak pracownika przy danej operacji może świadczyć też o nie zdefiniowaniu [umiejętności w operacji](/wymagane-umiejetnosci-operacji) (tutaj - w odróżnieniu od przypisywania stacji i norm czasowych, wystarczy określenie wymaganych umiejętności w technologie > operacje), albo o braku [pracowników o danej umiejętności na określonym poziomie](/pracownicy.html#jak-przypisać-do-pracownika-posiadane-umiejętności).
+- zgodnie z **domyślnym pracownikiem** przypisanym do [stacji](/stacje-robocze)
+
+Jeśli z [norm czasowych operacji](/normy-czasowe) wynika, że optymalna obsada operacji jest > 1, to pracownik nie zostanie przypisany. Możesz tego dokonać wprost w [zadaniu operacyjnym](/planowanie-operacyjne.html#obsada-zadania-operacyjnego) w zakładce Obsada lub z poziomu [wykresu Gantta zadań operacyjnych](/gantt-zadan-operacyjnych), z okna edycyjnego.
 
 Jeśli chcesz planować szybciej i nie masz potrzeby weryfikować planu po każdym kroku, użyj przycisku {% include inline_image.html file="przyciskGenerujPlan.png" alt="Przycisk Generuj plan" %} **Generuj plan**, a zostanie przeprowadzony cały proces planowania (wszystkie 3 kroki opisane wyżej na raz).
 
