@@ -13,7 +13,7 @@ Aby zarezerwować zasób konieczne jest uzupełnienie go w pozycji dokumentu.
 
 Aby rezerwacje mogły być tworzone, konieczne jest ustawienie parametrów:
 1. aby szkicowe dokumenty rezerwowały stan, zaznacz parametr **Szkicowe dokumenty rezerwują stan** w definicji [magazynu](/magazyny) --> Magazyn > Magazyny > zakładka: Metoda rozchodu i atrybuty dokumentów w szczegółach danego magazynu
-2. aby wydania wewnętrzne rezerwowały stan, zaznacz parametr **Wydania wewnętrzne rezerwują stany** w parametrach Wydań --> Administracja > Parametry > Zaopatrzenie > zakładka: Wydanie wewnętrzne
+2. aby wydania wewnętrzne rezerwowały stan, zaznacz parametr **Wydania wewnętrzne rezerwują stany** w parametrach Wydań --> Parametry > Parametry zaopatrzenia > zakładka: Wydanie wewnętrzne
 
 Wszystkie rezerwacje wprowadzone na dany moment możesz podejrzeć w Magazyn > Rezerwacje stanów
 

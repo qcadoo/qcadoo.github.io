@@ -34,7 +34,7 @@ Parametry do przesuwania palet znajdziesz [tutaj](/parametry-magazyn#parametry-s
 Jeśli jesteś w stanie określić jaka jest ładowność danej palety, to będziemy w stanie pokazać Ci te palety, które mają jeszcze miejsce na przyjęcie dodatkowych produktów.
 
 Zacznij od określenia w parametrach ilości - musimy wiedzieć poniżej jakiej ilości możemy uznać, że paleta ma wolne miejsce. 
-Wejdź w Administracja > Parametry > Magazyn > zakładka Stany magazynowe i podaj ilość w polu **Palety z wolnym miejscem**.
+Wejdź w  Parametry > Parametry magazynu > zakładka Stany magazynowe i podaj ilość w polu **Palety z wolnym miejscem**.
 
 Dla przykładu: jeśli paleta mieści 25 kartonów. A chcesz dokładać na nią produkty, gdy jest co najmniej miejsca na 10 kartonów, to podaj w parametrach 15. 
 
@@ -49,7 +49,7 @@ Dzięki temu wywołując w tabeli stanu palet funkcję {% include inline_image.h
 
 Bardzo podobna funkcjonalność do powyższej. Znowu - jeśli jesteś w stanie określić ile produktów przyjmuje średnio paleta na magazynie, to przy odpowiednio ustawionych parametrach, będziemy w stanie pokazać Ci, które palety są niż niemal puste i warto byłoby produkty przenieść w inną lokalizację, tworząc tym samym miejsce na inne palety.
 
-Wejdź w Administracja > Parametry > Magazyn > zakładka Stany magazynowe i podaj ilość w polu **Palety do przesunięcia**
+Wejdź w  Parametry > Parametry magazynu > zakładka Stany magazynowe i podaj ilość w polu **Palety do przesunięcia**
 
 Zastanów się jaka ilość produktu na palecie to dla Ciebie niepotrzebne zajmowanie miejsca. I ustaw taką ilość w parametrze. Dla przykładu: jeśli podasz 3, to wywołując z tabeli stanu palet funkcję {% include inline_image.html file="przyciskPokazPaletyZProduktamiDoPrzesuniecia.png" alt="Pokaż palety z produktami do przesunięcia" %} **Pokaż palety z produtami do przesunięcia** zobaczysz listę tych palet, których ilość jest mniejsza niż 3, zatem warto przenieść produkty na inną paletę.
 

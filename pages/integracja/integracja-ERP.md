@@ -54,7 +54,7 @@ To podejście zakłada, że qcadoo działa tak jakby systemu zewnętrznego nie b
 - opóżnione informacje o wystawionych dokumentach i o stanach w systemie zewnętrznym. Tzn. to jakie będzie opóźnienie zależy od Ciebie - jeśli będziesz często w trakcie dnia wywoływał synchronizację, to opóźnienie nie będzie znaczące,
 - ryzyko rozjadu stanów między systemami - wystarczy jeden dokument wystawiony dodatkowo w ERP, aby stany nie zgadzały się między systemami. Przykładem mogą być dokumenty korekt, których qcadoo nie posiada - korekty w qcadoo nanoszone są wprost do zasobów.
 
-Aby włączyć ten tryb pracy z systemem zewnętrznym należy w Administracja > Parametry > Integracja zaznaczyć parametr **Przesyłaj ręcznie dokumenty magazynowe**.
+Aby włączyć ten tryb pracy z systemem zewnętrznym należy w **Parametry > Parametry ogólne > zakładka Integracja** zaznaczyć parametr **Przesyłaj ręcznie dokumenty magazynowe**.
 
 Aby wysłać dokumenty przejdź do Magazyn > [Dokumenty](/dokumenty), zaznacz te, które chcesz wysłać (będą miały w kolumnie Przesłany wartość NIE) i kliknij przycisk {% include inline_image.html file="przyciskWyslijDoSystemuZewnetrznego.png" alt="Przycisk Wyślij do systemu zewnętrznego" %} **Wyślij do systemu zewnętrznego**. Po udanej synchronizacji dokumenty zostaną oznaczone jako przesłane i ponownie wysłać się ich nie będzie dało.
 

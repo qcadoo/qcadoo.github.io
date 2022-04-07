@@ -3,7 +3,7 @@ title: "Parametry dashboardu"
 permalink: parametry-dashboard.html 
 ---
 
-Dashboard to strona główna w qcadoo. Możesz, wchodząc w parametry > parametry ogólne > przycisk: dashboard, ustawić co ma być na nim widoczne.
+Dashboard to strona główna w qcadoo. Możesz, wchodząc w **parametry > parametry ogólne > przycisk: dashboard**, ustawić co ma być na nim widoczne.
 
 {% include lightbox.html file="administracjaParametryDashboard.png" alt="Parametry dashboardu" caption="Parametry dashboardu" %}
 

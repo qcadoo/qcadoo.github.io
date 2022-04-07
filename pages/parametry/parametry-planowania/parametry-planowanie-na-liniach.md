@@ -3,7 +3,7 @@ title: "Parametry planowania na liniach"
 permalink: parametry-planowanie-na-liniach.html 
 ---
 
-W Administracja > Parametry > Planowanie na liniach znajdziesz konfigurację [wykresu Gantta](/planowanie-na-liniach)
+W **Parametry > Parametry planowania > przycisk: Planowanie na liniach** znajdziesz konfigurację [wykresu Gantta](/planowanie-na-liniach)
 
 {% include lightbox.html file="administracjaParametryPlanowanieNaLiniach.png" alt="Parametry planowania na liniach" caption="Parametry planowania na liniach" %}
 

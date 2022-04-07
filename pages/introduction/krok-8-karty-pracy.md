@@ -31,7 +31,7 @@ O szczegółach poczytać można [tutaj](/terminal).
 ## Lista zleceń produkcyjnych do wykonania
 
 Być może produkcja w Twojej firmie jest powtarzalna i doskonale wiadomo z jakich surowców produkować i jakie czynności trzeba wykonać. I być może pracownikom wystarczy informacja co produkować, w jakiej ilości i na jakiej linii. Jeśli tak - przygotuj dla nich (w PDF lub Excel) listę zleceń. W tym celu ustaw w liście planowanych zleceń kolumny, które chcesz na raporcie zobaczyć i wykonaj eksport do PDF/XLS. Wydrukuj i rozdaj pracownikom. 
-Dodatkowo - kolumna Kategoria na wydruku PDF może być oznaczana kolorem, ustawionym w parametrach (Administracja > Parametry > Zlecenia > Kategorie zleceń). Może to być przydatne, gdy chcesz, by pilne zlecenia rzucały się pracownikowi w oczy.
+Dodatkowo - kolumna Kategoria na wydruku PDF może być oznaczana kolorem, ustawionym w parametrach (Parametry > Parametry planowania > przycisk Zlecenia > zakładka Kategorie zleceń). Może to być przydatne, gdy chcesz, by pilne zlecenia rzucały się pracownikowi w oczy.
 
 ---
 Pracownicy już wiedzą co mają robić - czas produkować. I raportować w qcadoo efekty.

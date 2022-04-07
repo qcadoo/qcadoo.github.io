@@ -5,7 +5,7 @@ permalink: parametry-zlecen.html
 
 Zlecenia produkcyjne to serce qcadoo MES. To dzięki nim przekazujesz prace na produkcję. To one są podstawą do wyprodukowania wyrobu. To pod nie zużywane są produkty. To na ich podstawie rozliczamy produkcję. Sporo się wokół nich dzieje - zatem i sposobó konfiguracji wiele. Warto zapoznać się z parametrami zleceń i ustawić je tak, by jak najwygodniej się z nimi pracowało.
 
-Parametry zleceń ustawiane są w Parametry > Parametry planowania > przycisk Zlecenia. Są one pogrupowane w zakładki. Każda zakładka będzie omówiona w osobnym rozdziale.
+Parametry zleceń ustawiane są w **Parametry > Parametry planowania > przycisk Zlecenia**. Są one pogrupowane w zakładki. Każda zakładka będzie omówiona w osobnym rozdziale.
 
 ## Główna
 

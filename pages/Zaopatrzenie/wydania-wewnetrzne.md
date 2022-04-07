@@ -11,7 +11,7 @@ Wydania wewnętrzne mogą przyjmować jedną z dwóch form:
 
 Oba typy zostaną omówione bliżej poniżej.
 
-Zacznij jednak od ustawienia [parametrów wydania wewnętrznego](/parametry-zaopatrzenie#wydania-wewnętrzne). Wejdź w Administracja > Parametry > Zaopatrzenie > zakładka: Wydanie wewnętrzne.
+Zacznij jednak od ustawienia [parametrów wydania wewnętrznego](/parametry-zaopatrzenie#wydania-wewnętrzne). Wejdź w Parametry > Parametry zaopatrzenia > zakładka: Wydanie wewnętrzne.
 
 
 # Sposób pracy z wydaniami wewnętrznymi

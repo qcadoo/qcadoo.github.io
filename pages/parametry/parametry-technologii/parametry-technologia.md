@@ -3,7 +3,7 @@ title: "Parametry technologii"
 permalink: parametry-technologia.html 
 ---
 
-Jeśli produkujesz wyroby z oznaczeniem rozmiarowym, a także wykorzystujesz do definiowania technologii generatora, to zapewne zainteresuje Cię parametr znajdujący się w Administracja > Parametry > Technologia
+Jeśli produkujesz wyroby z oznaczeniem rozmiarowym, a także wykorzystujesz do definiowania technologii generatora, to zapewne zainteresuje Cię parametr znajdujący się w Parametry > Parametry technologii 
 
 ## Główna
 
@@ -33,7 +33,7 @@ W zakładce Główna znajdują się ogólne parametry do technologii.
 
 {% include lightbox.html file="administracjaParametryCzasochlonnoscTechnologii.png" alt="Parametry czasochłonności technologii" caption="Parametry czasochłonności technologii" %}
 
-Wchodząc w Administracja > Parametry > zakładka Czasochłonność dla tech. można ustawić następujące parametry:
+Wchodząc w Parametry > Parametry technologii > zakładka Czasochłonność dla tech. można ustawić następujące parametry:
 
 1. **Pobieraj ilości stacji roboczych z linii produkcyjnej**  - dla linii produkcyjnej (w zakładce Ilość stacji roboczych) możemy określić jak wiele stacji do linii jest przypisanych. Jeśli parametr będzie zaznaczony, to czasochłonność rozłoży wykonanie operacji na wszystkie te stacje, zmniejszając jednocześnie wyliczony czas trwania
 

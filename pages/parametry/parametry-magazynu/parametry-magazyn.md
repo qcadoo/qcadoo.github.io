@@ -3,7 +3,7 @@ title: "Parametry magazynu"
 permalink: parametry-magazyn.html 
 ---
 
-W Parametry > Parametry magazynu znajdują się parametry związane z magazynem.
+W **Parametry > Parametry magazynu** znajdują się parametry związane z magazynem.
 
 ## Zakładka główna - parametry dokumentów
 

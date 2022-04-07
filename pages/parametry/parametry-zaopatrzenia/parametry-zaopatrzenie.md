@@ -5,7 +5,7 @@ permalink: parametry-zaopatrzenie.html
 
 Parametry zaoptrzenia dotyczą funkcjonalności, które znajdziesz w menu > zaopatrzenie. Przejrzyj je i ustaw tak, aby korzystanie z dostaw czy wydań wewnętrznych było do Ciebie jak najbardziej dopasowane.
 
-Parametry znajdziesz w Parametry > Parametry zaopatrzenia. Pogrupowane zostały w zakładkach - dzięki temu łatwiej będzie znaleźć te odpowiednie.
+Parametry znajdziesz w **Parametry > Parametry zaopatrzenia**. Pogrupowane zostały w zakładkach - dzięki temu łatwiej będzie znaleźć te odpowiednie.
 
 ## Dostawy
 

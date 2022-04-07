@@ -10,7 +10,7 @@ Zanim wprowadzisz pierwszy dokument upewnij się, czy masz:
 - zdefiniowane [magazyny](/magazyny) i ewentualnie [miejsca składowania](/miejsca-skladowania)
 - wprowadzone [produkty](/produkty)
 
-Warto również zajrzeć w [parametry dokumentów](/parametry-magazyn) (Administracja > Paramety > Magazyn > Zakładka Główna).
+Warto również zajrzeć w [parametry dokumentów](/parametry-magazyn) (Parametry > Paramety magazynu).
 
 ## Ręczne wprowadzanie dokumentów magazynowych
 

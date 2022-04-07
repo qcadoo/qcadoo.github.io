@@ -55,7 +55,7 @@ a także listę produktów, które mają mieć zdefiniowane takie stany minimaln
 
 {% include lightbox.html file="parametryStanMin.png" alt="Parametry stanu minimalnego" caption="Parametry stanu minimalnego" class="float-right" %}
 
-Wejdź w Administracja > Parametry > Zaopatrzenie. Parametry do stanów minialnych znajdują się na dwóch zakładkach: Stany minimalne i dostawy do stanów minimialnych
+Wejdź w Parametry > Parametry zaopatrzenia > Zaopatrzenie. Parametry do stanów minialnych znajdują się na dwóch zakładkach: Stany minimalne i dostawy do stanów minimialnych
 
 - **uwzględniaj zapotrzebowanie w stanie minimalnym** - jeśli zaznaczysz parametr, to aktualny stan magazynowy porównywany ze zdefiniowanym stanem min nie będzie brany wprost z zasobów, tylko będzie korygowany o ilości zaplanowane do zużycia pod istniejące zlecenia produkcyjne
 - **pobierz zlecenia zaplanowane na X dni** - pole uaktywni się, gdy zaznaczysz powyższy parametr. Określ z ilu dni do przodu mamy zbierać zlecenia. Pewnie nie chcesz aby zlecenie, które masz zaplanowane do realizacji w przyszłym wrześniu kształtowało Twój aktualny stan magazynowy.
@@ -89,6 +89,6 @@ Możesz również sam wywołać tworzenie dostaw w trakcie dnia, klikając przyc
 
 Wolisz mieć wszystko na mailu? Nie ma problemu - możemy wysłać do Ciebie (lub Twoich pracowników) wiadomość, że dostawy zostały założone. Aby tak się stało musisz:
 - [pracownikowi](/pracownicy) zdefiniować adres e-mail
-- określić listę adresów do powiadomień. Wejdź w Administracja > Parametry > Powiadomienia i kliknij {% include inline_image.html file="przyciskNowy.png" alt="Nowy" %} **Nowy**. Wybierz pracownika (na tej podstawie powinien wczytać się jego adres e-mail), a w zakładce Dostawy zaznacz parametr Tworzenie dostaw do stanów minimalnych. 
+- określić listę adresów do powiadomień. Wejdź w Parametry > Parametry ogólne > zakładka: Powiadomienia i kliknij {% include inline_image.html file="przyciskNowy.png" alt="Nowy" %} **Nowy**. Wybierz pracownika (na tej podstawie powinien wczytać się jego adres e-mail), a w zakładce Dostawy zaznacz parametr Tworzenie dostaw do stanów minimalnych. 
 
 Gotowe. Sprawdzaj regularnie skrzynkę mailową ;) 

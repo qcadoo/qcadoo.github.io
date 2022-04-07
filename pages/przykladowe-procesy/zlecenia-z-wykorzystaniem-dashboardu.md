@@ -23,7 +23,7 @@ Od czego zacząć? Od szybkiej konfiguracji. Nie potrzeba wiele:
 {% include lightbox.html file="zleceniaZDashboarduOperacja.png" alt="Zdefiniowana operacja" caption="Zdefiniowana operacja" %}
 
 {:start="3"}
-3. <span style="color:grey">ustawienie parametrów dashboardu</span> --> wchodzi do **Administracja > Parametry > Dashboard** i ustawia zdefiniowane w krokach poprzednich magazyny i operację:
+3. <span style="color:grey">ustawienie parametrów dashboardu</span> --> wchodzi do **Parametry > Parametry ogólne > przycisk Dashboard** i ustawia zdefiniowane w krokach poprzednich magazyny i operację:
 
 {% include lightbox.html file="zleceniaZDashboarduParametryDashboardu.png" alt="Ustawione parametry dashboardu" caption="Ustawione parametry dashboardu" %}
 

@@ -69,4 +69,4 @@ Stosujemy trzy kolory:
 - <span style="color:green"> zielony</span> - oznacza, że cała ilość zlecona jest już wyprodukowana (suma ilości wyprodukowanej pochodzącej z zaakceptowanych rekordów rejestracji jest co najmniej taka jak ilość zlecona),
 - <span style="color:yellow"> żółty</span> - oznacza, że praca trwa (czyli mamy już zarejestrowaną ilość wyprodukowaną do tego zlecenia, ale jest ona nadal mniejsza od ilości zleconej).
 
-Aby kolory pojawiły się w kolumnie, trzeba zaznaczyć parametr **Oznacz kolorem procent wykonania** w Administracja > Parametry > Zlecenia > [zakładka Główna](/parametry-zlecen#główna)
+Aby kolory pojawiły się w kolumnie, trzeba zaznaczyć parametr **Oznacz kolorem procent wykonania** w Parametry > Parametry planowania > przycisk Zlecenia > [zakładka Główna](/parametry-zlecen#główna)

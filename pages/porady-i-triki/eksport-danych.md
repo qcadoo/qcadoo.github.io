@@ -13,7 +13,11 @@ Aby przerzucić listę produktów do PDFa lub CSV wystarczy wejść w Podstawowe
 
 {% include lightbox.html file="podstawoweProduktyPDF.png" alt="Lista produktów w PDF" caption="Lista produktów w PDF" %}
 
-Wyeksportować możesz wszystkie kolumny dostępne w tabeli, albo tylko kolumny widoczne. Decydują o tym parametry **Eksport do PDF tylko widocznych na ekranie kolumn** i **Eksport do CSV tylko widocznych na ekranie kolumn** w Administracja > Parametry > [Raport](/parametry-glowna.html#rarport).
+{% include callout.html content="Jeśli nie zaznaczysz wierszy w tabeli, to zostaną wyeksportowane wszystkie rekordy spełniające kryteria filtrowania. Możesz też zaznaczyć wybrane rekordy - wtedy tylko one pojawią się w pliku." type="info" %}
+
+
+
+Wyeksportować możesz wszystkie kolumny dostępne w tabeli, albo tylko kolumny widoczne. Decydują o tym parametry **Eksport do PDF tylko widocznych na ekranie kolumn** i **Eksport do CSV tylko widocznych na ekranie kolumn** w Parametry > Parametry ogólne > zakładka [Raport](/parametry-glowna.html#rarport).
 
 Plik CSV warto otworzyć w Excelu. Aby poprawnie się wyświetlił przejdź krok po kroku poniższą instrukcję.
 

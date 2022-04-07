@@ -3,7 +3,7 @@ title: "Parametry karty pracy"
 permalink: parametry-karty-pracy.html 
 ---
 
-Jeśli stosujesz [karty pracy](/karty-pracy) to warto abyś je skonfigurował pod swoje potrzeby w Parametry > Parametry planowania > przycisk Karty pracy.
+Jeśli stosujesz [karty pracy](/karty-pracy) to warto abyś je skonfigurował pod swoje potrzeby w **Parametry > Parametry planowania > przycisk Karty pracy**.
 
 Parametry kart pracy są pogrupwane w zakładki. Każda zostanie omówiona poniżej.
 

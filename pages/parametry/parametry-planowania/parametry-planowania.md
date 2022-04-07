@@ -5,7 +5,7 @@ permalink: parametry-planowania.html
 
 ## Zadania operacyjne
 
-Zadanie operacyjne to interpretacja pojedynczej czynności ze zlecenia produkcyjnego. Ich listę znajdziesz w Planowanie > planowanie operacyjne. Konfiguracja natomiast dostępna jest w Parametry > Parametry planowania > zakładka Zadania operacyjne:
+Zadanie operacyjne to interpretacja pojedynczej czynności ze zlecenia produkcyjnego. Ich listę znajdziesz w Planowanie > planowanie operacyjne. Konfiguracja natomiast dostępna jest w **Parametry > Parametry planowania > zakładka Zadania operacyjne**:
 
 
 {% include lightbox.html file="administracjaParametryZadaniaOperacyjne.png" alt="Parametry zadań operacyjnych" caption="Parametry zadań operacyjnych" %}

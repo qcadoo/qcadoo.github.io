@@ -22,7 +22,7 @@ Karty pracy mogą zawierać dane dotyczące:
 {% include callout.html content="Zanim zaczniesz korzystać z kart pracy, wykonaj parametryzację, aby określić jakie dane mają znaleźć się na kartach." type="info" %}
   
 Możemy określić, które z powyższych danych mają być widoczne na kartach pracy, z poziomu:
-- **Administracja > Parametry** - definiujemy globalne ustawienia dla wszystkich kart pracy powstających w systemie,
+- **Parametry > Parametry planowania > przycisk Karty pracy** - definiujemy globalne ustawienia dla wszystkich kart pracy powstających w systemie,
 - **Technologie > Operacje** - jedynie obrazek, który ma być widoczny dla danej operacji,
 - **Planowanie > Karty pracy** - stricte dla danego wydruku.
   
@@ -30,7 +30,7 @@ Jak wykonać parametryzację?
 
 {% include lightbox.html file="planowanie-%20karty%20pracy%20par1.png" alt="Parametry ogólne kart pracy" caption="Parametry ogólne kart pracy" class="float-right" %}
 
-1. Wejdź do **Administracja > Parametry** i kliknij {% include inline_image.html file="CalendarIcon24.png" alt="Przycisk Karty pracy" %} [Karty pracy](/parametry-karty-pracy).  
+1. Wejdź do **Parametry > Parametry planowania** i kliknij {% include inline_image.html file="CalendarIcon24.png" alt="Przycisk Karty pracy" %} [Karty pracy](/parametry-karty-pracy).  
   
 2. Zdecyduj, które elementy nie znajdą się na wydruku karty pracy - być może nie potrzebujesz kodów kreskowych operacji lub tabeli zleceń.
 

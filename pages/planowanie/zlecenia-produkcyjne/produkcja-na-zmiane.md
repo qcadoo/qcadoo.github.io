@@ -10,7 +10,7 @@ Jeśli produkujesz seryjnie i jesteś w stanie określić ile danego produktu mo
 Aby móc skorzystać w pełni z funkcjonalności konieczna jest odpowiednia konfiguracja qcadoo:
 1. muszą być zdefiniowane [zmiany](/zmiany) na jakich firma pracuje (podstawowe > zmiany)
 2. zmiany muszą być przypisane do [linii produkcyjnej](/linie-produkcyjne) 
-3. aby plan mógł być tworzony z automatu konieczne jest ustawienie parametrów (Administracja > Parametry > Zlecenia > Plan na zmianę)
+3. aby plan mógł być tworzony z automatu konieczne jest ustawienie parametrów (Parametry > Parametry planowania > przycisk Zlecenia > zakładka: Plan na zmianę)
 
 {% include lightbox.html file="parametryPlanNaZmiane.png" alt="Parametry planu na zmianę" caption="Parametry planu na zmianę" class="float-right" %}
 
@@ -49,7 +49,7 @@ Przydatne? Mam nadzieję, że tak.
 {% include lightbox.html file="parametryPlanowanieNaLinie.png" alt="Parametry Gantta" caption="Parametry planowania na linię" class="float-right" %}
 Dodatkowo - jeśli pracujesz na **wykresie Gantta**, to odpowiednio ustawione parametry pozwolą na przeliczanie planu na zmianę przy przeciąganiu kafelków, a także jego tworzenie przy przesuwaniu z bufora do kalendarza. Dzięki temu zawsze czas trwania zlecenia będzie taki jak normy wskazują. 
 
-Jak ustawić parametry? Wejdź w _Administracja > Parametry > Planowanie na linie_ i ustaw:
+Jak ustawić parametry? Wejdź w _Parametry > Parametry planowania > przycisk Planowanie na linie_ i ustaw:
 
 
 - **wyliczaj czas zleceń przesuwanych z bufora** = tak 
