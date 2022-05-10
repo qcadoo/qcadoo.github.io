@@ -44,7 +44,7 @@ Parametry umieszczone w tej zakładce dotyczą [przesuwania palet](/stan-palet).
 
 1. **Palety do przesunięcia** - podaj ilość w jednostce podstawowej produktu. Sprawdzimy czy są palety z ilością produktów mniejszą niż podałeś - jeśli tak, to uznamy, że warto przełożyć je na inną paletę
 
-2. **Palety z wolnym miejscem** - polaj ilość w jednostce podstawowej produktu. Sprawdzimy czy są są palety z ilością mniejszą niż ta, którą podałeś i uznamy, że mogą one przyjąć prodykty z innych palet.
+2. **Palety z wolnym miejscem** - polaj ilość w jednostce podstawowej produktu. Sprawdzimy czy są palety z ilością mniejszą niż ta, którą podałeś i uznamy, że mogą one przyjąć prodykty z innych palet.
 
 {% include callout.html content="Parametr jest globalny. Musisz przyjąć średnią ilość dla wszystkich palet składowanych na magazynie. Ma zatem sens tylko wówczas, gdy magazynujesz produkty w miarę jednorodne" type="warning" %}
 

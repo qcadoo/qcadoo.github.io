@@ -370,9 +370,9 @@ entries:
           output: web
           url: /zmiana-parametrow.html
 
-        - title: Technologie grup produktów
+        - title: Technologie rodziny produktu z atrybutami
           output: web
-          url: /technologie-grup-produktow.html
+          url: /technologie-rodziny-z-atrybutami.html
 
     - title: Generator technologii
       output: web
@@ -385,10 +385,6 @@ entries:
     - title: Normy przezbrojeń
       output: web
       url: /normy-przezbrojen.html
-
-    - title: Produkty do technologii grup produktów
-      output: web
-      url: /produkty-do-technologii-grup-produktow.html
 
     - title: Typy produktu wejściowego technologii
       output: web
@@ -635,6 +631,10 @@ entries:
     - title: Zamówienia sprzedaży
       output: web
       url: /zlecenia-nadrzedne.html
+
+    - title: Pozycje zamówień sprzedaży
+      output: web
+      url: /pozycje-zamowien-sprzedazy.html
 
     - title: Grupy zleceń
       output: web

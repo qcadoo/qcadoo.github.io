@@ -15,40 +15,42 @@ Do dyspozycji masz następujące parametry:
 
 1. **Domyślna linia produkcyjna** - ustaw tą linię, na której najczęściej realizujesz zlecenia. Podpowiemy Ci ją przy wystawianiu zlecenia produkcyjnego (ręcznie, a także przez generowanie ze zamówienia sprzedaży). Nie musisz linii uzupełniać tutaj. Jeśli potrafisz przypisać linię do technologii (wybierasz linię w zależności od tego jaki wyrób ma być produkowany) - uzupełnij ją w zasięgu. Podpowiadanie w zleceniu zadziała tak: jeśli w technologii uzupełniona linia, to ją zaciągamy do zlecenia. Jeśli nie - sprawdzamy, czy jest w administracji w parametrach podana domyślna - jeśli tak: zaciągamy do zlecenia. Jeśli nie - linię zostawiamy pustą, będziesz musiał ją wskazać przed akceptacją zlecenia.
 
-2. **Pozwól na zmianę linii produkcyjnej w zaakceptowanym zleceniu** - zaznacz parametr jeśli chcesz pozwolić na ewentualne przesunięcia zaakceptowanego już zlecenia na inną linię. Jeśli nie - uznajesz, że zaakceptowane zlecenie nie powinno być już tak radykalnie zmieniane -> zostaw parametr niezaznaczony
+2. **Podpowiadaj domyślną linię z technologii** - zaznacz parametr, a domyślna linia wprowadzona w technologii w zakładce Linie będzie wczytywana do zlecenia produkcyjnego
 
-3. **Pozwól na zmianę ilości w zaakceptowanym zleceniu** - zaznacz jeśli chcesz pozwolić na zmianę ilości w zaakceptowanym zleceniu produkcyjnym
+3. **Pozwól na zmianę linii produkcyjnej w zaakceptowanym zleceniu** - zaznacz parametr jeśli chcesz pozwolić na ewentualne przesunięcia zaakceptowanego już zlecenia na inną linię. Jeśli nie - uznajesz, że zaakceptowane zlecenie nie powinno być już tak radykalnie zmieniane -> zostaw parametr niezaznaczony
 
-4. **Pozwól na zmianę drzewa technologii w oczekującym zleceniu** - qcadoo pozwala na zmianę technologii w zleceniu. Oznacza to, że standardowo produkt wytwarzany jest wg konkretnego sposobu, ale w wyjątkowych sytuacjach, pod dane zlecenie, można wprowadzić zmiany i wyprodukować wyrób trochę inaczej. Jeśli nie chcesz, aby pracownicy zmieniali technologię i żeby zawsze produkty były realizowane w tym sam sposób, nie zaznaczaj parametru, a nie pozwolimy na modyfikację technologii w zleceniu.
+4. **Pozwól na zmianę ilości w zaakceptowanym zleceniu** - zaznacz jeśli chcesz pozwolić na zmianę ilości w zaakceptowanym zleceniu produkcyjnym
 
-5. **Uzupełniaj opis zlecenia na podstawie opisu technologii** - w technologii możesz wprowadzić opis. I możemy go podpowiedzieć do zlecenia, do pola opis (po to by pokazać pracownikom np. w terminalu) - jeśli chcesz, aby tak się stało, zaznacz parametr
+5. **Pozwól na zmianę drzewa technologii w oczekującym zleceniu** - qcadoo pozwala na zmianę technologii w zleceniu. Oznacza to, że standardowo produkt wytwarzany jest wg konkretnego sposobu, ale w wyjątkowych sytuacjach, pod dane zlecenie, można wprowadzić zmiany i wyprodukować wyrób trochę inaczej. Jeśli nie chcesz, aby pracownicy zmieniali technologię i żeby zawsze produkty były realizowane w tym sam sposób, nie zaznaczaj parametru, a nie pozwolimy na modyfikację technologii w zleceniu.
 
-6. **Uzupełniaj opis zlecenia na podstawie opisu produktu** - zaznacz parametr, a do opisu zlecenia produkcyjnego dokleimy opis pozostawiony w produkcie zleconym
+6. **Uzupełniaj opis zlecenia na podstawie opisu technologii** - w technologii możesz wprowadzić opis. I możemy go podpowiedzieć do zlecenia, do pola opis (po to by pokazać pracownikom np. w terminalu) - jeśli chcesz, aby tak się stało, zaznacz parametr
 
-7. **Oznacz kolorem procent wykonania** - w liście [planowanych zleceń](/planowanie-zlecen) jest kolumna Wykonanie %. Przedstawia ona informację o tym ile procent ilości zleconej jest już wyprodukowane. Jeśli chcesz wzmocnić efekt - zaznacz parametr, a oznaczymy kolumnę kolorem. Czerwone będą te zlecenia, które nie są jeszcze rozpoczęte (0% wykonania), zielone - te już całkowicie zrealizowane (100% wykonania), a źółte te, dla których praca trwa (wykonanie między 0 a 100%)
+7. **Uzupełniaj opis zlecenia na podstawie opisu produktu** - zaznacz parametr, a do opisu zlecenia produkcyjnego dokleimy opis pozostawiony w produkcie zleconym
 
-8. **Automatycznie ustawiaj datę rozpoczęcia zlecenia** - zaznacz parametr, jeśli chcesz, aby w zleceniu produkcyjnym ustawiła się aktualna data w momencie ustawiania statusu na rozpoczęte
+8. **Oznacz kolorem procent wykonania** - w liście [planowanych zleceń](/planowanie-zlecen) jest kolumna Wykonanie %. Przedstawia ona informację o tym ile procent ilości zleconej jest już wyprodukowane. Jeśli chcesz wzmocnić efekt - zaznacz parametr, a oznaczymy kolumnę kolorem. Czerwone będą te zlecenia, które nie są jeszcze rozpoczęte (0% wykonania), zielone - te już całkowicie zrealizowane (100% wykonania), a źółte te, dla których praca trwa (wykonanie między 0 a 100%)
 
-9. **Automatycznie ustawiaj datę zakończenia zlecenia** - zaznacz parametr, jeśli chcesz, abyśmy uzupełnili datę zakończenia zlecenia, w momencie ustawiania statusu na zakończone
+9. **Automatycznie ustawiaj datę rozpoczęcia zlecenia** - zaznacz parametr, jeśli chcesz, aby w zleceniu produkcyjnym ustawiła się aktualna data w momencie ustawiania statusu na rozpoczęte
 
-10. **Podpowiadaj datę rozpoczęcia zlecenia przy tworzeniu zlecenia** - jeśli zaznaczysz parametr, to podczas dodawania zlecenia produkcyjnego podpowiemy Ci datę rozpoczęcia. Wskaż niżej jaka ma być ta data.
+10. **Automatycznie ustawiaj datę zakończenia zlecenia** - zaznacz parametr, jeśli chcesz, abyśmy uzupełnili datę zakończenia zlecenia, w momencie ustawiania statusu na zakończone
 
-11. **Data rozpoczęcia podpowiadana na podstawie** - lista uaktywni się, gdy zaznaczysz parametr Podpowiadaj datę rozpoczęcia zlecenia przy tworzeniu zlecenia. Do wyboru masz:
+11. **Podpowiadaj datę rozpoczęcia zlecenia przy tworzeniu zlecenia** - jeśli zaznaczysz parametr, to podczas dodawania zlecenia produkcyjnego podpowiemy Ci datę rozpoczęcia. Wskaż niżej jaka ma być ta data.
+
+12. **Data rozpoczęcia podpowiadana na podstawie** - lista uaktywni się, gdy zaznaczysz parametr Podpowiadaj datę rozpoczęcia zlecenia przy tworzeniu zlecenia. Do wyboru masz:
 - _aktualnej daty_ - data rozpoczęcia zostanie ustawiona na podstawie momentu zapisu zlecenia
 - _początku pierwszej zmiany kolejnego dnia_ - podpowiemy datę początku Twojej pracy następnego dnia (czyli przyda się ta opcja, gdy dziś zakładasz zlecenia na jutro)
 - _daty zakończenia ostatniego zlecenia na linii_ - namierzymy ostatnie zlecenie na linii produkcyjnej i to dodawane układamy bezpośrednio po nim. Jeśli dodatkowo będziesz wyliczać czas trwania w qcadoo na podstawie [produkcji na zmianę](/produkcja-na-zmiane) albo [czasochłonności technologii](/czasochlonnosc-zlecenia) to w łatwy sposób ustalisz kompletny plan produkcyjny.
 
-12. **Kopiuj opis z zamówienia sprzedaży** - zaznacz parametr, jeśli zlecenia produkcyjne utworzone z zamówienia sprzedaży mają otrzymać opis wprowadzony w zamówieniu sprzedazy
+13. **Kopiuj opis z zamówienia sprzedaży** - zaznacz parametr, jeśli zlecenia produkcyjne utworzone z zamówienia sprzedaży mają otrzymać opis wprowadzony w zamówieniu sprzedazy
 
-13. **Kopiuj uwagi z pozycji zamówienia sprzedaży** - zaznacz parametr, jeśli chcesz, aby uwagi wprowadzone w pozycji zamówienia sprzedaży, zostały przeniesione do opisu zlecenia produkcyjnego (utworzonego poprzez funkcję Utwórz wiele zleceń produkcyjnych)
+14. **Kopiuj uwagi z pozycji zamówienia sprzedaży** - zaznacz parametr, jeśli chcesz, aby uwagi wprowadzone w pozycji zamówienia sprzedaży, zostały przeniesione do opisu zlecenia produkcyjnego (utworzonego poprzez funkcję Utwórz wiele zleceń produkcyjnych)
 
-14. **Zbiorcze zlecenia tworzone z zamówienia sprzedaży** - zaznacz parametr jeśli chcesz, aby podczas tworzenia zleceń do zamówień sprzedaży, zbijały się one w zbiorcze z dokładnością do tego samego produktu i tej samej technologii
+15. **Zbiorcze zlecenia tworzone z zamówienia sprzedaży** - zaznacz parametr jeśli chcesz, aby podczas tworzenia zleceń do zamówień sprzedaży, zbijały się one w zbiorcze z dokładnością do tego samego produktu i tej samej technologii
 
-15. **Realizacja ze stanu magazynowego** - zaznacz parametr jeśli chcesz, aby funkcja tworzenia wielu zleceń produkcyjnych do zamówienia sprzedaży sprawdzała, czy zamówiony produkt trzeba produkować, czy można pobrać z istniejacego stanu magazynowego. Zlecenia produkcyjne będą utworzone tylko na tą część zamówionych produktów, dla których nie został zabezpieczony stan magazynowy. Jeśli chcesz aby funkcja realizacji ze stanu magazynowego działała poprawnie, wskaż w tabeli poniżej na jakich magazynach mamy sprawdzać dostępny stan. Funkcja ta analizuje tylko stany zachowane w qcadoo - nie sprawdza stanów w systemie zewnętrznym.
+16. **Realizacja ze stanu magazynowego** - zaznacz parametr jeśli chcesz, aby funkcja tworzenia wielu zleceń produkcyjnych do zamówienia sprzedaży sprawdzała, czy zamówiony produkt trzeba produkować, czy można pobrać z istniejacego stanu magazynowego. Zlecenia produkcyjne będą utworzone tylko na tą część zamówionych produktów, dla których nie został zabezpieczony stan magazynowy. Jeśli chcesz aby funkcja realizacji ze stanu magazynowego działała poprawnie, wskaż w tabeli poniżej na jakich magazynach mamy sprawdzać dostępny stan. Funkcja ta analizuje tylko stany zachowane w qcadoo - nie sprawdza stanów w systemie zewnętrznym.
 
-16. **Zawsze zlecaj pozycje z personalizacją** - parametr uaktywni się po zaznaczeniu _Realizacja ze stanu magazynowego_. Jeśli w uwagach pozycji zamówienia sprzedaży wprowadzasz szczegóły zamówionego produktu, które sprawiają, że produkt wymaga zmian w procesie produkcyjnym specjalnie na życzenie klienta (czyli produkt musi zostać wyprodukowany i nie może być pobrany ze stanu produkt standardowy), to zaznacz parametr, a zawsze do tej pozycji utworzymy zlecenie produkcyjne na ilość zamówioną przez klienta
+17. **Zawsze zlecaj pozycje z personalizacją** - parametr uaktywni się po zaznaczeniu _Realizacja ze stanu magazynowego_. Jeśli w uwagach pozycji zamówienia sprzedaży wprowadzasz szczegóły zamówionego produktu, które sprawiają, że produkt wymaga zmian w procesie produkcyjnym specjalnie na życzenie klienta (czyli produkt musi zostać wyprodukowany i nie może być pobrany ze stanu produkt standardowy), to zaznacz parametr, a zawsze do tej pozycji utworzymy zlecenie produkcyjne na ilość zamówioną przez klienta
 
-17. **Magazyny** - tabela uaktywnia się po zaznaczeniu parametru _Realizacja ze stanu magazynowego_. Podaj magazyny, na których mamy poszukiwać dostępnego stanu zamówionych produktów
+18. **Magazyny** - tabela uaktywnia się po zaznaczeniu parametru _Realizacja ze stanu magazynowego_. Podaj magazyny, na których mamy poszukiwać dostępnego stanu zamówionych produktów
 
 ---
 

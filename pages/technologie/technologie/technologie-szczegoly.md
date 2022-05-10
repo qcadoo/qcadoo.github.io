@@ -22,13 +22,11 @@ W zakładce "Główna"
 * Szablon - określa, że tworzona technologia posłuży jako szablon w generatorze technologii
 * Czynności dodatkowe do wyrobu gotowego - parametr jest przydatny, gdy dzielisz proces produkcyjny na technologie na komponenty. I ostatni etap, np. pakowanie, opisane daną technologią, jest dla Ciebie mniej istotny w kontekście analizy wykonanej produkcji. Dla Ciebie wyrób gotowy to ten, którego dopiero czeka pakowanie. Być może dlatego, że pakowaniem zajmujecie się później, niejako przy okazji wysyłki. Zaznacz parametr, a w analizie wyrobu gotowego przed czynnościami dodatkowymi pokażemy Ci produkcję wyrobów bez tego etapu
 
-5. Jeśli będziesz korzystać z automatycznie generowanego [planu produkcji na zmianę](/produkcja-na-zmiane), to uzupełnij normę wydajnościową, podając ile jednostek produktu jesteś w stanie wytworzyć w minutę.
+5. Jeśli w trakcie realizacji produkcji będzie przeprowadzana kontrola jakości uzupełnij [kartę jakości](karty-jakosci) - lista atrybutów określona w karcie jakości będzie musiała być rozpisana w operacjach drzewa, aby pracownicy wiedzieli co mają zweryfikować i na jakim etapie produkcji. Klikając lupkę zobaczysz listę zaakceptowanych kart jakości spiętych z produktem, dla którego tworzona jest technologia.
 
-6. Jeśli w trakcie realizacji produkcji będzie przeprowadzana kontrola jakości uzupełnij [kartę jakości](karty-jakosci) - lista atrybutów określona w karcie jakości będzie musiała być rozpisana w operacjach drzewa, aby pracownicy wiedzieli co mają zweryfikować i na jakim etapie produkcji. Klikając lupkę zobaczysz listę zaakceptowanych kart jakości spiętych z produktem, dla którego tworzona jest technologia.
+6. {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} **Wybieramy** "Grupę", do której ma przynależeć dana technologia (opcjonalnie).
 
-7. {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} **Wybieramy** "Grupę", do której ma przynależeć dana technologia (opcjonalnie).
-
-8. Po wprowadzeniu powyższych wybieramy przycisk   {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. Teraz można przejść do drugiego kroku - zdefiniowania **drzewa technologii**.
+7. Po wprowadzeniu powyższych wybieramy przycisk   {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. Teraz można przejść do drugiego kroku - zdefiniowania **drzewa technologii**.
 
 ## Budowa drzewa technologii ##
 
@@ -200,19 +198,47 @@ Warto podkreślić, że jeśli raportujesz produkcję zbiorczo, to nie ma znacze
 {% include callout.html content="Atrybuty mogą być też przypisane poprzez okno edycyjne operacji, wywołane z drzewa technologii." type="warning" %}
 
 
-## Zasięg technologii ##
+## Działy ##
 
-Zasięg technologii to określenie w jakim miejscu Twojej firmy operacje mają być wykonywane.
+W zakładce dział określasz w jakim obszarze produkcyjnym realizowana będzie produkcja.
 
-{% include lightbox.html file="technologieTechnologieZasieg.png" alt="Zasięg technologii" caption="Zasięg technologii" %}
+{% include lightbox.html file="technologieTechnologieDzialy.png" alt="Działy technologii" caption="Działy technologii" %}
 
 Technologia może dotyczyć jednego lub wielu działów.
 
-Jeśli dotyczy jednego działu - informacje o dziale i linii będą wypełnione w nagłówku. Jeśli wielu - dla każdej operacji z osobna (w dolnej tabeli). Stacje robocze uzupełniane są zawsze na poziomie operacji - kliknij w operację w lewej tabeli, a uaktywni się dodawanie w tabeli prawej. Stacje robocze zaczytywane są z danych domyślnych zdefiniowanych w [operacji](/stacje-robocze-operacji).
+Jeśli dotyczy jednego działu - informacje o dziale i linii będą wypełnione w nagłówku. Jeśli wielu - dla każdej operacji z osobna (w dolnej tabeli). Dział przypisany do szablonów operacji z automatu wczytywany jest do działów w technologii. Jeśli uznamy, że jest ich więcej niż 1, zasięg zostanie ustawiony na 'jeden dział'. Możesz sam nadpisać ustawienia nadane w szablonie operacji.
 
 Jeśli technologia ma zasięg = 1 dział i wskażesz dział i linie, to zostaną one podpowiedziane przy tworzeniu zleceń produkcyjnych.
 
 {% include callout.html content="Zasięg w technologii może podpowiedzieć się z [parametów](/parametry-technologia.html#zasięg)." type="warning" %}
+
+Przypisane działy będą służyły do filtrowania linii i stacji w kolejnej zakładce.
+
+## Linie / stacje ##
+
+W zakładce wskazujesz konkretne miejsca wykonania produkcji. Jeśli raportujesz z dokładnością do operacji, ważne będzie przypisanie stacji roboczej do każdej operacji z drzewa. Jeśli natomiast chcesz raportować zbiorczo całe zlecenia - zaplanuj na jakich liniach produkcyjnych będzie realizowana produkcja.
+
+{% include callout.html content="Pamiętaj, że pojęcia *linia produkcyjna* i *stacja robocza* są teoretyczne. Spokojnie możesz działać na całych zleceniach i przypisywać je do jednej maszyny. Wówczas posiadane maszyny określisz jako linie produkcyjne." type="warning" %}
+
+**Widok dla rejestracji zbiorczej wygląda następująco**:
+
+{% include lightbox.html file="technologieTechnologieLinieStacjeZbiorczy.png" alt="Linie w zbiorczo raportowanej technologii" caption="Linie w zbiorczo raportowanej technologii" %}
+
+Dana technologia może być realizowana na wielu liniach produkcyjnych. Jedna z linii może być określona jako domyślna - wówczas może się podpowiadać w zleceniu produkcyjnym.
+
+Jeśli chcesz planować czas realizacji zlecenia w oparciu o [plan produkcji na zmianę](/produkcja-na-zmiane), możesz wskazać wydajności każdej linii, na rzecz opisywanego technologią wyrobu. Jest to opcja. Innym rozwiązaniem jest ustalanie czasu trwania zlecenia poprzez normy czasowe operacji.
+
+**Widok dla rejestracji do każdej opeacji wygląda następująco**:
+
+{% include lightbox.html file="technologieTechnologieLinieStacjeDoOperacji.png" alt="Linie w technologii raportowanej do operacji" caption="Linie w technologii raportowanej do operacji" %}
+
+W dole zakładki uaktywnia się tabela stacji roboczych. I to na niej powinieneś się skoncentrować. To tu zaplanujesz możliwe miejsca wykonania czynności. To z tych stacji będziesz wybierać później gdzie zadanie operacyjne będzie realizowane.
+
+Przygotowane tabele działają kontekstowo - aby dopisać stacje robocze do operacji, musisz w lewej tabeli zaznaczyć operację. Dzięki temu w prawej tabeli uaktywni się przycisk dodawania.
+
+Lista stacji roboczych zostanie wczytana z szablonów operacji. Możesz ją na tym etapie zmodyfikować na właściwą pod ten konkretny wyrób.
+
+Linie produkcyjne mogą być przypisane tylko po to, by znalazły się w zleceniu produkcyjnym. Linie dla zleceń raportowanych do operacji nie mają większego znaczenia. I nie będą nigdy dobierane wg algorytmu planowania. Dlaczego zostały? Np. po to, by móc podzielić prace między wielu planistów. Każdy wyrób (poprzez technologie) może być przypisany do różnych linii i wtedy przy tworzeniu zlecenia, będzie wiadomo, kto zajmuje się ułożeniem planów i nadzorem.
 
 
 ## Przepływy technologii ##
