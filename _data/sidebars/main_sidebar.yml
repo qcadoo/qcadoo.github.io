@@ -684,6 +684,19 @@ entries:
     - title: Paczki zlecenia
       output: web
       url: /paczki-zlecenia.html
+      
+      subfolders:
+      - title: Plan na linię produkcyjną
+        output: web
+        subfolderitems:
+
+        - title: Plan na linię produkcyjną
+          output: web
+          url: /plan-na-linie-produkcyjna.html
+
+        - title: Gantt linii
+          output: web
+          url: /gantt-linii.html
 
   - title: Rejestracja
     output: web
