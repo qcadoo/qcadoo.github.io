@@ -73,7 +73,7 @@ Określ:
 
 {:start="4"}
 
-4. **Czas trwania zlecenia liczony w oparciu o** - do wyboru:
+4. **czas trwania zlecenia liczony w oparciu o** - do wyboru:
 - **_czasochłonność technologii_** -  czas trwania zlecenia będzie liczony w oparciu o normy czasowe operacji
 - **_plan na zmianę_** - czas trwania zlecenia liczony jest w oparciu o produkcję na zmianę i algorytm podany w parametrach. W tym wypadku konieczne jest, aby zdefiniować [przydziały do zmian](/przydzial-do-zmian) oraz upewnić się, że [parametr](/parametry-zlecen.html#plan-na-zmianę) **automatyczny plan na zmianę** jest zaznaczony
 
@@ -82,7 +82,7 @@ Określ:
 - **_najkrótszy czas produkcji na linii_** - czyli zlecenie zostanie przypisane do możliwej linii, która będzie miała najwcześniejszą datę zakończenia zlecenia
 - **_najmniej przezbrojeń_** - czyli zlecenie zostanie przypisane do możliwej linii, a następnie sprawdzamy czy konieczne jest wykonanie przezbrojenia w danym zleceniu. Wygrywa to, do którego przezbrojenie nie będzie potrzebne lub przezbrojenie będzie najkrótsze
 
-6. **Pozwól na zmianę linii** -  jeśli ten parametr jest zaznaczony, to zlecenie o statusie "oczekujące" traktujemy tak jakby nie miało przypisanej linii. W przypadku, gdy zlecenie ma status "zaakceptowane", to linię możemy zmienić jedynie kiedy [parametr](/parametry-zlecen) "Pozwól na zmianę linii produkcyjnej w zaakceptowanym zleceniu" jest zaznaczony. Jeśli nie chcesz, aby linia w zleceniu produkcyjnym była zastąpiona inną, to zostaw parametr niezaznaczony.
+6. **pozwól na zmianę linii** -  jeśli ten parametr jest zaznaczony, to zlecenie o statusie "oczekujące" traktujemy tak jakby nie miało przypisanej linii. W przypadku, gdy zlecenie ma status "zaakceptowane", to linię możemy zmienić jedynie kiedy [parametr](/parametry-zlecen) "Pozwól na zmianę linii produkcyjnej w zaakceptowanym zleceniu" jest zaznaczony. Jeśli nie chcesz, aby linia w zleceniu produkcyjnym była zastąpiona inną, to zostaw parametr niezaznaczony.
 
 ---
 
