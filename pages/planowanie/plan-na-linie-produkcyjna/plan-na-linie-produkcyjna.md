@@ -2,7 +2,7 @@
 title: "Plan na linię produkcyjną"
 permalink: plan-na-linie-produkcyjna.html 
 ---
-Plan na linię produkcyjną to wsparcie planisty w podejściu, które zakłada, że zlecenia rozliczane są jako całość. Co prawda, w dalszym ciągu mamy rozbicie na operacje, ale wszystkie realizowane są na tej samej linii produkcyjnej. Zlecenia raportowane są zbiorczo - wszystko co zostało wyprodukowane i zużyte w całym zleceniu ewidencjonowane jest w jednym meldunku. 
+Plan na linię produkcyjną to wsparcie planisty w podejściu, które zakłada, że zlecenia rozliczane są jako całość. Co prawda, w dalszym ciągu mamy rozbicie na operacje, ale wszystkie realizowane są na tej samej linii produkcyjnej. W tym przypadku zlecenia realizujemy zbiorczo, czyli wszystko co zostało wyprodukowane i zużyte w całym zleceniu ewidencjonowane jest w jednym meldunku.
 
 Proces planowania na linię produkcyjną:
 1. ustali czas trwania zlecenia
@@ -21,7 +21,7 @@ Proces planowania na linię produkcyjną:
 
 ## Planowanie
 
-Abyśmy mogli pomóc Ci w planowaniu, musimy mieć co planować. Innymi słowy - musisz wprowadzić [zlecenia produkcyjne](/zlecenia-produkcyjne). 
+Aby rozpocząć planowanie na linie produkcyjne musisz wprowadzić [zlecenia produkcyjne](/zlecenia-produkcyjne). 
 
 {% include callout.html content="Zlecenia produkcyjne, które mają znaleźć się w planie linię produkcyjną, muszą mieć sposób rejestracji _zbiorczy_. Jeśli wszystko będziesz planować w ten sposób ustaw taki sposób w parametrach rejestracji produkcji, a będziemy go podpowiadać przy tworzeniu technologii. A z technologii przeniesiemy go do zlecenia produkcyjnego." type="warning" %}
 
@@ -30,11 +30,11 @@ Zlecenia produkcyjne muszą mieć:
 - ilość zleconą
 - technologię
 
-Daty mogą zostać puste - uzupełnimy je w momencie zatwierdzania planu.
+Daty mogą zostać puste, zostaną usupełnione w momencie zatwierdzania planu.
 
 Czas na stworzenie planu. Na podstawie wskazanych zleceń, ułożymy je linii produkcyjnej i ustalimy czasy realizacji.
 
-Zanim opiszę proces planowania, musisz poznać kilka zasad, które przyjęliśmy:
+Oto kilka zasad dotyczących planowania, które przyjęliśmy:
 
 1. planujemy wzorując się o algorytm NEH
 2. dokładamy plan na podstawie daty zakończenia ostatniego zlecenia na linii produkcyjnej
@@ -90,7 +90,7 @@ Dane zlecenie produkcyjne może znajdować się w kilku planach na raz. W ten sp
 
 ### Wygenerowanie planu
 
-Wejdź w zakładkę plan - Twoim oczom ukaże się dodatkowy pasek narzędziowy.
+Wejdź w zakładkę plan - ukaże Ci się dodatkowy pasek narzędziowy dedykowany planowaniu na linie produkcyjne.
 
 {% include lightbox.html file="PlanowaniePlanNaLinieProdukcyjnaPlan.png" alt="Zakładka Plan i dodatkowy pasek narzędziowy" caption="Zakładka Plan i dodatkowy pasek narzędziowy" %}
 
@@ -104,10 +104,10 @@ Do każdego z tych kroków jest jeden przycisk. Zatem kliknij {% include inline_
 
 {% include lightbox.html file="PlanowaniePlanNaLinieProdukcyjnaZlecenia.png" alt="Zlecenia i czas ich trwania" caption="Zlecenia i czas ich trwania" %}
 
-Zwróć uwagę, czy wszystkie zlecenia mają wyznaczoną linię oraz czas rozpoczęcia i zakończenia. Jeśli nie - to zlecenie nie będzie dalej planowane. Zatem jeśli omyłkowo Tj nie jest uzupełniony (w przypadku liczenia czasu w oparciu o czasochłonność), wróć do [norm czasowych operacji](/normy-czasowe) i je uzupełnij. Pamiętaj, że uzupełnienie czasu w Technologie > Operacje nie sprawi, że technologia użyta w zleceniu zostanie zaktualizowana. Póki zlecenie na status oczekujące - możesz wprowadzić zmiany wprost do technologii zlecenia. Najlepiej jednak stworzyć nową wersję technologii - tam wprowadzić zmiany, zaakceptować ją i podmienić w zleceniu. Powinieneś również sprawdzić [przypisanie linii](/technologie-szczegoly.html#linie--stacje) do technologi wraz z normami wydajnościowymi (w przypadku liczenia czasu w oparciu o plan na zmianę).
+Zwróć uwagę, czy wszystkie zlecenia mają wyznaczoną linię oraz czas rozpoczęcia i zakończenia. Jeśli nie - to zlecenie nie będzie dalej planowane. Sprawdź, czy Tj został uzupełniony we wszystkich operacjach dotyczących interesującego nas zlecenia (w przypadku liczenia czasu w oparciu o czasochłonność), wróć do [norm czasowych operacji](/normy-czasowe) i je uzupełnij. Pamiętaj, że uzupełnienie czasu w Technologie > Operacje nie sprawi, że technologia użyta w zleceniu zostanie zaktualizowana. Póki zlecenie na status oczekujące - możesz wprowadzić zmiany wprost do technologii zlecenia. Najlepiej jednak stworzyć nową wersję technologii - tam wprowadzić zmiany, zaakceptować ją i podmienić w zleceniu. Powinieneś również sprawdzić [przypisanie linii](/technologie-szczegoly.html#linie--stacje) do technologii wraz z normami wydajnościowymi (w przypadku liczenia czasu w oparciu o plan na zmianę).
 
 
-Wygenerowany plan możesz obejrzeć na 3 sposoby:
+Wygenerowany plan możesz obejrzeć na 2 sposoby:
 1. w zakładce Plan
 2. na [wykresie Gantta linii](/gantt-linii)
 
@@ -117,9 +117,11 @@ Wygenerowany plan możesz obejrzeć na 3 sposoby:
 
 {% include lightbox.html file="PlanowaniePlanNaLinieProdukcyjnaEdycja.png" alt="Edycja pozycji planu" caption="Edycja pozycji planu" class="float-right" %}
 
-Utworzony przez nas plan może nie być planem idealnym. Dlatego każdą z pozycji planista może przeedytować, dostosowując linie produkcyjne oraz datę rozpoczęcia i zakończenia do własnych potrzeb. W jaki sposób? Wystarczy wejść w pozycję w tabeli w zakładce Plan i wprowadzić stosowne zmiany. Modyfikacje można nanosić tak długo jak plan będzie w statusie szkic.
+Utworzony plan nie jest jednak wersją ostateczną. W każdej chwili można go modyfikować, dostosowując linie produkcyjne oraz datę rozpoczęcia i zakończenia. Jedyne co trzeba zrobić to wejść w zakładkę Plan i klikając w interesujące nas zlecenie, podmienić dane. Zmiany będą możliwe tak długo, aż plan nie zmieni swojego statusu na zatwierdzony lub odrzucony.
 
 {% include callout.html content="Pamiętaj, że ponowne wywołanie funkcji planowania nadpisze Twoje ręcznie wprowadzone zmiany w pozycje planu." type="warning" %}
+
+{% include callout.html content="Możliwość zmiany linii produkcyjnej zależna jest od dwóch parametrów: **Pozwól na zmianę linii** oraz **Pozwól na zmianę linii produkcyjnej w zaakceptowanym zleceniu**" type="warning" %}
 
 ---
 
@@ -131,4 +133,4 @@ Aby zatwierdzić plan kliknij przycisk {% include inline_image.html file="przyci
 - w zleceniach produkcyjnych zostaną uzupełnione / zaktualizowane daty rozpoczęcia i zakończenia
 - w zależności o co jest liczony czas trwania, zostaną do zlecenia przypisane: kalkulacja czasochłonności lub produkcja na zmianę
 
-Pozostało zmienić status zleceń na zaakceptowane i rozpoczęte, i można produkować, a także raportować efekty.
+Jedyne co pozostało po spełnieniu wszystkich opisanych kroków, to zmienić statusy planowanych zleceń na zaakceptowane / rozpoczęte i rozpoczynać produkcję.
