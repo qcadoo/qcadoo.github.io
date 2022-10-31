@@ -57,4 +57,4 @@ Jeśli prace nad zleceniem zostały zakończone kliknij przycisk {% include inli
 
 Jeśli zlecenie naprawy powstało z rejestracji produkcji, to jego zakończenie utworzy nowy rekord rejestracji, z danymi uzupełnionymi na podstawie naprawy. Trzeba go będzie **zaaakceptować**.
 
-Zakończenie zlecenia naprawy stworzy również dokument MM przesuwający produkty do pierwotnego magazynu.
+Zakończenie zlecenia naprawy stworzy również [dokument](/dokumenty) MM przesuwający produkty do pierwotnego magazynu.
