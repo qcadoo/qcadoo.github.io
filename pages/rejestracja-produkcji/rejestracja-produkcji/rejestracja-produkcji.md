@@ -142,7 +142,7 @@ Zlecenia naprawy pomagają w zapanowaniu nad poprawianiem produktów. Nie jeste�
 - **magazyn** - podaj magazyn powiązany z działem 
 - **typ usterki** - określ co jest nie tak, wybierając zdefiniowany [typ usterki](typy-usterek) (dotyczący produktu). Jeśli nie znalazłeś odpowiedniego rekordu - wybierz typ: Inny i dodaj opis, na podstawie którego pracownicy będą wiedzieć co wymaga poprawy.
 
-W momencie akceptacji rekordu rejestracji zostanie utworzone [zlecenie naprawy](/zlecenia-naprawy).
+W momencie akceptacji rekordu rejestracji zostanie utworzone [zlecenie naprawy](/zlecenia-naprawy) wraz z dokumentem MM przesuwającym produkty na wskazany w zleceniu magazyn.
 
 ---
 
