@@ -92,8 +92,8 @@ Gantt zadań operacyjnych pozwala analizować w wierszu analizy zasobów, pod ob
 {% include lightbox.html file="planowanieGanttZadanAnalizaZasobow.png" alt="Analiza zasobów na wykresie Gantta" caption="Analiza zasobów na wykresie Gantta" %}
 
 Wiersz analizy zasobów włączysz w [parametrach](/parametry-planowania.html#gantt-zadań-operacyjnych), zaznaczając: **Analizuj dostępne zasoby**. Wybierz jakie dane chcesz analizować:
-- **ilość planowana**. Jeśli podasz ilość maksymalną, to w momencie, gdy słupek przekroczy tą grancę - zostanie oznaczony kolorem czerwonym. Od razu zauważysz, że plan wykracza poza przyjęte możliwości.
-- **obsada**. Tu też możesz podać ilość maksymalną, po przekroczeniu której Gantt poinformuje, że zaplanowałeś pracę dla wiekszej ilości osób niż powinieneś.
+- **ilość planowana**. Jeśli podasz ilość maksymalną, to w momencie, gdy słupek przekroczy tą granicę - zostanie oznaczony kolorem czerwonym. Od razu zauważysz, że plan wykracza poza przyjęte możliwości.
+- **obsada**. Tu też możesz podać ilość maksymalną, po przekroczeniu której Gantt poinformuje, że zaplanowałeś pracę dla większej ilości osób niż powinieneś.
 
 Wiersz analizy sumuje tylko dane z widocznych wierszy stacji. Jeśli zatem analizujesz w ten sposób tylko jeden obszar zakładu - usuń czasowo niepotrzebne stacje.
 

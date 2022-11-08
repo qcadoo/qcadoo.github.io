@@ -51,7 +51,7 @@ Zanim opiszę proces planowania, musisz poznać kilka zasad, które przyjęliśm
 3. plan uwzględnia istniejące zadania na stacjach roboczych
 4. dokładamy operacje po ostatniej zaplanowanej czynności na danej stacji roboczej - nie "łatamy dziur". Innymi słowy - nawet jeśli na stacji roboczej jest przerwa w pracy, to plan nie będzie próbował tej przerwy wypełnić
 5. dopóki plan jest szkicowy możesz wprowadzać zmiany (np. w kryteriach) i ponownie wywoływać planowanie
-6. plan możesz zmienić ręcznie - dopasowując go do swoich potrzeb. Ale jeśli już po zmianach ponownie wywołasz funkcje planowania, wszystko co wprowdziłeś zostanie nadpisane przez plan ustalony na podstawie algorytmu planowania
+6. plan możesz zmienić ręcznie - dopasowując go do swoich potrzeb. Ale jeśli już po zmianach ponownie wywołasz funkcje planowania, wszystko co wprowadziłeś zostanie nadpisane przez plan ustalony na podstawie algorytmu planowania
 7. plan pilnuje zależności między operacjami w technologii - operacja późniejsza zostanie zaplanowana po ukończeniu operacji poprzedniej
 
 Jeśli takie podejście nie jest dla Ciebie wystarczające, być może potrzebujesz APS. Skontaktuj się z nami - zaprezentujemy Ci możliwości naszego APS.
@@ -83,7 +83,7 @@ Operacje do planu będą dodatkowo posortowane po poziomie w drzewie technologii
 {:start="4"}
 4. **kryterium oceny przypisania do stacji** - po każdym ułożeniu operacji na możliwych stacjach dokonujemy oceny przypisania. I pozostawiamy to przypisanie, które jest najlepsze z punktu widzenia wskazanego kryterium. Do wyboru dwie opcje:
 - **_najkrótszy czas trwania prac na stacji roboczej_** - czyli operacja będzie ułożona na tej stacji, która zagwarantuje najszybszą jej datę zakończenia
-- **_najmniej uruchomionych stacji roboczych_** - czyli opracja będzie ułożona tak, by jak najmniej stacji roboczych było w użyciu. Jeśli można to operacja będzie wykonywana na stacji, która już pracuje.
+- **_najmniej uruchomionych stacji roboczych_** - czyli operacja będzie ułożona tak, by jak najmniej stacji roboczych było w użyciu. Jeśli można to operacja będzie wykonywana na stacji, która już pracuje.
 
 {% include callout.html content="Pierwszym bezwzględnym kryterium układania operacji na stacjach jest to, czy dana stacja może daną czynność wykonywać. Do operacji przypiszemy tylko stacje z listy wskazanej w [zasięgu technologii](/technologie-szczegoly.html#zasięg-technologii)" type="warning" %}
 
@@ -95,7 +95,7 @@ Operacje do planu będą dodatkowo posortowane po poziomie w drzewie technologii
 
 {% include callout.html content="Pierwszym bezwzględnym kryterium przypisywania pracownika do operacji na danej stacji są [jego umiejętności](/pracownicy.html#jak-przypisać-do-pracownika-posiadane-umiejętności) i poziom ich zaawansowania. Operację może wykonać tylko ten pracownik, który włada umiejętnością na co najmniej takim poziomie jaki został zdefiniowany w [operacji](/wymagane-umiejetnosci-operacji)" type="warning" %}
 
-6. **Planuj na bufor** - jeśli zaznaczycz parametr, to gdy na liście stacji, które mogą wykonać zadanie, znajduje się stacja buforowa - zostanie ona przydzielona do zadania. Po co planować na bufor? Załóżmy, że o kolejności i miejscu wykonania pewnego typu operacji chce decydować kierownik produkcji. Plan na stację wyznaczy czas trwania operacji i wrzuci ją do "worka", ale zaplanuje pozostałe czynności na właściwe stacje. Kierownik produkcji, np. korzystając  [Gantta zadań operacyjnych](gantt-zadan-operacyjnych), umieści zadania w harmonogramie produkcji.
+6. **Planuj na bufor** - jeśli zaznaczysz parametr, to gdy na liście stacji, które mogą wykonać zadanie, znajduje się stacja buforowa - zostanie ona przydzielona do zadania. Po co planować na bufor? Załóżmy, że o kolejności i miejscu wykonania pewnego typu operacji chce decydować kierownik produkcji. Plan na stację wyznaczy czas trwania operacji i wrzuci ją do "worka", ale zaplanuje pozostałe czynności na właściwe stacje. Kierownik produkcji, np. korzystając  [Gantta zadań operacyjnych](gantt-zadan-operacyjnych), umieści zadania w harmonogramie produkcji.
 
 7. **Czas dodatkowy wydłuża operację** - zaznaczenie parametru będzie skutkowało tym, że data zakończenia operacji zostanie ustawiona po zakończeniu czasu dodatkowego. Jeśli parametr będzie niezaznaczony, to operacja skończy się po czasie Tj + TPZ, ale kolejna operacja zlecenia zostanie zaplanowana wtedy, gdy minie czas dodatkowy. Natomiast na danej stacji, mimo iż czas dodatkowy zadania trwa, będą mogły być realizowane inne czynności
 
@@ -111,7 +111,7 @@ Operacje do planu będą dodatkowo posortowane po poziomie w drzewie technologii
 
 Dane podstawowe planowania zostały określone. Zapisz plan i przejdź do zakładki **Dane wejściowe** aby zaciągnąć zlecenia, które mają zostać przeplanowane.
 
-W oknie wyboru zobaczysz tylko te zlecenia, które mają sposób rejestracji do każdej operacji i których status to oczekujące lub zaakceptowane. Zleceń już rozpoczątych, zakończonych czy odrzuconych przeplanować się nie da.
+W oknie wyboru zobaczysz tylko te zlecenia, które mają sposób rejestracji do każdej operacji i których status to oczekujące lub zaakceptowane. Zleceń już rozpoczętych, zakończonych czy odrzuconych przeplanować się nie da.
 
 Dane zlecenie produkcyjne może znajdować się w kilku planach na raz. Dzięki temu będziesz mógł stworzyć plany alternatywne, np. na podstawie różnych kryteriów, porównać je ze sobą i wybrać ten najlepszy. Jednak zatwierdzić będziesz mógł tylko jeden z tych planów - podczas zatwierdzenia sprawdzimy czy zlecenie produkcyjne ma przypisane zadania operacyjne. Jeśli ma - zatwierdzenie nie będzie możliwe.
 
@@ -136,7 +136,7 @@ Do każdego z tych kroków jest osobny przycisk. Zatem kliknij {% include inline
 
 Zwróć uwagę, czy wszystkie operacje mają wyznaczony czas pracy maszyny. Jeśli nie - to dana operacja nie będzie dalej planowana. Nie przypisujemy stacji roboczej do czynności, która nic nie trwa. Każda kolejna operacja w drzewie również nie zostanie zaplanowana. Zatem jeśli omyłkowo Tj nie jest uzupełniony, wróć do [norm czasowych operacji](/normy-czasowe) i je uzupełnij. Pamiętaj, że uzupełnienie czasu w Technologie > Operacje nie sprawi, że technologia użyta w zleceniu zostanie zaktualizowana. Póki zlecenie na status oczekujące - możesz wprowadzić zmiany wprost do technologii zlecenia. Najlepiej jednak stworzyć nową wersję technologii - tam wprowadzić zmiany, zaakceptować ją i podmienić w zleceniu.
 
-Kliknij teraz {% include inline_image.html file="przyciskPrzypiszOperacje.png" alt="Przycisk Przypisz operacje do stacji roboczych" %} **Przypisz operacje do stacji roboczych** - wywołany zostanie algorytm planowania wg kryterium, które okresliłeś w zakładce Główna. W efekcie - zostaną przypisane stacje robocze i zostaną określone daty realizacji (data rozpoczęcia i zakończenia).
+Kliknij teraz {% include inline_image.html file="przyciskPrzypiszOperacje.png" alt="Przycisk Przypisz operacje do stacji roboczych" %} **Przypisz operacje do stacji roboczych** - wywołany zostanie algorytm planowania wg kryterium, które określiłeś w zakładce Główna. W efekcie - zostaną przypisane stacje robocze i zostaną określone daty realizacji (data rozpoczęcia i zakończenia).
 
 {% include lightbox.html file="planowaniePlanNaStacjePlanStacje.png" alt="Stacje robocze przypisane do operacji" caption="Stacje robocze przypisane do operacji" %}
 
@@ -147,7 +147,7 @@ Pora na ostatni krok planowania - kliknij {% include inline_image.html file="prz
 {% include lightbox.html file="planowaniePlanNaStacjePlanPracownik.png" alt="Pracownicy przypisani do operacji" caption="Pracownicy przypisani do operacji" %}
 
 Operacje ulokowane na stacjach roboczych powinny otrzymać wykonawców. Dobieramy pracownika na dwa sposoby (w zależności od przyjętego kryterium oceny przypisania pracownika):
-- zgodnie z jego **umiejętnościami**. Plan zakłada, że w danym momencie pracownik może planowac na rzecz jednej czynności. Operacje czasowo nie są już dostosowywane. Jeśli w danym momencie nie będzie wolnego pracownika - czynność nie zostanie nikomu przypisana. Planista będzie musiał zadbać o obsadę. Brak pracownika przy danej operacji może świadczyć też o nie zdefiniowaniu [umiejętności w operacji](/wymagane-umiejetnosci-operacji) (tutaj - w odróżnieniu od przypisywania stacji i norm czasowych, wystarczy określenie wymaganych umiejętności w technologie > operacje), albo o braku [pracowników o danej umiejętności na określonym poziomie](/pracownicy.html#jak-przypisać-do-pracownika-posiadane-umiejętności).
+- zgodnie z jego **umiejętnościami**. Plan zakłada, że w danym momencie pracownik może planować na rzecz jednej czynności. Operacje czasowo nie są już dostosowywane. Jeśli w danym momencie nie będzie wolnego pracownika - czynność nie zostanie nikomu przypisana. Planista będzie musiał zadbać o obsadę. Brak pracownika przy danej operacji może świadczyć też o nie zdefiniowaniu [umiejętności w operacji](/wymagane-umiejetnosci-operacji) (tutaj - w odróżnieniu od przypisywania stacji i norm czasowych, wystarczy określenie wymaganych umiejętności w technologie > operacje), albo o braku [pracowników o danej umiejętności na określonym poziomie](/pracownicy.html#jak-przypisać-do-pracownika-posiadane-umiejętności).
 - zgodnie z **domyślnym pracownikiem** przypisanym do [stacji](/stacje-robocze)
 
 Jeśli z [norm czasowych operacji](/normy-czasowe) wynika, że optymalna obsada operacji jest > 1, to pracownik nie zostanie przypisany. Możesz tego dokonać wprost w [zadaniu operacyjnym](/planowanie-operacyjne.html#obsada-zadania-operacyjnego) w zakładce Obsada lub z poziomu [wykresu Gantta zadań operacyjnych](/gantt-zadan-operacyjnych), z okna edycyjnego.
