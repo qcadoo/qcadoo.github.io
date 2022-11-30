@@ -624,6 +624,10 @@ entries:
       output: web
       url: /gantt-zadan-operacyjnych.html
 
+    - title: Gantt zleceń
+      output: web
+      url: /gantt-zlecen.html
+
     - title: Plany sprzedaży
       output: web
       url: /plany-sprzedazy.html
