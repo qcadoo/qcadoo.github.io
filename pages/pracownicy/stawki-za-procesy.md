@@ -19,6 +19,6 @@ Podaj **nazwę** i zapisz stawkę. Zostanie nadany jej unikalny numer. Z prawej 
 
 {% include lightbox.html file="pracownicyStawkiZaProcesyNowyStawka.png" alt="Definiowanie stawki" caption="Definiowanie stawki" %} 
 
-Podaj kwotę (pole **aktualna stawka**) i datę, od której ta stawka ma obowiązywać (pole: **data rozpczęcia**). Jeśli istnieje poprzednia stawka to zostanie ona zamknięta datą o dzień wcześniejszą.
+Podaj kwotę (pole **aktualna stawka**) i datę, od której ta stawka ma obowiązywać (pole: **data rozpoczęcia**). Jeśli istnieje poprzednia stawka to zostanie ona zamknięta datą o dzień wcześniejszą.
 
 {% include callout.html content="Usuwanie stawek w ramach danego rodzaju zacznij od końca - możesz usunąć tylko tą stawkę, która nie jest zamknięta datą zakończenia." type="warning" %}

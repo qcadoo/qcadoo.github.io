@@ -82,9 +82,13 @@ Innymi słowy - koszty robocizny wyznaczane są na podstawie danych zaprezentowa
 
 {% include lightbox.html file="rejestracjaRozliczenieProdukcjiKosztyRobocizny.png" alt="Koszty robocizny" caption="Koszty robocizny" %}
 
-
 {:start="8"}
-8. **Rozliczenie do zleceń** - Arkusz rozliczenie do zleceń agreguje dane z dokładnością do każdego ze zleceń. Korzysta z danych uzyskanych w arkuszach: 
+8. **Dodatkowe koszty** - w arkuszu przedstawione są koszty dodatkowe zleceń. Źródłem danych są zaraportowane dodatkowe koszty bezpośrednie w zleceniu produkcyjnym.
+
+{% include lightbox.html file="rejestracjaRozliczenieProdukcjiKosztyDodatkowe.png" alt="Dodatkowe koszty" caption="Dodatkowe koszty" %}
+
+{:start="9"}
+9. **Rozliczenie do zleceń** - Arkusz rozliczenie do zleceń agreguje dane z dokładnością do każdego ze zleceń. Korzysta z danych uzyskanych w arkuszach: 
                                
 - ilości wyprodukowane
 - koszty materiałów
@@ -109,8 +113,8 @@ To tu zaczynają się większe wyliczenia. Wyznaczymy:
 
 {% include lightbox.html file="rejestracjaRozliczenieProdukcjiRozliczenieDoZlecen.png" alt="Rozliczenie do zleceń" caption="Rozliczenie do zleceń" %}
 
-{:start="9"}
-9. **Rozliczenie z uwzględnieniem komponentów** - Arkusz bardzo podobny do poprzedniego. Różnica polega na tym, że kumulujemy dane z dokładnością do głównego zlecenia → w jednym wierszu zlecenie i jego zlecenie na komponenty.
+{:start="10"}
+10. **Rozliczenie z uwzględnieniem komponentów** - Arkusz bardzo podobny do poprzedniego. Różnica polega na tym, że kumulujemy dane z dokładnością do głównego zlecenia → w jednym wierszu zlecenie i jego zlecenie na komponenty.
                                                   
  Jeśli w arkuszu Rozliczenie dla zleceń mielibyśmy 3 zlecenia:
       
@@ -120,5 +124,5 @@ To tu zaczynają się większe wyliczenia. Wyznaczymy:
     
 to w tym arkuszu będzie widoczny tylko wiersz dla 000001, z sumą kosztów materiałów i robocizny ze zleceń podległych i zlecenia głównego. 
 
-{:start="10"}
-10. **Rozliczenie do wyrobu** - Arkusz przedstawia kolejny poziom agregacji danych kosztowych - tym razem do wyrobu. Dane z arkusza Rozliczenie z uwzględnieniem komponentów sumowane prezentowane z dokładnością do zlecenia głównego sumowane są z dokładnością do produktu.
+{:start="11"}
+11. **Rozliczenie do wyrobu** - Arkusz przedstawia kolejny poziom agregacji danych kosztowych - tym razem do wyrobu. Dane z arkusza Rozliczenie z uwzględnieniem komponentów sumowane prezentowane z dokładnością do zlecenia głównego sumowane są z dokładnością do produktu.

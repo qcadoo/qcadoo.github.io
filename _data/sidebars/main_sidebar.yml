@@ -554,6 +554,10 @@ entries:
       output: web
       url: /standardowe-koszty-robocizny.html
 
+    - title: Dodatkowe koszty bezpośrednie
+      output: web
+      url: /dodatkowe-koszty-bezposrednie.html
+
   - title: Planowanie
     output: web
     folderitems:

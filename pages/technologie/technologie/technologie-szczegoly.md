@@ -182,6 +182,11 @@ Strukturę wyrobu można wygenerować po sprawdzeniu technologii.
 
 {% include callout.html content="Technologie na komponent mogą być wielopoziomowe - wyrób może mieć na liście produktów wejściowych komponent. A technologia na komponent może mieć na liście produktów wejściowych inny komponent, czy nawet listę komponentów" type="info" %}
 
+## Koszty dodatkowe
+
+W zakładce koszty dodatkowe możesz przejrzeć przypisane do technologii [dodatkowe koszty bezpośrednie](/dodatkowe-koszty-bezposrednie) wraz z ich aktualnymi kwotami.
+
+{% include lightbox.html file="technologieTechnologiaKosztyDodatkowe.png" alt="Koszty dodatkowe technologii" caption="Koszty dodatkowe technologii" %}
 
 ## Kontrola jakości 
 

@@ -3,7 +3,7 @@ title: "Ceny materiałów dla zlecenia"
 permalink: ceny-materialow-dla-zlecenia.html 
 ---
 
-W ramach zlecenia produkcyjnego możesz przeanalizować ceny zużywanych produktów. I dzieki temu oszacować koszt materiałowy. Kliknij w przycisk  {% include inline_image.html file="calculateTimeIcon24.png" alt="Przycisk ceny" %} **Ceny**. W uruchomionym oknie zobaczysz listę potrzebnych materiałów:
+W ramach zlecenia produkcyjnego możesz przeanalizować ceny zużywanych produktów. I dzieki temu oszacować koszt materiałowy. Kliknij w przycisk  {% include inline_image.html file="calculateTimeIcon24.png" alt="Przycisk ceny" %} **Ceny i koszty**. W uruchomionym oknie zobaczysz listę potrzebnych materiałów:
 
 {% include lightbox.html file="planowaniePlanowanieZlecenCenyLista.png" alt="Ceny w zleceniu" caption="Ceny materiałów użytych w zleceniu" %}
 

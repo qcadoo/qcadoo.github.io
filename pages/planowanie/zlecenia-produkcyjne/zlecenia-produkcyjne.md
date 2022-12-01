@@ -207,23 +207,26 @@ Ze szczegółami działania zapoznasz się w tej [dokumentacji](/zmiana-stanu-za
 
 10. **przycisk Czasochłonność** - funkcjonalność opisana na etapie wyznaczania czasów realizacji zlecenia
 
-11. **przycisk Ceny** - skorzystasz z niego po to, by ustalić koszty materiałowe zlecenia. Przeanalizujesz tutaj: ostatnią cenę zakupu, cenę średnio ważoną czy przyjęty koszt nominalny. Ponadto:
+11. **przycisk Ceny i koszty** - skorzystasz z niego po to, by ustalić [koszty materiałowe](/ceny-materialow-dla-zlecenia) zlecenia. Przeanalizujesz tutaj: ostatnią cenę zakupu, cenę średnio ważoną czy przyjęty koszt nominalny. Ponadto:
 - dowiesz się jakie konkretne dokumenty RW zostały wystawione do zlecenia, o jakich partiach i jakich cenach
 - wyliczymy dla Ciebie TKW
-- zapiszesz w zleceniu dodatkowe koszty bezpośrednie, zwiększające koszty całkowite zlecenia
-Więcej informacji znajdziesz [tutaj](/ceny-materialow-dla-zlecenia)
+- dodasz lub uaktualnisz w zleceniu [dodatkowe koszty bezpośrednie](/dodatkowe-koszty-bezposrednie), zwiększające koszty całkowite zlecenia
 
-12. **przycisk Koszty** - pozwala na wyliczenie planowanych kosztów zlecenia na podstawie technologii. Po szczegóły odsyłam do [dokumentacji](/koszty-zlecenia).
+    Po stworzeniu zlecenia, wszystkie aktualne koszty bezpośrednie powiązane z technologią zostaną przekazane do zlecenia. Wartości kosztów zostaną dobrane na podstawie daty rozpoczęcia zlecenia, która wyznaczy obowiązujący aktualny koszt w tej konkretnej dacie. Z poziomu zlecenia masz również możliwość dodawnia, edycji oraz usuwania kosztów bezpośrednich.
 
-13. **przycisk Produkcja na zmianę** - daje możliwość rozplanowania produkcji ilości zleconej na kolejne zmiany. Do wykorzystania w firmach produkujących seryjnie, z dającą się wyliczyć na podstawie norm, wydajnością danej linii. Dokładniejsze wyjaśnienia i instrukcję znajdziesz [tutaj](/produkcja-na-zmiane).
+    {% include lightbox.html file="kosztybezposrednieZlecenie.png" alt="Koszty bezpośrednie" caption="Koszty bezpośrednie"%}
 
-14. **przycisk Śledzenie partii** - jedno słowo - traceability. Chcesz więcej? Odsyłam do [dokumentacji](/sledzenie-partii-zlecenia).
+{:start="12"}
 
-15. **przycisk Dostępność surowców** - pozwala na analizę stanów magazynowych surowców potrzebnych do produkcji. Sprawdzisz stan na magazynach, z których zaplanowano rozchód, ale też na pozostałych magazynach zakładu - na wypadek, gdyby trzeba było produktu poszukiwać. Możesz z tego miejsca przejść też do listy zasobów na magazynie. Dzięki temu ustalisz szczegóły jak: dostępne partie, lokalizacja (miejsca składowania), data ważności zasobów itp.
+12. **przycisk Produkcja na zmianę** - daje możliwość rozplanowania produkcji ilości zleconej na kolejne zmiany. Do wykorzystania w firmach produkujących seryjnie, z dającą się wyliczyć na podstawie norm, wydajnością danej linii. Dokładniejsze wyjaśnienia i instrukcję znajdziesz [tutaj](/produkcja-na-zmiane).
 
-16. **przycisk Wydania wewnętrzne** - temat wydań wewnętrznych omówiony jest [tutaj](/wydania-wewnetrzne.html). Z tego poziomu możesz zobaczyć wydania utworzone dla danego zlecenia
+13. **przycisk Śledzenie partii** - jedno słowo - traceability. Chcesz więcej? Odsyłam do [dokumentacji](/sledzenie-partii-zlecenia).
 
-17. **przycisk Pokrycie zapotrzebowania** - umożliwa:
+14. **przycisk Dostępność surowców** - pozwala na analizę stanów magazynowych surowców potrzebnych do produkcji. Sprawdzisz stan na magazynach, z których zaplanowano rozchód, ale też na pozostałych magazynach zakładu - na wypadek, gdyby trzeba było produktu poszukiwać. Możesz z tego miejsca przejść też do listy zasobów na magazynie. Dzięki temu ustalisz szczegóły jak: dostępne partie, lokalizacja (miejsca składowania), data ważności zasobów itp.
+
+15. **przycisk Wydania wewnętrzne** - temat wydań wewnętrznych omówiony jest [tutaj](/wydania-wewnetrzne.html). Z tego poziomu możesz zobaczyć wydania utworzone dla danego zlecenia
+
+16. **przycisk Pokrycie zapotrzebowania** - umożliwa:
 - ustalenie jakie surowce i komponenty będą potrzebne do produkcji
 - sprawdzenie, czy w momencie planowanego rozpoczęcia zlecenia produkty będą dostępne na magazynie (funkcjonalność analizuje nie tylko dane zlecenie, ale też inne otwarte zlecenia korzystające z danych produktów)
 - uzyskanie informacji o planowanych dostawach na potrzebne produkty 
@@ -232,7 +235,7 @@ Więcej informacji znajdziesz [tutaj](/ceny-materialow-dla-zlecenia)
 - ustalenie stanu magazynowego zamienników
 Po więcej odsyłam do tej [dokumentacji](/pokrycie-zapotrzebowania).
 
-18. **przycisk Zlecenia na komponenty** - jeśli zaplanowane w technologii komponenty chcesz produkować zawsze (niezależnie od tego, czy są na magazynie, czy nie), to do generowania zleceń na komponenty wybierz tą funkcjonalność.
+17. **przycisk Zlecenia na komponenty** - jeśli zaplanowane w technologii komponenty chcesz produkować zawsze (niezależnie od tego, czy są na magazynie, czy nie), to do generowania zleceń na komponenty wybierz tą funkcjonalność.
 
 Ponadto z listy zleceń możesz wygenerować: [zapotrzebowanie materiałowe](/zapotrzebowanie-materialowe) i [karty pracy](/karty-pracy).
 
