@@ -5,7 +5,7 @@ permalink: dodatkowe-koszty-bezposrednie.html
 
 Dodatkowe koszty bezpośrednie mają wpływ na dokładną analizę całościowych kosztów zleceń. Pozwalają na ustalenie aktualnych kwot za dodatkowe koszty związane ze zleceniem.
 
-W ramach jednego dodatkowego kosztu bezpośredniego możesz definiować wiele kwot, w różnych okresach czasowych. Jeśli koszt z biegiem czasu się zmienia, wystarczy, że podasz nową kwotę oraz datę, od której ma ona obowiązywać. Aktualne koszty zostaną przekazane do technologii, dzięki czemu nowe zlecenia będą mieć przypisane najświeższe kwoty.
+W ramach jednego dodatkowego kosztu bezpośredniego możesz definiować wiele kwot, w różnych okresach czasowych. Jeśli koszt z biegiem czasu się zmienia, wystarczy, że podasz nową kwotę oraz datę, od której ma ona obowiązywać. Aktualne koszty zostaną przekazane do technologii, dzięki czemu nowe zlecenia będą mieć przypisane najświeższe kwoty. Wartości kosztów zostaną dobrane na podstawie daty rozpoczęcia zlecenia, która wyznaczy obowiązujący aktualny koszt w tej konkretnej dacie.
 
 {% include callout.html content="Korygowanie kosztów w danym okresie czasu nie wpływa na koszty bezpośrednie przypisane do istniejących zleceń." type="warning" %}
 
