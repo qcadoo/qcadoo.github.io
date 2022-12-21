@@ -1,6 +1,6 @@
 ---
 title: "Wstęp"
-permalink: API-Wstep.html
+permalink: api-wstep.html
 toc: false
 ---
 

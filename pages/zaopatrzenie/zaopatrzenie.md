@@ -1,6 +1,6 @@
 ---
 title: "Zaopatrzenie"
-permalink: Zaopatrzenie.html
+permalink: zaopatrzenie.html
 ---
 Moduł Zaopatrzenie zadba o dostępność surowców i komponentów do produkcji. To tu znajdziesz narzędzia do
 - ustalenia listy potrzebnych surowców - np. [zapotrzebowanie materiałowego](/zapotrzebowanie-materialowe) czy [pokrycie zapotrzebowania](/pokrycie-zapotrzebowania) i informacji o przewidywanych brakach magazynowych

@@ -1239,3 +1239,7 @@ h4.panel-title {
     width: 50%;
     margin-left: 20px;
 }
+
+.noCrossRef .btn-default {
+    margin-top: 5px;
+}

@@ -1,6 +1,6 @@
 ---
 title: "Rezerwacje stanów"
-permalink: Rezerwacje-stanow.html
+permalink: rezerwacje-stanow.html
 ---
 
 Rezerwacje dają możliwość zabukowania danych produktów na magazynie, po to, by nie zostały wydane w innym celu. W qcadoo rezerwują dwie rzeczy:

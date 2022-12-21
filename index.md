@@ -87,7 +87,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                  </div>
                  <div class="panel-body">
                      <h4>Zaopatrzenie</h4>
-                     <a href="Zaopatrzenie.html" class="btn btn-primary">Więcej...</a>
+                     <a href="zaopatrzenie.html" class="btn btn-primary">Więcej...</a>
                  </div>
              </div>
          </div>

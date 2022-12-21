@@ -440,7 +440,7 @@ entries:
 
     - title: Rezerwacje stanów
       output: web
-      url: /Rezerwacje-stanow.html
+      url: /rezerwacje-stanow.html
 
     - title: Rozliczenie palet
       output: web
@@ -472,7 +472,7 @@ entries:
 
     - title: Zaopatrzenie
       output: web
-      url: /Zaopatrzenie.html
+      url: /zaopatrzenie.html
 
     - title: Dostawy
       output: web
@@ -986,7 +986,7 @@ entries:
 
     - title: Azure Service Bus
       output: web
-      url: /Azure-Service-Bus.html
+      url: /azure-service-bus.html
 
   - title: API
     output: web
@@ -994,7 +994,7 @@ entries:
 
       - title: Wstęp
         output: web
-        url: /API-Wstep.html
+        url: /api-wstep.html
 
         subfolders:
           - title: Dane podstawowe

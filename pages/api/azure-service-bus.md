@@ -1,6 +1,6 @@
 ---
 title: "Azure Service Bus"
-permalink: Azure-Service-Bus.html
+permalink: azure-service-bus.html
 toc: false
 ---
 

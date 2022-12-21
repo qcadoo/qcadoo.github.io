@@ -26,6 +26,13 @@ module Jekyll
 
         PDFKit.configure do |config|
           config.verbose = site.config['verbose']
+          config.default_options = {
+            :no_images  => false,
+            :disable_javascript => false,
+            :enable_local_file_access => true,
+            :load_media_error_handling => 'ignore',
+            :quiet => false
+          }
         end
 
         # Set pdf_url variable in the source page (for linking to the PDF version)

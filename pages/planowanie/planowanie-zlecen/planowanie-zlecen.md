@@ -7,7 +7,7 @@ permalink: planowanie-zlecen.html
 
 Z tego poziomu możesz zmienić stan kilku [zleceń produkcyjnych](/zlecenia-produkcyjne) jednocześnie (na przykład wystartować je lub zakończyć), utworzyć dla nich [karty pracy](/karty-pracy)  oraz listy [zapotrzebowania materiałowego](/zapotrzebowanie-materialowe). Wymienione dokumenty możesz utworzyć dla dowolnej liczby zleceń, przez co otrzymujesz listę potrzebnych surowców na cały tydzień, a Twoi pracownicy plan zadań na najbliższe dni.
 
-Aby stworzyć nowy plan zlecenia produkcyjnego, kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj Nowy" %}**Dodaj nowy**. Następnie postępuj analogicznie jak w przypadku dodawania nowych [zleceń produkcyjnych](/zlecenia-produkcyjne).
+Aby stworzyć nowe zlecenie produkcyjne, kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj Nowy" %}**Dodaj nowy**. Następnie postępuj analogicznie jak w przypadku dodawania nowych [zleceń produkcyjnych](/zlecenia-produkcyjne).
 
 Możesz przejść do  [Planowania na liniach](/planowanie-na-liniach), klikając {% include inline_image.html file="calendarIcon24.png" alt="Przycisk Kalendarz" %} **Kalendarz zleceń**. Jest to kalendarz ilustrujący zaplanowaną produkcję na poszczególnych liniach produkcyjnych.
 
