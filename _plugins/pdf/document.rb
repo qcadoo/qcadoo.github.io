@@ -12,17 +12,17 @@ module Jekyll
         @dir = File.dirname(page.url)
         @name = File.basename(page.url, File.extname(page.url)) + '.pdf'
         @settings = site.config.key?('pdf') ? site.config['pdf'].clone : {}
-        @partials = ['cover','header_html','footer_html']
+        #@partials = ['cover','header_html','footer_html']
 
         self.process(@name)
         self.data = page.data.clone
-        self.content = page.content.clone
+        #self.content = page.content.clone
 
         # Set layout to the PDF layout
-        self.data['layout'] = layout
+        #self.data['layout'] = layout
 
         # Get PDF settings from the layouts
-        Jekyll::Utils.deep_merge_hashes!(@settings, self.getConfig(self.data))
+        #Jekyll::Utils.deep_merge_hashes!(@settings, self.getConfig(self.data))
 
         PDFKit.configure do |config|
           config.verbose = site.config['verbose']
@@ -36,15 +36,15 @@ module Jekyll
         end
 
         # Set pdf_url variable in the source page (for linking to the PDF version)
-        page.data['pdf_url'] = self.url
+        #page.data['pdf_url'] = self.url
 
         # Set html_url variable in the source page (for linking to the HTML version)
-        self.data['html_url'] = page.url
+        #self.data['html_url'] = page.url
 
         # create the partial objects
-        @partials.each do |partial|
-          @settings[partial] = Jekyll::PDF::Partial.new(self, @settings[partial]) if @settings[partial] != nil
-        end
+        #    @partials.each do |partial|
+        #     @settings[partial] = Jekyll::PDF::Partial.new(self, @settings[partial]) if @settings[partial] != nil
+        #  end
       end
 
       # Recursively merge settings from the page, layout, site config & jekyll-pdf defaults
@@ -65,7 +65,7 @@ module Jekyll
       # Write the PDF file
       # todo: remove pdfkit dependency
       def write(dest_prefix, dest_suffix = nil)
-        self.render(@site.layouts, @site.site_payload) if self.output == nil
+        #self.render(@site.layouts, @site.site_payload) if self.output == nil
 
         path = File.join(dest_prefix, CGI.unescape(self.url))
         dest = File.dirname(path)
@@ -74,18 +74,20 @@ module Jekyll
         FileUtils.mkdir_p(dest) unless File.exist?(dest)
 
         # write partials
-        @partials.each do |partial|
-          @settings[partial].write if @settings[partial] != nil
-        end
+        #@partials.each do |partial|
+        #  @settings[partial].write if @settings[partial] != nil
+        #end
 
         # Debugging - create html version of PDF
-        File.open("#{path}.html", 'w') {|f| f.write(self.output) } if @settings["debug"]
-        @settings.delete("debug")
+        #File.open("#{path}.html", 'w') {|f| f.write(self.output) } if @settings["debug"]
+        #@settings.delete("debug")
+
+        self.output = File.read("#{path}") if @name != "/.pdf"
 
         # Build PDF file
         fix_relative_paths
         kit = PDFKit.new(self.output, @settings)
-        file = kit.to_file(path)
+        file = kit.to_file(File.join(dest_prefix, @name))
       end
 
       def layout()

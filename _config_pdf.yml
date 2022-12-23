@@ -59,7 +59,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page"
+      layout: "pdf"
       pdf: true
 
 # these are defaults used for the frontmatter for these file types
