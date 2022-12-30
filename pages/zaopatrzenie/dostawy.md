@@ -43,7 +43,7 @@ Jeśli <span style="color:red"> *ewidencjonujesz produkty z dokładnością do p
 {% include lightbox.html file="zaopatrzenieDostawaZamowioneProduktyNowyPartia.png" alt="Partia zamawianego produktu" caption="Partia zamawianego produktu" %}
 
 Partię określić można na dwa sposoby:
-1. poprzez wybranie z listy zdefiniowanych [partii](/jak-dodac-numery-parti) w genealogii
+1. poprzez wybranie z listy zdefiniowanych [partii](/jak-dodac-numery-partii) w genealogii
 2. poprzez podanie numeru w polu **Numer partii**. Na tej podstawie założymy partię w genealogii i podepniemy ją w polu **Partia**
 
 ---
@@ -103,7 +103,7 @@ Jeśli <span style="color:red"> *ewidencjonujesz produkty z dokładnością do p
 {% include lightbox.html file="zaopatrzenieDostawaOdebraneProduktyMS.png" alt="Miejsca składowania odbieranego produktu" caption="Miejsca składowania odbieranego produktu" %}
 
 Podobnie jak na etapie wprowadzania listy zamawianych produktów, tu też możesz partię wskazać na dwa sposoby:
-1. poprzez wybranie z listy zdefiniowanych [partii](/jak-dodac-numery-parti) w genealogii
+1. poprzez wybranie z listy zdefiniowanych [partii](/jak-dodac-numery-partii) w genealogii
 2. poprzez podanie numeru w polu **Numer partii**. Na tej podstawie założymy partię w genealogii i podepniemy ją w polu **Partia**
 
 Jeśli produkt miał podaną partię na etapie zamawiania, zostanie ona z automatu zaczytana do produktów odbieranych.
