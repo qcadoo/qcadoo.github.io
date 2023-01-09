@@ -118,8 +118,8 @@ Obszar na starcie jest zwinięty. Zawiera wszystkie niezbędne do realizacji zle
 - dodatkowe informacje jak opis zadania, opis zlecenia czy kategoria zlecenia
 - operacje z technologii (drzewko operacji do rozwinięcia)
 - załączniki zdefiniowane w technologii, z której zlecenie korzysta. Załącznik trzeba pobrać i otworzyć w programie dostępnym lokalnie. Dlatego przy specyficznych formatach, zadbaj o dostępność odpowiednich programów obsługujących ten typ pliku.
-- procesy technologiczne - [lista procesów]() musi być przypisana do technologii, wówczas w terminalu będzie dostępny podgląd szczegółowych czynności do wykonania. Z tego poziomu procesy są jedynie informacją. Jeśli chcesz, aby pracownicy raportowali ich wykonanie, skorzystaj z [terminala potwierdzania procesów](/terminal-potwierdzania-procesow).
-
+- procesy technologiczne - [lista procesów](/listy-procesow) musi być przypisana do technologii, wówczas w terminalu będzie dostępny podgląd szczegółowych czynności do wykonania. Z tego poziomu procesy są jedynie informacją. Jeśli chcesz, aby pracownicy raportowali ich wykonanie, skorzystaj z [terminala potwierdzania procesów](/terminal-potwierdzania-procesow).
+- narzędzia - [lista narzędzi](/narzedzia) zdefiniowana w technologii. W przypadku rejestracji zbiorczej, wyświetlamy narzędzia z wszystkich operacji, a jeśli wykorzytywana jest rejestracja do każdej operacji, pokazywane są narzędzia tylko do danej operacji.
 ---
 
 ### Czas pracy

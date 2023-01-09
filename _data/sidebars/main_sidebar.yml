@@ -770,6 +770,14 @@ entries:
       output: web
       url: /kalendarz-zdarzen.html
 
+    - title: Narzędzia
+      output: web
+      url: /narzedzia.html
+
+    - title: Zapotrzebowanie na narzędzia
+      output: web
+      url: /zapotrzebowanie-na-narzedzia.html
+
     - title: Źródła kosztów
       output: web
       url: /zrodla-kosztow.html
