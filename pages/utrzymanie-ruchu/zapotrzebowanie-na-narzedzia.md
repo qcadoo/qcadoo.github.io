@@ -13,7 +13,7 @@ Przechodzimy do: **Utrzymanie ruchu >> Zapotrzebowanie na narzędzia >>**  {% i
 
 Podać możesz **nazwę** tworzonego raportu, aczkolwiek jest ona opcjonalna. Jedyne co potrzebujemy do wygenerowania analizy zapotrzebowania na narzędzia, są zlecenia.
 
-Zapisz zapotrzebowanie przyciskiem {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz.**, a następnie wprowadź interesujące Cię zlecenia produkcyjne, a my wyodrębnimy potrzebne narzędzia do jego realizacji. W tym celu naciśnij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj istniejący** z prawej strony okna.
+Zapisz zapotrzebowanie przyciskiem {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz.**, a następnie wprowadź interesujące Cię zlecenie produkcyjne, a my wyodrębnimy potrzebne narzędzia do jego realizacji. W tym celu naciśnij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj istniejący** z prawej strony okna.
 
 Wygeneruj zapotrzebowanie przyciskiem  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj**. Uzupełni się informacja kto i kiedy wygenerował zestawienie.
 

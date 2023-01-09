@@ -3,7 +3,7 @@ title: "Narzędzia"
 permalink: narzedzia.html
 ---
 
-W celu określenia jakich narzędzi należy użyć aby poprawnie wykonać [operacje](/operacje), trzeba wprowadzić posiadane narzędzia oraz określić w konkretnych operacjach jakie narzędzie powinno być użyte. Wprowadzone narzędzia posłużą do wygenerowania [zapotrzebowania na narzędzia](/zapotrzebowanie-na-narzedzia)) dla zleceń oraz będą informacją dodatkową w terminalu. 
+W celu określenia jakich narzędzi należy użyć aby poprawnie wykonać [operacje](/operacje), trzeba wprowadzić posiadane narzędzia oraz określić w konkretnych operacjach jakie narzędzie powinno być użyte. Wprowadzone narzędzia posłużą do wygenerowania [zapotrzebowania na narzędzia](/zapotrzebowanie-na-narzedzia) dla zleceń oraz będą informacją dodatkową w terminalu. 
 
 Aby dodać narzędzia wejdź w **Utrzymanie ruchu > Narzędzia** 
 
