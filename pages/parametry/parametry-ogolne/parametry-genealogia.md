@@ -11,8 +11,9 @@ W **Parametry > Parametry ogólne > przycisk: Genealogia** znajdziesz parametry 
 
 1. **Unikalność numeru partii** - określ na jakim poziomie ma być badana unikalność podczas [definiowania partii](/jak-dodac-numery-partii). Do wyboru:
 - unikalny globalnie - czyli w bazie dany numer partii może istnieć tylko raz
-- unikalny dla każdego dostawcy - czyli dany numer partii może się powtórzyć jeśli pochodzi od innego dostawy. U danego kontrahentem numer partii może wystąpić tylko raz
-- unikalny dla każdego dostawcy i produktu - przy tej opcji numer partii nie może się powtarzać dla produkty dostarczanego przed danego dostawcę
+- unikalny dla każdego dostawcy - czyli dany numer partii może się powtórzyć jeśli pochodzi od innego dostawcy. U danego kontrahenta numer partii może wystąpić tylko raz
+- unikalny dla każdego dostawcy i produktu - przy tej opcji numer partii nie może się powtarzać dla produktu dostarczanego przed danego dostawcę
+- unikalny dla każdego produktu - czyli dany numer partii może powtórzyć się raz w jednym produkcie
 
 ---
 
