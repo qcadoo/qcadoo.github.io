@@ -287,6 +287,10 @@ entries:
     - title: Karta modelu
       output: web
       url: /karta-modelu.html
+
+    - title: Konfigurator zamawianego produktu
+      output: web
+      url: /konfigurator-zamawianego-produktu.html
    
   - title: Struktura firmy
     output: web
