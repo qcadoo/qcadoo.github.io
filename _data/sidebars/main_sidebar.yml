@@ -470,6 +470,10 @@ entries:
       output: web
       url: /pozycje-dokumentow-z-atrybutami.html
 
+    - title: Wolumen sprzedaży
+      output: web
+      url: /wolumen-sprzedazy.html  
+
   - title: Zaopatrzenie
     output: web
     folderitems:
