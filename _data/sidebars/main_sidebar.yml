@@ -709,6 +709,10 @@ entries:
             output: web
             url: /gantt-linii.html
 
+    - title: Przebrojenia na liniach
+      output: web
+      url: /przezbrojenia-na-liniach.html
+
     - title: Paczki zlecenia
       output: web
       url: /paczki-zlecenia.html
