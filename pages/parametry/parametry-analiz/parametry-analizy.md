@@ -24,6 +24,7 @@ Do czego służą poszczególne parametry:
 - ostatniego zakupu
 - średnia z ofert
 - z ostaniej oferty
+- koszt dla zlecenia
 
 {:start="3"}
 3. **Źródło kosztów operacji** - czyli innymi słowy: gdzie będziesz ustawiał ile kosztuje godzina pracy pracownika / maszyny. Jeśli chcesz przyjąć średnią stawkę za godzinę niezależnie od wykonywanej czynności to wskaż: _z parametrów ogólnych_. Jeśli natomiast interesuje Cię rozróżnienie, bo każda operacja kosztuje inaczej - ustaw: _z operacji technologii_. Pamiętaj jednak, że wówczas normy kosztowe w każdej operacji będą musiały być uzupełnione, abyśmy mogli je wykorzystać przy tworzeniu zestawień do kosztów. 

@@ -109,7 +109,10 @@ Dostępne są następujące parametry:
 - należące do rodziny - możesz ograniczyć zaprezentowane produkty tylko do tych należących do wskazanej rodziny. I znowu - ustawiasz tutaj wartość domyślną, którą możesz zmienić na etapie generowania pokrycia zapotrzebowania
 - pokrycie zapotrzebowania - wszystkie, bez produktów znajdujących się na magazynie lub tylko braki i opóźnienia. Wybierając jedną z opcji zawężasz wyniki wyszukiwania. Wartość parametru może być zmieniona w samym pokryciu zapotrzebowania
 
-4. **Uwzględnij niezatwierdzone dostawy** - jeśli zaznaczysz parametr, to będziemy szukać informacji o dostawach (czy zamówione i na kiedy) również wśród dostaw szkicowych i przygotowanych
+4. **Uwzględnij w obliczeniach**:
+- **Potwierdzone dostawy** - pobieramy tylko dostawy o statusie potwierdzone
+- **Niezatwierdzone dostawy** - pobieramy dostawy o statusach: potwierdzone, przygotowano zamówienie, korekta zamówienia oraz szkic
+- **Nieszkicowe dostawy** - pobieramy dostawy o statusach: potwierdzone, przygotowano zamówienie oraz korekta zamówienia
 
 5. **Zachowuj raport pokrycia** - każde pokrycie zapotrzebowania, które generujesz możesz zapisać jako PDF i później do niego wrócić. Jeśli chcesz abyśmy zawsze przygotowali taki wydruk, zaznacz parametr
 

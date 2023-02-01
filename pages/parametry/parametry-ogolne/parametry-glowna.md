@@ -47,11 +47,13 @@ W zakładce znajdują się parametry konfigurujące [produkty](/produkty).
 
 {% include lightbox.html file="administracjaParametryProdukty.png" alt="Parametry raportów" caption="Parametry produktów" %}
 
-1. **Kopiuj atrybuty z rodziny na produkty rozmiarowe** - zaznacz parametr a atrybuty, które przypiszesz do produktu rodziny zostaną przeniesione na konkretne produkty utworzone przez funkcję Dodaj rozmiary do produktu
+1. **Wiele artykułów z tym samym kodem EAN** - zaznacz parametr jeśli chcesz pozwolić, aby istniało wiele produktów z tym samym kodem EAN.
 
-2. **Kopiuj koszt nominalny z rodziny na produkty rozmiarowe** - zaznacz parametr jeśli chcesz, aby podczas generowania produktów rozmiarowych, został skopiowany do nich koszt nominalny z produktu-rodziny.
+2. **Kopiuj atrybuty z rodziny na produkty rozmiarowe** - zaznacz parametr a atrybuty, które przypiszesz do produktu rodziny zostaną przeniesione na konkretne produkty utworzone przez funkcję Dodaj rozmiary do produktu.
 
-3. **Uzupełnianie kosztów produktów** - grupa parametrów pozwala na skonfigurowanie automatycznie wywoływanej w nocy (o godzinie 3:00) funkcji aktualizacji kosztów produktów. Aby uruchomić funkcję zaznacz parametr: **Automatycznie wywołuj funkcję uzupełniania kosztów**. Jeśli pracujesz w trybie z integracją z ERP, wybierz co ma być źródłem informacji o kosztach - qcadoo MES czy system zewnętrzny. Przy opcji prowadzenia magazynów w qcadoo, możesz wskazać z jakich magazynów mają być pobierane dokumenty do ustalenia kosztów.
+3. **Kopiuj koszt nominalny z rodziny na produkty rozmiarowe** - zaznacz parametr jeśli chcesz, aby podczas generowania produktów rozmiarowych, został skopiowany do nich koszt nominalny z produktu-rodziny.
+
+4. **Uzupełnianie kosztów produktów** - grupa parametrów pozwala na skonfigurowanie automatycznie wywoływanej w nocy (o godzinie 3:00) funkcji aktualizacji kosztów produktów. Aby uruchomić funkcję zaznacz parametr: **Automatycznie wywołuj funkcję uzupełniania kosztów**. Jeśli pracujesz w trybie z integracją z ERP, wybierz co ma być źródłem informacji o kosztach - qcadoo MES czy system zewnętrzny. Przy opcji prowadzenia magazynów w qcadoo, możesz wskazać z jakich magazynów mają być pobierane dokumenty do ustalenia kosztów.
 
 ---
 
@@ -94,6 +96,8 @@ W zakładce Jakość znajdziesz parametry dotyczące [kontroli jakości](/kontro
 {% include lightbox.html file="parametryParametryOgolneJakosc.png" alt="Parametry zdarzeń" caption="Parametry zdarzeń" %}
 
 1. **Końcowa kontrola jakości bez zasobów** - zaznacz parametr jeśli chcesz przeprowadzać końcową kontrolę jakości bez wskazywania i blokowania zasobów magazynowych. Jeśli parametr nie będzie zaznaczony, kontrola jakości będzie przeprowadzana w trybie blokowania zasobów.
+
+2. **Wymagaj oceny jakości** - zaznacz parametr jeśli chcesz, aby ocena jakości była wymagana przy każdej kontroli jakości.
 
 ---
 

@@ -23,6 +23,8 @@ W **Parametry > Parametry ogólne > przycisk: Genealogia** znajdziesz parametry 
 
 1. **Akceptuj śledzenie partii przy zamykaniu zlecenia** - parametr dotyczy [śledzenia partii dla zleceń](/sledzenie-partii-dla-zlecen). Zaznacz parametr jeśli chcesz, aby wprowadzone śledzenie było akceptowane wraz z ustawianiem statusu zlecenia produkcyjnego na zakończone. Dzięki temu nie będziesz musiał o zmianie statusu pamiętać
 
-2. **Generuj partię dla produkcji zleconego** - jeśli zaznaczysz parametr, to przy akceptacji zlecenia produkcyjnego na [produkt](/produkty) z ewidencją partii, z automatu założymy partię wg wskazanego wzorca i utworzymy [śledzenie partii w zleceniu](/sledzenie-partii-dla-zlecen)
+2. **Tylko jedno śledzenie partii w zleceniu** - zaznacz jeśli chcesz, aby w zleceniu istniało tylko jedno śledzenie partii
 
-3. **Wzorzec numeru** - jeśli chcesz, aby partia do produktu zleconego była z automatu utworzona, musimy wiedzieć wg jakiego wzorca numer ma być budowany. Wskaż tutaj zdefiniowany wcześniej [wzorzec numeru](/wzorce-numerow).
+3. **Generuj partię dla produkcji zleconego** - jeśli zaznaczysz parametr, to przy akceptacji zlecenia produkcyjnego na [produkt](/produkty) z ewidencją partii, z automatu założymy partię wg wskazanego wzorca i utworzymy [śledzenie partii w zleceniu](/sledzenie-partii-dla-zlecen)
+
+4. **Wzorzec numeru** - jeśli chcesz, aby partia do produktu zleconego była z automatu utworzona, musimy wiedzieć wg jakiego wzorca numer ma być budowany. Wskaż tutaj zdefiniowany wcześniej [wzorzec numeru](/wzorce-numerow).

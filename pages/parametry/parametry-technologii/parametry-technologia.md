@@ -23,6 +23,9 @@ W zakładce Główna znajdują się ogólne parametry do technologii.
 
 6. **Sprawdzaj istnienie cen produktów wejściowych** - zaznacz parametr, a w momencie sprawdzania technologii ustalimy, czy wszystkie produkty wejściowe (surowce) mają zdefiniowane koszty. Przejrzymy ostatnią cenę zakupu, a jeśli tak będzie pusta - zerkniemy w koszt nominalny. O wszystkich brakach cenowych poinformujemy komunikatem
 
+7. **Domyślna ilość dla produktu wyjściowego** - wpisz domyślną ilość dla produktu wyjściowego, która będzie podpowiadana przy dodawnaniu produktu do operacji technologii
+
+8. **Domyślna ilość dla produktu wejściowego** - wpisz domyślną ilość dla produktu wejściowego, która będzie podpowiadana przy dodawnaniu produktu do operacji technologii
 
 ---
 

@@ -53,6 +53,7 @@ wskaż, czy chcesz najpierw układać w planie te operacje, na które trzeba bę
 
 6. **Uwzględnij czas przygotowawczo-zakończeniowy** - zaznacz parametr jeśli chcesz, aby podczas wyliczania czasu trwania operacji, uwzględniany był czas przygotowawczo-zakończeniowy zdefiniowany w normach czasowych operacji
 
+7. **Pomijaj zakończone zadania** - zaznacz parametr jeśli chcesz, aby planowanie nie brało pod uwagę zadań już zakończonych przypisanych do stacji
 
 ---
 
@@ -95,26 +96,45 @@ aby w momencie akceptacji zlecenia produkcyjnego, zlecenie na usługi tworzyło 
 
 ---
 
-## Gantt zadań operacyjnych
+## Gantt zleceń/zadań
 
-W zakładce Gantt zadań operacyjnych ustawisz parametry do [graficznej prezentacji zadań operacyjnych](/gantt-zadan-operacyjnych).
+W zakładce Gantt zleceń/zadań ustawisz parametry do [graficznej prezentacji zadań operacyjnych](/gantt-zadan-operacyjnych) oraz [zleceń produkcyjnych](/gantt-zlecen).
 
 {% include lightbox.html file="administracjaParametryGantt.png" alt="Parametry Gantta" caption="Parametry Gantta" %}
+
+Parametry dotyczące Gantta zadań operacyjnych oraz zleceń zostały podzielone na dwie sekcje. Jedna sekcja zawiera parametry wspólne, a druga dotyczy się jedynie parametrów Gantta zadań operacyjnych.
+
+Parametry wspólne:
 
 1. **Pokazuj postęp** - zaznacz parametr, jeśli chcesz, aby na kafelkach widoczny był procent wykonania zadania. Zadania będą dopełniane kolorem, aż do 100% wykonania. Zadania w pełni wykonane oznaczone będą kolorem ciemno zielonym
 
 2. **Pokazuj opóźnienia** - zaznacz parametr, a pokażemy Ci na wykresie Gantta opóźnienia w realizacji zadań
 
-3. **Włącz nakładkowanie** - jeśli zaznaczysz parametr, to zadania zaplanowane na stację roboczą będą mogły się na siebie nakładać. Innymi słowy - w tym samym czasie pracownicy będą mogli zajmować się wieloma zadaniami. Jeśli parametr będzie wyłączony, to przesuwając kafle na wykresie, będą się one doklejać do istniejących, ale nigdy nie będą ułożone na nich
-
-4. **Stacje buforowe widoczne na wykresie** - jeśli nie zaznaczysz parametru, to stacje buforowe nie będą wierszami na wykresie Gantta, a zadania do nich przypisane będą widoczne w buforze wykresu, skąd będziesz mógł je przenieść na właściwe miejsce wykonania.
-
-5. **Pozwól na edycję długości zadania** - jeśli parametr nie będzie zaznaczony, to długość kafelka wyliczona w oparciu o normy czasowe, nie będzie mogła być zmieniona poprzez jego rozciąganie czy zwężanie.
-
-6. **Analizuj dostępne zasoby** - zaznacz parametr, jeśli chcesz widzieć na wykresie Gantta wiersz analizujący zasoby. Wskaż poniżej analizą jakich danych jesteś zainteresowany:
+3. **Analizuj dostępne zasoby** - zaznacz parametr, jeśli chcesz widzieć na wykresie Gantta wiersz analizujący zasoby. Wskaż poniżej analizą jakich danych jesteś zainteresowany:
 - **ilość planowana** - słupki w wierszu analizy będą prezentować zsumowaną w danym okresie ilością planowaną wszyskich widocznych na wykresie zadań. Wskaż ilość maksymalną, a każda suma ilości ponad nią będzie zaprezentowana kolorem czerwonym. Opcję tą możesz wykorzystać, gdy wiesz, że jednocześnie nie będziesz w stanie wytworzyć ilości poniżej ilości maksymalnej. Dzięki analizie na pierwszy rzut oka będziesz w stanie ocenić realność przygotowanych planów.
 - **obsada** - słupki w wierszu będą prezentować potrzebną obsadę do wykonania zaplanowanych w danym okresie zadań operacyjnych. Sumowana jest rzeczywista obsada zadania operacyjnego. Zdefiniuj jako ilość maksymalną ilość pracowników na produkcji. Dzięki temu, w sytuacji, gdy obsada konieczna przewyższy możliwą, słupek zostanie zaprezentowany kolorem czerwonym.
 
+4. **Włącz nakładkowanie** - jeśli zaznaczysz parametr, to zadania zaplanowane na stację roboczą będą mogły się na siebie nakładać. Innymi słowy - w tym samym czasie pracownicy będą mogli zajmować się wieloma zadaniami. Jeśli parametr będzie wyłączony, to przesuwając kafle na wykresie, będą się one doklejać do istniejących, ale nigdy nie będą ułożone na nich
+
+5. **Pozwól na edycję długości zadania** - jeśli parametr nie będzie zaznaczony, to długość kafelka wyliczona w oparciu o normy czasowe, nie będzie mogła być zmieniona poprzez jego rozciąganie czy zwężanie.
+
+6. **Przelicz plan** - określenie przedziału czasowego, dla którego funkcja przelicz plan będzie układać zadania operacyjne/zlecenia.
+
+Parametry wyłącznie dla Gantta zadań operacyjnych:
+
+1. **Stacje buforowe widoczne na wykresie** - jeśli nie zaznaczysz parametru, to stacje buforowe nie będą wierszami na wykresie Gantta, a zadania do nich przypisane będą widoczne w buforze wykresu, skąd będziesz mógł je przenieść na właściwe miejsce wykonania.
+
+2. **Wyliczanie długości kafelka**
+- **Uwzględnij czas przygotowawczo-zakończeniowy TPZ** - zaznacz parametr a do zadania operacyjnego będzie doliczany czas przygotowawczo-zakończeniowy operacji
+- **Uwzględnij czas dodatkowy** - zaznacz parametr a do zadania operacyjnego będzie doliczany czas dodatkowy operacji
+
+## Naprawy
+
+Parametry w tej zakładce odpowiedzialne są za zarządzaniem tworzenia dokumentów w przypadku użycia napraw.
+
+{% include lightbox.html file="parametryParametryPlanowaniaNaprawy.png" alt="Parametry napraw" caption="Parametry napraw" %}
+
+**Twórz dokumenty MM przy zgłaszaniu i zakończeniu naprawy** - zaznacz ten parametr jeśli chcesz tworzyć dokument MM przy zgłoszeniu naprawy, przesuwający na wybrany magazyn produkty przeznaczone do naprawy. Po zakończeniu naprawy wystawiony zostanie zwrotny dokument MM.
 
 ---
 
@@ -141,6 +161,8 @@ Po zamknięciu zleceń z grup spróbujemy pozamykać też zamówienia sprzedaży
 5. **Numer na podstawie wzorca** - zdefiniuj [wzorzec](/wzorce-numerow) i wskaż go w polu. Dzieki temu utworzona grupa zleceń otrzyma numer w stworzonej przez Ciebie konfiguracji
 
 6. **Atrybut wyrobu na wydruku zapotrzebowania materiałowego grupy zleceń** - wartość wskazanego tutaj atrybutu pojawi się na wydruku zapotrzebowania materiałowego grupy zleceń, w nagłówku, w obszarze wyrobów, czyli rodzin produktów, których produkcję zleca dana grupa zleceń
+
+7. **Pokaż na Zakładce "Zlecenia" wygenerowane Zlecenia na komponenty** - zaznacz parametr jeśli chcesz, aby wygenerowane komponenty z poziomu grupy zleceń trafiły do listy zleceń na produkt finalny. Pozwoli to na przeniesienie zleceń głównych wraz z ich komponentami do [pokrycia zapotrzebowania](/pokrycie-zapotrzebowania) jako dane wejściowe
 
 ## Wydruk grupy zleceń
 
