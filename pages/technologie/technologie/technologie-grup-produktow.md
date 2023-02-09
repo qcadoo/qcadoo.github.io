@@ -19,7 +19,7 @@ I dla niego definiujemy technologię:
 
 I podpinamy pod produkt te, które do tej rodziny należą:
 
-{% include lightbox.html file="technologieTechnologieGrupProduktowRodzinyProd.png" alt="Hierarchia rodziny produktu" caption="Hierarchia rodziny produktu" %}
+{% include lightbox.html file="technologieTechnologieGrupProduktowRodzinyProd.png" alt="Lista produktów rodziny" caption="Lista produktów rodziny" %}
 
 Podczas tworzenia zlecenia produkcyjnego na konkretną ławkę (np. ławka z siedziskiem czarnym) podepniemy technologię produktu rodziny w sytuacji, gdy nie znajdziemy technologii bezpośrednio dla tego produktu.
 
