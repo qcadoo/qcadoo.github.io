@@ -83,6 +83,10 @@ Aby odznaczyć znalezione zadania - wystarczy w nie dwukrotnie kliknąć.
 
 Jeśli chcesz szybko przenieść się do planów aktualnych, kliknij przycisk **dziś** {% include inline_image.html file="przyciskDzisGantt.png" alt="Dziś" %}.
 
+**Przelicz plan** na nowo przeliczy zadania, układając kafelki jeden po drugim. Ta funkcja pozwala na ponowne przeliczenie planu, na przykład w przypadku kiedy otrzymamy pilne zlecenie. Zadania zlecenia umiejscawiamy w czasie, w jakim mają być wykonywane, a nastepnie przeliczamy plan. Po przeliczeniu, zadania operacyjne zlecenia wskoczą pomiędzy zadania już zaplanowane.
+
+{% include lightbox.html file="planowanieGanttZadanPrzeliczPlan.png" alt="Przeliczanie planu" caption="Przeliczanie planu" %}
+
 ---
 
 ## Wiersz analizy zasobów

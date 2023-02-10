@@ -92,6 +92,10 @@ Aby odznaczyć znalezione zlecenia - wystarczy w nie dwukrotnie kliknąć.
 
 Jeśli chcesz szybko przenieść się do planów aktualnych, kliknij przycisk {% include inline_image.html file="przyciskDzisGantt.png" alt="Dziś" %}.
 
+**Przelicz plan** na nowo przeliczy zlecenia, układając kafelki jeden po drugim. Ta funkcja pozwala na ponowne przeliczenie planu, na przykład w przypadku kiedy otrzymamy pilne zlecenie. Takie zlecenie umiejscawiamy w czasie, w jakim ma być wykonywane, a nastepnie przeliczamy plan. Po przeliczeniu, zlecenie wskoczy pomiędzy zlecenia już zaplanowane.
+
+{% include lightbox.html file="planowanieGanttZlecenPrzeliczPlan.png" alt="Przeliczanie planu" caption="Przeliczanie planu" %}
+
 ---
 
 ## Wiersz analizy zasobów
