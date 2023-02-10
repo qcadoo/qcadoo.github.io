@@ -906,6 +906,10 @@ entries:
       output: web
       url: /analiza-czasu-trwania-operacji.html
 
+    - title: Analiza wyników rozliczenia produkcji
+      output: web
+      url: /analiza-wynikow-rozliczenia-produkcji.html
+
   - title: Parametry
     output: web
     folderitems:
