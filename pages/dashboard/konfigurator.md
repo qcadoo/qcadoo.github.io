@@ -63,7 +63,7 @@ Jeśli natomiast będziesz planował każdą z operacji z osobna, przejdź dalej
 
 {% include lightbox.html file="konfigurator3.png" alt="Konfigurator - stacje robocze" caption="Konfigurator - stacje robocze" %}
 
-Jeśli chcesz wskazywać na jakiej maszynie czy stanowisku roboczym ma być wykonywana operacja, zdefiniuj tutaj posiadane stacje robocze. Klijnij w przycisk {% include inline_image.html file="przyciskNowaStacjaRobocza.png" alt="Przycisk Nowa stacja robocza" %} i w uaktywnionym wierszu tabeli podaj **numer, nazwę i typ stacji**. Jeśli nie znalazłeś typu na liście kliknij przycisk {% include inline_image.html file="przyciskPlusDashboard.png" alt="Przycisk Dodaj nowy" %} i wprowadź jego numer i nazwę:
+Jeśli chcesz wskazywać na jakiej maszynie czy stanowisku roboczym ma być wykonywana operacja, zdefiniuj tutaj posiadane stacje robocze. Kliknij w przycisk {% include inline_image.html file="przyciskNowaStacjaRobocza.png" alt="Przycisk Nowa stacja robocza" %} i w uaktywnionym wierszu tabeli podaj **numer, nazwę i typ stacji**. Jeśli nie znalazłeś typu na liście kliknij przycisk {% include inline_image.html file="przyciskPlusDashboard.png" alt="Przycisk Dodaj nowy" %} i wprowadź jego numer i nazwę:
 
 {% include lightbox.html file="konfiguratorTypyStacji.png" alt="Konfigurator - typy stacji roboczych" caption="Konfigurator - typy stacji roboczych" %}
 

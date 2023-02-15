@@ -382,6 +382,10 @@ entries:
       output: web
       url: /generator-technologii.html
 
+    - title: Konfigurator technologii
+      output: web
+      url: /konfigurator-technologii.html
+
     - title: Grupy technologii
       output: web
       url: /grupy-technologii.html
