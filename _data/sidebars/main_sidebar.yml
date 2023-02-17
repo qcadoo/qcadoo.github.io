@@ -196,6 +196,10 @@ entries:
       output: web
       url: /stawki-za-procesy.html
 
+    - title: Stawki akordowe
+      output: web
+      url: /stawki-akordowe.html
+
   - title: Podstawowe
     output: web
     folderitems:

@@ -9,7 +9,7 @@ Aby wygenerować zestawienie wejdź w **Analizy > Analiza wyników rozliczenia p
 
 {% include lightbox.html file="analizyAnalizaWynikowRozliczeniaProdukcjiKontekst.png" alt="Kontekst analizy wyników rozliczenia produkcji" caption="Kontekst analizy wyników rozliczenia produkcji" %}
 
-Pobierzemy zlecenia, które są zawarte w rozliczeniach produkcji z datą generowania wpadającą w podany zakres czasowy. W celu pobrania danych kliknij przycisk {% include inline_image.html file="przyciskWczytajDane.png" alt="Przycisk Wczytaj dane" %} **Wczytaj dane**:
+Pobierzemy zlecenia, które są zawarte w [rozliczeniach produkcji](/rozliczenie-produkcji) z datą generowania wpadającą w podany zakres czasowy. W celu pobrania danych kliknij przycisk {% include inline_image.html file="przyciskWczytajDane.png" alt="Przycisk Wczytaj dane" %} **Wczytaj dane**:
 
 {% include lightbox.html file="analizyAnalizaWynikowRozliczeniaProdukcjiKontekstDane.png" alt="Analiza wyników rozliczenia produkcji" caption="Analiza wyników rozliczenia produkcji" %}
 

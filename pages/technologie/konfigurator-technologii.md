@@ -3,7 +3,7 @@ title: "Konfigurator technologii"
 permalink: konfigurator-technologii.html
 ---
 
-Konfigurator technologii pozwoli na dodawanie technologii w łatwy sposób, ale tylko z niezbędnymi informacjami. Dzięki konfiguratorowi powstanie technologia tylko z wymaganymi danymi - część z nich będziesz musiał podać, a pozostałe dane uzupełnimy na podstawie parametrów i wartości domyślnych. 
+Konfigurator technologii pozwoli na dodawanie technologii w łatwy sposób, ale tylko z niezbędnymi informacjami. Dzięki konfiguratorowi powstanie [technologia](/technologie-szczegoly) tylko z wymaganymi danymi - część z nich będziesz musiał podać, a pozostałe dane uzupełnimy na podstawie parametrów i wartości domyślnych. 
 
 Przejść do konfiguratora możesz w dwa sposoby:
 - przechodząc bezpośrednio do konfiguratora z menu **Technologie > Konfigurator technologii**
@@ -15,8 +15,8 @@ Aby konfigurator był dostępny, muszą być spełnione następujące warunki:
 - parametr sposóbu rejestracji produkcji musi mieć ustawioną wartość **zbiorczy** lub **dla każdej operacji**
 - parametr Uzupełniaj magazyny dla produktów w przepływie podczas sprawdzania technologii musi mieć wartość **tak**
 - parametr zasięg przyjmuje wartość **jeden dział** lub **wiele działów**
-- musi być zdefiniowany co najmniej jeden magazyn
-- musi być zdefiniowany co najmniej jeden dział
+- musi być zdefiniowany co najmniej jeden [magazyn](/magazyny)
+- musi być zdefiniowany co najmniej jeden [dział](/dzialy)
 
 ---
 
@@ -36,7 +36,7 @@ Aby zdefiniować nowy produkt finalny, podaj **numer**, **nazwę** oraz **jednos
 
 ## Krok 2:  Jak chcesz produkować?
 
-W kroku drugim, określasz operacje technologii.
+W kroku drugim, określasz [operacje](/operacje) technologii.
 
 {% include lightbox.html file="TechnologieKonfiguratorTechnologiiOperacje.png" alt="Dodanie operacji" caption="Dodanie operacji" %}
 
@@ -64,7 +64,7 @@ Kolejnym krokiem jest określenie ilości surowca zużywanego w operacji. Możes
 
 ## Krok 4:  Gdzie chcesz produkować?
 
-W tym etapie możesz przypisać stację roboczą do każdej ze zdefiniowanych operacji w technologii.
+W tym etapie możesz przypisać [stację roboczą](/stacje-robocze) do każdej ze zdefiniowanych operacji w technologii.
 
 {% include callout.html content="Krok czwarty widoczny jest tylko w przypadku, kiedy parametr **sposób rejestracji produkcji** ma wartość dla każdej operacji." type="warning" %}
 

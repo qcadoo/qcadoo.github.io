@@ -66,7 +66,9 @@ Rozliczenie produkcji w formacie XLS składa się z następujących arkuszy:
 {% include lightbox.html file="rejestracjaRozliczenieProdukcjiPrzestoje.png" alt="Przestoje" caption="Przestoje" %}
 
 {:start="6"} 
-6. **Akord** - jeśli rozliczasz wykonanie akordowo - to zakładka Cię zainteresuje. Prezentujemy w niej liczbę wykonanych cykli w operacji danego zlecenia. Źródłem danych do operacji jest zakładka Akordowo w zaakceptowanych Rekordach rejestracji. Jednym wierszem w arkuszu jest operacja zlecenia. W arkuszu pojawiają się tylko zlecenia raportowane z dokładnością do operacji (bo tylko takie zlecenia można rozliczać akordowo)
+6. **Akord** - jeśli rozliczasz wykonanie akordowo - to zakładka Cię zainteresuje. Prezentujemy w niej ilość wykonaną w operacji danego zlecenia lub całym zleceniu, w zależności od sposobu rejestracji. Jednym wierszem w arkuszu jest operacja zlecenia lub całe zbiorcze zlecenie. Źródłem danych jest: 
+- w przypadku rejestracji do każdej operacji - stawka akordowa określona w operacjach technologii  
+- w przypadku rejestracji zbiorczej - stawka akordowa określona zakładce rejestracja w technologii
 
 {% include lightbox.html file="rejestracjaRozliczenieProdukcjiAkord.png" alt="Akord" caption="Akord" %}
 
