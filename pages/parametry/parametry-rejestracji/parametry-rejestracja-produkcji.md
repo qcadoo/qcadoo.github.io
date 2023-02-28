@@ -121,6 +121,7 @@ Parametry terminala konfigurują [terminal rejestracji produkcji](/terminal). We
 - przycisk **Wybierz zadanie**
 - przycisk **Postęp pracownika**
 - przycisk **Dostępność surowców**
+- obszar **Maszyna**
 - obszar **Naprawy**
 - obszar **Przestoje**
 - obszar **Kontrola jakości**

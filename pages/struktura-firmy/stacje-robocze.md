@@ -35,12 +35,25 @@ Potraktuj qcadoo jako bazę wszelkich dostępnych informacji o maszynie. Dzięki
 
 Poza standardowymi informacjami z zakładki **Główna**, możesz ten indeks uzupełnić o więcej danych:
 - w zakładce **"Załączniki"** - możesz załączyć pliki powiązane z tym stanowiskiem np. instrukcje lub wymagane certyfikaty,
-- w zakładce **"Firmy obsługujące"** - przypisać moższ [firmy](/firmy), kótre serwisuję daną maszynę,
+- w zakładce **"Firmy obsługujące"** - przypisać możesz [firmy](/firmy), które serwisuję daną maszynę,
 - w zakładce **"Linie produkcyjne"** - przypiszesz dział i linię produkcyjną, do których dana stacja należy. Warto uzupełnić tą inforamcję jeśli zależy Ci na planowaniu zadań z dokładnością do stacji, albo gdy zamierzasz wykorzystywać moduł działu utrzymania ruchu w qcadoo
 - w zakładce **"Lokalizacja"** - zobaczysz gdzie dana stacja znajduje się w całej strukturze firmy. W tym celu wygeneruj strukturę za pomocą przycisku  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj strukturę**. Warunkiem niezbędnym do tego, by drzewo mogło się zbudować, jest przypisanie do zakładu działów, do działu - linii, do linii - stacji, a nawet do stacji - podzespołu
 
 {% include callout.html content="Jeśli zależy Ci na planie produkcji z dokładnością do stacji roboczej koniecznie wskaż w drzewie technologii jakie stacje robocze mogą daną operację wykonać." type="warning" %}
 
+- w zakładce **okresy pracy** - zaraportujesz moment uruchomienia i zatrzymania maszyny oraz możesz dokonać analizy okresów pracy maszyny i aktualnego statusu.
+
+{% include lightbox.html file="strukturaFirmyStacjaOkresyPracyLista.png" alt="Lista okresów pracy" caption="Lista okresów pracy" %} 
+
+Okresy pracy maszyny możemy dodać na trzy sposoby:
+- klikając **Uruchom** {% include inline_image.html file="przyciskUruchom .png" alt="Przycisk Uruchom" %} i **Zatrzymaj** {% include inline_image.html file="przyciskZatrzymaj.png" alt="Przycisk Zatrzymaj" %} w stacji roboczej - przypisanie daty na podstawie daty aktualnej oraz pracownika na podstawie pracownika powiązanego z zalogowanym użytkownikiem
+- dodając ręcznie Okres pracy
+
+{% include lightbox.html file="strukturaFirmyStacjaOkresyPracyNowyOkres.png" alt="Dodanie okresu pracy" caption="Dodanie okresu pracy" %} 
+
+Podaj **datę uruchomienia**, pracownika uruchamiającego stację, datę zatrzymania stacji oraz pracownika zatrzymującego stację. Czas pracy na podstawie wprowadzonych danych będzie wyliczony automatycznie.
+
+- klikając **Uruchom** i **Zatrzymaj** w terminalu
 ## Jak zaimportować stacje robocze z arkusza Excel?
 
 qcadoo MES pozwala na zaciągnięciu wielu danych z arkusza Excel. Sposób działania w każdym z miejsc jest dokładnie taki sam - opis znajdziesz w [tej dokumentacji](/import-z-excel). Poszczególne funkcjonalności różnią się tylko szablonem, który trzeba wypełnić.

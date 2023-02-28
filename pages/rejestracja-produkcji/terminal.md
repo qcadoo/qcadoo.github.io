@@ -123,6 +123,15 @@ Obszar na starcie jest zwinięty. Zawiera wszystkie niezbędne do realizacji zle
 
 ---
 
+### Maszyna
+
+W tym obszarze za pomocą przycisków **Uruchom** i **Zatrzymaj** wskazujemy okresy pracy maszyny. 
+
+{% include lightbox.html file="rejestracjaTerminalMaszyna.png" alt="Dodanie okresu pracy maszyny" caption="Dodanie okresu pracy maszyny" class="float-right" %}
+
+Przycisk **Uruchom** ustawia czas od, a przycisk **Zatrzymaj** czas do. Okresy pracy maszyny w terminalu korzystaja z listy okresów pracy danej stacji roboczej. Wybierając stację, pobierany jest jej okres pracy - jeśli wychwycimy status Uruchomiona, z poziomu terminala będziemy mogli tylko zakończyć jej działanie, a jeśli będzie Zatrzymana, możemy ją uruchomić i potwierdzić rejestrację. Podobnie do czasu pracy pracownika, po zakończeniu produkcji na danej stacji roboczej, pracownik może zakończyć jej działanie. Do okresu pracy maszyny w stacji roboczej zostanie przekazany pracownik, który uruchomił maszynę i ten, który zakończył jej działanie.
+
+---
 ### Czas pracy
 
 {% include lightbox.html file="rejestracjaTerminalCzasPracy.png" alt="Czas pracy" caption="Terminal - czas pracy" class="float-right"  %}
