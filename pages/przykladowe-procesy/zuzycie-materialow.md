@@ -50,7 +50,7 @@ Możesz ręcznie podawać ilość zużytą dla każdego zaplanowanego do zleceni
 W kolejnym kroku konieczne jest zaakceptowanie rekordu rejestracji - co się stanie? Do podanych zużytych ilości **utworzymy dokument (lub dokumenty) RW**. Od razu zaakceptowane, aktualizujące stan magazynowy.
 
 Dokument RW zawiera informacje o:
-- zużytych produktach,§
+- zużytych produktach,
 - ilości zużytych produktów,
 - magazynie, z którego nastąpił rozchód,
 - dobranych, na podstawie metody wyceny określonej w magazynie, zasobach,
