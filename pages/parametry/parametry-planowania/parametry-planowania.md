@@ -164,6 +164,8 @@ Po zamknięciu zleceń z grup spróbujemy pozamykać też zamówienia sprzedaży
 
 7. **Pokaż na Zakładce "Zlecenia" wygenerowane Zlecenia na komponenty** - zaznacz parametr jeśli chcesz, aby wygenerowane komponenty z poziomu grupy zleceń trafiły do listy zleceń na produkt finalny. Pozwoli to na przeniesienie zleceń głównych wraz z ich komponentami do [pokrycia zapotrzebowania](/pokrycie-zapotrzebowania) jako dane wejściowe
 
+8. **Zbijanie zleceń na komponenty** - zaznacz parametr, a wygenerowane zlecenia na komponenty w [grupie zleceń](/grupy-zlecen) zostaną połączone ze sobą w jedno zlecenie według komponentu. Utworzone zlecenie nie będzie już powiązane z żadnym innym zleceniem.
+
 ## Wydruk grupy zleceń
 
 Parametry w tej zakładce przydadzą się (tak jak w przypadku poprzedniej zakładki), gdy używasz do rozpisywania zleceń na produkcji [grup zleceń](/grupy-zlecen). A dokładniej - gdy chcesz grupy zleceń drukować.
