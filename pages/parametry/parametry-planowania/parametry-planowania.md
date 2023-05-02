@@ -118,7 +118,11 @@ Parametry wspólne:
 
 5. **Pozwól na edycję długości zadania** - jeśli parametr nie będzie zaznaczony, to długość kafelka wyliczona w oparciu o normy czasowe, nie będzie mogła być zmieniona poprzez jego rozciąganie czy zwężanie.
 
-6. **Przelicz plan** - określenie przedziału czasowego, dla którego funkcja przelicz plan będzie układać zadania operacyjne/zlecenia.
+6. **Do ilu dni przeliczyć plan** - określenie przedziału czasowego, dla którego funkcja przelicz plan będzie układać zadania operacyjne/zlecenia.
+
+7. **Kolejność układania zadań podczas przeliczania** - przy wywołaniu funkcji przelicz plan na [Gantt zadań operacyjnych](/gantt-zadan-operacyjnych), umiejscowienie zadań zależne jest od wybranego kryterium. Dostępne są dwie opcje:
+- **Najpierw wg poziomu operacji, potem wg rozpoczęcia zlecenia** - zadania układane są zgodnie z poziomami operacji w technologii, od największego do najmniejszego
+- **Najpierw wg rozpoczęcia zlecenia, potem wg poziomu operacji** - zadania układane są zgodnie ze zleceniami. Wszystkie zadania ze zlecenia, które rozpoczyna się najwcześniej są układane na Gancie, po czym w taki sam sposób rozstawiane są zadania z poszczególnych kolejnych zleceń
 
 Parametry wyłącznie dla Gantta zadań operacyjnych:
 
