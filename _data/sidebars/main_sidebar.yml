@@ -623,6 +623,10 @@ entries:
           output: web
           url: /sledzenie-partii-zlecenia.html
 
+        - title: Dzielenie zlecenia
+          output: web
+          url: /dzielenie-zlecenia.html
+
     - title: Planowanie na liniach
       output: web
       url: /planowanie-na-liniach.html
