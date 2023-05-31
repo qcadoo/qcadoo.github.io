@@ -25,7 +25,7 @@ Inne zadania mogą być wprowadzane tylko ręcznie.
 
 {% include lightbox.html file="planowaniePlanowanieOperacyjneNowe.png" alt="Dodanie nowego zadania operacyjnego" caption="Dodanie nowego zadania operacyjnego" class="float-right" %}
 
-Aby dodać nowe zadanie operacyjne wejdź w Planowanie > Planowanie operacyjne i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**. 
+Aby dodać nowe zadanie operacyjne wejdź w Planowanie > Zadania operacyjne i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**. 
 
 Rozpocznij od wskazania **typu zadania** - to on uwarunkuje aktywność pozostałych pól. Jeśli chcesz zaplanować realizację czynności ze zlecenia, to **wskaż _typ = wykonanie operacji w zleceniu_**. Podaj następnie:
 - _zlecenie produkcyjne_ - lista zleceń jest ograniczona do tych raportowanych z dokładnością do operacji. Wskaż to zlecenie, które chcesz rozpisać na zadania operacyjne
