@@ -152,13 +152,15 @@ Data rozpoczęcia może też przenieść się z zamówienia sprzedaży - jeśli 
 
 Czas na ustalenie daty zakończenia.
 
-{% include lightbox.html file="czasoch%C5%82onno%C5%9B%C4%87-%20strza%C5%82ki.png" alt="Formularz czasochłnności" caption="Formularz czasochłonności" class="float-right" %}
+{% include lightbox.html file="czasochłonność-strzałki.png" alt="Formularz czasochłnności" caption="Formularz czasochłonności" class="float-right" %}
 
 Pierwszym sposobem jest skorzystanie z **kalkulacji czasochłonności**. Funkcja na podstawie zdefiniowanych norm czasowych w operacji technologii wyznaczy czas trwania zlecenia, od podanej przez Ciebie daty rozpoczęcia (wyznaczając tym samym datę zakończenia). 
 
 Aby uruchomić funkcję kliknij w zleceniu przycisk {% include inline_image.html file="iconProducts24.png" alt="Przycisk Czasochłonność" %} **Czasochłonność**
 
 i wywołaj generowanie przyciskiem {% include inline_image.html file="generateIcon24.png" alt="Przycisk Generowania" %}  **Generuj czasochłonność**. Czas każdej operacji i data zakończenia zostaną wyliczona. Wybierz {% include inline_image.html file="copyIcon24.png" alt="Przycisk Kopiowania" %} **Kopiuj obliczoną datę do planowanej daty zakończenia**, a wynik obliczenia pojawi się w "Planowanej dacie zakończenia". 
+
+{% include callout.html content="Jeśli w operacji masz zdefiniowanych więcej niż jedną jednocześnie pracującą stację, to ich ilość dzieli liczbę cykli operacji, co docelowo dzieli całościowy czas realizacji operacji." type="warning" %} 
 
 Kalkulacja czasochłonności może też wyliczyć daty we wszystkich powiązanych zleceniach na komponenty. W tym celu:
 1. wygeneruj najpierw zlecenia na komponenty

@@ -26,6 +26,8 @@ Aby z niego skorzystać, wybieramy: **KALKULACJE >> Czasochłonność technologi
 {% include lightbox.html file="czasochlonosc-technologii-wynik.png" alt="Czasochłonność technologii - wynik kalkulacji" caption="Czasochłonność technologii - wynik kalkulacji" %}
  
  Po wygenerowaniu kalkulacji uzupełnią się pola informujące nas ile wynosi obliczony czas pracy pracowników oraz maszyn, czyli łączna ilość roboczogodzin pracowników i maszyn, którą dana operacja konsumuje na wszystkich stanowiskach roboczych.  
+
+ Otrzymamy również informację w jakim czasie od rozpoczęcia czasochłonnosci dana operacja się rozpocznie oraz czas faktyczny realizacji całej operacji (jeśli operacja wykonywana jest na kilku stacjach, czas przygotowawczo-zakończeniowy oraz czas dodatkowy mnożony jest przez ich ilość). 
   
  Dodatkowo pojawią się obliczone przez program czasy rozpoczęcia i zakończenia każdej operacji oraz czas pracy pracowników i czas pracy maszyn dla każdej z tych operacji.  
   
