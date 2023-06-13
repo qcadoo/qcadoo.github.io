@@ -42,6 +42,7 @@ Na podstawie produktu uzupełnimy jego zaakceptowaną domyślną **technologię*
 Na podstawie technologii uzupełni się:
 - **nazwa** zlecenia,
 - **linia produkcyjna** - na podstawie linii podanej w [zasięgu technologii](/technologie-szczegoly.html#zasięg-technologii) (gdy zasięg = 1 dział). Jeśli linia produkcyjna w technologii nie jest podana, zostanie uzupełniona na podstawie domyślnej linii z [parametrów](/parametry-zlecen.html#główna),
+- **produkty dodatkowe** - jeśli zostały ujęte w produktach wyjściowych,
 - **dział** - na podstawie działu podanego w [zasięgu technologii](/technologie-szczegoly.html#zasięg-technologii) (gdy zasięg = 1 dział). Jeśli działu nie ma w technologii, to uzupełnimy dział przypisany do linii uzupełnionej z wartości domyślnych określonych w parametrach,
 - **opis** - jeśli [parametr](/parametry-zlecen.html#główna) **Uzupełniaj opis zlecenia na podstawie opisu technologii** jest zaznaczony.
 

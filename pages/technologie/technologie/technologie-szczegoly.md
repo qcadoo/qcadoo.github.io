@@ -70,7 +70,13 @@ Po zaznaczeniu operacji w drzewie uzupełnione zostają tabelki z produktami wej
 
 2. W celu dodania produktu wyjściowego wybieramy przycisk {% include inline_image.html file="newIcon16.png" alt="Nowy" %} "Nowy" w tabelce **"Produkty wyjściowe"**. 
 
-3. Przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Produkt" dodawany do produktów wyjściowych. Podajemy następnie ilość, jaką produkuje operacja i wybieramy przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. Możemy dodatkowo oznaczyć produkt jako odpad, wtedy, gdy produkt będzie efektem tej operacji, ale nie będzie to produkt dla którego organizujemy tą produkcję (czyli będzie to produkt wytwarzany przy okazji, nadający się do dalszego przetworzenia lub nie nadający).
+3. Przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Produkt" dodawany do produktów wyjściowych. Podajemy następnie ilość, jaką produkuje operacja i wybieramy przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. 
+
+Możemy dodatkowo oznaczyć produkt jako odpad, wtedy, gdy produkt będzie efektem tej operacji, ale nie będzie to produkt dla którego organizujemy tą produkcję.
+
+Dodając więcej niż jeden produkt wyjściowy nieoznaczając go jako odpad - tworzymy finalny produkt dodatkowy, który jest produkowany wraz z produktem wyjściowym (czyli będzie to produkt wytwarzany przy okazji, nadający się do dalszego przetworzenia).
+
+{% include callout.html content="Finalny produkt dodatkowy może być zdefiniowany jedynie w ostatniej operacji technologii." type="warning" %}
 
 {% include callout.html content="W danej operacji może być tylko jeden produkt wyjściowy, który nie jest odpadem i dowolnie wiele produktów, które są odpadem." type="info" %}
 
@@ -260,7 +266,7 @@ Jeśli technologia ma zasięg = wiele działów, to magazyny muszą być wprowad
 
 Jakie magazyny musisz określić:
 - **magazyn pobrania surowców** - wskaż z jakiego magazynu mają być rozchodowane surowce do produkcji. Na ten magazyn tworzone będą dokumenty RW,
-- **magazyn przyjmowania wyrobów** - wskaż na jaki magazyn mają być przyjmowane wytworzone wyroby gotowe. Na ten magazyn będą tworzone dokumenty PW.
+- **magazyn przyjmowania wyrobów** - wskaż na jaki magazyn mają być przyjmowane wytworzone wyroby gotowe oraz produkty dodatkowe. Na ten magazyn będą tworzone dokumenty PW.
 
 Możesz też wskazać dodatkowe informacje:
 - **magazyn rozchodowania nadmiarowych surowców** - jeśli przesuwasz do produkcji surowce na magazyn działowy (korzystając z [wydań wewnętrznych](/wydania-wewnetrzne)) to możesz podać na jaki magazyn mają być zwrócone produkty przesunięte, a nie zużyte. Dokument MM (z magazynu pobrania surowców na magazyn wskazany tutaj) utworzy się w momencie zakończenia zlecenia,

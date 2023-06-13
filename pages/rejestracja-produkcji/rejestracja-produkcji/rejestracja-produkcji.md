@@ -40,7 +40,7 @@ Podaj ilość wytworzonych produktów o najwyższej jakości w polu **Wyprodukow
 
 {% include callout.html content="Pozostawione w meldunku przyczyny braków przeanalizujesz w [analizie wykonanej produkcji](/analiza-wykonanej-produkcji) " type="info" %} 
 
-{% include callout.html content="Jeśli [parametr](/parametry-rejestracja-produkcji.html#rejestracja-produkcji) **Wyprodukowanie ilości większej niż zaplanowana** = nie, to jeśli podana ilość wyprodukowana sprawi, że w zleceniu _zaraportowana produkcja_ będzie przewyższać _ilość zleconą_, pojawi się błąd zapisu." type="warning" %} 
+{% include callout.html content="Jeśli [parametr ](/parametry-rejestracja-produkcji.html#rejestracja-produkcji) **Wyprodukowanie ilości większej niż zaplanowana** = nie, to jeśli podana ilość wyprodukowana sprawi, że w zleceniu _zaraportowana produkcja_ będzie przewyższać _ilość zleconą_, pojawi się błąd zapisu." type="warning" %} 
 
 {:start="5"}
 5. Jeśli w parametrach rejestracji masz zaznaczony: **Zużycie surowców na podstawie norm** to na podstawie sumy ilości wyprodukowanej i braków zostanie wyznaczone zużycie surowców. Jeśli chcesz podać je ręcznie przejdź do tabeli **Produkty wejściowe** i w każdym zużytym surowcu określ właściwą ilość. 
