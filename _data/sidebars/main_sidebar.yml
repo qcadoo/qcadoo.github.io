@@ -627,11 +627,6 @@ entries:
           output: web
           url: /dzielenie-zlecenia.html
 
-    - title: Planowanie na liniach
-      output: web
-      url: /planowanie-na-liniach.html
-
-      subfolders:
       - title: Planowanie zleceń
         output: web
         subfolderitems:
