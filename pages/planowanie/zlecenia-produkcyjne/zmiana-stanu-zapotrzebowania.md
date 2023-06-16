@@ -20,13 +20,14 @@ Po wybraniu {% include inline_image.html file="newIcon24.png" alt="Przycisk Doda
 - **produkt**, który ma być dodatkowo brany pod uwagę przy realizacji danego zlecenia
 - **planowana ilość** zużycia lub wytworzenia produktu
 - **rola** - do wyboru: użyty (ustawiana dla tych produktów, które mają być do operacji pobrane i przetworzone) i wyprodukowany (ustawiana dla tych produktów, które będą efektem operacji)
-- **typ** - do wyboru: surowiec, półprodukt, finalny produkt, odpad (odpad to uogólnienie - typ ten reprezentuje te produkty, które zostały nadmiarowo wytworzone, ale nie będą obrabiane dalej. Może to być faktycznie odpad z produkcji, ale też dodatkowo, przy okazji tworzony produkt, np. na rzecz innego zlecenia).
+- **typ** - do wyboru: surowiec, półprodukt, finalny produkt, finalny produkt dodatkowy lub odpad.
 
 W zakładce Przepływ uzupełnij magazyny - dzięki temu będą mogły być tworzone dokumenty magazynowe przy akceptacji rejestracji produkcji czy zakończeniu zlecenia produkcyjnego. Jakie magazyny powinny być wypełnione? Zależy to od typu i roli produktu. Jeśli produkt to:
 - **użyty surowiec** - możesz uzupełnić **Miejsce pobrania surowców** i **Miejsce rozchodowania nadmiarowych surowców**
 - **wyprodukowany produkt finalny** - uzupełnij **Magazyn przyjmowania wyrobów**
+- **wyprodukowany dodatkowy produkt finalny** - uzupełnij **Magazyn przyjmowania wyrobów**
 - **użyty lub wyprodukowany półprodukt** - jeśli rejestrujesz produkcję do każdej operacji, to możesz określić z jakiego magazynu i na jaki magazyn będzie półprodukt pobierany, czy przyjmowany. Pole magazyn uaktywni się, gdy ustawisz Przepływ produkcji w toku = magazyn.
-- **wyprodukowany odpad** - jeśli ma być przyjmowany na magazyn, koniecznie trzeba uzupełnić **Magazyn przyjmowania wyrobów**
+- **wyprodukowany odpad** - jeśli ma być przyjmowany na magazyn, koniecznie trzeba uzupełnić **Magazyn odpadów**
 
 Magazyny w zakładce będą się podpowiadać. Jeśli w technologii użytej w zleceniu jest zasięg = 1 dział, to podpowiedzą się magazyny podane w nagłówku zakładki Przepływ w technologii. Jeśli natomiast zasięg = wiele działów, to domyślnie ustawią się magazyny przypisane do [działu](/dzialy), w zakładce **Magazyny**.
 

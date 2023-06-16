@@ -66,7 +66,7 @@ Jeśli **brak ceny materiału** = tak, to co najmniej jeden materiał w wycenie 
 
 Szczegóły wyceny zaprezentowane są w Excelu. Aby ją uzyskać kliknij przycisk {% include inline_image.html file="przyciskXLSDuzy.jpg" alt="Przycisk XLS" %} **XLS**.
 
-{% include lightbox.html file="kalkulacjeKalkulacjeKosztowXLS.jpg" alt="Wyniki kalkulacji kosztów w Excelu" caption="Wyniki kalkulacji kosztów w Excelu"%}
+{% include lightbox.html file="kalkulacjeKalkulacjeKosztowXLS.png" alt="Wyniki kalkulacji kosztów w Excelu" caption="Wyniki kalkulacji kosztów w Excelu"%}
 
 Kalkulacja jest podzielona na kilka arkuszy. Dokumentacja nie będzie omawiać każdego. Podreślone zostaną tylko niektóre kwestie:
 
