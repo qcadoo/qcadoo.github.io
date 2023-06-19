@@ -97,26 +97,31 @@ Parametry terminala konfigurują [terminal rejestracji produkcji](/terminal). We
 
 8. **Stacja robocza** - wybierz jedną z metod wprowadzania stacji roboczej w terminalu - albo poprzez wybranie z listy albo poprzez zeskanowanie (lub ręczne wpisanie) numeru stacji
 
-9. **Uwzględnij produkcję niezaakceptowaną** - jeśli zaznaczysz parametr, to ilość zarezerwowana w oknie wyboru zadań operacyjnych w terminalu będzie ustalana na podstawie zaakceptowanych i szkicowych meldunków. 
+9. **Współdzielenie rekordu rejestracji** - zaznacz jeśli chcesz, aby w rekordzie rejestracji, zmiany mogło dokonywać wiele pracowników. Po zaznaczeniu parametru, przy namierzaniu rekordu rejestracji w terminalu nie będzie brany pod uwagę pracownik, dzięki czemu inny pracownik będzie mógł dokonać korekty lub doraportować potrzebne informacje. (Parametr zależny od stanu parametru *Jedna zbiorcza rejestracja produkcji lub po jednej dla każdej operacji?*)
 
-10. **Wybór zadań według dat zlecenia** - pracownicy w terminalu wybierają zadania operacyjne. Każde z tych zadań ma określone daty realizacji. Jednak zdarza się często, że czynności wykonywane są trochę później niż zaplanowano, wtedy, gdy zadanie w terminalu nie jest już widoczne. A nie masz możliwości by ciągle przeplanowywać daty operacji. Rozwiązaniem może być ten parametr. Zaznacz go, a zadania w terminalu będą prezentowane tak długo, jak będzie trwało całe zlecenie.
+10. **Uwzględnij produkcję niezaakceptowaną** - jeśli zaznaczysz parametr, to ilość zarezerwowana w oknie wyboru zadań operacyjnych w terminalu będzie ustalana na podstawie zaakceptowanych i szkicowych meldunków. 
 
-11. **Nie pokazuj zadań pobranych przez innego pracownika** - parametr przydatny w sytuacji, gdy zadania realizowane są zawsze przez jednego pracownika i są zaplanowane do wykonania na dany dzień, ale nie wskazany jest wykonawca. Zaznacz parametr, a zadania pobrane przez jednego pracownika, nie będą prezentowane innym pracownikom. Ustawienie tego parametru będzie można zmienić w samym terminalu - w razie gdybyś wyjątkowo chciał dorejestrować produkcję do czynności wykonywanej przez kogoś innego.
+11. **Wybór zadań według** - pracownicy w terminalu wybierają zadania operacyjne. Każde z tych zadań ma określone daty realizacji. Jednak zdarza się często, że czynności wykonywane są trochę później niż zaplanowano, wtedy, gdy zadanie w terminalu nie jest już widoczne. A nie masz możliwości by ciągle przeplanowywać daty operacji. Rozwiązaniem może być ten parametr. Do wyboru masz trzy możliwości uwzględniania dat:
+- **daty zlecenia** - zadania w terminalu będą prezentowane tak długo, jak będzie trwało całe zlecenie
+- **daty zadania** - zadania w terminalu będą pobierane tylko w czasie trwania zadania
+- **daty rozpoczęcia zadania** - zadania w terminalu będą widoczne jeśli są w trakcie trwania lub ich data rozpoczęcia oraz data zakończenia jest wcześniejsza od aktualnej, ale ich status nie jest zakończony.
 
-12. **Nie pokazuj zadań blokowanych przez poprzednie czynności** - jeśli zaznaczysz parametr, widoczne będą tylko zadania, które są jako pierwsze do wykonania. Jeśli chcesz zobaczyć wszystkie zadania zaplanowane na dziś, odznacz parametr
+12. **Nie pokazuj zadań pobranych przez innego pracownika** - parametr przydatny w sytuacji, gdy zadania realizowane są zawsze przez jednego pracownika i są zaplanowane do wykonania na dany dzień, ale nie wskazany jest wykonawca. Zaznacz parametr, a zadania pobrane przez jednego pracownika, nie będą prezentowane innym pracownikom. Ustawienie tego parametru będzie można zmienić w samym terminalu - w razie gdybyś wyjątkowo chciał dorejestrować produkcję do czynności wykonywanej przez kogoś innego.
 
-13. **Atrybut produktu w oknie zadań** - wskaż atrybut produktu. Wartości tego atrybutu przypisanego do produktu, który masz w danej operacji wykonać, pokażemy w oknie wyboru zadań w terminalu.
+13. **Nie pokazuj zadań blokowanych przez poprzednie czynności** - jeśli zaznaczysz parametr, widoczne będą tylko zadania, które są jako pierwsze do wykonania. Jeśli chcesz zobaczyć wszystkie zadania zaplanowane na dziś, odznacz parametr
 
-14. **Nie uwzględniaj dat przy wyborze zleceń** - jeśli zaznaczysz parametr, wyświetlimy wszystkie rozpoczęte zlecenia. W przypadku odznaczenia parametru, wyświetlimy tylko te zlecenia, które trwają podczas aktualnej zmiany.
+14. **Atrybut produktu w oknie zadań** - wskaż atrybut produktu. Wartości tego atrybutu przypisanego do produktu, który masz w danej operacji wykonać, pokażemy w oknie wyboru zadań w terminalu.
 
-15. **Nie pokazuj sekcji filtrów w oknie wyboru zleceń** - jeśli zaznaczysz parametr, w oknie wyboru zleceń nie będzie można filtrować pozycji
+15. **Nie uwzględniaj dat przy wyborze zleceń** - jeśli zaznaczysz parametr, wyświetlimy wszystkie rozpoczęte zlecenia. W przypadku odznaczenia parametru, wyświetlimy tylko te zlecenia, które trwają podczas aktualnej zmiany.
 
-16. **Uwzględniaj stację roboczą przy pobieraniu rekordu rejestracji**
+16. **Nie pokazuj sekcji filtrów w oknie wyboru zleceń** - jeśli zaznaczysz parametr, w oknie wyboru zleceń nie będzie można filtrować pozycji
 
-17. **Nie uwzględniaj stacji roboczej przy wyborze zadań** - jeśli zaznaczysz parametr, wyświetlimy wszystkie zadania niezależnie od ich stacji roboczej
+17. **Uwzględniaj stację roboczą przy pobieraniu rekordu rejestracji**
+
+18. **Nie uwzględniaj stacji roboczej przy wyborze zadań** - jeśli zaznaczysz parametr, wyświetlimy wszystkie zadania niezależnie od ich stacji roboczej
 
 
-11. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
+19. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
 - przycisk **Wybierz zlecenie**
 - przycisk **Wybierz zadanie**
 - przycisk **Postęp pracownika**
