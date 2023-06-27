@@ -917,6 +917,10 @@ entries:
       output: web
       url: /analiza-wynikow-rozliczenia-produkcji.html
 
+    - title: Rozliczenie pracy akordowej
+      output: web
+      url: /rozliczenie-pracy-akordowej.html
+
   - title: Parametry
     output: web
     folderitems:
