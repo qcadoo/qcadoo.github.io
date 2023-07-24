@@ -136,9 +136,11 @@ Teraz pobierz szablon do importu. Kliknij {% include inline_image.html file="prz
 
 {% include lightbox.html file="technologieTechnologieSzablonImportuProduktow.png" alt="Wypełniony szablon do importu produktów wejściowych" caption="Wypełniony szablon do importu produktów wejściowych"%}
 
-- _poziom operacji_ - to nadany przez qcadoo numer operacji w drzewie technologii. Np. '1.' lub '2.B.2.". Pamiętaj o wpisaniu każdego znaku - nawet kropki na końcu numeru
-- _produkt_ - numer produktu istniejącego w qcadoo
-- _ilość_ - planowana ilość użycia. Jako separatora dziesiętnego użyj przecinka
+Koniecznie podaj:
+
+- **poziom operacji** - to nadany przez qcadoo numer operacji w drzewie technologii. Np. '1.' lub '2.B.2.". Pamiętaj o wpisaniu każdego znaku - nawet kropki na końcu numeru
+- **produkt** - numer produktu istniejącego w qcadoo
+- **ilość** - planowana ilość użycia. Jako separatora dziesiętnego użyj przecinka
 
 Zapisz tak przygotowany plik na dysku i ponownie kliknij {% include inline_image.html file="przyciskImportujProduktyWejsciowe.png" alt="Przycisk Importuj produkty wejściowe z .xlsx" %} **Importuj produkty wejściowe z .xlsx**, wskaż plik i zaciągnij dane do qcadoo klikając {% include inline_image.html file="przyciskImportuj.png" alt="Przycisk Importuj" %} **Importuj**. Jeśli pojawią się błędy - możesz je przeanalizować wywołując {% include inline_image.html file="przyciskPokazLogi.png" alt="Przycisk Pokaż logi" %} **Pokaż logi**.
 

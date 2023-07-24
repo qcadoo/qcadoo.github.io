@@ -169,7 +169,7 @@ Ponadto produkty możesz wzbogacić o następujące dane:
 - **globalny typ materiału** (kolumna C) - to oznaczenie czym dany produkt u Ciebie jest. Wykorzystasz tą daną do filtrowania produktów i ich szybszego znalezienia. Do wyboru są wartości 'surowiec', 'półprodukt', 'odpad', 'finalny produkt'
 - **jednostka dodatkowa** (kolumna E) - produkt może być na magazynie prowadzony w dwóch jednostkach, np. w kartonach i w sztukach. Dzięki temu będziesz mógł szybko ustalić ile kartonów i ile sztuk na magazynie się znajduje. W tej kolumnie, podobnie jak w jednostce podstawowej, wpisz wartość zdefiniowaną w słowniku jednostek. Wypełnienie tej kolumny wiąże się z koniecznością podania przelicznika
 - **przelicznik** (kolumna F) - kolumna wymagana, gdy podałeś jednostkę dodatkową. Musisz podać ile jednostek dodatkowych mieści się w jednej jednostce podstawowej. Dla przykładu: jeśli jednostką podstawową jest karton, a dodatkową sztuka, a w jednym kartonie mieści się 12 sztuk, to przelicznik = 12.
-- **kod EAN** (kolumna G) - do wpisania dowolny tekst. Dany kod EAN może wystąpić tylko raz
+- **kod EAN** (kolumna G) - do wpisania dowolny tekst. Dany kod EAN może wystąpić tylko raz, chyba że zaznaczyłeś parametr *Wiele artykułów z tym samym kodem EAN*.
 - **kategoria** (kolumna H) - wartość tu podana musi być najpierw zdefiniowana w [słowniku](/slowniki) kategorii produktów. Wykorzystasz to pole do pogrupowania produktów i przekazania pracownikom dodatkowych informacji. Kategoria produktu widoczna jest np. w terminalu rejestracji produkcji
 - **opis** (kolumna I) - do wpisania dowolny tekst
 - **producent** (kolumna J) - do wpisania numer [firmy](/firmy) zdefiniowanej w qcadoo
@@ -224,7 +224,13 @@ Produkty istniejące w qcadoo mogą być uzupełnione o kody EAN poprzez import 
 
 {% include lightbox.html file="produktyProduktyImportEAN.png" alt="Funkcja importu kodów EAN z Excel" caption="Funkcja importu kodów EAN z Excel" %}
 
-Pobierz szablon, wypełnij go danymi i zaimportuj do qcadoo. Funkcja działa jak standardowy mechanizm importu opisany na stronie: [Import danych z pliku Excel](/import-z-excel).
+Pobierz szablon i wypełnij go danymi. Koniecznie uzupełnij wszystkie kolumny:
+
+- **Numer produktu** (kolumna A) - wpisz numer produktu zdefiniowanego w qcadoo
+
+- **Kod EAN** (kolumna B) - podaj kod EAN produktu. Kod EAN jest unikalny, chyba że zaznaczyłeś parametr Wiele artykułów z tym samym kodem EAN.
+
+Zaimportuj do qcadoo. Funkcja działa jak standardowy mechanizm importu opisany na stronie: [Import danych z pliku Excel](/import-z-excel).
 
 {% include callout.html content="Ułatwisz sobie zadanie, gdy najpierw wyeksportujesz listę produktów do csv i z niego (po otwarciu w Excel) wyciągniesz numery produktów." type="warning" %}
 

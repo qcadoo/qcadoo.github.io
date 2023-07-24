@@ -49,15 +49,14 @@ Możesz dodatkowo wskazać następujące dane:
 - **produkt** (kolumna C) - numer produktu zdefiniowanego w qcadoo. Produkt ten podpowiemy w [drzewie technologii](/technologie-szczegoly.html#budowa-drzewa-technologii) jako efekt wyjściowy tej operacji,
 - **opis** (kolumna D) - dodatkowe informacje o sposobie wykonania operacji.
 - **dział** (kolumna E) - numer działu zdefiniowanego w qcadoo,
-- **linia** (kolumna F) - numer linii zdefiniowanej w qcadoo. Wskazana linia musi należeć do popdanego wyżej działu
-- **stacja robocza** (kolumna G) - numer stacji roboczej zdefiniowanej w qcadoo. Wskazana stacja robocza musi należeć do podanej wyżej linii. 
+- **stacja robocza** (kolumna F) - numer stacji roboczej zdefiniowanej w qcadoo. Wskazana stacja robocza musi należeć do podanej wyżej linii. 
 
 {% include callout.html content="Dział, linia i stacja robocza uzupełniane są po to, by w technologii mogły z automatu uzupełnić się informacje o zasięgu i by podczas układania planu produkcyjnego wiadomo było, gdzie czynność ma być realizowana." type="warning" %}
 
-- **TPZ** (kolumna H) - podaj w sekundach czas przygotowawczo-zakończeniowy operacji,
-- **TJ** (kolumna I) - podaj w sekundach czas jednostkowy operacji (wykonania pojedynczego cyklu),
-- **ile w cyklu** (kolumna J) - podaj ile jednostek produktu wykonywanych jest w jednym cyklu,
-- **dodatkowy czas** (kolumna K) - podaj w sekundach dodatkowy czas, który musi upłynąć, aby móc zrealizować kolejną operację w drzewie technologii.
+- **TPZ** (kolumna G) - podaj w sekundach czas przygotowawczo-zakończeniowy operacji,
+- **TJ** (kolumna H) - podaj w sekundach czas jednostkowy operacji (wykonania pojedynczego cyklu),
+- **ile w cyklu** (kolumna I) - podaj ile jednostek produktu wykonywanych jest w jednym cyklu,
+- **dodatkowy czas** (kolumna J) - podaj w sekundach dodatkowy czas, który musi upłynąć, aby móc zrealizować kolejną operację w drzewie technologii.
 
 {% include callout.html content="Dane: TPZ, TJ, ile w cyklu i dodatkowy czas to informacje zapisywane w zakładce [normy czasowe](/normy-czasowe) operacji." type="warning" %}
 

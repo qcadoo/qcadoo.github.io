@@ -28,7 +28,11 @@ qcadoo MES pozwala na zaciągnięciu wielu danych z arkusza Excel. Sposób dzia�
 Aby zaimportować modele (i pobrać szablon do wypełnienia) wejdź w **Produkty > Modele** i kliknij przycisk {% include inline_image.html file="przyciskImportujModele.png" alt="Przycisk Importuj modele" %} **Importuj modele z XLSX**.
 
 Arkusz .xlsx do importu modeli zawiera następujące kolumny:
-- **nazwa** (kolumna A) - nazwa modelu musi być unikalna,
+
+Koniecznie podaj:
+- **nazwa** (kolumna A) - nazwę modelu. Musi być ona unikalna,
+
+Opcjonalnie możesz określić:
 - **asortyment** (kolumna B) - numer [asortymentu](/asortymenty) zdefiniowanego w qcadoo,
 - **forma** (kolumna C) - numer [formy](/formy) zdefiniowanej w qcadoo,
 - **rodzaj wyrobu** (kolumna D) - rodzaj wyrobu, zdefiniowany w [słownikach](slowniki) qcadoo,
