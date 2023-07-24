@@ -11,7 +11,9 @@ Aby przeprowadzić analizę wejdź w **Analizy > Analiza wydajności**:
 
 Jeśli pracownik wykonywał pracę na wielu liniach produkcyjnych, to wydajność będzie zaprezentowana w kilku wierszach. Dla każdej linii wyliczymy wydajność i osobno wydajność dzienną, analizując dane z produkcji niezależnie od linii.
 
-Aby wyliczyć **całkowity czas wg normy, całkowity czas, całkowiete odchylenie czasowe i wydajność** kliknij przycisk {% include inline_image.html file="przyciskPrzeliczCzasyCalkowite.png" alt="Przycisk Przelicz czasy całkowite" %} **Przelicz czasy całkowite**. Sumy te będą wyznaczone z wszystkich rekordów spełniających kryteria filtrowania, nawet, gdy nie zmieściły się na danej stronie.
+Najnowsze dane do analizy pobierzesz klikając przycisk {% include inline_image.html file="przyciskOdswiezDane.png" alt="Przycisk Odśwież dane" %} **Odśwież dane**.
+
+Aby wyliczyć **całkowity czas wg normy, całkowity czas, całkowite odchylenie czasowe i wydajność** kliknij przycisk {% include inline_image.html file="przyciskPrzeliczCzasyCalkowite.png" alt="Przycisk Przelicz czasy całkowite" %} **Przelicz czasy całkowite**. Sumy te będą wyznaczone z wszystkich rekordów spełniających kryteria filtrowania, nawet, gdy nie zmieściły się na danej stronie.
 
 {% include callout.html content="Wiersze sumujące agregują dane widoczne na danej stronie tabeli." type="warning" %}
 

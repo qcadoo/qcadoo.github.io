@@ -921,6 +921,10 @@ entries:
       output: web
       url: /rozliczenie-pracy-akordowej.html
 
+    - title: Wykres ilości wyprodukowanej z podziałem na linie
+      output: web
+      url: /wykres-ilosci-wyprodukowanej-z-podzialem-na-linie.html
+
   - title: Parametry
     output: web
     folderitems:
