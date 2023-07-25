@@ -5,7 +5,7 @@ permalink: plany-sprzedazy.html
 
 Plany sprzedaży pozwalają na zapisanie jakie masz przewidywania odnośnie produkcji w najbliższym czasie. Najbliższy to może być zarówno tydzień, jak i miesiąc, a nawet rok, czy dłużej - jeśli taką masz specyfikę produkcji. Ewidencja planów sprzedaży pozwoli na konfrontację Twoich założeń z tym co zostało zamówione przez klientów. Możesz też wykorzystać plany sprzedaży gdy produkujesz na magazyn. Z ich poziomów będziesz mógł zlecać produkcję i analizować wykonanie planu (funkcjonalność zostanie lada moment o taką możliwość rozbudowana).
 
-Aby dodać plan sprzedaży wejdź w **Planowanie > Plany sprzedaży**
+Aby dodać plan sprzedaży wejdź w **Sprzedaż > Plany sprzedaży**
 
 {% include lightbox.html file="planowaniePlanySprzedazyLista.png" alt="Lista planów sprzedaży" caption="Lista planów sprzedaży" %} 
 

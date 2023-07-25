@@ -3,7 +3,7 @@ title: "Pozycje zamówień sprzedaży"
 permalink: pozycje-zamowien-sprzedazy.html 
 ---
 
-Lista pozycji zamówień sprzedaży dostępna jest w **Planowanie > Pozycje zamówień sprzedaży**
+Lista pozycji zamówień sprzedaży dostępna jest w **Sprzedaż > Pozycje zamówień sprzedaży**
 
 {% include lightbox.html file="planowaniePozycjeZamSprzedazyLista.png" alt="Lista pozycji zamówień sprzedaży" caption="Lista pozycji zamówień sprzedaży" %}
 

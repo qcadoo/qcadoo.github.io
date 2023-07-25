@@ -7,7 +7,6 @@ permalink: planowanie.html
 
 Tutaj można: 
 
-- Ewidencjonować [zamówienia sprzedaży](/zlecenia-nadrzedne)
 - Utworzyć nowe [zlecenie produkcyjne](/zlecenia-produkcyjne)
 - Policzyć czasochłonność zleceń
 - Stworzyć [plan produkcji](/plan-na-stacje-robocza-i-pracownika) i wygenerować [zadania do wykonania](/planowanie-operacyjne)

@@ -66,11 +66,11 @@ Zaakceptuj rekordy rejestracji, aby wywołać skutki magazynowe. Co się wydarzy
 
 - **w zleceniu produkcyjnym została zapisana ilość wyprodukowana, wyliczona ilość pozostała do produkcji oraz ustalony procent wykonania**
 
-{% include lightbox.html file="procesyRealizacjaListaZlecenWykonano.png" alt="Informacja o ilości wykonanej w liście zleceń" caption="nformacja o ilości wykonanej w liście zleceń" %}
+{% include lightbox.html file="procesyRealizacjaListaZlecenWykonano.png" alt="Informacja o ilości wykonanej w liście zleceń" caption="Informacja o ilości wykonanej w liście zleceń" %}
 
 - **w zamówieniu sprzedaży ustalona została ilość wykonana i wyliczona ilość, którą jeszcze trzeba wyprodukować**
 
-{% include lightbox.html file="procesyRealizacjaZlecenieNadrzedneWykonano.png" alt="Informacja o ilości wykonanej w zamówieniu sprzedaży" caption="nformacja o ilości wykonanej w zamówieniu sprzedaży" %}
+{% include lightbox.html file="procesyRealizacjaZlecenieNadrzedneWykonano.png" alt="Informacja o ilości wykonanej w zamówieniu sprzedaży" caption="Informacja o ilości wykonanej w zamówieniu sprzedaży" %}
 
 {% include lightbox.html file="procesyRealizacjaPozycjeZlecenNadrzednychWykonano.png" alt="Informacja o ilości wykonanej w widoku pozycji zamówienia sprzedaży" caption="Informacja o ilości wykonanej w w widoku pozycji zamówienia sprzedaży" %}
 

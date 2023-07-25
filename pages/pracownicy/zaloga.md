@@ -16,6 +16,6 @@ i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj 
 
 Podaj **numer** załogi oraz wskaż kto jest jej **liderem**. Zapisz. Dla tak stworzonej załogi **dobierz pracowników** w tabeli z prawej strony okna. 
 
-Jeśli załoga ma mieć przypisywane zdarzenia planowane z poziomu kalemdarza, zaznacz w zakładce Utrzymanie ruchu parametr **Kalendarz zdarzeń planowanych**
+Jeśli załoga ma mieć przypisywane zdarzenia planowane z poziomu kalendarza, zaznacz w zakładce Utrzymanie ruchu parametr **Kalendarz zdarzeń planowanych**
 
 {% include lightbox.html file="podstawoweZalogaUtrzymanieRuchu.png" alt="Zakładka Utrzymanie ruchu" caption="Zakładka Utrzymanie ruchu" %}

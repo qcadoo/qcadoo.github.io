@@ -7,7 +7,7 @@ Standardowe koszty robocizny są alternatywą dla norm kosztowych definiowanych 
 
 Możesz zdefiniować wiele standardowych kosztów robocizny - np. w zależności od skomplikowania produkcji i wybierać je podczas tworzenia kalkulacji kosztów do danej technologii.
 
-Aby dodać standardowy koszt robocizny wejdź w **Planowanie > Plany sprzedaży**
+Aby dodać standardowy koszt robocizny wejdź w **Sprzedaż > Plany sprzedaży**
 
 {% include lightbox.html file="kalkulacjeStandardoweKosztyRobociznyLista.png" alt="Lista standardowych kosztów robocizny" caption="Lista planów sprzedaży" %} 
 

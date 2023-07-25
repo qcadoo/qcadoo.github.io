@@ -38,7 +38,7 @@ Grupa zleceń może przyjmować następujące statusy:
 
 {% include lightbox.html file="planowanieZamowieniaDodajGrupe.png" alt="Grupowanie" caption="Grupowanie" class="float-right" %}
 
-1. Wejdź do **PLANOWANIE > Zamówienia sprzedaży**.
+1. Wejdź do **Sprzedaż > Zamówienia sprzedaży**.
 
 2. Utwórz [nowe zamówienie sprzedaży](/zlecenia-nadrzedne), używając {% include inline_image.html file="newIcon24.png" alt="Dodaj nowy" %} **Dodaj nowy** bądź wybierz istniejące z listy zamówień i wejdź w jego edycję.
 
@@ -72,7 +72,7 @@ Grupa zleceń może przyjmować następujące statusy:
 
 ## Jak dodać grupę z poziomu planu sprzedaży
 
-1. Wejdż do **Planowanie > Plany sprzedaży** 
+1. Wejdż do **Sprzedaż > Plany sprzedaży** 
 
 2. wybierz interesujący Cię plan, wejdź w jego szczegóły i przejdź do zakładki **Produkty**
 

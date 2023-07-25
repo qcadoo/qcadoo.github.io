@@ -8,7 +8,7 @@ Zamówienia sprzedaży mogą być wykorzystywane albo do zaewidencjonowania zam�
 
 ## Dodanie nowego zamówienia sprzedaży
   
-**PLANOWANIE > Zamówienia sprzedaży** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj Nowy" %} **Dodaj nowy**
+**Sprzedaż > Zamówienia sprzedaży** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj Nowy" %} **Dodaj nowy**
 
 1. W zakładce "Główna" możesz zmienić "Numer" zamówienia, który nadawany jest automatycznie.
 
@@ -47,7 +47,7 @@ Zamówienie sprzedaży może pojawić się też w systemie qcadoo na dwa inne sp
 
 ### Import zamówień sprzedaży z pliku .xlsx
 
-Aby zaimportować zamówienia sprzedaży z pliku .xslx wejdź w **Planowanie > Pozycje zamówień sprzedaży** i kliknij przycisk {% include inline_image.html file="przyciskImportujZamowieniaXLSX.png" alt="Przycisk Importuj zamówienia sprzedaży z XLSX" %} **Importuj zamówienia sprzedaży z XLSX**, pobierz szablon i wypełnij go danymi. 
+Aby zaimportować zamówienia sprzedaży z pliku .xslx wejdź w **Sprzedaż > Pozycje zamówień sprzedaży** i kliknij przycisk {% include inline_image.html file="przyciskImportujZamowieniaXLSX.png" alt="Przycisk Importuj zamówienia sprzedaży z XLSX" %} **Importuj zamówienia sprzedaży z XLSX**, pobierz szablon i wypełnij go danymi. 
 
 Kilka istotnych informacji na początek:
 1. sposób działania importu z arkusza Excel jest taki sam w wielu miejscach systemu. Dokumentację znajdziesz [tutaj](/import-z-excel),
@@ -148,7 +148,7 @@ Dodatkowo warto zaznaczyć parametr **Kopiuj uwagi z pozycji zamówienia sprzeda
 
 Standardowo w qcadoo do jednej pozycji zamówienia sprzedaży tworzone jest jedno zlecenie produkcyjne. Przy takim działaniu będziesz w stanie śledzić z poziomu zamówienia jak wygląda produkcja - ile już wykonano i ile pozostało do wyprodukowania. Do zlecenia produkcyjnego będą przekazane informacje o tym kto zamówił, jakie ma szczególne wymagania, zachowane w opisie i na kiedy danego produktu potrzebuje. Czasami jednak takie informacje nie są potrzebne na produkcji. Czasami ważniejsze jest by zebrać wszystkie zamówienia na dany produkt i zlecić na produkcję je wszystkie na raz. Pracownik nie musi wiedzieć kto to zamówił i na rzecz jakiego zamówienia aktualnie produkuje - ważne, że ma skumulowane ilości do wyprodukowania i wszystko umieszczone w jednym zleceniu. Ta funkcjonalność w qcadoo nazywa się: **zbiorcze zlecenia produkcyjne**. 
 
-Aby przy zleceniu produkcji z poziomu zamówień sprzedaży tworzyły się zbiorcze zlecenia produkcyjne, musisz zaznaczyć parametr **Zbiorcze zlecenia tworzone z zamówienia sprzedaży** w Parametry > Parametry planowania > przycisk Zlecenia > [zakładka Główna](/parametry-zlecen.html#główna). I przystąp do rozpisywania zleceń. Wejdź do **planowanie > pozycje zamówień sprzedaży** (gdzie domyślnie widać tylko pozycje nowe, jeszcze nie zlecone), zaznacz te, które chcesz przekazać na produkcję
+Aby przy zleceniu produkcji z poziomu zamówień sprzedaży tworzyły się zbiorcze zlecenia produkcyjne, musisz zaznaczyć parametr **Zbiorcze zlecenia tworzone z zamówienia sprzedaży** w Parametry > Parametry planowania > przycisk Zlecenia > [zakładka Główna](/parametry-zlecen.html#główna). I przystąp do rozpisywania zleceń. Wejdź do **sprzedaż > pozycje zamówień sprzedaży** (gdzie domyślnie widać tylko pozycje nowe, jeszcze nie zlecone), zaznacz te, które chcesz przekazać na produkcję
 
 {% include lightbox.html file="PlanowanieZbiorczeZleceniaListaNowe.png" alt="Lista nowych pozycji zamówień sprzedaży" caption="Lista nowych pozycji zamówień sprzedaży" %}
 

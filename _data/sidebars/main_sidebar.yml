@@ -573,6 +573,26 @@ entries:
     - title: Dodatkowe koszty bezpośrednie
       output: web
       url: /dodatkowe-koszty-bezposrednie.html
+      
+  - title: Sprzedaż
+    output: web
+    folderitems:
+
+    - title: Sprzedaż
+      output: web
+      url: /sprzedaz.html
+
+    - title: Plany sprzedaży
+      output: web
+      url: /plany-sprzedazy.html
+
+    - title: Zamówienia sprzedaży
+      output: web
+      url: /zlecenia-nadrzedne.html
+
+    - title: Pozycje zamówień sprzedaży
+      output: web
+      url: /pozycje-zamowien-sprzedazy.html
 
   - title: Planowanie
     output: web
@@ -646,18 +666,6 @@ entries:
     - title: Gantt zleceń
       output: web
       url: /gantt-zlecen.html
-
-    - title: Plany sprzedaży
-      output: web
-      url: /plany-sprzedazy.html
-
-    - title: Zamówienia sprzedaży
-      output: web
-      url: /zlecenia-nadrzedne.html
-
-    - title: Pozycje zamówień sprzedaży
-      output: web
-      url: /pozycje-zamowien-sprzedazy.html
 
     - title: Grupy zleceń
       output: web
