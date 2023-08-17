@@ -15,7 +15,6 @@ Najwazniejszą informacją płynącą z tabeli są ilości:
 - ilość dodatkowa - ilość znajdująca się na magazynie przedstawiona w jednostce dodatkowej produktu. Jeśli produkt nie ma jednostki dodatkowej, to widoczna jest tu ilość w jednostce podstawowej
 - stan minimalny - zdefiniowany dla produktu [stan minimalny](/stan-min)
 - ilość zamówiona - ilość na podstawie zatwierdzonych dostaw
-- wartość - suma wartości zasobów (ilość x cena dla każdego zasobu)
 
 
 

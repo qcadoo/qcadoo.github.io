@@ -691,6 +691,10 @@ entries:
       output: web
       url: /zlecenia-naprawy.html
 
+    - title: Zlecenia na usługi
+      output: web
+      url: /zlecenia-na-uslugi.html
+
     - title: Karty pracy
       output: web
       url: /karty-pracy.html
@@ -817,6 +821,14 @@ entries:
       output: web
       url: /raport-wykorzystania-czasu-pracownikow.html
 
+  - title: Portal podwykonawców
+    output: web
+    folderitems:
+
+    - title: Zlecenia na usługi
+      output: web
+      url: /zlecenia-na-uslugi-portal.html
+
   - title: Genealogia
     output: web
     folderitems:
@@ -932,6 +944,10 @@ entries:
     - title: Wykres ilości wyprodukowanej z podziałem na linie
       output: web
       url: /wykres-ilosci-wyprodukowanej-z-podzialem-na-linie.html
+
+    - title: Zestawienie produktów wydanych do podwykonawcy
+      output: web
+      url: /zestawienie-produktów-wydanych-do-podwykonawcy.html
 
   - title: Parametry
     output: web

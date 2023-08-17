@@ -22,3 +22,5 @@ Dane te można podejrzeć również wchodząc w szczegóły produktu (klikając 
 Widok szczegółów dostarcza dodatkowo informacji o pozycjach dokumentów faktycznie rozchodowanych pod dane zlecenie, wraz z rzeczywistym kosztem poniesionym pod dane zlecenie.
 
 Koszt zlecenia może być zmieniony - popraw kwotę, jeśli chcesz doliczyć nieujętą w dokumentach wartość. Koszt ten będzie uwzględniony w rozliczeniu produkcji.
+
+Średnia cena za jedn. wydaną do podwykonawcy, to nic innego jak średnia wartość materiałów wydanych do podwykonawcy w zleceniu na usługi.

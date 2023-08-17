@@ -219,6 +219,8 @@ Ze szczegółami działania zapoznasz się w tej [dokumentacji](/zmiana-stanu-za
 
     {% include lightbox.html file="kosztybezposrednieZlecenie.png" alt="Koszty bezpośrednie" caption="Koszty bezpośrednie"%}
 
+- dodasz lub podejrzysz koszty usług obcych, czyli koszty podwykonawstwa zadań w zleceniu na usługi
+
 {:start="12"}
 
 12. **przycisk Produkcja na zmianę** - daje możliwość rozplanowania produkcji ilości zleconej na kolejne zmiany. Do wykorzystania w firmach produkujących seryjnie, z dającą się wyliczyć na podstawie norm, wydajnością danej linii. Dokładniejsze wyjaśnienia i instrukcję znajdziesz [tutaj](/produkcja-na-zmiane).
