@@ -101,22 +101,15 @@ W zakładce tej możesz podać następujące dane:
 - **pokaż jako materiał na karcie produktu** - produkty wejściowe technologii z zaznaczonym parametrem pojawiają się na karcie produktu
 
 {:start="6"}
-6. zakładka **Kody dodatkowe**
-
-{% include lightbox.html file="produktyProduktyKodyDodatkowe.png" alt="Kody dodatkowe produktu" caption="Kody dodatkowe produktu" %} 
-
-Kod dodatkowy przyda się w sytuacji, gdy ten sam produkt jest przez różnych dostawców inaczej indeksowany. Możesz przyjąć produkt pod jednym indeksem, a pozostałe zapisać jako kody dodatkowe.
-
-{:start="7"}
-7. zakładka **Załączniki**
+6. zakładka **Załączniki**
 
 {% include lightbox.html file="produktyProduktyZalaczniki.png" alt="Załączniki produktu" caption="Załączniki produktu" %} 
 
 Jeśli chcesz do produktu możesz podpiąć załączniki - np. rysunki techniczne, certyfikaty, czy inną dokumentację mająca pomóc w identyfikacji. W zakładce **Załączniki** możesz załączyć plik albo przez kliknięcie w przycisk **Wybierz pliki** i wskazanie go z dysku, albo poprzez przeciągnięcie i upuszczenie w czarny obszar opisany tekstem **Upuść pliki tutaj**. 
 Podpięte pliki możesz podejrzeć klikając w nie, albo pobrać zaznaczając i klikając przycisk {% include inline_image.html file="przyciskPobierz.png" alt="Przycisk Pobierz" %} **Pobierz**.
 
-{:start="8"}
-8. zakładka **Koszty**
+{:start="7"}
+7. zakładka **Koszty**
 
 {% include lightbox.html file="produktyProduktyKoszty.png" alt="Koszty produktu" caption="Koszty produktu" %} 
 
@@ -133,15 +126,15 @@ Dla prawidłowego określenia kosztów ważne jest też pole **Podane koszty/cen
 
 {% include callout.html content="Koszty mogą być ustalane na podstawie danych z dokumentów magazynowych. Ze szczegółami zapoznasz się z rozdziału **Uzupełnij koszty produktów**" type="warning" %}
 
-{:start="9"}
-9. zakładka **Partie**
+{:start="8"}
+8. zakładka **Partie**
 
 {% include lightbox.html file="produktyProduktyPartie.png" alt="Ewidencja partii" caption="Ewidencja partii" %} 
 
 W zakładce znajduje się parametr związany z modułem Genealogii. Jeśli chcesz, aby dany produkt zawsze w momencie przychodu lub rozchodu, a także podczas raportowania produkcji, musiał mieć podawaną partię, zaznacz parametr **Ewidencja partii**. 
 
-{:start="10"}
-10. zakładka **Karty jakości**
+{:start="9"}
+9. zakładka **Karty jakości**
 
 {% include lightbox.html file="produktyProduktyKartyJakosci.png" alt="Karty jakości produktu" caption="Karty jakości produktu" %} 
 
