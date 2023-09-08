@@ -65,6 +65,8 @@ Kontrahent, któremu przypiszemy zlecenie na usługi lub sam je pobierze w [port
 
 W zakładce **Koszty usług** zaprezentowane są produkty wyjściowe każdej operacji przypisanej do zlecenia na usługi. W tym miejscu wyliczamy wartość wykonania zadania przez podwykonawcę pobierając koszt jednostkowy zdefiniowany w [operacji](/operacje) oraz mnożąc go przez ilość przyjętą produktów wyjściowych. 
 
-Koszt w zleceniu na usługi jest edytowalny, więc jeśli od czasu, kiedy zdefiniowano go w technologii uległ on zmianie, w zleceniu na usługi można wprowadzić korektę.
+Koszt w zleceniu na usługi jest edytowalny, więc jeśli od czasu, kiedy zdefiniowano go w technologii uległ on zmianie, w zleceniu na usługi można wprowadzić korektę. 
+
+Jeśli jednak chcesz powrócić do kosztów zdefiniowanych w technologii, wystraczy, że zaznaczysz produkt i klikniesz przycisk **Kopiuj koszty z planowanych** {% include inline_image.html file="kopiujKoszty.png" alt="Przycisk Kopiuj koszty z planowanych" %}.
 
 Koszty usług przekazywane są do **Cen i Kosztów** [zlecenia produkcyjnego](/zlecenia-produkcyjne).

@@ -5,6 +5,7 @@ permalink: zlecenia-nadrzedne.html
 
 Zamówienia sprzedaży mogą być wykorzystywane albo do zaewidencjonowania zamówienia płynącego od klienta, ale też do grupowania zleceń produkcyjnych w projekty czy plany na dłuższy okres. Są początkiem procesu produkcyjnego. Ale nie koniecznym do wykorzystywania - jeśli nie masz ochoty i chcesz zaczynać od razu od zleceń produkcyjnych - proszę bardzo. Nie mniej jednak zapoznaj się z poniższą dokumentacją i dowiedz się jakie korzyści płyną z tej funkcjonalności.
   
+{% include lightbox.html file="planowanieZamowienia.png" alt="Lista zamówienia sprzedaży" caption="Lista zamówienia sprzedaży"%}
 
 ## Dodanie nowego zamówienia sprzedaży
   
@@ -134,7 +135,7 @@ Jeżeli chcesz, aby przy tworzeniu wielu zleceń generowały się zlecenia na ko
 
 - przez funkcję generowania zleceń na komponenty z poziomu zlecenia produkcyjnego czyli bez sprawdzania aktualnych stanów magazynowych komponentów - wtedy nie zaznaczaj tego parametru.
 
-Funkcja daje też możliwość analizy obecnego stanu magazynowego zamówionych produktów - jeśli coś znajduje się na magazynie, to nie zostanie utworzone zlecenie produkcyjne (albo zostanie utworzone na mniejszą ilość), tylko program zaproponuje pobranie z magazynu. Informacja o tym ile produktu pozostało do zlecenia odliczając stany magazynowe, znajduje się w kolumnie **ilość pozostała do zlecenia**. Jeśli chcesz włączyć takie działanie, zaznacz parametr **Realizacja ze stanu magazynowego** i podaj magazyny, na których stan ma byc sprawdzany w [parametrach zleceń](/parametry-zlecen).
+Funkcja daje też możliwość analizy obecnego stanu magazynowego zamówionych produktów - jeśli coś znajduje się na magazynie, to nie zostanie utworzone zlecenie produkcyjne (albo zostanie utworzone na mniejszą ilość), tylko program zaproponuje pobranie z magazynu. Informacja o tym ile produktu pozostało do zlecenia odliczając stany magazynowe, znajduje się w kolumnie **ilość pozostała do zlecenia**. Jeśli chcesz włączyć takie działanie, zaznacz [parametr](/parametry-zlecen.html#główna) **Realizacja ze stanu magazynowego** i podaj magazyny, na których stan ma byc sprawdzany w [parametrach zleceń](/parametry-zlecen).
 
 Jeśli program uzna, że jest wystarczający stan aby zrealizować zamówienie bezpośrednio z magazynu, to uzupełni w pozycji zamówienia sprzedaży ilość pobraną z magazynu.
 
