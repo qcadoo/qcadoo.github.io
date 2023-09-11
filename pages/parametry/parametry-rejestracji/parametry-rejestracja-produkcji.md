@@ -122,8 +122,9 @@ Parametry terminala konfigurują [terminal rejestracji produkcji](/terminal). We
 
 18. **Nie uwzględniaj stacji roboczej przy wyborze zadań** - jeśli zaznaczysz parametr, wyświetlimy wszystkie zadania niezależnie od ich stacji roboczej
 
+19. **Twórz awarię do przestoju** - jeśli zaznaczysz parametr, każdy przestój o typie awaria będzie tworzył odpowiednie zdarzenie
 
-19. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
+20. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
 - przycisk **Wybierz zlecenie**
 - przycisk **Wybierz zadanie**
 - przycisk **Postęp pracownika**

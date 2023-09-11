@@ -11,8 +11,8 @@ Aby wprowadzić przyczyny przestojów wejdź w **Podstawowe > Przyczyny przestoj
 
 i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy" %} **Dodaj nowy**
 
-{% include lightbox.html file="podstawowePrzyczynyPrzestojowLista.png" alt="Lista przyczyn przestojów" caption="Lista przyczyn przestojów" %}
+{% include lightbox.html file="podstawowePrzyczynyPrzestojowNowy.png" alt="Dodanie przyczyny przestoju" caption="Dodanie przyczyny przestoju" %}
 
-Obowiązkowo wprowadź **nazwę**, możesz dodatkowo podać **opis**, aby ułatwić pracownikowi wybór. W liście znajduje się wartość Inna - warto mieć w zapasie, gdyby wydarzyło się coś wyjątkowego i pracownik nie będzie potrafił dopasować żadnej ze zdefiniowanych przyczyn.
+Obowiązkowo wprowadź **nazwę** oraz określ poprawny **typ**. Możesz dodatkowo podać **opis**, aby ułatwić pracownikowi wybór. W liście znajduje się wartość Inna - warto mieć w zapasie, gdyby wydarzyło się coś wyjątkowego i pracownik nie będzie potrafił dopasować żadnej ze zdefiniowanych przyczyn.
 
 Aby analizować zarejestrowane przestoje wg przyczyn wejdź w **Rejestracja > [Przestoje](/przestoje)**

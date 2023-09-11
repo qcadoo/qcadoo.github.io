@@ -296,9 +296,11 @@ Aby zarejestrować przestój wskaż zlecenie lub zadanie, którym się zajmujesz
 
 {% include callout.html content="Jeśli nie znalazłeś w przyczynach przestoju właściwej, wybierz 'Inne' i wyjaśnij w opisie co konkretnie się wydarzyło" type="warning" %}
 
-I potwierdź standardowo rejestrację w terminalu. Przestój zostanie zapisany w zleceniu. Jeśli będziesz mógł wrócić do realizacji zadania (bo np. maszyna zostanie naprawiona) wróć do terminala, wskaż zlecenie / zadanie i kliknij przycisk {% include inline_image.html file="przyciskZakonczPrzestoj.png" alt="Zakończ przestój" %} **Zakończ**. Pojawi się znane Ci już okno przestoju, a w nim uzupełniona data zakończenia i wyliczony czas trwania. Zapisz przestój i standardowo potwierdź rejestrację z terminala.
+{% include lightbox.html file="rejestracjaTerminalPrzestojeAwaria.png" alt="Terminal - awaria" caption="Terminal - awaria" class="float-right" %}
 
-Zarejestrowane przestoje widoczne są w tabeli w obszarze Przestoje. 
+Potwierdź standardowo rejestrację w terminalu. Przestój zostanie zapisany w zleceniu. Jeśli będziesz mógł wrócić do realizacji zadania (bo np. maszyna zostanie naprawiona) wróć do terminala, wskaż zlecenie / zadanie i kliknij przycisk {% include inline_image.html file="przyciskZakonczPrzestoj.png" alt="Zakończ przestój" %} **Zakończ**. Pojawi się znane Ci już okno przestoju, a w nim uzupełniona data zakończenia i wyliczony czas trwania. Zapisz przestój i standardowo potwierdź rejestrację z terminala. Zarejestrowane przestoje widoczne są w tabeli w obszarze Przestoje. 
+
+W przypadku zaznaczonego [parametru](/parametry-rejestracja-produkcji.html#terminal) **Twórz awarie do przestoju**, potwierdzenie rejestracji z zaraportowanym przestojem z przyczyną **awaria** skutkuje potwierdzeniem rejestracji oraz wyświetleniem okna dodawania zdarzenia o rodzaju awaria.
 
 {% include callout.html content="Jeśli w danym meldunku zatrzymujesz istniejący przestój i chcesz rozpocząć kolejny, to najpierw kliknij Potwierdź w terminalu i na nowo wczytaj zlecenie / zadanie." type="warning" %}
 
