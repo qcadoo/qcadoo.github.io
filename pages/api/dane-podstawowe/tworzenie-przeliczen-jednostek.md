@@ -30,6 +30,7 @@ Za pomocą tej metody api utworzysz [przeliczenia jednostek](/przeliczniki) w sy
                         "externalID" : "externalID",
                         "name" : "name",
                         "description" : "description" //opcjonalne
+                        "technicalCode": "technicalCode" //opcjonalne
                     }
                 }
             ]

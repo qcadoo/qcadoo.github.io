@@ -1084,6 +1084,10 @@ entries:
                 output: web
                 url: /tworzenie-adresow.html
 
+              - title: Tworzenie i aktualizacja kategorii
+                output: web
+                url: /tworzenie-i-aktualizacja-kategorii.html
+
           - title: Normy kosztowe dla produktów
             output: web
             subfolderitems:
@@ -1095,3 +1099,39 @@ entries:
               - title: Aktualizacja norm kosztowych produktu
                 output: web
                 url: /aktualizacja-norm-kosztowych-produktu.html
+
+          - title: Zlecenia produkcyjne
+            output: web
+            subfolderitems:
+
+              - title: Tworzenie zlecenia
+                output: web
+                url: /tworzenie-zlecenia.html    
+
+              - title: Pobieranie zlecenia
+                output: web
+                url: /pobieranie-zlecenia.html 
+
+              - title: Pobieranie surowców zlecenia
+                output: web
+                url: /pobieranie-surowcow-zlecenia.html 
+              
+              - title: Zapotrzebowanie materiałowe zleceń
+                output: web
+                url: /zapotrzebowanie-materialowe-zlecen.html 
+
+          - title: Technologie
+            output: web
+            subfolderitems:
+
+              - title: Tworzenie drzewa technologii
+                output: web
+                url: /tworzenie-drzewa-technologii.html 
+
+          - title: Magazyny
+            output: web
+            subfolderitems:
+
+              - title: Tworzenie magazynu
+                output: web
+                url: /tworzenie-magazynu.html

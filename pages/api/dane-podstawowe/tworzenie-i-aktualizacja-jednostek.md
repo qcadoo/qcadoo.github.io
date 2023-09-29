@@ -19,13 +19,14 @@ Za pomocą tej metody api dodasz jednostki do systemu. Zaktualizujesz też istni
 ## Zawartość żądania
 ~~~~~~~~
 {
-    "units" : [
-        {
-            "externalID" : "externalID",
-            "name" : "name",
-            "description" : "description" //opcjonalne
-        }
-    ]
+  "units": [
+    {
+      "description": "description", //opcjonalne
+      "externalID": "externalID",
+      "name": "name",
+      "technicalCode": "technicalCode" //opcjonalne
+    }
+  ]
 }
 ~~~~~~~~
 

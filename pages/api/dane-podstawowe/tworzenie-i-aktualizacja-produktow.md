@@ -19,26 +19,38 @@ Za pomocą tej metody api dodasz [produkty](/produkty) do systemu. Zaktualizujsz
 ## Zawartość żądania
 ~~~~~~~~
 {
-    "products" : [
+  "products": [
+    {
+      "attributes": [
         {
-            "externalID" : "externalID",
-            "number" : "number",
-            "name" : "name",
-            "ean" : "ean", //opcjonalne
-            "globalTypeOfMaterial" : "01component or 02intermediate or 03finalProduct or 04waste", //opcjonalne
-            "description" : "description", //opcjonalne
-            "unit" : {
-                "externalID" : "externalID",
-                "name" : "name",
-                "description" : "description" //opcjonalne
-            },
-            "category" : {
-                "externalID" : "externalID",
-                "name" : "name",
-                "description" : "description" //opcjonalne
-            }
+          "name": "name", //opcjonalne
+          "value": "value" //opcjonalne
         }
-    ]
+      ],
+      "category": {
+        "description": "description", //opcjonalne
+        "externalID": "externalID", //opcjonalne
+        "name": "name" //opcjonalne
+      },
+      "company": {
+        "externalID": "externalID", //opcjonalne
+        "name": "name" //opcjonalne
+      },
+      "description": "description", //opcjonalne
+      "ean": "ean", //opcjonalne
+      "externalID": "externalID",
+      "globalTypeOfMaterial": "01component or 02intermediate or 03finalProduct or 04waste or 05package", //opcjonalne
+      "name": "name",
+      "number": "number",
+      "size": "size", //opcjonalne
+      "unit": {
+        "description": "description", //opcjonalne
+        "externalID": "externalID",
+        "name": "name",
+        "technicalCode": "technicalCode" //opcjonalne
+      }
+    }
+  ]
 }
 ~~~~~~~~
 
