@@ -947,7 +947,7 @@ entries:
 
     - title: Zestawienie produktów wydanych do podwykonawcy
       output: web
-      url: /zestawienie-produktów-wydanych-do-podwykonawcy.html
+      url: /zestawienie-produktow-wydanych-do-podwykonawcy.html
 
   - title: Parametry
     output: web

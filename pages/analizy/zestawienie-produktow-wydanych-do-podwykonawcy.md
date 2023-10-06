@@ -1,6 +1,6 @@
 ---
 title: "Zestawienie produktów wydanych do podwykonawcy"
-permalink: zestawienie-produktów-wydanych-do-podwykonawcy.html
+permalink: zestawienie-produktow-wydanych-do-podwykonawcy.html
 ---
 
 Przy współpracy z podwykonawcami często pojawia się pytanie jakie produkty zostały do niego przekazane. Materiały są własnością firmy, więc powinny być zapisane w księgach rachunkowych, jako zwiększające stan magazynu, ale przez to, że ich fizycznie w firmie nie ma, to trudno je zliczyć. Dlatego przygotujemy zestawienie, które pomoże w ustaleniu co zostało wysłane i kiedy. 
