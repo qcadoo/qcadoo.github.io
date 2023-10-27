@@ -15,6 +15,8 @@ Jakie dane możesz zaimportować? Są to między innymi:
 - [operacje](/operacje.html#import-operacji-z-pliku-excel)
 - [zamówienia sprzedaży](/zlecenia-nadrzedne.html#import-zamówień-sprzedaży-z-pliku-xlsx)
 - [zlecenia produkcyjne](/zlecenia-produkcyjne.html#tworzenie-zleceń-poprzez-import-z-akrusza-excel)
+- [miejsca składowania](/miejsca-skladowania.html#import-miejsc-składowania-z-pliku-excel)
+- [normy przezbrojeń stacji roboczych](/normy-przezbrojen-stacji-roboczych.html#import-przezbrojeń-stacji-roboczych)
 
 
 Aby zaimportować dane wejdź do danej listy (np. Podstawowe > Produkty) i kliknij przycisk Importuj z XLSX (np. {% include inline_image.html file="przyciskImportujPozycjeZXLXS.png" alt="Przycisk Importuj pozycje z XLSX" %}):

@@ -68,9 +68,11 @@ Dzięki zamówieniom sprzedaży możesz prowadzić rejestr zgłoszeń od klient�
 
 2. **Nie ustalaj dat w generowanych zleceniach** - standardowo daty podane w zamówieniu sprzedaży przenoszone są do tworzonego zlecenia produkcyjnego. Jeśli nie chcesz ich przenosić - zaznacz parametr.
 
-3. **Zakończ zamówienie sprzedaży po zleceniu wszystkich pozycji** - jeśli zaznaczysz parametr, to w momencie, gdy wszystkie pozycje będą miały status "Zlecone", oznaczymy zamówienie sprzedaży jako zakończone
+3. **Definicje zamówień sprzedaży** - definicje zamówień sprzedaży pozwalają na pogrupowanie zamówień. Możesz wprowadzić definicje dla zamówień krajowych i unijnych. Dzięki temu od razu będzie wiadomo jaki jest kierunek sprzedaży. Ale możesz definicje wykorzystać do czegoś innego - ogranicza Cię tylko wyobraźnia. Dodaj tutaj definicje i podpinaj je przy tworzeniu zamówienia sprzedaży
 
-4. **Definicje zamówień sprzedaży** - definicje zamówień sprzedaży pozwalają na pogrupowanie zamówień. Możesz wprowadzić definicje dla zamówień krajowych i unijnych. Dzięki temu od razu będzie wiadomo jaki jest kierunek sprzedaży. Ale możesz definicje wykorzystać do czegoś innego - ogranicza Cię tylko wyobraźnia. Dodaj tutaj definicje i podpinaj je przy tworzeniu zamówienia sprzedaży
+4. **Zakończ zamówienie sprzedaży po zleceniu wszystkich pozycji** - jeśli zaznaczysz parametr, to w momencie, gdy wszystkie pozycje będą miały status "Zlecone", oznaczymy zamówienie sprzedaży jako zakończone
+
+5. **Magazyn wydania wyrobów dokumentem WZ** - ustal magazyn, który podpowiemy w dokumencie WZ tworzonym do zamówienia sprzedaży
 
 ---
 
@@ -81,18 +83,6 @@ Dzięki zamówieniom sprzedaży możesz prowadzić rejestr zgłoszeń od klient�
 {% include lightbox.html file="administracjaParametryPrzydzialDoZmian.png" alt="Parametry przydziału do zmian" caption="Parametry przydziału do zmian" %}
 
 1. **Nie pokazuj pracowników już przydzielonych** - zaznacz parametr jeśli lista pracowników przypisywanych do zmian ma być pomniejszana o pracowników już przydzielonych do tej lub innej zmiany. Innymi słowy - jeśli Helena Radosna została już przypisana w przydziału na dziś do zmiany pierwszej, to tworząc obsadę na zmianę drugą już Heleny nie zobaczysz.
-
----
-
-## Zlecenia na usługi
-
-Zlecenia na usługi dostępne są po włączeniu funkcjonalności związanej z podwykonawcami. Za ich pomocą możesz przekazywać swoim kooperantom informację co jest do zrobienia. Jeśli na liście operacji do wykonania w technologii znajduje się operacja podwykonywana, to możemy do zlecenia produkcyjnego wygenerować zlecenie na usługi, które trafi do portalu podwykonawców. 
-
-Zlecenie na usługi możesz generować ręcznie, ale możemy też o tym pamiętać my. Zaznacz parametr **Automatycznie generuj zlecenia na usługi** w Parametry > Parametry planowania > zakładka Zlecenia na usługi:
-
-{% include lightbox.html file="administracjaParametryZleceniaNaUslugi.png" alt="Parametry zleceń na usługi" caption="Parametry zleceń na usługi" %}
-
-aby w momencie akceptacji zlecenia produkcyjnego, zlecenie na usługi tworzyło się samo.
 
 ---
 

@@ -25,7 +25,10 @@ Pokrycie zapotrzebowania generujemy wchodząc w:
 
 3. W kolejnym etapie musimy wybrać jakie produkty chcemy zobaczyć w wynikach, możemy zdecydować się na wszystkie, produkty nie znajdujące się na magazynie lub tylko braki/opóźnienia. Pole "Numer" wypełniane jest automatycznie, jeżeli chcemy zmienić numerację możemy zrobić to ręcznie.
 
-4. Jeżeli chcemy możemy również zaznaczyć opcję "Uwzględnij niezatwierdzone dostawy", wówczas program uwzględni w obliczeniach produkty znajdujące się w tych dostawach.
+4. W kolejnym kroku wybieramy jakie dostawy mamy uwzględniać w obliczeniach. Dostępne opcje to:
+- potwierdzone dostawy
+- niezatwierdzone dostawy
+- nieszkicowe dostawy
 
 5. Jeżeli wypełnimy wszystkie wymagane pola, możemy wygenerować listę z pokryciem zapotrzebowania, używając przycisku {% include inline_image.html file="generateIcon24.png" alt="Przycisk generuj" %} **Generuj** ,a następnie przejść do następnej zakładki **"Pokrycie zapotrzebowania"**.
 

@@ -15,6 +15,7 @@ Aby wygenerować nowy raport wybieramy:
 
 {% include lightbox.html file="analizyZestawienieProduktowWydanychPodwykonawcyNowe.png" alt="Zestawienie produktów wydanych do podwykonawcy" caption="Zestawienie produktów wydanych do podwykonawcy" %}
 
+
 1. W pierwszym kroku opcjonalnie możemy podać "Nazwę" raportu. Nazwa ta powinna unikatowa, by identyfikowała dany raport.
   
 2. Następnie ustalamy ramy czasowe, w których wyszukamy wygenerowane [dokumenty](/dokumenty) w zleceniach na usługi. **Data od** jest domyślnie wypełniona początkiem miesiąca, a **Data do** datą aktualną.

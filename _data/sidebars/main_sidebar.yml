@@ -398,6 +398,10 @@ entries:
       output: web
       url: /normy-przezbrojen.html
 
+    - title: Normy przezbrojeń stacji roboczych
+      output: web
+      url: /normy-przezbrojen-stacji-roboczych.html
+
     - title: Typy produktu wejściowego technologii
       output: web
       url: /typy-produktu-wejsciowego.html
@@ -545,6 +549,10 @@ entries:
     - title: Zapotrzebowanie materiałowe grupy zleceń
       output: web
       url: /zapotrzebowanie-materialowe-grupy-zlecen.html
+
+    - title: Zapotrzebowanie materiałowe zamówień sprzedaży
+      output: web
+      url: /zapotrzebowanie-materialowe-zamowien-sprzedazy.html
 
   - title: Kalkulacje
     output: web
@@ -998,10 +1006,6 @@ entries:
         - title: Parametry karty pracy
           output: web
           url: /parametry-karty-pracy.html
-
-        - title: Parametry planowania na liniach
-          output: web
-          url: /parametry-planowanie-na-liniach.html
 
     - title: Parametry zaopatrzenia
       output: web

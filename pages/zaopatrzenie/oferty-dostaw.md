@@ -11,7 +11,7 @@ Tutaj po otrzymaniu odpowiedzi od dostawcy, czy jest w stanie dostarczyć potrze
 
 Aby stworzyć ofertę dostaw wybierz: **ZAOPATRZENIE >> Oferty dostaw >>**  {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy** 
 
-{% include lightbox.html file="Zaopatrzenie-%20oferty%20dostaw-%20g%C5%82%C3%B3wna.png" alt="Formularz oferty dostaw" caption="Formularz oferty dostaw"%}
+{% include lightbox.html file="ZaopatrzenieOfertyDostaw.png" alt="Formularz oferty dostaw" caption="Formularz oferty dostaw"%}
 
 1. W pierwszej kolejności uzupełnij pole "Numer", numer oferty uzupełniany jest automatycznie, jednak możesz go dowolnie zamienić. Opcjonalnie dla ułatwienia odszukania oferty możesz uzupełnić pole "Nazwa".
                     

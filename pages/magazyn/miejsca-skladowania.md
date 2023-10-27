@@ -61,25 +61,23 @@ Funkcję można wywoływać wielokrotnie, tworząc tym samym całą siatkę miej
 
 ---
 
+## Ustawianie miejsca składowania jako domyślne dla danych produktów
+
+{% include lightbox.html file="magazynMiejscaSkladowaniaDomyslne.png" alt="Domyślne miejsce składowania" caption="Domyślne miejsce składowania"%}
+
+Przechodząc do zakładki **Produkty** możesz ustalić dla jakich produktów dane miejsce składowania będzie domyślne. Domyślne miejsca składowania będą podpowiadane w momencie przyjmowania produktu na magazyn. Jeśli jednak chcesz przechowywać produkt w innym miejscu, śmiało możesz ulokować [produkt](/produkty) w innym miejscu.
+
+---
+
 ## Import miejsc składowania z pliku Excel
 
-Jeśli masz przypisane na stałe produkty do miejsc składowania to funkcja importu miejsc składowania z pliku Excel (format .xls) jest dla Ciebie. 
+Jeśli chcesz masowo wprowadzać miejsca składowania, możesz tego dokonać przez zaciągnięcie listy miejsc składowania z arkusza Excel. Zapoznaj się z dokumentacją importu dancch z pliku .xlsx, a następnie pobierz szablon i wypełnij go danymi. Przy imporcie miejsc składowania potrzebujesz podać:
 
-{% include lightbox.html file="magazynMiejsceSkladowaniaImport.png" alt="Import miejsc składowania" caption="Import miejsc składowania" class="float-right" %}
+- **Miejsce składowania** (kolumna A) - kolumna musi być wypełniona. Podany numer miejsca składowania musi być unikalny
+- **Numer magazynu** (kolumna B) - kolumna musi być wypełniona. Podaj numer magazynu zdefiniowanego 
+w qcadoo
+- **Miejsce paletowe** (kolumna C) - dana opcjonalna, jeśli miejsce jest paletowe, wpisz w kolumnie TAK
+- **Max liczba palet** (kolumna D) - dana opcjonalna, Jeśli miejsce jest paletowe możesz określić ile maksymalnie palet mieści. Wstaw liczbę dodatnią całkowitą
+- **Miejsce wysokiego składowania** (kolumna E) - dana opcjonalna, jeśli definiowana lokalizacja jest miejscem wysokiego składowania, wpisz TAK
 
-Działanie funkcji jest następujące:
-- pobieramy pierwsze miejsce składowania z pliku
-- sprawdzamy czy takie miejsce istnieje w qcadoo
-    - jeśli nie - zakładamy je (z magazynem wskazanym w oknie), z przypisanym produktem z pliku
-    - jeśli tak - tylko nadpisujemy w nim produkt, na podstawie przypisanego produktu w pliku 
-- pobieramy kolejne miejsce z pliku i powtarzamy działanie. I tak dla wszystkich wierszy z Excel
-Dodatkowo: dla wszystkich miejsc składowania, które dla tego magazynu są zdefiniowane w qcadoo, ale nie znalazły się w pliku czyścimy powiązanie z produktem (ustawiamy w produkcie null)
-Ponadto przeliczamy zasoby dla tego magazynu, uzupełniając w nich aktualne miejsca składowania.
-
-Plik Excel musi mieć dwie kolumny:
-- A --> numery miejsc składowania
-- B --> numery produktów
-
-W oknie importu określamy dla jakiego magazynu chcemy utworzyć miejsca i wskazujemy z dysku plik.
-
-{% include callout.html content="Import miejsca składowania można wykorzystać nie tylko przy tworzeniu miejsc, ale także w momencie reorganizacji magazynu i zmiany ułożenia produktów. Nazewnictwo miejsc zostanie niezmienione. Aktualizacji podlegają tylko przypisane im produkty" type="warning" %}
+{% include callout.html content="Jeśli plik ma zaaktualizować istniejące dane, pamiętaj o zaznaczeniu w oknie importu opcji **Czy aktualizować istniejące dane?**" type="warning" %}

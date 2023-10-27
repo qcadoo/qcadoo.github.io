@@ -44,7 +44,7 @@ Nie musisz wprowadzać każdego z pracowników ręcznie do systemu. Możesz przy
 - **stacja robocza** (kolumna I) - dana opcjonalna, jeśli chcesz możesz przypisać pracownika do stacji roboczej, podając numer stacji zdefiniowanej w qcadoo. Stacja ta musi być przypisana do działu podanego wyżej,
 - **załoga** (kolumna J) - jeśli pracownik jest częścią zdefiniowanej w qcadoo załogi, podaj w kolumnie jej numer.
 
-{% include callout.html content="Jeśli plik ma posłużyć aktualizacji danych pamiętaj o zaznaczeniu w oknie importu opcji **Czy aktualizować istniejące dane?**." type="warning" %}
+{% include callout.html content="Jeśli plik ma posłużyć aktualizacji danych pamiętaj o zaznaczeniu w oknie importu opcji **Czy aktualizować istniejące dane?**" type="warning" %}
 
 
 ---

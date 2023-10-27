@@ -20,7 +20,9 @@ Za co odpowiadają pozostałe parametry:
 - **Akceptacja dokumentu przy wydruku dyspozycji** - jeśli zaznaczysz parametr, to w momencie wywołania wydruku dokumentu w szablonie Dyspozycja przesunięcia, dany dokument zostanie zaakceptowany. Dzięki temu w jednym kroku możesz potwierdzić, że realizacja dokumentu nastąpiła. Jeśli parametr nie będzie zaznaczony - trzeba będzie osobno zaakceptować i wydrukować dokument.
 - **Nie pokazuj cen na wydruku dokumentu** - wolisz aby pracownicy nie widzieli ile kosztują dane produkty? Zaznacz parametr, a na wydrukowanym dokumencie kolumny z ceną i wartością zostaną ukryte. 
 - **Prezentuj ilość całkowitą i resztę** - parametr przydatny w sytuacji, gdy prowadzisz ewidencję produktu w jednostce podstawowej i dodatkowej. Innymi słowy - gdy masz na magazynie produkt w kartonach, a w kartonach jakąś ilość sztuk. Np. karton długopisów to 80 szt. Założmy, że wydajesz 346 szt. długopisów - już widzisz jak pracownik próbuje ustalić ile to kartonów? Zaznacz parametr, wówczas na wydruku dokumentu pojawi się informacja, że to 4 kartony i 26 sztuk.
-- **Dobieraj zasoby bez względu na przelicznik** - ten parametr też przyda się tylko, gdy prowadzisz ewidencję produktu w dwóch jednostkach. Zasoby tworzone na magazynie mają informację o obu jednostkach (i ilościach w tych jednostkach) a także o przeliczniku, w jakim zasób jest przyjęty. Podczas wydawania produktu z magazynu dokumentem rozchodowym, program poszukuje zasobów danego produktu o przeliczniku podanym w pozycji dokumentu (innymi słowy - qcadoo zakłada, że jeśli podałeś przelicznik 80 to znaczy, że chcesz wydać karton, który zawiera 80 szt. długopisów, a nie taki, który zawiera tych długopisów 120). Jeśli nie ma to jednak dla Ciebie znaczenia to zaznacz parametr - wówczas przy dobieraniu zasobów program najpierw sprawdzi, czy ma na stanie zasób o podanym w pozycji dokumentu przeliczniku. Jeśli nie ma - to spróbuje dobrać zasób o innym przeliczniku i odpowiednio przeliczy ilosci w pozyci dokumentu
+- **Dobieraj zasoby bez względu na przelicznik** - ten parametr też przyda się tylko, gdy prowadzisz ewidencję produktu w dwóch jednostkach. Zasoby tworzone na magazynie mają informację o obu jednostkach (i ilościach w tych jednostkach) a także o przeliczniku, w jakim zasób jest przyjęty. Podczas wydawania produktu z magazynu dokumentem rozchodowym, program poszukuje zasobów danego produktu o przeliczniku podanym w pozycji dokumentu (innymi słowy - qcadoo zakłada, że jeśli podałeś przelicznik 80 to znaczy, że chcesz wydać karton, który zawiera 80 szt. długopisów, a nie taki, który zawiera tych długopisów 120). Jeśli nie ma to jednak dla Ciebie znaczenia to zaznacz parametr - wówczas przy dobieraniu zasobów program najpierw sprawdzi, czy ma na stanie zasób o podanym w pozycji dokumentu przeliczniku. Jeśli nie ma - to spróbuje dobrać zasób o innym przeliczniku i odpowiednio przeliczy ilosci w pozyci dokumentu.
+
+- **Przekazuj paletę na magazyn przyjmujący** - zaznacz ten parametr, a przesunięta paleta będzie przypisana do nowego zasobu.
 
 Pamiętaj też o parametrze _Szkicowe dokumenty rezerwują stany_, który ustawia się w [magazynie](/magazyny).
 
@@ -62,3 +64,11 @@ Parametry tej zakładki dotyczą listy [pozycje dokumentów z atrybutami zasobu 
 {% include lightbox.html file="administracjaParametryMagazynPozycjeDokumentow.png" alt="Parametry stanów magazynowych" caption="Parametry stanów magazynowych" %}
 
 1. **Prezentuj dane z ... miesięcy** - podaj z jakiego okresu / ilu miesięcy (od daty aktualnej wstecz) mamy prezentować dane do analizy. Parametr służy jedynie do podpowiadania danych (dzięki temu nie będziesz musiał każdorazowo danych wpisywać w oknie), ale zawsze będziesz mógł pobrać dane z innego okresu
+
+---
+
+## Wolumen sprzedaży
+
+{% include lightbox.html file="administracjaParametryMagazynWolumen.png" alt="Parametry wolumenu sprzedaży" caption="Parametry wolumenu sprzedaży" %}
+
+1. **Kończący się zapas** - wskaż na ile dni musisz mieć zapas, aby był on wystarczający. Zapasy poniżej tej wartości będą filtrowane w [Wolumenach sprzedaży](/wolumen-sprzedazy) funkcją Pokaż kończący się zapas.

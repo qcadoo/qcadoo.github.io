@@ -15,24 +15,30 @@ W zakładce umieszono parametry dotyczące [dostaw](/dostawy)
 
 1. **Domyślny opis** - uzupełniony tutaj tekst będziemy każdorazowo podpowiadać do opisu dostawy. Do czego to możesz wykorzystać? Jeśli każdorazowo wysyłasz do dostawcy prośbę o potwierdzenie terminu dostawy - możesz w opisie wprowadzić odpowiednią adnotację, a pokaże się ona na wydruku w PDF. Raz zdefiniowane - nie trzeba o tym później pamiętać.
 
-2. **Domyślnie dostarczyć do miejsca** - wskaż magazyn, na który zwykle przyjmujes dostawy. Podpowiemy go przy tworzeniu dostawy
+2. **Domyślnie dostarczyć do miejsca** - wskaż magazyn, na który zwykle przyjmujesz dostawy. Podpowiemy go przy tworzeniu dostawy
 
-3. **Domyślny adres docelowy dostawy** - możesz albo przyjąć, że produkty mają być dostarczane na _adres Twojej firmy_ albo na _inny adres_ uzupełniony w polu, które pojawi się poniżej. Adres ten pojawi się na wydruku dostawy / zamówienia do PDF.
+3. **Magazyn opakowań** - wskaż magazyn, na który przyjmujesz opakowania.
+
+4. **Domyślny adres docelowy dostawy** - możesz albo przyjąć, że produkty mają być dostarczane na _adres Twojej firmy_ albo na _inny adres_ uzupełniony w polu, które pojawi się poniżej. Adres ten pojawi się na wydruku dostawy / zamówienia do PDF.
 
 {% include callout.html content="Twoja firma to z naszego punktu widzenia ta firma, która jest uzupełniona w [parametrach w zakładce główna](/parametry-glowna) w polu **Firma**" type="info" %}
 
-{:start="4"}
-4. **Dodatnia cena zakupu** - jeśli zależy Ci na tym, aby każda przyjmowana z dostawy pozycja miała określoną cenę (większą od zera) to zaznacz ten parametr. Będziemy tego pilnować.
+{:start="5"}
+5. **Dodatnia cena zakupu** - jeśli zależy Ci na tym, aby każda przyjmowana z dostawy pozycja miała określoną cenę (większą od zera) to zaznacz ten parametr. Będziemy tego pilnować.
 
-5. **Odbieranie większej ilości niż zamawiana** - zdarzyło Ci się, że dostawca przysłał więcej sztuk produktu niż zamówiłeś? Zawsze odsyłasz, czy czasami przyjmujesz? A może nie masz innej możliwości, bo dostawca zawsze przysyła pełną paletę nawet gdy zamówisz mniej? Jeśli pozwalasz na przyjęcie większej ilości niż sobie zażyczyłeś - zaznacz parametr. Jeśli zostanie niezaznaczony będziemy pilnować, by ilość odbierana nie przekroczyła zamówionej.
+6. **Odbieranie większej ilości niż zamawiana** - zdarzyło Ci się, że dostawca przysłał więcej sztuk produktu niż zamówiłeś? Zawsze odsyłasz, czy czasami przyjmujesz? A może nie masz innej możliwości, bo dostawca zawsze przysyła pełną paletę nawet gdy zamówisz mniej? Jeśli pozwalasz na przyjęcie większej ilości niż sobie zażyczyłeś - zaznacz parametr. Jeśli zostanie niezaznaczony będziemy pilnować, by ilość odbierana nie przekroczyła zamówionej.
 
-6. **wymagaj wskazania dostawcy** - zaznacz parametr, a nie pozwolimy na zapis dostawy bez uzupełnienia firmy
+7. **Wymagaj wskazania dostawcy** - zaznacz parametr, a nie pozwolimy na zapis dostawy bez uzupełnienia firmy
 
-7. **uzupełniaj ceny na podstawie** - wskaż, która cena: ostatnia zakupu czy ostatnia z oferty dostawcy, ma być podpowiadana w dostawie (funkcja wywoływana przyciskiem: Uzupełniaj ceny)
+8. **Uzupełniaj ceny na podstawie** - wskaż, która cena: ostatnia zakupu czy ostatnia z oferty dostawcy, ma być podpowiadana w dostawie (funkcja wywoływana przyciskiem: Uzupełniaj ceny)
 
-8. **użyj kosztu nominalnego, gdy cena nie jest określona** - parametr powiązany z powyższym. Jeśli zaznaczysz parametr w sytuacji, gdy cena ostatniego zakupu lub z ostatniej oferty będzie zerowa (lub nieokreślona) pobierzemy koszt nominalny. Koszt nominalny możesz uzupełnić ręcznie ceną, którą spodziewasz się otrzymać od kontrahenta
+9. **Użyj kosztu nominalnego, gdy cena nie jest określona** - parametr powiązany z powyższym. Jeśli zaznaczysz parametr w sytuacji, gdy cena ostatniego zakupu lub z ostatniej oferty będzie zerowa (lub nieokreślona) pobierzemy koszt nominalny. Koszt nominalny możesz uzupełnić ręcznie ceną, którą spodziewasz się otrzymać od kontrahenta
 
-9. **Kolumny w zamówieniu** - tabela zawiera listę kolumn, które będziemy prezentować na wydruku zamówienia. Ustaw, jakie kolumny Cię interesują. I usuń te, których widzieć na wydruku nie chcesz.
+10. **Generuj partię, dla produktu w dostawie** - zaznacz parametr jeśli chcesz, aby numer partii produktu w dostawie generował się poprzez naciśnięcie przycisku generowania partii w dostawie. Utworzymy numer partii wg wskazanego poniżej wzorca numerów.
+
+11. **Wzorzec numeru** - wskaż wzorzec numeru, na podstawie którego będziemy generować partię produktu w dostawie.
+
+12. **Kolumny w zamówieniu** - tabela zawiera listę kolumn, które będziemy prezentować na wydruku zamówienia. Ustaw, jakie kolumny Cię interesują. I usuń te, których widzieć na wydruku nie chcesz.
 
 ---
 
