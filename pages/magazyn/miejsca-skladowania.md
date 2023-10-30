@@ -27,7 +27,6 @@ Zacznij zatem wprowadzać miejsca składowania do qcadoo. Zanim jednak do tego p
 Aby dodać nowe miejsce składowania wejdź w Magazyn > Miejsca składowania i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy wydruk" %} **Dodaj nowy**. Określ:
 - **miejsce składowania** - czyli jego numer / kod / symbol. Coś co pozwoli Tobie i Twoim pracownikom na jednoznaczną identyfikację tej lokalizacji
 - **magazyn** - wybierz z listy dostępnych magazynów. Na danym magazynie dany kod lokalizacji może wystąpić tylko raz
-- **produkt** - jeśli w danej lokalizacji chcesz składować tylko jeden produkt (i ten produkt będzie mógł być położony tylko tam) to wypełnij to pole. Nie wskazanie produktu będzie oznaczało, że miejsce składowania może być wykorzystane do ulokowania czegokolwiek (jeśli pracownik zobaczy, że jest wolne miejsce, to przyjmie na nie dany produkt i program nie będzie protestował)
 - **miejsce paletowe** - zaznacz, jeśli w danej lokalizacji będziesz umieszczał palety. Wówczas uaktywni się pole **Max liczba palet**, w którym będziesz mógł podać ile palet w danej lokalizacji się mieści. Program przy przyjęciu dostawy będzie sprawdzał, czy ktoś nie próbuje przyjąć palety w dane miejsce, mimo iż nie ma tam na dodatkową paletę miejsca
 - **miejsce wysokiego składowania** - zaznacz, jeśli dana lokalizacja znajduje się na regale wysokiego składowania. Dzięki temu w raporcie rozliczenia palet, ruchy na i z tego miejsca będą traktowane inaczej. 
 
