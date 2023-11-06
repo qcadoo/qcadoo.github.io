@@ -3,12 +3,14 @@ title: "Użytkownicy"
 permalink: uzytkownicy.html 
 ---
 
-Z tego miejsca możesz zdefiniować użytkowników systemu oraz nadać im odpowiednie uprawnienia. Ponadto masz możliwość przypisać użytkownika do:
+Z tego miejsca administrator może zdefiniować użytkowników systemu oraz nadać im odpowiednie uprawnienia. Ponadto ma możliwość przypisać użytkownika do:
 
 - magazynów,
 - pracownika,
 - zakładu,
 - linii produkcyjnej.
+
+{% include callout.html content="Pierwszy użytkownik o roli administratora jest tworzony przez nas." type="info" %} 
 
 {% include lightbox.html file="administracjaListaUzytkownikow.png" alt="Lista użytkowników" caption="Lista użytkowników" %}
 
