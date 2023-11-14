@@ -30,7 +30,11 @@ Zapisz zapotrzebowanie przyciskiem {% include inline_image.html file="SaveIcon24
 
 Wygeneruj zapotrzebowanie przyciskiem  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj**. Uzupełni się informacja kto i kiedy wygenerował zestawienie.
 
-Raport możesz pobrać w formacie {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %}**PDF** bądź {% include inline_image.html file="xlsIcon24.png" alt="Przycisk XLS" %} **XLS**.
+Wygenerowane zapotrzebowanie zobaczysz w zakładce **Materiały**.
+
+{% include lightbox.html file="zaopatrzenieZapotrzebowanieMaterialoweMaterialy.png" alt="Wygenerowane zapotrzebowanie materiałowe" caption="Wygenerowane zapotrzebowanie materiałowe" %}
+
+Raport możesz również pobrać w formacie {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %}**PDF** bądź {% include inline_image.html file="xlsIcon24.png" alt="Przycisk XLS" %} **XLS**.
 
 
 ## Zapotrzebowanie materiałowe z poziomu listy zlecen

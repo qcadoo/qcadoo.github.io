@@ -7,6 +7,8 @@ Zbiorcza zmiana parametrów technologii umożliwia szybką aktualizację technol
 - grupy technologii
 - normy wydajnościowej
 - norm czasowych
+- norm kosztowych
+- stacji roboczych
 
 Wejdź w **Technologie > Technologie** i zaznacz te, które chcesz zmodyfikować. Muszą być one zaakceptowane i domyślne. 
 
@@ -22,7 +24,11 @@ Kliknij przycisk {% include inline_image.html file="przyciskZmienParametry.png" 
 
 3. **Aktualizuj normy czasowe operacji** - zaznacz parametr, jeśli chcesz aby normy czasowe w operacjach technologii zostały zastąpione normami czasowymi wprowadzonymi w operacjach - szablonach
 
-{% include callout.html content="Jeśli ta sama operacja jest używana w różnych technologiach i ma różne czasy wykonania, to wprowadź pierwszą wartość norm czasowych w technologie > operację, zaznacz w liście technologii te, które mają mieć takie parametry i wykonaj aktualizację. Następnie zmodyfikuj szablon operacji, aktualizując czasy, zaznacz kolejną grupę zleceń i wykonaj dla nich aktualizację. W ten sposób szybko zmienisz wiele technologii na raz." type="warning" %}
+4. **Aktualizuj normy kosztowe operacji** - zaznacz parametr, jeśli chcesz aby normy kosztowe w operacjach technologii zostały zastąpione normami kosztowymi wprowadzonymi w operacjach - szablonach
+
+5. **Aktualizuj stacje robocze operacji** - zaznacz parametr, jeśli chcesz aby stacje robocze w operacjach technologii zostały zastąpione stacjami roboczymi wprowadzonymi w operacjach - szablonach
+
+{% include callout.html content="Jeśli ta sama operacja jest używana w różnych technologiach i ma różne normy czasowe, kosztowe oraz stacje robocze, to pogrupuj technologie według zmian, wprowadź pierwsze wartości w technologie > operacje, zaznacz w liście technologii te, które mają mieć takie parametry i wykonaj aktualizację. Następnie zmodyfikuj szablon operacji, aktualizując wartości, zaznacz kolejną grupę technologii i wykonaj dla nich aktualizację. W ten sposób szybko zmienisz wiele technologii na raz." type="info" %}
 
 Aby wywołać funkcję aktualizacji kliknij przycisk {% include inline_image.html file="przyciskUtworzTechnologieZeZmienionymiParametrami.png" alt="Przycisk Utwórz technologię ze zmienionymi parametrami" %} **Utwórz technologię ze zmienionymi parametrami**. W efekcie:
 - do każdej zaznaczonej technologii powstanie nowa, z aktualnymi wartościami. Technologia ta będzie zaakceptowana i ustawiona jako domyślna
