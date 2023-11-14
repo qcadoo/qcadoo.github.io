@@ -1243,3 +1243,19 @@ h4.panel-title {
 .noCrossRef .btn-default {
     margin-top: 5px;
 }
+
+h2.changelog-main-version {
+    display: list-item;
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+details > summary.changelog-summary-h3 {
+    display: list-item;
+    font-size: 1.30em;
+    font-weight: normal;
+}
+
+table.changelog-table {
+    width: 100%;
+}
