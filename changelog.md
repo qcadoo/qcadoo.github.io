@@ -3,12 +3,36 @@ title: "Changelog"
 permalink: changelog.html
 ---
 
-<!-- WERSJA 2.5 -->
+<!-- VERSION 2.5 -->
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
-<!-- WERSJA 2.5.2 -->
+<!-- VERSION 2.5.3 -->
   <details open>
+    <summary class="changelog-summary-h3">2.5.3</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.3</td>
+          <td>
+          <ul>
+            <li>usunięcie statusu dostawy: Oczekująca potwierdzenia odbioru</li>
+            <li>uzupełnianie działu w operacji utworzonej przez konfigurator qcadoo</li>
+            <li>zapotrzebowanie materiałowe - prezentacja materiałów w tabeli nowej zakładce</li>
+            <li>zablokowanie zmiany atrybutów w zakończonym i odrzuconym zamówieniu sprzedaży</li>
+            <li>obsługa palet na magazynie - ujednolicenie wymagań w całym systemie</li>
+            <li>ograniczenie listy linii w zleceniu do listy zaplanowanej w technologii</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>  
+
+<!-- VERSION 2.5.2 -->
+  <details>
     <summary class="changelog-summary-h3">2.5.2</summary><br>
     <table class="changelog-table" border>
         <tr>
@@ -29,7 +53,7 @@ permalink: changelog.html
         </tr>
     </table>
   </details>
-<!-- WERSJA 2.5.1 -->
+<!-- VERSION 2.5.1 -->
   <details>
     <summary class="changelog-summary-h3">2.5.1</summary><br>
     <table class="changelog-table" border>
@@ -48,7 +72,7 @@ permalink: changelog.html
         </tr>
     </table>
   </details>
-<!-- WERSJA 2.5.0 -->
+<!-- VERSION 2.5.0 -->
   <details>
     <summary class="changelog-summary-h3">2.5.0</summary><br>
     <table class="changelog-table" border>
