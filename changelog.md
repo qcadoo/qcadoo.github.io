@@ -7,8 +7,33 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
-<!-- VERSION 2.5.3 -->
+<!-- VERSION 2.5.4 -->
   <details open>
+    <summary class="changelog-summary-h3">2.5.4</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.4</td>
+          <td>
+          <ul>
+            <li>zwiększenie znaków w polach opisu w asortymencie</li>
+            <li>nowa walidacja w obsłudze palet - dana paleta może być w danym momencie powiązana tylko z jednym miejscem składowania</li>
+            <li>zapotrzebowanie materiałowe:</li>
+              <ul>
+                <li>możliwość ograniczenia listy materiałów do magazynu</li>
+                <li>prezentacja partii materiału podpiętych w szczegółowym zapotrzebowaniu</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>    
+
+<!-- VERSION 2.5.3 -->
+  <details>
     <summary class="changelog-summary-h3">2.5.3</summary><br>
     <table class="changelog-table" border>
         <tr>
