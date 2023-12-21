@@ -52,6 +52,7 @@ Do dyspozycji masz następujące parametry:
 
 18. **Magazyny** - tabela uaktywnia się po zaznaczeniu parametru _Realizacja ze stanu magazynowego_. Podaj magazyny, na których mamy poszukiwać dostępnego stanu zamówionych produktów
 
+
 ---
 
 ## Dokumentacja odchyleń

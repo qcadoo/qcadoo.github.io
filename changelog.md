@@ -7,6 +7,32 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.5 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.5</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.5</td>
+          <td>
+          <ul>
+            <li>walidacje w definicji miejsca składowania przy zmianie parametrów "Miejsce paletowe" i "Max. liczba palet"</li>
+            <li>rezerwacje zasobu magazynowego pod zlecenie (praca w trybie qcadoo bez integracji z ERP):</li>
+              <ul>
+                <li>możliwość zdefiniowania koniecznego do zużycia zasobu w szczegółowym zapotrzebowaniu</li>
+                <li>prezentacja zarezerwowanego zasobu w terminalu</li>
+                <li>widoczna rezerwacja w stanie magazynowym</li>
+                <li>rozchodowanie dokumentem RW zarezerwowanego w zleceniu zasobu</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>    
+
 <!-- VERSION 2.5.4 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.4</summary><br>
@@ -33,7 +59,7 @@ permalink: changelog.html
   </details>    
 
 <!-- VERSION 2.5.3 -->
-  <details>
+  <details open>
     <summary class="changelog-summary-h3">2.5.3</summary><br>
     <table class="changelog-table" border>
         <tr>
