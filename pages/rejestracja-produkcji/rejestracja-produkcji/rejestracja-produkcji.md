@@ -130,6 +130,15 @@ Informacja o partii i dacie ważności zostanie przekazana na [dokument PW](/dok
 Ewidencja partii to nie tylko wskazywanie jaka partia wyrobu jest wytworzona, ale też jakie partie surowca w produkcji zostały wykorzystane. Masz odpowiednio podefiniowane [partie](/jak-dodac-numery-partii) i stan magazynowy trzymany z dokładnością do tych partii? Zatem możesz rejestrować zużycie ze wskazaniem na nie. Tworząc meldunek produkcji wejdź dla produktu wejściowego w zakładkę Partia, kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %}, wskaż **użytą partię** i **użytą ilość**. Jeśli ewidencjonujesz na poziomie partii, ilość użyta produktu zostanie z automatu wyliczona jako suma ilości podanych dla partii. Rozchody magazynowe będą realizowane z dokładnością do podanych partii. Jeśli w zleceniu produkcyjnym istnieje [rekord śledzenia partii dla produktu zleconego](/sledzenie-partii-zlecenia), zostanie on uzupełniony podanymi partiami surowców.
 
 ---
+## Jak zarejestrować zużycie zarezerwowanego pod zlecenie zasobu?
+
+{% include lightbox.html file="rejestracjaRRzarezerwowaneZasoby.png" alt="Rozliczenie zarezerwowanego zasobu produktu wejściowego" caption="Rozliczenie zarezerwowanego zasobu produktu wejściowego" class="float-right"  %}
+
+[Rezerwacje zasobów utworzone pod zlecenie produkcyjne](/zmiana-stanu-zapotrzebowania#rezerwacja-zasobów), będą krok po kroku rozliczane wraz z każdym kolejnym meldunkiem produkcji raportującym zużycie danego produktu wejściowego. O tym jaka ilość zasobu została zużyta w danym rekordzie rejestracji oraz ile w sumie już rozchodowano pod dane zlecenie, można dowiedzieć się wchodząc w szczegóły produktu wejściowego (w zakładce: Produkty we./wyj. w rekordzie rejestracji) i w zakładkę **Zasoby**. Póki meldunek jest w statusie szkic możesz nanieść zmiany w ilości zaraportowanej jako zużyta. To ona będzie podstawą do rozchodu zasobu z magazynu dokumentem RW.
+
+
+
+---
 
 ## W jaki sposób zgłosić potrzebę wykonania naprawy produktu
 

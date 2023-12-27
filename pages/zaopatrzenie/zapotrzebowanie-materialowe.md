@@ -26,7 +26,7 @@ Ustal także jak mają wyglądać parametry zapotrzebowania:
 - **uwzględnij datę rozpoczęcia zlecenia** - jeśli zaznaczysz parametr, to produkty będą pogrupowane po dacie planowanego rozpoczęcia produkcji
 
 
-Zapisz zapotrzebowanie przyciskiem {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz.** I wskaż dla jakich zleceń chcesz ustalić listę potrzebnych produktów używając przycisku {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj istniejący** z prawej strony okna.
+Zapisz zapotrzebowanie przyciskiem {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisz" %} **Zapisz.** I wskaż dla jakich zleceń chcesz ustalić listę potrzebnych produktów używając przycisku {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj istniejący** z prawej strony okna.
 
 Wygeneruj zapotrzebowanie przyciskiem  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj**. Uzupełni się informacja kto i kiedy wygenerował zestawienie.
 
@@ -37,7 +37,7 @@ Wygenerowane zapotrzebowanie zobaczysz w zakładce **Materiały**.
 Raport możesz również pobrać w formacie {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %}**PDF** bądź {% include inline_image.html file="xlsIcon24.png" alt="Przycisk XLS" %} **XLS**.
 
 
-## Zapotrzebowanie materiałowe z poziomu listy zlecen
+## Zapotrzebowanie materiałowe z poziomu listy zleceń
 
 
 Zapotrzebowanie materiałowe możesz wygenerować szybciej, z poziomu [listy zleceń produkcyjnych](/planowanie-zlecen). W tym celu wejdź w **Planowanie > Planowanie zleceń**, zaznacz te zlecenia, dla których chcesz ustalić potrzebne materiały:

@@ -67,6 +67,8 @@ a reszta danych zostanie uzupełniona na podstawie dobranego zasobu. Zasób moż
 
 {% include callout.html content="Lista standardowo dostępnych kolumn może być rozbudowana o [atrybuty zasobu](/atrybuty). Przejdź do [parametrów magazynu](/parametry-magazyn) i dodaj kolumny na podstawie atrybutów." type="info" %}
 
+{% include callout.html content="Do dokumentu rozchodowego nie są dobierane zasoby, które są zablokowane do [kontroli jakości](/kontrola-jakosci)" type="warning" %}
+
 --- 
 
 ## Dokumenty magazynowe jako efekty funkcji qcadoo
@@ -111,6 +113,6 @@ Jeszcze słów kilka o tym jak powinny być wypełnione kolumny w arkuszu.
 
 {:start="7"}
 7. **Pokaż atrybuty produktu** - zaznacz pozycję dokumentu i kliknij przycisk, aby zobaczyć jakie [atrybuty](/atrybuty) są przypisane do danego produktu. 
+8. **Przypisz numer faktury** - funkcja do wywołania z listy dokumentów dla zaznaczonego 1 dokumentu o typie: przyjęcie zewnętrzne lub wydanie zewnętrzne. Pozwala na zachowanie numeru faktury powiązanej z danym dokumentem magazynowym. Numer ten widoczny będzie w kolumnie tabeli dokumentów oraz liście magazyn > pozycje dokumentów. Funkcja pozwala na szybkie ustalenie, czy np. masz już komplet dokumentów do dostawy, albo od jakiego dostawcy musisz jeszcze uzyskać fakturę (i tutaj podpowiedź: jeśli chcesz znaleźć dokumenty PZ bez faktury, ustaw w filtrze w kolumnie _Typ_ wartość 'przyjęcie zewnętrzne', a w kolumnie _Numer faktury_ wpisz: 'isnull'.)
 
 
-{% include callout.html content="Do dokumentu rozchodowego nie są dobierane zasoby, które są zablokowane do [kontroli jakości](/kontrola-jakosci)" type="warning" %}

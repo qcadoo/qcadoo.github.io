@@ -83,3 +83,37 @@ O tym jakie produkty mają zdefiniowane zamienniki dowiesz się z kolumny **Istn
 
 {% include callout.html content="Jeśli ilość podana w polu **Zastępuje ilość** przewyższa ilość planowaną produktu pierwotenego, to zapis zamiennika nie będzie możliwy." type="warning" %}
 
+---
+## Rezerwacja zasobów 
+
+{% include lightbox.html file="planowanieSzczegoloweZapotrzebowanieRezerwacjaZasobow.png" alt="Rezerwacja zasobów" caption="Rezerwacja zasobów" class="float-right" %}
+
+Jeśli zależy Ci na tym, by podczas produkcji wykorzystany był konkretny zasób magazynowy (o konkretnych cechach i właściwościach) i chcesz mieć pewność, że nie będzie on wykorzystany pod inne zlecenia i że na pewno go nie zabraknie, możesz go zarezerwować pod zlecenie produkcyjne. 
+
+W tym celu w szczegółach zlecenia wejdź do szczegółowego zapotrzebowania, kliknij w produkt i przejdź do zakładki **Rezerwacja zasobów**.
+
+{% include callout.html content="Zarezerwować można tylko produkt o typie: surowiec i roli: użyty." type="warning" %}
+
+Kliknij {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %} **Nowy**, wybierz z lookupa Zasób i sprawdź, czy podpowiedzieliśmy dobrą ilość. 
+
+O czym musisz pamiętać:
+- możesz zarezerwować tylko to, co masz na magazynie. Jeśli spodziewasz się dostawy surowca i już teraz wiesz, że trzeba będzie go wykorzystac pod to zlecenie, musisz poczekać na dostawę i utworzenie zasobu magazynowego. Jeśli wiesz jaki będzie numer partii kupionego produktu, możesz już teraz podpiąć go w zakładce Partie
+- do danego produktu zużywanego w zleceniu możesz zarezerwować wiele zasobów. Ważne, żeby suma ilości nie przewyższała ilości planowanej do zużycia
+- w lookupie zasobów będziesz widzieć zasoby danego produktu na magazynie, który został zdefiniowany jako magazyn pobrania surowców w zakładce Przepływ
+- rezerwacja jest możliwa tylko wtedy, gdy qcadoo pracuje bez integracji z ERP. Dlaczego? Ponieważ W trybie pracy z nadrzędnym ERP w qcadoo nie ma stanów magazynowych.
+
+
+{% include callout.html content="Jeśli operacja ma zaznaczoną flagę _Wymagana rezerwacja zasobu surowca_, sprawdzimy czy na pewno każdy produkt z operacji ma podany zasób, który należy zużyć. Jeśli nie - przypomnimy Ci o tym w momencie akceptacji zlecenia i nie pozwolimy na jego rozpoczęcie." type="warning" %}
+<br/>
+<br/>
+
+**Co daje rezerwacja zasobu pod zlecenie?**
+<br/>
+1. dany zasób magazynowy ma zarezerwowaną ilość pod dane zlecenie. Zobaczysz to w:
+- liście [zasobów](/zasoby), gdzie ustawiona zostanie ilość zarezerwowana i wyliczona ilość dostępna. 
+- liście [rezewacji](/rezerwacje-stanow), gdzie pojawi się wiersz z rezerwacją zasobu danego produktu, na danym magazynie i pod konkretne zlecenie produkcyjne
+<br/>
+2. pracownicy w terminalu rejestracji produkcji zobaczą jakie zasoby są zarezerwowane i co konkretnie powinno być zużyte. Ponadto podczas raportowania zużycia dana rezerwacja będzie stopniowo rozliczana z automatu, czego skutkiem będzie dokument RW zmniejszający ewidencyjny stan danego zasobu
+
+{% include callout.html content="Jeśli podczas produkcji zostanie zużyta mniejsza ilość surowca niż zaplanowano, to pozostała rezerwacja zasobu zostanie usunięta w momencie zakończenia zlecenia produkcyjnego. Dzięki temu zasób zostanie zwolniony i będzie można wykorzystać go w innych zleceniach." type="warning" %}
+

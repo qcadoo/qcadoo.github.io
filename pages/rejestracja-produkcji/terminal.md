@@ -175,11 +175,18 @@ Dodatkowo dodany zamiennik w menu kontekstowym będzie miał informację jaki pr
 
 Każda kolejna rejestracja do tego zlecenia będzie miała wśród produktów wejściowych, ten dodany jako zamiennik.
 
+#### Zarezerwowane zasoby i funkcja Zmień ilość użytych zasobów
+
+{% include lightbox.html file="terminaProduktyWejscioweZarezerwowaneZasoby.png" alt="Zarezerwowane zasoby w terminalu" caption="Zarezerwowane zasoby w terminalu" class="float-right"  %}
+
+Jeśli dla danego surowca zostały w [zleceniu zarezerwowane zasoby](/zmiana-stanu-zapotrzebowania#rezerwacja-zasobów), to muszą być one wykorzystane podczas produkcji. Informacja o ich numerach umieszczona jest w menu kontekstowym dla danego produktu wejściowego. Z automatu po wpisaniu do tabeli ilości zużytej, zostanie ona rozpisana po zarezerwowanych zasobach. Jeśli chcesz zmienić wyliczone ilości (co może mieć zasadność, gdy wykorzystano wiele zasobów) kliknij przycisk **Zmień ilość użytych zasobów** i podaj właściwe ilości. Jest to ważne, aby odpowniednio ukształtował się stan magazynowy. Na podstawie podanych danych zostaną odpowiednio zmiejszone ilości wskazanych zasobów, przez utworzenie dokumentu RW na te właśnie zasoby.
+
 #### Atrybuty produktu wejściowego
 
 {% include lightbox.html file="terminalProduktyWejscioweMenuKontekstowe.png" alt="Atrybuty produktu wejściowego" caption="Atrybuty produktu wejściowego" class="float-right"  %}
 
 W menu kontekstowym wywołanym do produktu wejściowego w terminalu, zaprezentowane są informacje o [atrybutach](/atrybuty) danego produktu. Dzięki temu pracownik w szybki sposób może zapoznać się z ważnymi informacjami odnośnie surowca zaplanowanego do produkcji i upenić się, czy na pewno pobrał do przetworzenia odpowiedni produkt. Dane te są czysto informacyjne - zmiana wartości atrybutów produktu możliwa jest tylko z poziomu samego [produktu](/produkty).
+
 
 ---
 

@@ -24,6 +24,8 @@ Dzięki temu szybciej zdefiniujesz technologię - bo dane będą się uzupełnia
 
 {% include callout.html content="Wskazanie produktu znacząco przyspiesza budowanie drzewa technologii - produkt wyjściowy uzupełni się po wybraniu operacji." type="warning" %}
 
+Jeśli planujesz rezerwować zasoby magazynowe pod operację zlecenia to warto zaznaczyć parametr **Wymagana rezerwacja zasobu surowca**. Dzięki temu przypomnimy o rezerwacji na akceptacji zlecenia i nie pozwolimy na jego rozpoczęcie, jeśli zasoby nie będą wskazane w [szczegółowym zapotrzebowaniu](/zmiana-stanu-zapotrzebowania).
+
 Następnie wybierz {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz**, by zachować wprowadzone dane.
 
 {% include callout.html content="Jeśli chcesz mieć możliwość dokładnego planowania produkcji oraz obliczania kalkulacji kosztów i określania terminów realizacji zleceń musisz zdefiniować dla operacji [Normy kosztowe](/normy-kosztowe) i [Normy czasowe](/normy-czasowe). Jeśli planujesz tworzyć [Karty pracy](/karty-pracy) możesz w zakładce Karty pracy - dane podstawowe rozwinąć wydruk o dodatkowy obrazek (np. dodatkową tabelą)" type="warning" %} 

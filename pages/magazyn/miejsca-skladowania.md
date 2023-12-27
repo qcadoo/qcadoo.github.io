@@ -30,6 +30,8 @@ Aby dodać nowe miejsce składowania wejdź w Magazyn > Miejsca składowania i k
 - **miejsce paletowe** - zaznacz, jeśli w danej lokalizacji będziesz umieszczał palety. Wówczas uaktywni się pole **Max liczba palet**, w którym będziesz mógł podać ile palet w danej lokalizacji się mieści. Program przy przyjęciu dostawy będzie sprawdzał, czy ktoś nie próbuje przyjąć palety w dane miejsce, mimo iż nie ma tam na dodatkową paletę miejsca
 - **miejsce wysokiego składowania** - zaznacz, jeśli dana lokalizacja znajduje się na regale wysokiego składowania. Dzięki temu w raporcie rozliczenia palet, ruchy na i z tego miejsca będą traktowane inaczej. 
 
+{% include callout.html content="Podczas edycji w istniejącym miejscu składowania parametrów: miejce paletowe i max. liczba palet sprawdzimy, czy w danym miejscu są zasoby, które nie spełniają nowych ustawień. Jeśli są - nie pozwolimy na modyfikację." type="warning" %}
+
 ---
 
 ## Generator dodawania miejsc składowania
@@ -56,15 +58,13 @@ RegA12 | MS
 
 Funkcję można wywoływać wielokrotnie, tworząc tym samym całą siatkę miejsc składowania na magazynie.
 
-{% include callout.html content="Generator miejsc składowania tworzy miejsca bez przypisania do produktu" type="warning" %}
-
 ---
 
 ## Ustawianie miejsca składowania jako domyślne dla danych produktów
 
 {% include lightbox.html file="magazynMiejscaSkladowaniaDomyslne.png" alt="Domyślne miejsce składowania" caption="Domyślne miejsce składowania"%}
 
-Przechodząc do zakładki **Produkty** możesz ustalić dla jakich produktów dane miejsce składowania będzie domyślne. Domyślne miejsca składowania będą podpowiadane w momencie przyjmowania produktu na magazyn. Jeśli jednak chcesz przechowywać produkt w innym miejscu, śmiało możesz ulokować [produkt](/produkty) w innym miejscu.
+Przechodząc do zakładki **Produkty** możesz ustalić dla jakich produktów dane miejsce składowania będzie domyślne. Domyślne miejsca składowania będą podpowiadane w momencie przyjmowania produktu na magazyn. Nie jest ono jednak obligatoryjne - podpowiemy Ci gdzie będzie dobrze ulokować produkt, ale jeśli uznasz, że inne miejsce będzie bardziej odpowiednie, system Ci na to pozwoli. 'Domyślne' nie oznacza 'konieczne'.
 
 ---
 
