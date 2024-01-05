@@ -7,6 +7,26 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.6 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.6</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.6</td>
+          <td>
+          <ul>
+            <li>możliwość zapisania numeru faktury w dokumencie magazynowym</li>
+            <li>definiowanie w technologii odcinków na jaki należy pociąć użyty do produkcji materiał</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details> 
+
 <!-- VERSION 2.5.5 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.5</summary><br>
@@ -59,7 +79,7 @@ permalink: changelog.html
   </details>    
 
 <!-- VERSION 2.5.3 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.3</summary><br>
     <table class="changelog-table" border>
         <tr>
