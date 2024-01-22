@@ -27,6 +27,10 @@ W zakładce Główna znajdują się ogólne parametry do technologii.
 
 8. **Domyślna ilość dla produktu wejściowego** - wpisz domyślną ilość dla produktu wejściowego, która będzie podpowiadana przy dodawnaniu produktu do operacji technologii
 
+9. **Aktualizuj technologie w oczekujących zleceniach produkcyjnych i zamówieniach sprzedaży** - zaznacz parametr jeśli nowe technologie w momencie oznaczenia ich jako domyślne, mają zastępować w oczekujących zleceniach i w pozycjach planów sprzedaży, jeszcze nie zleconych, aktualne stare wersje technologii
+
+10. **Kontroluj wymiary wytwarzanych przez stacje wyrobów** - zaznacz parametr, a w procesie sprawdzania technologii zweryfikujemy czy wymiary produktu, określone za pomocą **atrybutów** podanych niżej, mieszczą się w przyjętym zakresie min i max na stacji roboczej wskazanej jako miejsce realizacji produkcji
+
 ---
 
 ## Czasochłonność dla technologii

@@ -208,7 +208,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
 </div>
 <br>
 
-<b>Jeśli jeszcze nie posiadasz swojego konta w qcadoo MES, na naszej stronie internetowej <a href="http://www.qcadoo.com" target="_blank">www.qcadoo.com</a> możesz otrzymać dostęp do darmowej 30-dniowej wersji demonstracyjnej. Zachęcamy!</b>
+<b>Jeśli jeszcze nie posiadasz swojego konta w qcadoo MES, na naszej stronie internetowej <a href="https://www.qcadoo.com/zobacz-qcadoo/" target="_blank">www.qcadoo.com</a> możesz otrzymać dostęp do darmowej 30-dniowej wersji demonstracyjnej. Zachęcamy!</b>
 
 <h2>Najczęściej zadawane pytania:</h2>
 

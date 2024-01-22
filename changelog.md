@@ -7,6 +7,29 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.7 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.7</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.7</td>
+          <td>
+          <ul>
+            <li>zakończenie zadania operacyjnego z poziomu terminala rejestracji produkcji</li>
+            <li>aktualizacja daty zakończenia zdarzenia planowanego w momencie ustawienia statusu: zrealizowane</li>
+            <li>kafelek zdarzenia planowanego na wykresie Gantta zadań operacyjnych</li>
+            <li>kontrola wymiarów wyrobów pod kątem tego, czy można je wytworzyć na danej stacji roboczej (minimalne i maksymalne wymiary uzyskiwanego produktu w stacji roboczej i walidacja podczas sprawdzania technologii)</li>
+            <li>optymalizacja cięcia odcinków w zleceniu produkcyjnym</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details> 
+
 <!-- VERSION 2.5.6 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.6</summary><br>
@@ -54,7 +77,7 @@ permalink: changelog.html
   </details>    
 
 <!-- VERSION 2.5.4 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.4</summary><br>
     <table class="changelog-table" border>
         <tr>

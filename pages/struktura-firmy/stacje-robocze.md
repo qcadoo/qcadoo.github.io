@@ -33,10 +33,11 @@ Koniecznie podaj **numer**, **nazwę** oraz **[typ stacji roboczej](/typy-stacji
 
 Potraktuj qcadoo jako bazę wszelkich dostępnych informacji o maszynie. Dzięki temu będziesz mieć inforamcje zawsze pod ręką - nie będziesz musiał przeszukiwać segregatorów z dokumentami.
 
-Poza standardowymi informacjami z zakładki **Główna**, możesz ten indeks uzupełnić o więcej danych:
+Poza standardowymi informacjami z zakładki **Główna**, możesz definicję stacji uzupełnić o więcej danych:
 - w zakładce **"Załączniki"** - możesz załączyć pliki powiązane z tym stanowiskiem np. instrukcje lub wymagane certyfikaty,
 - w zakładce **"Firmy obsługujące"** - przypisać możesz [firmy](/firmy), które serwisuję daną maszynę,
 - w zakładce **"Linie produkcyjne"** - przypiszesz dział i linię produkcyjną, do których dana stacja należy. Warto uzupełnić tą inforamcję jeśli zależy Ci na planowaniu zadań z dokładnością do stacji, albo gdy zamierzasz wykorzystywać moduł działu utrzymania ruchu w qcadoo
+- w zakładce **Wymiary produktu** - możesz określić minimalne i maksymalne wymiary produktu jakie jesteś w stanie na tej maszynie uzyskać. Dane te zweryfikujemy na etapie sprawdzania technologii i powiemy Ci, czy projektowany wyrób jesteś w stanie wytworzyć za pomocą wskazanych stacji,
 - w zakładce **"Lokalizacja"** - zobaczysz gdzie dana stacja znajduje się w całej strukturze firmy. W tym celu wygeneruj strukturę za pomocą przycisku  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj strukturę**. Warunkiem niezbędnym do tego, by drzewo mogło się zbudować, jest przypisanie do zakładu działów, do działu - linii, do linii - stacji, a nawet do stacji - podzespołu
 
 {% include callout.html content="Jeśli zależy Ci na planie produkcji z dokładnością do stacji roboczej koniecznie wskaż w drzewie technologii jakie stacje robocze mogą daną operację wykonać." type="warning" %}

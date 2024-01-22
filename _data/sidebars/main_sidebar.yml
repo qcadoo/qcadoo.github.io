@@ -418,6 +418,10 @@ entries:
     output: web
     folderitems:
 
+    - title: Obsługa magazynu
+      output: web
+      url: /obsluga-magazynu.html
+
     - title: Magazyny
       output: web
       url: /magazyny.html

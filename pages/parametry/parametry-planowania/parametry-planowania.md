@@ -57,6 +57,20 @@ wskaż, czy chcesz najpierw układać w planie te operacje, na które trzeba bę
 
 ---
 
+## Optymalizacja cięcia
+
+Parametry optymalizacji cięcia wskazują jaki atrybut będzie wyznacznikiem długości surowca, który będzie cięty. Optymalizacja cięcia wywoływana jest w zleceniu produkcyjnym, dla którego co najmniej 1 operacja ma zaznaczony parametr: optymalizuj cięcie i dla której w technologii w produkcie wejściowym, rozpisane są odcinki, które musimy uzyskać. 
+
+
+{% include lightbox.html file="administracjaParametryZleceniaOptymalizacjaCiecia.png" alt="Parametry zleceń - optymalizacja cięcia" caption="Parametry zleceń - optymalizacja cięcia" %}
+
+1. **Atrybut długości ciętego produktu** - wskaż za pomocą jakiego atrybutu będziesz w produkcie wskazywać jego długość. Sięgniemy o wartość atrybutu do produktu, który ma być pocięty i postaramy się tak ułożyć odcinki, by uzyskać wszystko to, co pod zlecenie jest potrzebne, zużyć jak najmniej zadanego surowca i uzyskać jak najmniejszy odpad.
+
+2. **Końcowy odpad** i **jednostka** - jeśli cięty produkt w całości nie może zostać wykorzystany do produkcji, to wskaż jaka część (liczbowo) zawsze będzie stanowiła odpad. Jeśli tracisz kilka milimetrów z przodu belki i z końca, to zsumuj ilość i podaj w polu liczbę zagregowaną.
+
+
+---
+
 ## Zamówienia sprzedaży
 
 Dzięki zamówieniom sprzedaży możesz prowadzić rejestr zgłoszeń od klientów. Zamówienia sprzedaży stanowią początek procesu produkcyjnego - dzięki nim wiesz co musisz wyprodukować. Skonfiguruj je tak, by spełniały Twoje oczekiwania
@@ -121,6 +135,8 @@ Parametry wyłącznie dla Gantta zadań operacyjnych:
 2. **Wyliczanie długości kafelka**
 - **Uwzględnij czas przygotowawczo-zakończeniowy TPZ** - zaznacz parametr a do zadania operacyjnego będzie doliczany czas przygotowawczo-zakończeniowy operacji
 - **Uwzględnij czas dodatkowy** - zaznacz parametr a do zadania operacyjnego będzie doliczany czas dodatkowy operacji
+
+3. **Prezentuj zdarzenia planowane** - zaznacz parametr jeśli chcesz aby na wykresie Gantta zadań operacyjnych pojawiały się kafelki na podstawie zdarzeń planowanych (Dział Utrzymania Ruchu) wymagających wyłączenia stacji roboczej z ruchu. Dzięki temu planista będzie wiedział na kiedy zaplanowane są remonty, przeglądy czy inne prace związane z utrzymaniem ruchu.
 
 ## Naprawy
 

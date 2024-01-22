@@ -10,7 +10,7 @@ Nie musisz się obawiać o to, że zmuszony zostaniesz do zmagania się z trudny
 
 Zachęcamy do poznania pełnej funkcjonalności systemu, dlatego ten tutorial bazuje na pakiecie Ultimate.
   
-**30 dniowa wersja demonstracyjna dostępna jest po zalogowaniu na stronie [www.qcadoo.com](http://www.qcadoo.com).**
+**30 dniowa wersja demonstracyjna dostępna jest na stronie [www.qcadoo.com](https://www.qcadoo.com/zobacz-qcadoo/).**
 
 **Tutorial "Szybki start" w 11 punktach pozwoli Ci na:**
 
