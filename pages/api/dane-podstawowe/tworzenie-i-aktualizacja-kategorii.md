@@ -1,10 +1,10 @@
 ---
 title: "Tworzenie i aktualizacja kategorii"
 permalink: tworzenie-i-aktualizacja-kategorii.html
-toc: false 
 ---
 
-## Informacje
+## Aktualizuj kategorie produktów
+### Informacje
 
 Za pomocą tej metody api utworzysz oraz zaktualizujesz kategorie produktów.
 
@@ -16,7 +16,7 @@ Za pomocą tej metody api utworzysz oraz zaktualizujesz kategorie produktów.
 
   **Metoda http:** POST
 
-## Zawartość żądania
+### Zawartość żądania
 ~~~~~~~~
 {
   "categories": [
@@ -30,7 +30,7 @@ Za pomocą tej metody api utworzysz oraz zaktualizujesz kategorie produktów.
 ~~~~~~~~
 
 
-## Zawartość odpowiedzi
+### Zawartość odpowiedzi
 ~~~~~~~~
 {
     "status": "OK",
@@ -39,4 +39,4 @@ Za pomocą tej metody api utworzysz oraz zaktualizujesz kategorie produktów.
 ~~~~~~~~
 
 ## Działanie
-Tworzy i aktualizuje kategorie produktów.
+Funkcja aktualizuje kategorie produktu (słownik) w MES lub tworzy nowe, jeśli kategoria o podanym externalID i name nie została odnaleziona.

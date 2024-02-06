@@ -121,6 +121,35 @@ Jeśli Różne ilości w produktach wg rozmiarów = tak, to podaj dodatkowo **il
 
 Dany produkt i dana grupa rozmiarowa w ramach jednego produktu wejściowego operacji może wystąpić tylko raz. 
 
+---
+
+#### Definiowanie koniecznych do pocięcia odcinków
+
+Jeśli dany produkt wejściowy w procesie produkcyjnym musi zostać podzielony na wiele odcinków o konkretnej długości i wszystkie te odcinki są później tak samo przetwarzane, można jako produkt wyjściowy z operacji przyjąć "zestaw pociętych profili/kawałków/odcinków", a konkretne wskazania odnośnie cięcia ująć w produkcie wejściowym w zakładce Odcinki.
+
+W tym celu wejdź w produkt wejściowy technologii i w zakładce **Odcinki**
+
+{% include lightbox.html file="technologieTechnologieOdcinki.png" alt="Na jakie odcinki pociąć produkt wejściowy" caption="Na jakie odcinki pociąć produkt wejściowy" %}
+
+kliknij w przycisk przycisk {% include inline_image.html file="newIcon16.png" alt="Nowy" %} "Nowy"
+
+{% include lightbox.html file="technologieTechnologieOdcinkiNowy.png" alt="Dodawanie odcinka do produktu wejściowego operacji technologii" caption="Dodawanie odcinka do produktu wejściowego operacji technologii" %}
+
+i podaj:
+- długość odcinka i jednostkę,
+- ilość odcinków o tej długości.
+
+{% include callout.html content="Jeśli będziesz chcieć korzystać z optymalizacji cięcia odcinków w zleceniu produkcyjnym, pamiętaj, by podać długość odcinka w takiej jednostce, którą można za pomocą przeliczników, zamienić na minimetry." type="info" %}
+
+W ten sposób zdefiniuj każdy odcinek. 
+
+Zwróć uwagę czy:
+- operacja, do której dodajesz odcinki, ma zaznaczony parametr Optymalizuj cięcie,
+- produkt wejściowy, dla którego definiujesz odcinki, ma podaną długość za pomocą atrybutu produktu. I czy ten atrybut produktu wskazany jest w [parametrach optymalizacji cięcia](/parametry-planowania.html#optymalizacja-cięcia).
+Dzięki temu w zleceniu produkcyjnym będziesz mógł skorzystać z funkcji optymalizacji cięcia, która tak ułoży odcinki, które należy uzyskać na belkach o zdefiniowanej długości, by zużyć jak najmniej surowca i by odpad był jak najmniejszy.
+
+
+
 
 ---
 

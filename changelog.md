@@ -7,6 +7,31 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.8 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.8</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.8</td>
+          <td>
+          <ul>
+            <li>kopiowanie atrybutów wraz z produktem (działanie na parametrze)</li>
+            <li>przenoszenie atrybutów do utworzonych z generatora produktów (działanie na parametrze)</li>
+            <li>optymalizacja cięcia odcinków - zapisanie danych w zleceniu</li>
+            <li>uprawnienia do optymalizacji cięcia</li>
+            <li>powiększenie tabeli w oknie dodawania wielu domyślnych produktów do dostawcy</li>
+            <li>organizacja kolorystyczna w Gantt zadań operacyjnych</li>
+            <li>kafelek zdarzenia planowanego na wykresie Gantta stacji roboczych z poziomu planu na stację roboczą i pracownika</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details> 
+
 <!-- VERSION 2.5.7 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.7</summary><br>
@@ -51,7 +76,7 @@ permalink: changelog.html
   </details> 
 
 <!-- VERSION 2.5.5 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.5</summary><br>
     <table class="changelog-table" border>
         <tr>

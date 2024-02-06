@@ -4,6 +4,8 @@ permalink: pobieranie-norm-kosztowych-produktu.html
 toc: false 
 ---
 
+Metoda nieużywana w standardowej ścieżce integracji.
+
 ## Informacje
 
 Za pomocą tej metody api pobierzesz normy kosztowe produktu.

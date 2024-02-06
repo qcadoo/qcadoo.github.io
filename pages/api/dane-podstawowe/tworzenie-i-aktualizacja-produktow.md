@@ -1,10 +1,10 @@
 ---
 title: "Tworzenie i aktualizacja produktów"
 permalink: tworzenie-i-aktualizacja-produktow.html
-toc: false 
 ---
 
-## Informacje
+## Zaktualizuj produkty
+### Informacje
 
 Za pomocą tej metody api dodasz [produkty](/produkty) do systemu. Zaktualizujsz też istniejące o podanym externalID. 
 
@@ -16,7 +16,7 @@ Za pomocą tej metody api dodasz [produkty](/produkty) do systemu. Zaktualizujsz
 
   **Metoda http:** POST
 
-## Zawartość żądania
+### Zawartość żądania
 ~~~~~~~~
 {
   "products": [
@@ -55,7 +55,7 @@ Za pomocą tej metody api dodasz [produkty](/produkty) do systemu. Zaktualizujsz
 ~~~~~~~~
 
 
-## Zawartość odpowiedzi
+### Zawartość odpowiedzi
 ~~~~~~~~
 {
     "status": "OK",
@@ -63,9 +63,52 @@ Za pomocą tej metody api dodasz [produkty](/produkty) do systemu. Zaktualizujsz
 }
 ~~~~~~~~
 
-## Działanie
+### Działanie
 W tej akcji MES powinien otrzymać wszystkie produkty z ERP, które zostały zaktualizowane lub utworzone od ostatniej synchronizacji. Produkty mogą mieć globalTypeOfMaterial null'owy.
 
 Dla każdego produktu ta metoda powinna:
 - jeżeli jest produkt o podanym externalID w qcadoo, to go aktualizuje: może zaktualizować nawet numer, qcadoo sprawdza czy zmiana przechodzi standardową walidacje systemową. 
 - jeżeli nie - akcja zwróci błąd, i wszystkie aktualizacje z tej akcji nie zostaną wykonane (cofnięcie transakcji), jak nie ma danego externalID to dodaje nowy produkt tu również powinna działać walidacja.
+
+
+---
+
+## Nadaj produktowi zewnętrzne ID
+### Informacje
+
+Za pomocą tej metody api zapiszesz w produktach w qcadoo zewnętrzne ID.
+
+  **Moduł integracyjny:** urcBasic
+
+  **Nazwa akcji:** setProductsExternalID
+
+  **URL:** /integration/rest/setProductsExternalID.html
+
+  **Metoda http:** POST
+
+### Zawartość żądania
+~~~~~~~~
+{
+  "ignoreMissing": true,
+  "products": [
+    {
+      "externalID": "string",
+      "number": "string",
+      "numberAsID": "string"
+    }
+  ]
+}
+~~~~~~~~
+
+
+### Zawartość odpowiedzi
+~~~~~~~~
+{
+  "message": "string",
+  "status": "OK"
+}
+~~~~~~~~
+
+### Działanie
+Ustawia externalID produktom z numerem numberAsID. Jeżeli jest włączona opcja ignoreMissing wtedy nie zwraca błędu jeżeli nie znajdzie produktu o danym numerze == numberAsID.
+

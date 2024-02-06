@@ -1,10 +1,10 @@
 ---
 title: "Tworzenie przeliczeń jednostek"
 permalink: tworzenie-przeliczen-jednostek.html
-toc: false 
 ---
 
-## Informacje
+## Ustaw możliwe przeliczenia jednostek w produktach
+### Informacje
 
 Za pomocą tej metody api utworzysz [przeliczenia jednostek](/przeliczniki) w systemie.
 
@@ -16,7 +16,7 @@ Za pomocą tej metody api utworzysz [przeliczenia jednostek](/przeliczniki) w sy
 
   **Metoda http:** POST
 
-## Zawartość żądania
+### Zawartość żądania
 ~~~~~~~~
 {
     "products" : [
@@ -40,7 +40,7 @@ Za pomocą tej metody api utworzysz [przeliczenia jednostek](/przeliczniki) w sy
 ~~~~~~~~
 
 
-## Zawartość odpowiedzi
+### Zawartość odpowiedzi
 ~~~~~~~~
 {
     "status": "OK",
@@ -48,7 +48,7 @@ Za pomocą tej metody api utworzysz [przeliczenia jednostek](/przeliczniki) w sy
 }
 ~~~~~~~~
 
-## Działanie
+### Działanie
 Ustawia produktowi możliwe przeliczenia jednostek. Poprzednie przeliczenia dla produktu są usuwane.
 
 Jeżeli jest już w systemie jednosta toUnit (patrzymy po externalID) to ją aktualizujemy. Jak nie to dodajemy nową.

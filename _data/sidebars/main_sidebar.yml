@@ -659,6 +659,10 @@ entries:
           output: web
           url: /dzielenie-zlecenia.html
 
+        - title: Optymalizacja cięcia odcinków
+          output: web
+          url: /optymalizacja-ciecia.html
+
       - title: Planowanie zleceń
         output: web
         subfolderitems:
@@ -1068,6 +1072,18 @@ entries:
         url: /api-wstep.html
 
         subfolders:
+          - title: Dane bazowe
+            output: web
+            subfolderitems:
+
+              - title: Pobieranie listy włączonych modułów
+                output: web
+                url: /pobierz-wlaczone-moduly.html
+
+              - title: Pobieranie i aktualizacja daty ostatniej synchronizacji
+                output: web
+                url: /data-synchronizacji.html
+
           - title: Dane podstawowe
             output: web
             subfolderitems:
@@ -1088,21 +1104,9 @@ entries:
                 output: web
                 url: /tworzenie-i-aktualizacja-firm.html
 
-              - title: Tworzenie adresów
-                output: web
-                url: /tworzenie-adresow.html
-
               - title: Tworzenie i aktualizacja kategorii
                 output: web
                 url: /tworzenie-i-aktualizacja-kategorii.html
-
-          - title: Normy kosztowe dla produktów
-            output: web
-            subfolderitems:
-
-              - title: Pobieranie norm kosztowych produktu
-                output: web
-                url: /pobieranie-norm-kosztowych-produktu.html
 
               - title: Aktualizacja norm kosztowych produktu
                 output: web

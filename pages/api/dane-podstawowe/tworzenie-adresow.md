@@ -1,8 +1,9 @@
 ---
 title: "Tworzenie adresów"
 permalink: tworzenie-adresow.html
-toc: false 
 ---
+
+Metoda nieużywana w standardowej ścieżce integracji.
 
 ## Informacje
 

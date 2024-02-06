@@ -41,15 +41,19 @@ Z poziomu menu kontekstowego przejdziesz też do widoku szczegółów zadania op
 
 Ponadto - opis umieszczony na kafelku, powinien pozwolić na ustalenie, już przy pierwszym rzucie oka, czym dane zadanie jest.
 
-Zwróciłeś zapewne uwagę, że kafelki mają różne **kolory**. Kolory świadczą o statusie i typie zadania. Dla zadań powiązanych ze zleceniem mamy kolory:
-- żółty {% include inline_image.html file="kafelZolty.png" alt="zółty" %} to status Oczekujące
-- jasno niebieski {% include inline_image.html file="kafelAqua.png" alt="aqua" %} to status Rozpoczęte
-- jasny szary {% include inline_image.html file="kafelJasnoSzary.png" alt="jasno szary" %} to status Zakończone
+Zwróciłeś zapewne uwagę, że kafelki mają różne **kolory**. 
+
+{% include lightbox.html file="planowanieGanttZadanOperacyjnychKolory.png" alt="Kolory na wykresie Gantta zadań operacyjnych" caption="Kolory na wykresie Gantta zadań operacyjnych" %}
+
+Kolory świadczą o statusie i typie zadania. Dla zadań powiązanych ze zleceniem mamy kolory:
+- jasny turkus {% include inline_image.html file="GanttKafelTurkus.png" alt="jasny turkus" %} to status Oczekujące
+- błękitny {% include inline_image.html file="GanttKafelBlekitny.png" alt="błękitny" %} to status Rozpoczęte
+- morski {% include inline_image.html file="GanttKafelMorski.png" alt="morski" %} to status Zakończone
 
 Dla zadań o typie "inne zadanie" zastosowane zostały kolory:
-- oliwkowy {% include inline_image.html file="kafelOliwkowy.png" alt="zółty" %} to status Oczekujące
-- granatowy {% include inline_image.html file="kafelNavy.png" alt="navy" %} to status Rozpoczęte
-- ciemno szary {% include inline_image.html file="kafelCiemnoSzary.png" alt="ciemno szary" %} to status Zakończone
+- żółty {% include inline_image.html file="GanttKolorZolty.png" alt="zółty" %} to status Oczekujące
+- oliwkowy {% include inline_image.html file="GanttKolorOliwka.png" alt="oliwkowy" %} to status Rozpoczęte
+- zielony {% include inline_image.html file="GanttKafelZielony.png" alt="zielony" %} to status Zakończone
 
 Zadania zakończone są ponadto wyłączone z edycji - pionowe kreski na początku i końcu kafelka oznaczają, że nie może zmienić swojego położenia.
 
@@ -63,9 +67,12 @@ Jakie jeszcze kolory możesz na wykresie Gantta dostrzec:
 
 {:start="3"}
 
-3. kolor zadania może nieść informacje o procencie wykonania. Aby tak się stało zaznacz w [parametrach Gantta](/parametry-planowania.html#gantt-zadań-operacyjnych) **Pokazuj postęp**. Pamiętasz procent wykonania w liście zadań operacyjnych? Jeśli nie - to zerknij [tutaj](/planowanie-operacyjne.html#śledzenie-postępu-produkcji). W zależności od tego w jakim procencie zadanie jest wykonane, tak będzie się napełniać kolorem dany kafelek. Wykonanie 100% spowoduje pokolorowanie zadania na ciemno zielono.
+3. kolor zadania może nieść informacje o procencie wykonania. Aby tak się stało zaznacz w [parametrach Gantta](/parametry-planowania.html#gantt-zadań-operacyjnych) **Pokazuj postęp**. Pamiętasz procent wykonania w liście zadań operacyjnych? Jeśli nie - to zerknij [tutaj](/planowanie-operacyjne.html#śledzenie-postępu-produkcji). W zależności od tego w jakim procencie zadanie jest wykonane, tak będzie się napełniać kolorem dany kafelek. Wykonanie 100% spowoduje pokolorowanie zadania na morski.
 
 {% include lightbox.html file="planowanieGanttZadanPostep.png" alt="Postęp zadania operacyjnego" caption="Postęp zadania operacyjnego" %}
+
+{:start="4"}
+4. przezbrojenia między zadaniami oznaczone są kolorem pomarańczowym {% include inline_image.html file="GanttKafelPomaranczowy.png" alt="pomarańczowy" %}
 
 Zadania widoczne w planie możesz przeszukiwać używając filtra umieszczonego nad wykresem. Wpisz tekst, po którym chcesz przeszukać dane i kliknij jeden z dwóch dostępnych przycisków:
 - **Filtruj** {% include inline_image.html file="przyciskGanttFiltruj.png" alt="filtruj" %}
@@ -112,6 +119,29 @@ Kliknij prawym przyciskiem myszy w kafelek i wybierz: Procesy technologiczne:
 {% include lightbox.html file="planowanieGanttZadanProcesyTechnologiczne.png" alt="Procesy technologiczne na wykresie Gantta" caption="Procesy technologiczne na wykresie Gantta" %}
 
 Daty procesów wyliczone są na podstawie czasów TJ, TPZ i dodatkowych ujętych w definicji procesu. Zaczynamy wyliczanie od daty rozpoczęcia zadania i po kolei wyznaczamy daty poszczególnych procesów. Warto podkreślić, że data zakończenia wyliczona z procesów nie musi zgadzać się z datą zakończenia zadania operacyjnego - do obu wyliczeń pobieramy inne źródło danych, więc jeśli nie zadbałeś o spójność, mogą być rozjazdy.
+
+---
+
+## Prezentacja zdarzeń planowanych
+
+Na wykresie Gantta zadań operacyjnych mogą pojawiać się kafelki utworzone do [zdarzeń planowanych](/zdarzenia-planowane) powiązanych ze stacjami roboczymi, które wymagają wyłączenia z ruchu. Dzięki temu planista będzie widział na kiedy zaplanowane są przeglądy czy remonty maszyn i będzie mógł uwzględnić je w planie.
+
+Aby zdarzenie planowane pojawiło się na wykresie konieczne jest zaznaczenie parametru **Prezentuj zdarzenia planowane** w [parametrach planowania](/parametry-planowania.html#gantt-zleceńzadań).
+
+{% include lightbox.html file="planowanieGanttZadanZdarzeniaPlanowane.png" alt="Zdarzenia planowane na wykresie Gantta" caption="Zdarzenia planowane na wykresie Gantta" %}
+
+Pokazujemy wszystkie zdarzenia planowane:
+- o określonych datach w zakładce Daty,
+- o zaznaczonej fladze **Wymaga wyłączenia z ruchu**, 
+- przypisane do stacji roboczej,
+- o statusach: zaplanowane, w realizacji, w edycji, zrealizowane i zaakceptowane. 
+
+W zależności od statusu, kafelek może przybierać następujące **kolory**:
+- fuksja {% include inline_image.html file="GanttKafelFuksja.png" alt="fuksja" %} to zdarzenia zaplanowane, ale jeszcze nie realizowane,
+- purpura {% include inline_image.html file="GanttKafelPurpura.png" alt="purpura" %} to zdarzenia aktualnie realizowane,
+- bordo {% include inline_image.html file="GanttKafelBordo.png" alt="bordo" %} to zdarzenia zakończone.
+
+Zdarzenia planowane nie mogą być modyfikowane z poziomu wykresu Gantta. Jeśli planista ma wątpliwości odnośnie zasadności remontowania maszyny w danym momencie, musi zwrócić się do właściciela zadania (dane widoczne są na tooltipie) i poprosić o modyfikację w module utrzymania ruchu.
 
 
 

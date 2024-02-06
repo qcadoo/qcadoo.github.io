@@ -1,10 +1,10 @@
 ---
 title: "Aktualizacja norm kosztowych produktu"
 permalink: aktualizacja-norm-kosztowych-produktu.html
-toc: false 
 ---
 
-## Informacje
+## Zaktualizuj normy kosztowe produktów
+### Informacje
 
 Za pomocą tej metody api utworzysz normy kosztowe produktu w systemie.
 
@@ -16,7 +16,7 @@ Za pomocą tej metody api utworzysz normy kosztowe produktu w systemie.
 
   **Metoda http:** POST
 
-## Zawartość żądania
+### Zawartość żądania
 ~~~~~~~~
 {
   "products" : [
@@ -34,7 +34,7 @@ Za pomocą tej metody api utworzysz normy kosztowe produktu w systemie.
 }
 ~~~~~~~~
 
-## Zawartość odpowiedzi
+### Zawartość odpowiedzi
 ~~~~~~~~
 {
     "status": "OK",
@@ -42,7 +42,7 @@ Za pomocą tej metody api utworzysz normy kosztowe produktu w systemie.
 }
 ~~~~~~~~
 
-## Działanie
+### Działanie
 W tej akcji MES powinien otrzymać wszystkie normy kosztowe produktów z ERP, które istnieją w qcadoo i zostały zaktualizowane od ostatniej synchronizacji. 
 
 Jeżeli costForNumber nie jest podane wtedy ustawiamy na 1.
