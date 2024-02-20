@@ -4,6 +4,9 @@ permalink: tworzenie-drzewa-technologii.html
 toc: false 
 ---
 
+Metoda nieużywana w standardowej ścieżce integracji.
+
+
 ## Informacje
 
 Za pomocą tej metody ustalisz drzewo technologii.

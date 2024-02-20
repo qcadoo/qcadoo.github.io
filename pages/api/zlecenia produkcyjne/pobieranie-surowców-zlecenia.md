@@ -4,6 +4,9 @@ permalink: pobieranie-surowcow-zlecenia.html
 toc: false 
 ---
 
+Metoda nieużywana w standardowej ścieżce integracji.
+
+
 ## Informacje
 
 Za pomocą tej metody pobierzesz surowce potrzebne do zrealizowania zlecenia.

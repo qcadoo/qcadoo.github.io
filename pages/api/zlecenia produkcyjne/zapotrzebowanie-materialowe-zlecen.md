@@ -4,6 +4,9 @@ permalink: zapotrzebowanie-materialowe-zlecen.html
 toc: false 
 ---
 
+Metoda nieużywana w standardowej ścieżce integracji.
+
+
 ## Informacje
 
 Za pomocą tej metody pobierzesz zapotrzebowanie materiałowe zlecenia produkcyjnego.

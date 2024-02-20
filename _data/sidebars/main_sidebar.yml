@@ -1112,38 +1112,34 @@ entries:
                 output: web
                 url: /aktualizacja-norm-kosztowych-produktu.html
 
-          - title: Zlecenia produkcyjne
+          - title: Magazyny
             output: web
             subfolderitems:
 
-              - title: Tworzenie zlecenia
+              - title: Aktualizacja magazynu
                 output: web
-                url: /tworzenie-zlecenia.html    
-
-              - title: Pobieranie zlecenia
-                output: web
-                url: /pobieranie-zlecenia.html 
-
-              - title: Pobieranie surowców zlecenia
-                output: web
-                url: /pobieranie-surowcow-zlecenia.html 
-              
-              - title: Zapotrzebowanie materiałowe zleceń
-                output: web
-                url: /zapotrzebowanie-materialowe-zlecen.html 
+                url: /aktualizuj-magazyn.html
 
           - title: Technologie
             output: web
             subfolderitems:
 
-              - title: Tworzenie drzewa technologii
+              - title: Pobranie produktów z zaakceptowanych technologii
                 output: web
-                url: /tworzenie-drzewa-technologii.html 
+                url: /pobranie-produktow-technologii.html 
 
-          - title: Magazyny
+          - title: Genealogia
             output: web
             subfolderitems:
 
-              - title: Tworzenie magazynu
+              - title: Tworzenie partii w genealogii
                 output: web
-                url: /tworzenie-magazynu.html
+                url: /aktualizuj-partie.html 
+
+          - title: Zamówienia sprzedaży
+            output: web
+            subfolderitems:
+
+              - title: Dodawanie zamówienia sprzedaży
+                output: web
+                url: /dodaj-zamowienie-sprzedazy.html
