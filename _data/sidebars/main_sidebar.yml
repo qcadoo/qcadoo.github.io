@@ -108,6 +108,10 @@ entries:
         output: web
         url: /realizacja-zamowienia-klienta.html
 
+      - title: Rozpisanie zadań operacyjnych od zamówień sprzedaży
+        output: web
+        url: /zadania-operacyjne-od-zam-bez-norm-czasowych.html
+
       - title: Zamówienie surowców
         output: web
         url: /zamowienie-surowcow.html

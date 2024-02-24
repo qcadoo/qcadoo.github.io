@@ -21,12 +21,14 @@ Zainteresowany takim sposobem działania? Zacznij od odpowiedniej konfiguracji d
 
 1. wprowadź [stacje robocze](/stacje-robocze) - zarówno maszyny jak i stanowiska, na których realizowane są zadania --> musimy wiedzieć gdzie praca będzie wykonywana. Pamiętaj aby każda ze stacji była przypisana do linii produkcyjnej, a ta aby miała zdefiniowane kalendarze. Jeśli przypisania takiego nie będzie - założymy, że stacja pracuje na wszystkich zdefiniowanych zmianach
 2. określ umiejętności - czyli podaj jakie kwalifikacje trzeba mieć, aby móc wykonywać dane czynności
-3. zdefiniuj [operacje] --> musimy wiedzieć jakie czynności wykonujesz
+3. zdefiniuj [operacje](/operacje) --> musimy wiedzieć jakie czynności wykonujesz
 4. dla każdej operacji określ [normy czasowe](/normy-czasowe) --> musimy wiedzieć ile trwa każda z operacji. Podanie czasu Tj (czyli czasu wykonania produktu w jednym cyklu), jeśli chcesz aby operacja i kolejne w procesie, zostały rozplanowane. 
 5. do każdej [operacji przyporządkuj stacje robocze](/stacje-robocze-operacji) --> musimy wiedzieć gdzie czynność może być realizowana. Może to być dowolna ilość stacji (możesz też podać typ stacji roboczych, do którego przypisanych jest wiele stacji) - postaramy się wybrać na etapie planowania te najodpowiedniejsze w danym momencie
 6. każdej [operacji przypisz wymagane umiejętności](/wymagane-umiejetnosci-operacji) --> musimy wiedzieć jakie umiejętności i na jakim poziomie pracownik musi posiadać, aby mógł być do zadania przydzielony
 7. wprowadź [pracowników](/pracownicy) produkcyjnych --> musimy wiedzieć, kto może zadania wykonywać. Jeśli wystarczy Ci plan z przypisaniem zadań do stacji, to pracowników nie musisz definiować - nie są oni niezbędni do planowania
 8. przypisz [pracownikom posiadane umiejętności i określ ich poziom](/pracownicy.html#jak-przypisać-do-pracownika-posiadane-umiejętności) --> musimy wiedzieć kto ma odpowiednie kwalifikacje do realizacji zadania
+
+{% include callout.html content="Punkty 6, 7 i 8 powyższej listy dotyczą przypisywania pracowników do zadań operacyjnych. Jeśli nie chcesz, aby planer się tym zajmował (albo jeśli chcesz, by przypisał domyślną osobę zdefiniowaną do stacji), możesz ominąć te punkty." type="warning" %}
 
 ## Planowanie
 
@@ -39,11 +41,14 @@ Abyśmy mogli pomóc Ci w planowaniu, musimy mieć co planować. Innymi słowy -
 Zlecenia produkcyjne muszą mieć:
 - produkt
 - ilość zleconą
-- technologię - z wyodrębnionymi operacjami ze stacjami roboczymi w [zasięgu technologii](/technologie-szczegoly.html#zasięg-technologii), umiejętnościami i normami czasowymi
+- technologię - z wyodrębnionymi operacjami ze stacjami roboczymi w [zakładce Linie / stacje](//technologie-szczegoly#linie--stacje), umiejętnościami i normami czasowymi
 
 daty mogą zostać puste - uzupełnimy je w momencie zatwierdzania planu.
 
-Czas na stworzenie planu. Na podstawie wskazanych zleceń wyodrębnimy operacje do wykonania, ułożymy je na stacjach roboczych, ustalimy czasy realizacji i założymy zadania operacyjne (stanowiące niejako pozycje zleceń produkcyjnych).
+<br/>
+<br/>
+
+**Czas na stworzenie planu**. Na podstawie wskazanych zleceń wyodrębnimy operacje do wykonania, ułożymy je na stacjach roboczych, ustalimy czasy realizacji i założymy zadania operacyjne (stanowiące niejako pozycje zleceń produkcyjnych).
 
 Zanim opiszę proces planowania, musisz poznać kilka zasad, które przyjęliśmy:
 1. jest to proste planowanie bez powtórzeń - układamy operacje raz i już planu nie optymalizujemy
