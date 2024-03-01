@@ -48,13 +48,16 @@ Zamówienie sprzedaży może pojawić się też w systemie qcadoo na dwa inne sp
 
 ### Import zamówień sprzedaży z pliku .xlsx
 
-Aby zaimportować zamówienia sprzedaży z pliku .xslx wejdź w **Sprzedaż > Pozycje zamówień sprzedaży** i kliknij przycisk {% include inline_image.html file="przyciskImportujZamowieniaXLSX.png" alt="Przycisk Importuj zamówienia sprzedaży z XLSX" %} **Importuj zamówienia sprzedaży z XLSX**, pobierz szablon i wypełnij go danymi. 
+Aby zaimportować zamówienia sprzedaży z pliku .xslx wejdź w **Sprzedaż > Pozycje zamówień sprzedaży** lub **Sprzedaż > Zamówienia sprzedaży** i kliknij przycisk {% include inline_image.html file="przyciskImportujZamowieniaXLSX.png" alt="Przycisk Importuj zamówienia sprzedaży z XLSX" %} **Importuj zamówienia sprzedaży z XLSX**, pobierz szablon i wypełnij go danymi. 
 
 Kilka istotnych informacji na początek:
 1. sposób działania importu z arkusza Excel jest taki sam w wielu miejscach systemu. Dokumentację znajdziesz [tutaj](/import-z-excel),
 2. zamówienia sprzedaży w qcadoo mogą mieć wiele pozycji (czyli klient za jednym razem może zamówić kilka produktów). Takie zamówienie w pliku będzie tyle wierszy ile pozycji. I każdy z tych wierszy będzie miał takie same dane nagłówkowe (czyli kolumny: A, D, E, F, G, H, I, J, K) - dzięki temu poznamy, które pozycje mają wskoczyć na jakie zamówienie,
 3. w jednym arkuszu możesz rozpisać wiele zamówień i na raz je zaimportować.
+4. jeśli w importowanym pliku znajdą się zamówienia o numerach już w qcadoo istniejących, to import zostanie przerwany. Ale jeśli zaznaczysz w oknie parametr **Aktualizuj listę zamówień** to wówczas podczas importu zaciągniemy te zamówienia, których w qcadoo nie ma, a już istniejące pominiemy.
 
+<br/>
+<br/>
 
 Koniecznie uzupełnij 3 pierwsze kolumny:
 - **numer** (kolumna A) - numer zamówienia musi być unikalny (czyli: może istnieć tylko jedno zamówienie o danym numerze)

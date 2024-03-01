@@ -7,6 +7,7 @@ Jesteś ciekaw w jaki sposób qcadoo może zrealizować typowe dla Ciebie i Twoj
 
 Zapoznaj się z następującymi przykładami działania:
 - [realizacja zamówienia klienta](/realizacja-zamowienia-klienta) --> czyli jak wygląda praca w qcadoo w podstawowej ścieżce od momentu wpłynięcia zamówienia sprzedaży aż po zaraportowanie wykonania
+- [rozpisanie zadań operacyjnych od zamówień sprzedaży](//zadania-operacyjne-od-zam-bez-norm-czasowych) --> czyli w jaki sposób rozpisać produkcję, gdy zależy nam na zaplanowaniu do realizacji każdej czynności, ale nie mamy wyznaczonych norm czasowych operacji
 - [zamowienie surowców](/zamowienie-surowcow) --> czyli ustalenie jakich produktów brakuje pod rozpisane zlecenia, zamówienie ich u dostawców aż po przyjęcie dostawy na magazyn
 - [zużycie materiałów pod zlecenie produkcyjne](/zuzycie-materialow) --> czyli w jaki sposób przeprowadzić proces zarządzania materiałami niezbędnymi do produkcji
 - [wyprodukowanie dodatkowego produktu](/wyprodukowanie-dodatkowego-produktu) --> czyli jak zarejestrować w qcadoo fakt wytworzenia większej ilości niż zlecono

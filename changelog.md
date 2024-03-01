@@ -7,6 +7,33 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.10 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.10</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.10</td>
+          <td>
+          <ul>
+            <li>import zamówień sprzedaży z pliku:</li>
+              <ul>
+                <li>możliwość wywołania importu z poziomu listy zamówień sprzedaży</li>
+                <li>możliwość aktualizacji listy zamówień o nowe rekordy w pliku do importu</li>
+                <li>rozwiązanie problemów z importem pozycji zamówień bez technologii</li>
+              </ul>
+            <li>termin ostateczny na kafelku zlecenia na dashboardzie</li>
+            <li>realizacja ze stanu magazynowego przy zlecaniu produkcji z zamówienia sprzedaży, przy współpracy z systemem zewnętrznym</li>
+            <li>integracja z Optimą - dodanie partii na dokumencie PW (jako atrybut) na podstawie wskazanej w qcadoo partii produktu zleconego</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>  
+
 <!-- VERSION 2.5.9 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.9</summary><br>
@@ -52,7 +79,7 @@ permalink: changelog.html
   </details> 
 
 <!-- VERSION 2.5.7 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.7</summary><br>
     <table class="changelog-table" border>
         <tr>
