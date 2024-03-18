@@ -353,6 +353,24 @@ Po wypełnieniu danych zapisz przyciskiem {% include inline_image.html file="prz
 
 ---
 
+### Łączne raportowanie zadań
+
+{% include lightbox.html file="rejestracjaTerminalLacznaRejestracja.png" alt="Zgłoszenie awarii" caption="Terminal - zgłoszenie awarii" class="float-right"  %}
+
+Jeśli pracujesz w trybie raportowania każdej operacji i część zadań, z różnych zleceń, realizowanych jest przez pracowników jednocześnie, to wygodnym sposobem raportowania może być łączna rejestracja. Idea jest następująca: pracownik loguje się do terminala, podaje na jakim dziale, linii i stacji wykonywał prace, wchodzi do okna wyboru zadań i zaznacza te czynności, które zrealizował, klika przycisk Zrealizuj łącznie, podaje czas poświęcony i ilości wyprodukowane. Po zatwierdzeniu tworzonych jest tyle rekordów rejestracji ile wskazanych zadań.
+
+Na co należy zwrócić uwagę:
+
+1. aby łączna rejestracja była możliwa zezwól na to w [parametrach terminala](/parametry-rejestracja-produkcji.html#terminal) zaznaczając **Pozwól na łączną rejestrację**
+2. w parametrach terminala wskaż również w jaki sposób ma być w rekordach rejestracji uzupełniany czas (parametr: **Czas pracy łącznej rejestracji**) - czy każdy ma mieć taki czas jak podany w oknie, czy czas ma być proporcjonalnie rozdzielony na ilości wyprodukowane
+3. aby można było raportować produkcję łącznie, musi być zaznaczona opcja **zużywania surowców wg norm** (w tym celu zajrzyj do [parametrów rejestracji](/parametry-rejestracja-produkcji)). Dzięki temu na podstawie podanej ilości wyprodukowanej ustalimy jakie surowce i w jakiej ilości musiały być użyte i takie dane uzupełnimy w produktach wejściowych meldunku. Pamiętaj jednak, że z widoku łącznego raportowania nie będziesz w stanie tego zmienić. Jeśli z terminala rekordy rejestracji tworzą się szkicowe, to ewentualne zmiany możesz nanieść bezpośrednio w nich, przed akceptacją
+4. jeśli podany czas ma być rozpisany proporcjonalnie, to w co najmniej 1 wybranym zadaniu musi być podana ilość. Do pozycji bez ilości wyprodukowanej też utworza się rekordy rejestracji, ale z zerowymi wartościami
+5. łączna rejestracja pozwala na utworzenie meldunków z produkcji już po jej realizacji. W tym trybie nie można korzystać z działania START-STOP
+6. utworzone rekordy rejestracji nie będą mogły być pobrane do edycji w terminalu w zgrupowanej wersji. Edycja będzie możliwa albo w każdym meldunku z osobna w terminalu, albo z listy rekordów rejestracji
+7. w meldunkach utworzonych do zadań z łącznej rejestracji uzupełniane są informacje o dziale, linii i stacji roboczej na podstawie danych podanych w terminalu. Jeśli zależy Ci na tym, by gromadzić te informacje w rekordach rejestracji, zabdaj o to, by wypełnić dane podstawowe przed pobraniem zadań do łącznej rejestracji
+
+---
+
 ## Zakończenie pracy z terminalem
 
 Aby zapisać wprowadzone dane kliknij **Potwierdź**. Aby cofnąć to co zostało wpisane w meldunku (do momentu wczytania operacji/zlecenia) kliknij **Czyść**. Aby wyczyścić wszystkie dane w terminalu kliknij **Anuluj**.

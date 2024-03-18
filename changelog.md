@@ -7,6 +7,26 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.11 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.11</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.11</td>
+          <td>
+          <ul>
+            <li>łączne raportowanie zadań w terminalu</li>
+            <li>możliwość wprowadzenia w terminalu czasu pracy pracownika i czasu pracy maszyny dłuższego niż 24 godziny</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>  
+
 <!-- VERSION 2.5.10 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.10</summary><br>
@@ -54,7 +74,7 @@ permalink: changelog.html
   </details>   
 
 <!-- VERSION 2.5.8 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.8</summary><br>
     <table class="changelog-table" border>
         <tr>
