@@ -7,6 +7,53 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.13 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.13</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.13</td>
+          <td>
+          <ul>
+            <li>kolumna Opis w liście produktów</li>
+            <li>tworzenie zleceń produkcyjnych do zamówienia sprzedaży z terminem ostatecznym na podstawie daty dostawy z pozycji + parametr planowania</li>
+            <li>usunięcie z parametrów planowania zakładek: Postęp produkcji i Zapotrzebowanie mat.</li>
+            <li>nowa zakładka w parametrach zleceń: Zlecanie prod. z zamówień i przeniesienie do niej części parametrów z zakładki Główna</li>
+            <li>integracja - rozbudowa zakładki Integracja w zamówieniu sprzedaży o pole Synchronizuj i data synchronizacji</li>
+            <li>integracja - możliwość wysłania zamówienia sprzedaży z qcadoo do Subiekta</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
+<!-- VERSION 2.5.12 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.12</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.12</td>
+          <td>
+          <ul>
+            <li>zmiana kontrolki do rejestrowania czasu pracy w terminalu rejestracji produkcji</li>
+            <li>mała reorganizacja parametrów terminala rejestracji produkcji</li>
+            <li>parametr rejestracji produkcji: braki zużywają surowce i możliwość zdecydowania, czy po wpisaniu ilości dla wytworzonego braku mają być przeliczane ilości dla produktów wejściowych</li>
+            <li>data dostawy w pozycji zamówienia sprzedaży</li>
+            <li>przebudowanie widoku pozycji zamówienia sprzedaży</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details> 
+
 <!-- VERSION 2.5.11 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.11</summary><br>
@@ -28,7 +75,7 @@ permalink: changelog.html
   </details>  
 
 <!-- VERSION 2.5.10 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.10</summary><br>
     <table class="changelog-table" border>
         <tr>
@@ -55,7 +102,7 @@ permalink: changelog.html
   </details>  
 
 <!-- VERSION 2.5.9 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.9</summary><br>
     <table class="changelog-table" border>
         <tr>
