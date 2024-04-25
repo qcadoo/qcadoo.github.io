@@ -2,6 +2,13 @@
 title: "Szybki start"
 permalink: introduction.html
 ---
+
+
+{% include callout.html style="font-size:1.5em;" content="**UWAGA!!!**<br/>
+<br/> Znajdujesz się w starej wersji instrukcji Szybki start. Przygotowaliśmy nową, bardziej wspierającą. Przejdź [TUTAJ](/start-wprowadzenie) i zacznij pracę w qcadoo MES." type="warning" %}
+
+
+
 Qcadoo MES to łatwy i przyjazny system do zarządzania produkcją w Małych i Średnich Firmach. 
   
 Nie musisz się obawiać o to, że zmuszony zostaniesz do zmagania się z trudnym i skomplikowanym interfejsem. Przeciwnie! Qcadoo MES, jako jedyna aplikacja on-line w Polsce posiada certyfikat potwierdzający użyteczność i łatwość obsługi. Jednak doskonale wiemy, że czasem potrzebna jest mała wskazówka. Dlatego właśnie powstał samouczek "Szybki start".

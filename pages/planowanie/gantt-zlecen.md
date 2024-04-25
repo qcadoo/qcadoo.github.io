@@ -2,10 +2,11 @@
 title: "Gantt zleceń"
 permalink: gantt-zlecen.html
 ---
+Graficzną prezentacją planów produkcyjnych jest Gantt zleceń. Przedstawia on, za pomocą kafelków, wszystkie zlecenia przypisane do linii produkcyjnych. Na pierwszy rzut oka widać, co ma być wyprodukowane, w jakiej kolejności i jak długo powinna zająć produkcja.
 
-Gantt zleceń, to graficzne przedstawienie planów produkcyjnych podobnie jak [gantt zadań operacyjnych](/gantt-zadan-operacyjnych). Zasadniczą różnicą odróżniającą te dwa rozwiązania jest sposób rejestracji produkcji. Gantt zadań operacyjnych wykorzystywany jest w momencie, kiedy planujesz z dokładnościa operacji, natomiast gantt zleceń pozwala Ci na planowanie w procesie rejestrującym produkcję z dokładnością do zleceń. 
+{% include callout.html content="Alternatywą do Gantta zleceń jest [Gantt zadań operacyjnych](/gantt-zadan-operacyjnych). Wykorzystywany jest wtedy, gdy realizowany jest sposób raportowania z dokładnością do każdej czynności z drzewa technologii. Na wykresie pojedynczym kafelkiem jest zadanie operacyjne, a nie zlecenie, jak w przypadku omawianego Gantta zleceń." type="warning" %}
 
-Aby skorzystać z Gantta zleceń wejdź w **Planowanie > Gantt zleceń**.
+Aby uruchomić Gantta zleceń wejdź w **Planowanie > Gantt zleceń**.
 
 {% include lightbox.html file="planowanieGanttZlecen.png" alt="Gantt zleceń" caption="Gantt zleceń" %}
 

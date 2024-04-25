@@ -159,6 +159,6 @@ Gdy mamy już wszystko gotowe na liście dostaw używamy funkcji **"Utwórz dost
 
 ## Generowanie dostaw z poziomu pokrycia zapotrzebowania
 
-Jest to kolejna funkcjonalność ułatwiająca tworzenie dostaw, po wygenerowaniu pokrycia zapotrzebowaia (opisanego [tutaj](/pokrycie-zapotrzebowania)) używamy funkcji do tworzenia dostawy **"Utwórz dostawy"** znajdującej się pod przyciskiem {% include inline_image.html file="genealogyIcon24.png" alt="Przycisk generuj" %}. Następnie możemy przejść do dostaw i je edytować.
+Jest to kolejna funkcjonalność ułatwiająca tworzenie dostaw, po wygenerowaniu pokrycia zapotrzebowaia (opisanego [tutaj](/pokrycie-zapotrzebowania)), zaznaczamy w zakładce: Pokrycie zapotrzebowania produkty, które chcemy zamówić i klikamy przycisk {% include inline_image.html file="przyciskUtworzDostawe.png" alt="Przycisk Utwórz dostawę" %} **Utwórz dostawę**. Komunikat poinformuje Cię jakie dostawy zostały utworzone. Możesz przejść do nich i dowolnie je edytować. 
 
-{% include callout.html content='Tworzone dostawy możemy odrazu podzielić według domyślnych dostawców, w tym celu należy uzupełnić w [produktach](/produkty) dostawcę dla produktu/rodziny lub określić w [firmach](/firmy) jaką rodzinę produktów/produkt dostarczają. Informacja ta będzie widoczna tylko dla produktów, które trzeba zamówić.' type="info" %} 
+{% include callout.html content='Tworzone dostawy możemy od razu podzielić według domyślnych dostawców, w tym celu należy uzupełnić w [produktach](/produkty) dostawcę dla produktu/rodziny lub określić w [firmach](/firmy) jaką rodzinę produktów/produkt dostarczają. Informacja ta będzie widoczna tylko dla produktów, które trzeba zamówić.' type="info" %} 

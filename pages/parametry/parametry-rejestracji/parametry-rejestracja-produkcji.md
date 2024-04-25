@@ -52,23 +52,25 @@ Co oznaczają poszczególne parametry:
 
 16. **Zużycie surowców na podstawie norm** - zaznaczenie parametru sprawi, że po podaniu ilości wyprodukowanej przeliczymy ilość zużytą surowców, zgodnie z przyjętymi w technologiami normami ilościowymi. Co więcej - takie ustawienie sprawi, że w terminalu od razu ustawiona będzie zakładka z produktami wyjściowymi, co przyspieszy rejestrację
 
-17. **Przeliczaj sumę czasu pracowników na akceptacji meldunku** - zaznacz parametr, a na etapie akceptacji rekordu rejestracji wyliczmy sumę czasu pracy pracowników z tego meldunku. Dzięki temu nie będziesz musiał wywoływać ręcznie funkcji: Oblicz sumaryczny czas pracowników
+17. **Braki zużywają surowce** - jeśli parametr **zużycie surowców na postawie norm** jest zaznaczony, to możesz zdecydować, czy wyprodukowane braki mają brać udział w wyznaczaniu zużycia materiałów. Jeśli parametr będzie ustawiony na TAK, to każdy wytworzony brak będzie domyślnie zużywał pełną, zdefiniowaną w technologii, listę surowców. 
 
-18. **Wydanie materiałów**: do wyboru 4 opcje: 
+18. **Przeliczaj sumę czasu pracowników na akceptacji meldunku** - zaznacz parametr, a na etapie akceptacji rekordu rejestracji wyliczmy sumę czasu pracy pracowników z tego meldunku. Dzięki temu nie będziesz musiał wywoływać ręcznie funkcji: Oblicz sumaryczny czas pracowników
+
+19. **Wydanie materiałów**: do wyboru 4 opcje: 
 - na akceptacji rekordu rejestracji - do każdej rejestracji produkcji, meldującej zużycie materiału, zostanie utworzony, na akceptacji rekordu rejestracji, dokument RW
 - na zakończeniu zlecenia - do zlecenia zostanie utworzony jeden zbiorczy dokument RW, w momencie ustawienia statusu na zakończony, zbierający wszystkie materiały zameldowane jako zużyte w rekordach rejestracji
 - ręcznie do zlecenia/grupy - dokument RW nie utworzy się automatycznie. Trzeba go utworzyć ręcznie, zapewne przed uruchomieniem produkcji, na podstawie danych ze szczegółowego zapotrzebowania (gdy wydanie do zlecenia produkcyjnego) lub zapotrzebowania materiałowego grupy zleceń (gdy wydanie do grupy zleceń). W rekordzie rejestracji tabela produktów wejściowych będzie nieaktywna i będzie prezentować ilości wydane ręcznie
 - nie twórz dokumentów - rejestracja produkcji działa standardowo: pracownicy raportują co zużyli i co wyprodukowali, ale ani na rejestracji produkcji ani na zakończeniu zlecenia, dokument RW się nie utworzy. Funkcja ręcznego wydania do szczegółowego zapotrzebowania lub z zapotrzebowania materiałowego grupy zleceń nie będzie aktywna.
 
-{:start="18"}
-19. **Przyjęcie wyrobów** - do wyboru 4 opcje:
+{:start="20"}
+20. **Przyjęcie wyrobów** - do wyboru 4 opcje:
 - na akceptacji rekordu rejestracji - do każdej rejestracji produkcji, meldującej o wytworzeniu produktu wyjściowego, zostanie utworzony, na akceptacji rekordu, dokument PW. W tej opcji cena produktu
 - na zakończeniu zlecenia - dokument PW tworzony jest w momencie zakończenia zlecenia, na podstawie zaraportowanych ilości wytworzonych ze wszystkich rekordów rejestracji danego zlecenia. W tej opcji cena na PW może być ustalona albo na podstawie kosztu nominalnego, albo na podstawie TKW (w zależności od parametru *Cena PW na podst.*)
 - ręcznie do grupy zleceń - zaraportowane ilości wytworzone zapisywane są w grupie zleceń i użytkownik ręcznie wskazuje, które chce przyjąć na magazyn. Tworzy się wówczas dokument PW w cenie na podstawie kosztu nominalnego
 - nie twórz dokumentów - produkcja raportowana jest standardowo, ale ani w monencie akceptacji rekordu rejestracji ani na zakończeniu zlecenia nie jest tworzony dokument PW.
 
-{:start="19"}
-20. **Cena PW na podst.** - to parametr mówiący o tym w jaki sposób mamy ustalać cenę na dokumenty PW przyjmujące na magazyn wytworzone wyroby. Do wyboru dwie opcje:
+{:start="21"}
+21. **Cena PW na podst.** - to parametr mówiący o tym w jaki sposób mamy ustalać cenę na dokumenty PW przyjmujące na magazyn wytworzone wyroby. Do wyboru dwie opcje:
 - koszt nominalny produktu - inaczej: cena ewidencyjna. Wyroby przyjmowane są na magazyn w cenie przyjętej jako stała w danym okresie. Ewentualne odchylenia rozksięgowywane są już w systemie księgowym. Koszt nominalny wprowdzany jest w [produkcie](/produkty) w zakładce Koszty. Dokument z taką ceną może być tworzony w każdym trybie tworzenia dokumentów (parametr *Przyjęcie wyrobów*)
 - rzeczywisty TKW - wyroby przyjmowane są na magazyn w rzeczywistych kosztach wytworzenia - czyli koszt zużytych materiałów ustalany jest na podstawie cen zasobów rozchodowanych pod zlecenie powiększony o koszt robocizny na podstawie zarejestrowanego czasu. Opcja ta jest dostępna tylko wtedy, gdy *Przyjęcie wyrobów* = na zakończeniu zlecenia
 
@@ -108,28 +110,28 @@ Parametry terminala konfigurują [terminal rejestracji produkcji](/terminal). We
 
 12. **Blokuj możliwość zmiany partii produktu wyjściowego** - jeśli zaznaczysz parametr, zmiana partii produktu wyjściowego w terminalu będzie niemożliwa
 
-13. **Pozwól na łączną rejestrację** - jeśli zaznaczysz parametr, w oknie wyboru zadań w terminalu pojawi się przycisk Zrealizuj łącznie. Pracownicy będą mogli zbiorczo raportować wykonywane jednocześnie operacje
+13. **Nie uwzględniaj dat przy wyborze zleceń** - jeśli zaznaczysz parametr, wyświetlimy wszystkie rozpoczęte zlecenia. W przypadku odznaczenia parametru, wyświetlimy tylko te zlecenia, które trwają podczas aktualnej zmiany.
 
-14. **Czas pracy łącznej rejestracji** - jeśli pozwalasz na łączną rejestrację, wskaź w jaki sposób ma być uzupełniany czas w tworzonych rekordach rejestracji. Masz do wyboru dwie opcje: 
-- **powielony dla każdego zadania** - wówczas w każdym utworzonym rekordzie rejestracji uzupełniony będzie dokładnie taki czas pracy maszyny i czas pracy pracownika, jak podany w oknie łącznej rejestracji
-- **podzielony proporcjonalnie** - wówczas w oknie łącznej rejestracji pracownik podaje sumę czasu jaką on i maszyna poświęcili na zadania, a my przeliczymy proporcjonalnie czas na wytworzone ilości
+14. **Nie pokazuj sekcji filtrów w oknie wyboru zleceń** - jeśli zaznaczysz parametr, w oknie wyboru zleceń nie będzie można filtrować pozycji
 
-15. **Nie uwzględniaj dat przy wyborze zleceń** - jeśli zaznaczysz parametr, wyświetlimy wszystkie rozpoczęte zlecenia. W przypadku odznaczenia parametru, wyświetlimy tylko te zlecenia, które trwają podczas aktualnej zmiany.
-
-16. **Nie pokazuj sekcji filtrów w oknie wyboru zleceń** - jeśli zaznaczysz parametr, w oknie wyboru zleceń nie będzie można filtrować pozycji
-
-17. **Wybór zadań według** - pracownicy w terminalu wybierają zadania operacyjne. Każde z tych zadań ma określone daty realizacji. Jednak zdarza się często, że czynności wykonywane są trochę później niż zaplanowano, wtedy, gdy zadanie w terminalu nie jest już widoczne. A nie masz możliwości by ciągle przeplanowywać daty operacji. Rozwiązaniem może być ten parametr. Do wyboru masz trzy możliwości uwzględniania dat:
+15. **Wybór zadań według** - pracownicy w terminalu wybierają zadania operacyjne. Każde z tych zadań ma określone daty realizacji. Jednak zdarza się często, że czynności wykonywane są trochę później niż zaplanowano, wtedy, gdy zadanie w terminalu nie jest już widoczne. A nie masz możliwości by ciągle przeplanowywać daty operacji. Rozwiązaniem może być ten parametr. Do wyboru masz trzy możliwości uwzględniania dat:
 - **daty zlecenia** - zadania w terminalu będą prezentowane tak długo, jak będzie trwało całe zlecenie
 - **daty zadania** - zadania w terminalu będą pobierane tylko w czasie trwania zadania
 - **daty rozpoczęcia zadania** - zadania w terminalu będą widoczne jeśli są w trakcie trwania lub ich data rozpoczęcia oraz data zakończenia jest wcześniejsza od aktualnej, ale ich status nie jest zakończony.
 
-18. **Nie pokazuj zadań pobranych przez innego pracownika** - parametr przydatny w sytuacji, gdy zadania realizowane są zawsze przez jednego pracownika i są zaplanowane do wykonania na dany dzień, ale nie wskazany jest wykonawca. Zaznacz parametr, a zadania pobrane przez jednego pracownika, nie będą prezentowane innym pracownikom. Ustawienie tego parametru będzie można zmienić w samym terminalu - w razie gdybyś wyjątkowo chciał dorejestrować produkcję do czynności wykonywanej przez kogoś innego.
+16. **Nie pokazuj zadań pobranych przez innego pracownika** - parametr przydatny w sytuacji, gdy zadania realizowane są zawsze przez jednego pracownika i są zaplanowane do wykonania na dany dzień, ale nie wskazany jest wykonawca. Zaznacz parametr, a zadania pobrane przez jednego pracownika, nie będą prezentowane innym pracownikom. Ustawienie tego parametru będzie można zmienić w samym terminalu - w razie gdybyś wyjątkowo chciał dorejestrować produkcję do czynności wykonywanej przez kogoś innego.
 
-19. **Nie pokazuj zadań blokowanych przez poprzednie czynności** - jeśli zaznaczysz parametr, widoczne będą tylko zadania, które są jako pierwsze do wykonania. Jeśli chcesz zobaczyć wszystkie zadania zaplanowane na dziś, odznacz parametr
+17. **Nie pokazuj zadań blokowanych przez poprzednie czynności** - jeśli zaznaczysz parametr, widoczne będą tylko zadania, które są jako pierwsze do wykonania. Jeśli chcesz zobaczyć wszystkie zadania zaplanowane na dziś, odznacz parametr
 
-20. **Atrybut produktu w oknie zadań** - wskaż atrybut produktu. Wartości tego atrybutu przypisanego do produktu, który masz w danej operacji wykonać, pokażemy w oknie wyboru zadań w terminalu.
+18. **Atrybut produktu w oknie zadań** - wskaż atrybut produktu. Wartości tego atrybutu przypisanego do produktu, który masz w danej operacji wykonać, pokażemy w oknie wyboru zadań w terminalu.
 
-21. **Nie uwzględniaj stacji roboczej przy wyborze zadań** - jeśli zaznaczysz parametr, wyświetlimy wszystkie zadania niezależnie od ich stacji roboczej
+19. **Nie uwzględniaj stacji roboczej przy wyborze zadań** - jeśli zaznaczysz parametr, wyświetlimy wszystkie zadania niezależnie od ich stacji roboczej
+
+20. **Pozwól na łączną rejestrację** - jeśli zaznaczysz parametr, w oknie wyboru zadań w terminalu pojawi się przycisk Zrealizuj łącznie. Pracownicy będą mogli zbiorczo raportować wykonywane jednocześnie operacje
+
+21. **Czas pracy łącznej rejestracji** - jeśli pozwalasz na łączną rejestrację, wskaź w jaki sposób ma być uzupełniany czas w tworzonych rekordach rejestracji. Masz do wyboru dwie opcje: 
+- **powielony dla każdego zadania** - wówczas w każdym utworzonym rekordzie rejestracji uzupełniony będzie dokładnie taki czas pracy maszyny i czas pracy pracownika, jak podany w oknie łącznej rejestracji
+- **podzielony proporcjonalnie** - wówczas w oknie łącznej rejestracji pracownik podaje sumę czasu jaką on i maszyna poświęcili na zadania, a my przeliczymy proporcjonalnie czas na wytworzone ilości
 
 22. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
 - przycisk **Wybierz zlecenie**

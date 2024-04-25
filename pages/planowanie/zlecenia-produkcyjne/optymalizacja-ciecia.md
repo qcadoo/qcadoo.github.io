@@ -10,7 +10,7 @@ Aby móc skorzystać z optymalizatora konieczne jest odpowiednie skonfigurowanie
 2. przypisz [atrybut](/produkty.html#dodatkowe-zakładki-produktu) do produktu-surowca, który będzie cięty i podaj jego długość. Będzie to maksymalna dostępna długość pobrana przez optymalizator,
 3. wskaż w parametrach planowania w zakładce [Optymalizacja cięcia](/parametry-planowania.html#optymalizacja-cięcia) ten atrybut jako *Atrybut długości ciętego produktu*. Dodatkowo - jeśli z maksymalnej długości belki zawsze odpada jakaś część, to określ tą wielkość w polu: *Końcowy odpad*. Odejmiemy końcowy odpad od długości surowca i taką przekażemy do pocięcia,
 4. w [operacji](/operacje) technologii, która będzie realizować cięcie zaznacz parametr: *Optymalizuj cięcie*,
-5. w [technologii](/technologie-szczegoly.html#definiowanie-koniecznych-do-pocięcia-odcinków), w tabeli produktów wejściowych operacji cięcia, w produkcie, który będziemy ciąć, określ jakie odcinki musimy uzyskać i w jakich ilościach
+5. w [szczegółowym zapotrzebowaniu zlecenia](/zmiana-stanu-zapotrzebowania.html#odcinki-na-jakie-należy-pociąć-produkt-wejściowy), w szczegółach użytego do operacji cięcia produktu, w zakładce Odcinki, określ jakie odcinki musimy uzyskać i w jakich ilościach. Dane te kopiowane są w momencie tworzenia zlecenia z [technologii](/technologie-szczegoly.html#definiowanie-koniecznych-do-pocięcia-odcinków), w tabeli produktów wejściowych i zapewne to tam będziesz dane najpierw definiował.
 
 Gotowe!
 

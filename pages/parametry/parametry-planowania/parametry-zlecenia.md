@@ -40,18 +40,28 @@ Do dyspozycji masz następujące parametry:
 - _początku pierwszej zmiany kolejnego dnia_ - podpowiemy datę początku Twojej pracy następnego dnia (czyli przyda się ta opcja, gdy dziś zakładasz zlecenia na jutro)
 - _daty zakończenia ostatniego zlecenia na linii_ - namierzymy ostatnie zlecenie na linii produkcyjnej i to dodawane układamy bezpośrednio po nim. Jeśli dodatkowo będziesz wyliczać czas trwania w qcadoo na podstawie [produkcji na zmianę](/produkcja-na-zmiane) albo [czasochłonności technologii](/czasochlonnosc-zlecenia) to w łatwy sposób ustalisz kompletny plan produkcyjny.
 
-13. **Kopiuj opis z zamówienia sprzedaży** - zaznacz parametr, jeśli zlecenia produkcyjne utworzone z zamówienia sprzedaży mają otrzymać opis wprowadzony w zamówieniu sprzedazy
 
-14. **Kopiuj uwagi z pozycji zamówienia sprzedaży** - zaznacz parametr, jeśli chcesz, aby uwagi wprowadzone w pozycji zamówienia sprzedaży, zostały przeniesione do opisu zlecenia produkcyjnego (utworzonego poprzez funkcję Utwórz wiele zleceń produkcyjnych)
+## Zlecenia produkcji z zamówień
 
-15. **Zbiorcze zlecenia tworzone z zamówienia sprzedaży** - zaznacz parametr jeśli chcesz, aby podczas tworzenia zleceń do zamówień sprzedaży, zbijały się one w zbiorcze z dokładnością do tego samego produktu i tej samej technologii
+Możesz skorzystać z następujących parametrów:
 
-16. **Realizacja ze stanu magazynowego** - zaznacz parametr jeśli chcesz, aby funkcja tworzenia wielu zleceń produkcyjnych do zamówienia sprzedaży sprawdzała, czy zamówiony produkt trzeba produkować, czy można pobrać z istniejacego stanu magazynowego. Zlecenia produkcyjne będą utworzone tylko na tą część zamówionych produktów, dla których nie został zabezpieczony stan magazynowy. Jeśli chcesz aby funkcja realizacji ze stanu magazynowego działała poprawnie, wskaż w tabeli poniżej na jakich magazynach mamy sprawdzać dostępny stan. 
+{% include lightbox.html file="administracjaParametryZleceniaZlecanieProdZZam.png" alt="Parametry zleceń - zakładka Zlecanie prod. z zamówień" caption="Parametry zleceń - zakładka Zlecanie prod. z zamówień" %}
 
-17. **Zawsze zlecaj pozycje z personalizacją** - parametr uaktywni się po zaznaczeniu _Realizacja ze stanu magazynowego_. Jeśli w uwagach pozycji zamówienia sprzedaży wprowadzasz szczegóły zamówionego produktu, które sprawiają, że produkt wymaga zmian w procesie produkcyjnym specjalnie na życzenie klienta (czyli produkt musi zostać wyprodukowany i nie może być pobrany ze stanu produkt standardowy), to zaznacz parametr, a zawsze do tej pozycji utworzymy zlecenie produkcyjne na ilość zamówioną przez klienta
+1. **Kopiuj opis z zamówienia sprzedaży** - zaznacz parametr, jeśli zlecenia produkcyjne utworzone z zamówienia sprzedaży mają otrzymać opis wprowadzony w zamówieniu sprzedazy
 
-18. **Magazyny** - tabela uaktywnia się po zaznaczeniu parametru _Realizacja ze stanu magazynowego_. Podaj magazyny, na których mamy poszukiwać dostępnego stanu zamówionych produktów
+2. **Kopiuj uwagi z pozycji zamówienia sprzedaży** - zaznacz parametr, jeśli chcesz, aby uwagi wprowadzone w pozycji zamówienia sprzedaży, zostały przeniesione do opisu zlecenia produkcyjnego (utworzonego poprzez funkcję Utwórz wiele zleceń produkcyjnych)
 
+3. **Zbiorcze zlecenia tworzone z zamówienia sprzedaży** - zaznacz parametr jeśli chcesz, aby podczas tworzenia zleceń do zamówień sprzedaży, zbijały się one w zbiorcze z dokładnością do tego samego produktu i tej samej technologii
+
+4. **Realizacja ze stanu magazynowego** - zaznacz parametr jeśli chcesz, aby funkcja tworzenia wielu zleceń produkcyjnych do zamówienia sprzedaży sprawdzała, czy zamówiony produkt trzeba produkować, czy można pobrać z istniejacego stanu magazynowego. Zlecenia produkcyjne będą utworzone tylko na tą część zamówionych produktów, dla których nie został zabezpieczony stan magazynowy. Jeśli chcesz aby funkcja realizacji ze stanu magazynowego działała poprawnie, wskaż w tabeli poniżej na jakich magazynach mamy sprawdzać dostępny stan. 
+
+5. **Zawsze zlecaj pozycje z personalizacją** - parametr uaktywni się po zaznaczeniu _Realizacja ze stanu magazynowego_. Jeśli w uwagach pozycji zamówienia sprzedaży wprowadzasz szczegóły zamówionego produktu, które sprawiają, że produkt wymaga zmian w procesie produkcyjnym specjalnie na życzenie klienta (czyli produkt musi zostać wyprodukowany i nie może być pobrany ze stanu produkt standardowy), to zaznacz parametr, a zawsze do tej pozycji utworzymy zlecenie produkcyjne na ilość zamówioną przez klienta
+
+6. **Magazyny** - tabela uaktywnia się po zaznaczeniu parametru _Realizacja ze stanu magazynowego_. Podaj magazyny, na których mamy poszukiwać dostępnego stanu zamówionych produktów
+
+7. **Termin ostateczny zlecenia na podstawie daty dostawy z pozycji zamówienia** - jeśli zaznaczysz parametr, to termin ostateczny w zleceniu produkcyjnym będzie ustalany na podstawie daty dostawy z pozycji zamówienia sprzedaży
+
+8. **Termin ostateczny zlecenia wcześniejszy od daty dostawy o** - parametr aktywny, gdy zaznaczona jest opcja: **Termin ostateczny zlecenia na podstawie daty dostawy z pozycji zamówienia**. Jeśli wypełnisz pole ilością dni, to termin ostateczny w zleceniu będzie datą wyliczona jako data dostawy z pozycji zamówienia sprzedaży minus podana ilość dni. Opcja wygodna, gdy musisz przygotować swoje wyroby przed wysłaniem do klienta
 
 ---
 
@@ -118,17 +128,6 @@ Parametry z tej zakładki konfigurują [działanie procesów technologicznych zl
 2. **Pozwól na edycję ilości lub usunięcie wykonanego procesu** - zaznacz parametr jeśli chcesz, aby wykonany proces (czyli taki z przypisaną osobą i datą realizacji) mógł być usunięty lub edytowany. Usunięcie procesu technologicznego powoduje usunięcie pozostałych procesów związanych z daną paczką lub danym zleceniem.
 
 3. **Automatycznie generuj procedy do zlecenia produkcyjnego** - jeśli parametr będzie zaznaczony, to po rozpoczęciu zlecenia, zostaną z automatu utworzone procesy technologiczne.
-
-
----
-
-## Postęp produkcji
-
-Parametr w zakładce dotyczy [szczegółowego zapotrzebowania](/zmiana-stanu-zapotrzebowania), czyli listy produktów uczestniczących w produkcji pod dane zlecenie i jego operacje.
-
-{% include lightbox.html file="administracjaParametryZleceniaPostepProdukcji.png" alt="Parametry zleceń - postęp produkcji" caption="Parametry zleceń - postęp produkcji" %}
-
-Jeśli **Brak możliwości modyfikacji szczeg. zapotrzebowania** będzie zaznaczony, to szczegółowe zapotrzebowanie nie będzie mogło być modyfikowane. A co za tym idzie - nie wprowadzisz do zlecenia np. zamienników.
 
 ---
 

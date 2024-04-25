@@ -30,7 +30,7 @@ W zakładce "Główna"
 
 ## Budowa drzewa technologii ##
 
-W qcadoo **Technologię** buduje się w **formie drzewa** operacji - układając je od ostatniej wykonywanej na produkcie (np. malowanie, lub pakowanie) do pierwszej - rozpoczynającej (np. piłowanie, cięcie). Aby przejść do budowy drzewa technologii, pozostajemy w widoku **TECHNOLOGIE Technologie,** przechodzimy następnie do kolejnej karty: **Drzewo**.
+W qcadoo **Technologię** buduje się w **formie drzewa** operacji - układając je od ostatniej wykonywanej na produkcie (np. malowanie, lub pakowanie) do pierwszej - rozpoczynającej (np. piłowanie, cięcie). Aby zbudować drzewo technologii należy, będąc w szczegółach technologii, przejść do kolejnej karty: **Drzewo**.
 
 {% include lightbox.html file="technologie-technologia-drzewo.png" alt="Drzewo technologii" caption="Drzewo technologii" %}
 
@@ -40,9 +40,17 @@ W qcadoo **Technologię** buduje się w **formie drzewa** operacji - układając
 
 1. Dodajemy operację używając przycisku {% include inline_image.html file="newOperationIcon_16one.png" alt="Przycisk lupy" %}**Dodaj operację**.
   
-2. {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} **Wybieramy** "Operację" ze zdefiniowanej wcześniej listy [Operacji](/operacje). Na podstawie wybranej operacji uzupełnione zostaną pola "Opis" i "Załącznik", oraz informacje w tabkach "Stacje robocze", "Normy kosztowe", "Normy czasowe". Uzupełnione w ten sposób informacje można dowolnie zmodyfikować - zmiany obejmą wtedy jedynie obecnie tworzoną technologię.
+2. {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} **Wybieramy Operację** ze zdefiniowanej wcześniej listy [Operacji](/operacje). Na podstawie wybranej czynności uzupełnione zostaną pola **Opis** i **Załącznik**, oraz informacje w zakładkach **Stacje robocze**, **Normy kosztowe**, **Normy czasowe**. Zaczytane w ten sposób informacje można dowolnie zmodyfikować - zmiany obejmą wtedy jedynie obecnie tworzoną technologię.
 
-3. Wybieramy przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. Po zachowaniu zmian możemy wrócić do technologii i dodać produkty do operacji.
+3. Wybieramy przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz**, by zachować. Po zachowaniu zmian możemy wrócić do technologii i dodać produkty do operacji.
+
+<br/>
+<br/>
+
+Alternatywnym sposobem dodania operacji jest skorzystanie z już istniejącej technologii i "podebranie" jej drzewa. W jaki sposób? W obszarze _Operacji_ należy kliknąć przycisk {% include inline_image.html file="przyciskSkopiujTechnologie.png" alt="Przycisk Skopiuj technologię" %} **Skopiuj technologię** i wskazać jaką technologię chcemy powielić. Po zapisie (przycisk {% include inline_image.html file="przyciskZapiszIPowrot.png" alt="Przycisk Zapisz i powrót" %}  **Zapisz i powrót**) drzewo technologii podepnie się pod operację, na której jesteśmy w drzewie ustawieni. Teraz można je dowolnie modyfikować.
+
+<br/>
+<br/>
 
 Wraz z realizacją operacji może być konieczność **skontrolowania jakości** wytworzonego produktu. Jeśli technologia ma przypisaną [kartę jakości](/karty-jakosci), to w szczegółach operacji w zakładce Kontrola jakości możesz wybrać, które z atrybutów karty jakości na tym etapie mają być weryfikowane. Dzięki temu pracownik podczas rejestracji produkcji (np. z [terminala](/terminal)) otrzyma informacje o tym, że musi przeprowadzić kontrolę i zapisać jej efekt. 
 
@@ -50,11 +58,13 @@ Wraz z realizacją operacji może być konieczność **skontrolowania jakości**
 
 W celu edycji lub usunięcia operacji należy najpiere zaznaczyć ją w drzewie - aktywuje to przyciski do edycji drzewa.
 
-1. Aby zmodyfikować dodaną do technologii operację, wybieramy przycisk {% include inline_image.html file="editIcon16.png" alt="Edytuj" %} "Edytuj" w drzewie technologii. 
+1. Aby **zmodyfikować** dodaną do technologii operację, wybieramy przycisk {% include inline_image.html file="editIcon16.png" alt="Edytuj" %} "Edytuj" w drzewie technologii. 
 
-2. Aby usunąć **operację** z drzewa oraz **wszystkie położone poniżej** operacje, wybieramy przycisk {% include inline_image.html file="deleteIcon24.png" alt="Usuń" %} "Usuń".
+2. Aby **usunąć operację** z drzewa oraz **wszystkie położone poniżej** operacje, wybieramy przycisk {% include inline_image.html file="deleteIcon24.png" alt="Usuń" %} **Usuń**.
 
-3. Aby usunąć **operację** z drzewa oraz **bez usuwania położonych poniżej** operacje, wybieramy przycisk "Usuń ze środka". Spowoduje to usunięcie tylko wybranej operacji oraz podpięcie leżących poniżej operacji do operacji nadrzędnej.
+3. Aby **usunąć operację** z drzewa **bez usuwania położonych poniżej** operacji, wybieramy przycisk {% include inline_image.html file="przyciskUsunZeSrodka.png" alt="Usuń ze środka" %} **Usuń ze środka**. Spowoduje to usunięcie tylko wybranej operacji oraz podpięcie leżących poniżej czynności do operacji nadrzędnej.
+
+4. Aby **zmienić kolejność operacji** w drzewie wybieramy przycisk {% include inline_image.html file="przyciskZmianaStrukturyDrzewa.png" alt="Zmiana struktury drzewa" %} **Zmiana struktury drzewa**, a następnie strzałkami {% include inline_image.html file="przyciskStrzalkiDrzewoTechnologii.png" alt="Strzałki" %} przesunąć zaznaczoną czynność we właściwe miejsce. Wszelkie zmiany zapisujemy przyciskiem {% include inline_image.html file="przyciskDyskietkaMala.png" alt="Zapisz zmiany struktury drzewa" %}.
 
 ### Dodawanie produktów do operacji ###
 
@@ -68,9 +78,9 @@ Po zaznaczeniu operacji w drzewie uzupełnione zostają tabelki z produktami wej
 
 1. Aby dodać produkt do operacji, należy najpierw zaznaczyć wybraną operację w **Drzewie technologii**
 
-2. W celu dodania produktu wyjściowego wybieramy przycisk {% include inline_image.html file="newIcon16.png" alt="Nowy" %} "Nowy" w tabelce **"Produkty wyjściowe"**. 
+2. W celu dodania produktu wyjściowego wybieramy przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Nowy" %} **Nowy** w tabeli **Produkty wyjściowe**. 
 
-3. Przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Produkt" dodawany do produktów wyjściowych. Podajemy następnie ilość, jaką produkuje operacja i wybieramy przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. 
+3. Przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy **Produkt** dodawany do produktów wyjściowych. Podajemy następnie ilość, jaką produkuje operacja i wybieramy przycisk {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisu" %} **Zapisz,** by zachować. 
 
 Możemy dodatkowo oznaczyć produkt jako odpad, wtedy, gdy produkt będzie efektem tej operacji, ale nie będzie to produkt dla którego organizujemy tą produkcję.
 
@@ -289,7 +299,7 @@ Przepływy technologii określają przez jakie magazyny będą przechodzić prod
 
 {% include lightbox.html file="technologieTechnologiePrzeplywy.png" alt="Przepływy technologii" caption="Przepływy technologii" %}
 
-Jeśli technologia ma zasięg = 1 dział, to przyjmujemy, że dla wszystkich surowców magazyn jest taki sam, dla wszystkich półproduktów taki sam i dla wszystkich wyrobów taki sam. Magazyny uzupełnij w nagłówku (podpowiedzą się one z magazynów zdefiniowanych dla działu podanego w zasięgu) i wywołaj funkcję **Uzupełnij magazyny w produktach**, która wprowadzi magazyn dla każdego z produktów.
+Jeśli technologia ma zasięg = 1 dział, to przyjmujemy, że dla wszystkich surowców magazyn jest taki sam, dla wszystkich półproduktów taki sam i dla wszystkich wyrobów taki sam. Magazyny uzupełnij w nagłówku (podpowiedzą się one z magazynów zdefiniowanych dla działu podanego w zasięgu) i wywołaj funkcję {% include inline_image.html file="przyciskUzupelnijMagazynyWProduktach.png" alt="Uzupełnij magazyny w produktach" %} **Uzupełnij magazyny w produktach**, która wprowadzi magazyn dla każdego z produktów.
 
 Jeśli technologia ma zasięg = wiele działów, to magazyny muszą być wprowadzone na poziomie każdego z produktów. Dane również podpowiedzą się z magazynów przypisanych [działowi](/dzialy).
 

@@ -12,57 +12,134 @@ entries:
       output: web
       type: homepage
 
-  - title: Szybki start
+  - title: SZYBKI START
     output: web
     folderitems:
 
-      - title: Szybki start
-        output: web
-        url: /introduction.html
+    - title: Szybki start
+      output: web
+      url: /start-wprowadzenie.html
 
-      - title: Krok 1 - Produkty
+      subfolders:
+      - title: Szybki start - ZLECENIA
         output: web
-        url: /krok-1-produkty-1.html
+        subfolderitems:
 
-      - title: Krok 2 - Magazyny
-        output: web
-        url: /krok-2-magazyny.html
+        - title: Szybki start - ZLECENIA
+          output: web
+          url: /00_start-zb-wstep.html
 
-      - title: Krok 3 - Struktura zakładu
-        output: web
-        url: /krok-2-maszyny.html
+        - title: KROK 1. parametry
+          output: web
+          url: /01_start-zb-parametry.html
 
-      - title: Krok 4 - Operacje
-        output: web
-        url: /krok-3-operacje.html
+        - title: KROK 2. kalendarze
+          output: web
+          url: /02_start-zb-kalendarz.html
 
-      - title: Krok 5 - Technologie
-        output: web
-        url: /krok-4-technologie.html
+        - title: KROK 3. pracownicy
+          output: web
+          url: /03_start-zb-pracownicy.html
 
-      - title: Krok 6 - Kalkulacja kosztów
-        output: web
-        url: /krok-5-kalkulacja-kosztow.html
+        - title: KROK 4. magazyny
+          output: web
+          url: /04_start-zb-magazyny.html
 
-      - title: Krok 7 - Zlecenia produkcyjne
-        output: web
-        url: /krok-6-zlecenia-produkcyjne.html
+        - title: KROK 5. struktura firmy
+          output: web
+          url: /05_start-zb-struktura-firmy.html
 
-      - title: Krok 8 - Zapotrzebowanie materiałowe
-        output: web
-        url: /krok-7-zapotrzebowanie-materialowe.html
+        - title: KROK 6. produkty
+          output: web
+          url: /06_start-zb-produkty.html
 
-      - title: Krok 9 - Karty pracy
-        output: web
-        url: /krok-8-karty-pracy.html
+        - title: KROK 7. operacje
+          output: web
+          url: /07_start-zb-operacje.html
 
-      - title: Krok 10 - Rejestracja produkcji
-        output: web
-        url: /krok-10-rejestracja-produkcji.html
+        - title: KROK 8. technologie
+          output: web
+          url: /08_start-zb-technologie.html
 
-      - title: Krok 11 - Rozliczenie produkcji
+        - title: KROK 9. zlecenia produkcyjne
+          output: web
+          url: /09_start-zb-zlecenia.html
+
+        - title: KROK 10. plany produkcyjne
+          output: web
+          url: /10_start-zb-plany.html
+
+        - title: KROK 11. zapotrzebowanie materiałowe
+          output: web
+          url: /11_start-zb-zapotrzebowanie.html
+
+        - title: KROK 12. terminal rejestracji produkcji
+          output: web
+          url: /12_start-zb-terminal.html
+
+        - title: KROK 13. rozliczenie produkcji
+          output: web
+          url: /13_start-zb-rozliczenie.html
+
+      - title: Szybki start - ZADANIA
         output: web
-        url: /krok-11---rozliczenie-produkcji.html
+        subfolderitems:
+
+        - title: Szybki start - ZADANIA
+          output: web
+          url: /00_start-op-wstep.html
+
+        - title: KROK 1. parametry
+          output: web
+          url: /01_start-op-parametry.html
+
+        - title: KROK 2. kalendarze
+          output: web
+          url: /02_start-op-kalendarz.html
+
+        - title: KROK 3. pracownicy
+          output: web
+          url: /03_start-op-pracownicy.html
+
+        - title: KROK 4. magazyny
+          output: web
+          url: /04_start-op-magazyny.html
+
+        - title: KROK 5. struktura firmy
+          output: web
+          url: /05_start-op-struktura-firmy.html
+
+        - title: KROK 6. produkty
+          output: web
+          url: /06_start-op-produkty.html
+
+        - title: KROK 7. operacje
+          output: web
+          url: /07_start-op-operacje.html
+
+        - title: KROK 8. technologie
+          output: web
+          url: /08_start-op-technologie.html
+
+        - title: KROK 9. zadania operacyjne
+          output: web
+          url: /09_start-op-zadania.html
+
+        - title: KROK 10. plany produkcyjne
+          output: web
+          url: /10_start-op-plany.html
+
+        - title: KROK 11. zapotrzebowanie materiałowe
+          output: web
+          url: /11_start-op-zapotrzebowanie.html
+
+        - title: KROK 12. terminal rejestracji produkcji
+          output: web
+          url: /12_start-op-terminal.html
+
+        - title: KROK 13. rozliczenie produkcji
+          output: web
+          url: /13_start-op-rozliczenie.html
 
   - title: Porady i triki
     output: web
@@ -658,6 +735,10 @@ entries:
         - title: Śledzenie partii zlecenia
           output: web
           url: /sledzenie-partii-zlecenia.html
+
+        - title: Dostępność surowców
+          output: web
+          url: /dostepnosc_surowcow.html
 
         - title: Dzielenie zlecenia
           output: web

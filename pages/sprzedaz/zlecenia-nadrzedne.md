@@ -32,6 +32,8 @@ Zamówienia sprzedaży mogą być wykorzystywane albo do zaewidencjonowania zam�
 
 {% include callout.html content='"Ilość zlec." to ilość zlecona czyli taka, na którą są już utworzone zlecenia produkcyjne na dany produkt, "Poz. do wyprod." to ilość, która pozostała do wyprodukowania, a "Ilość wykon." to ilość produktu, którą już wyprodukowano w ramach tego zamówienia.' type="info" %}
 
+Każda z pozycji może mieć zaplanowany inną **datę dostawy**. Może ona zostać przekazana do zlecenia produkcyjnego, do pola termin dostawy. Dodatkowo - termin dostawy może być ustawiony odpowiednio wcześniej. Zerknij w [parametry planowania](/parametry-zlecen.html#zlecenia-produkcji-z-zamówień), by ustawić właściwe działanie.
+
 Zamówiona pozycja może być opisana dodatkowo atrybutami. Dzięki temu możesz zapisać dodatkowe informacje uzyskiwane od klienta, które pozwolą na prawidłową realizację. W tym celu:
 - zdefiniuj atrybuty zasobu zgodnie z [tą dokumentacją](/atrybuty),
 - przejdź do zakładki **Atrybuty zasobu** kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %} **Nowy**, wybierz atrybut i zostaw jego wartość.
@@ -103,7 +105,7 @@ Zlecenie produkcyjne możesz dodać do zamówienia na kilka sposobów:
 
     {% include callout.html content='Dla zaznaczonego produktu powstanie zlecenie produkcyjne na ilość pozostałą do zlecenia czyli “Ilość zamówiona” - “Ilość zlec.”.' type="info" %}
 
-     {% include callout.html content='Dla jednej pozycji zamówienia sprzedaży może istnieć wiele zleceń produkcyjnych.”.' type="info" %}
+     {% include callout.html content='Dla jednej pozycji zamówienia sprzedaży może istnieć wiele zleceń produkcyjnych.' type="info" %}
 
 2. Przez utworzenie wielu zleceń produkcyjnych z poziomu zamówienia
 

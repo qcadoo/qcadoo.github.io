@@ -3,13 +3,13 @@ title: "Zmiana stanu zapotrzebowania po rozpoczęciu zlecenia"
 permalink: zmiana-stanu-zapotrzebowania.html 
 ---
 
-Jak wiadomo, w każdym procesie produkcyjnym zdarzają się zmiany związane z zapotrzebowaniem materiałowym. Program qcadoo wychodzi na przeciw takim sytuacją i daje możliwość edycji wcześniej obliczonego zapotrzebowania materiałowego w trakcie trwania zlecenia.
+Jak wiadomo, w każdym procesie produkcyjnym zdarzają się zmiany związane z zapotrzebowaniem materiałowym. Program qcadoo wychodzi na przeciw takim sytuacjom i daje możliwość edycji wcześniej obliczonego zapotrzebowania materiałowego w trakcie trwania zlecenia.
 
 Aby móc zmienić zapotrzebowanie należy z listy zleceń wybrać konkretne zlecenie, wejść w widok szczegółowy i przy pomocy {% include inline_image.html file="dropdownIcon32.png" alt="dropdown" %} rozwinąć boczny pasek menu i wybrać {% include inline_image.html file="genealogyIcon24.png" alt="genealogia" %} **Szczegółowe zapotrzebowanie**. Po kliknięciu przycisku pojawi się tabela. W tabeli widoczne są wszystkie produkty jakie zastosowaliśmy w danym zleceniu, operacje w jakich produkt powstał, rola i typ produktu oraz planowane ilości. Dodatkowo z poziomu tabeli można dodawać, edytować i usuwać produkty. Aby dodać nowy produkt wybieramy {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy**.
 
 {% include lightbox.html file="planowanieZleceniaSzczegoloweZapotrzebowanie.png" alt="Szczegółowe zapotrzebowanie" caption="Szczegółowe zapotrzebowanie"%}
 
-{% include callout.html content='Modyfikację zapotrzebowania można przeprowadzać jedynie w zleceniu ze statusem: "Zaakceptowane", "Rozpoczęte", "Przerwane" ' type="warning" %}
+{% include callout.html content='Modyfikację zapotrzebowania można przeprowadzać jedynie w zleceniu ze statusem: "Oczekujące", "Zaakceptowane", "Rozpoczęte", "Przerwane" ' type="warning" %}
  
 
 {% include lightbox.html file="planowanieZleceniaSzczegoloweZapotrzebowanieDodajProdukt.png" alt="Szczegółowe zapotrzebowanie - produkt" caption="Szczegółowe zapotrzebowanie - dodanie produktu"%}
@@ -38,10 +38,6 @@ Dla produktu możesz ustalić też jakie **partie** mają zostać zużyte w proc
 Po wprowadzeniu danych wybieramy {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz**.
 
 Tabelę ze szczegółowym zapotrzebowaniem możemy zapisać w formie dokumentu w formacie {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %} **PDF** lub {% include inline_image.html file="exportToCsvIcon24.png" alt="Przycisk CSV" %} **CSV**.
-  
-{% include callout.html content='Aby móc edytować technologię z poziomu zlecenia należy najpierw odblokować odpowiednie opcje w parametrach programu. W tym celu wybieramy **Administracja >> PARAMETRY >> Zlecenia**, tam w zakładce "Główna" odznaczamy "Blokady", które chcemy zdjąć.' type="warning" %}
-
-{% include callout.html content="Oprócz możliwości zmiany zapotrzebowania dla danego zlecenia, wszystkie tryby rejestracji produkcji, mają możliwość modyfikowania ogólnego postępu produkcji. Wszystkie wprowadzane zmiany będą widoczne w Rejestracji produkcji." type="info" %}
 
 Zmiana szczegółowego zapotrzebowania możliwa jest również podczas [rejestracji produkcji](/rejestracja-produkcji). Dzięki temu pracownik na etapie meldowania efektów produkcji będzie mógł wprowadzić zamiennik, czy dodać odpad (aby móc zarejestrować wyprodukowanie wyrobu o niższej jakości).
 
@@ -62,6 +58,22 @@ Kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="P
 {% include callout.html content="Pamiętaj, że zakładka Atrybuty zasobu, widoczna jest tylko dla produktów wytwarzanych." type="info" %}
 
 Jeśli zlecenie produkcyjne pochodzi z [zamówienia sprzedaży](/zlecenia-nadrzedne.html#dodanie-nowego-zamówienia-sprzedaży), w którym atrybuty były określone, to produkt finalny zlecenia będzie miał je wypełnione. Zlecenie produkcyjne przekaże atrybuty dalej, do kolejnych etapów procesu - zobaczysz je na karcie pracy, w terminalu rejestracji produkcji czy w rekordzie rejestracji. A z rekordu rejestracji będą przekazane na tworzony dokument PW. A z dokumentu z kolei - to kształtującego stan magazynowy zasobu. 
+
+---
+## Odcinki, na jakie należy pociąć produkt wejściowy
+
+qcadoo MES posiada opcję optymalizacji cięcia odcinków w ramach zlecenia. Pełen opis funkcjonalności znajdziesz [tutaj](/optymalizacja-ciecia). Odcinki, które muszą zostać wycięte planowane są w [technologii](/technologie-szczegoly.html#definiowanie-koniecznych-do-pocięcia-odcinków). Po utworzeniu zlecenia definicja odcinków przenoszona jest do szczegółowego zapotrzebowania, do zakładki Odcinki:
+
+{% include lightbox.html file="planowanieSzczegoloweZapotrzebowanieOdcinki.png" alt="Szczegółowe zapotrzebowanie - odcinki" caption="Szczegółowe zapotrzebowanie - odcinki"%}
+
+I teraz to to miejsce jest informacją dla optymalizatora, jakie elementy muszą zostać pocięte.
+
+Pamiętaj o następujących zasadach:
+1. odcinki w szczegółowym zapotrzebowaniu definiowane są na jednostkę wytwarzanego wyrobu (tak jak w technologii). Optymalizator sam wyliczy ile będzie ich potrzebnych, by wytworzyć zleconą ilość wyrobu, 
+2. odcinki uzupełniają się zawsze w momencie wczytania w zleceniu technologii - czyli na starcie, przy zakładaniu zlecenia, ale też po modyfikacji, np. w celu wskazania innego wariantu produkcji. Jeśli przed zmianą technologii w zleceniu naniosłeś zmiany w odcinkach w szczegółowym zapotrzebowaniu, to musisz wprowadzić je ponownie,
+3. zmieniając definicję odcinków w szczegółowym zapotrzebowaniu, pamiętaj, by ponownie wywołać w zleceniu funkcję optymalizacji cięcia, tak by na produkcji były dostępne właściwe informacje.
+
+Zaplanowanie odcinków do pocięcia wprost w zleceniu może być przeprowadzone nawet wtedy, gdy w technologii nie zostały one zdefiniowane. Zakładka będzie widoczna dla każdego produktu ze szczegółowego zapotrzebowania o roli = użyty.
 
 --- 
 ## Ręczne wydanie materiałów do zlecenia produkcyjnego
