@@ -28,6 +28,6 @@ Czy zatem:
 
 Wiele kroków wykonywanych w obu podejściach się powiela. I jak najbardziej możesz wypróbować oba podejścia, zmienić zdanie i przejść w trakcie na podejście drugie, a nawet prowadzić część produkcji w zbiorczym raportowaniu i część w raportowaniu z dokładnością do operacji. To Ty tutaj podejmujesz decyzje, a my postaramy Ci w tym nie przeszkadzać.
 
-{% include callout.html content='Rozpoczęcie pracy z qcadoo ułatwi też [konfigurator](/konfigurator), który przywita Cię po pierwszym zalogowaniu do systemu. Pamiętaj jednak, że to jest werja minimalistyczna i sprawdzi się tylko w części firm, w mało złożonej produkcji.' type="warning" %}
+{% include callout.html content='Rozpoczęcie pracy z qcadoo ułatwi też [konfigurator](/konfigurator), który przywita Cię po pierwszym zalogowaniu do systemu. Pamiętaj jednak, że to jest wersja minimalistyczna i sprawdzi się tylko w części firm, w mało złożonej produkcji.' type="warning" %}
 
 Warto zajrzeć też do strony: [Porady i triki](/porady-i-triki), aby płynniej poruszać się po systemie.
