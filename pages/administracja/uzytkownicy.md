@@ -50,6 +50,16 @@ Istnieją dwa możliwe sposoby na dezaktywację użytkownika, w zależności od 
 1. Użytkownik, który jeszcze się nie logował tzn. pole **Ostatnia aktywność** jest puste, może być usunięty z systemu. 
 2. Użytkownik, który ma za sobą pierwsze logowanie nie może być usunięty. W takim wypadku, aby odmówić mu dostępu do systemu należy przypisać mu grupę **brak dostępu**, wówczas dostęp będzie całkowicie ograniczony.
 
+## Jak sprawdzić ilość wykupionych licencji?
+
+Z qcadoo może korzystać tylu użytkowników ile licencji zostało wykupionych. Liczba licencji zapisana jest w **Administracja > Licencje**
+
+{% include lightbox.html file="administracjaLicencje.png" alt="Liczba wykupionych licencji" caption="Liczba wykupionych licencji" %}
+
+Z licencji tych korzystają użytkownicy o typie uprawnień = licencja biurowa. Jeśli chcesz ustalić czy możesz dać do qcadoo dostęp jeszcze jakiemuś pracownikowi, wejdź do listy użytkowników (**Administracja > Użytkownicy**) i przefiltruj po kolumnie **Typ uprawnień** = **licencja biurowa** i policz ilość użytkowników. Jeśli jest ich tylu ile licencji - napisz do nas w celu wykupienia dodatkowych.
+
+{% include callout.html content="Warto na bieżąco usuwać dostępy użytkowników już nie pracujących w qcadoo, aby zwolnić miejsce dla nowych użytkowników." type="info" %} 
+
 
 ## Przypisywanie do użytkownika magazynu, pracownika, zakładu oraz linii produkcyjnej
 
