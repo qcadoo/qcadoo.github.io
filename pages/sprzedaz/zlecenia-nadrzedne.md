@@ -176,7 +176,15 @@ Ustawia sie za to status pozycji zamówienia sprzedaży na **zlecona**, a zlecon
 
 {% include callout.html content="Jeśli zlecenia mają się tworzyć zbiorczo, to nawet wówczas gdy zaznaczysz 1 pozycję, albo wyjdziesz od konkretnego zamówienia sprzedaży, tworzenie zleceń produkcyjnych będzie wykonywane za pomocą zbiorczego mechanizmu." type="info" %}
 
+## Wydawanie zamówionych wyrobów
 
+{% include lightbox.html file="sprzedazZamowieniaTworzenieWZ.png" alt="Tworzenie WZ do zamówienia sprzedaży" caption="Tworzenie WZ do zamówienia sprzedaży" class="float-right" %}
+
+Po zleceniu produkcji i przyjęciu wytworzonych wyrobów na magazyn, następuje moment przekazania zamówionych produktów klientowi. Aby stany magazynowe odpowiednio się ukształtowały konieczne jest wystawienie dokumentu WZ. Możesz to zrobić ręcznie z poziomu [listy dokumentów](/dokumenty). Ale możesz też wykorzystać funkcję **Utwórz dokumenty WZ** z poziomu zamówienia sprzedaży. Dzięki temu dokument zostanie przygotowany z automatu na podstawie danych z zamówienia i będzie miał w opisie informacje, którego zamówienia dotyczy.
+
+Aby wydać wyroby klientowi wejdź do zamówienia, zaznacz interesujące Cię produkcy i kliknij przycisk {% include inline_image.html file="przyciskUtworzDokumentWZ.png" alt="Przycisk Utwórz dokument WZ" %} **Utwórz dokument WZ**.
+
+W uruchomionym oknie możesz albo kliknąć przycisk {% include inline_image.html file="przyciskAkceptuj.png" alt="Przycisk Akceptuj" %} **Akceptuj**, w celu potwierdzenia wydania. Wówczas dobrane zostaną zasoby magazynowe zgodnie z przyjętą metodą rozchodu. Możesz też przed akceptacją wskazać dodatkowe warunki doboru zasobów - np. numer partii czy miejsce składowania. Dzięki temu będziesz mieć pewność, że z magazynu zostanie zdjęte dokładnie to, co zostało do klienta wysłane.
 
  
 ## Statusy zamówień sprzedaży
@@ -184,10 +192,10 @@ Ustawia sie za to status pozycji zamówienia sprzedaży na **zlecona**, a zlecon
 {% include lightbox.html file="planowanie-%20zlecenia%20nadrz%C4%99dne%20statusy.png" alt="Statusy zamówień sprzedaży" caption="Statusy zamówień sprzedaży" class="float-right" %}
 
 Zamówienie sprzedaży może przyjmować następujące statusy:
-- nowe - zamówienie sprzedaży otrzymuje ten status po dodaniu. Pozostaje w nim dopóki nie zostanie powiązane ze zleceniem produkcyjnym,
+- **nowe** - zamówienie sprzedaży otrzymuje ten status po dodaniu. Pozostaje w nim dopóki nie zostanie powiązane ze zleceniem produkcyjnym,
 
-- w realizacji - nowemu zamówieniu sprzedaży zostaje nadany ten status, gdy zostanie powiązane z choć jednym zleceniem produkcyjnym. Usunięcie powiązania z ostatnim zleceniem produkcyjnym w zleceniu o statusie W realizacji ustawia status na Nowe,
+- **w realizacji** - nowemu zamówieniu sprzedaży zostaje nadany ten status, gdy zostanie powiązane z choć jednym zleceniem produkcyjnym. Usunięcie powiązania z ostatnim zleceniem produkcyjnym w zleceniu o statusie W realizacji ustawia status na Nowe,
 
-- zakończone - ten status może zostać nadany na dwa sposoby: ręcznie lub automatycznie. Ręcznie czyli przez użytkownika w każdej chwili (zarówno dla zamówienia w statusie Nowe jak i W realizacji) przez wybranie {% include inline_image.html file="acceptIcon24.png" alt="Przycisk Zakończ" %} **Zakończ**. Automatycznie, gdy w każdej pozycji zamówienia sprzedaży "Ilość zamówiona" <= "Ilość wykon." czyli kiedy zostały wyprodukowane wszystkie produkty ze zamówienia sprzedaży,
+- **zakończone** - ten status może zostać nadany na dwa sposoby: ręcznie lub automatycznie. Ręcznie czyli przez użytkownika w każdej chwili (zarówno dla zamówienia w statusie Nowe jak i W realizacji) przez wybranie {% include inline_image.html file="acceptIcon24.png" alt="Przycisk Zakończ" %} **Zakończ**. Automatycznie, gdy w każdej pozycji zamówienia sprzedaży "Ilość zamówiona" <= "Ilość wykon." czyli kiedy zostały wyprodukowane wszystkie produkty ze zamówienia sprzedaży,
 
-- odrzucone - tylko zamówienie o statusie Nowe może dostać ten status. Jest on nadawany ręcznie przez kliknięcie {% include inline_image.html file="deleteIcon24.png" alt="Przycisk Odrzuć" %} **Odrzuć**.
+- **odrzucone** - tylko zamówienie o statusie Nowe może dostać ten status. Jest on nadawany ręcznie przez kliknięcie {% include inline_image.html file="deleteIcon24.png" alt="Przycisk Odrzuć" %} **Odrzuć**.

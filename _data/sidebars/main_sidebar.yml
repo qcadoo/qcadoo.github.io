@@ -217,6 +217,10 @@ entries:
         output: web
         url: /procesy-technologiczne-przyklad.html
 
+      - title: Rezerwacja zasobu surowca pod zlecenie produkcyjne
+        output: web
+        url: /rezerwacja-zasobu-pod-zlecenie.html
+
   - title: Dashboard
     output: web
     folderitems:

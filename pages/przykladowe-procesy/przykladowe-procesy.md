@@ -15,3 +15,4 @@ Zapoznaj się z następującymi przykładami działania:
 - [zarządzanie zleceniami produkcyjnymi z wykorzystaniem dashboardu](/zlecenia-z-wykorzystaniem-dashboardu) --> czyli jak wygląda szybkie zlecanie produkcji i jej raportowanie z poziomu dashboardu
 - [zlecanie produkcji na podstawie planu sprzedaży](/plany-sprzedazy-zlecenia) --> czyli jak tworzyć grupy zleceń na podstawie przyjętych planów sprzedaży
 - [wykorzystanie procesów technologicznych do analizy pracy pracowników](/procesy-technologiczne-przyklad) --> czyli jak zarządzać pracą pracowników poprzez procesy technologiczne
+- [rezerwacja zasobów surowców pod zlecenie produkcyjne](/rezerwacja-zasobu-pod-zlecenie) - czyli w jaki sposób zarezerwować zasób magazynowy pod zlecenie, gdzie zobaczyć co mamy zarezerwowane i jak utworzyć właściwy rozchód z magazynu

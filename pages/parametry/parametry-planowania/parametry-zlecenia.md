@@ -21,21 +21,19 @@ Do dyspozycji masz następujące parametry:
 
 4. **Pozwól na zmianę ilości w zaakceptowanym zleceniu** - zaznacz jeśli chcesz pozwolić na zmianę ilości w zaakceptowanym zleceniu produkcyjnym
 
-5. **Pozwól na zmianę drzewa technologii w oczekującym zleceniu** - qcadoo pozwala na zmianę technologii w zleceniu. Oznacza to, że standardowo produkt wytwarzany jest wg konkretnego sposobu, ale w wyjątkowych sytuacjach, pod dane zlecenie, można wprowadzić zmiany i wyprodukować wyrób trochę inaczej. Jeśli nie chcesz, aby pracownicy zmieniali technologię i żeby zawsze produkty były realizowane w tym sam sposób, nie zaznaczaj parametru, a nie pozwolimy na modyfikację technologii w zleceniu.
+5. **Uzupełniaj opis zlecenia na podstawie opisu technologii** - w technologii możesz wprowadzić opis. I możemy go podpowiedzieć do zlecenia, do pola opis (po to by pokazać pracownikom np. w terminalu) - jeśli chcesz, aby tak się stało, zaznacz parametr
 
-6. **Uzupełniaj opis zlecenia na podstawie opisu technologii** - w technologii możesz wprowadzić opis. I możemy go podpowiedzieć do zlecenia, do pola opis (po to by pokazać pracownikom np. w terminalu) - jeśli chcesz, aby tak się stało, zaznacz parametr
+6. **Uzupełniaj opis zlecenia na podstawie opisu produktu** - zaznacz parametr, a do opisu zlecenia produkcyjnego dokleimy opis pozostawiony w produkcie zleconym
 
-7. **Uzupełniaj opis zlecenia na podstawie opisu produktu** - zaznacz parametr, a do opisu zlecenia produkcyjnego dokleimy opis pozostawiony w produkcie zleconym
+7. **Oznacz kolorem procent wykonania** - w liście [planowanych zleceń](/planowanie-zlecen) jest kolumna Wykonanie %. Przedstawia ona informację o tym ile procent ilości zleconej jest już wyprodukowane. Jeśli chcesz wzmocnić efekt - zaznacz parametr, a oznaczymy kolumnę kolorem. Czerwone będą te zlecenia, które nie są jeszcze rozpoczęte (0% wykonania), zielone - te już całkowicie zrealizowane (100% wykonania), a źółte te, dla których praca trwa (wykonanie między 0 a 100%)
 
-8. **Oznacz kolorem procent wykonania** - w liście [planowanych zleceń](/planowanie-zlecen) jest kolumna Wykonanie %. Przedstawia ona informację o tym ile procent ilości zleconej jest już wyprodukowane. Jeśli chcesz wzmocnić efekt - zaznacz parametr, a oznaczymy kolumnę kolorem. Czerwone będą te zlecenia, które nie są jeszcze rozpoczęte (0% wykonania), zielone - te już całkowicie zrealizowane (100% wykonania), a źółte te, dla których praca trwa (wykonanie między 0 a 100%)
+8. **Automatycznie ustawiaj datę rozpoczęcia zlecenia** - zaznacz parametr, jeśli chcesz, aby w zleceniu produkcyjnym ustawiła się aktualna data w momencie ustawiania statusu na rozpoczęte
 
-9. **Automatycznie ustawiaj datę rozpoczęcia zlecenia** - zaznacz parametr, jeśli chcesz, aby w zleceniu produkcyjnym ustawiła się aktualna data w momencie ustawiania statusu na rozpoczęte
+9. **Automatycznie ustawiaj datę zakończenia zlecenia** - zaznacz parametr, jeśli chcesz, abyśmy uzupełnili datę zakończenia zlecenia, w momencie ustawiania statusu na zakończone
 
-10. **Automatycznie ustawiaj datę zakończenia zlecenia** - zaznacz parametr, jeśli chcesz, abyśmy uzupełnili datę zakończenia zlecenia, w momencie ustawiania statusu na zakończone
+10. **Podpowiadaj datę rozpoczęcia zlecenia przy tworzeniu zlecenia** - jeśli zaznaczysz parametr, to podczas dodawania zlecenia produkcyjnego podpowiemy Ci datę rozpoczęcia. Wskaż niżej jaka ma być ta data.
 
-11. **Podpowiadaj datę rozpoczęcia zlecenia przy tworzeniu zlecenia** - jeśli zaznaczysz parametr, to podczas dodawania zlecenia produkcyjnego podpowiemy Ci datę rozpoczęcia. Wskaż niżej jaka ma być ta data.
-
-12. **Data rozpoczęcia podpowiadana na podstawie** - lista uaktywni się, gdy zaznaczysz parametr Podpowiadaj datę rozpoczęcia zlecenia przy tworzeniu zlecenia. Do wyboru masz:
+11. **Data rozpoczęcia podpowiadana na podstawie** - lista uaktywni się, gdy zaznaczysz parametr Podpowiadaj datę rozpoczęcia zlecenia przy tworzeniu zlecenia. Do wyboru masz:
 - _aktualnej daty_ - data rozpoczęcia zostanie ustawiona na podstawie momentu zapisu zlecenia
 - _początku pierwszej zmiany kolejnego dnia_ - podpowiemy datę początku Twojej pracy następnego dnia (czyli przyda się ta opcja, gdy dziś zakładasz zlecenia na jutro)
 - _daty zakończenia ostatniego zlecenia na linii_ - namierzymy ostatnie zlecenie na linii produkcyjnej i to dodawane układamy bezpośrednio po nim. Jeśli dodatkowo będziesz wyliczać czas trwania w qcadoo na podstawie [produkcji na zmianę](/produkcja-na-zmiane) albo [czasochłonności technologii](/czasochlonnosc-zlecenia) to w łatwy sposób ustalisz kompletny plan produkcyjny.

@@ -7,6 +7,28 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.16 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.16</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.16</td>
+          <td>
+          <ul>
+            <li>aktualizacja zamówień przez import z pliku - poprawki do wprowadzonego rozwiązania</li>
+            <li>zmiany w oknie wyboru zleceń w terminalu rejestracji produkcji</li>
+            <li>usunięcie zbędnych kolumn w parametrach dokumentów (reszta po dysp. przes. i reszta po dysp. przes. jedn. dod.)</li>
+            <li>usunięcie niewykorzystywanego parametru zlecenia: pozwól na zmianę technologii w oczekującym zleceniu</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 2.5.15 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.15</summary><br>
@@ -48,7 +70,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.13 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.13</summary><br>
     <table class="changelog-table" border>
         <tr>

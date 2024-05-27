@@ -76,10 +76,12 @@ a reszta danych zostanie uzupełniona na podstawie dobranego zasobu. Zasób moż
 Dokumenty magazynowe powstają jako efekty wykonywanych w qcadoo następujących funkcji:
 1. **dostawy** - przy odbiorze dostawy tworzy się dokument PZ
 2. **rejestracja produkcji** - na akceptacji [meldunku](/rejestracja-produkcji) tworzony jest dokument RW do zużytych produktów wejściowych. Natomiast PW do wyprodukowanych produktów wyjściowych tworzy się albo na akceptacji meldunku, albo na zakończeniu zlecenia produkcyjnego (w zależności od ustawionych parametrów)
-3. **wydanie wewnętrzne** - w zależności od ustawionych parametrów wydań utworzy się albo dokument MM, albo para dokumentów WZ - PZ. Dokumenty te mogą być albo zaakceptowane albo szkicowe
-4. **zdarzenia (utrzymanie ruchu)** - jeśli w zdarzeniu zarejestrowane zostały użyte części, to na zamknięciu zdarzenia tworzone są dokumenty RW
-5. **zdarzenia planowane (utrzymanie ruchu)** - podobnie jak w zdarzeniach: jeśli do wykonania zdarzenia planowanego konieczne było zużycie części, to qcadoo rozchoduje je tworząc dokument RW w momencie zamknięcia zdarzenia planowanego
-6. **zlecenia na usługi** - wydanie surowców podwykonawcy spowoduje utworzenie dokumentu WZ. Przyjęcie produktów finalnych po przetworzeniu przez podwykonawcę - to dodanie dokumentu PZ
+3. **zlecenia produkcyjne** - z poziomu [szczegółowego zapotrzebowania zlecenia](/zmiana-stanu-zapotrzebowania.html#ręczne-wydanie-materiałów-do-zlecenia-produkcyjnego) można przeprowadzić wydanie zużytych materiałów, czego efektem jest dokument RW
+4. **zamówienie sprzedaży** - [funkcja *Utwórz dokument WZ*](/zlecenia-nadrzedne.html#wydawanie-zamówionych-wyrobów) tworzy rozchodowe dokumenty WZ do zaznaczonych pozycji zamówienia
+6. **wydanie wewnętrzne** - w zależności od ustawionych parametrów wydań utworzy się albo dokument MM, albo para dokumentów WZ - PZ. Dokumenty te mogą być albo zaakceptowane albo szkicowe
+7. **zdarzenia (utrzymanie ruchu)** - jeśli w zdarzeniu zarejestrowane zostały użyte części, to na zamknięciu zdarzenia tworzone są dokumenty RW
+8. **zdarzenia planowane (utrzymanie ruchu)** - podobnie jak w zdarzeniach: jeśli do wykonania zdarzenia planowanego konieczne było zużycie części, to qcadoo rozchoduje je tworząc dokument RW w momencie zamknięcia zdarzenia planowanego
+9. **zlecenia na usługi** - wydanie surowców podwykonawcy spowoduje utworzenie dokumentu WZ. Przyjęcie produktów finalnych po przetworzeniu przez podwykonawcę - to dodanie dokumentu PZ
 
 --- 
 ## Funkcje do wywołania w dokumencie magazynowym
