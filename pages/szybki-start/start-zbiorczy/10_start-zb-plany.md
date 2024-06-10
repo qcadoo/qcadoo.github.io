@@ -5,7 +5,7 @@ permalink: 10_start-zb-plany.html
 
 Narzędziem wspierającym planistę w utworzeniu planu produkcyjnego w trybie pracy ze zbiorczym raportowaniem, jest plan na linię produkcyjną. Podstawowym celem algorytmu jest wybór właściwej linii produkcyjnej, na której zlecenie ma być realizowane i ustalenie dat realizacji.
 
-Aby stworzyć plan wejdź w **Planowanie > Plan na linię produkcyjną** i dodaj nowy rekord. Podaj **datę rozpoczęcia planu** i wybierz najlepsze dla Ciebie kryteria. Szerzej możliwości planera opisane są w tej dokumentacji: [Plan na linię produkcyjną](/plan-na-linie-produkcyjna).
+Aby stworzyć plan wejdź w **Planowanie > Plan na linię produkcyjną** i dodaj nowy rekord. Podaj **Datę rozpoczęcia planu** i wybierz najlepsze dla Ciebie kryteria. Szerzej możliwości planera opisane są w tej dokumentacji: [Plan na linię produkcyjną](/plan-na-linie-produkcyjna).
 
 {% include lightbox.html file="startZbPlanGlowna.png" alt="Plan na linię produkcyjną - zakładka Główna" caption="Plan na linię produkcyjną - zakładka Główna" %}
 
@@ -21,11 +21,11 @@ albo na **wykresie Gantta**. W tym celu kliknij przycisk {% include inline_image
 
 {% include lightbox.html file="startZbPlanGantt.png" alt="Plan na linię produkcyjną - Gantt linii" caption="Plan na linię produkcyjną - Gantt linii" %}
 
-Przedstawione wyliczenia są na ten moment tylko propozycją. Możesz się z nią nie zgadzać, zmienić kryteria planowania w zakładce Główna i ponownie wygenerować plan. Możesz też zmienić zakres planowanych zleceń i ponownie wywołać funkcję generowania. Możesz też nanieść do planu ręczne poprawki. Jak już plan produkcyjny będzie gotowy, kliknij przycisk {% include inline_image.html file="PrzyciskZatwierdz.png" alt="Zatwierdź" %}. Spowoduje to uzupełnienie w zleceniach linii produkcyjnej, daty rozpoczęcia i daty zakończenia. 
+Przedstawione wyliczenia są na ten moment tylko propozycją. Możesz się z nią nie zgadzać, zmienić kryteria planowania w zakładce Główna i ponownie wygenerować plan. Możesz też zmienić zakres planowanych zleceń i ponownie wywołać funkcję generowania. Możesz też nanieść do planu ręczne poprawki. Gdy już plan produkcyjny będzie gotowy, kliknij przycisk {% include inline_image.html file="przyciskZatwierdz.png" alt="Zatwierdź" %}. Spowoduje to uzupełnienie w zleceniach linii produkcyjnej, daty rozpoczęcia i daty zakończenia. 
 
-Kolejnym krokiem planisty będzie **akceptacja zleceń**, np. z listy **Planowanie > Planowanie zleceń**. Należy zaznaczyć wszystkie zaplanowane oczekujące zlecenia i kliknąć przycisk {% include inline_image.html file="PrzyciskAkceptuj.png" alt="Akceptuj" %}. Zmiana statusu oznacza, że zlecenia mają zostać zrealizowane.
+Kolejnym krokiem planisty będzie **akceptacja zleceń**, np. z listy **Planowanie > Planowanie zleceń**. Należy tam zaznaczyć wszystkie zaplanowane oczekujące zlecenia i kliknąć przycisk {% include inline_image.html file="przyciskAkceptuj.png" alt="Akceptuj" %}. Zmiana statusu oznacza, że zlecenia mają zostać zrealizowane.
 
-{% include callout.html content="Plan produkcyjny, czyli zlecenia produkcyjne do realizacji, możesz przeglądać albo w tabeli w widoku planowanych zleceń, albo w formie graficznej, za pomocą [Gantta zleceń](/gantt-zlecen). Obie opcje umieszczone w menu: planowanie." type="warning" %}
+{% include callout.html content="Plan produkcyjny, czyli zlecenia produkcyjne do realizacji, możesz przeglądać albo w tabeli w widoku planowanych zleceń, albo w formie graficznej, za pomocą [Gantta zleceń](/gantt-zlecen). Obie opcje umieszczone w menu: Planowanie." type="warning" %}
 
 Wiadomo już co trzeba wyprodukować. Kolej na ustalenie jakie surowce będą potrzebne do realizacji zleceń i czy są wystarczające stany magazynowe.
 

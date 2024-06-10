@@ -13,24 +13,24 @@ Zanim zadania pojawią się w terminalu, muszą zostać rozpoczęte. Najczęści
 
 Jak zmienić status? Trzeba wejść do listy zleceń (**Planowanie > Planowanie zleceń**), zaznaczyć je i wywołać funkcję {% include inline_image.html file="przyciskRozpocznij.png" alt="Rozpocznij" %}. Gotowe.
 
-Aby uruchomić terminal, należy wejść w **Rejestracja > Terminal rejestracji produkcji**. Pierwszy krok to zalogowanie. Z terminala rejestracji produkcji korzystają pracownicy zdefiniowani w qcadoo. Wprowadziłeś ich w kroku 3. tej instrukcji. Do logowania w terminalu używany jest jego numer.
+Aby uruchomić terminal, należy wejść w **Rejestracja > Terminal rejestracji produkcji**. Pierwszy krok to zalogowanie. Z terminala rejestracji produkcji korzystają pracownicy zdefiniowani w qcadoo. Wprowadziłeś ich w kroku 3. tej instrukcji. Do logowania w terminalu używany jest numer pracownika.
 
 Teraz można wybrać dział, linię i stację, aby odpowiednio ograniczyć listę zadań tylko do miejsca, na którym dana osoba pracuje. 
 
 {% include callout.html content="Dział, linia i stacja mogą uzupełnić się z automatu z danych przypisanych pracownikowi." type="warning" %}
 
-Kliknij przycisk {% include inline_image.html file="przyciskWybierzZadanieTerminal.png" alt="Wybierz zadanie" %} **Wybierz zadanie** i sprawdź co planista dla Ciebie przygotował. Zaznacz jedno z zadań i potwierdź przyciskiem {% include inline_image.html file="przyciskWybierzTerminalNiebieski.png" alt="Wybierz" %} **Wybierz**
+Kliknij przycisk {% include inline_image.html file="przyciskWybierzZadanieTerminal.png" alt="Wybierz zadanie"%} i sprawdź co planista dla Ciebie przygotował. Zaznacz jedno z zadań i potwierdź przyciskiem {% include inline_image.html file="przyciskWybierzTerminalNiebieski.png" alt="Wybierz"%}:
 
 {% include lightbox.html file="startOpTerminalZadania.png" alt="Wybór zadań w terminalu rejestracji produkcji" caption="Wybór zadań w terminalu rejestracji produkcji" %}
 
-Dane o zadaniu i zleceniu zostaną wczytane do terminala. Zapoznaj się z tym co trzeba zrobić i w jakiej ilości. Zerknij w zakładki: **Informacje** (to tu zobaczysz szczegóły operacji, a może nawet jej rozbicie na procesy technologiczne, wszelkie załączniki, listę narzędzi itp.), **Produkty** (a tam w: Produkty wejściowe, Produkty wyjściowe i Partie produktu zleconego), czy **Kontrola jakości**. 
+Dane o zadaniu i zleceniu zostaną wczytane do terminala. Zapoznaj się z tym co trzeba zrobić i w jakiej ilości. Zerknij w zakładki: **Informacje** (to tu zobaczysz szczegóły operacji, a może nawet jej rozbicie na procesy technologiczne, wszelkie załączniki, listę narzędzi itp.), **Produkty** (a tam w: Produkty wejściowe, Produkty wyjściowe i Partia produktu zleconego), czy **Kontrola jakości**. 
 
-Gdy już wiesz co trzeba wyprodukować przejdź do obszaru **Czas pracy** i kliknij {% include inline_image.html file="przyciskStartTerminal.png" alt="START" %}. Zatwierdź całość przyciskiem {% include inline_image.html file="przyciskPotwierdzTerminal.png" alt="Potwierdź" %}.
+Gdy już wiesz co trzeba wyprodukować, przejdź do obszaru **Czas pracy** i kliknij {% include inline_image.html file="przyciskStartTerminal.png" alt="START" %}. Zatwierdź całość przyciskiem {% include inline_image.html file="przyciskPotwierdzTerminal.png" alt="Potwierdź" %}.
 
 W efekcie w liście **Rejestracja > Rejestracja produkcji** powstanie szkicowy meldunek. System wie, że praca została rozpoczęta.
 
 Po skończonej produkcji, albo na koniec zmiany, pracownik ponownie wraca do terminala, loguje się, wchodzi do okna wyboru zadań, ustawia filtr w polu: **Pokaż zadania** na **Realizowane** {% include inline_image.html file="przyciskPokazZadaniaRealizowane.png" alt="Pokaż realizowane zadania" %}, ponownie zaznacza zadanie i wybiera. Przyszedł czas na zaraportowanie efektów. 
-Najlepiej najpierw kliknąć w obszarze **Czasu pracy** przycisk {% include inline_image.html file="przyciskStopTerminal.png" alt="START" %}, żeby zakończyć liczenie czasu poświęconego na produkcję. Teraz w obszarze **Produktów**, w zakładce Produkty wyjściowe trzeba podać **ilość wyprodukowaną**. 
+Najlepiej najpierw kliknąć w obszarze **Czasu pracy** przycisk {% include inline_image.html file="przyciskStopTerminal.png" alt="START" %}, żeby zakończyć liczenie czasu poświęconego na produkcję. Teraz w obszarze **Produktów**, w zakładce **Produkty wyjściowe** trzeba podać **ilość wyprodukowaną**. 
 
 {% include lightbox.html file="startOpTerminalProduktyIlosc.png" alt="Raportowanie ilości wyprodukowanej" caption="Raportowanie ilości wyprodukowanej" %}
 
@@ -40,7 +40,7 @@ To spowoduje przeliczenie wg norm ilości zużytych materiałów, widocznych w z
 
 Ostatni krok to ponowne **potwierdzenie meldunku**, przyciskiem {% include inline_image.html file="przyciskPotwierdzTerminal.png" alt="Potwierdź" %}.
 
-Po zaakceptowaniu meldunku w liście **Rejestracja > Rejestracja produkcji** mogą zostać utworzone dokumenty RW i PW, a w zadaniu zostanie ustawiona ilość wykonana. Jeśli raportowane zadanie było ostatnim zadaniem zlecenia, to i w nim będzie wyliczony procent wykonania.
+Po zaakceptowaniu meldunku, w liście **Rejestracja > Rejestracja produkcji**, mogą zostać utworzone dokumenty RW i PW, a w zadaniu zostanie ustawiona ilość wykonana. Jeśli raportowane zadanie było ostatnim zadaniem zlecenia, to i w nim będzie wyliczony procent wykonania.
 
 Wszelkie dane z produkcji zostały zgromadzone w systemie. Dzięki systematycznemu raportowaniu będziesz w stanie wyliczyć koszty produkcji, zapanować nad tym co już zostało wyprodukowane, gdzie są opóźnienia, a nawet ustalić realność przyjętych norm czasowych czy norm zużycia materiałów.
 

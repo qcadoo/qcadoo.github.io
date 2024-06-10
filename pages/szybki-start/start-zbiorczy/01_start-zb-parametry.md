@@ -3,14 +3,14 @@ title: "Szybki START - praca ze zleceniami - KROK 1. parametry"
 permalink: 01_start-zb-parametry.html 
 ---
 
-Wszystkie parametry w qcadoo zgrupowane są w menu > parametry. Na samym początku koniecznie ustaw takie:
+Wszystkie parametry w qcadoo zgrupowane są w menu > Parametry. Na samym początku koniecznie ustaw takie:
 
 
 1. Wejdź w **Parametry > Parametry rejestracji > zakładka: Rejestracja prod.**:
 
 {% include lightbox.html file="startZbiorczyParametryRejestracji.png" alt="Parametry rejestracji - sposób rejestracji" caption="Parametry rejestracji - sposób rejestracji" %}
 
-i ustaw w polu **Sposób rejestracji meldunków** wartość **Zbiorczy**.
+i ustaw w polu **Sposób rejestracji meldunków** wartość **zbiorczy**.
 
 {:start="2"}
 2. Przejdź do **Parametry > Parametry rejestracji > zakładka: Terminal**:
@@ -20,7 +20,7 @@ i ustaw w polu **Sposób rejestracji meldunków** wartość **Zbiorczy**.
 i zaznacz w obszarze **Pokaż w terminalu** pole **Wybierz zlecenie** i odznacz pole **Wybierz zadanie**.
 
 {:start="3"}
-3. Wejdź w **parametry ogólne > przycisk Dashboard > zakładka Główna**:
+3. Wejdź w **Parametry ogólne > przycisk: Dashboard > zakładka: Główna**:
 
 {% include lightbox.html file="startZbiorczeParametryDashboardu.png" alt="Parametry dashboardu - widoczne zlecenia" caption="Parametry dashboardu - widoczne zlecenia" %}
 

@@ -53,7 +53,7 @@ Tak opisany produkt możesz zapisać używając przycisku {% include inline_imag
 
 W produkcie widocznych jest szereg **dodatkowych zakładek**, w których możesz doszczegółowić dany indeks.
 
-1. zakładka **Rodzina** 
+#### 1. zakładka **Rodzina** 
 
 {% include lightbox.html file="produktyProduktyRodzina.png" alt="Rodzina produktu" caption="Rodzina produktu" %} 
 
@@ -62,7 +62,7 @@ to kolejny sposób na grupowanie produktów (jak widzisz - dostępnych jest kilk
 Rodzina produktu wykorzystywana jest w [generatorze technologii](/generator-technologii) do oznaczania tych produktów, do których mają tworzyć się nowe produkty.
 
 {:start="2"}
-2. zakładka **Zamienniki** 
+#### 2. zakładka **Zamienniki** 
 
 {% include lightbox.html file="produktyProduktyZamienniki.png" alt="Zamienniki produktu" caption="Zamienniki produktu" %} 
 
@@ -71,7 +71,7 @@ Jeśli w produkcji stosujemy zamienniki produktów, to w zakładce **Zamienniki*
 {% include callout.html content="Zamienniki będzie można wykorzystać do produkcji - więcej w tym temacie przeczytasz [tutaj](/rejestracja-produkcji.html#jak-zarejestrować-wykorzystany-zamiennik) " type="warning" %}
 
 {:start="3"}
-3. zakładka **Przeliczenia jednostek** 
+#### 3. zakładka **Przeliczenia jednostek** 
 
 {% include lightbox.html file="produktyProduktyPrzeliczeniaJednostek.png" alt="Przeliczenia jednostek produktu" caption="Przeliczenia jednostek produktu" %} 
 
@@ -79,7 +79,9 @@ Jeśli planujesz wprowadzać ilości produktu w innych jednostkach niż jednostk
 
 
 {:start="4"}
-4. zakładka **Atrybuty** - możesz w niej dodatkowo opisać produkt używając zdefiniowanych wcześniej [atrybutów](/atrybuty)
+#### 4. zakładka **Atrybuty** 
+
+W zakładce możesz dodatkowo opisać produkt używając zdefiniowanych wcześniej [atrybutów](/atrybuty)
 
 {% include lightbox.html file="podstawoweProduktyAtrybuty.png" alt="Atrybuty produktu" caption="Atrybuty produktu" %} 
 
@@ -90,7 +92,7 @@ Aby przypisać do produktu atrybut i określić jego wartość, kliknij w tabeli
 {% include callout.html content="Dany atrybut może być do produktu przypisany wielokrotnie, ale każdorazowo musi być wprowadzona jego inna wartość." type="warning" %}
 
 {:start="5"}
-5. zakładka **Charakterystyka produktu**
+#### 5. zakładka **Charakterystyka produktu**
 
 {% include lightbox.html file="produktyProduktyCharakterystyka.png" alt="Charakterystyka produktu" caption="Charakterystyka produktu" %} 
 
@@ -101,7 +103,7 @@ W zakładce tej możesz podać następujące dane:
 - **pokaż jako materiał na karcie produktu** - produkty wejściowe technologii z zaznaczonym parametrem pojawiają się na karcie produktu
 
 {:start="6"}
-6. zakładka **Załączniki**
+#### 6. zakładka **Załączniki**
 
 {% include lightbox.html file="produktyProduktyZalaczniki.png" alt="Załączniki produktu" caption="Załączniki produktu" %} 
 
@@ -109,7 +111,7 @@ Jeśli chcesz do produktu możesz podpiąć załączniki - np. rysunki techniczn
 Podpięte pliki możesz podejrzeć klikając w nie, albo pobrać zaznaczając i klikając przycisk {% include inline_image.html file="przyciskPobierz.png" alt="Przycisk Pobierz" %} **Pobierz**.
 
 {:start="7"}
-7. zakładka **Koszty**
+#### 7. zakładka **Koszty**
 
 {% include lightbox.html file="produktyProduktyKoszty.png" alt="Koszty produktu" caption="Koszty produktu" %} 
 
@@ -120,6 +122,15 @@ Dane zawarte w tej zakładce to podstawa do [kalkulacji kosztów](/koszty-zlecen
 - cena średnio ważona
 
 do tego jest też koszt nominalny. Tu zastosowanie jest szersze - możesz to pole wykorzystać do kalkulacji kosztów. Ale możesz też wytworzone produkty przyjmować w tej właśnie cenie. Aby tak się stało w parametrach rozliczenia produkcji **Cena PW na podst. = koszt nominalny produktu**. Koszt ten możesz albo uzupełniać sam, albo wyliczyć TKW przy pomocy kalkulacji kosztów i zapisać koszt używając funkcji {% include inline_image.html file="przyciskZapiszKosztNominalnyWyboru.png" alt="Przycisk Zapisz koszt nominalny wyrobu" %} **Zapisz koszt nominalny wyrobu**.
+
+<br/>
+
+Standardowo w [parametrach rejestracji produkcji](/parametry-rejestracja-produkcji.html#rejestracja-produkcji) możesz wybrać, czy chcesz je przyjmować na magazyn w stałej cenie ustalonej na podstawie kosztu nominalnego, czy na podstawie wyliczonego TKW. Są jednak dwa odstępstwa od tej reguły. Niezależnie od ustawień parametru, cena na PW ustalona będzie na podstawie kosztu nominalnego, gdy:
+- na magazyn będziesz przyjmować wyprodukowane odpady, 
+- technologia zakłada wytworzenie produktu głównego i finalnych produktów dodatkowych. Zasada dotyczy wszystkich wytworzonych wówczas produktów.
+
+<br/>
+
 Koszt nominalny możesz określić w innej walucie, niż waluta systemowa. Np. po to by zapisać obiecaną przez dostawcę cenę za dany materiał. Cena zostanie albo wykorzystana w qcadoo w tej walucie (np. w dostawie), albo przeliczona na PLN zgodnie z średnim kursem waluty (np. w kalkulacji kosztów, czy rozliczeniu produkcji).
 
 Dla prawidłowego określenia kosztów ważne jest też pole **Podane koszty/ceny dotyczą ilości** - jeśli cena dotyczy innej ilości niż 1 jednostka, to odpowiednio nanieś zmiany.
@@ -127,14 +138,14 @@ Dla prawidłowego określenia kosztów ważne jest też pole **Podane koszty/cen
 {% include callout.html content="Koszty mogą być ustalane na podstawie danych z dokumentów magazynowych. Ze szczegółami zapoznasz się z rozdziału **Uzupełnij koszty produktów**" type="warning" %}
 
 {:start="8"}
-8. zakładka **Partie**
+#### 8. zakładka **Partie**
 
 {% include lightbox.html file="produktyProduktyPartie.png" alt="Ewidencja partii" caption="Ewidencja partii" %} 
 
 W zakładce znajduje się parametr związany z modułem Genealogii. Jeśli chcesz, aby dany produkt zawsze w momencie przychodu lub rozchodu, a także podczas raportowania produkcji, musiał mieć podawaną partię, zaznacz parametr **Ewidencja partii**. 
 
 {:start="9"}
-9. zakładka **Karty jakości**
+#### 9. zakładka **Karty jakości**
 
 {% include lightbox.html file="produktyProduktyKartyJakosci.png" alt="Karty jakości produktu" caption="Karty jakości produktu" %} 
 

@@ -3,11 +3,11 @@ title: "Szybki START - praca ze zleceniami - KROK 4. magazyny"
 permalink: 04_start-zb-magazyny.html 
 ---
 
-Magazyny to miejsca składowania produktów niezbędnych do realizacji produkcji. To od Ciebie zależy ile magazynów będziesz miał wyodrębnionych. Może to być jeden zbiorczy, na wszystko co przechowujesz, może ich być wiele, mocno rozdrobnionych. Najpopularniejszym sposobem jest wydzielenie osobnego magazynu ma surowce i osobnego na gotowe wyroby. Czasami dodatkowo wydzielany jest magazyn odpadów - jeśli oczywiście decydujesz się na składowanie wytworzonych, a nie nadających się do sprzedaży, wyrobów. Pamiętaj, że nie warto utrudniać procesu - im prościej tym lepiej (szczególnie jeśli dopiero rozpoczynasz przygodę z systemami do zarządzania produkcją).
+Magazyny to miejsca składowania produktów niezbędnych do realizacji produkcji. To od Ciebie zależy, ile magazynów będziesz miał wyodrębnionych. Może to być jeden zbiorczy, na wszystko co przechowujesz, może ich być wiele, mocno rozdrobnionych. Najpopularniejszym sposobem jest wydzielenie osobnego magazynu na surowce i osobnego na gotowe wyroby. Czasami dodatkowo wydzielany jest magazyn odpadów - jeśli oczywiście decydujesz się na składowanie wytworzonych, a nie nadających się do sprzedaży, wyrobów. Pamiętaj, że nie warto utrudniać procesu - im prościej tym lepiej (szczególnie jeśli dopiero rozpoczynasz przygodę z systemami do zarządzania produkcją).
 
 {% include callout.html content="Jeśli chcesz składować na magazynie półprodukty, czyli efekty operacji, które za chwilę będą przetwarzane w kolejnych czynnościach tego samego zlecenia, to znaczy, że musisz pracować w qcadoo w trybie rejestracji z dokładnością do operacji." type="warning" %}
 
-Jak zdefiniować magazyny? Wejdź w **Magazyn > Magazyny** i dodaj nowy rekord podając numer i nazwę. Zapisz. 
+Jak zdefiniować magazyny? Wejdź w **Magazyn > Magazyny** i dodaj nowy rekord, podając **Numer** i **Nazwę**. Zapisz. 
 
 {% include lightbox.html file="startMagazyny.png" alt="Magazyny" caption="Magazyny" %}
 

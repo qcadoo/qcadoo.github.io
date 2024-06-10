@@ -1,5 +1,5 @@
 ---
-title: "Szybki START - praca z zadaniami - KROK 2. kalendarz"
+title: "Szybki START - praca z zadaniami - KROK 2. kalendarze"
 permalink: 02_start-op-kalendarz.html 
 ---
 

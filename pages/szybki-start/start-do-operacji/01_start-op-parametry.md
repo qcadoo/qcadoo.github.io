@@ -4,7 +4,7 @@ permalink: 01_start-op-parametry.html
 ---
 
 
-Wszystkie parametry w qcadoo zgrupowane są w menu > parametry. Na samym początku koniecznie ustaw takie:
+Wszystkie parametry w qcadoo zgrupowane są w menu > Parametry. Na samym początku koniecznie ustaw takie:
 
 
 1. Wejdź w **Parametry > Parametry rejestracji > zakładka: Rejestracja prod.**:
@@ -21,7 +21,7 @@ i ustaw w polu **Sposób rejestracji meldunków** wartość **dla każdej operac
 i zaznacz w obszarze **Pokaż w terminalu** pole **Wybierz zadanie** i odznacz pole **Wybierz zlecenie**.
 
 {:start="3"}
-3. Wejdź w **parametry ogólne > przycisk Dashboard > zakładka Główna**:
+3. Wejdź w **Parametry ogólne > przycisk: Dashboard > zakładka: Główna**:
 
 {% include lightbox.html file="startOperacjeParametryDashboardu.png" alt="Parametry dashboardu - widoczne zadania" caption="Parametry dashboardu - widoczne zadania" %}
 

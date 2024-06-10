@@ -1,12 +1,12 @@
 ---
-title: "Szybki START - praca z zadaniami - KROK 10. plany produkcji"
+title: "Szybki START - praca z zadaniami - KROK 10. plany produkcyjne"
 permalink: 10_start-op-plany.html 
 ---
 
 
 Narzędziem wspierającym planistę w utworzeniu planu produkcyjnego w trybie pracy raportowania z dokładnością do operacji, jest plan na stację roboczą i pracownika. Podstawowym celem algorytmu jest podział zleceń na zadania operacyjne, przypisanie im właściwych stacji roboczych, na których produkcja ma być wykonywana i ustalenie dat realizacji. Dodatkowo do operacji może być przydzielony pracownik.
 
-Aby stworzyć plan wejdź w **Planowanie > Plan na stację roboczą i pracownika** i dodaj nowy rekord. Podaj **datę rozpoczęcia planu** i wybierz najlepsze dla Ciebie kryteria. Szerzej możliwości planera opisane są w tej dokumentacji: [Plan na stację roboczą](/plan-na-stacje-robocza-i-pracownika).
+Aby stworzyć plan wejdź w **Planowanie > Plan na stację roboczą i pracownika** i dodaj nowy rekord. Podaj **datę rozpoczęcia planu** i wybierz najlepsze dla Ciebie kryteria. Szerzej możliwości planera opisane są w tej dokumentacji: [Plan na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika).
 
 {% include lightbox.html file="startOpPlanGlowna.png" alt="Plan na stację roboczą - zakładka Główna" caption="Plan na stację roboczą - zakładka Główna" %}
 
@@ -30,11 +30,11 @@ albo na **wykresie Gantta**. Masz do dyspozycji dwa widoki:
 {% include lightbox.html file="startOpPlanGanttPracownika.png" alt="Plan na stację roboczą - Gantt pracowników" caption="Plan na stację roboczą - Gantt pracownikólw" %}
 
 
-Przedstawione wyliczenia są na ten moment tylko propozycją. Możesz się z nią nie zgadzać, zmienić kryteria planowania w zakładce Główna i ponownie wygenerować plan. Możesz też zmienić zakres planowanych zleceń i ponownie wywołać funkcję generowania. Możesz też nanieść do planu ręczne poprawki. Jak już plan produkcyjny będzie gotowy, kliknij przycisk {% include inline_image.html file="PrzyciskZatwierdz.png" alt="Zatwierdź" %}. Spowoduje to utworzenie zadań operacyjnych do zleceń ze wskazanymi stacjami, pracownikami i datami oraz wyliczenie w zleceniach produkcyjnych daty rozpoczęcia i daty zakończenia. 
+Przedstawione wyliczenia są na ten moment tylko propozycją. Możesz się z nią nie zgadzać, zmienić kryteria planowania w zakładce Główna i ponownie wygenerować plan. Możesz też zmienić zakres planowanych zleceń i ponownie wywołać funkcję generowania. Możesz też nanieść do planu ręczne poprawki. Gdy już plan produkcyjny będzie gotowy, kliknij przycisk {% include inline_image.html file="przyciskZatwierdz.png" alt="Zatwierdź" %}. Spowoduje to utworzenie zadań operacyjnych do zleceń ze wskazanymi stacjami, pracownikami i datami oraz wyliczenie w zleceniach produkcyjnych daty rozpoczęcia i daty zakończenia. 
 
-Kolejnym krokiem planisty będzie **akceptacja zleceń**, np. z listy **Planowanie > Planowanie zleceń**. Należy zaznaczyć wszystkie zaplanowane oczekujące zlecenia i kliknąć przycisk {% include inline_image.html file="PrzyciskAkceptuj.png" alt="Akceptuj" %}. Zmiana statusu oznacza, że zlecenia mają zostać zrealizowane.
+Kolejnym krokiem planisty będzie **akceptacja zleceń**, np. z listy **Planowanie > Planowanie zleceń**. Należy tam zaznaczyć wszystkie zaplanowane oczekujące zlecenia i kliknąć przycisk {% include inline_image.html file="przyciskAkceptuj.png" alt="Akceptuj" %}. Zmiana statusu oznacza, że zlecenia mają zostać zrealizowane.
 
-{% include callout.html content="Plan produkcyjny, czyli zadania operacyjne do realizacji, możesz przeglądać albo w tabeli [zadań operacyjnych](/planowanie-operacyjne), albo w formie graficznej, za pomocą [Gantta zadań operacyjnych](/gantt-zadan-operacyjnych). Obie opcje umieszczone w menu: planowanie." type="warning" %}
+{% include callout.html content="Plan produkcyjny, czyli zadania operacyjne do realizacji, możesz przeglądać albo w tabeli [zadań operacyjnych](/planowanie-operacyjne), albo w formie graficznej, za pomocą [Gantta zadań operacyjnych](/gantt-zadan-operacyjnych). Obie opcje umieszczone w menu: Planowanie." type="warning" %}
 
 Wiadomo już co trzeba wyprodukować. Kolej na ustalenie jakie surowce będą potrzebne do realizacji zleceń i czy są wystarczające stany magazynowe.
 

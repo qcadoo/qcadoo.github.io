@@ -9,7 +9,7 @@ Za pomocą zlecenia produkcyjnego przekazujesz na produkcję informację co jest
 
 Dodajmy zatem pierwsze zlecenie produkcyjne. 
 
-Wejdź w **Planowanie > Planowanie zleceń** i kliknij przycisk dodawania. W uruchomionym oknie zacznij od podania **produktu**. Spowoduje to ustawienie nazwy zlecenia, technologii oraz linii produkcyjnej (jeśli w technologii zdefiniowana była linia domyślna, bądź linia ustawiona była w parametrach) i działu. Teraz podaj **ilość** (pole: Plan. ilość prod.) i zapisz. 
+Wejdź w **Planowanie > Planowanie zleceń** i kliknij przycisk dodawania. W uruchomionym oknie zacznij od podania **Produktu**. Spowoduje to ustawienie nazwy zlecenia, technologii oraz linii produkcyjnej (jeśli w technologii zdefiniowana była linia domyślna, bądź linia ustawiona była w parametrach) i działu. Teraz podaj **Ilość** (pole: Plan. ilość prod.) i zapisz. 
 
 {% include lightbox.html file="startZbZlecenie.png" alt="Zlecenie produkcyjne" caption="Zlecenie produkcyjne" %}
 
@@ -17,7 +17,7 @@ Zlecenie otrzymało status Oczekujące. Oznacza to, że planista ciągle nad nim
 
 Możesz w zleceniu samodzielnie podać daty realizacji i ominąć kolejny krok (10. planowanie produkcji). W takim podejściu planista po uzupełnieniu dat akceptuje zlecenie i kończy się jego zadanie.
 
-qcadoo MES posiada jednak algorytmy planowania i zachecam do ich wykorzystywania. W jaki sposób? Przejdź do kolejnej strony instrukcji.
+qcadoo MES posiada jednak algorytmy planowania i zachęcam do ich wykorzystywania. W jaki sposób? Przejdź do kolejnej strony instrukcji.
 
 
 <br/>

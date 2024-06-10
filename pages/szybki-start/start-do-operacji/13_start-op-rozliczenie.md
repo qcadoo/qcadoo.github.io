@@ -17,11 +17,11 @@ Sumaryczne wyniki możesz obejrzeć, z dokładnością do zlecenia, w zakładce 
 
 {% include lightbox.html file="startOpRozliczenieWyniki.png" alt="Rozliczenie produkcji - wyniki" caption="Rozliczenie produkcji - wyniki" %}
 
-Dużo ciekawszych i bardziej drobiazgowych informacji uzyskasz pobierając przygotowany plik Excel. W tym celu kliknij przycisk {% include inline_image.html file="xlsIcon24.png" alt="Przycisk XLS" %}. Plik z rozliczeniem zawiera wiele arkuszy, od ilości wyprodukowanych, przez koszty materiałów, czasy realizacji, akord, przestoje, koszty robocizny, dodatkowe koszty, koszty usług obcych aż po rozliczenie w kilku poziomach.
+Dużo ciekawszych i bardziej drobiazgowych informacji uzyskasz, pobierając przygotowany plik Excel. W tym celu kliknij przycisk {% include inline_image.html file="przyciskXLS.png" alt="Przycisk XLS" %}. Plik z rozliczeniem zawiera wiele arkuszy, od ilości wyprodukowanych, przez koszty materiałów, czasy realizacji, akord, przestoje, koszty robocizny, dodatkowe koszty, koszty usług obcych aż po rozliczenie w kilku poziomach.
 
 {% include lightbox.html file="startOpRozliczenieXLS.png" alt="Rozliczenie produkcji - Excel" caption="Rozliczenie produkcji - Excel" %}
 
-Bardziej szczegółowy opis rozliczenia znajdziej w tym rozdziale dokumentacji: [Rozliczenie produkcji](/rozliczenie-produkcji).
+Bardziej szczegółowy opis rozliczenia znajdziesz w tym rozdziale dokumentacji: [Rozliczenie produkcji](/rozliczenie-produkcji).
 
 Po wygenerowaniu rozliczenia warto zerknąć jeszcze w **Analizy > Analiza wyników rozliczenia produkcji**. Wczytaj zakres dat, z których mamy zebrać rozliczenia i kliknij przycisk  {% include inline_image.html file="przyciskWczytajDane.png" alt="Wczytaj dane" %}. 
 

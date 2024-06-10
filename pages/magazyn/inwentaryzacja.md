@@ -13,11 +13,11 @@ W qcadoo **spis z natury przeprowadza się w następujących krokach**:
 5. wprowadź do qcadoo nadwyżki dokumentem PW (zostawiając informacje w opisie, że to wynik inwentaryzacji)
 6. wprowadź do qcadoo niedobory dokumentem RW (tu również zostawiając informacje w opisie, że to wynik inwentaryzacji)
 
-Wydruk inwentaryzacyjny przygotujesz w Magazyn > Inwentaryzacja. 
+Wydruk inwentaryzacyjny przygotujesz w Magazyn > Inwentaryzacja. Kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**:
 
 {% include lightbox.html file="magazynInwentaryzacja.png" alt="Inwentaryzacja" caption="Inwentaryzacja" %}
 
-Kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy** i wskaż kryteria wydruku:
+i wskaż kryteria wydruku:
 - jaka **data inwentaryzacji**
 - jaki **magazyn** 
 - jakie **miejsca składowania** - wszystkie czy wybrane. Jeśli wybrane - wskaż je w tabeli

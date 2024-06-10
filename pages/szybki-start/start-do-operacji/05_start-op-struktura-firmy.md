@@ -14,7 +14,7 @@ Do wykonania będzie kilka kroków. Docelowo stworzysz taką drzewiastą struktu
 
 ### Zakład
 
-Zakład to pierwszy, najwyższy element struktury. Wejdź w **Struktura firmy > Zakłady** i dodaj zakład nadając mu **numer** i **nazwę**. Miasto jest daną opcjonalną.
+Zakład to pierwszy, najwyższy element struktury. Wejdź w **Struktura firmy > Zakłady** i dodaj zakład, nadając mu **Numer** i **Nazwę**. Miasto jest daną opcjonalną.
 
 {% include lightbox.html file="startZaklad.png" alt="Zakład" caption="Zakład" %}
 
@@ -38,17 +38,17 @@ Wejdź w **Struktura firmy > Linie produkcyjne**. Zobaczysz zdefiniowaną na sta
 
 {% include lightbox.html file="StartOpLinia.png" alt="Linia produkcyjna" caption="Linia produkcyjna" %}
 
-i wskaż zmiany, na których linia będzie pracować. Jak? Kliknij przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Dodaj istniejący" %}, w oknie zaznacz odpowiednie rekordy i potwierdź klikając w przycisk {% include inline_image.html file="przyciskWybierz.png" alt="Wybierz" %}.
+i wskaż zmiany, na których linia będzie pracować. Jak? Kliknij przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Dodaj istniejący" %}, w oknie zaznacz odpowiednie rekordy i potwierdź, klikając w przycisk {% include inline_image.html file="przyciskWybierz.png" alt="Wybierz" %}.
 
 ### Typy stacji roboczych
 
-Stacja robocza w qcadoo MES to konkretne miejsce wykonania zadania - maszyna czy też stanowisko pracy. Każda ze stacji musi mieć przypisany typ. Zatem zanim przystąpisz do wprowadzania stacji, koniecznie zdefiniuj typy. Możesz albo wykonać szczegółowy podział, za pomocą typów, np. na: frezarki, szlifierki itp. Ale możesz też zrobić ogólny podział na: maszyny i stanowiska pracy. Decyzja należy do Ciebie.
+Stacja robocza w qcadoo MES to konkretne miejsce wykonania zadania - maszyna czy też stanowisko pracy. Każda ze stacji musi mieć przypisany typ. Zatem zanim przystąpisz do wprowadzania stacji, koniecznie zdefiniuj typy. Możesz wykonać szczegółowy podział, za pomocą typów, np. na: frezarki, szlifierki itp. Ale możesz też zrobić ogólny podział na: maszyny i stanowiska pracy. Decyzja należy do Ciebie.
 
 Aby zdefiniować typy wejdź w **Struktura firmy > Typy stacji roboczych**:
 
-{% include lightbox.html file="StartTypyStacji.png" alt="Typy stacji roboczej" caption="Typy stacji roboczej" %}
+{% include lightbox.html file="startTypyStacji.png" alt="Typy stacji roboczej" caption="Typy stacji roboczej" %}
 
-i uzupełnij w każdym dodawanym typie **numer** i **nazwę**.
+i uzupełnij w każdym dodawanym typie **Numer** i **Nazwę**.
 
 Jesteś gotowy, by wprowadzić stacje robocze, czyli najniższy poziom (z punktu widzenia produkcji) drzewa stuktury firmy.
 
@@ -58,7 +58,7 @@ Wejdź w **Struktura firmy > Stacje robocze** i wprowadź listę wykonujących p
 
 {% include lightbox.html file="startStacjaRobocza.png" alt="Stacja robocza" caption="Stacja robocza" %}
 
-Dla każdej stacji podaj co najmniej **numer**, **nazwę** i **typ stacji roboczej**. Reszta danych jest opcjonalna.
+Dla każdej stacji podaj co najmniej **Numer**, **Nazwę** i **Typ stacji roboczej**. Reszta danych jest opcjonalna.
 
 ### Tworzenie drzewiastej struktury
 
@@ -69,7 +69,7 @@ Wejdź zatem ponownie w: **Struktura firmy > Linie produkcyjne** i przejdź do w
 
 {% include lightbox.html file="startOpDzialyWLinii.png" alt="Łączenie elementów struktury firmy" caption="Łączenie elementów struktury firmy" %}
 
-Upewnij się, czy dane zostały dobrze wprowadzone klikając przycisk {% include inline_image.html file="przyciskGenerujStrukture.png" alt="Generuj strukturę" %} **Generuj strukturę**. W zakładce **Lokalizacja** powinno pojawić się takie drzewko, z Twoimi danymi oczywiście:
+Upewnij się, czy dane zostały dobrze wprowadzone klikając przycisk {% include inline_image.html file="przyciskGenerujStrukture.png" alt="Generuj strukturę" %}. W zakładce **Lokalizacja** powinno pojawić się takie drzewko, z Twoimi danymi oczywiście:
 
 {% include lightbox.html file="startOpStrukturaFirmyDrzewo.png" alt="Drzewo struktury firmy" caption="Drzewo struktury firmy" %}
 

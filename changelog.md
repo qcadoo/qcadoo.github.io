@@ -7,6 +7,30 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.17 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.17</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.17</td>
+          <td>
+          <ul>
+            <li>terminal rejestracji produkcji - możliwość podejrzenia szczegółów zarezerwowanego zasobu</li>
+            <li>zmiany w wydruku inwentaryzacyjnym i wydruku stanu magazynu</li>
+            <li>przyjmowanie wyprodukowanego odpadu zawsze w cenie ustalonej na podstawie kosztu nominalnego</li>
+            <li>Gantt zadań operacyjnych - termin ostateczny w tooltipie kafelka</li>
+            <li>generowanie etykiet dla pracownika - komunikat o niemożności utworzenia etykiety z kodem kreskowym</li>
+            <li>informacja o numerze zlecenia w szczegółowym zapotrzebowaniu</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 2.5.16 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.16</summary><br>
@@ -51,7 +75,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.14 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.14</summary><br>
     <table class="changelog-table" border>
         <tr>

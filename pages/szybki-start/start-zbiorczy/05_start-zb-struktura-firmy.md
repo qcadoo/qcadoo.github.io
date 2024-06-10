@@ -17,14 +17,14 @@ W wybranym przez Ciebie sposobie pracy zbiorczego raportowania produkcji, wszelk
 
 ### Zakład
 
-Zakład to pierwszy, najwyższy element struktury. Wejdź w **Struktura firmy > Zakłady** i dodaj zakład nadając mu **numer** i **nazwę**. Miasto jest daną opcjonalną.
+Zakład to pierwszy, najwyższy element struktury. Wejdź w **Struktura firmy > Zakłady** i dodaj zakład, nadając mu **Numer** i **Nazwę**. Miasto jest daną opcjonalną.
 
 {% include lightbox.html file="startZaklad.png" alt="Zakład" caption="Zakład" %}
 
 
 ### Dział 
 
-Zakład podzielony jest na działy. Aby je zdefiniować wejdź w **Struktura firmy > Działy**. Podaj **numer**, **nazwę** i wskaż **zakład**, którego dany dział jest elementem.
+Zakład podzielony jest na działy. Aby je zdefiniować wejdź w **Struktura firmy > Działy**. Podaj **Numer**, **Nazwę** i wskaż **Zakład**, którego dany dział jest elementem.
 
 {% include lightbox.html file="startDzial.png" alt="Dział" caption="Dział" %}
 
@@ -38,28 +38,28 @@ Jak już wspomniano wyżej - linia produkcyjna to to miejsce, w którym realizow
 
 {% include callout.html content="Linia to tylko umowne nazewnictwo. Czasami jako linia definiowana jest maszyna, czasami gniazdo produkcyjne, a czasami cały dział. Ma to być to miejsce, dla którego planowana będzie produkcja." type="warning" %}
 
-Jak zdefiniować linię? Wejdź w **Struktura firmy > Linie produkcyjne**. Zobaczysz zdefiniowaną na starcie jedną linię produkcyjną. Wejdź w jej szczegóły, zmodyfikuj **numer** i **nazwę**. Zapisz. Następnie przejdź do zakładki **Kalendarz**:
+Jak zdefiniować linię? Wejdź w **Struktura firmy > Linie produkcyjne**. Zobaczysz zdefiniowaną na starcie jedną linię produkcyjną. Wejdź w jej szczegóły, zmodyfikuj **Numer** i **Nazwę**. Zapisz. Następnie przejdź do zakładki **Kalendarz**:
 
 {% include lightbox.html file="StartOpLinia.png" alt="Linia produkcyjna" caption="Linia produkcyjna" %}
 
 i wskaż zmiany, na których linia będzie pracować. Jak? Kliknij przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Dodaj istniejący" %}, w oknie zaznacz odpowiednie rekordy i potwierdź klikając w przycisk {% include inline_image.html file="przyciskWybierz.png" alt="Wybierz" %}.
 
-W analogiczny sposób dodaj pozostałe linie. Dla każdej podawaj **numer**, **nazwę**, zaznacz pole **Produkcja** i podaj w zakładce **Kalendarz** na jakiej zmianie linia będzie pracować.
+W analogiczny sposób dodaj pozostałe linie. Dla każdej podawaj **numer**, **nazwę**, zaznacz pole **Produkcja** i podaj w zakładce **Kalendarz**, na jakiej zmianie linia będzie pracować.
 
 
 ### Tworzenie drzewiastej struktury
 
 Wszystko zdefiniowane - teraz koniecznie trzeba dane ze sobą powiązać, tworząc drzewiastą strukturę, tak byśmy wiedzieli w jakim dziale leży dana linia. Najwygodniej będzie połączyć dane z poziomu działu.
 
-Wejdź zatem ponownie w: **Struktura firmy > Działy** i przejdź do widoku szczegółów danego działu. Tam ustaw się w zakładce **Linie produkcyjne**. W tabeli z lewej strony kliknij przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Dodaj istniejący" %} i wybierz wszystkie linie, które znajdują się w danym dziale. Powtórz przypisanie dla każdego istniejącego działu. 
+Wejdź zatem ponownie w: **Struktura firmy > Działy** i przejdź do widoku szczegółów danego działu. Tam ustaw się w zakładce **Linie produkcyjne**. W tabeli z lewej strony, kliknij przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Dodaj istniejący" %} i wybierz wszystkie linie, które znajdują się w danym dziale. Powtórz przypisanie dla każdego istniejącego działu. 
 
 {% include lightbox.html file="startZbDzialLinia.png" alt="Łączenie elementów struktury firmy" caption="Łączenie elementów struktury firmy" %}
 
-Upewnij się, czy dane zostały dobrze wprowadzone. Przejdź do **Struktura firmy > Linie produkcyjne** i wejdź w szczegóły jednej z nich. Kliknij przycisk {% include inline_image.html file="przyciskGenerujStrukture.png" alt="Generuj strukturę" %} **Generuj strukturę**. W zakładce **Lokalizacja** powinno pojawić się takie drzewko, z Twoimi danymi oczywiście:
+Jeśli już jesteś w dziale, to warto odwiedzić zakładkę **Magazyny**. Jeśli zawsze dany dział będzie pobierał materiały z jednego magazynu, to podaj z jakiego, w polu **Magazyn pobierania surowców**. I jeśli zawsze będzie przyjmował wytworzone przez siebie wyroby na jeden magazyn, to podaj na jaki, w polu **Magazyn przyjmowania wyrobów**. Podobnie możesz zrobić dla magazynu wytworzonych **odpadów**. To są wartości domyślne dla przepływów produktów definiowanych w technologii - wprowadzone tutaj, podpowiedzą się przy jej tworzeniu.
+
+Upewnij się, czy dane zostały dobrze wprowadzone. Przejdź do **Struktura firmy > Linie produkcyjne** i wejdź w szczegóły jednej z nich. Kliknij przycisk {% include inline_image.html file="przyciskGenerujStrukture.png" alt="Generuj strukturę" %}. W zakładce **Lokalizacja** powinno pojawić się takie drzewko, z Twoimi danymi oczywiście:
 
 {% include lightbox.html file="startZbStrukturaFirmyDrzewo.png" alt="Drzewo struktury firmy" caption="Drzewo struktury firmy" %}
-
-Jeśli już jesteś w dziale, to warto odwiedzić zakładkę **Magazyny**. Jeśli zawsze dany dział będzie pobierał materiały z jednego magazynu, to podaj z jakiego, w polu **Magazyn pobierania surowców**. I jeśli zawsze będzie przyjmował wytworzone przez siebie wyroby na jeden magazyn, to podaj na jaki, w polu **Magazyn przyjmowania wyrobów**. Podobnie możesz zrobić dla magazynu wytworzonych **odpadów**. To są wartości domyślne dla przepływów produktów definiowanych w technologii - wprowadzone tutaj, podpowiedzą się przy jej tworzeniu.
 
 {% include callout.html content="Pełny opis funkcjonalności znajdziesz w tym rozdziale: [Struktura firmy](/struktura-firmy)" type="warning" %}
 
