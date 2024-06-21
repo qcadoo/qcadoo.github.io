@@ -9,12 +9,13 @@ Dokumenty magazynowe wystawiane w qcadoo kształtują stan magazynowy. O tym ile
 
 Jednym wierszem w tabeli jest produkt na danym magazynie. Stanowi sumę zasobów danego produktu i magazynu, bez względu na atrybuty określające te zasoby. 
 Najwazniejszą informacją płynącą z tabeli są ilości:
-- ilość - ilość znajdująca się na magazynie (w jednostce podstawowej produktu)
-- ilość zarezerwowana - ilość, która znajduje się na magazynie, ale jest zarezerwowana (np. pod szkicowe dokumenty magazynowe czy pod wydanie wewnętrzne)
-- ilość dostępna - to ta część produktu, która jest dostępna dla nowych wydań. Wyliczana jest jako ilość - ilość zarezerwowana
-- ilość dodatkowa - ilość znajdująca się na magazynie przedstawiona w jednostce dodatkowej produktu. Jeśli produkt nie ma jednostki dodatkowej, to widoczna jest tu ilość w jednostce podstawowej
-- stan minimalny - zdefiniowany dla produktu [stan minimalny](/stan-min)
-- ilość zamówiona - ilość na podstawie zatwierdzonych dostaw
+- **ilość** - ilość znajdująca się na magazynie (w jednostce podstawowej produktu)
+- **ilość zarezerwowana** - ilość, która znajduje się na magazynie, ale jest zarezerwowana (np. pod szkicowe dokumenty magazynowe czy pod wydanie wewnętrzne)
+- **ilość dostępna** - to ta część produktu, która jest dostępna dla nowych wydań. Wyliczana jest jako ilość - ilość zarezerwowana
+- **ilość dodatkowa** - ilość znajdująca się na magazynie przedstawiona w jednostce dodatkowej produktu. Jeśli produkt nie ma jednostki dodatkowej, to widoczna jest tu ilość w jednostce podstawowej
+- **stan minimalny** - zdefiniowany dla produktu [stan minimalny](/stan-min)
+- **ilość zamówiona** - ilość na podstawie zatwierdzonych dostaw
+- **ilość zablokowana** - suma ilości z zablokowanych do [kontroli jakości](/kontrola-jakosci) zasobów
 
 
 
