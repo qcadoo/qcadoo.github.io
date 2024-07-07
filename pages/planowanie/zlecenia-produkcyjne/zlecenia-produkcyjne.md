@@ -56,6 +56,7 @@ W zleceniu możesz uzupełnić ponadto:
 - **datę zakończenia**,
 - **termin ostateczny** - poinformujemy Cię o ewentualnym przekroczeniu tego terminu,
 - **kategorię zlecenia** - do wyboru ze słownika [kategorii](/slowniki). Wykorzystaj to pole do oznaczania / grupowania zleceń wg własnych preferencji. Np. że zlecenie jest pilne.
+- **priorytet** - informuje o tym jak ważne jest dla Ciebie to zamówienie. Im mniejsza liczba, bym istotniejsze i tym szybciej chcesz je zrealizować. Domyślnie każde zlecenie otrzymuje priorytet = 100.
 
 Po wypełnieniu danych w zakładce **Główna** zapisz zlecenie używając przycisku {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**. 
 

@@ -28,8 +28,7 @@ Koniecznie podaj **numer**, **nazwę** oraz **[typ stacji roboczej](/typy-stacji
 - producent,
 - data produkcji,
 - numer inwentarzowy,
-- pracownik - jest to domyślny pracownik obsługujący daną stację roboczą. Przypisanie przyda się w [planie na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika), gdzie dla odpowiednio wybranego kryterium doboru pracownika, do każdej operacji na daną stację zostanie przyporządkowany podany pracownik,
-- stacja buforowa - zaznacz parametr, jeśli stacja ta nie jest właściwym miejscem wykonania operacji, tylko "workiem", do którego zadania będą przydzielane w planie, i z którego kierownik produkcji przesunie zadanie do konkretnej maszyny czy stanowiska. Parametr wykorzystywany w [planie na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika) i na [wykresie Gantta zadań operacyjnych](/gantt-zadan-operacyjnych).
+- pracownik - jest to domyślny pracownik obsługujący daną stację roboczą. Przypisanie przyda się w [planie na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika), gdzie dla odpowiednio wybranego kryterium doboru pracownika, do każdej operacji na daną stację zostanie przyporządkowany podany pracownik.
 
 Potraktuj qcadoo jako bazę wszelkich dostępnych informacji o maszynie. Dzięki temu będziesz mieć inforamcje zawsze pod ręką - nie będziesz musiał przeszukiwać segregatorów z dokumentami.
 

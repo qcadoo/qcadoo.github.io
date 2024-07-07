@@ -104,11 +104,9 @@ Operacje do planu będą dodatkowo posortowane po poziomie w drzewie technologii
 
 6. **Tylko stacje linii ze zlecenia** - jeśli zaznaczysz parametr, to przy wyliczaniu planu weźmiemy pod uwagę tylko stacje, które należą do linii produkcyjnej przypisanej do zlecenia.
 
-7. **Planuj na bufor** - jeśli zaznaczysz parametr, to gdy na liście stacji, które mogą wykonać zadanie, znajduje się stacja buforowa - zostanie ona przydzielona do zadania. Po co planować na bufor? Załóżmy, że o kolejności i miejscu wykonania pewnego typu operacji chce decydować kierownik produkcji. Plan na stację wyznaczy czas trwania operacji i wrzuci ją do "worka", ale zaplanuje pozostałe czynności na właściwe stacje. Kierownik produkcji, np. korzystając  [Gantta zadań operacyjnych](gantt-zadan-operacyjnych), umieści zadania w harmonogramie produkcji.
+7. **Czas dodatkowy wydłuża operację** - zaznaczenie parametru będzie skutkowało tym, że data zakończenia operacji zostanie ustawiona po zakończeniu czasu dodatkowego. Jeśli parametr będzie niezaznaczony, to operacja skończy się po czasie Tj + TPZ, ale kolejna operacja zlecenia zostanie zaplanowana wtedy, gdy minie czas dodatkowy. Natomiast na danej stacji, mimo iż czas dodatkowy zadania trwa, będą mogły być realizowane inne czynności
 
-8. **Czas dodatkowy wydłuża operację** - zaznaczenie parametru będzie skutkowało tym, że data zakończenia operacji zostanie ustawiona po zakończeniu czasu dodatkowego. Jeśli parametr będzie niezaznaczony, to operacja skończy się po czasie Tj + TPZ, ale kolejna operacja zlecenia zostanie zaplanowana wtedy, gdy minie czas dodatkowy. Natomiast na danej stacji, mimo iż czas dodatkowy zadania trwa, będą mogły być realizowane inne czynności
-
-9. **Uwzględnij czas przygotowawczo-zakończeniowy**  - jeśli parametr będzie zaznaczony, to przy wyliczaniu czasu trwania operacji będzie uwzględniany czas TPZ określony w normach czasowych 
+8. **Uwzględnij czas przygotowawczo-zakończeniowy**  - jeśli parametr będzie zaznaczony, to przy wyliczaniu czasu trwania operacji będzie uwzględniany czas TPZ określony w normach czasowych 
 
 {% include callout.html content="Wartości domyślne warunków generowania ustawisz w [parametrach planu na stację roboczą i pracownika](/parametry-planowania.html#plan-na-stację-roboczą-i-pracownika)." type="warning" %}
 

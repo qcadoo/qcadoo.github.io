@@ -11,11 +11,11 @@ Zamówienia sprzedaży mogą być wykorzystywane albo do zaewidencjonowania zam�
   
 **Sprzedaż > Zamówienia sprzedaży** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj Nowy" %} **Dodaj nowy**
 
-1. W zakładce "Główna" możesz zmienić "Numer" zamówienia, który nadawany jest automatycznie.
+1. W zakładce **Główna** możesz zmienić **Numer** zamówienia, który nadawany jest automatycznie.
 
-2. Opcjonalnie możesz również podać jego "Nazwę", "Opis", a także przyporządkować "Kontrahenta" i określić "Datę rozpoczęcia", "Datę zakończenia" oraz "Termin ostateczny".
+2. Opcjonalnie możesz również podać jego **Nazwę**, **Opis**, a także przyporządkować **Kontrahenta** i określić **Datę rozpoczęcia**, **Datę zakończenia** oraz **Termin ostateczny**.
 
-{% include callout.html content='Jeżeli określisz "Termin ostateczny" to wówczas termin w każdym zleceniu produkcyjnym wchodzącym w skład tego zamówienia sprzedaży będzie musiał być taki sam.' type="info" %}
+{% include callout.html content='Jeżeli określisz _Termin ostateczny_ to wówczas termin w każdym zleceniu produkcyjnym powiązanym z tym zamówieniem sprzedaży, będzie musiał być taki sam. System przestanie pilnować zgodności dat, gdy [parametr planowania ](/parametry-planowania.html#zamówienia-sprzedaży) _Pozwól na zmianę terminu ostatecznego zamówienia sprzedaży_ będzie zaznaczony.' type="info" %}
 
 {% include callout.html content='Jeżeli określisz "Jeśli pracujesz z planami sprzedaży, to produkcję, którą zamierzasz wytworzyć w celu zwiększenia stanu magazynowego, zapisz jako zamówienie sprzedaży z oznaczonym parametrem Zamówienie na magazyn. Dzięki temu w planie będzie robita ilość zamówiona - osobno pokażemy ile zamówili klienci i osobno ile będzie produkowane na zapas.' type="info" %}
 

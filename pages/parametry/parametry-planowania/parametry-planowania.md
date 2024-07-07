@@ -24,7 +24,7 @@ Stosujemy trzy kolory:
 
 ---
 
-## Plan na stację roboczą i pracownika 
+## Plan na stację
 
 W tej zakładce ustawiasz domyślne wartości do generowania [planu na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika).
 
@@ -47,13 +47,11 @@ wskaż, czy chcesz najpierw układać w planie te operacje, na które trzeba bę
 - **_domyślny pracownik dla danej stacji_** - w tej opcji planowania do każdego zadania operacyjnego zostanie przypisany pracownik ustawiony jako domyślny w [stacji roboczej](/stacje-robocze).
 
 {:start="4"}
-4. **Planuj na bufor** - jeśli zaznaczycz parametr, to gdy na liście stacji, które mogą wykonać zadanie, znajduje się stacja buforowa - zostanie ona przydzielona do zadania
+4. **Czas dodatkowy wydłuża operację** - zaznaczenie parametru będzie skutkowało tym, że data zakończenia operacji zostanie ustawiona po zakończeniu czasu dodatkowego. Jeśli parametr będzie niezaznaczony, to operacja skończy się po czasie Tj + TPZ, ale kolejna operacja zlecenia zostanie zaplanowana wtedy, gdy minie czas dodatkowy. Natomiast na danej stacji, mimo iż czas dodatkowy zadania trwa, będą mogły być realizowane inne czynności
 
-5. **Czas dodatkowy wydłuża operację** - zaznaczenie parametru będzie skutkowało tym, że data zakończenia operacji zostanie ustawiona po zakończeniu czasu dodatkowego. Jeśli parametr będzie niezaznaczony, to operacja skończy się po czasie Tj + TPZ, ale kolejna operacja zlecenia zostanie zaplanowana wtedy, gdy minie czas dodatkowy. Natomiast na danej stacji, mimo iż czas dodatkowy zadania trwa, będą mogły być realizowane inne czynności
+5. **Uwzględnij czas przygotowawczo-zakończeniowy** - zaznacz parametr jeśli chcesz, aby podczas wyliczania czasu trwania operacji, uwzględniany był czas przygotowawczo-zakończeniowy zdefiniowany w normach czasowych operacji
 
-6. **Uwzględnij czas przygotowawczo-zakończeniowy** - zaznacz parametr jeśli chcesz, aby podczas wyliczania czasu trwania operacji, uwzględniany był czas przygotowawczo-zakończeniowy zdefiniowany w normach czasowych operacji
-
-7. **Pomijaj zakończone zadania** - zaznacz parametr jeśli chcesz, aby planowanie nie brało pod uwagę zadań już zakończonych przypisanych do stacji
+6. **Pomijaj zakończone zadania** - zaznacz parametr jeśli chcesz, aby planowanie nie brało pod uwagę zadań już zakończonych przypisanych do stacji
 
 ---
 
@@ -82,11 +80,13 @@ Dzięki zamówieniom sprzedaży możesz prowadzić rejestr zgłoszeń od klient�
 
 2. **Nie ustalaj dat w generowanych zleceniach** - standardowo daty podane w zamówieniu sprzedaży przenoszone są do tworzonego zlecenia produkcyjnego. Jeśli nie chcesz ich przenosić - zaznacz parametr.
 
-3. **Definicje zamówień sprzedaży** - definicje zamówień sprzedaży pozwalają na pogrupowanie zamówień. Możesz wprowadzić definicje dla zamówień krajowych i unijnych. Dzięki temu od razu będzie wiadomo jaki jest kierunek sprzedaży. Ale możesz definicje wykorzystać do czegoś innego - ogranicza Cię tylko wyobraźnia. Dodaj tutaj definicje i podpinaj je przy tworzeniu zamówienia sprzedaży
+3. **Pozwól na zmianę terminu ostatecznego zamówienia sprzedaży** - zaznacz parametr jeśli chcesz móc zmienić termin ostateczny zlecenia, bez aktualizacji powiązanych zleceń produkcyjnych. W takiej konfiguracji nie będziemy pilnować, czy termin w zamówieniu i zleceniach się zgadza.
 
-4. **Zakończ zamówienie sprzedaży po zleceniu wszystkich pozycji** - jeśli zaznaczysz parametr, to w momencie, gdy wszystkie pozycje będą miały status "Zlecone", oznaczymy zamówienie sprzedaży jako zakończone
+4. **Definicje zamówień sprzedaży** - definicje zamówień sprzedaży pozwalają na pogrupowanie zamówień. Możesz wprowadzić definicje dla zamówień krajowych i unijnych. Dzięki temu od razu będzie wiadomo jaki jest kierunek sprzedaży. Ale możesz definicje wykorzystać do czegoś innego - ogranicza Cię tylko wyobraźnia. Dodaj tutaj definicje i podpinaj je przy tworzeniu zamówienia sprzedaży
 
-5. **Magazyn wydania wyrobów dokumentem WZ** - ustal magazyn, który podpowiemy w dokumencie WZ tworzonym do zamówienia sprzedaży
+5. **Zakończ zamówienie sprzedaży po zleceniu wszystkich pozycji** - jeśli zaznaczysz parametr, to w momencie, gdy wszystkie pozycje będą miały status "Zlecone", oznaczymy zamówienie sprzedaży jako zakończone
+
+6. **Magazyn wydania wyrobów dokumentem WZ** - ustal magazyn, który podpowiemy w dokumencie WZ tworzonym do zamówienia sprzedaży
 
 ---
 

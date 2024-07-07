@@ -13,9 +13,7 @@ Na wykresie Gantta widać wszystkie te [zadania operacyjne](/planowanie-operacyj
 
 Plan widoczny na wykresie Gantta możesz przeglądać w różnych perspektywach czasowych - klikając w nagłówek kalendarza (widoczne dni, godziny itp.) lewym przyciskiem myszy przybliżasz widok, aż do minut. Klikając prawym przyciskiem myszy - oddalasz, aż do miesięcy. 
 
-Domyślnie widoczne są wszystkie aktywne stacje robocze. Możesz:
-- ukryć stacje buforowe, zostawiając [parametr](/parametry-planowania.html#gantt-zadań-operacyjnych) _Stacje buforowe widoczne na wykresie_ niezaznaczony
-- ukryć na czas planowania nieistotne stacje, klikając przycisk {% include inline_image.html file="przyciskXGanttWierszStacji.png" alt="X" %} w wierszu stacji. Usunięte stacje wrócą po ponownym wczytaniu Gantta lub odświeżeniu jego zawartości.
+Domyślnie widoczne są wszystkie aktywne stacje robocze. Możesz ukryć na czas planowania nieistotne stacje, klikając przycisk {% include inline_image.html file="przyciskXGanttWierszStacji.png" alt="X" %} w wierszu stacji. Usunięte stacje wrócą po ponownym wczytaniu Gantta lub odświeżeniu jego zawartości.
 
 Dane zapisywane są od razu po wprowadzonych zmianach. Jeśli przesuniesz kafelek - efekt od razu będzie widoczny w [liście zadań operacyjnych](/planowanie-operacyjne). Jeśli jednak inny użytkownik doda nowe zadania, czy je zmieni, zobaczysz aktualny stan dopiero po odświeżeniu widoku. Możesz albo ponownie wczytać kalendarz, albo kliknąć przycisk odświeżenia {% include inline_image.html file="przyciskGanttOdswiez.png" alt="Odśwież" %} pod wykresem.
 
