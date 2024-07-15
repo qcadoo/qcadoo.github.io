@@ -221,6 +221,10 @@ entries:
         output: web
         url: /rezerwacja-zasobu-pod-zlecenie.html
 
+      - title: Produkcja akordowa
+        output: web
+        url: /praca-akordowa.html
+
   - title: Dashboard
     output: web
     folderitems:

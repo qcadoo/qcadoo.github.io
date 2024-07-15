@@ -115,27 +115,39 @@ Podpięte pliki możesz podejrzeć klikając w nie, albo pobrać zaznaczając i 
 
 {% include lightbox.html file="produktyProduktyKoszty.png" alt="Koszty produktu" caption="Koszty produktu" %} 
 
-Dane zawarte w tej zakładce to podstawa do [kalkulacji kosztów](/koszty-zlecenia). W zależności od tego jak ustawisz [parametry rozliczenia](/parametry-rejestracja-produkcji.html#rozliczenie-produkcji) (źródło kosztów materiałów i wykorzystywane koszty materiałów) to takie konkretne ceny będziemy do kalkulacji pobierać. Jakie są możliwości?
-- cena ostatniego przychodu
-- cena średnio ważona
-- cena z ostatniej oferty
-- cena średnio ważona
+Koszty produktu gromadzone są przede wszystkim to, by móc przeprowadzić [kalkulację kosztów](/koszty-zlecenia), ustalającą ile najprawdopodobniej będzie kosztować produkcja wyrobu. Przydają się jednak też w momencie składania zamówienia na surowce.
 
-do tego jest też koszt nominalny. Tu zastosowanie jest szersze - możesz to pole wykorzystać do kalkulacji kosztów. Ale możesz też wytworzone produkty przyjmować w tej właśnie cenie. Aby tak się stało w parametrach rozliczenia produkcji **Cena PW na podst. = koszt nominalny produktu**. Koszt ten możesz albo uzupełniać sam, albo wyliczyć TKW przy pomocy kalkulacji kosztów i zapisać koszt używając funkcji {% include inline_image.html file="przyciskZapiszKosztNominalnyWyboru.png" alt="Przycisk Zapisz koszt nominalny wyrobu" %} **Zapisz koszt nominalny wyrobu**.
+<u>Omówmy szczegółowo jakie ceny zapisujemy i do czego mogą się przydać:</u>
+- **koszt nominalny** - w księgowości znany jako cena ewidencyjna. To w tej cenie może być przyjmowany na magazyn wytworzony wyrób lub półprodukt. Dana ta zapisywana jest przez użytkownika ręcznie (np. na podstawie danych dostarczonych przez księgowość. Być może przez dany okres obrachunkowy wyrób powinien być przyjnowany w stałej cenie ewidencyjnej, a ewentualne różnice między faktycznymi kosztami produkcji, a przyjętą ceną, rozliczane przy pomocy konta odchyleń). Możesz jednak skorzystać z funkcji {% include inline_image.html file="przyciskZapiszKosztNominalnyWyboru.png" alt="Przycisk Zapisz koszt nominalny wyrobu" %} **Zapisz koszt nominalny wyrobu** w [kalkulacji kosztów](koszty-zlecenia). Wówczas cena będzie odpowiednikiem szacowanego TKW.  
+  - Koszt nominalny ma jeszcze jedno zastosowanie. Możesz zapisać w polu spodziewaną cenę zakupu surowca (np. gdy kupujesz nowy produkt i już masz z dostawcą ustaloną cenę zakupu). Tworząc zamówienie zakupu (w qcadoo znane jako [dostawę](/dostawy)) podpowiemy jako cenę jednostkową koszt nominalny, gdy ostatnia cena zakupu lub średnio ważona, nie będzie ustalona. Podobnie wykorzystasz ten koszt przy szacowaniu kosztów wytworzenia w [karcie modelu](/karta-modelu)
+- **ceny produktów** ustalane są na podstawie zaewidencjonowanych w qcadoo dokumentów magazynowych. Są to:
+  - **cena ostatniego przychodu** - zapisujemy tutaj cenę, która została zapisana na ostatnim przychodowym dokumencie magazynowym dla tego produktu
+  - **cena średnio ważona** - wyliczamy tu średnią cenę posiadanego zapasu magazynowego, jako: suma wartości zasobów / suma ilości zasobów danego produktu
+- **ceny z ofert** ustalane są na podstawie zapisanych w qcadoo ofert dostaw. Są to:
+  - **cena z ostatniej oferty** - pobieramy cenę danego produktu z ostatniej oferty
+  - **cena średnio ważona** - wyliczamy średnią cenę z ofert na ten produkt (liczona jako suma wartości / suma ilości)
 
+Wszystkie ceny zapisywane są dla ilości produktów podanej w polu: **Podane koszty/ceny dotyczą ilości**. Dzięki temu zawsze, gdy surowiec zakupujesz w paczce i cena dotyczy całej paczki, będziesz mógł to odpowiednio zapisać w qcadoo.
+
+I jeszcze kilka ważnych informacji:
+
+**A.** O tym jakie dane będą pobierane do kalkulacji decydują parametry. Dla kalkulacji kosztów będą to [parametry technologii](/parametry-technologia.html#kalkulacja-kosztów). O innych miejscach będziemy informować we właściwych rozdziałach dokumentacji.
 <br/>
 
-Standardowo w [parametrach rejestracji produkcji](/parametry-rejestracja-produkcji.html#rejestracja-produkcji) możesz wybrać, czy chcesz je przyjmować na magazyn w stałej cenie ustalonej na podstawie kosztu nominalnego, czy na podstawie wyliczonego TKW. Są jednak dwa odstępstwa od tej reguły. Niezależnie od ustawień parametru, cena na PW ustalona będzie na podstawie kosztu nominalnego, gdy:
+**B.** Standardowo w [parametrach rejestracji produkcji](/parametry-rejestracja-produkcji.html#rejestracja-produkcji) możesz wybrać, czy chcesz wyroby przyjmować na magazyn w stałej cenie ustalonej na podstawie kosztu nominalnego, czy na podstawie wyliczonego TKW. Są jednak dwa odstępstwa od tej reguły. Niezależnie od ustawień parametru, cena na PW ustalona będzie na podstawie kosztu nominalnego, gdy:
 - na magazyn będziesz przyjmować wyprodukowane odpady, 
 - technologia zakłada wytworzenie produktu głównego i finalnych produktów dodatkowych. Zasada dotyczy wszystkich wytworzonych wówczas produktów.
-
 <br/>
 
-Koszt nominalny możesz określić w innej walucie, niż waluta systemowa. Np. po to by zapisać obiecaną przez dostawcę cenę za dany materiał. Cena zostanie albo wykorzystana w qcadoo w tej walucie (np. w dostawie), albo przeliczona na PLN zgodnie z średnim kursem waluty (np. w kalkulacji kosztów, czy rozliczeniu produkcji).
+**C.** Koszt nominalny możesz określić w innej walucie, niż waluta systemowa. Np. po to, by zapisać obiecaną przez dostawcę cenę za dany materiał. Cena zostanie albo wykorzystana w qcadoo w tej walucie (np. w dostawie), albo przeliczona na PLN zgodnie z średnim kursem waluty (np. w kalkulacji kosztów, czy rozliczeniu produkcji).
+<br/>
 
-Dla prawidłowego określenia kosztów ważne jest też pole **Podane koszty/ceny dotyczą ilości** - jeśli cena dotyczy innej ilości niż 1 jednostka, to odpowiednio nanieś zmiany.
+**D.** Dla prawidłowego określenia kosztów ważne jest też pole **Podane koszty/ceny dotyczą ilości** - jeśli cena dotyczy innej ilości niż 1 jednostka, to odpowiednio nanieś zmiany.
 
-{% include callout.html content="Koszty mogą być ustalane na podstawie danych z dokumentów magazynowych. Ze szczegółami zapoznasz się z rozdziału **Uzupełnij koszty produktów**" type="warning" %}
+**E** Aby koszty produktów zostały wyznaczone, konieczne jest wywołanie funkcji (Uzupełnij koszty produktu)[/produkty.html#uzupełnij-koszty-produktu]. Możesz to zrobić ręcznie klikając w przycisk w liście produktów. Ale możesz też skorzystać z mechanizmu automatycznego uzupełniania kosztów w nocy. W tym celu ustaw odpowiednio [parametry produktów](/parametry-glowna.html#produkty).
+
+**F** Koszty mogą być pobierane ze zinegrowanego systemu ERP.
+
 
 {:start="8"}
 #### 8. zakładka **Partie**
@@ -264,7 +276,6 @@ Dla produktu mamy możliwość, za pomocą przycisków, sprawdzenia:
 
 - **technologii**, w których dany produkt jest [wykorzystywany](/masowa-zmiana-technologii) lub produkowany oraz do jakich grup technologii należy,
 - **zlecenia** dzięki, którym produkt został wyprodukowany, zarówno te planowane jaki i wszystkie,
-- **historię miejsc składowania**, czyli do jakiego miejsca składowania produkt był przywiązany kiedyś, a gdzie go składujemy aktualnie,
 - **rejestracje produkcji** dla tego produktu, pojedynczo lub zgrupowane
 - **dodatkowych informacji** takich jak historia zmian produktów, numer ID w systemie zewnętrznym (w przypadku integracji), powiązana grupa technologii, czy wreszcie dostawców danego produktu.
 
