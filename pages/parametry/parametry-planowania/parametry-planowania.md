@@ -130,13 +130,11 @@ Parametry wspólne:
 
 Parametry wyłącznie dla Gantta zadań operacyjnych:
 
-1. **Stacje buforowe widoczne na wykresie** - jeśli nie zaznaczysz parametru, to stacje buforowe nie będą wierszami na wykresie Gantta, a zadania do nich przypisane będą widoczne w buforze wykresu, skąd będziesz mógł je przenieść na właściwe miejsce wykonania.
-
-2. **Wyliczanie długości kafelka**
+1. **Wyliczanie długości kafelka**
 - **Uwzględnij czas przygotowawczo-zakończeniowy TPZ** - zaznacz parametr a do zadania operacyjnego będzie doliczany czas przygotowawczo-zakończeniowy operacji
 - **Uwzględnij czas dodatkowy** - zaznacz parametr a do zadania operacyjnego będzie doliczany czas dodatkowy operacji
 
-3. **Prezentuj zdarzenia planowane** - zaznacz parametr jeśli chcesz aby na wykresie Gantta zadań operacyjnych pojawiały się kafelki na podstawie zdarzeń planowanych (Dział Utrzymania Ruchu) wymagających wyłączenia stacji roboczej z ruchu. Dzięki temu planista będzie wiedział na kiedy zaplanowane są remonty, przeglądy czy inne prace związane z utrzymaniem ruchu.
+2. **Prezentuj zdarzenia planowane** - zaznacz parametr jeśli chcesz aby na wykresie Gantta zadań operacyjnych pojawiały się kafelki na podstawie zdarzeń planowanych (Dział Utrzymania Ruchu) wymagających wyłączenia stacji roboczej z ruchu. Dzięki temu planista będzie wiedział na kiedy zaplanowane są remonty, przeglądy czy inne prace związane z utrzymaniem ruchu.
 
 ## Naprawy
 

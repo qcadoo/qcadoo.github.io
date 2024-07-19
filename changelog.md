@@ -7,6 +7,26 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.20 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.20</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.20</td>
+          <td>
+          <ul>
+            <li>nowa kolumna w liście planowanych zleceń - nazwa zamówienia sprzedaży</li>
+            <li>Gantt stacji roboczych w planie na stację - prezentacja zadań operacyjnych o typie inne</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 2.5.19 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.19</summary><br>
@@ -52,7 +72,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.17 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.17</summary><br>
     <table class="changelog-table" border>
         <tr>
