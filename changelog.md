@@ -7,6 +7,27 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.21 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.21</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.21</td>
+          <td>
+          <ul>
+            <li>kopiowanie odcinków do pocięcia w szczegółowym zapotrzebowaniu do wykorzystanego zamiennika</li>
+            <li>weryfikacja czy stacje robocze są w stanie wykonać wyrób o danych wymiarach - walidacja na zapisie zlecenia</li>
+            <li>generowanie zleceń na komponenty - przenoszenie priorytetu ze zlecenia głównego na utworzone zlecenia powiązane</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 2.5.20 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.20</summary><br>
@@ -51,7 +72,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.18 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.18</summary><br>
     <table class="changelog-table" border>
         <tr>

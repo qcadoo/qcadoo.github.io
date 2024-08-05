@@ -38,6 +38,10 @@ Do dyspozycji masz następujące parametry:
 - _początku pierwszej zmiany kolejnego dnia_ - podpowiemy datę początku Twojej pracy następnego dnia (czyli przyda się ta opcja, gdy dziś zakładasz zlecenia na jutro)
 - _daty zakończenia ostatniego zlecenia na linii_ - namierzymy ostatnie zlecenie na linii produkcyjnej i to dodawane układamy bezpośrednio po nim. Jeśli dodatkowo będziesz wyliczać czas trwania w qcadoo na podstawie [produkcji na zmianę](/produkcja-na-zmiane) albo [czasochłonności technologii](/czasochlonnosc-zlecenia) to w łatwy sposób ustalisz kompletny plan produkcyjny.
 
+12. **Kontrola wymiarów**:
+- **Kontroluj wymiary wytwarzanych przez stacje wyrobów** - zaznacz parametr jeśli chcesz, abyśmy na zapisie zlecenia sprawdzili, czy zlecony wyrób ma wymiary, które pozwolą na wytworzenie na zaplanowanych w technologii stacjach roboczych. Aby weryfikacja była możliwa wskaż za pomocą jakich atrybutów produkt będzie miał określone wymiary. Pamiętaj też o podaniu maksymalnych i minimalnych wymiarów w [stacji roboczej](/stacje-robocze).
+- lista **atrybutów** - parametr aktywny, gdy _Kontroluj wymiary wytwarzanych przez stacje wyrobów_ zaznaczony. Lista atrybutów ograniczona do tych właściwych produktom. Podane atrybuty będą poszukiwane w zleconym wyrobie. Jeśli wyrób będzie miał przypisany choć jeden atrybut z podanej tu listy, zostanie przeprowadzona kontrola wymiarów.
+
 
 ## Zlecenia produkcji z zamówień
 

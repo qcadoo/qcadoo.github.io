@@ -68,12 +68,14 @@ qcadoo MES posiada opcję optymalizacji cięcia odcinków w ramach zlecenia. Pe�
 
 I teraz to to miejsce jest informacją dla optymalizatora, jakie elementy muszą zostać pocięte.
 
-Pamiętaj o następujących zasadach:
+<u>Pamiętaj o następujących zasadach</u>:
 1. odcinki w szczegółowym zapotrzebowaniu definiowane są na jednostkę wytwarzanego wyrobu (tak jak w technologii). Optymalizator sam wyliczy ile będzie ich potrzebnych, by wytworzyć zleconą ilość wyrobu, 
 2. odcinki uzupełniają się zawsze w momencie wczytania w zleceniu technologii - czyli na starcie, przy zakładaniu zlecenia, ale też po modyfikacji, np. w celu wskazania innego wariantu produkcji. Jeśli przed zmianą technologii w zleceniu naniosłeś zmiany w odcinkach w szczegółowym zapotrzebowaniu, to musisz wprowadzić je ponownie,
 3. zmieniając definicję odcinków w szczegółowym zapotrzebowaniu, pamiętaj, by ponownie wywołać w zleceniu funkcję optymalizacji cięcia, tak by na produkcji były dostępne właściwe informacje.
 
 Zaplanowanie odcinków do pocięcia wprost w zleceniu może być przeprowadzone nawet wtedy, gdy w technologii nie zostały one zdefiniowane. Zakładka będzie widoczna dla każdego produktu ze szczegółowego zapotrzebowania o roli = użyty.
+
+{% include callout.html content="Funkcja **Wykorzystaj zamiennik** założy, że nowo zaplawany produkt do użycia też musi zostać pocięty na takie odcinki, jakie zdefiniowano w surowcu głównym." type="warning" %}
 
 --- 
 ## Ręczne wydanie materiałów do zlecenia produkcyjnego
