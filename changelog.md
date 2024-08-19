@@ -7,6 +7,28 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.22 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.22</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.22</td>
+          <td>
+          <ul>
+            <li>wydruk zlecenia w postaci przewodnika produkcyjnego</li>
+            <li>cena sprzedaży w pozycji zamówienia sprzedaży</li>
+            <li>przekazywanie ceny sprzedaży z zamówienia na tworzony dokument WZ</li>
+            <li>rozbudowanie importu zamówień sprzedaży z pliku .xlsx o pobieranie daty dostawy pozycji i ceny sprzedaży</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 2.5.21 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.21</summary><br>
@@ -49,7 +71,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.19 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.19</summary><br>
     <table class="changelog-table" border>
         <tr>

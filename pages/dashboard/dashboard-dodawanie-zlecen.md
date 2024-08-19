@@ -14,7 +14,7 @@ Jakie są atuty tworzenia zlecenia z poziomu dashboardu?
 2. **kompleksowość** - nie musisz najpierw tworzyć produktów. Później technologii. I dopiero później w innym miejscu - zlecenia produkcyjnego. Możesz wszystko na raz stworzyć przechodząc tych kilka kroków, o których poczytasz niżej.
 3. **szybkość** - nie tracisz czasu na definiowanie danych w kilku miejscach w qcadoo. Możesz dodać zlecenie w kilkanaście sekund z poziomu dashboardu.
 
-Zanim zaczniesz dodawać z dashboardu zlecenie produkcyjne razem z technologią ustaw następujące parametry:
+Zanim zaczniesz dodawać z dashboardu zlecenie produkcyjne razem z technologią, ustaw następujące parametry:
 - [parametry dashboardu](/parametry-dashboard) - wskaż operację, która ma być podpięta do drzewa technologicznego oraz magazyny, które będą uczestniczyły w procesie (musimy wiedzieć skąd chcesz pobierać surowce do produkcji i gdzie chcesz składować wytworzone wyroby)
 - [parametry technologii](/parametry-technologia) - zaznacz _Uzupełniaj magazyny dla produktów w przepływie podczas sprawdzania technologii_. Dzięki temu technologia będzie mogła być zaakceptowana z automatu.
 
