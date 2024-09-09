@@ -1140,6 +1140,38 @@ entries:
       output: web
       url: /wzorce-numerow.html
 
+  - title: qcadoo WMS - SZYBKI START
+    output: web
+    folderitems:
+
+    - title: Szybki START - WMS
+      output: web
+      url: /start_wms-wprowadzenie.html
+
+    - title: Szybki START - WMS - Krok 1. Magazyny
+      output: web
+      url: /01_start_wms-magazyn.html
+
+    - title: Szybki START - WMS - Krok 2. Miejsca składowania
+      output: web
+      url: /02_start_wms-miejsce-sklad.html
+
+    - title: Szybki START - WMS - Krok 3. Palety
+      output: web
+      url: /03_start_wms-palety.html
+
+    - title: Szybki START - WMS - Krok 4. Produkty
+      output: web
+      url: /04_start_wms-produkty.html
+
+    - title: Szybki START - WMS - Krok 5. Firmy
+      output: web
+      url: /06_start_wms-firmy.html 
+
+    - title: Szybki START - WMS - Krok 6. Przyjęcie na magazyn
+      output: web
+      url: /06_start_wms-przyjecie.html
+
   - title: Integracja
     output: web
     folderitems:
