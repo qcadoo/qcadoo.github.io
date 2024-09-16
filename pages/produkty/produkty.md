@@ -10,10 +10,10 @@ Listę produktów znajdziesz w **Produkty > Produkty**:
 {% include lightbox.html file="produktyProduktyLista.png" alt="Lista produktów" caption="Lista produktów" %}
 
 Z poziomu listy możesz:
-- dodać ręcznie produkty
-- zaimportować produkty z Excela
-- utworzyć zlecenia produkcyjne
-- zaktualizować koszty produktów
+- dodać ręcznie produkty,
+- zaimportować produkty z Excela,
+- utworzyć zlecenia produkcyjne,
+- zaktualizować koszty produktów.
 
 Funkcje te zostaną szczegółowo opisane poniżej.
 
@@ -35,13 +35,13 @@ Zacznij od wypełnienia zakładki Główna. Podaj koniecznie:
 - **jednostka podstawowa** - wybierz z listy dostępnych [jednostek](/slowniki) właściwą. Jest to jednostka podstawowa - w niej będzie prowadzona ewidencja magazynowa, ona będzie się zawsze podpowiadała, gdy będziesz musiał określić ilość tego produktu.
 
 Możesz uzupełnić też produkt o następujące informacje:
-- **globalny typ materiału** - możesz oznaczyć produkt jako: produkt finalny, półprodukt, surowiec lub odpad. Ułatwi Ci to odszukanie produktów odpowiedniego typu,
+- **globalny typ materiału** - możesz oznaczyć produkt jako: produkt finalny, półprodukt, surowiec, odpad lub opakowanie. Ułatwi Ci to odszukanie produktów odpowiedniego typu,
 - **jednostka dodatkowa** - jeśli chciałbyś prowadzić ewidencję magazynową w dwóch jednostkach, to podaj tutaj jednostkę dodatkową. Pamiętaj o zdefiniowaniu przelicznika między jednostką podstawową a jednostką dodatkową,
 - **kod EAN** - jeśli używasz dodatkowego kodu do identyfikacji produktu, możesz go tutaj podać. Kod EAN musi być unikalny,
-- **kategoria produktu** - pole służy do grupowania produktów. Zdefiniuj w [słowniku Kategorie produktów](/slowniki) odpowiednie wartości i przypisz produktowi jedną z nich. Kategorię produktu zobaczysz m.in. w terminalu w oknie wyboru zleceń,
+- **kategoria produktu** - pole służy do grupowania produktów. Zdefiniuj w [słowniku Kategorie produktów](/slowniki) odpowiednie wartości i przypisz produktowi jedną z nich. Kategorię produktu zobaczysz m.in. w terminalu rejestracji produkcji w oknie wyboru zleceń,
 - **opis** - w tym polu możesz zostawić te informacje, które są dla Ciebie ważne, ale nie znalazłeś na nie miejsca w innych dostępnych polach,
 - **producent** - wskaż tutaj producenta danego produktu, korzystając z listy [firm](/firmy) zdefiniowanych w qcadoo,
-- **dostawca** - dostawca tutaj wprowadzony (do wyboru z listy firm) oznaczony będzie jako dostawca domyślny tego produktu. Jeśli chcesz zapisać większą ilość kontrahentów, od których dany produkt kupujesz stwórz ją przechodząc ze szczegółów produktu do: dodatkowe informacje > zakładka Dostawcy
+- **dostawca** - dostawca tutaj wprowadzony (do wyboru z listy firm) oznaczony będzie jako dostawca domyślny tego produktu. Jeśli chcesz zapisać większą ilość kontrahentów, od których dany produkt kupujesz, stwórz ją, przechodząc ze szczegółów produktu do: Dodatkowe informacje > zakładka Dostawcy
 - **asortyment** - do wybrania [asortyment](/asortymenty) zdefiniowany w qcadoo. Asortyment to dodatkowa forma grupowania produktów, niezbędna, gdy chcesz korzystać z [grup zleceń](/grupy-zlecen).
 - **model** - do wybrania [model](/modele) zdefiniowany w qcadoo. Model to kolejny sposób na grupowanie produktów. Modelem możemy nazywać np. produkty bardzo podobne, charakteryzujące się podobnymi cechami.
 
@@ -57,7 +57,7 @@ W produkcie widocznych jest szereg **dodatkowych zakładek**, w których możesz
 
 {% include lightbox.html file="produktyProduktyRodzina.png" alt="Rodzina produktu" caption="Rodzina produktu" %} 
 
-to kolejny sposób na grupowanie produktów (jak widzisz - dostępnych jest kilka, więc albo wybierz ten, który jest dla Ciebie najwygodniejszy, albo wykorzystaj każdy, grupując produkty wg różnych kryteriów). Ogólna idea jest taka - tworzymy rodziny i do tych rodzin podpinamy konkretne produkty. Rodzina produktów dodawana jest jak standardowy produkt - różnica polega na tym, że w zakładce Rodzina ustawić musisz **Reprezentuje = rodzinę produktów**. Jeśli chcesz 'normalne' produkty (czyli takie, które mają **Reprezentuje = konkretny produkt**) podpiąć pod rodzinę, to w zakładce rodzina w polu **Należy do rodziny** wskaż tą rodzinę właśnie.
+to kolejny sposób na grupowanie produktów (jak widzisz - dostępnych jest kilka, więc albo wybierz ten, który jest dla Ciebie najwygodniejszy, albo wykorzystaj każdy, grupując produkty wg różnych kryteriów). Ogólna idea jest taka - tworzymy rodziny i do tych rodzin podpinamy konkretne produkty. Rodzina produktów dodawana jest jak standardowy produkt - różnica polega na tym, że w zakładce Rodzina ustawić musisz **Reprezentuje = rodzinę produktów**. Jeśli chcesz 'normalne' produkty (czyli takie, które mają **Reprezentuje = konkretny produkt**) podpiąć pod rodzinę, to w zakładce rodzina w polu **Należy do rodziny** wskaż tę rodzinę właśnie.
 
 Rodzina produktu wykorzystywana jest w [generatorze technologii](/generator-technologii) do oznaczania tych produktów, do których mają tworzyć się nowe produkty.
 
@@ -66,7 +66,7 @@ Rodzina produktu wykorzystywana jest w [generatorze technologii](/generator-tech
 
 {% include lightbox.html file="produktyProduktyZamienniki.png" alt="Zamienniki produktu" caption="Zamienniki produktu" %} 
 
-Jeśli w produkcji stosujemy zamienniki produktów, to w zakładce **Zamienniki** możemy je zdefiniować. Dla każdego zamiennika konieczne jest określenie jaka ilość subsytutu zastępuje jednostkę naszego produktu (np. ksylitol może być zamiennikiem cukru białego. Ale gdy zaplanowaliśmy użycie 1 kg cukru białego, to stosując zamiennik w postaci ksylitolu trzeba będzie wykorzystać 1,1 kg). Takie wyjątki Ciebie nie dotyczą? Zawsze subsytut zastępuje zaplanowany produkt 1 do 1? Możesz wprowadzić listę zamienników zdecydowanie szybciej zaznaczając w liście odpowiednie produkty. W tym celu użyj przycisku {% include inline_image.html file="przyciskDodajWieleZamiennikow.png" alt="Przycisk Dodaj wiele zamienników" %} **Przycisk Dodaj wiele zamienników**. 
+Jeśli w produkcji stosujemy zamienniki produktów, to w zakładce **Zamienniki** możemy je zdefiniować. Dla każdego zamiennika konieczne jest określenie jaka ilość subsytutu zastępuje jednostkę naszego produktu (np. ksylitol może być zamiennikiem cukru białego. Ale gdy zaplanowaliśmy użycie 1 kg cukru białego, to stosując zamiennik w postaci ksylitolu trzeba będzie wykorzystać 1,1 kg). Takie wyjątki Ciebie nie dotyczą? Zawsze subsytut zastępuje zaplanowany produkt 1 do 1? Możesz wprowadzić listę zamienników zdecydowanie szybciej, zaznaczając w liście odpowiednie produkty. W tym celu użyj przycisku {% include inline_image.html file="przyciskDodajWieleZamiennikow.png" alt="Przycisk Dodaj wiele zamienników" %}. 
 
 {% include callout.html content="Zamienniki będzie można wykorzystać do produkcji - więcej w tym temacie przeczytasz [tutaj](/rejestracja-produkcji.html#jak-zarejestrować-wykorzystany-zamiennik) " type="warning" %}
 
@@ -81,7 +81,7 @@ Jeśli planujesz wprowadzać ilości produktu w innych jednostkach niż jednostk
 {:start="4"}
 #### 4. zakładka **Atrybuty** 
 
-W zakładce możesz dodatkowo opisać produkt używając zdefiniowanych wcześniej [atrybutów](/atrybuty)
+W zakładce możesz dodatkowo opisać produkt, używając zdefiniowanych wcześniej [atrybutów](/atrybuty)
 
 {% include lightbox.html file="podstawoweProduktyAtrybuty.png" alt="Atrybuty produktu" caption="Atrybuty produktu" %} 
 
@@ -98,7 +98,7 @@ Aby przypisać do produktu atrybut i określić jego wartość, kliknij w tabeli
 
 W zakładce tej możesz podać następujące dane:
 - **rozmiar** - do wybrania z listy [rozmiarów](/rozmiary). Rozmiar widoczny jest np. w analizach. Dodatkowo: produkty rozmiarowe mają w qcadoo specjalną ścieżkę obsługi w planach sprzedaży i zamówieniach sprzedaży - szybciej wprowadzisz ilości dla każdego z rozmiarów.
-- **ważność** - jeśli chcesz abyśmy wyznaczali datę ważności produkowanych wyrobów, podaj w polu ważność wyrażoną w miesiącach. Podczas rejestracji podpowiemy datę ważności późniejszą od daty rozpoczęcia zlecenia o podaną ilość miesięcy
+- **ważność** - jeśli chcesz, abyśmy wyznaczali datę ważności produkowanych wyrobów, podaj w polu ważność wyrażoną w miesiącach. Podczas rejestracji podpowiemy datę ważności późniejszą od daty rozpoczęcia zlecenia o podaną ilość miesięcy
 - **forma** - jeśli do produkcji będziesz używał konkretnej formy, możesz ją tutaj wskazać
 - **pokaż jako materiał na karcie produktu** - produkty wejściowe technologii z zaznaczonym parametrem pojawiają się na karcie produktu
 
@@ -107,8 +107,8 @@ W zakładce tej możesz podać następujące dane:
 
 {% include lightbox.html file="produktyProduktyZalaczniki.png" alt="Załączniki produktu" caption="Załączniki produktu" %} 
 
-Jeśli chcesz do produktu możesz podpiąć załączniki - np. rysunki techniczne, certyfikaty, czy inną dokumentację mająca pomóc w identyfikacji. W zakładce **Załączniki** możesz załączyć plik albo przez kliknięcie w przycisk **Wybierz pliki** i wskazanie go z dysku, albo poprzez przeciągnięcie i upuszczenie w czarny obszar opisany tekstem **Upuść pliki tutaj**. 
-Podpięte pliki możesz podejrzeć klikając w nie, albo pobrać zaznaczając i klikając przycisk {% include inline_image.html file="przyciskPobierz.png" alt="Przycisk Pobierz" %} **Pobierz**.
+Jeśli chcesz do produktu możesz podpiąć załączniki - np. rysunki techniczne, certyfikaty, czy inną dokumentację mającą pomóc w identyfikacji. W zakładce **Załączniki** możesz załączyć plik albo przez kliknięcie w przycisk **Wybierz pliki** i wskazanie go z dysku, albo poprzez przeciągnięcie i upuszczenie w czarny obszar opisany tekstem **Upuść pliki tutaj**. 
+Podpięte pliki możesz podejrzeć, klikając w nie, albo pobrać zaznaczając i klikając przycisk {% include inline_image.html file="przyciskPobierz.png" alt="Przycisk Pobierz" %}.
 
 {:start="7"}
 #### 7. zakładka **Koszty**
@@ -118,8 +118,8 @@ Podpięte pliki możesz podejrzeć klikając w nie, albo pobrać zaznaczając i 
 Koszty produktu gromadzone są przede wszystkim to, by móc przeprowadzić [kalkulację kosztów](/koszty-zlecenia), ustalającą ile najprawdopodobniej będzie kosztować produkcja wyrobu. Przydają się jednak też w momencie składania zamówienia na surowce.
 
 <u>Omówmy szczegółowo jakie ceny zapisujemy i do czego mogą się przydać:</u>
-- **koszt nominalny** - w księgowości znany jako cena ewidencyjna. To w tej cenie może być przyjmowany na magazyn wytworzony wyrób lub półprodukt. Dana ta zapisywana jest przez użytkownika ręcznie (np. na podstawie danych dostarczonych przez księgowość. Być może przez dany okres obrachunkowy wyrób powinien być przyjnowany w stałej cenie ewidencyjnej, a ewentualne różnice między faktycznymi kosztami produkcji, a przyjętą ceną, rozliczane przy pomocy konta odchyleń). Możesz jednak skorzystać z funkcji {% include inline_image.html file="przyciskZapiszKosztNominalnyWyboru.png" alt="Przycisk Zapisz koszt nominalny wyrobu" %} **Zapisz koszt nominalny wyrobu** w [kalkulacji kosztów](koszty-zlecenia). Wówczas cena będzie odpowiednikiem szacowanego TKW.  
-  - Koszt nominalny ma jeszcze jedno zastosowanie. Możesz zapisać w polu spodziewaną cenę zakupu surowca (np. gdy kupujesz nowy produkt i już masz z dostawcą ustaloną cenę zakupu). Tworząc zamówienie zakupu (w qcadoo znane jako [dostawę](/dostawy)) podpowiemy jako cenę jednostkową koszt nominalny, gdy ostatnia cena zakupu lub średnio ważona, nie będzie ustalona. Podobnie wykorzystasz ten koszt przy szacowaniu kosztów wytworzenia w [karcie modelu](/karta-modelu)
+- **koszt nominalny** - w księgowości znany jako cena ewidencyjna. To w tej cenie może być przyjmowany na magazyn wytworzony wyrób lub półprodukt. Dana ta zapisywana jest przez użytkownika ręcznie (np. na podstawie danych dostarczonych przez księgowość. Być może przez dany okres obrachunkowy wyrób powinien być przyjmowany w stałej cenie ewidencyjnej, a ewentualne różnice między faktycznymi kosztami produkcji, a przyjętą ceną, rozliczane przy pomocy konta odchyleń). Możesz jednak skorzystać z funkcji {% include inline_image.html file="przyciskZapiszKosztNominalnyWyboru.png" alt="Przycisk Zapisz koszt nominalny wyrobu" %} w [kalkulacji kosztów](koszty-zlecenia). Wówczas cena będzie odpowiednikiem szacowanego TKW.  
+  - Koszt nominalny ma jeszcze jedno zastosowanie. Możesz zapisać w polu spodziewaną cenę zakupu surowca (np. gdy kupujesz nowy produkt i już masz z dostawcą ustaloną cenę zakupu). Tworząc zamówienie zakupu (w qcadoo znane jako [dostawę](/dostawy)), podpowiemy jako cenę jednostkową koszt nominalny, gdy ostatnia cena zakupu lub średnio ważona, nie będzie ustalona. Podobnie wykorzystasz ten koszt przy szacowaniu kosztów wytworzenia w [karcie modelu](/karta-modelu)
 - **ceny produktów** ustalane są na podstawie zaewidencjonowanych w qcadoo dokumentów magazynowych. Są to:
   - **cena ostatniego przychodu** - zapisujemy tutaj cenę, która została zapisana na ostatnim przychodowym dokumencie magazynowym dla tego produktu
   - **cena średnio ważona** - wyliczamy tu średnią cenę posiadanego zapasu magazynowego, jako: suma wartości zasobów / suma ilości zasobów danego produktu
@@ -139,14 +139,14 @@ I jeszcze kilka ważnych informacji:
 - technologia zakłada wytworzenie produktu głównego i finalnych produktów dodatkowych. Zasada dotyczy wszystkich wytworzonych wówczas produktów.
 <br/>
 
-**C.** Koszt nominalny możesz określić w innej walucie, niż waluta systemowa. Np. po to, by zapisać obiecaną przez dostawcę cenę za dany materiał. Cena zostanie albo wykorzystana w qcadoo w tej walucie (np. w dostawie), albo przeliczona na PLN zgodnie z średnim kursem waluty (np. w kalkulacji kosztów, czy rozliczeniu produkcji).
+**C.** Koszt nominalny możesz określić w innej walucie, niż waluta systemowa. Np. po to, by zapisać obiecaną przez dostawcę cenę za dany materiał. Cena zostanie albo wykorzystana w qcadoo w tej walucie (np. w dostawie), albo przeliczona na PLN zgodnie ze średnim kursem waluty (np. w kalkulacji kosztów, czy rozliczeniu produkcji).
 <br/>
 
 **D.** Dla prawidłowego określenia kosztów ważne jest też pole **Podane koszty/ceny dotyczą ilości** - jeśli cena dotyczy innej ilości niż 1 jednostka, to odpowiednio nanieś zmiany.
 
-**E** Aby koszty produktów zostały wyznaczone, konieczne jest wywołanie funkcji (Uzupełnij koszty produktu)[/produkty.html#uzupełnij-koszty-produktu]. Możesz to zrobić ręcznie klikając w przycisk w liście produktów. Ale możesz też skorzystać z mechanizmu automatycznego uzupełniania kosztów w nocy. W tym celu ustaw odpowiednio [parametry produktów](/parametry-glowna.html#produkty).
+**E** Aby koszty produktów zostały wyznaczone, konieczne jest wywołanie funkcji (**Uzupełnij koszty produktu**)[/produkty.html#uzupełnij-koszty-produktu]. Możesz to zrobić ręcznie, klikając w przycisk w liście produktów. Ale możesz też skorzystać z mechanizmu automatycznego uzupełniania kosztów w nocy. W tym celu ustaw odpowiednio [parametry produktów](/parametry-glowna.html#produkty).
 
-**F** Koszty mogą być pobierane ze zinegrowanego systemu ERP.
+**F** Koszty mogą być pobierane ze zintegrowanego systemu ERP.
 
 
 {:start="8"}
@@ -171,7 +171,7 @@ Karta jakości zawiera informacje o tym, jakie elementy muszą być zweryfikowan
 
 Import z Excela zdecydowanie przyspiesza wprowadzanie produktów na starcie pracy z systemem. Zapewne prowadzisz ewidencję już w Excelu. Albo jesteś w stanie z obecnego systemu wyciągnąć listę produktów i otworzyć ją w arkuszu. Albo po prostu - nazwy są bardzo podobne i używając powielania wierszy w Excelu i późniejszą modyfikację, stworzyć kompletną listę szybciej niż ręcznie wklepując produkt po produkcie do qcadoo.
 
-Jak zatem zaimportować produkty? Najważniejsze to przygotować dane w odpowiednim szablonie. Szablon ten pobierzesz z qcadoo. Wejdź w: **Produkty > Produkty** i kliknij przycisk {% include inline_image.html file="przyciskImportujProduktyZXLSX.png" alt="Przycisk Importuj produkty z XLSX" %} **Importuj produkty z XLSX** i w uruchomionym oknie przycisk {% include inline_image.html file="przyciskPobierzSzablon.png" alt="Przycisk pobierz szablon" %} **Importuj produkty z XLSX**. Otwórz arkusz:
+Jak zatem zaimportować produkty? Najważniejsze to przygotować dane w odpowiednim szablonie. Szablon ten pobierzesz z qcadoo. Wejdź w: **Produkty > Produkty** i kliknij przycisk {% include inline_image.html file="przyciskImportujProduktyZXLSX.png" alt="Przycisk Importuj produkty z XLSX" %} i w uruchomionym oknie przycisk {% include inline_image.html file="przyciskPobierzSzablon.png" alt="Przycisk pobierz szablon" %}. Otwórz arkusz:
 
 {% include lightbox.html file="produktySzablonImportu.png" alt="Szablon importu produktów" caption="Szablon importu produktów" %} 
 
@@ -182,7 +182,7 @@ i uzupełnij dane. Zacznę od opisu kolumn, które wypełnić musisz. Mianowicie
 - **jednostka podstawowa** (kolumna C) - podaj w jakiej jednostce chcesz ewidencjonować produkt. Podana tu jednostka musi być najpierw wprowadzona w [słowniku](/slowniki) jednostek 
 
 Ponadto produkty możesz wzbogacić o następujące dane:
-- **globalny typ materiału** (kolumna D) - to oznaczenie czym dany produkt u Ciebie jest. Wykorzystasz tą daną do filtrowania produktów i ich szybszego znalezienia. Do wyboru są wartości 'surowiec', 'półprodukt', 'odpad', 'finalny produkt'
+- **globalny typ materiału** (kolumna D) - to oznaczenie czym dany produkt u Ciebie jest. Wykorzystasz tą daną do filtrowania produktów i ich szybszego znalezienia. Do wyboru są wartości 'surowiec', 'półprodukt', 'odpad', 'finalny produkt', 'opakowanie'.
 - **jednostka dodatkowa** (kolumna E) - produkt może być na magazynie prowadzony w dwóch jednostkach, np. w kartonach i w sztukach. Dzięki temu będziesz mógł szybko ustalić ile kartonów i ile sztuk na magazynie się znajduje. W tej kolumnie, podobnie jak w jednostce podstawowej, wpisz wartość zdefiniowaną w słowniku jednostek. Wypełnienie tej kolumny wiąże się z koniecznością podania przelicznika
 - **przelicznik** (kolumna F) - kolumna wymagana, gdy podałeś jednostkę dodatkową. Musisz podać ile jednostek dodatkowych mieści się w jednej jednostce podstawowej. Dla przykładu: jeśli jednostką podstawową jest karton, a dodatkową sztuka, a w jednym kartonie mieści się 12 sztuk, to przelicznik = 12.
 - **kod EAN** (kolumna G) - do wpisania dowolny tekst. Dany kod EAN może wystąpić tylko raz, chyba że zaznaczyłeś parametr *Wiele artykułów z tym samym kodem EAN*.
@@ -192,21 +192,21 @@ Ponadto produkty możesz wzbogacić o następujące dane:
 - **asortyment** (kolumna K) - do wpisania [asortyment](/asortymenty) zdefiniowany w qcadoo. Asortyment to dodatkowa forma grupowania produktów, niezbędna, gdy chcesz korzystać z [grup zleceń](/grupy-zlecen)
 - **należy do rodziny** (kolumna L) - i kolejny element grupujący. Możesz zdefiniować produkty będące rodziną i pod tą rodzinę podpiąć inne "zwykłe" produkty. Do wpisania zatem numer istniejącego produktu w qcadoo
 - **koszt nominalny** (kolumna M) - koszt szczególnie ważny dla produktów finalnych (wyrobów gotowych), które są przyjmowane na magazyn w cenie ewidencyjnej (czyli gdy [parametr](/parametry-rejestracja-produkcji.html#rozliczenie-produkcji) Cena PW na podst. = koszt nominalny produktu). Wpisz wartość liczbową
-- **cena ostatniego przychodu** (kolumna N) - szczególnie ważna dla surowców. Wykorzystasz ją, gdy wyceniasz produkcję wg ceny ostatniego zakupu. Standardowo cena ta ustalana jest na podstawie ostaniego wprowadzonego dokumentu. Jednak jeśli startujesz z pracą w systemie, to dokumentów nie mamy. Możesz zatem tą cenę uzupełnić resztę - podaj tutaj wartość liczbową
+- **cena ostatniego przychodu** (kolumna N) - szczególnie ważna dla surowców. Wykorzystasz ją, gdy wyceniasz produkcję wg ceny ostatniego zakupu. Standardowo cena ta ustalana jest na podstawie ostaniego wprowadzonego dokumentu. Jednak jeśli startujesz z pracą w systemie, to dokumentów nie mamy. Możesz zatem tę cenę uzupełnić resztę - podaj tutaj wartość liczbową
 - **cena średnio ważona** (kolumna O) - podobnie jak powyżej: cena średnio ważona wykorzystywana jest do wycen produkcji. Standardowo wyliczana jest z przyjętych dokumentów. Na starcie systemu warto podać ją ręcznie. Wprowadź tutaj wartość liczbową
 - **rozmiar** (kolumna P) - do wpisania dowolna wartość. Rozmiar może być liczbą, może być też tekstem
 - **ważność** (kolumna Q) - jeśli produkt będzie przez Ciebie produkowany i będziesz dla niego wyznaczać datę ważności, to możesz w polu podać jaki czas (w miesiącach) produkt będzie nadawał się do użytku. Przy rejestracji produkcji podpowiemy datę wyliczoną jako data rozpoczęcia zlecenia + ilość miesięcy podaną w polu ważność. Wprowadź tu dodatnią całkowitą liczbę
-- **ewidencja partii** (kolumna R) - jeśli dany produkt ma mieć podczas ewidencji podawany numer partii i chcesz abyśmy nie pozwalali na zapisy dla tego produktu bez podania partii, wskaż w komórce wartość 'tak'. W przeciwnym razie przyjmiemy, że nie chcesz i ustawimy ewidencję partii na 'nie'.
+- **ewidencja partii** (kolumna R) - jeśli dany produkt ma mieć podczas ewidencji podawany numer partii i chcesz, abyśmy nie pozwalali na zapisy dla tego produktu bez podania partii, wskaż w komórce wartość 'tak'. W przeciwnym razie przyjmiemy, że nie chcesz i ustawimy ewidencję partii na 'nie'.
 
 {% include callout.html content="Jeśli nadal będziesz mieć wątpliwości co w daną komórkę trzeba wpisać, zerknij na komentarz jaki jest dodany do nagłówka kolumny w szablonie." type="warning" %}
 
-Po uzupełnieniu szablonu zapisz plik na swoim komputerze i zaciągnij do qcadoo. Jak? W liście produktów ponownie kliknij przycisk {% include inline_image.html file="przyciskImportujProduktyZXLSX.png" alt="Przycisk Importuj produkty z XLSX" %} **Importuj produkty z XLSX** i postępuj zgodnie z instrukcją opisaną [tutaj](/import-z-excel). 
+Po uzupełnieniu szablonu zapisz plik na swoim komputerze i zaciągnij do qcadoo. Jak? W liście produktów ponownie kliknij przycisk {% include inline_image.html file="przyciskImportujProduktyZXLSX.png" alt="Przycisk Importuj produkty z XLSX" %} i postępuj zgodnie z instrukcją opisaną [tutaj](/import-z-excel). 
 
-{% include callout.html content="Jeśli chcesz zaktualizować dane - np. chcesz masowo produktom określić kategorię, albo zaznaczyć parametr ewidencji partii, przygotuj ponownie plik, z aktualnymi danymi i zaciągając do qcadoo zaznacz w oknie importu parametr: **Czy zaktualizować istniejące dane?**" type="warning" %}
+{% include callout.html content="Jeśli chcesz zaktualizować dane - np. chcesz masowo produktom określić kategorię, albo zaznaczyć parametr ewidencji partii, przygotuj ponownie plik, z aktualnymi danymi i zaciągając do qcadoo, zaznacz w oknie importu parametr: **Czy zaktualizować istniejące dane?**" type="warning" %}
 
 ## Synchronizacja produktów z systemu zewnętrznego
 
-Jeśli chcesz zintegrować qcadoo z systemem zewnętrznym klasy ERP skontaktuj się z nami - skonfigurujemy konektor i przeprowadzimy pierwszą synchronizację. 
+Jeśli chcesz zintegrować qcadoo z systemem zewnętrznym klasy ERP, skontaktuj się z nami - skonfigurujemy konektor i przeprowadzimy pierwszą synchronizację. 
 
 O integracji więcej poczytasz [tutaj](/integracja-ERP).
 
@@ -218,15 +218,15 @@ Z poziomu produktów możesz wywołać kilka ciekawych funkcji. Warto się z nim
 
 ## Uzupełnij koszty produktu
 
-Koszty produktów, które są wykorzystywane do kalkulacji, mogą być ustalane na podstawie danych wprowadzonych w dokumentach magazynowych. I to zarówno w qcadoo jak i w zintegrowanym systemie zewnętrznym. Aby zaktualizować dane zapisane w produkcie konieczne jest uruchomienie funkcji **Uzupełnij koszty produktów**.
+Koszty produktów, które są wykorzystywane do kalkulacji, mogą być ustalane na podstawie danych wprowadzonych w dokumentach magazynowych. I to zarówno w qcadoo jak i w zintegrowanym systemie zewnętrznym. Aby zaktualizować dane zapisane w produkcie, konieczne jest uruchomienie funkcji **Uzupełnij koszty produktów**.
 
-Funkcja wywoływana jest z listy produktów przyciskiem {% include inline_image.html file="przyciskUzupelnijKosztyProduktu.png" alt="Przycisk Uzupełnij koszty produktu" %} **Uzupełnij koszty produktu**.
+Funkcja wywoływana jest z listy produktów przyciskiem {% include inline_image.html file="przyciskUzupelnijKosztyProduktu.png" alt="Przycisk Uzupełnij koszty produktu" %}.
 
 {% include lightbox.html file="produktyUzupelnijKosztyProduktow.png" alt="Funkcja uzupełniania kosztów produktów" caption="Funkcja uzupełniania kosztów produktów" %} 
 
-Jeśli masz włączoną integrację to podaj, czy chcesz aktualizować koszty na podstawie danych z qcadoo czy z systemu zewnętrznego. Przy braku integracji **Źródło kosztów** to qcadoo MES. Podaj z jakich **magazynów** mamy pobierać dokumenty - jeśli nie podasz żadnego będziemy analizować dokumenty z wszystkich magazynów. Ostatnim krokiem jest zdecydowanie dla jakich produktów mają być wykonane przeliczenia - jeśli dla wszystkich to zostaw ustawienie **Produkty = wszystkie**. Jeśli tylko dla części, zmień na **Produkty = wybrane**, następnie kliknij przycisk {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** i do tabeli **Produktów** zaciągnij te, dla których koszty mają być zaktualizowane. Teraz wystarczy wywołać funkcję przyciskiem {% include inline_image.html file="przyciskGeneruj.png" alt="Przycisk Generuj" %} **Generuj**.
+Jeśli masz włączoną integrację to podaj, czy chcesz aktualizować koszty na podstawie danych z qcadoo czy z systemu zewnętrznego. Przy braku integracji **Źródło kosztów** to qcadoo MES. Podaj z jakich **magazynów** mamy pobierać dokumenty - jeśli nie podasz żadnego, będziemy analizować dokumenty z wszystkich magazynów. Ostatnim krokiem jest zdecydowanie dla jakich produktów mają być wykonane przeliczenia - jeśli dla wszystkich to zostaw ustawienie **Produkty = wszystkie**. Jeśli tylko dla części, zmień na **Produkty = wybrane**, następnie kliknij przycisk {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz** i do tabeli **Produktów** zaciągnij te, dla których koszty mają być zaktualizowane. Teraz wystarczy wywołać funkcję przyciskiem {% include inline_image.html file="przyciskGeneruj.png" alt="Przycisk Generuj" %}.
 
-{% include callout.html content="Jeśli masz bardzo dużo produktów i bardzo dużo dokumentów, to czas trwania może być dłuższy niż innych znanych Ci funkcjonalności." type="warning" %}
+{% include callout.html content="Jeśli masz bardzo dużo produktów i bardzo dużo dokumentów, to czas aktualizowania może być dłuższy, niż innych znanych Ci funkcjonalności." type="warning" %}
 
 {% include callout.html content="Funkcja uzupełniania kosztów może być wywoływana automatycznie w nocy - dzięki temu zawsze rano koszty produktu będą aktualne. Aby tak się stało, wejdź w [parametry produktów](/parametry-glowna.html#produkty), zaznacz **Automatycznie wywołuj funkcję uzupełniania kosztów** i określ **Źródło kosztów**." type="warning" %}
 
@@ -236,7 +236,7 @@ Tworzenie zleceń produkcyjnych z poziomu listy produktów zostało opisane szer
 
 ## Importuj kody EAN
 
-Produkty istniejące w qcadoo mogą być uzupełnione o kody EAN poprzez import pliku Excel. W tym celu w liście produktów kliknij przycisk {% include inline_image.html file="przyciskImportujEAN.png" alt="Przycisk Importuj EAN z XLSX" %} **Importuj EAN z XLSX**:
+Produkty istniejące w qcadoo mogą być uzupełnione o kody EAN poprzez import pliku Excel. W tym celu w liście produktów kliknij przycisk {% include inline_image.html file="przyciskImportujEAN.png" alt="Przycisk Importuj EAN z XLSX" %}:
 
 {% include lightbox.html file="produktyProduktyImportEAN.png" alt="Funkcja importu kodów EAN z Excel" caption="Funkcja importu kodów EAN z Excel" %}
 
@@ -253,19 +253,19 @@ Zaimportuj do qcadoo. Funkcja działa jak standardowy mechanizm importu opisany 
 
 ## Produkty wg rozmiaru
 
-qcadoo wspiera obsługę produktów rozmiarowych. Możesz wprowadzić produkt jako rodzinę. Dla niego tworzyć technologię z rozróżnieniem jakie różne surowce muszą być użyte w różnych rozmiarach. Z rodziną możesz powiazać konkretne produkty na konkretne rozmiary. I one będą korzystały z technologii rodziny. Przypisanie takie może być realizowane ręcznie - możesz sam utworzyć produkty i je powiązać z rodziną. Ale możesz też skorzystać z automatu. Jak? Wejdź w rodzinę produktu i kliknij przycisk {% include inline_image.html file="przyciskRozmiaryRodzinyProduktow.png" alt="Przycisk Rozmiary rodziny produktów" %} **Rozmiary rodziny produktów**
+qcadoo wspiera obsługę produktów rozmiarowych. Możesz wprowadzić produkt jako rodzinę. Dla niego tworzyć technologię z rozróżnieniem jakie różne surowce muszą być użyte w różnych rozmiarach. Z rodziną możesz powiazać konkretne produkty na konkretne rozmiary. I one będą korzystały z technologii rodziny. Przypisanie takie może być realizowane ręcznie - możesz sam utworzyć produkty i je powiązać z rodziną. Ale możesz też skorzystać z automatu. Jak? Wejdź w rodzinę produktu i kliknij przycisk {% include inline_image.html file="przyciskRozmiaryRodzinyProduktow.png" alt="Przycisk Rozmiary rodziny produktów" %}.
 
 {% include lightbox.html file="produktyProduktyDodajRozmiary.png" alt="Dodawanie produktów wg rozmiaru" caption="Dodawanie produktów wg rozmiaru" %}
 
-Zobaczysz wszystkie produkty rozmiarowe należące do tej rodziny. Chcesz dodać kolejny? Kliknij przycisk {% include inline_image.html file="przyciskDodajRozmiary.png" alt="Przycisk Dodaj rozmiary" %} **Rozmiary Dodaj rozmiary** i wybierz te, w których dany produkt występuje. Zatwierdź wybór klikając {% include inline_image.html file="przyciskGenerujProduktyDlaRozmiarow.png" alt="Przycisk Generuj produkty dla rozmiarów" %} **Generuj produkty dla rozmiarów**. W efekcie zostanie utworzonych tyle produktów ile rozmiarów. Każdy z produktów będzie miał:
-- numer zbudowany na podstawie numeru produktu-rodziny z dodanym rozmiarem
-- nazwa i pozostałe dane na podstawie nazwy produktu-rodziny
+Zobaczysz wszystkie produkty rozmiarowe należące do tej rodziny. Chcesz dodać kolejny? Kliknij przycisk {% include inline_image.html file="przyciskDodajRozmiary.png" alt="Przycisk Dodaj rozmiary" %} i wybierz te, w których dany produkt występuje. Zatwierdź wybór klikając {% include inline_image.html file="przyciskGenerujProduktyDlaRozmiarow.png" alt="Przycisk Generuj produkty dla rozmiarów" %}. W efekcie zostanie utworzonych tyle produktów ile rozmiarów. Każdy z produktów będzie miał:
+- numer zbudowany na podstawie numeru produktu-rodziny z dodanym rozmiarem,
+- nazwę i pozostałe dane na podstawie nazwy produktu-rodziny.
 
 Jeśli parametr **Kopiuj atrybuty z rodziny na produkty rozmiarowe** = tak, to i atrybuty z produktu-rodziny zostaną do nowych, konkretnych produktów, przeniesione.
 
 ## Stan magazynowy
 
-Aby ustalić czy dany produkt znajduje się obecnie na magazynie i w jakiej ilości kliknij przycisk {% include inline_image.html file="przyciskStanMagazynowy.png" alt="Przycisk Stan magazynowy" %} **Stan magazynowy**. Uruchomione okno zaprezentuje dostępną ilość. Sięgnie po nią nie tylko do qcadoo, ale też do zintegrowanego systemu ERP.
+Aby ustalić czy dany produkt znajduje się obecnie na magazynie i w jakiej ilości, kliknij przycisk {% include inline_image.html file="przyciskStanMagazynowy.png" alt="Przycisk Stan magazynowy" %}. Uruchomione okno zaprezentuje dostępną ilość. Sięgnie po nią nie tylko do qcadoo, ale też do zintegrowanego systemu ERP.
 
 {% include lightbox.html file="produktyProduktyStanMagazynowy.png" alt="Stan magazynowy produktu" caption="Stan magazynowy produktu" %}
 
@@ -274,7 +274,7 @@ Aby ustalić czy dany produkt znajduje się obecnie na magazynie i w jakiej ilo�
 
 Dla produktu mamy możliwość, za pomocą przycisków, sprawdzenia:
 
-- **technologii**, w których dany produkt jest [wykorzystywany](/masowa-zmiana-technologii) lub produkowany oraz do jakich grup technologii należy,
+- **technologii**, w których dany produkt jest [wykorzystywany](/technologie-szczegoly) lub produkowany oraz do jakich grup technologii należy,
 - **zlecenia** dzięki, którym produkt został wyprodukowany, zarówno te planowane jaki i wszystkie,
 - **rejestracje produkcji** dla tego produktu, pojedynczo lub zgrupowane
 - **dodatkowych informacji** takich jak historia zmian produktów, numer ID w systemie zewnętrznym (w przypadku integracji), powiązana grupa technologii, czy wreszcie dostawców danego produktu.

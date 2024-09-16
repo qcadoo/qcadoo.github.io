@@ -3,7 +3,7 @@ title: "Modele"
 permalink: modele.html
 ---
 
-Model grupuje produkty o podobnych cechach. Może to być cała seria ubrań z danym motywem. Informacje przypisane do modelu widoczne będą na wydruku grupy zleceń.
+Model grupuje produkty o podobnych cechach. Może to być na przykład cała seria ubrań z danym motywem. Informacje przypisane do modelu widoczne będą na wydruku grupy zleceń.
 
 Aby dodać model wejdź w **Produkty > Modele**
 
@@ -15,21 +15,19 @@ i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj 
 
 Uzupełnij następujące informacje:
 
-- **nazwa** - musi być unikalna, czyli może istnieć tylko jeden model o danej nazwie
-- **asortyment** - model może należeć do asortymentu - wskaż odpowiedni z listy [asortymentów](/asortymenty)
-- **forma** - możesz wskazać z jakiej formy trzeba korzystać przy produkcji danego modelu
-- **rodzaj wyrobu** -  do wyboru ze słownika. Użyj jeśli produkujesz różnego rodzaju wyroby i chcesz pokazać pracownikom do jakiej grupy należy ten model (np. spodnie, koszulki i bluzy)
-- **etykieta** - możesz do modelu przypisać etykietę, która powinna zostać do wyrobu użyta
+- **nazwa** - musi być unikalna, czyli może istnieć tylko jeden model o danej nazwie,
+- **asortyment** - model może należeć do asortymentu - wskaż odpowiedni z listy [asortymentów](/asortymenty),
+- **forma** - możesz wskazać z jakiej formy trzeba korzystać przy produkcji danego modelu,
+- **rodzaj wyrobu** -  do wyboru ze słownika. Wskaż go, jeśli produkujesz różnego rodzaju wyroby i chcesz pokazać pracownikom do jakiej grupy należy ten model (np. spodnie, koszulki i bluzy),
+- **etykieta** - możesz do modelu przypisać etykietę, która powinna zostać do wyrobu użyta.
 
 ## Jak zaimportować modele z Excela?
 
 qcadoo MES pozwala na zaciągnięciu wielu danych z arkusza Excel. Sposób działania w każdym z miejsc jest dokładnie taki sam - opis znajdziesz w [tej dokumentacji](/import-z-excel). Poszczególne funkcjonalności różnią się tylko szablonem, który trzeba wypełnić.
 
-Aby zaimportować modele (i pobrać szablon do wypełnienia) wejdź w **Produkty > Modele** i kliknij przycisk {% include inline_image.html file="przyciskImportujModele.png" alt="Przycisk Importuj modele" %} **Importuj modele z XLSX**.
+Aby zaimportować modele (i pobrać szablon do wypełnienia) wejdź w **Produkty > Modele** i kliknij przycisk {% include inline_image.html file="przyciskImportujModele.png" alt="Przycisk Importuj modele" %}.
 
-Arkusz .xlsx do importu modeli zawiera następujące kolumny:
-
-Koniecznie podaj:
+Koniecznie wypełnij następujące kolumny:
 - **nazwa** (kolumna A) - nazwę modelu. Musi być ona unikalna,
 
 Opcjonalnie możesz określić:

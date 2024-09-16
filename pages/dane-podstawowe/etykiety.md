@@ -5,7 +5,7 @@ permalink: etykiety.html
 
 Etykiety wykorzystywane są w modelach - można podpiąć etykietę, która jest dorzucana do produktu o danym [modelu](/modele). Na etykiecie można zawrzeć informacje np. o składzie surowcowym danego modelu.
 
-Aby zdefiniować etykietę wybierz: **Podstawowe > etykiety** 
+Aby zdefiniować etykietę wybierz: **Podstawowe > Etykiety** 
 
 {% include lightbox.html file="podstawoweEtykietyLista.png" alt="Lista etykiet" caption="Lista etykiet" %} 
 

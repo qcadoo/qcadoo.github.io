@@ -11,9 +11,9 @@ Rodzinę produktów zakładamy jak zwykły [produkt](/produkty), a w zakładce *
 
 {% include lightbox.html file="produktyRodzinyProduktowLista.png" alt="Lista rodzin produktów" caption="Lista rodzin produktów" %} 
 
-Widoczne są tutaj wszystkie produkty oznaczone jako 'rodzina'. Zaznacz ten, do którego chcesz zobaczyć konkretne produkty (lub do którego chcesz przypisać nowe) i kliknij przycisk {% include inline_image.html file="przyciskPokazProduktyRodziny.png" alt="Przycisk Pokaż produkty rodziny" %} **Pokaż produkty rodziny**
+Widoczne są tutaj wszystkie produkty oznaczone jako 'rodzina'. Zaznacz ten, do którego chcesz zobaczyć konkretne produkty (lub do którego chcesz przypisać nowe) i kliknij przycisk {% include inline_image.html file="przyciskPokazProduktyRodziny.png" alt="Przycisk Pokaż produkty rodziny" %}.
 
 {% include lightbox.html file="produktyRodzinyProduktowListaProduktow.png" alt="Lista produktów danej rodziny" caption="Lista produktów danej rodziny" %} 
 
-Aby do rodziny podpiąć nowe produkty kliknij przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Dodaj istniejący" %} **Dodaj istniejacy** i wybierz produkty z dostępnej listy.
+Aby do rodziny podpiąć nowe produkty kliknij przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Dodaj istniejący" %} i wybierz produkty z dostępnej listy.
 

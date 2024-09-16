@@ -1,30 +1,26 @@
 ---
 title: "Linie produkcyjne"
 permalink: linie-produkcyjne.html 
-toc: false
 ---
 
-Linia produkcyjna to zbiór stacji roboczych, na których wykonywane są poszczególne operacje w procesie technologicznym. W qcadoo linie produkcyjne definiowane są przez nadanie im nazwy i miejsca oraz przez wyznaczenie stacji roboczych, ilości urządzeń wchodzących w skład linii oraz ustalenia, które zmiany pracują na linii. 
+Linia produkcyjna jest bardzo istotnym elementem struktury firmy. Zawsze wskazywana jest w zleceniu produkcyjnym. Jeśli zlecenie realizowane jest zbiorczo - to linia będzie świadczyć o miejscu wykonywania produkcji. Jeśli zlecenie rozbijane jest na zadania operacyjne - pełni rolę grupującą stacje robocze.
 
-## Jak dodać nową linię produkcyjną?
+Aby dodać linię produkcyjną, wejdź w **Struktura firmy > Linie produkcyjne** i kliknij przycisk {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
 
-{% include lightbox.html file="Technologie-%20linie%20produkcyjne.png" alt="Formularz lini produkcyjnej" caption="Definiowanie linii produkcyjnej"%}
+{% include lightbox.html file="strukturaFirmyLiniaProdukcyjna.png" alt="Formularz lini produkcyjnej" caption="Definiowanie linii produkcyjnej"%}
 
-Linię produkcyjną tworzymy wybierając z menu głównego: **STRUKTURA FIRMY >> Linie produkcyjne >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
+Podaj **Numer** i **Nazwę**. Jeśli linia ma być wykorzystywana produkcyjnie (będzie na niej realizowana produkcja), zaznacz parametr **Produkcja**.
 
-1. W zakładce **"Główna"** nadajemy "Numer" i "Nazwę" tworzonej linii produkcyjnej (obowiązkowo).
+{% include callout.html content="Linia może nie być produkcyjna i być wykorzystywana tylko w dziale utrzymania ruchu. Taka linia nie będzie widoczna w zleceniu i nie będzie na nią planowana produkcja." type="warning" %}
 
-2. Następnie przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Dział" i przypisujemy "Miejsce" linii produkcyjnej (opcjonalnie). Miejsca linii produkcyjnych definiowane są w [Słownikach](/slowniki).
+Zapisz, używając przycisku {% include inline_image.html file="przyciskZapisz.png" alt="Przycisk zapisz" %}.
 
-3. W zakładce "Kalendarz" wprowadzamy zmiany, które pracują na danej linii. Jest to konieczne jeśli chcemy korzystać z planowania na liniach.
+Przejdź do zakładki **Kalendarze** i wybierz **zmiany**, na których pracuje dana linia. To ważny krok - dzięki temu będziemy potrafili ustalić okresy pracujące i niepracujące, i odpowiednio zaplanować produkcję.
 
-4. Opcjonalnie możemy dodać "Opis" oraz "Dokumentację" linii produkcyjnej.
+{% include lightbox.html file="strukturaFirmyLiniaKalendarz.png" alt="Zmiany lini produkcyjnej" caption="Zmiany linii produkcyjnej"%}
 
-5. Używając przycisku {% include inline_image.html file="zapisz.png" alt="Przycisk zapisz" %} **Zapisz** , zatwierdzamy wprowadzone dane.
+Zakładka **Stacje robocze**, to miejsce powiązania linii z działami i stacjami roboczymi, w celu utworzenia drzewiastej struktury. Zacznij od lewej tabeli - kliknij przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Przycisk Dodaj istniejący" %} i wskaż **dział**, do którego dana linia należy. Teraz zaznacz w tabeli dział. W prawej tabeli uaktywni się przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Przycisk Dodaj istniejący" %}. Kliknij go i wybierz wszystkie **stacje robocze** tej linii. 
 
-W zakładce **"Stacje robocze"** określamy te, które wchodzą w skład danej linii produkcyjnej. Do tego celu używamy przycisku {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy**. Wyświetli się Nam pole do wprowadzenia stacji roboczej. Wybieramy te, które wchodzą w skład danej linii produkcyjnej oraz określamy ich ilość. Następnie zatwierdzamy wprowadzone dane przy pomocy przycisku {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %}  **Zapisz**.
+{% include callout.html content="Jeśli planujesz produkcję z dokładnością do operacji, linia produkcyjna może nie być w rzeczywistości wyodrębniona. Jednak w qcadoo musisz zdefiniować co najmniej 1 linię. Może ona łączyć wiele działów, jak na rysunku poniżej. Linia będzie wypełniana w zleceniu i będzie niosła informacje o kalendarzu" type="warning" %}
 
-Pole **"Ilość dla pozostałych stacji roboczych"** służy do określenia po ile sztuk z pozostałych (niewymienionych w tabeli po prawej) stacji roboczych, wchodzi jeszcze w skład tej linii.
-
-Dane te w późniejszej kolejności są wykorzystywane do planowania oraz kalkulacji czasu realizacji zlecenia na tej linii produkcyjnej.
-
+{% include lightbox.html file="strukturaFirmyLiniaDzialyStacje.png" alt="Działy i stacje robocze lini produkcyjnej" caption="Działy i stacje robocze linii produkcyjnej"%}

@@ -7,20 +7,21 @@ Działy przedsiębiorstwa w qcadoo rozumiane są jako zespół wykonujący daną
 
 ## Jak dodać nowy dział?
     
-Działy firmy dodajemy wybierając z głównego menu: **PODSTAWOWE >> Działy >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
+Aby dodać dział, wybierz z głównego menu **Struktura firmy >> Działy** i kliknij przycisk {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
 
+{% include lightbox.html file="strukturaFirmyDzial.png" alt="Definiowanie działu" caption="Definiowanie działu" %} 
 
-Działy definiowane są poprzez "Numer", "Nazwę" i (opcjonalnie) "Kierownika". Kierownika danego działu dodajemy wybierając umieszczoną po prawej stronie okna 
-{% include inline_image.html file="lupka.png" alt="Przycisk lupy" %}. Wyświetla się lista wszystkich zdefiniowanych pracowników.[Jak dodać pracownika?](/pracownicy)
+Podaj **numer**, **nazwę** i wskaż **[zakład](/zaklad)**. I zapisz przyciskiem {% include inline_image.html file="zapisz.png" alt="Przycisk zapisz" %}.
 
-W kolejnej zakładce **Linie produkcyjne** dodajemy "Stacje robocze" oraz "Linie produkcyjne" jakie znajdują się w tym dziale.
+Jeśli masz już zdefiniowane **linie produkcyjne** i **stacje robocze**, to przechodząc do zakładki **Linie produkcyjne** powiążesz te dane, w strukturę drzewiastą.
 
-{% include lightbox.html file="dzialy_linie.png" alt="działy linie" caption="Działy - linie oraz stacje robocze" %}  
+{% include lightbox.html file="strukturaFirmyDzialyLinie.png" alt="działy linie" caption="Działy - linie oraz stacje robocze" %}  
 
-W zakładce **Magazyny** definiujemy domyślne magazyny pobrania surowców i przyjmowania wyrobów dla danego działu. Podpowiedzą się one przy tworzeniu [przepływów technologii](/technologie-szczegoly.html#przepływy-technologii).
+Zacznij od lewej tabeli. Kliknij przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Przycisk Dodaj istniejący" %} i wybierz wszystkie linie produkcyjne, które są w tym dziale. Teraz zaznacz pierwszą linię i w prawej tabeli użyj przycisku {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Przycisk Dodaj istniejący" %}, po to, by wybrać wszystkie stacje robocze zaznaczonej linii. I powtórz działanie dla kolejnych linii tego działu. Gotowe. Struktura firmy drzewiasta stworzona. 
+
+W zakładce **Magazyny** zdefiniujesz domyślne magazyny pobrania surowców i przyjmowania wyrobów dla danego działu. Podpowiedzą się one przy tworzeniu [przepływów technologii](/technologie-szczegoly.html#przepływy-technologii).
 
 {% include lightbox.html file="dzialy_magazyny.png" alt="działy-magzyn" caption="Działy - konfiguracja magazynu" %}  
 
-{% include callout.html content="Działy mogą być przypisywane do stacji roboczych i typów stacji roboczych. Według działów mogą być również rozdysponowane karty pracy." type="info" %} 
 
 

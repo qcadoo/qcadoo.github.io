@@ -7,21 +7,21 @@ Dodawanie zadań operacyjnych z dashboardu skierowane jest do osób, które chc�
 
 Plusem tego podejścia jest także to, że nie musisz nic (lub prawie nic - o tym za chwilę) najpierw zrobić. Nie potrzebna Ci technologia, nie potrzebne Ci produkty, nie potrzebne Ci maszyny. Wszystko zrobisz przy okazji wprowadzania zlecenia i zadań. 
 
-Aby można było dodać zlecenie i zadania z dashboardu musisz ustawić kilka parametrów:
+Aby można było dodać zlecenie i zadania z dashboardu, musisz ustawić kilka parametrów:
 
 1. **parametry > parametry ogólne > [przycisk Dashboard](/parametry-dashboard)**:
 - _widoczne_ = zadania operacyjne
-- wypełnione pola: _magazyn pobrania surowców_ i _magazyn przyjmowania wyrobów_. Jeśli nie masz zdefiniowanych magazynów wprowadź je (co najmniej jeden) zgodnie z [tą instrukcją](/magazyny).
+- wypełnione pola: _magazyn pobrania surowców_ i _magazyn przyjmowania wyrobów_. Jeśli nie masz zdefiniowanych magazynów, wprowadź je (co najmniej jeden) zgodnie z [tą instrukcją](/magazyny).
 
 2. **parametry > parametry technologii > zakładka Główna**:
 - _Uzupełniaj magazyny dla produktów w przepływie podczas sprawdzania technologii_ = tak
 - _Przenoś produkty do kolejnych operacji podczas sprawdzania technologii_ = tak
 
-Jeśli będziesz chciał przypisywać zadania do konkretnych [stacji roboczych](/stacje-robocze), zerknij dla pewności czy masz zdefiniowany choć jeden [typ stacji roboczej](/typy-stacji-roboczych).
+Jeśli będziesz chciał przypisywać zadania do konkretnych [stacji roboczych](/stacje-robocze), zerknij dla pewności, czy masz zdefiniowany choć jeden [typ stacji roboczej](/typy-stacji-roboczych).
 
-Jesteś gotowy, do wprowadzenia z dashboardu swojego pierwszego zlecenia i utworzenia do nich zadań operacyjnych. Przejdź do dashboardu klikając w lewym górnym rogu ekranu w przycisk {% include inline_image.html file="przyciskQcadoo.png" alt="Przycisk qcadoo" %} **qcadoo**). I wywołaj funkcję: {% include inline_image.html file="przyciskDodajZadania.png" alt="Przycisk Dodaj zadania" %} **Dodaj zadania**). 
+Jesteś gotowy do wprowadzenia z dashboardu swojego pierwszego zlecenia i utworzenia do nich zadań operacyjnych. Przejdź do dashboardu klikając w lewym górnym rogu ekranu w przycisk {% include inline_image.html file="przyciskQcadoo.png" alt="Przycisk qcadoo" %}. I wywołaj funkcję: {% include inline_image.html file="przyciskDodajZadania.png" alt="Przycisk Dodaj zadania" %}. 
 
-Zlecenie i jego zadania operacyjne dodasz w 6. krokach. Między ekranami możesz przechodzić klikając w przycisk {% include inline_image.html file="przyciskDalejDashboard.png" alt="Przycisk Dalej" %} **Dalej**, w przycisk {% include inline_image.html file="przyciskDashboardWstecz.png" alt="Przycisk Wstecz" %} **Wstecz**, a także klikając w poszczególne kroki (już wcześniej wykonane) na pasku u góry:
+Zlecenie i jego zadania operacyjne dodasz w 6. krokach. Między ekranami możesz przechodzić klikając w przycisk {% include inline_image.html file="przyciskDalejDashboard.png" alt="Przycisk Dalej" %} , w przycisk {% include inline_image.html file="przyciskDashboardWstecz.png" alt="Przycisk Wstecz" %}, a także klikając w poszczególne kroki (już wcześniej wykonane) na pasku u góry:
 
 {% include lightbox.html file="dashboardZadaniaNoweKroki.png" alt="Etapy dodawania zlecenia i zadań operacyjnych" caption="Etapy dodawania zlecenia i zadań operacyjnych" %}
 
@@ -29,7 +29,7 @@ Zlecenie i jego zadania operacyjne dodasz w 6. krokach. Między ekranami możesz
 
 {% include lightbox.html file="dashboardZadaniaNoweEkran1.png" alt="Formularz dodawania zadań operacyjnych - krok 1." caption="Formularz dodawania zadań operacyjnych - krok 1." %}
 
-Zacznij od podania [produktu](/produkty). Jeśli przeszukując lupkę nie znalazłeś odpowiedniego - dodaj go klikając przycisk {% include inline_image.html file="przyciskZdefiniujNowyProdukt.png" alt="Przycisk Dodaj produkt" %} **Zdefiniuj nowy produkt** i podaj jego numer, nazwę i jednostkę.
+Zacznij od podania [produktu](/produkty). Jeśli przeszukując lupkę, nie znalazłeś odpowiedniego - dodaj go, klikając przycisk {% include inline_image.html file="przyciskZdefiniujNowyProdukt.png" alt="Przycisk Dodaj produkt" %} i podaj jego numer, nazwę i jednostkę.
 
 {% include lightbox.html file="dashboardZadaniaNoweEkran1NowyProdukt.png" alt="Formularz dodawania zadań operacyjnych - definiowanie nowego produktu" caption="Formularz dodawania zadań operacyjnych - definiowanie nowego produktu" %}
 
@@ -45,7 +45,7 @@ Przykładowo wypełniony ekran może wyglądać tak:
 
 ## Krok 2. Kiedy chcesz produkować?
 
-W kolejnym kroku musisz wskazać kiedy będzie realizowana produkcja. Aby było szybciej podpowiemy dla Ciebie datę rozpoczęcia na podstawie momentu aktualnego, a data zakończenia na podstawie daty zakończenia najbliższej [zmiany](/zmiany) przypisanej do [linii produkcyjnej z parametrów](/parametry-zlecen.html#główna).
+W kolejnym kroku musisz wskazać, kiedy będzie realizowana produkcja. Aby było szybciej, podpowiemy dla Ciebie datę rozpoczęcia na podstawie momentu aktualnego, a datę zakończenia na podstawie daty zakończenia najbliższej [zmiany](/zmiany) przypisanej do [linii produkcyjnej z parametrów](/parametry-zlecen.html#główna).
 
 {% include lightbox.html file="dashboardZadaniaNoweEkran2.png" alt="Formularz dodawania zadań operacyjnych - krok 2." caption="Formularz dodawania zadań operacyjnych - krok 2." %}
 
@@ -55,7 +55,7 @@ Przyszła pora na opisanie procesu produkcyjnego. Wypisz wszystkie czynności, k
 
 {% include lightbox.html file="dashboardZadaniaNoweEkran3.png" alt="Formularz dodawania zadań operacyjnych - krok 3." caption="Formularz dodawania zadań operacyjnych - krok 3." %}
 
-Kliknij przycisk {% include inline_image.html file="przyciskDodajOperacje.png" alt="Przycisk Dodaj operację" %} **Dodaj operację** i wybierz czynność z dostępnej listy. Nie znalazłeś właściwej operacji? Nic straconego. Kliknij w **plus** {% include inline_image.html file="przyciskPlusDashboard.png" alt="Przycisk Plus" %} i podaj numer i nazwę.
+Kliknij przycisk {% include inline_image.html file="przyciskDodajOperacje.png" alt="Przycisk Dodaj operację" %} i wybierz czynność z dostępnej listy. Nie znalazłeś właściwej operacji? Nic straconego. Kliknij w {% include inline_image.html file="przyciskPlusDashboard.png" alt="Przycisk Plus" %} i podaj numer i nazwę.
 
 {% include lightbox.html file="dashboardZadaniaNoweEkran3NowaOperacja.png" alt="Formularz dodawania zadań operacyjnych - definiowanie nowej operacji" caption="Formularz dodawania zadań operacyjnych - definiowanie nowej operacji" %}
 
@@ -69,11 +69,11 @@ Kolejny krok to wskazanie jakich surowców będziesz używać w każdej z operac
 
 {% include lightbox.html file="dashboardZadaniaNoweEkran4.png" alt="Formularz dodawania zadań operacyjnych - krok 4." caption="Formularz dodawania zadań operacyjnych - krok 4." %}
 
-Lista operacji jest już wypełniona. Pozostaje kliknąć przy czynności przycisk Dodaj produkt, wybrać z listy i podać ilość. Masz do dyspozycji dwa pola: 
+Lista operacji jest już wypełniona. Pozostaje kliknąć przy czynności przycisk {% include inline_image.html file="przyciskDodajProduktDashboard.png" alt="Przycisk Dodaj produkt" %}, wybrać z listy i podać ilość. Masz do dyspozycji dwa pola: 
 - ilość zużywana - to ilość potrzebna pod całe zlecenie, na ilość wyrobu podaną na ekranie 1.
 - ilość na jednostkę - to ilość przeliczona na jednostkę wyrobu. Taka ilość zostanie zapisana w technologii
 
-I tu podobnie jak na ekranie 1. - jeśli nie masz zdefiniowanych produktów możesz dodać je z tego poziomu. Kliknij w przycisk **plus** {% include inline_image.html file="przyciskPlusDashboard.png" alt="Przycisk Plus" %} w wierszu surowca i podaj numer oraz nazwę produktu.
+I tu podobnie jak na ekranie 1. - jeśli nie masz zdefiniowanych produktów, możesz dodać je z tego poziomu. Kliknij w przycisk {% include inline_image.html file="przyciskPlusDashboard.png" alt="Przycisk Plus" %} w wierszu surowca i podaj numer oraz nazwę produktu.
 
 Okno z wypełnionymi surowcami może wyglądać następująco:
 
@@ -87,7 +87,7 @@ Jeśli chcesz wskazać na jakich maszynach czy stanowiskach mają być wykonywan
 
 {% include lightbox.html file="dashboardZadaniaNoweEkran5.png" alt="Formularz dodawania zadań operacyjnych - krok 5." caption="Formularz dodawania zadań operacyjnych - krok 5." %}
 
-Jeśli nie masz stacji, możesz ją dodać klikając w **plus** {% include inline_image.html file="przyciskPlusDashboard.png" alt="Przycisk Plus" %} w wierszu operacji.
+Jeśli nie masz stacji, możesz ją dodać klikając w {% include inline_image.html file="przyciskPlusDashboard.png" alt="Przycisk Plus" %} w wierszu operacji.
 
 Przykładowo wypełnione dane mogą wyglądać następująco:
 
@@ -99,7 +99,7 @@ Ostatni krok to podsumowanie. Nic tu nie będziesz definiować - sprawdź tylko,
 
 {% include lightbox.html file="dashboardZadaniaNoweEkran6.png" alt="Formularz dodawania zadań operacyjnych - podsumowanie" caption="Formularz dodawania zadań operacyjnych - podsumowanie" %}
 
-Jeśli wszystko jest jak należy kliknij w przycisk {% include inline_image.html file="przyciskZapiszIAkceptuj.png" alt="Przycisk Zapisz i akceptuj" %} **Zapisz i akceptuj**. Utworzone zadania operacyjne będą widoczne na dashboardzie:
+Jeśli wszystko jest jak należy, kliknij w przycisk {% include inline_image.html file="przyciskZapiszIAkceptuj.png" alt="Przycisk Zapisz i akceptuj" %}. Utworzone zadania operacyjne będą widoczne na dashboardzie:
 
 {% include lightbox.html file="dashboardZadaniaNoweKafelek.png" alt="Utworzone zadania operacyjne" caption="Utworzone zadania operacyjne" %}
 

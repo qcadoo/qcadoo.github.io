@@ -17,7 +17,7 @@ Podaj **numer** oraz opcjonalnie **nazwę** konfiguratora, następnie zapisz. Po
 
 {% include lightbox.html file="produktyKonfiguratorZamawianegoProduktuGłówna.png" alt="Lista atrybutów" caption="Lista atrybutów" %} 
 
-W kolejnym kroku należy zdefiniować listę produktów, do której mają przynależeć wybrane atrybuty. W tym celu przejdź do zakładki **Produkty**, a nastepnie w tabeli kliknij przycisk {% include inline_image.html file="dodajIstniejacy.png" alt="Przycisk dodaj istniejący" %}
+W kolejnym kroku należy zdefiniować listę produktów, do której mają przynależeć wybrane atrybuty. W tym celu przejdź do zakładki **Produkty**, a następnie w tabeli kliknij przycisk {% include inline_image.html file="dodajIstniejacy.png" alt="Przycisk dodaj istniejący" %}
 
 {% include lightbox.html file="produktyKonfiguratorZamawianegoProduktuProdukty.png" alt="Dodawanie produktów" caption="Dodawanie produktów" %} 
 

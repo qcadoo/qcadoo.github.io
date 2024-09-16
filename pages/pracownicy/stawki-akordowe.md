@@ -17,20 +17,16 @@ i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj 
 
 Podaj **nazwę** stawki, następnie zapisz. Po prawej stronie uaktywni się tabela, w której możesz zdefiniować stawkę akordową na dany okres czasu. 
 
-W celu sprawdzenia w jakich technologiach znajduje się ta konkretna stawka akordowa, kliknij przycisk {% include inline_image.html file="PracownicyStawkiAkordowePokazTechnologie.png" alt="Przycisk Pokaż technologie" %}
-
-[Technologie](/technologie-szczegoly) do listy zostaną zaczytane niezależnie od ich sposobu rejestracji. Pobierzemy technologie rejestrowane zbiorczo, które mają określone stawki akordowe w **rejestracji**, ale rownież te, ktore raportowane są dla każdej operacji - stawki akordowe określone są **w operacjach technologii**.
+W celu sprawdzenia w jakich technologiach znajduje się ta konkretna stawka akordowa, kliknij przycisk {% include inline_image.html file="PracownicyStawkiAkordowePokazTechnologie.png" alt="Przycisk Pokaż technologie" %}. [Technologie](/technologie-szczegoly) do listy zostaną zaczytane niezależnie od ich sposobu rejestracji. Pobierzemy technologie rejestrowane zbiorczo, które mają określone stawki akordowe w zakładce rejestracja, ale rownież te, ktore raportowane są dla każdej operacji - stawki akordowe określone są w operacjach technologii.
 
 {% include lightbox.html file="PracownicyStawkiAkordoweTechnologie.png" alt="Lista technologii stawki" caption="Lista technologii stawki" %} 
 
-Znajdą się tutaj technologie, które maja stawke akordową ustawioną zbiorczą w rejestracji lub w operacji z rejestracja dla każdej operacji.
-
 ---
 
-Aby zdefiniować poszczególne stawki, kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %} **Nowy**:
+Aby zdefiniować poszczególne stawki, kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %}:
 
 {% include lightbox.html file="PracownicyStawkiAkordoweEdycjaStawki.png" alt="Definiowanie stawki" caption="Definiowanie stawki" %} 
 
-Podaj dokładną stawkę oraz datę, od której ta stawka ma obowiązywać. Jeśli istnieje poprzednia stawka to zostanie ona zakończona datą o dzień wcześniejszą.
+Podaj dokładną stawkę oraz datę, od której ma ona obowiązywać. Jeśli istnieje poprzednia stawka, to zostanie ona zakończona datą o dzień wcześniejszą.
 
 {% include callout.html content="Usuwanie stawek zacznij od końca - możesz usunąć tylko tę stawkę, która nie ma daty zakończenia." type="warning" %}

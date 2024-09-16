@@ -7,9 +7,29 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.24 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.24</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.24</td>
+          <td>
+          <ul>
+            <li>informacja z poziomu listy zleceń o tym, czy została skorygowana data rozpoczęcia</li>
+            <li>naprawa błędów</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 2.5.23 -->
   <details open>
-    <summary class="changelog-summary-h3">2.5.22</summary><br>
+    <summary class="changelog-summary-h3">2.5.23</summary><br>
     <table class="changelog-table" border>
         <tr>
           <th>Wersja</th>
@@ -49,7 +69,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.21 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.21</summary><br>
     <table class="changelog-table" border>
         <tr>

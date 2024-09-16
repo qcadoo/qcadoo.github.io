@@ -3,19 +3,17 @@ title: "Pracownicy"
 permalink: pracownicy.html
 toc: true
 ---
-Każdy pracownik ma w systemie przypisany swój identyfikator, imię i nazwisko oraz (pole niewymagane) stanowisko, na którym pracuje. Ostatnie pole nie jest wymaganym, ponieważ wiemy, że zdarzają się sytuacje, gdy jeden pracownik posiada kompetencje do wypełniania zadań na więcej niż jednym stanowisku. Dodatkowo każdemu pracownikowi możemy przypisać zmianę, na której pracuje oraz dział. Te pola również nie są wymagane, ponieważ w zależności od zlecenia pracownicy mogą pracować na różnych zmianach lub w różnych działach.
+Pracownik w qcadoo to osoba, która wykonuje produkcję lub realizuje zdarzenia w dziale utrzymania ruchu. Każdy pracownik posiada swój identyfikator (numer, kod, symbol), którym posługuje się przy logowaniu do terminala. Rejestracja danych o produkcji z dokładnością do pracownika, pozwoli na wyciągnięcie informacji, kto zajmował się produkcją danej partii wyrobu, jak wydajny jest to pracownik, jak wiele wytwarza braków, ile czasu zajmuje je produkcja. Innymi słowy - będziesz potrafił dokonać oceny pracownika.
 
 ## Jak dodać ręcznie pracownika?
 
-Bazę pracowników uzupełniamy wybierając:
-
-**Pracownicy >> Pracownicy >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**
+Aby wprowadzić pracownika wybierz **Pracownicy >> Pracownicy** i kliknij przycisk {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**
   
-{% include lightbox.html file="podstawowePracownicyDodaj.png" alt="Dodanie pracownika" caption="Dodanie pracownika" %} 
+{% include lightbox.html file="pracownicyPracownicyDodaj.png" alt="Dodanie pracownika" caption="Dodanie pracownika" %} 
 
 uzupełnij:
-- **numer** - może istnieć tylko jeden pracownik o danym numerze. Numer posłuży przy logowaniu pracownika w [terminalu rejestracji produkcji](/terminal). Zadbaj zatem o to, by numery były takie, aby pracownik miał szanse je zapamiętać. Rozwiązaniem jest też przygotowanie identyfikatorów dla pracownika z zaszytym numerem w kodzie kreskowym i skanowanie ich czytnikiem kodów kreskowych na stanowisku z terminalem. Pamiętaj, że zawarcie w kodzie kreskowym znaków specjalnych (jak np. polskie litery) znacząco wydłuża kod, przez co umieszczenie ich na małym identyfikatorze może być albo niemożliwe, albo sprawi, że kod nie będzie czytelny
-- **imię i nazwisko**
+- **numer** - może istnieć tylko jeden pracownik o danym numerze. Numer posłuży przy logowaniu pracownika w [terminalu rejestracji produkcji](/terminal). Zadbaj zatem o to, by numery były takie, aby pracownik miał szanse je zapamiętać. Rozwiązaniem jest też wygenerowanie identyfikatorów dla pracownika z zaszytym numerem w kodzie kreskowym (o czym z rozdziale poniżej) i skanowanie ich czytnikiem kodów kreskowych na stanowisku z terminalem. Pamiętaj, że zawarcie w kodzie kreskowym znaków specjalnych (jak np. polskie litery) znacząco wydłuża kod, przez co umieszczenie ich na małym identyfikatorze może być albo niemożliwe, albo sprawi, że kod nie będzie czytelny,
+- **imię i nazwisko**.
 
 Możesz zachować też informacje szczegółowe:
 - e-mail
@@ -24,10 +22,10 @@ Możesz zachować też informacje szczegółowe:
 - stanowisko
 
 Pracownik może zostać też przypisany do:
-- zmiany
-- działu - przypisany dział będzie podpowiadał się po zalogowaniu do terminala, a to ograniczy widoczne zlecenia czy zadania operacyjne
-- stacji roboczej - tu podobnie: jeśli przypiszesz pracownikowi stację roboczą, to po zalogowaniu do terminala lista zadań operacyjnych będzie ograniczona do tej stacji (pracownik zobaczy też zadania bez przypisanej stacji roboczej)
-- załogi - dzięki temu będziesz mógł wyszukać wszystkich pracowników Twojej załogi podczas tworzenia [przydziału do zmian](/przydzial-do-zmian)
+- działu - przypisany dział będzie podpowiadał się po zalogowaniu do terminala rejestracji produkcji, a to ograniczy widoczne zlecenia czy zadania operacyjne
+- linii produkcyjnej - korzystając z terminala rejestracji produkcji, po zalogowaniu pracownika, wczyta się przypisana linia i lista zaplanowanych zleceń będzie odpowiednio ograniczona,
+- stacji roboczej - tu podobnie: jeśli przypiszesz pracownikowi stację roboczą, to po zalogowaniu do terminala rejestracji produkcji, lista zadań operacyjnych będzie ograniczona do tej stacji (pracownik zobaczy też zadania bez przypisanej stacji roboczej),
+- załoga - dzięki temu będziesz mógł wyszukać wszystkich pracowników Twojej załogi podczas tworzenia [przydziału do zmian](/przydzial-do-zmian).
 
 ## Jak dodać pracowników poprzez import z arkusza Excel?
 
@@ -44,47 +42,48 @@ Nie musisz wprowadzać każdego z pracowników ręcznie do systemu. Możesz przy
 - **stacja robocza** (kolumna I) - dana opcjonalna, jeśli chcesz możesz przypisać pracownika do stacji roboczej, podając numer stacji zdefiniowanej w qcadoo. Stacja ta musi być przypisana do działu podanego wyżej,
 - **załoga** (kolumna J) - jeśli pracownik jest częścią zdefiniowanej w qcadoo załogi, podaj w kolumnie jej numer.
 
-{% include callout.html content="Jeśli plik ma posłużyć aktualizacji danych pamiętaj o zaznaczeniu w oknie importu opcji **Czy aktualizować istniejące dane?**" type="warning" %}
-
-
----
-
-**ZASTOSOWANIE** Pracownicy w systemie rejestrowani są na potrzeby przynajmniej dwóch sytuacji: 
-
-- by ustalić kto jest odpowiedzialny za wykonanie danego produktu lub danej partii towaru
-- by móc nagrodzić danego pracownika za sumienne/szybkie wykonanie zadania
+{% include callout.html content="Jeśli plik ma posłużyć aktualizacji danych, pamiętaj o zaznaczeniu w oknie importu opcji **Czy aktualizować istniejące dane?**" type="warning" %}
 
 ---
 
 ## Co gdy koszt godziny pracy pracownika jest ustalany indywidualnie?
 
-System jest przygotowany na taki przypadek. Indeks pracownika można zaktualizować i jego koszt określić na podstawie [Grupy płacowej](/grupy-placowe) lub ustalić indywidualnie. 
+Koszt godziny pracy pracownika może być ustalany na 3 sposoby:
+1. na podstawie przyjętych średnich wartości w parametrach,
+2. na podstawie grupy płacowej, do której pracownik należy,
+3. na podstawie indywidualnych wartości zdefiniowanych dla pracownika.
 
-Jeśli indywdualnie, to zaznaczamy checkbox **"Ustalony indywidualnie"**, po czym odblokuje się nam pole do wprowadzania kwoty, a dla przypisania grupy płacowej za pomocą przycisku {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy odpowiednią grupę, następnie klikamy {% include inline_image.html file="saveIcon24.png" alt="Przycisk Zapisz" %}  **Zapisz** i wprowadzone wartości będą uwzględniane np w [Rozliczeniu produkcji](/rozliczenie-produkcji). 
+Przypisanie do grupy płacowej i ustalanie kosztu indywidualnego, odbywa się w zakładce **Koszt godziny pracy**. Aby zdefiniować wartości dotyczące tylko tego pracownika - zaznacz parametr **Ustalony indywidualnie** i wprowadź kwotę w polu **Indywidualny koszt godziny pracy**. Jeśli pracownik ma korzystać z kosztów danej grupy płacowej - wskaż ją w polu **Grupa płacowa**.
 
 {% include lightbox.html file="pracownicy-koszt-godziny-pracy.png" alt="Koszt godziny pracy" caption="Koszt godziny pracy" %}  
+
+Tak wprowadzone dane będą wykorzystywane w [Rozliczeniu produkcji](/rozliczenie-produkcji). 
+
+{% include callout.html content="Grupy płacowe zdefiniujesz w: Pracownicy > Grupy płacowe." type="warning" %}
+
+---
 
 ## Jak przypisać do pracownika posiadane umiejętności?
 
 Dzięki przypisaniu pracownikowi umiejętności, będziesz potrafił ustalić kto może wykonywać daną operację. Funkcjonalność jest wykorzystywana przy tworzeniu [planu na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika)
 
-{% include lightbox.html file="podstawowePracownicyUmiejetnosci.png" alt="Dodawanie umiejętności pracownika" caption="Dodawanie umiejętności pracownika" class="float-right" %}
+{% include lightbox.html file="pracownicyPracownicyUmiejetnosci.png" alt="Dodawanie umiejętności pracownika" caption="Dodawanie umiejętności pracownika" class="float-right" %}
 
-Aby móc przypisać umiejętność pracownikowi musisz zacząć od zdefiniowania listy [umiejętności](/umiejetnosci). 
+Aby móc przypisać umiejętność pracownikowi, musisz zacząć od zdefiniowania listy [umiejętności](/umiejetnosci). 
 
-Jeśli lista gotowa, wejdź w szczegóły pracownika i w zakładkę **Umiejętności pracownika** i kliknij przycisk **Nowy**. Wybierz z listy umiejętność. Na jej podstawie wypełnione zostanie pole Maksymalny poziom. Teraz podaj na jakim poziomie pracownik włada daną umiejętnością - nie może być on wyższy od maksymalnego poziomu umiejętności. 
+Gdy lista będzie już gotowa, wejdź w szczegóły pracownika, w zakładkę **Umiejętności pracownika** i kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %}. Wybierz z listy umiejętność. Na jej podstawie wypełnione zostanie pole **Maksymalny poziom**. Teraz podaj na jakim poziomie pracownik włada daną umiejętnością - nie może być on wyższy od maksymalnego poziomu umiejętności. 
 
 ---
 
 ## Jak wydrukować identyfikatory pracownikom?
 
-Pracownicy zdefiniowani w qcadoo mogą korzystać z terminala rejestracji produkcji. Aby się zalogować trzeba użyć numeru pracownika. Jeśli numery są długie - pracownicy mogą mieć problem z ich zapamiętaniem. Wtedy warto przygotować identyfikatory z kodem kreskowym i zaopatrzyć stanowisko, na którym rejestrowana jest produkcja w skaner.
+Pracownicy zdefiniowani w qcadoo, mogą korzystać z terminala rejestracji produkcji. Aby się zalogować, trzeba użyć numeru pracownika. Jeśli numery są długie - pracownicy mogą mieć problem z ich zapamiętaniem. Wtedy warto przygotować identyfikatory z kodem kreskowym i zaopatrzyć stanowisko, na którym rejestrowana jest produkcja, w skaner.
 
-Aby wygenerować identyfikatory wejść w **Pracownicy > Pracownicy** 
+Aby wygenerować identyfikatory wejdź w **Pracownicy > Pracownicy** 
 
 {% include lightbox.html file="pracownicyPracownicyZaznaczeni.png" alt="Drukowanie etykiet z listy pracowników" caption="Drukowanie etykiet z listy pracowników" %}
 
-zaznaczyć wybranych pracowników i kliknąć w przycisk {% include inline_image.html file="przyciskDrukujEtykietyPracownikow.png" alt="Przycisk Drukuj etykiety pracowników" %} **Drukuj etykiety pracowników**
+zaznacz wybranych pracowników i kliknij w przycisk {% include inline_image.html file="przyciskDrukujEtykietyPracownikow.png" alt="Przycisk Drukuj etykiety pracowników" %}.
 
 {% include lightbox.html file="pracownicyPracownicyEtykietyPracownikow.png" alt="Etykiety pracowników" caption="Etykiety pracowników" %}
 

@@ -393,6 +393,10 @@ entries:
       output: web
       url: /struktura-firmy.html
 
+    - title: Zakład
+      output: web
+      url: /zaklad.html
+
     - title: Działy
       output: web
       url: /dzialy.html
