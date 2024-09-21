@@ -5,7 +5,7 @@ toc: false
 ---
 
 Strukturę firmy w qcadoo tworzą:
-- zakład,
+- [zakład](/zaklad),
 - [działy](/dzialy),
 - [linie produkcyjne](/linie-produkcyjne),
 - [stacje robocze](/stacje-robocze),

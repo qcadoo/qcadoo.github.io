@@ -3,23 +3,23 @@ title: "Technologie rodziny produktu z atrybutami"
 permalink: technologie-rodziny-z-atrybutami.html 
 ---
 
-Funkcjonalność skierowana jest do firm, które produkują bardzo podobne produkty, różniące się niuansem - np. kolorem tkaniny. W qcadoo nie trzeba tworzyć dla każdego indeksu wyrobu osobnej technologii. Można skorzystać z technologii rodziny produktu. A dzięki uwzględnieniu atrybutów w jej konfiguracji, zadbamy o to, by w zleceniu produkcyjnym zaciągnęły się właściwe surowce do realizacji.
+Funkcjonalność skierowana jest do firm, które produkują bardzo podobne produkty, różniące się niuansem - np. kolorem tkaniny. W qcadoo nie trzeba tworzyć dla każdego indeksu wyrobu osobnej technologii. Można skorzystać z technologii rodziny produktu. A dzięki uwzględnieniu [atrybutów](/atrybuty) w jej konfiguracji, zadbamy o to, by w zleceniu produkcyjnym zaciągnęły się właściwe surowce do realizacji.
 
-Proces zostanie przedstawiony na przykładzie firmy MEBLIK produkującej pufy, w różnych kolorach. 
+Proces zostanie przedstawiony na przykładzie firmy MEBLIK produkującej pufy w różnych kolorach. 
 
 Wyroby powiązane są z rodziną produktu: PUFY. Każda pufa ma przypisany atrybut Kolor, z odpowiednią wartością:
 
 {% include lightbox.html file="technologieTechnologieAtrybutyWyrobyZAtrybutami.png" alt="Wyroby gotowe danej rodziny z atrybutami" caption="Wyroby gotowe danej rodziny z atrybutami" %}
 
-Zlecając produkcję będziemy wskazywać konkretny indeks wyrobu, np. PUFA szara.
+Zlecając produkcję, będziemy wskazywać konkretny indeks wyrobu, np. PUFA szara.
 
-Z qcadoo została wprowadzona technologia na rodzinę produktu: PUFY:
+W qcadoo została wprowadzona technologia na rodzinę produktu: PUFY:
 
 {% include lightbox.html file="technologieTechnologieAtrybutyWyrob.png" alt="Technologia - zakładka główna" caption="Technologia - zakładka główna" %}
 
 Wśród produktów wejściowych znajdują się takie, które muszą być dobrane w zależności od tego jaki kolor pufy zostanie zlecony. Aby to obsłużyć konieczne są trzy zabiegi:
 
-1. te same materiały, różniące się (w tym przypadku) kolorem, spięte są rodziną produktów - np. wszystkie tkaniny obiciowe w różnych kolorach, należą do rodziny Tkaniny obiciowe
+1. te same materiały, różniące się (w tym przypadku) kolorem, spięte są rodziną produktów - np. wszystkie tkaniny obiciowe w różnych kolorach należą do rodziny Tkaniny obiciowe
 
 2. wszystkie materiały z rodziny mają przypisany atrybut Kolor
 
@@ -44,7 +44,7 @@ Do zlecenia została pobrana technologia rodziny (czyli technologia na produkt: 
 
 {% include lightbox.html file="technologieTechnologieAtrybutySzczegoloweZapotrzebowanie.png" alt="Szczegółowe zapotrzebowanie z listą właściwych materiałów" caption="Szczegółowe zapotrzebowanie z listą właściwych materiałów" %}
 
-Jeśli pojawi się nowa PUFA, w nowym kolorze, wystarczy, że zdefiniujesz produkty i przypiszesz je atrybutu kolor. Cała reszta jest już zdefiniowana.
+Jeśli pojawi się nowa PUFA, w nowym kolorze, wystarczy, że zdefiniujesz produkty i przypiszesz im atrybut kolor. Cała reszta jest już zdefiniowana.
 
 
 

@@ -9,5 +9,5 @@ Do wykonania danej operacji niezbędne są pewne kwalifikacje. Nie zlecisz zapew
 
 Aby przypisanie było możliwe, rozpocznij od zdefiniowania listy [umiejętności](umiejetnosci).
 
-Teraz wejdź w szczegóły operacji (Technologie > Operacje) w zakładkę **Wymagane umiejętności** i kliknij **Nowy**
+Teraz wejdź w szczegóły operacji (Technologie > Operacje) w zakładkę **Wymagane umiejętności** i kliknij {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Dodaj nowy" %}.
 Wybierz z listy umiejętność. Na jej podstawie wypełnione zostanie pole Maksymalny poziom. Teraz podaj na jakim poziomie trzeba władać umiejętnością, aby móc wykonać operację - nie może być on wyższy od maksymalnego poziomu umiejętności. 

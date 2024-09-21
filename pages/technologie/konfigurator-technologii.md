@@ -5,30 +5,30 @@ permalink: konfigurator-technologii.html
 
 Konfigurator technologii pozwoli na dodawanie technologii w łatwy sposób, ale tylko z niezbędnymi informacjami. Dzięki konfiguratorowi powstanie [technologia](/technologie-szczegoly) tylko z wymaganymi danymi - część z nich będziesz musiał podać, a pozostałe dane uzupełnimy na podstawie parametrów i wartości domyślnych. 
 
-Przejść do konfiguratora możesz w dwa sposoby:
+Przejść do konfiguratora możesz na dwa sposoby:
 - przechodząc bezpośrednio do konfiguratora z menu **Technologie > Konfigurator technologii**
-- z listy technologii, klikając przycisk {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzycisk.png" alt="Przycisk Konfigurator Technologii" %}
+- z listy technologii, klikając przycisk {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzycisk.png" alt="Przycisk Konfigurator Technologii" %}.
 
 ---
 
 Aby konfigurator był dostępny, muszą być spełnione następujące warunki:
-- parametr sposóbu rejestracji produkcji musi mieć ustawioną wartość **zbiorczy** lub **dla każdej operacji**
-- parametr Uzupełniaj magazyny dla produktów w przepływie podczas sprawdzania technologii musi mieć wartość **tak**
-- parametr zasięg przyjmuje wartość **jeden dział** lub **wiele działów**
-- musi być zdefiniowany co najmniej jeden [magazyn](/magazyny)
-- musi być zdefiniowany co najmniej jeden [dział](/dzialy)
+- parametr _Sposób rejestracji produkcji_ musi mieć ustawioną wartość **zbiorczy** lub **dla każdej operacji**,
+- parametr _Uzupełniaj magazyny dla produktów w przepływie podczas sprawdzania technologii_ musi mieć wartość **tak**,
+- parametr _Zasięg_ przyjmuje wartość **jeden dział** lub **wiele działów**,
+- musi być zdefiniowany co najmniej jeden [magazyn](/magazyny),
+- musi być zdefiniowany co najmniej jeden [dział](/dzialy).
 
 ---
 
 Technologia tworzona jest w pięciu krokach:
 
-## Krok 1: Dla jakiego produktu chcesz technologię?
+## Krok 1: Dla jakiego produktu chcesz utworzyć technologię?
 
-W kroku pierwszym, określasz produkt, dla którego tworzona będzie technologia.
+W kroku pierwszym określasz produkt, dla którego tworzona będzie technologia.
 
 {% include lightbox.html file="TechnologieKonfiguratorTechnologiiProduktWyjsciowy.png" alt="Dodanie produktu wyjściowego" caption="Dodanie produktu wyjściowego" %}
 
-Podaj koniecznie **produkt**, **ilość** oraz opcjonalnie **opis technologii**. Jeśli nie znajdziesz odpowiedniego produktu na liście, możesz dodać nowy klikając przycisk {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzyciskZdefiniujProdukt.png" alt="Przycisk Zdefiniuj nowy produkt" %}
+Podaj koniecznie **produkt**, **ilość** oraz opcjonalnie **opis technologii**. Jeśli nie znajdziesz odpowiedniego produktu na liście, możesz dodać nowy klikając przycisk {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzyciskZdefiniujProdukt.png" alt="Przycisk Zdefiniuj nowy produkt" %}:
 
 {% include lightbox.html file="TechnologieKonfiguratorTechnologiiNowyProdukt.png" alt="Dodanie nowego produktu" caption="Dodanie nowego produktu" %}
 
@@ -36,27 +36,27 @@ Aby zdefiniować nowy produkt finalny, podaj **numer**, **nazwę** oraz **jednos
 
 ## Krok 2:  Jak chcesz produkować?
 
-W kroku drugim, określasz [operacje](/operacje) technologii.
+W kroku drugim określasz [operacje](/operacje) technologii.
 
 {% include lightbox.html file="TechnologieKonfiguratorTechnologiiOperacje.png" alt="Dodanie operacji" caption="Dodanie operacji" %}
 
-W tym widoku dodajesz poziomy drzewa technologii klikając przycisk {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzyciskDodajOperacje.png" alt="Przycisk Dodaj operację" %}
+W tym widoku dodajesz poziomy drzewa technologii, klikając przycisk {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzyciskDodajOperacje.png" alt="Przycisk Dodaj operację" %}.
 
-Kolejne operacje możesz wybierać z listy, a jeśli chcesz zdefiniować nową operację do technologii, kliknij przycisk {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzyciskNowaOperacja.png" alt="Dodanie operacji" %}
-
-{% include callout.html content="Aby dana operacja była widoczna na liście operacji, musi ona mieć zaznaczony parametr **Utwórz produkt wyjściowy operacji** lub wskazany produkt wyjściowy, w innym wypadku operacja nie będzie możliwa do użycia w konfiguratorze." type="warning" %}
+Kolejne operacje możesz wybierać z listy, a jeśli chcesz zdefiniować nową operację do technologii, kliknij przycisk {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzyciskNowaOperacja.png" alt="Dodanie operacji" %}:
 
 {% include lightbox.html file="TechnologieKonfiguratorTechnologiiNowaOperacja.png" alt="Dodanie nowej operacji" caption="Dodanie nowej operacji" %}
+
+{% include callout.html content="Aby dana operacja była widoczna na liście operacji, musi ona mieć zaznaczony parametr **Utwórz produkt wyjściowy operacji** lub wskazany produkt wyjściowy, w innym wypadku operacja nie będzie możliwa do użycia w konfiguratorze." type="warning" %}
 
 Podaj **numer** oraz **nazwę** nowej operacji, następnie zapisz. Nowo powstała operacja zostanie zaczytana do poziomu drzewa technologii, z którego dodawanie nowej operacji zostało wywołane.
 
 ## Krok 3:  Z czego chcesz produkować?
 
-W kroku trzecim określasz surowce oraz ich ilość w każdej z wybranej przez siebie operacji w kroku poprzednim.
+W kroku trzecim określasz surowce oraz ich ilość w każdej z wybranych przez siebie operacji w kroku poprzednim.
 
 {% include lightbox.html file="TechnologieKonfiguratorTechnologiiProduktyWejsciowe.png" alt="Dodanie produktów wejściowych" caption="Dodanie produktów wejściowych" %}
 
-Surowiec możesz wyszukać poprzez kliknięcie {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzyciskWyszukiwaniaSurowcow.png" alt="Wyszukiwanie operacji" %}, wpisanie numeru produktu i skorzystanie z podpowiadanych pozycji lub zdefniniowanie nowego surowca klikając {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzyciskNowaOperacja.png" alt="Dodanie operacji" %}. 
+Surowiec możesz wyszukać poprzez kliknięcie {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzyciskWyszukiwaniaSurowcow.png" alt="Wyszukiwanie operacji" %}, wpisanie numeru produktu i skorzystanie z podpowiadanych pozycji lub zdefniniowanie nowego surowca za pomocą {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzyciskNowaOperacja.png" alt="Dodanie operacji" %}. 
 
 {% include lightbox.html file="TechnologieKonfiguratorTechnologiiNowyProduktWejsciowy.png" alt="Dodanie nowych produktów wejściowych" caption="Dodanie nowych produktów wejściowych" %}
 
@@ -78,10 +78,10 @@ Stacje robocze możesz wyszukać poprzez kliknięcie {% include inline_image.htm
 
 Po przejściu do ostatniego etapu, zobaczysz drzewo technologii z informacjami podanymi we wcześniejszych krokach. W podglądzie zobaczysz:
 
-- produkt wyjściowy technologii
-- operacje drzewa technologii
-- produkty wejściowe operacji i ich ilości
+- produkt wyjściowy technologii,
+- operacje drzewa technologii,
+- produkty wejściowe operacji i ich ilości.
 
 {% include lightbox.html file="TechnologieKonfiguratorTechnologiiPodsumowanie.png" alt="Podsumowanie" caption="Podsumowanie" %}
 
-Kiedy cała struktura drzewa się zgadza, naciśnij przycisk {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzyciskZakoncz.png" alt="Zakończenie tworzenia technologii" %}, a my stworzymy zdefiniowaną przez Ciebie technologię, zapiszemy ją oraz ustawimy jako domyślną.
+Jeśli cała struktura drzewa się zgadza, naciśnij przycisk {% include inline_image.html file="TechnologieKonfiguratorTechnologiiPrzyciskZakoncz.png" alt="Zakończenie tworzenia technologii" %}, a my stworzymy zdefiniowaną przez Ciebie technologię, zapiszemy ją oraz ustawimy jako domyślną. Jeżeli coś się nie zgadza, możesz wprowadzić zmiany w technologii, wracając do odpowiedniego kroku za pomocą przycisku Wstecz.
