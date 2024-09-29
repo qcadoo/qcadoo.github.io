@@ -351,7 +351,7 @@ Jakie magazyny musisz określić:
 Możesz też wskazać dodatkowe informacje:
 - **magazyn rozchodowania nadmiarowych surowców** - jeśli przesuwasz do produkcji surowce na magazyn działowy (korzystając z [wydań wewnętrznych](/wydania-wewnetrzne)) to możesz podać na jaki magazyn mają być zwrócone produkty przesunięte, a nie zużyte. Dokument MM (z magazynu pobrania surowców na magazyn wskazany tutaj) utworzy się w momencie zakończenia zlecenia,
 - **magazyn produkcji w toku** - jeśli chcesz, aby produkty będące efektami operacji, były przyjmowane na magazyn, to ustaw _przepływ produkcji w toku_ = magazyn i podaj na jaki magazyn półprodukty mają być przyjmowane. Z magazynu tego program rozchoduje również półprodukty, wskazane jako zużyte w kolejnych operacjach. Opcja dostępna jest tylko dla rejestracji z dokładnością do operacji.
-- **magazyn przyjmowania odpadów** - jeśli chcesz, aby produkty wyjściowe oznaczone jako odpady były przyjmowane na stan, to podaj magazyn w tym polu.
+- **magazyn przyjmowania odpadów** - jeśli chcesz, aby produkty wyjściowe oznaczone jako odpady były przyjmowane na stan, to podaj magazyn w tym polu. Ten sam odpad, wytwarzany w wielu operacjach, musi być przyjmowany na ten sam magazyn (lub nie być przyjmowany nigdzie).
 
 
 ## Zakończenie tworzenia technologii ##

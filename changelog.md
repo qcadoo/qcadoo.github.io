@@ -7,6 +7,27 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.25 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.25</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.25</td>
+          <td>
+          <ul>
+            <li>obsługa wielu odpadów wytworzonych w zbiorczo raportowanym zleceniu</li>
+            <li>walidacja na taki sam magazyn w przepływach dla odpadu</li>
+            <li>poprawa błędów związanych z tworzeniem dokumentów z poziomu rejestracji produkcji</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 2.5.24 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.24</summary><br>
@@ -47,7 +68,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.22 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.22</summary><br>
     <table class="changelog-table" border>
         <tr>

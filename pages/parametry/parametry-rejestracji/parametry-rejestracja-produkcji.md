@@ -76,6 +76,8 @@ Co oznaczają poszczególne parametry:
 
 {% include callout.html content="Na magazyn, za pomocą dokumentu PW, przyjmowane są też odpady i finalne produkty dodatkowe. Niezależnie od ustawień parametru *Cena PW na podst.*, produkty te przyjmowane będą w cenie ustalonej na podstawie [kosztu nominalnego](/produkty.html#7-zakładka-koszty)." type="warning" %}
 
+{% include callout.html content="Jeśli w zleceniu zaplanowana jest produkcja produktu finalny dodatkowego, to cena produktu finalnego będzie ustawiona na podstawie [kosztu nominalnego](/produkty.html#7-zakładka-koszty), niezależnie od wskazania w parametrze *Cena PW na podst.*." type="warning" %}
+
 Jeśli do rejestracji produkcji będziesz używać terminala - zernij także w zakładkę [Terminal](/parametry-rejestracja-produkcji.html#terminal).
 
 ---
