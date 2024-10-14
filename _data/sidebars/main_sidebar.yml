@@ -699,6 +699,10 @@ entries:
       output: web
       url: /pozycje-zamowien-sprzedazy.html
 
+    - title: Cenniki
+      output: web
+      url: /cenniki.html
+
   - title: Planowanie
     output: web
     folderitems:
@@ -1111,6 +1115,10 @@ entries:
         - title: Parametry karty pracy
           output: web
           url: /parametry-karty-pracy.html
+
+    - title: Parametry sprzedaży
+      output: web
+      url: /parametry-sprzedazy.html
 
     - title: Parametry zaopatrzenia
       output: web

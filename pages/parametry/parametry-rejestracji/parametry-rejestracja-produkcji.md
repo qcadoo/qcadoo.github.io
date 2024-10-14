@@ -44,33 +44,31 @@ Co oznaczają poszczególne parametry:
 
 12. **Wyprodukowanie zleconej ilości zamyka zlecenie** - zaznacz parametr, a w momencie, gdy ilość wykonana zrówna się z ilością zleconą, zlecenie produkcyjne otrzyma status zakończone.
 
-13. **Wyprodukowanie zleconej ilości przelicza automatycznie kolejne zaplanowane zlecenie** - parametr ma znaczenie, gdy używasz planów [produkcji na zmianę](/produkcja-na-zmiane). Jeśli wyprodukowano co najmniej tyle ile zlecono do produkcji, to qcadoo spróbuje przesunąć w czasie kolejne zlecenie, tak by można było je zacząć już (albo: dopiero) teraz. Zlecenie zostanie przesunięte w czasie i zostanie przeliczony jego plan na zmianę
+13. **Powiadamiaj o nie podaniu czasu pracy** - jeśli chcesz aby pracownicy raportowali czas pracy, możesz zdecydować również, czy mamy pilnować aby na pewno uzupełnili. Zaznacz parametr, a akceptacja rekordu rejestracji nie powiedzie się jeśli czas pracy będzie nieokreślony
 
-14. **Powiadamiaj o nie podaniu czasu pracy** - jeśli chcesz aby pracownicy raportowali czas pracy, możesz zdecydować również, czy mamy pilnować aby na pewno uzupełnili. Zaznacz parametr, a akceptacja rekordu rejestracji nie powiedzie się jeśli czas pracy będzie nieokreślony
+14. **Pozwalaj na wielokrotną rejestrację czasu tego samego pracownika** - jeśli parametr nie będzie zaznaczony, to dany pracownik będzie mógł zadeklarować swój udział w zleceniu przez zarejestrowanie tylko jednego czasu pracy. Zatem jeśli podczas całej zmiany z rana poświęcił godzinę i póżniej pod koniec zmiany - dwie, to będzie musiał swoje trzy godziny wprowdzić jako zbiorczy zapis. Jeśli zaznaczysz parametr pracownik będzie mógł zarejestrować w danym meldunku dwa wpisy - z godziną i z dwiema godzinami
 
-15. **Pozwalaj na wielokrotną rejestrację czasu tego samego pracownika** - jeśli parametr nie będzie zaznaczony, to dany pracownik będzie mógł zadeklarować swój udział w zleceniu przez zarejestrowanie tylko jednego czasu pracy. Zatem jeśli podczas całej zmiany z rana poświęcił godzinę i póżniej pod koniec zmiany - dwie, to będzie musiał swoje trzy godziny wprowdzić jako zbiorczy zapis. Jeśli zaznaczysz parametr pracownik będzie mógł zarejestrować w danym meldunku dwa wpisy - z godziną i z dwiema godzinami
+15. **Zużycie surowców na podstawie norm** - zaznaczenie parametru sprawi, że po podaniu ilości wyprodukowanej przeliczymy ilość zużytą surowców, zgodnie z przyjętymi w technologiami normami ilościowymi. Co więcej - takie ustawienie sprawi, że w terminalu od razu ustawiona będzie zakładka z produktami wyjściowymi, co przyspieszy rejestrację
 
-16. **Zużycie surowców na podstawie norm** - zaznaczenie parametru sprawi, że po podaniu ilości wyprodukowanej przeliczymy ilość zużytą surowców, zgodnie z przyjętymi w technologiami normami ilościowymi. Co więcej - takie ustawienie sprawi, że w terminalu od razu ustawiona będzie zakładka z produktami wyjściowymi, co przyspieszy rejestrację
+16. **Braki zużywają surowce** - jeśli parametr **zużycie surowców na postawie norm** jest zaznaczony, to możesz zdecydować, czy wyprodukowane braki mają brać udział w wyznaczaniu zużycia materiałów. Jeśli parametr będzie ustawiony na TAK, to każdy wytworzony brak będzie domyślnie zużywał pełną, zdefiniowaną w technologii, listę surowców. 
 
-17. **Braki zużywają surowce** - jeśli parametr **zużycie surowców na postawie norm** jest zaznaczony, to możesz zdecydować, czy wyprodukowane braki mają brać udział w wyznaczaniu zużycia materiałów. Jeśli parametr będzie ustawiony na TAK, to każdy wytworzony brak będzie domyślnie zużywał pełną, zdefiniowaną w technologii, listę surowców. 
+17. **Przeliczaj sumę czasu pracowników na akceptacji meldunku** - zaznacz parametr, a na etapie akceptacji rekordu rejestracji wyliczmy sumę czasu pracy pracowników z tego meldunku. Dzięki temu nie będziesz musiał wywoływać ręcznie funkcji: Oblicz sumaryczny czas pracowników
 
-18. **Przeliczaj sumę czasu pracowników na akceptacji meldunku** - zaznacz parametr, a na etapie akceptacji rekordu rejestracji wyliczmy sumę czasu pracy pracowników z tego meldunku. Dzięki temu nie będziesz musiał wywoływać ręcznie funkcji: Oblicz sumaryczny czas pracowników
-
-19. **Wydanie materiałów**: do wyboru 4 opcje: 
+18. **Wydanie materiałów**: do wyboru 4 opcje: 
 - na akceptacji rekordu rejestracji - do każdej rejestracji produkcji, meldującej zużycie materiału, zostanie utworzony, na akceptacji rekordu rejestracji, dokument RW
 - na zakończeniu zlecenia - do zlecenia zostanie utworzony jeden zbiorczy dokument RW, w momencie ustawienia statusu na zakończony, zbierający wszystkie materiały zameldowane jako zużyte w rekordach rejestracji
 - ręcznie do zlecenia/grupy - dokument RW nie utworzy się automatycznie. Trzeba go utworzyć ręcznie, zapewne przed uruchomieniem produkcji, na podstawie danych ze szczegółowego zapotrzebowania (gdy wydanie do zlecenia produkcyjnego) lub zapotrzebowania materiałowego grupy zleceń (gdy wydanie do grupy zleceń). W rekordzie rejestracji tabela produktów wejściowych będzie nieaktywna i będzie prezentować ilości wydane ręcznie
 - nie twórz dokumentów - rejestracja produkcji działa standardowo: pracownicy raportują co zużyli i co wyprodukowali, ale ani na rejestracji produkcji ani na zakończeniu zlecenia, dokument RW się nie utworzy. Funkcja ręcznego wydania do szczegółowego zapotrzebowania lub z zapotrzebowania materiałowego grupy zleceń nie będzie aktywna.
 
-{:start="20"}
-20. **Przyjęcie wyrobów** - do wyboru 4 opcje:
+{:start="19"}
+19. **Przyjęcie wyrobów** - do wyboru 4 opcje:
 - na akceptacji rekordu rejestracji - do każdej rejestracji produkcji, meldującej o wytworzeniu produktu wyjściowego, zostanie utworzony, na akceptacji rekordu, dokument PW. W tej opcji cena produktu
 - na zakończeniu zlecenia - dokument PW tworzony jest w momencie zakończenia zlecenia, na podstawie zaraportowanych ilości wytworzonych ze wszystkich rekordów rejestracji danego zlecenia. W tej opcji cena na PW może być ustalona albo na podstawie kosztu nominalnego, albo na podstawie TKW (w zależności od parametru *Cena PW na podst.*)
 - ręcznie do grupy zleceń - zaraportowane ilości wytworzone zapisywane są w grupie zleceń i użytkownik ręcznie wskazuje, które chce przyjąć na magazyn. Tworzy się wówczas dokument PW w cenie na podstawie kosztu nominalnego
 - nie twórz dokumentów - produkcja raportowana jest standardowo, ale ani w monencie akceptacji rekordu rejestracji ani na zakończeniu zlecenia nie jest tworzony dokument PW.
 
-{:start="21"}
-21. **Cena PW na podst.** - to parametr mówiący o tym w jaki sposób mamy ustalać cenę na dokumenty PW przyjmujące na magazyn wytworzone wyroby. Do wyboru dwie opcje:
+{:start="20"}
+20. **Cena PW na podst.** - to parametr mówiący o tym w jaki sposób mamy ustalać cenę na dokumenty PW przyjmujące na magazyn wytworzone wyroby. Do wyboru dwie opcje:
 - koszt nominalny produktu - inaczej: cena ewidencyjna. Wyroby przyjmowane są na magazyn w cenie przyjętej jako stała w danym okresie. Ewentualne odchylenia rozksięgowywane są już w systemie księgowym. Koszt nominalny wprowdzany jest w [produkcie w zakładce Koszty](/produkty.html#7-zakładka-koszty). Dokument z taką ceną może być tworzony w każdym trybie tworzenia dokumentów (parametr *Przyjęcie wyrobów*)
 - rzeczywisty TKW - wyroby przyjmowane są na magazyn w rzeczywistych kosztach wytworzenia - czyli koszt zużytych materiałów ustalany jest na podstawie cen zasobów rozchodowanych pod zlecenie powiększony o koszt robocizny na podstawie zarejestrowanego czasu. Opcja ta jest dostępna tylko wtedy, gdy *Przyjęcie wyrobów* = na zakończeniu zlecenia
 

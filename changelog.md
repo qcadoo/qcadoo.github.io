@@ -7,6 +7,27 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.26 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.26</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.26</td>
+          <td>
+          <ul>
+            <li>zwiększenie ilości znaków w opisie zadania operacyjnego</li>
+            <li>możliwość wskazania w terminalu miejsca składowania dla wytworzonych odpadów i produktów finalnych dodatkowych</li>
+            <li>przyjmowanie półproduktów wytworzonych zawsze na akceptacji rekordu rejestracji</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 2.5.25 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.25</summary><br>
@@ -49,7 +70,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.23 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.23</summary><br>
     <table class="changelog-table" border>
         <tr>

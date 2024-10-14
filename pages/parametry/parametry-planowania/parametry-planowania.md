@@ -69,27 +69,6 @@ Parametry optymalizacji cięcia wskazują jaki atrybut będzie wyznacznikiem dł
 
 ---
 
-## Zamówienia sprzedaży
-
-Dzięki zamówieniom sprzedaży możesz prowadzić rejestr zgłoszeń od klientów. Zamówienia sprzedaży stanowią początek procesu produkcyjnego - dzięki nim wiesz co musisz wyprodukować. Skonfiguruj je tak, by spełniały Twoje oczekiwania
-
-
-{% include lightbox.html file="administracjaParametryZleceniaZamowieniaSprzedazy.png" alt="Parametry zleceń - zamówienia sprzedaży" caption="Parametry zleceń - zamówienia sprzedaży" %}
-
-1. **Taki sam numer zlecenia produkcyjnego i zamówienia sprzedaży** - jeśli jedno zamówienie sprzedaży ma tylko jedno zlecenie produkcyjne, to możemy przyjąć, że numer zamówienia będzie przenoszony do zlecenia produkcyjnego, bez dodawania końcówki 001 itd. Jeśli tak ma być - zaznacz parametr. W przeciwnym wypadku dla zamówienia o numerze ZN123 powstanie zlecenie produkcyjne o numerze ZN123-001
-
-2. **Nie ustalaj dat w generowanych zleceniach** - standardowo daty podane w zamówieniu sprzedaży przenoszone są do tworzonego zlecenia produkcyjnego. Jeśli nie chcesz ich przenosić - zaznacz parametr.
-
-3. **Pozwól na zmianę terminu ostatecznego zamówienia sprzedaży** - zaznacz parametr jeśli chcesz móc zmienić termin ostateczny zlecenia, bez aktualizacji powiązanych zleceń produkcyjnych. W takiej konfiguracji nie będziemy pilnować, czy termin w zamówieniu i zleceniach się zgadza.
-
-4. **Definicje zamówień sprzedaży** - definicje zamówień sprzedaży pozwalają na pogrupowanie zamówień. Możesz wprowadzić definicje dla zamówień krajowych i unijnych. Dzięki temu od razu będzie wiadomo jaki jest kierunek sprzedaży. Ale możesz definicje wykorzystać do czegoś innego - ogranicza Cię tylko wyobraźnia. Dodaj tutaj definicje i podpinaj je przy tworzeniu zamówienia sprzedaży
-
-5. **Zakończ zamówienie sprzedaży po zleceniu wszystkich pozycji** - jeśli zaznaczysz parametr, to w momencie, gdy wszystkie pozycje będą miały status "Zlecone", oznaczymy zamówienie sprzedaży jako zakończone
-
-6. **Magazyn wydania wyrobów dokumentem WZ** - ustal magazyn, który podpowiemy w dokumencie WZ tworzonym do zamówienia sprzedaży
-
----
-
 ## Przydział do zmian
 
 [Przydział do zmian](/przydzial-do-zmian) to, najprościej ujmując, wskazanie kto z pracowników ma pracować na jakiej zmianie. Parametry znajdziesz w Parametry > Parametry planowania > zakładka Przydział do zmian
@@ -99,42 +78,6 @@ Dzięki zamówieniom sprzedaży możesz prowadzić rejestr zgłoszeń od klient�
 1. **Nie pokazuj pracowników już przydzielonych** - zaznacz parametr jeśli lista pracowników przypisywanych do zmian ma być pomniejszana o pracowników już przydzielonych do tej lub innej zmiany. Innymi słowy - jeśli Helena Radosna została już przypisana w przydziału na dziś do zmiany pierwszej, to tworząc obsadę na zmianę drugą już Heleny nie zobaczysz.
 
 ---
-
-## Gantt zleceń/zadań
-
-W zakładce Gantt zleceń/zadań ustawisz parametry do [graficznej prezentacji zadań operacyjnych](/gantt-zadan-operacyjnych) oraz [zleceń produkcyjnych](/gantt-zlecen).
-
-{% include lightbox.html file="administracjaParametryGantt.png" alt="Parametry Gantta" caption="Parametry Gantta" %}
-
-Parametry dotyczące Gantta zadań operacyjnych oraz zleceń zostały podzielone na dwie sekcje. Jedna sekcja zawiera parametry wspólne, a druga dotyczy się jedynie parametrów Gantta zadań operacyjnych.
-
-Parametry wspólne:
-
-1. **Pokazuj postęp** - zaznacz parametr, jeśli chcesz, aby na kafelkach widoczny był procent wykonania zadania. Zadania będą dopełniane kolorem, aż do 100% wykonania. Zadania w pełni wykonane oznaczone będą kolorem ciemno zielonym
-
-2. **Pokazuj opóźnienia** - zaznacz parametr, a pokażemy Ci na wykresie Gantta opóźnienia w realizacji zadań
-
-3. **Analizuj dostępne zasoby** - zaznacz parametr, jeśli chcesz widzieć na wykresie Gantta wiersz analizujący zasoby. Wskaż poniżej analizą jakich danych jesteś zainteresowany:
-- **ilość planowana** - słupki w wierszu analizy będą prezentować zsumowaną w danym okresie ilością planowaną wszyskich widocznych na wykresie zadań. Wskaż ilość maksymalną, a każda suma ilości ponad nią będzie zaprezentowana kolorem czerwonym. Opcję tą możesz wykorzystać, gdy wiesz, że jednocześnie nie będziesz w stanie wytworzyć ilości poniżej ilości maksymalnej. Dzięki analizie na pierwszy rzut oka będziesz w stanie ocenić realność przygotowanych planów.
-- **obsada** - słupki w wierszu będą prezentować potrzebną obsadę do wykonania zaplanowanych w danym okresie zadań operacyjnych. Sumowana jest rzeczywista obsada zadania operacyjnego. Zdefiniuj jako ilość maksymalną ilość pracowników na produkcji. Dzięki temu, w sytuacji, gdy obsada konieczna przewyższy możliwą, słupek zostanie zaprezentowany kolorem czerwonym.
-
-4. **Włącz nakładkowanie** - jeśli zaznaczysz parametr, to zadania zaplanowane na stację roboczą będą mogły się na siebie nakładać. Innymi słowy - w tym samym czasie pracownicy będą mogli zajmować się wieloma zadaniami. Jeśli parametr będzie wyłączony, to przesuwając kafle na wykresie, będą się one doklejać do istniejących, ale nigdy nie będą ułożone na nich
-
-5. **Pozwól na edycję długości zadania** - jeśli parametr nie będzie zaznaczony, to długość kafelka wyliczona w oparciu o normy czasowe, nie będzie mogła być zmieniona poprzez jego rozciąganie czy zwężanie.
-
-6. **Do ilu dni przeliczyć plan** - określenie przedziału czasowego, dla którego funkcja przelicz plan będzie układać zadania operacyjne/zlecenia.
-
-7. **Kolejność układania zadań podczas przeliczania** - przy wywołaniu funkcji przelicz plan na [Gantt zadań operacyjnych](/gantt-zadan-operacyjnych), umiejscowienie zadań zależne jest od wybranego kryterium. Dostępne są dwie opcje:
-- **Najpierw wg poziomu operacji, potem wg rozpoczęcia zlecenia** - zadania układane są zgodnie z poziomami operacji w technologii, od największego do najmniejszego
-- **Najpierw wg rozpoczęcia zlecenia, potem wg poziomu operacji** - zadania układane są zgodnie ze zleceniami. Wszystkie zadania ze zlecenia, które rozpoczyna się najwcześniej są układane na Gancie, po czym w taki sam sposób rozstawiane są zadania z poszczególnych kolejnych zleceń
-
-Parametry wyłącznie dla Gantta zadań operacyjnych:
-
-1. **Wyliczanie długości kafelka**
-- **Uwzględnij czas przygotowawczo-zakończeniowy TPZ** - zaznacz parametr a do zadania operacyjnego będzie doliczany czas przygotowawczo-zakończeniowy operacji
-- **Uwzględnij czas dodatkowy** - zaznacz parametr a do zadania operacyjnego będzie doliczany czas dodatkowy operacji
-
-2. **Prezentuj zdarzenia planowane** - zaznacz parametr jeśli chcesz aby na wykresie Gantta zadań operacyjnych pojawiały się kafelki na podstawie zdarzeń planowanych (Dział Utrzymania Ruchu) wymagających wyłączenia stacji roboczej z ruchu. Dzięki temu planista będzie wiedział na kiedy zaplanowane są remonty, przeglądy czy inne prace związane z utrzymaniem ruchu.
 
 ## Naprawy
 
@@ -189,3 +132,41 @@ Parametry w tej zakładce przydadzą się (tak jak w przypadku poprzedniej zakł
 - **Sortuj wg priorytetu rodzaju wyrobu** - na wydruku grupy zleceń wg rozmiarów prezentowane zlecenia zbijane są z dokładnością do rodziny produktu. Rodzina produktu może być przypisana do modelu. Model ten może mieć rodzaj wyrobu. Rodzaj wyrobu jest słownikiem, w którym można ustawiać własną kolejność. Jeśli zaznaczysz ten parametr, to rodziny produktu na wydruku będą posortowane wg kolejności ustawionej w słowniku Rodzaj wyrobu
 - **Atrybut wyrobu** - wskaż atrybut produktu, który chcesz, aby pojawił się na wydruku grupy zleceń
 - **Sumowanie** - wydruk grupy zleceń wg rozmiaru pozwala na wyznaczanie sum ilości dla różnych grup rozmiarowych. Co wiecej - rozmiary z różnych grup mogą być oznaczane różnymi kolorami. I to jest to miejsce, w którym możesz podać do jakich grup rozmiarowych chcesz przeprowadzić sumowanie oraz jakie kolory mają one mieć. Ważna uwaga - na wydruku pojawi się tylko pierwszych 6 grup z tej tabeli (wg kolejności ustawionej strzałkami).
+
+---
+
+## Gantt zleceń/zadań
+
+W zakładce Gantt zleceń/zadań ustawisz parametry do [graficznej prezentacji zadań operacyjnych](/gantt-zadan-operacyjnych) oraz [zleceń produkcyjnych](/gantt-zlecen).
+
+{% include lightbox.html file="administracjaParametryGantt.png" alt="Parametry Gantta" caption="Parametry Gantta" %}
+
+Parametry dotyczące Gantta zadań operacyjnych oraz zleceń zostały podzielone na dwie sekcje. Jedna sekcja zawiera parametry wspólne, a druga dotyczy się jedynie parametrów Gantta zadań operacyjnych.
+
+Parametry wspólne:
+
+1. **Pokazuj postęp** - zaznacz parametr, jeśli chcesz, aby na kafelkach widoczny był procent wykonania zadania. Zadania będą dopełniane kolorem, aż do 100% wykonania. Zadania w pełni wykonane oznaczone będą kolorem ciemno zielonym
+
+2. **Pokazuj opóźnienia** - zaznacz parametr, a pokażemy Ci na wykresie Gantta opóźnienia w realizacji zadań
+
+3. **Analizuj dostępne zasoby** - zaznacz parametr, jeśli chcesz widzieć na wykresie Gantta wiersz analizujący zasoby. Wskaż poniżej analizą jakich danych jesteś zainteresowany:
+- **ilość planowana** - słupki w wierszu analizy będą prezentować zsumowaną w danym okresie ilością planowaną wszyskich widocznych na wykresie zadań. Wskaż ilość maksymalną, a każda suma ilości ponad nią będzie zaprezentowana kolorem czerwonym. Opcję tą możesz wykorzystać, gdy wiesz, że jednocześnie nie będziesz w stanie wytworzyć ilości poniżej ilości maksymalnej. Dzięki analizie na pierwszy rzut oka będziesz w stanie ocenić realność przygotowanych planów.
+- **obsada** - słupki w wierszu będą prezentować potrzebną obsadę do wykonania zaplanowanych w danym okresie zadań operacyjnych. Sumowana jest rzeczywista obsada zadania operacyjnego. Zdefiniuj jako ilość maksymalną ilość pracowników na produkcji. Dzięki temu, w sytuacji, gdy obsada konieczna przewyższy możliwą, słupek zostanie zaprezentowany kolorem czerwonym.
+
+4. **Włącz nakładkowanie** - jeśli zaznaczysz parametr, to zadania zaplanowane na stację roboczą będą mogły się na siebie nakładać. Innymi słowy - w tym samym czasie pracownicy będą mogli zajmować się wieloma zadaniami. Jeśli parametr będzie wyłączony, to przesuwając kafle na wykresie, będą się one doklejać do istniejących, ale nigdy nie będą ułożone na nich
+
+5. **Pozwól na edycję długości zadania** - jeśli parametr nie będzie zaznaczony, to długość kafelka wyliczona w oparciu o normy czasowe, nie będzie mogła być zmieniona poprzez jego rozciąganie czy zwężanie.
+
+6. **Do ilu dni przeliczyć plan** - określenie przedziału czasowego, dla którego funkcja przelicz plan będzie układać zadania operacyjne/zlecenia.
+
+7. **Kolejność układania zadań podczas przeliczania** - przy wywołaniu funkcji przelicz plan na [Gantt zadań operacyjnych](/gantt-zadan-operacyjnych), umiejscowienie zadań zależne jest od wybranego kryterium. Dostępne są dwie opcje:
+- **Najpierw wg poziomu operacji, potem wg rozpoczęcia zlecenia** - zadania układane są zgodnie z poziomami operacji w technologii, od największego do najmniejszego
+- **Najpierw wg rozpoczęcia zlecenia, potem wg poziomu operacji** - zadania układane są zgodnie ze zleceniami. Wszystkie zadania ze zlecenia, które rozpoczyna się najwcześniej są układane na Gancie, po czym w taki sam sposób rozstawiane są zadania z poszczególnych kolejnych zleceń
+
+Parametry wyłącznie dla Gantta zadań operacyjnych:
+
+1. **Wyliczanie długości kafelka**
+- **Uwzględnij czas przygotowawczo-zakończeniowy TPZ** - zaznacz parametr a do zadania operacyjnego będzie doliczany czas przygotowawczo-zakończeniowy operacji
+- **Uwzględnij czas dodatkowy** - zaznacz parametr a do zadania operacyjnego będzie doliczany czas dodatkowy operacji
+
+2. **Prezentuj zdarzenia planowane** - zaznacz parametr jeśli chcesz aby na wykresie Gantta zadań operacyjnych pojawiały się kafelki na podstawie zdarzeń planowanych (Dział Utrzymania Ruchu) wymagających wyłączenia stacji roboczej z ruchu. Dzięki temu planista będzie wiedział na kiedy zaplanowane są remonty, przeglądy czy inne prace związane z utrzymaniem ruchu.
