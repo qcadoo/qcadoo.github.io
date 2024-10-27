@@ -373,9 +373,17 @@ Na co należy zwrócić uwagę:
 
 ## Zakończenie pracy z terminalem
 
-Aby zapisać wprowadzone dane kliknij **Potwierdź**. Aby cofnąć to co zostało wpisane w meldunku (do momentu wczytania operacji/zlecenia) kliknij **Czyść**. Aby wyczyścić wszystkie dane w terminalu kliknij **Anuluj**.
+Aby zapisać wprowadzone dane kliknij {% include inline_image.html file="przyciskTerminalPotwierdz.png" alt="Przycisk Potwierdź" %}. Aby cofnąć to co zostało wpisane w meldunku (do momentu wczytania operacji/zlecenia) kliknij {% include inline_image.html file="przyciskTerminalCzysc.png" alt="Przycisk Czyść" %}. Aby wyczyścić wszystkie dane w terminalu kliknij {% include inline_image.html file="przyciskTerminalAnuluj.png" alt="Przycisk Anuluj" %}.
 
-O terminalu wiesz już prawie wszystko. A za chwilę będziesz już specjalistą w tym temacie. W tym celu przeczytaj jeszcze kilka wskazówek:
+<br/>
+<br/>
+
+Jeśli raportujesz wykonanie zadania możesz, klikając w przycisk {% include inline_image.html file="przyciskTerminalZakonczZadanie.png" alt="Przycisk Zakończ zadanie" %}, zamknąć zadanie. Spowoduje to ustawienie daty zakończenia zadania na podstawie aktualnej daty i ustawienie statusu Zakończone. Jeśli korzystasz z MES łącznie z APS, dodatkowo może się wywołać przeliczanie planu. Dzięki temu w sytuacji, gdy wykonasz zadanie w innym czasie niż zaplanowano, pozostałe zadania zostaną odpowiednio dostosowane.
+
+<br/>
+<br/>
+
+O terminalu wiesz już prawie wszystko. A za chwilę będziesz już specjalistą w tym temacie. W tym celu przeczytaj jeszcze <u>kilka wskazówek</u>:
 1. efektem potwierdzenia meldunku w terminalu jest utworzenie [rejestracji produkcji](/rejestracja-produkcji). Jeśli jednak dany pracownik na danej zmianie ponownie wczyta dane zlecenie/operację, a utworzony wcześniej meldunek nadal jest szkicowy, program zaczyta go do terminala. Dzięki temu pracownik będzie mógł przeedytować wprowadzone uprzednio informacje.
 2. marzy Ci się rejestracja produkcji bez użycia myszki? Proszę bardzo! Jeśli zużycie surowców wyliczane jest wg norm, terminal może zadziałać tak:
 skan pracownika > ENTER (jeśli w skanerze ustawisz by po sczytaniu wywołać Enter, to od razu kursor przejdzie do pola operacji, bez klikania na klawiaturze) > kursor ustawia się w polu Operacja > skan operacji z karty pracy > ENTER > kursor ustawia się w polu Ilość wyprodukowana > wprowadzamy ilość > CTRL + ENTER. I gotowe -> rejestracja potwierdzona.

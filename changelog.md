@@ -7,6 +7,28 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
+<!-- VERSION 2.5.27 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.27</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.27</td>
+          <td>
+          <ul>
+            <li>cenniki i parametry cenników</li>
+            <li>parametry sprzedaży i przeniesienie do tej grupy parametrów zamówień sprzedaży</li>
+            <li>przeliczenie planu po zakończeniu zadania w terminalu rejestracji produkcji</li>
+            <li>integracja z Subiektem - przesyłanie ceny sprzedaży i opisu pozycji do zamówienia od klienta w Subiekcie</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 2.5.26 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.26</summary><br>
@@ -50,7 +72,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.24 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.24</summary><br>
     <table class="changelog-table" border>
         <tr>
