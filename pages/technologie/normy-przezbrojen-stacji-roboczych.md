@@ -30,15 +30,15 @@ Przy dodawaniu nowego przezbrojenia stacji roboczych określ:
 6. **Z wartości** - dana wymagana przy **Rodzaj zmiany = między konkretnymi wartościami**. Określ z jakiej wartości chcesz przezbrajać
 7. **Na wartość** - dana wymagana przy **Rodzaj zmiany = między konkretnymi wartościami**. Określ na jaką wartość chcesz przezbrajać
 8. **Czas przezbrojenia** - dana wymagana. Podaj czas trwania przezbrojenia
-9. **Rownoległe** - zaznacz jeśli w jednym czasie może być realizowanych kilka przezbrojeń. Wówczas czas aktualnie wykonywanych przezbrojeń będzie równy czasowi najdłuższego prezbrojenia.
+
 
 ## Import przezbrojeń stacji roboczych
 
-Import z Excela zdecydowanie przyspiesza wprowadzanie produktów na starcie pracy z systemem. Zapewne prowadzisz ewidencję już w Excelu. Albo jesteś w stanie z obecnego systemu wyciągnąć listę produktów i otworzyć ją w arkuszu. Albo po prostu - nazwy są bardzo podobne i używając powielania wierszy w Excelu i późniejszą modyfikację, stworzyć kompletną listę szybciej niż ręcznie wklepując produkt po produkcie do qcadoo.
+Import z Excela zdecydowanie przyspiesza wprowadzanie norm przezbrojeń do systemem. Zapewne posiadasz zestawienie w Excelu już dziś. Albo Twoje normy są bardzo podobne dla różnych produktów czy dla różnych stacji roboczych i ich powielenie w Excelu jest szybsze niż wprowadzanie każdego wiersza z osobna do qcadoo. 
 
-Jak zatem zaimportować produkty? Najważniejsze to przygotować dane w odpowiednim szablonie. Szablon ten pobierzesz z qcadoo. Wejdź w: **Produkty > Produkty** i kliknij przycisk {% include inline_image.html file="przyciskImportujProduktyZXLSX.png" alt="Przycisk Importuj produkty z XLSX" %} **Importuj produkty z XLSX** i w uruchomionym oknie przycisk {% include inline_image.html file="przyciskPobierzSzablon.png" alt="Przycisk pobierz szablon" %} **Importuj produkty z XLSX**. Otwórz arkusz:
+Jak zatem zaimportować normy przezbrojeń stacji roboczych? Najważniejsze to przygotować dane w odpowiednim szablonie. Szablon ten pobierzesz z qcadoo. Wejdź w: **Technologie > Normy przezbrojeń stacji roboczych** i kliknij przycisk {% include inline_image.html file="przyciskImportujNormyZXLSX.png" alt="Przycisk Importuj normy z XLSX" %} i w uruchomionym oknie przycisk {% include inline_image.html file="przyciskPobierzSzablon.png" alt="Przycisk pobierz szablon" %}. Otwórz arkusz:
 
-i uzupełnij dane. Zacznę od opisu kolumn, które wypełnić musisz. Mianowicie:
+i uzupełnij dane:
 
 - **Nazwa przezbrojenia** (kolumna A) - dana wymagana. Podaj nazwę przezbrojenia
 - **Opis** (kolumna B) - w tym polu możesz zdefninować opis przezbrojenia
@@ -49,4 +49,10 @@ i uzupełnij dane. Zacznę od opisu kolumn, które wypełnić musisz. Mianowicie
 - **Z wartości** (kolumna G) - dana wymagana przy **Rodzaj zmiany = między konkretnymi wartościami**. Podaj wartość początkową atrybutu
 - **Na wartość** (kolumna H) - dana wymagana przy **Rodzaj zmiany = między konkretnymi wartościami**. Podaj wartość finalną atrybutu
 - **Czas przezbrojenia** (kolumna I) - dana wymagana. Określ czas przezbrojenia
-- **Równoległe** (kolumna J) - jeśli przezbrojenie jest wykonywane równolegle wpisz TAK, jeśli nie - NIE
+
+Zapisz plik na komputerze. I wejdź ponownie do okna importu, wskaż plik i kliknij {% include inline_image.html file="przyciskImportuj.png" alt="Przycisk Importuj" %}.
+
+Więcej informacji o imporcie znajdziesz w [tej dokumentacji](import-z-excel).
+
+
+
