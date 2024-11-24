@@ -30,6 +30,7 @@ Koniecznie podaj **numer**, **nazwę** oraz **[typ stacji roboczej](/typy-stacji
 - data produkcji,
 - numer inwentarzowy,
 - pracownik - jest to domyślny pracownik obsługujący daną stację roboczą. Przypisanie przyda się w [planie na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika), gdzie dla odpowiednio wybranego kryterium doboru pracownika, do każdej operacji na daną stację zostanie przyporządkowany podany pracownik.
+- równoległe prace - zaznacz parametr, jeśli na danej stacji operacje na rzecz różnych wyrobów realizowane są w tym samym czasie (np. na raz malowanych jest wiele elementów). Dzięki temu plan na stację roboczą i pracownika będzie układać zadania na tej stacji, nie patrząc na jej zajętość.
 
 Potraktuj qcadoo jako bazę wszelkich dostępnych informacji o maszynie. Dzięki temu będziesz mieć inforamcje zawsze pod ręką - nie będziesz musiał przeszukiwać segregatorów z dokumentami.
 

@@ -9,6 +9,26 @@ permalink: changelog.html
 
 <!-- VERSION 2.5.28 -->
   <details open>
+    <summary class="changelog-summary-h3">2.5.29</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.29</td>
+          <td>
+          <ul>
+            <li>rola do zadań operacyjnych</li>
+            <li>planer - zadania realizowane w tym samym czasie na danej stacji roboczej</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
+<!-- VERSION 2.5.28 -->
+  <details open>
     <summary class="changelog-summary-h3">2.5.28</summary><br>
     <table class="changelog-table" border>
         <tr>

@@ -114,27 +114,6 @@ Jeżeli wszystko się zgadza można zaakceptować dostawę wybierając {% includ
 
 ---
 
-### Rezerwacja produktów
-
-Qcadoo umożliwia rezerowować zamówione produkty, taka opcja znajduje się w zakładce "Rezerwacje", która znajduje się w w oknie do wprowadzania zamówionych produktów.
-
-{% include lightbox.html file="Zaopatrzenie-Dostawy-zarezerwowane-produkty.png" alt="rezerwacja produktów" caption="Rezerwacja produktów w dostawie" %}
-
-{% include callout.html content='Pełna funkcjonalność jest dostępna po odpowiedniej parametryzacji systemu i jest wykorzystywana w momencie, gdy towar przyjmowany jest na jeden "ogólny" magazyn, a już z góry wiadomo jakie ilości produktów mają być rozdzielone na poszczególne magazyny. W innym wypadku okienko to będzie służyć nam wyłącznie w celach informacyjnych.' type="info" %} 
-
-W celu dokonania rezerwacji produkty i automatycznego utworzenia wydań wewnętrznych należy:
-1. Na zakładce rezerwacji danego produktu uzupełniamy ilość oraz magazyn/y na który produkt ma zostać przyjęty.
-
-2. Przenosimy produkty do zakładki **"Odbiór dostawy"**, co zostało omówione w punkcie z odbiorem dostawy.
-
-3. Odbieramy zamówienie i tworzy nam się dokument przyjęcia zewnętrznego na magazynie określonym w formularzu dostawy, zaś w **Zaopatrzenie >> Wydania Wewnętrzne** możemy zobaczyć, że utworzył nam się kolejny dokument w szkicu, oczekujący ewentualnych zmian i zatwierdzenia.
-
-{% include lightbox.html file="Zaopatrzenie-wydanie-z-dostawy.png" alt="Wydanie wewnętrzne utworzone z dostawy" caption="Wydanie wewnętrzne utworzone z dostawy" %}
-
----
-
-{% include lightbox.html file="zaopatrzenieDostawaAtrybutyDostarczonegoProduktu.png" alt="Atrybuty dostarczonego produktu" caption="Atrybuty dostarczonego produktu" class="float-right" %}
-
 ### Określanie atrybutów dostarczonych produktów
 
 Odebranie dostawy utworzy w magazynie [zasoby](/zasoby). Każdy z zasobów możesz dodatkowo oznaczyć [atrybutami](/atrybuty). Po co? Np. po to by zapisać numer atestu dostarczonego produktu, albo jego gatunek, albo cokolwiek innego, co musisz kontrolować podczas wykorzystania produktu poczas produkcji. Atrybuty przypiszesz dostarczonym produktom (zakładka Odbiór dostawy). Wejdź w szczegóły produktu i w zakładkę **Atrybuty**. I przypisz te, którymi chcesz produkt uszczegółowić. 
@@ -156,6 +135,8 @@ Jeżeli posiadamy produkty, które zamawiane są tylko wtedy, gdy ich ilość os
 3. Dla [produktu](/produkty) ustaliliśmy [dostawcę](/firmy).
 
 Gdy mamy już wszystko gotowe na liście dostaw używamy funkcji **"Utwórz dostawy"** znajdującej się pod przyciskiem {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %}.
+
+---
 
 ## Generowanie dostaw z poziomu pokrycia zapotrzebowania
 
