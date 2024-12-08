@@ -7,7 +7,27 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
-<!-- VERSION 2.5.28 -->
+<!-- VERSION 2.5.30 -->
+  <details open>
+    <summary class="changelog-summary-h3">2.5.30</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>2.5.30</td>
+          <td>
+          <ul>
+            <li>rola do szczegółowego zapotrzebowania</li>
+            <li>poprawki i ulepszenia do planera w qcadoo APS</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
+<!-- VERSION 2.5.29 -->
   <details open>
     <summary class="changelog-summary-h3">2.5.29</summary><br>
     <table class="changelog-table" border>
@@ -49,7 +69,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.27 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.27</summary><br>
     <table class="changelog-table" border>
         <tr>
@@ -71,7 +91,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.26 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.26</summary><br>
     <table class="changelog-table" border>
         <tr>
