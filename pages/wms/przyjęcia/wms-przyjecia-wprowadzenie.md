@@ -12,5 +12,5 @@ Menu Przyjęcia dostępne są następujące opcje:
 {% include lightbox.html file="wmsPrzyjeciaMenu.png" alt="Menu modułu przyjęcia" caption="Menu modułu przyjęcia" %}
 
 Każda z dostępnych funkcjonalności opisana jest osobnym rozdziałem dokumentacji:
-- dostawa,
+- [dostawa](/wms-dostawa),
 - [przyjęcie zewnętrzne ręczne](/wms-przyjecie-reczne).

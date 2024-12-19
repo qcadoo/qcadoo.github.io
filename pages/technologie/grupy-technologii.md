@@ -7,9 +7,9 @@ Aby ułatwić pracę z definiowaniem norm przezbrojenia dla każdej technologii,
 
 ## Jak stworzyć grupę technologii?
     
-Grupę technologii tworzymy wchodząc w: **TECHNOLOGIE >> Grupy technologii >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
+Grupę technologii tworzymy wchodząc w: **Technologie > Grupy technologii** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %}.
 
-Nadajemy "Numer" i "Nazwę" tworzonej grupie i klikamy {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz** ,aby zachować wprowadzone dane.
+Nadajemy "Numer" i "Nazwę" tworzonej grupie i klikamy {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %},aby zachować wprowadzone dane.
 
 Przynależność technologii do danej grupy określamy w funkcjonalności [Technologie](/technologie-szczegoly).
 

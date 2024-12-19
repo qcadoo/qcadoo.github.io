@@ -3,6 +3,29 @@ title: "Changelog"
 permalink: changelog.html
 ---
 
+<!-- VERSION 3.0 -->
+<details open>
+  <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
+
+<!-- VERSION 3.0.0 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.0</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.0</td>
+          <td>
+          <ul>
+            <li>prace na rzecz aplikacji qcadoo WMS mobile</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 2.5 -->
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
@@ -48,7 +71,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.28 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.28</summary><br>
     <table class="changelog-table" border>
         <tr>
