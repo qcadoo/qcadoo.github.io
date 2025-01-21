@@ -63,7 +63,7 @@ Standardowo nad danym dokumentem pracuje jeden użytkownik. Ale istnieje sposób
 
 Aby podzielić dokument wejdź w niego i kliknij przycisk {% include inline_image.html file="przyciskWmsPodziel.png" alt="Przycisk Podziel" %}.
 
-{% include lightbox.html file="wmsWydaniaWydaniaZewnetrznePodzial.png" alt="Wydania zewnętrzne z WMS - podział dokumentu" caption="Wydania zewnętrzne z WMS - podział dokumentu" %}
+{% include lightbox.html file="wmsWydaniaRozchodWewnetrznyPodzial.png" alt="Rozchód wewnętrzny z WMS - podział dokumentu" caption="Rozchód wewnętrzny z WMS - podział dokumentu" %}
 
 Podaj **na ile części** chcesz dokument podzielić i wskaż, czy chcesz aby pozycje do realizacji z tego samego miejsca składowania nie były rozdzielane na różnych magazynierów (parametr **Trzymaj razem pozycje z tego samego miejsca składowania**).
 
