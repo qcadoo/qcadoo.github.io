@@ -1184,6 +1184,87 @@ entries:
       output: web
       url: /06_start_wms-przyjecie.html
 
+  - title: qcadoo WMS mobile
+    output: web
+    folderitems:
+
+    - title: qcadoo WMS mobile - wprowadzenie
+      output: web
+      url: /wms-wprowadzenie.html
+    
+      subfolders:
+        - title: qcadoo WMS mobile - stan magazynowy
+          output: web
+          subfolderitems:
+
+            - title: Wprowadzenie do modulu Stan magazynowy aplikacji qcadoo WMS mobile
+              output: web
+              url: /wms-stan-wprowadzenie.html
+
+            - title: Stan magazynowy miejsca składowania
+              output: web
+              url: /wms-stan-miejsca-skladowania.html
+
+            - title: Stan magazynowy palety
+              output: web
+              url: /wms-stan-palety.html
+
+            - title: Stan magazynowy produktu
+              output: web
+              url: /wms-stan-produktu.html
+
+            - title: Stan magazynowy partii
+              output: web
+              url: /wms-stan-partii.html
+
+        - title: qcadoo WMS mobile - przyjęcia
+          output: web
+          subfolderitems:
+
+            - title: Wprowadzenie do modulu Przyjęcia aplikacji qcadoo WMS mobile
+              output: web
+              url: /wms-przyjecia-wprowadzenie.html
+
+            - title: Dostawy
+              output: web
+              url: /wms-dostawa.html
+
+            - title: Przyjęcie zewnętrzne ręczne
+              output: web
+              url: /wms-przyjecie-reczne.html
+
+        - title: qcadoo WMS mobile - przesunięcia
+          output: web
+          subfolderitems:
+
+            - title: Wprowadzenie do modulu Przesunięcia aplikacji qcadoo WMS mobile
+              output: web
+              url: /wms-przesuniecia-wprowadzenie.html
+
+            - title: Dokumenty MM
+              output: web
+              url: /wms-mm.html
+
+            - title: Zmiana miejsca składowania
+              output: web
+              url: /wms-zmiana-miejsca-sklad.html
+
+        - title: qcadoo WMS mobile - wydania
+          output: web
+          subfolderitems:
+
+            - title: Wprowadzenie do modulu Wydania aplikacji qcadoo WMS mobile
+              output: web
+              url: /wms-wydania-wprowadzenie.html
+
+            - title: Wydania zewnętrzne
+              output: web
+              url: /wms-wz.html
+
+            - title: Rozchód wewnętrzny
+              output: web
+              url: /wms-rw.html
+
   - title: Integracja
     output: web
     folderitems:

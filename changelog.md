@@ -7,6 +7,49 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.2 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.2</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.2</td>
+          <td>
+          <ul>
+            <li>domyślne miejsce składowania na magazynie przyjmującym dla przesuwania produktów dokumentem MM,</li>
+            <li>prace na rzecz aplikacji qcadoo WMS mobile:proces:</li>
+              <ul>
+                <li>przesunięcie międzymagazynowe dokumentem MM,</li>
+                <li>podział dokumentu WZ, RW i MM w celu kompletacji przez wielu użytkowników.</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
+<!-- VERSION 3.0.1 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.1</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.1</td>
+          <td>
+          <ul>
+            <li>prace na rzecz aplikacji qcadoo WMS mobile - proces: rozchód wewnętrzny</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.0 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.0</summary><br>
@@ -19,7 +62,7 @@ permalink: changelog.html
           <td>3.0.0</td>
           <td>
           <ul>
-            <li>prace na rzecz aplikacji qcadoo WMS mobile</li>
+            <li>prace na rzecz aplikacji qcadoo WMS mobile - proces: wydanie zewnętrzne</li>
           </ul>
         </td>
         </tr>
@@ -51,7 +94,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5.29 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.29</summary><br>
     <table class="changelog-table" border>
         <tr>

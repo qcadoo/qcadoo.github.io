@@ -17,6 +17,18 @@ Po zainstalowaniu aplikacji na urządzeniu, uruchom ją i wyraź zgodę na wszys
 
 Obsługa aplikacji jest intuicyjna - jeśli korzystasz z telefonu z systemem Android i dedykowanych dla niego aplikacji, nie powinieneś mieć problemu z poruszaniem się po qcadoo WMS mobile. Używaj standardowych przycisków nawigacji z telefonu, przewijaj ekran przesuwając palcem góra-dół, wchodź w szczegóły wiersza klikając w niego.
 
+Pamiętaj o zezwoleniu na każdą nową aktualizację - zadbasz w ten sposób o działającą aplikację, zgodną z wersją systemu qcadoo MES/WMS.
+
+{% include callout.html content="Aktualizacje są automatyczne - gdy pojawi się nowa wersja, przy uruchomieniu aplikacji pojawi się komunikat z prośbą o aktualizację." type="info" %} 
+
+
+## Parametryzacja systemu qcadoo
+
+Aplikacja qcadoo WMS mobile współpracuje z systemem qcadoo. Aby praca przebiegała sprawnie ustaw w qcadoo następujące parametry:
+- w Magazyn > Magazyny wejdź w szczegóły magazynu i zaznacz w zakładce Metoda rozchodu i atrybuty dokumentów parametr **Szkicowe dokumenty rezerwują stan**. Aby zapewnić zgodność stanu magazynowego ewidencyjnego z tym faktycznym, konieczne jest zarezerowanie konkretnych zasobów, które będą wydawane. Dzięki temu produkt włożony do koszyka podczas kompletacji na pewno nie będzie mógł być zdjęty ze stanu innym dokumentem,
+- w Administracja > Użytkownicy wejdź w szczegóły użytkownika, który będzie się logował do aplikacji i w zakładce Pracownik przypisz mu [pracownika](/pracownicy),
+- w Parametry > Parametry magazynu w tabeli Widoczność kolumn w pozycjach dokumentu, ustaw by były widoczne kolumny: Pracownik WMS i Data WMS.
+
 
 ## Logowanie
 
@@ -46,7 +58,7 @@ Aplikacja qcadoo WMS mobile w danym momencie pomaga przy pracy na jednym magazyn
 Twoim oczom powinien ukazać się ekran główny qcadoo WMS mobile, z listą dostępnych modułów:
 - [przyjęcia](/wms-przyjecia-wprowadzenie),
 - przesunięcia,
-- wydania,
+- [wydania](/wms-wydania-wprowadzenie),
 - [stan magazynowy](/wms-stan-wprowadzenie).
 
 {% include lightbox.html file="wmsMenuGlowne.png" alt="Menu główne" caption="Menu główne" %}

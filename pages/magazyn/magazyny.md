@@ -31,8 +31,9 @@ Aby wprowadzić magazyn wejdź w Magazyn > Magazyny i kliknij {% include inline_
 Podaj numer i nazwę. Zapisz. I gotowe. 
 
 Teraz dla magazynu warto ustawić parametry w zakładce: _Metoda rozchodu i atrybuty dokumentów_:
-- wybierz **metodę, wg której zasoby mają być wydawane z magazynu**. Dostepne wartości to: FIFO (pierwsze przyszło, pierwsze wyszło), LIFO (ostatnie przyszło, pierwsze wyszło), FEFO (pierwsze traci ważność, pierwsze wyszło). LEFO (ostatnie traci ważność, pierwsze wyszło)
-- określ, czy **niepotwierdzone dokumenty magazynowe mają rezerwować stan**. Jeśli zaznaczysz parametr _szkicowe dokumenty rezerwują stany_ to każda pozycja dokumentu magazynowego rozchodowego o statusie szkic utworzy rezerwację i przeliczy ilość dostępną danego zasobu. Inny dokument tej części nie będzie mógł pobrać
+- wybierz **metodę, wg której zasoby mają być wydawane z magazynu**. Dostepne wartości to: FIFO (pierwsze przyszło, pierwsze wyszło), LIFO (ostatnie przyszło, pierwsze wyszło), FEFO (pierwsze traci ważność, pierwsze wyszło). LEFO (ostatnie traci ważność, pierwsze wyszło).
+- określ, czy **niepotwierdzone dokumenty magazynowe mają rezerwować stan**. Jeśli zaznaczysz parametr _szkicowe dokumenty rezerwują stany_ to każda pozycja dokumentu magazynowego rozchodowego o statusie szkic utworzy rezerwację i przeliczy ilość dostępną danego zasobu. Inny dokument tej części nie będzie mógł pobrać.
+- podaj domyślne **miejsce składowania dla przesunięć międzymagazynowych**. Dzięki temu w momencie przesłania produktów na ten magazyn z innego magazynu za pomocą dokumentu MM, wszystkie utworzone zasoby będą miały przypisane wskazane miejsce składowania. Szybko je zlokalizujesz w systemie i będziesz mógł przesunąć je do właściwych lokalizacji. 
 - zaznacz **jakie atrybuty w pozycjach dokumentów mają być wymagane**. Dla przykładu - jeśli chcesz, aby każda pozycja dokumentu miała wypełnioną datę ważności, zaznacz ten parametr. Dzięki temu nie uda się zapisać dokumentu bez podania tej daty - będziesz mieć pewność, że nikt o niej nie zapomni.
 
 ---
