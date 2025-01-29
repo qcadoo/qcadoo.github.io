@@ -21,12 +21,14 @@ Przechodzimy do: **ZAOPATRZENIE >> Zapotrzebowanie materiałowe >>**  {% includ
 Podaj **numer** i ewentualnie **nazwę** tworzonego raportu. Wybierz, wskazując **typ** jakie produkty chcesz zebrać - mają to być surowce, czy surowce i komponenty, a może wszystkie produkty wejściowe operacji, łącznie z półproduktami.
 
 Ustal także jak mają wyglądać parametry zapotrzebowania:
-- **uwzględnij magazyn** - jeśli zaznaczysz parametr, to produkty zostaną pogrupowane po magazynie, z którego ma nastąpić rozchód
-- **pokaż aktualny stan magazynowy** - zaznacz parametr, aby na wydruku pojawiła się informacja o stanie magazynowym produktów
-- **uwzględnij datę rozpoczęcia zlecenia** - jeśli zaznaczysz parametr, to produkty będą pogrupowane po dacie planowanego rozpoczęcia produkcji
+- **uwzględnij magazyn** - jeśli zaznaczysz parametr, to produkty zostaną pogrupowane po magazynie, z którego ma nastąpić rozchód,
+- **pokaż produkty tylko z magazynu** - wskaż magazyn jeśli chcesz, aby lista surowców do przygotowania została ograniczona tylko do tej lokalizacji. Dzieki temu będziesz w stanie przygotować odrębne zestawienia dla każdego magazynu, z którego materiały do produkcji będą zużywane,
+- **pokaż aktualny stan magazynowy** - zaznacz parametr, aby na wydruku pojawiła się informacja o stanie magazynowym produktów,
+- **pokaż stan z magazynu** - standardowo stan magazynowy w zapotrzebowaniu pobierany jest z magazynu wskazanego w technologii. Jeśli chcesz sprawdzić, czy jaki jest stan na innym magazynie, wskaż interesujący Cię magazyn w polu,
+- **uwzględnij datę rozpoczęcia zlecenia** - jeśli zaznaczysz parametr, to produkty będą pogrupowane po dacie planowanego rozpoczęcia produkcji.
 
 
-Zapisz zapotrzebowanie przyciskiem {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisz" %} **Zapisz.** I wskaż dla jakich zleceń chcesz ustalić listę potrzebnych produktów używając przycisku {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj istniejący** z prawej strony okna.
+Zapisz zapotrzebowanie przyciskiem {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisz" %}. I wskaż dla jakich zleceń chcesz ustalić listę potrzebnych produktów używając przycisku {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Przycisk Dodaj istniejący" %} z prawej strony okna.
 
 Wygeneruj zapotrzebowanie przyciskiem  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj**. Uzupełni się informacja kto i kiedy wygenerował zestawienie.
 

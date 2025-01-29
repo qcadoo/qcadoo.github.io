@@ -30,15 +30,19 @@ W tej zakładce ustawiasz domyślne wartości do generowania [planu na stację r
 
 {% include lightbox.html file="parametryParametryPlanowaniaPlanNaStacje.png" alt="Parametry planu na stację roboczą i pracownika" caption="Parametry planu na stację roboczą i pracownika" %}
 
-1. **Sortowanie** - do wyboru dwie opcje: 
-- malejące - do najdłuższej do najkrótszej operacji
-- rosnące - od najkrótszej do najdłuższej operacji
-wskaż, czy chcesz najpierw układać w planie te operacje, na które trzeba będzie poświęcić najwięcej czasu, czy te, które wykonasz najszybciej
+{% include callout.html content="Aktualnie część parametrów planu na stację roboczą i pracownika, można ustawić w zakładce Planer." type="warning" %}
+
+1. **sortowanie** - zawsze przy sortowaniu bierzemy pod uwagę: poziom operacji w drzewie technologii i termin ostateczny zlecenia. Ponadto można uwzględnić: 
+- priorytet zlecenia - domyślnie każde zlecenie ma priorytet 100. Jeśli zlecenie ma być pilniejsze, ustaw w nim w polu priorytet niższą liczbę. Im bliżej zera, tym zlecenie będzie traktowane jako ważniejsze i planer będzie starał się je umieszczać na początku planu
+- analiza ABC kontrahenta - zlecenia realizowane dla firm, które w polu Analiza ABC mają podane - grupa A, będą traktowane jak najpilniejsze i będą ustawiane na początku kolejki. 
 
 {:start="2"}
-2. **Kryterium oceny przypisania do stacji** - po każdym ułożeniu operacji na możliwych stacjach dokonujemy oceny przypisania. I pozostawiamy to przypisanie, które jest najlepsze z punktu widzenia wskazanego kryterium. Do wyboru dwie opcje:
-- **_najkrótszy czas trwania prac na stacji roboczej_** - czyli operacja będzie ułożona na tej stacji, która zagwarantuje najszybszą jej datę zakończenia
-- **_najmniej uruchomionych stacji roboczych_** - czyli opracja będzie ułożona tak, by jak najmniej stacji roboczych było w użyciu. Jeśli można to operacja będzie wykonywana na stacji, która już pracuje.
+2. **kryterium oceny przypisania do stacji** - po każdym ułożeniu operacji na możliwych stacjach dokonujemy oceny przypisania. I pozostawiamy to przypisanie, które jest najlepsze z punktu widzenia wskazanego kryterium. Do wyboru następujące opcje:
+- **_minimalizacja terminu zakończenia zlecenia_** - czyli operacja będzie ułożona na tej stacji, która zagwarantuje najszybszą jej datę zakończenia,
+- **_minimalizacja czasu produkcji zlecenia_** - czyli planer będzie dążył do skrócenia czasu między datą zakończenia a datą rozpoczęcia zlecenia. Jeśli może tak ułożyć zadania, by zlecenie nie przechodziło np. przez wolny weekend, to tak zrobi,
+- **_minimalizacja czasu trwania przezbrojeń_** - czyli postaramy się stworzyć taki plan, w którym czas zaplanowanych przezbrojeń będzie jak najkrótszy,
+- **_minimalizacja rozpiętości harmonogramu_** - w tym kryterium planer dąży do tego, by różnica między datą rozpoczęcia pierwszego zadania, a datą zakończenia ostatniego zadania, była jak najkrótsza. Najprawdopodobniej zostanie zaangażowanych do pracy maksymalnie dużo stacji roboczych,
+- **_minimalizacja czasu trwania przerw w pracy maszyny_** - czyli plan będzie tak ułożony, by stacje robocze pracowały ciągle, bez konieczności robienia przerw. W tym kryterium niektóre maszyny mogą nie być w ogóle wykorzystane, a czas zakończenia ostatniego zadania może być późniejszy niż w przypadku pozostałych kryteriów.
 
 {:start="3"}
 3. **Kryterium oceny przypisania pracownika** - gdy operacje są już przydzielone do stacji, następuje proces przypisania pracownika. Do operacji przypisywany jest każdy pracownik, który może daną czynność wykonać i każde przypisanie poddawane jest ocenie wg wskazanego kryterium. Wygrywa to, które daje najlepszy rezultat. Kryteria są następujące:
@@ -51,7 +55,11 @@ wskaż, czy chcesz najpierw układać w planie te operacje, na które trzeba bę
 
 5. **Uwzględnij czas przygotowawczo-zakończeniowy** - zaznacz parametr jeśli chcesz, aby podczas wyliczania czasu trwania operacji, uwzględniany był czas przygotowawczo-zakończeniowy zdefiniowany w normach czasowych operacji
 
-6. **Pomijaj zakończone zadania** - zaznacz parametr jeśli chcesz, aby planowanie nie brało pod uwagę zadań już zakończonych przypisanych do stacji
+6. **Długość planu** - parametr funkcji przeliczania planu wywoływanej z Gantta zadań operacyjnych. Określa z ilu dni do przodu, od linii startu, mają być pobierane zadania do przeplanowania. Pamiętaj, że im więcej zadań do przeliczenia, tym dłuższy czas oczekiwania
+
+7. **Przeliczaj plan po zakończeniu zadania w terminalu** - zaznacz parametr jeśli chcesz, aby po zakończeniu zadania w terminalu rejestracji produkcji, plan był z automatu przeliczany. Dzięki temu każde zakończenie zadania w innym terminie niż planowano, dostosuje kolejne operacje i pracownik będzie wiedział, czym ma się w dalszej kolejności zająć
+
+8. **Kontroluj wymiary wytwarzanych przez stacje wyrobów** - zaznacz parametr jeśli chcesz, abyśmy dobierali do operacji tylko te stacje, które pozwalają na wyprodukowanie wyrobu o danych wymiarach. Aby walidacja działała, musisz najpierw podać maksymalne i minimalne wymiary możliwe do osiągnięcia przez stacje, wymiary danego wyrobu oraz w polach niżej - listę atrybutów, którę mamy w tym celu kontrolować (to te atrybuty, za pomocą których podawane są wymiary w wyrobie)
 
 ---
 

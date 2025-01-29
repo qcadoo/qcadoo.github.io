@@ -141,6 +141,24 @@ W zależności od statusu, kafelek może przybierać następujące **kolory**:
 
 Zdarzenia planowane nie mogą być modyfikowane z poziomu wykresu Gantta. Jeśli planista ma wątpliwości odnośnie zasadności remontowania maszyny w danym momencie, musi zwrócić się do właściciela zadania (dane widoczne są na tooltipie) i poprosić o modyfikację w module utrzymania ruchu.
 
+---
+
+## Przeliczanie planu
+
+qcadoo APS lub qcadoo MES poszerzony o APS posiada funkcję przeliczania planu z poziomu Gantta zadań operacyjnych. Funkcja ponownie wywołuje planowanie zadań, dostosowując je do nowych warunków.
+
+**Czego możemy od funkcji oczekiwać:**
+- pojawiło się nowe super pilne zlecenie. Dodaję je do listy, tworzę do niego zadania (i przypisuje je do stacji - tak, by zadania były widoczne na wykresie), określam wysoki priorytet. Nie dbam na ten moment o realność dat. Nowe zadania mogą nachodzić się na inne, już zawarte w planie. Po wywołaniu funkcji planer weźmie pod uwagę nowe zadania i umieści je w planie,
+- jedno ze zleceń w istniejącym planie okazało się pilniejsze niż pierwotnie założyliśmy. Zmieniamy mu priorytet i wywołujemy przeliczenie planu. Plan zostanie ułożony wg nowych założeń,
+- w ramach jednego ze zleceń będziemy produkować inną ilość, niż pierwotnie zakładaliśmy. Zmieniam ilość w zleceniu i wywołuję przeliczanie planu. Plan zostanie odpowiednio dostosowany,
+- stacja robocza przestała działać (awaria) lub wpadła wcześniej nieplanowana konieczność remontu. Wprowadzamy dane w zdarzeniach planowanych i wywołujemy przeliczenie planu. Plan zostanie odpowiednio dostosowany,
+- jeśli planujemy obsadę dla zadań i czas realizacji jest zależny od ilości zaangażowanych osób, to po zmianie ilości osób i przeliczaniu planu, zadania zostaną odpowiedni dostosowane,
+- zadania operacyjne zostały zakończone w innym terminie niż planowano. Zakończono je z poziomu [terminala rejestracji produkcji](/terminal), data zakończenia została ustawiona na właściwą. Przeliczanie planu spowoduje dostosowanie pozostałych zadań do nowych warunków.
+
+W planie przeliczane są zadania operacyjne od linii startu, zaznaczonej różowym kolorem na zdjęciu niżej. Zbierane są zadania z tylu dni, ile ustawiono w parametrach planera.
+
+{% include lightbox.html file="planowanieGanttZadanLiniaStartu.png" alt="Linia startu na wykresie Gantta" caption="Linia startu na wykresie Gantta" %}
+
 
 
 
