@@ -126,4 +126,4 @@ Kolumna Wykonano % może zostać oznaczona kolorami. Stosujemy trzy kolory:
 - <span style="color:green"> zielony</span> - oznacza, że cała ilość zlecona jest już wyprodukowana (suma ilości wyprodukowanej pochodzącej z zaakceptowanych rekordów rejestracji jest co najmniej taka jak ilość zlecona),
 - <span style="color:yellow"> żółty</span> - oznacza, że praca trwa (czyli mamy już zarejestrowaną ilość wyprodukowaną do tej operacji, ale jest ona nadal mniejsza od ilości zleconej).
 
-Aby kolor się pojawił, zaznacz parametr Oznacz kolorem procent wykonania w Parametry > Parametry planowania > [Zadania operacyjne](/parametry-planowania.html#zadania-operacyjne)
+Aby kolor się pojawił, zaznacz parametr Oznacz kolorem procent wykonania w Parametry > Parametry planowania > [Zadania operacyjne](/parametry-planowania.html#zadania-operacyjne).

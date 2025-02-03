@@ -145,7 +145,7 @@ Zdarzenia planowane nie mogą być modyfikowane z poziomu wykresu Gantta. Jeśli
 
 ## Przeliczanie planu
 
-qcadoo APS lub qcadoo MES poszerzony o APS posiada funkcję przeliczania planu z poziomu Gantta zadań operacyjnych. Funkcja ponownie wywołuje planowanie zadań, dostosowując je do nowych warunków.
+System qcadoo APS lub qcadoo MES poszerzony o APS, posiada funkcję przeliczania planu z poziomu Gantta zadań operacyjnych. Funkcja ponownie wywołuje planowanie zadań, dostosowując je do nowych warunków.
 
 **Czego możemy od funkcji oczekiwać:**
 - pojawiło się nowe super pilne zlecenie. Dodaję je do listy, tworzę do niego zadania (i przypisuje je do stacji - tak, by zadania były widoczne na wykresie), określam wysoki priorytet. Nie dbam na ten moment o realność dat. Nowe zadania mogą nachodzić się na inne, już zawarte w planie. Po wywołaniu funkcji planer weźmie pod uwagę nowe zadania i umieści je w planie,
@@ -159,6 +159,9 @@ W planie przeliczane są zadania operacyjne od linii startu, zaznaczonej różow
 
 {% include lightbox.html file="planowanieGanttZadanLiniaStartu.png" alt="Linia startu na wykresie Gantta" caption="Linia startu na wykresie Gantta" %}
 
+Po zakończeniu przeliczania wyślemy Ci notyfikację w postaci pomarańczowego dzwoneczka w prawym górnym rogu qcadoo. Odśwież wykres i bufor i sprawdź jak teraz wygląda plan produkcji.
+
+{% include lightbox.html file="planowanieGanttZadanNotyfikacje.png" alt="Kroki do wykonania po przeliczeniu planu" caption="Kroki do wykonania po przeliczeniu planu" %}
 
 
 

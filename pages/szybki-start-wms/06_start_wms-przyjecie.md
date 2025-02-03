@@ -17,7 +17,7 @@ Ale możesz też przyspieszyć pracę, korzystając z importu pozycji z pliku .x
 
 Po wypełnieniu dokumentu wszystkimi pozycjami, zaakceptuj go, klikając przycisk {% include inline_image.html file="przyciskAkceptuj.png" alt="Akceptuj" %}. Do każdej pozycji zostanie utworzony zasób magazynowy, a ich suma utworzy stan magazynowy.
 
-**Gratuluję! Praca w qcadoo została rozpoczęta!** Teraz pora na ewidencjonowanie każdego ruchu magazynowego.
+**Gratulacje! Praca w qcadoo została rozpoczęta!** Teraz pora na ewidencjonowanie każdego ruchu magazynowego.
 
 <br/>
 <br/>
