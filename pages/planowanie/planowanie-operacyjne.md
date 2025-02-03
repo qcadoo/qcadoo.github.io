@@ -79,7 +79,7 @@ Czym różnią się zadania operacyjne pochodzące z planu od zadań z czasochł
 
 Jeśli chcesz raportować realizację operacji, ale nie zależy Ci na dokładnym planowaniu czasowym zadań, możesz przyjąć, że zadania operacyjne będą wykonywane w czasie realizacji zlecenia produkcyjnego. W takim podejściu najłatwiej będzie wygenerować zadania ze zlecenia produkcyjnego. Wejdź do zlecenia produkcyjnego i zaakceptuj je. Kliknij przycisk {% include inline_image.html file="przyciskUtworzZadaniaOperacyjne.png" alt="Utwórz zadania operacyjne" %} **Utwórz zadania operacyjne**. W efekcie do każdej operacji technologii zostaje założone zadanie. Daty rozpoczęcia i zakończenia zadania ustalone są na podstawie dat zlecenia. Zadanie nie ma uzupełnionej stacji roboczej - jeśli masz potrzebę, możesz je uzupełnić.
 
-{% include callout.html content="Zmiana dat w zadaniach operacyjnych może aktualizować daty w powiązanym zleceniu produkcyjnym. Aby tak się stało zaznacz [parametr](/parametry-planowania.html#zadania-operacyjne): **Ustawiaj daty zlelcenia na podstawie dat zadań**." type="warning" %}
+{% include callout.html content="Zmiana dat w zadaniach operacyjnych może aktualizować daty w powiązanym zleceniu produkcyjnym. Aby tak się stało zaznacz [parametr](/parametry-planowania.html#zadania-operacyjne): **Ustawiaj daty zlecenia na podstawie dat zadań**." type="warning" %}
 
 ## Obsada zadania operacyjnego
 

@@ -1265,6 +1265,54 @@ entries:
               output: web
               url: /wms-rw.html
 
+  - title: qcadoo APS - SZYBKI START
+    output: web
+    folderitems:
+
+    - title: Szybki START - APS - wprowadzenie
+      output: web
+      url: /00_start-aps-wprowadzenie.html
+
+    - title: Szybki START - APS - Krok 1. Parametry
+      output: web
+      url: /01_start-aps-parametry.html
+
+    - title: Szybki START - APS - Krok 2. Kalendarze
+      output: web
+      url: /02_start-aps-kalendarz.html
+
+    - title: Szybki START - APS - Krok 3. Pracownicy
+      output: web
+      url: /03_start-aps-pracownicy.html
+
+    - title: Szybki START - APS - Krok 4. Struktura firmy
+      output: web
+      url: /04_start-aps-struktura-firmy.html
+
+    - title: Szybki START - APS - Krok 5. Produkty
+      output: web
+      url: /05_start-aps-produkty.html 
+
+    - title: Szybki START - APS - Krok 6. Operacje
+      output: web
+      url: /06_start-aps-operacje.html
+
+    - title: Szybki START - APS - Krok 7. Technologie
+      output: web
+      url: /07_start-aps-technologie.html
+
+    - title: Szybki START - APS - Krok 8. Zlecenia produkcyjne
+      output: web
+      url: /08_start-aps-zlecenia.html
+
+    - title: Szybki START - APS - Krok 9. Plany produkcyjne
+      output: web
+      url: /09_start-aps-plany.html 
+
+    - title: Szybki START - APS - Krok 10. Przeliczanie planu
+      output: web
+      url: /10_start-aps-przeliczanie-planu.html
+
   - title: Integracja
     output: web
     folderitems:

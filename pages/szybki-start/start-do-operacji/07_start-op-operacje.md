@@ -26,7 +26,7 @@ Następnie przejdź do zakładki **Stacje robocze**. Wskaż **Dział** w jakim o
 I ostatni ważny element - przejdź do zakładki **Normy czasowe** i wskaż jak długo dana czynność powinna trwać (przyjmując wykonanie jednostki lub minimalnej ilości wyrobu). Najważniejsze są pola umiejscowione w lewej części okna:
 - **Czas przygotowawczo - zakończeniowy TPZ** - to jest ten czas, który trzeba poświęcić, by przygotować się do czynności i ją zakończyć, np. sprzątając stanowisko. Czas jest stały, niezależnie od zleconej ilości wyrobu
 - **Jednostkowy czas produkcji Tj** - to jest faktyczny czas wytworzenia jednostki wyrobu (sam decydujesz w polu _Dla produkcji w jednym cyklu_ jaka jest minimalna ilość możliwa do wytworzenia. Pamiętaj też o właściwej jednostce miary - musi być ona zgodna z produktem, który w tej operacji będzie wytwarzany). Czas ten będzie wydłużany wraz ze wzrostem ilości zleconej
-- ** Dodatkowy czas** - to czas, który musi upłynąć, by móc wykonać kolejną czynność (np. po to, by nałożona farba mogła wyschnąć).
+- **Dodatkowy czas** - to czas, który musi upłynąć, by móc wykonać kolejną czynność (np. po to, by nałożona farba mogła wyschnąć).
 
 Wszystkie czasy należy podać w formacie: GG:MM:SS (godziny:minuty:sekundy).
 

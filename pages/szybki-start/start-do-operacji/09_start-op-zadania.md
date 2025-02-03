@@ -13,7 +13,7 @@ Wejdź w **Planowanie > Planowanie zleceń** i kliknij przycisk dodawania. W uru
 
 {% include lightbox.html file="startOpZlecenie.png" alt="Zlecenie produkcyjne" caption="Zlecenie produkcyjne" %}
 
-Zlecenie dodane. Jednak aby było ono gotowe do przekazania na produkcję, do każdej operacji zlecenia musi powstać **zadanie operacyjne**. Możesz to zrobić samodzielnie, albo przez automatyczne generowanie przy akceptacji zlecenia. O wszelkich metodach poczytasz w tym rozdziale dokumentacji: [Zadania operacyjne](/planowanie-operacyjne). Ale nie musisz. qcadoo MES posiada algorytmy planowania, które utworzą zadania, wyznaczą miejsce i daty realizacji. Zachęcam do ich wykorzystywania. W jaki sposób? Przejdź do kolejnej strony instrukcji.
+Zlecenie dodane. Jednak aby było ono gotowe do przekazania na produkcję, do każdej operacji zlecenia musi powstać **zadanie operacyjne**. Możesz to zrobić samodzielnie, albo przez automatyczne generowanie przy akceptacji zlecenia. O wszelkich metodach poczytasz w tym rozdziale dokumentacji: [Zadania operacyjne](/planowanie-operacyjne). Ale nie musisz. qcadoo MES w połączeniu z APS posiada algorytmy planowania, które utworzą zadania, wyznaczą miejsce i daty realizacji. Zachęcam do ich wykorzystywania. W jaki sposób? Przejdź do kolejnej strony instrukcji.
 
 <br/>
 <br/>

@@ -4,7 +4,7 @@ permalink: 10_start-op-plany.html
 ---
 
 
-Narzędziem wspierającym planistę w utworzeniu planu produkcyjnego w trybie pracy raportowania z dokładnością do operacji, jest plan na stację roboczą i pracownika. Podstawowym celem algorytmu jest podział zleceń na zadania operacyjne, przypisanie im właściwych stacji roboczych, na których produkcja ma być wykonywana i ustalenie dat realizacji. Dodatkowo do operacji może być przydzielony pracownik.
+Jeśli korzystasz z **<u>qcadoo MES wraz z APS</u>**, przy tworzeniu planu produkcyjnego, będziesz wykorzystywać plan na stację roboczą i pracownika. Podstawowym celem algorytmu jest podział zleceń na zadania operacyjne, przypisanie im właściwych stacji roboczych, na których produkcja ma być wykonywana i ustalenie dat realizacji. Dodatkowo do operacji może być przydzielony pracownik.
 
 Aby stworzyć plan wejdź w **Planowanie > Plan na stację roboczą i pracownika** i dodaj nowy rekord. Podaj **datę rozpoczęcia planu** i wybierz najlepsze dla Ciebie kryteria. Szerzej możliwości planera opisane są w tej dokumentacji: [Plan na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika).
 
@@ -35,6 +35,14 @@ Przedstawione wyliczenia są na ten moment tylko propozycją. Możesz się z ni�
 Kolejnym krokiem planisty będzie **akceptacja zleceń**, np. z listy **Planowanie > Planowanie zleceń**. Należy tam zaznaczyć wszystkie zaplanowane oczekujące zlecenia i kliknąć przycisk {% include inline_image.html file="przyciskAkceptuj.png" alt="Akceptuj" %}. Zmiana statusu oznacza, że zlecenia mają zostać zrealizowane.
 
 {% include callout.html content="Plan produkcyjny, czyli zadania operacyjne do realizacji, możesz przeglądać albo w tabeli [zadań operacyjnych](/planowanie-operacyjne), albo w formie graficznej, za pomocą [Gantta zadań operacyjnych](/gantt-zadan-operacyjnych). Obie opcje umieszczone w menu: Planowanie." type="warning" %}
+
+Jeśli natomiast **<u>będziesz działać tylko w qcadoo MES, bez algorytmów planowania w postaci APS</u>**, plan będziesz musiał ułożyć samodzielnie. Nie martw się - pomożemy jak tylko będziemy mogli. Co możesz wykorzystać:
+1. do zlecenia produkcyjnego możesz utworzyć zadania, klikając przycisk [Utwórz zadania operacyjne](/planowanie-operacyjne.html#dodawanie-zadań-operacyjnych-poprzez-wygenerowanie-do-zlecenia-produkcyjnego)
+2. proces tworzenia zadań można zautomatyzować. Jeśli zaznaczysz parametr [Automatycznie generuj zadania do zlecenia produkcyjnego](/parametry-planowania.html#zadania-operacyjne), utworzą się one w momencie akceptacji zlecenia, otrzymując daty takie, jak ustawiono w zleceniu. Dodatkowo - jeśli do operacji przypisana jest jedna stacja robocza, to zostanie ona w zadaniu uzupełniona. Aby tak się stało zaznacz parametr [Uzupełniaj stację i pracownika w wygenerowanych zadaniach](/parametry-planowania.html#zadania-operacyjne)
+3. zadania do zlecenia mogą się utworzyć też poprzez wywołanie funkcji czasochłonności w zleceniu - po wyliczeniu czasu trwania poszczególnych operacji, funkcją [Utwórz z symulacji plan operacyjny](/planowanie-operacyjne.html#dodawanie-zadań-z-poziomu-kalkulacji-czasochłonności-zlecenia), zostaną założone zadania z odpowiednią datą. 
+4. zadania, które mają daty i stacje robocze widoczne są na wykresie [Gantta zadań operacyjnych](/gantt-zadan-operacyjnych). Tam wystarczy je odpowiednio poukładać, tworząc plan produkcyjny 
+5. zadania, które nie mają przypisanej stacji roboczej, w [Gantt zadań operacyjnych](/gantt-zadan-operacyjnych), widoczne są w buforze (tabeli z prawej strony) - przy przeciąganiu zadania na obszar planowania, do konkretnej stacji, wyliczony zostanie czas trwania zadania, na podstawie norm. Czas jest przeliczany zawsze, gdy zmieni się przypisana stacja, albo z pustej na konkretną, albo z jednej na drugą
+5. ułatwiający może okazać się też parametr zleceń [Podpowiadaj datę rozpoczęcia zlecenia przy tworzeniu zlecenia](/parametry-zlecen.html#główna). Dzięki niemu do nowo dodanego zlecenia możemy podpowiedzieć datę rozpoczęcia - na podstawie czego? Sprawdź możliwe ustawienia parametru [Data rozpoczęcia podpowiadana na podstawie](/parametry-zlecen.html#główna)
 
 Wiadomo już co trzeba wyprodukować. Kolej na ustalenie jakie surowce będą potrzebne do realizacji zleceń i czy są wystarczające stany magazynowe.
 

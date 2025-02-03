@@ -7,6 +7,32 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.3 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.3</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.3</td>
+          <td>
+          <ul>
+            <li>qcadoo MES:</li>
+              <ul>
+                <li>zapotrzebowanie materiałowe - pobranie stanu magazynowego ze wskazanego magazynu,</li>
+              </ul>
+            <li>aplikacja qcadoo WMS mobile:</li>
+              <ul>
+                <li>wycofanie dokumentu magazynowego z WMS.</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.2 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.2</summary><br>
@@ -20,7 +46,7 @@ permalink: changelog.html
           <td>
           <ul>
             <li>domyślne miejsce składowania na magazynie przyjmującym dla przesuwania produktów dokumentem MM,</li>
-            <li>prace na rzecz aplikacji qcadoo WMS mobile:proces:</li>
+            <li>prace na rzecz aplikacji qcadoo WMS mobile - proces:</li>
               <ul>
                 <li>przesunięcie międzymagazynowe dokumentem MM,</li>
                 <li>podział dokumentu WZ, RW i MM w celu kompletacji przez wielu użytkowników.</li>
@@ -51,7 +77,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.0 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.0</summary><br>
     <table class="changelog-table" border>
         <tr>
@@ -70,11 +96,11 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 2.5 -->
-<details open>
+<details>
   <summary><h2 class="changelog-main-version">Changelog - 2.5</h2></summary>
 
 <!-- VERSION 2.5.30 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">2.5.30</summary><br>
     <table class="changelog-table" border>
         <tr>
