@@ -24,21 +24,48 @@ W zakładce umieszono parametry dotyczące [dostaw](/dostawy)
 {% include callout.html content="Twoja firma to z naszego punktu widzenia ta firma, która jest uzupełniona w [parametrach w zakładce główna](/parametry-glowna) w polu **Firma**" type="info" %}
 
 {:start="5"}
-5. **Dodatnia cena zakupu** - jeśli zależy Ci na tym, aby każda przyjmowana z dostawy pozycja miała określoną cenę (większą od zera) to zaznacz ten parametr. Będziemy tego pilnować.
+5. **Wymagaj wskazania dostawcy** - zaznacz parametr, a nie pozwolimy na zapis dostawy bez uzupełnienia firmy
 
-6. **Odbieranie większej ilości niż zamawiana** - zdarzyło Ci się, że dostawca przysłał więcej sztuk produktu niż zamówiłeś? Zawsze odsyłasz, czy czasami przyjmujesz? A może nie masz innej możliwości, bo dostawca zawsze przysyła pełną paletę nawet gdy zamówisz mniej? Jeśli pozwalasz na przyjęcie większej ilości niż sobie zażyczyłeś - zaznacz parametr. Jeśli zostanie niezaznaczony będziemy pilnować, by ilość odbierana nie przekroczyła zamówionej.
+6. **Akceptacja dostaw** - zaznacz parametr jeśli chcesz, aby akceptacja dostawy (etap między potwierdzeniem a odbiorem), była krokiem koniecznym
 
-7. **Wymagaj wskazania dostawcy** - zaznacz parametr, a nie pozwolimy na zapis dostawy bez uzupełnienia firmy
+7. **Odbieranie większej ilości niż zamawiana** - zdarzyło Ci się, że dostawca przysłał więcej sztuk produktu niż zamówiłeś? Zawsze odsyłasz, czy czasami przyjmujesz? A może nie masz innej możliwości, bo dostawca zawsze przysyła pełną paletę nawet gdy zamówisz mniej? Jeśli pozwalasz na przyjęcie większej ilości niż sobie zażyczyłeś - zaznacz parametr. Jeśli zostanie niezaznaczony będziemy pilnować, by ilość odbierana nie przekroczyła zamówionej.
 
-8. **Uzupełniaj ceny na podstawie** - wskaż, która cena: ostatnia zakupu czy ostatnia z oferty dostawcy, ma być podpowiadana w dostawie (funkcja wywoływana przyciskiem: Uzupełniaj ceny)
+8. **Dodatnia cena zakupu** - jeśli zależy Ci na tym, aby każda przyjmowana z dostawy pozycja miała określoną cenę (większą od zera) to zaznacz ten parametr. Będziemy tego pilnować.
 
-9. **Użyj kosztu nominalnego, gdy cena nie jest określona** - parametr powiązany z powyższym. Jeśli zaznaczysz parametr w sytuacji, gdy cena ostatniego zakupu lub z ostatniej oferty będzie zerowa (lub nieokreślona) pobierzemy koszt nominalny. Koszt nominalny możesz uzupełnić ręcznie ceną, którą spodziewasz się otrzymać od kontrahenta
+9. **Uzupełniaj ceny na podstawie** - wskaż, która cena: ostatnia zakupu czy ostatnia z oferty dostawcy, ma być podpowiadana w dostawie (funkcja wywoływana przyciskiem: Uzupełniaj ceny)
 
-10. **Generuj partię, dla produktu w dostawie** - zaznacz parametr jeśli chcesz, aby numer partii produktu w dostawie generował się poprzez naciśnięcie przycisku generowania partii w dostawie. Utworzymy numer partii wg wskazanego poniżej wzorca numerów.
+10. **Użyj kosztu nominalnego, gdy cena nie jest określona** - parametr powiązany z powyższym. Jeśli zaznaczysz parametr w sytuacji, gdy cena ostatniego zakupu lub z ostatniej oferty będzie zerowa (lub nieokreślona) pobierzemy koszt nominalny. Koszt nominalny możesz uzupełnić ręcznie ceną, którą spodziewasz się otrzymać od kontrahenta
 
-11. **Wzorzec numeru** - wskaż wzorzec numeru, na podstawie którego będziemy generować partię produktu w dostawie.
+11. **Generuj partię, dla produktu w dostawie** - zaznacz parametr jeśli chcesz, aby numer partii produktu w dostawie generował się poprzez naciśnięcie przycisku generowania partii w dostawie. Utworzymy numer partii wg wskazanego poniżej wzorca numerów.
 
-12. **Kolumny w zamówieniu** - tabela zawiera listę kolumn, które będziemy prezentować na wydruku zamówienia. Ustaw, jakie kolumny Cię interesują. I usuń te, których widzieć na wydruku nie chcesz.
+12. **Wzorzec numeru** - wskaż wzorzec numeru, na podstawie którego będziemy generować partię produktu w dostawie.
+
+
+
+---
+
+## Wydruk zamówienia
+
+W zakładce ustawisz kolumny, które mają pojawiać się na wydruku zamówienia zakupu.
+
+{% include lightbox.html file="parametryParametryZaopatrzenieWydrukZamowienia.png" alt="Parametry wydruku zamówienia" caption="Parametry wydruku zamówienia" %}
+
+**Kolumny w zamówieniu** - tabela zawiera listę kolumn, które będziemy prezentować na wydruku zamówienia. Ustaw, jakie kolumny Cię interesują. I usuń te, których widzieć na wydruku nie chcesz.
+
+---
+
+## E-mail do dostawy
+
+Parametry pozwalają na skonfigurowanie wiadomości e-mail wysyłanej do dostawców z listy dostaw.
+
+{% include lightbox.html file="parametryParametryZaopatrzenieEmailDoDostawy.png" alt="Parametry wiadomości E-mail do dostawy" caption="Parametry wiadomości E-mail do dostawy" %}
+
+1. **Wyślij e-mail do dostawcy** - zaznacz parametr, aby wysyłanie e-mail z listy dostaw było możliwe. Koniecznie podaj niżej tytuł i treść maila
+
+2. **Tytuł wiadomości** - podaj jak ma być zatytuowany e-mail. Do podanego tesktu zawsze dokleimy numer dostawy z qcadoo. 
+
+3. **Treść wiadomości** - podaj treść wysyłanej wiadomości. W polu obowiązuje formatowanie tekstu html. Dla przykładu możesz użyć:
+{% include lightbox.html file="formatowanieHtml.png" alt="Przykłady formatowania tekstu w HTML" caption="Przykłady formatowania tekstu w HTML" %}
 
 ---
 

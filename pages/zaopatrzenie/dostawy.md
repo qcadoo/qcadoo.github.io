@@ -124,6 +124,40 @@ Przypisane w ten sposób atrybuty zostaną przekazane do [dokumentu](/dokumenty)
 
 ---
 
+## Płatność
+
+Dostawę możesz oznaczyć, że jest gotowa do tego, by za nią zapłacić. Możesz to zrobić na dwa sposoby. 
+
+1. w szczegółach dostawy wejdź w zakładkę **Płatność** i zaznacz parametr **Zwolniono do płatności**
+
+{% include lightbox.html file="zaopatrzenieDostawaPlatnosc.png" alt="Płatność za dostawę" caption="Płatność za dostawę" %}
+
+Uaktywni się wówczas pole **Identyfikator płatności**, w którym będziesz mógł zapisać namiar na dokonaną wpłatę. Ponadto, na liście dostaw, w kolumnie **Zwolniono do płatności** pojawi się **TAK**.
+{:start="2"}
+2. w liście dostaw zaznacz, te które chcesz zwolnić do płatności i kliknij przycisk {% include inline_image.html file="przyciskZwolnijDoPlatnosci.png" alt="Przycisk Zwolnij do płatności" %}
+
+---
+
+## Wysyłanie wiadomości e-mail z zamówieniem
+
+Utworzenie dostawy w qcadoo to pierwszy krok w zamówieniu produktów. Kolejnym krokiem jest poinformowanie dostawcy o zamówieniu. Wiadomość e-mail możesz wysłać bezpośrednio z qcadoo.
+
+Aby funkcja działała, konieczna jest konfiguracja:
+
+1. w [parametrach ogólnych](/parametry-glowna.html#skrzynka-e-mail) skonfiguruj skrzynkę e-mail,
+2. w [parametrach zaopatrzenia](/parametry-zaopatrzenie.html#e-mail-do-dostawy) wskaż jak ma wyglądać wysyłana wiadomość,
+3. w [firmie](/firmy) wypełnij pole _E-mail_ - to na ten adres będziemy wysyłać wiadomość.
+
+W liście dostaw zaznacz te wiersze, do których chcesz wysłać e-mail i kliknij przycisk {% include inline_image.html file="przyciskWyslijEmail.png" alt="Przycisk Wyślij e-mail" %}. 
+
+{% include callout.html content="Wiadomość e-mail można wysłać tylko do dostawy o statusie **Przygotowano zamówienie**." type="warning" %}
+
+Jeśli wiadomość zostanie wysłana, w liście dostaw, w kolumnie **Data wysłania e-mail** pojawi się informacja o momencie wysyłki. Wiadomości można wysyłać wielokrotnie - w tabeli będzie widoczna data ostaniej wysyłki.
+
+Do wiadomości dołączony będzie plik PDF z wydrukiem zamówienia.
+
+---
+
 ## Generowanie dostawy do stanów minimalnych
 
 Jeżeli posiadamy produkty, które zamawiane są tylko wtedy, gdy ich ilość osiąga pewien stan to możemy do nich utworzyć automatycznie dostawy, Funkcjonanlność ta jest dostępna, gdy:

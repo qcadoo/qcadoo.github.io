@@ -41,6 +41,24 @@ Nie przesadź z długością tekstu - jak widzisz nie ma za dużo miejsca na tek
 
 ---
 
+## Skrzynka e-mail
+
+Zakładka ta widoczna jest tylko dla użytkownika z odpowiednimi uprawnieniami. Nie widzisz jej, a powinieneś - skontaktuj się z nami, a spróbujemy pomóc.
+
+Parametry, to konfiguracja Twojej skrzynki mailowej, do której będziemy się łączyć, aby w Twoim imieniu wysłać wiadomość e-mail. 
+
+{% include lightbox.html file="parametryParametryOgolneSkrzynkaEMail.png" alt="Parametry skrzynki e-mail" caption="Parametry skrzynki e-mail" %}
+
+Wskaż:
+1. **Adres serwera poczty wychodzącej**
+2. **Port poczty wychodzącej**
+3. **Adres e-mail** - adres, z którego mają być wysyłane maile
+4. **Hasło** - hasło do skrzynki, z której mają być wysyłane wiadomości
+
+
+
+---
+
 ## Produkty 
 
 W zakładce znajdują się parametry konfigurujące [produkty](/produkty).

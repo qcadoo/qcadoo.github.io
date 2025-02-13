@@ -9,15 +9,18 @@ qcadoo MES integruje się z systemami klasy ERP w dwojaki sposób. To Ty Użytko
 {% include callout.html content="Pamiętaj, że uruchomienie integracji wymaga naszego zaangażowania. Zatem jeśli chcesz, aby qcadoo współpracowało z Twoim ERPem - skontaktuj się z nami" type="warning" %}
 
 Bez względu na przyjęty sposób integracji zawsze tak samo działa synchronizacja danych podstwowych. Dane takie jak:
-- produkty
-- kontrahenci
-- jednostki
-- przeliczniki
-- koszty produktów
+- produkty,
+- kontrahenci,
+- jednostki,
+- przeliczniki,
+- koszty produktów,
 
 pobieramy z systemu zewnętrznego na starcie. I aktualizujemy, gdy zmienią się dane w ERP w czasie od ostatniej synchronizacji (czasami pobieramy wszystkie dane, a czasami będziesz musiał oznaczyć grupą/cechą te, które mają do nas zostać pobrane). Ponadto produkty dodane w qcadoo są przesyłane do ERP - albo od razu po dodaniu produktu i oznaczeniu go do synchronizacji, albo automatycznie w późniejszym etapie, np. podczas potwierdzania dostawy.
 
 Dodatkowo, niezależnie też od tego, który ze sposobów wybierzesz, w qcadoo mogą się tworzyć zamówienia sprzedaży na podstawie zamówień od klienta wprowadzonych do ERP.
+
+{% include callout.html content="System qcadoo WMS nie może być integrowany z systemem ERP. Obsługa magazynu musi być realizowana w qcadoo." type="info" %}
+
 
 ---
 
@@ -59,3 +62,4 @@ Aby włączyć ten tryb pracy z systemem zewnętrznym należy w **Parametry > Pa
 Aby wysłać dokumenty przejdź do Magazyn > [Dokumenty](/dokumenty), zaznacz te, które chcesz wysłać (będą miały w kolumnie Przesłany wartość NIE) i kliknij przycisk {% include inline_image.html file="przyciskWyslijDoSystemuZewnetrznego.png" alt="Przycisk Wyślij do systemu zewnętrznego" %} **Wyślij do systemu zewnętrznego**. Po udanej synchronizacji dokumenty zostaną oznaczone jako przesłane i ponownie wysłać się ich nie będzie dało.
 
 {% include callout.html content="Do zintegrowanego systemu zewnętrznego wysłać można tylko te dokumenty, które są zaakceptowane i nieprzesłane. Dodatkowo - przesłać nie da się dokumentu o typie MM przesunięcie międzymagazynowe." type="warning" %}
+

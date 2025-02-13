@@ -6,7 +6,7 @@ output: pdf
 topnav_title: Dokumentacja
 # this appears on the top navigation bar next to the home button
 
-site_title: Dokumentacja qcadoo MES
+site_title: Dokumentacja qcadoo
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Qcadoo

@@ -13,10 +13,19 @@ W rozdziałach poniżej znajdziesz opis dostępnych w aplikacji funkcjonalności
 
 Aplikacja qcadoo WMS mobile działa na urządzeniu z systemem Andoid w wersji co najmniej 10. Urządzenie musi mieć aparat, bo to za jego pomocą realizowane jest skanowanie kodów kreskowych.
 
-Po zainstalowaniu aplikacji na urządzeniu, uruchom ją i wyraź zgodę na wszystkie potrzebne qcadoo uprawnienia (musimy mieć dostęp do aparatu). 
-
 Obsługa aplikacji jest intuicyjna - jeśli korzystasz z telefonu z systemem Android i dedykowanych dla niego aplikacji, nie powinieneś mieć problemu z poruszaniem się po qcadoo WMS mobile. Używaj standardowych przycisków nawigacji z telefonu, przewijaj ekran przesuwając palcem góra-dół, wchodź w szczegóły wiersza klikając w niego.
 
+
+
+## Instalacja i aktualizacja aplikacji
+
+Aplikacja qcadoo WMS mobile działa zawsze z systemem qcadoo MES/WMS. Niezbędny jest zakup licencji do pełnego systemu. Zaloguj się do swojej instancji qcadoo MES i wejdź w **Parametry > Parametry ogólne** i kliknij przycisk {% include inline_image.html file="przyciskPobierzAplikacjeQcadooWMSMobile.png" alt="Przycisk Pobierz aplikację qcadoo WMS mobile" %}
+
+Pobierzesz w ten sposób aplikację na Swój komputer. Skopiuj plik na telefon lub tablet z androidem i zainstaluj.
+
+Po zainstalowaniu aplikacji na urządzeniu, uruchom ją i wyraź zgodę na wszystkie potrzebne qcadoo uprawnienia (musimy mieć dostęp do aparatu). 
+<br/>
+<br/>
 Pamiętaj o zezwoleniu na każdą nową aktualizację - zadbasz w ten sposób o działającą aplikację, zgodną z wersją systemu qcadoo MES/WMS.
 
 {% include callout.html content="Aktualizacje są automatyczne - gdy pojawi się nowa wersja, przy uruchomieniu aplikacji pojawi się komunikat z prośbą o aktualizację." type="info" %} 

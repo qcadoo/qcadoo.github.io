@@ -7,6 +7,34 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.4 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.4</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.4</td>
+          <td>
+          <ul>
+            <li>dostawy:</li>
+              <ul>
+                <li>możliwość wysłania dostawy wiadomością e-mail,</li>
+                <li>nowy status dostawy: Zaakceptowana + parametr określający wymagalność wykonania akceptacji,</li>
+                <li>zwolnienie dostawy do płatności i możliwość zapisania identyfikatora płatności,</li>
+              </ul>
+            <li>reorganizacja parametrów dostawy,</li>
+            <li>nowe uprawnienia w qcadoo,</li>
+            <li>informacja o tym z jakiego zasobu został utworzony przesunięty dokumentem MM zasób - kolumna w liście pozycji dokumentów,</li>
+            <li>funkcja pobierania z systemu aplikacji qcadoo WMS mobile.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.3 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.3</summary><br>
@@ -58,7 +86,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.1 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.1</summary><br>
     <table class="changelog-table" border>
         <tr>

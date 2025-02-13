@@ -2,7 +2,12 @@
 title: "Wprowadzenie"
 toc: false
 ---
-Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Średnich Firm. Pozwala na zarządzanie i monitorowanie produkcji. Jest rozwiązaniem, które łączy w sobie funkcje systemów klasy MES, ERP lub MRP specjalnie dostosowanych dla Małych i Średnich Firm. Na tle innych systemów do zarządzania produkcją wyróżnia się łatwością użycia, prostotą dostosowywania, szybkim wdrożeniem, niekończącymi się możliwościami rozbudowy.
+Qcadoo to internetowy system wspomagający Małe i Średnie Firmy. Dostępne są następujące warianty:
+- MES - do zarządzania produkcją, 
+- WMS - do zarządzania i obsługi magazynu, z możliwością rozbudowy o aplikację qcadoo WMS mobile,
+- APS - do harmonogramowania produkcji, bardzo dobrze komponujący się z qcadoo MES (razem tworzą spójną całość do harmonogramowania i zarządzania produkcją).
+
+qcadoo na tle innych systemów wyróżnia się łatwością użycia, prostotą dostosowywania, szybkim wdrożeniem i niekończącymi się możliwościami rozbudowy.
 
 <div class="row">
          <div class="col-md-3 col-sm-6">
@@ -208,7 +213,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
 </div>
 <br>
 
-<b>Jeśli jeszcze nie posiadasz swojego konta w qcadoo MES, na naszej stronie internetowej <a href="https://www.qcadoo.com/zobacz-qcadoo/" target="_blank">www.qcadoo.com</a> możesz otrzymać dostęp do darmowej 30-dniowej wersji demonstracyjnej. Zachęcamy!</b>
+<b>Jeśli jeszcze nie posiadasz swojego konta w qcadoo, na naszej stronie internetowej <a href="https://www.qcadoo.com/zobacz-qcadoo/" target="_blank">www.qcadoo.com</a> możesz otrzymać dostęp do darmowej 30-dniowej wersji demonstracyjnej. Zachęcamy!</b>
 
 <h2>Najczęściej zadawane pytania:</h2>
 
@@ -233,7 +238,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
-                                qcadoo pozwala na planowanie produkcji wg dwóch podejść - planujesz albo całe zlecenia, przypisując je do linii, albo poszczególne operacje, przydzielając je na maszyny czy pracowników. To, na jaki system pracy się zdecydujesz, wpływa na to z jakich narzędzi będziesz mógł korzystać. Wykres Gantta zleceń, wykres Gantta zadań operacyjnych, algorytm planowania na stację roboczą i pracownika, rozpisywanie produkcji na zmianę na podstawie norm wydajnościowych, kalkulacja czasochłonności wyliczająca czas trwania zlecenia - to tylko niektóre funkcje, z których będziesz mógł skorzystać tworząc plany. 
+                                qcadoo pozwala na planowanie produkcji wg dwóch podejść - planujesz albo całe zlecenia, przypisując je do linii, albo poszczególne operacje, przydzielając je na maszyny czy pracowników. To, na jaki system pracy się zdecydujesz, wpływa na to z jakich narzędzi będziesz mógł korzystać. Wykres Gantta zleceń, wykres Gantta zadań operacyjnych, rozpisywanie produkcji na zmianę na podstawie norm wydajnościowych, kalkulacja czasochłonności wyliczająca czas trwania zlecenia - to tylko niektóre funkcje, z których będziesz mógł skorzystać tworząc plany. Najważniejsze jednak jest to, że rozbudowując MES o APS, dostajesz kompletne narzędzie do harmonogramowania produkcji i do aktualizacji planu do realnych działań na produkcji.
                             </div>
                         </div>
                     </div>
@@ -252,7 +257,7 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Jak przekazać pracownikom zadania do realizacji?</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Jak przekazać pracownikom zadania do realizacji na produkcji?</a>
                             </h4>
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse noCrossRef">
@@ -276,10 +281,22 @@ Qcadoo MES to internetowa aplikacja do zarządzania produkcją dla Małych i Śr
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Jak wygląda obsługa qcadoo w przypadku prowadzenia magazynówki w systemie ERP?</a>
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Czy obsługa magazynu może być wspomagana aplikacją mobilną?</a>
                             </h4>
                         </div>
                         <div id="collapseSix" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                               Tak. Z qcadoo WMS i qcadoo MES z obsługą magazynu w naszym systemie, współpracuje aplikacja qcadoo WMS mobile. Aplikacja działa na Androidzie, zatem nie trzeba mieć specjalistycznych konektorów, aby móc wykorzystywać ją w codziennej pracy. Za pomocą aplikacji skompletujesz wydanie z magazynu, czy przyjmiesz dostawę. Sprawdzisz też stany magazynowe, czy przeprowadzisz porządki na magazynie.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Jak wygląda obsługa qcadoo w przypadku prowadzenia magazynówki w systemie ERP?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse noCrossRef">
                             <div class="panel-body">
                                 System qcadoo może współpracować z systemami klasy ERP. Aby tak się stało musimy udostępnić Ci konektor i przeprowadzić proces synchronizacji. Skontaktuj się z nami a ustalimy jakie są niezbędne kroki. Warto wiedzieć, że są realizowane dwa podejścia do integracji - pierwsze zakłada, że magazynówka prowadzona jest tylko i wyłącznie w ERP. qcadoo, gdy potrzebuje informacje o stanach, to po nie sięga. Tworzy też w ERP dokumenty magazynowe będące efektem raportowanej produkcji. Drugie podejście zakłada, że qcadoo wszystie dokumenty i całą magazynówkę prowadzi u siebie. Dane synchronizowane są poprzez ręczne przesłanie dokumentów (ręczne - czyli ręczne wywołanie funkcji w qcadoo). O tym jakie podejście do integracji będzie funkcjonowało u Ciebie decydujesz sam, odpowiednio ustawiając parametry. 
                             </div>
