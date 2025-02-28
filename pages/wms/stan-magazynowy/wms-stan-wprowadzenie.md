@@ -11,4 +11,4 @@ W module Stan magazynowy aplikacji WMS mobile uzyskasz informacje o tym jakie pr
 
 {% include lightbox.html file="wmsStanMenu.png" alt="Stan magazynu - menu" caption="Stan magazynu - menu" %}
 
-Stan magazynowy zawsze będzie zgadzał się z tym zaprezentowanym w qcadoo MES. Przechodząc do kolejnych ekranów uszczegóławiasz dane, schodząc aż do pojedynczego zasobu.
+Stan magazynowy zawsze będzie zgadzał się z tym zaprezentowanym w systemie qcadoo. Przechodząc do kolejnych ekranów uszczegóławiasz dane, schodząc aż do pojedynczego zasobu.

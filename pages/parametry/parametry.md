@@ -15,4 +15,4 @@ Najistotniejsze wg nas są te:
 - [magazyn](/parametry-magazyn)
 - [planowanie na liniach](/parametry-planowanie-na-liniach)
 
-Warto przejrzeć możliwości na etapie wdrożenia, na początku przygody z qcadoo MES.
+Warto przejrzeć możliwości na etapie wdrożenia, na początku przygody z systemem qcadoo.

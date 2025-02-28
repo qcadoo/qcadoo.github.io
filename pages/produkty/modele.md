@@ -23,7 +23,7 @@ Uzupełnij następujące informacje:
 
 ## Jak zaimportować modele z Excela?
 
-qcadoo MES pozwala na zaciągnięciu wielu danych z arkusza Excel. Sposób działania w każdym z miejsc jest dokładnie taki sam - opis znajdziesz w [tej dokumentacji](/import-z-excel). Poszczególne funkcjonalności różnią się tylko szablonem, który trzeba wypełnić.
+System qcadoo pozwala na zaciągnięciu wielu danych z arkusza Excel. Sposób działania w każdym z miejsc jest dokładnie taki sam - opis znajdziesz w [tej dokumentacji](/import-z-excel). Poszczególne funkcjonalności różnią się tylko szablonem, który trzeba wypełnić.
 
 Aby zaimportować modele (i pobrać szablon do wypełnienia) wejdź w **Produkty > Modele** i kliknij przycisk {% include inline_image.html file="przyciskImportujModele.png" alt="Przycisk Importuj modele" %}.
 

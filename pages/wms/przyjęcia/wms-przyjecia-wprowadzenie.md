@@ -5,7 +5,7 @@ permalink: wms-przyjecia-wprowadzenie.html
 
 W module Przyjęcia zrealizujesz wszelkie przychody na magazyn. Dokumenty mogą być tworzone poprzez ręczne zapisywanie dostarczonych produktów, poprzez sprawdzenie i potwierdzenie przygotowanego dokumentu PZ, a także poprzez przyjęcie zaplanowanej dostawy.
 
-Niezależnie jakiego typu przyjęcie będzie realizowane w aplikacji qcadoo WMS mobile, efektem będzie dokument magazynowy przychodowy w systemie qcadoo MES.
+Niezależnie jakiego typu przyjęcie będzie realizowane w aplikacji qcadoo WMS mobile, efektem będzie dokument magazynowy przychodowy w systemie qcadoo.
 
 Menu Przyjęcia dostępne są następujące opcje:
 

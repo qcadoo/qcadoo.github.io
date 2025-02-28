@@ -26,7 +26,7 @@ Wejdź w **Magazyn > Dokumenty** i kliknij przycisk {% include inline_image.html
 
 Wprowadź niezbędne dane:
 - **typ dokumentu** - w tym module wykorzystywane są typy: wydanie zewnętrzne (WZ) oraz rozchód wewnętrzny (RW)
-- **z magazynu** - wskaż na jakim magazynie ma być realizowana kompletacja. Magazyn musi być magazynem prowadzonym w qcadoo MES (czyli nie może być magazynem zintegrowanym)
+- **z magazynu** - wskaż na jakim magazynie ma być realizowana kompletacja. Magazyn musi być magazynem prowadzonym w qcadoo (czyli nie może być magazynem zintegrowanym)
 
 Możesz dodatkowo wskazać **kontrahenta** (zapewne będzie potrzebny w dokumencie WZ) albo **pracownika**, dla którego przygotowane ma być wydanie.
 

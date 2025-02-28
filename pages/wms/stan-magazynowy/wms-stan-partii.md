@@ -53,7 +53,7 @@ Poniżej pojawia się **lista dostępnych zasobów**. Szczegóły zasobu i wszel
 - numer i nazwa produktu,
 - dane odnośnie ilości - podstawowa, zarezerwowana i dostępna.
 
-{% include callout.html content="Udaj się do qcadoo MES aby ustalić, co rezerwuje dany zasób." type="warning" %}
+{% include callout.html content="Udaj się do systemu qcadoo aby ustalić, co rezerwuje dany zasób." type="warning" %}
 
 Możesz poprzestać analizę zasobu na tym ekranie klikając przycisk {% include inline_image.html file="przyciskWmsZakoncz.png" alt="Przycisk Zakończ" %}. Powrócisz wówczas od ekranu wyboru numeru partii. Możesz też przejść do **drugiego ekranu ze szczegółami zasobu**, klikając przycisk {% include inline_image.html file="przyciskWmsDalej.png" alt="Przycisk Dalej" %}:
 

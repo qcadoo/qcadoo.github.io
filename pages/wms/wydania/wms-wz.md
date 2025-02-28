@@ -3,7 +3,7 @@ title: "Wydanie zewnętrzne"
 permalink: wms-wz.html 
 ---
 
-Za pomocą aplikacji qcadoo WMS mobile można przygotować zestaw produktów pod zaplanowane wydanie. Kompletacja odbywa się na podstawie dokumentu magazynowego typu wydanie zewnętrzne wprowadzonego do qcadoo MES. Po wysyłce do WMS dokument pojawi się w aplikacji.
+Za pomocą aplikacji qcadoo WMS mobile można przygotować zestaw produktów pod zaplanowane wydanie. Kompletacja odbywa się na podstawie dokumentu magazynowego typu wydanie zewnętrzne wprowadzonego do systemu qcadoo. Po wysyłce do WMS dokument pojawi się w aplikacji.
 
 Początek procesu musi nastąpić w systemie qcadoo. Zanim będzie wprowadzony dokument upewnij się, że masz odpowiednio [skonfigurowane parametry](/wms-wprowadzenie.html#parametryzacja-systemu-qcadoo). Zernij również do rozdziału [Wprowadzenie do modulu Wydania aplikacji qcadoo WMS mobile](/wms-wydania-wprowadzenie).
 

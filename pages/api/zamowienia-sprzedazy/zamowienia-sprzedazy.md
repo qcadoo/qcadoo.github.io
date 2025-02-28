@@ -6,7 +6,7 @@ permalink: dodaj-zamowienie-sprzedazy.html
 ## Dodaj zamówienie sprzedaży
 ### Informacje
 
-Za pomocą tej metody tworzone jest zamówienie sprzedaży w qcadoo MES.
+Za pomocą tej metody tworzone jest zamówienie sprzedaży w qcadoo.
 
   **Moduł integracyjny:** integration
 
@@ -53,7 +53,7 @@ Za pomocą tej metody tworzone jest zamówienie sprzedaży w qcadoo MES.
 
 ### Działanie
 
-Za pomocą metody tworzone jest zamówienie sprzedaży w qcadoo MES.
+Za pomocą metody tworzone jest zamówienie sprzedaży w qcadoo.
 
 Pole type przyjmuje 3 różne wartości:
 

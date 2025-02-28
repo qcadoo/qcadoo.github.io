@@ -7,6 +7,30 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.5 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.5</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.5</td>
+          <td>
+          <ul>
+            <li>nowe role uprawnień: do użytkowników i do tworzenia dokumentu WZ do zamówienia sprzedaży,</li>
+            <li>powiązanie dokumentu WZ z zamówieniem sprzedaży, z którego został wystawiony,</li>
+            <li>domyślny dostawca w zamówieniu sprzedaży,</li>
+            <li>Gantt zadań operacyjnych - informacja na tooltipie do czasie dodatkowym,</li>
+            <li>funkcja Przelicz plan w Gantt zadań operacyjnych - optymalizacja przygotowania danych,</li>
+            <li>zapotrzebowanie materiałowe - prezentacja zamienników.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.4 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.4</summary><br>
@@ -62,7 +86,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.2 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.2</summary><br>
     <table class="changelog-table" border>
         <tr>

@@ -19,7 +19,7 @@ Obsługa aplikacji jest intuicyjna - jeśli korzystasz z telefonu z systemem And
 
 ## Instalacja i aktualizacja aplikacji
 
-Aplikacja qcadoo WMS mobile działa zawsze z systemem qcadoo MES/WMS. Niezbędny jest zakup licencji do pełnego systemu. Zaloguj się do swojej instancji qcadoo MES i wejdź w **Parametry > Parametry ogólne** i kliknij przycisk {% include inline_image.html file="przyciskPobierzAplikacjeQcadooWMSMobile.png" alt="Przycisk Pobierz aplikację qcadoo WMS mobile" %}
+Aplikacja qcadoo WMS mobile działa zawsze z systemem qcadoo MES/WMS. Niezbędny jest zakup licencji do pełnego systemu. Zaloguj się do swojej instancji qcadoo i wejdź w **Parametry > Parametry ogólne** i kliknij przycisk {% include inline_image.html file="przyciskPobierzAplikacjeQcadooWMSMobile.png" alt="Przycisk Pobierz aplikację qcadoo WMS mobile" %}
 
 Pobierzesz w ten sposób aplikację na Swój komputer. Skopiuj plik na telefon lub tablet z androidem i zainstaluj.
 
@@ -91,7 +91,7 @@ Klikając w przycisk {% include inline_image.html file="przyciskWMSProfilUzytkow
 Widoczne są **dane użytkownika**:
 - login
 - imię i nazwisko
-- magazyny, do których użytkownik ma uprawnienia. Zmiana uprawnień możliwa jest z poziomu qcadoo MES, w [Administracja > użytkownicy](/uzytkownicy.html#przypisywanie-do-użytkownika-magazynu-pracownika-zakładu-oraz-linii-produkcyjnej)
+- magazyny, do których użytkownik ma uprawnienia. Zmiana uprawnień możliwa jest z poziomu systemu qcadoo, w [Administracja > użytkownicy](/uzytkownicy.html#przypisywanie-do-użytkownika-magazynu-pracownika-zakładu-oraz-linii-produkcyjnej)
 
 oraz **informacje o aktualnej sesji WMS**, czyli:
 - magazyn, do którego użytkownik się zalogował

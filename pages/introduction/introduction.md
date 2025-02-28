@@ -5,7 +5,7 @@ permalink: introduction.html
 
 
 {% include callout.html style="font-size:1.5em;" content="**UWAGA!!!**<br/>
-<br/> Znajdujesz się w starej wersji instrukcji Szybki start. Przygotowaliśmy nową, bardziej wspierającą. Przejdź [TUTAJ](/start-wprowadzenie) i zacznij pracę w qcadoo MES." type="warning" %}
+<br/> Znajdujesz się w starej wersji instrukcji Szybki start. Przygotowaliśmy nową, bardziej wspierającą. Przejdź [TUTAJ](/start-wprowadzenie) i zacznij pracę w systemie qcadoo." type="warning" %}
 
 
 

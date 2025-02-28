@@ -59,7 +59,7 @@ Okresy pracy maszyny możemy dodać na trzy sposoby:
 
 ## Jak zaimportować stacje robocze z arkusza Excel?
 
-qcadoo MES pozwala na zaciągnięciu wielu danych z arkusza Excel. Sposób działania w każdym z miejsc jest dokładnie taki sam - opis znajdziesz w [tej dokumentacji](/import-z-excel). Poszczególne funkcjonalności różnią się tylko szablonem, który trzeba wypełnić.
+System qcadoo pozwala na zaciągnięciu wielu danych z arkusza Excel. Sposób działania w każdym z miejsc jest dokładnie taki sam - opis znajdziesz w [tej dokumentacji](/import-z-excel). Poszczególne funkcjonalności różnią się tylko szablonem, który trzeba wypełnić.
 
 Aby zaimportować stacje robocze (i pobrać szablon do wypełnienia) wejdź w **Struktura firmy > Stacje robocze** i kliknij przycisk {% include inline_image.html file="przyciskImportujStacjeRobocze.png" alt="Przycisk Importuj stacje robocze" %}.
 

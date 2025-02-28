@@ -16,11 +16,11 @@ W celu dodania firmy należy przejść do **Podstawowe >> Firmy**  i kliknąć *
 - Zakładka **"Dostawy"** służy określeniu warunków na jakich realizowane są zamówienia zakupu u kontrahenta. Można podać bufor dla terminu dostaw, czyli minimalny czas jaki może wystąpić pomiędzy dostawą produktów od firmy, a faktycznym zapotrzebowaniem na te produkty. W tym miejscu określasz czas dostawy dla całej firmy. Jeśli któryś z oferowanych przez dostawcę produktów ma inny czas realizacji - określ go w zakładce Sprzedaje. W zakładce Dostawy możesz zapisać też ustaloną formę płatności, a także walutę, w jakiej następuje rozliczenie.
 - W zakładce **"Wykonuje"** możemy przypisać operacje bądź grupy operacji jakie wykonuje firma, jeśli jest naszym podwykonawcą.
 
-{% include callout.html content="Jeżeli nasz system jest zintegrowany z zewnętrznym systemem ERP, to istnieje możliwość pobrania listy klientów bezpośrednio do Qcadoo MES." type="info" %} 
+{% include callout.html content="Jeżeli nasz system jest zintegrowany z zewnętrznym systemem ERP, to istnieje możliwość pobrania listy klientów bezpośrednio do qcadoo." type="info" %} 
 
 ## Jak zaimportować firmy z arkusza Excel?
 
-qcadoo MES pozwala na zaciągnięcie wielu danych z arkusza Excel. Sposób działania w każdym z miejsc jest dokładnie taki sam - opis znajdziesz w [tej dokumentacji](/import-z-excel). Poszczególne funkcjonalności różnią się tylko szablonem, który trzeba wypełnić.
+System qcadoo pozwala na zaciągnięcie wielu danych z arkusza Excel. Sposób działania w każdym z miejsc jest dokładnie taki sam - opis znajdziesz w [tej dokumentacji](/import-z-excel). Poszczególne funkcjonalności różnią się tylko szablonem, który trzeba wypełnić.
 
 Aby zaimportować firmy (i pobrać szablon do wypełnienia) wejdź w **Podstawowe > Firmy** i kliknij przycisk {% include inline_image.html file="przyciskImportujFirmyZXLSX.png" alt="Przycisk Importuj firmy z XLSX" %}.
 
