@@ -92,7 +92,7 @@ I zachowaj wydanie używając przycisku {% include inline_image.html file="zapis
 
 ---
 
-{% include lightbox.html file="zaopatrzenieWydanieWewneetrzneDodajProdukt.png" alt="Dodawanie produktu do wydania wewnętrznego" caption="Dodawanie produktu do wydania wewnętrznego" class="float-right" %}
+{% include lightbox.html file="zaopatrzenieWydanieWewnetrzneDodajProdukt.png" alt="Dodawanie produktu do wydania wewnętrznego" caption="Dodawanie produktu do wydania wewnętrznego" class="float-right" %}
 
 Uzupełnij następujace dane:
 - **produkt** - do wyboru z listy
@@ -106,16 +106,3 @@ Korekta - to pole wypełniane jest z automatu podczas zmieniania miejsca docelow
 Zapisz wprowadzone dane używając przycisku {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**. I na takiej samej zasadzie wprowadź pozostałe produkty do wydania.
 
 Dla wydań wewnętrznych na podstawie ręcznej dyspozycji także powstał generator. Tym razem wydania mogą się z automatu tworzyć na podstawie dostaw.
-
-
-## Automatyczne tworzenie wydań wewnętrznych do dostaw
-
-Idea generatora jest taka - podczas przyjmowania [dostawy](/dostawy) określamy dla każdego produktu na jaki magazyn ma docelowo trafić (najpierw przyjmujemy na magazyn główny, ale od razu z rezerwacją na inny magazyn). 
-
-W szczegółach produktu w dostawie musi znaleźć się **rezerwacja**:
-
-{% include lightbox.html file="zaopatrzenieWydaniaWewnetrzneDostawa.png" alt="Dostawa" caption="Dostawa, na podstawie której zostanie utworzone wydanie wewnętrzne" %}
-
-Dzięki temu w momencie odbioru dostawy (oczywiście jeśli w parametrach będziesz miał zaznaczoną opcję **generuj wydania wewnętrzne do dostaw**) z automatu utworzy się wydanie wewnętrzne do wszystkich rezerwacji dostawy. Utworzone wydanie wewnętrzne będzie miało w opisie informacje z jakiej dostawy powstało.
-
-{% include callout.html content="Jeden odebrany produkt może być przeznaczony na więcej niż 1 magazyn. Aby tak się stało w rezerwacjach w dostawie ilość odebrana powinna być porozbijana na tyle magazynów, na ile będzie organizowane przesunięcie" type="warning" %}

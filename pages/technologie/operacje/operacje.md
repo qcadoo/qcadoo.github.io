@@ -66,7 +66,7 @@ Możesz dodatkowo wskazać następujące dane:
 
 Tak przygotowany plik zaciągnij do qcadoo i wykonaj funkcję importu. W razie błędów - przeanalizuj logi, popraw dane w pliku i spróbuj ponownie.
 
-## Ustalenie w jakiej technologii jest wykrzystana operacja
+## Ustalenie w jakiej technologii jest wykorzystana operacja
 
 Załóżmy, że przeanalizowałeś (np. w [analizie czasu trwania operacji](/analiza-czasu-trwania-operacji)) ile faktycznie trwa wykonanie na produkcji danej operacji. Okazuje się, że przyjęte normy czasowe nie są aktualne. I chciałbyś nanieść poprawki. Najłatwiej będzie w tym celu użyć funkcji [zbiorczej zmiany parametrów technologii](/zmiana-parametrow). Tylko jakie technologie zmienić? Z pomocą przyjdzie możliwość zobaczenia w jakich technologiach użyta jest dana operacja. Wejdź do operacji i kliknij przycisk {% include inline_image.html file="przyciskPokazTechnologieWykorzystujaceOperacje.png" alt="Przycisk Pokaż technologie wykorzystujące operacje" %}. W uruchomionym oknie zobaczysz listę technologii, w których drzewach użyta została ta operacja:
 
