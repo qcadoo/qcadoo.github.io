@@ -6,7 +6,7 @@ permalink: tworzenie-i-aktualizacja-produktow.html
 ## Zaktualizuj produkty
 ### Informacje
 
-Za pomocą tej metody api dodasz [produkty](/produkty) do systemu. Zaktualizujsz też istniejące o podanym externalID. 
+Za pomocą tej metody api dodasz [produkty](/produkty) do systemu. Zaktualizujesz też istniejące o podanym externalID. 
 
   **Moduł integracyjny:** urcBasic
 

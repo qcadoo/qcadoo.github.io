@@ -7,7 +7,7 @@ permalink: tworzenie-i-aktualizacja-firm.html
 
 ### Informacje
 
-Za pomocą tej metody api dodasz [firmy](/firmy) do systemu. Zaktualizujsz też istniejące o podanym externalID. 
+Za pomocą tej metody api dodasz [firmy](/firmy) do systemu. Zaktualizujesz też istniejące o podanym externalID. 
 
   **Moduł integracyjny:** urcBasic
 

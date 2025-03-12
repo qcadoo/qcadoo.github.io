@@ -1409,3 +1409,68 @@ entries:
               - title: Dodawanie zamówienia sprzedaży
                 output: web
                 url: /dodaj-zamowienie-sprzedazy.html
+
+  - title: API WMS
+    output: web
+    folderitems:
+
+      - title: Wstęp
+        output: web
+        url: /api-wms-wstep.html
+
+        subfolders:
+          - title: Dane podstawowe
+            output: web
+            subfolderitems:
+
+              - title: Tworzenie i aktualizacja firm
+                output: web
+                url: /api-wms-tworzenie-i-aktualizacja-firm.html
+
+              - title: Tworzenie i aktualizacja produktów
+                output: web
+                url: /api-wms-tworzenie-i-aktualizacja-produktow.html
+
+              - title: Pobieranie produktów
+                output: web
+                url: /api-wms-pobieranie-produktow.html
+
+              - title: Tworzenie kategorii
+                output: web
+                url: /api-wms-tworzenie-kategorii.html
+
+              - title: Tworzenie jednostek
+                output: web
+                url: /api-wms-tworzenie-jednostek.html
+
+          - title: Zamówienia sprzedaży
+            output: web
+            subfolderitems:
+
+              - title: Dodawanie zamówień sprzedaży
+                output: web
+                url: /api-wms-dodawanie-zamowien-sprzedazy.html
+
+          - title: Dostawy
+            output: web
+            subfolderitems:
+
+              - title: Dodawanie dostaw
+                output: web
+                url: /api-wms-dodawanie-dostaw.html
+
+              - title: Pobieranie dostaw
+                output: web
+                url: /api-wms-pobieranie-dostaw.html
+
+          - title: Dokumenty magazynowe
+            output: web
+            subfolderitems:
+
+              - title: Dodawanie dokumentów magazynowych
+                output: web
+                url: /api-wms-dodawanie-dokumentow-magazynowych.html
+
+              - title: Pobieranie dokumentów magazynowych
+                output: web
+                url: /api-wms-pobieranie-dokumentow-magazynowych.html
