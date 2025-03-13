@@ -7,7 +7,7 @@ permalink: api-wms-tworzenie-jednostek.html
 
 ### Informacje
 
-Za pomocą tej metody api dodasz jednostkę do systemu.
+Za pomocą tej metody api dodasz jednostkę miary do systemu qcadoo.
 
   **Moduł integracyjny:** urcBasic
 
@@ -39,4 +39,4 @@ externalID |    tekst    |      N      |     T      | id/numer w systemie zewnę
 ~~~~~~~~
 
 ### Działanie
-Funkcja tworzy nową jednostkę (słownik) w MES.
+Funkcja tworzy nową jednostkę (słownik) w qcadoo.

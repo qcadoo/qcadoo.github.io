@@ -7,7 +7,7 @@ permalink: api-wms-dodawanie-dokumentow-magazynowych.html
 
 ### Informacje
 
-Za pomocą tej metody tworzony jest dokument magazynowy w qcadoo.
+Za pomocą tej metody tworzony jest nagłówek [dokumentu magazynowego](/dokumenty) w qcadoo.
 
   **Moduł integracyjny:** urcMaterialFlowResources
 
@@ -37,7 +37,7 @@ Za pomocą tej metody tworzony jest dokument magazynowy w qcadoo.
 ~~~~~~~~
 
 ### Działanie
-Za pomocą metody tworzony jest dokument magazynowy w qcadoo.
+Za pomocą metody tworzony jest dokument magazynowy w qcadoo. Dokument ma wypełnione tylko dane w zakładce Główna. W kolejnym kroku należy dodać pozycje dokumentu metodą opisaną poniżej.
 
 ---
 
@@ -45,7 +45,7 @@ Za pomocą metody tworzony jest dokument magazynowy w qcadoo.
 
 ### Informacje
 
-Za pomocą tej metody tworzona jest pozycja dokumentu magazynowego w qcadoo.
+Za pomocą tej metody, do istniejącego w qcadoo dokumentu, dodawana jest pozycja.
 
 **Moduł integracyjny:** urcMaterialFlowResources
 
@@ -71,4 +71,4 @@ Za pomocą tej metody tworzona jest pozycja dokumentu magazynowego w qcadoo.
 ~~~~~~~~
 
 ### Działanie
-Za pomocą metody tworzona jest pozycja dokumentu magazynowego w qcadoo.
+Za pomocą metody, do istniejącego w qcadoo dokumentu, dodawana jest pozycja. Wprowadzone dane będą widoczne w dokumencie w zakładce _Pozycje_.

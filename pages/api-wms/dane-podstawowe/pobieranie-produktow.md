@@ -7,7 +7,7 @@ permalink: api-wms-pobieranie-produktow.html
 
 ### Informacje
 
-Za pomocą tej metody pobierzesz szczegóły produktu o podanym id.
+Za pomocą tej metody pobierzesz z qcadoo szczegóły [produktu](/produkty) o podanym id.
 
   **Moduł integracyjny:** urcBasic
 
@@ -41,7 +41,7 @@ Pobierane są szczegóły produktu o podanym id.
 
 ### Informacje
 
-Za pomocą tej metody pobierzesz produkty zgodnie z parametrami.
+Za pomocą tej metody pobierzesz produkty spełniające zadane parametry.
 
 **Moduł integracyjny:** urcBasic
 
@@ -67,10 +67,10 @@ Za pomocą tej metody pobierzesz produkty zgodnie z parametrami.
 ~~~~~~~~
 
 ### Działanie
-Pobierane są szczegóły produktów. Jeśli nie podamy parametrów, pobrane są wszystkie rekordy.
+Komunikat pozwala na pobranie z qcadoo listy produktów, wraz z danymi szczegółowymi, spełniających zadane kryteria (opisane niżej). Jeśli parametry nie będą podane, zostaną pobrane wszystkie rekordy.
 
 Parametry są następujące:
-- createDate - data utworzenia późniejsza lub równa niż, format yyyy-MM-dd
-- updateDate - data aktualizacji późniejsza lub równa niż, format yyyy-MM-dd
-- number - numer lub jego część, bez względu na wielkość liter
-- name - nazwa lub jej część, bez względu na wielkość liter
+- createDate - data utworzenia produktu jest późniejsza lub równa niż podana, format yyyy-MM-dd
+- updateDate - data aktualizacji produktu jest późniejsza lub równa niż podana, format yyyy-MM-dd
+- number - numer lub jego część, wielkość liter nie ma znaczenia
+- name - nazwa lub jej część, wielkość liter nie ma znaczenia

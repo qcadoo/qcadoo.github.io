@@ -7,7 +7,7 @@ permalink: api-wms-tworzenie-i-aktualizacja-firm.html
 
 ### Informacje
 
-Za pomocą tej metody api dodasz [firmę](/firmy) do systemu.
+Za pomocą tej metody api dodasz [firmę](/firmy) do systemu qcadoo.
 
   **Moduł integracyjny:** urcBasic
 
@@ -46,8 +46,8 @@ Za pomocą tej metody api dodasz [firmę](/firmy) do systemu.
 ~~~~~~~~
 
 ### Działanie
-W tej akcji MES powinien otrzymać wybraną firmę z ERP. Na podstawie otrzymanych danych utworzy firmę.
-Podczas dodawania przeprowadzane są wszystkie walidacje dla obiektu firmy.
+Metoda tworzy w systemie qcadoo firmę o podanych danych. Podczas dodawania, prowadzone są wszystkie walidacje dla tego obiektu (analogiczne, jak przy ręcznym dodawaniu wprost do systemu). 
+
 
 ---
 
@@ -55,7 +55,7 @@ Podczas dodawania przeprowadzane są wszystkie walidacje dla obiektu firmy.
 
 ### Informacje
 
-Za pomocą tej metody api zaktualizujesz firmę na podstawie id.
+Za pomocą tej metody api zaktualizujesz firmę o wskazanym ID.
 
   **Moduł integracyjny:** urcBasic
 
@@ -94,6 +94,5 @@ Za pomocą tej metody api zaktualizujesz firmę na podstawie id.
 ~~~~~~~~
 
 ### Działanie
-Aktualizuje firmę na podstawie id.
-Podczas aktualizacji przeprowadzane są wszystkie walidacje dla obiektu firmy.
+Metoda powoduje zaktualizowanie danych firmy o podanym id. Wszystkie dane kontrahenta w systemie, zostaną nadpisane danymi z kominikatu. Podczas aktualizacji przeprowadzane są wszystkie systemowe walidacje.
 

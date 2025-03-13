@@ -33,7 +33,7 @@ Za pomocą tej metody pobierzesz szczegóły dokumentu o podanym id.
 ~~~~~~~~
 
 ### Działanie
-Pobierane są szczegóły dokumentu o podanym id.
+Metoda pobiera dokument o podanym ID, wraz ze szczegółowymi danymi nagłówkowymi, 
 
 ---
 
@@ -67,13 +67,13 @@ Za pomocą tej metody pobierzesz dokumenty zgodnie z parametrami.
 ~~~~~~~~
 
 ### Działanie
-Pobierane są szczegóły dokumentów. Jeśli nie podamy parametrów, pobrane są wszystkie rekordy.
+Za pomocą tej metody pobierana jest lista dokumentów spełniająca zadane kryteria (opisane niżej). Jeśli parametry nie zostaną podane, pobrane będą wszystkie rekordy.
 
 Parametry są następujące:
-- createDate - data utworzenia późniejsza lub równa niż, format yyyy-MM-dd
-- updateDate - data aktualizacji późniejsza lub równa niż, format yyyy-MM-dd
-- number - numer lub jego część, bez względu na wielkość liter
-- name - nazwa lub jej część, bez względu na wielkość liter
+- createDate - data utworzenia dokumentu późniejsza lub równa niż podana, format yyyy-MM-dd
+- updateDate - data aktualizacji dokumentu późniejsza lub równa niż podana, format yyyy-MM-dd
+- number - numer lub jego część, wielkość liter nie ma znaczenia
+- name - nazwa lub jej część, wielkość liter nie ma znaczenia
 
 ---
 
@@ -81,7 +81,7 @@ Parametry są następujące:
 
 ### Informacje
 
-Za pomocą tej metody pobierzesz pozycje dokumentów zgodnie z parametrami.
+Za pomocą tej metody pobierzesz pozycje dokumentów spełniających podane kryteria.
 
 **Moduł integracyjny:** urcMaterialFlowResources
 
@@ -101,7 +101,7 @@ Za pomocą tej metody pobierzesz pozycje dokumentów zgodnie z parametrami.
 ~~~~~~~~
 
 ### Działanie
-Pobierane są pozycje dokumentów. Jeśli nie podamy parametrów, pobrane są wszystkie rekordy.
+Metoda pozwala na pobranie listy pozycji dokumentów, spełniających podane kryteria (opisane poniżej). Jeśli parametry nie będą podane, pobrane będą wszystkie rekordy. 
 
 Parametry są następujące:
-- document - numer dokumentu lub jego część, bez względu na wielkość liter
+- document - numer dokumentu lub jego część, wielkość liter nie ma znaczenia.

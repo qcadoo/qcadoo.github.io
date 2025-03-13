@@ -33,4 +33,4 @@ Za pomocą tej metody api utworzysz kategorię produktów.
 ~~~~~~~~
 
 ## Działanie
-Funkcja tworzy nową kategorię produktu (słownik) w MES.
+Funkcja tworzy nową kategorię produktu (słownik) w qcadoo.

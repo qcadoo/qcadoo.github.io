@@ -39,9 +39,7 @@ Za pomocą tej metody api dodasz [produkt](/produkty) do systemu.
 ~~~~~~~~
 
 ### Działanie
-W tej akcji MES powinien otrzymać produkt z ERP. Produkt może mieć globalTypeOfMaterial null'owy.
-Na podstawie otrzymanych danych utworzy produkt.
-Podczas dodawania przeprowadzane są wszystkie walidacje dla obiektu produktu.
+Metoda tworzy w systemie qcadoo produkt, o podanych danych. Produkt może mieć globalTypeOfMaterial null'owy. Podczas dodawania przeprowadzane są wszystkie walidacje dla tego obiektu.
 
 ---
 
@@ -81,6 +79,5 @@ Za pomocą tej metody api zaktualizujesz produkt na podstawie id.
 ~~~~~~~~
 
 ### Działanie
-Aktualizuje produkt na podstawie id.
-Podczas aktualizacji przeprowadzane są wszystkie walidacje dla obiektu produktu.
+Metoda powoduje aktualizację danych produktu o podanym id. Wszystkie dane produktu w systemie, zostaną nadpisane danymi z komunikatu. Podczas aktualizacji przeprowadzane są wszystkie walidacje dla tego obiektu.
 

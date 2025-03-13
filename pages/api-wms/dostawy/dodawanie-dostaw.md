@@ -7,7 +7,7 @@ permalink: api-wms-dodawanie-dostaw.html
 
 ### Informacje
 
-Za pomocą tej metody tworzona jest dostawa w qcadoo.
+Za pomocą tej metody tworzony jest nagłówek [dostawy](/dostawy) w qcadoo.
 
   **Moduł integracyjny:** urcDeliveriesToWarehouse
 
@@ -39,7 +39,7 @@ Za pomocą tej metody tworzona jest dostawa w qcadoo.
 ~~~~~~~~
 
 ### Działanie
-Za pomocą metody tworzona jest dostawa w qcadoo.
+Metoda utworzy dostawę (czyli zamówienie zakupu) w systemie qcadoo. Dostawa będzie miała wypełnione tylko dane nagłówkowe, widoczne w zakładce Główna. Kolejnym krokiem powinno być dodanie produktów zamówionych, za pomocą komunikatu opisanego niżej.
 
 ---
 
@@ -47,7 +47,7 @@ Za pomocą metody tworzona jest dostawa w qcadoo.
 
 ### Informacje
 
-Za pomocą tej metody tworzone są zamówione produkty dostawy w qcadoo.
+Za pomocą tej metody do dostawy w qcadoo dodawane są produkty zamówione.
 
 **Moduł integracyjny:** urcDeliveriesToWarehouse
 
@@ -74,4 +74,4 @@ Za pomocą tej metody tworzone są zamówione produkty dostawy w qcadoo.
 ~~~~~~~~
 
 ### Działanie
-Za pomocą metody tworzony jest zamówiony produkt dostawy w qcadoo.
+Za pomocą metody do dostawy istniejącej w qcadoo dodawane są pozycje. Będą one widoczne w zakładce _Zamówione produkty_.

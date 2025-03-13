@@ -7,7 +7,7 @@ permalink: api-wms-dodawanie-zamowien-sprzedazy.html
 
 ### Informacje
 
-Za pomocą tej metody tworzone jest zamówienie sprzedaży w qcadoo.
+Za pomocą tej metody tworzony jest nagłówek [zamówienia sprzedaży](/zlecenia-nadrzedne) w qcadoo.
 
   **Moduł integracyjny:** urcMasterOrders
 
@@ -22,7 +22,7 @@ Za pomocą tej metody tworzone jest zamówienie sprzedaży w qcadoo.
   "name": "name", //opcjonalne
   "externalID": "externalID", //opcjonalne
   "description": "description", //opcjonalne
-  "company": "comapny number", //opcjonalne
+  "company": "company number", //opcjonalne
   "deadline": 1421274697381, //opcjonalne
   "dateOfReceipt": 1421274697381 //opcjonalne
 }
@@ -37,7 +37,7 @@ Za pomocą tej metody tworzone jest zamówienie sprzedaży w qcadoo.
 ~~~~~~~~
 
 ### Działanie
-Za pomocą metody tworzone jest zamówienie sprzedaży w qcadoo.
+Za pomocą metody tworzone jest zamówienie sprzedaży w qcadoo. Zamówienie ma wypełnione tylko dane z zakładki Główna (czyli nagłówek zamówienia). Należy do niego dodać pozycje metodą opisaną poniżej.
 
 ---
 
@@ -72,4 +72,4 @@ Za pomocą tej metody tworzona jest pozycja zamówienia sprzedaży w qcadoo.
 ~~~~~~~~
 
 ### Działanie
-Za pomocą metody tworzona jest pozycja zamówienia sprzedaży w qcadoo.
+Za pomocą metody to istniejącego zamówienia sprzedaży dodawana jest pozycja. Stworzona pozycja widoczna będzie w zakładce Produkty wyj. w zamówieniu. 

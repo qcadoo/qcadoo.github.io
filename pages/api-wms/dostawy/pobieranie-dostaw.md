@@ -7,7 +7,7 @@ permalink: api-wms-pobieranie-dostaw.html
 
 ### Informacje
 
-Za pomocą tej metody pobierzesz szczegóły dostawy o podanym id.
+Za pomocą tej metody pobierzesz szczegóły [dostawy](/dostawy) o podanym id.
 
 **Moduł integracyjny:** urcDeliveriesToWarehouse
 
@@ -42,7 +42,7 @@ Pobierane są szczegóły dostawy o podanym id.
 
 ### Informacje
 
-Za pomocą tej metody pobierzesz dostawy zgodnie z parametrami.
+Za pomocą tej metody pobierzesz dostawy spełniające zadane parametry.
 
 **Moduł integracyjny:** urcDeliveriesToWarehouse
 
@@ -69,13 +69,13 @@ Za pomocą tej metody pobierzesz dostawy zgodnie z parametrami.
 ~~~~~~~~
 
 ### Działanie
-Pobierane są szczegóły dostaw. Jeśli nie podamy parametrów, pobrane są wszystkie rekordy.
+Metoda pozwala na pobranie listy dostaw, wraz ze szczegółami, spełniającej zadane kryteria (opisane poniżej). Jeśli parametry nie będą podane, zostaną pobrane wszystkie dostawy.
 
 Parametry są następujące:
-- createDate - data utworzenia późniejsza lub równa niż, format yyyy-MM-dd
-- updateDate - data aktualizacji późniejsza lub równa niż, format yyyy-MM-dd
-- number - numer lub jego część, bez względu na wielkość liter
-- name - nazwa lub jej część, bez względu na wielkość liter
+- createDate - data utworzenia dostawy późniejsza lub równa niż podana, format yyyy-MM-dd
+- updateDate - data aktualizacji dostawy późniejsza lub równa niż podana, format yyyy-MM-dd
+- number - numer lub jego część, wielkość liter nie ma znaczenia
+- name - nazwa lub jej część, wielkość liter nie ma znaczenia
 
 ---
 
@@ -83,7 +83,7 @@ Parametry są następujące:
 
 ### Informacje
 
-Za pomocą tej metody pobierzesz zamówione produkty dostaw zgodnie z parametrami.
+Za pomocą tej metody pobierzesz zamówione produkty dostaw, spełniających zadane parametry.
 
 **Moduł integracyjny:** urcDeliveriesToWarehouse
 
@@ -104,7 +104,7 @@ Za pomocą tej metody pobierzesz zamówione produkty dostaw zgodnie z parametram
 ~~~~~~~~
 
 ### Działanie
-Pobierane są zamówione produkty dostaw. Jeśli nie podamy parametrów, pobrane są wszystkie rekordy.
+Metoda pozwala na pobranie listy zamówionych produktów z dostaw spelniających zadane kryteria (opisane poniżej). Jeśli parametry nie będą podane - pobrane będą wszystkie produkty zamówione.
 
 Parametry są następujące:
-- delivery - numer dostawy lub jej część, bez względu na wielkość liter
+- delivery - numer dostawy lub jej część, wielkość liter nie ma znaczenia
