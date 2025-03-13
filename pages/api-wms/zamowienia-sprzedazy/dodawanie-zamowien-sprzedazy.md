@@ -19,14 +19,24 @@ Za pomocą tej metody tworzony jest nagłówek [zamówienia sprzedaży](/zleceni
 ~~~~~~~~
 {
   "number": "number",
-  "name": "name", //opcjonalne
-  "externalID": "externalID", //opcjonalne
-  "description": "description", //opcjonalne
-  "company": "company number", //opcjonalne
-  "deadline": 1421274697381, //opcjonalne
-  "dateOfReceipt": 1421274697381 //opcjonalne
+  "name": "name",
+  "externalID": "externalID",
+  "description": "description",
+  "company": "company number",
+  "deadline": 1421274697381,
+  "dateOfReceipt": 1421274697381
 }
 ~~~~~~~~
+
+Nazwa | Typ                    | Wymagalność | Unikalność | Zawartość
+:-|:-----------------------|:-----------:|:----------:|:-
+number | tekst(255)             |      T      |     T      | numer
+name | tekst(1024)            |      N      |     N      | nazwa
+externalID | tekst            |      N      |     T      | id/numer w systemie zewnętrznym
+description | tekst(2048)            |      N      |     N      | opis
+company | tekst(255)             |      N      |     N      | numer kontrahenta
+deadline | data i czas(timestamp) |      N      |     N      | termin ostateczny
+dateOfReceipt | data i czas(timestamp) |      N      |     N      | data wpływu
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
@@ -58,10 +68,17 @@ Za pomocą tej metody tworzona jest pozycja zamówienia sprzedaży w qcadoo.
 {
     "product": "product number",
     "masterOrder": "master order number",
-    "quantity": 10, //opcjonalne
-    "price": 1.5 //opcjonalne
+    "quantity": 10,
+    "price": 1.5
 }
 ~~~~~~~~
+
+Nazwa | Typ              | Wymagalność | Unikalność | Zawartość
+:-|:-----------------|:-----------:|:----------:|:-
+product | tekst(255) |      T      |     N      | numer produktu
+masterOrder | tekst(255) |      T      |     N      | numer zamówienia
+quantity | liczba(14,5) >=0 |      N      |     N      | ilość
+price | liczba(14,5) >0  |      N      |     N      | cena
 
 ### Zawartość odpowiedzi
 ~~~~~~~~

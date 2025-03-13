@@ -19,16 +19,28 @@ Za pomocą tej metody tworzony jest nagłówek [dostawy](/dostawy) w qcadoo.
 ~~~~~~~~
 {
   "number": "number",
-  "name": "name", //opcjonalne
-  "externalID": "externalID", //opcjonalne
-  "description": "description", //opcjonalne
-  "supplier": "supplier number", //opcjonalne
-  "location": "location number", //opcjonalne
-  "deliveryDate": 1421274697381, //opcjonalne
-  "deliveryAddress": "deliveryAddress", //opcjonalne
-  "currency": "currency alphabetic code" //opcjonalne
+  "name": "name",
+  "externalID": "externalID", 
+  "description": "description",
+  "supplier": "supplier number",
+  "location": "location number",
+  "deliveryDate": 1421274697381,
+  "deliveryAddress": "deliveryAddress",
+  "currency": "currency alphabetic code"
 }
 ~~~~~~~~
+
+Nazwa | Typ                    | Wymagalność | Unikalność | Zawartość
+:-|:-----------------------|:-----------:|:----------:|:-
+number | tekst(255)             |      T      |     T      | numer
+name | tekst(1024)            |      N      |     N      | nazwa
+externalID | tekst                  |      N      |     T      | id/numer w systemie zewnętrznym
+description | tekst(2048)            |      N      |     N      | opis
+supplier | tekst(255)             |      N      |     N      | numer dostawcy
+location | tekst(255)             |      N      |     N      | numer magazynu
+deliveryDate | data i czas(timestamp) |      N      |     N      | termin dostawy
+deliveryAddress | tekst(2048)            |      N      |     N      | adres docelowy dostawy
+currency | tekst(3)               |      N      |     N      | kod waluty
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
@@ -61,9 +73,16 @@ Za pomocą tej metody do dostawy w qcadoo dodawane są produkty zamówione.
     "product": "product number",
     "delivery": "delivery number",
     "orderedQuantity": 10,
-    "pricePerUnit": 1.5 //opcjonalne
+    "pricePerUnit": 1.5
 }
 ~~~~~~~~
+
+Nazwa | Typ              | Wymagalność | Unikalność | Zawartość
+:-|:-----------------|:-----------:|:----------:|:-
+product | tekst(255)       |      T      |     N      | numer produktu
+delivery | tekst(255)       |      T      |     N      | numer dostawy
+orderedQuantity | liczba(12,5) >=0 |      T      |     N      | ilość
+pricePerUnit | liczba(12,5) >=0 |      N      |     N      | cena jednostkowa
 
 ### Zawartość odpowiedzi
 ~~~~~~~~

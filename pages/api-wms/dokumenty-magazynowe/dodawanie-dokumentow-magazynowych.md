@@ -18,15 +18,25 @@ Za pomocą tej metody tworzony jest nagłówek [dokumentu magazynowego](/dokumen
 ### Zawartość żądania
 ~~~~~~~~
 {
-  "name": "name", //opcjonalne
+  "name": "name",
   "time": 1421274697381,
   "type": "type",
-  "description": "description", //opcjonalne
-  "locationFrom": "location from number", //opcjonalne w zależności od typu
-  "locationTo": "location to number", //opcjonalne w zależności od typu
-  "company": "company number" //opcjonalne
+  "description": "description",
+  "locationFrom": "location from number",
+  "locationTo": "location to number",
+  "company": "company number"
 }
 ~~~~~~~~
+
+Nazwa | Typ                    | Wymagalność | Unikalność | Zawartość
+:-|:-----------------------|:-----------:|:----------:|:-
+name | tekst(255)             |      N      |     N      | nazwa
+time | data i czas(timestamp) |      T      |     N      | data
+type | wyliczeniowy |      T      |     N      | typ 01receipt - PZ,02internalInbound - PW,03internalOutbound - RW,04release - WZ,05transfer - MM
+description | tekst(2048)            |      N      |     N      | opis
+locationFrom | tekst(255)             |      N      |     N      | numer magazynu z - wymagany dla WZ,RW,MM
+locationTo | tekst(255)             |      N      |     N      | numer magazynu na - wymagany dla PZ,PW,MM
+company | tekst(255)             |      N      |     N      | numer kontrahenta
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
@@ -61,6 +71,12 @@ Za pomocą tej metody, do istniejącego w qcadoo dokumentu, dodawana jest pozycj
     "quantity": 10
 }
 ~~~~~~~~
+
+Nazwa | Typ             | Wymagalność | Unikalność | Zawartość
+:-|:----------------|:-----------:|:----------:|:-
+product | tekst(255)      |      T      |     N      | numer produktu
+document | tekst           |      T      |     N      | numer dokumentu
+quantity | liczba(14,5) >0 |      T      |     N      | ilość
 
 ### Zawartość odpowiedzi
 ~~~~~~~~

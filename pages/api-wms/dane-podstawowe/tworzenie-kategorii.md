@@ -19,10 +19,16 @@ Za pomocą tej metody api utworzysz kategorię produktów.
 ~~~~~~~~
 {
     "name": "name",
-    "description": "description", //opcjonalne
-    "externalID": "externalID" //opcjonalne
+    "description": "description",
+    "externalID": "externalID"
 }
 ~~~~~~~~
+
+Nazwa | Typ         | Wymagalność | Unikalność | Zawartość
+:-|:------------|:-----------:|:----------:|:-
+name | tekst(255)  |      T      |     T      | nazwa
+description | tekst(2048) |      N      |     N      | opis
+externalID | tekst |      N      |     T      | id/numer w systemie zewnętrznym
 
 ### Zawartość odpowiedzi
 ~~~~~~~~

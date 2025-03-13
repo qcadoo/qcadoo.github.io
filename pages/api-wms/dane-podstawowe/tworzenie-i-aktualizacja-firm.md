@@ -18,24 +18,43 @@ Za pomocą tej metody api dodasz [firmę](/firmy) do systemu qcadoo.
 ### Zawartość żądania
 ~~~~~~~~
 {
-    "externalID" : "externalID", //opcjonalne
     "number" : "number",
     "name" : "name",
-    "tax" : "tax", //opcjonalne
-    "street" : "street", //opcjonalne
-    "house" : "house", //opcjonalne
-    "flat" : "flat", //opcjonalne
-    "zipCode" : "zipCode", //opcjonalne
-    "city" : "city", //opcjonalne
-    "state" : "state", //opcjonalne
-    "country" : "country", //opcjonalne
-    "email" : "email", //opcjonalne
-    "website" : "website", //opcjonalne
-    "phone" : "phone", //opcjonalne
-    "isSupplier" : true or false, // opcjonalne
-    "isReceiver" : true or false // opcjonalne
+    "externalID" : "externalID",
+    "tax" : "tax", 
+    "street" : "street",
+    "house" : "house",
+    "flat" : "flat", 
+    "zipCode" : "zipCode",
+    "city" : "city", 
+    "state" : "state",
+    "country" : "country",
+    "email" : "email",
+    "website" : "website",
+    "phone" : "phone",
+    "isSupplier" : true,
+    "isReceiver" : false
 }
 ~~~~~~~~
+
+Nazwa | Typ        | Wymagalność | Unikalność | Zawartość
+:-|:-----------|:-----------:|:----------:|:-
+name | tekst(255) |      T      |     N      | nazwa
+number | tekst(255) |      T      |     T      | numer
+externalID | tekst      |      N      |     T      | id/numer w systemie zewnętrznym
+tax | tekst      |      N      |     N      | NIP
+street | tekst      |      N      |     N      | ulica
+house | tekst(30)  |      N      |     N      | nr domu
+flat | tekst(30)  |      N      |     N      | nr mieszkania
+zipCode | tekst      |      N      |     N      | kod pocztowy
+city | tekst      |      N      |     N      | miasto
+state | tekst      |      N      |     N      | województwo
+country | tekst      |      N      |     N      | kraj lub jego kod
+email | tekst      |      N      |     N      | e-mail
+website | tekst      |      N      |     N      | adres www
+phone | tekst      |      N      |     N      | telefon
+isSupplier | true/false |      N      |     N      | dostawca
+isReceiver | true/false      |      N      |     N      | odbiorca
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
@@ -66,24 +85,43 @@ Za pomocą tej metody api zaktualizujesz firmę o wskazanym ID.
 ### Zawartość żądania
 ~~~~~~~~
 {
-    "externalID" : "externalID", //opcjonalne
     "number" : "number",
     "name" : "name",
-    "tax" : "tax", //opcjonalne
-    "street" : "street", //opcjonalne
-    "house" : "house", //opcjonalne
-    "flat" : "flat", //opcjonalne
-    "zipCode" : "zipCode", //opcjonalne
-    "city" : "city", //opcjonalne
-    "state" : "state", //opcjonalne
-    "country" : "country", //opcjonalne
-    "email" : "email", //opcjonalne
-    "website" : "website", //opcjonalne
-    "phone" : "phone", //opcjonalne
-    "isSupplier" : true or false, // opcjonalne
-    "isReceiver" : true or false // opcjonalne
+    "externalID" : "externalID",
+    "tax" : "tax",
+    "street" : "street",
+    "house" : "house",
+    "flat" : "flat",
+    "zipCode" : "zipCode",
+    "city" : "city",
+    "state" : "state",
+    "country" : "country",
+    "email" : "email",
+    "website" : "website",
+    "phone" : "phone",
+    "isSupplier" : false,
+    "isReceiver" : true
 }
 ~~~~~~~~
+
+Nazwa | Typ        | Wymagalność | Unikalność | Zawartość
+:-|:-----------|:-----------:|:----------:|:-
+name | tekst(255) |      T      |     N      | nazwa
+number | tekst(255) |      T      |     T      | numer
+externalID | tekst      |      N      |     T      | id/numer w systemie zewnętrznym
+tax | tekst      |      N      |     N      | NIP
+street | tekst      |      N      |     N      | ulica
+house | tekst(30)  |      N      |     N      | nr domu
+flat | tekst(30)  |      N      |     N      | nr mieszkania
+zipCode | tekst      |      N      |     N      | kod pocztowy
+city | tekst      |      N      |     N      | miasto
+state | tekst      |      N      |     N      | województwo
+country | tekst      |      N      |     N      | kraj lub jego kod
+email | tekst      |      N      |     N      | e-mail
+website | tekst      |      N      |     N      | adres www
+phone | tekst      |      N      |     N      | telefon
+isSupplier | true/false |      N      |     N      | dostawca
+isReceiver | true/false      |      N      |     N      | odbiorca
 
 ### Zawartość odpowiedzi
 ~~~~~~~~

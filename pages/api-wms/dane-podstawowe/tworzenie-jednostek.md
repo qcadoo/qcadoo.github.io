@@ -24,11 +24,11 @@ Za pomocą tej metody api dodasz jednostkę miary do systemu qcadoo.
 }
 ~~~~~~~~
 
-Nazwa |     Typ     | Wymagalność | Unikalność | Zawartość
-:-|:-|:-----------:|:----------:|:-
+Nazwa | Typ         | Wymagalność | Unikalność | Zawartość
+:-|:------------|:-----------:|:----------:|:-
 name | tekst(255)  |      T      |     T      | nazwa
 description | tekst(2048) |      N      |     N      | opis
-externalID |    tekst    |      N      |     T      | id/numer w systemie zewnętrznym
+externalID | tekst       |      N      |     T      | id/numer w systemie zewnętrznym
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
