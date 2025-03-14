@@ -41,18 +41,18 @@ Nazwa | Typ        | Wymagalność | Unikalność | Zawartość
 :-|:-----------|:-----------:|:----------:|:-
 name | tekst(255) |      T      |     N      | nazwa
 number | tekst(255) |      T      |     T      | numer
-externalID | tekst      |      N      |     T      | id/numer w systemie zewnętrznym
-tax | tekst      |      N      |     N      | NIP
-street | tekst      |      N      |     N      | ulica
+externalID | tekst(255)      |      N      |     T      | id/numer w systemie zewnętrznym
+tax | tekst(255)      |      N      |     N      | NIP
+street | tekst(255)      |      N      |     N      | ulica
 house | tekst(30)  |      N      |     N      | nr domu
 flat | tekst(30)  |      N      |     N      | nr mieszkania
-zipCode | tekst      |      N      |     N      | kod pocztowy
-city | tekst      |      N      |     N      | miasto
-state | tekst      |      N      |     N      | województwo
-country | tekst      |      N      |     N      | kraj lub jego kod
-email | tekst      |      N      |     N      | e-mail
-website | tekst      |      N      |     N      | adres www
-phone | tekst      |      N      |     N      | telefon
+zipCode | tekst(255)      |      N      |     N      | kod pocztowy
+city | tekst(255)      |      N      |     N      | miasto
+state | tekst(255)      |      N      |     N      | województwo
+country | tekst(255)      |      N      |     N      | kraj lub jego kod
+email | tekst(255)      |      N      |     N      | e-mail
+website | tekst(255)      |      N      |     N      | adres www
+phone | tekst(255)      |      N      |     N      | telefon
 isSupplier | true/false |      N      |     N      | dostawca
 isReceiver | true/false      |      N      |     N      | odbiorca
 
@@ -60,7 +60,8 @@ isReceiver | true/false      |      N      |     N      | odbiorca
 ~~~~~~~~
 {
     "status": "OK",
-    "message": null // Gdy status ERROR - informacja z przyczyną błędu
+    "message": null, // Gdy status ERROR - informacja z przyczyną błędu
+    "id": 598
 }
 ~~~~~~~~
 
@@ -108,18 +109,18 @@ Nazwa | Typ        | Wymagalność | Unikalność | Zawartość
 :-|:-----------|:-----------:|:----------:|:-
 name | tekst(255) |      T      |     N      | nazwa
 number | tekst(255) |      T      |     T      | numer
-externalID | tekst      |      N      |     T      | id/numer w systemie zewnętrznym
-tax | tekst      |      N      |     N      | NIP
-street | tekst      |      N      |     N      | ulica
+externalID | tekst(255)      |      N      |     T      | id/numer w systemie zewnętrznym
+tax | tekst(255)      |      N      |     N      | NIP
+street | tekst(255)      |      N      |     N      | ulica
 house | tekst(30)  |      N      |     N      | nr domu
 flat | tekst(30)  |      N      |     N      | nr mieszkania
-zipCode | tekst      |      N      |     N      | kod pocztowy
-city | tekst      |      N      |     N      | miasto
-state | tekst      |      N      |     N      | województwo
-country | tekst      |      N      |     N      | kraj lub jego kod
-email | tekst      |      N      |     N      | e-mail
-website | tekst      |      N      |     N      | adres www
-phone | tekst      |      N      |     N      | telefon
+zipCode | tekst(255)      |      N      |     N      | kod pocztowy
+city | tekst(255)      |      N      |     N      | miasto
+state | tekst(255)      |      N      |     N      | województwo
+country | tekst(255)      |      N      |     N      | kraj lub jego kod
+email | tekst(255)      |      N      |     N      | e-mail
+website | tekst(255)      |      N      |     N      | adres www
+phone | tekst(255)      |      N      |     N      | telefon
 isSupplier | true/false |      N      |     N      | dostawca
 isReceiver | true/false      |      N      |     N      | odbiorca
 

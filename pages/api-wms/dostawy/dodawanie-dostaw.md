@@ -30,23 +30,24 @@ Za pomocą tej metody tworzony jest nagłówek [dostawy](/dostawy) w qcadoo.
 }
 ~~~~~~~~
 
-Nazwa | Typ                    | Wymagalność | Unikalność | Zawartość
-:-|:-----------------------|:-----------:|:----------:|:-
-number | tekst(255)             |      T      |     T      | numer dostawy
-name | tekst(1024)            |      N      |     N      | nazwa dostawy
-externalID | tekst                  |      N      |     T      | id/numer w systemie zewnętrznym
-description | tekst(2048)            |      N      |     N      | opis
-supplier | tekst(255)             |      N      |     N      | numer dostawcy. Kontrahent musi istnieć w qcadoo.
-location | tekst(255)             |      N      |     N      | numer magazynu
-deliveryDate | data i czas(timestamp) |      N      |     N      | termin dostawy
-deliveryAddress | tekst(2048)            |      N      |     N      | adres docelowy dostawy
-currency | tekst(3)               |      N      |     N      | kod waluty
+Nazwa | Typ                          | Wymagalność | Unikalność | Zawartość
+:-|:-----------------------------|:-----------:|:----------:|:-
+number | tekst(255)                   |      T      |     T      | numer dostawy
+name | tekst(1024)                  |      N      |     N      | nazwa dostawy
+externalID | tekst(255)  |      N      |     T      | id/numer w systemie zewnętrznym
+description | tekst(2048)                  |      N      |     N      | opis
+supplier | tekst(255)                   |      N      |     N      | numer dostawcy. Kontrahent musi istnieć w qcadoo.
+location | tekst(255)                   |      N      |     N      | numer magazynu
+deliveryDate | data i czas(timestamp)       |      N      |     N      | termin dostawy
+deliveryAddress | tekst(2048)                  |      N      |     N      | adres docelowy dostawy
+currency | tekst(3)                     |      N      |     N      | kod waluty
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
 {
     "status": "OK",
-    "message": null // Gdy status ERROR - informacja z przyczyną błędu
+    "message": null, // Gdy status ERROR - informacja z przyczyną błędu
+    "id": 598
 }
 ~~~~~~~~
 
@@ -88,7 +89,8 @@ pricePerUnit | liczba(12,5) >=0 |      N      |     N      | cena jednostkowa
 ~~~~~~~~
 {
     "status": "OK",
-    "message": null // Gdy status ERROR - informacja z przyczyną błędu
+    "message": null, // Gdy status ERROR - informacja z przyczyną błędu
+    "id": 598
 }
 ~~~~~~~~
 

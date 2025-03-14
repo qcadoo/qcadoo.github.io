@@ -1474,3 +1474,15 @@ entries:
               - title: Pobieranie dokumentów magazynowych
                 output: web
                 url: /api-wms-pobieranie-dokumentow-magazynowych.html
+
+          - title: Genealogia
+            output: web
+            subfolderitems:
+
+              - title: Tworzenie partii w genealogii
+                output: web
+                url: /api-wms-dodawanie-partii.html
+
+              - title: Pobieranie partii
+                output: web
+                url: /api-wms-pobieranie-partii.html

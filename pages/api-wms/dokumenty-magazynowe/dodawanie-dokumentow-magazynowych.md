@@ -42,7 +42,8 @@ company | tekst(255)             |      N      |     N      | numer kontrahenta.
 ~~~~~~~~
 {
     "status": "OK",
-    "message": null // Gdy status ERROR - informacja z przyczyną błędu
+    "message": null, // Gdy status ERROR - informacja z przyczyną błędu
+    "id": 598
 }
 ~~~~~~~~
 
@@ -68,21 +69,30 @@ Za pomocą tej metody, do istniejącego w qcadoo dokumentu, dodawana jest pozycj
 {
     "product": "product number",
     "document": "document number",
-    "quantity": 10
+    "quantity": 10,
+    "price" : 5.5,
+    "sellingPrice" : 4.5,
+    "expirationDate" : expirationDate,
+    "batchId" : 5
 }
 ~~~~~~~~
 
-Nazwa | Typ             | Wymagalność | Unikalność | Zawartość
-:-|:----------------|:-----------:|:----------:|:-
-product | tekst(255)      |      T      |     N      | numer produktu. Produkt musi istnieć w qcadoo
-document | tekst           |      T      |     N      | numer dokumentu. Dokument musi istnieć w qcadoo
-quantity | liczba(14,5) >0 |      T      |     N      | ilość
+Nazwa | Typ              | Wymagalność | Unikalność | Zawartość
+:-|:-----------------|:-----------:|:----------:|:-
+product | tekst(255)       |      T      |     N      | numer produktu. Produkt musi istnieć w qcadoo
+document | tekst(255)       |      T      |     N      | numer dokumentu. Dokument musi istnieć w qcadoo
+quantity | liczba(14,5) >0  |      T      |     N      | ilość
+price | liczba(12,5) >=0 |      N      |     N      | cena
+sellingPrice | liczba(12,5) >=0 |      N      |     N      | cena sprzedaży
+expirationDate | data |      N      |     N      | data ważności
+batchId | liczba całkowita |      N      |     N      | id partii
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
 {
     "status": "OK",
-    "message": null // Gdy status ERROR - informacja z przyczyną błędu
+    "message": null, // Gdy status ERROR - informacja z przyczyną błędu
+    "id": 598
 }
 ~~~~~~~~
 

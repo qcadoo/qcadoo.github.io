@@ -28,7 +28,9 @@ Za pomocą tej metody pobierzesz szczegóły dokumentu o podanym id.
     "locationFrom" : "location from number"
     "locationTo": "location to number",
     "company": "company number",
-    "state": "state"
+    "state": "state",
+    "delivery": "delivery number",
+    "masterOrder": "master order number"
 }  
 ~~~~~~~~
 
@@ -62,7 +64,9 @@ Za pomocą tej metody pobierzesz dokumenty zgodnie z parametrami.
     "locationFrom" : "location from number"
     "locationTo": "location to number",
     "company": "company number",
-    "state": "state"
+    "state": "state",
+    "delivery": "delivery number",
+    "masterOrder": "master order number"
 }]  
 ~~~~~~~~
 
@@ -74,6 +78,8 @@ Parametry są następujące:
 - updateDate - data aktualizacji dokumentu późniejsza lub równa niż podana, format yyyy-MM-dd
 - number - numer lub jego część, wielkość liter nie ma znaczenia
 - name - nazwa lub jej część, wielkość liter nie ma znaczenia
+- delivery - numer powiązanej dostawy lub jego część, wielkość liter nie ma znaczenia
+- masterOrder - numer powiązanego zamówienia sprzedaży lub jego część, wielkość liter nie ma znaczenia
 
 ---
 
@@ -96,7 +102,11 @@ Za pomocą tej metody pobierzesz pozycje dokumentów spełniających podane kryt
     "id": id,
     "document" : "document number",
     "product" : "product number",
-    "quantity" : quantity
+    "quantity" : quantity,
+    "price" : price,
+    "sellingPrice" : sellingPrice,
+    "expirationDate" : expirationDate,
+    "batchId" : batchId
 }]  
 ~~~~~~~~
 

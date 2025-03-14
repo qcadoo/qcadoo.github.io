@@ -1,5 +1,5 @@
 ---
-title: "Wstęp"
+title: "Wprowadzenie do API"
 permalink: api-wstep.html
 toc: false
 ---

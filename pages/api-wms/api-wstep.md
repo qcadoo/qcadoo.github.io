@@ -1,5 +1,5 @@
 ---
-title: "Wstęp"
+title: "Wprowadzenie do API - WMS"
 permalink: api-wms-wstep.html
 toc: false
 ---
