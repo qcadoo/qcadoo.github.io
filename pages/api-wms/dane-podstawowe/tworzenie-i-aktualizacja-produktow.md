@@ -39,7 +39,7 @@ description | tekst(2048)  |      N      |     N      | opis
 ean | tekst        |      N      |     N      | ean
 unit | tekst(255)   |      T      |     N      | jednostka ze słownika
 category | tekst(255)   |      N      |     N      | kategoria produktu ze słownika
-globalTypeOfMaterial | wyliczeniowy |      N      |     N      | globalny typ materiału 01component - surowiec, 02intermediate - półprodukt, 03finalProduct - produkt finalny, 04waste - odpad, 05package - opakowanie
+globalTypeOfMaterial | wyliczeniowy |      N      |     N      | globalny typ materiału. Możliwe wartości to: <br/>- 01component - surowiec, <br/>- 02intermediate - półprodukt, <br/>- 03finalProduct - produkt finalny, <br/>- 04waste - odpad, <br/>- 05package - opakowanie
 size | tekst(255)   |      N      |     N      | numer rozmiaru
 
 ### Zawartość odpowiedzi
@@ -91,7 +91,7 @@ description | tekst(2048)  |      N      |     N      | opis
 ean | tekst        |      N      |     N      | ean
 unit | tekst(255)   |      T      |     N      | jednostka ze słownika
 category | tekst(255)   |      N      |     N      | kategoria produktu ze słownika
-globalTypeOfMaterial | wyliczeniowy |      N      |     N      | globalny typ materiału 01component - surowiec, 02intermediate - półprodukt, 03finalProduct - produkt finalny, 04waste - odpad, 05package - opakowanie
+globalTypeOfMaterial | wyliczeniowy |      N      |     N      | globalny typ materiału. Możliwe wartości to: <br/>- 01component - surowiec, <br/>- 02intermediate - półprodukt, <br/>- 03finalProduct - produkt finalny, <br/>- 04waste - odpad, <br/>- 05package - opakowanie
 size | tekst(255)   |      N      |     N      | numer rozmiaru
 
 ### Zawartość odpowiedzi

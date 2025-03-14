@@ -30,11 +30,11 @@ Za pomocą tej metody tworzony jest nagłówek [zamówienia sprzedaży](/zleceni
 
 Nazwa | Typ                    | Wymagalność | Unikalność | Zawartość
 :-|:-----------------------|:-----------:|:----------:|:-
-number | tekst(255)             |      T      |     T      | numer
-name | tekst(1024)            |      N      |     N      | nazwa
+number | tekst(255)             |      T      |     T      | numer zamówienia sprzedaży
+name | tekst(1024)            |      N      |     N      | nazwa zamówienia sprzedaży
 externalID | tekst            |      N      |     T      | id/numer w systemie zewnętrznym
 description | tekst(2048)            |      N      |     N      | opis
-company | tekst(255)             |      N      |     N      | numer kontrahenta
+company | tekst(255)             |      N      |     N      | numer kontrahenta. Kontrahent musi istnieć w qcadoo
 deadline | data i czas(timestamp) |      N      |     N      | termin ostateczny
 dateOfReceipt | data i czas(timestamp) |      N      |     N      | data wpływu
 
@@ -47,7 +47,7 @@ dateOfReceipt | data i czas(timestamp) |      N      |     N      | data wpływu
 ~~~~~~~~
 
 ### Działanie
-Za pomocą metody tworzone jest zamówienie sprzedaży w qcadoo. Zamówienie ma wypełnione tylko dane z zakładki Główna (czyli nagłówek zamówienia). Należy do niego dodać pozycje metodą opisaną poniżej.
+Za pomocą metody tworzone jest zamówienie sprzedaży w qcadoo. Zamówienie ma wypełnione tylko dane z zakładki _Główna_ (czyli nagłówek zamówienia). Należy do niego dodać pozycje metodą opisaną poniżej.
 
 ---
 
@@ -75,10 +75,10 @@ Za pomocą tej metody tworzona jest pozycja zamówienia sprzedaży w qcadoo.
 
 Nazwa | Typ              | Wymagalność | Unikalność | Zawartość
 :-|:-----------------|:-----------:|:----------:|:-
-product | tekst(255) |      T      |     N      | numer produktu
-masterOrder | tekst(255) |      T      |     N      | numer zamówienia
-quantity | liczba(14,5) >=0 |      N      |     N      | ilość
-price | liczba(14,5) >0  |      N      |     N      | cena
+product | tekst(255) |      T      |     N      | numer produktu. Produkt musi istnieć w qcadoo
+masterOrder | tekst(255) |      T      |     N      | numer zamówienia sprzedaży
+quantity | liczba(14,5) >=0 |      N      |     N      | ilość zamówiona
+price | liczba(14,5) >0  |      N      |     N      | cena sprzedaży
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
@@ -89,4 +89,4 @@ price | liczba(14,5) >0  |      N      |     N      | cena
 ~~~~~~~~
 
 ### Działanie
-Za pomocą metody to istniejącego zamówienia sprzedaży dodawana jest pozycja. Stworzona pozycja widoczna będzie w zakładce Produkty wyj. w zamówieniu. 
+Za pomocą metody to istniejącego zamówienia sprzedaży dodawana jest pozycja. Stworzona pozycja widoczna będzie w zakładce _Produkty wyj._ w zamówieniu. 

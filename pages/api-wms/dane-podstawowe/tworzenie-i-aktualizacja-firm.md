@@ -65,7 +65,7 @@ isReceiver | true/false      |      N      |     N      | odbiorca
 ~~~~~~~~
 
 ### Działanie
-Metoda tworzy w systemie qcadoo firmę o podanych danych. Podczas dodawania, prowadzone są wszystkie walidacje dla tego obiektu (analogiczne, jak przy ręcznym dodawaniu wprost do systemu). 
+Metoda tworzy w systemie qcadoo firmę o podanych danych. Podczas dodawania, przeprowadzone są wszystkie walidacje dla tego obiektu (analogiczne, jak przy ręcznym dodawaniu wprost do systemu). 
 
 
 ---
@@ -132,5 +132,5 @@ isReceiver | true/false      |      N      |     N      | odbiorca
 ~~~~~~~~
 
 ### Działanie
-Metoda powoduje zaktualizowanie danych firmy o podanym id. Wszystkie dane kontrahenta w systemie, zostaną nadpisane danymi z kominikatu. Podczas aktualizacji przeprowadzane są wszystkie systemowe walidacje.
+Metoda powoduje zaktualizowanie danych firmy o podanym id. Wszystkie dane kontrahenta w systemie, zostaną nadpisane danymi z komunikatu. Podczas aktualizacji przeprowadzane są wszystkie systemowe walidacje.
 
