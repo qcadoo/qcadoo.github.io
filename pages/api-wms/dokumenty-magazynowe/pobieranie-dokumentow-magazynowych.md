@@ -78,7 +78,7 @@ Parametry są następujące:
 - updateDate - data aktualizacji dokumentu późniejsza lub równa niż podana, format yyyy-MM-dd
 - number - numer lub jego część, wielkość liter nie ma znaczenia
 - name - nazwa lub jej część, wielkość liter nie ma znaczenia
-- delivery - numer powiązanej dostawy lub jego część, wielkość liter nie ma znaczenia
+- delivery - numer powiązanej dostawy lub jej część, wielkość liter nie ma znaczenia
 - masterOrder - numer powiązanego zamówienia sprzedaży lub jego część, wielkość liter nie ma znaczenia
 
 ---
