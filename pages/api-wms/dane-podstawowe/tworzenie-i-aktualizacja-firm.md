@@ -32,8 +32,8 @@ Za pomocą tej metody api dodasz [firmę](/firmy) do systemu qcadoo.
     "email" : "email",
     "website" : "website",
     "phone" : "phone",
-    "isSupplier" : true,
-    "isReceiver" : false
+    "supplier" : true,
+    "receiver" : false
 }
 ~~~~~~~~
 
@@ -53,8 +53,8 @@ country | tekst(255)      |      N      |     N      | kraj lub jego kod
 email | tekst(255)      |      N      |     N      | e-mail
 website | tekst(255)      |      N      |     N      | adres www
 phone | tekst(255)      |      N      |     N      | telefon
-isSupplier | true/false |      N      |     N      | dostawca
-isReceiver | true/false      |      N      |     N      | odbiorca
+supplier | true/false |      N      |     N      | dostawca
+receiver | true/false      |      N      |     N      | odbiorca
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
@@ -100,8 +100,8 @@ Za pomocą tej metody api zaktualizujesz firmę o wskazanym ID.
     "email" : "email",
     "website" : "website",
     "phone" : "phone",
-    "isSupplier" : false,
-    "isReceiver" : true
+    "supplier" : false,
+    "receiver" : true
 }
 ~~~~~~~~
 
@@ -121,8 +121,8 @@ country | tekst(255)      |      N      |     N      | kraj lub jego kod
 email | tekst(255)      |      N      |     N      | e-mail
 website | tekst(255)      |      N      |     N      | adres www
 phone | tekst(255)      |      N      |     N      | telefon
-isSupplier | true/false |      N      |     N      | dostawca
-isReceiver | true/false      |      N      |     N      | odbiorca
+supplier | true/false |      N      |     N      | dostawca
+receiver | true/false      |      N      |     N      | odbiorca
 
 ### Zawartość odpowiedzi
 ~~~~~~~~

@@ -69,7 +69,7 @@ Za pomocą tej metody tworzona jest pozycja zamówienia sprzedaży w qcadoo.
 {
     "product": "product number",
     "masterOrder": "master order number",
-    "quantity": 10,
+    "orderedQuantity": 10,
     "price": 1.5,
     "deliveryDate": 1421274697381
 }
@@ -79,7 +79,7 @@ Nazwa | Typ              | Wymagalność | Unikalność | Zawartość
 :-|:-----------------|:-----------:|:----------:|:-
 product | tekst(255) |      T      |     N      | numer produktu. Produkt musi istnieć w qcadoo
 masterOrder | tekst(255) |      T      |     N      | numer zamówienia sprzedaży
-quantity | liczba(14,5) >=0 |      N      |     N      | ilość zamówiona
+orderedQuantity | liczba(14,5) >=0 |      N      |     N      | ilość zamówiona
 price | liczba(14,5) >0  |      N      |     N      | cena sprzedaży
 deliveryDate | data i czas(timestamp) |      N      |     N      | data dostawy
 
