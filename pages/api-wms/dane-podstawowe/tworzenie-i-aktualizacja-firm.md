@@ -101,7 +101,8 @@ Za pomocą tej metody api zaktualizujesz firmę o wskazanym ID.
     "website" : "website",
     "phone" : "phone",
     "supplier" : false,
-    "receiver" : true
+    "receiver" : true,
+    "active": true
 }
 ~~~~~~~~
 
@@ -123,6 +124,7 @@ website | tekst(255)      |      N      |     N      | adres www
 phone | tekst(255)      |      N      |     N      | telefon
 supplier | true/false |      N      |     N      | dostawca
 receiver | true/false      |      N      |     N      | odbiorca
+active | true/false      |      N      |     N      | aktywny (wartość domyślna false)
 
 ### Zawartość odpowiedzi
 ~~~~~~~~

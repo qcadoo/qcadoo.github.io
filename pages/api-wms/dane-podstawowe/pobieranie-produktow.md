@@ -28,7 +28,8 @@ Za pomocą tej metody pobierzesz z qcadoo szczegóły [produktu](/produkty) o po
     "globalTypeOfMaterial" : "globalTypeOfMaterial",
     "description" : "description"
     "category": "category number",
-    "size": "size number"
+    "size": "size number",
+    "active": true
 }  
 ~~~~~~~~
 
@@ -62,7 +63,8 @@ Za pomocą tej metody pobierzesz produkty spełniające zadane parametry.
     "globalTypeOfMaterial" : "globalTypeOfMaterial",
     "description" : "description"
     "category": "category number",
-    "size": "size number"
+    "size": "size number",
+    "active": true
 }]  
 ~~~~~~~~
 
