@@ -124,7 +124,7 @@ website | tekst(255)      |      N      |     N      | adres www
 phone | tekst(255)      |      N      |     N      | telefon
 supplier | true/false |      N      |     N      | dostawca
 receiver | true/false      |      N      |     N      | odbiorca
-active | true/false      |      N      |     N      | aktywny (wartość domyślna false)
+active | true/false      |      N      |     N      | aktywny (wartość domyślna true)
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
