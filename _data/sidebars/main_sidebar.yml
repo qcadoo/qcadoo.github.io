@@ -695,6 +695,10 @@ entries:
       output: web
       url: /zlecenia-nadrzedne.html
 
+    - title: Zamówienia sprzedaży w WMS
+      output: web
+      url: /zamowienia-sprzedazy-wms.html
+
     - title: Pozycje zamówień sprzedaży
       output: web
       url: /pozycje-zamowien-sprzedazy.html

@@ -135,7 +135,13 @@ Parametry terminala konfigurują [terminal rejestracji produkcji](/terminal). We
 - **powielony dla każdego zadania** - wówczas w każdym utworzonym rekordzie rejestracji uzupełniony będzie dokładnie taki czas pracy maszyny i czas pracy pracownika, jak podany w oknie łącznej rejestracji
 - **podzielony proporcjonalnie** - wówczas w oknie łącznej rejestracji pracownik podaje sumę czasu jaką on i maszyna poświęcili na zadania, a my przeliczymy proporcjonalnie czas na wytworzone ilości
 
-22. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
+22. **Rozpocznij produkcję po wybraniu zadania** - zaznacz parametr, a zawsze po wybraniu zadania do realizacji w terminalu (czy to przez zeskanowanie kodu z karty pracy czy przez wybór z listy), zostanie z automatu ustawiona data rozpoczęcia produkcji, zupełnie jakbyś kliknął przycisk START
+
+23. **Zatrzymaj produkcję po ponownym wczytaniu zadania** - zaznacz parametr, a zawsze przy kolejnym wczytaniu meldunku do rozpoczętej produkcji (czy to przez zeskanowanie kodu z karty pracy czy wybranie z listy), zostanie z automatu ustawiona data zakończenia produkcji, zupełnie jakbyś kliknął przycisk STOP
+
+24. **Ilość wyprodukowana na podstawie ilości pozostałej do zarejestrowania** - zaznacz parametr, a w momencie zatrzymania produkcji (czyli kliknięcia STOP, czy to ręcznie czy z automatu), ilość wyprodukowana zostanie ustawiona na podstawie ilości pozostałej do zarejestrowania
+
+25. **Pokaż w terminalu** - wskaż jakie przyciski lub obszary chcesz w terminalu ukryć. Po co ukrywać? Im mniej rozpraszaczy pracownik otrzyma, tym sprawniej zarejestruje produkcję. Wyłączyć możesz:
 - przycisk **Wybierz zlecenie**
 - przycisk **Wybierz zadanie**
 - przycisk **Postęp pracownika**

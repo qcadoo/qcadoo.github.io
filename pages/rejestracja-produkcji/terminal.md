@@ -140,6 +140,8 @@ W tym obszarze wskazujemy kiedy prace były wykonane (w jakim dniu, na jakiej zm
 
 W tym obszarze dostępne są przyciski **START** i **STOP** --> ułatwiają one ustalenie jak długo trwała praca na rzecz danej czynności. Przycisk START ustawia czas od, a przycisk STOP - czas do. A różnica to oczywiście czas pracy pracownika. Kiedy z nich korzystać? Załóżmy, że nie drukujesz kart pracy i pracownik o wszystkich swoich zadaniach dowiaduje się z terminala. Loguje się i przegląda co ma dziś wykonać. Wybiera jedno z zadań / zleceń i klika START. Czas początku pracy został ustawiony. Teraz klika POTWIERDŹ --> rekord rejestracji został dodany. Kierownik produkcji wie, że dany pracownik zajmuje się tym zadaniem. Po ukończonej pracy pracownik podchodzi do terminala, ponownie wybiera to zadanie / zlecenie, klika STOP (moment końca pracy został ustawiony i wyliczony czas pracy pracownika) i przystępuje do zapisania efektów produkcji (jaka ilość została wyprodukowana, co zostało zużyte) i znowu klika POTWIERDŹ --> istniejacy rekrod rejestracji został zaktualizowany o najświeższe dane. 
 
+{% include callout.html content="Przyciski START i STOP mogą się same wciskać. Jak to ustawić? Wejdź do [parametrów terminala](/parametry-rejestracja-produkcji.html#terminal) i zaznacz parametry **Rozpocznij produkcję po wybraniu zadania** i **Zatrzymaj produkcję po ponownym wczytaniu zadania**." type="warning" %}
+
 Rozwinięciem przycisków START i STOP jest możliwość dodania listy pracowników, którzy uczestniczą w danym zleceniu. W celu dodania pracownika do zlecenia, kliknij przycisk {% include inline_image.html file="rejestracjaTerminalCzasPracyPrzyciskDodaniePracownika.png" alt="Dodanie pracownika do zlecenia" %}
 
 {% include lightbox.html file="rejestracjaTerminalCzasPracyDodaniePracownika.png" alt="Dodanie pracownika" caption="Dodanie pracownika" %}
@@ -230,6 +232,8 @@ Widoczne są ponadto ilości:
 - pozostało do wyprodukowania - informacja dla pracownika ile jeszcze danego produktu trzeba wytworzyć, aby zlecenie uznać za zrealizowane
 
 Dodatkowym ułatwieniem dla pracowników jest możliwość wpisywania kolejnych wyprodukowanych transz używając znaku plusa (np. 17+13+21). W momencie potwierdzania rejestracji w polu zostanie uzupełniona suma podanego działania.
+
+{% include callout.html content="Jeśli w [parametrach terminala](/parametry-rejestracja-produkcji.html#terminal) zaznaczysz parametr **Ilość wyprodukowana na podstawie ilości pozostałej do zarejestrowania** to w momencie zakończenia produkcji i kliknięcia przycisku STOP, zostanie wpisana ilość wyprodukowana jako ilość pozostała do zarejestrowania." type="warning" %}
 
 #### Atrybuty produktu wyjściowego
 

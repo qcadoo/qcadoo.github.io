@@ -30,3 +30,8 @@ Do testów API można wykorzystać dowolnego klienta REST np. Talend API Tester.
 7. Dokumenty magazynowe utworzone w qcadoo mogą być pobrane, w celu dodania ich do systemu zewnętrznego. Można pobrać wszystkie dokumenty utworzone po zadanej dacie, dzięki temu można przyjąć system pobierania danych np. raz dziennie, z całego dnia pracy.
 
 {% include callout.html content="Potrzebujesz integrować więcej danych? Skontaktuj się z nami w celu omówienia możliwych zmian w API." type="warning" %}
+
+<span style="color:red">Dodatkowe informacje:</span>
+- w komunikatach pobierających dane z qcadoo, z wykorzystaniem zadanych kryteriów, można w parametrach wykorzystać znak *, który zastąpi ciąg znaków
+- podczas aktualizacji danych w qcadoo, wszystkie dane zostaną nadpisane danymi z komuniaktu, nawet pustymi wartościami. Zatem jeśli chcesz w produkcie zaktualizować nazwę, wypełnij też pozostałe pola w komunikacie, danymi aktualnymi
+- podczas pobierania danych wg kryteriów, obsługujemy tylko podane w dokumentacji parametry. Jeśli wykorzystany będzie inny parametr, będzie on ignorowany

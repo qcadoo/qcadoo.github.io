@@ -67,6 +67,7 @@ receiver | true/false      |      N      |     N      | odbiorca
 
 ### Działanie
 Metoda tworzy w systemie qcadoo firmę o podanych danych. Podczas dodawania, przeprowadzone są wszystkie walidacje dla tego obiektu (analogiczne, jak przy ręcznym dodawaniu wprost do systemu). 
+Jeśli firma pochodzi z Polski (czyli country : “PL” bądź country : “Polska”) to walidujemy poprawność numeru NIP - czy składa się z 10 cyfr i czy ma prawidłową cyfrę kontrolną.
 
 
 ---
@@ -136,4 +137,5 @@ active | true/false      |      N      |     N      | aktywny (wartość domyśl
 
 ### Działanie
 Metoda powoduje zaktualizowanie danych firmy o podanym id. Wszystkie dane kontrahenta w systemie, zostaną nadpisane danymi z komunikatu. Podczas aktualizacji przeprowadzane są wszystkie systemowe walidacje.
+Jeśli firma pochodzi z Polski (czyli country : “PL” bądź country : “Polska”) to walidujemy poprawność numeru NIP - czy składa się z 10 cyfr i czy ma prawidłową cyfrę kontrolną.
 

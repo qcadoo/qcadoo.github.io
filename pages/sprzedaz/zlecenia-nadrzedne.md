@@ -9,7 +9,7 @@ Zamówienia sprzedaży mogą być wykorzystywane albo do zaewidencjonowania zam�
 
 ## Dodanie nowego zamówienia sprzedaży
   
-**Sprzedaż > Zamówienia sprzedaży** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj Nowy" %} **Dodaj nowy**
+**Sprzedaż > Zamówienia sprzedaży** {% include inline_image.html file="przyciskDodajNowy.png" alt="Przycisk Dodaj Nowy" %}
 
 1. W zakładce **Główna** możesz zmienić **Numer** zamówienia, który nadawany jest automatycznie.
 
@@ -180,11 +180,13 @@ Ustawia sie za to status pozycji zamówienia sprzedaży na **zlecona**, a zlecon
 
 {% include lightbox.html file="sprzedazZamowieniaTworzenieWZ.png" alt="Tworzenie WZ do zamówienia sprzedaży" caption="Tworzenie WZ do zamówienia sprzedaży" class="float-right" %}
 
-Po zleceniu produkcji i przyjęciu wytworzonych wyrobów na magazyn, następuje moment przekazania zamówionych produktów klientowi. Aby stany magazynowe odpowiednio się ukształtowały konieczne jest wystawienie dokumentu WZ. Możesz to zrobić ręcznie z poziomu [listy dokumentów](/dokumenty). Ale możesz też wykorzystać funkcję **Utwórz dokumenty WZ** z poziomu zamówienia sprzedaży. Dzięki temu dokument zostanie przygotowany z automatu na podstawie danych z zamówienia i będzie miał w opisie informacje, którego zamówienia dotyczy.
+Po zleceniu produkcji i przyjęciu wytworzonych wyrobów na magazyn, następuje moment przekazania zamówionych produktów klientowi. Aby stany magazynowe odpowiednio się ukształtowały konieczne jest wystawienie dokumentu WZ. Możesz to zrobić ręcznie z poziomu [listy dokumentów](/dokumenty). Ale możesz też wykorzystać funkcję **Utwórz dokumenty WZ** z poziomu zamówienia sprzedaży. Dzięki temu dokument zostanie przygotowany z automatu na podstawie danych z zamówienia i będzie powiązany z zamówieniem (jego numer będzie widoczny w liście dokumentów).
 
 Aby wydać wyroby klientowi wejdź do zamówienia, zaznacz interesujące Cię produkcy i kliknij przycisk {% include inline_image.html file="przyciskUtworzDokumentWZ.png" alt="Przycisk Utwórz dokument WZ" %} **Utwórz dokument WZ**.
 
 W uruchomionym oknie możesz albo kliknąć przycisk {% include inline_image.html file="przyciskAkceptuj.png" alt="Przycisk Akceptuj" %} **Akceptuj**, w celu potwierdzenia wydania. Wówczas dobrane zostaną zasoby magazynowe zgodnie z przyjętą metodą rozchodu. Możesz też przed akceptacją wskazać dodatkowe warunki doboru zasobów - np. numer partii czy miejsce składowania. Dzięki temu będziesz mieć pewność, że z magazynu zostanie zdjęte dokładnie to, co zostało do klienta wysłane.
+
+Po utworzeniu dokumentu WZ w pozycji zamówienia zostanie uzupełniona **ilość wydana** i wyliczona **ilość pozostała do wydania**. Dodatkowo po wygenerowaniu dokumentu WZ do pozycji zamówienia, otrzymuje ona status **wydana**, dzięki temu będziesz mieć pod ręką informacje o tym, co jeszcze nie zostało do zamówienia wysłane.
 
  
 ## Statusy zamówień sprzedaży

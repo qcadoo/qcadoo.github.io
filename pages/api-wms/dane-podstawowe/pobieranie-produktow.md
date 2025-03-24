@@ -19,8 +19,8 @@ Za pomocą tej metody pobierzesz z qcadoo szczegóły [produktu](/produkty) o po
 ### Zawartość odpowiedzi
 ~~~~~~~~
 {
-    "id": id,
     "externalID" : "externalID",
+    "id": id,
     "number" : "number",
     "name" : "name",
     "ean" : "ean",
@@ -54,8 +54,8 @@ Za pomocą tej metody pobierzesz produkty spełniające zadane parametry.
 ### Zawartość odpowiedzi
 ~~~~~~~~
 [{
-    "id": id,
     "externalID" : "externalID",
+    "id": id,
     "number" : "number",
     "name" : "name",
     "ean" : "ean",
