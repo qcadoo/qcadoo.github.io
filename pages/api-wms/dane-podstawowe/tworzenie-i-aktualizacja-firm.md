@@ -53,8 +53,8 @@ country | tekst(255)      |      N      |     N      | kraj lub jego kod
 email | tekst(255)      |      N      |     N      | e-mail
 website | tekst(255)      |      N      |     N      | adres www
 phone | tekst(255)      |      N      |     N      | telefon
-supplier | true/false |      N      |     N      | dostawca
-receiver | true/false      |      N      |     N      | odbiorca
+supplier | true/false |      N      |     N      | dostawca (wartość domyślna false)
+receiver | true/false      |      N      |     N      | odbiorca (wartość domyślna false)
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
@@ -123,8 +123,8 @@ country | tekst(255)      |      N      |     N      | kraj lub jego kod
 email | tekst(255)      |      N      |     N      | e-mail
 website | tekst(255)      |      N      |     N      | adres www
 phone | tekst(255)      |      N      |     N      | telefon
-supplier | true/false |      N      |     N      | dostawca
-receiver | true/false      |      N      |     N      | odbiorca
+supplier | true/false |      N      |     N      | dostawca (wartość domyślna false)
+receiver | true/false      |      N      |     N      | odbiorca (wartość domyślna false)
 active | true/false      |      N      |     N      | aktywny (wartość domyślna true)
 
 ### Zawartość odpowiedzi
