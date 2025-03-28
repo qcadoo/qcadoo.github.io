@@ -73,5 +73,53 @@ Po utworzeniu dokumentu WZ w pozycjach zamówienia sprzedaży zostanie zapisana 
 
 {% include lightbox.html file="sprzedazWmsZamowienieProduktyWydane.png" alt="Wydane produkty do zamówienia" caption="Wydane produkty do zamówienia"%} 
 
+## Analiza zamówionych pozycji
 
+Zapewne wpływa do Ciebie każdego dnia sporo zamówień. Ustalenie czy masz wystarczający stan magazynowy, aby je zrealizować jest kluczową kwestą. 
+
+Kliknij w przycisk {% include inline_image.html file="przyciskPobierzStanyMagazynoweIDostawy2.png" alt="Przycisk Pokaż Pokaż stany magazynowe i dostawy" %}, aby ustalić ewidencyjny stan magazynowy i istniejące dostawy. Stan zostanie pobrany dla magazynu wskazanego w [parametrach sprzedaży](/parametry-sprzedazy.html#zamówienia-sprzedaży) w polu **Magazyn wydania wyrobów dokumentem WZ**.
+
+Pomocne będą także zgrupowane listy, z dokładnością do produktu i do produktu i daty, wywołane z poziomu pozycji zamówień sprzedaży.
+
+Wejdź w **Sprzedaż > Pozycje zamówien sprzedaży**
+
+{% include lightbox.html file="sprzedazWmsZamowienieListaPozycji.png" alt="Lista zamówionych pozycji" caption="Lista zamówionych pozycji"%} 
+
+Domyślnie widoczne są wszystkie pozycje, które mają status **Nowa** (oznacza to, że nie utworzono jeszcze dokumentu WZ potwierdzającego wydanie). 
+
+Jednym wierszem w tabeli jest jedna nowa zamówiona pozycja, z wszystkich zgromadzonych zamówień sprzedaży. Jeśli sprzedajesz standardowe katalogowe produkty, to zapewne będą one się w liście powtarzać. Co utrudnia analizę. Skorzystaj zatem z widoków zgrupowanych. Zaznacz interesujące Cię pozycje (maksymalnie będziesz mógł zaznaczyć 200 pozycji - może zatem warto użyć najpierw filtra,w celu ograniczenia widocznych danych) i kliknij jeden z dwóch przycisków:
+
+- {% include inline_image.html file="przyciskPokazZgrupowanePoProdukcie.png" alt="Przycisk Pokaż zgrupowane po produkcie" %} aby zobaczyć dane skumulowane z dokładnością do danego produktu. Jednym wierszem w analizie będzie jeden produkt
+
+- {% include inline_image.html file="przyciskPokazZgrupowanePoProdukcieIDacie.png" alt="Przycisk Pokaż zgrupowane po produkcie i dacie" %} aby zobaczyć dane skumulowane z dokładnością do produktu i terminu ostatecznego. Jednym wierszem w tabeli będzie produkt zamówiony na dany dzień
+
+{% include lightbox.html file="sprzedazWmsZamowieniePozycjeZgrupowanePoProdukcie.png" alt="Lista zamówionych pozycji zgrupowana po produkcie" caption="Lista zamówionych pozycji zgrupowana po produkcie"%} 
+
+Tabela pokazuje dla każdego produktu (lub produktu i daty):
+- **sumę ilości zamówionych**,
+- **stan magazynowy** - aby ilość była wypełniona, musisz wcześniej wywołać funkcję pobrania stanu w liście pozycji zamówień sprzedaży,
+- **ilość z dostawy** - tu podobnie: dane pojawią się tylko, gdy w oknie poprzednim została wywołana funkcja pobrania stanu i dostaw. Możesz w [parametrach dostawy](/parametry-zaopatrzenie.html#dostawy) ustalić w jakich statusach dostawy mają być analizowane,
+- **suma ilości wydanej** - czyli ilości pochodzących z powiązanych z zamówieniami dokumentów WZ,
+- **ilość pozostała do wydania** - czyli ile jeszcze trzeba będzie wydać danego produktu, by zrealizować zamówienia,
+- **domyślny dostawca** danego produktu.
+
+### Zamawianie brakujących produktów
+
+Z poziomu zgrupowanych list pozycji zamówień można w szybki sposób utworzyć zamówienie zakupu. Zaznacz produkty, które chcesz zamówić, np. te, które nabędziesz w jednej firmie i kliknij przycisk {% include inline_image.html file="przyciskUtworzDostawe.png" alt="Przycisk Utwórz dostawę" %}. Spowoduje to założenie dostawy z listą zamówionych produktów na podstawie zaznaczonych wierszy:
+
+{% include lightbox.html file="sprzedazWmsZamowienieDostawa.png" alt="Dostawa utworzona do zamówionych pozycji" caption="Dostawa utworzona do zamówionych pozycji"%} 
+
+<u> Dostawa posiada:</u> 
+- **kontrahenta** - ustalonego na podsatwie domyślnego dostawcy zaznaczonych produktów,
+- **magazyn** - na podstawie domyślnego magazynu z [parametrów dostawy](/parametry-zaopatrzenie.html#dostawy),
+- **adres** - na podstawie danych z parametrów dostawy.
+
+Każdy zamówiony **produkt** ma **ilość** ustaloną na podstawie różnicy między ilością zamówioną a posiadanym stanem. Dodatkowo patrzymy na minimalną ilość, którą można u dostawcy zamówić. Jeśli jest wyższa niż wynika z wyliczeń, to ilość będzie równa ilości minimalnej. Jeśli natomiast stan magazynowy jest wyższy niż ilość zamówiona (czyli teoretycznie nie ma potrzeby by tworzyć dostawę), pozycja zostanie utworzona, ale z ilością = 0. Trzeba będzie ją ręcznie uzupełnić. Aby nie przegapić takiej konieczności, wiersz zostanie oznaczony kolorem czerwonym.
+<br/>
+<br/>
+Tak utworzona dostawa powinna zostać "obrobiona". Dobrze sprawdzić, czy ilości są właściwe i ewentualnie zmienić na lepsze. Można uzupełnić spodziewane **ceny** - może w tym pomóc funcja **Uzupełnij ceny**. Można dodać też dodatkowe wymagania w opisie pozycji, czy całego zamówienia.
+
+{% include callout.html content="Funkcja _Uzupełnij ceny_ działa dla zaznaczonych wierszy w liście zamówionych produktów. Powoduje uzupełnienie cen jednostkowych (i wyliczenie wartości), na podstawie kosztów produktu. O tym jakie dane będą pobierane świadczą ustawienia w [parametrach dostawy](/parametry-zaopatrzenie.html#dostawy)." type="warning" %}
+
+Pełny opis do obsługi dostaw znajduje się w [tym rodziale dokumentacji](/dostawy).
 

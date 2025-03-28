@@ -55,6 +55,8 @@ W zakładce **Zamówione produkty** widoczne będą produkty zaznaczone w planie
 
 Dla każdego produktu uzupełni się ilość na podstawie ilości z zapotrzebowania lub na podstawie minimalnej ilości zamówienia, jeśli jest wyższa od ilości potrzebnej.
 
+{% include callout.html content="Ilość wyliczana jest jako ilość wynikająca z zapotrzebowania + ilość potrzebna pod otwarte zlecenia - stan magazynowy." type="warning" %}
+
 Jeśli w zapotrzebowaniu zaznaczone zostały produkty wg rozmiaru, to w dostawie ilość nie będzie wypełniona - musisz ją podać samodzielnie (wiersze zostaną oznaczone kolorem czerwonym, dlatego na pewno nie przeoczysz, że dostawa wymaga uzupełnienia).
 
 Jeśli chcesz - wszystkie podpowiedziane informacje mogą być przez Ciebie zmienione.

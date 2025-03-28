@@ -7,6 +7,29 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.7 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.7</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.7</td>
+          <td>
+          <ul>
+            <li>przekazanie dostawcy na zasób tworzony przy przesunięciu za pomocą pary dokumentów WZ-PZ,</li>
+            <li>standardowy sposób integracji z qcadoo WMS - API i dokumentacja użytkownika,</li>
+            <li>nowy status pozycji zamówienia sprzedaży - wydana,</li>
+            <li>tworzenie dostawy do zamówienia sprzedaży,</li>
+            <li>przerobienie widoków zgrupowanych do pozycji zamówień sprzedaży.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.6 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.6</summary><br>
@@ -52,7 +75,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.4 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.4</summary><br>
     <table class="changelog-table" border>
         <tr>
