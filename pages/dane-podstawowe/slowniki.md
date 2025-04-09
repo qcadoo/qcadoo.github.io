@@ -24,7 +24,6 @@ Dostępne są następujące słowniki:
 - **Forma płatności** - określana dla [firmy](/firmy) i prezentowana w [dostawie](/dostawy)
 - **Przyczyny odstępstw od planowanej produkcji** - używane w [zleceniu produkcyjnym](/zlecenia-produkcyjne) do zachowywania informacji o tym z jakiego powodu zmieniona została data czy ilość 
 - **Nadrzędne grupy płacowe** - do wykorzystania w [grupach płacowych](/grupy-placowe)
-- **Typy palet** - używane w [dokumentach](/dokumenty)
 - **Rodzaje podzespołu** - podpięte w podzespołach
 - **Rodzaje wyrobu** - służące do doprecyzowania [modelu](/modele)
 - **Ocena jakości** - wykorzystywana do ustalenia jak wygląda efekt [kontroli jakości](/kontrola-jakosci)

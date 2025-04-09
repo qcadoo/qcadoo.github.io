@@ -53,10 +53,10 @@ Potwierdź dane klikając przycisk {% include inline_image.html file="przyciskWm
 
 Wszystkie dane w oknie są opcjonalne. Możesz podać:
 - **miejsce składowania** - poprzez wprowadzenie z klawiatury lub zeskanowanie kodu. Miejsce składowania musi być zdefiniowane w systemie qcadoo i musi dotyczyć magazynu, do którego użytkownik jest zalogowany. 
-- **paleta** - numer do wpisania z klawiatury lub do zeskanowania z kodu. Numer palety będzie wymagany, gdy wskazane miejsce jest oznaczone jako paletowe. Będziemy tutaj kontrolować wielkość lokalizacji paletowej i nie pozwolimy na przyjęcie więcej palet niż zdefiniowany max w miejscu składowania
-- **typ palety** - jeśli dany numer palety już został przyjęty na magazyn, a aktualnie dokładamy produkty do tej palety, to typ zostanie wczytany i nie będzie możliwości, by go zmienić. Typ palety definiowany jest w słownikach w qcadoo.
+- **nośnik** - numer do wpisania z klawiatury lub do zeskanowania z kodu. Numer nośnika będzie wymagany, gdy wskazane miejsce jest oznaczone jako takie, w którym składowanie odbywa się na nośnikach. Będziemy tutaj kontrolować wielkość lokalizacji i nie pozwolimy na przyjęcie więcej nośników niż zdefiniowany max w miejscu składowania
+- **typ nośnika logistycznego** - jeśli dany numer nośnika już został przyjęty na magazyn, a aktualnie dokładamy produkty do tego nośnika, to typ zostanie wczytany i nie będzie możliwości, by go zmienić. 
 
-Jeśli chcesz ewidencjonować stany magazynowe na paletach, to musisz mieć wyodrębnione miejsca składowania. Schodzimy w określaniu lokalizacji od ogółu do szczegółu: magazyn > miejsce składowania > paleta (o danym typie). I nie pozwalamy na pominięcie któregoś z kroków.
+Jeśli chcesz ewidencjonować stany magazynowe na nośnikach logistycznych, to musisz mieć wyodrębnione miejsca składowania. Schodzimy w określaniu lokalizacji od ogółu do szczegółu: magazyn > miejsce składowania > nośniki (o danym typie). I nie pozwalamy na pominięcie któregoś z kroków.
 
 Wprowadzone dane potwierdź przyciskiem {% include inline_image.html file="przyciskWmsZapisz.png" alt="Przycisk Zapisz" %}. W analogiczny sposób wprowadź wszystkie przyjmowane na magazyn pozycje.
 

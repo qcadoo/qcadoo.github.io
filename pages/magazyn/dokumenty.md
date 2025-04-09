@@ -19,16 +19,16 @@ Dokument składa się z nagłówka i pozycji. Zaczynamy od określenia danych na
 
 {% include lightbox.html file="magazynDokumentNaglowek.png" alt="Nagłówek dokumentu magazynowego" caption="Nagłówek dokumentu magazynowego" class="float-right" %}
 
-Rozpocznij od określenia typu dokumentu - wybierz odpowiedni z dostępnej listy:
+Rozpocznij od określenia **typu dokumentu** - wybierz odpowiedni z dostępnej listy:
 - przyjęcie zewnętrzne (PZ)
 - przyjęcie wewnętrzne (PW)
 - rozchód wewnętrzny (RW)
 - wydanie zewnętrzne (WZ)
 - przesunięcie międzymagazynowe (MM)
 
-W zależności od ruchu magazynowego (czy jest to przyjęcie czy wydanie) wskaż z jakiego magazynu następuje rozchód lub na jaki magazyn następuje przychód. Możesz ponadto określić kontrahenta i jego adres, czy zostawić notatkę w polu opis.
+W zależności od ruchu magazynowego (czy jest to przyjęcie czy wydanie) wskaż z jakiego **magazynu** następuje rozchód lub na jaki magazyn następuje przychód. Możesz ponadto określić **kontrahenta** i jego **adres**, czy zostawić notatkę w polu **opis**.
 
-Numer dokumentu zostanie nadany automatycznie. Jeśli nie podasz nazwy, to do pola zostanie skopiowany numer. Po co osobna nazwa? Np. rejestrujesz dokument PZ od klienta i chcesz zachować jego numerację - wpisz ją w nazwie, a łatwo będzie później dokument znaleźć.
+**Numer dokumentu** zostanie nadany automatycznie. Jeśli nie podasz **nazwy**, to do pola zostanie skopiowany numer. Po co osobna nazwa? Np. rejestrujesz dokument PZ od klienta i chcesz zachować jego numerację - wpisz ją w nazwie, a łatwo będzie później dokument znaleźć.
 
 Po wprowadzeniu danych nagłówkowych - zapisz zmiany używając przycisku {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %}. Dzięki temu uaktywnią się pozycje. 
 --- 
@@ -41,26 +41,26 @@ Inaczej wygląda wprowadzanie pozycji dokumentu dla dokumentu rozchodowego i ina
 
 
 Wprowadzając pozycję w **dokumencie przychodowym** to Ty podajesz wszystkie dostępne atrybuty:
-- **produkt** - do wyboru z listy. Na podstawie produktu zostanie zaczytana również jego nazwa. 
-- **ilość w jednostce podstawowej** - jednostka podstawowa produktu to ta określona w jego definicji (podstawowe > produkty). Nie można jej zmienić na etapie wprowadzania dokumentu. Ale jeśli dostawca przysłał Ci dokument w innej jednostce i chcesz go tak zaewidencjonować - skorzystaj z możliwości określenia jednostki dokumentu i przelicznika, a program odpowiednio wyliczy ilość w jednostce podstawowej
-- **ilość w jednostce dokumentu** - na podstawie podanej ilości przeliczymy dla Ciebie ilość w jednostce podstawowej
-- **jednostka dokumentu** - jeśli produkt ma określoną jednostkę dodatkową, to zostanie ona tutaj z automatu uzpełniona i nie będzie mogła być zmieniona. Jeśli natomiast w produkcie określiłeś, że chcesz prowadzić ewidencję magazynową tylko w jednej jednostce (podstawowej) to będziesz mógł wybrać tutaj każdą jednostkę, na którą określono w produkcie przelicznik. A program zawsze dokona przeliczenia na jednostkę podstawową produktu
+- **produkt** - do wyboru z listy. Na podstawie produktu zostanie zaczytana również jego nazwa,
+- **ilość w jednostce podstawowej** - jednostka podstawowa produktu to ta określona w jego definicji (podstawowe > produkty). Nie można jej zmienić na etapie wprowadzania dokumentu. Ale jeśli dostawca przysłał Ci dokument w innej jednostce i chcesz go tak zaewidencjonować - skorzystaj z możliwości określenia jednostki dokumentu i przelicznika, a program odpowiednio wyliczy ilość w jednostce podstawowej,
+- **ilość w jednostce dokumentu** - na podstawie podanej ilości przeliczymy dla Ciebie ilość w jednostce podstawowej,
+- **jednostka dokumentu** - jeśli produkt ma określoną jednostkę dodatkową, to zostanie ona tutaj z automatu uzpełniona i nie będzie mogła być zmieniona. Jeśli natomiast w produkcie określiłeś, że chcesz prowadzić ewidencję magazynową tylko w jednej jednostce (podstawowej) to będziesz mógł wybrać tutaj każdą jednostkę, na którą określono w produkcie przelicznik. A program zawsze dokona przeliczenia na jednostkę podstawową produktu,
 - **przelicznik** - jeśli jednostka podstawowa i jednostka dokumentu są takie same, to przelicznik będzie równy 1. Jeśli jednostka dokumentu jest inna - przelicznik uzupełni się na podstawie definicji produktu, ale będziesz mógł go dowolnie w pozycij dokumentu zmienić. Jak interpretować przelicznik? Na przykładzie: jednostka podstawowa to karton, jednostka dokumentu to sztuka. Jeśli w kartonie jest 10 sztuk, to przelicznik będzie równy 10.
-- **cena** - podaj cenę w jakiej chcesz przyjąć zasób na magazyn
-- **partia** - jeśli dostawca informuje o numerze partii produktu i chcesz ją ewidencjonować - wprowadź ją do pozycji
-- **data ważności** - podobnie jak z partią: od Ciebie zależy, czy wpisywać numer czy nie
-- **data produkcji** - analogicznie jak z datą ważności
-- **miejsce składowania** - jeśli zależy Ci na określaniu dokładnych lokalizacji produktu to wskaż tutaj miejsce składowania (do wyboru z listy)
-- **typ palety** - w słownikach (Administacja > Słowniki > Typy palet) możesz zdefiniować jakimi typali palet operujecie. I właściwy typ wskazać w pozycji dokumentu
-- **paleta** - każda paleta przyjmowana na magazyn może być oznaczana numerem nadawanym przez qcadoo. Aby tak się stało musisz wygenerować numerację (w Podstawowe > Numery własne palet) i podać numer w pozycji dokumentu
+- **cena** - podaj cenę w jakiej chcesz przyjąć zasób na magazyn,
+- **partia** - jeśli dostawca informuje o numerze partii produktu i chcesz ją ewidencjonować - wprowadź ją do pozycji,
+- **data ważności** - podobnie jak z partią: od Ciebie zależy, czy wpisywać numer czy nie,
+- **data produkcji** - analogicznie jak z datą ważności,
+- **miejsce składowania** - jeśli zależy Ci na określaniu dokładnych lokalizacji produktu to wskaż tutaj miejsce składowania (do wyboru z listy),
+- **typ nośnika** - jeśli produkty składowane są w nośnikach logistycznych, to możesz wskazać, w nośniku o jakim typie produkt został ulokowany (do wyboru z listy),
+- **nośnik** - każdy nośnik przyjmowany na magazyn może być oznaczany numerem nadawanym przez qcadoo. Aby tak się stało musisz wygenerować numerację (w Podstawowe > Numery nośników logistycznych) i podać numer w pozycji dokumentu,
 - **niepełny zasób** - działanie parametru opiszę na przykładzie: załóżmy, że producent / dostawca twierdzi, że w danym kartonie znajduje się 20 szt. A Ty zawsze na magazynie trzymasz pełne kartony i pełne kartony wysyłasz dalej. Podczas dostawy okazało się, że karton zawiera sztuk 19. Nie możesz tego kartonu traktować tak jak inne danego produktu - bo klient też zakłada, że zamawiając karton otrzyma 20 szt. Dlatego możesz oznaczyć zasób jako niepełny. Dzięki temu program nie będzie podpowiadał tego zasobu przy standardowym dobieraniu do pozycji dokumentu. Aby wydać niepełny zasób będziesz musiał wskazać go ręcznie.
 
 
 Wprowadzając pozycje w **dokumencie rozchodowym** ograniczasz się do podania:
-- **produktu** - wskazujesz go z listy. Na podstawie produktu i magazynu namierzymy zasoby, które będzie można wydawać 
-- **ilości w jednostce podstawowej** - czyli ile chcesz wydać w jednostce, w której prowadzisz ewidencję maagzynową tego produktu
-- **ilości w jednostce dokumentu** - możesz określić ile chcesz wydać w innej jednostce (ważne, by jednostka ta miała zdefiniowany przelicznik w produkcie), a my wyznaczymy na tej podstawie ilość w jednostce podstawowej
-- **jednostki dokumentu** - do wyboru z listy jednostek, dla których zdefiniowane są przeliczniki w produkcie
+- **produktu** - wskazujesz go z listy. Na podstawie produktu i magazynu namierzymy zasoby, które będzie można wydawać,
+- **ilości w jednostce podstawowej** - czyli ile chcesz wydać w jednostce, w której prowadzisz ewidencję maagzynową tego produktu,
+- **ilości w jednostce dokumentu** - możesz określić ile chcesz wydać w innej jednostce (ważne, by jednostka ta miała zdefiniowany przelicznik w produkcie), a my wyznaczymy na tej podstawie ilość w jednostce podstawowej,
+- **jednostki dokumentu** - do wyboru z listy jednostek, dla których zdefiniowane są przeliczniki w produkcie,
 - **przelicznika** - jeśli jednostki użyte w pozycji dokumentu są różne, to możesz go zmienić
 a reszta danych zostanie uzupełniona na podstawie dobranego zasobu. Zasób możesz albo wskazać ręcznie z listy. Albo poczekać na akceptację dokumentu - wtedy to zostaną dobrane zasoby wg metody rozchodu określonej na magazynie. Albo skorzystać z funkcji Dobierz zasoby - więcej o niej poczytasz poniżej.
 - **ceny sprzedaży** - jeśli wystawiany dokument to wydanie zewnętrzne, masz możliwość określenia ceny sprzedaży. Pole zawsze do ręcznego wypełnienia. Nie podpowiada się i nie przypomina, że warto byłoby wypełnić.
@@ -84,8 +84,8 @@ Jeszcze słów kilka o tym jak powinny być wypełnione kolumny w arkuszu.
 - **data produkcji** (kolumna G) - np. 01.05.2020
 - **data ważności** (kolumna H) - np. 01.05.2021
 - **miejsce składowania** (kolumna I) - do podania [miejsce składowania](/miejsca-skladowania) zdefiniowane w qcadoo. Ważne, aby była to lokalizacja przypisana do magazynu wskazanego w nagłówku dokumentu
-- **typ palety** (kolumna J) - jeśli składujesz produkty na paletach, to wskaż tu wartość zdefiniowaną w [słowniku](/slowniki) typy palet
-- **numer palety** (kolumna K) - jeśli składujesz produkty na paletach, to wprowadź tutaj [numer palety](/numery-wlasne-palet) zdefiniowanej w qcadoo.
+- **typ nośnika** (kolumna J) - jeśli składujesz produkty na nośnikach, to wskaż tu wartość zdefiniowaną w qcadoo,,
+- **numer nośnika** (kolumna K) - jeśli składujesz produkty na nośnikach, to wprowadź tutaj [numer nośnika logistycznego](/numery-wlasne-palet) zdefiniowany w qcadoo.
 
 --- 
 
@@ -109,12 +109,29 @@ Zapewne zauważyłeś w dokumencie magazynowym kilka funkcji na pasku narzędzio
 
 Zapewne zastanawiasz się do czego służą i czy mogłyby Ci pomóc w codziennej pracy. Proszę bardzo - już wyjaśniam co jest co:
 
-1. **zapisz jako PDF** - umożliwia wydruk dokumentu w dwóch szablonach: dokument i dyspozycja przesunięcia. Wybierz który dla Ciebie i Twoich pracowników jest czytelniejszy. Dodatkowo (jeśli odpowiednio ustwisz parametry) wydruk dyspozycji może od razu akceptować dokument
-2. **akceptuj** - jeśli wprowadziłeś dokument to aby widoczne były efekty magazynowe musisz go zaakceptować. Zaakceptowany dokument nie będzie mógł być ani edytowany, ani usuwany. Jeśli dokument utworzył zasoby, to możesz w nich zmienić takie dane jak: cena, ilość, data ważności czy partia. 
-3. **sprawdź stany** - jeśli dokumenty szkicowe nie rezerwują stanów, to na etapie dodawania pozycji dokumentu nie sprawdzamy, czy mamy wystarczającą ilość na magazynie, by móc wydać tyle ile chcesz. Dopiero akceptacja dobierze zasoby i zawoła, że czegoś masz za mało. Ale możesz jeszcze przed akceptacją sprawdzić, czy wszystko uda się rozchodować wywołując funkcję _sprawdź stany_. 
-4. **dodaj wiele pozycji** - przycisk aktywny w rochodowym dokumencie. Kliknij go jeśli chcesz zaznaczyć wiele zasobów na raz, które mają zostać wydane - program zaciągnie je do dokumentu z ilością ustaloną na podstawie ilości dostępnej w zasobie
-5. **dobierz zasoby** - funkcja dostępna w rozchodowych dokumentach na magazynach, dla których szkicowe dokumenty rezerwują stany. Kliknij jeśli chcesz aby program do pozycji dokumentu dobrał zasoby wg metody rozchodu ustalonej na magazynie. Dzięki temu jeszcze przed akceptacją będziesz w stanie przejrzeć (i zmienić)skąd (z jakiego miejsca, z jakiej palety) produkt trzeba będzie wydać
+1. **Zapisz jako PDF** - umożliwia wydruk dokumentu w dwóch szablonach: dokument i dyspozycja przesunięcia. Wybierz który dla Ciebie i Twoich pracowników jest czytelniejszy. Dodatkowo (jeśli odpowiednio ustawisz parametry) wydruk dyspozycji może od razu akceptować dokument.
+2. **Akceptuj** - jeśli wprowadziłeś dokument to aby widoczne były efekty magazynowe musisz go zaakceptować. Zaakceptowany dokument nie będzie mógł być ani edytowany, ani usuwany. Jeśli dokument utworzył zasoby, to możesz w nich zmienić takie dane jak: cena, ilość, data ważności czy partia. 
+3. **Sprawdź stany** - jeśli dokumenty szkicowe nie rezerwują stanów, to na etapie dodawania pozycji dokumentu nie sprawdzamy, czy mamy wystarczającą ilość na magazynie, by móc wydać tyle ile chcesz. Dopiero akceptacja dobierze zasoby i zawoła, że czegoś masz za mało. Ale możesz jeszcze przed akceptacją sprawdzić, czy wszystko uda się rozchodować wywołując funkcję _sprawdź stany_. 
+4. **Dodaj wiele pozycji** - przycisk aktywny w rochodowym dokumencie. Kliknij go jeśli chcesz zaznaczyć wiele zasobów na raz, które mają zostać wydane - program zaciągnie je do dokumentu z ilością ustaloną na podstawie ilości dostępnej w zasobie.
+5. **Dobierz zasoby** - funkcja dostępna w rozchodowych dokumentach na magazynach, dla których szkicowe dokumenty rezerwują stany. Kliknij jeśli chcesz aby program do pozycji dokumentu dobrał zasoby wg metody rozchodu ustalonej na magazynie. Dzięki temu jeszcze przed akceptacją będziesz w stanie przejrzeć (i zmienić) skąd (z jakiego miejsca, z jakiego nośnika logistycznego) produkt trzeba będzie wydać
 6. **Pokaż atrybuty produktu** - zaznacz pozycję dokumentu i kliknij przycisk, aby zobaczyć jakie [atrybuty](/atrybuty) są przypisane do danego produktu. 
-7. **Przypisz numer faktury** - funkcja do wywołania z listy dokumentów dla zaznaczonego 1 dokumentu o typie: przyjęcie zewnętrzne lub wydanie zewnętrzne. Pozwala na zachowanie numeru faktury powiązanej z danym dokumentem magazynowym. Numer ten widoczny będzie w kolumnie tabeli dokumentów oraz liście magazyn > pozycje dokumentów. Funkcja pozwala na szybkie ustalenie, czy np. masz już komplet dokumentów do dostawy, albo od jakiego dostawcy musisz jeszcze uzyskać fakturę (i tutaj podpowiedź: jeśli chcesz znaleźć dokumenty PZ bez faktury, ustaw w filtrze w kolumnie _Typ_ wartość 'przyjęcie zewnętrzne', a w kolumnie _Numer faktury_ wpisz: 'isnull'.)
+7. **Przypisz numer faktury** - funkcja do wywołania z listy dokumentów dla zaznaczonego 1 dokumentu o typie: _przyjęcie zewnętrzne_ lub _wydanie zewnętrzne_. Pozwala na zachowanie numeru faktury powiązanej z danym dokumentem magazynowym. Numer ten widoczny będzie w kolumnie tabeli dokumentów oraz liście: magazyn > pozycje dokumentów. Funkcja pozwala na szybkie ustalenie, czy np. masz już komplet dokumentów do dostawy, albo od jakiego dostawcy musisz jeszcze uzyskać fakturę (i tutaj podpowiedź: jeśli chcesz znaleźć dokumenty PZ bez faktury, ustaw w filtrze w kolumnie _Typ_ wartość 'przyjęcie zewnętrzne', a w kolumnie _Numer faktury_ wpisz: 'isnull'.).
 
+---
+### Dodatkowe zakładki w dokumencie magazynowym
 
+Produkty między magazynami mogą być w qcadoo przesuwane na dwa sposoby. Pierwszy, najbardziej oczywisty, to dokument magazynowy o typie "przesunięcie międzymagazynowe". Czyli klasyczny dokument MM. Ma on jednak swoje minusy - zawsze w momencie rozchodu, automatycznie tworzony jest przychód. I magazyn przyjmujący nie ma tu nic do gadania. 
+
+Czasami lepszym rozwiązaniem jest wykorzystanie drugiego sposobu - **pary dokumentów WZ-PZ**. Jeśli w dokumencie WZ w zakładce _**Dodatkowe warunki**_ zaznaczysz parametr **Utwórz PZ po akceptacji** i wskażesz na jakim **magazynie** ma się utworzyć dokument przychodowy:
+
+{% include lightbox.html file="magazynDokumentDodatkoweWarunki.png" alt="Zakładka Dodatkowe warunki w dokumencie magazynowym" caption="Zakładka Dodatkowe warunki w dokumencie magazynowym" %}
+
+to po akceptacji dokumentu WZ, zostanie utworzony szkicowy dokument PZ, z dokładnie takimi samymi pozycjami, jak te rozchodowane. Pracownik na magazynie przyjmującym będzie mógł przejrzeć dokonane przesunięcie, uzupełnić w nim informacje, jak np. miejsce składowania, i zaakceptować. Dopiero po akceptacji produkty trafią na stan.
+
+Kolejną dodatkową zakładką w dokumencie magazynowym jest tabka **Zdarzenia**. Związana jest ona z obsługą [działu utrzymania ruchu](/utrzymanie-ruchu). Dokument o typie **rozchód wewnętrzny** (RW), którym z magazynu wydawane są części do naprawy, może być wystawiany w powiązaniu z konkretnym zdarzeniem (np. awarią) lub zdarzeniem planowanym (jak np. remont czy przegląd).
+
+{% include lightbox.html file="magazynDokumentZdarzenia.png" alt="Zakładka Zdarzenia w dokumencie magazynowym" caption="Zakładka Zdarzenia w dokumencie magazynowym" %}
+
+Dzięki temu będzie widoczny w zdarzeniu lub zdarzeniu planowanym w zakładce **Dokumenty**. Wiadomo będzie co konkretnie zostało zużyte podczas naprawy i jaki stanowiło to koszt.
+
+{% include lightbox.html file="magazynDokumentZdarzeniaPodgladWZdarzeniu.png" alt="Dokument widoczny w zdarzeniu" caption="Dokument widoczny w zdarzeniu" %}

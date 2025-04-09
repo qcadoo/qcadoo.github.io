@@ -55,11 +55,11 @@ I na tym w zasadzie możesz skończyć. Kliknij przycisk {% include inline_image
 
 {% include lightbox.html file="wmsPrzyjeciaDostawyProduktEkran2.png" alt="Odbierany produkt - wskazanie lokalizacji" caption="Odbierany produkt - wskazanie lokalizacji" %}
 
-Podaj **miejsce składowania** i/lub **numer palety** i **typ palety**. 
+Podaj **miejsce składowania** i/lub **numer nośnika** i **typ nośnika**. 
 
-{% include callout.html content="Miejsce składowania i typ palety możesz wprowadzić ręcznie jak i przez zeskanowanie kodu kreskowego." type="warning" %}
+{% include callout.html content="Miejsce składowania i typ nośnika logistycznego możesz wprowadzić ręcznie jak i przez zeskanowanie kodu kreskowego." type="warning" %}
 
-Wprowadzone dane potwierdź przyciskiem {% include inline_image.html file="przyciskWmsZapisz.png" alt="Przycisk Zapisz" %}. Jeśli jednak chcesz kontynuować przyjęcie tego samego produktu (bo np. zamówiona ilość nie zmieściła się na jednej palecie), kliknij przycisk {% include inline_image.html file="przyciskWMSKolejnaPozycja.png" alt="Przycisk Kolejna pozycja" %}. Dzięki temu od razu przeniesiony zostaniesz do okna odbierania produktu.
+Wprowadzone dane potwierdź przyciskiem {% include inline_image.html file="przyciskWmsZapisz.png" alt="Przycisk Zapisz" %}. Jeśli jednak chcesz kontynuować przyjęcie tego samego produktu (bo np. zamówiona ilość nie zmieściła się na jednym nośniku), kliknij przycisk {% include inline_image.html file="przyciskWMSKolejnaPozycja.png" alt="Przycisk Kolejna pozycja" %}. Dzięki temu od razu przeniesiony zostaniesz do okna odbierania produktu.
 
 Gdy wszystkie dostarczone produkty zostaną już zarejestrowane, kliknij przycisk {% include inline_image.html file="przyciskWmsZatwierdz.png" alt="Przycisk Zatwierdź" %} widoczny na górnym pasku narzędziowym. Spowoduje to oznaczenie dostawy w qcadoo jako zrealizowana w WMS i usunięcie jej z aplikacji mobilnej. Pozostaje wywołanie funkcji Odbierz w systemie qcadoo.
 

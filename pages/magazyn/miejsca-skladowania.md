@@ -27,10 +27,10 @@ Zacznij zatem wprowadzać miejsca składowania do qcadoo. Zanim jednak do tego p
 Aby dodać nowe miejsce składowania wejdź w Magazyn > Miejsca składowania i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy wydruk" %} **Dodaj nowy**. Określ:
 - **miejsce składowania** - czyli jego numer / kod / symbol. Coś co pozwoli Tobie i Twoim pracownikom na jednoznaczną identyfikację tej lokalizacji
 - **magazyn** - wybierz z listy dostępnych magazynów. Na danym magazynie dany kod lokalizacji może wystąpić tylko raz
-- **miejsce paletowe** - zaznacz, jeśli w danej lokalizacji będziesz umieszczał palety. Wówczas uaktywni się pole **Max liczba palet**, w którym będziesz mógł podać ile palet w danej lokalizacji się mieści. Program przy przyjęciu dostawy będzie sprawdzał, czy ktoś nie próbuje przyjąć palety w dane miejsce, mimo iż nie ma tam na dodatkową paletę miejsca
-- **miejsce wysokiego składowania** - zaznacz, jeśli dana lokalizacja znajduje się na regale wysokiego składowania. Dzięki temu w raporcie rozliczenia palet, ruchy na i z tego miejsca będą traktowane inaczej. 
+- **składowanie w nośnikach** - zaznacz, jeśli w danej lokalizacji będziesz umieszczał nośniki logistyczne. Wówczas uaktywni się pole **Max liczba nośników**, w którym będziesz mógł podać ile nośników w danej lokalizacji się mieści. Program przy przyjęciu dostawy będzie sprawdzał, czy ktoś nie próbuje przyjąć nośnika w dane miejsce, mimo iż nie ma tam na dodatkowy nośnik miejsca
+- **miejsce wysokiego składowania** - zaznacz, jeśli dana lokalizacja znajduje się na regale wysokiego składowania. Dzięki temu w raporcie rozliczenia nośników, ruchy na i z tego miejsca będą traktowane inaczej. 
 
-{% include callout.html content="Podczas edycji w istniejącym miejscu składowania parametrów: miejce paletowe i max. liczba palet sprawdzimy, czy w danym miejscu są zasoby, które nie spełniają nowych ustawień. Jeśli są - nie pozwolimy na modyfikację." type="warning" %}
+{% include callout.html content="Podczas edycji w istniejącym miejscu składowania parametrów: składowanie w nośnikach i max. liczba nośników, sprawdzimy, czy w danym miejscu są zasoby, które nie spełniają nowych ustawień. Jeśli są - nie pozwolimy na modyfikację." type="warning" %}
 
 ---
 
@@ -75,8 +75,8 @@ Jeśli chcesz masowo wprowadzać miejsca składowania, możesz tego dokonać prz
 - **Miejsce składowania** (kolumna A) - kolumna musi być wypełniona. Podany numer miejsca składowania musi być unikalny
 - **Numer magazynu** (kolumna B) - kolumna musi być wypełniona. Podaj numer magazynu zdefiniowanego 
 w qcadoo
-- **Miejsce paletowe** (kolumna C) - dana opcjonalna, jeśli miejsce jest paletowe, wpisz w kolumnie TAK
-- **Max liczba palet** (kolumna D) - dana opcjonalna, Jeśli miejsce jest paletowe możesz określić ile maksymalnie palet mieści. Wstaw liczbę dodatnią całkowitą
+- **Składowanie na nośnikach** (kolumna C) - dana opcjonalna, jeśli w danym miejcu składowania konieczne jest ułożenie produktów na nośnikach, wpisz w kolumnie TAK
+- **Max liczba nośników** (kolumna D) - dana opcjonalna, Jeśli w miejscu składujesz produkty na nośnikach możesz określić ile maksymalnie nośników się zmieści. Wstaw liczbę dodatnią całkowitą
 - **Miejsce wysokiego składowania** (kolumna E) - dana opcjonalna, jeśli definiowana lokalizacja jest miejscem wysokiego składowania, wpisz TAK
 
 {% include callout.html content="Jeśli plik ma zaaktualizować istniejące dane, pamiętaj o zaznaczeniu w oknie importu opcji **Czy aktualizować istniejące dane?**" type="warning" %}

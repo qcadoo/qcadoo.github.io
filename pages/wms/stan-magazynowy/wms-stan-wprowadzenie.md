@@ -5,7 +5,7 @@ permalink: wms-stan-wprowadzenie.html
 
 W module Stan magazynowy aplikacji WMS mobile uzyskasz informacje o tym jakie produkty znajdują się na magazynie, w jakich ilościach i w jakiej lokalizacji. Do analizy możesz wybrać jeden z czterech widoków:
 - [miejsca składowania](/wms-stan-miejsca-skladowania),
-- [palety](/wms-stan-palety),
+- [nośniki logistyczne](/wms-stan-palety),
 - [produktu](/wms-stan-produktu),
 - [partii](/wms-stan-partii).
 

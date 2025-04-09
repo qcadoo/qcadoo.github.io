@@ -9,7 +9,7 @@ Stan magazynowy startowy wprowadź poprzez utworzenie dokumentu magazynowego prz
 
 {% include lightbox.html file="startWMSPW.png" alt="Firma" caption="Dokument PW" %}
 
-Przejdź do zakładki **Pozycje**. I teraz masz dwie możliwości. Albo dodawaj pozycje, jedną po drugiej, używając przycisku {% include inline_image.html file="przyciskNowyMaly.png" alt="Nowy" %}. W uaktywnionej linii podaj: produkt, ilość. Do tego możesz wypełnić: cenę, datę ważności, partię, miejsce składowania, numer palety czy typ palety. I zapisz. 
+Przejdź do zakładki **Pozycje**. I teraz masz dwie możliwości. Albo dodawaj pozycje, jedną po drugiej, używając przycisku {% include inline_image.html file="przyciskNowyMaly.png" alt="Nowy" %}. W uaktywnionej linii podaj: produkt, ilość. Do tego możesz wypełnić: cenę, datę ważności, partię, miejsce składowania, numer nośnika czy typ nośnika logistycznego. I zapisz. 
 
 {% include lightbox.html file="startWMSPWpozycje.png" alt="Firma" caption="Dokument PW" %}
 
@@ -20,13 +20,13 @@ Po wypełnieniu dokumentu wszystkimi pozycjami, zaakceptuj go, klikając przycis
 **Gratulacje! Praca w qcadoo została rozpoczęta!** Teraz pora na ewidencjonowanie każdego ruchu magazynowego.
 
 <br/>
-<br/>
+
 ---
 
-Na koniec podrzucamy listę rozdziałów dokumentacji, która może być pomocna w pracy w qcadoo:
+<u>Na koniec podrzucamy listę rozdziałów dokumentacji, która może być pomocna w pracy w qcadoo:</u>
 1. rozdział [Magazyn](/obsluga-magazynu) i wszystkie jego podrozdziały, a w szczególności:
 - [zasoby](/zasoby), [korekty](/korekty) zasobów i [atrybuty](/atrybuty-zasobow) zasobów,
-- stany: [magazynu](/stany-magazynow), [miejsc składowania](/stany-miejsc-skladowania), [palet](/stan-palet),
+- stany: [magazynu](/stany-magazynow), [miejsc składowania](/stany-miejsc-skladowania), [nośników logistycznych](/stan-palet),
 - [dokumenty](/dokumenty), [pozycje dokumentów](/pozycje-dokumentow) i [pozycje dokumentów z atrybutami](/pozycje-dokumentow-z-atrybutami),
 - [rezerwacje](/rezerwacje-stanow),
 - [stan minimalny](/stan-min),

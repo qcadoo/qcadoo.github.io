@@ -60,7 +60,7 @@ Możesz poprzestać analizę zasobu na tym ekranie klikając przycisk {% include
 {% include lightbox.html file="wmsStanPartiiSzczegolyZasobu2.png" alt="Stan partii - szczegóły zasobu, ekran 2." caption="Stan partii - szczegóły zasobu, ekran 2." %}
 
 zobaszysz tutaj:
-- **dane o lokalizacji**, czyli: miejsce składowania, magazyn, numer palety i typ palety,
+- **dane o lokalizacji**, czyli: miejsce składowania, magazyn, numer nośnika i typ nośnika,
 - **dodatkowe informacje**, jak: data ważności, data produkcji, ocena jakości,
 - wszelkie **atrybuty** przypisane do zasobu.
 

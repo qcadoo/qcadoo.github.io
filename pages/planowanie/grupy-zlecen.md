@@ -207,7 +207,7 @@ Aby przejść do paczek z poziomu grupy zaznacz w grupie w zakładce **Zlecenia*
 
 Zestawienie może być wygenerowane po to, by ułatwić pracownikom produkcji raportowanie produkcji. Jest to raport w Excelu, z wydzielonymi arkuszami dla każdej rodziny produktu z danej grupy zleceń. W każdym arkuszu widzimy komplet produktów z tej rodziny, wraz z niezbędnymi informacjami o nich i z miejscem do zapisania ile już zostało wykonane i kiedy. 
 
-Aby wygenerować raport wejdź w grupę zleceń i kliknij przycisk {% include inline_image.html file="przyciskZestawienieProduktowDoWytworzenia.png" alt="Przycisk Zestawienie produktów do wytworzenia" %} **Zestawienie produktów do wytworzenia**
+Aby wygenerować raport wejdź w grupę zleceń i kliknij przycisk {% include inline_image.html file="przyciskZestawienieProduktowDoWytworzenia.png" alt="Przycisk Zestawienie produktów do wytworzenia" %}.
 
 {% include lightbox.html file="planowanieGrupyZlecZestawienieProduktowDoWytworzeniaXLSX.png" alt="Zestawienie produktów do wytworzenia" caption="Zestawienie produktów do wytworzenia" %}
 

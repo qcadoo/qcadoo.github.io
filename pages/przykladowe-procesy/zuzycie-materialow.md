@@ -54,7 +54,7 @@ Dokument RW zawiera informacje o:
 - ilości zużytych produktów,
 - magazynie, z którego nastąpił rozchód,
 - dobranych, na podstawie metody wyceny określonej w magazynie, zasobach,
-- atrybutach zasobu, takich jak: cena, data ważności, data produkcji, nr partii, miejsce składowania, nr palety itp.
+- atrybutach zasobu, takich jak: cena, data ważności, data produkcji, nr partii, miejsce składowania, nr nośnika itp.
 - zleceniu, na rzecz którego realizowane były prace.
 
 {% include lightbox.html file="procesyZuzycieMaterialowPozycjeDokumentowRW.png" alt="Pozycje utworzonego dokumentu RW" caption="Pozycje utworzonego dokumentu RW" %}

@@ -12,7 +12,7 @@ Każdy z realizowanych procesów został omówiony w osobnym rozdziale:
 - [rozchód wewnętrzny](/wms-rw).
 
 **Możesz pracować z dokumentem w dwóch trybach:**
-1. to biuro / administracja magazynu decyduje o tym jakie konkretne zasoby produktu mają być pobrane z magazynu. Innymi słowy - pracownik na magazynie realizuje ścisłe wytyczne biura, odwiedzając zaplanowane miejsca składowania i pobierając produkty w danej ilości ze wskazanej palety. W tym trybie konieczne jest albo ręczne wskazanie zasobu w pozycji, albo użycie funkcji: {% include inline_image.html file="przyciskDobierzZasoby.png" alt="Przycisk Dobierz zasoby" %}
+1. to biuro / administracja magazynu decyduje o tym jakie konkretne zasoby produktu mają być pobrane z magazynu. Innymi słowy - pracownik na magazynie realizuje ścisłe wytyczne biura, odwiedzając zaplanowane miejsca składowania i pobierając produkty w danej ilości ze wskazanego nośnika. W tym trybie konieczne jest albo ręczne wskazanie zasobu w pozycji, albo użycie funkcji: {% include inline_image.html file="przyciskDobierzZasoby.png" alt="Przycisk Dobierz zasoby" %}
 2. to magazynier decyduje skąd pobrać produkt. Biuro tworzy dokument z pozycjami informującymi o produkcie i ilościach. Resztą zajmuje się pracownik magazynu. Jeśli nie wie, gdzie produktu szukać - może skorzystać z wbudowanej funkcji podglądu stanu. Po naszykowaniu produktu magazynier dokładnie określa miejsce pobrania, dane są przekazywane do systemu qcadoo i tam konkretny zasób uzupełniany jest w pozycji i dla niej rezerwowany
 
 

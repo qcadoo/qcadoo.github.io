@@ -309,9 +309,13 @@ entries:
       output: web
       url: /przeliczniki.html
 
-    - title: Numery własne palet
+    - title: Numery nośników logistycznych
       output: web
       url: /numery-wlasne-palet.html
+
+    - title: Typy nośników logistycznych
+      output: web
+      url: /typy-nosnikow.html
 
     - title: Typy usterek
       output: web
@@ -539,7 +543,7 @@ entries:
       output: web
       url: /stany-miejsc-skladowania.html
 
-    - title: Stan palet
+    - title: Stan nośników
       output: web
       url: /stan-palet.html
 
@@ -555,7 +559,7 @@ entries:
       output: web
       url: /rezerwacje-stanow.html
 
-    - title: Rozliczenie palet
+    - title: Rozliczenie nośników
       output: web
       url: /rozliczenie-palet.html
 
@@ -1172,7 +1176,7 @@ entries:
       output: web
       url: /02_start_wms-miejsce-sklad.html
 
-    - title: Szybki START - WMS - Krok 3. Palety
+    - title: Szybki START - WMS - Krok 3. Nośniki
       output: web
       url: /03_start_wms-palety.html
 
@@ -1209,7 +1213,7 @@ entries:
               output: web
               url: /wms-stan-miejsca-skladowania.html
 
-            - title: Stan magazynowy palety
+            - title: Stan magazynowy nośnika
               output: web
               url: /wms-stan-palety.html
 

@@ -31,7 +31,7 @@ Aby dodać produkt do listy wybierz {% include inline_image.html file="newIcon2
 
 Wyświetli się okno w którym za pomocą {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy interesujący Nas produkt oraz określamy "Ilość" oraz "Cenę" - sumaryczną bądź jednostkową. Po podaniu którejkolwiek z nich, qcadoo automatycznie obliczy drugą. Aby dodać produkt do listy należy wybrać {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} Zapisz i powrót.
 
-{% include callout.html content="Cenę produktów możemy Ci podpowiedzieć, albo na podstawie ostatniej ceny zakupu produktu albo ostatniej ceny z ofert tego produktu tego dostawcy (odpowiadającą Ci wartość zdefiniujesz w parametrach). Zaznacz zamówione produkty i wywołaj funkcję Uzupełnij ceny. Jeśli waluta dostawy to PLN a w produkcie koszty podanej są w innej walucie, to cena zostanie odpowiednio przeliczona wg aktualnego średniego kursu." type="warning" %}
+{% include callout.html content="Cenę produktów możemy Ci podpowiedzieć, albo na podstawie ostatniej ceny zakupu produktu albo ostatniej ceny z ofert tego produktu tego dostawcy (odpowiadającą Ci wartość zdefiniujesz w parametrach). Zaznacz zamówione produkty i wywołaj funkcję Uzupełnij ceny. Jeśli waluta dostawy to PLN a w produkcie koszty podanej są w innej walucie, to cena zostanie odpowiednio przeliczona wg aktualnego średniego kursu. Jeśli waluta w dostawie jest inna niż PLN, a w kosztach produktu ceny ostatniego przychodu czy średnioważoną mamy w PLN, to też zostaną one odpowiednio przeliczone na walutę dostawy." type="warning" %}
             
 
 U góry na pasku nad tabelą główną wyświetli się całkowita ilość oraz całkowity koszt zamówienia. 
@@ -67,11 +67,11 @@ Każdą dostawę, którą otrzymasz na magazyn musisz odebrać w programie qcado
 {% include lightbox.html file="zaopatrzenieDostawaPrzypiszMiejscaSkladowania.png" alt="Odbiór przez przypisanie miejsca składowania" caption="Odbiór przez przypisanie miejsca składowania" class="float-right" %}
 
 {:start="3"}
-3. **Przypisanie miejsca składowania** - ta funkcjonalność ma na celu odbiór zamówionych produktów wraz z ulokowaniem ich na paletach i w miejscach składowania. Zamówiony produkt może być odebrany w wielu pozycjach - bo nie zawsze cała zamówiona ilość zmieści Ci się do regału. Aby odebrać korzystając z tego sposobu zaznacz pozycje, które kładziesz na danej palecie (wszystkie muszą mieć tą samą paletę) i kliknij przycisk {% include inline_image.html file="przyciskPrzypiszMiejscaSkladowania.png" alt="Przycisk Przypisz miejsca składowania" %} **Przypisz miejsca składowania**. W kolejnym kroku uzupełnij:
-* [numer własny palety](/numery-wlasne-palet)
-* typ palety (z listy stworzonej w słowniku)
+3. **Przypisanie miejsca składowania** - ta funkcjonalność ma na celu odbiór zamówionych produktów wraz z ulokowaniem ich na nośnikach logistycznych i w miejscach składowania. Zamówiony produkt może być odebrany w wielu pozycjach - bo nie zawsze cała zamówiona ilość zmieści Ci się do regału. Aby odebrać korzystając z tego sposobu zaznacz pozycje, które kładziesz na danym nośniku (wszystkie muszą mieć ten sam nośnik) i kliknij przycisk {% include inline_image.html file="przyciskPrzypiszMiejscaSkladowania.png" alt="Przycisk Przypisz miejsca składowania" %} **Przypisz miejsca składowania**. W kolejnym kroku uzupełnij:
+* [numer nośnika logistycznego](/numery-wlasne-palet)
+* [typ nośnika](/typy-nosnikow)
 * [miejsce składowania](/miejsca-skladowania)
-i dla każdej pozycji wskaż datę ważności i zweryfikuj, czy podpowiedzieliśmy odpowiednią ilość. Aby zapisać odebrane pozycje kliknij {% include inline_image.html file="przyciskPrzypiszIPowrot.png" alt="Przycisk Przypisz i powrót" %} **Przypisz i powrót**. I powtórz czynność dla wszystkich kompletowanych palet.
+i dla każdej pozycji wskaż datę ważności i zweryfikuj, czy podpowiedzieliśmy odpowiednią ilość. Aby zapisać odebrane pozycje kliknij {% include inline_image.html file="przyciskPrzypiszIPowrot.png" alt="Przycisk Przypisz i powrót" %} **Przypisz i powrót**. I powtórz czynność dla wszystkich kompletowanych nośników logistycznych.
 
 {% include lightbox.html file="zaopatrzenieDostawaOdbierzISKontroluj.png" alt="Odbiór i skontrolowanie dostawy" caption="Odbiór i skontrolowanie dostawy" class="float-right" %}
 

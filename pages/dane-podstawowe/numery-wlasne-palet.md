@@ -1,42 +1,44 @@
 ---
-title: "Numery własne palet"
+title: "Numery własne nośników"
 permalink: numery-wlasne-palet.html
 ---
 
-Składujesz produkty na magazynie na paletach? Czy proces składowania wygląda mniej więcej tak:
-- przyjeżdża dostawa
-- układasz produkty (kartony/worki) na paletach
-- palety umieszczasz w regale?
+Składujesz produkty na magazynie na paletach czy innych nośnikach logistycznych? Czy proces składowania wygląda mniej więcej tak:
+- przyjeżdża dostawa,
+- układasz produkty na nośnikach,
+- nośniki umieszczasz w regale?
 
-Jeśli chcesz poszukiwać produktów po palecie, to koniecznie trzeba te palety oznaczyć. qcadoo w tym celu umożliwia wygenerowanie numerów własnych. Oklej paletę etykietą z numerem i wprowadź go do dokumentu, podczas przyjmowania na magazyn.
-
----
-
-Numery własne możesz albo dodawać ręcznie (pojedynczo), albo korzystając z generatora. Dla obu opcji wejdź w Podstawowe > Numery własne palet.
-
-{% include lightbox.html file="podstawoweNumeryWlasnePaletDodaj.png" alt="Dodaj nowy numer własny palety" caption="Dodawanie nowego numeru własnego palety" class="float-right" %}
-
-Jeśli chcesz dodawać pojedynczo - kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy" %} **Dodaj nowy**. Otworzy się okno, w którym zostanie uzupełniony kolejny numer palety. Wystarczy zapisać {% include inline_image.html file="przyciskZapisz.png" alt="Przycisk Zapisz" %} i wydrukować {% include inline_image.html file="przyciskDrukujNumerWlasny.png" alt="Drukuj numer własny palety" %}.
-
-Zastanawiasz się zapewne czym jest **data wydania** w numerze palety. W momencie, gdy paleta będzie opróżniona (czyli wystawiony będzie dokument rozchodowy, który wyda ostatni zasób tej palety do zera, albo produkty z palety zostaną w całości przeniesione na inną paletę) program uzupełni datę wydania. Będzie ona przydatna przy tworzeniu raportu [rozliczenia palet](/rozliczenie-palet). Możesz tę datę uzupełnić ręcznie.
-
----
-{% include lightbox.html file="podstawoweNumeryWlasnePaletDodajWiele.png" alt="Dodaj wiele numerów własnych palety" caption="Dodawanie wielu numerów własnych palety" class="float-right" %}
-
-Drukowanie jednego numeru własnego palety mija się jednak z celem. Zdecydowanie bardziej zalecamy utworzyć i wydrukować zbiorczo wiele numerów. Przekazać na magazyn - niech pracownicy mają je zawsze pod ręką. 
-
-
-Aby dodać wiele numerów własnych palety w Podstawowe > Numery własne palet wybierz przycisk {% include inline_image.html file="przyciskDodajWieleNumerowWlasnych.png" alt="Dodaj wiele numerów własnych" %}, określ ile numerów chcesz uzyskać, zapisz przyciskiem {% include inline_image.html file="przyciskZapisz.png" alt="Przycisk Zapisz" %} i wydrukuj.
+Jeśli chcesz poszukiwać produkty po nośnikach logistycznych, to koniecznie trzeba te nośniki oznaczyć. qcadoo w tym celu umożliwia wygenerowanie numerów własnych. Oklej nośnik etykietą z numerem i wprowadź go do dokumentu, podczas przyjmowania na magazyn.
 
 ---
 
-Wydrukowane numery palet wyglądają tak:
+Numery własne możesz albo dodawać ręcznie (pojedynczo), albo korzystając z generatora. Dla obu opcji wejdź w Podstawowe > **Numery nośników logistycznych**.
 
-{% include lightbox.html file="podstawoweNumeryWlasnePaletWydruk.png" alt="Wydruk numerów własnych palety" caption="Wydruk numerów własnych palety" %}
+{% include lightbox.html file="podstawoweNumeryNosnikowLogistycznychDodaj.png" alt="Dodaj nowy numer nośnika logistycznego" caption="Dodawanie nowego numeru nośnika logistycznego" class="float-right" %}
+
+Jeśli chcesz dodawać pojedynczo - kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowy" %} **Dodaj nowy**. Otworzy się okno, w którym zostanie uzupełniony kolejny numer nośnika. Wystarczy zapisać {% include inline_image.html file="przyciskZapisz.png" alt="Przycisk Zapisz" %} i wydrukować {% include inline_image.html file="przyciskDrukujNumerNosnika.png" alt="Drukuj numer nośnika" %}.
+
+Zastanawiasz się zapewne czym jest **data wydania** w numerze nośnika logistycznego. W momencie, gdy nośnik będzie opróżniony (czyli wystawiony będzie dokument rozchodowy, który wyda ostatni zasób tego nośnika do zera, albo produkty z nośnikiem zostaną w całości przeniesione na inny nośnik) program uzupełni datę wydania. Będzie ona przydatna przy tworzeniu raportu [rozliczenia nośników](/rozliczenie-palet). Możesz tę datę uzupełnić ręcznie.
+
+---
+{% include lightbox.html file="podstawoweNumeryNosnikowDodajWiele.png" alt="Dodaj wiele numerów nośników logistycznych" caption="Dodawanie wielu numerów nośników logistycznych" class="float-right" %}
+
+Drukowanie jednego numeru nośnika logistycznego mija się jednak z celem. Zdecydowanie bardziej zalecamy utworzyć i wydrukować zbiorczo wiele numerów. Przekazać na magazyn - niech pracownicy mają je zawsze pod ręką. 
 
 
-Z poziomu listy numerów własnych palet możesz wydrukować też:
-- **kartę palety** - po to, by pracownicy nie mający dostępu do systemu mogli zapisać jakie produkty położyli na jakiej palecie. Wydruk ten jest dedykowany raczej jednorodnym produktom na danej palecie
-- **paleta mix** - po to, by pracownicy mogli zapisać listę różnorodnych produktów umieszczonych na palecie o danym numerze.
+Aby dodać wiele numerów nośników w **Podstawowe > Numery nośników logistycznych** wybierz przycisk {% include inline_image.html file="przyciskDodajWieleNumerowNosnikow.png" alt="Dodaj wiele numerów nośników" %}, określ ile numerów chcesz uzyskać, zapisz przyciskiem {% include inline_image.html file="przyciskZapisz.png" alt="Przycisk Zapisz" %} i wydrukuj.
+
+---
+
+Wydrukowane numery nośników logistycznych wyglądają tak:
+
+{% include lightbox.html file="podstawoweNumeryWlasnePaletWydruk.png" alt="Wydruk numerów nośników logistycznych" caption="Wydruk numerów nośników logistycznych" %}
+
+
+Z poziomu listy numerów nośników logistycznych możesz wydrukować też:
+- **kartę nośnika** - po to, by pracownicy nie mający dostępu do systemu mogli zapisać jakie produkty położyli na jakiej palecie czy nośniku. Wydruk ten jest dedykowany raczej jednorodnym produktom na danej palecie
+- **nośnik mix** - po to, by pracownicy mogli zapisać listę różnorodnych produktów umieszczonych na palecie/nośniku o danym numerze.
+
+{% include callout.html content="Pamiętaj, że ewidencjonować przyjęcie na danym nośniku logistycznym możesz też w aplikacji mobilnej WMS" type="warning" %}
 
 

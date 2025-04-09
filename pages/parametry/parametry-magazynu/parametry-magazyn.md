@@ -11,7 +11,7 @@ W pierwszej zakładce możesz skonfigurować [dokumenty magazynowe](/dokumenty).
 
 {% include lightbox.html file="administracjaParametryMagazynGlowna.png" alt="Parametry magazynu - zakładka główna" caption="Parametry magazynu - zakładka główna" %}
 
-Ustaw, które pola pozycji dokumentów mają być widoczne. Jeśli nie chcesz ewidencjonować z dokładnością do palet (i ich numerować) to pewnie kolumny: typ palety i paleta nie będą Ci potrzebne. Wejdź w szczegóły pola w tabeli i odznacz parametr _Widoczność_. Dzięki temu Twój widok nie będzie zaśmiecony kolumnami, których nie potrzebujesz. A i Twoi pracownicy nie będą się zastanawiać co w danym polu wpisać. 
+Ustaw, które pola pozycji dokumentów mają być widoczne. Jeśli nie chcesz ewidencjonować z dokładnością do nośników logistycznych (i ich numerować) to pewnie kolumny: typ nośnika i nośnik nie będą Ci potrzebne. Wejdź w szczegóły pola w tabeli i odznacz parametr _Widoczność_. Dzięki temu Twój widok nie będzie zaśmiecony kolumnami, których nie potrzebujesz. A i Twoi pracownicy nie będą się zastanawiać co w danym polu wpisać. 
 
 {% include callout.html content="Jest lista pól w pozycjach dokumentu, których w parametrach wyłączyć się nie da. Pola te w tabeli w parametrach mają _Możliwość zmiany widoczności_ = nie. qcadoo ich potrzebuje do prawidłowej ewidencji" type="warning" %}
 
@@ -22,7 +22,7 @@ Za co odpowiadają pozostałe parametry:
 - **Prezentuj ilość całkowitą i resztę** - parametr przydatny w sytuacji, gdy prowadzisz ewidencję produktu w jednostce podstawowej i dodatkowej. Innymi słowy - gdy masz na magazynie produkt w kartonach, a w kartonach jakąś ilość sztuk. Np. karton długopisów to 80 szt. Założmy, że wydajesz 346 szt. długopisów - już widzisz jak pracownik próbuje ustalić ile to kartonów? Zaznacz parametr, wówczas na wydruku dokumentu pojawi się informacja, że to 4 kartony i 26 sztuk.
 - **Dobieraj zasoby bez względu na przelicznik** - ten parametr też przyda się tylko, gdy prowadzisz ewidencję produktu w dwóch jednostkach. Zasoby tworzone na magazynie mają informację o obu jednostkach (i ilościach w tych jednostkach) a także o przeliczniku, w jakim zasób jest przyjęty. Podczas wydawania produktu z magazynu dokumentem rozchodowym, program poszukuje zasobów danego produktu o przeliczniku podanym w pozycji dokumentu (innymi słowy - qcadoo zakłada, że jeśli podałeś przelicznik 80 to znaczy, że chcesz wydać karton, który zawiera 80 szt. długopisów, a nie taki, który zawiera tych długopisów 120). Jeśli nie ma to jednak dla Ciebie znaczenia to zaznacz parametr - wówczas przy dobieraniu zasobów program najpierw sprawdzi, czy ma na stanie zasób o podanym w pozycji dokumentu przeliczniku. Jeśli nie ma - to spróbuje dobrać zasób o innym przeliczniku i odpowiednio przeliczy ilosci w pozyci dokumentu.
 
-- **Przekazuj paletę na magazyn przyjmujący** - zaznacz ten parametr, a przesunięta paleta będzie przypisana do nowego zasobu.
+- **Przekazuj nośnik na magazyn przyjmujący** - zaznacz ten parametr, a przesunięty nośnik będzie przypisany do nowego zasobu.
 
 Pamiętaj też o parametrze _Szkicowe dokumenty rezerwują stany_, który ustawia się w [magazynie](/magazyny).
 
@@ -40,15 +40,15 @@ Atrybuty aktywne będą w dokumentach typu przyjęcie wewnętrzne i przyjęcie z
 
 ## Parametry stanu magazynowego
 
-Parametry umieszczone w tej zakładce dotyczą [przesuwania palet](/stan-palet). Możemy zasugerować Ci produkty z których palet warto przenieść na inną paletę (aby zrobić miejsce w lokalizacji), a także które palety są w stanie pomieścić dodatkowe produkty.
+Parametry umieszczone w tej zakładce dotyczą [przesuwania nośników](/stan-palet). Możemy zasugerować Ci produkty z których nośników warto przenieść na inny nośnik (aby zrobić miejsce w lokalizacji), a także które nośniki są w stanie pomieścić dodatkowe produkty.
 
 {% include lightbox.html file="administracjaParametryMagazynStanyMagazynowe.png" alt="Parametry stanów magazynowych" caption="Parametry stanów magazynowych" %}
 
-1. **Palety do przesunięcia** - podaj ilość w jednostce podstawowej produktu. Sprawdzimy czy są palety z ilością produktów mniejszą niż podałeś - jeśli tak, to uznamy, że warto przełożyć je na inną paletę
+1. **Nośniki do przesunięcia** - podaj ilość w jednostce podstawowej produktu. Sprawdzimy czy są nośniki z ilością produktów mniejszą niż podałeś - jeśli tak, to uznamy, że warto przełożyć je na inny nośnik
 
-2. **Palety z wolnym miejscem** - polaj ilość w jednostce podstawowej produktu. Sprawdzimy czy są palety z ilością mniejszą niż ta, którą podałeś i uznamy, że mogą one przyjąć prodykty z innych palet.
+2. **Nośniki z wolnym miejscem** - polaj ilość w jednostce podstawowej produktu. Sprawdzimy czy są nośniki z ilością mniejszą niż ta, którą podałeś i uznamy, że mogą one przyjąć prodykty z innych nośników.
 
-{% include callout.html content="Parametr jest globalny. Musisz przyjąć średnią ilość dla wszystkich palet składowanych na magazynie. Ma zatem sens tylko wówczas, gdy magazynujesz produkty w miarę jednorodne" type="warning" %}
+{% include callout.html content="Parametr jest globalny. Musisz przyjąć średnią ilość dla wszystkich nośników składowanych na magazynie. Ma zatem sens tylko wówczas, gdy magazynujesz produkty w miarę jednorodne" type="warning" %}
 
 {:start="3"}
 3. **oznacz kolorem zasoby po terminie i z krótkim terminem ważności** - zaznacz parametr, a w liście zasobów oznaczymy czerwonym kolorem zasoby, których data ważności została przekroczona. Dodatkowo - jeśli wypełnisz pole poniżej pojawi się kolor pomarańczowy, oznaczający zasoby, których data ważności się zbliża.

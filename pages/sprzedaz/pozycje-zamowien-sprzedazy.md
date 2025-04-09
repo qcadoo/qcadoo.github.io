@@ -32,5 +32,7 @@ Lista zawiera bardzo dużo kolumn - być może nie wszystkie będą Ci potrzebne
 
 {% include lightbox.html file="planowaniePozycjeZamSprzedazyGrupowaniePoProdukcieIDacie.png" alt="Pozycje zamówień zgrupowane po produkcie i dacie" caption="Pozycje zamówień zgrupowane po produkcie i dacie" %}
 
+{% include callout.html content="Jeśli sprzedajesz produkty, które kupujesz, to przydatna może okazać się funkcja **Utwórz dostawy**. Zaznacz pozycje i kliknij przycisk, w celu szybkiego złożenia [zamówienia zakupu](/dostawy)." type="warning" %}
+
 {:start="6"}
 6. **Pobierz stany magazynowe i dostawy** - aby niepotrzebnie nie spowalniać listy (szczegółnie w przypadku pracy qcadoo w połączeniu z systemem zewnętrznym), dane o stanach magazynowych i ilościach z zamówień zakupu nie są wczytywane w momencie wejścia. Aby zostały pobrane konieczne jest kliknięcie w przycisk {% include inline_image.html file="przyciskPobierzStanyMagazynoweIDostawy.png" alt="Przycisk Pobierz stany magazynowe i dostawy" %} 

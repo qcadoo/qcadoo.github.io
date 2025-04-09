@@ -6,8 +6,9 @@ permalink: dane-podstawowe.html
 Prawda jest taka, że w menu Podstawowe znajdziesz wszystko to, czego wprost nie dało się podporządkować do modułów pozostałych. Są to dane początkowe - takie, które muszą być zdefiniowane, aby móc w pełni korzystać z funkcjonalności dostępnych w qcadoo. 
 
 Znajdziesz tutaj:
-- [typy usterek](typy-usterek) - potrzebne aby założyć zlecenie naprawy lub zdarzenie (np. awarię) w dziale utrzymania ruchu.
-- [numery własne palet](/numery-wlasne-palet) - wykorzystywane na magazynie. Możesz generować własną numerację palet, na których przechowywane są produkty,
+- [typy usterek](/typy-usterek) - potrzebne, aby założyć zlecenie naprawy lub zdarzenie (np. awarię) w dziale utrzymania ruchu.
+- [typy nośników](/typy-nosnikow) - służące do oznaczenia w jakim rodzaju nośnika logistycznego, przechowywane są produkty,
+- [numery nośników logistycznych](/numery-wlasne-palet) - wykorzystywane na magazynie. Możesz generować własną numerację nośników, na których przechowywane są produkty,
 - [firmy](/firmy) - zawiera listę kontrahentów, z którymi współpracujesz,
 - [słowniki](/slowniki) - to Twoje własne listy wartości typu: jednostki, kolory, kategorie zleceń czy produktów. Słowniki w qcadoo to takie listy, których wartości mają tylko nazwy. Więcej danych nie potrzebują,
 - [czynności](/czynnosci) - potrzebne do opisania działań koniecznych do wykonania w ramach zdarzenia planowanego (np. remont) w dziale utrzymania ruchu,

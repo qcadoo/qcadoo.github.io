@@ -267,11 +267,12 @@ Przyczyny braków przeanalizujesz w [analizie wykonanej produkcji](/analiza-wyko
 
 #### Miejsce składowania
 
-Dla produktu wyjściowego możesz wskazać miejsce składowania oraz paletę, na których produkt będzie ulokowany. Aby to zrobić rozwiń w wierszu produktu menu kontekstowe i kliknij przycisk **Miejsce składowania**.
+Dla produktu wyjściowego możesz wskazać miejsce składowania oraz nośnik, na których produkt będzie ulokowany. Aby to zrobić rozwiń w wierszu produktu menu kontekstowe i kliknij przycisk **Miejsce składowania**.
 
 Wybierz z listy:
 - miejsce składowania - lista będzie ograniczona do miejsc zdefiniowanych na magazynie przyjmującym z [przepływów technologii](/technologie-szczegoly.html#przepływy-technologii). 
-- palety - z listy numerów wcześniej wygenerowanych jako [numery własne palet](/numery-wlasne-palet).
+- nośnik logistyczny - z listy numerów wcześniej wygenerowanych jako [numery nośników logistycznych](/numery-wlasne-palet),
+- [typ nośnika](/typy-nosnikow).
 
 Dane po potwierdzeniu meldunku zostaną przekazane do rekordu rejestracji produkcji. A z niego (czy to na akceptacji, czy na zakończeniu zlecenia) do dokumentu PW i zasobów magazynowych.
 

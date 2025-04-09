@@ -7,15 +7,15 @@ Zdajemy sobie sprawę, że czasami to co zostało zaewidencjonowane poprzez doku
 
 {% include lightbox.html file="magazynZasobKorekta.png" alt="Korygowanie zasobu" caption="Korygowanie zasobu" class="float-right" %}
 
-Aby wprowdzić korektę wejdź w Magazyn > Zasoby, znajdź interesujący Cię wiersz i kliknij w niego, wchodząc w szczegóły. Co możesz zmienić?
+Aby wprowdzić korektę wejdź w **Magazyn > Zasoby**, znajdź interesujący Cię wiersz i kliknij w niego, wchodząc w szczegóły. Co możesz zmienić?
 - [miejsce składowania](/miejsca-skladowania)
 - ilość i ilość dodatkową - zmiana jednej, przeliczy drugą
 - cena
 - partia
 - data ważności
 - przelicznik
-- [numer palety](/numery-wlasne-palet)
-- typ palety
+- [numer nośnika logistycznego](/numery-wlasne-palet)
+- typ nośnika
 - ocenę jakości
 - [atrybuty](/atrybuty)
 
@@ -31,10 +31,14 @@ Aby dodatkowo opisać zasób, kliknij w zakładce Atrybuty przycisk {% include i
 
 
 ---
-Efekty zmian będą zachowane w liście korekt (Magazyn > Korekty). Co istotne - będą tutaj nawet wówczas, gdy zasoby zostaną już wyzerowane. 
+Efekty zmian będą zachowane w liście korekt (**Magazyn > Korekty**). Co istotne - będą tutaj nawet wówczas, gdy zasoby zostaną już wyzerowane. 
 
-{% include lightbox.html file="magazynKorekty.png" alt="Korekty zasobów" caption="Korekty zasobów" %}
+{% include lightbox.html file="magazynKorekty.png" alt="Lista korekt zasobów" caption="Lista korekt zasobów" %}
 
 W tabeli zobaczysz jaka dana została zmieniona. A także jakie były poprzednie i nowo ustawione wartości. Dowiesz się także kto i kiedy wprowadził zmiany.
+
+Klikając w wiersz korekty zobaczysz szczegóły danej zmiany:
+
+{% include lightbox.html file="magazynKorektySzczegoly.png" alt="Szczegóły korekty zasobu" caption="Szczegóły korekty zasobu" %}
 
 {% include callout.html content="Jeśli dany zasób jest już rozchodowany, to korekta zasobu nie zmieni danych ustawionych w dokumencie" type="info" %} 

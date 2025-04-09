@@ -28,7 +28,7 @@ W zakładce umieszono parametry dotyczące [dostaw](/dostawy)
 
 6. **Akceptacja dostaw** - zaznacz parametr jeśli chcesz, aby akceptacja dostawy (etap między potwierdzeniem a odbiorem), była krokiem koniecznym
 
-7. **Odbieranie większej ilości niż zamawiana** - zdarzyło Ci się, że dostawca przysłał więcej sztuk produktu niż zamówiłeś? Zawsze odsyłasz, czy czasami przyjmujesz? A może nie masz innej możliwości, bo dostawca zawsze przysyła pełną paletę nawet gdy zamówisz mniej? Jeśli pozwalasz na przyjęcie większej ilości niż sobie zażyczyłeś - zaznacz parametr. Jeśli zostanie niezaznaczony będziemy pilnować, by ilość odbierana nie przekroczyła zamówionej.
+7. **Odbieranie większej ilości niż zamawiana** - zdarzyło Ci się, że dostawca przysłał więcej sztuk produktu niż zamówiłeś? Zawsze odsyłasz, czy czasami przyjmujesz? A może nie masz innej możliwości, bo dostawca zawsze przysyła pełną paletę, nawet gdy zamówisz mniej? Jeśli pozwalasz na przyjęcie większej ilości niż sobie zażyczyłeś - zaznacz parametr. Jeśli zostanie niezaznaczony będziemy pilnować, by ilość odbierana nie przekroczyła zamówionej.
 
 8. **Dodatnia cena zakupu** - jeśli zależy Ci na tym, aby każda przyjmowana z dostawy pozycja miała określoną cenę (większą od zera) to zaznacz ten parametr. Będziemy tego pilnować.
 
@@ -41,11 +41,9 @@ W zakładce umieszono parametry dotyczące [dostaw](/dostawy)
 12. **Wzorzec numeru** - wskaż wzorzec numeru, na podstawie którego będziemy generować partię produktu w dostawie.
 
 13. **Wyznaczając ilość zamówioną uwzględnij** - parametr dotyczy prezentacji ilości zamówionych w dostawach w kilku miejsc w systemie (np. w pokryciu zapotrzebowania, czy w liście pozycji zamówień sprzedaży). Wskaż jakie dostawy, o jakim statusie, mają być pobierane przy wyznaczaniu ilości. Do wyboru 3 opcje:
-- **potwierdzone dostawy** - pobierane są tylko dostawy o statusie: potwierdzona,
-- **niezatwierdzone dostawy** - pobierane są dostawy o statusach: potwierdzone, przygotowano zamówienie, korekta zamówienia, szkic,
-- **nieszkicowe dostawy** - pobierane są  dostawy o statusach: potwierdzone, przygotowano zamówienie, korekta zamówienia. 
-
-
+- **potwierdzone dostawy** - pobierane są tylko dostawy o statusie: potwierdzona, zaakceptowana
+- **nieodebrane dostawy** - pobierane są dostawy o statusach: potwierdzona, zaakceptowana, przygotowano zamówienie, korekta zamówienia, szkic,
+- **nieszkicowe dostawy** - pobierane są  dostawy o statusach: potwierdzona, zaakceptowana, przygotowano zamówienie, korekta zamówienia. 
 
 ---
 
