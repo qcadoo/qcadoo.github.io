@@ -7,6 +7,29 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.8 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.8</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.8</td>
+          <td>
+          <ul>
+            <li>uwzględnienie zaakceptowanych dostaw przy wyliczaniu ilości zamówionej,</li>
+            <li>palety - zmiana na nośniki logistyczne,</li>
+            <li>typy palet - zmiana na typy nośników,</li>
+            <li>przerobienie słownika typy nośników na standardową listę (podstawowe > typy nośników) i dodanie wymiarów,</li>
+            <li>dostawa w walucie - przeliczanie ceny z PLN na inną walutę wg kursu.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.7 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.7</summary><br>
@@ -43,7 +66,7 @@ permalink: changelog.html
           <td>
           <ul>
             <li>wysyłanie wiadomości e-mail do dostaw - dodatkowy adres do potwierdzeń,</li>
-            <li>zamówienie sprzedaży - ilość wydana i ilość pozostała do wydania,</li>
+            <li>zamówienie sprzedaży - ilość wydana i ilość pozostała do wydania.</li>
           </ul>
         </td>
         </tr>
@@ -51,7 +74,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.5 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.5</summary><br>
     <table class="changelog-table" border>
         <tr>

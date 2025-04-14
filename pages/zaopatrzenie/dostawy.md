@@ -29,7 +29,7 @@ Aby dodać produkt do listy wybierz {% include inline_image.html file="newIcon2
         
 {% include lightbox.html file="zaopatrzenieDostawaZamowioneProduktyNowy.png" alt="Dodanie produktu" caption="Dodanie produktu" %}
 
-Wyświetli się okno w którym za pomocą {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy interesujący Nas produkt oraz określamy "Ilość" oraz "Cenę" - sumaryczną bądź jednostkową. Po podaniu którejkolwiek z nich, qcadoo automatycznie obliczy drugą. Aby dodać produkt do listy należy wybrać {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} Zapisz i powrót.
+Wyświetli się okno w którym za pomocą {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy interesujący Nas produkt oraz określamy "Ilość" oraz "Cenę" - sumaryczną bądź jednostkową. Po podaniu którejkolwiek z nich, qcadoo automatycznie obliczy drugą. Aby dodać produkt do listy należy wybrać {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisz" %} Zapisz i powrót.
 
 {% include callout.html content="Cenę produktów możemy Ci podpowiedzieć, albo na podstawie ostatniej ceny zakupu produktu albo ostatniej ceny z ofert tego produktu tego dostawcy (odpowiadającą Ci wartość zdefiniujesz w parametrach). Zaznacz zamówione produkty i wywołaj funkcję Uzupełnij ceny. Jeśli waluta dostawy to PLN a w produkcie koszty podanej są w innej walucie, to cena zostanie odpowiednio przeliczona wg aktualnego średniego kursu. Jeśli waluta w dostawie jest inna niż PLN, a w kosztach produktu ceny ostatniego przychodu czy średnioważoną mamy w PLN, to też zostaną one odpowiednio przeliczone na walutę dostawy." type="warning" %}
             
