@@ -563,6 +563,10 @@ entries:
       output: web
       url: /rozliczenie-palet.html
 
+    - title: Przepakowania
+      output: web
+      url: /przepakowania.html
+
     - title: Stan minimalny
       output: web
       url: /stan-min.html

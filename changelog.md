@@ -7,6 +7,28 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.9 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.9</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.9</td>
+          <td>
+          <ul>
+            <li>nowa rola do akceptacji dokumentu magazynowego,</li>
+            <li>filtrowanie po nazwisku i numerze w lookupie pracowników w rekordzie rejestracji w zakładce Czas pracy,</li>
+            <li>praca nad walidacjami poprawności nośników i miejsc składowania w dostawie i dokumencie magazynowym,</li>
+            <li>przepakowania.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.8 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.8</summary><br>
@@ -54,7 +76,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.6 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.6</summary><br>
     <table class="changelog-table" border>
         <tr>
