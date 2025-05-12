@@ -7,6 +7,25 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.10 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.10</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.10</td>
+          <td>
+          <ul>
+            <li>praca nad ulepszaniem funkcjonalności i poprawianie błędów.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.9 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.9</summary><br>
@@ -53,7 +72,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.7 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.7</summary><br>
     <table class="changelog-table" border>
         <tr>
