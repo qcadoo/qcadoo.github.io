@@ -7,6 +7,29 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.11 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.11</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.11</td>
+          <td>
+          <ul>
+            <li>lista pozycji przepakowań.</li>
+            <li>kolumna Magazyn w szczegółowym zapotrzebowaniu.</li>
+            <li>prezentacja szkicowych zleceń w liście szczegółowego zapotrzebowania w menu > zaopatrzenie.</li>
+            <li>nowy parametr terminala rejestracji produkcji - nie uwzględniaj dat przy wyborze zadań.</li>
+            <li>qcadoo APS > planer - obsługa parametru Następna operacja po wyprodukowaniu zadanej ilości.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.10 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.10</summary><br>
@@ -49,7 +72,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.8 -->
-  <details open>
+  <details >
     <summary class="changelog-summary-h3">3.0.8</summary><br>
     <table class="changelog-table" border>
         <tr>
