@@ -34,7 +34,7 @@ Współczynnik wykorzystania w czasie:
 
 - **Maszyn** - jaką część czasu całkowitego operacji zajmuje praca maszyn,
 - **Pracowników** - jaką część czasu całkowitego operacji zajmuje praca pracowników,
-- **Następna operacja po wyprodukowaniu** - po wykonaniu ilu jednostek można przystąpić do kolejnej operacji. Wybierając kolejną operację po wyprodukowaniu **wszystkiego**, kolejna operacja będzie planowana po wyprodukowaniu całej ilości zleconej, natomiast korzystając z kolejnej operacji po wyprodukowaniu **określonej ilości**, możemy kontrolować moment rozpoczęcia się kolejnej operacji, ustalając konkretną ilość, po której dalsza produkcja może się rozpocząć (np. po wykonaniu dwóch kół, możemy przejść dalej, aby skręcić z nich rower).
+- **Następna operacja po wyprodukowaniu** - po wykonaniu ilu jednostek można przystąpić do kolejnej operacji. Wybierając kolejną operację po wyprodukowaniu **wszystkiego**, kolejna operacja będzie planowana po wyprodukowaniu całej ilości zleconej, natomiast korzystając z kolejnej operacji po wyprodukowaniu **określonej ilości**, możemy kontrolować moment rozpoczęcia się kolejnej operacji, ustalając konkretną ilość, po której dalsza produkcja może się rozpocząć (np. po wykonaniu dwóch kół, możemy przejść dalej, aby skręcić z nich rower). Parametr wykorzystywany jest w qcadoo APS, w przygotowywaniu planu na stację roboczą i pracownika.
 
 Czasy zdefiniowane w nagłówku, to wartości domyślne. Jeśli jednak nie wszystkie stacje wykonujące tą operację, są w stanie uzyskać takie normy, możesz w tabeli Normy czasowe inne dla stacji roboczych zdefiniować normy właściwe dla konkretnej maszyny. Kliknij w tym celu przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %}
 

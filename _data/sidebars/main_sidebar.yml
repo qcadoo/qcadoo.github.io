@@ -567,6 +567,10 @@ entries:
       output: web
       url: /przepakowania.html
 
+    - title: Pozycje przepakowań
+      output: web
+      url: /pozycje-przepakowan.html
+
     - title: Stan minimalny
       output: web
       url: /stan-min.html

@@ -5,7 +5,7 @@ permalink: szczegolowe-zapotrzebowanie.html
 
 Widok szczegółowego zapotrzebowania znasz już, w kontekście pojedynczego zlecenia. To tutaj dowiadujesz się o tym jakie produkty biorą udział w procesie produkcyjnym. 
 
-Wchodząc w **Zaopatrzenie > Szczegółowe zapotrzebowanie** przeanalizujesz produkty, które będziesz zużywać i produkować we wszystkich otwartych zleceniach, z podziałem na konkretne operacje technologii. Otwarte to te zlecenia, które mają status: zaakceptowane, rozpoczęte lub przerwane.
+Wchodząc w **Zaopatrzenie > Szczegółowe zapotrzebowanie** przeanalizujesz produkty, które będziesz zużywać i produkować we wszystkich otwartych zleceniach, z podziałem na konkretne operacje technologii. Otwarte to te zlecenia, które mają status: oczekujące, zaakceptowane, rozpoczęte lub przerwane.
 
 
 {% include lightbox.html file="zaopatrzenieSzczegoloweZapotrzebowanie.png" alt="Szczegółowe zapotrzebowanie" caption="Szczegółowe zapotrzebowanie" %}
@@ -16,6 +16,7 @@ Jakie informacje z tej listy mogą Ci się przydać:
 - jakie produkty i w jakiej ilości będą Ci niebawem potrzebne - będziesz w stanie ustalić czy masz zapewniony stan magazynowy czy złożone zamówienia,
 - jakie produkty zostaną wyprodukowane w najbliższym czasie - będziesz w stanie zweryfikować czy terminy ustalane z klientami są zagrożone,
 - co jest aktualnie zużywane i produkowane,
+- z jakich magazynów pobierane będą materiały do produkcji i na jakie magazyny będą przyjmowane wybory,
 - czy zostały zastosowane zamienniki do produktów wejściowych,
 - jakie zadania operacyjne są powiązane z konkretnymi operacjami zlecenia produkcyjnego i jakie produkty będą w nich zużywane i wytwarzane.
 
