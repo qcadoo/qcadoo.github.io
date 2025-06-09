@@ -34,6 +34,8 @@ Wydrukowane numery nośników logistycznych wyglądają tak:
 
 {% include lightbox.html file="podstawoweNumeryWlasnePaletWydruk.png" alt="Wydruk numerów nośników logistycznych" caption="Wydruk numerów nośników logistycznych" %}
 
+Po wydrukowaniu numeru zostaje on oznaczony flagą "Wydrukowana". Dana widoczna jest też w kolumnie w liście numerów własnych nośników. Dzięki temu łatwo wyciągnąć numery jeszcze nie wydrukowane.
+
 
 Z poziomu listy numerów nośników logistycznych możesz wydrukować też:
 - **kartę nośnika** - po to, by pracownicy nie mający dostępu do systemu mogli zapisać jakie produkty położyli na jakiej palecie czy nośniku. Wydruk ten jest dedykowany raczej jednorodnym produktom na danej palecie
