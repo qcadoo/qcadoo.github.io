@@ -7,6 +7,36 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.13 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.13</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.13</td>
+          <td>
+          <ul>
+            <li>wymaganie na walutę systemową,</li>
+            <li>informacja w dostawie o braku przeliczenia ceny, w przypadku różnych walut dostawy i systemowej, niebędących PLN,</li>
+            <li>przyspieszenie listy zamówień sprzedaży,</li>
+            <li>przyspieszenie ładowania Gantta stacji roboczych wywoływanego z planu na stację roboczą i pracownika,</li>
+            <li>plan na stację roboczą i pracownika - zmiana przycisków generowania planu przez planera,</li>
+            <li>zmniejszenie przycisków do podziału zleceń w liście zleceń produkcyjnych i liście planowanych zleceń,</li>
+            <li>qcadoo WMS mobile:</li>
+              <ul>
+                <li>wersja angielska aplikacji,</li>
+                <li>przesunięcie nośnika w inne miejsce,</li>
+                <li>zmiana miejsca składowania ze szczegółów zasobu.</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.12 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.12</summary><br>
@@ -52,7 +82,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.10 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.10</summary><br>
     <table class="changelog-table" border>
         <tr>

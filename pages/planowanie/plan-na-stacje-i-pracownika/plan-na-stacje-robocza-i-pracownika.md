@@ -130,28 +130,30 @@ Dane zlecenie produkcyjne może znajdować się w kilku planach na raz. Dzięki 
 Wszystko gotowe - teraz robota dla nas! Na podstawie przygotowanych przez Ciebie danych musimy stworzyć plan. Twoim malutkim zadaniem będzie naciśnięcie kilku przycisków.
 
 
-{% include lightbox.html file="planowaniePlanNaStacjePlan.png" alt="Zakładka Plan i dodatkowy pasek narzędziowy" caption="Zakładka Plan i dodatkowy pasek narzędziowy" %}
+{% include lightbox.html file="planowaniePlanNaStacjePlan.png" alt="Zakładka Plan" caption="Zakładka Plan" %}
 
 Jak już wiesz - planowanie składa się z 3 kroków:
 1. ustalenie jakie operacje są do wykonania,
 2. ułożenie operacji na stacjach,
 3. przypisanie pracownika, który daną czynność ma wykonać.
 
-Do każdego z tych kroków jest osobny przycisk. Zatem kliknij {% include inline_image.html file="przyciskPobierzOperacje.png" alt="Przycisk Pobierz operacje" %} **Pobierz operacje**, a dla każdego zlecenia produkcyjnego ustalimy jakie operacje są do wykonania (na podstawie drzewa technologii) i wyliczymy czas ich trwania (na podstawie norm czasowych).
+Do każdego z tych kroków jest osobny przycisk. Zatem kliknij {% include inline_image.html file="przyciskPobierzOperacje.png" alt="Przycisk Pobierz operacje" %}, a dla każdego zlecenia produkcyjnego ustalimy jakie operacje są do wykonania (na podstawie drzewa technologii) i wyliczymy czas ich trwania (na podstawie norm czasowych).
 
 {% include lightbox.html file="planowaniePlanNaStacjePlanOperacje.png" alt="Operacje zleceń i czas ich trwania" caption="Operacje zleceń i czas ich trwania" %}
 
 Zwróć uwagę, czy wszystkie operacje mają wyznaczony czas pracy maszyny. Jeśli nie - to dana operacja nie będzie dalej planowana. Nie przypisujemy stacji roboczej do czynności, która nic nie trwa. Każda kolejna operacja w drzewie również nie zostanie zaplanowana. Zatem jeśli omyłkowo Tj nie jest uzupełniony, wróć do [norm czasowych operacji](/normy-czasowe) i je uzupełnij. Pamiętaj, że uzupełnienie czasu w Technologie > Operacje nie sprawi, że technologia użyta w zleceniu zostanie zaktualizowana. Trzeba będzie stworzyć nową wersję technologii - tam wprowadzić zmiany, zaakceptować ją i podmienić w zleceniu.
 
-Kliknij teraz **Planuj z planerem** - wywołany zostanie algorytm planowania wg kryterium, które określiłeś dla tego planu. W efekcie - zostaną przypisane stacje robocze, zostaną określone daty realizacji (data rozpoczęcia i zakończenia) i zostaną wyznaczone przezbrojenia między zadaniami.
+Kliknij teraz {% include inline_image.html file="przyciskPrzypiszOperacjeDoStacjiRoboczych.png" alt="Przycisk Przypisz operacje do stacji roboczych" %}. Wywołany zostanie algorytm planowania wg kryterium, które określiłeś dla tego planu. W efekcie - zostaną przypisane stacje robocze, zostaną określone daty realizacji (data rozpoczęcia i zakończenia) i zostaną wyznaczone przezbrojenia między zadaniami.
 
 {% include lightbox.html file="planowaniePlanNaStacjePlanStacje.png" alt="Stacje robocze przypisane do operacji" caption="Stacje robocze przypisane do operacji" %}
 
-{% include callout.html content="Po wywołaniu funkcji **Planuj z planerem** poczekaj, aż pomarańczowy dzwoneczek w prawym górnym roku ekranu się zaświeci. Kliknij w niego, by odczytać notyfikację: 'Przypisano stacje dla planu ...'. I odśwież plan na stację roboczą i pracownika, aby zobaczyć efekty planowania." type="warning" %}
+{% include callout.html content="Po wywołaniu funkcji **Przypisz operacje do stacji roboczych** poczekaj, aż pomarańczowy dzwoneczek w prawym górnym roku ekranu się zaświeci. Kliknij w niego, by odczytać notyfikację: 'Przypisano stacje dla planu ...'. I odśwież plan na stację roboczą i pracownika, aby zobaczyć efekty planowania." type="warning" %}
 
 Jeśli operacja nie została przypisana do stacji roboczej to sprawdź, czy w [zasięgu technologii](/technologie-szczegoly.html#zasięg-technologii) na pewno określone są możliwe stacje. Jeśli nie - wprowadź zmiany. Podobnie jak z normami czasowymi - uzupełnienie [stacji w operacji](/stacje-robocze-operacji) nie zaktualizuje danych w użytych operacjach w technologiach i zleceniu. Wprowadź dane do operacji (przyda się do tworzenia nowych technologii), stwórz nową wersję technologii z uzupełnionymi stacjami (poprzednią wersję warto wycofać), zaakceptuj ją i podmień w zleceniu produkcyjnym.
 
-Pora na ostatni krok planowania - kliknij {% include inline_image.html file="przyciskPrzypiszPracownikow.png" alt="Przycisk Przypisz pracowników do operacji" %} **Przypisz pracowników do operacji**
+Może być jeszcze jedna przyczyna braku stacji - operacji jest tak dużo, że nie zmieściły się w czasie podanym w [parametrze](/parametry-planowania.html#planer) **Długość planu**. Skoryguj listę zleceń lub wydłuż zasięg planowania.
+
+Pora na ostatni krok planowania - kliknij {% include inline_image.html file="przyciskPrzypiszPracownikow.png" alt="Przycisk Przypisz pracowników do operacji" %}
 
 {% include lightbox.html file="planowaniePlanNaStacjePlanPracownik.png" alt="Pracownicy przypisani do operacji" caption="Pracownicy przypisani do operacji" %}
 

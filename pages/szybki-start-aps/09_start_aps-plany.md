@@ -16,9 +16,9 @@ Przejdź do zakładki **Dane wejściowe**, kliknij przycisk {% include inline_im
 
 {% include lightbox.html file="startOpPlanDaneWejsciowe.png" alt="Plan na stację roboczą - zakładka Dane wejściowe" caption="Plan na stację roboczą - zakładka Dane wejściowe" %}
 
-Teraz pobierz operacje ze wskazanych zleceń, klikając przycisk {% include inline_image.html file="przyciskPobierzOperacje.png" alt="Przycisk Pobierz operacje" %}. I ostatni krok - kliknij **Planuj z planerem** - wywołany zostanie algorytm planowania wg kryterium, które określiłeś dla tego planu. W efekcie - zostaną przypisane stacje robocze, zostaną określone daty realizacji (data rozpoczęcia i zakończenia) i zostaną wyznaczone przezbrojenia między zadaniami.
+Teraz pobierz operacje ze wskazanych zleceń, klikając przycisk {% include inline_image.html file="przyciskPobierzOperacje.png" alt="Przycisk Pobierz operacje" %}. I ostatni krok - kliknij {% include inline_image.html file="przyciskPrzypiszOperacjeDoStacjiRoboczych.png" alt="Przycisk Przypisz operacje do stacji roboczych" %}. Wywołany zostanie algorytm planowania wg kryterium, które określiłeś dla tego planu. W efekcie - zostaną przypisane stacje robocze, zostaną określone daty realizacji (data rozpoczęcia i zakończenia) i zostaną wyznaczone przezbrojenia między zadaniami.
 
-{% include callout.html content="Po wywołaniu funkcji **Planuj z planerem** poczekaj, aż pomarańczowy dzwoneczek w prawym górnym roku ekranu się zaświeci. Kliknij w niego, by odczytać notyfikację: 'Przypisano stacje dla planu ...'. I odśwież plan na stację roboczą i pracownika, aby zobaczyć efekty planowania." type="warning" %}
+{% include callout.html content="Po wywołaniu funkcji **Przypisz operacje do stacji roboczych** poczekaj, aż pomarańczowy dzwoneczek w prawym górnym roku ekranu się zaświeci. Kliknij w niego, by odczytać notyfikację: 'Przypisano stacje dla planu ...'. I odśwież plan na stację roboczą i pracownika, aby zobaczyć efekty planowania." type="warning" %}
 
 Efekty możesz podejrzeć albo w tabeli w zakładce **Plan**:
 
