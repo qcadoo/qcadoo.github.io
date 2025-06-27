@@ -15,6 +15,7 @@ Aplikacja qcadoo WMS mobile działa na urządzeniu z systemem Andoid w wersji co
 
 Obsługa aplikacji jest intuicyjna - jeśli korzystasz z telefonu z systemem Android i dedykowanych dla niego aplikacji, nie powinieneś mieć problemu z poruszaniem się po qcadoo WMS mobile. Używaj standardowych przycisków nawigacji z telefonu, przewijaj ekran przesuwając palcem góra-dół, wchodź w szczegóły wiersza klikając w niego.
 
+Aplikacja działa w języku polskim i angielskim. Wyboru języka dokonaj w ustawieniach telefonu.
 
 
 ## Instalacja i aktualizacja aplikacji
@@ -34,9 +35,9 @@ Pamiętaj o zezwoleniu na każdą nową aktualizację - zadbasz w ten sposób o 
 ## Parametryzacja systemu qcadoo
 
 Aplikacja qcadoo WMS mobile współpracuje z systemem qcadoo. Aby praca przebiegała sprawnie ustaw w qcadoo następujące parametry:
-- w Magazyn > Magazyny wejdź w szczegóły magazynu i zaznacz w zakładce Metoda rozchodu i atrybuty dokumentów parametr **Szkicowe dokumenty rezerwują stan**. Aby zapewnić zgodność stanu magazynowego ewidencyjnego z tym faktycznym, konieczne jest zarezerowanie konkretnych zasobów, które będą wydawane. Dzięki temu produkt włożony do koszyka podczas kompletacji na pewno nie będzie mógł być zdjęty ze stanu innym dokumentem,
-- w Administracja > Użytkownicy wejdź w szczegóły użytkownika, który będzie się logował do aplikacji i w zakładce Pracownik przypisz mu [pracownika](/pracownicy),
-- w Parametry > Parametry magazynu w tabeli Widoczność kolumn w pozycjach dokumentu, ustaw by były widoczne kolumny: Pracownik WMS i Data WMS.
+- w Magazyn > [Magazyny](/magazyny) wejdź w szczegóły magazynu i zaznacz w zakładce *Metoda rozchodu i atrybuty dokumentów* parametr **Szkicowe dokumenty rezerwują stan**. Aby zapewnić zgodność stanu magazynowego ewidencyjnego z tym faktycznym, konieczne jest zarezerowanie konkretnych zasobów, które będą wydawane. Dzięki temu produkt włożony do koszyka podczas kompletacji na pewno nie będzie mógł być zdjęty ze stanu innym dokumentem,
+- w Administracja > [Użytkownicy](/uzytkownicy.html#przypisywanie-do-użytkownika-magazynu-pracownika-zakładu-oraz-linii-produkcyjnej) wejdź w szczegóły użytkownika, który będzie się logował do aplikacji i w zakładce Pracownik przypisz mu [pracownika](/pracownicy),
+- w Parametry > [Parametry magazynu](/parametry-magazyn.html#zakładka-główna---parametry-dokumentów) w tabeli Widoczność kolumn w pozycjach dokumentu, ustaw by były widoczne kolumny: Pracownik WMS i Data WMS.
 
 
 ## Logowanie
@@ -45,6 +46,8 @@ Aplikacja qcadoo WMS mobile współpracuje z systemem qcadoo. Aby praca przebieg
 Użytkownicy aplikacji qcadoo WMS mobile definiowani są w systemie qcadoo MES lub qcadoo WMS. Użytkownik musi mieć dodane uprawnienia do aplikacji. 
 
 Właściwą grupą dla pracownika, który ma korzystać tylko z aplikacji jest: WMS mobile. Użytkownik ten będzie mógł też się zalogować do qcadoo MES lub qcadoo WMS, ale zobaczy tylko profil użytkownika i będzie mógł zmienić np. hasło logowania.
+
+{% include callout.html content="W ramach licencji WMS mobile dostępna jest też grupa, która oprócz dostępu do aplikacji daje uprawnienia do obszarów magazynowych w systemie qcadoo." type="info" %} 
 
 Podczas pierwszego logowania do aplikacji na danym urządzeniu wskaż adres URL instancji qcadoo MES lub qcadoo WMS, z którym aplikacja będzie się łączyć, np. abcfirma.qcdmes.com i **potwierdź**. 
 
@@ -66,7 +69,7 @@ Aplikacja qcadoo WMS mobile w danym momencie pomaga przy pracy na jednym magazyn
 
 Twoim oczom powinien ukazać się ekran główny qcadoo WMS mobile, z listą dostępnych modułów:
 - [przyjęcia](/wms-przyjecia-wprowadzenie),
-- przesunięcia,
+- [przesunięcia](/wms-przesuniecia-wprowadzenie),
 - [wydania](/wms-wydania-wprowadzenie),
 - [stan magazynowy](/wms-stan-wprowadzenie).
 

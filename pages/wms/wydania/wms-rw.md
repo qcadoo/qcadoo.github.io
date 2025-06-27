@@ -65,7 +65,7 @@ Aby podzielić dokument wejdź w niego i kliknij przycisk {% include inline_imag
 
 {% include lightbox.html file="wmsWydaniaRozchodWewnetrznyPodzial.png" alt="Rozchód wewnętrzny z WMS - podział dokumentu" caption="Rozchód wewnętrzny z WMS - podział dokumentu" %}
 
-Podaj **na ile części** chcesz dokument podzielić i wskaż, czy chcesz aby pozycje do realizacji z tego samego miejsca składowania nie były rozdzielane na różnych magazynierów (parametr **Trzymaj razem pozycje z tego samego miejsca składowania**).
+Podaj **na ile części** chcesz dokument podzielić i wskaż, czy chcesz, aby pozycje do realizacji z tego samego miejsca składowania nie były rozdzielane na różnych magazynierów (parametr **Trzymaj razem pozycje z tego samego miejsca składowania**).
 
 {% include callout.html content="Jeśli nie prowadzisz ewidencji z dokładnością do miejsc składowania, pozostaw zaznaczony parametr **Trzymaj razem pozycje z tego samego miejsca składowania**." type="warning" %}
 

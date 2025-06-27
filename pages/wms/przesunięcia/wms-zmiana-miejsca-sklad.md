@@ -11,6 +11,6 @@ Aby wykonać funkcję zmiany miejsca składowania wejdź w aplikacji qcadoo WMS 
 
 W pierwszym kroku podaj dane, które pozwolą namierzyć przesuwany zasób. Możesz podać **miejsce składowania**, **numer nośnika** lub **numer produktu** (czy EAN). Albo wszystkie te dane jednocześnie. I kliknij przycisk {% include inline_image.html file="przyciskWmsSzukaj.png" alt="Przycisk Szukaj" %}. Pojawi się lista wszystkich zasobów spełniających podane kryteria wyszukiwania. Wybierz właściwy i kliknij w jego wiersz. Po przejściu do nowego ekranu podaj nowe miejsca składowania.
 
-{% include lightbox.html file="wmsPrzesunieciaZmianaMiejscaProces.png" alt="Dokumenty MM z WMS - proces kompletacji" caption="Dokumenty MM z WMS - proces kompletacji" %}
+{% include lightbox.html file="wmsPrzesunieciaZmianaMiejscaProces.png" alt="Zmiana miejsca składowania" caption="Zmiana miejsca składowania" %}
 
 Aby zatwierdzić przesunięcie kliknij przycisk {% include inline_image.html file="przyciskWmsZapisz.png" alt="Przycisk Zapisz" %}. W efekcie w zasobie zostanie zmienione miejsce składowania. Wprowadzona zmiana będzie widoczna na liście [korekt](/korekty).

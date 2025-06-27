@@ -7,7 +7,7 @@ W module Przyjęcia zrealizujesz wszelkie przychody na magazyn. Dokumenty mogą 
 
 Niezależnie jakiego typu przyjęcie będzie realizowane w aplikacji qcadoo WMS mobile, efektem będzie dokument magazynowy przychodowy w systemie qcadoo.
 
-Menu Przyjęcia dostępne są następujące opcje:
+W menu **Przyjęcia** dostępne są następujące opcje:
 
 {% include lightbox.html file="wmsPrzyjeciaMenu.png" alt="Menu modułu przyjęcia" caption="Menu modułu przyjęcia" %}
 

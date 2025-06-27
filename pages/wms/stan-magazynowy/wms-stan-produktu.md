@@ -57,3 +57,11 @@ zobaszysz tutaj:
 <br/>
 
 Po kliknięciu przycisku {% include inline_image.html file="przyciskWmsZakoncz.png" alt="Przycisk Zakończ" %} przejdziesz do ekranu wyboru produktu i możliwości analizy stanu dla kolejnego produktu.
+
+## Zmiana miejsca składowania zasobu
+
+Będąc w widoku szczegółów zasobu, możesz wywołać funkcję [zmiany miejsca składowania](/wms-zmiana-miejsca-sklad). Kliknij w przycisk {% include inline_image.html file="przyciskWmsMenuKropki.png" alt="Przycisk Kropki" %} i wybierz opcję: **Zmień miejsce składowania**:
+
+{% include lightbox.html file="wmsStanSzczegolyZasobuZmianaMiejsca.png" alt="Szczegóły zasobu - zmiana miejsca składowania" caption="Szczegóły zasobu - zmiana miejsca składowania" %}
+
+Podaj **nową lokalizację** i zatwierdź przyciskiem {% include inline_image.html file="przyciskWmsZapisz.png" alt="Przycisk Zapisz" %}.

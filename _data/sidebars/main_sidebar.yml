@@ -1261,6 +1261,10 @@ entries:
               output: web
               url: /wms-mm.html
 
+            - title: Przesunięcie nośnika w inne miejsce
+              output: web
+              url: /wms-przesuniecie-nosnika-w-inne-miejsce.html
+
             - title: Zmiana miejsca składowania
               output: web
               url: /wms-zmiana-miejsca-sklad.html
