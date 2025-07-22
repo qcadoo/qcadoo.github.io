@@ -28,7 +28,7 @@ Za pomocą tej metody tworzona jest [partia](/jak-dodac-numery-partii) w qcadoo.
 Nazwa | Typ                          | Wymagalność | Unikalność | Zawartość
 :-|:-----------------------------|:-----------:|:----------:|:-
 number | tekst(255)                   |      T      |     N      | numer partii
-externalID | tekst(255)  |      N      |     N      | id/numer w systemie zewnętrznym
+externalID | tekst(255)  |      N      |     T      | id/numer w systemie zewnętrznym
 product | tekst(255)                   |      T      |     N      | numer produktu. Produkt musi istnieć w qcadoo
 supplier | tekst(255)                   |      N      |     N      | numer dostawcy. Kontrahent musi istnieć w qcadoo.
 
@@ -42,4 +42,4 @@ supplier | tekst(255)                   |      N      |     N      | numer dosta
 ~~~~~~~~
 
 ### Działanie
-Metoda utworzy partię w systemie qcadoo.
+Metoda utworzy partię w systemie qcadoo. Unikalność pól zależy od ustawionego parametru unikalności w parametrach genealogii.

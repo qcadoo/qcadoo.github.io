@@ -19,8 +19,8 @@ Za pomocą tej metody pobierzesz z qcadoo szczegóły [partii](/jak-dodac-numery
 ### Zawartość odpowiedzi
 ~~~~~~~~
 {
-    "id": id,
     "externalID" : "externalID",
+    "id": id,
     "number" : "number",
     "product" : "product number",
     "supplier" : "supplier number",
