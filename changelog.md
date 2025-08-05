@@ -7,6 +7,30 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.16 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.16</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.16</td>
+          <td>
+          <ul>
+            <li>qcadoo WMS mobile:</li>
+              <ul>
+                <li>przepakowania,</li>
+                <li>funkcja w dostawie: Kolejna pozycja,</li>
+                <li>funkcja w dostawie: Odbierz nowy produkt.</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.15 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.15</summary><br>
@@ -46,7 +70,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.13 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.13</summary><br>
     <table class="changelog-table" border>
         <tr>
