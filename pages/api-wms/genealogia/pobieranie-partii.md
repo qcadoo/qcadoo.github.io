@@ -49,8 +49,8 @@ Za pomocą tej metody pobierzesz partie spełniające zadane parametry.
 ### Zawartość odpowiedzi
 ~~~~~~~~
 [{
-    "id": id,
     "externalID" : "externalID",
+    "id": id,
     "number" : "number",
     "product" : "product number",
     "supplier" : "supplier number",
