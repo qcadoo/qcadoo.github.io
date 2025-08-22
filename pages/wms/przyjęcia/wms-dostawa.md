@@ -14,6 +14,8 @@ Gotowe? Czas przekazać ją do aplikacji mobilnej qcadoo WMS. Będąc w szczegó
 
 {% include lightbox.html file="wmsPrzyjeciaDostawaWyslijDoWMS.png" alt="Wysyłanie dostawy do aplikacji mobilnej WMS" caption="Wysyłanie dostawy do aplikacji mobilnej WMS" %}
 
+## Standardowy odbiór dostawy w qcadoo WMS mobile
+
 Zaloguj się do aplikacji mobilnej qcadoo WMS i wejdź w: **Przyjęcia > Dostawy**:
 
 {% include lightbox.html file="wmsMenuPrzyjeciaDostawy.png" alt="Menu WMS" caption="Menu WMS" %}
@@ -68,6 +70,45 @@ Gdy wszystkie dostarczone produkty zostaną już zarejestrowane, kliknij przycis
 W aplikacji mobilnej WMS dla danej dostawy, w trakcie jej realizacji, można wywołać następujące funkcje:
 - **odłóż** - powoduje zostawienie dostawy w stanie w jakim była w momencie kliknięcia funkcji i powrót do listy zaplanowanych dostaw. Pracownik musi przerwać odbiór danej dostawy i zająć się czymś innym, ale wróci do niej i będzie kontynuował działanie.
 - **rezygnuj** - powoduje usunięcie dotychczasowych realizacji z dostawy i powrót do listy zaplanowanych dostaw.
+- **odbierz na nośnik** - przycisk pozwala na zbiorczy odbiór produktów umieszczanych na nośniku. Szczegóły opisane są w rozdziale poniżej.
+
+## Dodatkowe funkcje przy odbiorze dostawy w qcadoo WMS mobile
+
+### Funkcja Kolejna pozycja
+
+Funkcja Kolejna pozycja pozwala na szybkie przyjęcie tego samego produktu z dostawy na kilka nośników, czy w kilka lokalizacji. Zacznij od zeskanowania **produktu**, podania **ilości odebranej** i **nośnika** wraz z **lokalizacją**. Jednak zamiast standardowo zapisać kliknij przycisk {% include inline_image.html file="przyciskWmsKolejnaPozycja.png" alt="Przycisk Kolejna pozycja" %}. 
+
+{% include lightbox.html file="wmsPrzyjeciaDostawyKolejnaPozycja.png" alt="Funkcja Kolejna pozycja przy odbiorze dostawy" caption="Funkcja Kolejna pozycja przy odbiorze dostawy" %}
+
+Przejdziesz ponownie do okna odbierania produktu. Produkt będzie już wczytany i nie będziesz musiał go ponownie skanować. Szybciej, prawda?
+
+### Odbierz nowy produkt
+
+Funkcja **Odbierz nowy produkt** pozwala na przyjęcie wraz z dostawą produktu, którego nie ma na liście zamówionych. Aby można było skorzystać z możliwości, ustaw w [parametrach dostawy](/parametry-zaopatrzenie.html#dostawy) **Odbieranie większej ilości niż zamawiana** = tak. 
+
+W aplikacji mobilnej wejdź w dostawę i ustaw się w zakładce **Odebrane**. Kliknij w przycisk {% include inline_image.html file="przyciskWmsOdbierzNowyProdukt.png" alt="Przycisk Odbierz nowy produkt" %}
+
+{% include lightbox.html file="wmsPrzyjeciaDostawyOdbierzNowyProdukt.png" alt="Funkcja Odbierz nowy produkt w dostawie" caption="Funkcja Odbierz nowy produkt w dostawie" %}
+
+Zacznij od podania **produktu** i **ilości odebranej**. Przejdź do kolejnego ekranu, by podać **nośnik** i **miejsce składowania**. Całość zapisz przyciskiem {% include inline_image.html file="przyciskWmsZapisz.png" alt="Przycisk Zapisz" %}.
+
+
+### Odbierz na nośnik
+
+Funkcja Odbierz na nośnik pozwala na przyspieszenie odbioru produktów. Wychodzimy tutaj od wskazania kompletowanego nośnika i lokalizacji, w której go umieścimy i później po kolei podajemy położone na nim produkty. Szybciej, ponieważ nośnik i miejsce składowania skanowane są tylko raz.
+
+Aby przejść do trybu ewidencji całego nośnika, wybierz dostawę, którą chcesz realizować, rozwiń w prawym górnym rogu ekranu menu kontekstowe (przycisk {% include inline_image.html file="przyciskWmsMenuKropki.png" alt="Przycisk Menu kontekstowe" %}) i wybierz: **Odbierz na nośnik**:
+
+{% include lightbox.html file="wmsPrzyjeciaDostawaOdbierzNaNosnik.png" alt="Odbieranie produktów dostawy na nośnik" caption="Odbieranie produktów dostawy na nośnik" %}
+
+Zacznij od podania jaki **nośnik** przygotowujesz i gdzie będzie on ulokowany. Potwierdź nośnik i przystąp do umieszczania produktów na nośniku. Kliknij przycisk {% include inline_image.html file="przyciskWmsDodajNowyProdukt.png" alt="Przycisk Dodaj nowy produkt" %}, zeskanuj **produkt** i podaj **ilość**, którą odbierasz. Przejdź do dodawania kolejnego produktu, klikając przycisk {% include inline_image.html file="przyciskWmsKolejnyProdukt.png" alt="Przycisk Kolejny produkt" %}. Po przyjęciu ostatniej pozycji zapisz przyciskiem {% include inline_image.html file="przyciskWmsZapisz.png" alt="Przycisk Zapisz" %}.
+
+Jeśli nośnik jest już kompletny, zatwierdź go przyciskiem {% include inline_image.html file="przyciskWmsZatwierdz.png" alt="Przycisk Zatwierdź" %}. Wszystkie produkty nośnika będą widoczne w zakładce **Odebrane**.
+
+
+
+
+
 
 
 
