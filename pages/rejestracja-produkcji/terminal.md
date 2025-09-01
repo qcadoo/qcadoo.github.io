@@ -360,7 +360,7 @@ Po wypełnieniu danych zapisz przyciskiem {% include inline_image.html file="prz
 
 ### Łączne raportowanie zadań
 
-{% include lightbox.html file="rejestracjaTerminalLacznaRejestracja.png" alt="Zgłoszenie awarii" caption="Terminal - zgłoszenie awarii" class="float-right"  %}
+{% include lightbox.html file="rejestracjaTerminalLacznaRejestracja.png" alt="Łączne raportowanie zadań z terminala" caption="Łączne raportowanie zadań z terminala" class="float-right"  %}
 
 Jeśli pracujesz w trybie raportowania każdej operacji i część zadań, z różnych zleceń, realizowanych jest przez pracowników jednocześnie, to wygodnym sposobem raportowania może być łączna rejestracja. Idea jest następująca: pracownik loguje się do terminala, podaje na jakim dziale, linii i stacji wykonywał prace, wchodzi do okna wyboru zadań i zaznacza te czynności, które zrealizował, klika przycisk Zrealizuj łącznie, podaje czas poświęcony i ilości wyprodukowane. Po zatwierdzeniu tworzonych jest tyle rekordów rejestracji ile wskazanych zadań.
 
@@ -373,6 +373,23 @@ Na co należy zwrócić uwagę:
 5. łączna rejestracja pozwala na utworzenie meldunków z produkcji już po jej realizacji. W tym trybie nie można korzystać z działania START-STOP
 6. utworzone rekordy rejestracji nie będą mogły być pobrane do edycji w terminalu w zgrupowanej wersji. Edycja będzie możliwa albo w każdym meldunku z osobna w terminalu, albo z listy rekordów rejestracji
 7. w meldunkach utworzonych do zadań z łącznej rejestracji uzupełniane są informacje o dziale, linii i stacji roboczej na podstawie danych podanych w terminalu. Jeśli zależy Ci na tym, by gromadzić te informacje w rekordach rejestracji, zabdaj o to, by wypełnić dane podstawowe przed pobraniem zadań do łącznej rejestracji
+
+---
+
+### Łączne raportowanie zadań wraz z pozostałymi z grupy
+
+{% include lightbox.html file="rejestracjaTerminalLacznaRejestracjaZPozostalymiZGrupy.png" alt="Łączne raportowanie zadań z pozostałymi z grupy" caption="Łączne raportowanie zadań z pozostałymi z grupy" class="float-right"  %}
+
+Funkcja jest rozwinięciem łącznego raportowania, opisanego wyżej. Jeśli wykorzystujesz [grupy zleceń](/grupy-zlecen), możesz szybko zaraportować wszystkie zadania o takiej samej operacji, ze zleceń objętych jedną grupę. Jak to zrobić?
+
+Wejdź do okna wybierania zadań operacyjnych. Zaznacz pierwsze z grupy realizowanych i kliknij przycisk {% include inline_image.html file="przyciskZrealizujZPozostalymiZGrupy.png" alt="Przycisk Zrealizuj z pozostałymi z grupy" %}. Namierzymy wszystkie zadania operacyjne, które:
+- pochodzą ze zleceń spiętych tą samą grupą, co wskazane zadanie,
+- są związane z taką samą operacją, co wskazane zadanie.
+
+Wszystkie zadania zostaną wczytane do okna łącznego raportowania. Pozostanie Ci podać jaką ilość wytworzyłeś i jaki czas poświęciłeś na realizację.
+
+Łączne raportowanie z dokładnością do grupy, pozwala też wykorzystać **mechanizm START-STOP**, do wyznaczania czasu pracownika. W momencie rozpoczęcia pracy wybierz (w standardowy sposób) pierwsze zadanie z grupy i kliknij w nim **START**. Potwierdź meldunek w terminalu i zacznij produkcję. Po skończonej pracy lub na zakończenie zmiany, wróć do terminala, przejdź do okna wyboru zadań, znajdź zadanie rozpoczęte, np. klikając przycisk {% include inline_image.html file="przyciskPokazZadaniaRealizowane.png" alt="Przycisk Zrealizuj z pozostałymi z grupy" %}, zaznacz je i kliknij przycisk {% include inline_image.html file="przyciskZrealizujZPozostalymiZGrupy.png" alt="Przycisk Zrealizuj z pozostałymi z grupy" %}. Czas pracy uzupełniony w oknie zostanie wyznaczony jako różnica między momentem kliknięcia START we wskazanym zadaniu, a momentem aktualnym. 
+
 
 ---
 
