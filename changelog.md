@@ -7,6 +7,32 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.19 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.19</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.19</td>
+          <td>
+          <ul>
+            <li>lista dostaw - kolumna Powiązana dostawa,</li>
+            <li>generowanie grupy zleceń do zamówień sprzedaży - linia z parametrów, gdy nie ma domyślnej technologii,</li>
+            <li>obsługa parametru ‘Wymagaj asortymentu’ przy generowaniu grup zleceń do zamówień sprzedaży,</li>
+            <li>widok rejestracji wg produktu - eksport do .csv i .pdf oraz podlinkowanie numeru rekordu rejestracji,</li>
+            <li>qcadoo WMS mobile:</li>
+              <ul>
+                <li>poprawne dobieranie produktów dostarczonych do zamówionych w dostawie.</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.18 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.18</summary><br>
@@ -49,7 +75,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.16 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.16</summary><br>
     <table class="changelog-table" border>
         <tr>

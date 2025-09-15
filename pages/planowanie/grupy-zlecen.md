@@ -46,7 +46,7 @@ Grupa zleceń może przyjmować następujące statusy:
 
 4. Zaznacz interesujące Cię produkty i kliknij {% include inline_image.html file="GenerateIcon24.png" alt="Przycisk Generuj" %} **Generuj grupę zleceń**.
 
-{% include callout.html content="Pamiętaj, że zaznaczone produkty muszą należeć do tego samego asortymentu i być produkowane na tej samej linii." type="info" %}
+{% include callout.html content="Jeśli parametr [**Wymagaj asortymentu**](/parametry-planowania.html#grupy-zleceń) jest ustawiony na TAK, to zaznaczone produkty muszą należeć do tego samego asortymentu. Dodatkowo - jeśli w technologiach wypełnione są domyślne linie produkcyjne, to wszystkie zaznaczone pozycje muszą mieć tą samą linię. Jeśli w technologiach nie ma domyślnej linii - zostanie ona pobrana z [parametrów zleceń](/parametry-zlecen.html#główna)" type="info" %}
 
 {% include lightbox.html file="planowanieGrupyZlecenGlowna.png" alt="Grupa zleceń" caption="Grupa zleceń" class="float-right" %}
 
