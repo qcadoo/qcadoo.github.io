@@ -3,7 +3,7 @@ title: "Optymalizacja cięcia odcinków"
 permalink: optymalizacja-ciecia.html 
 ---
 
-Jeśli Twoja produkcja opiera się o cięcie wielu odcinków z danego prętu / belki/ profili, to zapewne sporo czasu poświęcasz na odpowiednie ułożenie planu cięcia. Tak by zużyć jak najmniej surowca i by uzyskać jak najmniejszy odpad. qcadoo MES posiada mechanizmy optymalizacji cięcia w jednym wymiarze. Ustalimy za ciebie ile sztuk surowców trzeba zużyć, aby uzyskać spodziewane odcinki pod zlecenie, a także podpowiemy Ci jak najlepiej ułożyć cięcie, by odpadów było jak najmniej.
+Jeśli Twoja produkcja opiera się o cięcie wielu odcinków z danego pręta / belki/ profili, to zapewne sporo czasu poświęcasz na odpowiednie ułożenie planu cięcia. Tak by zużyć jak najmniej surowca i by uzyskać jak najmniejszy odpad. qcadoo MES posiada mechanizmy optymalizacji cięcia w jednym wymiarze. Ustalimy za Ciebie ile sztuk surowców trzeba zużyć, aby uzyskać spodziewane odcinki pod zlecenie, a także podpowiemy Ci jak najlepiej ułożyć cięcie, by odpadów było jak najmniej.
 
 Aby móc skorzystać z optymalizatora konieczne jest odpowiednie skonfigurowanie danych:
 1. zdefiniuj [atrybut](/atrybuty) o typie: _atrybut produktu_, który będzie określał długość surowca, który będziesz ciąć. Jednostka tego atrybutu musi być miarą długości - tak, byśmy byli w stanie przeliczyć ją na milimetry,

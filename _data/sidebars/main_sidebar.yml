@@ -910,6 +910,10 @@ entries:
       output: web
       url: /terminal-potwierdzania-procesow.html
 
+    - title: Widok rejestracji wg produktu
+      output: web
+      url: /widok-rejestracji-wg-produktu.html
+
   - title: Utrzymanie ruchu
     output: web
     folderitems:

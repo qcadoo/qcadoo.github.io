@@ -141,6 +141,8 @@ Po zamknięciu zleceń z grup spróbujemy pozamykać też zamówienia sprzedaży
 
 8. **Zbijanie zleceń na komponenty** - zaznacz parametr, a wygenerowane zlecenia na komponenty w [grupie zleceń](/grupy-zlecen) zostaną połączone ze sobą w jedno zlecenie według komponentu. Utworzone zlecenie nie będzie już powiązane z żadnym innym zleceniem.
 
+9. **Uzupełniaj wygenerowaną grupę zleceń linią produkcyjną z parametrów zleceń** - zaznacz parametr, a przy generowaniu grupy zleceń do zamówień sprzedaży, linia produkcyjna będzie pobierana z [parametrów zleceń](/parametry-zlecen.html#główna), z pola: Domyślna linia produkcyjna. Jeśli parametr nie będzie zaznaczony, linia produkcyjna będzie pobierana z technologii (domyślna linia zdefiniowana w zakładce Linie/Stacje). Pamiętaj, że wtedy zaznaczone pozycje muszą mieć zgodną linię.
+
 ## Wydruk grupy zleceń
 
 Parametry w tej zakładce przydadzą się (tak jak w przypadku poprzedniej zakładki), gdy używasz do rozpisywania zleceń na produkcji [grup zleceń](/grupy-zlecen). A dokładniej - gdy chcesz grupy zleceń drukować.
