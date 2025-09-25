@@ -225,6 +225,10 @@ entries:
         output: web
         url: /praca-akordowa.html
 
+      - title: Zarządzanie produkcją rozmiarową
+        output: web
+        url: /produkcja-rozmiarowa-przyklad.html 
+
   - title: Dashboard
     output: web
     folderitems:

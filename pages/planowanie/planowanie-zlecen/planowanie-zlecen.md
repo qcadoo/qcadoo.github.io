@@ -70,3 +70,16 @@ Stosujemy trzy kolory:
 - <span style="color:yellow"> żółty</span> - oznacza, że praca trwa (czyli mamy już zarejestrowaną ilość wyprodukowaną do tego zlecenia, ale jest ona nadal mniejsza od ilości zleconej).
 
 Aby kolory pojawiły się w kolumnie, trzeba zaznaczyć parametr **Oznacz kolorem procent wykonania** w Parametry > Parametry planowania > przycisk Zlecenia > [zakładka Główna](/parametry-zlecen#główna)
+
+## Wydruk listy zleceń na produkcję
+
+Wydruk może być alternatywą dla kart pracy. Zawiera listę zleceń produkcyjnych, wraz z informacją o numerze zamówienia sprzedaży, odbiorcy, linii produkcyjnej, produkcie finalnym (zamówionym), jego rozmiarze oraz planowanej ilości. Do tego posiada kod kreskowy, który przyda się przy raportowaniu produkcji w terminalu - zeskanowany wczyta dane tego zlecenia. Całość uzupełniona jest o puste kolumny mogące służyć na zapisywanie ilości wytworzonej w trakcie pracy.
+
+Aby wygenerować przycisk w liście **Planowanie > Planowanie zleceń** zaznacz interesujące Cię zlecenia i kliknij przycisk {% include inline_image.html file="przyciskGenerujListeZlecenNaProdukcje.png" alt="Przycisk Generuj listę zleceń na produkcję" %}
+
+{% include lightbox.html file="planowaniePlanowanieZlecenWydrukZlecen.png" alt="Lista zleceń na produkcję" caption="Lista zleceń na produkcję" %}
+
+Wydruk skierowany jest dla firm raportujących zbiorczo swoje zlecenia. Jeśli chcesz wydruk z kodami kreskowymi dla zleceń raportowanych z dokładnością do operacji, to zerknij w przewodnik produkcyjny lub karty pracy.
+
+{% include callout.html content="W kolumnie z *Linią produkcyjną* pojawia się też *Rodzaj* - jest to grupa technologii, do której przypisana jest technologia z danego zlecenia." type="info" %}
+
