@@ -7,6 +7,31 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.20 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.20</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.20</td>
+          <td>
+          <ul>
+            <li>wydruk zleceń na produkcję,</li>
+            <li>inwentaryzacja:</li>
+              <ul>
+                <li>rozbudowa zakładki Główna,</li>
+                <li>zakładka: Pozycje,</li>
+                <li>ilości spisane.</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.19 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.19</summary><br>
