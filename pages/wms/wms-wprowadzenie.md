@@ -7,7 +7,14 @@ permalink: wms-wprowadzenie.html
 
 qcadoo ma w swojej ofercie moduł magazynowy (szczegółową dokumentację znajdziesz tutaj: [Magazyn](/obsluga-magazynu)). Może on funkcjonować jako uzupełnienie systemu zarządzania produkcją (qcadoo MES), ale też jako osobny system (qcadoo WMS). Dużym wsparciem przy obsłudze dla pracowników jest aplikacja qcadoo WMS mobile, działająca na systemie Android (zatem do wykorzystania np. na telefonach) - dzięki niej pracownik szybciej znajdzie lokalizację produktu, wyda potrzebną listę surowców czy przyjmie dostawę. Aplikacja eliminuje dodatkowe papiery, na których magazynier do tej pory ewidencjonował swoją pracę. 
 
-W rozdziałach poniżej znajdziesz opis dostępnych w aplikacji funkcjonalności.
+{% include callout.html content="Aplikacja mobilna jest końcówką do systemu qcadoo. Bez systemu nie działa. Jeśli pobrałeś aplikację ze sklepu Google Play, napisz do nas, a udostępnimy Ci do testów na 30 dni system qcadoo." type="warning" %}
+
+<span style="font-size:1.2em;" class="label label-primary">Aby uzyskać dostęp do systemu, wypełnij formularz kontaktowy [www.qcadoo.com](https://www.qcadoo.com/zobacz-qcadoo/)</span>
+
+<br/>
+<br/>
+
+<u>W rozdziałach poniżej znajdziesz opis dostępnych w aplikacji funkcjonalności.</u>
 
 ## Wymagania sprzętowe
 
@@ -20,9 +27,11 @@ Aplikacja działa w języku polskim i angielskim. Wyboru języka dokonaj w ustaw
 
 ## Instalacja i aktualizacja aplikacji
 
-Aplikacja qcadoo WMS mobile działa zawsze z systemem qcadoo MES/WMS. Niezbędny jest zakup licencji do pełnego systemu. Zaloguj się do swojej instancji qcadoo i wejdź w **Parametry > Parametry ogólne** i kliknij przycisk {% include inline_image.html file="przyciskPobierzAplikacjeQcadooWMSMobile.png" alt="Przycisk Pobierz aplikację qcadoo WMS mobile" %}
+Aplikacja qcadoo WMS mobile działa zawsze z systemem qcadoo MES/WMS. Niezbędny jest zakup licencji do pełnego systemu. Są dwa sposoby na pobranie aplikacji na swoje urządzenie:
 
-Pobierzesz w ten sposób aplikację na Swój komputer. Skopiuj plik na telefon lub tablet z androidem i zainstaluj.
+1. Zaloguj się do swojej instancji qcadoo i wejdź w **Parametry > Parametry ogólne** i kliknij przycisk {% include inline_image.html file="przyciskPobierzAplikacjeQcadooWMSMobile.png" alt="Przycisk Pobierz aplikację qcadoo WMS mobile" %}. Pobierzesz w ten sposób aplikację na Swój komputer. Skopiuj plik na telefon lub tablet z androidem i zainstaluj.
+
+2. Pobierz aplikację ze sklepu Google Play i zaistaluj.
 
 Po zainstalowaniu aplikacji na urządzeniu, uruchom ją i wyraź zgodę na wszystkie potrzebne qcadoo uprawnienia (musimy mieć dostęp do aparatu). 
 <br/>

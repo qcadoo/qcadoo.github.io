@@ -7,6 +7,30 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.21 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.21</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.21</td>
+          <td>
+          <ul>
+            <li>inwentaryzacja:</li>
+              <ul>
+                <li>obsługa jednostki dodatkowej,</li>
+                <li>rozliczenie,</li>
+                <li>zakończenie.</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.20 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.20</summary><br>
@@ -59,7 +83,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.18 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.18</summary><br>
     <table class="changelog-table" border>
         <tr>
@@ -78,7 +102,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.17 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.17</summary><br>
     <table class="changelog-table" border>
         <tr>
