@@ -7,6 +7,25 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.22 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.21</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.21</td>
+          <td>
+          <ul>
+            <li>prace nad obsługą inwentaryzacji z aplikacji qcadoo WMS mobile</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.21 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.21</summary><br>
@@ -57,7 +76,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.19 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.19</summary><br>
     <table class="changelog-table" border>
         <tr>
