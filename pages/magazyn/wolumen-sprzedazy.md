@@ -15,9 +15,9 @@ Z poziomu listy wolumenów kliknij {% include inline_image.html file="newIcon24.
 
 Określ:
 
-1. **Produkt**
-2. **Dzienny wolumen sprzedaży**
-3. **Optymalny stan magazynowy** - dana opcjonalna, potrzebna do stworzenia zlecenia produkcyjnego oraz określenia w nim ilości wyrównującej aktualnego stanu magazynowego zasobu do określonego stanu optymalnego
+1. **Produkt**,
+2. **Dzienny wolumen sprzedaży**,
+3. **Optymalny stan magazynowy** - dana opcjonalna, potrzebna do stworzenia zlecenia produkcyjnego oraz określenia w nim ilości wyrównującej aktualny stan magazynowy zasobu do określonego stanu optymalnego
 
 Po podaniu wymaganych danych uzupełnione zostaną pola:
 
@@ -26,7 +26,7 @@ Po podaniu wymaganych danych uzupełnione zostaną pola:
 
 {% include lightbox.html file="magazynWolumenSprzedazyEdycja.png" alt="Edycja wolumenu" caption="Edycja wolumenu" %}
 
-Z poziomu szczegółów wolumenu sprzedaży możesz dodać również zlecenie produkcyjne. Po kliknięciu w {% include inline_image.html file="utworzZlecenieProdukcyjne.png" alt="Przycisk Dodaj nowe zlecenie produkcyjne" %} sprawdzimy czy aktualny stan magazynowy jest mniejszy niż podana optymalna ilość zasobu. Jeśli tak - stworzymy zlecenie produkcyjne, które wyrówna tę różnicę. 
+Z poziomu szczegółów wolumenu sprzedaży możesz dodać zlecenie produkcyjne. Po kliknięciu w {% include inline_image.html file="utworzZlecenieProdukcyjne.png" alt="Przycisk Dodaj nowe zlecenie produkcyjne" %} sprawdzimy, czy aktualny stan magazynowy jest mniejszy niż podana optymalna ilość zasobu. Jeśli tak - stworzymy zlecenie produkcyjne, które wyrówna tę różnicę. 
 
 {% include callout.html content="Jeśli technologia produktu ma zdefiniowaną minimalną opłacalną ilość, to sprawdzamy, czy wyliczona ilość jest od niej większa. Jeśli nie - podpowiemy minimalną ilość z technologii" type="warning" %}
 
@@ -38,4 +38,4 @@ Wolumeny sprzedaży nie muszą być tworzone pojedynczo - wystarczy, że kliknie
 
 Wybierz **produkty**, **dzienny wolumen sprzedaży** oraz opcjonalnie optymalny stan magazynowy. Następnie kliknij {% include inline_image.html file="dodajWolumeny.png" alt="Dodaj wolumeny" %}, a my stworzymy wolumeny sprzedaży podanych produktów.
 
-{% include callout.html content="Wszystkie wolumeny sprzedaży produktu utworzone zbiorczo mają taki sam dzienny wolumen i optymalny stan magazynowy" type="warning" %}
+{% include callout.html content="Wszystkie wolumeny sprzedaży produktu utworzone zbiorczo, mają taki sam dzienny wolumen i optymalny stan magazynowy" type="warning" %}

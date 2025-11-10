@@ -18,11 +18,11 @@ Przejdź do zakładki **Pokrycie zapotrzebowania**, aby przeanalizować wyniki:
 {% include lightbox.html file="startOpPokryciePokrycie.png" alt="Pokrycie zapotrzebowania - zakładka Pokrycie zapotrzebowania" caption="Pokrycie zapotrzebowania - zakładka Pokrycie zapotrzebowania" %}
 
 Interesują Cię przede wszystkim następujące informacje:
-1. jakie surowce będą Ci potrzebne do realizacji otwartych zleceń produkcyjnych - w tabeli masz gotową listę **produktów** plus informację o **potrzebnej ilości** (pamiętaj, że jest to suma pod wszystkie zaplanowane zlecenia. Jeśli chcesz zobaczyć konkretne informacje pod dane zlecenia, kliknij w podlinkowany wiersz)
-2. czy masz wystarczający stan magazynowy, aby zrealizować produkcję - tu z pomocą przyjdzie kolumna **Magazyn**
-3. kiedy najpóźniej musisz zamówić materiały, by zdążyć na moment rozpoczęcia produkcji - informacja ta zawarta jest w kolumnie **Zamów najpóźniej** (sięgamy tu po informacje o buforze dostawy ustawionym w domyślnym dostawcy produktu. Aby dana się pojawiła, musisz odpowiednio wprowadzić informacje do systemu. Tu znajdziesz opis jak to zrobić: [firmy, zakładka Sprzedaje](/firmy))
-4. czy surowce są już zamówione - informację odczytasz z kolumny **Dostawa**, a szczegóły odnośnie numeru zamówienia i planowanego terminu dostawy otrzymasz, klikając w podlinkowany wiersz tabeli
-5. czy komponenty są już zlecone do produkcji - podobnie jak wyżej: sumaryczna liczba do odczytania z kolumny **Produkcja**, a szczegóły o zleceniu i dacie jego rozpoczęcia w szczegółach danego wpisu
+1. jakie surowce będą Ci potrzebne do realizacji otwartych zleceń produkcyjnych - w tabeli masz gotową listę **produktów** plus informację o **potrzebnej ilości** (pamiętaj, że jest to suma pod wszystkie zaplanowane zlecenia. Jeśli chcesz zobaczyć konkretne informacje pod dane zlecenia, kliknij w podlinkowany wiersz),
+2. czy masz wystarczający stan magazynowy, aby zrealizować produkcję - tu z pomocą przyjdzie kolumna **Magazyn**,
+3. kiedy najpóźniej musisz zamówić materiały, by zdążyć na moment rozpoczęcia produkcji - informacja ta zawarta jest w kolumnie **Zamów najpóźniej** (sięgamy tu po informacje o buforze dostawy ustawionym w domyślnym dostawcy produktu. Aby dana się pojawiła, musisz odpowiednio wprowadzić informacje do systemu. Tu znajdziesz opis jak to zrobić: [firmy, zakładka Sprzedaje](/firmy)),
+4. czy surowce są już zamówione - informację odczytasz z kolumny **Dostawa**, a szczegóły odnośnie numeru zamówienia i planowanego terminu dostawy otrzymasz, klikając w podlinkowany wiersz tabeli,
+5. czy komponenty są już zlecone do produkcji - podobnie jak wyżej: sumaryczna liczba do odczytania z kolumny **Produkcja**, a szczegóły o zleceniu i dacie jego rozpoczęcia w szczegółach danego wpisu.
 
 Pokrycie zapotrzebowania pozwala też spojrzeć bardziej globalnie, patrząc na całe zlecenia. Kliknij w przycisk: {% include inline_image.html file="przyciskGenerujAnalizeDlaZlecen.png" alt="Generuj analizę dla zleceń" %}. Dzięki temu w zakładce **Analiza dla zleceń** dostaniesz informacje, które zlecenia mają już komplet produktów wejściowych i można rozpocząć produkcję.
 

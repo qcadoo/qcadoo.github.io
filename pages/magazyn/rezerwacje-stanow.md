@@ -13,15 +13,15 @@ Zarezerwować można ogólnie [stan](/stany-magazynow), albo konkretny [zasób](
 Aby zarezerwować zasób konieczne jest uzupełnienie go w pozycji dokumentu.
 
 Aby rezerwacje mogły być tworzone, konieczne jest ustawienie parametrów:
-1. aby szkicowe dokumenty rezerwowały stan, zaznacz parametr **Szkicowe dokumenty rezerwują stan** w definicji [magazynu](/magazyny) --> Magazyn > Magazyny > zakładka: Metoda rozchodu i atrybuty dokumentów w szczegółach danego magazynu
-2. aby wydania wewnętrzne rezerwowały stan, zaznacz parametr **Wydania wewnętrzne rezerwują stany** w parametrach Wydań --> Parametry > Parametry zaopatrzenia > zakładka: Wydanie wewnętrzne
+1. aby szkicowe dokumenty rezerwowały stan, zaznacz parametr **Szkicowe dokumenty rezerwują stan** w definicji [magazynu](/magazyny) --> *Magazyn > Magazyny > zakładka: Metoda rozchodu i atrybuty dokumentów* w szczegółach danego magazynu
+2. aby wydania wewnętrzne rezerwowały stan, zaznacz parametr **Wydania wewnętrzne rezerwują stany** w parametrach Wydań --> *Parametry > Parametry zaopatrzenia > zakładka: Wydanie wewnętrzne*
 
-Wszystkie rezerwacje wprowadzone na dany moment możesz podejrzeć w Magazyn > Rezerwacje stanów
+Wszystkie rezerwacje wprowadzone na dany moment możesz podejrzeć w **Magazyn > Rezerwacje stanów**:
 
 {% include lightbox.html file="magazynRezerwacjeStanow.png" alt="Rezerwacje stanów" caption="Lista rezerwacji stanów" %}
 
 Rezerwacje do wydań wewnętrznych są przekształcane na rezerwacje do dokumentu, w momencie wydania całowitego lub częściowego produktów przez wydanie.
 Rezerwacje są usuwane, gdy dokument magazynowy zostaje zaakceptowany. 
 
-Rezerwacje zasobów pod zlecenie produkcyjne przeprowadzane są z poziomu [szczegółowego zapotrzebowania](/zmiana-stanu-zapotrzebowania#rezerwacja-zasobów). Należy wskazać w kontekście planowanego do zużycia surowca jakie konkretne zasoby magazynowe mają być rozchodowane. 
+Rezerwacje zasobów pod zlecenie produkcyjne przeprowadzane są z poziomu [szczegółowego zapotrzebowania](/zmiana-stanu-zapotrzebowania#rezerwacja-zasobów). Należy wskazać w kontekście planowanego do zużycia surowca, jakie konkretne zasoby magazynowe mają być rozchodowane. Zarezerwowane zasoby widoczne są w [terminalu rejestracji produkcji](/terminal) i z automatu są rozchodowywane pod zlecenie.
  

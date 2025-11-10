@@ -6,19 +6,22 @@ permalink: miejsca-skladowania.html
 Miejsca składowania to wydzielone na magazynie dokładniejsze lokalizacje. Wprowadzenie ich na magazynie pozwoli na jednoznaczne ustalenie gdzie dany produkt się znajduje, bez konieczności przeszukiwania każdej półki na regale i każdego kartonu tam ułożonego.
 
 Gdzie wykorzystasz miejsca składowania w qcadoo? 
-- przyjmowanie dostaw może być realizowane na dokładną lokalizację
-- dokumenty magazynowe przychodowe będą mogły tworzyć zasoby ze wskazaniem na miejsce składowania
-- dokumenty magazynowe rozchodowe będą informowały o tym z jakiego miejsca należy pobrać zasób
-- stany magazynowe będzie można analizować z dokładnością do miejsca składowania
-- inwentaryzację będzie można przeprowadzać uwzględniając lokalizację
-- w wydaniach wewnętrznych program poinformuje z jakiego miejsca i na jakie miejsce należy produkt przesunąć
+- przyjmowanie dostaw może być realizowane na dokładną lokalizację,
+- wyroby wytworzone mogą być w terminalu przyjmowane na konkretne miejsce składowania,
+- dokumenty magazynowe przychodowe będą mogły tworzyć zasoby ze wskazaniem na miejsce składowania,
+- dokumenty magazynowe rozchodowe będą informowały o tym z jakiego miejsca należy pobrać zasób,
+- przesunięte produkty międzymagazynowo mogą być przyjmowane na wskazane miejsce składowania, np. buforowe,
+- stany magazynowe będzie można analizować z dokładnością do miejsca składowania,
+- inwentaryzację będzie można przeprowadzać uwzględniając lokalizację,
+- w wydaniach wewnętrznych program poinformuje z jakiego miejsca i na jakie miejsce należy produkt przesunąć.
+
 
 Zainteresowany? Wierzę, że tak! 
 Zacznij zatem wprowadzać miejsca składowania do qcadoo. Zanim jednak do tego przystąpisz, opowiem Ci o tym jakie są dostępne metody definiowania - a są aż trzy.
 
-1. ręczne dodawanie każdego miejsca z osobna
-2. dodanie wielu miejsc poprzez generator wbudowany w qcadoo
-3. dodanie wielu miejsc na podstawie listy sporządzonej w Excelu
+1. ręczne dodawanie każdego miejsca z osobna,
+2. dodanie wielu miejsc poprzez generator wbudowany w qcadoo,
+3. dodanie wielu miejsc na podstawie listy sporządzonej w Excelu.
 
 ## Ręczne wprowadzanie miejsc składowania
 

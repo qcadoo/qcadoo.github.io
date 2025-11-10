@@ -10,7 +10,7 @@ Aby stworzyć plan wejdź w **Planowanie > Plan na stację roboczą i pracownika
 
 {% include lightbox.html file="startOpPlanGlowna.png" alt="Plan na stację roboczą - zakładka Główna" caption="Plan na stację roboczą - zakładka Główna" %}
 
-Przejdź do zakładki **Dane wejściowe**, kliknij przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Dodaj istniejący" %} i wskaż zlecenia do przeplanowania.
+Przejdź do zakładki **Dane wejściowe**, kliknij przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Dodaj istniejący" %} i wskaż zlecenia do zaplanowania.
 
 {% include lightbox.html file="startOpPlanDaneWejsciowe.png" alt="Plan na stację roboczą - zakładka Dane wejściowe" caption="Plan na stację roboczą - zakładka Dane wejściowe" %}
 
@@ -30,7 +30,7 @@ albo na **wykresie Gantta**. Masz do dyspozycji dwa widoki:
 {% include lightbox.html file="startOpPlanGanttPracownika.png" alt="Plan na stację roboczą - Gantt pracowników" caption="Plan na stację roboczą - Gantt pracownikólw" %}
 
 
-Przedstawione wyliczenia są na ten moment tylko propozycją. Możesz się z nią nie zgadzać, zmienić kryteria planowania w zakładce Główna i ponownie wygenerować plan. Możesz też zmienić zakres planowanych zleceń i ponownie wywołać funkcję generowania. Możesz też nanieść do planu ręczne poprawki. Gdy już plan produkcyjny będzie gotowy, kliknij przycisk {% include inline_image.html file="przyciskZatwierdz.png" alt="Zatwierdź" %}. Spowoduje to utworzenie zadań operacyjnych do zleceń ze wskazanymi stacjami, pracownikami i datami oraz wyliczenie w zleceniach produkcyjnych daty rozpoczęcia i daty zakończenia. 
+Przedstawione wyliczenia są na ten moment tylko propozycją. Możesz się z nią nie zgadzać, zmienić kryteria planowania i ponownie wygenerować plan. Możesz też zmienić zakres planowanych zleceń i ponownie wywołać funkcję generowania. Możesz też nanieść do planu ręczne poprawki. Gdy już plan produkcyjny będzie gotowy, kliknij przycisk {% include inline_image.html file="przyciskZatwierdz.png" alt="Zatwierdź" %}. Spowoduje to utworzenie zadań operacyjnych do zleceń ze wskazanymi stacjami, pracownikami i datami oraz wyliczenie w zleceniach produkcyjnych daty rozpoczęcia i daty zakończenia. 
 
 Kolejnym krokiem planisty będzie **akceptacja zleceń**, np. z listy **Planowanie > Planowanie zleceń**. Należy tam zaznaczyć wszystkie zaplanowane oczekujące zlecenia i kliknąć przycisk {% include inline_image.html file="przyciskAkceptuj.png" alt="Akceptuj" %}. Zmiana statusu oznacza, że zlecenia mają zostać zrealizowane.
 
@@ -42,7 +42,7 @@ Jeśli natomiast **<u>będziesz działać tylko w qcadoo MES, bez algorytmów pl
 3. zadania do zlecenia mogą się utworzyć też poprzez wywołanie funkcji czasochłonności w zleceniu - po wyliczeniu czasu trwania poszczególnych operacji, funkcją [Utwórz z symulacji plan operacyjny](/planowanie-operacyjne.html#dodawanie-zadań-z-poziomu-kalkulacji-czasochłonności-zlecenia), zostaną założone zadania z odpowiednią datą. 
 4. zadania, które mają daty i stacje robocze widoczne są na wykresie [Gantta zadań operacyjnych](/gantt-zadan-operacyjnych). Tam wystarczy je odpowiednio poukładać, tworząc plan produkcyjny 
 5. zadania, które nie mają przypisanej stacji roboczej, w [Gantt zadań operacyjnych](/gantt-zadan-operacyjnych), widoczne są w buforze (tabeli z prawej strony) - przy przeciąganiu zadania na obszar planowania, do konkretnej stacji, wyliczony zostanie czas trwania zadania, na podstawie norm. Czas jest przeliczany zawsze, gdy zmieni się przypisana stacja, albo z pustej na konkretną, albo z jednej na drugą
-5. ułatwiający może okazać się też parametr zleceń [Podpowiadaj datę rozpoczęcia zlecenia przy tworzeniu zlecenia](/parametry-zlecen.html#główna). Dzięki niemu do nowo dodanego zlecenia możemy podpowiedzieć datę rozpoczęcia - na podstawie czego? Sprawdź możliwe ustawienia parametru [Data rozpoczęcia podpowiadana na podstawie](/parametry-zlecen.html#główna)
+5. ułatwiający może okazać się też parametr zleceń [Podpowiadaj datę rozpoczęcia zlecenia przy tworzeniu zlecenia](/parametry-zlecen.html#główna). Dzięki niemu do nowo dodanego zlecenia, możemy podpowiedzieć datę rozpoczęcia - na podstawie czego? Sprawdź możliwe ustawienia parametru [Data rozpoczęcia podpowiadana na podstawie](/parametry-zlecen.html#główna)
 
 Wiadomo już co trzeba wyprodukować. Kolej na ustalenie jakie surowce będą potrzebne do realizacji zleceń i czy są wystarczające stany magazynowe.
 

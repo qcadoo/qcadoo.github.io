@@ -100,6 +100,7 @@ Dokumenty magazynowe powstają jako efekty wykonywanych w qcadoo następujących
 7. **zdarzenia (utrzymanie ruchu)** - jeśli w zdarzeniu zarejestrowane zostały użyte części, to na zamknięciu zdarzenia tworzone są dokumenty RW
 8. **zdarzenia planowane (utrzymanie ruchu)** - podobnie jak w zdarzeniach: jeśli do wykonania zdarzenia planowanego konieczne było zużycie części, to qcadoo rozchoduje je tworząc dokument RW w momencie zamknięcia zdarzenia planowanego
 9. **zlecenia na usługi** - wydanie surowców podwykonawcy spowoduje utworzenie dokumentu WZ. Przyjęcie produktów finalnych po przetworzeniu przez podwykonawcę - to dodanie dokumentu PZ
+10. **inwentaryzacja** - w momencie zakończenia inwentaryzacji, do wszystkich nadwyżek tworzony jest dokument PW, natomiast do ujawnionych niedoborów - dokument RW. Dokumenty będą miały przypisanie do inwentaryzacji (numer inwentaryzacji widoczny będzie w kolumnie w liście dokumentów), a w opisie znajdzie się informacja, że dokument jest rozliczeniem niedoborów/nadwyżek inwentaryzacyjnych.
 
 --- 
 ## Funkcje do wywołania w dokumencie magazynowym

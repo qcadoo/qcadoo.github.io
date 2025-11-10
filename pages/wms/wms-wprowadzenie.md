@@ -80,6 +80,7 @@ Twoim oczom powinien ukazać się ekran główny qcadoo WMS mobile, z listą dos
 - [przyjęcia](/wms-przyjecia-wprowadzenie),
 - [przesunięcia](/wms-przesuniecia-wprowadzenie),
 - [wydania](/wms-wydania-wprowadzenie),
+- [inwentaryzacja](/wms-inwentaryzacja),
 - [stan magazynowy](/wms-stan-wprowadzenie).
 
 {% include lightbox.html file="wmsMenuGlowne.png" alt="Menu główne" caption="Menu główne" %}

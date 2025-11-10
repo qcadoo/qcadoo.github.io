@@ -34,7 +34,7 @@ Wskaż, które informacje o produkcie, powinny znaleźć się w kafelku zlecenia
 - _zatwierdzonej produkcji_
 - _zaraportowanej produkcji_
 
-Zatwierdzona produkcja, to ta ilość wyprodukowana, która pochodzi z zaakceptowanych rekordów rejestracji. Zaraportowana natomiast, to ta, która pochodzi zarówno z zaakceptowanych jak i szkicowych rekordów rejestracji. Innymi słowy - jeśli na dashboardzie ilość wykonana ma się zmieniać już po zaraportowaniu z terminala, bez względu na to, czy rejestracja została zaakceptowana, to wybierz opcję: zaraportowanej produkcji
+Zatwierdzona produkcja, to ta ilość wyprodukowana, która pochodzi z zaakceptowanych rekordów rejestracji. Zaraportowana natomiast, to ta, która pochodzi zarówno z zaakceptowanych jak i szkicowych rekordów rejestracji. Innymi słowy - jeśli na dashboardzie ilość wykonana ma się zmieniać już po zaraportowaniu z terminala, bez względu na to, czy rejestracja została zaakceptowana, to wybierz opcję: zaraportowanej produkcji. Parametr działa dla zleceń widocznych na dashboardzie.
 
 {:start="5"}
 

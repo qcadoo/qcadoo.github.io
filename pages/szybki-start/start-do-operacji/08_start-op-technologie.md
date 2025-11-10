@@ -3,19 +3,19 @@ title: "Szybki START - praca z zadaniami - KROK 8. technologia"
 permalink: 08_start-op-technologie.html 
 ---
 
-Technologia to serce qcadoo. To dzięki technologii wiemy w jaki sposób będzie realizowana produkcja: jakie czynności są do wykonania, w jakiej kolejności, ile będą trwać, gdzie mają być przeprowadzone, jakie materiały mają być zużyte i w jakich ilościach, z jakich magazynów mają być pobierane surowce i gdzie będą przyjmowane wyroby, czy jakie narzędzia mają być użyte. Wszystkie te informacje (a nawet trochę więcej - o pełnej funkcjonalności poczytasz [tutaj](/technologie)) zawarte są w technologii wyrobu.
+Technologia to serce qcadoo. To dzięki technologii wiemy w jaki sposób będzie realizowana produkcja: jakie czynności są do wykonania, w jakiej kolejności, ile będą trwać, gdzie mają być przeprowadzone, jakie materiały mają być zużyte i w jakich ilościach, z jakich magazynów mają być pobierane surowce i gdzie będą przyjmowane wyroby, czy jakie narzędzia mają być użyte. Wszystkie te informacje (a nawet trochę więcej - o pełnej funkcjonalności poczytasz [tutaj](/technologie)), zawarte są w technologii wyrobu.
 
 ### Główna
 
-Aby dodać technologię wejdź w **Technologie > Technologie** i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**. Zacznij od wypełnienia **Produktu** - dzięki temu wypełnią się **Numer** i **Nazwa**:
+Aby dodać technologię, wejdź w **Technologie > Technologie** i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**. Zacznij od wypełnienia **Produktu** - dzięki temu wypełnią się **Numer** i **Nazwa**:
 
 {% include lightbox.html file="startOpTechnologiaGlowna.png" alt="Technologia - zakładka Główna" caption="Technologia - zakładka Główna" %}
 
 ### Operacje
 
-Przejdź do zakładki **Drzewo**. Rozpoczynając od ostatniej wykonywanej operacji, wskazuj kolejne czynności z przygotowanej wcześniej listy, układając je w drzewo. Jak? W obszarze **Operacje** z lewej strony okna, kliknij przycisk {% include inline_image.html file="przyciskDodajOperacjePlus.png" alt="Przycisk Dodaj operacje" %} **Dodaj operacje**. W uruchomionym oknie wybierz **Operację**. Kliknij {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %} **Zapisz**. 
+Przejdź do zakładki **Drzewo**. Rozpoczynając od ostatniej wykonywanej operacji, wskazuj kolejne czynności z przygotowanej wcześniej listy, układając je w drzewo. Jak? W obszarze **Operacje**, z lewej strony okna, kliknij przycisk {% include inline_image.html file="przyciskDodajOperacjePlus.png" alt="Przycisk Dodaj operacje" %} **Dodaj operacje**. W uruchomionym oknie wybierz **Operację**. Kliknij {% include inline_image.html file="zapisz.png" alt="Przycisk Zapisz" %}. 
 
-{% include callout.html content="Jeśli w technologii tego wyrobu operacja ma wyglądać inaczej niż w przyjętym szablonie, to to jest dobry moment, by nanieść poprawki. Ale spokojnie - jeśli nie zrobisz tego teraz, możesz poprawić czy uzupełnić dane później. Masz na to czas aż do akceptacji technologii." type="warning" %}
+{% include callout.html content="Jeśli w technologii tego wyrobu operacja ma wyglądać inaczej niż w przyjętym szablonie, to to jest dobry moment, by nanieść poprawki. Ale spokojnie - jeśli nie zrobisz tego teraz, możesz poprawić, czy uzupełnić dane później. Masz na to czas aż do akceptacji technologii." type="warning" %}
 
 Następnie kliknij przycisk {% include inline_image.html file="przyciskPowrot.png" alt="Przycisk Powrót" %} - wybrana operacja zostanie wczytana do drzewa technologii. Kliknij w tę operację i ponownie dodaj kolejną czynność, powtarzając kroki opisane wyżej. Każda wybrana operacja będzie operacją poprzedzającą tą, która w drzewie została zaznaczona. 
 
@@ -35,7 +35,7 @@ Jeśli do szablonu operacji przypisany był produkt, to został on wczytany jako
 
 Kolejnym krokiem jest utworzenie listy materiałów, które muszą być zużyte w danej operacji. W dolnej tabeli z prawej strony (**Produkty wejściowe**) kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Nowy" %}, podaj **Produkt** i **Ilość** konieczną do zużycia. Zapisz. I tak dodaj wszystkie surowce. Jeśli lista jest długa, możesz skorzystać z [importu pozycji z .xlsx](/technologie-szczegoly.html#import-produktów-wejściowych-technologii-z-excela).
 
-I teraz ważna rzecz - aby technologia była poprawnie zdefiniowana jeden produkt wyjściowy operacji musi znaleźć się jako wejście do operacji kolejnej. Możesz albo ręcznie dodać produkty, albo skorzystać z funkcji {% include inline_image.html file="przyciskPrzeniesProduktyDoKolejnychOper.png" alt="Przenieś produkty do kolejnych operacji" %} **Przenieś produkty do kolejnych operacji**. Funkcja ta może wywoływać się automatycznie w momencie sprawdzania technologii, jeśli ustawisz tak w [parametrach](/parametry-technologia.html#główna).
+I teraz ważna rzecz - aby technologia była poprawnie zdefiniowana, jeden produkt wyjściowy operacji musi znaleźć się jako wejście do operacji kolejnej. Możesz albo ręcznie dodać produkty, albo skorzystać z funkcji {% include inline_image.html file="przyciskPrzeniesProduktyDoKolejnychOper.png" alt="Przenieś produkty do kolejnych operacji" %} **Przenieś produkty do kolejnych operacji**. Funkcja ta może wywoływać się automatycznie w momencie sprawdzania technologii, jeśli ustawisz tak w [parametrach](/parametry-technologia.html#główna).
 
 Najtrudniejsze za Tobą. Przejdźmy do kolejnych, istotnych zakładek technologii.
 
@@ -53,11 +53,11 @@ W zakładce **Działy** ustawiasz, czy produkcja będzie w całości realizowana
 
 ### Linie/stacje
 
-W zakładce **Linie/stacje** w technologii raportowanej z dokładnością do operacji widoczne są tabele: linii produkcyjnych i stacji roboczych. To stacje robocze są tutaj najistotniejsze. Powinna znaleźć się tu lista stacji, które mogą wykonać każdą z zaplanowanych w drzewie czynności. Jeśli w kroku 7. dla operacji przypisane zostały domyślne stacje, to zostaną tutaj wczytane. Jeśli przy produkcji tego wyrobu lista jest inna - zmodyfikuj ją w tej zakładce. Jak? W lewej tabeli kliknij w operację, a w prawej tabeli utwórz właściwą listę stacji roboczych.
+W zakładce **Linie/stacje** w technologii raportowanej z dokładnością do operacji, widoczne są tabele: linii produkcyjnych i stacji roboczych. To stacje robocze są tutaj najistotniejsze. Powinna znaleźć się tu lista stacji, które mogą wykonać każdą z zaplanowanych w drzewie czynności. Jeśli w kroku 7. dla operacji przypisane zostały domyślne stacje, to zostaną tutaj wczytane. Jeśli przy produkcji tego wyrobu lista jest inna - zmodyfikuj ją w tej zakładce. Jak? W lewej tabeli kliknij w operację, a w prawej tabeli utwórz właściwą listę stacji roboczych.
 
 {% include lightbox.html file="startOpTechnologiaStacje.png" alt="Technologia - stacje robocze" caption="Technologia - stacje robocze" %}
 
-Stacji roboczych dla danej operacji może być wiele. Na etapie planowania, system dobierze miejsce najlepsze na dany moment.
+Stacji roboczych dla danej operacji może być wiele. Wybór właściwej powinien być dokonany na etapie tworzenia planu. Albo ręcznie (np. z poziomu Gantta) przez planistę, albo za pomocą algorytów planera (w dokupionym pakiecie APS). 
 
 Linia produkcyjna to informacja drugorzędna - wskazana tutaj linia (oznaczona jako domyślna) będzie uzupełniona w zleceniu produkcyjnym. Jeśli jej nie wypełnisz, linia zostanie wypełniona na podstawie parametrów zlecenia. I w większości przypadków to wystarczy. 
 

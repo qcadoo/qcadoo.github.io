@@ -77,7 +77,7 @@ Teraz możesz już zlecać produkcję.
 <br/>
 <br/>
 
-**Krok 8/10: [Zleć produkcję](/08_start-aps-zadania)**
+**Krok 8/10: [Zleć produkcję](/08_start-aps-zlecenia)**
 
 
 

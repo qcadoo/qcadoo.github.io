@@ -1257,6 +1257,22 @@ entries:
               output: web
               url: /wms-przyjecie-reczne.html
 
+        - title: qcadoo WMS mobile - wydania
+          output: web
+          subfolderitems:
+
+            - title: Wprowadzenie do modulu Wydania aplikacji qcadoo WMS mobile
+              output: web
+              url: /wms-wydania-wprowadzenie.html
+
+            - title: Wydania zewnętrzne
+              output: web
+              url: /wms-wz.html
+
+            - title: Rozchód wewnętrzny
+              output: web
+              url: /wms-rw.html
+
         - title: qcadoo WMS mobile - przesunięcia
           output: web
           subfolderitems:
@@ -1281,21 +1297,13 @@ entries:
               output: web
               url: /wms-zmiana-miejsca-sklad.html
 
-        - title: qcadoo WMS mobile - wydania
+        - title: qcadoo WMS mobile - inwentaryzacja
           output: web
           subfolderitems:
 
-            - title: Wprowadzenie do modulu Wydania aplikacji qcadoo WMS mobile
+            - title: Inwentaryzacja
               output: web
-              url: /wms-wydania-wprowadzenie.html
-
-            - title: Wydania zewnętrzne
-              output: web
-              url: /wms-wz.html
-
-            - title: Rozchód wewnętrzny
-              output: web
-              url: /wms-rw.html
+              url: /wms-inwentaryzacja.html
 
   - title: qcadoo APS - SZYBKI START
     output: web

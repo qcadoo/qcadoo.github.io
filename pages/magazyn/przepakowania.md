@@ -14,16 +14,16 @@ i kliknij {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj 
 {% include lightbox.html file="magazynPrzepakowanieGlowna.png" alt="Formatka dodawania przepakowania - zakładka Główna" caption="Formatka dodawania przepakowania - zakładka Główna" %}
 
 Uzupełnij dane nagłówkowe:
-- **magazyn** - wskaż magazyn, w ramach którego będzie organizowane przesunięcie wewnątrzmagazynowe
-- **miejsce składowania** - wskaź, gdzie odłożysz przygotowany nośnik. Miejsce składowania musi być zdefiniowane na magazynie wskazanym wyżej
-- **nośnik** - podaj numer nośnika, który jest kompletowany. Wszystkie pozycje tego przepakowania powinny zostać ułożone na tym nośniku
-- **typ nośnika** - wskaż jakiego typu nośnik zostanie przygotowany
+- **magazyn** - wskaż magazyn, w ramach którego będzie organizowane przesunięcie wewnątrzmagazynowe,
+- **miejsce składowania** - wskaź, gdzie odłożysz przygotowany nośnik. Miejsce składowania musi być zdefiniowane na magazynie wskazanym wyżej,
+- **nośnik** - podaj numer nośnika, który jest kompletowany. Wszystkie pozycje tego przepakowania powinny zostać ułożone na tym nośniku,
+- **typ nośnika** - wskaż jakiego typu nośnik zostanie przygotowany.
 
 Dodatkowo:
-- **numer** - możesz pole zostawić puste, wówczas na zapisie nadany zostanie z automatu
-- **data przepakowania** - podpowie się data bieżąca
-- **pracownik** - możesz wskazać, kto przepakował nośnik. Podpowie się pracownik przypisany do zalogowanego użytkownika
-- **opis** - w celu zostawienia dodatkowych informacji
+- **numer** - możesz pole zostawić puste, wówczas na zapisie nadany zostanie numer z automatu,
+- **data przepakowania** - podpowie się data bieżąca,
+- **pracownik** - możesz wskazać, kto przepakował nośnik. Podpowie się pracownik przypisany do zalogowanego użytkownika,
+- **opis** - w celu zostawienia dodatkowych informacji.
 
 I zapisz przyciskiem {% include inline_image.html file="przyciskZapisz.png" alt="Przycisk Zapisz" %}. Przejdź do zakładki **Pozycje** i dodaj pozycje, które mają zostać ułożone na nośniku. Kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %}
 
@@ -36,3 +36,5 @@ Uzupełnij **ilość** przesuwaną i zapisz. Powtórz czynność dla każdego pr
 {% include lightbox.html file="magazynPrzepakowaniaNoweZasoby.png" alt="Utworzone z przepakowania zasoby" caption="Utworzone z przepakowania zasoby" %}
 
 Dodatkowo, w pozycjach przepakowania, zostaną uzupełnione numery utworzonych zasobów.
+
+Przepakowanie może zostać utworzone z poziomu aplikacji [qcadoo WMS mobile](/wms-przesuniecia-przepakowanie).
