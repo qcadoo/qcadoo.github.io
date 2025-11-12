@@ -27,18 +27,30 @@ Aplikacja działa w języku polskim i angielskim. Wyboru języka dokonaj w ustaw
 
 ## Instalacja i aktualizacja aplikacji
 
-Aplikacja qcadoo WMS mobile działa zawsze z systemem qcadoo MES/WMS. Niezbędny jest zakup licencji do pełnego systemu. Są dwa sposoby na pobranie aplikacji na swoje urządzenie:
-
-1. Zaloguj się do swojej instancji qcadoo i wejdź w **Parametry > Parametry ogólne** i kliknij przycisk {% include inline_image.html file="przyciskPobierzAplikacjeQcadooWMSMobile.png" alt="Przycisk Pobierz aplikację qcadoo WMS mobile" %}. Pobierzesz w ten sposób aplikację na Swój komputer. Skopiuj plik na telefon lub tablet z androidem i zainstaluj.
-
-2. Pobierz aplikację ze sklepu Google Play i zaistaluj.
-
-Po zainstalowaniu aplikacji na urządzeniu, uruchom ją i wyraź zgodę na wszystkie potrzebne qcadoo uprawnienia (musimy mieć dostęp do aparatu). 
+Aplikacja qcadoo WMS mobile działa zawsze z systemem qcadoo MES/WMS. Niezbędny jest zakup licencji do pełnego systemu. 
 <br/>
 <br/>
-Pamiętaj o zezwoleniu na każdą nową aktualizację - zadbasz w ten sposób o działającą aplikację, zgodną z wersją systemu qcadoo MES/WMS.
 
-{% include callout.html content="Aktualizacje są automatyczne - gdy pojawi się nowa wersja, przy uruchomieniu aplikacji pojawi się komunikat z prośbą o aktualizację." type="info" %} 
+Aplikację na swoje urządzenie pobierzesz ze **sklepu Google Play**. Kliknij [TUTAJ](https://play.google.com/store/apps/details?id=com.qcadoo.wms&hl=pl) i ją zainstaluj. 
+<br/>
+<br/>
+
+**<span style="color:red">WAŻNE INFORMACJE</span>**:
+
+1. **WYŁĄCZ autoaktualizacje** aplikacji w Google Play. Jak to zrobić? Wejdź w naszą aplikację w sklepie Google Play, rozwiń menu w prawym górnym rogu i odznacz parametr Autoaktualizacja:
+
+{% include lightbox.html file="wmsWprowadzenieAutoaktualizacja.png" alt="Wyłączenie autoaktualizacji aplikacji w sklepie Google Play" caption="Wyłączenie autoaktualizacji aplikacji w sklepie Google Play" %}
+
+{:start="2"}
+
+2. ZAWSZE, gdy w aplikacji pojawi się komunikat o nowej wersji, **przeprowadź aktualizację**, klikając przycisk Instaluj. Jeśli wersja nie będzie aktualna, nie będzie możliwości korzystania z aplikacji.
+
+3. **wyjdź z aplikacji** na czas planowanej aktualizacji sparowanego systemu qcadoo (jeśli nie pamiętasz, o której godzinie, w co drugi wtorek otrzymujesz nową wersję, napisz do nas, a rozwiejemy wątpliwości). To jest tylko max 15 minut, a przerwa jest konieczna, by wyeliminować ewentualne błędy związane z pracą w aplikacji z niedostępnym systemem głównym.
+
+<br/>
+<br/>
+
+Po zainstalowaniu aplikacji na urządzeniu, uruchom ją i **wyraź zgodę** na wszystkie potrzebne qcadoo uprawnienia (musimy mieć dostęp do aparatu). 
 
 
 ## Parametryzacja systemu qcadoo
@@ -52,7 +64,7 @@ Aplikacja qcadoo WMS mobile współpracuje z systemem qcadoo. Aby praca przebieg
 ## Logowanie
 
 
-Użytkownicy aplikacji qcadoo WMS mobile definiowani są w systemie qcadoo MES lub qcadoo WMS. Użytkownik musi mieć dodane uprawnienia do aplikacji. 
+Użytkownicy aplikacji *qcadoo WMS mobile* definiowani są w systemie qcadoo MES lub qcadoo WMS. Użytkownik musi mieć dodane uprawnienia do aplikacji. 
 
 Właściwą grupą dla pracownika, który ma korzystać tylko z aplikacji jest: WMS mobile. Użytkownik ten będzie mógł też się zalogować do qcadoo MES lub qcadoo WMS, ale zobaczy tylko profil użytkownika i będzie mógł zmienić np. hasło logowania.
 
