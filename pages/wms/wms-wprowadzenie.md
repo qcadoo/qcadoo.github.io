@@ -9,7 +9,8 @@ qcadoo ma w swojej ofercie moduł magazynowy (szczegółową dokumentację znajd
 
 {% include callout.html content="Aplikacja mobilna jest końcówką do systemu qcadoo. Bez systemu nie działa. Jeśli pobrałeś aplikację ze sklepu Google Play, napisz do nas, a udostępnimy Ci do testów na 30 dni system qcadoo." type="warning" %}
 
-<span style="font-size:1.2em;" class="label label-primary">Aby uzyskać dostęp do systemu, wypełnij formularz kontaktowy [www.qcadoo.com](https://www.qcadoo.com/zobacz-qcadoo/). Zaznacz, że jesteś zainteresowany systemem qcadoo WMS.</span>
+<span style="font-size:1.2em;" class="label label-primary">Aby uzyskać dostęp do systemu, wypełnij formularz kontaktowy [www.qcadoo.com](https://www.qcadoo.com/zobacz-qcadoo/).</span>
+Zaznacz, że jesteś zainteresowany systemem qcadoo WMS.
 
 <br/>
 <br/>
