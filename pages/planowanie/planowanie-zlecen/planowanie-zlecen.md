@@ -28,11 +28,20 @@ Na liście znajdziesz wiele informacji o zleceniach produkcyjnych takich jak:
 - ilość braków, czyli produktów wyprodukowanych, ale nie spełniajacych wymagań jakościowych i nie nadających się do sprzedaży czy dalszej obróbki,
 - ilość produktu jaka pozostała do wyprodukowania,
 - wykonanie procentowe (kolumna może dodatkowo być oznaczona kolorami w zależności od procentu wykonania -> szczegóły znajdziesz poniżej),
+- produkty dodatkowe, zaplanowane do realizacji wraz z produktem finalnym,
 - numer zamówienia sprzedaży, w ramach którego realizowane jest dane zlecenie produkyjne,
 - linię produkcyjną,
 - dział,
 - kontrahenta,
-- kategoria zlecenia.
+- kategoria zlecenia,
+- priorytet - ustalający ważność danego zlecenia. Priorytet przydatny w planowaniu przez APS,
+- zmiana daty - kolumna informująca o tym, czy w zleceniu była zmianiona data,
+- kod zlecenia - będący kodem operacji pierwszej operacji danego zlecenia. Kod będzie mógł być wczytany w terminalu, w celu namierzenia zlecenia. Kod generuje się w momencie akceptacji zlecenia, podczas generowania kart pracy i podczas wydruku listy zleceń na produkcję,
+- produkt finalny - produkt zlecony z najwyższego powiązanego zlecenia na komponenty,
+- rodzaj - na podstawie grupy technologii,
+- rozmiar - rozmiar produktu zleconego,
+- asortyment - asortyment produktu zleconego.
+
 
 To tylko przykładowe informacje widoczne na liście zleceń. Możesz chcieć wyświetlać je wszystkie, jeśli jednak któreś z nich są dla Ciebie nadmiarowe, skorzystaj z funkcji ukrywania kolumn. Wybierz te kolumny, które są dla Ciebie ważne, kilkając {% include inline_image.html file="fileviewColumn16.png" alt="Przycisk Kolumny" %}.
 

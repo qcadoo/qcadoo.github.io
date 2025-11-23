@@ -7,6 +7,28 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
+<!-- VERSION 3.0.24 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.0.24</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.0.24</td>
+          <td>
+          <ul>
+            <li>qcadoo WMS mobile w sklepie Google Play,</li>
+            <li>nowe kolumny w liście planowanych zleceń: kod zlecenia, produkt finalny, rodzaj, rozmiar asortyment,</li>
+            <li>generowanie kodów operacji podczas akceptacji zlecenia produkcyjnego,</li>
+            <li>WMS mobile - inwentaryzacja - podział, oddawanie i zakończenie.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.0.23 -->
   <details open>
     <summary class="changelog-summary-h3">3.0.23</summary><br>
@@ -47,7 +69,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.21 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.21</summary><br>
     <table class="changelog-table" border>
         <tr>
