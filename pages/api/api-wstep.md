@@ -16,7 +16,7 @@ Do testów API można wykorzystać dowolnego klienta REST np. Talend API Tester.
 
 {% include lightbox.html file="responseExample.png" alt="Przykładowy response" caption="Przykładowy response" %}
 
-<span style="color:red">Proponowany przez nas proces integracji systemu zewnętrznego z qcadoo WMS jest następujący:</span>
+<span style="color:red">Proponowany przez nas proces integracji systemu zewnętrznego z qcadoo MES jest następujący:</span>
 
 1. Na bieżąco do qcadoo wysyłane są dane podstawowe jak: produkty ([API](/tworzenie-i-aktualizacja-produktow)), jednostki ([API](/tworzenie-i-aktualizacja-jednostek)), partie ([API](/aktualizuj-partie)), czy firmy ([API](/tworzenie-i-aktualizacja-firm)). Pozostałe dane, które możesz zintegrować znajdziesz w podrozdziale: **Dane podstawowe**.
 
