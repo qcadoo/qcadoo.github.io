@@ -20,15 +20,15 @@ Do testów API można wykorzystać dowolnego klienta REST np. Talend API Tester.
 
 1. Na bieżąco do qcadoo wysyłane są dane podstawowe jak: produkty ([API](/tworzenie-i-aktualizacja-produktow)), jednostki ([API](/tworzenie-i-aktualizacja-jednostek)), partie ([API](/aktualizuj-partie)), czy firmy ([API](/tworzenie-i-aktualizacja-firm)). Pozostałe dane, które możesz zintegrować znajdziesz w podrozdziale: **Dane podstawowe**.
 
-2. cały proces zlecania produkcji możesz rozpocząć od przesłania do qcadoo zamówień sprzedaży z systemu ERP ([API](/dodaj-zamowienie-sprzedazy)),
+2. Cały proces zlecania produkcji możesz rozpocząć od przesłania do qcadoo zamówień sprzedaży z systemu ERP ([API](/dodaj-zamowienie-sprzedazy)).
 
-3. teraz rozpisz produkcję w qcadoo, tworząc zlecenia, plany i przekaż do realizacji. Innymi słowy wykorzystaj wszystkie funkcjonalności, które qcadoo oferuje,
+3. Teraz rozpisz produkcję w qcadoo, tworząc zlecenia, plany i przekaż do realizacji. Innymi słowy wykorzystaj wszystkie funkcjonalności, które qcadoo oferuje.
 
-4. do poprawnej realizacji procesu niezbędne będą dostępne surowce. Stan magazynowy musi znaleźć się w qcadoo. Dokumenty przychodowe PZ możesz przesłać do qcadoo ([API](/api-wms-dodawanie-dokumentow-magazynowych)). Możesz też przesłać dostawę, czyli zamówienie zakupu ([API](/api-wms-dodawanie-dostaw)) i zrealizować ją w qcadoo. Efektem odbioru dostawy będzie dokument PZ. Jeśli potrzebujesz go w swoim ERP, możesz go z qcadoo pobrać ([API](/api-wms-pobieranie-dokumentow-magazynowych)),
+4. Do poprawnej realizacji procesu niezbędne będą dostępne surowce. Stan magazynowy musi znaleźć się w qcadoo. Dokumenty przychodowe PZ możesz przesłać do qcadoo ([API](/api-wms-dodawanie-dokumentow-magazynowych)). Możesz też przesłać dostawę, czyli zamówienie zakupu ([API](/api-wms-dodawanie-dostaw)) i zrealizować ją w qcadoo. Efektem odbioru dostawy będzie dokument PZ. Jeśli potrzebujesz go w swoim ERP, możesz go z qcadoo pobrać ([API](/api-wms-pobieranie-dokumentow-magazynowych)).
 
-5. efektem realizacji produkcji i akceptacji rekordów rejestracji są dokumenty RW i PW utworzone w qcadoo. I je również warto pobrać do ERP ([API](/api-wms-pobieranie-dokumentow-magazynowych)),
+5. Efektem realizacji produkcji i akceptacji rekordów rejestracji są dokumenty RW i PW utworzone w qcadoo. I je również warto pobrać do ERP ([API](/api-wms-pobieranie-dokumentow-magazynowych)).
 
-6. zakończeniem procesu produkcyjnego jest wydanie zamówionych wyrobów klientowi, za pomocą dokumentu WZ. Możesz go pobrać do ERP ([API](/api-wms-pobieranie-dokumentow-magazynowych)). Ale nie musisz - jeśli pobrałeś dokument PW w kroku poprzednim, to stan w ERP powinien być zapewniony i tam możesz zakończyć proces sprzedaży.
+6. Zakończeniem procesu produkcyjnego jest wydanie zamówionych wyrobów klientowi, za pomocą dokumentu WZ. Możesz go pobrać do ERP ([API](/api-wms-pobieranie-dokumentow-magazynowych)). Ale nie musisz - jeśli pobrałeś dokument PW w kroku poprzednim, to stan w ERP powinien być zapewniony i tam możesz zakończyć proces sprzedaży.
 
 
 Obsługiwane przez qcadoo komunikaty API opisane są w podrozdziałach do tej strony oraz w rozdziale [API-WMS](/api-wms-wstep).

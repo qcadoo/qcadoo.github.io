@@ -3,12 +3,51 @@ title: "Changelog"
 permalink: changelog.html
 ---
 
-<!-- VERSION 3.0 -->
+<!-- VERSION 3.1 -->
 <details open>
+  <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
+
+<!-- VERSION 3.1.0 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.0</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.0</td>
+          <td>
+          <ul>
+            <li>inwentaryzacja w qcadoo WMS mobile:</li>
+              <ul>
+                <li>wyszukiwanie pozycji do spisania,</li>
+                <li>dodawanie nowej pozycji,</li>
+                <li>możliwość wycofania z WMS mobile,</li>
+              </ul>
+            <li>inwentaryzacja:</li>
+              <ul>
+                <li>cena w nadwyżkach i przekazywanie jej na dokument PW,</li>
+                <li>opis w różnicy inwentaryzacyjnej, w celu jej wyjaśnienia,</li>
+              </ul>
+            <li>dostawa:</li>
+              <ul>
+                <li>nowe pola związane z płatnością,</li>
+                <li>kolumna: utworzona przez.</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+</details>
+
+<!-- VERSION 3.0 -->
+<details>
   <summary><h2 class="changelog-main-version">Changelog - 3.0</h2></summary>
 
 <!-- VERSION 3.0.24 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.24</summary><br>
     <table class="changelog-table" border>
         <tr>
@@ -30,7 +69,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.23 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.23</summary><br>
     <table class="changelog-table" border>
         <tr>
@@ -50,7 +89,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.0.22 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.0.22</summary><br>
     <table class="changelog-table" border>
         <tr>
@@ -566,6 +605,7 @@ permalink: changelog.html
         </tr>
     </table>
   </details>
+</details>
 
 <!-- VERSION 2.5 -->
 <details>
@@ -1258,5 +1298,4 @@ permalink: changelog.html
         </tr>
     </table>
   </details>
-
 </details>

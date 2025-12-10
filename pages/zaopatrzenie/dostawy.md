@@ -133,8 +133,17 @@ Dostawę możesz oznaczyć, że jest gotowa do tego, by za nią zapłacić. Moż
 {% include lightbox.html file="zaopatrzenieDostawaPlatnosc.png" alt="Płatność za dostawę" caption="Płatność za dostawę" %}
 
 Uaktywni się wówczas pole **Identyfikator płatności**, w którym będziesz mógł zapisać namiar na dokonaną wpłatę. Ponadto, na liście dostaw, w kolumnie **Zwolniono do płatności** pojawi się **TAK**.
+
 {:start="2"}
 2. w liście dostaw zaznacz, te które chcesz zwolnić do płatności i kliknij przycisk {% include inline_image.html file="przyciskZwolnijDoPlatnosci.png" alt="Przycisk Zwolnij do płatności" %}
+
+Moment zawolnienia do płatności zostanie zapisany w polu **Data zwolnienia do płatności**. 
+
+Jeśli dostawa jest opłacona, możesz zaznaczyć checkbox **Opłacona**, wpisać **Datę płatności** oraz **Identyfikator płatności**.
+
+Dodatkowym w liście dostaw widoczny jest **czas spłaty**, w dniach, wyliczona jako różnica między datą zwolnienia do płatności, a datą jej dokonania. Natomiast kolumna **Opłacono** oznaczona jest kolorami, gdy dostawa zwolniona jest do płatności - czerwono, gdy płatności nie ma i zielona, gdy zamówienie opłacone.
+
+
 
 ---
 
