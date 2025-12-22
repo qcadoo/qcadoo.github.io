@@ -7,6 +7,35 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.1 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.1</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.1</td>
+          <td>
+          <ul>
+            <li>pozycje dokumentów: kolumny Opis i Inwentaryzacja,</li>
+            <li>parametr technologii: Sprawdzaj powielone cykle w całej strukturze wyrobu,</li>
+            <li>inwentaryzacja w qcadoo WMS mobile:</li>
+              <ul>
+                <li>parametr: Ukryj pozycje,</li>
+                <li>parametr: Ukryj stan magazynowy,</li>
+              </ul>
+            <li>etykiety dostarczonego produktu,</li>
+            <li>etykiety produktu,</li>
+            <li>mniejsze etykiety miejsc składowania,</li>
+            <li>kolejny szablon etykiet nośników.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.0 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.0</summary><br>

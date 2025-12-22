@@ -124,6 +124,28 @@ Przypisane w ten sposób atrybuty zostaną przekazane do [dokumentu](/dokumenty)
 
 ---
 
+## Etykiety dostarczonego produktu
+
+Dla każdej pozycji zapisanej w dostawie jako dostarczony produkt możesz wydrukować etykietę. Będzie ona przydatna do oznaczenia na magazynie i szybszej identyfikacji przy kompletacji. Kody kreskowe umieszczone na etykietach będzie można skanować w aplikacji [qcadoo WMS mobile](/wms-wprowadzenie), wspierającej w pracy magazyniera.
+
+Aby wydrukować etykiety wejdź do dostawy, do zakładki Dostarczone produkty, zaznacz interesujące Cię pozycje i kliknij przycisk {% include inline_image.html file="przyciskDrukujEtykietyDostarczonychProduktow.png" alt="Przycisk Drukuj etykiety dostarczonego produktu" %}
+
+{% include lightbox.html file="zaopatrzenieDostawyEtykietyDostarczonegoProduktu.png" alt="Etykiety dostarczonego produktu" caption="Etykiety dostarczonego produktu" %}
+
+Kilka słów o etykietach:
+- drukowane są w PDF w formacie A4. Na jednej stronie pojawiają się 4 etykiety, każda w formacie 90 x 114 mm
+- na etykiecie umieszczone mogą być dwa kody kreskowe. Pierwszy to kod EAN produktu. Drugi to numer partii
+- jeśli produkt nie ma zdefiniowanego EAN w systemie, to spróbujemy zaszyć w nim numer produktu. Uda się to, by numer produktu będzie nie dłuższy niż 29 znaków i nie będzie posiadał polskich znaków
+- jeśli dostarczony produkt nie ma partii, to drugi kod kreskowy nie zostanie wydrukowany 
+- na etykiecie wyświetlamy ponadto tekstowo:
+  - numer i nazwę produktu,
+  - numer dostawy,
+  - numer dostawcy,
+  - data ważności (jeśli istnieje),
+  - partię (jeśl istnieje).
+
+---
+
 ## Płatność
 
 Dostawę możesz oznaczyć, że jest gotowa do tego, by za nią zapłacić. Możesz to zrobić na dwa sposoby. 

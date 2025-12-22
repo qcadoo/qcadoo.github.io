@@ -83,3 +83,17 @@ w qcadoo
 - **Miejsce wysokiego składowania** (kolumna E) - dana opcjonalna, jeśli definiowana lokalizacja jest miejscem wysokiego składowania, wpisz TAK
 
 {% include callout.html content="Jeśli plik ma zaaktualizować istniejące dane, pamiętaj o zaznaczeniu w oknie importu opcji **Czy aktualizować istniejące dane?**" type="warning" %}
+
+---
+
+## Etykiety miejsc składowania
+
+Do zdefiniowanych miejsc składowania możesz wydrukować etykiety. W liście miejsc składowania (**Magazyn > Miejsca składowania**) zaznacz wybrane pozycje i kliknij przycisk: {% include inline_image.html file="przyciskDrukujEtykietyMiejscSkladowania.png" alt="Przycisk Drukuj etykiety miejsc skłądowania" %}
+
+{% include lightbox.html file="magazynMiejscaSkladowaniaEtykiety.png" alt="Etykiety miejsc składowania" caption="Etykiety miejsc składowania" %}
+
+Etykiety drukowane są w PDF, w formacie A4. Na jednej stronie pojawia się 8 etykiet. Każda etykieta ma wymiar 90 x 57 mm i mieszczą się w standardowych kieszonkach / uchwytach mocowanych na regale.
+
+Na etykiecie widoczny jest tylko numer miejsca składowania, w formie kodu kreskowego i w formie zwykłego tekstu. Pamiętaj, że polskie znaki w numerze sprawią, że kod nie będzie mógł być wygenerowany.
+
+Etykiety przydadzą się do skanowania lokalizacji w aplikacji [qcadoo WMS mobile](/wms-wprowadzenie), wspierającej obsługę magazynu. 

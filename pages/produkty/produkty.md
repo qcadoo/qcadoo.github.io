@@ -279,3 +279,18 @@ Dla produktu mamy możliwość, za pomocą przycisków, sprawdzenia:
 - **rejestracje produkcji** dla tego produktu, pojedynczo lub zgrupowane
 - **dodatkowych informacji** takich jak historia zmian produktów, numer ID w systemie zewnętrznym (w przypadku integracji), powiązana grupa technologii, czy wreszcie dostawców danego produktu.
 
+## Etykiety produktu
+
+Zapewne większość Twoich produktów posiada fabryczne etykiety z kodem EAN. Jednak na wypadek, gdyby się zniszczyły lub były nieczytelne, możesz wygenerować je z poziomu qcadoo. Wejdź do listy produktów (Produkty > Produkty), zaznacz interesujące Cię pozycje i kliknij przycisk {% include inline_image.html file="przyciskDrukujEtykietyProduktow.png" alt="Przycisk Drukuj etykiety produktów" %}
+
+{% include lightbox.html file="produktyProduktyEtykiety.png" alt="Etykiety produktu" caption="Etykiety produktu" %}
+
+**Kilka słów o etykietach**:
+- etykiety drukowane są w PDF,
+- na jednej stronie A4 mieści się 8 etykiet. Każda o wymiarach 90 x 57 mm, a zatem pasuje do standardowych kieszeni samoprzylepnych,
+- w kodzie kreskowym umieszczamy kod EAN. Jeśli jednak produkt go nie posiada, to spróbujemy w ten sposób przedstawić numer produktu. Uda się, gdy numer nie jest dłuższy niż 29 znaków i wśród nich nie ma polskich znaków,
+- na etykiecie prezentujemy w jednej linii numer produktu oraz w maksymalnie dwóch liniach - nazwę produktu,
+- etykieta dla każdego produktu może być drukowana wielokrotnie.
+
+Do czego wykorzystać etykiety? Np. w aplikacji [qcadoo WMS mobile](/wms-wprowadzenie), wspierającej obsługę magazynu.
+

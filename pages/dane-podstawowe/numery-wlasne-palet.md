@@ -30,9 +30,19 @@ Aby dodać wiele numerów nośników w **Podstawowe > Numery nośników logistyc
 
 ---
 
-Wydrukowane numery nośników logistycznych wyglądają tak:
+Numery nośników logistycznych możesz wydrukować w dwóch szablonach. Zaznacz w liście numerów nośników interesujące Cię pozycje i kliknij przycisk:
 
-{% include lightbox.html file="podstawoweNumeryWlasnePaletWydruk.png" alt="Wydruk numerów nośników logistycznych" caption="Wydruk numerów nośników logistycznych" %}
+- {% include inline_image.html file="przyciskDrukujDuzeEtykiety.png" alt="Przycisk Drukuj duże etykiety" %}, aby wydrukować **duże etykiety**, idealne do oklejenia palet:
+
+{% include lightbox.html file="podstawoweNumeryWlasnePaletDuzeEtykiety.png" alt="Duże etykiety numerów nośników logistycznych" caption="Duże etykiety numerów nośników logistycznych" %}
+
+- {% include inline_image.html file="przyciskDrukujDuzeEtykiety.png" alt="Przycisk Drukuj duże etykiety" %}, aby wydrukować **małe etykiety**, idealne do oklejenia kartonów, skrzynek, pojemników:
+
+{% include lightbox.html file="podstawoweNumeryWlasnePaletMaleEtykiety.png" alt="Małe etykiety numerów nośników logistycznych" caption="Małe etykiety numerów nośników logistycznych" %}
+
+Na jednej stronie A4 umieszczonych jest 8 etykiet, o wymiarach 90 x 57 mm, które mieszczą się w standardowej kieszeni samoprzylepnych.
+
+Etykiety do nośników mogą być wygenerowane też z okna dodawania wielu numerów - wygenerowane zostaną wówczas wydruki dla każdego utworzonego numeru.
 
 Po wydrukowaniu numeru zostaje on oznaczony flagą "Wydrukowana". Dana widoczna jest też w kolumnie w liście numerów własnych nośników. Dzięki temu łatwo wyciągnąć numery jeszcze nie wydrukowane.
 
