@@ -288,7 +288,7 @@ Zapewne większość Twoich produktów posiada fabryczne etykiety z kodem EAN. J
 **Kilka słów o etykietach**:
 - etykiety drukowane są w PDF,
 - na jednej stronie A4 mieści się 8 etykiet. Każda o wymiarach 90 x 57 mm, a zatem pasuje do standardowych kieszeni samoprzylepnych,
-- w kodzie kreskowym umieszczamy kod EAN. Jeśli jednak produkt go nie posiada, to spróbujemy w ten sposób przedstawić numer produktu. Uda się, gdy numer nie jest dłuższy niż 29 znaków i wśród nich nie ma polskich znaków,
+- w kodzie kreskowym umieszczamy kod EAN. Jeśli jednak produkt go nie posiada, to spróbujemy w ten sposób przedstawić numer produktu. Uda się, gdy numer nie jest ani za krótki ani za długo i wśród nich nie ma polskich znaków. Odnośnie długości nie ma tu konkretnych wytycznych - jeśli Twoje numery produktu nie udaje się przedstawić w formie kodu kreskowego, a sądzisz, że powinno się udać, napisz do nas na pomoc@qcadoo.com, a ustalimy co da się w tym temacie zrobić
 - na etykiecie prezentujemy w jednej linii numer produktu oraz w maksymalnie dwóch liniach - nazwę produktu,
 - etykieta dla każdego produktu może być drukowana wielokrotnie.
 

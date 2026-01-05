@@ -7,6 +7,26 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.2 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.2</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.2</td>
+          <td>
+          <ul>
+            <li>poprawki do dostaw w qcadoo WMS mobile,</li>
+            <li>poprawki do etykiet.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.1 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.1</summary><br>

@@ -135,7 +135,7 @@ Aby wydrukować etykiety wejdź do dostawy, do zakładki Dostarczone produkty, z
 Kilka słów o etykietach:
 - drukowane są w PDF w formacie A4. Na jednej stronie pojawiają się 4 etykiety, każda w formacie 90 x 114 mm
 - na etykiecie umieszczone mogą być dwa kody kreskowe. Pierwszy to kod EAN produktu. Drugi to numer partii
-- jeśli produkt nie ma zdefiniowanego EAN w systemie, to spróbujemy zaszyć w nim numer produktu. Uda się to, by numer produktu będzie nie dłuższy niż 29 znaków i nie będzie posiadał polskich znaków
+- jeśli produkt nie ma zdefiniowanego EAN w systemie, to spróbujemy zaszyć w nim numer produktu. Uda się, gdy numer nie jest ani za krótki ani za długo i wśród nich nie ma polskich znaków. Odnośnie długości nie ma tu konkretnych wytycznych - jeśli Twoje numery produktu nie udaje się przedstawić w formie kodu kreskowego, a sądzisz, że powinno się udać, napisz do nas na pomoc@qcadoo.com, a ustalimy co da się w tym temacie zrobić
 - jeśli dostarczony produkt nie ma partii, to drugi kod kreskowy nie zostanie wydrukowany 
 - na etykiecie wyświetlamy ponadto tekstowo:
   - numer i nazwę produktu,
