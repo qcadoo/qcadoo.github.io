@@ -2,7 +2,7 @@
 title: "Pokrycie zapotrzebowania"
 permalink: pokrycie-zapotrzebowania.html
 ---
-Na początek zapewnienie - nie ma lepszego narzędzia do ustalenia zapotrzebowania materiałowego niż pokrycie zapotrzebowania. To jest absolutnie niezbędna funkcjonalność dla każdego pracownika działu zaopatrzenia!
+Na początek zapewnienie - nie ma lepszego narzędzia do ustalenia zapotrzebowania materiałowego niż pokrycie zapotrzebowania. To jest absolutnie niezbędna funkcjonalność dla każdego pracownika działu zaopatrzenia, realizującego MRP (Material Requirements Planning).
 
 Program qcadoo daje możliwość wygenerowania informacji jakie jest nasze zapotrzebowanie na konkretny produkt w danej jednostce czasu, na kiedy go potrzebujemy, ile produktu będzie nam dostarczone oraz kiedy go otrzymamy. Oprócz dostaw program uwzględnia stan magazynów. Funkcja ta jest szczególnie pomocna w przypadku składania zamówienia.
 

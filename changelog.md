@@ -7,6 +7,33 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.3 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.3</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.3</td>
+          <td>
+          <ul>
+            <li>kolumna Data utworzenia w liście planowanych zleceń,</li>
+            <li>data utworzenia zasobu,</li>
+            <li>przycisk Zakończ zadanie widoczny w terminalu odpalonym z Dashboardu,</li>
+            <li>cena w pokryciu zapotrzebowania na podstawie parametrów kalkulacji,</li>
+            <li>qcadoo WMS mobile:</li>
+              <ul>
+                <li>dostawa - ilość pozostała do odbioru w oknie dodawania odebranej pozycji,</li>
+                <li>dostawa - edycja i usunięcie odebranej pozycji.</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.2 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.2</summary><br>
@@ -57,7 +84,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.0 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.0</summary><br>
     <table class="changelog-table" border>
         <tr>
