@@ -30,6 +30,16 @@ Jeśli data ważności surowców, które zużywasz ma dla Ciebie znaczenie, zazn
 
 Dodatkowo możesz w szybki sposób wyciągnąć listę zasobów o krótkim terminie ważności - kliknij przycisk {% include inline_image.html file="przyciskPokazZasobyOKrotkimTerminieWaznosci.png" alt="Przycisk Pokaż zasoby o krótkim terminie ważności" %} **Pokaż zasoby o krótkim terminie ważności**. Jeśli natomiast chcesz zobaczyć zasoby, których data ważności została przekroczona - kliknij przycisk: {% include inline_image.html file="przyciskPokazZasobyPoTerminieWaznosci.png" alt="Przycisk Pokaż zasoby po terminie ważności" %} **Pokaż zasoby po terminie ważności**. Lista zasobów zostanie odpowiedni przefiltrowana. Jeśli chcesz ponownie zobaczyć pełną listę użyj przycisku {% include inline_image.html file="przyciskPokazWszystkieZasoby.png" alt="Przycisk Pokaż wszystkie zasoby" %} **Pokaż wszystkie zasoby**.
 
+### Zmiana miejsca składowania
+
+Funkcja zmiany miejsca składowania pozwoli na szybką modyfikację lokalizacji w wielu zasobach na raz. Kiedy się przyda? Np. przy robieniu porządków na magazynie, albo przy rozlokowaniu w docelowych miejscach po przyjęciu dostawy w jedno, buforowe miejsce. Należy pamiętać, że funkcja zmienia miejsce składowania w całym zasobie, nie dzieli go na części.
+
+Aby zmienić miejsce składowania zaznacz wejdź w **Magazyn > Zasoby** i zaznacz dowolną liczbę wierszy (wszystkie te, które chcesz przenieść w jedno miejsce), kliknij przycisk {% include inline_image.html file="przyciskZmienMiejsceSkladowania.png" alt="Przycisk Zmień miejsce składowania" %} i wskaż nową lokalizację. I gotowe.
+
+*O czym musisz pamiętać:*
+- nowe miejsce składowania musi być zdefiniowane na tym samym magazynie,
+- jeśli spróbujesz zmienić miejsce składowania dla jednego z wielu zasobów nośnika, to wraz z nim lokalizację zmienią wszystkie zasoby nośnika. Funkcja nie powoduje podziału nośnika na części. Taki efekt uzyskasz za pomocą [przepakowań](/przepakowania).
+
 ### Kontrola jakości zasobu
 
 Zasób produktu o zdefiniowanych kartach jakości, może być przekazany do kontroli. W tym celu zaznacz właściwy wiersz i kliknij w przycisk {% include inline_image.html file="przyciskUtworzKontroleJakosci.png" alt="Przycisk Utwórz kontrolę jakości" %}. W efekcie:

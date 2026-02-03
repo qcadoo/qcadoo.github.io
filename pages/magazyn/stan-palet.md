@@ -79,3 +79,9 @@ Zaznacz w tabeli stanu nośników te nośniki, które przesunąłeś i kliknij {
 W oknie dla każdego nośnika wskaź **numer nośnika**, na który odłożyłeś produkty. 
 
 W efekcie wszystkim zasobom przesuwanego nośnika zaktualizujemy numer nośnika, typ nośnika i miejsce składowania. Historię zmian zobaczysz w [tabeli korekt](/korekty).
+
+## Zmiana typu nośnika
+
+{% include lightbox.html file="magazynStanNosnikowZmianaTypu.png" alt="Zmiana typu nośnika" caption="Zmiana typu nośnika" class="float-right" %}
+
+Funkcja pozwala na zmodyfikowanie przyjętego na magazyn nośnika, pod kątem jego typu. Zaznacz jeden nośnik (jeden wiersz tabeli), kliknij przycisk {% include inline_image.html file="przyciskZmienTypNosnika.png" alt="Zmień typ nośnika" %} i wybierz nowy typ ze słownika. Po zapisie zaktualizowane będą dane we wszystkich zasobach danego nośnika. Wszelkie zmiany widoczne będą [tabeli korekt](/korekty).

@@ -21,7 +21,7 @@ Aby wygenerować nowy raport wybieramy:
 
 1. W pierwszym kroku możemy nadać "Nazwę" tego raportu. Nazwa ta powinna identyfikować raport tak, by łatwiej było zidentyfikować go na liście wśród innych. Opcjonalnie dodajemy "Opis" zlecenia.  
   
-2. Następnie przy pomocy przycisku Dodaj istniejący z zakładki Zlecenia wybieramy "Zlecenie" produkcyjne, dla których chcemy wygenerować raport. 
+2. Następnie przy pomocy przycisku Dodaj istniejący z zakładki Zlecenia wybieramy "Zlecenie" produkcyjne, dla których chcemy wygenerować raport. W oknie wybierania znajduje się specjalna funkcja, pozwalająca zaciągnąć do rozliczenia wszystkie zlecenia, spełniające zadane kryteria filtrowania (zwyczajowo zaciągamy rekordy tylko zaznaczone, maksymalnie z jednej strony) - użyj w tym belu przycisku {% include inline_image.html file="przyciskDodajWszystkie.png" alt="Przycisk Dodaj wszystkie" %}.
   
 3. Możemy zdecydować jakie dane zostaną uwidocznione w raporcie oraz które wejdą w skład kalkulacji. Więcej o [parametrach czasów operacji](/normy-czasowe).  
   

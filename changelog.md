@@ -7,6 +7,33 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.4 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.4</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.4</td>
+          <td>
+          <ul>
+            <li>dostawa - czyszczenie partii po zmianie / usunięciu produktu,</li>
+            <li>funkcja zmiany typu nośnika z poziomu widoku stanu nośników,</li>
+            <li>ułatwienia przy zaciąganiu wielu zleceń do rozliczenia produkcji,</li>
+            <li>zmiana miejsca składowania w zasobach,</li>
+            <li>qcadoo WMS mobile:</li>
+              <ul>
+                <li>przesunięcie nośnika w ramach magazynu ze szczegółów nośnika,</li>
+                <li>przesunięcie produktów nośnika na inny nośnik.</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.3 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.3</summary><br>
@@ -55,7 +82,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.1 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.1</summary><br>
     <table class="changelog-table" border>
         <tr>

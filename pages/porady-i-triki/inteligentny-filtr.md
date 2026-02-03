@@ -14,7 +14,7 @@ Do filtrowania wartości można również wykorzystać następujące znaczniki:
 
 1. "%" - znacznik ten wyszuka wszystkie pozycje, które mają wprowadzone jakikolwiek ciąg znaków w danej kolumnie. Można go łączyć z tektstem np. wyszukując nazwę produktu, możemy go wprowadzić w środek tekstu.
 
-2. "_" - podłoga działa w podobny sposób jak "%", z taką różnicą, że zastępuje on pojedynczy znak.
+2. "_" - podłoga działa w podobny sposób jak "%", z taką różnicą, że zastępuje on pojedynczy znak. Podobnie zadziała "?".
 
 3. Isnull - wyraz ten wyszuka pozycje, które w danej kolumnie nie mają wpisanej wartości.
 
