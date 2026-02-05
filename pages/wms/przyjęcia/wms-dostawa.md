@@ -9,7 +9,7 @@ Dostawa w aplikacji mobilnej qcadoo WMS służy do przyjęcia na magazyn produkt
 - co najmniej jeden zamówiony produkt,
 - status Potwierdzona.
 
-Gotowe? Czas przekazać ją do aplikacji mobilnej qcadoo WMS. Będąc w szczegółach dostawy kliknij przycisk {% include inline_image.html file="przyciskWyslijDoWMS.png" alt="Przycisk Wyślij do WMS" %} 
+Gotowe? Czas przekazać ją do aplikacji mobilnej qcadoo WMS. Będąc w szczegółach dostawy kliknij przycisk {% include inline_image.html file="przyciskWyslijDoWMS.png" alt="Przycisk Wyślij do WMS" %}. 
 
 
 {% include lightbox.html file="wmsPrzyjeciaDostawaWyslijDoWMS.png" alt="Wysyłanie dostawy do aplikacji mobilnej WMS" caption="Wysyłanie dostawy do aplikacji mobilnej WMS" %}
