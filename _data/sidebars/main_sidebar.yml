@@ -744,6 +744,10 @@ entries:
           output: web
           url: /stany-i-statusy-zlecen.html
 
+        - title: Przewodnik produkcyjny
+          output: web
+          url: /przewodnik-produkcyjny.html
+
         - title: Zmiana stanu zapotrzebowania po rozpoczęciu zlecenia
           output: web
           url: /zmiana-stanu-zapotrzebowania.html

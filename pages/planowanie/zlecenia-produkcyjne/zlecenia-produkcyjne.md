@@ -253,9 +253,10 @@ O tym na jakim etapie prac ze zleceniem jesteś świadczą jego [statusy](/stany
 W jaki sposób przekazać informację pracownikom o tym co mają wykonać:
 1. [terminal rejestracji produkcji](/terminal) to najlepsze źródło informacji. Przede wszystkim dlatego, że zawiera dane zawsze aktualne. Ale też dlatego, że jego obsługa nie wymaga tony papieru. W terminalu zobaczysz zarówno zlecenia produkcyjne (raportowane zbiorczo) jak i zadania operacyjne (czyli interpretacje operacji zlecenia raportowanego z dokładnością do operacji). 
 2. [karty pracy](/karty-pracy) - dostępne są dwa szablony wydruku. Dodatkowo możliwa jest ich konfiguracja w [parametrach](/parametry-karty-pracy).
-3. wyeksportowana lista zleceń - poukrywaj zbędne kolumny i [przerzuć dane go Excela lub PDFa](/eksport-danych), i w takiej formie przekaż dane pracownikom 
-4. Gantt - daj pracownikom dostęp do qcadoo i pokaż jak działa [planowanie na liniach](//planowanie-na-liniach) (jeśli planujesz całe zlecenia) lub [Gantt zadań operacyjnych](/gantt-zadan-operacyjnych) (jeśli planujesz każdą operację do wykonania)
-5. [dashboard](/dashboard) - wskaż w [parametrach](/parametry-dashboard) czy chcesz widzieć zadania czy zlecenia i zdecyduj którzy użytkownicy mają mieć dostęp pełen (łącznie z edycją zlecenia), a którzy w formie ograniczonej (tylko z przesuwaniem między obszarami, przejściem do terminala i wydrukiem etykiet).
+3. [przewodnik produkcyjny](/przewodnik-produkcyjny) - z kodami kreskowymi przy operacji, idealnymi do użycia w terminalu rejestracji produkcji
+4. wyeksportowana lista zleceń - poukrywaj zbędne kolumny i [przerzuć dane go Excela lub PDFa](/eksport-danych), i w takiej formie przekaż dane pracownikom 
+5. Gantt - daj pracownikom dostęp do qcadoo i pokaż jak działa [planowanie na liniach](//planowanie-na-liniach) (jeśli planujesz całe zlecenia) lub [Gantt zadań operacyjnych](/gantt-zadan-operacyjnych) (jeśli planujesz każdą operację do wykonania)
+6. [dashboard](/dashboard) - wskaż w [parametrach](/parametry-dashboard) czy chcesz widzieć zadania czy zlecenia i zdecyduj którzy użytkownicy mają mieć dostęp pełen (łącznie z edycją zlecenia), a którzy w formie ograniczonej (tylko z przesuwaniem między obszarami, przejściem do terminala i wydrukiem etykiet).
 
 
 ## Efekty raportowania wykonanej produkcji
