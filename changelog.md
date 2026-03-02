@@ -7,6 +7,26 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.6 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.6</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.6</td>
+          <td>
+          <ul>
+            <li>przewodnik produkcyjny - możliwość prezentacji numeru i nazwy operacji,</li>
+            <li>przestoje w rozliczeniu czasu pracy pracownika.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.5 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.5</summary><br>
@@ -58,7 +78,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.3 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.3</summary><br>
     <table class="changelog-table" border>
         <tr>
