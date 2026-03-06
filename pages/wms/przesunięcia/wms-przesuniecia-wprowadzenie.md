@@ -11,5 +11,7 @@ W menu **Przesunięcia** dostępne są następujące opcje:
 
 Każda z dostępnych funkcjonalności opisana jest osobnym rozdziałem dokumentacji:
 - [dokumenty MM](/wms-mm),
+- [przepakowanie nośnika](wms-przesuniecia-przepakowanie),
 - [przesunięcie nośnika w inne miejsce](wms-przesuniecie-nosnika-w-inne-miejsce),
+- [przesunięcie produktów nośnika na inny nośnik](/wms-przesuniecie-produktow-nosnika-na-inny-nosnik),
 - [zmiana miejsca składowania](wms-zmiana-miejsca-sklad).

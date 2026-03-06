@@ -2,7 +2,7 @@
 title: "Przesunięcie nośnika w inne miejsce"
 permalink: wms-przesuniecie-nosnika-w-inne-miejsce.html 
 ---
-Przesunięcie nośnika w inne miejsce pozwala na zmianę miejsca składowania całego nośnika, wraz ze wszystkimi zasobami/produktami, które się na nim znajdują.
+Przesunięcie nośnika w inne miejsce pozwala na zmianę miejsca składowania całego nośnika, wraz ze wszystkimi zasobami/produktami, które się na nim znajdują. Funkcja jest odzworowaniem możliwości realizowanej w systemie qcadoo w liście [stanu palet](/stan-palet.html#przesunięcie-nośników-w-inne-miejsce).
 
 Aby wykonać funkcję przesunięcia w inne miejsce wejdź w aplikacji qcadoo WMS mobile w **Przesunięcia > Przesunięcie nośnika w inne miejsce**:
  

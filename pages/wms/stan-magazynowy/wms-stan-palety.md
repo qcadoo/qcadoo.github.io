@@ -71,6 +71,31 @@ zobaszysz tutaj:
 
 Po kliknięciu przycisku {% include inline_image.html file="przyciskWmsZakoncz.png" alt="Przycisk Zakończ" %} przejdziesz do ekranu wyboru nośnika i możliwości analizy stanu w kolejnej lokalizacji.
 
+## Przesuń w inne miejsce
+
+Funkcja przesunięcia nośnika w inne miejsce dostępna jest z dwóch miejsc:
+- z menu > przesunięcia - opisana [w tym rozdziale](/wms-przesuniecie-nosnika-w-inne-miejsce)
+- z widoku stanu danego nośnika.
+
+Będąc w widoku szczegółów danego nośnika, rozwiń menu w prawym górnym rogu, klikając w przycisk {% include inline_image.html file="przyciskWmsMenuKropki.png" alt="Przycisk Kropki" %} i wybierz opcję: **Przesuń w inne miejsce**:
+
+{% include lightbox.html file="wmsStanNosnikaPrzesunWInneMiejsce.png" alt="Szczegóły zasobu - zmiana miejsca składowania" caption="Szczegóły zasobu - zmiana miejsca składowania" %}
+
+Podaj **nową lokalizację** i zatwierdź przyciskiem {% include inline_image.html file="przyciskWmsZapisz.png" alt="Przycisk Zapisz" %}.
+
+
+## Przesuń na inny nośnik
+
+Funkcja przesunięcia produktów nośnika na inny nośnik dostępna jest z dwóch miejsc:
+- z menu > przesunięcia - opisana [w tym rozdziale](wms-przesuniecie-produktow-nosnika-na-inny-nosnik)
+- z widoku stanu danego nośnika.
+
+Będąc w widoku szczegółów danego nośnika, rozwiń menu w prawym górnym rogu, klikając w przycisk {% include inline_image.html file="przyciskWmsMenuKropki.png" alt="Przycisk Kropki" %} i wybierz opcję: **Przesuń na inny nośnik**:
+
+{% include lightbox.html file="wmsStanNosnikaPrzesunNaInnyNosnik.png" alt="Szczegóły zasobu - zmiana miejsca składowania" caption="Szczegóły zasobu - zmiana miejsca składowania" %}
+
+Podaj **nowy nośnik** i zatwierdź przyciskiem {% include inline_image.html file="przyciskWmsZapisz.png" alt="Przycisk Zapisz" %}.
+
 
 ## Zmiana miejsca składowania zasobu
 

@@ -3,9 +3,13 @@ title: "Wprowadzenie do modulu Wydania aplikacji qcadoo WMS mobile"
 permalink: wms-wydania-wprowadzenie.html 
 ---
 
-W menu Wydania przeprowadzisz kompletacje pod dokumenty typu: wydanie zewnętrzne i rozchód wewnętrzny. Każdy z procesów realizowany jest w oparciu utworzony dokument w systemie qcadoo. Magazynier realizuje wytyczne administracji magazynu - pobiera z magazynu dokładnie to co zostało zaplanowane.
+W menu **Wydania** przeprowadzisz kompletacje pod dokumenty typu: _wydanie zewnętrzne_ i _rozchód wewnętrzny_.
 
-Na czas kompletacji każda z pozycji magazynowej jest rezerowana pod dany dokument. Dzięki temu mamy pewność, że inny pracownik nie podbierze potrzebnych nam produtków i że kompletacja się powiedzie.
+{% include lightbox.html file="wmsWydaniaMenu.png" alt="Menu modułu wydania" caption="Menu modułu wydania" %}
+
+Każdy z procesów realizowany jest w oparciu **utworzony dokument w systemie qcadoo**. Magazynier realizuje wytyczne administracji magazynu - pobiera z magazynu dokładnie to, co zostało zaplanowane.
+
+Na czas kompletacji, każda z pozycji magazynowej jest rezerwowana pod dany dokument. Dzięki temu, mamy pewność, że inny pracownik nie podbierze potrzebnych nam produtków i że kompletacja się powiedzie.
 
 Każdy z realizowanych procesów został omówiony w osobnym rozdziale:
 - [wydanie zewnętrzne](/wms-wz),
@@ -13,7 +17,7 @@ Każdy z realizowanych procesów został omówiony w osobnym rozdziale:
 
 **Możesz pracować z dokumentem w dwóch trybach:**
 1. to biuro / administracja magazynu decyduje o tym jakie konkretne zasoby produktu mają być pobrane z magazynu. Innymi słowy - pracownik na magazynie realizuje ścisłe wytyczne biura, odwiedzając zaplanowane miejsca składowania i pobierając produkty w danej ilości ze wskazanego nośnika. W tym trybie konieczne jest albo ręczne wskazanie zasobu w pozycji, albo użycie funkcji: {% include inline_image.html file="przyciskDobierzZasoby.png" alt="Przycisk Dobierz zasoby" %}
-2. to magazynier decyduje skąd pobrać produkt. Biuro tworzy dokument z pozycjami informującymi o produkcie i ilościach. Resztą zajmuje się pracownik magazynu. Jeśli nie wie, gdzie produktu szukać - może skorzystać z wbudowanej funkcji podglądu stanu. Po naszykowaniu produktu magazynier dokładnie określa miejsce pobrania, dane są przekazywane do systemu qcadoo i tam konkretny zasób uzupełniany jest w pozycji i dla niej rezerwowany
+2. to magazynier decyduje skąd pobrać produkt. Biuro tworzy dokument z pozycjami informującymi o produkcie i ilościach. Resztą zajmuje się pracownik magazynu. Jeśli nie wie, gdzie produktu szukać - może skorzystać z wbudowanej funkcji podglądu stanu. Po naszykowaniu produktu magazynier dokładnie określa miejsce pobrania, dane są przekazywane do systemu qcadoo i tam konkretny zasób uzupełniany jest w pozycji i dla niej rezerwowany (<span style="color:grey"> Uwaga! Ten punkt jest póki co w przygotowaniu i nie jest dostępny w bieżącej wersji aplikacji!</span>)
 
 
 ### W jaki sposób przygotować dokument w qcadoo i przekazać go do aplikacji mobilnej

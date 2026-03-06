@@ -1297,6 +1297,10 @@ entries:
               output: web
               url: /wms-przesuniecie-nosnika-w-inne-miejsce.html
 
+            - title: Przesunięcie produktów nośnika na inny nośnik
+              output: web
+              url: /wms-przesuniecie-produktow-nosnika-na-inny-nosnik.html
+
             - title: Zmiana miejsca składowania
               output: web
               url: /wms-zmiana-miejsca-sklad.html
@@ -1308,6 +1312,18 @@ entries:
             - title: Inwentaryzacja
               output: web
               url: /wms-inwentaryzacja.html
+
+        - title: qcadoo WMS mobile - zlecenia
+          output: web
+          subfolderitems:
+
+            - title: Wprowadzenie do modułu Zlecenia w aplikacji qcadoo WMS mobile
+              output: web
+              url: /wms-zlecenia-wprowadzenie.html
+
+            - title: Zapotrzebowanie materiałowe
+              output: web
+              url: /wms-zapotrzebowanie.html
 
   - title: qcadoo APS - SZYBKI START
     output: web

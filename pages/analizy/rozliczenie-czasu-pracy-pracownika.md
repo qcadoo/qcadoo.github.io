@@ -14,10 +14,11 @@ Podaj daty, dla jakich chcesz uzyskać zestawienie i kliknij przycisk {% include
 {% include lightbox.html file="analizyRozliczenieCzasuPracyPracownikaDane.png" alt="Dane z rozliczenia czasu pracy pracownika" caption="Dane z rozliczenia czasu pracy pracownika" %}
 
 Odpowiednio filtrując dane możesz ustalić:
-- ile czasu przepracowała dana osoba
-- ile czasu pracowano na danej stacji roboczej
-- ile czasu przepracowano na danej linii produkcyjnej
-- ile czasu poświęcono na pracę w danym dziale
-- jak długo pracowano na rzecz danego wyrobu
-- ile czasu zajęła praca zaraportowana do danego zlecenia
+- ile czasu przepracowała dana osoba,
+- ile czasu pracowano na danej stacji roboczej,
+- ile czasu przepracowano na danej linii produkcyjnej,
+- ile czasu poświęcono na pracę w danym dziale,
+- jak długo pracowano na rzecz danego wyrobu,
+- ile czasu zajęła praca zaraportowana do danego zlecenia,
+- czy wystąpiły w trakcie przestoje i ile czasu zajęły.
 

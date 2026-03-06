@@ -13,3 +13,5 @@ Przewodnik produkcyjny to wydruk zlecenia produkcyjnego, wraz z informacją o op
 2. z widoku szczegółowego zapotrzebowania (czyli: planowanie > planowanie zleceń > klik w zlecenie > przycisk {% include inline_image.html file="przyciskSzczegoloweZapotrzebowanie.png" alt="przycisk Szczegółowe zapotrzebowanie" %} i przycisk {% include inline_image.html file="przyciskPrzewodnikProdukcyjny.png" alt="Przycisk Przewodnik produkcyjny" %})
 
 {% include lightbox.html file="planowanieZleceniaPrzewodnikProdukcyjny.png" alt="Przewodnik produkcyjny" caption="Przewodnik produkcyjny" %}
+
+Zdecyduj w [parametrach zleceń](/parametry-zlecen.html#główna), czy chcesz w tabeli widzieć numer czy numer i nazwę operacji.
