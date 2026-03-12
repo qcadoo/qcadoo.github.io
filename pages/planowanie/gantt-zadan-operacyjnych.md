@@ -13,6 +13,8 @@ Na wykresie Gantta widać wszystkie te [zadania operacyjne](/planowanie-operacyj
 
 Plan widoczny na wykresie Gantta możesz przeglądać w różnych perspektywach czasowych - klikając w nagłówek kalendarza (widoczne dni, godziny itp.) lewym przyciskiem myszy przybliżasz widok, aż do minut. Klikając prawym przyciskiem myszy - oddalasz, aż do miesięcy. 
 
+Moment aktualny oznaczony jest w Gantt pionową czerwoną linią. Dzięki temu zawsze będziesz wiedzieć co w danym momencie powinno być realizowane na produkcji.
+
 Domyślnie widoczne są wszystkie aktywne stacje robocze. Możesz ukryć na czas planowania nieistotne stacje, klikając przycisk {% include inline_image.html file="przyciskXGanttWierszStacji.png" alt="X" %} w wierszu stacji. Usunięte stacje wrócą po ponownym wczytaniu Gantta lub odświeżeniu jego zawartości.
 
 Dane zapisywane są od razu po wprowadzonych zmianach. Jeśli przesuniesz kafelek - efekt od razu będzie widoczny w [liście zadań operacyjnych](/planowanie-operacyjne). Jeśli jednak inny użytkownik doda nowe zadania, czy je zmieni, zobaczysz aktualny stan dopiero po odświeżeniu widoku. Możesz albo ponownie wczytać kalendarz, albo kliknąć przycisk odświeżenia {% include inline_image.html file="przyciskGanttOdswiez.png" alt="Odśwież" %} pod wykresem.
@@ -55,7 +57,7 @@ Dla zadań o typie "inne zadanie" zastosowane zostały kolory:
 
 Zadania zakończone są ponadto wyłączone z edycji - pionowe kreski na początku i końcu kafelka oznaczają, że nie może zmienić swojego położenia.
 
-Jakie jeszcze kolory możesz na wykresie Gantta dostrzec:
+<u>Jakie jeszcze kolory możesz na wykresie Gantta dostrzec</u>:
 
 1. zadania mogą być realizowane w tym samym czasie. Kafelki ułożone zostają wówczas jeden pod drugim, a wiersz stacji jest odpowiednio poszerzany. Zadania takie mają kafelki o jaśniejszym odcieniu
 

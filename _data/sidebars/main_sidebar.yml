@@ -333,6 +333,10 @@ entries:
       output: web
       url: /czesci.html
 
+    - title: Załączniki
+      output: web
+      url: /zalaczniki.html
+
     - title: Atrybuty
       output: web
       url: /atrybuty.html
@@ -420,6 +424,10 @@ entries:
     - title: Stacje robocze
       output: web
       url: /stacje-robocze.html
+
+    - title: Podzespoły
+      output: web
+      url: /podzespoly.html
 
   - title: Technologie
     output: web
@@ -514,6 +522,10 @@ entries:
     - title: Listy procesów technologicznych
       output: web
       url: /listy-procesow.html
+
+    - title: Karty produktu
+      output: web
+      url: /karty-produktu.html
 
   - title: Magazyn
     output: web

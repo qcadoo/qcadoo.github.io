@@ -54,7 +54,7 @@ Podsumowanie prac pracowników szwalni możliwa jest poprzez analizę wykonania 
 
 Po szyciu produkt przechodzi do pakowania. Pracownik pakuje wyroby w ramach paczek. W [terminalu rejestracji produkcji](/terminal) skanuje kod paczki, zapisuje ilość spakowaną i potwierdza. Po akceptacji [rekordu rejestracji](/rejestracja-produkcji) wyrób przyjmowany jest na magazyn [dokumentem](/dokumenty.html#dokumenty-magazynowe-jako-efekty-funkcji-qcadoo) PW. Spakowanie całej zleconej produkcji oznacza zakończenie prac nad zleceniem produkcyjnym.
 
-{% include callout.html content="Jeśli zlecach produkcję wykorzystując grupy zleceń nie musisz przyjmować wyrobów po akceptacji każdego rekordu rejestracji produkcji. Zaraportowana produkcja może się odkładać w grupie zleceń, a na magazyn trafi dopiero po wywołaniu funkcji przyjęcia w ramach grupy." type="warning" %}
+{% include callout.html content="Jeśli zlecasz produkcję wykorzystując grupy zleceń nie musisz przyjmować wyrobów po akceptacji każdego rekordu rejestracji produkcji. Zaraportowana produkcja może się odkładać w grupie zleceń, a na magazyn trafi dopiero po wywołaniu funkcji przyjęcia w ramach grupy." type="warning" %}
 
 
 

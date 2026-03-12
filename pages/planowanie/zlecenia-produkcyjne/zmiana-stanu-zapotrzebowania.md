@@ -31,15 +31,26 @@ W zakładce Przepływ uzupełnij magazyny - dzięki temu będą mogły być twor
 
 Magazyny w zakładce będą się podpowiadać. Jeśli w technologii użytej w zleceniu jest zasięg = 1 dział, to podpowiedzą się magazyny podane w nagłówku zakładki Przepływ w technologii. Jeśli natomiast zasięg = wiele działów, to domyślnie ustawią się magazyny przypisane do [działu](/dzialy), w zakładce **Magazyny**.
 
-Dla produktu możesz ustalić też jakie **partie** mają zostać zużyte w procesie produkcji. Nie jest to rezerwacja partii na magazynie, ale plan realizacji produkcji. Przypisane w zakładce Partie dane będą widoczne w:
-- **dostępności surowców w zleceniu produkcyjnym** - zobaczysz czy masz wystarczający stan magazynowy zaplanowanych partii,
-- **terminalu rejestracji produkcji** - pracownik otrzyma informacje w menu kontekstowym do produktu wejściowego.
-
-Po wprowadzeniu danych wybieramy {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz**.
-
 Tabelę ze szczegółowym zapotrzebowaniem możemy zapisać w formie dokumentu w formacie {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %} **PDF** lub {% include inline_image.html file="exportToCsvIcon24.png" alt="Przycisk CSV" %} **CSV**.
 
 Zmiana szczegółowego zapotrzebowania możliwa jest również podczas [rejestracji produkcji](/rejestracja-produkcji). Dzięki temu pracownik na etapie meldowania efektów produkcji będzie mógł wprowadzić zamiennik, czy dodać odpad (aby móc zarejestrować wyprodukowanie wyrobu o niższej jakości).
+
+Po wprowadzeniu danych wybieramy {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisz" %} **Zapisz**.
+
+---
+## Zaplanowanie partii koniecznej do zużycia
+
+Dla produktu możesz ustalić też jakie **partie** mają zostać zużyte w procesie produkcji. Nie jest to rezerwacja partii na magazynie, ale plan realizacji produkcji. 
+
+{% include lightbox.html file="planowanieSzczegoloweZapotrzebowaniePartie.png" alt="Szczegółowe zapotrzebowanie - partie surowca" caption="Szczegółowe zapotrzebowanie - partie surowca"%}
+
+Wejdź w dany surowiec i przejdź do zakładki **Partie**. Kliknij przycisk {% include inline_image.html file="przyciskDodajIstniejacy.png" alt="Przycisk Dodaj istniejący" %} i wybierz [partię](/jak-dodac-numery-partii) ze zdefiniowanych w systemie.
+
+Przypisane w zakładce Partie dane będą widoczne w:
+- **[dostępności surowców w zleceniu produkcyjnym](/dostepnosc_surowcow)** - zobaczysz czy masz wystarczający stan magazynowy zaplanowanych partii,
+- **[zapotrzebowaniu materiałowym](/zapotrzebowanie-materialowe)** - magazyn dostanie informacje o tym, jakie partie do produktu muszą zostać przygotowane,
+- **[zapotrzebowaniu materiałowym w aplikacji qcadoo WMS mobile](/wms-zapotrzebowanie)**
+- **[terminalu rejestracji produkcji](/terminal)** - pracownik otrzyma informacje w menu kontekstowym do produktu wejściowego.
 
 ---
 ## Atrybuty zasobu w szczegółowym zapotrzebowaniu 

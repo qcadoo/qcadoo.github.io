@@ -15,7 +15,7 @@ Stacje robocze mogą być dodane ręcznie oraz przez import danych z arkusza Exc
 
 ## Jak dodać ręcznie nową stację roboczą?
 
-Aby dodać nową stację roboczą wybierz: **Struktura firmy >> Stacje robocze >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe zlecenie" %} **Dodaj nowy**
+Aby dodać nową stację roboczą wybierz: **Struktura firmy >> Stacje robocze >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nową stację" %} **Dodaj nowy**
 
 {% include lightbox.html file="strukturaFirmyStacjaNowa.png" alt="Dodanie stacji roboczej" caption="Dodanie stacji roboczej" %} 
 
@@ -39,7 +39,7 @@ Poza standardowymi informacjami z zakładki **Główna**, możesz definicję sta
 - w zakładce **"Firmy obsługujące"** - przypisać możesz [firmy](/firmy), które serwisują daną maszynę,
 - w zakładce **"Linie produkcyjne"** - przypiszesz dział i linię produkcyjną, do których dana stacja należy. Warto uzupełnić tę informację, jeśli zależy Ci na planowaniu zadań z dokładnością do stacji, albo gdy zamierzasz wykorzystywać moduł działu utrzymania ruchu w qcadoo
 - w zakładce **Wymiary produktu** - możesz określić minimalne i maksymalne wymiary produktu jakie jesteś w stanie na tej maszynie uzyskać. Dane te zweryfikujemy na etapie sprawdzania technologii i powiemy Ci, czy projektowany wyrób jesteś w stanie wytworzyć za pomocą wskazanych stacji,
-- w zakładce **"Lokalizacja"** - zobaczysz gdzie dana stacja znajduje się w całej strukturze firmy. W tym celu wygeneruj strukturę za pomocą przycisku  {% include inline_image.html file="generateIcon24.png" alt="Generuj" %} **Generuj strukturę**. Warunkiem niezbędnym do tego, by drzewo mogło się zbudować, jest przypisanie do zakładu działów, do działu - linii, do linii - stacji, a nawet do stacji - podzespołu.
+- w zakładce **"Lokalizacja"** - zobaczysz gdzie dana stacja znajduje się w całej strukturze firmy. W tym celu wygeneruj strukturę za pomocą przycisku  {% include inline_image.html file="przyciskGenerujStrukture.png" alt="Generuj" %}. Warunkiem niezbędnym do tego, by drzewo mogło się zbudować, jest przypisanie do zakładu działów, do działu - linii, do linii - stacji, a nawet do stacji - podzespołu.
 
 {% include callout.html content="Jeśli zależy Ci na planie produkcji z dokładnością do stacji roboczej, koniecznie wskaż w drzewie technologii jakie stacje robocze mogą daną operację wykonać." type="warning" %}
 

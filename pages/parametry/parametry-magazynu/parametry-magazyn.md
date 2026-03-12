@@ -67,8 +67,38 @@ Parametry tej zakładki dotyczą listy [pozycje dokumentów z atrybutami zasobu 
 
 ---
 
+## Inwentaryzacja
+
+Parametry [inwentaryzacji](/inwentaryzacja) konfigurują proces spisu realnego stanu magazynu. 
+
+{% include lightbox.html file="parametryParametryMagazynuInwentaryzacja.png" alt="Parametry inwentaryzacji" caption="Parametry inwentaryzacji" %}
+
+1. **Wykorzystywane koszty materiałów** - wskaź wg jakiego [kosztu zapisanego w produkcie](/produkty.html#7-zakładka-koszty) mamy podpowiadać cenę dla nadwyżek ujawnionych w procesie inwentaryzacji. Do wyboru:
+- nominalny,
+- średnio ważona,
+- cena z ostatniego przychodu,
+- średnia cena z ofert,
+- cena z ostatniej oferty.
+
+2. **Użyj kosztu nominalnego, gdy cena nie jest określona** - zaznacz parametr, a w momencie, gdy podana wyżej cena w produkcie będzie nieokreślona, sięgniemy po jego koszt nominalny.
+
+
+---
+
 ## Wolumen sprzedaży
 
 {% include lightbox.html file="administracjaParametryMagazynWolumen.png" alt="Parametry wolumenu sprzedaży" caption="Parametry wolumenu sprzedaży" %}
 
 1. **Kończący się zapas** - wskaż na ile dni musisz mieć zapas, aby był on wystarczający. Zapasy poniżej tej wartości będą filtrowane w [Wolumenach sprzedaży](/wolumen-sprzedazy) funkcją Pokaż kończący się zapas.
+
+---
+
+## Inwentaryzacja WMS
+
+{% include lightbox.html file="parametryParametryMagazynuInwentaryzacjaWMS.png" alt="Parametry inwentaryzacji WMS" caption="Parametry inwentaryzacji WMS" %}
+
+Zakładka widoczna jest tylko wtedy, gdy wykupione są licencje na aplikację mobilną [qcadoo WMS mobile](/wms-wprowadzenie). Parametry pozwalają na skonfigurowanie działania inwentaryzacji w aplikacji. Do wyboru:
+
+1. **Ukryj stan** - zaznacz parametr, a pracownik magazynu nie będzie widział w procesie inwentaryzacyjnym w aplikacji stanu ewidencyjnego produktu
+
+2. **Ukryj pozycje** - zaznacz parametr, a w aplikacji użytkownik nie będzie widział pozycji inwentaryzacyjnych. Dzięki temu skoncentruje się na skanowaniu każdego znalezionego na magazynie produktu, bez sugerowania się czego mu jeszcze brakuje, by wypełnić zaplanowany spis

@@ -64,7 +64,7 @@ Aby podzielić inwentaryzację wejdź w nią i kliknij przycisk {% include inlin
 
 ---
 
-{% include lightbox.html file="wmsInwentaryzacjaDodajNowy.png" alt="Dodanie nowej pozycji" caption="Podział inwentaryzacji" class="float-right" %}
+{% include lightbox.html file="wmsInwentaryzacjaDodajNowy.png" alt="Dodanie nowej pozycji" caption="Dodanie nowej pozycji" class="float-right" %}
 
 {:start="3"}
 3. **Jak dodać znalezioną pozycję spoza listy?**
@@ -80,3 +80,26 @@ Jeśli podczas inwentaryzacji znaleziona została pozycja, której nie ma na li�
 4. **Jak zmodyfikować inwentaryzację wysłaną do aplikacji mobilnej?**
 
 Przygotowałeś inwentaryzację i wysłałeś ją do aplikacji WMS? Pracownicy przyjęli do realizacji i okazało się, że nie to miało być spisywane? Co teraz? Inwentaryzacja w systemie qcadoo jest przecież nie do edycji. Jest na to sposób. W pierwszej kolejności wszyscy przypisani do inwentaryzacji użytkownicy muszą w aplikacji wywołać funkcję **Rezygnuj** (trzeba tak zrobić do każdej części danej inwentaryzacji w aplikacji). Spowoduje to usunięcie wszystkich pozycji spisanych. A status WMS zostanie ustawiony na 'oczekujący'. Teraz w systemie qcadoo należy w inwentaryzacji kliknąć przycisk {% include inline_image.html file="przyciskWycofajZWms.png" alt="Przycisk Wycofaj z WMS" %}. W efekcie zniknie z aplikacji, a w systemie wróci do edycji.
+
+---
+
+{% include lightbox.html file="wmsInwentaryzacjaUkryjStan.png" alt="Pozycje inwentaryzacyjne z ukrytym stanem" caption="Pozycje inwentaryzacyjne z ukrytym stanem" class="float-right" %}
+
+{:start="5"}
+
+5. **Jak ukryć w aplikacji mobilnej ewidencyjny stan magazynowy?**
+
+Jeśli pracownicy magazynu podczas skanowania nie powinni sugerować się stanem ewidencyjnym, tylko rzetelnie raportować ilość znalezioną, warto ukryć w aplikacji mobilnej stan. Aby to uczynić przejdź w systemie qcadoo do [parametrów inwentaryzacji WMS](/parametry-magazyn.html#inwentaryzacja-wms) i zaznacz parametr **Ukryj stan**. 
+
+---
+
+{% include lightbox.html file="wmsInwentaryzacjaUkryjPozycje.png" alt="Inwentaryzacja z ukrytymi pozycjami" caption="Inwentaryzacja z ukrytymi pozycjami" class="float-right" %}
+
+{:start="6"}
+
+6. **Jak przejść na tryb spisywania bez widocznych w aplikacji pozycji inwentaryzacyjnych?**
+
+Proces inwentaryzacyjnych w aplikacji qcadoo WMS mobile można przeprowadzić na dwa sposoby:
+- pracownik widzi listę pozycji inwentaryzacyjnych, ustalonych na podstawie aktualnego ewidencyjnego stanu magazynu. Skanując i wprowadzając ilość do pozycji, zostają one oznaczone jako spisane i znikają z listy do spisania. Zawsze wiadomo czego trzeba jeszcze poszukać. Ten tryb traktowany jest jako domyślny, na starcie parametr inwentaryzacyjny **Ukryj pozycje** jest wyłączony.
+
+- pracownik wie tylko jaki magazyn i miejsca składowania ma spisać. Nie zna natomiast listy pozycji do spisania. Jego praca polega na skanowaniu każdego napotkanego produktu i wskazaniu jego ilości. System sam spróbuje dopasować rzeczywisty spis do zasobów ewidencyjnych i wyznaczyć niedobory czy nadwyżki. Aby ustawić taki tryb pracy, w [parametrach inwentaryzacji WMS](/parametry-magazyn.html#inwentaryzacja-wms) należy zaznaczyć parametr **Ukryj pozycje**.

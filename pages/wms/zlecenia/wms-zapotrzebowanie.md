@@ -25,7 +25,7 @@ Wiesz już co będzie potrzebne. Ustalmy teraz, gdzie produkt znaleźć.
 
 Kliknij w wiersz produktu. Spowoduje to przejście do widoku [stanu magazynowego produktu](/wms-stan-produktu) i dostępnych zasobów. Dla każdego zasobu widoczne jest **miejsce składowania** i **numer nośnika**. 
 
-{% include callout.html content="Jeśli zaplanowane zostało użycie konkretnej partii, zostaniesz przeniesiony do widoku [stanu partii](/wms-stan-partii)." type="info" %}
+{% include callout.html content="Jeśli zaplanowane zostało użycie konkretnej [partii](/zmiana-stanu-zapotrzebowania.html#zaplanowanie-partii-koniecznej-do-zużycia), zostaniesz przeniesiony do widoku [stanu partii](/wms-stan-partii)." type="info" %}
 
 Pobrany produkt możesz oznaczyć jako zrealizowany.
 

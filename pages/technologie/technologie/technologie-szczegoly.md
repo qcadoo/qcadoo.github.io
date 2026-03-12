@@ -437,6 +437,8 @@ W widoku szczegółów technologii dostępne są następujące dodatkowe opcje:
 
 4. **Utwórz kartę modelu** - funkcja tworzy [kartę modelu](/karta-modelu) na produkt finalny technologii w ilości 1. Wystarczy tylko wygenerować i wydrukować.
 
+5. **Karty produktu** - klikając w przycisk {% include inline_image.html file="przyciskKartaProduktu.png" alt="Przycisk Karta produktu" %} przejdziesz do listy [kart produktu](/karty-produktu) wygenerowanych do danej technologii.
+
 ---
 
 Być może zainteresuje Cię też temat masowej zmiany technologii - opis znajdziejsz [tutaj](/masowa-zmiana-technologii).
