@@ -317,6 +317,10 @@ entries:
       output: web
       url: /numery-wlasne-palet.html
 
+    - title: Generator numerów nośników logistycznych
+      output: web
+      url: /generator-numerow-nosnikow.html
+
     - title: Typy nośników logistycznych
       output: web
       url: /typy-nosnikow.html
@@ -933,6 +937,10 @@ entries:
     - title: Widok rejestracji wg produktu
       output: web
       url: /widok-rejestracji-wg-produktu.html
+
+    - title: Raport dodatkowych informacji o produktach wejściowych w rejestracji produkcji
+      output: web
+      url: /raport-dodatkowych-informacji-RR.html
 
   - title: Utrzymanie ruchu
     output: web

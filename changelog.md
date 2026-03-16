@@ -7,6 +7,37 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.7 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.7</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.7</td>
+          <td>
+          <ul>
+            <li>gantt zleceń:</li>
+              <ul>
+                <li>zmiana opisu kafelka,</li>
+                <li>oznaczenie momentu aktualnego,</li>
+              </ul>
+            <li>gantt zadań operacyjnych:</li>
+              <ul>
+                <li>zmiana opisu kafelka,</li>
+                <li>oznaczenie momentu aktualnego,</li>
+              </ul>
+            <li>qcadoo WMS mobile:</li>
+              <ul>
+                <li>zapotrzebowanie materiałowe - lista produktów potrzebnych pod zlecenie produkcyjne.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.6 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.6</summary><br>
@@ -51,7 +82,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.4 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.4</summary><br>
     <table class="changelog-table" border>
         <tr>
