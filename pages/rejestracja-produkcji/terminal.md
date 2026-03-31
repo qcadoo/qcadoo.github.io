@@ -222,7 +222,7 @@ Partie zostaną przekazane do tworzonego rekordu rejestracji produkcji, a z nieg
 {% include lightbox.html file="rejestracjaTerminalProduktyWyjsciowe.png" alt="Produkty wyjściowe" caption="Terminal - produkty wyjściowe" class="float-right"  %}
 
 W tabeli widoczne są te produkty, które w danym zleceniu czy operacji zlecenia, mają zostać wyprodukowane. Pracownik uzupełnia:
-- ilość wyprodukowaną - czyli ile produktów pełnowartościowych udało się wytworzyć
+- ilość wyprodukowaną - czyli ile produktów pełnowartościowych udało się wytworzyć. Ma do dyspozycji ilość w jednostce podstawowej oraz ilość w jednostce dodatkowej. Aby użyć jednostki dodatkowej, konieczne jest istnienie przeliczników w produkcie
 - braki - czyli ile produktów niespełniających wymogów jakościowych (i nie nadających się do dalszej obróbki) powstało
 
 Widoczne są ponadto ilości:

@@ -90,6 +90,27 @@ Analogicznie jak w zakładce Oferty - możesz ustawić jakie kolumny mają być 
 
 ---
 
+## Zapotrzebowanie materiałowe
+
+W zakładce zdefiniujesz parametry domyślne [zapotrzebowania materiałowego](/zapotrzebowanie-materialowe). Generując zapotrzebowanie z poziomu listy planowanych zleceń, zestawienie utworzy się wg parametrów tu ustawionych.
+
+{% include lightbox.html file="parametryParametryZaopatrzenieZapotrzebowanieMat.png" alt="Parametry zapotrzebowania materiałowego" caption="Parametry zapotrzebowania materiałowego" %}
+
+1. **Typ** - do wyboru: 
+- tylko surowce technologii,
+- surowce i komponenty technologii,
+- produkty wejściowe wszystkich operacji,
+- surowce technologii oraz produkty podwykonawców.
+Wskaż jakie produkty realizowanych zleceń mają pojawić się w zapotrzebowaniu materiałowym
+
+2. **Uwzględnij magazyn** - zaznacz parametr, a produkty zostaną pogrupowane wg magazynu, z którego rozchód ma nastąpić
+3. **Pokaż aktualny stan magazynowy** - parametr aktywuje się, gdy _Uwzględnij magazyn_ = tak. Zaznacz, a na zestawieniu pojawi się stan magazynowy danego produktu
+4. **Uwzględnij datę rozpoczęcia zlecenia** - zaznacz parametr, a produkty zostaną pogrupowane po dacie, na którą trzeba przygotować potrzebne produkty
+5. **Pokaż zamienniki** - zaznacz parametr, a wydruk zostanie wzbogacony o [zamienniki](/produkty.html#2-zakładka-zamienniki) zdefiniowane dla produktu
+
+
+---
+
 ## Dostawy do stanów minimalnych
 
 Jeśli chcesz, abyśmy tworzyli automatycznie [dostawy do stanów minimalnych](/dostawy#generowanie-dostawy-do-stanów-minimalnych), zaznacz parametr **Twórz dostawy do stanów min.**

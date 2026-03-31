@@ -55,6 +55,13 @@ W trakcie pracy z dokumentem wydania, możesz wywołać następujące funkcje:
 - **odłóż** - powoduje zostawienie kompletacji w stanie w jakim była w momencie kliknięcia funkcji i powrót do listy zaplanowanych wydań. Pracownik musi przerwać kompletację i zająć się czymś innym, ale wróci do niej i będzie kontynuował działanie.
 - **rezygnuj** - powoduje usunięcie dotychczasowych realizacji z dokumentu i powrót do listy zaplanowanych wydań. 
 
+<br/>
+<br/>
+
+Dla każdego produktu zaplanowanego do skompletowania możesz podejrzeć **zdjęcie**. Będąc w szczegółach pozycji dokumentu kliknij przycisk {% include inline_image.html file="przyciskWmsGrafika.png" alt="Przycisk Grafika" %}. Wyświetli się [zdjęcie załączone](/produkty.html#6-zakładka-załączniki) do produktu w systemie qcadoo, oznaczone jako zdjęcie główne.
+
+{% include lightbox.html file="wmsWydaniaRozchodWewnetrznyGrafika.png" alt="Rozchód wewnętrzny z WMS - zdjęcie produktu" caption="Rozwój wewnętrzny z WMS - zdjęcie produktów" %}
+
 ## Podział dokumentu 
 
 Standardowo nad danym dokumentem pracuje jeden użytkownik. Ale istnieje sposób na wspólną pracę wielu pracowników. Dokumenty rozchodowe, jak WZ, RW czy MM, mogą zostać podzielone na wskazaną ilość części. I każda część może być przypisana do innego pracownika.

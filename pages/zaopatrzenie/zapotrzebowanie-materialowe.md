@@ -28,6 +28,7 @@ Ustal także jak mają wyglądać parametry zapotrzebowania:
 - **pokaż stan z magazynu** - standardowo stan magazynowy w zapotrzebowaniu pobierany jest z magazynu wskazanego w technologii. Jeśli chcesz sprawdzić, czy jaki jest stan na innym magazynie, wskaż interesujący Cię magazyn w polu,
 - **uwzględnij datę rozpoczęcia zlecenia** - jeśli zaznaczysz parametr, to produkty będą pogrupowane po dacie planowanego rozpoczęcia produkcji.
 
+Dla większości parametrów możesz ustawić wartości domyślne w [parametrach zaopatrzenia](/parametry-zaopatrzenie.html#zapotrzebowanie-materiałowe).
 
 Zapisz zapotrzebowanie przyciskiem {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisz" %}. Przejdź do zakładki **Zlecenia**:
 

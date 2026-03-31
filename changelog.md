@@ -7,6 +7,32 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.8 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.8</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.8</td>
+          <td>
+          <ul>
+            <li>miejsce na podpisy na wydruku dokumentu magazynowego,</li>
+            <li>kolumna Kod zlecenia w liście planowanie > zlecenia produkcyjne,</li>
+            <li>zmiana w kwalifikowaniu zadań na dashboardzie do grupy Realizowane + pracownik realizujący na kafelku zadania,</li>
+            <li>terminal rejestracji produkcji - ilość wyprodukowana w jednostce dodatkowej produktu,</li>
+            <li>parametry zapotrzebowania materiałowego i generowanie zapotrzebowania z listy zleceń wg tych parametrów,</li>
+            <li>qcadoo WMS mobile:</li>
+              <ul>
+                <li>zdjęcia produktów w kompletowanym dokumencie.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.7 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.7</summary><br>
@@ -59,7 +85,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.5 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.5</summary><br>
     <table class="changelog-table" border>
         <tr>
