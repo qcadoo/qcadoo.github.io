@@ -2,39 +2,54 @@
 title: "Dostawy"
 permalink: dostawy.html
 ---
-"Dostawy" umożliwiają nam przygotowanie i złożenie zamówienia na interesujące nas produkty. 
+
+Zamówienia zakupu w qcadoo ewidencjonowane są jako dostawy. Zarejestrowaną dostawę możesz wysłać do dostawcy np. mailowo. A po dostarczeniu produktów - przyjąć ją na stan magazynowy (poprzez tworzony z automatu dokument PZ). Dostawy tworzone mogą być albo ręcznie, albo z wielu funkcji zapotrzebowania materiałowego czy pokrycia, czy z automatu do zdefiniowanych stanów minimalnych.
 
 {% include callout.html content="Zajrzyj do [parametrów dostaw](/parametry-zaopatrzenie#dostawy) i skonfiguruj je tak, by wygodnie Ci się z nich korzystało" type="info" %}
 
 ## Jak dodać nową dostawę?
 
-Aby dodać nową dostawę musimy wejść w: **ZAOPATRZENIE >> Dostawy >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
+Aby dodać nową dostawę wejdź w: **ZAOPATRZENIE >> Dostawy >>** {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Dodaj nowy**
 
 {% include lightbox.html file="zaopatrzenieDostawyNowa.png" alt="Formularz dostawy" caption="Formularz dostawy" %}
 
-1. W zakładce **"Główna"** nadajemy dostawie "Numer" (wymagane), opcjonalnie możemy uzupełnić pola "Nazwa" i "Opis".
+Zacznij od wypełnienia niezbednych danych w zakładce Główna:
+- **dostawca** - wybierz ze zdefiniowanej listy [firm](/firmy). Przypomnimy o wypełnieniu pola, jeśli w [parametrach](/parametry-zaopatrzenie.html#dostawy) zaznaczych **Wymagaj wskazania dostawcy**,
+- **magazyn** - wskaź, jeśli chcesz aby w momencie odbioru utworzył się dokument PZ. Pamiętaj, że jedna dostawa przyjmowana jest na jeden magazyn. Magazyn może podpowiedzieć się z [parametrów](parametry-zaopatrzenie.html#dostawy),
+- **termin dostawy** - data będzie konieczna do wypełnienia w momencie potwierdzania dostawy. Możesz termin zmienić przechodząc w tryb korekty zamówienia,
+- **waluta** - podpowie się z parametrów dostawy wskazanego kontrahenta lub z [parametrów systemowych](/parametry-glowna.html#główna).
 
-2. W następnym kroku przy pomocy {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy "Dostawcę" u którego chcemy złożyć zamówienie, a także "Termin dostawy" (pole to jest wymagane przy potwierdzeniu dostawy) i "walutę". Opcjonalnie możemy uzupełnić pola z "Adresem docelowym" oraz "Formą płatności".
+Dodatkowo możesz wprowadzić:
+- **opis** - jeśli w każdym zamówieniu ujmujesz stały tekst, to wprowadź go w [parametrach](/parametry-zaopatrzenie.html#dostawy), a za każdym razem zostanie z automatu wypełniony. Pole **opis** będzie aktywny po odebraniu dostawy - dzięki temu zostawisz notatkę już po realizacji np. o reklamacjach czy nieodpowiedniej jakości zakupionych materiałów,
+- **adres docelowy dostawy** - podpowiadany z parametrów. W zależności od ustawienia parametru **Domyślny adres docelowy dostawy** może to być albo adres Twojej firmy, albo inne miejsce opisane w polu, które pojawi się w parametrach po ustawieniu **Domyślny adres docelowy dostawy** = Inne,
+- **forma płatności** - do wyboru ze [słownika](/slowniki). Podpowie się z domyślnej formy płatności dostawcy, wprowadzonej w firmie w zakładce **Dostawy**,
+- **powiązana dostawa** - przyda się w przypadku realizacji zamówienia w częściach. Aby odebrać resztę produktów, niedostarczonych w pierwszej transzy, warto wywołać funkcję **Zamów brakujące** - zostanie utworzona nowa dostawa i będzie ona powiązana z dostawą pierwotną.
 
-{% include callout.html content='"Formę płatności", "Kategorię kontrahenta", "Walutę" oraz "Bufor dla dostaw" ustalamy dla indywidualnie dla każdej firmy, aby to zrobić musimy wejść w **PODSTAWOWE >> Firmy  >> Dostawy**.' type="info" %} 
+W zakładce Główna widoczne są ponadto dwa pola:
+- **bufor dla terminu dostawy**
+- **kategoria kontrahenta**
+Oba wypełniane są tylko informacyjne, na podstawie danych wprowadzonych w firmie.
 
-{:start="3"}
-3. Aby przejść do następnego etapu, po wprowadzeniu wszystkich danych, wybieramy {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz**.
+Zapisz wprowadzone dane przyciskiem {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} i przejdź do kolejnego etapu, czyli do wskazania jakie produkty chcesz zamówić.
 
 ### Dodanie produktu do dostawy
 
-Teraz możesz przejść do kolejnej zakładki **"Zamówione produkty"**. Tutaj tworzymy listę wszystkich produktów, które chcemy zamówić udanego dostawcy.
+Zamówienie zakupu musi zawierać listę produktów, które chcesz kupić od danego dostawcy. Wprowadź ją w zakładce **"Zamówione produkty"**. 
 
 Aby dodać produkt do listy wybierz {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %} **Nowy**.
         
 {% include lightbox.html file="zaopatrzenieDostawaZamowioneProduktyNowy.png" alt="Dodanie produktu" caption="Dodanie produktu" %}
 
-Wyświetli się okno w którym za pomocą {% include inline_image.html file="lupka.png" alt="Przycisk lupy" %} wybieramy interesujący Nas produkt oraz określamy "Ilość" oraz "Cenę" - sumaryczną bądź jednostkową. Po podaniu którejkolwiek z nich, qcadoo automatycznie obliczy drugą. Aby dodać produkt do listy należy wybrać {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisz" %} Zapisz i powrót.
+Podaj:
+- **produkt** - wybierz z listy zdefiniowanych w qcadoo [produktów](/produkty)
+- **ilość** - ilość podstawowa zostanie z automatu przeliczona na ilość dodatkową (i odwrotnie), w oparciu o widoczny przelicznik. Pole z przelicznikiem aktywuje się, gdy wybrany produkt prowadzony jest w dwóch jednostkach miary,
 
-{% include callout.html content="Cenę produktów możemy Ci podpowiedzieć, albo na podstawie ostatniej ceny zakupu produktu albo ostatniej ceny z ofert tego produktu tego dostawcy (odpowiadającą Ci wartość zdefiniujesz w parametrach). Zaznacz zamówione produkty i wywołaj funkcję Uzupełnij ceny. Jeśli waluta dostawy to PLN a w produkcie koszty podanej są w innej walucie, to cena zostanie odpowiednio przeliczona wg aktualnego średniego kursu. Jeśli waluta w dostawie jest inna niż PLN, a w kosztach produktu ceny ostatniego przychodu czy średnioważoną mamy w PLN, to też zostaną one odpowiednio przeliczone na walutę dostawy." type="warning" %}
-            
+Dodatkowo możesz wypełnić:
+- **cena jednostkowa** lub **sumaryczna** (wartość) - możesz ceny podać ręcznie, ale możemy Ci ją podpowiedzieć, albo na podstawie ostatniej ceny zakupu produktu albo ostatniej ceny z ofert tego produktu tego dostawcy (odpowiadającą Ci wartość zdefiniujesz w parametrach). Zaznacz zamówione produkty i wywołaj funkcję Uzupełnij ceny. Jeśli waluta dostawy to PLN a w produkcie koszty podanej są w innej walucie, to cena zostanie odpowiednio przeliczona wg aktualnego średniego kursu. Jeśli waluta w dostawie jest inna niż PLN, a w kosztach produktu ceny ostatniego przychodu czy średnioważoną mamy w PLN, to też zostaną one odpowiednio przeliczone na walutę dostawy.
+- **komentarz**
+- **karta jakości** - dzięki wskazaniu [karty jakości](/karty-jakosci) w momencie odbioru będzie możliwe przeprowadzenie kontroli jakości i zapisanie ich wyników w qcadoo
 
-U góry na pasku nad tabelą główną wyświetli się całkowita ilość oraz całkowity koszt zamówienia. 
+Zapisz produkt przyskiem {% include inline_image.html file="saveIcon24.png" alt="Przycisk zapisz" %}. W taki sam sposób wprowadź pozostałe produkty zamówienia.
 
 ---
 
@@ -48,9 +63,13 @@ Partię określić można na dwa sposoby:
 
 ---
 
-Po skompletowaniu listy zamawianych produktów wybierz {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz**. Teraz możesz przekazać zamówienie dostawcy. Możesz wydrukować je korzystając z dwóch szablonów: "Zamówienie" i "Dostawę" (format PDF) {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %}. Możesz też listę produktów zamówionych wyeksportować do CSV lub PDF (korzystając ze standardowego działania qcadoo, opisanego [tutaj](/eksport-danych)) i ją załączyć do zamówienia.
+Po wprowadzeniu listy zamawianych produktów wybierz {% include inline_image.html file="SaveIcon24.png" alt="Przycisk zapisz" %} **Zapisz**. Jeśli masz pewność, że zamówienie jest kompletne kliknij przycisk {% include inline_image.html file="przyciskPrzygotuj.png" alt="Przycisk Przygotuj" %}. Teraz możesz przekazać je do dostawcy. Możesz wydrukować je korzystając z dwóch szablonów: "Zamówienie" i "Dostawę" (format PDF) {% include inline_image.html file="pdfIcon24.png" alt="Przycisk PDF" %}. Możesz też listę produktów zamówionych wyeksportować do CSV lub PDF (korzystając ze standardowego działania qcadoo, opisanego [tutaj](/eksport-danych)) i ją załączyć do zamówienia. Możesz również automatycznie wysłać maila do dostawcy z załączonym zamówieniem (opisane w [rozdziale poniżej](/dostawy.html#wysyłanie-wiadomości-e-mail-z-zamówieniem)).
 
-Jeżeli zamówienie jest kompletne możesz przejść do następnego etapu. Wybierz {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Przygotuj zamówienie** , na tym etapie można jeszcze edytować swoje zamówienie wybierając przycisk {% include inline_image.html file="startIcon24.png" alt="Przycisk Dodaj nowe" %} **Skoryguj zamówienie.** Jeżeli wszystko jest poprawne wybierz {% include inline_image.html file="acceptIcon24.png" alt="Przycisk akceptuj" %} **Potwierdź**. Teraz zamówienie jest gotowe do wysłania.  
+Jeśli dostawca potwierdzi, że zrealizuje zamówienie, ustaw odpowiedni status przyciskiem {% include inline_image.html file="przyciskPotwierdz.png" alt="Przycisk Potwierdź" %}. Etap ten jest niezbędny, do późniejszego odbioru dostawy.
+
+{% include callout.html content="Jeśli nie prowadzisz dwustopniowego potwierdzania realizacji zamówienia, od razu po wysłaniu zamówienia do dostawcy ustaw status **Potwierdzone**, z pominięciem etapu **Przygotowano zamówienie**" type="warning" %}
+
+Na tym etapie możesz jeszcze edytować swoje zamówienie wybierając przycisk {% include inline_image.html file="przyciskSkoryguj.png" alt="Przycisk Skoryguj" %}.
 
 {% include lightbox.html file="zaopatrzenieDostawyZamowioneProdukty.png" alt="Formularz dostawy - produkty" caption="Formularz dostawy - zamówione produkty" %}
 

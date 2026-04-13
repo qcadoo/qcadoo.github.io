@@ -7,6 +7,28 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.9 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.9</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.9</td>
+          <td>
+          <ul>
+            <li>umożliwienie zostawienia komentarza w odebranej dostawie,</li>
+            <li>data WMS i pracownik WMS w dokumencie PZ powstałym z aplikacji mobilnej,</li>
+            <li>data WMS i pracownik WMS w dostawie,</li>
+            <li>dostosowanie aplikacji qcadoo WMS mobile do Android 16.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.8 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.8</summary><br>
@@ -65,7 +87,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.6 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.6</summary><br>
     <table class="changelog-table" border>
         <tr>

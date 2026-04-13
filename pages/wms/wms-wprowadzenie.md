@@ -19,7 +19,7 @@ Zaznacz, że jesteś zainteresowany systemem qcadoo WMS.
 
 ## Wymagania sprzętowe
 
-Aplikacja qcadoo WMS mobile działa na urządzeniu z systemem Andoid w wersji co najmniej 10. Urządzenie musi mieć aparat, bo to za jego pomocą realizowane jest skanowanie kodów kreskowych.
+Aplikacja qcadoo WMS mobile działa na urządzeniu z systemem Andoid w wersji co najmniej 11. Urządzenie musi mieć aparat, bo to za jego pomocą realizowane jest skanowanie kodów kreskowych.
 
 Obsługa aplikacji jest intuicyjna - jeśli korzystasz z telefonu z systemem Android i dedykowanych dla niego aplikacji, nie powinieneś mieć problemu z poruszaniem się po qcadoo WMS mobile. Używaj standardowych przycisków nawigacji z telefonu, przewijaj ekran przesuwając palcem góra-dół, wchodź w szczegóły wiersza klikając w niego.
 
