@@ -56,7 +56,12 @@ Z qcadoo może korzystać tylu użytkowników ile licencji zostało wykupionych.
 
 {% include lightbox.html file="administracjaLicencje.png" alt="Liczba wykupionych licencji" caption="Liczba wykupionych licencji" %}
 
-Z licencji tych korzystają użytkownicy o typie uprawnień = licencja biurowa. Jeśli chcesz ustalić czy możesz dać do qcadoo dostęp jeszcze jakiemuś pracownikowi, wejdź do listy użytkowników (**Administracja > Użytkownicy**) i przefiltruj po kolumnie **Typ uprawnień** = **licencja biurowa** i policz ilość użytkowników. Jeśli jest ich tylu ile licencji - napisz do nas w celu wykupienia dodatkowych.
+W qcadoo dostępne są następujące typy licencji:
+- licencja biurowa - dająca dostęp do systemu,
+- licencja APS - dająca dostęp do planera,
+- licencja WMS mobile - dająca dostęp do aplikacji qcadoo WMS mobile, wspierającej pracę magazyniera.
+
+Jeśli chcesz ustalić, czy możesz dać do qcadoo dostęp jeszcze jakiemuś pracownikowi, wejdź do listy użytkowników (**Administracja > Użytkownicy**) i przefiltruj po kolumnie **Typ uprawnień** i policz ilość użytkowników. Jeśli jest ich tylu ile licencji - napisz do nas w celu wykupienia dodatkowych.
 
 {% include callout.html content="Warto na bieżąco usuwać dostępy użytkowników już nie pracujących w qcadoo, aby zwolnić miejsce dla nowych użytkowników." type="info" %} 
 

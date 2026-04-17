@@ -229,6 +229,10 @@ entries:
         output: web
         url: /produkcja-rozmiarowa-przyklad.html 
 
+      - title: Obsługa magazynu z wykorzystaniem nośników
+        output: web
+        url: /nosniki-na-magazynie.html 
+
   - title: Dashboard
     output: web
     folderitems:
