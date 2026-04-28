@@ -1285,6 +1285,10 @@ entries:
               output: web
               url: /wms-przyjecie-reczne.html
 
+            - title: Dokumenty PZ
+              output: web
+              url: /wms-dokumenty-pz.html
+
         - title: qcadoo WMS mobile - wydania
           output: web
           subfolderitems:

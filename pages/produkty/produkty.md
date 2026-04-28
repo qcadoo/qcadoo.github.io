@@ -110,7 +110,7 @@ W zakładce tej możesz podać następujące dane:
 Jeśli chcesz do produktu możesz podpiąć załączniki - np. rysunki techniczne, certyfikaty, czy inną dokumentację mającą pomóc w identyfikacji. W zakładce **Załączniki** możesz załączyć plik albo przez kliknięcie w przycisk **Wybierz pliki** i wskazanie go z dysku, albo poprzez przeciągnięcie i upuszczenie w czarny obszar opisany tekstem **Upuść pliki tutaj**. 
 Podpięte pliki możesz podejrzeć, klikając w nie, albo pobrać zaznaczając i klikając przycisk {% include inline_image.html file="przyciskPobierz.png" alt="Przycisk Pobierz" %}.
 
-Dla każdego produktu jeden plik graficzny możesz oznaczyć jako główne. Zaznacz plik i kliknij przycisk {% include inline_image.html file="przyciskOznaczZdjecieJakoGlowne.png" alt="Przycisk Oznacz zdjęcie jako główne" %}. Dzięki temu w aplikacji mobilnej [qcadoo WMS mobile](/wms-wprowadzenie) zdjęcie będzie wyświetlane w [procesie kompletacji](/wms-wz.html#o-czym-jeszcze-powinieneś-wiedzieć). 
+Dla każdego produktu jeden plik graficzny możesz oznaczyć jako główne. Zaznacz plik i kliknij przycisk {% include inline_image.html file="przyciskOznaczZdjecieJakoGlowne.png" alt="Przycisk Oznacz zdjęcie jako główne" %}. Dzięki temu w aplikacji mobilnej [qcadoo WMS mobile](/wms-wprowadzenie) zdjęcie będzie wyświetlane w dokumentach [rozchodu](/wms-wz.html#o-czym-jeszcze-powinieneś-wiedzieć), [przyjęcia](/wms-dokumenty-pz.html#dodatkowe-funkcje-w-procesie) czy w [inwentaryzacji](/wms-inwentaryzacja). 
 
 {:start="7"}
 #### 7. zakładka **Koszty**

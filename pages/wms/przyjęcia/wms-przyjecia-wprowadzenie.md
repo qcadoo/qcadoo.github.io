@@ -13,4 +13,5 @@ W menu **Przyjęcia** dostępne są następujące opcje:
 
 Każda z dostępnych funkcjonalności opisana jest osobnym rozdziałem dokumentacji:
 - [dostawa](/wms-dostawa),
-- [przyjęcie zewnętrzne ręczne](/wms-przyjecie-reczne).
+- [przyjęcie zewnętrzne ręczne](/wms-przyjecie-reczne),
+- [dokumenty PZ](/wms-dokumenty-pz). 

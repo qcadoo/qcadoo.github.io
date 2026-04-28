@@ -103,3 +103,17 @@ Proces inwentaryzacyjnych w aplikacji qcadoo WMS mobile można przeprowadzić na
 - pracownik widzi listę pozycji inwentaryzacyjnych, ustalonych na podstawie aktualnego ewidencyjnego stanu magazynu. Skanując i wprowadzając ilość do pozycji, zostają one oznaczone jako spisane i znikają z listy do spisania. Zawsze wiadomo czego trzeba jeszcze poszukać. Ten tryb traktowany jest jako domyślny, na starcie parametr inwentaryzacyjny **Ukryj pozycje** jest wyłączony.
 
 - pracownik wie tylko jaki magazyn i miejsca składowania ma spisać. Nie zna natomiast listy pozycji do spisania. Jego praca polega na skanowaniu każdego napotkanego produktu i wskazaniu jego ilości. System sam spróbuje dopasować rzeczywisty spis do zasobów ewidencyjnych i wyznaczyć niedobory czy nadwyżki. Aby ustawić taki tryb pracy, w [parametrach inwentaryzacji WMS](/parametry-magazyn.html#inwentaryzacja-wms) należy zaznaczyć parametr **Ukryj pozycje**.
+
+---
+
+{% include lightbox.html file="wmsInwentaryzacjaGrafika.png" alt="Zdjęcie spisywanego produktu" caption="Zdjęcie spisywanego produktu" class="float-right" %}
+
+{:start="7"}
+
+7. **Jak podejrzeć zdjęcie spisywanego produktu?**
+
+Jeśli w systemie qcadoo produkt ma przypisany [graficzny załącznik](/produkty.html#6-zakładka-załączniki) (np. w formacie .png, .jpeg itp.) i jest on oznaczony jak główny, to można go podejrzeć w aplikacji WMS mobile w inwentaryzacji. 
+
+Jak to zrobić? Wejdź w szczegóły pozycji spisywanej i kliknij przycisk {% include inline_image.html file="przyciskWmsGrafika.png" alt="Przycisk Grafika" %}. I już. Teraz wiesz jakiej pozycji szukać na magazynie i co należy spisać.
+
+Nie martw się, że pobrane zdjęcia za bardzo obciążą Twój telefon. Podczas każdego logowania cache zdjęć jest czyszczony. Pamiętaj tylko o tym, by regularnie się z aplikacji wylogowywać.
