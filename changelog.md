@@ -7,6 +7,32 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.10 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.10</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.10</td>
+          <td>
+          <ul>
+            <li>qcadoo WMS mobile:</li>
+              <ul>
+                <li>przyjęcie na podstawie istniejącego dokumentu PZ,</li>
+                <li>zdjęcia produktów w inwentaryzacji,</li>
+                <li>czyszczenie cache zdjęć podczas logowania,</li>
+          </ul>
+            <li>uprawnienia - nowa rola do wysyłania dokumentów do WMS mobile,</li>
+            <li>generowanie zleceń na komponenty - informacja o produkcie bez domyślnej technologii w komunikacie błędu.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.9 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.9</summary><br>
