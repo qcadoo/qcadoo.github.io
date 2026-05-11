@@ -80,6 +80,24 @@ W oknie dla każdego nośnika wskaź **numer nośnika**, na który odłożyłeś
 
 W efekcie wszystkim zasobom przesuwanego nośnika zaktualizujemy numer nośnika, typ nośnika i miejsce składowania. Historię zmian zobaczysz w [tabeli korekt](/korekty).
 
+## Przesunięcie międzymagazynowe nośnika 
+
+{% include lightbox.html file="magazynStanNosnikowPrzesuniecieMiedzymagazynoweMM.png" alt="Przesunięcie międzymagazynowe nośnika" caption="Przesunięcie międzymagazynowe nośnika" class="float-right" %}
+
+Z poziomu stanu nośników możesz przesunąć całe nośniki, ze wszystkimi ich zasobami, na inny magazyn. W efekcie zostanie utworzony dokument MM, który dokona zmian magazynowych.
+
+Zaznacz w tabeli stanu nośników te nośniki, które chcesz przesunąć i kliknij {% include inline_image.html file="przyciskPrzesuniecieMiedzymagazynoweMM.png" alt="Przesunięcie międzymagazynowe nośnika" %}.
+W oknie wskaż magazyn, na który przesuwasz nośniki.
+
+<u>O czym należy pamiętać:</u>
+1. przesuwać można na raz tylko nośniki składowane na tym samym magazynie,
+2. jeśli magazyn przyjmujący ma zdefiniowane domyślne miejsce składowania dla przesunięć (parametr **Miejsce składowania dla przesunięć międzymagazynowych** w zakładce *Metoda rozchodu i atrybuty dokumentu* w **[Magazynie](/magazyny)**), to wszystkie pozycje nośników zostaną przyjęte na to miejsce,
+3. jeśli wskazane w parametrach domyślne miejsce składowania jest nośnikowe, to koniecznie musi być przesunięty cały nośnik. Co to oznacza? Numer nośnika zostanie przekazany na drugi magazyn i nie trzeba będzie go na nowo oklejać. Jeśli natomiast nośnik jest częściowo zarezerowany, to przesunięcie zostanie zablokowane. 
+4. jeśli domyślne miejsce składowania dla przesunięć jest nośnikowe i ma określoną maksymalną ilość nośników, w momencie przekroczenia tej liczby, przesunięcie zostanie zablokowane.
+
+Na magazynie przyjmującym warto określic miejsce składowania typu bufor. I z niego przesunąć nośnik we właściwą lokalizację, np. funkcją przesunięcie nośnika w inne miejsce.
+
+
 ## Zmiana typu nośnika
 
 {% include lightbox.html file="magazynStanNosnikowZmianaTypu.png" alt="Zmiana typu nośnika" caption="Zmiana typu nośnika" class="float-right" %}

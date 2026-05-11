@@ -40,7 +40,12 @@ Do dyspozycji masz następujące parametry:
 
 12. **Pokaż na przewodniku** - wskaż czy na [przewodniku produkcyjnym](/przewodnik-produkcyjny), w tabeli operacji, chcesz zobaczyć jej numer, czy numer i nazwę.
 
-13. **Kontrola wymiarów**:
+13. **Wyprodukowana ilość na podstawie** - parametr decyduje o tym jaką ilość zaprezentujemy w kolumnie **Ilość wyprodukowana**, w liście [planowanych zleceń](/planowanie-zlecen), a także jaka ilość będzie brana pod uwagę w wyznaczaniu procentu wykonania. Wskaż, czy podstawą ma być:
+- **zatwierdzona produkcja** - czyli ilość wyprodukowana pochodząca z zaakceptowanych meldunków z produkcji,
+- **zaraportowana produkcja** - czyli ilość wyprodukowana wyliczona na podstawie zaakceptowanych i szkicowych meldunków z produkcji.
+
+{:start="14"}
+14. **Kontrola wymiarów**:
 - **Kontroluj wymiary wytwarzanych przez stacje wyrobów** - zaznacz parametr jeśli chcesz, abyśmy na zapisie zlecenia sprawdzili, czy zlecony wyrób ma wymiary, które pozwolą na wytworzenie na zaplanowanych w technologii stacjach roboczych. Aby weryfikacja była możliwa wskaż za pomocą jakich atrybutów produkt będzie miał określone wymiary. Pamiętaj też o podaniu maksymalnych i minimalnych wymiarów w [stacji roboczej](/stacje-robocze).
 - lista **atrybutów** - parametr aktywny, gdy _Kontroluj wymiary wytwarzanych przez stacje wyrobów_ zaznaczony. Lista atrybutów ograniczona do tych właściwych produktom. Podane atrybuty będą poszukiwane w zleconym wyrobie. Jeśli wyrób będzie miał przypisany choć jeden atrybut z podanej tu listy, zostanie przeprowadzona kontrola wymiarów.
 

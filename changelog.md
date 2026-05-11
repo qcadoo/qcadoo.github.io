@@ -7,6 +7,27 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.11 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.11</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.11</td>
+          <td>
+          <ul>
+            <li>przesunięcie międzymagazynowe nośników - funkcja z listy stanów nośników,</li>
+            <li>ilość wyprodukowana w liście planowanych zleceń w oparciu o zatwierdzoną lub zaraportowaną produkcję (na parametrze),</li>
+            <li>import rejestracji produkcji z Excela.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.10 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.10</summary><br>
@@ -56,7 +77,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.8 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.8</summary><br>
     <table class="changelog-table" border>
         <tr>
@@ -75,6 +96,7 @@ permalink: changelog.html
             <li>qcadoo WMS mobile:</li>
               <ul>
                 <li>zdjęcia produktów w kompletowanym dokumencie.</li>
+              </ul>
           </ul>
         </td>
         </tr>
@@ -82,7 +104,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.7 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.7</summary><br>
     <table class="changelog-table" border>
         <tr>
@@ -106,6 +128,7 @@ permalink: changelog.html
             <li>qcadoo WMS mobile:</li>
               <ul>
                 <li>zapotrzebowanie materiałowe - lista produktów potrzebnych pod zlecenie produkcyjne.</li>
+              </ul>
           </ul>
         </td>
         </tr>
