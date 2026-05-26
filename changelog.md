@@ -7,6 +7,32 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.12 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.12</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.12</td>
+          <td>
+          <ul>
+            <li>qcadoo WMS mobile:</li>
+              <ul>
+                <li>automatyczna akceptacja zrealizowanego w aplikacji dokumentu,</li>
+                <li>opis dokumentu widoczny w aplikacji,</li>
+                <li>przesunięcie międzymagazynowe nośnika - nowa funkcja,</li>
+                <li>przesunięcie międzymagazynowe nośnika ze szczegółów nośnika,</li>
+          </ul>
+            <li>integracja z Base (BaseLinker).</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.11 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.11</summary><br>
@@ -55,7 +81,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.9 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.9</summary><br>
     <table class="changelog-table" border>
         <tr>

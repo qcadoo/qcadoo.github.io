@@ -93,12 +93,19 @@ Parametry [inwentaryzacji](/inwentaryzacja) konfigurują proces spisu realnego s
 
 ---
 
-## Inwentaryzacja WMS
+## WMS mobile
 
-{% include lightbox.html file="parametryParametryMagazynuInwentaryzacjaWMS.png" alt="Parametry inwentaryzacji WMS" caption="Parametry inwentaryzacji WMS" %}
+{% include lightbox.html file="parametryParametryMagazynuWMSMobile.png" alt="Parametry WMS mobile" caption="Parametry WMS mobile" %}
 
 Zakładka widoczna jest tylko wtedy, gdy wykupione są licencje na aplikację mobilną [qcadoo WMS mobile](/wms-wprowadzenie). Parametry pozwalają na skonfigurowanie działania inwentaryzacji w aplikacji. Do wyboru:
+
+**Obszar: inwentaryzacja**
 
 1. **Ukryj stan** - zaznacz parametr, a pracownik magazynu nie będzie widział w procesie inwentaryzacyjnym w aplikacji stanu ewidencyjnego produktu
 
 2. **Ukryj pozycje** - zaznacz parametr, a w aplikacji użytkownik nie będzie widział pozycji inwentaryzacyjnych. Dzięki temu skoncentruje się na skanowaniu każdego znalezionego na magazynie produktu, bez sugerowania się czego mu jeszcze brakuje, by wypełnić zaplanowany spis
+
+**Obszar: dokumenty magazynowe**
+
+{:start="3"}
+3. **Akceptuj dokument zrealizowany w WMS mobile** - zaznacz parametr, a dokument zrealizowany w WMS mobile, automatycznie zostanie zaakceptowany w systemie qcadoo. Wyłączony parametr oznacza dwustopniowe działanie - pracownik na magazynie kończy realizację w aplikacji, a administracja magazynu w biurze, akceptuje dokument, przez co wywołuje skutki magazynowe. 

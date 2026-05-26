@@ -42,6 +42,8 @@ Wybierz dokument, który chcesz realizować. I kliknij w niego, by przyjąć go 
 6. Skompletowana pozycja trafi na listę **produktów zrealizowanych**. Jeśli wydano ilość taką jak zaplanowano - dana pozycja zniknie z listy produktów do wydania.
 7. Po wydaniu wszystkich zaplanowanych pozycji **zakończ realizację** klikając przycisk {% include inline_image.html file="przyciskWmsZatwierdz.png" alt="Przycisk Zatwierdź" %}. Dokument zniknie z aplikacji WMS mobile, a w systemie qcadoo otrzyma status WMS = zrealizowane. I będzie można go zaakceptować.
 
+{% include callout.html content="Jeśli [parametr magazynu ](/parametry-magazyn.html#wms-mobile)  **Akceptuj dokument zrealizowany w WMS mobile** jest zaznaczony, to dokument zrealizowany w aplikacji będzie automatycznie akceptowany w systemie. Jeśli akceptacja się nie powiedzie, o czym poinformujemy Cię komunikatem, przejdź do systemu i wywołaj akceptację ręcznie, ustalając przyczynę niepowodzenia." type="warning" %}
+
 <br/>
 <br/>
 
