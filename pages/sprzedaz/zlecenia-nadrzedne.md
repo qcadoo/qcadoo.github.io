@@ -15,9 +15,9 @@ Zamówienia sprzedaży mogą być wykorzystywane albo do zaewidencjonowania zam�
 
 2. Opcjonalnie możesz również podać jego **Nazwę**, **Opis**, a także przyporządkować **Kontrahenta** i określić **Datę rozpoczęcia**, **Datę zakończenia** oraz **Termin ostateczny**.
 
-{% include callout.html content='Jeżeli określisz _Termin ostateczny_ to wówczas termin w każdym zleceniu produkcyjnym powiązanym z tym zamówieniem sprzedaży, będzie musiał być taki sam. System przestanie pilnować zgodności dat, gdy [parametr planowania ](/parametry-planowania.html#zamówienia-sprzedaży) _Pozwól na zmianę terminu ostatecznego zamówienia sprzedaży_ będzie zaznaczony.' type="info" %}
+{% include callout.html content='Jeżeli określisz _Termin ostateczny_, to wówczas termin w każdym zleceniu produkcyjnym powiązanym z tym zamówieniem sprzedaży, będzie musiał być taki sam. System przestanie pilnować zgodności dat, gdy [parametr planowania ](/parametry-planowania.html#zamówienia-sprzedaży) _Pozwól na zmianę terminu ostatecznego zamówienia sprzedaży_ będzie zaznaczony.' type="info" %}
 
-{% include callout.html content='Jeżeli określisz "Jeśli pracujesz z planami sprzedaży, to produkcję, którą zamierzasz wytworzyć w celu zwiększenia stanu magazynowego, zapisz jako zamówienie sprzedaży z oznaczonym parametrem Zamówienie na magazyn. Dzięki temu w planie będzie robita ilość zamówiona - osobno pokażemy ile zamówili klienci i osobno ile będzie produkowane na zapas.' type="info" %}
+{% include callout.html content='Jeśli pracujesz z planami sprzedaży, to produkcję, którą zamierzasz wytworzyć w celu zwiększenia stanu magazynowego, zapisz jako zamówienie sprzedaży z oznaczonym parametrem _Zamówienie na magazyn_. Dzięki temu w planie będzie rozbita ilość zamówiona - osobno pokażemy ile zamówili klienci i osobno ile będzie produkowane na zapas.' type="info" %}
 
 {% include lightbox.html file="planowanieZamowieniaDodajPozycje.png" alt="Formularz dodawania produktu do zamówienia sprzedaży" caption="Formularz dodawania produktu do zamówienia sprzedaży" class="float-right" %}
 
@@ -44,9 +44,10 @@ Dana pozycja może być opisana wieloma atrybutami. Zostaną one przekazane do t
 
 ---
 
-Zamówienie sprzedaży może pojawić się też w systemie qcadoo na dwa inne sposoby:
-1. poprzez pobranie z systemu zewnętrznego - jeśli masz uruchomioną integrację ze swoim ERP, to zamówienie od klienta wprowadzone w ERP może zostać przesłane do qcadoo i stanowić początek procesu produkcyjnego
-2. poprzez zaimportowanie z arkusza .xlsx - o czym będzie prawić kolejny podrozdział
+Zamówienie sprzedaży może pojawić się też w systemie qcadoo na inne sposoby:
+1. poprzez import z systemu zewnętrznego - jeśli masz uruchomioną integrację ze swoim ERP, to zamówienie od klienta wprowadzone w ERP może zostać przesłane do qcadoo i stanowić początek procesu produkcyjnego,
+2. poprzez pobranie z Base - jeśli masz uruchomioną integrację z Base (BaseLinker) to zamówienia o podanym w parametrach statusie, pobierane są do qcadoo w nocy (o godz. 5:30) oraz ręcznie poprzez wywołanie funkcji {% include inline_image.html file="przyciskPobierzZleceniaBase.png" alt="Przycisk Pobierz zlecenia" %},
+2. poprzez zaimportowanie z arkusza .xlsx - o czym będzie prawić kolejny podrozdział.
 
 ### Import zamówień sprzedaży z pliku .xlsx
 

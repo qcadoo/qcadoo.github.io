@@ -551,6 +551,10 @@ entries:
       output: web
       url: /miejsca-skladowania.html
 
+    - title: Domyślne miejsca składowania produktu
+      output: web
+      url: /domyslne-miejsca-skladowania-produktu.html
+
     - title: Dokumenty
       output: web
       url: /dokumenty.html
@@ -1412,6 +1416,10 @@ entries:
     - title: Integracja z systemami ERP
       output: web
       url: /integracja-ERP.html
+
+    - title: Integracja z Base
+      output: web
+      url: /integracja-base.html
 
     - title: Azure Service Bus
       output: web

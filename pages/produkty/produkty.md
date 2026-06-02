@@ -38,6 +38,7 @@ Możesz uzupełnić też produkt o następujące informacje:
 - **globalny typ materiału** - możesz oznaczyć produkt jako: produkt finalny, półprodukt, surowiec, odpad lub opakowanie. Ułatwi Ci to odszukanie produktów odpowiedniego typu,
 - **jednostka dodatkowa** - jeśli chciałbyś prowadzić ewidencję magazynową w dwóch jednostkach, to podaj tutaj jednostkę dodatkową. Pamiętaj o zdefiniowaniu przelicznika między jednostką podstawową a jednostką dodatkową,
 - **kod EAN** - jeśli używasz dodatkowego kodu do identyfikacji produktu, możesz go tutaj podać. Kod EAN musi być unikalny,
+- **kod dodatkowy** - pole nieaktywne, uzupełniane unikalnym numerem. Pole wypełni się, gdy klikniesz przycisk {% include inline_image.html file="przyciskGenerujKodDodatkowy.png" alt="Przycisk Generuj kod dodatkowy" %}. Jeśli chcesz, aby każdy nowo dodany produkt, miał z automatu wypełniony kod dodatkowy, zaznacz w [parametrach produktów](/parametry-glowna.html#produkty): **Generuj kod dodatkowy w każdym produkcie**. Co daje kod dodatkowy? Będzie użyty do kodu kreskowego na [etykiecie produktu](/produkty.html#etykiety-produktu), gdy produkt nie posiada kodu EAN. Skanując etykietę w aplikacji [qcadoo WMS mobile](/wms-wprowadzenie) szybko namierzysz dany produkt.
 - **kategoria produktu** - pole służy do grupowania produktów. Zdefiniuj w [słowniku Kategorie produktów](/slowniki) odpowiednie wartości i przypisz produktowi jedną z nich. Kategorię produktu zobaczysz m.in. w terminalu rejestracji produkcji w oknie wyboru zleceń,
 - **opis** - w tym polu możesz zostawić te informacje, które są dla Ciebie ważne, ale nie znalazłeś na nie miejsca w innych dostępnych polach,
 - **producent** - wskaż tutaj producenta danego produktu, korzystając z listy [firm](/firmy) zdefiniowanych w qcadoo,
@@ -290,7 +291,7 @@ Zapewne większość Twoich produktów posiada fabryczne etykiety z kodem EAN. J
 **Kilka słów o etykietach**:
 - etykiety drukowane są w PDF,
 - na jednej stronie A4 mieści się 8 etykiet. Każda o wymiarach 90 x 57 mm, a zatem pasuje do standardowych kieszeni samoprzylepnych,
-- w kodzie kreskowym umieszczamy kod EAN. Jeśli jednak produkt go nie posiada, to spróbujemy w ten sposób przedstawić numer produktu. Uda się, gdy numer nie jest ani za krótki ani za długo i wśród nich nie ma polskich znaków. Odnośnie długości nie ma tu konkretnych wytycznych - jeśli Twoje numery produktu nie udaje się przedstawić w formie kodu kreskowego, a sądzisz, że powinno się udać, napisz do nas na pomoc@qcadoo.com, a ustalimy co da się w tym temacie zrobić
+- w kodzie kreskowym umieszczamy kod EAN. Jeśli jednak produkt go nie posiada, pobierzemy kod dodatkowy. A jeśli jego nie ma, to spróbujemy w ten sposób przedstawić numer produktu. Uda się, gdy numer nie jest ani za krótki ani za długo i wśród nich nie ma polskich znaków. Odnośnie długości nie ma tu konkretnych wytycznych - jeśli Twoje numery produktu nie udaje się przedstawić w formie kodu kreskowego, a sądzisz, że powinno się udać, napisz do nas na pomoc@qcadoo.com, a ustalimy co da się w tym temacie zrobić
 - na etykiecie prezentujemy w jednej linii numer produktu oraz w maksymalnie dwóch liniach - nazwę produktu,
 - etykieta dla każdego produktu może być drukowana wielokrotnie.
 
