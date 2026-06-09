@@ -36,3 +36,6 @@ Dostępne są następujące parametry:
 1. automatycznie każdej nocy o godz. 5:30 zaciągnięte zostaną wszystkie zamówienia o podanym statusie,
 2. klikając w przycisk {% include inline_image.html file="przyciskPobierzZleceniaZBase.png" alt="Przycisk Pobierz zlecenia z Base" %} w **Parametry > Parametry ogólne**,
 3. klikając w przycisk {% include inline_image.html file="przyciskPobierzZleceniaBase.png" alt="Przycisk Pobierz zlecenia" %} w **Sprzedaż > Zamówienia sprzedaży**.
+
+
+{% include callout.html content="Produkty między qcadoo a Base nie są synchronizowane. Zadbaj o to, aby SKU produktu w Base zgadzał się z numerem produktu w qcadoo. Tylko wówczas będą mogły być podpięte właściwe pozycje do zamówienia." type="warning" %}

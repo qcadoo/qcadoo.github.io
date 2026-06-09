@@ -49,7 +49,7 @@ Wybierz dokument, który chcesz realizować. I kliknij w niego, by przyjąć go 
 ## O czym jeszcze powinieneś wiedzieć
 
 - Po przesunięciu niepełnej ilości danego produktu w dokumencie pojawi się nowa pozycja, na pozostałą, jeszcze nie wydaną ilość. Ilość, którą trzeba dołożyć, zobaczysz w zakładce **Do przesunięcia**, natomiast ilość już skompletowaną w zakładce **Zrealizowane**. Wiersz z ilością pozostałą do wydania, zostanie oznaczony kolorem żółtym.
-- Zakończyć realizację możesz dopiero po skompletowaniu wszystkiego, co zostało na dokumencie wskazane. Jeśli czegoś nie możesz znaleźć (a to oznacza różnice między stanem ewidencyjnym, a fizycznym stanem), musisz udać się do administracji magazynu i ustalić sposób postępowania (być może będą wymagane dodatkowe uzgodnienia).
+- - Jeśli [parametr](/parametry-magazyn.html#wms-mobile) **Pozwól na zmianę ilości w WMS mobile** = nie, to zakończyć realizację możesz dopiero po skompletowaniu wszystkiego, co zostało na dokumencie wskazane. Jeśli pracownik może zakończyć realizację dokumentu, nawet wtedy, gdy nie wszystko zostało odnalezione, zaznacz parametr.
 
 W trakcie pracy z dokumentem wydania, możesz wywołać następujące funkcje:
 - **odłóż** - powoduje zostawienie kompletacji w stanie w jakim była w momencie kliknięcia funkcji i powrót do listy zaplanowanych przesunięć. Pracownik musi przerwać kompletację i zająć się czymś innym, ale wróci do niej i będzie kontynuował działanie.

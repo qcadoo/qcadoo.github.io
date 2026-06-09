@@ -7,6 +7,34 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.13 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.13</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.13</td>
+          <td>
+          <ul>
+            <li>qcadoo WMS mobile:</li>
+              <ul>
+                <li>wydawanie w pozycji dokumentu rozchodowego informacji o tym, że nośnik będzie wydawany w całości,</li>
+                <li>wyszukiwanie produktu po kodzie dodatkowym,</li>
+                <li>możliwość wydania dokumentem WZ, RW i MM innej ilości niż zaplanowano,</li>
+          </ul>
+            <li>lista planowane zleceń - kolumny Termin klienta i Norma wydajnościowa,</li>
+            <li>lista domyślnych miejsc składowania produktów,</li>
+            <li>kod dodatkowy w produkcie - generowanie i umieszczanie w formie kodu kreskowego na etykiecie,</li>
+            <li>dokument PZ pochodzący z dostawy z aplikacji WMS mobile - uzupełnienie pracownika i daty WMS.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.12 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.12</summary><br>
@@ -55,7 +83,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.10 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.10</summary><br>
     <table class="changelog-table" border>
         <tr>
