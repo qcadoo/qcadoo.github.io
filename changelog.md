@@ -7,6 +7,26 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.14 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.14</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.14</td>
+          <td>
+          <ul>
+            <li>qcadoo WMS mobile: usuwanie z dokumentu pozycji niezrealizowanych w WMS mobile</li>
+            <li>usunięcie atrybutów z magazynu i dodanie parametru produktu: Ewidencja daty ważności.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.13 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.13</summary><br>

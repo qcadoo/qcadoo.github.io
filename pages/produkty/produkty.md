@@ -99,9 +99,10 @@ Aby przypisać do produktu atrybut i określić jego wartość, kliknij w tabeli
 
 W zakładce tej możesz podać następujące dane:
 - **rozmiar** - do wybrania z listy [rozmiarów](/rozmiary). Rozmiar widoczny jest np. w analizach. Dodatkowo: produkty rozmiarowe mają w qcadoo specjalną ścieżkę obsługi w planach sprzedaży i zamówieniach sprzedaży - szybciej wprowadzisz ilości dla każdego z rozmiarów.
-- **ważność** - jeśli chcesz, abyśmy wyznaczali datę ważności produkowanych wyrobów, podaj w polu ważność wyrażoną w miesiącach. Podczas rejestracji podpowiemy datę ważności późniejszą od daty rozpoczęcia zlecenia o podaną ilość miesięcy
-- **forma** - jeśli do produkcji będziesz używał konkretnej formy, możesz ją tutaj wskazać
-- **pokaż jako materiał na karcie produktu** - produkty wejściowe technologii z zaznaczonym parametrem pojawiają się na karcie produktu
+- **ewidencja daty ważności** - zaznacz parametr, a zawsze wtedy, gdy będziesz przyjmować produkt na magazyn, przypomnimy Ci o wprowadzeniu daty ważności,
+- **ważność** - jeśli chcesz, abyśmy wyznaczali datę ważności produkowanych wyrobów, podaj w polu ważność wyrażoną w miesiącach. Podczas rejestracji podpowiemy datę ważności późniejszą od daty rozpoczęcia zlecenia o podaną ilość miesięcy,
+- **forma** - jeśli do produkcji będziesz używał konkretnej formy, możesz ją tutaj wskazać,
+- **pokaż jako materiał na karcie produktu** - produkty wejściowe technologii z zaznaczonym parametrem pojawiają się na karcie produktu.
 
 {:start="6"}
 #### 6. zakładka **Załączniki**
@@ -157,7 +158,10 @@ I jeszcze kilka ważnych informacji:
 
 {% include lightbox.html file="produktyProduktyPartie.png" alt="Ewidencja partii" caption="Ewidencja partii" %} 
 
-W zakładce znajduje się parametr związany z modułem Genealogii. Jeśli chcesz, aby dany produkt zawsze w momencie przychodu lub rozchodu, a także podczas raportowania produkcji, musiał mieć podawaną partię, zaznacz parametr **Ewidencja partii**. 
+W zakładce znajdują się parametry związane z modułem Genealogii:
+- **Ewidencja partii** - zaznacz parametr, jeśli chcesz, aby dany produkt zawsze w momencie przychodu lub rozchodu, a także podczas raportowania produkcji, musiał mieć podawaną partię,
+- **Wzorzec numeru partii** - jeśli w [parametrach genealogii](/parametry-genealogia.html#zakładka-zlecenia-i-technologie) **Generuj partię dla produktu zleconego** jest zaznaczony, to w momencie akceptacji zlecenia, do wyrobu zleconego generowana jest partia. Numer może być utworzony wg wzorca. Albo wg jednego przyjętego dla wszystkich wyborów (i podanego w parametrach genealogii), albo wg indywidualnie zdefiniowanego dla produktu. Jeśli produkt ma wskazany wzorzec numeru partii w tym polu, to numer będzie wygenerowany wg niego. Jeśli nie - zostanie wygenerowana w wzorca z parametrów genealogii.
+
 
 {:start="9"}
 #### 9. zakładka **Karty jakości**

@@ -47,8 +47,8 @@ Wprowadzając pozycję w **dokumencie przychodowym** to Ty podajesz wszystkie do
 - **jednostka dokumentu** - jeśli produkt ma określoną jednostkę dodatkową, to zostanie ona tutaj z automatu uzpełniona i nie będzie mogła być zmieniona. Jeśli natomiast w produkcie określiłeś, że chcesz prowadzić ewidencję magazynową tylko w jednej jednostce (podstawowej) to będziesz mógł wybrać tutaj każdą jednostkę, na którą określono w produkcie przelicznik. A program zawsze dokona przeliczenia na jednostkę podstawową produktu,
 - **przelicznik** - jeśli jednostka podstawowa i jednostka dokumentu są takie same, to przelicznik będzie równy 1. Jeśli jednostka dokumentu jest inna - przelicznik uzupełni się na podstawie definicji produktu, ale będziesz mógł go dowolnie w pozycij dokumentu zmienić. Jak interpretować przelicznik? Na przykładzie: jednostka podstawowa to karton, jednostka dokumentu to sztuka. Jeśli w kartonie jest 10 sztuk, to przelicznik będzie równy 10.
 - **cena** - podaj cenę w jakiej chcesz przyjąć zasób na magazyn,
-- **partia** - jeśli dostawca informuje o numerze partii produktu i chcesz ją ewidencjonować - wprowadź ją do pozycji,
-- **data ważności** - podobnie jak z partią: od Ciebie zależy, czy wpisywać numer czy nie,
+- **partia** - jeśli dostawca informuje o numerze partii produktu i chcesz ją ewidencjonować - wprowadź ją do pozycji. Jeśli zaznaczysz w [produkcie parametr](/produkty.html#8-zakładka-partie) 'Ewidencja partii', to przypilnujemy, by partia była uzupełniona,
+- **data ważności** - podobnie jak z partią: od Ciebie zależy, czy wpisywać numer czy nie. Ale jeśli w produkcie zaznaczysz [parametr](/produkty.html#5-zakładka-charakterystyka-produktu) 'Ewidencja daty ważności', to zapis pozycji się nie uda, jeśli pole pozostanie puste,
 - **data produkcji** - analogicznie jak z datą ważności,
 - **miejsce składowania** - jeśli zależy Ci na określaniu dokładnych lokalizacji produktu to wskaż tutaj miejsce składowania (do wyboru z listy),
 - **typ nośnika** - jeśli produkty składowane są w nośnikach logistycznych, to możesz wskazać, w nośniku o jakim typie produkt został ulokowany (do wyboru z listy),

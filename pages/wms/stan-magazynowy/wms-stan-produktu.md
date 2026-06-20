@@ -7,7 +7,7 @@ Aby ustalić czy masz dostępny na magazynie dany produkt i gdzie go znaleźć w
 
 {% include lightbox.html file="wmsStanProduktu.png" alt="Stan produktu - wybór produktu" caption="Stan produktu - wybór produktu" %}
 
-i podaj **numer produktu** lub jego **EAN**. 
+i podaj **numer produktu**, jego **EAN**, lub **kod dodatkowy**. 
 
 {% include callout.html content="Zawsze, gdy napotkasz pole z aparatem, oznacza to, że możesz zeskanować kod kreskowy, w którym masz zaszyty dany numer. Możesz też ręcznie wprowadzić kod z klawiatury." type="warning" %}
 

@@ -111,3 +111,5 @@ Zakładka widoczna jest tylko wtedy, gdy wykupione są licencje na aplikację mo
 3. **Akceptuj dokument zrealizowany w WMS mobile** - zaznacz parametr, a dokument zrealizowany w WMS mobile, automatycznie zostanie zaakceptowany w systemie qcadoo. Wyłączony parametr oznacza dwustopniowe działanie - pracownik na magazynie kończy realizację w aplikacji, a administracja magazynu w biurze, akceptuje dokument, przez co wywołuje skutki magazynowe. 
 
 4. **Pozwól na zmianę ilości w WMS mobile** - zaznacz parametr, a w dokumentach RW, WZ i MM realizowanych w aplikacji qcadoo WMS mobile, pracownik będzie mógł wydać inną ilość niż zaplanowano. Jeśli parametr będzie niezaznaczony, dopóki cała ilość zaplanowana nie będzie skompletowana, pracownik nie będzie mógł ukończyć realizacji.
+
+5. **Usuń z dokumentu niezrealizowane w WMS mobile pozycje** - parametr uaktywni się, gdy _Pozwól na zmianę ilości w WMS mobile** będzie zaznaczony. Wskaż, czy chcesz aby po realizacji w WMS mobile pozycje dokumentu zostały dostosowane do takiej listy ustalonej w aplikacji. Pozostałe, niezrealizowane pozycje, zostaną usunięte z dokumentu, jeśli parametr będzie zaznaczony. 

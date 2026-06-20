@@ -90,14 +90,16 @@ Każdą dostawę, którą otrzymasz na magazyn musisz odebrać w programie qcado
 * [numer nośnika logistycznego](/numery-wlasne-palet)
 * [typ nośnika](/typy-nosnikow)
 * [miejsce składowania](/miejsca-skladowania)
-i dla każdej pozycji wskaż datę ważności i zweryfikuj, czy podpowiedzieliśmy odpowiednią ilość. Aby zapisać odebrane pozycje kliknij {% include inline_image.html file="przyciskPrzypiszIPowrot.png" alt="Przycisk Przypisz i powrót" %} **Przypisz i powrót**. I powtórz czynność dla wszystkich kompletowanych nośników logistycznych.
+<br/>
+
+i dla każdej pozycji wskaż **datę ważności** (jeśli produkt ma zaznaczony [parametr](/produkty.html#5-zakładka-charakterystyka-produktu) 'Ewidencja daty ważności', to pole nie może zostać puste), **partię** (pamiętając, że jeśli zaznaczysz w [produkcie parametr](/produkty.html#8-zakładka-partie) 'Ewidencja partii' to pole musi być wypełnione) i zweryfikuj, czy podpowiedzieliśmy odpowiednią **ilość**. Aby zapisać odebrane pozycje kliknij {% include inline_image.html file="przyciskPrzypiszIPowrot.png" alt="Przycisk Przypisz i powrót" %} **Przypisz i powrót**. I powtórz czynność dla wszystkich kompletowanych nośników logistycznych.
 
 {% include lightbox.html file="zaopatrzenieDostawaOdbierzISKontroluj.png" alt="Odbiór i skontrolowanie dostawy" caption="Odbiór i skontrolowanie dostawy" class="float-right" %}
 
 {:start="4"}
 4. **Odebranie i skontrolowanie jakości** - ta metoda pozwala na skontrolowanie podczas odbioru dostawy tych produktów, które powinny być skontrolowane. Skąd wiadomo, że powinny? Mają swoją [kartę jakości](/karty-jakosci) i została ona przypisana zamówionemu produktowi. Aby odebrać dostawę tą metodą zaznacz produkty w zakladce **Zamówione produkty** i kliknij przycisk {% include inline_image.html file="przyciskOdbierzISkontroluj.png" alt="Przycisk Odbierz i skontroluj" %} **Odbierz i skontroluj**. Dla każdego produktu dostępne są następujące pola:
-- **partia** - możesz wskazać z listy zdefiniowanych partii tą, która została Ci dostarczona,
-- **numer partii** - jeśli nie znalazłeś na liście zdefiniowanych partii właściwej, wpisz tutaj numer, a założymy ją dla Ciebie w genealogii i podepniemy do dostarczanego produktu,
+- **partia** - możesz wskazać z listy zdefiniowanych partii tą, która została Ci dostarczona. Partia będzie wymagana, jeśli [produkt będzie miał zaznaczony parametr](/produkty.html#8-zakładka-partie) 'Ewidencja partii'
+- **numer partii** - jeśli nie znalazłeś na liście zdefiniowanych partii właściwej, wpisz tutaj numer, a założymy ją dla Ciebie w genealogii i podepniemy do dostarczanego produktu. 
 - **ilość odebrana** - podpowiemy Ci ilość pozostałą do odebrania. Sprawdź, czy pokrywa się z ilością, którą chcesz odebrać i ewentualnie nanieś zmiany,
 - **cena** - uzupełnimy cenę, którą podałeś na etapie zamawiania. Jeśli cena ostateczna różni się - zaktualizuj ją,
 - **miejsce składowania** - jeśli chcesz możesz podać lokalizację, w której produkt będzie składowany.

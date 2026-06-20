@@ -11,11 +11,13 @@ Produkty, to wszystko to, co składowane jest na magazynie. Aby dodać produkt w
 
 {% include lightbox.html file="startWMSProdukt.png" alt="Produkt" caption="Produkt" %}
 
-Jeśli planujesz korzystać z aplikacji mobilnej qcadoo WMS mobile, warto uzupełnić w produkcie kody EAN. 
+Jeśli planujesz korzystać z aplikacji mobilnej [qcadoo WMS mobile](/wms-wprowadzenie), warto uzupełnić w produkcie kody EAN lub jeśli go nie znasz - wygenerować kod dodatkowy. Ponadto - jeśli produkt nie ma widocznego oznaczenia w postaci kodu kreskowego, [wydrukuj etykiety](/produkty.html#etykiety-produktu) z naszego systemu.
 
 {% include callout.html content="Kody EAN w produktach możesz uzupełnić później, zbiorczo, korzystając z funkcji importu z Excela." type="warning" %}
 
-Produkty możesz dodatkowo pogrupować w rodziny, asortymenty, modele, czy kategorie. Możesz też zastosować ewidencję w dodatkowej jednostce miary. A w zakładce Załączniki przypiąć jego zdjęcia, czy dokumentację techniczną.
+{% include callout.html content="Kody dodatkowe mogą być z automatu generowane do każdego tworzonego produktu. Wystarczy w [parametrach produktu](/parametry-glowna.html#produkty) zaznaczyć _Generuj kod dodatkowy w każdym produkcie_." type="warning" %}
+
+Produkty możesz dodatkowo pogrupować w rodziny, asortymenty, modele, czy kategorie. Możesz też zastosować ewidencję w dodatkowej jednostce miary. A w zakładce _Załączniki_ przypiąć jego zdjęcia, czy dokumentację techniczną.
 
 Masz bardzo dużo produktów? Skorzystaj z funkcji importu z Excela. Wejdź w **Produkty > Produkty**, kliknij przycisk {% include inline_image.html file="przyciskImportujProduktyZXLSX.png" alt="Przycisk Importuj produkty z XLSX" %} i postępuj zgodnie [tym rozdziałem dokumentacji](/produkty.html#jak-zaimportować-produkty-z-excela).
 

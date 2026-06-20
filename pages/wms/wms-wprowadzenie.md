@@ -59,7 +59,11 @@ Po zainstalowaniu aplikacji na urządzeniu, uruchom ją i **wyraź zgodę** na w
 Aplikacja qcadoo WMS mobile współpracuje z systemem qcadoo. Aby praca przebiegała sprawnie ustaw w qcadoo następujące parametry:
 - w Magazyn > [Magazyny](/magazyny) wejdź w szczegóły magazynu i zaznacz w zakładce *Metoda rozchodu i atrybuty dokumentów* parametr **Szkicowe dokumenty rezerwują stan**. Aby zapewnić zgodność stanu magazynowego ewidencyjnego z tym faktycznym, konieczne jest zarezerowanie konkretnych zasobów, które będą wydawane. Dzięki temu produkt włożony do koszyka podczas kompletacji na pewno nie będzie mógł być zdjęty ze stanu innym dokumentem,
 - w Administracja > [Użytkownicy](/uzytkownicy.html#przypisywanie-do-użytkownika-magazynu-pracownika-zakładu-oraz-linii-produkcyjnej) wejdź w szczegóły użytkownika, który będzie się logował do aplikacji i w zakładce Pracownik przypisz mu [pracownika](/pracownicy),
-- w Parametry > [Parametry magazynu](/parametry-magazyn.html#zakładka-główna---parametry-dokumentów) w tabeli Widoczność kolumn w pozycjach dokumentu, ustaw by były widoczne kolumny: Pracownik WMS i Data WMS.
+- w Parametry > [Parametry magazynu](/parametry-magazyn.html#zakładka-główna---parametry-dokumentów) w tabeli Widoczność kolumn w pozycjach dokumentu, ustaw by były widoczne kolumny: Pracownik WMS i Data WMS. 
+- w Parametry > Parametry magazynu > [zakładka WMS mobile](/parametry-magazyn.html#wms-mobile) przejrzyj dostępne opcje i ustaw tak parametry, by aplikacja działała zgodnie z Twoimi potrzebami
+
+
+
 
 
 ## Logowanie
