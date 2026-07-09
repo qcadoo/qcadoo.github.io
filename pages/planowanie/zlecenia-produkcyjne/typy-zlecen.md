@@ -21,4 +21,4 @@ Wpływ zmiany pola "Typ zlecenia":
 {% include callout.html content='Aby móc edytować technologię z poziomu zlecenia należy najpierw odblokować odpowiednie opcje w parametrach programu. Edycja technologii możliwa jest jedynie dla zlecenia będącego w stanie "Oczekujące". Po akceptacji nie ma możliwości wprowadzenia jakichkolwiek zmian.
 ' type="warning" %}
 
-Aby to zrobić wybieramy **Administracja >> Parametry >> Zlecenia**, tam w zakładce "Główna" odznaczamy "Blokady", które chcemy zdjąć.
+Aby to zrobić wybieramy **Parametry >> Parametry planowania >> przycisk: Zlecenia**, tam w zakładce "Główna" odznaczamy "Blokady", które chcemy zdjąć.

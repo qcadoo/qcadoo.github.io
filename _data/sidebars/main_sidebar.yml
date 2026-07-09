@@ -1176,9 +1176,26 @@ entries:
       output: web
       url: /parametry-sprzedazy.html
 
-    - title: Parametry zaopatrzenia
-      output: web
-      url: /parametry-zaopatrzenie.html
+      subfolders:
+      - title: Parametry zaopatrzenia
+        output: web
+        subfolderitems:
+
+        - title: Parametry zaopatrzenia
+          output: web
+          url: /parametry-zaopatrzenie.html
+        
+        - title: Parametry zapotrzebowania materiałowego
+          output: web
+          url: /parametry-zapotrzebowanie-mat.html
+
+        - title: Parametry dostaw do stanów min.
+          output: web
+          url: /parametry-dostaw-do-stanow-min.html
+
+        - title: Parametry stanów minimalnych
+          output: web
+          url: /parametry-stany-minimalne.html
 
     - title: Parametry magazynu
       output: web

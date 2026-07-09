@@ -90,32 +90,13 @@ Analogicznie jak w zakładce Oferty - możesz ustawić jakie kolumny mają być 
 
 ---
 
-## Zapotrzebowanie materiałowe
+## Dostawy WMS
 
-W zakładce zdefiniujesz parametry domyślne [zapotrzebowania materiałowego](/zapotrzebowanie-materialowe). Generując zapotrzebowanie z poziomu listy planowanych zleceń, zestawienie utworzy się wg parametrów tu ustawionych.
+W zakładce Dostawy WMS skonfigurujesz działanie [dostaw](/wms-dostawa) w aplikacji [qcadoo WMS mobile](/wms-wprowadzenie).
 
-{% include lightbox.html file="parametryParametryZaopatrzenieZapotrzebowanieMat.png" alt="Parametry zapotrzebowania materiałowego" caption="Parametry zapotrzebowania materiałowego" %}
+{% include lightbox.html file="parametryParametryZaopatrzenieDostawyWMS.png" alt="Parametry dostaw w aplikacji WMS mobile" caption="Parametry dostaw w aplikacji WMS mobile" %}
 
-1. **Typ** - do wyboru: 
-- tylko surowce technologii,
-- surowce i komponenty technologii,
-- produkty wejściowe wszystkich operacji,
-- surowce technologii oraz produkty podwykonawców.
-Wskaż jakie produkty realizowanych zleceń mają pojawić się w zapotrzebowaniu materiałowym
-
-2. **Uwzględnij magazyn** - zaznacz parametr, a produkty zostaną pogrupowane wg magazynu, z którego rozchód ma nastąpić
-3. **Pokaż aktualny stan magazynowy** - parametr aktywuje się, gdy _Uwzględnij magazyn_ = tak. Zaznacz, a na zestawieniu pojawi się stan magazynowy danego produktu
-4. **Uwzględnij datę rozpoczęcia zlecenia** - zaznacz parametr, a produkty zostaną pogrupowane po dacie, na którą trzeba przygotować potrzebne produkty
-5. **Pokaż zamienniki** - zaznacz parametr, a wydruk zostanie wzbogacony o [zamienniki](/produkty.html#2-zakładka-zamienniki) zdefiniowane dla produktu
-
-
----
-
-## Dostawy do stanów minimalnych
-
-Jeśli chcesz, abyśmy tworzyli automatycznie [dostawy do stanów minimalnych](/dostawy#generowanie-dostawy-do-stanów-minimalnych), zaznacz parametr **Twórz dostawy do stanów min.**
-
-{% include lightbox.html file="administracjaParametryZaopatrzenieDostawyDoStanowMin.png" alt="Parametry dostaw do stanów minimalnych" caption="Parametry dostaw do stanów minimalnych" %}
+- **Konieczne skanowanie produktu** - zaznacz parametr jeśli odebrany produkt musi być zeskanowany z etykiety. Nie będzie wówczas możliwe wskazanie pozycji przez kliknięcie w wiersz produktów do odbioru.
 
 ---
 
@@ -145,45 +126,5 @@ Jeśli chcesz, abyśmy tworzyli automatycznie [dostawy do stanów minimalnych](/
 
 10. **Ilość wydana do wysokości potrzeby** - wydanie wewnętrzne może być tylko wyznacznikiem tego w jakiej ilości produkty mają być przesuwane na magazyn. Np. w technologii określono, że potrzebujemy 0,05 m danego materiału. I taka ilość pojawi się w wydaniu. Jednak magazynierzy mogą nie ciąć materiału i wydawać do na działy w całych belkach - więc wiadomo, że ostatecznie wydają np. 50 m. Jeśli chcesz pozwolić na taką możliwość - zostaw parametr nie zaznaczony. Jeśli natomiast chcesz aby magazynier nie mógł wydać więcej niż technologia określa, to parametr powinien zostać zaznaczony - przypilnujemy to podczas wydania.
 
----
 
-## Pokrycie zapotrzebowania
-
-[Pokrycie zapotrzebowania](/pokrycie-zapotrzebowania) to funkcjonalność, która pozwoli Ci na ustalenie jakie produkty potrzebne są do produkcji, na kiedy, w jakiej ilości a także czy są już zamówione u dostawcy, albo zlecone do wyprodukowania.
-
-{% include lightbox.html file="administracjaParametryZaopatrzeniePokrycie.png" alt="Parametry pokrycia zapotrzebowania" caption="Parametry pokrycia zapotrzebowania" %}
-
-Dostępne są następujące parametry:
-
-1. **Domyślnie oblicz pokrycie do ... dni** - podaj tutaj z jakiego okresu do przodu mamy pobierać zlecenia. Pewnie nie chcesz na ten moment wiedzieć, że za rok będziesz potrzebować sklejki sosnowej. Ale informacja o tym, że w przyszłym tygodniu będziesz używać koronkowej taśmy, może być już cenna. Wstaw taką ilość dni, aby bez problemu móc zorganizować dostawę na czas. Na podstawie podanej liczby wyliczymy datę, do jakiej wykonywane będzie pokrycie. Oczywiście w samym pokryciu wyliczoną datę będziesz mógł zmienić.
-
-2. **Magazyny** - musimy wiedzieć z jakich magazynów mamy zbierać stan, aby ustalić, czy produkty potrzebne do zleceń są dostępne, czy też nie. Wskaż zatem listę magazynów (kliknij {% include inline_image.html file="przyciskMalyPlusADS.png" alt="Przycisk dodawania" %} i wybierz z listy magazyn. Możesz dodać tak dużo magazynów, jak potrzebujesz). Oczywiście tutaj również traktujemy ustawienia w parametrach jako domyślne, bez problemu będziesz mógł listę magazynów zmienić bezpośrednio w pokryciu zapotrzebowania
-
-3. **W wynikach pokaż tylko produkty** - dostępne opcje:
-- pozyskiwane przez - wszystkich, zakup od dostawców, operacje podwykonywane. Odpowiednio ograniczymy listę wg Twoich wskazań - np. możesz zobaczyć tylko te produkty, które są wykonywane przez Twoich kooperantów. Ustawiasz tutaj wartość domyślną, którą możesz zmienić z poziomu pokrycia zapotrzebowania. 
-- należące do rodziny - możesz ograniczyć zaprezentowane produkty tylko do tych należących do wskazanej rodziny. I znowu - ustawiasz tutaj wartość domyślną, którą możesz zmienić na etapie generowania pokrycia zapotrzebowania
-- pokrycie zapotrzebowania - wszystkie, bez produktów znajdujących się na magazynie lub tylko braki i opóźnienia. Wybierając jedną z opcji zawężasz wyniki wyszukiwania. Wartość parametru może być zmieniona w samym pokryciu zapotrzebowania
-
-4. **Uwzględnij w obliczeniach**:
-- **Potwierdzone dostawy** - pobieramy tylko dostawy o statusie potwierdzone
-- **Niezatwierdzone dostawy** - pobieramy dostawy o statusach: potwierdzone, przygotowano zamówienie, korekta zamówienia oraz szkic
-- **Nieszkicowe dostawy** - pobieramy dostawy o statusach: potwierdzone, przygotowano zamówienie oraz korekta zamówienia
-
-5. **Zachowuj raport pokrycia** - każde pokrycie zapotrzebowania, które generujesz możesz zapisać jako PDF i później do niego wrócić. Jeśli chcesz abyśmy zawsze przygotowali taki wydruk, zaznacz parametr
-
-6. **Statusy zleceń** - domyślnie do pokrycia zapotrzebowania zbieramy wszystkie otwarte zlecenia produkcyjne. Możesz jednak ograniczyć listę wskazując statusy, które Cię interesują. Do wyboru: oczekujace, zaakceptowane, rozpoczęte
-
----
-
-## Pokrycie zapotrzebowania a stany minimalne
-
-Parametry dotyczą zachowania się [stanów minimalnych](/stan-min). 
-
-{% include lightbox.html file="administracjaParametryZaopatrzenieStanyMin.png" alt="Parametry stanów minimalnych w pokryciu zapotrzebowania" caption="Parametry stanów minimalnych w pokryciu zapotrzebowania" %}
-
-1. **Uwzględniaj zapotrzebowanie w stanie aktualnym** - stany minimalne działają w oparciu o dostępną ilość magazynową. Sprawdzamy, czy to co jest dostępne, jest mniejsze od zdefiniowanego stanu minimalnego. Standardowo ilość dostępna to stan magazynowy pomniejszony o ilość zarezerwowaną. Jednak jeśli zaznaczysz ten parametr będziemy stan aktualny pomniejszać o ilości potrzebne pod istniejące zlecenia produkcyjne, z zadanego poniżej okresu
-
-2. **Pobierz zlecenia zaplanowane na ... dni** - jeśli zaznaczyłeś powyższy parametr, musisz podać na ile dni do przodu zlecenia mają wpływać na analizę dostępnych stanów pod stany minimalne
-
-3. **Uwzględnij stan minimalny przy tworzeniu zleceń produkcyjnych** - zaznacz parametr, a podczas zlecania produkcji do zamówień sprzedaży z uwzględnieniem ilości mogących być pobrane z magazynu, zlecana była taka ilość, by zachować zaplanowany na magazynie stan minimalny
 

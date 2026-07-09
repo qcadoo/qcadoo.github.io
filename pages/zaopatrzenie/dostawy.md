@@ -212,20 +212,20 @@ Do wiadomości dołączony będzie plik PDF z wydrukiem zamówienia.
 
 ## Generowanie dostawy do stanów minimalnych
 
-Jeżeli posiadamy produkty, które zamawiane są tylko wtedy, gdy ich ilość osiąga pewien stan to możemy do nich utworzyć automatycznie dostawy, Funkcjonanlność ta jest dostępna, gdy:
+Jeżeli posiadasz produkty, które zamawiane są tylko wtedy, gdy ich ilość schodzi poniżej pewnego stanu, to system może pomóc Ci w ich zamawianiu, poprzez tworzenie automatycznych dostaw. Funkcjonalność ta jest dostępna, gdy:
 
-1. W **Administracja >> Parametry >> Zaopatrzenie >> Dostawy do stanów min** ustawimy checkbox na "TAK".
+1. W **Parametry >> Parametry zaopatrzenia >> przycisk Dostawy do stanów min** ustawisz **Twórz dostawy do stanów minimalnych** na "TAK".
 
-2. W **Magazyn >> Stan min** zdeiniowaliśmy minimalne ilości dla produktów na magazynach.
+2. W **Magazyn >> Stan min** zdefiniujesz minimalne ilości dla produktów na magazynach.
 
-3. Dla [produktu](/produkty) ustaliliśmy [dostawcę](/firmy).
+3. Dla [produktu](/produkty) ustaliłeś domyślnego [dostawcę](/firmy).
 
-Gdy mamy już wszystko gotowe na liście dostaw używamy funkcji **"Utwórz dostawy"** znajdującej się pod przyciskiem {% include inline_image.html file="newIcon24.png" alt="Przycisk Dodaj nowe" %}.
+Gdy masz wszystko skonfigurowane, w liście dostaw kliknij przycisk {% include inline_image.html file="przyciskUtworzDostawy.png" alt="Przycisk Utwórz dostawy" %}. W efekcie powstanie tyle dostaw ilu różnych dostawców należy zaangażować, by zamówić brakujące produkty.
 
 ---
 
 ## Generowanie dostaw z poziomu pokrycia zapotrzebowania
 
-Jest to kolejna funkcjonalność ułatwiająca tworzenie dostaw, po wygenerowaniu pokrycia zapotrzebowaia (opisanego [tutaj](/pokrycie-zapotrzebowania)), zaznaczamy w zakładce: Pokrycie zapotrzebowania produkty, które chcemy zamówić i klikamy przycisk {% include inline_image.html file="przyciskUtworzDostawe.png" alt="Przycisk Utwórz dostawę" %} **Utwórz dostawę**. Komunikat poinformuje Cię jakie dostawy zostały utworzone. Możesz przejść do nich i dowolnie je edytować. 
+Jest to kolejna funkcjonalność ułatwiająca tworzenie dostaw, po wygenerowaniu pokrycia zapotrzebowaia (opisanego [tutaj](/pokrycie-zapotrzebowania)), zaznaczamy w zakładce: Pokrycie zapotrzebowania produkty, które chcemy zamówić i klikamy przycisk {% include inline_image.html file="przyciskUtworzDostawe.png" alt="Przycisk Utwórz dostawę" %}. Komunikat poinformuje Cię jakie dostawy zostały utworzone. Możesz przejść do nich i dowolnie je edytować. 
 
-{% include callout.html content='Tworzone dostawy możemy od razu podzielić według domyślnych dostawców, w tym celu należy uzupełnić w [produktach](/produkty) dostawcę dla produktu/rodziny lub określić w [firmach](/firmy) jaką rodzinę produktów/produkt dostarczają. Informacja ta będzie widoczna tylko dla produktów, które trzeba zamówić.' type="info" %} 
+{% include callout.html content='Tworzone dostawy możesz od razu podzielić według domyślnych dostawców. W tym celu należy uzupełnić w [produktach](/produkty) dostawcę dla produktu/rodziny lub określić w [firmach](/firmy) jaką rodzinę produktów/produkt dostarczają. Informacja ta będzie widoczna tylko dla produktów, które trzeba zamówić.' type="info" %} 
