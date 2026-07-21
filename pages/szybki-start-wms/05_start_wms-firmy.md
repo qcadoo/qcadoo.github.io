@@ -8,9 +8,9 @@ Wejdź do **Podstawowe > Firmy** i dodaj nowy rekord.
 
 {% include lightbox.html file="startWMSFirma.png" alt="Firma" caption="Firma" %}
 
-Koniecznie podaj **numer** i **nazwę**. Możesz wzbogacić wpis o dane adresowe, osobę kontaktową albo przypisać firmę do kategorii (wcześniej zdefiniowanej w słowniku). Nie są to jednak dane niezbędne.
+Koniecznie podaj **numer** i **nazwę**. Możesz wzbogacić wpis o dane adresowe, osobę kontaktową albo przypisać firmę do kategorii (wcześniej zdefiniowanej w [słowniku](/slowniki)). Nie są to jednak dane niezbędne.
 
-Chcesz szybciej wprowadzić dane - skorzystaj z importu z Excela, na zasadach podobnych jak w przypadku produktów.
+Chcesz szybciej wprowadzić dane - skorzystaj z [importu z Excela](/firmy.html#jak-zaimportować-firmy-z-arkusza-excel), na zasadach podobnych jak w przypadku produktów.
 
 I to już wszystko co niezbędne! Czas wprowadzić na stan pierwsze produkty.
 

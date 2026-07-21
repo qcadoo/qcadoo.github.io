@@ -9,7 +9,7 @@ Jak zdefiniować magazyny? Wejdź w **Magazyn > Magazyny** i dodaj nowy rekord, 
 
 {% include lightbox.html file="startMagazyny.png" alt="Magazyny" caption="Magazyny" %}
 
-Jeśli chcesz, aby rozchody realizowane były wg innej metody niż FIFO (pierwsze przyszło - pierwsze wyszło), to przejdź do zakładki **Metoda rozchodu i atrybuty dokumentów** i wybierz dla Ciebie właściwą. 
+Jeśli chcesz, aby rozchody realizowane były wg innej metody niż FIFO (pierwsze przyszło - pierwsze wyszło), to przejdź do zakładki **Ustawienia magazynu** i wybierz dla Ciebie właściwą. 
 
 Dla magazynu możesz wyodrębnić miejsca składowania - jednak nie jest to niezbędne do realizacji ścieżki minimalnej. Szczegóły znajdziesz w [tym rodziale dokumentacji](/miejsca-skladowania).
 

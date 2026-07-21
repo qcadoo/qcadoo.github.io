@@ -204,6 +204,7 @@ Ponadto produkty możesz wzbogacić o następujące dane:
 - **rozmiar** (kolumna P) - do wpisania dowolna wartość. Rozmiar może być liczbą, może być też tekstem
 - **ważność** (kolumna Q) - jeśli produkt będzie przez Ciebie produkowany i będziesz dla niego wyznaczać datę ważności, to możesz w polu podać jaki czas (w miesiącach) produkt będzie nadawał się do użytku. Przy rejestracji produkcji podpowiemy datę wyliczoną jako data rozpoczęcia zlecenia + ilość miesięcy podaną w polu ważność. Wprowadź tu dodatnią całkowitą liczbę
 - **ewidencja partii** (kolumna R) - jeśli dany produkt ma mieć podczas ewidencji podawany numer partii i chcesz, abyśmy nie pozwalali na zapisy dla tego produktu bez podania partii, wskaż w komórce wartość 'tak'. W przeciwnym razie przyjmiemy, że nie chcesz i ustawimy ewidencję partii na 'nie'.
+- **ewidencja daty waźności** (kolumna S) - jeśli dla danego produktu konieczne jest zostawianie informacji o dacie ważności, to ustaw w kolumnie 'tak, a parametr _Ewidencja daty ważności_ w zakładce _Charakterystyka produktu_ zostanie zaznaczony. Dzięki temu zawsze, gdy produkt będzie przyjmowany na magazyn, będziemy wymagali podania daty
 
 {% include callout.html content="Jeśli nadal będziesz mieć wątpliwości co w daną komórkę trzeba wpisać, zerknij na komentarz jaki jest dodany do nagłówka kolumny w szablonie." type="warning" %}
 

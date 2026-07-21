@@ -35,4 +35,5 @@ Po wypełnieniu dokumentu wszystkimi pozycjami, zaakceptuj go, klikając przycis
 3. [parametry magazynu](/parametry-magazyn),
 4. [atrybuty](/atrybuty),
 5. [produkty](/produkty), wraz z [asortymentami](/asortymenty), [modelami](/modele) i [rodzinami produktów](/rodziny-produktow),
-6. [partie](/jak-dodac-numery-partii).
+6. [partie](/jak-dodac-numery-partii),
+7. [zamówienia sprzedaży](/zamowienia-sprzedazy-wms).

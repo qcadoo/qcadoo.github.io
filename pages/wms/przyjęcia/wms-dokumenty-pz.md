@@ -28,6 +28,14 @@ Dokument w systemie qcadoo zostanie oznaczony jako **Zrealizowany**. Teraz pozos
 
 {% include callout.html content="Zwróć uwagę, że dokument realizowany w WMS mobile ma wypełnione informacje o pracowniku i dacie odbioru w każdej pozycji. Dodatkowo w zakładce WMS widoczne są informacje o dacie przesłania do WMS, dacie potwierdzenia realizacji, statusie WMS i pracowniku." type="warning" %}
 
+## Konieczność skanowania etykiet
+
+Wybieranie pozycji dokumentu do realizacji może być różne w zależności od potrzeb danej firmy. Pracownik może klikać w pozycję w celu przejścia do widoku przyjęcia, ale możemy mu taką opcję ograniczyć i wymusić konieczność zeskanowania etykiety przyjmowanego produktu. Za konfigurację odpowiada [parametr magazynu](/parametry-magazyn.html#wms-mobile): **Konieczność skanowania w dokumentach przychodowych**. Jeśli ustawisz:
+
+- **brak** - pracownik widząc listę pozycji do przyjęcia, może dokonać wyboru bez skanowania, klikając w dany wiersz. Nie ma weryfikacji, czy to na pewno ten produkt. Ale z drugiej strony nie ma konieczności oklejania wszystkich produktów etykietami (niektóre mogą nie mieć swojego oryginalnego fabrycznego oznaczenia),
+
+- **produktu** - klikanie w pozycje dokumentu jest wyłączone. Aby wybrać produkt, trzeba go zeskanować z etykiety. Jeśli jest na liście, z automatu wczytane zostanie nowe okno. Jeśli produkt występuje w wielu pozycjach - użytkownik będzie musiał wybrać właściwą, klikając w nią.
+
 ## Dodatkowe funkcje w procesie 
 
 Dokument PZ przesłany do aplikacji WMS mobile może być:

@@ -8,9 +8,13 @@ Wejdź w **Podstawowe > Numery nośników logistycznych**. Możesz dodawać nume
 
 {% include lightbox.html file="startWMSNosniki.png" alt="Numery nośników logistycznych" caption="Numery nośników logistycznych" %}
 
-Podaj ile chcesz numerów wygenerować. Zapisz. I wydrukuj etykiety, klikając przycisk {% include inline_image.html file="przyciskDrukujNumeryNosnikow.png" alt="Drukuj numery nośników" %}:
+Podaj ile chcesz numerów wygenerować. Zapisz. I wydrukuj etykiety, klikając przycisk {% include inline_image.html file="przyciskDrukujDuzeEtykiety.png" alt="Drukuj duże etykiety" %}, aby wydrukować **duże etykiety**,:
 
-{% include lightbox.html file="startWMSEtykietyPalet.png" alt="Wydruk numerów nośników logistycznych" caption="Wydruk numerów nośników logistycznych" %}
+{% include lightbox.html file="startWMSEtykietyPalet.png" alt="Wydruk numerów nośników logistycznych" caption="Wydruk numerów nośników logistycznych - duże etykiety" %}
+
+lub przycisk {% include inline_image.html file="przyciskDrukujMaleEtykiety.png" alt="Przycisk Drukuj małe etykiety" %}, aby wydrukować **małe etykiety**:
+
+{% include lightbox.html file="startWMSEtykietyNosnikowMale.png" alt="Wydruk numerów nośników logistycznych" caption="Wydruk numerów nośników logistycznych - małe etykiety" %}
 
 I zanieś wydruki na magazyn. Przy okazji wydrukuj też arkusze, na których pracownicy zapiszą jakie nośniki zostały przyjęte na magazyn. Wejdź w **Podstawowe > Numery nośników logistycznych** i wydrukuj:
 
@@ -20,6 +24,8 @@ I zanieś wydruki na magazyn. Przy okazji wydrukuj też arkusze, na których pra
 {% include lightbox.html file="startWMSKartaNosnikaIMIX.png" alt="Wydruki nośników logistycznych" caption="Wydruki nośników logistycznych" %}
 
 Pracownicy magazynu podczas rozkładania przyjętych produktów, powinni zapisać na dostępnej karcie: jaki nośnik przygotowali (o jakim numerze i typie), jakie produkty na niej położyli i w jakich ilościach, a także w jakim miejscu składowania ją ulokowali. Tak wypełnione raporty, powinny zostać dostarczone do administracji magazynu i wprowadzone do systemu. 
+
+Jeśli natomiast planujesz wykorzystywać [aplikację qcadoo WMS mobile](/wms-wprowadzenie), wspierającą pracę magazyniera, korzystanie z tych wydruków staje się zbędne.
 
 Wspominane **[typy](/typy-nosnikow)** zdefiniujesz w **Podstawowe > Typy nośników**.
 

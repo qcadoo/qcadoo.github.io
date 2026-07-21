@@ -17,7 +17,7 @@ Jeśli zaznaczysz parametr **Składowanie na nośnikach**, to w danym miejscu b�
 
 Do wprowadzania definicji miejsc składowania może być wykorzystany generator - więcej szczegółów znajdziesz [TUTAJ](/miejsca-skladowania.html#generator-dodawania-miejsc-składowania).
 
-Kolejny krok to wygenerowanie numerów nośników. Ale jeśli nie składujesz produtków na nośnikach - przejdź od razu do kroku [4. Produkty](04_start_wms-produkty).
+Kolejny krok to wygenerowanie numerów nośników. Ale jeśli nie składujesz produtków na nośnikach, przejdź od razu do kroku [4. Produkty](04_start_wms-produkty).
 
 {% include callout.html content="Więcej o definicji miejsca składowania przeczytasz w [TYM rozdziale](/miejsca-skladowania)" type="warning" %}
 

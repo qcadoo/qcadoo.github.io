@@ -7,9 +7,32 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.16 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.16</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.16</td>
+          <td>
+          <ul>
+            <li>qcadoo WMS mobile:</li>
+              <ul>
+                <li>konieczność skanowania etykiet w dokumentach magazynowych rozchodowych (na parametrze),</li>
+                <li>konieczność skanowania etykiet w dostawach (na parametrze).</li>
+              </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.15 -->
   <details open>
-    <summary class="changelog-summary-h3">3.1.14</summary><br>
+    <summary class="changelog-summary-h3">3.1.15</summary><br>
     <table class="changelog-table" border>
         <tr>
           <th>Wersja</th>
@@ -48,7 +71,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.13 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.13</summary><br>
     <table class="changelog-table" border>
         <tr>
@@ -102,7 +125,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.11 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.11</summary><br>
     <table class="changelog-table" border>
         <tr>

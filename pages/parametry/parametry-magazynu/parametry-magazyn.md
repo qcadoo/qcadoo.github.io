@@ -113,3 +113,11 @@ Zakładka widoczna jest tylko wtedy, gdy wykupione są licencje na aplikację mo
 4. **Pozwól na zmianę ilości w WMS mobile** - zaznacz parametr, a w dokumentach RW, WZ i MM realizowanych w aplikacji qcadoo WMS mobile, pracownik będzie mógł wydać inną ilość niż zaplanowano. Jeśli parametr będzie niezaznaczony, dopóki cała ilość zaplanowana nie będzie skompletowana, pracownik nie będzie mógł ukończyć realizacji.
 
 5. **Usuń z dokumentu niezrealizowane w WMS mobile pozycje** - parametr uaktywni się, gdy _Pozwól na zmianę ilości w WMS mobile** będzie zaznaczony. Wskaż, czy chcesz aby po realizacji w WMS mobile pozycje dokumentu zostały dostosowane do takiej listy ustalonej w aplikacji. Pozostałe, niezrealizowane pozycje, zostaną usunięte z dokumentu, jeśli parametr będzie zaznaczony. 
+
+6. **Konieczność skanowania w dokumentach rozchodowych** - wskaż jakie dane pracownik musi skanować z etykiety podczas obsługi aplikacji mobilnej. Do wyboru są następujące konfiguracje:
+- **brak** - oznacza to, że użytkownik może skanować, ale nie musi. Widoczne pozycje będą mogły być kliknięte, w celu dokonania wyboru, co pracownik chce realizować
+- **produktu** - taki wybór oznacza, że w aplikacji w liście pozycji dokumentu, w filtrze, widoczne będzie pole produkt. Aby wybrać pozycję, użytkownik będzie musiał produkt zeskanować z etykiety. Kliknięcie w pozycje bez skanowania nie będzie możliwe
+- **produktu i miejsca składowania** - przy takim ustawieniu na ekranie pozycji dokumentu widoczne będą dwa pola w filtrze: miejsce składowania i produkt. I obie te dane muszą zostać zeskanowane, aby pozycja mogła być wybrana do realizacji. Kliknięcie w pozycje bez skanowania nie będzie możliwe
+- **produktu, miejsca i nośnika** - taki wybór oznacza, że pracownik w celu wybrania pozycji do realizacji będzie musiał zeskanować miejsce składowania, nośnik i produkt. I wszystkie te pola będą widoczne w filtrze na ekranie pozycji dokumentu. I tu również kliknięcie w pozycję bez skanowania nie będzie możliwe
+
+7. **Konieczność skanowania w dokumentach przychodowych** - wskaż, czy podczas realizacji dokumentu przychodowego w aplikacji mobilnej, pracownik może kliknąć w wiersz, w celu wyboru pozycji, którą chce przyjąć (wówczas ustaw: **brak**), czy powinien zeskanować etykietę i klikanie nie powinno być możliwe (wówczas wybierz: **produktu**).

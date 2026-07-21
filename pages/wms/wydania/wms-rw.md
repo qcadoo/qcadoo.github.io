@@ -47,6 +47,19 @@ Wybierz dokument, który chcesz realizować. I kliknij w niego, by przyjąć go 
 <br/>
 <br/>
 
+## Konieczność skanowania etykiet
+
+Wybieranie pozycji dokumentu do realizacji może być różne w zależności od potrzeb danej firmy. Pracownik może klikać w pozycję w celu przejścia do widoku wydania, ale możemy mu taką opcję ograniczyć i wymusić konieczność zeskanowania etykiety rozchodowanego produktu. Za konfigurację odpowiada [parametr magazynu](/parametry-magazyn.html#wms-mobile): **Konieczność skanowania w dokumentach rozchodowych**. Jeśli ustawisz:
+
+- **brak** - pracownik widząc listę pozycji do skompletowania, może dokonać wyboru bez skanowania, klikając w dany wiersz. Nie ma weryfikacji, czy to na pewno ten produkt. Ale z drugiej strony nie ma konieczności oklejania wszystkich produktów etykietami (niektóre mogą nie mieć swojego oryginalnego fabrycznego oznaczenia),
+
+- **produktu** - klikanie w pozycje dokumentu jest wyłączone. Aby wybrać produkt, trzeba go zeskanować z etykiety. Jeśli jest na liście, z automatu wczytane zostanie nowe okno. Jeśli produkt występuje w wielu pozycjach - użytkownik będzie musiał wybrać właściwą, klikając w nią. W dokumencie w aplikacji w obszarze wyszukiwania widoczne jedno pole: produkt
+
+- **produktu i miejsca składowania** - klikanie w pozycję dokumentu nie jest możliwe. Daną pozycję wybrać możesz poprzez zeskanowanie najpierw miejsca składowania i później produktu. Jeśli pasująca pozycja znajduje się na liście - zostanie z automatu wczytana. Jeśli odpowiednich pozycji jest więcej - konieczne będzie kliknięcie we właściwy wiersz. W aplikacji, na ekranie dokumentu, w tym ustawieniu, widoczne są dwa pola wyszukiwania: miejsce składowania i produkt
+
+- **produktu, miejsca i nośnika** - i w tym ustawieniu nie można klikać w wiersz. Aby wybrać pozycję, należy zeskanować miejsce składowania, nośnik logistyczny oraz produkt. Jeśli w dokumencie znajdzie się pasująca pozycja, zostanie z automatu wczytana. Jeśli pozycji będzie więcej - użytkownik musi kliknąć, by wskazać tę właściwą. W obszarze wyszukiwania widoczne są trzy pola: miejsce składowania, nośnik oraz produkt.
+
+---
 
 ## O czym jeszcze powinieneś wiedzieć
 

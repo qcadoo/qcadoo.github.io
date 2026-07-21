@@ -9,9 +9,11 @@ Jak zdefiniować magazyny? Wejdź w **Magazyn > Magazyny** i dodaj nowy rekord, 
 
 {% include lightbox.html file="startWMSMagazyn.png" alt="Magazyn" caption="Magazyn" %}
 
-Standardowo nowo dodany magazyn ma przypisaną metodę rozchodu FIFO (pierwsze przyszło - pierwsze wyszło.) Jeśli prowadzisz ewidencję wg innej metody, wejdź do zakładki **Metoda rozchodu i atrybuty dokumentu** i wybierz tą właściwą:
+Standardowo nowo dodany magazyn ma przypisaną metodę rozchodu FIFO (pierwsze przyszło - pierwsze wyszło.) Jeśli prowadzisz ewidencję wg innej metody, wejdź do zakładki **Ustawienia magazynu** i wybierz tą właściwą:
 
-{% include lightbox.html file="startWMSMagazynMetodaRozchodu.png" alt="Metoda rozchodu magazynu" caption="Metoda rozchodu magazynu" %}
+{% include lightbox.html file="startWMSMagazynUstawieniaMagazynu.png" alt="Ustawienia magazynu" caption="Ustawienia magazynu" %}
+
+Jeśli będziesz pracować z [aplikacją WMS mobile](/wms-wprowadzenie), w zakładce **Ustawienia magazynu**, zaznacz parametr **Szkicowe dokumenty rezerwują stany**.
 
 Gotowe. Czy na magazynie masz wyodrębnione dokładne lokacje dla produktów? Jeśli tak - przejdź do [kroku 2. Miejsca składowania](/02_start_wms-miejsce-sklad). Jeśli nie - przeskocz do kroku [4. Produkty](04_start_wms-produkty).
 
