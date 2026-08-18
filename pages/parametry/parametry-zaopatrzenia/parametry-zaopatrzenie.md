@@ -98,6 +98,8 @@ W zakładce Dostawy WMS skonfigurujesz działanie [dostaw](/wms-dostawa) w aplik
 
 - **Konieczne skanowanie produktu** - zaznacz parametr jeśli odebrany produkt musi być zeskanowany z etykiety. Nie będzie wówczas możliwe wskazanie pozycji przez kliknięcie w wiersz produktów do odbioru.
 
+- **Automatycznie wysyłaj do WMS** - zaznacz parametr, a w momencie potwierdzenia dostawy, zostanie ona z automatu wysłana do WMS.
+
 ---
 
 ## Wydania wewnętrzne
