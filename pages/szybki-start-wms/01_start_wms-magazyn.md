@@ -19,8 +19,14 @@ Gotowe. Czy na magazynie masz wyodrębnione dokładne lokacje dla produktów? Je
 
 {% include callout.html content="Więcej o definicji magazynu przeczytasz w [TYM rozdziale](/magazyny)" type="warning" %}
 
+Wolisz obejrzeć, niż czytać? Przygotowaliśmy dla Ciebie wideoinstrukcję.
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/5hHobCBTBJ8" title="Szybki start qcadoo WMS - krok 1. magazyn" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>
+
 
 **Krok 2/6: [Zdefiniuj miejsca składowania](/02_start_wms-miejsce-sklad)**

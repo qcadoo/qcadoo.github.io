@@ -33,6 +33,11 @@ Jesteś już prawie u celu. Przed Tobą teraz bardzo ważny krok. Definiowanie p
 
 {% include callout.html content="Więcej o generowaniu numerów nośników logistycznych przeczytasz w [TYM rozdziale](/numery-wlasne-palet)" type="warning" %}
 
+Jeśli wolisz obejrzeć instrucję, zerknij do tego filmu:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/A1gzebC5sco" title="Szybki start qcadoo WMS - krok 3. nośniki" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>

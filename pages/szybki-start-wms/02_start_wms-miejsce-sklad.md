@@ -21,6 +21,12 @@ Kolejny krok to wygenerowanie numerów nośników. Ale jeśli nie składujesz pr
 
 {% include callout.html content="Więcej o definicji miejsca składowania przeczytasz w [TYM rozdziale](/miejsca-skladowania)" type="warning" %}
 
+Poniżej wideoinstrukcja do tego kroku:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/fQyPFALdusE" title="Szybki start qcadoo WMS - krok 2. miejsca składowania" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <br/>
 <br/>
 

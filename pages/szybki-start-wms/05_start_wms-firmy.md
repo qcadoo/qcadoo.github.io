@@ -16,6 +16,12 @@ I to już wszystko co niezbędne! Czas wprowadzić na stan pierwsze produkty.
 
 {% include callout.html content="Więcej o kontrahentach w qcadoo przeczytasz [TUTAJ](/firmy)" type="warning" %}
 
+Jeśli wolisz zobaczyć, niż przeczytać, zerknij na ten filmik:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/AJNSX4z8Tl4" title="Szybki start qcadoo WMS - krok 5. firmy" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <br/>
 <br/>
 

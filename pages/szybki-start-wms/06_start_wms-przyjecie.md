@@ -17,9 +17,18 @@ Ale możesz też przyspieszyć pracę, korzystając z importu pozycji z pliku .x
 
 Po wypełnieniu dokumentu wszystkimi pozycjami, zaakceptuj go, klikając przycisk {% include inline_image.html file="przyciskAkceptuj.png" alt="Akceptuj" %}. Do każdej pozycji zostanie utworzony zasób magazynowy, a ich suma utworzy stan magazynowy.
 
-**Gratulacje! Praca w qcadoo została rozpoczęta!** Teraz pora na ewidencjonowanie każdego ruchu magazynowego.
+{% include callout.html content="Więcej o dokumentach w qcadoo przeczytasz [TUTAJ](/dokumenty)" type="warning" %}
+
+Być może łatwiej będzie przejść ten krok, przeglądając film:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/qRmj03Kx59w" title="Szybki start qcadoo WMS - krok 6. przyjęcie" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
+<br/>
+
+**Gratulacje! Praca w qcadoo została rozpoczęta!** Teraz pora na ewidencjonowanie każdego ruchu magazynowego.
 
 ---
 

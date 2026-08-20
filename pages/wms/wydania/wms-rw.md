@@ -63,17 +63,15 @@ Wybieranie pozycji dokumentu do realizacji może być różne w zależności od 
 
 ## O czym jeszcze powinieneś wiedzieć
 
-- Po wydaniu niepełnej ilości danego produktu w dokumencie pojawi się nowa pozycja, na pozostałą, jeszcze nie wydaną ilość. Ilość, którą trzeba dołożyć, zobaczysz w zakładce **Do wydania**, natomiast ilość już skompletowaną w zakładce **Zrealizowane**. Wiersz z ilością pozostałą do wydania, zostanie oznaczony kolorem żółtym.
-- - Jeśli [parametr](/parametry-magazyn.html#wms-mobile) **Pozwól na zmianę ilości w WMS mobile** = nie, to zakończyć realizację możesz dopiero po skompletowaniu wszystkiego, co zostało na dokumencie wskazane. Jeśli pracownik może zakończyć realizację dokumentu, nawet wtedy, gdy nie wszystko zostało odnalezione, zaznacz parametr.
+1. Po wydaniu niepełnej ilości danego produktu w dokumencie pojawi się nowa pozycja, na pozostałą, jeszcze nie wydaną ilość. Ilość, którą trzeba dołożyć, zobaczysz w zakładce **Do wydania**, natomiast ilość już skompletowaną w zakładce **Zrealizowane**. Wiersz z ilością pozostałą do wydania, zostanie oznaczony kolorem żółtym.
 
-W trakcie pracy z dokumentem wydania, możesz wywołać następujące funkcje:
+2. Jeśli [parametr](/parametry-magazyn.html#wms-mobile) **Pozwól na zmianę ilości w WMS mobile** = nie, to zakończyć realizację możesz dopiero po skompletowaniu wszystkiego, co zostało na dokumencie wskazane. Jeśli pracownik może zakończyć realizację dokumentu, nawet wtedy, gdy nie wszystko zostało odnalezione, zaznacz parametr.
+
+3. W trakcie pracy z dokumentem wydania, możesz wywołać następujące funkcje:
 - **odłóż** - powoduje zostawienie kompletacji w stanie w jakim była w momencie kliknięcia funkcji i powrót do listy zaplanowanych wydań. Pracownik musi przerwać kompletację i zająć się czymś innym, ale wróci do niej i będzie kontynuował działanie.
 - **rezygnuj** - powoduje usunięcie dotychczasowych realizacji z dokumentu i powrót do listy zaplanowanych wydań. 
 
-<br/>
-<br/>
-
-Dla każdego produktu zaplanowanego do skompletowania możesz podejrzeć **zdjęcie**. Będąc w szczegółach pozycji dokumentu kliknij przycisk {% include inline_image.html file="przyciskWmsGrafika.png" alt="Przycisk Grafika" %}. Wyświetli się [zdjęcie załączone](/produkty.html#6-zakładka-załączniki) do produktu w systemie qcadoo, oznaczone jako zdjęcie główne.
+4. Dla każdego produktu zaplanowanego do skompletowania możesz podejrzeć **zdjęcie**. Będąc w szczegółach pozycji dokumentu kliknij przycisk {% include inline_image.html file="przyciskWmsGrafika.png" alt="Przycisk Grafika" %}. Wyświetli się [zdjęcie załączone](/produkty.html#6-zakładka-załączniki) do produktu w systemie qcadoo, oznaczone jako zdjęcie główne.
 
 {% include lightbox.html file="wmsWydaniaRozchodWewnetrznyGrafika.png" alt="Rozchód wewnętrzny z WMS - zdjęcie produktu" caption="Rozwój wewnętrzny z WMS - zdjęcie produktów" %}
 

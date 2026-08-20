@@ -25,6 +25,11 @@ Tak naprawdę już teraz mógłbyś zacząć ewidencję ruchów magazynowych w q
 
 {% include callout.html content="Więcej o produktach w qcadoo przeczytasz [TUTAJ](/produkty)" type="warning" %}
 
+Opisaną instrukcję możesz też obejrzeć:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/t_WBGWYokII" title="Szybki start qcadoo WMS - krok 4. produkty" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>
