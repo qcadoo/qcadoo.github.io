@@ -100,6 +100,8 @@ W zakładce Dostawy WMS skonfigurujesz działanie [dostaw](/wms-dostawa) w aplik
 
 - **Automatycznie wysyłaj do WMS** - zaznacz parametr, a w momencie potwierdzenia dostawy, zostanie ona z automatu wysłana do WMS.
 
+- **Ukryj ilość zamówioną** - jeśli w aplikacji qcadoo WMS mobile w dostawie ma nie być widoczna ilość zamówiona, by pracownik nie sugerował się nią przy odbiorze, zaznacz parametr.
+
 ---
 
 ## Wydania wewnętrzne

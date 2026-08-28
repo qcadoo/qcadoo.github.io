@@ -51,6 +51,8 @@ Aby odebrać produkt ustaw się w zakładce **zamówione** lub **do odbioru** i 
 
 Koniecznie podaj **Ilość**, którą przyjmujesz. Dodatkowo możesz podać **Partię** i **Datę ważności**.
 
+{% include callout.html content="Jeśli w [parametrach dostawy WMS](/parametry-zaopatrzenie.html#dostawy-wms) nie zaznaczysz parametru: **Ukryj ilość zamówioną**, to na ekranie widoczna będzie też ilość pozostałą do odbioru." type="warning" %}
+
 {% include callout.html content="Spróbujemy odnaleźć w qcadoo partię o podanym numerze i ją podpiąć do produktu dostarczonego. Jeśli nie znajdziemy - założymy nową." type="warning" %}
 
 I na tym w zasadzie możesz skończyć. Kliknij przycisk {% include inline_image.html file="przyciskWmsZapisz.png" alt="Przycisk Zapisz" %}, aby zatwierdzić dostarczony produkt. Jeśli natomiast chcesz uszczegółowić lokalizację produktu, kliknij przycisk {% include inline_image.html file="przyciskWmsDalej.png" alt="Przycisk Dalej" %}:
@@ -79,6 +81,8 @@ Wybieranie pozycji dostawy do realizacji może być różne w zależności od po
 - **brak** - pracownik widząc listę pozycji do przyjęcia, może dokonać wyboru bez skanowania, klikając w dany wiersz. Nie ma weryfikacji, czy to na pewno ten produkt. Ale z drugiej strony nie ma konieczności oklejania wszystkich produktów etykietami (niektóre mogą nie mieć swojego oryginalnego fabrycznego oznaczenia),
 
 - **produktu** - klikanie w pozycje dokumentu jest wyłączone. Aby wybrać produkt, trzeba go zeskanować z etykiety. Jeśli jest na liście, z automatu wczytane zostanie nowe okno. Jeśli produkt występuje w wielu pozycjach - użytkownik będzie musiał wybrać właściwą, klikając w nią.
+
+A co jeśli produkt nie ma etykiety? Wydrukuj ją (w [rozdziale poniżej](/wms-dostawa.html#wydruk-etykiety) opisane jak to zrobić), oklej produkt i zeskanuj.
 
 ---
 
@@ -114,6 +118,17 @@ Aby przejść do trybu ewidencji całego nośnika, wybierz dostawę, którą chc
 Zacznij od podania jaki **nośnik** przygotowujesz i gdzie będzie on ulokowany. Potwierdź nośnik i przystąp do umieszczania produktów na nośniku. Kliknij przycisk {% include inline_image.html file="przyciskWmsDodajNowyProdukt.png" alt="Przycisk Dodaj nowy produkt" %}, zeskanuj **produkt** i podaj **ilość**, którą odbierasz. Przejdź do dodawania kolejnego produktu, klikając przycisk {% include inline_image.html file="przyciskWmsKolejnyProdukt.png" alt="Przycisk Kolejny produkt" %}. Po przyjęciu ostatniej pozycji zapisz przyciskiem {% include inline_image.html file="przyciskWmsZapisz.png" alt="Przycisk Zapisz" %}.
 
 Jeśli nośnik jest już kompletny, zatwierdź go przyciskiem {% include inline_image.html file="przyciskWmsZatwierdz.png" alt="Przycisk Zatwierdź" %}. Wszystkie produkty nośnika będą widoczne w zakładce **Odebrane**.
+
+### Wydruk etykiety
+
+Jeśli produkt, który zamierzasz przyjąć na magazyn, nie ma etykiety, możesz ją wydrukować z poziomu aplikacji. Przesuwając wiersz produktu w lewo, pojawią się dwa przyciski dedykowane tej kwestii:
+
+- **dodaj kod dodatkowy** - funkcja będzie przydatna, gdy produkt nie ma kodu EAN. Kliknij w przycisk, a w sytuacji, gdy produkt jeszcze takiego kodu nie ma - zostanie mu nadany
+
+- **drukuj etykietę** - funkcja spowoduje wygenerowanie etykiety o rozmiarze 76x51 mm i pobranie jej na urządzenie. Zerknij na pasek u góry ekranu - powinien tam znaleźć się plik PDF. Wejdź w niego i skieruj na drukarkę.
+
+Po oklejeniu etykietą produktu, możesz ją zeskanować i przyjąć na magazyn.
+
 
 
 

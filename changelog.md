@@ -7,6 +7,26 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.19 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.19</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.19</td>
+          <td>
+          <ul>
+            <li>kolumna informująca o wystarczającym do realizacji w stanie w zgrupowanych pozycjach zamówień sprzedaży,</li>
+            <li>WMS mobile - ukrycie ilości do odbioru w dostawie.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.18 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.18</summary><br>
@@ -53,7 +73,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.16 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.16</summary><br>
     <table class="changelog-table" border>
         <tr>

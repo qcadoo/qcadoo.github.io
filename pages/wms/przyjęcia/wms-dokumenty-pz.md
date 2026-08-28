@@ -36,9 +36,12 @@ Wybieranie pozycji dokumentu do realizacji może być różne w zależności od 
 
 - **produktu** - klikanie w pozycje dokumentu jest wyłączone. Aby wybrać produkt, trzeba go zeskanować z etykiety. Jeśli jest na liście, z automatu wczytane zostanie nowe okno. Jeśli produkt występuje w wielu pozycjach - użytkownik będzie musiał wybrać właściwą, klikając w nią.
 
+A co jeśli produkt nie ma etykiety? Wydrukuj ją (poniżej opisane jak to zrobić), oklej produkt i zeskanuj.
+
+
 ## Dodatkowe funkcje w procesie 
 
-Dokument PZ przesłany do aplikacji WMS mobile może być:
+1. Dokument PZ przesłany do aplikacji WMS mobile może być:
 
 - **podzielony** na wiele części, tak by wielu użytkowników na raz mogło go realizować. W tym celu będąc w szczegółach dokumentu kliknij przycisk {% include inline_image.html file="przyciskWmsPodziel.png" alt="Przycisk Podziel" %} i wskaż na ile części chcesz dokument podzielić. Po zapisaniu każdą z części będzie mógł realizować inny pracownik. 
 
@@ -48,9 +51,18 @@ Dokument PZ przesłany do aplikacji WMS mobile może być:
 
 - z realizcji dokumentu można też **zrezygnować** - W tym celu kliknij w przycisk {% include inline_image.html file="przyciskWmsMenuKropki.png" alt="Przycisk Menu" %} i wybierz **Rezygnuj**. Pamiętaj, by po rezygnacji odłożyć wszystkie produkty w miejsce sprzed rozpoczęcia prac. Tak aby kolejny pracownik mógł zacząć prace od zera.
 
-<br/>
-<br/>
+{:start="2"}
 
-Dla każdego produktu zaplanowanego do przyjęcia możesz podejrzeć **zdjęcie**. Będąc w szczegółach pozycji dokumentu kliknij przycisk {% include inline_image.html file="przyciskWmsGrafika.png" alt="Przycisk Grafika" %}. Wyświetli się [zdjęcie załączone](/produkty.html#6-zakładka-załączniki) do produktu w systemie qcadoo, oznaczone jako zdjęcie główne.
+2. Dla każdego produktu zaplanowanego do przyjęcia możesz podejrzeć **zdjęcie**. Będąc w szczegółach pozycji dokumentu kliknij przycisk {% include inline_image.html file="przyciskWmsGrafika.png" alt="Przycisk Grafika" %}. Wyświetli się [zdjęcie załączone](/produkty.html#6-zakładka-załączniki) do produktu w systemie qcadoo, oznaczone jako zdjęcie główne.
 
 {% include lightbox.html file="wmsPrzyjeciaPZGrafika.png" alt="Dokumenty PZ w WMS - zdjęcie produktu" caption="Dokumenty PZ w WMS - zdjęcie produktów" %}
+
+{:start="3"}
+
+3. **wydruk etykiet** - jeśli produkt, który zamierzasz przyjąć na magazyn, nie ma etykiety, możesz ją wydrukować z poziomu aplikacji. Przesuwając wiersz produktu w lewo, pojawią się dwa przyciski dedykowane tej kwestii:
+
+- **dodaj kod dodatkowy** - funkcja będzie przydatna, gdy produkt nie ma kodu EAN. Kliknij w przycisk, a w sytuacji, gdy produkt jeszcze takiego kodu nie ma - zostanie mu nadany
+
+- **drukuj etykietę** - funkcja spowoduje wygenerowanie etykiety o rozmiarze 76x51 mm i pobranie jej na urządzenie. Zerknij na pasek u góry ekranu - powinien tam znaleźć się plik PDF. Wejdź w niego i skieruj na drukarkę. 
+
+Po oklejeniu etykietą produktu, możesz ją zeskanować i przyjąć na magazyn.
