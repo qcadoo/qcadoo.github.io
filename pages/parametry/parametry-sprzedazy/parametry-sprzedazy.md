@@ -19,11 +19,13 @@ Dzięki zamówieniom sprzedaży możesz prowadzić rejestr zgłoszeń od klient�
 
 3. **Pozwól na zmianę terminu ostatecznego zamówienia sprzedaży** - zaznacz parametr jeśli chcesz móc zmienić termin ostateczny zlecenia, bez aktualizacji powiązanych zleceń produkcyjnych. W takiej konfiguracji nie będziemy pilnować, czy termin w zamówieniu i zleceniach się zgadza.
 
-4. **Definicje zamówień sprzedaży** - definicje zamówień sprzedaży pozwalają na pogrupowanie zamówień. Możesz wprowadzić definicje dla zamówień krajowych i unijnych. Dzięki temu od razu będzie wiadomo jaki jest kierunek sprzedaży. Ale możesz definicje wykorzystać do czegoś innego - ogranicza Cię tylko wyobraźnia. Dodaj tutaj definicje i podpinaj je przy tworzeniu zamówienia sprzedaży
+4. **Definicje zamówień sprzedaży** - definicje zamówień sprzedaży pozwalają na pogrupowanie zamówień. Możesz wprowadzić definicje dla zamówień krajowych i unijnych. Dzięki temu od razu będzie wiadomo jaki jest kierunek sprzedaży. Ale możesz definicje wykorzystać do czegoś innego - ogranicza Cię tylko wyobraźnia. Dodaj tutaj definicje i podpinaj je przy tworzeniu zamówienia sprzedaży.
 
-5. **Zakończ zamówienie sprzedaży po zleceniu wszystkich pozycji** - jeśli zaznaczysz parametr, to w momencie, gdy wszystkie pozycje będą miały status "Zlecone", oznaczymy zamówienie sprzedaży jako zakończone
+5. **Zakończ zamówienie sprzedaży po zleceniu wszystkich pozycji** - jeśli zaznaczysz parametr, to w momencie, gdy wszystkie pozycje będą miały status "Zlecone", oznaczymy zamówienie sprzedaży jako zakończone.
 
-6. **Magazyn wydania wyrobów dokumentem WZ** - ustal magazyn, który podpowiemy w dokumencie WZ tworzonym do zamówienia sprzedaży
+6. **Zakończ zamówienie sprzedaży po wydaniu wszystkich pozycji** - zaznacz parametr, a zamówienie sprzedaży otrzyma status zakończone, gdy wszystkie zamówione pozycje znajdą się na dokumencie WZ. Pamiętaj, że dokument musi być tworzony funkcją z poziomu zamówienia oraz, że status z automatu zmienia się tylko w momencie tworzenia dokumentu (a to oznacza, że po ręcznej modyfikacji ilości zamówionej, samodzielnie musisz zadbać o nadanie statusu).
+
+7. **Magazyn wydania wyrobów dokumentem WZ** - ustal magazyn, który podpowiemy w dokumencie WZ tworzonym do zamówienia sprzedaży.
 
 ---
 

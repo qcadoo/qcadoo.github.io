@@ -39,6 +39,14 @@ Wszystkie czasy należy podać w formacie: GG:MM:SS (godziny:minuty:sekundy).
 Posiadasz już wszystkie dane, by móc opisać proces produkcji za pomocą technologii. To ważny krok. Przejdź do kolejnej strony dokumentacji. 
 
 <br/>
+
+Zerknij w poniższe wideo, jeśli instrukcje pisane do Ciebie nie trafiają:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/ejL2Hpv3v40" title="Szybki start qcadoo APS - krok 6. operacje" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
 <br/>
 
 **Krok 7/10: [Utwórz technologie](/07_start-aps-technologie)**

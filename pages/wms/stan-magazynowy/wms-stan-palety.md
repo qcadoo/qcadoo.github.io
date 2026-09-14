@@ -104,3 +104,11 @@ Będąc w widoku szczegółów zasobu, możesz wywołać funkcję [zmiany miejsc
 {% include lightbox.html file="wmsStanSzczegolyZasobuZmianaMiejsca.png" alt="Szczegóły zasobu - zmiana miejsca składowania" caption="Szczegóły zasobu - zmiana miejsca składowania" %}
 
 Podaj **nową lokalizację** i zatwierdź przyciskiem {% include inline_image.html file="przyciskWmsZapisz.png" alt="Przycisk Zapisz" %}.
+
+### Wydruk etykiety
+
+Jeśli znalazłeś produkt na magazynie, który nie ma etykiety, możesz ją wydrukować z poziomu aplikacji. Przesuwając wiersz produktu w lewo, pojawią się dwa przyciski dedykowane tej kwestii:
+
+- **dodaj kod dodatkowy** - funkcja będzie przydatna, gdy produkt nie ma kodu EAN. Kliknij w przycisk, a w sytuacji, gdy produkt jeszcze takiego kodu nie ma - zostanie mu nadany
+
+- **drukuj etykietę** - funkcja spowoduje wygenerowanie etykiety o rozmiarze 76x51 mm i pobranie jej na urządzenie. Zerknij na pasek u góry ekranu - powinien tam znaleźć się plik PDF. Wejdź w niego i skieruj na drukarkę.

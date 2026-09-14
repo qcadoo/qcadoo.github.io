@@ -44,6 +44,14 @@ Kolejnym krokiem planisty będzie **akceptacja zleceń**, np. z listy **Planowan
 Wiadomo już co trzeba wyprodukować. Kolej na ustalenie jakie surowce będą potrzebne do realizacji zleceń i czy są wystarczające stany magazynowe.
 
 <br/>
+
+Instrukcja w formie wideo znajduje się poniżej:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/2Qo67-9kvds" title="Szybki start qcadoo APS - krok 9. plany produkcyjne" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
 <br/>
 
 **Krok 10/10: [Przeliczanie planu](/10_start-aps-przeliczanie-planu)**

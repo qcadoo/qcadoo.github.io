@@ -27,6 +27,13 @@ Dodatkowe dane są opcjonalne. Jeśli natomiast pracownik zawsze pracuje w jedny
 
 Przed nami kolejny krok, już bardziej rozbudowany - trzeba wprowadzić miejsca wykonywania produkcji: zakład, działy i stacje robocze.
 
+<br/>
+
+Jeśli wolisz obejrzeć, niż czytać, zerknij w film:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/wu0VmCaPC3M" title="Szybki start qcadoo APS - krok 3. pracownicy" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>

@@ -75,6 +75,14 @@ Brawo! Twoja pierwsza technologia w qcadoo jest gotowa!
 Teraz możesz już zlecać produkcję.
 
 <br/>
+
+Całość przygotowaliśmy też jako wideoinstrukcję:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/kXQoHckxqLw" title="Szybki start qcadoo APS - krok 7. technologia" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
 <br/>
 
 **Krok 8/10: [Zleć produkcję](/08_start-aps-zlecenia)**

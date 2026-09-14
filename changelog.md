@@ -7,6 +7,34 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.20 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.20</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.20</td>
+          <td>
+          <ul>
+            <li>automatycznie zakończenie zamówienia sprzedaży po wydaniu wszystkich pozycji,</li>
+            <li>historia zasobów - analiza rozchodów, przychodów i przesunięć magazynowych z dokładnością do zasobu,</li>
+            <li>qcadoo WMS mobile:</li>
+              <ul>
+                <li>zapotrzebowanie materiałowe - informacje o domyślnym miejscu składowania,</li>
+                <li>przesunięcie nośnika w inne miejsce - informacja o domyślnej lokalizacji,</li>
+                <li>inny sposób prezentacji szczegółów pozycji w dokumentach przychodowych,</li>
+                <li>wydruk etykiety produktu ze stanu nośników,</li>
+                <li>wydruk etykiety produktu ze stanu miejsc składowania.</li>
+          </ul>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.19 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.19</summary><br>
@@ -51,7 +79,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.17 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.17</summary><br>
     <table class="changelog-table" border>
         <tr>

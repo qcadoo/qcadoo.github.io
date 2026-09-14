@@ -26,6 +26,14 @@ W produkcie możesz uzupełnić też wiele dodatkowych informacji, jak model, as
 
 Po wprowadzeniu produktów, możesz przejść do definiowania wykonywanych operacji. I to już będzie ostatni krok przed najważniejszym punktem, czyli technologią.
 
+<br/>
+
+Instrukcja przygotowana została także w formie wideo:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/QN-x83Yfaos" title="Szybki start qcadoo APS - krok 5. produkty" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 <br/>
 <br/>

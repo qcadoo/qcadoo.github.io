@@ -17,7 +17,13 @@ W kolejnych krokach będziesz przypisywać kalendarze do linii (każda linia mo�
 
 **Kolejny element gotowy**. Na razie jest bardzo łatwo, prawda? W ramach kontynuacji rozgrzewki przejdź do kolejnej czynności i wprowadź pracowników, którzy będą produkować.
 
+<br/>
 
+Całość obejrzysz też na poniższym filmie:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/7p5Kft1KYOU" title="Szybki start qcadoo APS - krok 2. kalendarz pracy i zmiany" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>

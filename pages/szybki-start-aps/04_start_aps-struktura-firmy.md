@@ -77,6 +77,15 @@ Upewnij się, czy dane zostały dobrze wprowadzone klikając przycisk {% include
 
 Gotowe. Już wiadomo, gdzie produkcja może być wykonywana. Lecimy dalej - teraz koniecznie trzeba zdefiniować co będziesz produkować i z jakich materiałów.
 
+<br/>
+
+Całość pokazana jest na filmie:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/fauAMo7JjiY" title="Szybki start qcadoo APS - krok 4. struktura firmy" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
 
 <br/>
 <br/>

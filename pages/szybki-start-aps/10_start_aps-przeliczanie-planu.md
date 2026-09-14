@@ -23,6 +23,14 @@ Po co meldować produkcję? Żebyśmy wiedzieli, że te operacje są już wykona
 
 Więcej na temat Gantta zadań operacyjnych i funkcji **Przelicz plan** poczytasz [w tym rozdziale dokumentacji](/gantt-zadan-operacyjnych.html#przeliczanie-planu).
 
+<br/>
+
+Zobacz jak to wygląda na filmie:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/2I37W3VPdMI" title="Szybki start qcadoo APS - krok 10. przeliczanie planów" frameborder="0" allowfullscreen></iframe>
+</div>
+
 **Gratulacje! Doszedłeś do końca instrukcji Szybki START dla qcadoo APS. Jesteś gotowy, by tworzyć plany produkcyjne!**
 
 

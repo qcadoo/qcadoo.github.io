@@ -26,6 +26,14 @@ i ustaw w polu **Widoczne** wartość **zadania operacyjne**.
 **Pierwszy ważny krok za nami**. Kolejny to ustalenie kalendarza pracy firmy.
 
 <br/>
+
+Jeśli wolisz, możesz obejrzeć opisaną instrukcję:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/syW0a8_Gw-I" title="Szybki start qcadoo APS - krok 1. parametry" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
 <br/>
 
 **Krok 2/10: [Zdefiniuj kalendarze](/02_start-aps-kalendarz)**

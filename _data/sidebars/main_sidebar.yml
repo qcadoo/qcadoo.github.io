@@ -623,6 +623,10 @@ entries:
       output: web
       url: /wolumen-sprzedazy.html  
 
+    - title: Historia zasobu
+      output: web
+      url: /historia-zasobu.html  
+
   - title: Zaopatrzenie
     output: web
     folderitems:
