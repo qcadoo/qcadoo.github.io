@@ -99,7 +99,8 @@ Za pomocą tej metody pobierzesz zamówione produkty dostaw, spełniających zad
     "delivery" : "delivery number",
     "product" : "product number",
     "orderedQuantity" : orderedQuantity,
-    "pricePerUnit" : pricePerUnit
+    "pricePerUnit" : pricePerUnit,
+    "batchId" : batchId
 }]  
 ~~~~~~~~
 

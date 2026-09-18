@@ -74,7 +74,8 @@ Za pomocą tej metody do dostawy w qcadoo dodawane są produkty zamówione.
     "product": "product number",
     "delivery": "delivery number",
     "orderedQuantity": 10,
-    "pricePerUnit": 1.5
+    "pricePerUnit": 1.5,
+    "batchId" : 5
 }
 ~~~~~~~~
 
@@ -84,6 +85,7 @@ product | tekst(255)       |      T      |     N      | numer produktu. Produkt 
 delivery | tekst(255)       |      T      |     N      | numer dostawy. Dostawa musi istnieć w qcadoo
 orderedQuantity | liczba(12,5) >=0 |      T      |     N      | ilość
 pricePerUnit | liczba(12,5) >=0 |      N      |     N      | cena jednostkowa
+batchId | liczba całkowita |      N      |     N      | id partii
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
