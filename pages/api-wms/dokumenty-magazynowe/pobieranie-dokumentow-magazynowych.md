@@ -106,7 +106,8 @@ Za pomocą tej metody pobierzesz pozycje dokumentów spełniających podane kryt
     "price" : price,
     "sellingPrice" : sellingPrice,
     "expirationDate" : expirationDate,
-    "batchId" : batchId
+    "batchId" : batchId,
+    "storageLocationId" : storageLocationId
 }]  
 ~~~~~~~~
 

@@ -1587,6 +1587,13 @@ entries:
           - title: Dokumenty magazynowe
             output: web
             subfolderitems:
+              - title: Tworzenie i aktualizacja miejsc składowania
+                output: web
+                url: /api-wms-tworzenie-i-aktualizacja-miejsc-skladowania.html
+
+              - title: Pobieranie miejsc składowania
+                output: web
+                url: /api-wms-pobieranie-miejsc-skladowania.html
 
               - title: Dodawanie dokumentów magazynowych
                 output: web

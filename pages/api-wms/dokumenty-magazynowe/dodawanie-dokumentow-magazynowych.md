@@ -73,7 +73,8 @@ Za pomocą tej metody, do istniejącego w qcadoo dokumentu, dodawana jest pozycj
     "price" : 5.5,
     "sellingPrice" : 4.5,
     "expirationDate" : expirationDate,
-    "batchId" : 5
+    "batchId" : 5,
+    "storageLocationId" : 7
 }
 ~~~~~~~~
 
@@ -86,6 +87,7 @@ price | liczba(12,5) >=0 |      N      |     N      | cena
 sellingPrice | liczba(12,5) >=0 |      N      |     N      | cena sprzedaży
 expirationDate | data |      N      |     N      | data ważności
 batchId | liczba całkowita |      N      |     N      | id partii
+storageLocationId | liczba całkowita |      N      |     N      | id miejsca składowania
 
 ### Zawartość odpowiedzi
 ~~~~~~~~
