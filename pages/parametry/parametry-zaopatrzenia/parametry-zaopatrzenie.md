@@ -13,34 +13,36 @@ W zakładce umieszono parametry dotyczące [dostaw](/dostawy)
 
 {% include lightbox.html file="administracjaParametryZaopatrzenieDostawy.png" alt="Parametry dostaw" caption="Parametry dostaw" %}
 
-1. **Domyślny opis** - uzupełniony tutaj tekst będziemy każdorazowo podpowiadać do opisu dostawy. Do czego to możesz wykorzystać? Jeśli każdorazowo wysyłasz do dostawcy prośbę o potwierdzenie terminu dostawy - możesz w opisie wprowadzić odpowiednią adnotację, a pokaże się ona na wydruku w PDF. Raz zdefiniowane - nie trzeba o tym później pamiętać.
+1. **Domyślny magazyn** - wskaż magazyn, na który zwykle przyjmujesz dostawy. Podpowiemy go przy tworzeniu dostawy
 
-2. **Domyślnie dostarczyć do miejsca** - wskaż magazyn, na który zwykle przyjmujesz dostawy. Podpowiemy go przy tworzeniu dostawy
+2. **Domyślne miejsce składowania** - jeśli wskażesz miejsce składowania, to podpowiemy je w każdej pozycji dostarczonej. Dzięki temu nie będziesz musiał podawać każdorazowo miejsca składowania w sytuacji, gdy całą dostawę przyjmujesz zawsze na jedno miejsce i dopiero w kolejnym kroku rozwozisz nośniki we właściwe lokalizacje.
 
-3. **Magazyn opakowań** - wskaż magazyn, na który przyjmujesz opakowania.
+3. **Domyślny opis** - uzupełniony tutaj tekst będziemy każdorazowo podpowiadać do opisu dostawy. Do czego to możesz wykorzystać? Jeśli każdorazowo wysyłasz do dostawcy prośbę o potwierdzenie terminu dostawy - możesz w opisie wprowadzić odpowiednią adnotację, a pokaże się ona na wydruku w PDF. Raz zdefiniowane - nie trzeba o tym później pamiętać.
 
-4. **Domyślny adres docelowy dostawy** - możesz albo przyjąć, że produkty mają być dostarczane na _adres Twojej firmy_ albo na _inny adres_ uzupełniony w polu, które pojawi się poniżej. Adres ten pojawi się na wydruku dostawy / zamówienia do PDF.
+4. **Magazyn opakowań** - wskaż magazyn, na który przyjmujesz opakowania.
+
+5. **Domyślny adres docelowy dostawy** - możesz albo przyjąć, że produkty mają być dostarczane na _adres Twojej firmy_ albo na _inny adres_ uzupełniony w polu, które pojawi się poniżej. Adres ten pojawi się na wydruku dostawy / zamówienia do PDF.
 
 {% include callout.html content="Twoja firma to z naszego punktu widzenia ta firma, która jest uzupełniona w [parametrach w zakładce główna](/parametry-glowna) w polu **Firma**" type="info" %}
 
 {:start="5"}
-5. **Wymagaj wskazania dostawcy** - zaznacz parametr, a nie pozwolimy na zapis dostawy bez uzupełnienia firmy
+6. **Wymagaj wskazania dostawcy** - zaznacz parametr, a nie pozwolimy na zapis dostawy bez uzupełnienia firmy
 
-6. **Akceptacja dostaw** - zaznacz parametr jeśli chcesz, aby akceptacja dostawy (etap między potwierdzeniem a odbiorem), była krokiem koniecznym
+7. **Akceptacja dostaw** - zaznacz parametr jeśli chcesz, aby akceptacja dostawy (etap między potwierdzeniem a odbiorem), była krokiem koniecznym
 
-7. **Odbieranie większej ilości niż zamawiana** - zdarzyło Ci się, że dostawca przysłał więcej sztuk produktu niż zamówiłeś? Zawsze odsyłasz, czy czasami przyjmujesz? A może nie masz innej możliwości, bo dostawca zawsze przysyła pełną paletę, nawet gdy zamówisz mniej? Jeśli pozwalasz na przyjęcie większej ilości niż sobie zażyczyłeś - zaznacz parametr. Jeśli zostanie niezaznaczony będziemy pilnować, by ilość odbierana nie przekroczyła zamówionej.
+8. **Odbieranie większej ilości niż zamawiana** - zdarzyło Ci się, że dostawca przysłał więcej sztuk produktu niż zamówiłeś? Zawsze odsyłasz, czy czasami przyjmujesz? A może nie masz innej możliwości, bo dostawca zawsze przysyła pełną paletę, nawet gdy zamówisz mniej? Jeśli pozwalasz na przyjęcie większej ilości niż sobie zażyczyłeś - zaznacz parametr. Jeśli zostanie niezaznaczony będziemy pilnować, by ilość odbierana nie przekroczyła zamówionej.
 
-8. **Dodatnia cena zakupu** - jeśli zależy Ci na tym, aby każda przyjmowana z dostawy pozycja miała określoną cenę (większą od zera) to zaznacz ten parametr. Będziemy tego pilnować.
+9. **Dodatnia cena zakupu** - jeśli zależy Ci na tym, aby każda przyjmowana z dostawy pozycja miała określoną cenę (większą od zera) to zaznacz ten parametr. Będziemy tego pilnować.
 
-9. **Uzupełniaj ceny na podstawie** - wskaż, która cena: ostatnia zakupu czy ostatnia z oferty dostawcy, ma być podpowiadana w dostawie (funkcja wywoływana przyciskiem: Uzupełniaj ceny)
+10. **Uzupełniaj ceny na podstawie** - wskaż, która cena: ostatnia zakupu czy ostatnia z oferty dostawcy, ma być podpowiadana w dostawie (funkcja wywoływana przyciskiem: Uzupełniaj ceny)
 
-10. **Użyj kosztu nominalnego, gdy cena nie jest określona** - parametr powiązany z powyższym. Jeśli zaznaczysz parametr w sytuacji, gdy cena ostatniego zakupu lub z ostatniej oferty będzie zerowa (lub nieokreślona) pobierzemy koszt nominalny. Koszt nominalny możesz uzupełnić ręcznie ceną, którą spodziewasz się otrzymać od kontrahenta
+11. **Użyj kosztu nominalnego, gdy cena nie jest określona** - parametr powiązany z powyższym. Jeśli zaznaczysz parametr w sytuacji, gdy cena ostatniego zakupu lub z ostatniej oferty będzie zerowa (lub nieokreślona) pobierzemy koszt nominalny. Koszt nominalny możesz uzupełnić ręcznie ceną, którą spodziewasz się otrzymać od kontrahenta
 
-11. **Generuj partię, dla produktu w dostawie** - zaznacz parametr jeśli chcesz, aby numer partii produktu w dostawie generował się poprzez naciśnięcie przycisku generowania partii w dostawie. Utworzymy numer partii wg wskazanego poniżej wzorca numerów.
+12. **Generuj partię, dla produktu w dostawie** - zaznacz parametr jeśli chcesz, aby numer partii produktu w dostawie generował się poprzez naciśnięcie przycisku generowania partii w dostawie. Utworzymy numer partii wg wskazanego poniżej wzorca numerów.
 
-12. **Wzorzec numeru** - wskaż wzorzec numeru, na podstawie którego będziemy generować partię produktu w dostawie.
+13. **Wzorzec numeru** - wskaż wzorzec numeru, na podstawie którego będziemy generować partię produktu w dostawie.
 
-13. **Wyznaczając ilość zamówioną uwzględnij** - parametr dotyczy prezentacji ilości zamówionych w dostawach w kilku miejsc w systemie (np. w pokryciu zapotrzebowania, czy w liście pozycji zamówień sprzedaży). Wskaż jakie dostawy, o jakim statusie, mają być pobierane przy wyznaczaniu ilości. Do wyboru 3 opcje:
+14. **Wyznaczając ilość zamówioną uwzględnij** - parametr dotyczy prezentacji ilości zamówionych w dostawach w kilku miejsc w systemie (np. w pokryciu zapotrzebowania, czy w liście pozycji zamówień sprzedaży). Wskaż jakie dostawy, o jakim statusie, mają być pobierane przy wyznaczaniu ilości. Do wyboru 3 opcje:
 - **potwierdzone dostawy** - pobierane są tylko dostawy o statusie: potwierdzona, zaakceptowana
 - **nieodebrane dostawy** - pobierane są dostawy o statusach: potwierdzona, zaakceptowana, przygotowano zamówienie, korekta zamówienia, szkic,
 - **nieszkicowe dostawy** - pobierane są  dostawy o statusach: potwierdzona, zaakceptowana, przygotowano zamówienie, korekta zamówienia. 

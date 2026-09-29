@@ -9,7 +9,7 @@ Aby można było zrealizować przyjęcie na magazyn za pomocą dokumentu PZ koni
 
 Dokument jest gotowy do odbioru w aplikacji. Póki pracownik nie pobierze go do realizacji, dokument może być z WMS wycofany. W tym celu należy użyc przycisku {% include inline_image.html file="przyciskWycofajZWms.png" alt="Przycisk Wycofaj z WMS" %}
 
-{% include callout.html content="Co w sytuacji, gdy dokument jest w aplikacji w trakcie realizacji, ale zaszła potrzeba, by się z niej wycofać? Pracownik w WMS mobile powinien najpierw wywołać funkcję Rezygnuj. Dzięki temu wycofanie z WMS będzie możliwe." type="warning" %}
+{% include callout.html content="Co w sytuacji, gdy dokument jest w aplikacji w trakcie realizacji, ale zaszła potrzeba, by się z niej wycofać? Pracownik w WMS mobile powinien najpierw wywołać funkcję Rezygnuj. Dzięki temu wycofanie z WMS będzie możliwe. Wycofanie spowoduje usunięcie z każdej pozycji informacji o miejscu składowania, numerze i typie nośnika." type="warning" %}
 
 ## Standardowy proces realizacji w WMS mobile
 

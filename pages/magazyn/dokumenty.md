@@ -26,7 +26,7 @@ Rozpocznij od określenia **typu dokumentu** - wybierz odpowiedni z dostępnej l
 - wydanie zewnętrzne (WZ)
 - przesunięcie międzymagazynowe (MM)
 
-W zależności od ruchu magazynowego (czy jest to przyjęcie czy wydanie) wskaż z jakiego **magazynu** następuje rozchód lub na jaki magazyn następuje przychód. Możesz ponadto określić **kontrahenta** i jego **adres**, czy zostawić notatkę w polu **opis**.
+W zależności od ruchu magazynowego (czy jest to przyjęcie czy wydanie) wskaż z jakiego **magazynu** następuje rozchód lub na jaki magazyn następuje przychód. Możesz ponadto określić **kontrahenta** i jego **adres**, **datę wysyłki** czy zostawić notatkę w polu **opis**.
 
 **Numer dokumentu** zostanie nadany automatycznie. Jeśli nie podasz **nazwy**, to do pola zostanie skopiowany numer. Po co osobna nazwa? Np. rejestrujesz dokument PZ od klienta i chcesz zachować jego numerację - wpisz ją w nazwie, a łatwo będzie później dokument znaleźć.
 

@@ -29,4 +29,6 @@ Wejdź w **Magazyn > Historia zasobu** i w zakładce Główna wpisz **numer zaso
 5. Dla dokumentów typu MM zawsze będą pojawiały się dwa wiersze - najpierw dokument rozchodowy, a później dokument przychodowy.
 6. Ruchy wewnątrzmagazynowe, niezmieniające ilości czy numeru zasobu, nie są w analizie brane pod uwagę.
 7. Z tabeli można przejść do konkretnych dokumentów, przepakowań, czy korekty, w celu dokładniejszej analizy (np. ustalenie z jakimi produktami było wydanie, z jakiego nośnika, z jakiego miejsca składowania, czy przez kogo dokument był wystawiony, czy skompletowany w aplikacji WMS mobile).
+8. Analizę można filtrować i sortować. Pamiętaj jednak, że naruszenie pierwotnego sortu i filtru sprawia, że kolumna Stan ukształtowany nie będzie prawidłowo prezentowała ilości (bo nie będzie prawidłowej kolejności). Podobnie będzie z plikiem csv utworzonym z eksportu.  
+9. Produkt i partia w zakładce kontekst uzupełnią się w momencie wczytania danych.
 

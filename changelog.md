@@ -7,6 +7,29 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.21 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.21</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.21</td>
+          <td>
+          <ul>
+            <li>historia zasobu - informacja o produkcie i partii,</li>
+            <li>dostawa - odbiór produktów na domyślne miejsce składowania,</li>
+            <li>data wysyłki wyrobu do klienta w WZ i powiązanym zamówieniu sprzedaży,</li>
+            <li>wycofanie z WMS mobile dokumentu PZ,</li>
+            <li>nowe API qcadoo WMS - tworzenie miejsc składowania + miejsca składowania w dokumencie.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.20 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.20</summary><br>
@@ -56,7 +79,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.18 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.18</summary><br>
     <table class="changelog-table" border>
         <tr>
