@@ -33,6 +33,7 @@ i wypełnij dane nagłówkowe takie jak:
 - **kontrahent** - wybierz z listy firm zamawiającego (pamiętaj, że jako firma możesz wprowadzić też osobę fizyczną),
 - **adres** - jeśli dostawa ma być zrealizowana w inne miejsce niż adres główny kontrahenta,
 - **płatnik** - jeśli firma, której należy wystawić fakturę, jest inna niż firma zamawiająca,
+- **sposób wysyłki** - pole tekstowe, w którym możesz zachować informacje o umówionym sposobie dostarczenia produktów,
 - **termin ostateczny** - ustalona z kontrahentem data realizacji,
 - **data wpływu** - moment złożenia zamówienia.
 <br/>
@@ -72,6 +73,10 @@ Pracownik magazynu będzie mógł zrealizować wydanie, zgodnie z opisaną [TUTA
 Po utworzeniu dokumentu WZ w pozycjach zamówienia sprzedaży zostanie zapisana **ilość wydana** i **ilość pozostała do wydania**, a także zostanie ustawiony **status Wydana**:
 
 {% include lightbox.html file="sprzedazWmsZamowienieProduktyWydane.png" alt="Wydane produkty do zamówienia" caption="Wydane produkty do zamówienia"%} 
+
+Z tego poziomu, klikając w przycisk {% include inline_image.html file="przyciskPokazDokumentyWZ.png" alt="Przycisk Pokaż dokumenty WZ" %} przejrzysz wszystkie wystawione dokumenty WZ do tego zamówienia.
+
+{% include lightbox.html file="sprzedazWmsZamowienieWystawioneWZ.png" alt="Wystawione dokumenty do zamówienia" caption="Wystawione dokumenty do zamówienia"%} 
 
 ## Analiza zamówionych pozycji
 

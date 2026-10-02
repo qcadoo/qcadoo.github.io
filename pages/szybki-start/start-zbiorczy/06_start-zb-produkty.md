@@ -29,4 +29,13 @@ Po wprowadzeniu produktów, możesz przejść do definiowania wykonywanych opera
 <br/>
 <br/>
 
+Możesz obejrzeć instrukcję w formie wideo:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/7Qw_PH-WhMA" title="Szybki start qcadoo MES - krok 6. produkty" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+<br/>
+
 **Krok 7/13: [Zdefiniuj operacje](/07_start-zb-operacje)**

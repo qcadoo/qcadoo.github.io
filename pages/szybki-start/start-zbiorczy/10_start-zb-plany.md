@@ -32,4 +32,13 @@ Wiadomo już co trzeba wyprodukować. Kolej na ustalenie jakie surowce będą po
 <br/>
 <br/>
 
+O przygotowaniu planów obejrzysz też film:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/u6Yw0lDQDVI" title="Szybki start qcadoo MES - krok 10. plany produkcyjne" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+<br/>
+
 **Krok 11/13: [Ustal zapotrzebowanie materiałowe](/11_start-zb-zapotrzebowanie)**

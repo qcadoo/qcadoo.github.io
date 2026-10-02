@@ -65,6 +65,14 @@ Upewnij się, czy dane zostały dobrze wprowadzone. Przejdź do **Struktura firm
 
 Gotowe. Już wiadomo, gdzie produkcja może być wykonywana. Lecimy dalej - teraz koniecznie trzeba zdefiniować co będziesz produkować i z jakich materiałów.
 
+<br/>
+<br/>
+
+Opisana instrukcja usystematyzuje się dzięki obejrzeniu poniższego filmu:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/lmuZYi043AA" title="Szybki start qcadoo MES - krok 5. struktura firmy" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>

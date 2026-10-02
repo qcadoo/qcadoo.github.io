@@ -17,7 +17,14 @@ W kolejnych krokach będziesz przypisywać kalendarze do linii (każda linia mo�
 
 **Kolejny element gotowy**. Na razie jest bardzo łatwo, prawda? W ramach kontynuacji rozgrzewki przejdź do kolejnej czynności i wprowadź pracowników, którzy będą produkować.
 
+Na koniec wideoinstrukcja:
 
+<br/>
+<br/>
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/4_bopE50kPU" title="Szybki start qcadoo MES - krok 2. zmiany" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>

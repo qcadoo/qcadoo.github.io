@@ -31,5 +31,16 @@ Analiza przedstawia sumaryczne dane o kosztach uzyskanych podczas produkcji i ze
 
 **Gratulacje!!! Dotarłeś do końca instrukcji SZYBKI START! Jesteś gotowy do samodzielnej pracy w qcadoo i do odkrywania kolejnych funkcjonalności, które dla Ciebie przygotowaliśmy.**
 
+<br/>
+<br/>
+
+Ostatni krok też jest zaprezentowany jako film:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/TjJCKuk-bLg" title="Szybki start qcadoo MES - krok 13. rozliczenie produkcji" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+<br/>
 
 <span style="color:red"> Powodzenia i przyjemności z pracy w qcadoo MES.</span>

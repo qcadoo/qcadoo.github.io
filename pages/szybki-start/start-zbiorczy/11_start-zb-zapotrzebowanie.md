@@ -34,6 +34,14 @@ Jeśli potrzebujesz listy materiałów do naszykowania na magazynie pod konkretn
 
 Kolejny ważny krok za nami. Można zacząć produkować. Tylko skąd pracownicy mają wiedzieć co robić? O tym w następnym kroku.
 
+<br/>
+<br/>
+
+Wideoinstrukcja znajduje się poniżej:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/fwATh9-EyzM" title="Szybki start qcadoo MES - krok 11. zapotrzebowanie materiałowe" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>

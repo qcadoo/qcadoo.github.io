@@ -28,6 +28,14 @@ Wszystkie czasy należy podać w formacie: GG:MM:SS (godziny:minuty:sekundy).
 
 Operacje gotowe. Teraz czas zrobić coś super ważnego - wprowadzisz technologię produktu!
 
+<br/>
+<br/>
+
+Wsparciem może okazać się poniższa wideoinstrukcja:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/UJFxGZ9FnK8" title="Szybki start qcadoo MES - krok 7. operacje" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>

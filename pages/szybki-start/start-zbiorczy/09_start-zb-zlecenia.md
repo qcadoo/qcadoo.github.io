@@ -19,6 +19,14 @@ Możesz w zleceniu samodzielnie podać daty realizacji i ominąć kolejny krok (
 
 qcadoo MES posiada jednak algorytmy planowania i zachęcam do ich wykorzystywania. W jaki sposób? Przejdź do kolejnej strony instrukcji.
 
+<br/>
+<br/>
+
+Podsumowanie instrukcji znajduje się w poniższym filmie:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/sWpjqoNYqoE" title="Szybki start qcadoo MES - krok 9. zlecenia produkcyjne" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>

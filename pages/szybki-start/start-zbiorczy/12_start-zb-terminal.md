@@ -47,4 +47,13 @@ Proces produkcyjny na etapie meldunku został zakończony. Ostatni krok instrukc
 <br/>
 <br/>
 
+Możesz zapoznać się z tym rozdziałem w formie wideoinstrukcji:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/Cc9xqX6uTHc" title="Szybki start qcadoo MES - krok 12. terminal rejestracji produkcji" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+<br/>
+
 **Krok 13/13: [Rozlicz produkcję](/13_start-zb-rozliczenie)**

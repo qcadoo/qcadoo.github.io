@@ -33,4 +33,13 @@ i ustaw w polu **Widoczne** wartość **zlecenia produkcyjne**.
 <br/>
 <br/>
 
+Wolisz obejrzeć, niż czytać? Przygotowaliśmy dla Ciebie wideoinstrukcję.
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/Hx3BoYFXgJA" title="Szybki start qcadoo MES - krok 1. parametry" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+<br/>
+
 **Krok 2/13: [Zdefiniuj kalendarze](/02_start-zb-kalendarz)**

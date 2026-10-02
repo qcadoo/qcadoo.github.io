@@ -28,6 +28,15 @@ Dodatkowe dane są opcjonalne. Jeśli natomiast pracownik zawsze pracuje w jedny
 
 Ale zanim struktura zakładu - przejdźmy do **definiowania magazynów**.
 
+<br/>
+<br/>
+
+Obejrzyj film, by podsuwować powyższe informacje:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/Vocsz3xVgZE" title="Szybki start qcadoo MES - krok 3. pracownicy" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 <br/>
 <br/>

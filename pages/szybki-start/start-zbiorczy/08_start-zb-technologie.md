@@ -80,6 +80,15 @@ Teraz możesz już zlecać produkcję.
 <br/>
 <br/>
 
+Jeśli materiały wideo lepiej do Ciebie trafiają, zerknij tutaj:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/hm3n5oBySNs" title="Szybki start qcadoo MES - krok 8. technologia" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+<br/>
+
 **Krok 9/13: [Zleć produkcję](/09_start-zb-zlecenia)**
 
 
