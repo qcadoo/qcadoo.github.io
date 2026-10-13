@@ -286,6 +286,8 @@ Jeśli wytwarzasz produkty z oznaczeniem partii i interesuje Cię traceability (
 
 Dla wytworzonej partii produktu możesz ponadto podać **datę ważności**.
 
+Z tego poziomu, klikając przycisk {% include inline_image.html file="przyciskWydrukujEtykietePartii.png" alt="Wydrukuj etykietę partii" %}, wydrukujesz etykietę, którą okleisz produkt. Etykieta jest o wymiarach 30x40mm i zawiera w kodzie kreskowym numer partii.
+
 
 ---
 

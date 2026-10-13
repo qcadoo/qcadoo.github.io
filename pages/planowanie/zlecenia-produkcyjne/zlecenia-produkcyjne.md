@@ -170,7 +170,9 @@ Kalkulacja czasochłonności może też wyliczyć daty we wszystkich powiązanyc
 
 {% include callout.html content="Możliwe jest zapisanie zlecenia produkcyjnego bez podania dat rozpoczęcia i zakończenia zlecenia, jednak bez wprowadzenia tych danych jego zaakceptowanie, czy rozpoczęcie jest niemożliwe (kliknij po więcej o: [Stanach i statusach zleceń](/stany-i-statusy-zlecen))." type="warning" %} 
 
-Alternatywą do wyliczenia czasu przez czasochłonność jest rozplanowanie **[produkcji na zmianę](/produkcja-na-zmiane)**, a przez to wyliczenie daty zakończenia zlecenia. Natomiast jeśli zdecydowałeś się na raportowanie z dokładnością do operacji, możesz skorzystać z **[planowania na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika)**.
+Alternatywą do wyliczenia czasu przez czasochłonność jest rozplanowanie **[produkcji na zmianę](/produkcja-na-zmiane)**, a przez to wyliczenie daty zakończenia zlecenia. 
+
+Kolejnym sposobem na wyliczenie czasu trwania zlecenia, jest stworzenie harmonogramu przez **[plan na linię produkcyjną](/plan-na-linie-produkcyjna)**. Natomiast jeśli zdecydowałeś się na raportowanie z dokładnością do operacji, możesz rozbudować system MES o **APS** i skorzystać z **[planowania na stację roboczą i pracownika](/plan-na-stacje-robocza-i-pracownika)**.
 
 Ponadto pomocnym przy wyznaczaniu dat realizacji będzie **[wykres Gantta](/planowanie-na-liniach)**.
 
@@ -228,11 +230,13 @@ Ze szczegółami działania zapoznasz się w tej [dokumentacji](/zmiana-stanu-za
 
 13. **przycisk Śledzenie partii** - jedno słowo - traceability. Chcesz więcej? Odsyłam do [dokumentacji](/sledzenie-partii-zlecenia).
 
-14. **przycisk Dostępność surowców** - pozwala na analizę stanów magazynowych surowców potrzebnych do produkcji. Sprawdzisz stan na magazynach, z których zaplanowano rozchód, ale też na pozostałych magazynach zakładu - na wypadek, gdyby trzeba było produktu poszukiwać. Możesz z tego miejsca przejść też do listy zasobów na magazynie. Dzięki temu ustalisz szczegóły jak: dostępne partie, lokalizacja (miejsca składowania), data ważności zasobów itp.
+14. **przycisk Etykieta partii** - drukuje etykietę o formacie 30x40 mm, z numerem partii zaszytym w kodzie kreskowym. Etykieta dotyczy partii produktu zleconego, zaplanowanej do wytworzenia w [śledzeniu partii](/sledzenie-partii-zlecenia). Analogiczną etykietę wydrukujesz też z [terminala rejestracji produkcji](/terminal) z zakładki [partia produktu zleconego](/terminal.html#partia-produktu-zleconego).
 
-15. **przycisk Wydania wewnętrzne** - temat wydań wewnętrznych omówiony jest [tutaj](/wydania-wewnetrzne.html). Z tego poziomu możesz zobaczyć wydania utworzone dla danego zlecenia
+15. **przycisk Dostępność surowców** - pozwala na analizę stanów magazynowych surowców potrzebnych do produkcji. Sprawdzisz stan na magazynach, z których zaplanowano rozchód, ale też na pozostałych magazynach zakładu - na wypadek, gdyby trzeba było produktu poszukiwać. Możesz z tego miejsca przejść też do listy zasobów na magazynie. Dzięki temu ustalisz szczegóły jak: dostępne partie, lokalizacja (miejsca składowania), data ważności zasobów itp.
 
-16. **przycisk Pokrycie zapotrzebowania** - umożliwa:
+16. **przycisk Wydania wewnętrzne** - temat wydań wewnętrznych omówiony jest [tutaj](/wydania-wewnetrzne.html). Z tego poziomu możesz zobaczyć wydania utworzone dla danego zlecenia
+
+17. **przycisk Pokrycie zapotrzebowania** - umożliwa:
 - ustalenie jakie surowce i komponenty będą potrzebne do produkcji
 - sprawdzenie, czy w momencie planowanego rozpoczęcia zlecenia produkty będą dostępne na magazynie (funkcjonalność analizuje nie tylko dane zlecenie, ale też inne otwarte zlecenia korzystające z danych produktów)
 - uzyskanie informacji o planowanych dostawach na potrzebne produkty 
@@ -241,7 +245,7 @@ Ze szczegółami działania zapoznasz się w tej [dokumentacji](/zmiana-stanu-za
 - ustalenie stanu magazynowego zamienników
 Po więcej odsyłam do tej [dokumentacji](/pokrycie-zapotrzebowania).
 
-17. **przycisk Zlecenia na komponenty** - jeśli zaplanowane w technologii komponenty chcesz produkować zawsze (niezależnie od tego, czy są na magazynie, czy nie), to do generowania zleceń na komponenty wybierz tą funkcjonalność.
+18. **przycisk Zlecenia na komponenty** - jeśli zaplanowane w technologii komponenty chcesz produkować zawsze (niezależnie od tego, czy są na magazynie, czy nie), to do generowania zleceń na komponenty wybierz tą funkcjonalność.
 
 Ponadto z listy zleceń możesz wygenerować: [zapotrzebowanie materiałowe](/zapotrzebowanie-materialowe) i [karty pracy](/karty-pracy).
 

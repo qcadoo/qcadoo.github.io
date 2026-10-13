@@ -7,6 +7,30 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
 
+<!-- VERSION 3.1.22 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.22</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.22</td>
+          <td>
+          <ul>
+            <li>etykieta partii drukowana ze śledzenia partii w zleceniu i z terminala rejestracji produkcji,</li>
+            <li>funkcja szybkiego wprowadzania cen w dostawie,</li>
+            <li>funkcja szybkiego wprowadzania cen w dokumencie PZ/PW,</li>
+            <li>czas cyklu realizacji zamówienia w liście zamówień sprzedaży,</li>
+            <li>uzupełnienie ceny sprzedaży w pozycji zamówień sprzedaży,</li>
+            <li>poprawne wyliczanie ilości dodatkowej w procesie tworzenia zleceń produkcyjnych do zamówień sprzedaży.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+
 <!-- VERSION 3.1.21 -->
   <details open>
     <summary class="changelog-summary-h3">3.1.21</summary><br>
@@ -59,7 +83,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.19 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.19</summary><br>
     <table class="changelog-table" border>
         <tr>
