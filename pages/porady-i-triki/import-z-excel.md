@@ -49,4 +49,5 @@ Jeśli natomiast komunikat jest czerwony, to oznacza, że coś jest nie tak. Wkr
 
 Popraw dane i zaimportuj ponownie.
 
+{% include callout.html content="Jeśli masz bardzo duży plik do zaimportowania, lepiej będzie podzielić go na kilka mniejszych. Najlepiej, by jednorazowy import nie przekraczał 500 wierszy." type="warning" %}
 

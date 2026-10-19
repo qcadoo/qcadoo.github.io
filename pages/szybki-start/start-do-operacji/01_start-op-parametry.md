@@ -34,4 +34,13 @@ i ustaw w polu **Widoczne** wartość **zadania operacyjne**.
 <br/>
 <br/>
 
+Wolisz obejrzeć, niż czytać? Przygotowaliśmy dla Ciebie wideoinstrukcję.
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/P3QvV0ZfZwk" title="Szybki start qcadoo MES - krok 1. parametry" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+<br/>
+
 **Krok 2/13: [Zdefiniuj kalendarze](/02_start-op-kalendarz)**

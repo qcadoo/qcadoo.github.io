@@ -18,4 +18,14 @@ Zlecenie dodane. Jednak aby było ono gotowe do przekazania na produkcję, do ka
 <br/>
 <br/>
 
+Opis tworzenia zadań został przedstawiony też na filmie:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/0lB1z7yIWo4" title="Szybki start qcadoo MES - krok 9. zlecenia i zadania" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+<br/>
+<br/>
+
 **Krok 10/13: [Zaplanuj produkcję](/10_start-op-plany)**

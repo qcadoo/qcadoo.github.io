@@ -50,7 +50,7 @@ Podaj koniecznie:
 - **ilość zamówioną**.
 
 Ponadto możesz wprowadzić:
-- **cenę sprzedaży** - zostanie ona przekazana na tworzony dokument WZ,
+- **cenę sprzedaży** - zostanie ona przekazana na tworzony dokument WZ. Cena sprzedaży może się uzupełnić na podstawie [cennika](/cenniki), poprzez wywołanie funkcji {% include inline_image.html file="przyciskUzupelnijCeny.png" alt="Przycisk Uzupełnij ceny" %}
 - **uwagi**,
 - **datę dostawy**, jeśli obiecany moment realizacji jest różny dla różnych pozycji zamówienia.
 
@@ -77,6 +77,8 @@ Po utworzeniu dokumentu WZ w pozycjach zamówienia sprzedaży zostanie zapisana 
 Z tego poziomu, klikając w przycisk {% include inline_image.html file="przyciskPokazDokumentyWZ.png" alt="Przycisk Pokaż dokumenty WZ" %} przejrzysz wszystkie wystawione dokumenty WZ do tego zamówienia.
 
 {% include lightbox.html file="sprzedazWmsZamowienieWystawioneWZ.png" alt="Wystawione dokumenty do zamówienia" caption="Wystawione dokumenty do zamówienia"%} 
+
+Ponadto w liście zamówień sprzedaży zostanie wyliczony **wskaźnik KPI: czas cyklu realizacji zamówienia**, dzięki któremu dowiesz się ile czasu minęło od wpływu zamówienia do wydania skompletowanej przesyłki.
 
 ## Analiza zamówionych pozycji
 

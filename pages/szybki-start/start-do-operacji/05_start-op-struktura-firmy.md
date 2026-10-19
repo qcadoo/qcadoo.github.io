@@ -77,6 +77,14 @@ Upewnij się, czy dane zostały dobrze wprowadzone klikając przycisk {% include
 
 Gotowe. Już wiadomo, gdzie produkcja może być wykonywana. Lecimy dalej - teraz koniecznie trzeba zdefiniować co będziesz produkować i z jakich materiałów.
 
+<br/>
+<br/>
+
+Instrukcję możesz też obejrzeć:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/Vt2A42-KFiI" title="Szybki start qcadoo MES - krok 5. struktura firmy" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>

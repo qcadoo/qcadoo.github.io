@@ -29,6 +29,18 @@ Po wygenerowaniu rozliczenia warto zerknąć jeszcze w **Analizy > Analiza wynik
 
 Analiza przedstawia sumaryczne dane o kosztach uzyskanych podczas produkcji i zestawia je z normami przyjętymi w technologii. Dzięki temu łatwo wyłuskać wszelkie odchylenia.
 
+<br/>
+<br/>
+
+I na koniec film o rozliczeniu produkcji:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/uVHeWXJ0_gE" title="Szybki start qcadoo MES - krok 14. rozliczenie produkcji" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+<br/>
+
 **Gratulacje!!! Dotarłeś do końca instrukcji SZYBKI START! Jesteś gotowy do samodzielnej pracy w qcadoo i do odkrywania kolejnych funkcjonalności, które dla Ciebie przygotowaliśmy.**
 
 

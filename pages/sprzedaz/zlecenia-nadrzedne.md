@@ -34,6 +34,10 @@ Zamówienia sprzedaży mogą być wykorzystywane albo do zaewidencjonowania zam�
 
 Każda z pozycji może mieć zaplanowany inną **datę dostawy**. Może ona zostać przekazana do zlecenia produkcyjnego, do pola termin dostawy. Dodatkowo - termin dostawy może być ustawiony odpowiednio wcześniej. Zerknij w [parametry planowania](/parametry-zlecen.html#zlecenia-produkcji-z-zamówień), by ustawić właściwe działanie.
 
+Dla pozycji zamówienia możesz wprowadzić **cenę sprzedaży**. Ręcznie, albo skorzystać ze zdefiniowanego [cennika](/cenniki). Podpowiadanie ceny z cennika wywoływane jest dla zaznaczonych pozycji funkcją {% include inline_image.html file="przyciskUzupelnijCeny.png" alt="Przycisk Uzupełnij ceny" %}. Pobierzemy cenę danego produktu właściwą na datę dostawę pozycji lub, jeśli ta jest niewypełniona, na podstawie daty utworzenia zamówienia.
+
+**Kategoria zlecenia** wypełniona na tym etapie zostanie przekazana do tworzonego do zamówienia zlecenia, funkcją **Utwórz wiele zleceń produkcyjnych**.
+
 Zamówiona pozycja może być opisana dodatkowo atrybutami. Dzięki temu możesz zapisać dodatkowe informacje uzyskiwane od klienta, które pozwolą na prawidłową realizację. W tym celu:
 - zdefiniuj atrybuty zasobu zgodnie z [tą dokumentacją](/atrybuty),
 - przejdź do zakładki **Atrybuty zasobu** kliknij przycisk {% include inline_image.html file="przyciskNowyMaly.png" alt="Przycisk Nowy" %} **Nowy**, wybierz atrybut i zostaw jego wartość.

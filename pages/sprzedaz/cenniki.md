@@ -28,4 +28,5 @@ Aby zapisać, kliknij przycisk {% include inline_image.html file="przyciskZapisz
 <u>I jeszcze kilka ważnych informacji</u>:
 - w danym dniu może istnieć tylko 1 cena dla danego produktu lub kategorii produktów o danych wartościach atrybutów. Dodanie kolejnej ceny spowoduje zamknięcie poprzedniej ceny datą **obowiązuje do**. 
 - usunąć możesz tylko najświeższą cenę, tę, dla której nie jest określona data **obowiązuje do**.
-- jeśli interesuje Cię mechanizm podpowiadania cen np. w zamówieniu sprzedaży, napisz do nas, a przygotujemy dla Ciebie odpowiednie rozwiązanie.
+- zdefiniowane ceny zostaną zaciągnięte do zamówienia sprzedaży, poprzez wywołanie funkcji {% include inline_image.html file="przyciskUzupelnijCeny.png" alt="Przycisk Uzupełnij ceny" %}. Pobieramy cenę danego produktu właściwą na dany dzień. Czyli najprostsza możliwa ścieżka
+- jeśli interesuje Cię bardziej złożony mechanizm podpowiadania cen np. w zamówieniu sprzedaży, napisz do nas, a przygotujemy dla Ciebie odpowiednie rozwiązanie.

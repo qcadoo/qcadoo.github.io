@@ -101,7 +101,7 @@ i dla każdej pozycji wskaż **datę ważności** (jeśli produkt ma zaznaczony 
 - **partia** - możesz wskazać z listy zdefiniowanych partii tą, która została Ci dostarczona. Partia będzie wymagana, jeśli [produkt będzie miał zaznaczony parametr](/produkty.html#8-zakładka-partie) 'Ewidencja partii'
 - **numer partii** - jeśli nie znalazłeś na liście zdefiniowanych partii właściwej, wpisz tutaj numer, a założymy ją dla Ciebie w genealogii i podepniemy do dostarczanego produktu. 
 - **ilość odebrana** - podpowiemy Ci ilość pozostałą do odebrania. Sprawdź, czy pokrywa się z ilością, którą chcesz odebrać i ewentualnie nanieś zmiany,
-- **cena** - uzupełnimy cenę, którą podałeś na etapie zamawiania. Jeśli cena ostateczna różni się - zaktualizuj ją,
+- **cena** - uzupełnimy cenę, którą podałeś na etapie zamawiania. Jeśli cena ostateczna różni się - zaktualizuj ją. Jeśli ceny poznałeś dopiero po dostarczeniu, możesz skorzystać z funkcji szybkiego wprowadzania, opisanej poniżej (przycisk {% include inline_image.html file="przyciskWprowadzCeny.png" alt="Przycisk Wprowadz ceny" %})
 - **miejsce składowania** - jeśli chcesz możesz podać lokalizację, w której produkt będzie składowany.
 
 Ponadto, jeśli konieczne jest przeprowadzenie kontroli jakości, pojawia się obszar, w którym dostępne są:
@@ -114,9 +114,6 @@ Po uzupełnieniu danych zapisz je używając przycisku {% include inline_image.h
 
 {% include callout.html content="Utworzona kontrola jakości ma status W trakcie. Podczas odbioru dostawy kontrola jakości zostanie zakończona" type="warning" %}
 
-
-
-
 ---
 
 Jeśli <span style="color:red"> *ewidencjonujesz produkty z dokładnością do partii*</span>  koniecznie podaj jakiej partii produkty zostały dostarczone. W tym celu przejdź do zakładki **Dane szczegółowe** w szczegółach odbieranego produktu. 
@@ -128,6 +125,7 @@ Podobnie jak na etapie wprowadzania listy zamawianych produktów, tu też możes
 2. poprzez podanie numeru w polu **Numer partii**. Na tej podstawie założymy partię w genealogii i podepniemy ją w polu **Partia**
 
 Jeśli produkt miał podaną partię na etapie zamawiania, zostanie ona z automatu zaczytana do produktów odbieranych.
+
 
 ---
 
@@ -142,6 +140,20 @@ Odebranie dostawy utworzy w magazynie [zasoby](/zasoby). Każdy z zasobów może
 Pamiętaj, że możesz wybierać tylko wśród atrybutów, które opisują zasób. I określając wartości musisz spełnić wymogi nadane w definicj atrybutu - np. że musi to być wartość liczbowa o podanej precyzji, albo, że musi być to wartość wybrana z listy.
 
 Przypisane w ten sposób atrybuty zostaną przekazane do [dokumentu](/dokumenty) PZ, a z niego do [zasobu](/zasoby). Zasoby pod kątem atrybutów możesz analizować za pomocą listy [Atrybutów zasobów](/atrybuty-zasobow).
+
+---
+
+### Szybkie wprowadzanie cen
+
+Dostarczone produkty warto uzupełnić o ceny zakupu. Jeśli nie znałeś ich na etapie zamawiania, nie będą automatycznie wypełnione. Musisz albo wprowadzić wartości w każdej pozycji z osobna, albo skorzystać z funkcji **Wprowadź ceny**. Zaznacz dostarczone produkty i kliknij przycisk {% include inline_image.html file="przyciskWprowadzCeny.png" alt="Przycisk Wprowadz ceny" %}. 
+
+{% include lightbox.html file="zaopatrzenieDostawyWprowadzanieCen.png" alt="Funkcja szybkiego wprowadzania cen w dostawie" caption="Funkcja szybkiego wprowadzania cen w dostawie" %}
+
+Wpisuj kolejne ceny, przechodząc między komórkami TABem na klawiaturze. Zatwierdź dane przyciskiem {% include inline_image.html file="przyciskZapiszCenyWPozycjach.png" alt="Przycisk Zatwierdź ceny w pozycjach" %}
+
+{% include callout.html content="Funkcja będzie dobrym wsparciem w pracy z wykorzystaniem aplikacji [qcadoo WMS mobile](/wms-wprowadzenie). Pracownik w aplikacji przyjmie dostawę, wypełniając niezbędne dane pod kątem magazynu (jak miejsce składowania, partie, daty ważności). A pracownik biurowy, przed odbiorem, uzupełni ją o ceny z faktury." type="warning" %}
+
+
 
 ---
 

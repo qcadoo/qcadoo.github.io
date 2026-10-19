@@ -214,6 +214,18 @@ Potwierdzenie rejestracji w terminalu utworzy [rekord rejestracji](/rejestracja-
 Jeśli prowadzisz ewidencję surowców z dokładnością do partii (bo zależy Ci na traceability) to bardzo ważne jest aby pracownicy raportowali zużycie surowców wraz z informacją o ich partii. Dla produktu w tabeli rozwiń menu kontekstowe i wybierz przycisk {% include inline_image.html file="przyciskDodajPartie.png" alt="Dodaj partię" %} **Dodaj partię** i wskaż tą właściwą, z dostępnej listy w genealogii. Jeden surowiec może mieć podanych wiele partii - ilość użyta produktu będzie sumą podanych dla nich ilości.
 Partie zostaną przekazane do tworzonego rekordu rejestracji produkcji, a z niego do założonych dokumentów RW (gdzie zostaną rozchodowane zasoby z tych partii). 
 
+---
+
+#### Domyślne miejsce składowania surowca
+
+{% include lightbox.html file="terminalProduktyWejscioweMiejsceSklad.png" alt="Domyślne miejsce składowania produktu wejściowego" caption="Domyślne miejsce składowania produktu wejściowego" class="float-right"  %}
+
+Jeśli pracownik na produkcji samodzielnie musi naszykować sobie materiały do produkcji, terminal będzie źródłem informacji o ich potencjalnej lokalizacji. Będąc w tabeli produktów wejściowych, uruchom dla produktu menu kontekstowe i odczytaj **domyślne miejsce składowania**.
+
+Jeśli pod zlecenie będzie zarezerwowany zasób, to klikając w ikonę znaku zapytania przy numerze zasobu, odczytasz dokładne wskazania gdzie szukać tego materiału, którego masz użyć. Jeśli rezerwacji nie ma, pamiętaj, że domyślne miejsce składowania, nie musi być ostatecznym i jedynym, w którym dany produkt został ulokowany. Ale może stanowić wyznacznik, z którego skorzystasz.
+
+
+
 
 ---
 

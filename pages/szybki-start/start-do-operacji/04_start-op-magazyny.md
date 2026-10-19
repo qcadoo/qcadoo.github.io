@@ -17,6 +17,14 @@ Dla magazynu możesz wyodrębnić miejsca składowania - jednak nie jest to niez
 
 **Magazyny gotowe.** Przed nami kolejny krok, już bardziej rozbudowany - trzeba wprowadzić miejsca wykonywania produkcji: zakład, działy i stacje robocze.
 
+<br/>
+<br/>
+
+Instrukcję możesz też obejrzeć:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/b26WMCvLyrU" title="Szybki start qcadoo MES - krok 4. magazyn" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>

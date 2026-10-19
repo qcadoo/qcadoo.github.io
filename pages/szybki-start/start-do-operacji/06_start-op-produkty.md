@@ -26,6 +26,14 @@ W produkcie możesz uzupełnić też wiele dodatkowych informacji, jak model, as
 
 Po wprowadzeniu produktów, możesz przejść do definiowania wykonywanych operacji. I to już będzie ostatni krok przed najważniejszym punktem, czyli technologią.
 
+<br/>
+<br/>
+
+Instrukcję możesz też obejrzeć:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/KXZ7upJUT_8" title="Szybki start qcadoo MES - krok 6. produkty" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <br/>
 <br/>

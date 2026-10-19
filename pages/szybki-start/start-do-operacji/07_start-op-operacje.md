@@ -41,4 +41,13 @@ Posiadasz już wszystkie dane, by móc opisać proces produkcji za pomocą techn
 <br/>
 <br/>
 
+Film przybliży definiowanie operacji w qcadoo:
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/1BNeOB0i7dY" title="Szybki start qcadoo MES - krok 7. operacje" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+<br/>
+
 **Krok 8/13: [Utwórz technologie](/08_start-op-technologie)**
