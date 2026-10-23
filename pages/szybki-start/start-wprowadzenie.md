@@ -13,9 +13,18 @@ permalink: start-wprowadzenie.html
 
 Aby ułatwić Ci uruchomienie systemu i zapewnić możliwie szybkie rozpoczęcie prac, przygotowaliśmy kilkunastokrokowy tutorial, tzw. **szybki start**. Pomożemy Ci wprowadzić niezbędne dane, we właściwej kolejności. Mamy nadzieję, że poczujesz się prowadzony za rękę. **Gotowy?**
 
+Zacznij od **kroku zero**. Masz już wystawioną swoją instancję qcadoo i dane do logowania. Obejrzyć poniższy film i wykonaj kroki niezbędne na początek.
 <br/>
 
-<span style="font-size:1.2em;">Na początek musisz podjąć bardzo ważną decyzję. qcadoo MES wspiera w realizacji dwóch podejść do zarządzania produkcją w firmach. Musisz zdecydować się na jedno z nich. W zależności od obranego kierunku - przejdź dedykowany zestaw kroków.</span>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/9m7WV64Ge5w" title="Szybki start qcadoo MES - krok 0. pierwsze kroki w systemie" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+<br/>
+
+
+<span style="font-size:1.2em;">Teraz musisz podjąć bardzo ważną decyzję. qcadoo MES wspiera w realizacji dwóch podejść do zarządzania produkcją w firmach. Musisz zdecydować się na jedno z nich. W zależności od obranego kierunku - przejdź dedykowany zestaw kroków.</span>
 
 <br/>
 
