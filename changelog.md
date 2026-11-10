@@ -3,9 +3,61 @@ title: "Changelog"
 permalink: changelog.html
 ---
 
+<!-- VERSION 3.2 -->
+<details open>
+  <summary><h2 class="changelog-main-version">Changelog - 3.2</h2></summary>
+
+<!-- VERSION 3.2.0 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.2.0</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.2.0</td>
+          <td>
+          <ul>
+            <li>lista technologii - kolumna Utworzona przez,</li>
+            <li>zamówienia sprzedaży - sumowanie po ilości wydanej,</li>
+            <li>podpowiadanie daty wysyłki w dokumencie magazynowym,</li>
+            <li>dostępność produktów zużywanych pod zadanie operacyjne w terminalu,</li>
+            <li>zasoby - poprawa przeliczania jednostek,</li>
+            <li>informacja o miejscu wysokiego składowania, z którego trzeba pobrać produkt, na wydruku dyspozycji przesunięcia.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+</details>
+
 <!-- VERSION 3.1 -->
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.1</h2></summary>
+
+<!-- VERSION 3.1.23 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.1.23</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.1.23</td>
+          <td>
+          <ul>
+            <li>kategoria zlecenia w pozycji zamówienia sprzedaży,</li>
+            <li>aktywowanie ustawień zintegrowanego magazynu,</li>
+            <li>domyślne miejsce składowania surowca w terminalu,</li>
+            <li>kolumna Partia produktu zleconego,</li>
+            <li>terminal rejestracji produkcji - dodanie partii surowca wprost w linii produktu wejściowego.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
 
 <!-- VERSION 3.1.22 -->
   <details open>
@@ -32,7 +84,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.21 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.21</summary><br>
     <table class="changelog-table" border>
         <tr>
@@ -55,7 +107,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.20 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.20</summary><br>
     <table class="changelog-table" border>
         <tr>
