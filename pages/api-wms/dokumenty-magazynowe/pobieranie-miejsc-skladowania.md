@@ -7,7 +7,7 @@ permalink: api-wms-pobieranie-miejsc-skladowania.html
 
 ### Informacje
 
-Za pomocą tej metody pobierzesz miejsca składowani spełniające zadane parametry.
+Za pomocą tej metody pobierzesz miejsca składowania spełniające zadane parametry.
 
 **Moduł integracyjny:** urcMaterialFlowResources
 
@@ -33,4 +33,4 @@ Komunikat pozwala na pobranie z qcadoo listy miejsc składowania, wraz z danymi 
 
 Parametry są następujące:
 - number - numer lub jego część, wielkość liter nie ma znaczenia
-- location - numer magazynu lub jejgo część, wielkość liter nie ma znaczenia
+- location - numer magazynu lub jego część, wielkość liter nie ma znaczenia

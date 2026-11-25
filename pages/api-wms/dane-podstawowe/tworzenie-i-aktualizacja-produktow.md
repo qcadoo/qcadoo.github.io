@@ -37,7 +37,7 @@ number | tekst(255)   |      T      |     T      | numer
 externalID | tekst(255)        |      N      |     T      | id/numer w systemie zewnętrznym
 description | tekst(2048)  |      N      |     N      | opis
 ean | tekst(255)        |      N      |     T     | ean
-unit | tekst(255)   |      T      |     N      | jednostka ze słownika
+unit | tekst(255)   |      T      |     N      | jednostka ze słownika. Jeśli w parametrach qcadoo ustawiona jest domyślna jednostka, wypełnienie można pominąć
 category | tekst(255)   |      N      |     N      | kategoria produktu ze słownika
 globalTypeOfMaterial | wyliczeniowy |      N      |     N      | globalny typ materiału. Możliwe wartości to: <br/>- 01component - surowiec, <br/>- 02intermediate - półprodukt, <br/>- 03finalProduct - produkt finalny, <br/>- 04waste - odpad, <br/>- 05package - opakowanie
 size | tekst(255)   |      N      |     N      | numer rozmiaru

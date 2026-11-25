@@ -84,7 +84,7 @@ product | tekst(255)       |      T      |     N      | numer produktu. Produkt 
 document | tekst(255)       |      T      |     N      | numer dokumentu. Dokument musi istnieć w qcadoo
 quantity | liczba(14,5) >0  |      T      |     N      | ilość
 price | liczba(12,5) >=0 |      N      |     N      | cena
-sellingPrice | liczba(12,5) >=0 |      N      |     N      | cena sprzedaży
+sellingPrice | liczba(12,5) >=0 |      N      |     N      | cena sprzedaży, uzupełniona zostanie tylko w dokumencie WZ, RW lub MM
 expirationDate | data |      N      |     N      | data ważności
 batchId | liczba całkowita |      N      |     N      | id partii
 storageLocationId | liczba całkowita |      N      |     N      | id miejsca składowania

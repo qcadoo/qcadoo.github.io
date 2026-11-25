@@ -7,6 +7,28 @@ permalink: changelog.html
 <details open>
   <summary><h2 class="changelog-main-version">Changelog - 3.2</h2></summary>
 
+<!-- VERSION 3.2.1 -->
+  <details open>
+    <summary class="changelog-summary-h3">3.2.1</summary><br>
+    <table class="changelog-table" border>
+        <tr>
+          <th>Wersja</th>
+          <th>Funkcjonalność</th>
+        </tr>
+        <tr>
+          <td>3.2.1</td>
+          <td>
+          <ul>
+            <li>parametr magazynu - walidacja na nazwę dokumentu,</li>
+            <li>prawidłowa ilość zlecona w wygenerowanym zleceniu na komponenty,</li>
+            <li>dostępność produktów zużywanych w terminalu dla zadań wskazanych przez zeskanowanie kodu.</li>
+          </ul>
+        </td>
+        </tr>
+    </table>
+  </details>
+</details>
+
 <!-- VERSION 3.2.0 -->
   <details open>
     <summary class="changelog-summary-h3">3.2.0</summary><br>
@@ -60,7 +82,7 @@ permalink: changelog.html
   </details>
 
 <!-- VERSION 3.1.22 -->
-  <details open>
+  <details>
     <summary class="changelog-summary-h3">3.1.22</summary><br>
     <table class="changelog-table" border>
         <tr>

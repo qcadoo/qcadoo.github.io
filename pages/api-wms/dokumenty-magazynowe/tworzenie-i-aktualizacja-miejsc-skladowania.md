@@ -44,7 +44,7 @@ highStorageLocation | true/false |      N      |     N      | miejsce wysokiego 
 ~~~~~~~~
 
 ### Działanie
-Metoda tworzy w systemie qcadoo miejsce składowania, o podanych danych. Podczas dodawania przeprowadzane są wszystkie walidacje dla tego obiektu.
+Metoda tworzy w systemie qcadoo miejsce składowania o podanych danych. Podczas dodawania przeprowadzane są wszystkie walidacje dla tego obiektu.
 
 ---
 
