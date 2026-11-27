@@ -1548,6 +1548,10 @@ entries:
                 output: web
                 url: /api-wms-tworzenie-i-aktualizacja-firm.html
 
+              - title: Pobieranie firm
+                output: web
+                url: /api-wms-pobieranie-firm.html
+
               - title: Tworzenie i aktualizacja produktów
                 output: web
                 url: /api-wms-tworzenie-i-aktualizacja-produktow.html
